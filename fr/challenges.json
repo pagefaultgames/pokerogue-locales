@@ -33,5 +33,23 @@
     "desc": "Les affinités de la table des types sont inversées et plus aucun type n’a d’immunité.\nDésactive les succès des autres challenges.",
     "value.0": "Non",
     "value.1": "Oui"
+  },
+  "noAutoHeal": {
+    "name": "Aucun soin d’étape",
+    "desc": "Désactive le soin d’étape se produisant normalement toutes les 10 vagues.",
+    "value.0": "Non",
+    "value.1": "Oui"
+  },
+  "hardcore": {
+    "name": "Aucune résurrection",
+    "desc": "Impossible de ranimer tout Pokémon tombé K.O. en dehors du soin d’étape toutes les 10 vagues.",
+    "value.0": "Non",
+    "value.1": "Oui"
+  },
+  "limitedCatch": {
+    "name": "Captures limitées",
+    "desc": "Seul le premier Pokémon rencontré à l’arrivée dans un biome peut être ajouté à votre équipe.",
+    "value.0": "Non",
+    "value.1": "Oui"
   }
 }
