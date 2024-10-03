@@ -3,12 +3,12 @@
   "speaker": "Rich Boy",
   "intro_dialogue": "Good day to you.$I can't help but notice that your\n{{strongestPokemon}} looks positively divine!$I've always wanted to have a Pokémon like that!$I'd pay you handsomely,\nand also give you this old bauble!",
   "title": "An Offer You Can't Refuse",
-  "description": "You're being offered a @[TOOLTIP_TITLE]{Shiny Charm} and {{price, money}} for your {{strongestPokemon}}!\n\nIt's an extremely good deal, but can you really bear to part with such a strong team member?",
+  "description": "You're being offered a@[TOOLTIP_TITLE]{ {{itemName}}} and {{price, money}} for your {{strongestPokemon}}!\n\nIt's an extremely good deal, but can you really bear to part with such a strong team member?",
   "query": "What will you do?",
   "option": {
     "1": {
       "label": "Accept the Deal",
-      "tooltip": "(-) Lose {{strongestPokemon}}\n(+) Gain a @[TOOLTIP_TITLE]{Shiny Charm}\n(+) Gain {{price, money}}",
+      "tooltip": "(-) Lose {{strongestPokemon}}\n(+) Gain a@[TOOLTIP_TITLE]{ {{itemName}}}\n(+) Gain {{price, money}}",
       "selected": "Wonderful!@d{32} Come along, {{strongestPokemon}}!$It's time to show you off to everyone at the yacht club!$They'll be so jealous!"
     },
     "2": {
