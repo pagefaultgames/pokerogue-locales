@@ -6,21 +6,21 @@
   "option": {
     "1": {
       "label": "Chercher la source",
-      "tooltip": "(?) Trouver la source\n(-) Combat difficile",
+      "tooltip": "(?) Trouver la source\n(-) Combat difficile\n(+) Gain d’un objet tenu",
       "selected": "Vous pénétrez tant bien que mal dans la tempête et y trouvez deux {{volcaronaName}} en pleine parade nuptiale !$Ils n’apprécient guère d’avoir été interrompus\net vous attaquent !"
     },
     "2": {
       "label": "S’accroupir",
-      "tooltip": "(-) Subir la météo",
+      "tooltip": "(-) Subir la météo\n(?) Affecte le talent d’un Pokémon",
       "selected": "Les effets météorologiques causent d’importantes blessures alors que vous cherchez un abri !$Votre équipe perd 20% de ses PV totaux !",
-      "target_burned": "Votre {{burnedPokemon}} est également brulé !"
+      "target_burned": "Votre {{burnedPokemon}} est également brulé !$À cause des conditions météo, {{burnedPokemon}}\nvoit également son talent modifié en {{abilityName}} !"
     },
     "3": {
-      "label": "Un type Feu à l’aide",
-      "tooltip": "(+) Met fin à la météo\n(+) Gain d’un Charbon",
-      "disabled_tooltip": "Vous avez besoin d’au moins 2 Pokémon Feu pour choisir cette option",
-      "selected": "Vos {{option3PrimaryName}} et {{option3SecondaryName}} vous guident et tombez sur deux {{volcaronaName}} en pleine parade nuptiale !$Heureusement, vos Pokémon parviennent à les calmer, et passent leur chemin sans causer de problèmes."
+      "label": "Type résistant au Feu à l’aide",
+      "tooltip": "(+) Met fin à la météo\n(+) Gain d’un objet tenu",
+      "disabled_tooltip": "Vous avez besoin d’au moins un Pokémon Feu ou avec un certain talent pour choisir cette option",
+      "selected": "Votre {{option3PrimaryName}} vous guide et tombez sur deux {{volcaronaName}} en pleine parade nuptiale !$Heureusement, votre Pokémon parvient à les calmer et passent leur chemin sans causer de problèmes."
     }
   },
-  "found_item": "Alors que la météo se calme, votre {{leadPokemon}} repère quelque chose au sol.$@s{item_fanfare}{{leadPokemon}} obtient\nun Charobn !"
+  "found_item": "Alors que la météo se calme, votre {{leadPokemon}} repère quelque chose au sol.$@s{item_fanfare}{{leadPokemon}} obtient {{itemName}} !"
 }
