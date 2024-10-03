@@ -16,6 +16,11 @@ This repository contains the locales files for the [PokéRogue](https://github.c
 - zh-CN - Chinese (simplified)
 - zh-TW - Chinese (traditional)
 
+## Pending languages
+- da - Danish
+- he - Hebrew
+- tr - Turkish
+
 ## How to Contribute
 
 Reach out to `Head of Translation` on our [Discord](https://discord.gg/x6mnWhvc).
