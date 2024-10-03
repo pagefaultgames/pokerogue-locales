@@ -16,11 +16,13 @@
       "10": "Não baixe a guarda, ou você pode acabar chorando quando uma criança te vencer.",
       "11": "Eu criei meus Pokémon com muito cuidado. Você não tem permissão para machucá-los!",
       "12": "Que bom que você chegou! Não vai ser fácil daqui pra frente.",
+      "12_female": "Que bom que você chegou! Não vai ser fácil daqui pra frente.",
       "13": "As batalhas continuam para sempre! Bem-vinda ao mundo sem fim!",
       "13_female": "As batalhas continuam para sempre! Bem-vindo ao mundo sem fim!"
     },
     "victory": {
       "1": "Uau! Você é forte!",
+      "1_female": "Uau! Você é forte!",
       "2": "Eu não tive chance, né?",
       "3": "Vou te encontrar de novo quando for mais velho e te vencer!",
       "4": "Ugh. Não tenho mais Pokémon.",
@@ -53,10 +55,12 @@
     "victory": {
       "1": "Isso foi impressionante! Tenho muito a aprender.",
       "2": "Não pensei que você me venceria tão fácil…",
+      "2_female": "Não pensei que você me venceria tão fácil…",
       "3": "Espero que possamos ter uma revanche um dia.",
       "4": "Isso foi incrivelmente divertido! Você me esgotou totalmente…",
       "5": "Você realmente me ensinou uma lição! Você é incrível!",
       "6": "Sério, eu perdi. Isso é, tipo, seriamente deprimente, mas você foi seriamente legal.",
+      "6_female": "Sério, eu perdi. Isso é, tipo, deprimente pra caramba, mas você foi legal pra caramba.",
       "7": "Não preciso de memórias como essa. Deletando memória…",
       "8": "Ei! Eu te disse para pegar leve comigo! Mesmo assim, você é legal quando fica sério.",
       "8_female": "Ei! Eu te disse para pegar leve comigo! Mesmo assim, você é legal quando fica séria.",
@@ -150,6 +154,7 @@
   "ace_trainer": {
     "encounter": {
       "1": "Você parece bastante confiante.",
+      "1_female": "Você parece bastante confiante.",
       "2": "Seus Pokémon… Mostre-os para mim…",
       "3": "Como sou um Treinador Ás, as pessoas acham que sou forte.",
       "4": "Você sabe o que é preciso para ser um Treinador Ás?"
@@ -309,6 +314,28 @@
     },
     "victory": {
       "1": "Que estranho… Como isso pode ser… Não deveria ter sido superado."
+    }
+  },
+  "snow_worker": {
+    "encounter": {
+      "1": "Quando estiver frio, use muitas roupas!\n$Só humanos conseguiriam sacar uma solução tão inteligente!"
+    },
+    "victory": {
+      "1": "O jeito que sofremos em vão no final também mostra como os humanos são inteligentes!"
+    },
+    "defeat": {
+      "1": "Vou te dizer algo inteligente. Se você usar um movimento do tipo Fogo em um Pokémon congelado, o gelo vai derreter!"
+    }
+  },
+  "snow_worker_double": {
+    "encounter": {
+      "1": "...\n$...P-pronto pra b-batalha?\n"
+    },
+    "victory": {
+      "1": "...\n$...Eu tô tr-tremendo!"
+    },
+    "defeat": {
+      "1": "...\n$...V-vou te falar!\n...Aq-aqui tá muito frio."
     }
   },
   "hex_maniac": {
@@ -471,9 +498,9 @@
   "shelly": {
     "encounter": {
       "1": "Ahahahaha! Você vai se meter nos assuntos da Equipe Aqua? Você é absolutamente destemido, simplesmente ignorante ou ambos! Você é tão fofo que chega a ser nojento! Vou te derrubar",
-      "1_female": "Ahahahaha! Você vai se meter nos assuntos da Equipe Aqua? Você é absolutamente destemida, simplesmente ignorante ou ambos! Você é tão fofa que chega a ser nojenta! Vou te derrubar",
       "2": "O que é isso? Quem é essa criança mimada?",
-      "3": "Relaxe. Seja paciente. Vou te esmagar em breve."
+      "3": "Relaxe. Seja paciente. Vou te esmagar em breve.",
+      "3_female": "Relaxa aí. Seja paciente. Vou te esmagar agorinha."
     },
     "victory": {
       "1": "Ahahahaha! Fomos surpreendidos inesperadamente! Estamos sem opções. Teremos que recuar. Mas esta não é a última vez que você verá a Equipe Aqua! Temos outros planos! Não se esqueça disso!",
@@ -558,8 +585,7 @@
     "victory": {
       "1": "Ghetsis... Eu falhei em minha missão...",
       "2": "O frio é penetrante. Estou tremendo. Estou sofrendo. Ainda assim, triunfei.",
-      "3": "Hm. Você é um treinador talentoso, mas infelizmente não talentoso o suficiente.",
-      "3_female": "Hm. Você é uma treinadora talentosa, mas infelizmente não talentosa o suficiente."
+      "3": "Hm. Você é um treinador talentoso, mas infelizmente não talentoso o suficiente."
     }
   },
   "xerosic": {
@@ -620,6 +646,7 @@
       "1": "Ahn? Eu perdi?!",
       "2": "Não posso acreditar que perdi! Até pulei o almoço por isso.",
       "3": "De jeito nenhum! Você é apenas uma criança!",
+      "3_female": "Impossível! Você é só uma criança!",
       "4": "Urrrgh... Eu deveria ter me escondido em nosso esconderijo imediatamente...",
       "5": "Você me venceu... Você acha que o chefe vai cortar meu salário por isso?"
     }
@@ -677,6 +704,7 @@
     "encounter": {
       "1": "Seus Pokémon não são páreo para a elegância da Equipe Flare.",
       "2": "Espero que você tenha trazido seus óculos de sol, porque as coisas vão ficar brilhantes!",
+      "2_female": "Espero que você tenha trazido seus óculos de sol, porque as coisas vão ficar brilhantes!",
       "3": "A Equipe Flare vai purificar o mundo da imperfeição!",
       "4": "Prepare-se para enfrentar o brilho da Equipe Flare!",
       "5": "A moda é o mais importante para nós!"
@@ -693,6 +721,7 @@
     "encounter": {
       "1": "Eu vou lutar com tudo o que tenho para te eliminar!",
       "2": "Eu não me importo se você é uma criança ou o que. Eu vou te mandar voando se você nos ameaçar!",
+      "2_female": "Eu não me importo se você é uma criança ou o que. Eu vou te mandar voando se você nos ameaçar!",
       "3": "Me mandaram afastar Treinadores, não importa quem sejam!",
       "4": "Eu vou te mostrar o poder do Paraíso Aether!",
       "5": "Agora que você descobriu a escuridão no coração do Paraíso Aether, precisamos que você desapareça convenientemente!"
@@ -709,11 +738,13 @@
     "encounter": {
       "1": "Eu, o Chefe de Ramo Faba, vou te mostrar a dureza do mundo real!",
       "2": "O homem chamado de última linha de defesa do Paraíso Aether vai batalhar com uma mera criança?",
+      "2_female": "O homem chamado de última linha de defesa do Paraíso Aether vai batalhar com uma mera criança?",
       "3": "Eu, Faba, sou o Chefe de Ramo do Paraíso Aether. O único no mundo, eu sou insubstituível."
     },
     "victory": {
       "1": "Aiyee!",
       "2": "C-c-como assim?! Como uma criança...",
+      "2_female": "C-c-como assim?! Como que essa criança...",
       "3": "Isso é por que... Isso é por que eu não consigo gostar de crianças."
     }
   },
@@ -721,9 +752,12 @@
     "encounter": {
       "1": "Nós não somos maus, somos apenas durões!",
       "2": "Quer um pouco de nós? É assim que dizemos olá! Prazer em conhecê-los, otários!",
+      "2_female": "Quer um pouco? É assim que recebemos as pessoas! Prazer em conhecê-los, otários!",
       "3": "Somos só um bando de caras e minas com um grande interesse nos Pokémon dos outros!",
       "4": "Por que você está tentando agir durão quando já somos durões como ossos aqui fora, mano?",
-      "5": "Equipe Skull na área! Não podemos pagar o aluguel! Nos divertimos muito, mas nossa juventude foi desperdiçada!"
+      "4_female": "Por que você está tentando agir durona quando já somos durões como ossos por aqui, mano?",
+      "5": "Equipe Skull na área! Não podemos pagar o aluguel! Nos divertimos muito, mas nossa juventude foi desperdiçada!",
+      "5_female": "Equipe Skull na área! Não podemos pagar o aluguel! Nos divertimos muito, mas nossa juventude foi desperdiçada!"
     },
     "victory": {
       "1": "Ahn? Já acabou?",
@@ -736,11 +770,13 @@
   "plumeria": {
     "encounter": {
       "1": " ...Hmph. Você não parece nada especial para mim.",
+      "1_female": " ...Hmph. Você não parece nada especial para mim.",
       "2": "Esses Capangas gastam muito tempo tentando lidar com crianças como você...",
       "3": "Mexe com qualquer um da Equipe Skull, e eu vou te mostrar o quão séria eu posso ficar."
     },
     "victory": {
       "1": "Aff! Você é bem forte. Tenho que admitir.",
+      "1_female": "Aff! Você é bem forte. Tenho que admitir.",
       "2": "Aff! Você é bem forte. Agora eu entendi por que meus Capangas gastam tanto tempo batalhando com crianças.",
       "3": "Aff! Acho que eu só tenho que aceitar essa derrota."
     }
@@ -749,8 +785,10 @@
     "encounter": {
       "1": "Parece que aqui é o fim da linha para você!",
       "2": "Você é um treinador, não é? Temo que isso não lhe dê o direito de interferir em nosso trabalho.",
+      "2_female": "Você é uma treinadora, não é? Temo que isso não lhe dê o direito de interferir em nosso trabalho.",
       "3": "Sou da Macro Cosmos Seguros! Já tem um seguro de vida?",
       "4": "Te encontrei! Nesse caso, é hora de uma batalha Pokémon!",
+      "4_female": "Te encontrei! Nesse caso, é hora de uma batalha Pokémon!",
       "5": "Ouvir uma bronca da Srta. Oleana é bem pior do que qualquer coisa que você possa fazer!"
     },
     "victory": {
@@ -770,6 +808,7 @@
     "victory": {
       "1": "*suspiro* Eu não consegui vencer... Oleana... você realmente é uma mulher sem esperança.",
       "2": "Aff! Isso é inaceitável... O que eu estava pensando... Qualquer treinador que chega tão longe não seria um fracote...",
+      "2_female": "Aff! Isso é inaceitável... O que eu estava pensando... Qualquer treinador que chega tão longe não seria um fracote...",
       "3": "*suspiro* Eu sou uma Oleana cansada..."
     }
   },
@@ -780,7 +819,8 @@
       "3": "Se você não sair rapidinho, vou ter que me defender. Entendeu?",
       "4": "Desculpe, mas se você não der meia-volta, amigo, vamos ter que te despachar!",
       "4_female": "Desculpe, mas se você não der meia-volta, amiga, vamos ter que te despachar!",
-      "5": "Ótimo. Lá vem mais um qualquer para estragar o meu dia."
+      "5": "Ótimo. Lá vem mais um qualquer para estragar o meu dia.",
+      "5_female": "Ótimo. Lá vem mais um zé ningúem para estragar o meu dia."
     },
     "victory": {
       "1": "Como é que EU estou vendo estrelas?!",
@@ -803,6 +843,7 @@
   "mela": {
     "encounter": {
       "1": "Então você é o idiota que arrumou briga com a Equipe Estrela... Prepare-se para ser destruído.",
+      "1_female": "Então você é a idiota que arrumou briga com a Equipe Estrela... Prepare-se para ser destruída.",
       "2": "Tudo bem, VAMOS LÁ! Vou explodir tudo!"
     },
     "victory": {
@@ -813,6 +854,7 @@
   "atticus": {
     "encounter": {
       "1": "Você tem coragem de mostrar suas garras para a Equipe Estrela. Venha, então, vil criatura!",
+      "1_female": "Você tem coragem de mostrar suas garras para a Equipe Estrela. Venha, então, vil criatura!",
       "2": "Esteja avisado—não te darei misericórdia! Em guarda!"
     },
     "victory": {
@@ -823,7 +865,8 @@
   "ortega": {
     "encounter": {
       "1": "Prometo que serei gentil, então não me culpe quando essa batalha te mandar chorando de volta para casa!",
-      "2": "Vou apagar esse sorriso convencido do seu rosto com certeza! Você vai perder!"
+      "2": "Vou apagar esse sorriso convencido do seu rosto com certeza! Você vai perder!",
+      "2_female": "Vou apagar esse sorriso convencido do seu rosto com certeza! Você vai perder!"
     },
     "victory": {
       "1": "Ugh! Como eu pude PERDER! Que RAIVA!",
@@ -848,7 +891,8 @@
       "1": "QUÊ! Isso não é possível!"
     },
     "defeat": {
-      "1": "Guarde minhas palavras.\nNão ser capaz de medir sua própria força mostra que você ainda é uma criança."
+      "1": "Guarde minhas palavras.\nNão ser capaz de medir sua própria força mostra que você ainda é uma criança.",
+      "1_female": "Guarde minhas palavras. Não ser capaz de medir sua própria força mostra que você ainda é uma criança."
     }
   },
   "rocket_boss_giovanni_2": {
@@ -1078,8 +1122,7 @@
   "stat_trainer_cheryl": {
     "encounter": {
       "1": "Meus Pokémon estavam ansiosos por uma batalha.",
-      "2": "Devo avisá-lo, meus Pokémon podem ser bastante agitados.",
-      "2_female": "Devo avisá-la, meus Pokémon podem ser bastante agitados."
+      "2": "Devo avisá-lo, meus Pokémon podem ser bastante agitados."
     },
     "victory": {
       "1": "Acertar o equilíbrio certo entre ataque e defesa... Não é fácil de fazer.",
@@ -1107,7 +1150,6 @@
   "stat_trainer_mira": {
     "encounter": {
       "1": "Você ficará surpreso com a Mira!",
-      "1_female": "Você ficará surpresa com a Mira!",
       "2": "Mira vai te mostrar que ela não se perde mais!"
     },
     "victory": {
@@ -1143,8 +1185,7 @@
   },
   "winstrates_victoria": {
     "encounter": {
-      "1": "Meu Deus! Você não é jovem?$Deve ser um grande Treinador para derrotar meu marido.$Acho que agora é a minha vez de lutar!",
-      "1_female": "Meu Deus! Você não é jovem?$Deve ser uma grande Treinadora para derrotar meu marido.$Acho que agora é a minha vez de lutar!"
+      "1": "Meu Deus! Você não é jovem?$Deve ser um grande Treinador para derrotar meu marido.$Acho que agora é a minha vez de lutar!"
     },
     "victory": {
       "1": "Uwah! Quão forte você é?!"
@@ -1199,7 +1240,6 @@
     },
     "victory": {
       "1": "Você realmente é forte… Vou admitir que você é habilidoso…",
-      "1_female": "Você realmente é forte… Vou admitir que você é habilidosa…",
       "2": "Hmm… Você sabe que só teve sorte, certo?!",
       "3": "Uau, você é demais! Não acredito que me venceu!"
     },
@@ -1217,14 +1257,12 @@
     },
     "victory": {
       "1": "Whoa! Seu time é de verdade, garoto!",
-      "1_female": "Whoa! Seu time é de verdade, garota!",
       "2": "Uau, você é forte! Até meus truques elétricos perderam para você.",
       "3": "Isso foi uma derrota absolutamente chocante!"
     },
     "defeat": {
       "1": "Oh sim! Quando se trata de Pokémon do tipo Elétrico, sou o número um do mundo!",
       "2": "Hahaha! Foi uma batalha eletrizante, garoto!",
-      "2_female": "Hahaha! Foi uma batalha eletrizante, garota!",
       "3": "Uma batalha de Pokémon é guerra, e eu te mostrei combate em primeira mão!"
     }
   },
@@ -1685,8 +1723,7 @@
       "2": "...Perdemos o controle. Da próxima vez, gostaria de desafiá-lo a uma corrida de escavação de fósseis no subsolo.",
       "2_female": "...Perdemos o controle. Da próxima vez, gostaria de desafiá-la a uma corrida de escavação de fósseis no subsolo.",
       "3": "Com habilidade como a sua, é natural que você vença.",
-      "4": "O-o que?! Não pode ser! Nem isso foi suficiente?",
-      "5": "Eu estraguei tudo."
+      "4": "O-o que?! Não pode ser! Nem isso foi suficiente?"
     },
     "defeat": {
       "1": "Veja? Estou orgulhoso do meu estilo de batalha rochoso!",
