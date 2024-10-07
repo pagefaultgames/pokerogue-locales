@@ -17,7 +17,7 @@ This repository contains the locales files for the [PokéRogue](https://github.c
 
 ## Integrated but disabled language
 
-- ca-ES - Catalan (Reason: not enough translated yet)
+- ca-ES - Catalan (Reason: not yet translated enough)
 
 ## Pending languages
 
