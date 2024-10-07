@@ -1,6 +1,7 @@
 {
   "title": "チャレンジの設定",
   "illegalEvolution": "{{pokemon}}は　このチャレンジで\n対象外の　ポケモンに　なってしまった！",
+  "noneSelected": "選択はありません",
   "singleGeneration": {
     "name": "単一世代",
     "desc": "{{gen}}世代からの ポケモンしか 使えません",
@@ -46,6 +47,9 @@
     "value.1": "オン"
   },
   "limitedCatch": {
-    "name": "限定捕獲"
+    "name": "限定捕獲",
+    "desc": "バイオームで　最初に　遭遇する　ポケモンのみ　手持ちに　加えられる",
+    "value.0": "オフ",
+    "value.1": "オン"
   }
 }
