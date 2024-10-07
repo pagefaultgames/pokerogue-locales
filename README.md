@@ -2,7 +2,9 @@
 
 This repository contains the locales files for the [PokéRogue](https://github.com/pagefaultgames/pokerogue) project.
 
-## Currently supported languages
+### Languages
+
+### Currently supported
 
 - en - English
 - de - German
@@ -15,11 +17,11 @@ This repository contains the locales files for the [PokéRogue](https://github.c
 - zh-CN - Chinese (simplified)
 - zh-TW - Chinese (traditional)
 
-## Integrated but disabled language
+### Integrated but disabled
 
 - ca-ES - Catalan (Reason: not yet translated enough)
 
-## Pending languages
+### Pending
 
 - da - Danish
 - he - Hebrew
