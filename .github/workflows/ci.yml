@@ -1,4 +1,4 @@
-name: Deploy Main
+name: CI
 
 on:
   push:
@@ -9,13 +9,15 @@ on:
       - main
 
 jobs:
+  # Checks if any files end with `messages.json` and fails if any are found
   validate-filenames:
-    if: github.repository == 'pagefaultgames/pokerogue'
     runs-on: ubuntu-latest
     steps:
-      - uses: batista/lint-filenames@v1
-        name: Validate filenames
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Filename Inspector
+        uses: scheduleonce/lint-filenames@v2.0.0
         with:
-          path: './'
-          recursive: true
-          pattern: '^(?!.*messages\.json$).*' # negative lookahead that ensures the string does not end with messages.json.
+          pattern: ^(?!.*messages\.json$).* # Match files that do NOT end with 'messages.json'
+          path: "**/*.json"
