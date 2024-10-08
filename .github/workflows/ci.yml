@@ -1,0 +1,21 @@
+name: Deploy Main
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  validate-filenames:
+    if: github.repository == 'pagefaultgames/pokerogue'
+    runs-on: ubuntu-latest
+    steps:
+      - uuses: batista/lint-filenames@v1
+        name: Validate filenames
+        with:
+          path: './'
+          recursive: true
+          pattern: '^(?!.*messages\.json$).*' # negative lookahead that ensures the string does not end with messages.json.
