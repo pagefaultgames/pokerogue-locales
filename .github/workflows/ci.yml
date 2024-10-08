@@ -13,7 +13,7 @@ jobs:
     if: github.repository == 'pagefaultgames/pokerogue'
     runs-on: ubuntu-latest
     steps:
-      - uuses: batista/lint-filenames@v1
+      - uses: batista/lint-filenames@v1
         name: Validate filenames
         with:
           path: './'
