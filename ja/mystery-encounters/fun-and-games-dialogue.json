@@ -2,12 +2,12 @@
   "intro_dialogue": "さあ　さあ、　皆さま！　新しい　{{wobbuffetName}}叩き　で運試しを　しましょう！",
   "speaker": "興行主",
   "title": "叩きゲーム？　ソーナンス！",
-  "description": "移動遊園地の　ご褒美ゲーム　です！　@[TOOLTIP_TITLE]{３ターン以内で}　{{wobbuffetName}}を　@[TOOLTIP_TITLE]{倒せずに}　@[TOOLTIP_TITLE]{1 HP}に　できるだけ　近づけて、　そして {{wobbuffetName}}が　大きい　カウンターで　ベルを　鳴らします。\n気をつけて！　{{wobbuffetName}}を　倒すと　復活費を　払わなければ　なりません！",
+  "description": "移動遊園地の ご褒美ゲーム です！ @[TOOLTIP_TITLE]{３ターン以内で} {{wobbuffetName}}を @[TOOLTIP_TITLE]{倒せずに} @[TOOLTIP_TITLE]{1 HP}に できるだけ 近づけて、 そして {{wobbuffetName}}が 大きい カウンターで ベルを 鳴らします。\n気をつけて！ {{wobbuffetName}}を 倒すと 復活費を 払わなければ なりません！",
   "query": "試しますか？",
   "option": {
     "1": {
       "label": "ゲームを試す",
-      "tooltip": "(-) {{option1Money, money}}を払う\n(+) {{wobbuffetName}}叩き　を　試して",
+      "tooltip": "(-) {{option1Money, money}}を払う\n(+) {{wobbuffetName}}叩き を 試して",
       "selected": "運試し、　しましょう！"
     },
     "2": {
