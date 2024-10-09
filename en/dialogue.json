@@ -325,9 +325,9 @@
     },
     "defeat": {
       "1": "I'll tell you something clever. If you use a Fire-type move on a Pokémon that is frozen solid, the ice will melt!"
-    } 
-  }, 
-  "snow_worker_double": {   
+    }
+  },
+  "snow_worker_double": {
     "encounter": {
       "1": "...\n$...R-ready to b-battle?"
     },
@@ -815,6 +815,7 @@
   "star_grunt": {
     "encounter": {
       "1": "We're Team Star, kid. We burn so bright, it hurts to look at us!",
+      "1_female": "We're Team Star, kid. We burn so bright, it hurts to look at us!",
       "2": "We'll come at you full force - Hasta la vistaaar! ☆",
       "3": "If you don't clear out real quick-like, I'll hafta come at you in self-defense. You get me?",
       "4": "Sorry, but if you don't turn yourself around here, amigo, we'll have to send you packing!",
@@ -825,6 +826,7 @@
     "victory": {
       "1": "How come I'M the one seeing stars?!",
       "2": "You're scary, kid. If you joined Team Star, you'd be looking down from the top in no time!",
+      "2_female": "You're scary, kid. If you joined Team Star, you'd be looking down from the top in no time!",
       "3": "I defended myself all right... But it wasn't enough!",
       "4": "H-hasta la vistar... ☆",
       "5": "I didn't think grunt work for Team Star newbies would be this much of a chore..."
@@ -855,7 +857,8 @@
     "encounter": {
       "1": "You have some nerve baring your fangs at Team Star. Come, then, villainous wretch!",
       "1_female": "You have some nerve baring your fangs at Team Star. Come, then, villainous wretch!",
-      "2": "Be warned—I shall spare thee no mercy! En garde!"
+      "2": "Be warned—I shall spare thee no mercy! En garde!",
+      "2_female": "Be warned—I shall spare thee no mercy! En garde!"
     },
     "victory": {
       "1": "Forgive me, my friends...",
@@ -1122,7 +1125,8 @@
   "stat_trainer_cheryl": {
     "encounter": {
       "1": "My Pokémon have been itching for a battle.",
-      "2": "I should warn you, my Pokémon can be quite rambunctious."
+      "2": "I should warn you, my Pokémon can be quite rambunctious.",
+      "2_female": "I should warn you, my Pokémon can be quite rambunctious."
     },
     "victory": {
       "1": "Striking the right balance of offense and defense... It's not easy to do.",
@@ -1150,6 +1154,7 @@
   "stat_trainer_mira": {
     "encounter": {
       "1": "You will be shocked by Mira!",
+      "1_female": "You will be shocked by Mira!",
       "2": "Mira will show you that Mira doesn't get lost anymore!"
     },
     "victory": {
@@ -1185,7 +1190,8 @@
   },
   "winstrates_victoria": {
     "encounter": {
-      "1": "My goodness! Aren't you young?$You must be quite the trainer to beat my husband, though.$Now I suppose it's my turn to battle!"
+      "1": "My goodness! Aren't you young?$You must be quite the trainer to beat my husband, though.$Now I suppose it's my turn to battle!",
+      "1_female": "My goodness! Aren't you young?$You must be quite the trainer to beat my husband, though.$Now I suppose it's my turn to battle!"
     },
     "victory": {
       "1": "Uwah! Just how strong are you?!"
@@ -1213,6 +1219,22 @@
     },
     "victory": {
       "1": "I was better than everyone in my family.\nI've never lost before..."
+    }
+  },
+  "future_self_m": {
+    "encounter": {
+      "1": "..."
+    },
+    "victory": {
+      "1": "..."
+    }
+  },
+  "future_self_f": {
+    "encounter": {
+      "1": "..."
+    },
+    "victory": {
+      "1": "..."
     }
   },
   "brock": {

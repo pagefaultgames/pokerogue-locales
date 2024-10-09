@@ -5,23 +5,25 @@
   "Locked": {
     "name": "未解锁"
   },
-
   "MoneyAchv": {
     "description": "累计获得 ₽{{moneyAmount}}"
   },
   "10K_MONEY": {
-    "name": "小有积蓄"
+    "name": "小有积蓄",
+    "name_female": "小有积蓄"
   },
   "100K_MONEY": {
-    "name": "大户人家"
+    "name": "大户人家",
+    "name_female": "富豪"
   },
   "1M_MONEY": {
-    "name": "百万富翁"
+    "name": "百万富翁",
+    "name_female": "百万富翁"
   },
   "10M_MONEY": {
-    "name": "暴发户"
+    "name": "暴发户",
+    "name_female": "暴发户"
   },
-
   "DamageAchv": {
     "description": "在单次攻击中造成\n {{damageAmount}} 点伤害"
   },
@@ -29,31 +31,36 @@
     "name": "重拳出击"
   },
   "1000_DMG": {
-    "name": "神拳猛击"
+    "name": "神拳猛击",
+    "name_female": "神拳猛击"
   },
   "2500_DMG": {
-    "name": "夺少？"
+    "name": "夺少？",
+    "name_female": "夺少？"
   },
   "10000_DMG": {
-    "name": "一拳超人"
+    "name": "一拳超人",
+    "name_female": "一拳超人"
   },
-
   "HealAchv": {
     "description": "通过技能、能力或携带的道具\n一次性治疗 {{healAmount}} {{HP}}点"
   },
   "250_HEAL": {
-    "name": "新手奶妈"
+    "name": "新手奶妈",
+    "name_female": "新手奶妈"
   },
   "1000_HEAL": {
-    "name": "治疗担当"
+    "name": "治疗担当",
+    "name_female": "治疗担当"
   },
   "2500_HEAL": {
-    "name": "牧师"
+    "name": "牧师",
+    "name_female": "牧师"
   },
   "10000_HEAL": {
-    "name": "泉水"
+    "name": "泉水",
+    "name_female": "泉水"
   },
-
   "LevelAchv": {
     "description": "将一只宝可梦提升到 Lv{{level}}"
   },
@@ -61,31 +68,35 @@
     "name": "别急，后面还有"
   },
   "LV_250": {
-    "name": "精英"
+    "name": "精英",
+    "name_female": "精英"
   },
   "LV_1000": {
     "name": "天外有天"
   },
-
   "RibbonAchv": {
     "description": "累计获得 {{ribbonAmount}} 个勋章"
   },
   "10_RIBBONS": {
-    "name": "宝可梦联盟冠军"
+    "name": "宝可梦联盟冠军",
+    "name_female": "宝可梦联盟冠军"
   },
   "25_RIBBONS": {
-    "name": "超级球联盟冠军"
+    "name": "超级球联盟冠军",
+    "name_female": "超级球联盟冠军"
   },
   "50_RIBBONS": {
-    "name": "高级球联盟冠军"
+    "name": "高级球联盟冠军",
+    "name_female": "高级球联盟冠军"
   },
   "75_RIBBONS": {
-    "name": "肉鸽球联盟冠军"
+    "name": "肉鸽球联盟冠军",
+    "name_female": "肉鸽球联盟冠军"
   },
   "100_RIBBONS": {
-    "name": "大师球联盟冠军"
+    "name": "大师球联盟冠军",
+    "name_female": "大师球联盟冠军"
   },
-
   "TRANSFER_MAX_STAT_STAGE": {
     "name": "团队协作",
     "description": "在一项属性强化至最大时用\n接力棒传递给其他宝可梦"
@@ -136,6 +147,7 @@
   },
   "SHINY_PARTY": {
     "name": "呕心沥血",
+    "name_female": "呕心沥血",
     "description": "拥有一支由闪光宝可梦组成\n的满员队伍"
   },
   "HATCH_MYTHICAL": {
@@ -164,13 +176,13 @@
   },
   "CLASSIC_VICTORY": {
     "name": "战无不胜",
+    "name_female": "战无不胜",
     "description": "在经典模式中通关游戏"
   },
   "UNEVOLVED_CLASSIC_VICTORY": {
     "name": "带孩上班",
     "description": "通关经典模式时队伍中至少有\n一名未进化的宝可梦"
   },
-
   "MONO_GEN_ONE": {
     "name": "最初的劲敌",
     "description": "完成仅限第一世代的挑战"
@@ -207,7 +219,6 @@
     "name": "她又放水了",
     "description": "完成仅限第九世代的挑战"
   },
-
   "MonoType": {
     "description": "完成 {{type}} 单属性挑战"
   },

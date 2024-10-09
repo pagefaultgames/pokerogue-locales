@@ -3,6 +3,11 @@
   "cutHpPowerUpMove": "{{pokemonName}} diminuiu seus PS para aumentar o poder do ataque!",
   "absorbedElectricity": "{{pokemonName}} absorveu eletricidade!",
   "switchedStatChanges": "{{pokemonName}} trocou as mudanças de atributo com o alvo!",
+  "switchedTwoStatChanges": "{{pokemonName}} trocou as mudanças de {{firstStat}}\ne {{secondStat}} com seu alvo!",
+  "switchedStat": "{{pokemonName}} trocou de {{stat}} com seu alvo!",
+  "sharedGuard": "{{pokemonName}} compartilhou sua guarda com o alvo!",
+  "sharedPower": "{{pokemonName}} compartilhou seu poder com o alvo!",
+  "shiftedStats": "{{pokemonName}} trocou o(a) {{statToSwitch}} por {{statToSwitchWith}}!",
   "goingAllOutForAttack": "{{pokemonName}} está arriscando tudo nesse ataque!",
   "regainedHealth": "{{pokemonName}} recuperou\nsaúde!",
   "keptGoingAndCrashed": "{{pokemonName}} errou o alvo\ne se arrebentou!",
@@ -64,6 +69,9 @@
   "chillyReception": "{{pokemonName}} está prestes a contar uma piada gelada!",
   "exposedMove": "{{pokemonName}} identificou\n{{targetPokemonName}}!",
   "safeguard": "{{targetName}} está protegido por Safeguard!",
+  "substituteOnOverlap": "{{pokemonName}} já\npossui um substituto!",
+  "substituteNotEnoughHp": "Mas não tem PS suficientes\npara fazer um substituto!",
   "afterYou": "{{targetName}} aceitou a gentil oferta!",
-  "combiningPledge": "Os dois movimentos se juntaram!\nÉ um ataque combinado!"
+  "combiningPledge": "Os dois movimentos se juntaram!\nÉ um ataque combinado!",
+  "awaitingPledge": "{{userPokemonName}} está esperando pelo movimento de {{allyPokemonName}}..."
 }

@@ -49,7 +49,14 @@
   "moveNotImplemented": "{{moveName}}尚未实装，无法选择。",
   "moveNoPP": "这个技能的PP用完了",
   "moveDisabled": "{{moveName}}被禁用！",
+  "moveDisabledTorment": "{{pokemonNameWithAffix}}遭到了无理取闹，\n因此无法继续使出相同的招式！",
+  "moveDisabledTaunt": "{{pokemonNameWithAffix}}受到了挑衅，无法使出{{moveName}}！",
+  "moveDisabledHealBlock": "{{pokemonNameWithAffix}}由于{{healBlockName}}而无法使出{{moveName}}！",
+  "moveDisabledImprison": "{{pokemonNameWithAffix}}因封印而无法使出{{moveName}}！",
+  "canOnlyUseMove": "{{pokemonName}}只能使出{{moveName}}！",
+  "moveCannotBeSelected": "无法选择{{moveName}}！",
   "disableInterruptedMove": "{{pokemonNameWithAffix}}的{{moveName}}\n被无效化了！",
+  "throatChopInterruptedMove": "{{pokemonName}}因深渊突刺的效果无法使出招式！",
   "noPokeballForce": "一股无形的力量阻止了你使用精灵球。",
   "noPokeballTrainer": "你不能捕捉其他训练家的宝可梦！",
   "noPokeballMulti": "只能在剩下一只宝可梦时才能扔出精灵球！",
@@ -68,6 +75,7 @@
   "skipItemQuestion": "你确定要跳过拾取道具吗？",
   "itemStackFull": "{{fullItemName}}持有数达到上限，\n你获得了{{itemName}}作为替代。",
   "eggHatching": "咦？",
+  "eggSkipPrompt": "快进到扭蛋结果？",
   "ivScannerUseQuestion": "对{{pokemonName}}使用个体值扫描仪？",
   "wildPokemonWithAffix": "野生的{{pokemonName}}",
   "foePokemonWithAffix": "对手的{{pokemonName}}",
@@ -102,5 +110,7 @@
   "congratulations": "恭喜！",
   "beatModeFirstTime": "{{speciesName}}首次击败了{{gameMode}}！\n你获得了{{newModifier}}！",
   "ppReduced": "降低了{{targetName}}的\n{{moveName}}的PP{{reduction}}点！",
-  "mysteryEncounterAppeared": "这是什么？"
+  "mysteryEncounterAppeared": "这是什么？",
+  "battlerTagsHealBlock": "{{pokemonNameWithAffix}}无法回复其生命！",
+  "battlerTagsHealBlockOnRemove": "{{pokemonNameWithAffix}}可以回复其生命了！"
 }
