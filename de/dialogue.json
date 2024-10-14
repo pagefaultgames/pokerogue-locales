@@ -325,9 +325,9 @@
     },
     "defeat": {
       "1": "Lass mich dir einen Ratschlag geben. Ist ein Pokémon gefroren, kannst du es wieder auftauen,\n$indem du eine Attacke vom Typ Feuer auf es anwendest!"
-    } 
-  }, 
- "snow_worker_double": {   
+    }
+  },
+  "snow_worker_double": {
     "encounter": {
       "1": "L-l-lass uns kämpfen!"
     },
@@ -336,7 +336,7 @@
     },
     "defeat": {
       "1": "...\n$Sch-sch-schon gemerkt?\nH-h-hier ist es k-k-kalt!"
-    } 
+    }
   },
   "hex_maniac": {
     "encounter": {
@@ -815,6 +815,7 @@
   "star_grunt": {
     "encounter": {
       "1": "Wir sind von Team Star, wo jeder nach den Sternen greifen kann!",
+      "1_female": "Wir sind von Team Star, wo jeder nach den Sternen greifen kann!",
       "2": "Wir werden mit voller Kraft auf dich losgehen - Hasta la vistar! ★",
       "3": "Könntest du bitte wieder abzischen? Sonst muss ich dich davonjagen. Aus reinem Selbstschutz!",
       "4": "Es tut mir furchtbar leid, aber wenn du nicht umkehrst, könnte es ungemütlich für dich werden.",
@@ -825,6 +826,7 @@
     "victory": {
       "1": "Jetzt bin ich die Person, die Sterne sieht...",
       "2": "Jemand wie du wäre bei Team Star wahrscheinlich im Nullkommanichts an der Spitze.$Alle hätten Angst vor dir. Trotzdem...",
+      "2_female": "Jemand wie du wäre bei Team Star wahrscheinlich im Nullkommanichts an der Spitze.$Alle hätten Angst vor dir. Trotzdem...",
       "3": "Da war meine Selbstverteidigung wohl nicht gut genug...",
       "4": "H-hasta la vistar... ★",
       "5": "Als neues Mitglied bei Team Star bekommt man echt nur die Drecksarbeit ab..."
@@ -855,7 +857,8 @@
     "encounter": {
       "1": "hr habt Team Star Leid angetan, unverschämter Schurke! Mein Gift soll Euer Niedergang sein!",
       "1_female": "hr habt Team Star Leid angetan, unverschämter Schurke! Mein Gift soll Euer Niedergang sein!",
-      "2": "Eure Bereitschaft zum Duell erfreut mich! Möge der Kampf ein ehrwürdiger sein!"
+      "2": "Eure Bereitschaft zum Duell erfreut mich! Möge der Kampf ein ehrwürdiger sein!",
+      "2_female": "Eure Bereitschaft zum Duell erfreut mich! Möge der Kampf ein ehrwürdiger sein!"
     },
     "victory": {
       "1": "Meine Gefährten... Vergebt mir...",
@@ -1122,7 +1125,8 @@
   "stat_trainer_cheryl": {
     "encounter": {
       "1": "Meine Pokémon können es kaum erwarten, zu kämpfen.",
-      "2": "Ich sollte dich warnen, meine Pokémon können ziemlich wild sein."
+      "2": "Ich sollte dich warnen, meine Pokémon können ziemlich wild sein.",
+      "2_female": "Ich sollte dich warnen, meine Pokémon können ziemlich wild sein."
     },
     "victory": {
       "1": "Ein gutes Verhältnis von Angriff und Verteidigung... Das ist nicht einfach.",
@@ -1150,6 +1154,7 @@
   "stat_trainer_mira": {
     "encounter": {
       "1": "Du wirst von Mira schockiert sein!",
+      "1_female": "Du wirst von Mira schockiert sein!",
       "2": "Mira wird dir zeigen, dass Mira sich nicht mehr verirrt!"
     },
     "victory": {
@@ -1185,7 +1190,8 @@
   },
   "winstrates_victoria": {
     "encounter": {
-      "1": "Mein Gott! Bist du nicht etwas jung?\n$Du musst ein ziemlich guter Trainer sein, um meinen Mann zu besiegen.\n$Jetzt bin ich wohl an der Reihe!"
+      "1": "Mein Gott! Bist du nicht etwas jung?\n$Du musst ein ziemlich guter Trainer sein, um meinen Mann zu besiegen.\n$Jetzt bin ich wohl an der Reihe!",
+      "1_female": "Mein Gott! Bist du nicht etwas jung?\n$Du musst ein ziemlich guter Trainer sein, um meinen Mann zu besiegen.\n$Jetzt bin ich wohl an der Reihe!"
     },
     "victory": {
       "1": "Waas? Wie stark bist du denn?"
@@ -1213,6 +1219,22 @@
     },
     "victory": {
       "1": "Ich war besser als jeder in meiner Familie. Ich habe noch nie verloren..."
+    }
+  },
+  "future_self_m": {
+    "encounter": {
+      "1": "..."
+    },
+    "victory": {
+      "1": "..."
+    }
+  },
+  "future_self_f": {
+    "encounter": {
+      "1": "..."
+    },
+    "victory": {
+      "1": "..."
     }
   },
   "brock": {
