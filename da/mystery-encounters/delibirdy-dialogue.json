@@ -3,7 +3,7 @@
   "title": "Delibir-dy",
   "description": "De mange {{delibirdName}} ser ventende på dig, som om de vil have noget. Måske en item eller nogle penge vil tilfredsstille dem?",
   "query": "Hvad vil du give dem?",
-  "invalide_selection": "Pokémon har ikke den slags genstand.",
+  "invalid_selection": "Pokémon har ikke den slags genstand.",
   "option": {
     "1": {
       "label": "Giv penge",
@@ -13,7 +13,7 @@
     "2": {
       "label": "Giv mad",
       "tooltip": "(-) Giv flokken af {{delibirdName}} et bær eller Reviver Seed\n(+) Modtag en Gave",
-      "selected_prompt": "Vælg en genstand at give.",
+      "select_prompt": "Vælg en genstand at give.",
       "selected": "Du smider din {{chosenItem}} til flokken af {{delibirdName}}, som spændt snakker iblandt dem selv.$De vender sig tilbage til dig, og giver dig med glæde en gave!"
     },
     "3": {
