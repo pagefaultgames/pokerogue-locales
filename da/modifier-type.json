@@ -1,16 +1,24 @@
 {
   "ModifierType": {
+    "EnemyEndureChanceModifierType": {
     "RARE_CANDY": { "name": "Sjældent Slik" },
+    "RARER_CANDY": { "name": "Sjældnere Slik" },
     "MAP": { "name": "Kort" },
     "POTION": { "name": "Medicin" },
     "ETHER": { "name": "Æter" },
     "DIRE_HIT": { "name": "Hårdt Angreb" },
     "COIN_CASE": { "name": "Pengeskrin" },
     "QUICK_CLAW": { "name": "Hurtigklo" }
+  },
   "AttackTypeBoosterItem": {
     "silk_scarf": "Silketørklæde"
   },
   "BaseStatBoosterItem": {
-    "hp_up": "HP-Øgning"
+    "hp_up": "HP-Øgning",
+    "protein": "Protein",
+    "iron": "Jern",
+    "calcium": "Calcium",
+    "zinc": "Zink",
+    "carbos": "Carbon"
   }
 }
