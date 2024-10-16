@@ -1,4 +1,11 @@
 {
+  "youngster": {
+    "encounter": {
+      "1": "Ey, ¿quieres luchar?",
+      "2": "¿También eres un nuevo entrenador?",
+      "2_female": "¿También eres un nuevo entrenador?"
+    }
+  },
   "snow_worker": {
     "encounter": {
       "1": "¡Cuando hace frío, hay que abrigarse!\n$¡Sabiduría popular!"
@@ -8,9 +15,9 @@
     },
     "defeat": {
       "1": "¡Voy a compartir mi sabiduría! Si congelan a un Pokémon de tu equipo,\n$usa con él un movimiento de tipo Fuego ¡y podrás derretir el hielo!"
-    } 
-  }, 
-"snow_worker_double": {   
+    }
+  },
+  "snow_worker_double": {
     "encounter": {
       "1": "...\n$¡Co-combate!"
     },
@@ -19,7 +26,7 @@
     },
     "defeat": {
       "1": "¿Sabes?\nAquí hace mucho frío."
-    } 
+    }
   },
   "aether_grunt": {
     "encounter": {
@@ -179,6 +186,19 @@
     },
     "victory": {
       "1": "Logré superar a toda mi familia.\nNunca había perdido..."
+    }
+  },
+  "rival": {
+    "encounter": {
+      "1": "@c{smile}¡Hey, te estaba buscando! Sabía que tenías muchas ganas de irte, pero esperaba al menos una despedida…$@c{smile_eclosed}¿Así que realmente estás persiguiendo tu sueño después de todo? Casi no puedo creerlo.$@c{serious_smile_fists}Ya que estamos aquí, ¿qué tal un combate?\nDespués de todo, quiero asegurarme de que estás listo.$@c{serious_mopen_fists}¡No te contengas, quiero que me des todo lo que tienes!"
+    },
+    "victory": {
+      "1": "@c{shock}Guau… Me has dejado seco.\n¿Eres realmente un principiante?$@c{smile}Tal vez fue un poco de suerte, pero… ¿Quién sabe? Puede que realmente llegues hasta el final.$Por cierto, el profesor me pidió que te diera estos objetos. Se ven geniales.$@c{serious_smile_fists}¡Buena suerte ahí fuera!"
+    }
+  },
+  "rival_female": {
+    "encounter": {
+      "1": "@c{smile_wave}¡Ahí estás! ¡Te he estado buscando por todas partes!\n@c{angry_mopen}¿Te olvidaste de despedirte de tu mejor amiga?\n@c{smile_ehalf}¿Vas tras tu sueño, eh? \nHoy es el día, ¿verdad?\n@c{smile}De todos modos, te perdonaré por olvidarme, pero con una condición. @c{smile_wave_wink}¡Tienes que luchar conmigo!\n@c{angry_mopen}¡Da todo lo que tienes! No querrás que tu aventura termine antes de empezar, ¿verdad?"
     }
   }
 }
