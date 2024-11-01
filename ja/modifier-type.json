@@ -44,7 +44,7 @@
     },
     "PokemonNatureChangeModifierType": {
       "name": "{{natureName}}ミント",
-      "description": "ポケモン 1匹の 性格を 「{{natureName}}」に 変える。\nその上、スターター画面でも {{natureName}}が 選べるように なる。"
+      "description": "ポケモンの 性格を {{natureName}}に 変える （あとで スターター 画面でも 選べる）"
     },
     "DoubleBattleChanceBoosterModifierType": {
       "description": "バトル{{battleCount}}回の 間 ダブルバトルに なる 確率を 4倍に する"
@@ -80,7 +80,7 @@
     },
     "PokemonBaseStatFlatModifierType": {
       "name": "もりのヨウカン",
-      "description": "持たせると 基本能力が {{statValue}} 上がる。 謎の夢で 見つけた お菓子。"
+      "description": "持たせると 基本能力が {{statValue}} 上がる。 謎の 夢の あとに 見つけた お菓子。"
     },
     "AllPokemonFullHpRestoreModifierType": {
       "description": "手持ちポケモン 全員の HPを すべて 回復する"
@@ -103,13 +103,13 @@
       "description": "持っているポケモンの もらう経験値を {{boostPercent}}% 増やす"
     },
     "PokemonFriendshipBoosterModifierType": {
-      "description": "持っているポケモンの なかよし度の収穫が 勝利ごとに 50% 上がる"
+      "description": "持たせると 勝利後の なかよし度の 収穫が 50%で 上がる"
     },
     "PokemonMoveAccuracyBoosterModifierType": {
-      "description": "技の 命中率を {{accuracyAmount}} 増やす（最大 100）"
+      "description": "技の 命中率を {{accuracyAmount}} 増やす （最大 100）"
     },
     "PokemonMultiHitModifierType": {
-      "description": "持たせると 攻撃が もう一度 当たるが、\n威力が 減る（1個：60%減る/2個：75%減る/3個：82.5%減る）"
+      "description": "持たせると 攻撃が もう一度 当たるが、 威力が 減る （1個： 60%減る/ 2個： 75%減る/ 3個： 82.5%減る）"
     },
     "TmModifierType": {
       "name": "TM{{moveId}}\n{{moveName}}",
@@ -117,7 +117,7 @@
     },
     "TmModifierTypeWithInfo": {
       "name": "TM{{moveId}}\n{{moveName}}",
-      "description": "ポケモンに {{moveName}}を 教える\n（Cキー／Shiftキーを押すと 技情報が見える)"
+      "description": "ポケモンに {{moveName}}を 教える\n（Cキー／Shiftキーを押すと 技情報が 見える)"
     },
     "EvolutionItemModifierType": {
       "description": "ある特定の ポケモンを 進化させる"
@@ -126,23 +126,23 @@
       "description": "ある特定の ポケモンを フォームチェンジさせる"
     },
     "FusePokemonModifierType": {
-      "description": "2匹の ポケモンを 吸収合体する（特性が移動し、基本能力とタイプを分け、覚える技を共有する）"
+      "description": "2匹の ポケモンを 吸収合体する （特性が 移行し、 基本能力と タイプを 分け、 覚える 技を 共有する）"
     },
     "TerastallizeModifierType": {
       "name": "テラピース{{teraType}}",
-      "description": "ポケモンを {{teraType}}タイプに テラスタルさせる（最大10回のバトルの間）"
+      "description": "ポケモンを {{teraType}}タイプに テラスタルさせる （最大10回の バトルの 間）"
     },
     "ContactHeldItemTransferChanceModifierType": {
-      "description": "持っているポケモンが 攻撃すると 相手の持っている\nアイテムを {{chancePercent}}%の 確率で 盗む"
+      "description": "持っているポケモンが 攻撃すると 相手の 持っている アイテムを {{chancePercent}}%の 確率で 盗む"
     },
     "TurnHeldItemTransferModifierType": {
-      "description": "毎ターン 相手から 一つの 持っている\nアイテム を吸い込んで 盗む"
+      "description": "毎ターン 相手から 一つの 持っている アイテムを 吸い込んで 盗む"
     },
     "EnemyAttackStatusEffectChanceModifierType": {
       "description": "攻撃技に {{chancePercent}}%の 確率で {{statusEffect}}を 与える"
     },
     "EnemyEndureChanceModifierType": {
-      "description": "ひんしに なりそうな 技を 受けても\n{{chancePercent}}%の 確率で HPを 1だけ 残して 耐える"
+      "description": "ひんしに なりそうな 技を 受けても {{chancePercent}}%の 確率で HPを 1だけ 残して 耐える"
     },
     "RARE_CANDY": {
       "name": "ふしぎなアメ"
@@ -152,15 +152,15 @@
     },
     "MEGA_BRACELET": {
       "name": "メガバングル",
-      "description": "メガストーンが 見つけられる ように なる"
+      "description": "メガストーンが 得られる ように なる"
     },
     "DYNAMAX_BAND": {
       "name": "ダイマックスバンド",
-      "description": "ダイキノコが 見つけられる ように なる"
+      "description": "ダイキノコが 得られる ように なる"
     },
     "TERA_ORB": {
       "name": "テラスタルオーブ",
-      "description": "テラピースが 見つけられる ように なる"
+      "description": "テラピースが 得られる ように なる"
     },
     "MAP": {
       "name": "ちず",
@@ -195,11 +195,11 @@
     },
     "REVIVER_SEED": {
       "name": "ふっかつのタネ",
-      "description": "持たせると 直接攻撃から ひんしに なれば\n復活して HPを 50% 回復する"
+      "description": "持たせると 直接攻撃から ひんしに なれば 復活して HPを 50% 回復する"
     },
     "WHITE_HERB": {
       "name": "しろいハーブ",
-      "description": "持たせた ポケモンの能力が さがったとき 1度だけ 元の状態に 戻す"
+      "description": "持たせた ポケモンの 能力が 下がったとき 1度だけ 元の状態に 戻す"
     },
     "ETHER": {
       "name": "ピーピーエイド"
@@ -234,7 +234,7 @@
     },
     "EXP_SHARE": {
       "name": "がくしゅうそうち",
-      "description": "バトルに 参加していない ポケモンが 参加したポケモンの 経験値を 20% もらう"
+      "description": "バトルに 参加していない ポケモンが 1匹の 参加した ポケモンの 経験値を 20% もらう"
     },
     "EXP_BALANCE": {
       "name": "バランスそうち",
@@ -242,7 +242,7 @@
     },
     "OVAL_CHARM": {
       "name": "まるいおまもり",
-      "description": "バトルに 複数の ポケモンが 参加すると、\n経験値が 参加したポケモンずつ 10% 増える"
+      "description": "バトルに 複数の ポケモンが 参加すると 経験値が 参加した ポケモンずつ 10% 増える"
     },
     "EXP_CHARM": {
       "name": "けいけんおまもり"
@@ -282,7 +282,7 @@
     },
     "SOUL_DEW": {
       "name": "こころのしずく",
-      "description": "持たせると ポケモンの 性格が 能力に与える 影響は 10% 増える（合算）"
+      "description": "持たせると ポケモンの 性格が 能力に与える 影響は 10% 増える （合算）"
     },
     "NUGGET": {
       "name": "きんのたま"
@@ -320,7 +320,7 @@
     },
     "HEALING_CHARM": {
       "name": "かいふくおまもり",
-      "description": "回復する 技や アイテムの 効果を 10% あげる（復活アイテムは除く）"
+      "description": "回復する 技や アイテムの 効果を 10% あげる （復活アイテムは除く）"
     },
     "CANDY_JAR": {
       "name": "アメボトル",
@@ -328,11 +328,11 @@
     },
     "BERRY_POUCH": {
       "name": "きのみぶくろ",
-      "description": "使ったきのみは 無くならない 30%の可能性を 加える"
+      "description": "使ったきのみは 無くならない 30%の 可能性を 加える"
     },
     "FOCUS_BAND": {
       "name": "きあいのハチマキ",
-      "description": "持たせると ひんしに なりそうな 技を 受けても\n10%の可能性で HPを 1だけ 残して 耐える"
+      "description": "持たせると ひんしに なりそうな 技を 受けても 10%の 可能性で HPを 1だけ 残して 耐える"
     },
     "QUICK_CLAW": {
       "name": "せんせいのツメ",
@@ -340,7 +340,7 @@
     },
     "KINGS_ROCK": {
       "name": "おうじゃのしるし",
-      "description": "持たせると 攻撃して ダメージを 与えたときに\n10%の可能性で 相手を ひるませる"
+      "description": "持たせると 攻撃して ダメージを 与えたときに 10%の 可能性で 相手を ひるませる"
     },
     "LEFTOVERS": {
       "name": "たべのこし",
@@ -356,7 +356,7 @@
     },
     "FLAME_ORB": {
       "name": "かえんだま",
-      "description": "触ると 熱をだす 不思議な玉。\n持たせると 戦闘中に やけどの状態に なる。"
+      "description": "触ると 熱をだす 不思議な玉。\n持たせると 戦闘中に やけどの状態に なる"
     },
     "EVOLUTION_TRACKER_GIMMIGHOUL": {
       "name": "宝物",
@@ -364,7 +364,7 @@
     },
     "BATON": {
       "name": "バトン",
-      "description": "持たせると 入れ替えるとき 控えの ポケモンが 能力変化を\n受けつげる （逃げられなくする 技や 特性も 回避する）"
+      "description": "持たせると 入れ替えるとき 控えの ポケモンが 能力変化を 受けつげる （逃げられなく する 技や 特性も 回避する）"
     },
     "SHINY_CHARM": {
       "name": "ひかるおまもり",
@@ -376,7 +376,7 @@
     },
     "IV_SCANNER": {
       "name": "こたいちスキャナー",
-      "description": "野生ポケモンの 個体値を 検査できる。 一つのスキャナーあたり\n個体値が 2つ 見える。 最高の 個体値が 最初に 見える。"
+      "description": "野生ポケモンの 個体値を 検査できる。 スキャナーあたり 個体値が 2つ 見える。 最高の 個体値が 最初に 見える。"
     },
     "DNA_SPLICERS": {
       "name": "いでんしのくさび"
@@ -429,7 +429,7 @@
     },
     "MYSTERY_ENCOUNTER_MACHO_BRACE": {
       "name": "きょうせいギプス",
-      "description": "持たせると 相手を倒すとき もう1つの ギプスを もらう。 ギプス当たり 能力が 少し 上がる。 最多で さらに 上がる"
+      "description": "持たせると 相手を 倒すとき もう1つの ギプスを もらう。 ギプス当たり 能力が 少し 上がる。 最多で さらに 上がる"
     },
     "MYSTERY_ENCOUNTER_OLD_GATEAU": {
       "name": "もりのヨウカン",
