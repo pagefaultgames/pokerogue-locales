@@ -1,1 +1,23 @@
-{}
+{
+  "none": {
+    "name": "Nessuno"
+  },
+  "poison": {
+    "name": "Avvelenamento",
+    "description": "avvelenato",
+    "obtain": "{{pokemonNameWithAffix}}\nè stato avvelenato!",
+    "obtainSource": "{{pokemonNameWithAffix}}\nè stato avvelenato da {{sourceText}}!",
+    "activation": "Il veleno ha effetto\nsu {{pokemonNameWithAffix}}!",
+    "overlap": "{{pokemonNameWithAffix}} è\ngià avvelenato.",
+    "heal": "{{pokemonNameWithAffix}} guarisce\ndall'avvelenamento!"
+  },
+  "toxic": {
+    "name": "Iperavvelenamento",
+    "description": "iperavvelenato",
+    "obtain": "{{pokemonNameWithAffix}}\nè stato iperavvelenato!",
+    "obtainSource": "{{pokemonNameWithAffix}}\nè stato avvelenato da {{sourceText}}!",
+    "activation": "Il veleno ha effetto\nsu {{pokemonNameWithAffix}}!",
+    "overlap": "{{pokemonNameWithAffix}} è\ngià avvelenato.",
+    "heal": "{{pokemonNameWithAffix}} guarisce\ndall'avvelenamento!"
+  }
+}
