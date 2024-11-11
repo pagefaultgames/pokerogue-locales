@@ -108,6 +108,9 @@
     "PokemonMoveAccuracyBoosterModifierType": {
       "description": "技の 命中率を {{accuracyAmount}} 増やす （最大 100）"
     },
+    "PokemonMultiHitModifierType": {
+      "description": "持たせると 攻撃技の ダメージの 25%が もう一回の 攻撃で 出す"
+    },
     "TmModifierType": {
       "name": "TM{{moveId}}\n{{moveName}}",
       "description": "ポケモンに {{moveName}}を 教える"
