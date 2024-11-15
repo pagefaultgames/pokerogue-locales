@@ -108,6 +108,9 @@
     "PokemonMoveAccuracyBoosterModifierType": {
       "description": "Aumenta la precisión de los movimiento en un {{accuracyAmount}} (máximo 100)."
     },
+    "PokemonMultiHitModifierType": {
+      "description": "Convierte un 25% del daño de los ataques del portador en un golpe adicional."
+    },
     "TmModifierType": {
       "name": "MT{{moveId}} - {{moveName}}",
       "description": "Enseña {{moveName}} a un Pokémon."
@@ -370,6 +373,10 @@
     "ABILITY_CHARM": {
       "name": "Amuleto Habilidad",
       "description": "Aumenta drásticamente la posibilidad de que un Pokémon salvaje tenga una habilidad oculta."
+    },
+    "CATCHING_CHARM": {
+      "name": "Amuleto Captura",
+      "description": "Aumenta la probabilidad de conseguir una captura crítica."
     },
     "IV_SCANNER": {
       "name": "Escáner IV",
