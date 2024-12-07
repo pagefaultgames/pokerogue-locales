@@ -25,7 +25,7 @@ This repository contains the locales files for the [PokéRogue](https://github.c
 *Waiting for them to be more complete*
 
 - da - Danish
-- he - Hebrew *(Note: Also needs the game to be properly compatible with right-to-left languages before being implemented)*
+- he - Hebrew *(Note: The game needs to be properly compatible with right-to-left languages before being implemented)*
 - tr - Turkish
 - ro - Romanian
 
