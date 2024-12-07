@@ -2,6 +2,11 @@
 
 This repository contains the locales files for the [PokéRogue](https://github.com/pagefaultgames/pokerogue) project.
 
+## How to Contribute
+
+Reach out to `Head of Translation` on our [Discord](https://discord.gg/x6mnWhvc).
+They will be able to provide you with further information.
+
 ## Languages
 
 ### Currently supported
@@ -37,8 +42,3 @@ This repository contains the locales files for the [PokéRogue](https://github.c
 ### Non-existent and wished by Translation Heads
 
 - ru - Russian
-
-## How to Contribute
-
-Reach out to `Head of Translation` on our [Discord](https://discord.gg/x6mnWhvc).
-They will be able to provide you with further information.
