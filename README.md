@@ -28,6 +28,14 @@ This repository contains the locales files for the [PokéRogue](https://github.c
 - tr - Turkish
 - ro - Romanian
 
+### Indefinitely pending (no translator available)
+
+- th - Thai
+
+### Non-existent and wished by Translation Heads
+
+- ru - Russian
+
 ## How to Contribute
 
 Reach out to `Head of Translation` on our [Discord](https://discord.gg/x6mnWhvc).
