@@ -26,6 +26,7 @@ This repository contains the locales files for the [PokéRogue](https://github.c
 - da - Danish
 - he - Hebrew
 - tr - Turkish
+- ro - Romanian
 
 ## How to Contribute
 
