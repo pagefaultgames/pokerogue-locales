@@ -22,6 +22,7 @@ This repository contains the locales files for the [PokéRogue](https://github.c
 - ca-ES - Catalan (Reason: not yet translated enough)
 
 ### Pending
+Waiting for them to be more complete
 
 - da - Danish
 - he - Hebrew
