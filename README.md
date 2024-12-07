@@ -17,7 +17,7 @@ This repository contains the locales files for the [PokéRogue](https://github.c
 - zh-CN - Chinese (Simplified)
 - zh-TW - Chinese (Traditional)
 
-### Integrated but disabled
+### Present in game code but disabled
 
 - ca-ES - Catalan (Reason: not yet translated enough)
 
