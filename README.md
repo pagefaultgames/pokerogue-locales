@@ -24,10 +24,10 @@ They will be able to provide you with further information.
 
 ### Present in game code but disabled
 
-- ca-ES - Catalan *(Removed because not yet translated enough)*
+- ca-ES - Catalan *(Removed because not yet translated enough, needs help)*
 
 ### Pending
-*Waiting for them to be more complete*
+*Waiting for them to be more complete, needs help*
 
 - da - Danish
 - he - Hebrew *(Note: The game needs to be properly compatible with right-to-left languages before being implemented)*
