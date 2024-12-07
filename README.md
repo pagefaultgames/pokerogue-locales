@@ -35,9 +35,8 @@ They will be able to provide you with further information.
 - ro - Romanian
 
 ### Indefinitely pending
-*No translator available*
 
-- th - Thai
+- th - Thai *(No translator available)*
 
 ### Non-existent and wished by Translation Heads
 
