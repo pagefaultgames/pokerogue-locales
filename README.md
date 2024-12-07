@@ -2,7 +2,7 @@
 
 This repository contains the locales files for the [PokéRogue](https://github.com/pagefaultgames/pokerogue) project.
 
-### Languages
+## Languages
 
 ### Currently supported
 
