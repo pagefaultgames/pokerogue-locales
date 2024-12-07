@@ -24,7 +24,7 @@ They will be able to provide you with further information.
 
 ### Present in game code but disabled
 
-- ca-ES - Catalan (Reason: not yet translated enough)
+- ca-ES - Catalan *(Removed because not yet translated enough)*
 
 ### Pending
 *Waiting for them to be more complete*
