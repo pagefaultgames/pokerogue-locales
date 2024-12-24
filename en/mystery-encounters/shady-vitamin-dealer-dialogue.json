@@ -1,11 +1,11 @@
 {
   "intro": "A man in a dark coat approaches you.",
   "speaker": "Shady Salesman",
-  "intro_dialogue": ".@d{16}.@d{16}.@d{16}$I've got the goods if you've got the money.$Make sure your Pokémon can handle it though.",
+  "intro_dialogue": ".@d{16}.@d{16}.@d{16}$I’ve got the goods if you’ve got the money.$Make sure your Pokémon can handle it though.",
   "title": "The Vitamin Dealer",
   "description": "The man opens his jacket to reveal some Pokémon vitamins. The numbers he quotes seem like a really good deal. Almost too good...\nHe offers two package deals to choose from.",
   "query": "Which deal will you choose?",
-  "invalid_selection": "This Pokémon can't receive any!",
+  "invalid_selection": "This Pokémon can’t receive any!",
   "option": {
     "1": {
       "label": "The Cheap Deal",
@@ -18,7 +18,7 @@
     "3": {
       "label": "Leave",
       "tooltip": "(-) No Rewards",
-      "selected": "Heh, wouldn't have figured you for a coward."
+      "selected": "Heh, wouldn’t have figured you for a coward."
     },
     "selected": "The man hands you two bottles and quickly disappears.${{selectedPokemon}} gained {{boost1}} and {{boost2}} boosts!"
   },
