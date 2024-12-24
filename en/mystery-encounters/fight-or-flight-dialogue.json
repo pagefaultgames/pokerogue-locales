@@ -1,14 +1,14 @@
 {
   "intro": "Something shiny is sparkling\non the ground near that Pokémon!",
   "title": "Fight or Flight",
-  "description": "It looks like there's a strong Pokémon guarding an item. Battling is the straightforward approach, but it looks strong. Perhaps you could steal the item, if you have the right Pokémon for the job.",
+  "description": "It looks like there’s a strong Pokémon guarding an item. Battling is the straightforward approach, but it looks strong. Perhaps you could steal the item, if you have the right Pokémon for the job.",
   "query": "What will you do?",
   "option": {
     "1": {
       "label": "Battle the Pokémon",
       "tooltip": "(-) Tough Battle\n(+) New Item",
       "selected": "You approach the\nPokémon without fear.",
-      "stat_boost": "The {{enemyPokemon}}'s latent strength boosted one of its stats!"
+      "stat_boost": "The {{enemyPokemon}}’s latent strength boosted one of its stats!"
     },
     "2": {
       "label": "Steal the Item",
