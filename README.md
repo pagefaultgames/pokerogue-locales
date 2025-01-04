@@ -30,7 +30,7 @@ They will be able to provide you with further information.
 *Waiting for them to be more complete, needs help*
 
 - da - Danish
-- he - Hebrew *(Note: The game needs to be properly compatible with right-to-left languages before being implemented)*
+- he - Hebrew *(Note: The game needs to be properly compatible with right-to-left languages before being implemented. Any help on this regard would be very welcomed.)*
 - tr - Turkish
 - ro - Romanian
 
