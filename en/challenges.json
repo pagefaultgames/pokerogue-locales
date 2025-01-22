@@ -30,7 +30,14 @@
   "inverseBattle": {
     "name": "Inverse Battle",
     "shortName": "Inverse",
-    "desc": "Type matchups are reversed and no type is immune to any other type.\nDisables other challenges’ achievements.",
+    "desc": "Type matchups are reversed and no type is immune to any other type.\nDisables other challenges’ achievements (Except Flip Stat).",
+    "value.0": "Off",
+    "value.1": "On"
+  },
+  "flipStat": {
+    "name": "Flip Stat",
+    "shortName": "Flip",
+    "desc": "Stats are shuffled around so that HP and Speed Swap.\nAtk becomes Sp. Def.\nDef becomes Sp.Atk.\nSp. Def becomes Atk.\nSp. Atk becomes Def.\nDisables other challenges’ achievements (Except Inverse)",
     "value.0": "Off",
     "value.1": "On"
   },
