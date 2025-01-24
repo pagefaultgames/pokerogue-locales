@@ -1,6 +1,7 @@
 {
   "genFilter": "世代",
   "typeFilter": "タイプ",
+  "biomeFilter": "バイオーム",
   "caughtFilter": "捕獲",
   "unlocksFilter": "解放",
   "miscFilter": "その他",
@@ -8,14 +9,20 @@
   "all": "すべて",
   "normal": "非色違い",
   "uncaught": "未捕獲",
+  "uncatchable": "野生に見つからない",
   "passive": "パッシブ",
   "passiveUnlocked": "パッシブ - 解放済み",
   "passiveLocked": "パッシブ - 未解放",
   "passiveUnlockable": "パッシブ - 解放可能",
   "costReduction": "ポイント削減",
   "costReductionUnlocked": "ポイント削減 - 解放済み",
+  "costReductionUnlockedOne": "ポイント削減 - １回目",
+  "costReductionUnlockedTwo": "ポイント削減 - ２回目",
   "costReductionLocked": "ポイント削減 - 未解放",
   "costReductionUnlockable": "ポイント削減 - 解放可能",
+  "starter": "スターター",
+  "isStarter": "スターター - はい",
+  "notStarter": "スターター - いいえ",
   "favorite": "お気に入り",
   "isFavorite": "お気に入り - あり",
   "notFavorite": "お気に入り - なし",
@@ -34,5 +41,7 @@
   "sortByCost": "ポイント",
   "sortByCandies": "アメの数",
   "sortByIVs": "個体値",
-  "sortByName": "名前"
+  "sortByName": "名前",
+  "sortByNumCaught": "捕まえた数",
+  "sortByNumHatched": "ふかした数"
 }
