@@ -421,6 +421,30 @@
       "3": "Estou achando que quem tá enjoado sou eu..."
     }
   },
+  "clerk": {
+    "encounter": {
+      "1": "Fui repreendido pelo meu chefe e perdi minha motivação. Vou descontar em você!",
+      "2": "Estou no nível mais baixo agora, mas um dia estarei no topo!",
+      "3": "Eu nasci para trabalhar. Esse é o meu destino."
+    },
+    "victory": {
+      "1": "Ah, cara! Também sou inútil aqui?",
+      "2": "Você parece uma estrela brilhante! Não vou perder, não vou perder!",
+      "3": "De fato, batalhar também é meu trabalho."
+    }
+  },
+  "clerk_female": {
+    "encounter": {
+      "1": "Eu tenho uma ambição! Vou assumir o controle da empresa!",
+      "2": "Dizem que uma empresa com funcionários animados é uma boa empresa!",
+      "3": "Sou tratado como um ídolo no escritório. Todos me mimam."
+    },
+    "victory": {
+      "1": "Eu estava obcecado com o prêmio de ouro, com minha ambição brilhante!",
+      "2": "Oh, veja a hora! Tenho que voltar ao trabalho!",
+      "3": "Todo mundo trabalha para mim, então não tenho nada para fazer."
+    }
+  },
   "archer": {
     "encounter": {
       "1": "Antes de você ir mais longe, vamos ver como você se sai contra nós, Equipe Rocket!",
@@ -574,18 +598,16 @@
       "3_female": "Hmph. Você é uma treinadora mais esperta do que eu esperava, mas não esperta o suficiente."
     }
   },
-  "rood": {
+  "colress": {
     "encounter": {
-      "1": "Você é uma ameaça para a Equipe Plasma. Não podemos deixá-lo ir embora daqui e agora!",
-      "1_female": "Você é uma ameaça para a Equipe Plasma. Não podemos deixá-la ir embora daqui e agora!",
-      "2": "Oh, este vento gelado... Eu nunca pensei que teria que lutar aqui!",
-      "3": "Você é um treinador notável para ter chegado tão longe. Mas é aqui que termina.",
-      "3_female": "Você é uma treinadora notável para ter chegado tão longe. Mas é aqui que termina."
+      "1": "Como pesquisador, é a verdade e a maneira ideal como as coisas devem ser que eu busco. O poder latente dos Pokémon...\n$Qual é a melhor maneira de revelá-lo?\n$Se possível, quero que seja a confiança entre os Treinadores e seus Pokémon, como sempre foi.\n$Eu espero que você me ensine que isso é realmente verdade!",
+      "2": "A Equipe Plasma disse que devemos reconhecer o potencial dos Pokémon e libertá-los dos humanos. Eu discordo.\n$Ao contrário, devem ser os humanos que trazem à tona o potencial oculto dos Pokémon!\n$Então, vou testá-lo para ver se você é um Treinador que pode trazer à tona o potencial oculto dos Pokémon!",
+      "3": "O que eu desejo é trazer à tona todo o potencial do Pokémon!\n$Se eu puder realizar isso, não me importa o que for preciso!\n$Se isso significa que a força deve ser trazida à tona pelas interações entre Pokémon e Treinadores, que assim seja!\n$Se isso significa que você precisa usar uma abordagem impiedosa, como a da Equipe Plasma, e forçar todo o poder do Pokémon...\n$Então, que assim seja! E sim, se o mundo inteiro for destruído como resultado, que assim seja...\n$Bem agora! Diga-me se você tem a resposta que eu desejo ou não! Se estiver pronto, venha até mim!"
     },
     "victory": {
-      "1": "Ghetsis... Eu falhei em minha missão...",
-      "2": "O frio é penetrante. Estou tremendo. Estou sofrendo. Ainda assim, triunfei.",
-      "3": "Hm. Você é um treinador talentoso, mas infelizmente não talentoso o suficiente."
+      "1": "Muito bem! Aprendi muito com essa batalha!",
+      "2": "Esplêndido! Você é um treinador e tanto!",
+      "3": "Então é isso que significa extrair o poder escondido em seu Pokémon!"
     }
   },
   "xerosic": {
@@ -2460,6 +2482,17 @@
       "1": "Yay! Nós vencemos!"
     }
   },
+  "kukui": {
+    "encounter": {
+      "1": "Ah, sim, agora você é o Campeão da Liga Pokémon!\n$Não seria bom se fosse assim tão simples?\n$A verdade é que há mais uma pessoa com quem você tem que lutar se quiser esse título.\n$E, claro, esse Treinador sou eu. Woo! Um último viva para seu desafio.\n$Vamos ter uma batalha digna deste momento!"
+    },
+    "victory": {
+      "1": "Não consegui vencer, apesar de ter me esforçado ao máximo... Mas que sensação revigorante. Woo!"
+    },
+    "defeat": {
+      "1": "Estou muito feliz por ter lutado com você e sua equipe aqui."
+    }
+  },
   "hau": {
     "encounter": {
       "1": "Eu me pergunto se um Treinador batalha de maneira diferente dependendo se ele é de uma região quente ou fria.\n$Vamos testar isso!"
@@ -2502,6 +2535,17 @@
     },
     "defeat": {
       "1": "Um tempo absolutamente campeão, foi!"
+    }
+  },
+  "mustard": {
+    "encounter": {
+      "1": "Fazia tempo que eu não ficava tão empolgado! Posso sentir meu sangue queimando e meu coração dançando de ansiedade!\n$Não consigo resistir a uma batalha contra um adversário à altura - não importa a idade que eu tenha!\n$Agora, então... Vamos começar! Este é o momento mais divertido do mundo!"
+    },
+    "victory": {
+      "1": "Fuhaha! Não me contive em absolutamente nada e, mesmo assim, você me derrotou!\n$Parece que terei que refazer meu próprio treinamento do zero!"
+    },
+    "defeat": {
+      "1": "Hee hee hee! Parece que eu ganhei! Você também lutou bastante.\n$Vamos fazer isso de novo!"
     }
   },
   "whitney": {
