@@ -103,7 +103,7 @@
       "description": "지니게 한 포켓몬은 받는 경험치가 {{boostPercent}}% 증가한다."
     },
     "PokemonFriendshipBoosterModifierType": {
-      "description": "배틀 승리로 얻는 친밀도가 50% 증가한다."
+      "description": "획득하는 친밀도가 50% 증가한다."
     },
     "PokemonMoveAccuracyBoosterModifierType": {
       "description": "기술의 명중률이 {{accuracyAmount}} 증가한다. (최대 100)"
@@ -266,9 +266,9 @@
       "name": "초점렌즈",
       "description": "약점이 보이는 렌즈. 지니게 한 포켓몬의 기술이 급소에 맞기 쉬워진다."
     },
-    "DIRE_HIT": { 
-      "name": "크리티컬커터", 
-      "extra": { 
+    "DIRE_HIT": {
+      "name": "크리티컬커터",
+      "extra": {
         "raises": "급소율"
       }
     },
@@ -374,6 +374,10 @@
       "name": "특성부적",
       "description": "야생 포켓몬이 숨겨진 특성을 가지고 등장할 확률을 급격히 높인다."
     },
+    "CATCHING_CHARM": {
+      "name": "흔들림없는부적",
+      "description": "포켓몬을 포획 시, 포획 크리티컬이 나올 확률이 올라간다."
+    },
     "IV_SCANNER": {
       "name": "개체값탐지기",
       "description": "야생 포켓몬의 개체값을 확인 가능하다. 높은 값부터, 확인할 수 있는 개체값이 두 종류씩 추가된다."
@@ -420,12 +424,25 @@
       "name": "합체 토큰",
       "description": "야생 포켓몬이 합체되어 등장할 확률이 1% 추가된다."
     },
-
-    "MYSTERY_ENCOUNTER_SHUCKLE_JUICE": { "name": "단단지주스" },
-    "MYSTERY_ENCOUNTER_BLACK_SLUDGE": { "name": "검은진흙", "description": "악취가 너무 심한 나머지 상점 물건 가격이 크게 비싸진다." },
-    "MYSTERY_ENCOUNTER_MACHO_BRACE": { "name": "교정깁스", "description": "포켓몬을 쓰러뜨리면 교정깁스 스택을 얻는다. 스택이 올라갈수록 능력치가 약간 올라가고, 최대 스택에서 추가 보너스를 얻는다." },
-    "MYSTERY_ENCOUNTER_OLD_GATEAU": { "name": "숲의양갱", "description": "{{stats}} 종족치를 {{statValue}}만큼 올려준다." },
-    "MYSTERY_ENCOUNTER_GOLDEN_BUG_NET": { "name": "황금잠자리채", "description": "벌레 타입 포켓몬을 더 자주 만날 수 있는 행운을 부여한다. 묘한 무게감이 든다." }
+    "MYSTERY_ENCOUNTER_SHUCKLE_JUICE": {
+      "name": "단단지주스"
+    },
+    "MYSTERY_ENCOUNTER_BLACK_SLUDGE": {
+      "name": "검은진흙",
+      "description": "악취가 너무 심한 나머지 상점 물건 가격이 크게 비싸진다."
+    },
+    "MYSTERY_ENCOUNTER_MACHO_BRACE": {
+      "name": "교정깁스",
+      "description": "포켓몬을 쓰러뜨리면 교정깁스 스택을 얻는다. 스택이 올라갈수록 능력치가 약간 올라가고, 최대 스택에서 추가 보너스를 얻는다."
+    },
+    "MYSTERY_ENCOUNTER_OLD_GATEAU": {
+      "name": "숲의양갱",
+      "description": "{{stats}} 종족치를 {{statValue}}만큼 올려준다."
+    },
+    "MYSTERY_ENCOUNTER_GOLDEN_BUG_NET": {
+      "name": "황금잠자리채",
+      "description": "벌레 타입 포켓몬을 더 자주 만날 수 있는 행운을 부여한다. 묘한 무게감이 든다."
+    }
   },
   "SpeciesBoosterItem": {
     "LIGHT_BALL": {
@@ -443,6 +460,14 @@
     "QUICK_POWDER": {
       "name": "스피드파우더",
       "description": "메타몽에게 지니게 하면 스피드가 올라가는 이상한 가루. 매우 잘고 단단하다."
+    },
+    "DEEP_SEA_SCALE": {
+      "name": "심해의비늘",
+      "description": "진주몽에게 지니게 하면 특수방어가 올라가는 비늘. 연한 분홍색으로 빛난다."
+    },
+    "DEEP_SEA_TOOTH": {
+      "name": "심해의이빨",
+      "description": "진주몽에게 지니게 하면 특수공격이 올라가는 이빨. 날카롭고 은색으로 빛난다."
     }
   },
   "TempStatStageBoosterItem": {
@@ -514,7 +539,6 @@
     "LEADERS_CREST": "대장의징표",
     "SUN_FLUTE": "태양의피리",
     "MOON_FLUTE": "달의피리",
-    
     "CHIPPED_POT": "이빠진포트",
     "BLACK_AUGURITE": "검은휘석",
     "GALARICA_CUFF": "가라두구팔찌",

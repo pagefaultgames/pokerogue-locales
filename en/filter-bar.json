@@ -1,6 +1,7 @@
 {
   "genFilter": "Gen",
   "typeFilter": "Type",
+  "biomeFilter": "Biome",
   "caughtFilter": "Caught",
   "unlocksFilter": "Unlocks",
   "miscFilter": "Misc",
@@ -8,14 +9,20 @@
   "all": "All",
   "normal": "Not Shiny",
   "uncaught": "Uncaught",
+  "uncatchable": "Habitat unknown",
   "passive": "Passive",
   "passiveUnlocked": "Passive - Yes",
   "passiveLocked": "Passive - No",
   "passiveUnlockable": "Passive - Can Unlock",
   "costReduction": "Cost Reduction",
-  "costReductionUnlocked": "Cost Reduction - Yes",
+  "costReductionUnlocked": "Cost Reduction - Any",
+  "costReductionUnlockedOne": "Cost Reduction - One",
+  "costReductionUnlockedTwo": "Cost Reduction - Two",
   "costReductionLocked": "Cost Reduction - No",
   "costReductionUnlockable": "Cost Reduction - Can Unlock",
+  "starter": "Starter",
+  "isStarter": "Starter - Yes",
+  "notStarter": "Starter - No",
   "favorite": "Favorite",
   "isFavorite": "Favorite - Yes",
   "notFavorite": "Favorite - No",
@@ -34,5 +41,7 @@
   "sortByCost": "Cost",
   "sortByCandies": "Candy Count",
   "sortByIVs": "IVs",
-  "sortByName": "Name"
+  "sortByName": "Name",
+  "sortByNumCaught": "No. Caught",
+  "sortByNumHatched": "No. Hatched"
 }
