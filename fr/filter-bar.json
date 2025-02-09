@@ -1,6 +1,7 @@
 {
   "genFilter": "Gen",
   "typeFilter": "Type",
+  "biomeFilter": "Biome",
   "caughtFilter": "Capturés",
   "unlocksFilter": "Amélio.",
   "miscFilter": "Divers",
@@ -8,14 +9,20 @@
   "all": "Tous",
   "normal": "Normal",
   "uncaught": "Non-capturé",
+  "uncatchable": "Introuvable sauvage",
   "passive": "Passif",
   "passiveUnlocked": "Passif débloqué",
   "passiveLocked": "Passif verrouillé",
   "passiveUnlockable": "Passif déblocable",
   "costReduction": "Cout réduit",
-  "costReductionUnlocked": "Cout réduit débloqué",
+  "costReductionUnlocked": "Cout réduit - Tous",
+  "costReductionUnlockedOne": "Cout réduit 1 fois",
+  "costReductionUnlockedTwo": "Cout réduit 2 fois",
   "costReductionLocked": "Cout réduit verrouillé",
   "costReductionUnlockable": "Cout réduit déblocable",
+  "starter": "Starter",
+  "isStarter": "Starter - Oui",
+  "notStarter": "Starter - Non",
   "favorite": "Favoris",
   "isFavorite": "Favoris uniquement",
   "notFavorite": "Sans Favoris",
@@ -34,5 +41,7 @@
   "sortByCost": "Par cout",
   "sortByCandies": "Par bonbons",
   "sortByIVs": "Par IV",
-  "sortByName": "Par nom"
+  "sortByName": "Par nom",
+  "sortByNumCaught": "Par n° capturés",
+  "sortByNumHatched": "Par n° éclos"
 }

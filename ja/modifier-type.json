@@ -1,11 +1,11 @@
 {
   "ModifierType": {
     "AddPokeballModifierType": {
-      "name": "{{modifierCount}}x {{pokeballName}}",
+      "name": "{{modifierCount}}x\n{{pokeballName}}",
       "description": "{{pokeballName}}を {{modifierCount}}個 手に入れる (所有: {{pokeballAmount}})\n捕捉率：{{catchRate}}"
     },
     "AddVoucherModifierType": {
-      "name": "{{modifierCount}}x {{voucherTypeName}}",
+      "name": "{{modifierCount}}x\n{{voucherTypeName}}",
       "description": "{{voucherTypeName}}を {{modifierCount}}個 手に入れる"
     },
     "PokemonHeldItemModifierType": {
@@ -44,7 +44,7 @@
     },
     "PokemonNatureChangeModifierType": {
       "name": "{{natureName}}ミント",
-      "description": "ポケモンの 性格を {{natureName}}に 変える （あとで スターター 画面でも 選べる）"
+      "description": "ポケモンの 性格を {{natureName}}に 変える （あげるポケモンは あとで この性格を スターター 画面でも 選べる）"
     },
     "DoubleBattleChanceBoosterModifierType": {
       "description": "バトル{{battleCount}}回の 間 ダブルバトルに なる 確率を 4倍に する"
@@ -103,21 +103,21 @@
       "description": "持っているポケモンの もらう経験値を {{boostPercent}}% 増やす"
     },
     "PokemonFriendshipBoosterModifierType": {
-      "description": "持たせると 勝利後の なかよし度の 収穫が 50%で 上がる"
+      "description": "持たせると なかよし度の 収穫が 50%で 上がる"
     },
     "PokemonMoveAccuracyBoosterModifierType": {
       "description": "技の 命中率を {{accuracyAmount}} 増やす （最大 100）"
     },
     "PokemonMultiHitModifierType": {
-      "description": "持たせると 攻撃が もう一度 当たるが、 威力が 減る （1個： 60%減る/ 2個： 75%減る/ 3個： 82.5%減る）"
+      "description": "持たせると 攻撃技の ダメージの 25%が もう一回の 攻撃で 出す"
     },
     "TmModifierType": {
-      "name": "TM{{moveId}}\n{{moveName}}",
+      "name": "わざマシン{{moveId}}\n{{moveName}}",
       "description": "ポケモンに {{moveName}}を 教える"
     },
     "TmModifierTypeWithInfo": {
-      "name": "TM{{moveId}}\n{{moveName}}",
-      "description": "ポケモンに {{moveName}}を 教える\n（Cキー／Shiftキーを押すと 技情報が 見える)"
+      "name": "わざマシン{{moveId}}\n{{moveName}}",
+      "description": "ポケモンに {{moveName}}を 教える\n(Cキー／Shiftキーを 押すと 技情報が 見える)"
     },
     "EvolutionItemModifierType": {
       "description": "ある特定の ポケモンを 進化させる"
@@ -126,7 +126,7 @@
       "description": "ある特定の ポケモンを フォームチェンジさせる"
     },
     "FusePokemonModifierType": {
-      "description": "2匹の ポケモンを 吸収合体する （特性が 移行し、 基本能力と タイプを 分け、 覚える 技を 共有する）"
+      "description": "2匹の ポケモンを 吸収合体する (特性が 移行し、 基本能力と タイプを 分け、 覚える 技を 共有する)"
     },
     "TerastallizeModifierType": {
       "name": "テラピース{{teraType}}",
@@ -374,6 +374,10 @@
       "name": "とくせいおまもり",
       "description": "隠れ特性がある ポケモンと 大きく 出会いやすくなる"
     },
+    "CATCHING_CHARM": {
+      "name": "ゆれないおまもり",
+      "description": "ほかくクリティカルが 発生しやすくなる"
+    },
     "IV_SCANNER": {
       "name": "こたいちスキャナー",
       "description": "野生ポケモンの 個体値を 検査できる。 スキャナーあたり 個体値が 2つ 見える。 最高の 個体値が 最初に 見える。"
@@ -456,6 +460,14 @@
     "QUICK_POWDER": {
       "name": "スピードパウダー",
       "description": "メタモンに 持たせると 素早さが あがる 不思議な粉。 とても こまかくて 硬い"
+    },
+    "DEEP_SEA_SCALE": {
+      "name": "しんかいのウロコ",
+      "description": "パールルに 持たせると 特防が あがる ウロコ。 うすい ピンク色に 光る。"
+    },
+    "DEEP_SEA_TOOTH": {
+      "name": "しんかいのキバ",
+      "description": "パールルに 持たせると 特攻が あがる キバ。 鋭く 銀色に 光る。"
     }
   },
   "TempStatStageBoosterItem": {

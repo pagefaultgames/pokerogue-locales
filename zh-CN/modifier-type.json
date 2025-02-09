@@ -103,13 +103,13 @@
       "description": "持有者经验值获取量增加{{boostPercent}}%。"
     },
     "PokemonFriendshipBoosterModifierType": {
-      "description": "每场战斗获得的好感度提升50%。"
+      "description": "亲密度获取量增加50%。"
     },
     "PokemonMoveAccuracyBoosterModifierType": {
       "description": "招式命中率增加{{accuracyAmount}}(最大100)。"
     },
     "PokemonMultiHitModifierType": {
-      "description": "伤害降低60/75/82.5%的同时造成2/3/4次伤害。"
+      "description": "将持有者本次伤害的25%转化为一次独立的攻击。"
     },
     "TmModifierType": {
       "name": "招式学习器\n{{moveId}} - {{moveName}}",
@@ -373,6 +373,10 @@
     "ABILITY_CHARM": {
       "name": "特性护符",
       "description": "显著增加野生宝可梦有隐藏特性的概率。"
+    },
+    "CATCHING_CHARM": {
+      "name": "捕获护符",
+      "description": "增加关键捕获的几率。"
     },
     "IV_SCANNER": {
       "name": "个体值探测器",
