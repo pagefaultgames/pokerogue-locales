@@ -10,7 +10,7 @@
     },
     "PokemonHeldItemModifierType": {
       "extra": {
-        "inoperable": "{{pokemonName}} can't take\nthis item!",
+        "inoperable": "{{pokemonName}} can’t take\nthis item!",
         "tooMany": "{{pokemonName}} has too many\nof this item!"
       }
     },
@@ -34,9 +34,9 @@
       }
     },
     "PokemonAllMovePpRestoreModifierType": {
-      "description": "Restores {{restorePoints}} PP for all of one Pokémon's moves.",
+      "description": "Restores {{restorePoints}} PP for all of one Pokémon’s moves.",
       "extra": {
-        "fully": "Restores all PP for all of one Pokémon's moves."
+        "fully": "Restores all PP for all of one Pokémon’s moves."
       }
     },
     "PokemonPpUpModifierType": {
@@ -44,7 +44,7 @@
     },
     "PokemonNatureChangeModifierType": {
       "name": "{{natureName}} Mint",
-      "description": "Changes a Pokémon's nature to {{natureName}} and permanently unlocks the nature for the starter."
+      "description": "Changes a Pokémon’s nature to {{natureName}} and permanently unlocks the nature for the starter."
     },
     "DoubleBattleChanceBoosterModifierType": {
       "description": "Quadruples the chance of an encounter being a double battle for up to {{battleCount}} battles."
@@ -57,20 +57,20 @@
       }
     },
     "AttackTypeBoosterModifierType": {
-      "description": "Increases the power of a Pokémon's {{moveType}}-type moves by 20%."
+      "description": "Increases the power of a Pokémon’s {{moveType}}-type moves by 20%."
     },
     "PokemonLevelIncrementModifierType": {
-      "description": "Increases a Pokémon's level by {{levels}}."
+      "description": "Increases a Pokémon’s level by {{levels}}."
     },
     "AllPokemonLevelIncrementModifierType": {
-      "description": "Increases all party members' level by {{levels}}."
+      "description": "Increases all party members’ level by {{levels}}."
     },
     "BaseStatBoosterModifierType": {
-      "description": "Increases the holder's base {{stat}} by 10%. The higher your IVs, the higher the stack limit."
+      "description": "Increases the holder’s base {{stat}} by 10%. The higher your IVs, the higher the stack limit."
     },
     "PokemonBaseStatTotalModifierType": {
       "name": "Shuckle Juice",
-      "description": "{{increaseDecrease}} all of the holder's base stats by {{statValue}}. You were {{blessCurse}} by the Shuckle.",
+      "description": "{{increaseDecrease}} all of the holder’s base stats by {{statValue}}. You were {{blessCurse}} by the Shuckle.",
       "extra": {
         "increase": "Increases",
         "decrease": "Decreases",
@@ -80,7 +80,7 @@
     },
     "PokemonBaseStatFlatModifierType": {
       "name": "Old Gateau",
-      "description": "Increases the holder's {{stats}} base stats by {{statValue}}. Found after a strange dream."
+      "description": "Increases the holder’s {{stats}} base stats by {{statValue}}. Found after a strange dream."
     },
     "AllPokemonFullHpRestoreModifierType": {
       "description": "Restores 100% HP for all Pokémon."
@@ -100,16 +100,16 @@
       "description": "Increases gain of EXP. Points by {{boostPercent}}%."
     },
     "PokemonExpBoosterModifierType": {
-      "description": "Increases the holder's gain of EXP. Points by {{boostPercent}}%."
+      "description": "Increases the holder’s gain of EXP. Points by {{boostPercent}}%."
     },
     "PokemonFriendshipBoosterModifierType": {
-      "description": "Increases friendship gain per victory by 50%."
+      "description": "Increases friendship gain by 50%."
     },
     "PokemonMoveAccuracyBoosterModifierType": {
       "description": "Increases move accuracy by {{accuracyAmount}} (maximum 100)."
     },
     "PokemonMultiHitModifierType": {
-      "description": "Attacks hit one additional time at the cost of a 60/75/82.5% power reduction per stack respectively."
+      "description": "Converts 25% of damage from the holder’s attacks into an additional strike."
     },
     "TmModifierType": {
       "name": "TM{{moveId}} - {{moveName}}",
@@ -133,7 +133,7 @@
       "description": "{{teraType}} Terastallizes the holder for up to 10 battles."
     },
     "ContactHeldItemTransferChanceModifierType": {
-      "description": "Upon attacking, there is a {{chancePercent}}% chance the foe's held item will be stolen."
+      "description": "Upon attacking, there is a {{chancePercent}}% chance the foe’s held item will be stolen."
     },
     "TurnHeldItemTransferModifierType": {
       "description": "Every turn, the holder acquires one held item from the foe."
@@ -184,9 +184,9 @@
     "SUPER_LURE": { "name": "Super Lure" },
     "MAX_LURE": { "name": "Max Lure" },
 
-    "MEMORY_MUSHROOM": { "name": "Memory Mushroom", "description": "Recall one Pokémon's forgotten move." },
+    "MEMORY_MUSHROOM": { "name": "Memory Mushroom", "description": "Recall one Pokémon’s forgotten move." },
 
-    "EXP_SHARE": { "name": "EXP. All", "description": "Non-participants receive 20% of a single participant's EXP. Points." },
+    "EXP_SHARE": { "name": "EXP. All", "description": "Non-participants receive 20% of a single participant’s EXP. Points." },
     "EXP_BALANCE": { "name": "EXP. Balance", "description": "Weighs EXP. Points received from battles towards lower-leveled party members." },
 
     "OVAL_CHARM": { "name": "Oval Charm", "description": "When multiple Pokémon participate in a battle, each gets an extra 10% of the total EXP." },
@@ -200,13 +200,13 @@
 
     "SOOTHE_BELL": { "name": "Soothe Bell" },
 
-    "SCOPE_LENS": { "name": "Scope Lens", "description": "It's a lens for scoping out weak points. It boosts the holder's critical-hit ratio."},
+    "SCOPE_LENS": { "name": "Scope Lens", "description": "It’s a lens for scoping out weak points. It boosts the holder’s critical-hit ratio."},
     "DIRE_HIT": { "name": "Dire Hit", "extra": { "raises": "Critical Hit Ratio" } },
-    "LEEK": { "name": "Leek", "description": "This very long and stiff stalk of leek boosts the critical-hit ratio of Farfetch'd's moves."},
+    "LEEK": { "name": "Leek", "description": "This very long and stiff stalk of leek boosts the critical-hit ratio of Farfetch’d’s moves."},
 
     "EVIOLITE": { "name": "Eviolite", "description": "This mysterious evolutionary lump boosts the Defense and Sp. Def stats when held by a Pokémon that can still evolve." },
 
-    "SOUL_DEW": { "name": "Soul Dew", "description": "Increases the influence of a Pokémon's nature on its stats by 10% (additive)." },
+    "SOUL_DEW": { "name": "Soul Dew", "description": "Increases the influence of a Pokémon’s nature on its stats by 10% (additive)." },
 
     "NUGGET": { "name": "Nugget" },
     "BIG_NUGGET": { "name": "Big Nugget" },
@@ -232,13 +232,13 @@
 
     "QUICK_CLAW": { "name": "Quick Claw", "description": "Adds a 10% chance to move first regardless of speed (after priority)." },
 
-    "KINGS_ROCK": { "name": "King's Rock", "description": "Adds a 10% chance an attack move will cause the opponent to flinch." },
+    "KINGS_ROCK": { "name": "King’s Rock", "description": "Adds a 10% chance an attack move will cause the opponent to flinch." },
 
-    "LEFTOVERS": { "name": "Leftovers", "description": "Heals 1/16 of a Pokémon's maximum HP every turn." },
-    "SHELL_BELL": { "name": "Shell Bell", "description": "Heals 1/8 of a Pokémon's dealt damage." },
+    "LEFTOVERS": { "name": "Leftovers", "description": "Heals 1/16 of a Pokémon’s maximum HP every turn." },
+    "SHELL_BELL": { "name": "Shell Bell", "description": "Heals 1/8 of a Pokémon’s dealt damage." },
 
-    "TOXIC_ORB": { "name": "Toxic Orb", "description": "It's a bizarre orb that exudes toxins when touched and will badly poison the holder during battle." },
-    "FLAME_ORB": { "name": "Flame Orb", "description": "It's a bizarre orb that gives off heat when touched and will affect the holder with a burn during battle." },
+    "TOXIC_ORB": { "name": "Toxic Orb", "description": "It’s a bizarre orb that exudes toxins when touched and will badly poison the holder during battle." },
+    "FLAME_ORB": { "name": "Flame Orb", "description": "It’s a bizarre orb that gives off heat when touched and will affect the holder with a burn during battle." },
 
     "EVOLUTION_TRACKER_GIMMIGHOUL": { "name": "Treasures", "description": "This Pokémon loves treasure! Keep collecting treasure and something might happen!"},
 
@@ -268,15 +268,17 @@
 
     "MYSTERY_ENCOUNTER_SHUCKLE_JUICE": { "name": "Shuckle Juice" },
     "MYSTERY_ENCOUNTER_BLACK_SLUDGE": { "name": "Black Sludge", "description": "The stench is so powerful that shops will only sell you items at a steep cost increase." },
-    "MYSTERY_ENCOUNTER_MACHO_BRACE": { "name": "Macho Brace", "description": "Defeating a Pokémon grants the holder a Macho Brace stack. Each stack slightly boosts stats, with an extra bonus at max stacks." },
-    "MYSTERY_ENCOUNTER_OLD_GATEAU": { "name": "Old Gateau", "description": "Increases the holder's {{stats}} stats by {{statValue}}." },
+    "MYSTERY_ENCOUNTER_MACHO_BRACE": { "name": "Macho Brace", "description": "Defeating a Pokémon grants the holder a stack of it. Each stack boosts stats a bit. Bonus at max stacks." },
+    "MYSTERY_ENCOUNTER_OLD_GATEAU": { "name": "Old Gateau", "description": "Increases the holder’s {{stats}} stats by {{statValue}}." },
     "MYSTERY_ENCOUNTER_GOLDEN_BUG_NET": { "name": "Golden Bug Net", "description": "Imbues the owner with luck to find Bug Type Pokémon more often. Has a strange heft to it." }
   },
   "SpeciesBoosterItem": {
-    "LIGHT_BALL": { "name": "Light Ball", "description": "It's a mysterious orb that boosts Pikachu's Attack and Sp. Atk stats." },
-    "THICK_CLUB": { "name": "Thick Club", "description": "This hard bone of unknown origin boosts Cubone or Marowak's Attack stat." },
-    "METAL_POWDER": { "name": "Metal Powder", "description": "Extremely fine yet hard, this odd powder boosts Ditto's Defense stat." },
-    "QUICK_POWDER": { "name": "Quick Powder", "description": "Extremely fine yet hard, this odd powder boosts Ditto's Speed stat." }
+    "LIGHT_BALL": { "name": "Light Ball", "description": "It’s a mysterious orb that boosts Pikachu’s Attack and Sp. Atk stats." },
+    "THICK_CLUB": { "name": "Thick Club", "description": "This hard bone of unknown origin boosts Cubone or Marowak’s Attack stat." },
+    "METAL_POWDER": { "name": "Metal Powder", "description": "Extremely fine yet hard, this odd powder boosts Ditto’s Defense stat." },
+    "QUICK_POWDER": { "name": "Quick Powder", "description": "Extremely fine yet hard, this odd powder boosts Ditto’s Speed stat." },
+    "DEEP_SEA_SCALE": { "name": "Deep Sea Scale", "description": "This scale shines with a faint pink and boosts Clamperl’s Sp. Def stat." },
+    "DEEP_SEA_TOOTH": { "name": "Deep Sea Tooth", "description": "This fang gleams a sharp silver and boosts Clamperl’s Sp. Atk stat." }
   },
   "TempStatStageBoosterItem": {
     "x_attack": "X Attack",
@@ -345,7 +347,7 @@
     "PROTECTOR": "Protector",
     "SACHET": "Sachet",
     "WHIPPED_DREAM": "Whipped Dream",
-    "LEADERS_CREST": "Leader's Crest",
+    "LEADERS_CREST": "Leader’s Crest",
     "SUN_FLUTE": "Sun Flute",
     "MOON_FLUTE": "Moon Flute",
 

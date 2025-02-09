@@ -1,5 +1,5 @@
 {
-  "intro": "It's a strange machine, whirring noisily...",
+  "intro": "It’s a strange machine, whirring noisily...",
   "title": "Teleporting Hijinks",
   "description": "The machine has a sign on it that reads:\n  \"To use, insert money then step into the capsule.\"\n\nPerhaps it can transport you somewhere...",
   "query": "What will you do?",
@@ -13,12 +13,12 @@
       "label": "A Pokémon Helps",
       "tooltip": "(-) {{option2PrimaryName}} Helps\n(+) {{option2PrimaryName}} gains EXP\n(?) Teleport to New Biome",
       "disabled_tooltip": "You need a Steel or Electric Type Pokémon to choose this",
-      "selected": "{{option2PrimaryName}}'s Type allows it to bypass the machine's paywall!$The capsule opens, and you step inside..."
+      "selected": "{{option2PrimaryName}}’s Type allows it to bypass the machine’s paywall!$The capsule opens, and you step inside..."
     },
     "3": {
       "label": "Inspect the Machine",
       "tooltip": "(-) Pokémon Battle",
-      "selected": "You are drawn in by the blinking lights\nand strange noises coming from the machine...$You don't even notice as a wild\nPokémon sneaks up and ambushes you!"
+      "selected": "You are drawn in by the blinking lights\nand strange noises coming from the machine...$You don’t even notice as a wild\nPokémon sneaks up and ambushes you!"
     }
   },
   "transport": "The machine shakes violently,\nmaking all sorts of strange noises!$Just as soon as it had started, it quiets once more.",

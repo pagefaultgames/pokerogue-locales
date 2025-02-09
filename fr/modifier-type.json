@@ -5,7 +5,7 @@
       "description": "Recevez {{modifierCount}} {{pokeballName}}·s. (Inventaire : {{pokeballAmount}})\nTaux de capture : {{catchRate}}"
     },
     "AddVoucherModifierType": {
-      "name": "{{voucherTypeName}} x{{modifierCount}}",
+      "name": "{{voucherTypeName}} ×{{modifierCount}}",
       "description": "Recevez {{modifierCount}} {{voucherTypeName}}."
     },
     "PokemonHeldItemModifierType": {
@@ -103,13 +103,13 @@
       "description": "Augmente de {{boostPercent}}% le gain de Points d’Exp du porteur."
     },
     "PokemonFriendshipBoosterModifierType": {
-      "description": "Augmente le gain de bonheur de 50% par victoire."
+      "description": "Augmente le gain de bonheur de 50%."
     },
     "PokemonMoveAccuracyBoosterModifierType": {
       "description": "Augmente de {{accuracyAmount}} la précision des capacités (maximum 100)."
     },
     "PokemonMultiHitModifierType": {
-      "description": "Frappe une fois de plus en échange d’une baisse de puissance de respectivement 60/75/82,5% par cumul."
+      "description": "Le porteur convertit 25% des dégâts d’une attaque en frappe supplémentaire."
     },
     "TmModifierType": {
       "name": "CT{{moveId}} - {{moveName}}",
@@ -234,7 +234,7 @@
     },
     "EXP_SHARE": {
       "name": "Multi Exp",
-      "description": "Tous les non-participants reçoivent 20% des Points d’Exp d’un participant."
+      "description": "Tout Pokémon de l’équipe n’ayant pas participé au combat reçoit 20% des Points d’Exp d’un participant."
     },
     "EXP_BALANCE": {
       "name": "Équilibr’Exp",
@@ -415,7 +415,7 @@
     },
     "ENEMY_STATUS_EFFECT_HEAL_CHANCE": {
       "name": "Jeton Total Soin",
-      "description": "Ajoute 2,5% de chances à chaque tour de se soigner d’un problème de statut."
+      "description": "Ajoute à chaque tour 2,5% de chances de se soigner d’un problème de statut."
     },
     "ENEMY_ENDURE_CHANCE": {
       "name": "Jeton Ténacité"
@@ -433,7 +433,7 @@
     },
     "MYSTERY_ENCOUNTER_MACHO_BRACE": {
       "name": "Bracelet Macho",
-      "description": "Battre un Pokémon donnera à son porteur un lot de Bracelet Macho. Chacun augmentant légèrement les stats, avec un bonus au max de lots."
+      "description": "Battre un Pokémon donne au porteur un lot de cet objet. Chacun augmente un peu les stats. Bonus au max de lots."
     },
     "MYSTERY_ENCOUNTER_OLD_GATEAU": {
       "name": "Vieux Gâteau",
@@ -460,6 +460,14 @@
     "QUICK_POWDER": {
       "name": "Poudre Vite",
       "description": "À faire tenir à Métamorph. Cette poudre étrange, très fine mais résistante, double sa Vitesse."
+    },
+    "DEEP_SEA_SCALE": {
+      "name": "Écaille Océan",
+      "description": "À faire tenir à Coquiperl. Une écaille de couleur rose qui augmente sa Déf. Spé. ."
+    },
+    "DEEP_SEA_TOOTH": {
+      "name": "Dent Océan",
+      "description": "À faire tenir à Coquiperl. Une dent de couleur argent qui augmente son Atq. Spé. ."
     }
   },
   "TempStatStageBoosterItem": {

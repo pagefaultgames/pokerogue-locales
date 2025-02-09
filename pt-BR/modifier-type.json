@@ -103,13 +103,13 @@
       "description": "Aumenta o ganho de pontos de experiência de quem segura em {{boostPercent}}%."
     },
     "PokemonFriendshipBoosterModifierType": {
-      "description": "Aumenta o ganho de amizade por vitória em 50%."
+      "description": "Aumenta o ganho de amizade em 50%."
     },
     "PokemonMoveAccuracyBoosterModifierType": {
       "description": "Aumenta a precisão dos movimentos em {{accuracyAmount}} (máximo 100)."
     },
     "PokemonMultiHitModifierType": {
-      "description": "Ataques acertam uma vez adicional ao custo de uma redução de poder de 60/75/82.5% por item, respectivamente."
+      "description": "Converte 25% do dano dos ataques de quem segurar em um acerto adicional."
     },
     "TmModifierType": {
       "name": "TM{{moveId}} - {{moveName}}",
@@ -374,6 +374,10 @@
       "name": "Amuleto de Habilidade",
       "description": "Aumenta drasticamente a chance de um Pokémon selvagem ter uma Habilidade Oculta."
     },
+    "CATCHING_CHARM": {
+      "name": "Amuleto de Captura",
+      "description": "Aumenta as chances de uma captura crítica."
+    },
     "IV_SCANNER": {
       "name": "Scanner de IVs",
       "description": "Permite escanear os IVs de Pokémon selvagens. 2 IVs são revelados por item. Os melhores IVs são mostrados primeiro."
@@ -456,6 +460,14 @@
     "QUICK_POWDER": {
       "name": "Pó Veloz",
       "description": "Extremamente fino, porém duro, este pó estranho aumenta o atributo de Velocidade de Ditto."
+    },
+    "DEEP_SEA_SCALE": {
+      "name": "Escama Marinha",
+      "description": "Essa escama brilha com um rosa fraco e aumenta a Def. Esp. de Clamperl."
+    },
+    "DEEP_SEA_TOOTH": {
+      "name": "Dente Marinho",
+      "description": "Essa presa brilha com uma prata afiada e aumenta o Ata. Esp. do Clamperl."
     }
   },
   "TempStatStageBoosterItem": {

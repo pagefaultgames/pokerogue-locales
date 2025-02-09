@@ -1,14 +1,14 @@
 {
   "intro": "An {{oricorioName}} dances sadly alone, without a partner.",
   "title": "Dancing Lessons",
-  "description": "The {{oricorioName}} doesn't seem aggressive, if anything it seems despondent.\n\nPerhaps it just wants someone to dance with...",
+  "description": "The {{oricorioName}} doesn’t seem aggressive, if anything it seems despondent.\n\nPerhaps it just wants someone to dance with...",
   "query": "What will you do?",
   "option": {
     "1": {
       "label": "Battle It",
       "tooltip": "(-) Tough Battle\n(+) Gain a Baton",
       "selected": "The {{oricorioName}} is distraught and moves to defend itself!",
-      "boss_enraged": "The {{oricorioName}}'s fear boosted its stats!"
+      "boss_enraged": "The {{oricorioName}}’s fear boosted its stats!"
     },
     "2": {
       "label": "Learn Its Dance",
@@ -23,5 +23,5 @@
       "selected": "The {{oricorioName}} watches in fascination as\n{{selectedPokemon}} shows off {{selectedMove}}!$It loves the display!$@s{level_up_fanfare}The {{oricorioName}} wants to join your party!"
     }
   },
-  "invalid_selection": "This Pokémon doesn't know a Dance move"
+  "invalid_selection": "This Pokémon doesn’t know a Dance move"
 }

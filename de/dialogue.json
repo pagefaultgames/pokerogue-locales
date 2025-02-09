@@ -421,6 +421,30 @@
       "3": "Ich glaube, ich bin der der seekrank ist..."
     }
   },
+  "clerk": {
+    "encounter": {
+      "1": "Ich habe Ärger mit dem Chef.\nAm besten reagiere ich meinen Frust an dir ab.",
+      "2": "Noch bin ich nur ein Laufbursche, aber\nbald werde ich hier das Sagen haben!",
+      "3": "Ich wurde geboren, um zu arbeiten.\nDas ist mein Schicksal."
+    },
+    "victory": {
+      "1": "Ach Mann, was ist nur mit mir los?\nIch bin echt zu gar nichts zu gebrauchen.",
+      "2": "Mein Talent gleicht dem Glanz eines hellen Sternes! Wie konnte ich nur verlieren?",
+      "3": "Dass ich hier kämpfe, gehört übrigens auch zu meiner Arbeit!"
+    }
+  },
+  "clerk_female": {
+    "encounter": {
+      "1": "Ich habe Großes vor! Ich werde unsere Firma von Grund auf umkrempeln!",
+      "2": "Eine Firma mit glücklichen Angestellten ist eine gute Firma!",
+      "3": "Im Büro werde ich wie ein Star behandelt. Ich werde dort regelrecht verhätschelt!"
+    },
+    "victory": {
+      "1": "Ich war blind vor Ehrgeiz. Mein strahlender Traum hatte mich geblendet.",
+      "2": "Hoppla, schon so spät! Jetzt muss ich aber ganz flott zurück ins Büro!",
+      "3": "Meine Kollegen nehmen mir all die Arbeit ab. Ich drehe im Büro nur noch Däumchen."
+    }
+  },
   "archer": {
     "encounter": {
       "1": "Bevor du weitergehst, lass uns sehen, wie du dich gegen uns, Team Rocket, schlägst!",
@@ -574,18 +598,16 @@
       "3_female": "Hm. Du bist ein klügerer Trainer, als ich erwartet habe, aber nicht klug genug."
     }
   },
-  "rood": {
+  "colress": {
     "encounter": {
-      "1": "Du bist eine Bedrohung für Team Plasma. Wir können dich hier und jetzt nicht laufen lassen!",
-      "1_female": "Du bist eine Bedrohung für Team Plasma. Wir können dich hier und jetzt nicht laufen lassen!",
-      "2": "Oh, dieser eisige Wind... Ich hätte nie gedacht, dass ich hier kämpfen müsste!",
-      "3": "Du bist ein bemerkenswerter Trainer, dass du es bis hierher geschafft hast. Aber hier wird es enden.",
-      "3_female": "Du bist ein bemerkenswerter Trainer, dass du es bis hierher geschafft hast. Aber hier wird es enden."
+      "1": "Als Akademiker bin ich freilich stets auf\nder Suche nach verifizierbaren Fakten,\n$nach der wissenschaftlichen Wahrheit,\nwenn man so will...\n$Ganz konkret möchte ich die Kräfte der\nPokémon ergründen...\n$Wie gelingt es einem am besten, ihnen ihre\nKräfte zu entlocken?\n$Ich hoffe ja, der Clou dahinter ist nach\nwie vor das Vertrauensverhältnis, das\n$zwischen einem Trainer und seinen\nPokémon besteht!\n$Ich bin schon sehr gespannt, ob du mir\ndie Richtigkeit meiner Annahme gleich\n$bestätigen wirst!",
+      "2": "Team Plasma hat proklamiert, dass wir\ndas Potenzial der Pokémon anerkennen\n$und sie freilassen müssen...\nDoch diese Meinung kann ich nicht teilen!\n$Ich finde, es ist an uns Menschen,\nden Pokémon zu helfen, ihr volles\n$Potenzial auszuschöpfen!\n$Dann will ich mal sehen, ob du ein Trainer\nbist, der das volle Potenzial der Pokémon\n$zum Vorschein bringen kann!",
+      "3": "Mein Wunsch ist es, den Pokémon\nall ihre Kräfte zu entlocken!\n$Um das zu erreichen,\nist mir jedes Mittel recht!\n$Mir ist es egal, ob diese Kräfte durch\ndie Interaktion mit euch Trainern oder\n$durch einen rücksichtslosen Ansatz wie\ndem von Team Plasma entfaltet werden!\n$Selbst wenn dadurch die Welt zugrunde\ngerichtet würde!!\n$Verrate mir, ob du die Antwort\nauf meine Frage kennst!\n$Wenn du bereit bist, greif mich an!"
     },
     "victory": {
-      "1": "G-Cis... Ich habe meine Mission nicht erfüllt...",
-      "2": "Die Kälte ist durchdringend. Ich zittere. Ich leide. Doch ich habe gesiegt.",
-      "3": "Hm. Du bist ein talentierter Trainer, aber leider nicht talentiert genug."
+      "1": "Faszinierend!\n$Aus diesem Kampf konnte ich tatsächlich\neine wissenschaftliche Erkenntnis gewinnen!",
+      "2": "Nicht übel!\nDu hast ganz schön was drauf!",
+      "3": "Das bedeutet es also, die schlummernden\nKräfte seiner Pokémon zu wecken!"
     }
   },
   "xerosic": {
@@ -1246,7 +1268,7 @@
     "victory": {
       "1": "Die Stärke deiner Pokémon hat meine steinharte Verteidigung überwunden!",
       "2": "Die Welt ist riesig! Ich bin froh, dass ich die Chance hatte, gegen dich zu kämpfen.",
-      "3": "Perhaps I should go back to pursuing my dream as a Pokémon Breeder…"
+      "3": "Vielleicht sollte ich wieder zu meinem Traum, ein Pokemonzüchter zu werden, zurückkehren..."
     },
     "defeat": {
       "1": "Der beste Angriff ist eine gute Verteidigung!\nDas ist meine Art, Dinge zu tun!",
@@ -2460,6 +2482,17 @@
       "1": "Juhu! Wir haben gewonnen!"
     }
   },
+  "kukui": {
+    "encounter": {
+      "1": "$Meinen Glückwunsch junger Trainer!\nJetzt bist du der Champ der Pokémon-Liga!\n$Na ja, das heißt...\nVorausgesetzt, dass du jetzt auch noch den\n$letzten Trainer besiegst...!\n$Und dieser Trainer bin natürlich ich!\n$Lass uns die Geburt dieser neuen Pokémon-Liga\nmit einem epischen Kampf angemessen feiern!"
+    },
+    "victory": {
+      "1": "Obwohl ich alle Kraftreserven mobilisiert habe, hat es\nnicht gereicht... Aber was für ein erfrischender Kampf!"
+    },
+    "defeat": {
+      "1": "Ich bin wirklich froh, an diesem traumhaften Ort\ngegen dich und dein tolles Team gekämpft zu haben"
+    }
+  },
   "hau": {
     "encounter": {
       "1": "Ich frage mich, ob ein Trainer anders kämpft,\n$je nachdem, ob er aus einer warmen oder einer kalten Region stammt.\n$Lass es uns testen!"
@@ -2502,6 +2535,17 @@
     },
     "defeat": {
       "1": "Das war eine absolut großartige Zeit!"
+    }
+  },
+  "mustard": {
+    "encounter": {
+      "1": "Ich habe mich lange nicht so lebendig gefühlt!\nKämpfe gegen starke Gegner wie dich halten\n$einen jung! Nicht, dass ich alt wäre, aber...\nes kann nie schaden, hoho!\n$Dann wollen wir mal...\n$Möge die größte Gaudi aller Zeiten beginnen!"
+    },
+    "victory": {
+      "1": "Wuahaha! Obwohl ich ernsthaft Ernst gemacht\nhabe, musste ich eine Niederlage einfahren.\n$Sieht so aus, als müsste ich mit meinem eigenen\nTraining noch mal bei null anfangen, haha!"
+    },
+    "defeat": {
+      "1": "Hohoho! Sieht aus, als hätte ich gewonnen!\nDu warst aber auch nicht übel.\n$Lass uns das bald mal wiederholen!"
     }
   },
   "whitney": {
