@@ -289,8 +289,19 @@
   "paldeaTaurosAqua": "Aqua Breed",
   "floetteEternalFlower": "Eternal Flower",
   "ursalunaBloodmoon": "Bloodmoon",
-  "regionalFormALOLA": "Alolan Form",
-  "regionalFormGALAR": "Galarian Form",
-  "regionalFormHISUI": "Hisuian Form",
-  "regionalFormPALDEA": "Paldean Form"
+  "regionalForm": {
+    "ALOLA": "Alolan Form",
+    "GALAR": "Galarian Form",
+    "HISUI": "Hisuian Form",
+    "PALDEA": "Paldean Form"
+  },
+  "appendForm": {
+    "GENERIC": "{{pokemonName}} ({{formName}})",
+    "ALOLA": "Alolan {{pokemonName}}",
+    "GALAR": "Galarian {{pokemonName}}",
+    "HISUI": "Hisuian {{pokemonName}}",
+    "PALDEA": "Paldean {{pokemonName}}",
+    "ETERNAL": "Eternal Flower {{pokemonName}}",
+    "BLOODMOON": "Bloodmoon {{pokemonName}}"
+  }
 }
