@@ -1,6 +1,7 @@
 {
   "genFilter": "세대",
   "typeFilter": "타입",
+  "biomeFilter": "바이옴",
   "caughtFilter": "포획",
   "unlocksFilter": "해금",
   "miscFilter": "기타",
@@ -8,14 +9,20 @@
   "all": "전체",
   "normal": "기본",
   "uncaught": "미포획",
+  "uncatchable": "서식지 불명",
   "passive": "패시브",
   "passiveUnlocked": "패시브 해금",
   "passiveLocked": "패시브 잠김",
   "passiveUnlockable": "패시브 해금 가능",
   "costReduction": "코스트 감소",
   "costReductionUnlocked": "코스트 감소됨",
+  "costReductionUnlockedOne": "코스트 감소됨 - 1회",
+  "costReductionUnlockedTwo": "코스트 감소됨 - 2회",
   "costReductionLocked": "코스트 감소 없음",
   "costReductionUnlockable": "코스트 감소 가능",
+  "starter": "스타팅",
+  "isStarter": "스타팅 등록됨",
+  "notStarter": "스타팅 미등록",
   "favorite": "즐겨찾기",
   "isFavorite": "즐겨찾기 등록됨",
   "notFavorite": "즐겨찾기 제외됨",
@@ -34,5 +41,7 @@
   "sortByCost": "코스트",
   "sortByCandies": "사탕 수",
   "sortByIVs": "개체값",
-  "sortByName": "이름"
+  "sortByName": "이름",
+  "sortByNumCaught": "포획 횟수",
+  "sortByNumHatched": "부화 횟수"
 }
