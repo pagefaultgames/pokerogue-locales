@@ -289,8 +289,17 @@
   "paldeaTaurosAqua": "ウォーター",
   "floetteEternalFlower": "えいえんのはな",
   "ursalunaBloodmoon": "アカツキ",
-  "regionalFormALOLA": "アローラのすがた",
-  "regionalFormGALAR": "ガラルのすがた",
-  "regionalFormHISUI": "ヒスイのすがた",
-  "regionalFormPALDEA": "パルデアのすがた"
+  "regionalForm": {
+    "ALOLA": "アローラのすがた",
+    "GALAR": "ガラルのすがた",
+    "HISUI": "ヒスイのすがた",
+    "PALDEA": "パルデアのすがた"
+  },
+  "appendForm": {
+    "GENERIC": "{{pokemonName}} ({{formName}})",
+    "ALOLA": "アローラの{{pokemonName}}",
+    "GALAR": "ガラルの{{pokemonName}}",
+    "HISUI": "ヒスイの{{pokemonName}}",
+    "PALDEA": "パルデアの{{pokemonName}}"
+  }
 }
