@@ -1,6 +1,7 @@
 {
   "genFilter": "世代",
   "typeFilter": "属性",
+  "biomeFilter": "环境",
   "caughtFilter": "捕获",
   "unlocksFilter": "解锁",
   "miscFilter": "混合",
@@ -8,14 +9,20 @@
   "all": "全部",
   "normal": "无闪光",
   "uncaught": "未捕获",
+  "uncatchable": "未知栖息地",
   "passive": "被动",
   "passiveUnlocked": "被动解锁",
   "passiveLocked": "被动未解锁",
   "passiveUnlockable": "被动可解锁",
   "costReduction": "费用降低",
   "costReductionUnlocked": "已降费",
+  "costReductionUnlockedOne": "费用减少1",
+  "costReductionUnlockedTwo": "费用减少2",
   "costReductionLocked": "未降费",
   "costReductionUnlockable": "可降费",
+  "starter": "初始宝可梦",
+  "isStarter": "初始宝可梦：是",
+  "notStarter": "初始宝可梦：否",
   "favorite": "最爱",
   "isFavorite": "包含最爱",
   "notFavorite": "不包含最爱",
@@ -34,5 +41,7 @@
   "sortByCost": "费用",
   "sortByCandies": "糖果",
   "sortByIVs": "个体",
-  "sortByName": "名称"
+  "sortByName": "名称",
+  "sortByNumCaught": "捕获数量",
+  "sortByNumHatched": "孵化数量"
 }
