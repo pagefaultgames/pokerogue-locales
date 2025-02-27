@@ -129,7 +129,8 @@
       "description": "2匹の ポケモンを 吸収合体する (特性が 移行し、 基本能力と タイプを 分け、 覚える 技を 共有する)"
     },
     "TerastallizeModifierType": {
-      "name": "テラピース{{teraType}}"
+      "name": "テラピース{{teraType}}",
+      "description": "テラスタイプを {{teraType}}に チェンジする"
     },
     "ContactHeldItemTransferChanceModifierType": {
       "description": "持っているポケモンが 攻撃すると 相手の 持っている アイテムを {{chancePercent}}%の 確率で 盗む"
@@ -158,7 +159,8 @@
       "description": "ダイキノコが 得られる ように なる"
     },
     "TERA_ORB": {
-      "name": "テラスタルオーブ"
+      "name": "テラスタルオーブ",
+      "description": "ポケモンが テラスタルできる ように する。 ゆっくりと チャージする。 テラピースも 見つけるように なる。"
     },
     "MAP": {
       "name": "ちず",
