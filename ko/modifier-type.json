@@ -129,7 +129,8 @@
       "description": "두 포켓몬을 결합시킨다. (특성 변환, 종족값과 타입 분배, 기술폭 공유)"
     },
     "TerastallizeModifierType": {
-      "name": "테라피스 {{teraType}}"
+      "name": "테라피스 {{teraType}}",
+      "description": "테라스탈타입을 {{teraType}} 타입으로 한다."
     },
     "ContactHeldItemTransferChanceModifierType": {
       "description": "공격했을 때, {{chancePercent}}%의 확률로 상대의 도구를 도둑질한다."
@@ -158,7 +159,8 @@
       "description": "다이버섯을 사용할 수 있게 된다."
     },
     "TERA_ORB": {
-      "name": "테라스탈오브"
+      "name": "테라스탈오브",
+      "description": "포켓몬들이 테라스탈할 수 있게 된다. 서서히 충전되며, 테라피스를 사용할 수 있게 된다."
     },
     "MAP": {
       "name": "지도",
