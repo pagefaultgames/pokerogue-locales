@@ -38,6 +38,7 @@ They will be able to provide you with further information.
 
 - th - Thai *(No translator available)*
 
-### Non-existent and wished by Translation Heads
+### Inclused because wished by Translation Heads
+*but never had any translator*
 
 - ru - Russian
