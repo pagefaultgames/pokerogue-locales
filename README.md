@@ -38,7 +38,7 @@ They will be able to provide you with further information.
 
 - th - Thai *(No translator available)*
 
-### Inclused because wished by Translation Heads
-*but never had any translator*
+### Included and pending because wished by Translation Heads
+*But never had any translator*
 
 - ru - Russian
