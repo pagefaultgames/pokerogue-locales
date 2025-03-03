@@ -11,7 +11,7 @@
     "PokemonHeldItemModifierType": {
       "extra": {
         "inoperable": "{{pokemonName}}は このアイテムを\n持つ ことが できません！",
-        "tooMany": "{{pokemonName}}は このアイテムを\n持ちすぎています！"
+        "tooMany": "{{pokemonName}}は　このアイテムを\n持ちすぎています！"
       }
     },
     "PokemonHpRestoreModifierType": {
@@ -130,7 +130,7 @@
     },
     "TerastallizeModifierType": {
       "name": "テラピース{{teraType}}",
-      "description": "ポケモンを {{teraType}}タイプに テラスタルさせる \n(最大10回の バトルの 間)"
+      "description": "テラスタイプを {{teraType}}に チェンジする"
     },
     "ContactHeldItemTransferChanceModifierType": {
       "description": "持っているポケモンが 攻撃すると 相手の 持っている アイテムを {{chancePercent}}%の 確率で 盗む"
@@ -160,7 +160,7 @@
     },
     "TERA_ORB": {
       "name": "テラスタルオーブ",
-      "description": "テラピースが 得られる ように なる"
+      "description": "ポケモンが テラスタルできる ように する。 ゆっくりと チャージする。 テラピースも 見つけるように なる。"
     },
     "MAP": {
       "name": "ちず",

@@ -51,7 +51,12 @@
   "moveDisabled": "¡{{moveName}} está anulado!",
   "moveDisabledTorment": "¡{{pokemonNameWithAffix}} está atormentado, por lo que no puede usar dos veces seguidas el mismo movimiento!",
   "moveDisabledTaunt": "¡Se han mofado de {{pokemonNameWithAffix}}, por lo que no puede usar {{moveName}}!",
+  "moveDisabledHealBlock": "¡{{pokemonNameWithAffix}} no puede usar {{moveName}} debido a {{healBlockName}}!",
+  "moveDisabledImprison": "¡{{pokemonNameWithAffix}} no puede usar {{moveName}} porque está sellado!",
+  "canOnlyUseMove": "¡{{pokemonName}} solo puede usar {{moveName}}!",
+  "moveCannotBeSelected": "¡{{moveName}} no puede ser seleccionado!",
   "disableInterruptedMove": "¡Se ha anulado el movimiento {{moveName}}\nde {{pokemonNameWithAffix}}!",
+  "throatChopInterruptedMove": "¡El efecto de Golpe Mordaza impide a\n{{pokemonName}} usar el movimiento!",
   "noPokeballForce": "Una fuerza misteriosa\nte impide usar Poké Balls.",
   "noPokeballTrainer": "¡No está bien capturar los\nPokémon de los demás!",
   "noPokeballMulti": "¡No puedes lanzar Poké Balls\ncuando hay más de un Pokémon!",
@@ -77,6 +82,7 @@
   "wildPokemonWithAffix": "El {{pokemonName}} salvaje",
   "foePokemonWithAffix": "El {{pokemonName}} enemigo",
   "useMove": "¡{{pokemonNameWithAffix}} usó {{moveName}}!",
+  "magicCoatActivated": "¡{{pokemonNameWithAffix}} ha devuelto {{moveName}}!",
   "drainMessage": "¡La energía de {{pokemonName}}\nha sido absorbida!",
   "regainHealth": "¡{{pokemonName}} recuperó\nPS!",
   "stealEatBerry": "¡{{pokemonName}} robó la {{berryName}}\nde {{targetName}} y se la comió!",
@@ -109,5 +115,6 @@
   "ppReduced": "¡El movimiento {{moveName}} de {{targetName}} ha perdido {{reduction}} PP!",
   "mysteryEncounterAppeared": "¿Qué es esto?",
   "battlerTagsHealBlock": "¡{{pokemonNameWithAffix}} no puede restaurar sus PS!",
-  "battlerTagsHealBlockOnRemove": "¡{{pokemonNameWithAffix}} ya puede recuperar PS!"
+  "battlerTagsHealBlockOnRemove": "¡{{pokemonNameWithAffix}} ya puede recuperar PS!",
+  "pokemonTerastallized": "¡{{pokemonNameWithAffix}} ha teracristalizado al tipo {{type}}!"
 }
