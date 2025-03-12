@@ -125,7 +125,7 @@
   },
   "sereneGrace": {
     "name": "Serene Grace",
-    "description": "Boosts the likelihood of additional effects occurring when attacking."
+    "description": "Boosts the likelihood of additional effects occurring when attacking. This does not affect items."
   },
   "swiftSwim": {
     "name": "Swift Swim",
@@ -469,7 +469,7 @@
   },
   "honeyGather": {
     "name": "Honey Gather",
-    "description": "The Pokémon gathers Honey after a battle. The Honey is then sold for money."
+    "description": "The Pokémon gathers Honey after a battle is won. The Honey is then sold for money."
   },
   "frisk": {
     "name": "Frisk",
@@ -849,7 +849,7 @@
   },
   "comatose": {
     "name": "Comatose",
-    "description": "It’s always drowsing and will never wake up. It can attack without waking up."
+    "description": "It’s always drowsing and will never wake up. It can attack without waking up, and is considered under the effects of a status condition."
   },
   "queenlyMajesty": {
     "name": "Queenly Majesty",
@@ -1021,7 +1021,7 @@
   },
   "neutralizingGas": {
     "name": "Neutralizing Gas",
-    "description": "If the Pokémon with Neutralizing Gas is in the battle, the effects of all Pokémon’s Abilities will be nullified or will not be triggered."
+    "description": "If the Pokémon with Neutralizing Gas is in the battle, the effects of all other Pokémon’s Abilities will be nullified or will not be triggered."
   },
   "pastelVeil": {
     "name": "Pastel Veil",
