@@ -109,7 +109,7 @@
   },
   "synchronize": {
     "name": "Synchronize",
-    "description": "The attacker will receive the same status condition if it inflicts a burn, poison, or paralysis to the Pokémon."
+    "description": "Passes its status condition to the Pokémon that inflicted it. If this Pokémon is your lead into battle, opposing wild Pokémon will share its nature."
   },
   "clearBody": {
     "name": "Clear Body",
@@ -125,7 +125,7 @@
   },
   "sereneGrace": {
     "name": "Serene Grace",
-    "description": "Boosts the likelihood of additional effects occurring when attacking."
+    "description": "Boosts the likelihood of additional effects occurring when attacking. This does not affect items."
   },
   "swiftSwim": {
     "name": "Swift Swim",
@@ -137,7 +137,7 @@
   },
   "illuminate": {
     "name": "Illuminate",
-    "description": "By illuminating its surroundings, the Pokémon raises the likelihood of meeting wild Pokémon and prevents its accuracy from being lowered."
+    "description": "By illuminating its surroundings, the Pokémon raises the likelihood of double battles and prevents its accuracy from being lowered."
   },
   "trace": {
     "name": "Trace",
@@ -281,7 +281,7 @@
   },
   "arenaTrap": {
     "name": "Arena Trap",
-    "description": "Prevents opposing Pokémon from fleeing."
+    "description": "Prevents opposing Pokémon from fleeing. This Pokémon also raises the likelihood of double battles."
   },
   "vitalSpirit": {
     "name": "Vital Spirit",
@@ -393,7 +393,7 @@
   },
   "noGuard": {
     "name": "No Guard",
-    "description": "The Pokémon employs no-guard tactics to ensure incoming and outgoing attacks always land."
+    "description": "The Pokémon employs no-guard tactics to ensure incoming and outgoing attacks always land. This Pokémon also raises the likelihood of double battles."
   },
   "stall": {
     "name": "Stall",
@@ -433,7 +433,7 @@
   },
   "unaware": {
     "name": "Unaware",
-    "description": "When attacking, the Pokémon ignores the target Pokémon’s stat changes."
+    "description": "This Pokémon ignores the opposing Pokémon’s stat changes."
   },
   "tintedLens": {
     "name": "Tinted Lens",
@@ -469,7 +469,7 @@
   },
   "honeyGather": {
     "name": "Honey Gather",
-    "description": "The Pokémon gathers Honey after a battle. The Honey is then sold for money."
+    "description": "The Pokémon gathers Honey after a battle is won. The Honey is then sold for money."
   },
   "frisk": {
     "name": "Frisk",
@@ -481,7 +481,7 @@
   },
   "multitype": {
     "name": "Multitype",
-    "description": "Changes the Pokémon’s type to match the Plate or Z-Crystal it holds."
+    "description": "Changes the Pokémon’s type to match the Plate it holds."
   },
   "flowerGift": {
     "name": "Flower Gift",
@@ -849,7 +849,7 @@
   },
   "comatose": {
     "name": "Comatose",
-    "description": "It’s always drowsing and will never wake up. It can attack without waking up."
+    "description": "It’s always drowsing and will never wake up. It can attack without waking up, and is considered under the effects of a status condition."
   },
   "queenlyMajesty": {
     "name": "Queenly Majesty",
@@ -1021,7 +1021,7 @@
   },
   "neutralizingGas": {
     "name": "Neutralizing Gas",
-    "description": "If the Pokémon with Neutralizing Gas is in the battle, the effects of all Pokémon’s Abilities will be nullified or will not be triggered."
+    "description": "If the Pokémon with Neutralizing Gas is in the battle, the effects of all other Pokémon’s Abilities will be nullified or will not be triggered."
   },
   "pastelVeil": {
     "name": "Pastel Veil",
@@ -1113,7 +1113,7 @@
   },
   "commander": {
     "name": "Commander",
-    "description": "When the Pokémon enters a battle, it goes inside the mouth of an ally Dondozo if one is on the field. The Pokémon then issues commands from there."
+    "description": "Upon entering battle, this Pokémon goes inside an ally Dondozo if one is on the field; then issues commands from there. This Pokémon also raises the likelihood of double battles."
   },
   "electromorphosis": {
     "name": "Electromorphosis",
