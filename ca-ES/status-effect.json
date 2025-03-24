@@ -1,1 +1,35 @@
-{}
+{
+  "none": {
+    "name": "Cap"
+  },
+  "poison": {
+    "name": "Enverinament",
+    "description": "enverinament",
+    "obtain": "{{pokemonNameWithAffix}}\nha estat enverinat!",
+    "obtainSource": "{{pokemonNameWithAffix}}\nha estat enverinat per {{sourceText}}!",
+    "activation": "El verí resta PS\na {{pokemonNameWithAffix}}!",
+    "overlap": "{{pokemonNameWithAffix}} ja\nestà enverinat!",
+    "heal": "{{pokemonNameWithAffix}} ja no\nestà enverinat!"
+  },
+  "toxic": {
+    "name": "Intoxicació",
+    "description": "intoxicació",
+    "obtain": "{{pokemonNameWithAffix}}\nha estat intoxicat greument!",
+    "obtainSource": "{{pokemonNameWithAffix}}\nha estat intoxicat greument per {{sourceText}}!"
+  },
+  "sleep": {
+    "heal": "{{pokemonNameWithAffix}} s'ha despertat!"
+  },
+  "freeze": {
+    "name": "Congelació",
+    "description": "congelació",
+    "obtain": "{{pokemonNameWithAffix}}\nha estat congelat!",
+    "obtainSource": "{{pokemonNameWithAffix}}\nha estat congelat per {{sourceText}}!",
+    "heal": "{{pokemonNameWithAffix}} s'ha\ndescongelat!"
+  },
+  "burn": {
+    "name": "Cremada",
+    "description": "cremada",
+    "obtain": "{{pokemonNameWithAffix}}\ns'ha cremat!"
+  }
+}
