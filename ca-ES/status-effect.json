@@ -27,7 +27,10 @@
   "sleep": {
     "name": "Adormit",
     "description": "adormit",
+    "obtain": "{{pokemonNameWithAffix}}\ns'ha adormit!",
+    "obtainSource": "{{pokemonNameWithAffix}}\nha estat adormit per {{sourceText}}!",
     "activation": "{{pokemonNameWithAffix}} dorm plàcidament.",
+    "overlap": "{{pokemonNameWithAffix}} ja\nestà adormit!",
     "heal": "{{pokemonNameWithAffix}} s'ha despertat!"
   },
   "freeze": {
