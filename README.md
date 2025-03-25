@@ -21,10 +21,7 @@ They will be able to provide you with further information.
 - pt-BR - Portuguese (Brazil)
 - zh-CN - Chinese (Simplified)
 - zh-TW - Chinese (Traditional)
-
-### Present in game code but disabled
-
-- ca-ES - Catalan *(Removed because not yet translated enough, needs help)*
+- ca-ES - Catalan *(Still at low percentage)*
 
 ### Pending
 *Waiting for them to be more complete, needs help*
