@@ -21,7 +21,8 @@
     "name_female": "Millonaria"
   },
   "10M_MONEY": {
-    "name": "Elusión Fiscal"
+    "name": "Elusión Fiscal",
+    "name_female": "Elusión Fiscal"
   },
   "DamageAchv": {
     "description": "Inflige {{damageAmount}} daño en un solo golpe."
@@ -30,13 +31,16 @@
     "name": "Golpe Maestro"
   },
   "1000_DMG": {
-    "name": "Golpe Devastador"
+    "name": "Golpe Devastador",
+    "name_female": "Golpe Devastador"
   },
   "2500_DMG": {
-    "name": "¡Eso es un montón de daño!"
+    "name": "¡Eso es un montón de daño!",
+    "name_female": "¡Eso es un montón de daño!"
   },
   "10000_DMG": {
-    "name": "One Punch Man"
+    "name": "One Punch Man",
+    "name_female": "One Punch Woman"
   },
   "HealAchv": {
     "description": "Cura {{healAmount}} {{HP}} de una, con un movimiento, habilidad o objeto equipado."
@@ -54,7 +58,8 @@
     "name_female": "Clériga"
   },
   "10000_HEAL": {
-    "name": "Centro Pokémon"
+    "name": "Centro Pokémon",
+    "name_female": "Centro Pokémon"
   },
   "LevelAchv": {
     "description": "Sube a un Pokémon al nivel {{level}}."
@@ -63,7 +68,8 @@
     "name": "¡Pero espera, aún hay mas!"
   },
   "LV_250": {
-    "name": "Élite"
+    "name": "Élite",
+    "name_female": "Élite"
   },
   "LV_1000": {
     "name": "Supera tus límites"
@@ -106,6 +112,9 @@
   "GIGANTAMAX": {
     "name": "Criatura Colosal",
     "description": "Haz Gigantamax a un Pokémon."
+  },
+  "FLIP_STATS": {
+    "name": "Intercambio equivalente"
   },
   "TERASTALLIZE": {
     "name": "Entusiasta del STAB",
@@ -169,6 +178,7 @@
   },
   "CLASSIC_VICTORY": {
     "name": "Imbatible",
+    "name_female": "Imbatible",
     "description": "Completa el juego en modo clásico."
   },
   "UNEVOLVED_CLASSIC_VICTORY": {
@@ -176,31 +186,84 @@
     "description": "Completa el juego en modo clásico con un Pokémon que pueda evolucionar."
   },
   "MONO_GEN_ONE": {
+    "name": "El Rival Original",
     "description": "Completa el desafío de primera generación."
   },
   "MONO_GEN_TWO": {
+    "name": "Generación 1.5",
     "description": "Completa el desafío de segunda generación."
   },
   "MONO_GEN_THREE": {
+    "name": "¿Too much water?",
     "description": "Completa el desafío de tercera generación."
   },
   "MONO_GEN_FOUR": {
+    "name": "¿Seguro que es la más difícil?",
     "description": "Completa el desafío de cuarta generación."
   },
   "MONO_GEN_FIVE": {
+    "name": "Todo Original",
     "description": "Completa el desafío de quinta generación."
   },
   "MONO_GEN_SIX": {
+    "name": "Aristócrata",
     "description": "Completa el desafío de sexta generación."
   },
   "MONO_GEN_SEVEN": {
     "description": "Completa el desafío de séptima generación."
   },
   "MONO_GEN_EIGHT": {
+    "name": "Un Campeón no nace, se hace.",
     "description": "Completa el desafío de octava generación."
   },
   "MONO_GEN_NINE": {
+    "name": "Te lo estaba poniendo fácil",
     "description": "Completa el desafío de novena generación."
+  },
+  "MonoType": {
+    "description": "Completa el desafío de monotipo {{type}}"
+  },
+  "MONO_NORMAL": {
+    "name": "Extra Ordinario"
+  },
+  "MONO_FIGHTING": {
+    "name": "Ya sé Kung Fu"
+  },
+  "MONO_FLYING": {
+    "name": "Angry Birds"
+  },
+  "MONO_POISON": {
+    "name": "El favorito de Kanto"
+  },
+  "MONO_GROUND": {
+    "name": "Previsión: Terremoto"
+  },
+  "MONO_ROCK": {
+    "name": "Duro como la piedra"
+  },
+  "MONO_BUG": {
+    "name": "¿Te gusta el Jazz?"
+  },
+  "MONO_GHOST": {
+    "name": "¿A Quién Vas A Llamar?"
+  },
+  "MONO_STEEL": {
+    "name": "El Gigante de Hierro"
+  },
+  "MONO_FIRE": {
+    "name": "¡Uso Bola de Fuego!"
+  },
+  "MONO_WATER": {
+    "name": "Llueve sobre mojado"
+  },
+  "MONO_ELECTRIC": {
+    "name": "¡Apunta al cuerno!"
+  },
+  "MONO_DRAGON": {
+    "name": "El club de los Pseudo"
+  },
+  "MONO_DARK": {
+    "name": "Solo es una fase"
   },
   "FRESH_START": {
     "name": "¡A la primera!"
