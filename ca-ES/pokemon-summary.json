@@ -1,4 +1,21 @@
 {
+  "pokemonInfo": "Info. Pokémon",
+  "status": "Estat",
+  "powerAccuracyCategory": "Potencia\nPrecisió\nCategoria",
+  "type": "Tipus",
+  "unknownTrainer": "Desconegut",
+  "ot": "EO",
+  "idNo": "N° ID",
+  "nature": "naturalesa",
+  "expPoints": "Punts d'Exp.",
+  "lv": "Nv.",
+  "nextLv": "Pròxim Nv.",
+  "cancel": "Sortir",
+  "memoString": "Naturalesa {{natureFragment}},\n{{metFragment}}",
+  "metFragment": {
+    "normal": "trobat al Nv. {{level}},\n{{biome}}, Onada {{wave}}.",
+    "apparently": "aparentment trobat al Nv. {{level}},\n{{biome}}."
+  },
   "natureFragment": {
     "Hardy": "{{nature}}",
     "Lonely": "{{nature}}",
@@ -25,5 +42,6 @@
     "Sassy": "{{nature}}",
     "Careful": "{{nature}}",
     "Quirky": "{{nature}}"
-  }
+  },
+  "friendship": "Amistat"
 }
