@@ -129,7 +129,8 @@
       "description": "融合两只宝可梦（改变特性, 平分基础点数\n和属性, 共享招式池）。"
     },
     "TerastallizeModifierType": {
-      "name": "{{teraType}}太晶碎块"
+      "name": "{{teraType}}太晶碎块",
+      "description": "将宝可梦的太晶属性变为{{teraType}}。"
     },
     "ContactHeldItemTransferChanceModifierType": {
       "description": "攻击时{{chancePercent}}%概率\n偷取对手物品。"
@@ -158,7 +159,8 @@
       "description": "能让携带着极巨菇菇战斗的宝可梦\n进行超极巨化。"
     },
     "TERA_ORB": {
-      "name": "太晶珠"
+      "name": "太晶珠",
+      "description": "能让战斗的宝可梦进行太晶化。\n缓慢充能，太晶碎片也会出现在商店中。"
     },
     "MAP": {
       "name": "地图",
@@ -355,6 +357,10 @@
     "FLAME_ORB": {
       "name": "火焰宝珠",
       "description": "触碰后会放出热量的神奇宝珠。\n携带后，在战斗时会变成灼伤状态。"
+    },
+    "MYSTICAL_ROCK": {
+      "name": "神秘石块",
+      "description": "每堆叠一次，可将招式或能力造成的\n地形和天气的持续时间延长 2 回合。"
     },
     "EVOLUTION_TRACKER_GIMMIGHOUL": {
       "name": "宝藏金币",
