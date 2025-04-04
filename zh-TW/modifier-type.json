@@ -68,6 +68,9 @@
     "BaseStatBoosterModifierType": {
       "description": "增加持有者的{{stat}}10%，個體值越高堆疊\n上限越高。"
     },
+    "PokemonBaseStatFlatModifierType": {
+      "name": "森之羊羹"
+    },
     "AllPokemonFullHpRestoreModifierType": {
       "description": "所有寶可夢完全恢復HP。"
     },
@@ -403,6 +406,15 @@
     "ENEMY_FUSED_CHANCE": {
       "name": "融合硬幣",
       "description": "增加1%野生融合寶可夢出現概率。"
+    },
+    "MYSTERY_ENCOUNTER_BLACK_SLUDGE": {
+      "name": "黑色污泥"
+    },
+    "MYSTERY_ENCOUNTER_MACHO_BRACE": {
+      "name": "強制鍛鍊器"
+    },
+    "MYSTERY_ENCOUNTER_OLD_GATEAU": {
+      "name": "森之羊羹"
     }
   },
   "SpeciesBoosterItem": {
@@ -421,6 +433,12 @@
     "QUICK_POWDER": {
       "name": "速度粉",
       "description": "讓百變怪攜帶後，速度就會提高的神奇粉末。非常細緻堅硬。"
+    },
+    "DEEP_SEA_SCALE": {
+      "name": "深海鱗片"
+    },
+    "DEEP_SEA_TOOTH": {
+      "name": "深海之牙"
     }
   },
   "TempStatStageBoosterItem": {
@@ -492,7 +510,6 @@
     "LEADERS_CREST": "頭領憑證",
     "SUN_FLUTE": "太陽之笛",
     "MOON_FLUTE": "月亮之笛",
-    
     "CHIPPED_POT": "缺損的茶壺",
     "BLACK_AUGURITE": "黑奇石",
     "GALARICA_CUFF": "伽勒豆蔻手環",
