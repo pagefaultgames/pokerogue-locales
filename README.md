@@ -25,16 +25,16 @@ They will be able to provide you with further information.
 - ca-ES - Catalan *(Still at low percentage)*
 
 ### Pending
-*Waiting for them to be more complete, needs help*
+*Needs help. Waiting for them to be more complete and/or regain enough steaty activity, before implementing them.*
 
 - da - Danish
-- he - Hebrew *(Note: The game needs to be properly compatible with right-to-left languages before being implemented. Any help on this regard would be very welcomed.)*
+- he - Hebrew *(Note: The game needs first to have a minimum compatibility with right-to-left languages before being implemented. Any help on this regard would be very welcomed.)*
 - tr - Turkish
 - ro - Romanian
 
 ### Indefinitely pending
 
-- th - Thai *(No translator available)*
+- th - Thai *(No translator available, most of the transaltions comes from an old abandoned PR)*
 
 ### Included and pending because wished by Translation Heads
 *But never had any translator*
