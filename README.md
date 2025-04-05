@@ -14,7 +14,7 @@ They will be able to provide you with further information.
 - en - English
 - de - German
 - es-ES - Spanish (Spain)
-- es-MX - Spanish (LATAM) - Bearly started, but falls back first on *es-ES* to allow a smooth transition
+- es-MX - Spanish (LATAM) - Bearly started, but empty keys falls back first on *es-ES* transaltions to allow a smooth transition
 - fr - French
 - it - Italian
 - ja - Japanese
