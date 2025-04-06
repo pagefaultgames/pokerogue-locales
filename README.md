@@ -22,7 +22,7 @@ They will be able to provide you with further information.
 - pt-BR - Portuguese (Brazil)
 - zh-CN - Chinese (Simplified)
 - zh-TW - Chinese (Traditional)
-- ca-ES - Catalan *(Still at low percentage)*
+- ca-ES - Catalan *(Still at low percentage, needs help)*
 
 ### Pending
 *Needs help. Waiting for them to be more complete and/or regain enough steaty activity, before implementing them.*
