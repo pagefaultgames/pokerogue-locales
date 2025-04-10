@@ -545,7 +545,7 @@
   },
   "glare": {
     "name": "Glare",
-    "effect": "The user intimidates the target with the pattern on its belly to cause paralysis."
+    "effect": "The user intimidates the target with terrifying eyes to cause paralysis."
   },
   "dreamEater": {
     "name": "Dream Eater",
@@ -669,7 +669,7 @@
   },
   "thief": {
     "name": "Thief",
-    "effect": "The user attacks and has a 30% chance to steal the target’s held item simultaneously."
+    "effect": "The user attacks and has a 30% chance to steal an item from target’s held item simultaneously."
   },
   "spiderWeb": {
     "name": "Spider Web",
@@ -1761,7 +1761,7 @@
   },
   "gunkShot": {
     "name": "Gunk Shot",
-    "effect": "The user shoots filthy garbage at the target to attack. This may also poison the target."
+    "effect": "The user blasts filthy garbage at the target to attack. This may also poison the target."
   },
   "ironHead": {
     "name": "Iron Head",
@@ -1793,7 +1793,7 @@
   },
   "judgment": {
     "name": "Judgment",
-    "effect": "The user releases countless shots of light at the target. This move’s type varies depending on the kind of Plate the user is holding."
+    "effect": "The user releases countless shots of light at the target. If used by Arceus or Silvally, the move’s type varies depending on the kind of Plate or Memory Disc the user is holding."
   },
   "bugBite": {
     "name": "Bug Bite",
@@ -2181,7 +2181,7 @@
   },
   "technoBlast": {
     "name": "Techno Blast",
-    "effect": "The user fires a beam of light at its target. The move’s type changes depending on the Drive the user holds."
+    "effect": "The user fires a beam of light at its target. If used by Genesect, the move’s type changes depending on the Drive the user holds."
   },
   "relicSong": {
     "name": "Relic Song",
@@ -2229,11 +2229,11 @@
   },
   "fusionFlare": {
     "name": "Fusion Flare",
-    "effect": "The user brings down a giant flame. This move’s power is increased when influenced by an enormous lightning bolt."
+    "effect": "The user brings down a giant flame. This move’s power is increased when influenced by Fusion Bolt."
   },
   "fusionBolt": {
     "name": "Fusion Bolt",
-    "effect": "The user throws down a giant lightning bolt. This move’s power is increased when influenced by an enormous flame."
+    "effect": "The user throws down a giant lightning bolt. This move’s power is increased when influenced by Fusion Flare."
   },
   "flyingPress": {
     "name": "Flying Press",
@@ -2481,7 +2481,7 @@
   },
   "hyperspaceFury": {
     "name": "Hyperspace Fury",
-    "effect": "Using its many arms, the user unleashes a barrage of attacks that ignore the effects of moves like Protect and Detect. But the user’s Defense stat falls."
+    "effect": "Using all of its limbs, the user unleashes a barrage of attacks that ignore the effects of moves like Protect and Detect. But the user’s Defense stat falls."
   },
   "breakneckBlitzPhysical": {
     "name": "Breakneck Blitz",
@@ -2705,7 +2705,7 @@
   },
   "anchorShot": {
     "name": "Anchor Shot",
-    "effect": "The user entangles the target with its anchor chain while attacking. The target becomes unable to flee."
+    "effect": "The user entangles the target with an anchor chain while attacking. The target becomes unable to flee."
   },
   "psychicTerrain": {
     "name": "Psychic Terrain",
@@ -2869,7 +2869,7 @@
   },
   "multiAttack": {
     "name": "Multi-Attack",
-    "effect": "Cloaking itself in high energy, the user slams into the target. The memory held determines the move’s type."
+    "effect": "Cloaking itself in powerful energy, the user slams into the target to inflict damage. If used by Silvally or Arceus, the Memory Disc or Plate held determines the move’s type."
   },
   "tenMillionVoltThunderbolt": {
     "name": "10,000,000 Volt Thunderbolt",
@@ -2965,7 +2965,7 @@
   },
   "doubleIronBash": {
     "name": "Double Iron Bash",
-    "effect": "The user rotates, centering the hex nut in its chest, and then strikes with its arms twice in a row. This may also make the target flinch."
+    "effect": "The user rotates, steeling itself, and then strikes with its arms twice in a row. This may also make the target flinch."
   },
   "maxGuard": {
     "name": "Max Guard",
@@ -3017,7 +3017,7 @@
   },
   "fishiousRend": {
     "name": "Fishious Rend",
-    "effect": "The user rends the target with its hard gills. If the user attacks before the target, the power of this move is doubled."
+    "effect": "The user rends the target with its hard jaws. If the user attacks before the target, the power of this move is doubled."
   },
   "courtChange": {
     "name": "Court Change",
@@ -3109,11 +3109,11 @@
   },
   "drumBeating": {
     "name": "Drum Beating",
-    "effect": "The user plays its drum, controlling the drum’s roots to attack the target. This also lowers the target’s Speed stat."
+    "effect": "The user beats a drum, controlling the drum’s roots to attack the target. This also lowers the target’s Speed stat."
   },
   "snapTrap": {
     "name": "Snap Trap",
-    "effect": "The user snares the target in a snap trap for four to five turns."
+    "effect": "The user snares the target in a snap trap that inflicts damage for four to five turns."
   },
   "pyroBall": {
     "name": "Pyro Ball",
@@ -3141,7 +3141,7 @@
   },
   "overdrive": {
     "name": "Overdrive",
-    "effect": "The user attacks opposing Pokémon by twanging a guitar or bass guitar, causing a huge echo and strong vibration."
+    "effect": "The user attacks opposing Pokémon with an electrifying soundwave, causing a huge echo and strong vibration."
   },
   "appleAcid": {
     "name": "Apple Acid",
@@ -3173,7 +3173,7 @@
   },
   "meteorAssault": {
     "name": "Meteor Assault",
-    "effect": "The user attacks wildly with its thick leek. The user can’t move on the next turn, because the force of this move makes it stagger."
+    "effect": "The user attacks wildly with a long weapon. The user can’t move on the next turn, because the force of this move makes it stagger."
   },
   "eternabeam": {
     "name": "Eternabeam",
@@ -3265,15 +3265,15 @@
   },
   "wickedBlow": {
     "name": "Wicked Blow",
-    "effect": "The user, having mastered the Dark style, strikes the target with a fierce blow. This attack always results in a critical hit."
+    "effect": "The user strikes the target with a fierce blow. This move always lands a critical hit."
   },
   "surgingStrikes": {
     "name": "Surging Strikes",
-    "effect": "The user, having mastered the Water style, strikes the target with a flowing motion three times in a row. This attack always results in a critical hit."
+    "effect": "The user strikes the target with a flowing motion three times in a row. This move always lands a critical hit."
   },
   "thunderCage": {
     "name": "Thunder Cage",
-    "effect": "The user traps the target in a cage of sparking electricity for four to five turns."
+    "effect": "The user traps the target inside a cage of sparking electricity that inflicts damage for four to five turns."
   },
   "dragonEnergy": {
     "name": "Dragon Energy",
@@ -3317,7 +3317,7 @@
   },
   "stoneAxe": {
     "name": "Stone Axe",
-    "effect": "The user swings its stone axes at the target. Stone splinters left behind by this attack float around the target."
+    "effect": "The user swings large stone axes at the target. Stone splinters left behind by this attack float around the target."
   },
   "springtideStorm": {
     "name": "Springtide Storm",
@@ -3337,7 +3337,7 @@
   },
   "chloroblast": {
     "name": "Chloroblast",
-    "effect": "The user launches its amassed chlorophyll to inflict damage on the target. This also damages the user."
+    "effect": "The user launches its amassed light to blast the target. This also damages the user."
   },
   "mountainGale": {
     "name": "Mountain Gale",
@@ -3377,7 +3377,7 @@
   },
   "ceaselessEdge": {
     "name": "Ceaseless Edge",
-    "effect": "The user slashes its shell blade at the target. Shell splinters left behind by this attack remain scattered under the target as spikes."
+    "effect": "The user slashes a sharpened blade at the target. Splinters left behind by this attack remain scattered under the target as spikes."
   },
   "bleakwindStorm": {
     "name": "Bleakwind Storm",
@@ -3677,7 +3677,7 @@
   },
   "hyperDrill": {
     "name": "Hyper Drill",
-    "effect": "The user spins the pointed part of its body at high speed to pierce the target. This attack can hit a target using a move such as Protect or Detect."
+    "effect": "The user spins a pointed part of its body at high speed to pierce the target. This attack can hit a target using a move such as Protect or Detect."
   },
   "twinBeam": {
     "name": "Twin Beam",
@@ -3689,11 +3689,11 @@
   },
   "armorCannon": {
     "name": "Armor Cannon",
-    "effect": "The user shoots its own armor out as blazing projectiles. This also lowers the user’s Defense and Sp. Def stats."
+    "effect": "The user blasts the target with blazing projectiles, leaving itself vulnerable afterwards. This also lowers the user’s Defense and Sp. Def stats."
   },
   "bitterBlade": {
     "name": "Bitter Blade",
-    "effect": "The user focuses its bitter feelings toward the world of the living into a slashing attack. The user’s HP is restored by up to half the damage taken by the target."
+    "effect": "The user focuses bitter feelings into a slashing attack. The user’s HP is restored by up to half the damage taken by the target."
   },
   "doubleShock": {
     "name": "Double Shock",
@@ -3753,11 +3753,11 @@
   },
   "teraStarstorm": {
     "name": "Tera Starstorm",
-    "effect": "With the power of its crystals, the user bombards and eliminates the target. When used by Terapagos in its Stellar Form, this move damages all opposing Pokémon."
+    "effect": "With the power of crystals, the user bombards and eliminates the target. When used by Terapagos in its Stellar Form, this move damages all opposing Pokémon."
   },
   "fickleBeam": {
     "name": "Fickle Beam",
-    "effect": "The user shoots a beam of light to inflict damage. Sometimes all the user’s heads shoot beams in unison, doubling the move’s power."
+    "effect": "The user shoots a beam of light to inflict damage. Sometimes all the user's heads shoot beams in unison, doubling the move’s power."
   },
   "burningBulwark": {
     "name": "Burning Bulwark",
