@@ -1,9 +1,15 @@
 {
+  "status": "Статус",
   "powerAccuracyCategory": "Сила\nТочность\nКатегория",
   "type": "Тип",
   "nature": "Характер",
   "lv": "Ур.",
   "cancel": "Отмена",
+  "memoString": "Характер {{natureFragment}},\n{{metFragment}}",
+  "metFragment": {
+    "normal": "встречен на Ур. {{level}},\n{{biome}}, {{wave}}-я волна.",
+    "apparently": "возможно встречен на Ур. {{level}},\n{{biome}}."
+  },
   "natureFragment": {
     "Hardy": "{{nature}}",
     "Lonely": "{{nature}}",
