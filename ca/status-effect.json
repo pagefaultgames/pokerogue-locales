@@ -1,0 +1,54 @@
+{
+  "none": {
+    "name": "Cap"
+  },
+  "poison": {
+    "name": "Enverinament",
+    "description": "enverinament",
+    "obtain": "{{pokemonNameWithAffix}}\nha estat enverinat!",
+    "obtainSource": "{{pokemonNameWithAffix}}\nha estat enverinat per {{sourceText}}!",
+    "activation": "El verí resta PS\na {{pokemonNameWithAffix}}!",
+    "overlap": "{{pokemonNameWithAffix}} ja\nestà enverinat!",
+    "heal": "{{pokemonNameWithAffix}} ja no\nestà enverinat!"
+  },
+  "toxic": {
+    "name": "Intoxicació",
+    "description": "intoxicació",
+    "obtain": "{{pokemonNameWithAffix}}\nha estat intoxicat greument!",
+    "obtainSource": "{{pokemonNameWithAffix}}\nha estat intoxicat greument per {{sourceText}}!",
+    "activation": "El verí resta PS\na {{pokemonNameWithAffix}}!",
+    "overlap": "{{pokemonNameWithAffix}} ja\nestà enverinat!",
+    "heal": "{{pokemonNameWithAffix}} s’ha\ncurat del verí!"
+  },
+  "paralysis": {
+    "name": "Paràlisi",
+    "description": "paràlisi"
+  },
+  "sleep": {
+    "name": "Adormit",
+    "description": "adormit",
+    "obtain": "{{pokemonNameWithAffix}}\ns’ha adormit!",
+    "obtainSource": "{{pokemonNameWithAffix}}\nha estat adormit per {{sourceText}}!",
+    "activation": "{{pokemonNameWithAffix}} dorm plàcidament.",
+    "overlap": "{{pokemonNameWithAffix}} ja\nestà adormit!",
+    "heal": "{{pokemonNameWithAffix}} s’ha despertat!"
+  },
+  "freeze": {
+    "name": "Congelament",
+    "description": "congelament",
+    "obtain": "{{pokemonNameWithAffix}}\nha estat congelat!",
+    "obtainSource": "{{pokemonNameWithAffix}}\nha estat congelat per {{sourceText}}!",
+    "activation": "{{pokemonNameWithAffix}} està\ncongelat!",
+    "overlap": "{{pokemonNameWithAffix}} ja\nestà congelat!",
+    "heal": "{{pokemonNameWithAffix}} s’ha\ndescongelat!"
+  },
+  "burn": {
+    "name": "Cremada",
+    "description": "cremada",
+    "obtain": "{{pokemonNameWithAffix}}\ns’ha cremat!",
+    "obtainSource": "{{pokemonNameWithAffix}}\ns’ha cremat per {{sourceText}}!",
+    "activation": "{{pokemonNameWithAffix}} reb mal\nde les seves cremades!",
+    "overlap": "{{pokemonNameWithAffix}} ja\nestà cremat!",
+    "heal": "{{pokemonNameWithAffix}} s’ha \ncurat les seves cremades!"
+  }
+}
