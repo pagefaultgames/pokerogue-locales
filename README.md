@@ -4,7 +4,7 @@ This repository contains the locales files for the [PokéRogue](https://github.c
 
 ## How to Contribute
 
-Reach out to `Head of Translation` on our [Discord](https://discord.gg/x6mnWhvc).
+Reach out to `Head of Translation` on our [Discord](https://discord.gg/pokerogue).
 They will be able to provide you with further information.
 
 ## Languages
