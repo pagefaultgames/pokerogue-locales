@@ -22,7 +22,8 @@ They will be able to provide you with further information.
 - pt-BR - Portuguese (Brazil)
 - zh-CN - Chinese (Simplified)
 - zh-TW - Chinese (Traditional)
-- ca-ES - Catalan *(Still at low percentage, needs help)*
+- ca - Catalan *(Still at low percentage, needs help)*
+- ru - Russian *(Still at low percentage, needs help)*
 
 ### Pending
 *Needs help. Waiting for them to be more complete and/or regain enough steaty activity, before implementing them.*
@@ -35,8 +36,3 @@ They will be able to provide you with further information.
 ### Indefinitely pending
 
 - th - Thai *(No translator available, most of the transaltions comes from an old abandoned PR)*
-
-### Included and pending because wished by Translation Heads
-*But never had any translator, needs help*
-
-- ru - Russian
