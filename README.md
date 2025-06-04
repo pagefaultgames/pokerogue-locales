@@ -22,16 +22,14 @@ They will be able to provide you with further information.
 - pt-BR - Portuguese (Brazil)
 - zh-CN - Chinese (Simplified)
 - zh-TW - Chinese (Traditional)
-- ca - Catalan *(Still at low percentage, needs help)*
+- ca - Catalan *(Still at very low percentage, needs help)*
 - ru - Russian *(Still at low percentage, needs help)*
+- tr - Turkish *(Still at very low percentage, needs help)*
+- ro - Romanian *(Still at very low percentage, needs help)*
 
 ### Pending
-*Needs help. Waiting for them to be more complete and/or regain enough steaty activity, before implementing them.*
 
-- da - Danish
 - he - Hebrew *(Note: The game needs first to have a minimum compatibility with right-to-left languages before being implemented. Any help on this regard would be very welcomed.)*
-- tr - Turkish
-- ro - Romanian
 
 ### Indefinitely pending
 
