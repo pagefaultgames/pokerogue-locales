@@ -1,28 +1,26 @@
 {
-  "level": "At Lv.",
-  "using": "Use ",
+  "atLevel": "At Level {{lv}}",
+  "levelUp": "Level up",
+  "using": "Use the {{item}} ({{tier}})",
   "GREAT": "Great",
   "ULTRA": "Ultra",
-  "gender": {
-    "MALE": "If Male",
-    "FEMALE": "If Female"
-  },
-  "connector": ", ",
+  "connector": ",",
+  "gender": "({{gender}} only)",
   "timeOfDay": {
     "DAY": "During Day or Dawn",
-    "DUSK": "During Dusk",
+    "DUSK": "During the Dusk",
     "NIGHT": "During Night or Dusk",
-    "DAWN": "During Dawn"
+    "DAWN": "During the Dawn"
   },
   "move": "While knowing the move {{move}}",
-  "moveType": "While knowing a {{type}} move",
+  "moveType": "While knowing a {{type}}-type move",
   "friendship": "With high friendship",
   "shedinja": "If there is an empty space in the party",
-  "partyType": "If a {{type}} Pokémon is in the party",
+  "partyType": "If a {{type}}-type Pokémon is in the party",
   "caught": "If {{species}} has been caught",
   "weather": "In certain weather conditions",
   "treasure": "After gathering enough treasure",
-  "nature": "Depending on Nature",
+  "nature": "With a certain Nature",
   "biome": "In a certain biome",
   "heldItem": {
     "DEEP_SEA_TOOTH": "While holding the Deep Sea Tooth",
