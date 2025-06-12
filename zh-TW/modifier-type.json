@@ -68,19 +68,8 @@
     "BaseStatBoosterModifierType": {
       "description": "增加持有者的{{stat}}10%，個體值越高堆疊\n上限越高。"
     },
-    "PokemonBaseStatTotalModifierType": {
-      "name": "Shuckle Juice",
-      "description": "{{increaseDecrease}} all of the holder's base stats by {{statValue}}. You were {{blessCurse}} by the Shuckle.",
-      "extra": {
-        "increase": "Increases",
-        "decrease": "Decreases",
-        "blessed": "blessed",
-        "cursed": "cursed"
-      }
-    },
     "PokemonBaseStatFlatModifierType": {
-      "name": "Old Gateau",
-      "description": "Increases the holder's {{stats}} base stats by {{statValue}}. Found after a strange dream."
+      "name": "森之羊羹"
     },
     "AllPokemonFullHpRestoreModifierType": {
       "description": "所有寶可夢完全恢復HP。"
@@ -106,7 +95,7 @@
       "description": "親密度獲取量增加50%。"
     },
     "PokemonMoveAccuracyBoosterModifierType": {
-      "description": "招式命中率增加{{accuracyAmount}} (最大100)。"
+      "description": "招式命中率增加{{accuracyAmount}}。"
     },
     "PokemonMultiHitModifierType": {
       "description": "將持有者本次傷害的25%轉化為一次獨立的攻擊。"
@@ -129,8 +118,7 @@
       "description": "融合兩隻寶可夢 (改變特性, 平分基礎點數\n和屬性, 共享招式池)。"
     },
     "TerastallizeModifierType": {
-      "name": "{{teraType}}太晶碎塊",
-      "description": "持有者獲得{{teraType}}太晶化10場戰鬥。"
+      "name": "{{teraType}}太晶碎塊"
     },
     "ContactHeldItemTransferChanceModifierType": {
       "description": "攻擊時{{chancePercent}}%概率偷取對手物品。"
@@ -159,8 +147,7 @@
       "description": "能讓攜帶着極巨菇菇戰鬥的寶可夢進行\n極巨化。"
     },
     "TERA_ORB": {
-      "name": "太晶珠",
-      "description": "能讓攜帶着太晶碎塊戰鬥的寶可夢進行\n太晶化。"
+      "name": "太晶珠"
     },
     "MAP": {
       "name": "地圖",
@@ -376,7 +363,7 @@
     },
     "IV_SCANNER": {
       "name": "個體值探測器",
-      "description": "允許掃描野生寶可夢的個體值。 每個次顯示\n2個個體值. 最好的個體值優先顯示。"
+      "description": "允許掃描野生寶可夢的個體值。"
     },
     "DNA_SPLICERS": {
       "name": "基因之楔"
@@ -420,12 +407,15 @@
       "name": "融合硬幣",
       "description": "增加1%野生融合寶可夢出現概率。"
     },
-
-    "MYSTERY_ENCOUNTER_SHUCKLE_JUICE": { "name": "Shuckle Juice" },
-    "MYSTERY_ENCOUNTER_BLACK_SLUDGE": { "name": "Black Sludge", "description": "The stench is so powerful that shops will only sell you items at a steep cost increase." },
-    "MYSTERY_ENCOUNTER_MACHO_BRACE": { "name": "Macho Brace", "description": "Defeating a Pokémon grants the holder a Macho Brace stack. Each stack slightly boosts stats, with an extra bonus at max stacks." },
-    "MYSTERY_ENCOUNTER_OLD_GATEAU": { "name": "Old Gateau", "description": "Increases the holder's {{stats}} stats by {{statValue}}." },
-    "MYSTERY_ENCOUNTER_GOLDEN_BUG_NET": { "name": "Golden Bug Net", "description": "Imbues the owner with luck to find Bug Type Pokémon more often. Has a strange heft to it." }
+    "MYSTERY_ENCOUNTER_BLACK_SLUDGE": {
+      "name": "黑色污泥"
+    },
+    "MYSTERY_ENCOUNTER_MACHO_BRACE": {
+      "name": "強制鍛鍊器"
+    },
+    "MYSTERY_ENCOUNTER_OLD_GATEAU": {
+      "name": "森之羊羹"
+    }
   },
   "SpeciesBoosterItem": {
     "LIGHT_BALL": {
@@ -443,6 +433,12 @@
     "QUICK_POWDER": {
       "name": "速度粉",
       "description": "讓百變怪攜帶後，速度就會提高的神奇粉末。非常細緻堅硬。"
+    },
+    "DEEP_SEA_SCALE": {
+      "name": "深海鱗片"
+    },
+    "DEEP_SEA_TOOTH": {
+      "name": "深海之牙"
     }
   },
   "TempStatStageBoosterItem": {
@@ -514,7 +510,6 @@
     "LEADERS_CREST": "頭領憑證",
     "SUN_FLUTE": "太陽之笛",
     "MOON_FLUTE": "月亮之笛",
-    
     "CHIPPED_POT": "缺損的茶壺",
     "BLACK_AUGURITE": "黑奇石",
     "GALARICA_CUFF": "伽勒豆蔻手環",

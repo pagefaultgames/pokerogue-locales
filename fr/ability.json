@@ -109,7 +109,7 @@
   },
   "synchronize": {
     "name": "Synchro",
-    "description": "Quand le Pokémon est brulé, paralysé ou empoisonné par un autre Pokémon, il partage ce statut avec celui-ci."
+    "description": "Transmet le problème de statut au Pokémon qui l’a infligé. Si le Pokémon est le premier à entrer au combat, l’adversaire sera de la même nature."
   },
   "clearBody": {
     "name": "Corps Sain",
@@ -125,7 +125,7 @@
   },
   "sereneGrace": {
     "name": "Sérénité",
-    "description": "Augmente les chances d’infliger des effets additionnels."
+    "description": "Augmente les chances d’infliger des effets additionnels. N’affecte pas les objets."
   },
   "swiftSwim": {
     "name": "Glissade",
@@ -137,7 +137,7 @@
   },
   "illuminate": {
     "name": "Lumiattirance",
-    "description": "Le Pokémon illumine les alentours, facilitant les rencontres avec les Pokémon sauvages et empêche sa Précision de baisser."
+    "description": "Le Pokémon illumine les alentours, facilitant les rencontres en duo avec les Pokémon sauvages et empêche sa Précision de baisser."
   },
   "trace": {
     "name": "Calque",
@@ -276,12 +276,12 @@
     "description": "Le Pokémon peut utiliser des capacités occasionnant un contrecoup sans perdre de PV."
   },
   "drought": {
-    "name": "Sécheresse",
+    "name": "Sècheresse",
     "description": "Le Pokémon invoque le soleil quand il entre au combat."
   },
   "arenaTrap": {
     "name": "Piège Sable",
-    "description": "Empêche l’adversaire de quitter le terrain."
+    "description": "Empêche l’adversaire de quitter le terrain. Augmente également la probabilité des combats duo."
   },
   "vitalSpirit": {
     "name": "Esprit Vital",
@@ -393,7 +393,7 @@
   },
   "noGuard": {
     "name": "Annule Garde",
-    "description": "Les capacités du Pokémon touchent leur cible à coup sûr, mais les capacités adverses le touchent aussi à coup sûr."
+    "description": "Les capacités du Pokémon touchent leur cible à coup sûr, mais les capacités adverses le touchent aussi à coup sûr. Augmente également la probabilité des combats duo."
   },
   "stall": {
     "name": "Frein",
@@ -433,7 +433,7 @@
   },
   "unaware": {
     "name": "Inconscient",
-    "description": "Le Pokémon ignore les changements de stats des autres Pokémon, qu’il attaque ou soit attaqué."
+    "description": "Le Pokémon ignore les changements de stats de l’ennemi."
   },
   "tintedLens": {
     "name": "Lentiteintée",
@@ -469,7 +469,7 @@
   },
   "honeyGather": {
     "name": "Cherche Miel",
-    "description": "Le Pokémon trouve du Miel après un combat et est directement revendu contre de l’argent."
+    "description": "Le Pokémon trouve du Miel après un combat gagné et est directement revendu contre de l’argent."
   },
   "frisk": {
     "name": "Fouille",
@@ -669,7 +669,7 @@
   },
   "protean": {
     "name": "Protéen",
-    "description": "Le Pokémon prend le type de la capacité qu’il utilise. Ce talent ne peut se déclencher qu’une fois par entrée au combat du Pokémon."
+    "description": "Le Pokémon prend le type de la capacité qu’il utilise."
   },
   "furCoat": {
     "name": "Toison Épaisse",
@@ -749,7 +749,7 @@
   },
   "auraBreak": {
     "name": "Aura Inversée",
-    "description": "Inverse l’effet des talents « Aura » afin que ceux-ci baissent la puissance des capacités affectées au lieu de l’augmenter."
+    "description": "Inverse l’effet des talents « Aura » afin que ceux-ci baissent la puissance des capacités affectées au lieu de l’augmenter."
   },
   "primordialSea": {
     "name": "Mer Primaire",
@@ -837,7 +837,7 @@
   },
   "battleBond": {
     "name": "Synergie",
-    "description": "En battant un ennemi, ce Pokémon renforce ses liens avec son Dresseur, ce qui augmente son Attaque, son Attaque Spéciale et sa Vitesse."
+    "description": "En battant un ennemi, ce Pokémon renforce ses liens avec son Dresseur et devient Sachanobi. Augmente également la puissance de la capacité Sheauriken."
   },
   "powerConstruct": {
     "name": "Rassemblement",
@@ -849,7 +849,7 @@
   },
   "comatose": {
     "name": "Hypersommeil",
-    "description": "Le Pokémon rêve en permanence et ne se réveille jamais. Il est capable d’attaquer normalement tout en dormant."
+    "description": "Le Pokémon rêve en permanence et ne se réveille jamais. Il est capable d’attaquer normalement tout en dormant et est considéré comme ayant un problème de statut."
   },
   "queenlyMajesty": {
     "name": "Prestance Royale",
@@ -933,15 +933,15 @@
   },
   "intrepidSword": {
     "name": "Lame Indomptable",
-    "description": "Augmente l’Attaque du Pokémon la première fois qu’il entre au combat."
+    "description": "Augmente l’Attaque du Pokémon quand il entre au combat."
   },
   "dauntlessShield": {
     "name": "Égide Inflexible",
-    "description": "Augmente la Défense du Pokémon la première fois qu’il entre au combat."
+    "description": "Augmente la Défense du Pokémon quand il entre au combat."
   },
   "libero": {
     "name": "Libéro",
-    "description": "Le Pokémon prend le type de la capacité qu’il utilise. Ce talent ne peut se déclencher qu’une fois par entrée au combat du Pokémon."
+    "description": "Le Pokémon prend le type de la capacité qu’il utilise."
   },
   "ballFetch": {
     "name": "Ramasse Ball",
@@ -984,7 +984,7 @@
     "description": "Le Pokémon est protégé par des écailles de glace. Les dégâts qu’il subit par des capacités spéciales sont divisés par deux."
   },
   "ripen": {
-    "name": "Mûrissement",
+    "name": "Murissement",
     "description": "Le Pokémon fait murir la Baie qu’il tient et double ainsi son effet."
   },
   "iceFace": {
@@ -1113,7 +1113,7 @@
   },
   "commander": {
     "name": "Commandant",
-    "description": "Si un Oyacata allié est sur le terrain quand ce Pokémon rejoint le combat, ce dernier entre dans sa bouche et devient son commandant."
+    "description": "Si un Oyacata allié est sur le terrain ce Pokémon le rejoint en amont d’y être envoyé, ce dernier entre dans sa bouche et devient son commandant. Augmente également la probabilité des combats duo."
   },
   "electromorphosis": {
     "name": "Grecharge",

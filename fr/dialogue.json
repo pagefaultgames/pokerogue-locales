@@ -132,9 +132,9 @@
       "3": "Je vais t’éclabousser de mon talent !"
     },
     "victory": {
-      "1": "Tu m’as complètement séché",
+      "1": "Tu m’as complètement séché…",
       "2": "Il semblerait que ce soit celles de la défaite…",
-      "3": "Retour sur la terre ferme je suppose"
+      "3": "Retour sur la terre ferme, je suppose."
     }
   },
   "backpacker": {
@@ -185,6 +185,7 @@
   "twins": {
     "encounter": {
       "1": "Tiens-toi prêt, car quand on fait équipe,\nc'est deux fois plus les problèmes !",
+      "1_female": "Tiens-toi prête, car quand on fait équipe,\nc'est deux fois plus les problèmes !",
       "2": "Deux âmes, une stratégie !\nVoyons si tu fais face à notre pouvoir gémellaire !",
       "3": "Tiens-toi prêt à suer, car la température est sur le point de doubler !",
       "3_female": "Tiens-toi prête à suer, car la température est sur le point de doubler !"
@@ -262,12 +263,13 @@
   "saturn": {
     "encounter": {
       "1": "Je suis Saturne,\nAdmin de la Team Galaxie.",
-      "2": "La missionde la Team Galaxie est absolue.\nToute obstacle sera exterminé !",
+      "2": "La mission de la Team Galaxie est absolue.\nTout obstacle sera exterminé !",
       "3": "C’est de la peur que je perçois dans tes yeux ?"
     },
     "victory": {
       "1": "Impossible…\nBattu ? Par toi ?!",
       "2": "T’es un adversaire à la hauteur, je te l’accorde.",
+      "2_female": "T’es une adversaire à la hauteur, je te l’accorde.",
       "3": "Grrr… Impressionnant !"
     }
   },
@@ -411,8 +413,8 @@
       "3": "On est juste des gars et des meufs normaux, on voit un Pokémon on le prend !",
       "4": "Pourquoi tu te la joue comme ça ? C'est avec tes dents que t’vas jouer frérot.",
       "4_female": "Pourquoi tu te la joue comme ça ? C'est avec tes dents que t’vas jouer ma reus.",
-      "5": "Cousin, écoute-nous bien ! ♪\nSe taper dessus, ça sert à rien ! ♪\n$Tu t’incrustes chez nous, ça s’fait pas ! ♪\nMais on est sympa, on a un plan pour toi ! ♪",
-      "5_female": "Cousine, écoute-nous bien ! ♪\nSe taper dessus, ça sert à rien ! ♪\n$Tu t’incrustes chez nous, ça s’fait pas ! ♪\nMais on est sympa, on a un plan pour toi ! ♪"
+      "5": "Cousin, écoute-nous bien ! ♪\nSe taper dessus, ça sert à rien ! ♪$Tu t’incrustes chez nous, ça s’fait pas ! ♪\nMais on est sympa, on a un plan pour toi ! ♪",
+      "5_female": "Cousine, écoute-nous bien ! ♪\nSe taper dessus, ça sert à rien ! ♪$Tu t’incrustes chez nous, ça s’fait pas ! ♪\nMais on est sympa, on a un plan pour toi ! ♪"
     },
     "victory": {
       "1": "Hein ? C’est déjà terminé ?",
@@ -432,15 +434,15 @@
     "victory": {
       "1": "Tsk. T’es pas mauvais. J’te l’accorde.",
       "1_female": "Tsk. T’es pas mauvaise. J’te l’accorde.",
-      "2": "Tsk. J’dois reconnaitre que t’en as dans le ventre.\n$Maintenant, j’comprends pourquoi mes gars n’arrêtent pas de se faire battre par toi.",
+      "2": "Tsk. J’dois reconnaitre que t’en as dans le ventre.$Maintenant, j’comprends pourquoi mes gars n’arrêtent pas de se faire battre par toi.",
       "3": "Tsk. J’crois que j'ai plus qu’à assumer ma défaite."
     }
   },
   "macro_grunt": {
     "encounter": {
       "1": "Hop hop hop ! Terminus !",
-      "2": "T’es un Dresseur n’est-ce pas ?\n$J’ai bien peur ce que ne soit pas une excuse suffisante pour nous interrompre dans notre travail.",
-      "2_female": "T’es une Dresseuse n’est-ce pas ?\n$J’ai bien peur ce que ne soit pas une excuse suffisante pour nous interrompre dans notre travail.",
+      "2": "T’es un Dresseur n’est-ce pas ?$J’ai bien peur ce que ne soit pas une excuse suffisante pour nous interrompre dans notre travail.",
+      "2_female": "T’es une Dresseuse n’est-ce pas ?$J’ai bien peur ce que ne soit pas une excuse suffisante pour nous interrompre dans notre travail.",
       "3": "Je travaille à Macro Cosmos Assurances !\nBesoin d’une assurance-vie ?",
       "4": "Trouvé !\nPetit interlude combat !",
       "4_female": "Trouvée !\nPetit interlude combat !",
@@ -457,30 +459,30 @@
   "oleana": {
     "encounter": {
       "1": "Je ne laisserai personne interférer avec les projets du président Shehroz.",
-      "2": "Je vois que vous avez su vous défaire de mes subalternes.\n$Mais assez joué. Il est temps de rentrer chez vous, maintenant.",
+      "2": "Je vois que vous avez su vous défaire de mes subalternes.$Mais assez joué. Il est temps de rentrer chez vous, maintenant.",
       "3": "Je gagnerai en votre nom, monsieur le président."
     },
     "victory": {
       "1": "*soupir* Comment ai-je fait pour perdre ainsi… ?\nJe ne suis vraiment pas à la hauteur…",
       "2": "Ah ! Quelle erreur… Je n’aurais pas dû sous-estimer un Dresseur de ton calibre…",
       "2_female": "Ah ! Quelle erreur… Je n’aurais pas dû sous-estimer une Dresseuse de ton calibre…",
-      "3": "*soupir* Je suis fatiguée parton…"
+      "3": "*soupir* Je suis fatiguée patron…"
     }
   },
   "star_grunt": {
     "encounter": {
       "1": "Ouais, un peu de respect, tu veux ?\n Tu sais à qui t’as affaire ?",
       "2": "Notre comité d’accueil va pas te faire de cadeau ! Hasta la vistaaar ! ★",
-      "3": "Tu peux aller voir ailleurs si j’y suis ?\n$Si tu refuses, je m’autorise à faire valoir mes droits de légitime défense, je te préviens !",
+      "3": "Tu peux aller voir ailleurs si j’y suis ?$Si tu refuses, je m’autorise à faire valoir mes droits de légitime défense, je te préviens !",
       "4": "Désolé, mais si tu refuses de partir, on sera obligés de t’y forcer, et ça sera pas joli joli.",
       "4_female": "Désolé, mais si tu refuses de partir, on sera obligés de t’y forcer, et ça sera pas joli joli.",
       "5": "Quoi ? Toi aussi, t’es venu me casser les pieds ? C’est vraiment pas ma journée…",
       "5_female": "Quoi ? Toi aussi, t’es venue me casser les pieds ? C’est vraiment pas ma journée…"
     },
     "victory": {
-      "1": "Comment c'est ça peut être moi qui voit les étoiles ?!",
-      "2": "T’en as dans le ventre.\n$T’as peut-être ce qu’il faut pour te faire une place dans la constellation de la Team Star.",
-      "2_female": "T’en as dans le ventre.\n$T’as peut-être ce qu’il faut pour te faire une place dans la constellation de la Team Star.",
+      "1": "Comment ça peut être moi qui voit les étoiles ?!",
+      "2": "T’en as dans le ventre.$T’as peut-être ce qu’il faut pour te faire une place dans la constellation de la Team Star.",
+      "2_female": "T’en as dans le ventre.$T’as peut-être ce qu’il faut pour te faire une place dans la constellation de la Team Star.",
       "3": "Ma défense était pourtant bonne…\nMais c’était pas assez visiblement !",
       "4": "Ha… hasta la vistar… ☆",
       "5": "J’aurais jamais cru qu’être Sbire de la Team Star serait un tel fardeau…"
@@ -704,7 +706,8 @@
       "1": "Toi… Un jour ou l’autre, j’te ferai ta fête…"
     },
     "defeat": {
-      "1": "Et donc, tu es venu tout seul comme\nun gentil petit Ponchiot…"
+      "1": "Et donc, tu es venu tout seul comme\nun gentil petit Ponchiot…",
+      "1_female": "Et donc, tu es venue toute seule comme\nun gentil petit Ponchiot…"
     }
   },
   "skull_boss_guzma_2": {
@@ -715,7 +718,8 @@
       "1": "Guzma, mais tu nous as fait quoi là ?!"
     },
     "defeat": {
-      "1": "Toi, là…\nTu s’rais pas un peu timbré sur les bords ?"
+      "1": "Toi, là…\nTu s’rais pas un peu timbré sur les bords ?",
+      "1_female": "Toi, là…\nTu s’rais pas un peu timbrée sur les bords ?"
     }
   },
   "macro_boss_rose_1": {
@@ -742,7 +746,7 @@
   },
   "star_boss_penny_1": {
     "encounter": {
-      "1": "Je suis la Big Boss de la Team Star, Cassiopée…\n$Incline-toi devant la toute-puissance de la Big Boss !!!"
+      "1": "Je suis la Big Boss de la Team Star, Cassiopée…$Incline-toi devant la toute-puissance de la Big Boss !!!"
     },
     "victory": {
       "1": "… … …"
@@ -753,10 +757,10 @@
   },
   "star_boss_penny_2": {
     "encounter": {
-      "1": "Le code d’honneur de la Team Star exige que nous donnions le maximum en combat !\n$Par le pouvoir de l’Évolition, on va te réduire en poussière d’étoiles !"
+      "1": "Le code d’honneur de la Team Star exige que nous donnions le maximum en combat !$Par le pouvoir de l’Évolition, on va te réduire en poussière d’étoiles !"
     },
     "victory": {
-      "1": "… Tout est fini"
+      "1": "… Tout est fini."
     },
     "defeat": {
       "1": "Tu es redoutable.\nPas étonnant que les boss de la Team aient perdu contre toi."
@@ -983,6 +987,13 @@
       "3": "Sa confiance en moi était donc justifiée."
     }
   },
+  "roark": {
+    "encounter": {
+      "1": "En tant que Champion, je dois voir ton potentiel de Dresseur. Et je dois aussi vérifier la force des Pokémon qui se battent à tes côtés !",
+      "1_female": "En tant que Champion, je dois voir ton potentiel de Dresseur. Et je dois aussi vérifier la force des Pokémon qui se battent à tes côtés !",
+      "2": "C'est parti ! En piste, mes Pokémon Roche, ma fierté !"
+    }
+  },
   "alder": {
     "encounter": {
       "1": "Prépare-toi pour un combat contre le meilleur Dresseur d’Unys !"
@@ -991,50 +1002,50 @@
       "1": "Bien joué ! Tu as sans aucun doute un talent inégalé."
     },
     "defeat": {
-      "1": "Une brise fraiche traverse mon cœur…\n$Quel effort extraordinaire !"
+      "1": "Une brise fraiche traverse mon cœur…$Quel effort extraordinaire !"
     }
   },
   "kieran": {
     "encounter": {
-      "1": "Grâce à un travail acharné, je deviens de plus en plus fort !\n$Je ne perdrai pas."
+      "1": "Grâce à un travail acharné, je deviens de plus en plus fort !$Je ne perdrai pas."
     },
     "victory": {
-      "1": "Je n’y crois pas…\n$Quel combat amusant et palpitant !"
+      "1": "Je n’y crois pas…$Quel combat amusant et palpitant !"
     },
     "defeat": {
-      "1": "Eh beh, quel combat !\n$Il est temps pour toi de t’entrainer encore plus dur."
+      "1": "Eh beh, quel combat !$Il est temps pour toi de t’entrainer encore plus dur."
     }
   },
   "rival": {
     "encounter": {
-      "1": "@c{smile}Ah, je te cherchais ! Je savais que t’étais pressée de partir, mais je m’attendais quand même à un au revoir…\n$@c{smile_eclosed}T’as finalement décidé de réaliser ton rêve ?\nJ’ai peine à y croire.\n$@c{serious_smile_fists}Vu que t’es là, ça te dis un petit combat ?\nJe voudrais quand même m’assurer que t’es prête.\n$@c{serious_mopen_fists}Surtout ne te retiens pas et donne-moi tout ce que t’as !"
+      "1": "@c{smile}Ah, je te cherchais ! Je savais que t’étais pressée de partir, mais je m’attendais quand même à un au revoir…$@c{smile_eclosed}T’as finalement décidé de réaliser ton rêve ?\nJ’ai peine à y croire.$@c{serious_smile_fists}Vu que t’es là, ça te dis un petit combat ?\nJe voudrais quand même m’assurer que t’es prête.$@c{serious_mopen_fists}Surtout ne te retiens pas et donne-moi tout ce que t’as !"
     },
     "victory": {
-      "1": "@c{shock}Wah… Tu m’as vraiment lavé.\nT’es vraiment une débutante ?\n$@c{smile}T’as peut-être eu de la chance, mais…\nPeut-être que t’arriveras jusqu’au bout du chemin.\n$D’ailleurs, le prof m’a demandé de te filer ces objets.\nIls ont l’air sympas.\n$@c{serious_smile_fists}Bonne chance à toi !"
+      "1": "@c{shock}Wah… Tu m’as vraiment lavé.\nT’es vraiment une débutante ?$@c{smile}T’as peut-être eu de la chance, mais…\nPeut-être que t’arriveras jusqu’au bout du chemin.$D’ailleurs, le prof m’a demandé de te filer ces objets.\nIls ont l’air sympas.$@c{serious_smile_fists}Bonne chance à toi !"
     }
   },
   "rival_female": {
     "encounter": {
-      "1": "@c{smile_wave}Ah, te voilà ! Je t’ai cherché partout !\n@c{angry_mopen}On oublie de dire au revoir à sa meilleure amie ?\n$@c{smile_ehalf}T’as décidé de réaliser ton rêve, hein ?\nCe jour est donc vraiment arrivé…\n$@c{smile}Je veux bien te pardonner de m’avoir oubliée,\nà une condition. @c{smile_wave_wink}Que tu m’affronte !\n$@c{angry_mopen}Donne tout ! Ce serait dommage que ton aventure finisse avant d’avoir commencé, hein ?"
+      "1": "@c{smile_wave}Ah, te voilà ! Je t’ai cherché partout !\n@c{angry_mopen}On oublie de dire au revoir à sa meilleure amie ?$@c{smile_ehalf}T’as décidé de réaliser ton rêve, hein ?\nCe jour est donc vraiment arrivé…$@c{smile}Je veux bien te pardonner de m’avoir oubliée,\nà une condition. @c{smile_wave_wink}Que tu m’affronte !$@c{angry_mopen}Donne tout ! Ce serait dommage que ton aventure finisse avant d’avoir commencé, hein ?"
     },
     "victory": {
-      "1": "@c{shock}Tu viens de commencer et t’es déjà si fort ?!@d{96}\n@c{angry}T’as triché non ? Avoue !\n$@c{smile_wave_wink}J’déconne !@d{64} @c{smile_eclosed}J’ai perdu dans les règles…\nJ’ai le sentiment que tu vas très bien t’en sortir.\n$@c{smile}D’ailleurs, le prof veut que je te donne ces quelques objets. Ils te seront utiles, pour sûr !\n$@c{smile_wave}Fais de ton mieux, comme toujours !\nJe crois fort en toi !"
+      "1": "@c{shock}Tu viens de commencer et t’es déjà si fort ?!@d{96}\n@c{angry}T’as triché non ? Avoue !$@c{smile_wave_wink}J’déconne !@d{64} @c{smile_eclosed}J’ai perdu dans les règles…\nJ’ai le sentiment que tu vas très bien t’en sortir.$@c{smile}D’ailleurs, le prof veut que je te donne ces quelques objets. Ils te seront utiles, pour sûr !$@c{smile_wave}Fais de ton mieux, comme toujours !\nJe crois fort en toi !"
     }
   },
   "rival_2": {
     "encounter": {
-      "1": "@c{smile}Hé, toi aussi t’es là ?\n@c{smile_eclosed}Toujours invaincue, hein… ?\n$@c{serious_mopen_fists}Je sais que j’ai l’air de t’avoir suivie ici, mais c’est pas complètement vrai.\n$@c{serious_smile_fists}Pour être honnête, ça me démangeait d’avoir une revanche depuis que tu m’as battu.\n$Je me suis beaucoup entrainé, alors sois sure que je vais pas retenir mes coups cette fois.\n$@c{serious_mopen_fists}Et comme la dernière fois, ne te retiens pas !\nC’est parti !"
+      "1": "@c{smile}Hé, toi aussi t’es là ?\n@c{smile_eclosed}Toujours invaincue, hein… ?$@c{serious_mopen_fists}Je sais que j’ai l’air de t’avoir suivie ici, mais c’est pas complètement vrai.$@c{serious_smile_fists}Pour être honnête, ça me démangeait d’avoir une revanche depuis que tu m’as battu.$Je me suis beaucoup entrainé, alors sois sure que je vais pas retenir mes coups cette fois.$@c{serious_mopen_fists}Et comme la dernière fois, ne te retiens pas !\nC’est parti !"
     },
     "victory": {
-      "1": "@c{neutral_eclosed}Oh. Je crois que j’ai trop pris la confiance.\n$@c{smile}Pas grave, c’est OK. Je me doutais que ça arriverait.\n@c{serious_mopen_fists}Je vais juste devoir encore plus m’entrainer !\n\n$@c{smile}Ah, et pas que t’aies réellement besoin d’aide, mais j’ai ça en trop sur moi qui pourrait t’intéresser.\n\n$@c{serious_smile_fists}Mais n’espère plus en avoir d’autres !\nJe peux pas passer mon temps à aider mon adversaire.\n$@c{smile}Bref, prends soin de toi !"
+      "1": "@c{neutral_eclosed}Oh. Je crois que j’ai trop pris la confiance.$@c{smile}Pas grave, c’est OK. Je me doutais que ça arriverait.\n@c{serious_mopen_fists}Je vais juste devoir encore plus m’entrainer !$@c{smile}Ah, et pas que t’aies réellement besoin d’aide, mais j’ai ça en trop sur moi qui pourrait t’intéresser.$@c{serious_smile_fists}Mais n’espère plus en avoir d’autres !\nJe peux pas passer mon temps à aider mon adversaire.$@c{smile}Bref, prends soin de toi !"
     }
   },
   "rival_2_female": {
     "encounter": {
-      "1": "@c{smile_wave}Hé, sympa de te croiser ici. T’as toujours l’air invaincu. @c{angry_mopen}Eh… Pas mal !\n$@c{angry_mopen}Je sais à quoi tu penses et non, je t’espionne pas.\n@c{smile_eclosed}C’est juste que j’étais aussi dans le coin.\n$@c{smile_ehalf}Heureuse pour toi, mais je veux juste te rappeler que c’est pas grave de perdre parfois.\n$@c{smile}On apprend de nos erreurs, souvent plus que si on ne connaissait que le succès.\n$@c{angry_mopen}Dans tous les cas je me suis bien entrainée pour cette revanche, t’as intérêt à tout donner !"
+      "1": "@c{smile_wave}Hé, sympa de te croiser ici. T’as toujours l’air invaincu. @c{angry_mopen}Eh… Pas mal !$@c{angry_mopen}Je sais à quoi tu penses et non, je t’espionne pas.\n@c{smile_eclosed}C’est juste que j’étais aussi dans le coin.$@c{smile_ehalf}Heureuse pour toi, mais je veux juste te rappeler que c’est pas grave de perdre parfois.$@c{smile}On apprend de nos erreurs, souvent plus que si on ne connaissait que le succès.$@c{angry_mopen}Dans tous les cas je me suis bien entrainée pour cette revanche, t’as intérêt à tout donner !"
     },
     "victory": {
-      "1": "@c{neutral}Je… J’étais pas encore supposée perdre…\n$@c{smile}Bon. Ça veut juste dire que je vais devoir encore plus m’entrainer !\n$@c{smile_wave}J’ai aussi ça en rab pour toi !\n@c{smile_wave_wink}Inutile de me remercier ~.\n$@c{angry_mopen}C’étaient les derniers, terminé les cadeaux après ceux-là !\n$@c{smile_wave}Allez, tiens le coup !"
+      "1": "@c{neutral}Je… J’étais pas encore supposée perdre…$@c{smile}Bon. Ça veut juste dire que je vais devoir encore plus m’entrainer !$@c{smile_wave}J’ai aussi ça en rab pour toi !\n@c{smile_wave_wink}Inutile de me remercier ~.$@c{angry_mopen}C’étaient les derniers, terminé les cadeaux après ceux-là !$@c{smile_wave}Allez, tiens le coup !"
     },
     "defeat": {
       "1": "Je suppose que c’est parfois normal de perdre…"
@@ -1042,7 +1053,7 @@
   },
   "rival_3": {
     "encounter": {
-      "1": "@c{smile}Hé, mais qui voilà ! Ça fait un bail.\n@c{neutral}T’es… toujours invaincue ? Incroyable.\n$@c{neutral_eclosed}Tout est devenu un peu… étrange.\nC’est plus pareil sans toi au village.\n$@c{serious}Je sais que c’est égoïste, mais j’ai besoin d’expier ça.\n@c{neutral_eclosed}Je crois que tout ça te dépasse.\n$@c{serious}Ne jamais perdre, c’est juste irréaliste.\nGrandir, c’est parfois aussi savoir perdre.\n$@c{neutral_eclosed}T’as un beau parcours, mais il y a encore tellement à venir et ça va pas s’arranger. @c{neutral}T’es prête pour ça ?\n$@c{serious_mopen_fists}Si tu l’es, alors prouve-le."
+      "1": "@c{smile}Hé, mais qui voilà ! Ça fait un bail.\n@c{neutral}T’es… toujours invaincue ? Incroyable.$@c{neutral_eclosed}Tout est devenu un peu… étrange.\nC’est plus pareil sans toi au village.$@c{serious}Je sais que c’est égoïste, mais j’ai besoin d’expier ça.\n@c{neutral_eclosed}Je crois que tout ça te dépasse.$@c{serious}Ne jamais perdre, c’est juste irréaliste.\nGrandir, c’est parfois aussi savoir perdre.$@c{neutral_eclosed}T’as un beau parcours, mais il y a encore tellement à venir et ça va pas s’arranger. @c{neutral}T’es prête pour ça ?$@c{serious_mopen_fists}Si tu l’es, alors prouve-le."
     },
     "victory": {
       "1": "@c{angry_mhalf}C’est lunaire… J’ai presque fait que m’entrainer…\nAlors pourquoi il y a encore un tel écart entre nous ?"
@@ -1050,7 +1061,7 @@
   },
   "rival_3_female": {
     "encounter": {
-      "1": "@c{smile_wave}Ça fait une éternité ! Toujours debout hein ?\n@c{angry}Tu commences à me pousser à bout là. @c{smile_wave_wink}T’inquiètes j’déconne !\n$@c{smile_ehalf}Mais en vrai, ta maison te manque pas ? Ou… Moi ?\nJ… Je veux dire… Tu me manques vraiment beaucoup.\n$@c{smile_eclosed}Je te soutiendrai toujours dans tes ambitions, mais la vérité est que tu finiras par perdre un jour ou l’autre.\n$@c{smile}Quand ça arrivera, je serai là pour toi, comme toujours.\n@c{angry_mopen}Maintenant, montre-moi à quel point t’es devenu fort !"
+      "1": "@c{smile_wave}Ça fait une éternité ! Toujours debout hein ?\n@c{angry}Tu commences à me pousser à bout là. @c{smile_wave_wink}T’inquiètes j’déconne !$@c{smile_ehalf}Mais en vrai, ta maison te manque pas ? Ou… Moi ?\nJ… Je veux dire… Tu me manques vraiment beaucoup.$@c{smile_eclosed}Je te soutiendrai toujours dans tes ambitions, mais la vérité est que tu finiras par perdre un jour ou l’autre.$@c{smile}Quand ça arrivera, je serai là pour toi, comme toujours.\n@c{angry_mopen}Maintenant, montre-moi à quel point t’es devenu fort !"
     },
     "victory": {
       "1": "@c{shock}Après tout ça… Ça te suffit toujours pas… ?\nTu reviendras jamais à ce rythme…"
@@ -1061,7 +1072,7 @@
   },
   "rival_4": {
     "encounter": {
-      "1": "@c{neutral}Hé.\n$Je vais pas y aller par quatre chemins avec toi.\n@c{neutral_eclosed}Je suis là pour gagner. Simple, basique.\n$@c{serious_mhalf_fists}J’ai appris à maximiser tout mon potentiel en m’entrainant d’arrachepied.\n$@c{smile}C’est fou tout le temps que tu peux te dégager si tu dors pas en sacrifiant ta vie sociale.\n$@c{serious_mopen_fists}Plus rien n’a d’importance désormais, pas tant que j’aurai pas gagné.\n$@c{neutral_eclosed}J’ai atteint un stade où je ne peux plus perdre.\n@c{smile_eclosed}Je présume que ta philosophie était pas si fausse finalement.\n$@c{angry_mhalf}La défaite, c’est pour les faibles, et je ne suis plus un faible.\n$@c{serious_mopen_fists}Tiens-toi prête."
+      "1": "@c{neutral}Hé.$Je vais pas y aller par quatre chemins avec toi.\n@c{neutral_eclosed}Je suis là pour gagner. Simple, basique.$@c{serious_mhalf_fists}J’ai appris à maximiser tout mon potentiel en m’entrainant d’arrachepied.$@c{smile}C’est fou tout le temps que tu peux te dégager si tu dors pas en sacrifiant ta vie sociale.$@c{serious_mopen_fists}Plus rien n’a d’importance désormais, pas tant que j’aurai pas gagné.$@c{neutral_eclosed}J’ai atteint un stade où je ne peux plus perdre.\n@c{smile_eclosed}Je présume que ta philosophie était pas si fausse finalement.$@c{angry_mhalf}La défaite, c’est pour les faibles, et je ne suis plus un faible.$@c{serious_mopen_fists}Tiens-toi prête."
     },
     "victory": {
       "1": "@c{neutral}Que…@d{64} Qui es-tu ?"
@@ -1069,7 +1080,7 @@
   },
   "rival_4_female": {
     "encounter": {
-      "1": "@c{neutral}C’est moi ! Tu m’as pas encore oubliée… n’est-ce pas ?\n$@c{smile}Tu devrais être fier d’être arrivé aussi loin. GG !\nMais c’est certainement pas la fin de ton aventure.\n$@c{smile_eclosed}T’as éveillé en moi quelque chose que j’ignorais.\nTout mon temps passe dans l’entrainement.\n$@c{smile_ehalf}Je dors et je mange à peine, je m’entraine juste tous les jours, et deviens de plus en plus forte.\n$@c{neutral}En vrai, Je… J’ai de la peine à me reconnaitre.\n$Mais maintenant, je suis au top de mes capacités.\nJe doute que tu sois de nouveau capable de me battre.\n$Et tu sais quoi ? Tout ça, c’est de ta faute.\n@c{smile_ehalf}Et j’ignore si je dois te remercier ou te haïr.\n$@c{angry_mopen}Tiens-toi prêt."
+      "1": "@c{neutral}C’est moi ! Tu m’as pas encore oubliée… n’est-ce pas ?$@c{smile}Tu devrais être fier d’être arrivé aussi loin. GG !\nMais c’est certainement pas la fin de ton aventure.$@c{smile_eclosed}T’as éveillé en moi quelque chose que j’ignorais.\nTout mon temps passe dans l’entrainement.$@c{smile_ehalf}Je dors et je mange à peine, je m’entraine juste tous les jours, et deviens de plus en plus forte.$@c{neutral}En vrai, Je… J’ai de la peine à me reconnaitre.$Mais maintenant, je suis au top de mes capacités.\nJe doute que tu sois de nouveau capable de me battre.$Et tu sais quoi ? Tout ça, c’est de ta faute.\n@c{smile_ehalf}Et j’ignore si je dois te remercier ou te haïr.$@c{angry_mopen}Tiens-toi prêt."
     },
     "victory": {
       "1": "@c{neutral}Que…@d{64} Qui es-tu ?"
@@ -1099,18 +1110,18 @@
   },
   "rival_6": {
     "encounter": {
-      "1": "@c{smile_eclosed}Nous y revoilà.\n$@c{neutral}J’ai eu du temps pour réfléchir à tout ça.\nIl y a une raison à pourquoi tout semble étrange.\n$@c{neutral_eclosed}Ton rêve, ma volonté de te battre…\nFont partie de quelque chose de plus grand.\n$@c{serious}C’est même pas à propos de moi, ni de toi… Mais du monde, @c{serious_mhalf_fists}et te repousser dans tes limites est ma mission.\n$@c{neutral_eclosed}J’ignore si je serai capable de l’accomplir, mais je ferai tout ce qui est en mon pouvoir.\n$@c{neutral}Cet endroit est terrifiant… Et pourtant il m’a l’air familier, comme si j’y avais déjà mis les pieds.\n$@c{serious_mhalf_fists}Tu ressens la même chose, pas vrai ?\n$@c{serious}… et c’est comme si quelque chose ici me parlait.\n$Comme si c’était tout ce que ce monde avait toujours connu.\n$Ces précieux moments ensemble qui semblent si proches ne sont rien de plus qu’un lointain souvenir.\n$@c{neutral_eclosed}D’ailleurs, qui peut dire aujourd’hui qu’ils ont pu être réels ?\n$@c{serious_mopen_fists}Il faut que tu persévères. Si tu t’arrêtes, ça n’aura jamais de fin et t’es la seule à en être capable.\n$@c{serious_smile_fists}Difficile de comprendre le sens de tout ça, je sais juste que c’est la réalité.\n$@c{serious_mopen_fists}Si tu ne parviens pas à me battre ici et maintenant, tu n’as aucune chance."
+      "1": "@c{smile_eclosed}Nous y revoilà.$@c{neutral}J’ai eu du temps pour réfléchir à tout ça.\nIl y a une raison à pourquoi tout semble étrange.$@c{neutral_eclosed}Ton rêve, ma volonté de te battre…\nFont partie de quelque chose de plus grand.$@c{serious}C’est même pas à propos de moi, ni de toi… Mais du monde, @c{serious_mhalf_fists}et te repousser dans tes limites est ma mission.$@c{neutral_eclosed}J’ignore si je serai capable de l’accomplir, mais je ferai tout ce qui est en mon pouvoir.$@c{neutral}Cet endroit est terrifiant… Et pourtant il m’a l’air familier, comme si j’y avais déjà mis les pieds.$@c{serious_mhalf_fists}Tu ressens la même chose, pas vrai ?$@c{serious}… et c’est comme si quelque chose ici me parlait.$Comme si c’était tout ce que ce monde avait toujours connu.$Ces précieux moments ensemble qui semblent si proches ne sont rien de plus qu’un lointain souvenir.$@c{neutral_eclosed}D’ailleurs, qui peut dire aujourd’hui qu’ils ont pu être réels ?$@c{serious_mopen_fists}Il faut que tu persévères. Si tu t’arrêtes, ça n’aura jamais de fin et t’es la seule à en être capable.$@c{serious_smile_fists}Difficile de comprendre le sens de tout ça, je sais juste que c’est la réalité.$@c{serious_mopen_fists}Si tu ne parviens pas à me battre ici et maintenant, tu n’as aucune chance."
     },
     "victory": {
-      "1": "@c{smile_eclosed}J’ai fait ce que j’avais à faire.\n$Promets-moi juste une chose.\n@c{smile}Après avoir réparé ce monde… Rentre à la maison."
+      "1": "@c{smile_eclosed}J’ai fait ce que j’avais à faire.$Promets-moi juste une chose.\n@c{smile}Après avoir réparé ce monde… Rentre à la maison."
     }
   },
   "rival_6_female": {
     "encounter": {
-      "1": "@c{smile_ehalf}C’est donc encore entre toi et moi.\n$@c{smile_eclosed}Tu sais, j’ai beau retouner ça dans tous les sens…\n$@c{smile_ehalf}Quelque chose peut expliquer tout ça, pourquoi tout semble si étrange…\n$@c{smile}T’as tes rêves, j’ai mes ambitions…\n$J’ai juste le sentiment qu’il y a un grand dessein derrière tout ça, derrière ce qu’on fait toi et moi.\n$@c{smile_eclosed}Je crois que mon but est de… repousser tes limites.\n$@c{smile_ehalf}Je suis pas certaine de bien être douée à cet exercice, mais je fais de mon mieux.\n$Cet endroit épouvantable cache quelque chose d’étrange… Tout semble si limpide…\n$Comme… si c’était tout ce que ce monde avait toujours connu.\n$@c{smile_eclosed}J’ai le sentiment que nos précieux moments ensemble sont devenus si flous.\n$@c{smile_ehalf}Ont-ils au moins été réels ? Tout semble si loin maintenant…\n$@c{angry_mopen}Il faut que tu persévères. Si tu t’arrêtes, ça n’aura jamais de fin et t’es le seul à en être capable.\n$@c{smile_ehalf}Je… j’ignore le sens de tout ça… Mais je sais que c’est la réalité.\n$@c{neutral}Si tu ne parviens pas à me battre ici et maintenant, tu n’as aucune chance."
+      "1": "@c{smile_ehalf}C’est donc encore entre toi et moi.$@c{smile_eclosed}Tu sais, j’ai beau retouner ça dans tous les sens…$@c{smile_ehalf}Quelque chose peut expliquer tout ça, pourquoi tout semble si étrange…$@c{smile}T’as tes rêves, j’ai mes ambitions…$J’ai juste le sentiment qu’il y a un grand dessein derrière tout ça, derrière ce qu’on fait toi et moi.$@c{smile_eclosed}Je crois que mon but est de… repousser tes limites.$@c{smile_ehalf}Je suis pas certaine de bien être douée à cet exercice, mais je fais de mon mieux.$Cet endroit épouvantable cache quelque chose d’étrange… Tout semble si limpide…$Comme… si c’était tout ce que ce monde avait toujours connu.$@c{smile_eclosed}J’ai le sentiment que nos précieux moments ensemble sont devenus si flous.$@c{smile_ehalf}Ont-ils au moins été réels ? Tout semble si loin maintenant…$@c{angry_mopen}Il faut que tu persévères. Si tu t’arrêtes, ça n’aura jamais de fin et t’es le seul à en être capable.$@c{smile_ehalf}Je… j’ignore le sens de tout ça… Mais je sais que c’est la réalité.$@c{neutral}Si tu ne parviens pas à me battre ici et maintenant, tu n’as aucune chance."
     },
     "victory": {
-      "1": "@c{smile_ehalf}Je… Je crois que j’ai rempli ma mission…\n$@c{smile_eclosed}Promets-moi… Après avoir réparé ce monde… Reviens à la maison sain et sauf.\n$@c{smile_ehalf}… Merci."
+      "1": "@c{smile_ehalf}Je… Je crois que j’ai rempli ma mission…$@c{smile_eclosed}Promets-moi… Après avoir réparé ce monde… Reviens à la maison sain et sauf.$@c{smile_ehalf}… Merci."
     }
   }
 }

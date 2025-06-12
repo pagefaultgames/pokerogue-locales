@@ -25,6 +25,7 @@
   "bellChimed": "Un grelot sonne !",
   "foresawAnAttack": "{{pokemonName}}\nprévoit une attaque !",
   "isTighteningFocus": "{{pokemonName}} se concentre\nau maximum !",
+  "lostFocus": "{{pokemonName}} n’est plus concentré.\nIl ne peut plus attaquer !",
   "hidUnderwater": "{{pokemonName}}\nse cache sous l’eau !",
   "soothingAromaWaftedThroughArea": "Une odeur apaisante flotte dans l’air !",
   "sprangUp": "{{pokemonName}}\nse propulse dans les airs !",
@@ -70,12 +71,16 @@
   "exposedMove": "{{targetPokemonName}} est identifié\npar {{pokemonName}} !",
   "safeguard": "{{targetName}} est protégé\npar la capacité Rune Protect !",
   "substituteOnOverlap": "{{pokemonName}} a déjà\nun clone !",
-  "substituteNotEnoughHp": "Mais il est trop faible\npour créer un clone !",
+  "substituteNotEnoughHp": "Mais il est trop faible\npour créer un clone !",
   "afterYou": "{{targetName}} accepte\navec joie !",
-  "combiningPledge": "Les deux capacités se sont combinées !",
+  "combiningPledge": "Les deux capacités se sont combinées !",
   "awaitingPledge": "{{userPokemonName}} attend\n{{allyPokemonName}}…",
   "corrosiveGasItem": "{{pokemonName}} fait fondre l’objet\n{{itemName}} de {{targetName}} !",
   "instructingMove": "{{targetPokemonName}} obéit à la sommation\nde {{userPokemonName}} !",
-  "lunarDanceRestore": "{{pokemonName}} baigne\ndans la lumière des rayons de lune !",
-  "forceLast": "{{targetPokemonName}\ndoit retourner à la queue !"
+  "lunarDanceRestore": "{{pokemonName}} baigne\ndans la lumière des rayons de lune !",
+  "stealPositiveStats": "{{pokemonName}} vole les augmentations\nde stats de {{targetName}} !",
+  "forceLast": "{{targetPokemonName}\ndoit retourner à la queue !",
+  "splash": "Mais rien ne se passe !",
+  "fallDown": "Touché dans les airs, {{targetPokemonName}}\ns’écrase au sol !",
+  "celebrate": "Félicitations, {{playerName}} !"
 }

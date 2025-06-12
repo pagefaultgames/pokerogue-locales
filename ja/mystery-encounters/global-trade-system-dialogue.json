@@ -1,7 +1,7 @@
 {
   "intro": "グローバルトレードシステムの　インターフェイスです！",
   "title": "ＧＴＳ",
-  "description": "ＧＴＳ： この新技術の 軌跡で 世界中の 誰とでも 接続して ポケモンを 通信交換できます。 今日の 交換に 幸運が 訪れるでしょうか？",
+  "description": "ＧＴＳ： この新技術の 軌跡で 世界中の 誰とでも 接続して ポケモンを 通信交換できます。 今日の 交換には 幸運が 訪れるでしょうか？",
   "query": "どうします？",
   "option": {
     "1": {
@@ -27,6 +27,6 @@
   },
   "pokemon_trade_selected": "{{tradedPokemon}}は　{{tradeTrainerName}}に　送られます。",
   "pokemon_trade_goodbye": "さようなら　{{tradedPokemon}}!",
-  "item_trade_selected": "{{chosenItem}}は　{{tradeTrainerName}}に　送られます。\n$.@d{64}.@d{64}.@d{64}\n@s{level_up_fanfare}交換　完了！\n${{tradeTrainerName}}から　{{itemName}}を　もらいました！",
+  "item_trade_selected": "{{chosenItem}}は　{{tradeTrainerName}}に　送られます。$.@d{64}.@d{64}.@d{64}\n@s{level_up_fanfare}交換　完了！${{tradeTrainerName}}から　{{itemName}}を　もらいました！",
   "trade_received": "@s{evolution_fanfare}{{received}}を　{{tradeTrainerName}}から　もらいました！"
 }

@@ -9,6 +9,7 @@
   "trainerComeBack": "{{trainerName}} retirou {{pokemonName}} da batalha!",
   "playerGo": "{{pokemonName}}, eu escolho você!",
   "trainerGo": "{{trainerName}} escolheu {{pokemonName}}!",
+  "pokemonDraggedOut": "{{pokemonName}} foi arrastado(a) para fora!",
   "switchQuestion": "Quer trocar\nde {{pokemonName}}?",
   "trainerDefeated": "Você derrotou\n{{trainerName}}!",
   "moneyWon": "Você ganhou\n₽{{moneyAmount}} por vencer!",
@@ -24,7 +25,7 @@
   "sendOutPokemon": "{{pokemonName}}, eu escolho você!!",
   "hitResultCriticalHit": "Foi um acerto crítico!",
   "hitResultSuperEffective": "É supereficaz!",
-  "hitResultNotVeryEffective": "É pouco eficaz...",
+  "hitResultNotVeryEffective": "É pouco eficaz…",
   "hitResultNoEffect": "Isso não afeta {{pokemonName}}!",
   "hitResultImmune": "{{pokemonName}} não é afetado!",
   "hitResultOneHitKO": "Foi um nocaute de um golpe!",
@@ -43,7 +44,7 @@
   "learnMoveNotLearned": "{{pokemonName}} não aprendeu {{moveName}}.",
   "learnMoveForgetQuestion": "Qual movimento quer esquecer?",
   "learnMoveForgetSuccess": "{{pokemonName}} esqueceu como usar {{moveName}}.",
-  "countdownPoof": "@d{32}1, @d{15}2, @d{15}e@d{15}… @d{15}… @d{15}… @d{15}@s{se/pb_bounce_1}Puf!",
+  "countdownPoof": "@d{32}1, @d{15}2, @d{15}e@d{15}… @d{15}… @d{15}… @d{15}@s{se/pb_bounce_1}Tcharam!",
   "learnMoveAnd": "E…",
   "levelCapUp": "O nível máximo aumentou\npara {{levelCap}}!",
   "moveNotImplemented": "{{moveName}} ainda não foi implementado e não pode ser usado.",
@@ -82,7 +83,7 @@
   "wildPokemonWithAffix": "{{pokemonName}} selvagem",
   "foePokemonWithAffix": "{{pokemonName}} adversário",
   "useMove": "{{pokemonNameWithAffix}} usou {{moveName}}!",
-  "MagicCoatExe": "{{pokemonNameWithAffix}} rebateu {{moveName}} de volta!",
+  "magicCoatActivated": "{{pokemonNameWithAffix}} rebateu {{moveName}} de volta!",
   "drainMessage": "{{pokemonName}} teve sua\nenergia drenada!",
   "regainHealth": "{{pokemonName}} recuperou\npontos de saúde!",
   "stealEatBerry": "{{pokemonName}} roubou e comeu\na {{berryName}} de {{targetName}}!",
@@ -115,5 +116,6 @@
   "ppReduced": "O PP do movimento {{moveName}} de\n{{targetName}} foi reduzido em {{reduction}}!",
   "mysteryEncounterAppeared": "O que é isso?",
   "battlerTagsHealBlock": "{{pokemonNameWithAffix}} não pode restaurar seus PS!",
-  "battlerTagsHealBlockOnRemove": "{{pokemonNameWithAffix}} pode restaurar seus PS novamente!"
+  "battlerTagsHealBlockOnRemove": "{{pokemonNameWithAffix}} pode restaurar seus PS novamente!",
+  "pokemonTerastallized": "{{pokemonNameWithAffix}} Terastalizou para o tipo {{type}}!"
 }

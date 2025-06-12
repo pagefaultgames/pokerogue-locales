@@ -109,7 +109,7 @@
   },
   "synchronize": {
     "name": "Synchronize",
-    "description": "O atacante sofrerá a mesma mudança de estado se causar queima, envenenamento ou paralisia ao Pokémon."
+    "description": "Passa sua mudança de estado para o Pokémon que a infligiu. Se esse Pokémon for seu líder na batalha, os Pokémon selvagens adversários compartilharão sua natureza."
   },
   "clearBody": {
     "name": "Clear Body",
@@ -125,7 +125,7 @@
   },
   "sereneGrace": {
     "name": "Serene Grace",
-    "description": "Aumenta a probabilidade de ocorrerem efeitos adicionais ao atacar."
+    "description": "Aumenta a probabilidade de ocorrência de efeitos adicionais ao atacar. Isso não afeta os itens."
   },
   "swiftSwim": {
     "name": "Swift Swim",
@@ -137,7 +137,7 @@
   },
   "illuminate": {
     "name": "Illuminate",
-    "description": "Ilumina os arredores, aumentado a possibilidade de encontrar Pokémon selvagens."
+    "description": "Ao iluminar seus arredores, o Pokémon aumenta a probabilidade de batalhas duplas e evita que sua precisão seja reduzida."
   },
   "trace": {
     "name": "Trace",
@@ -185,7 +185,7 @@
   },
   "thickFat": {
     "name": "Thick Fat",
-    "description": "Movimentos dos tipos Fogo e Água têm seu dano reduzido pela metade devido à grossa camada de  gordura que protege o Pokémon."
+    "description": "Movimentos dos tipos Fogo e Água têm seu dano reduzido pela metade devido à grossa camada de gordura que protege o Pokémon."
   },
   "earlyBird": {
     "name": "Early Bird",
@@ -281,7 +281,7 @@
   },
   "arenaTrap": {
     "name": "Arena Trap",
-    "description": "Impede que Pokémon adversários fujam."
+    "description": "Evita que os Pokémon adversários fujam. Esse Pokémon também aumenta a probabilidade de batalhas duplas."
   },
   "vitalSpirit": {
     "name": "Vital Spirit",
@@ -393,7 +393,7 @@
   },
   "noGuard": {
     "name": "No Guard",
-    "description": "Para garantir que todos os ataques atinjam o oponente, o Pokémon adota uma estratégia de desguarnecimento, porém, isso faz com que todos ataques o atinjam."
+    "description": "O Pokémon emprega táticas no-guard para garantir que os ataques recebidos e proferidos sempre acertem. Esse Pokémon também aumenta a probabilidade de batalhas duplas."
   },
   "stall": {
     "name": "Stall",
@@ -433,7 +433,7 @@
   },
   "unaware": {
     "name": "Unaware",
-    "description": "Quando está atacando, o Pokémon ignora mudanças de atributos do Pokémon adversário."
+    "description": "Esse Pokémon ignora as mudanças de atributo do Pokémon oponente."
   },
   "tintedLens": {
     "name": "Tinted Lens",
@@ -469,7 +469,7 @@
   },
   "honeyGather": {
     "name": "Honey Gather",
-    "description": "The Pokémon gathers Honey after a battle. The Honey is then sold for money."
+    "description": "O Pokémon coleta Honey após vencer uma batalha. O Honey é então vendido por dinheiro."
   },
   "frisk": {
     "name": "Frisk",
@@ -481,7 +481,7 @@
   },
   "multitype": {
     "name": "Multitype",
-    "description": "Altera o tipo do Pokémon para o mesmo da Placa ou Cristal Z em sua posse."
+    "description": "Altera o tipo do Pokémon para corresponder à placa que ele possui."
   },
   "flowerGift": {
     "name": "Flower Gift",
@@ -617,7 +617,7 @@
   },
   "rattled": {
     "name": "Rattled",
-    "description": "Movimentos dos tipos Sombrio, Fantasma e Inseto assustam o Pokémon, aumentando sua Velocidade"
+    "description": "Movimentos dos tipos Sombrio, Fantasma e Inseto assustam o Pokémon, aumentando sua Velocidade."
   },
   "magicBounce": {
     "name": "Magic Bounce",
@@ -849,7 +849,7 @@
   },
   "comatose": {
     "name": "Comatose",
-    "description": "Está sempre cochilando e nunca acordará, entretanto, pode atacar sem acordar."
+    "description": "Está sempre dormindo e nunca acorda. Ele pode atacar sem acordar e é considerado sob os efeitos de uma mudança de estado."
   },
   "queenlyMajesty": {
     "name": "Queenly Majesty",
@@ -861,7 +861,7 @@
   },
   "dancer": {
     "name": "Dancer",
-    "description": "Quando outro Pokémon usa um movimento de dança,  pode usar um movimento de dança na sequência independentemente de sua Velocidade."
+    "description": "Quando outro Pokémon usa um movimento de dança, pode usar um movimento de dança na sequência independentemente de sua Velocidade."
   },
   "battery": {
     "name": "Battery",
@@ -1021,7 +1021,7 @@
   },
   "neutralizingGas": {
     "name": "Neutralizing Gas",
-    "description": "Se o Pokémon com Gás Neutralizador está na batalha, os efeitos das Habilidades de todos os Pokémon serão anuladas ou não serão ativados."
+    "description": "Se o Pokémon com Neutralizing Gas estiver na batalha, os efeitos de todas as Habilidades dos outros Pokémon serão anulados ou não serão acionados."
   },
   "pastelVeil": {
     "name": "Pastel Veil",
@@ -1113,7 +1113,7 @@
   },
   "commander": {
     "name": "Commander",
-    "description": "Quando o Pokémon entra em batalha, ele entra na boca de um Dondozo aliado se ele estiver no campo de batalha. O Pokémon então emite comandos de lá."
+    "description": "Ao entrar na batalha, esse Pokémon entra em um Dondozo aliado, se houver um no campo, e emite comandos de lá. Esse Pokémon também aumenta a probabilidade de batalhas duplas."
   },
   "electromorphosis": {
     "name": "Electromorphosis",

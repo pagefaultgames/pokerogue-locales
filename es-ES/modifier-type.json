@@ -89,7 +89,7 @@
       "description": "Revive a todos los Pokémon debilitados y restaura completamente sus PS."
     },
     "MoneyRewardModifierType": {
-      "description": "Otorga una {{moneyMultiplier}} cantidad de dinero (₽{{moneyAmount}}).",
+      "description": "Otorga una {{moneyMultiplier}} cantidad de dinero.\n({{moneyAmount}} ₽)",
       "extra": {
         "small": "pequeña",
         "moderate": "moderada",
@@ -106,7 +106,7 @@
       "description": "Aumenta la ganancia de amistad en un 50%."
     },
     "PokemonMoveAccuracyBoosterModifierType": {
-      "description": "Aumenta la precisión de los movimiento en un {{accuracyAmount}} (máximo 100)."
+      "description": "Aumenta la precisión de los movimiento en un {{accuracyAmount}}."
     },
     "PokemonMultiHitModifierType": {
       "description": "Convierte un 25% del daño de los ataques del portador en un golpe adicional."
@@ -130,7 +130,7 @@
     },
     "TerastallizeModifierType": {
       "name": "Teralito {{teraType}}",
-      "description": "Teracristaliza al portador al tipo {{teraType}} durante 10 combates."
+      "description": "Cambia el teratipo del portador a {{teraType}}."
     },
     "ContactHeldItemTransferChanceModifierType": {
       "description": "Al atacar, hay un {{chancePercent}}% de posibilidades de que robes el objeto que tiene el enemigo."
@@ -160,7 +160,7 @@
     },
     "TERA_ORB": {
       "name": "Orbe Teracristal",
-      "description": "Los Teralitos están disponibles."
+      "description": "Permite a tus Pokémon Teracristalizar. Se recarga lentalmente. Los Teralitos están disponibles."
     },
     "MAP": {
       "name": "Mapa",
@@ -358,6 +358,10 @@
       "name": "Llamasfera",
       "description": "Extraña esfera que causa quemaduras a quien la usa en combate."
     },
+    "MYSTICAL_ROCK": {
+      "name": "Roca Mística",
+      "description": "Aumenta la duración del terreno y clima causado por el movimiento o habilidad del usuario en 2 turnos."
+    },
     "EVOLUTION_TRACKER_GIMMIGHOUL": {
       "name": "Tesoros",
       "description": "¡A este Pokémon le encantan los tesoros! ¡Sigue coleccionandólos y tal vez pase algo!"
@@ -380,7 +384,7 @@
     },
     "IV_SCANNER": {
       "name": "Escáner IV",
-      "description": "Permite escanear los IVs de Pokémon salvajes. Se revelan 2 IVs por cada objeto.\nLos mejores IVs se muestran primero."
+      "description": "Permite escanear los IVs de Pokémon salvajes."
     },
     "DNA_SPLICERS": {
       "name": "Punta ADN"
@@ -460,13 +464,21 @@
     "QUICK_POWDER": {
       "name": "Polvo Veloz",
       "description": "Polvo muy fino, pero a la vez poderoso, que aumenta la Velocidad. Debe llevarlo Ditto."
+    },
+    "DEEP_SEA_SCALE": {
+      "name": "Escama Marina",
+      "description": "Tiene un débil brillo rosado y aumenta la Defensa Especial. Debe llevarla Clamperl."
+    },
+    "DEEP_SEA_TOOTH": {
+      "name": "Diente Marino",
+      "description": "Tiene el brillo afilado de la plata y aumenta el Ataque Especial. Debe llevarlo Clamperl."
     }
   },
   "TempStatStageBoosterItem": {
     "x_attack": "Ataque X",
     "x_defense": "Defensa X",
-    "x_sp_atk": "Ataq. Esp. X",
-    "x_sp_def": "Def. Esp. X",
+    "x_sp_atk": "At. Especial X",
+    "x_sp_def": "Def. Especial X",
     "x_speed": "Velocidad X",
     "x_accuracy": "Precisión X"
   },

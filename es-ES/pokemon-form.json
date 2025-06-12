@@ -39,7 +39,7 @@
   "unownZ": "Z",
   "unownExclamation": "!",
   "unownQuestion": "?",
-  "castform": "Normal Form",
+  "castform": "Normal",
   "castformSunny": "Sol",
   "castformRainy": "Lluvia",
   "castformSnowy": "Nieve",
@@ -135,7 +135,7 @@
   "furfrouPharaoh": "Faraónico",
   "espurrMale": "Macho",
   "espurrFemale": "Hembra",
-  "honedgeShiled": "Escudo",
+  "honedgeShield": "Escudo",
   "honedgeBlade": "Filo",
   "pumpkaboo": "Tamaño Normal",
   "pumpkabooSmall": "Tamaño Pequeño",
@@ -195,6 +195,9 @@
   "miniorViolet": "Violeta",
   "mimikyuDisguised": "Encubierta",
   "mimikyuBusted": "Descubierta",
+  "cosmog": "Normal",
+  "cosmogRadiantSun": "Sol Ascendente",
+  "cosmogFullMoon": "Luna Llena",
   "necrozma": "Normal",
   "necrozmaDuskMane": "Melena Crepuscular",
   "necrozmaDawnWings": "Asas Alvorada",
@@ -250,6 +253,11 @@
   "squawkabillyWhitePlumage": "Plumaje Blanco",
   "finizenZero": "Ingenua",
   "finizenHero": "Heroica",
+  "revavroomSeginStarmobile": "Autostar Segin",
+  "revavroomSchedarStarmobile": "Autostar Schedar",
+  "revavroomNaviStarmobile": "Autostar Tsih",
+  "revavroomRuchbahStarmobile": "Autostar Ruchbah",
+  "revavroomCaphStarmobile": "Autostar Caph",
   "tatsugiriCurly": "Curvada",
   "tatsugiriDroopy": "Lánguida",
   "tatsugiriStretchy": "Estirada",
@@ -286,5 +294,32 @@
   "galarDarumakaZen": "Modo Daruma",
   "paldeaTaurosCombat": "Combatiente",
   "paldeaTaurosBlaze": "Ardiente",
-  "paldeaTaurosAqua": "Acuático"
+  "paldeaTaurosAqua": "Acuático",
+  "floetteEternalFlower": "Flor Eterna",
+  "ursalunaBloodmoon": "Luna Carmesí",
+  "regionalForm": {
+    "ALOLA": "Forma de Alola",
+    "GALAR": "Forma de Galar",
+    "HISUI": "Forma de Hisui",
+    "PALDEA": "Forma de Paldea"
+  },
+  "appendForm": {
+    "GENERIC": "{{pokemonName}} ({{formName}})",
+    "ALOLA": "{{pokemonName}} de Alola",
+    "GALAR": "{{pokemonName}} de Galar",
+    "HISUI": "{{pokemonName}} de Hisui",
+    "PALDEA": "{{pokemonName}} de Galar",
+    "ETERNAL": "{{pokemonName}} Flor Eterna",
+    "BLOODMOON": "{{pokemonName}} Luna Carmesí "
+  },
+  "battleForm": {
+    "mega": "Mega",
+    "mega-x": "Mega X",
+    "mega-y": "Mega Y",
+    "primal": "Primigenio",
+    "gigantamax": "G-Max",
+    "gigantamax-single": "G-Max Estilo Brusco",
+    "gigantamax-rapid": "G-Max Estilo Fluido",
+    "eternamax": "E-Max"
+  }
 }

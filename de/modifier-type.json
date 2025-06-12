@@ -106,7 +106,7 @@
       "description": "Erhöht den Freundschaftszuwachs um 50%."
     },
     "PokemonMoveAccuracyBoosterModifierType": {
-      "description": "Erhöht die Genauigkeit der Angriffe um {{accuracyAmount}} (maximal 100)."
+      "description": "Erhöht die Genauigkeit der Angriffe um {{accuracyAmount}}."
     },
     "PokemonMultiHitModifierType": {
       "description": "Wandelt 25 % des Schadens von den Attacken des Trägers in einen zusätzlichen Treffer um."
@@ -130,7 +130,7 @@
     },
     "TerastallizeModifierType": {
       "name": "{{teraType}} Terra-Stück",
-      "description": "{{teraType}} Terakristallisiert den Träger für bis zu 10 Kämpfe."
+      "description": "Ändert den Tera-Typ des Pokémon zu {{teraType}}."
     },
     "ContactHeldItemTransferChanceModifierType": {
       "description": "Beim Angriff besteht eine {{chancePercent}}%ige Chance, dass das getragene Item des Gegners gestohlen wird."
@@ -160,7 +160,7 @@
     },
     "TERA_ORB": {
       "name": "Terakristall-Orb",
-      "description": "Tera-Stücke werden verfügbar."
+      "description": "Erlaubt es deinem Pokémon die Terakristallisierung durchzuführen. Läd langsam auf. Lässt Terra-Stück erscheinen."
     },
     "MAP": {
       "name": "Karte",
@@ -195,7 +195,7 @@
     },
     "REVIVER_SEED": {
       "name": "Belebersamen",
-      "description": "Belebt den Träger mit der Hälfte seiner KP wieder,  sollte er  durch einen direkten Treffer kampfunfähig werden."
+      "description": "Belebt den Träger mit der Hälfte seiner KP wieder, sollte er durch einen direkten Treffer kampfunfähig werden."
     },
     "WHITE_HERB": {
       "name": "Schlohkraut",
@@ -357,6 +357,10 @@
     "FLAME_ORB": {
       "name": "Heiß-Orb",
       "description": "Dieser bizarre Orb fügt seinem Träger im Kampf Verbrennungen zu."
+    },
+    "MYSTICAL_ROCK": {
+      "name": "Rätselhafter Stein",
+      "description": "Verlängert die Dauer von Wetter, dass durch Attacken oder Fähigkeiten des Trägers ausgelöst wurde, um 2 Runden pro Stapel."
     },
     "EVOLUTION_TRACKER_GIMMIGHOUL": {
       "name": "Schätze",

@@ -6,7 +6,7 @@
     "name": "Bloqueado"
   },
   "MoneyAchv": {
-    "description": "Acumula un total de ₽{{moneyAmount}}."
+    "description": "Acumula un total de {{moneyAmount} ₽."
   },
   "10K_MONEY": {
     "name": "Ahorrador",
@@ -21,7 +21,8 @@
     "name_female": "Millonaria"
   },
   "10M_MONEY": {
-    "name": "Elusión Fiscal"
+    "name": "Elusión Fiscal",
+    "name_female": "Elusión Fiscal"
   },
   "DamageAchv": {
     "description": "Inflige {{damageAmount}} daño en un solo golpe."
@@ -30,13 +31,16 @@
     "name": "Golpe Maestro"
   },
   "1000_DMG": {
-    "name": "Golpe Devastador"
+    "name": "Golpe Devastador",
+    "name_female": "Golpe Devastador"
   },
   "2500_DMG": {
-    "name": "¡Eso es un montón de daño!"
+    "name": "¡Eso es un montón de daño!",
+    "name_female": "¡Eso es un montón de daño!"
   },
   "10000_DMG": {
-    "name": "One Punch Man"
+    "name": "One Punch Man",
+    "name_female": "One Punch Woman"
   },
   "HealAchv": {
     "description": "Cura {{healAmount}} {{HP}} de una, con un movimiento, habilidad o objeto equipado."
@@ -54,7 +58,8 @@
     "name_female": "Clériga"
   },
   "10000_HEAL": {
-    "name": "Centro Pokémon"
+    "name": "Centro Pokémon",
+    "name_female": "Maestra de la Curación"
   },
   "LevelAchv": {
     "description": "Sube a un Pokémon al nivel {{level}}."
@@ -63,7 +68,8 @@
     "name": "¡Pero espera, aún hay mas!"
   },
   "LV_250": {
-    "name": "Élite"
+    "name": "Élite",
+    "name_female": "Élite"
   },
   "LV_1000": {
     "name": "Supera tus límites"
@@ -107,6 +113,14 @@
     "name": "Criatura Colosal",
     "description": "Haz Gigantamax a un Pokémon."
   },
+  "FLIP_STATS": {
+    "name": "Intercambio equivalente",
+    "description": "Completa el desafío de Stat Invertida."
+  },
+  "FLIP_INVERSE": {
+    "name": "Un Mundo Disortionado",
+    "description": "Completa el desafío Stat Invertida al mismo tiempo que el desafío Inverso."
+  },
   "TERASTALLIZE": {
     "name": "Entusiasta del STAB",
     "description": "Teracristaliza a un Pokémon."
@@ -141,23 +155,24 @@
   },
   "SHINY_PARTY": {
     "name": "Eso es dedicación",
+    "name_female": "¡Menuda dedicación!",
     "description": "Tener un equipo completo de Pokémon shiny."
   },
   "HATCH_MYTHICAL": {
     "name": "Huevo Singular",
-    "description": "Hacer eclosionar un Pokémon Singular de un huevo."
+    "description": "Hacer eclosionar un Pokémon Singular de un Huevo."
   },
   "HATCH_SUB_LEGENDARY": {
     "name": "Huevo Sublegendario",
-    "description": "Hacer eclosionar un Pokémon Sublegendario de un huevo."
+    "description": "Hacer eclosionar un Pokémon Sublegendario de un Huevo."
   },
   "HATCH_LEGENDARY": {
     "name": "Huevo Legendario",
-    "description": "Hacer eclosionar un Pokémon Legendario de un huevo."
+    "description": "Hacer eclosionar un Pokémon Legendario de un Huevo."
   },
   "HATCH_SHINY": {
     "name": "Huevo Shiny",
-    "description": "Hacer eclosionar un Pokémon Shiny de un huevo."
+    "description": "Hacer eclosionar un Pokémon Shiny de un Huevo."
   },
   "HIDDEN_ABILITY": {
     "name": "Potencial Oculto",
@@ -169,6 +184,7 @@
   },
   "CLASSIC_VICTORY": {
     "name": "Imbatible",
+    "name_female": "Imbatible",
     "description": "Completa el juego en modo clásico."
   },
   "UNEVOLVED_CLASSIC_VICTORY": {
@@ -176,34 +192,101 @@
     "description": "Completa el juego en modo clásico con un Pokémon que pueda evolucionar."
   },
   "MONO_GEN_ONE": {
+    "name": "El Rival Original",
     "description": "Completa el desafío de primera generación."
   },
   "MONO_GEN_TWO": {
+    "name": "Generación 1.5",
     "description": "Completa el desafío de segunda generación."
   },
   "MONO_GEN_THREE": {
+    "name": "¿Demasiada agua?",
     "description": "Completa el desafío de tercera generación."
   },
   "MONO_GEN_FOUR": {
+    "name": "¿Seguro que es la más difícil?",
     "description": "Completa el desafío de cuarta generación."
   },
   "MONO_GEN_FIVE": {
+    "name": "Todo Original",
     "description": "Completa el desafío de quinta generación."
   },
   "MONO_GEN_SIX": {
+    "name": "Aristócrata",
     "description": "Completa el desafío de sexta generación."
   },
   "MONO_GEN_SEVEN": {
+    "name": "Solo Técnicamente",
     "description": "Completa el desafío de séptima generación."
   },
   "MONO_GEN_EIGHT": {
+    "name": "Un Campeón no nace, se hace.",
     "description": "Completa el desafío de octava generación."
   },
   "MONO_GEN_NINE": {
+    "name": "Te lo estaba poniendo fácil",
     "description": "Completa el desafío de novena generación."
   },
+  "MonoType": {
+    "description": "Completa el desafío de monotipo {{type}}."
+  },
+  "MONO_NORMAL": {
+    "name": "Extra Ordinario"
+  },
+  "MONO_FIGHTING": {
+    "name": "Ya sé Kung Fu"
+  },
+  "MONO_FLYING": {
+    "name": "¿Es un avión? ¿Es un pájaro?"
+  },
+  "MONO_POISON": {
+    "name": "El favorito de Kanto"
+  },
+  "MONO_GROUND": {
+    "name": "Previsión: Terremotos"
+  },
+  "MONO_ROCK": {
+    "name": "Duro como la piedra"
+  },
+  "MONO_BUG": {
+    "name": "El enjambre nunca va solo"
+  },
+  "MONO_GHOST": {
+    "name": "No están vivos. Pero tampoco muertos."
+  },
+  "MONO_STEEL": {
+    "name": "Gigantes de Acero"
+  },
+  "MONO_FIRE": {
+    "name": "Cuidado, que quema."
+  },
+  "MONO_WATER": {
+    "name": "Llueve sobre mojado"
+  },
+  "MONO_GRASS": {
+    "name": "No es un bosque. Es una emboscada."
+  },
+  "MONO_ELECTRIC": {
+    "name": "¡Apunta al cuerno!"
+  },
+  "MONO_PSYCHIC": {
+    "name": "Cerebro galáctico activado."
+  },
+  "MONO_ICE": {
+    "name": "Se acerca el invierno"
+  },
+  "MONO_DRAGON": {
+    "name": "El club de los Pseudolegendarios"
+  },
+  "MONO_DARK": {
+    "name": "¿Oscuro? No. Incomprendido."
+  },
+  "MONO_FAIRY": {
+    "name": "La purpurina es opcional"
+  },
   "FRESH_START": {
-    "name": "¡A la primera!"
+    "name": "¡A la primera!",
+    "description": "Completa el desafió Nuevo Comienzo."
   },
   "INVERSE_BATTLE": {
     "name": "Espejo ojepsE",

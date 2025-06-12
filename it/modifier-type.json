@@ -66,7 +66,7 @@
       "description": "Aumenta il livello di tutti i Pokémon della squadra di {{levels}}."
     },
     "BaseStatBoosterModifierType": {
-      "description": "Aumenta l'/la {{stat}} di base del possessore del 10%."
+      "description": "Aumenta l’/la {{stat}} di base del possessore del 10%."
     },
     "PokemonBaseStatTotalModifierType": {
       "name": "Succo Shuckle",
@@ -106,7 +106,7 @@
       "description": "Aumenta del 50% il guadagno di amicizia."
     },
     "PokemonMoveAccuracyBoosterModifierType": {
-      "description": "Aumenta la precisione delle mosse di {{accuracyAmount}} (massimo 100)."
+      "description": "Aumenta la precisione delle mosse di {{accuracyAmount}}."
     },
     "PokemonMultiHitModifierType": {
       "description": "Converte il 25% del danno inflitto dagli attacchi del possessore in un colpo aggiuntivo."
@@ -130,16 +130,16 @@
     },
     "TerastallizeModifierType": {
       "name": "Teralite {{teraType}}",
-      "description": "Teracristallizza in {{teraType}} il possessore per massimo 10 battaglie."
+      "description": "Cambia il Teratipo di questo Pokémon in {{teraType}}."
     },
     "ContactHeldItemTransferChanceModifierType": {
-      "description": "Quando il possessore attacca, c'è una probabilità del {{chancePercent}}% che l'oggetto in possesso del nemico gli venga rubato."
+      "description": "Quando il possessore attacca, c’è una probabilità del {{chancePercent}}% che l’oggetto in possesso del nemico gli venga rubato."
     },
     "TurnHeldItemTransferModifierType": {
       "description": "Ogni turno, il possessore acquisisce un oggetto posseduto dal nemico."
     },
     "EnemyAttackStatusEffectChanceModifierType": {
-      "description": "Aggiunge una probabilità del {{chancePercent}}% di infliggere {{statusEffect}} con le mosse d'attacco."
+      "description": "Aggiunge una probabilità del {{chancePercent}}% di infliggere {{statusEffect}} con le mosse d’attacco."
     },
     "EnemyEndureChanceModifierType": {
       "description": "Aggiunge una probabilità del {{probabilitàPercent}}% di resistere ad un colpo."
@@ -148,7 +148,7 @@
       "name": "Caramella rara"
     },
     "RARER_CANDY": {
-      "name": "Caramella molto rara"
+      "name": "Caramella rarissima"
     },
     "MEGA_BRACELET": {
       "name": "Megapolsiera",
@@ -160,7 +160,7 @@
     },
     "TERA_ORB": {
       "name": "Terasfera",
-      "description": "I teraliti diventano disponibili."
+      "description": "Consente ai tuoi Pokémon di Teracristallizzare. Si ricarica lentamente. Permette anche di trovare i Teraliti."
     },
     "MAP": {
       "name": "Mappa",
@@ -242,7 +242,7 @@
     },
     "OVAL_CHARM": {
       "name": "Ovamuleto",
-      "description": "Quando più Pokémon partecipano a una battaglia, ognuno di essi riceve il 10% in più dell'esperienza totale."
+      "description": "Quando più Pokémon partecipano a una battaglia, ognuno di essi riceve il 10% in più dell’esperienza totale."
     },
     "EXP_CHARM": {
       "name": "Esperienzamuleto"
@@ -274,7 +274,7 @@
     },
     "LEEK": {
       "name": "Porro",
-      "description": "Strumento da dare a Farfetch'd. Lungo gambo di porro che aumenta la probabilità di sferrare brutti colpi."
+      "description": "Strumento da dare a Farfetch’d. Lungo gambo di porro che aumenta la probabilità di sferrare brutti colpi."
     },
     "EVIOLITE": {
       "name": "Evolcondensa",
@@ -282,7 +282,7 @@
     },
     "SOUL_DEW": {
       "name": "Cuorugiada",
-      "description": "Aumenta del 10% l'influenza della natura di un Pokémon sulle sue statistiche (cumulativo)."
+      "description": "Aumenta del 10% l’influenza della natura di un Pokémon sulle sue statistiche (cumulativo)."
     },
     "NUGGET": {
       "name": "Pepita"
@@ -320,7 +320,7 @@
     },
     "HEALING_CHARM": {
       "name": "Curamuleto",
-      "description": "Aumenta del 10% l'efficacia delle mosse e degli oggetti che ripristinano i PS (escluse le rianimazioni)."
+      "description": "Aumenta del 10% l’efficacia delle mosse e degli oggetti che ripristinano i PS (escluse le rianimazioni)."
     },
     "CANDY_JAR": {
       "name": "Barattolo di caramelle",
@@ -340,7 +340,7 @@
     },
     "KINGS_ROCK": {
       "name": "Roccia di re",
-      "description": "Aggiunge il 10% di possibilità che una mossa d'attacco faccia tentennare l'avversario."
+      "description": "Aggiunge il 10% di possibilità che una mossa d’attacco faccia tentennare l’avversario."
     },
     "LEFTOVERS": {
       "name": "Avanzi",
@@ -358,6 +358,10 @@
       "name": "Fiammosfera",
       "description": "Sfera bizzarra che procura una scottatura a chi l’ha con sé in una lotta."
     },
+    "MYSTICAL_ROCK": {
+      "name": "Rocciamistica",
+      "description": "Aumenta la durata dei terreni e delle condizioni meteo causate dal possessore di 2 turni."
+    },
     "EVOLUTION_TRACKER_GIMMIGHOUL": {
       "name": "Tesori",
       "description": "Questo Pokémon adora i tesori! Continua a collezionare i tesori e potrebbe accadere qualcosa!"
@@ -372,7 +376,7 @@
     },
     "ABILITY_CHARM": {
       "name": "Abilitamuleto",
-      "description": "Aumenta drasticamente la possibilità che un Pokémon selvatico abbia un'abilità nascosta."
+      "description": "Aumenta drasticamente la possibilità che un Pokémon selvatico abbia un’abilità nascosta."
     },
     "CATCHING_CHARM": {
       "name": "Catturamuleto",
@@ -380,7 +384,7 @@
     },
     "IV_SCANNER": {
       "name": "Scanner IV",
-      "description": "Permette di scansionare gli IV dei Pokémon selvatici. Vengono rivelati 2 IV per ogni scanner. I migliori IV vengono mostrati per primi."
+      "description": "Permette di scansionare gli IV dei Pokémon selvatici."
     },
     "DNA_SPLICERS": {
       "name": "Cuneo DNA"
@@ -422,18 +426,18 @@
     },
     "ENEMY_FUSED_CHANCE": {
       "name": "Gettone della fusione",
-      "description": "Aggiunge l'1% di possibilità che un Pokémon selvatico sia una fusione."
+      "description": "Aggiunge l’1% di possibilità che un Pokémon selvatico sia una fusione."
     },
     "MYSTERY_ENCOUNTER_SHUCKLE_JUICE": {
       "name": "Succo Shuckle"
     },
     "MYSTERY_ENCOUNTER_BLACK_SLUDGE": {
       "name": "Fangopece",
-      "description": "L'odore è talmente sgradevole che i prezzi dei negozi aumentano drasticamente."
+      "description": "L’odore è talmente sgradevole che i prezzi dei negozi aumentano drasticamente."
     },
     "MYSTERY_ENCOUNTER_MACHO_BRACE": {
       "name": "Crescicappa",
-      "description": "Sconfiggere un Pokémon aumenta di 1 il punteggio Crescicappa. Maggiore il punteggio, maggiore l'aumento alle statistiche, con un ulteriore bonus al massimo."
+      "description": "Sconfiggere un Pokémon aumenta di 1 il punteggio Crescicappa. Maggiore il punteggio, maggiore l’aumento alle statistiche, con un ulteriore bonus al massimo."
     },
     "MYSTERY_ENCOUNTER_OLD_GATEAU": {
       "name": "Dolce Gateau",
@@ -467,7 +471,7 @@
     },
     "DEEP_SEA_TOOTH": {
       "name": "Dente Abissi",
-      "description": "Strumento da dare a Clamperl. Dente dai bagliori argentei che aumenta l'Attacco Speciale."
+      "description": "Strumento da dare a Clamperl. Dente dai bagliori argentei che aumenta l’Attacco Speciale."
     }
   },
   "TempStatStageBoosterItem": {
@@ -508,7 +512,7 @@
   },
   "EvolutionItem": {
     "NONE": "Nessuno",
-    "LINKING_CORD": "Filo dell'unione",
+    "LINKING_CORD": "Filo dell’unione",
     "SUN_STONE": "Pietrasolare",
     "MOON_STONE": "Pietralunare",
     "LEAF_STONE": "Pietrafoglia",
@@ -549,7 +553,7 @@
     "MASTERPIECE_TEACUP": "Tazza eccezionale",
     "METAL_ALLOY": "Metallo composito",
     "SCROLL_OF_DARKNESS": "Rotolo del Buio",
-    "SCROLL_OF_WATERS": "Rotolo dell'Acqua",
+    "SCROLL_OF_WATERS": "Rotolo dell’Acqua",
     "SYRUPY_APPLE": "Sciroppomo"
   },
   "FormChangeItem": {

@@ -1,0 +1,26 @@
+{
+  "intro": "¡Un entrenador inusual con todo tipo de parafernalia de insectos bloquea tu camino!",
+  "intro_dialogue": "¡Hola, entrenador! ¡Estoy en una misión para encontrar el Pokémon Insecto más raro que existe!$¿A ti también te encantan los Pokémon Insecto, verdad? ¡A todos les encantan los Pokémon Insecto!",
+  "title": "El Superfan de los Pokémon Insecto",
+  "speaker": "Superfan de los Pokémon Insecto",
+  "option": {
+    "1": {
+      "tooltip": "(-) Batalla Dura\n(+) Enseña un movimiento de tipo Insecto a cualquier Pokémon",
+      "selected": "¿Un desafío, eh?\n¡Mis Pokémon Insecto están más que preparados para ti!"
+    },
+    "2": {
+      "label": "Mostrar tus tipos Insecto",
+      "disabled_tooltip": "Necesitas al menos 1 Pokémon de tipo Insecto en tu equipo para seleccionar esto.",
+      "selected": "Le muestras al entrenador todos tus Pokémon de tipo Insecto…",
+      "selected_0_to_1": "¿Eh? Solo tienes {{numBugTypes}} tipo Insecto…$Supongo que estoy perdiendo el tiempo con alguien como tú…",
+      "selected_6": "¡Vaya! {{numBugTypes}}!$¡Debes amar a los Pokémon de tipo Insecto casi tanto como yo!$Aquí, toma esto como un símbolo de nuestra camaradería."
+    },
+    "3": {
+      "label": "Regalar un objeto de tipo Insecto"
+    }
+  },
+  "battle_won": "¡Tu conocimiento y habilidad fueron perfectos para explotar nuestras debilidades!$A cambio de la valiosa lección, permíteme enseñarle a uno de tus Pokémon un movimiento de tipo Insecto.",
+  "outro": "¡Veo grandes Pokémon de tipo Insecto en tu futuro! ¡Que nuestros caminos se crucen de nuevo! ¡Insecto fuera!",
+  "numBugTypes_one": "{{count}} Pokémon de tipo Insecto",
+  "numBugTypes_other": "{{count}} Pokémon de tipo Insecto"
+}

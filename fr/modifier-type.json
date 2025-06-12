@@ -106,7 +106,7 @@
       "description": "Augmente le gain de bonheur de 50%."
     },
     "PokemonMoveAccuracyBoosterModifierType": {
-      "description": "Augmente de {{accuracyAmount}} la précision des capacités (maximum 100)."
+      "description": "Augmente de {{accuracyAmount}} la précision des capacités."
     },
     "PokemonMultiHitModifierType": {
       "description": "Le porteur convertit 25% des dégâts d’une attaque en frappe supplémentaire."
@@ -130,7 +130,7 @@
     },
     "TerastallizeModifierType": {
       "name": "Téra-Éclat {{teraType}}",
-      "description": "Téracristallise son porteur en type {{teraType}} pendant 10 combats."
+      "description": "Permet de donner le type Téracristal {{teraType}} à un Pokémon."
     },
     "ContactHeldItemTransferChanceModifierType": {
       "description": "{{chancePercent}}% de chances de voler un objet de l’adversaire en l’attaquant."
@@ -160,7 +160,7 @@
     },
     "TERA_ORB": {
       "name": "Orbe Téracristal",
-      "description": "Débloque les Téra-Éclats dans la boutique."
+      "description": "Permet la Téracristalisation. Se recharge lentement. Rend également les Téra-Éclats disponibles."
     },
     "MAP": {
       "name": "Carte",
@@ -358,6 +358,10 @@
       "name": "Orbe Flamme",
       "description": "Brule son porteur à la fin du tour s’il n’a pas déjà de problème de statut."
     },
+    "MYSTICAL_ROCK": {
+      "name": "Roche Mystique",
+      "description": "Augmente de 2 tours par exemplaire la durée de la météo et de champs causés par la capacité ou le talent du lanceur."
+    },
     "EVOLUTION_TRACKER_GIMMIGHOUL": {
       "name": "Trésors",
       "description": "Ce Pokémon adore les trésors ! Ramassez-en le plus possible et voyez ce qu’il se passe !"
@@ -380,7 +384,7 @@
     },
     "IV_SCANNER": {
       "name": "Scanner d’IV",
-      "description": "Révèle la qualité de deux IV d’un Pokémon sauvage par scanner possédé. Les meilleurs IV sont révélés en priorité."
+      "description": "Révèle la qualité des IV d’un Pokémon sauvage."
     },
     "DNA_SPLICERS": {
       "name": "Pointeau ADN"

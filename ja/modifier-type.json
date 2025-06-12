@@ -11,7 +11,7 @@
     "PokemonHeldItemModifierType": {
       "extra": {
         "inoperable": "{{pokemonName}}は このアイテムを\n持つ ことが できません！",
-        "tooMany": "{{pokemonName}}は このアイテムを\n持ちすぎています！"
+        "tooMany": "{{pokemonName}}は　このアイテムを\n持ちすぎています！"
       }
     },
     "PokemonHpRestoreModifierType": {
@@ -40,11 +40,11 @@
       }
     },
     "PokemonPpUpModifierType": {
-      "description": "ポケモンが 覚えている 技のうち 1つの PPの 最大値を 5ごとに {{upPoints}}ポイントずつ 上げる（最大3）"
+      "description": "ポケモンが 覚えている 技のうち 1つの PPの 最大値を 5ごとに {{upPoints}}ポイントずつ 上げる (最大3)"
     },
     "PokemonNatureChangeModifierType": {
       "name": "{{natureName}}ミント",
-      "description": "ポケモンの 性格を {{natureName}}に 変える （あげるポケモンは あとで この性格を スターター 画面でも 選べる）"
+      "description": "ポケモンの 性格を {{natureName}}に 変える\n(あとで この性格を スターター 画面でも 選べる)"
     },
     "DoubleBattleChanceBoosterModifierType": {
       "description": "バトル{{battleCount}}回の 間 ダブルバトルに なる 確率を 4倍に する"
@@ -66,7 +66,7 @@
       "description": "手持ちポケモンの 全員のレベルを {{levels}} 上げる"
     },
     "BaseStatBoosterModifierType": {
-      "description": "ポケモンの 基本の{{stat}}を 10% あげる。\n個体値が 高けば高いほど 持てる限界が 上がる"
+      "description": "ポケモン １匹の {{stat}}の 基礎ポイントを 10% あげる。個体値が 高けば高いほど、 飲める 限界が 上がる。"
     },
     "PokemonBaseStatTotalModifierType": {
       "name": "ツボツボジュース",
@@ -106,7 +106,7 @@
       "description": "持たせると なかよし度の 収穫が 50%で 上がる"
     },
     "PokemonMoveAccuracyBoosterModifierType": {
-      "description": "技の 命中率を {{accuracyAmount}} 増やす （最大 100）"
+      "description": "技の 命中率を {{accuracyAmount}}で 増やす"
     },
     "PokemonMultiHitModifierType": {
       "description": "持たせると 攻撃技の ダメージの 25%が もう一回の 攻撃で 出す"
@@ -130,13 +130,13 @@
     },
     "TerastallizeModifierType": {
       "name": "テラピース{{teraType}}",
-      "description": "ポケモンを {{teraType}}タイプに テラスタルさせる （最大10回の バトルの 間）"
+      "description": "テラスタイプを {{teraType}}に チェンジする"
     },
     "ContactHeldItemTransferChanceModifierType": {
       "description": "持っているポケモンが 攻撃すると 相手の 持っている アイテムを {{chancePercent}}%の 確率で 盗む"
     },
     "TurnHeldItemTransferModifierType": {
-      "description": "毎ターン 相手から 一つの 持っている アイテムを 吸い込んで 盗む"
+      "description": "毎ターン 相手の 持っている アイテムを 一つ 吸い込んで 盗む"
     },
     "EnemyAttackStatusEffectChanceModifierType": {
       "description": "攻撃技に {{chancePercent}}%の 確率で {{statusEffect}}を 与える"
@@ -160,7 +160,7 @@
     },
     "TERA_ORB": {
       "name": "テラスタルオーブ",
-      "description": "テラピースが 得られる ように なる"
+      "description": "ポケモンが テラスタルできる ように する。 ゆっくりと チャージする。 テラピースも 見つけるように なる。"
     },
     "MAP": {
       "name": "ちず",
@@ -264,7 +264,7 @@
     },
     "SCOPE_LENS": {
       "name": "ピントレンズ",
-      "description": "弱点が 見える レンズ。\n持たせた ポケモンの技が 急所に 当たりやすくなる"
+      "description": "弱点が 見える レンズ。 持たせた ポケモンの技が 急所に 当たりやすくなる。"
     },
     "DIRE_HIT": {
       "name": "クリティカット",
@@ -274,11 +274,11 @@
     },
     "LEEK": {
       "name": "ながねぎ",
-      "description": "とても長くて 硬いクキ。\nカモネギに 持たせると 技が 急所に 当たりやすくなる"
+      "description": "とても長くて 硬いクキ。\nカモネギに 持たせると 技が 急所に 当たりやすくなる。"
     },
     "EVIOLITE": {
       "name": "しんかのきせき",
-      "description": "進化の不思議な かたまり。\n持たせると 進化前ポケモンの 防御と 特防が あがる"
+      "description": "進化の不思議な かたまり。\n持たせると 進化前ポケモンの 防御と 特防が あがる。"
     },
     "SOUL_DEW": {
       "name": "こころのしずく",
@@ -352,11 +352,15 @@
     },
     "TOXIC_ORB": {
       "name": "どくどくだま",
-      "description": "触ると 毒をだす 不思議な玉。\n持たせると 戦闘中に 猛毒の状態に なる"
+      "description": "触ると 毒をだす 不思議な玉。\n持たせると 戦闘中に 猛毒の状態に なる。"
     },
     "FLAME_ORB": {
       "name": "かえんだま",
-      "description": "触ると 熱をだす 不思議な玉。\n持たせると 戦闘中に やけどの状態に なる"
+      "description": "触ると 熱をだす 不思議な玉。\n持たせると 戦闘中に やけどの状態に なる。"
+    },
+    "MYSTICAL_ROCK": {
+      "name": "しんぴないし",
+      "description": "持たせると 技や 特性で 起こした 天気や フィールドの 間が２ターン 増える"
     },
     "EVOLUTION_TRACKER_GIMMIGHOUL": {
       "name": "宝物",
@@ -380,7 +384,7 @@
     },
     "IV_SCANNER": {
       "name": "こたいちスキャナー",
-      "description": "野生ポケモンの 個体値を 検査できる。 スキャナーあたり 個体値が 2つ 見える。 最高の 個体値が 最初に 見える。"
+      "description": "野生ポケモンの 個体値を 検査できる"
     },
     "DNA_SPLICERS": {
       "name": "いでんしのくさび"
@@ -394,7 +398,7 @@
     },
     "ENEMY_DAMAGE_BOOSTER": {
       "name": "ダメージトークン",
-      "description": "ダメージを 5% あげる"
+      "description": "ダメージを 5% 増やす"
     },
     "ENEMY_DAMAGE_REDUCTION": {
       "name": "ぼうごトークン",
@@ -433,7 +437,7 @@
     },
     "MYSTERY_ENCOUNTER_MACHO_BRACE": {
       "name": "きょうせいギプス",
-      "description": "持たせると 相手を 倒すとき もう1つの ギプスを もらう。 ギプス当たり 能力が 少し 上がる。 最多で さらに 上がる"
+      "description": "持たせると 相手を 倒すとき もう1つの ギプスを もらう。 ギプス当たり 能力が 少し 上がる。 最多で さらに 上がる。"
     },
     "MYSTERY_ENCOUNTER_OLD_GATEAU": {
       "name": "もりのヨウカン",
@@ -447,19 +451,19 @@
   "SpeciesBoosterItem": {
     "LIGHT_BALL": {
       "name": "でんきだま",
-      "description": "ピカチュウに 持たせると 攻撃と 特攻が あがる 不思議な玉"
+      "description": "ピカチュウに 持たせると 攻撃と 特攻が あがる 不思議な玉。"
     },
     "THICK_CLUB": {
       "name": "ふといホネ",
-      "description": "なにかの 硬いホネ。 カラカラ または ガラガラに 持たせると 攻撃が あがる"
+      "description": "なにかの 硬いホネ。 カラカラ または ガラガラに 持たせると 攻撃が あがる。"
     },
     "METAL_POWDER": {
       "name": "メタルパウダー",
-      "description": "メタモンに 持たせると 防御が あがる 不思議な粉。 とても こまかくて 硬い"
+      "description": "メタモンに 持たせると 防御が あがる 不思議な粉。 とても こまかくて 硬い。"
     },
     "QUICK_POWDER": {
       "name": "スピードパウダー",
-      "description": "メタモンに 持たせると 素早さが あがる 不思議な粉。 とても こまかくて 硬い"
+      "description": "メタモンに 持たせると 素早さが あがる 不思議な粉。 とても こまかくて 硬い。"
     },
     "DEEP_SEA_SCALE": {
       "name": "しんかいのウロコ",

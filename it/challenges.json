@@ -42,6 +42,9 @@
     "value.1": "On"
   },
   "flipStat": {
+    "name": "Invertistat",
+    "shortName": "Invert",
+    "desc": "Le statistiche sono invertite come segue:\n- PS con Velocità\n- Attacco con Difesa speciale\n- Difesa con Attacco speciale\nDisabilita gli obiettivi delle altre modalità sfida (eccetto Invertistat).",
     "value.0": "Off",
     "value.1": "On"
   },
@@ -60,6 +63,12 @@
   "limitedCatch": {
     "name": "Catture limitate",
     "desc": "Puoi catturare solo il primo Pokémon incontrato in ogni bioma.",
+    "value.0": "Off",
+    "value.1": "On"
+  },
+  "metronome": {
+    "name": "Modalità Metronomo",
+    "desc": "Puoi usare soltanto Metronomo! Prova a tirare avanti soltanto con la fortuna.\nQuesta modalità esiste puramente a scopo ludico e non conferisce ricompense.\nDisabilita gli altri obiettivi.",
     "value.0": "Off",
     "value.1": "On"
   }

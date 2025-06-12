@@ -23,7 +23,7 @@
   },
   "freshStart": {
     "name": "Fresh Start",
-    "desc": "You can only use the original starters, and only as if you had just started PokéRogue.",
+    "desc": "You can only use the original starters without any unlocks, as if you had just started PokéRogue for the first time.",
     "value.0": "Off",
     "value.1": "On"
   },
@@ -37,7 +37,7 @@
   "flipStat": {
     "name": "Flip Stat",
     "shortName": "Flip",
-    "desc": "Stats are flipped as follows:\n- HP with Speed\n- Attack with Sp. Def\n- Defense with Sp. Atk\nDisables other challenges’ achievements except for \"Inverse Battle\".",
+    "desc": "Stats are flipped as follows:\n- HP with Speed\n- Attack with Sp. Def\n- Defense with Sp. Atk\nDisables other challenges’ achievements (Except Inverse Battle).",
     "value.0": "Off",
     "value.1": "On"
   },
@@ -63,6 +63,12 @@
   "limitedCatch": {
     "name": "Limited Catch",
     "desc": "You can only add the first Pokémon of a biome to your current party.",
+    "value.0": "Off",
+    "value.1": "On"
+  },
+  "metronome": {
+    "name": "Metronome Mode",
+    "desc": "You can only use Metronome! See how far you can get with pure chance.\nThis is a mode PURELY for fun and does not award an achievement.\nDisables all other achievements.",
     "value.0": "Off",
     "value.1": "On"
   }

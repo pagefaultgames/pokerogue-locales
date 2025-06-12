@@ -106,7 +106,7 @@
       "description": "Increases friendship gain by 50%."
     },
     "PokemonMoveAccuracyBoosterModifierType": {
-      "description": "Increases move accuracy by {{accuracyAmount}} (maximum 100)."
+      "description": "Increases move accuracy by {{accuracyAmount}}."
     },
     "PokemonMultiHitModifierType": {
       "description": "Converts 25% of damage from the holder’s attacks into an additional strike."
@@ -130,7 +130,7 @@
     },
     "TerastallizeModifierType": {
       "name": "{{teraType}} Tera Shard",
-      "description": "{{teraType}} Terastallizes the holder for up to 10 battles."
+      "description": "Changes the Pokémon’s Tera type to {{teraType}}."
     },
     "ContactHeldItemTransferChanceModifierType": {
       "description": "Upon attacking, there is a {{chancePercent}}% chance the foe’s held item will be stolen."
@@ -150,7 +150,7 @@
 
     "MEGA_BRACELET": { "name": "Mega Bracelet", "description": "Mega Stones become available." },
     "DYNAMAX_BAND": { "name": "Dynamax Band", "description": "Max Mushrooms become available." },
-    "TERA_ORB": { "name": "Tera Orb", "description": "Tera Shards become available." },
+    "TERA_ORB": { "name": "Tera Orb", "description": "Allows your Pokémon to Terastallize. Recharges slowly. Tera Shards also become available." },
 
     "MAP": { "name": "Map", "description": "Allows you to choose your destination at a crossroads." },
 
@@ -240,6 +240,8 @@
     "TOXIC_ORB": { "name": "Toxic Orb", "description": "It’s a bizarre orb that exudes toxins when touched and will badly poison the holder during battle." },
     "FLAME_ORB": { "name": "Flame Orb", "description": "It’s a bizarre orb that gives off heat when touched and will affect the holder with a burn during battle." },
 
+    "MYSTICAL_ROCK": { "name": "Mystical Rock", "description": "Extends the duration of terrain and weather caused by the holder’s moves or Abilities by 2 turns." },
+
     "EVOLUTION_TRACKER_GIMMIGHOUL": { "name": "Treasures", "description": "This Pokémon loves treasure! Keep collecting treasure and something might happen!"},
 
     "BATON": { "name": "Baton", "description": "Allows passing along effects when switching Pokémon, which also bypasses traps." },
@@ -248,7 +250,7 @@
     "ABILITY_CHARM": { "name": "Ability Charm", "description": "Dramatically increases the chance of a wild Pokémon having a Hidden Ability." },
     "CATCHING_CHARM": { "name": "Catching Charm", "description": "Increases the chance of getting a critical catch."},
 
-    "IV_SCANNER": { "name": "IV Scanner", "description": "Allows scanning the IVs of wild Pokémon. 2 IVs are revealed per stack. The best IVs are shown first." },
+    "IV_SCANNER": { "name": "IV Scanner", "description": "Enables scanning the IVs of wild Pokémon." },
 
     "DNA_SPLICERS": { "name": "DNA Splicers" },
 

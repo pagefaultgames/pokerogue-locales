@@ -106,7 +106,7 @@
       "description": "亲密度获取量增加50%。"
     },
     "PokemonMoveAccuracyBoosterModifierType": {
-      "description": "招式命中率增加{{accuracyAmount}}(最大100)。"
+      "description": "招式命中率增加{{accuracyAmount}}。"
     },
     "PokemonMultiHitModifierType": {
       "description": "将持有者本次伤害的25%转化为一次独立的攻击。"
@@ -130,7 +130,7 @@
     },
     "TerastallizeModifierType": {
       "name": "{{teraType}}太晶碎块",
-      "description": "持有者获得{{teraType}}太晶化，\n持续10场战斗。"
+      "description": "将宝可梦的太晶属性变为{{teraType}}。"
     },
     "ContactHeldItemTransferChanceModifierType": {
       "description": "攻击时{{chancePercent}}%概率\n偷取对手物品。"
@@ -160,7 +160,7 @@
     },
     "TERA_ORB": {
       "name": "太晶珠",
-      "description": "能让携带着太晶碎块战斗的宝可梦\n进行太晶化。"
+      "description": "能让战斗的宝可梦进行太晶化。\n缓慢充能，太晶碎片也会出现在商店中。"
     },
     "MAP": {
       "name": "地图",
@@ -358,6 +358,10 @@
       "name": "火焰宝珠",
       "description": "触碰后会放出热量的神奇宝珠。\n携带后，在战斗时会变成灼伤状态。"
     },
+    "MYSTICAL_ROCK": {
+      "name": "神秘石块",
+      "description": "每堆叠一次，可将招式或能力造成的\n地形和天气的持续时间延长 2 回合。"
+    },
     "EVOLUTION_TRACKER_GIMMIGHOUL": {
       "name": "宝藏金币",
       "description": "这个宝可梦最爱金币！多收集点金币的话会发生什么呢？"
@@ -380,7 +384,7 @@
     },
     "IV_SCANNER": {
       "name": "个体值探测器",
-      "description": "允许扫描野生宝可梦的个体值。每多拥有一个\n多显示两项个体值，优先显示最高项。"
+      "description": "允许扫描野生宝可梦的个体值。"
     },
     "DNA_SPLICERS": {
       "name": "基因之楔"
@@ -460,6 +464,14 @@
     "QUICK_POWDER": {
       "name": "速度粉",
       "description": "让百变怪携带后，速度就会提高的神奇粉末。\n非常细腻坚硬。"
+    },
+    "DEEP_SEA_SCALE": {
+      "name": "深海鳞片",
+      "description": "闪耀着粉红色光泽的鳞片。$让珍珠贝携带后，特防就会提高。\t"
+    },
+    "DEEP_SEA_TOOTH": {
+      "name": "深海之牙",
+      "description": "散发着闪亮银光的锐利牙齿。$让珍珠贝携带后，特攻就会提高。"
     }
   },
   "TempStatStageBoosterItem": {

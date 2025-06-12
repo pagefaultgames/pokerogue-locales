@@ -109,7 +109,7 @@
   },
   "synchronize": {
     "name": "Sincronía",
-    "description": "Contagia el envenenamiento, las quemaduras o la parálisis al Pokémon que le cause ese estado."
+    "description": "Pasa su problema de estado al Pokémon que lo infligió. Si este es el primer Pokémon de tu equipo, los Pokémon salvajes tendrán su misma naturaleza."
   },
   "clearBody": {
     "name": "Cuerpo Puro",
@@ -125,7 +125,7 @@
   },
   "sereneGrace": {
     "name": "Dicha",
-    "description": "Aumenta la probabilidad de que los movimientos causen efectos secundarios."
+    "description": "Aumenta la probabilidad de que los movimientos causen efectos secundarios. No afecta a objetos."
   },
   "swiftSwim": {
     "name": "Nado Rápido",
@@ -137,7 +137,7 @@
   },
   "illuminate": {
     "name": "Iluminación",
-    "description": "Al iluminar el entorno, evita que su Precisión se reduzca."
+    "description": "Al iluminar el entorno, evita que su precisión se reduzca y aumenta la probabilidad de combates dobles."
   },
   "trace": {
     "name": "Calco",
@@ -281,7 +281,7 @@
   },
   "arenaTrap": {
     "name": "Trampa Arena",
-    "description": "Evita que el rival huya o sea cambiado por otro."
+    "description": "Evita que el Pokémon rival huya. También incrementa la probabilidad de combates dobles."
   },
   "vitalSpirit": {
     "name": "Espíritu Vital",
@@ -393,7 +393,7 @@
   },
   "noGuard": {
     "name": "Indefenso",
-    "description": "Al quedar ambos expuestos, tanto sus movimientos como los del Pokémon que lo ataque acertarán siempre."
+    "description": "Al quedar ambos expuestos, tanto sus movimientos como los del Pokémon que lo ataque acertarán siempre. También aumenta la probabilidad de combates dobles."
   },
   "stall": {
     "name": "Rezagado",
@@ -433,7 +433,7 @@
   },
   "unaware": {
     "name": "Ignorante",
-    "description": "Pasa por alto los cambios en las características de un Pokémon al atacarlo o recibir daño."
+    "description": "Este Pokémon ignora los cambios en las estadísticas del Pokémon rival."
   },
   "tintedLens": {
     "name": "Cromolente",
@@ -849,7 +849,7 @@
   },
   "comatose": {
     "name": "Letargo Perenne",
-    "description": "No despierta jamás de su profundo letargo e incluso ataca dormido."
+    "description": "No despierta jamás de su profundo letargo e incluso ataca dormido. Se considera como afectado por problema de estado."
   },
   "queenlyMajesty": {
     "name": "Regia Presencia",
@@ -1113,7 +1113,7 @@
   },
   "commander": {
     "name": "Comandar",
-    "description": "Si al entrar en combate coincide con un Dondozo aliado, se cuela en el interior de su boca para tomar el control."
+    "description": "Si al entrar en combate coincide con un Dondozo aliado, se cuela en el interior de su boca para tomar el control. También aumenta la probabilidad de combates dobles."
   },
   "electromorphosis": {
     "name": "Dinamo",

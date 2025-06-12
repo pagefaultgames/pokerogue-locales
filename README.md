@@ -4,7 +4,7 @@ This repository contains the locales files for the [PokéRogue](https://github.c
 
 ## How to Contribute
 
-Reach out to `Head of Translation` on our [Discord](https://discord.gg/x6mnWhvc).
+Reach out to `Head of Translation` on our [Discord](https://discord.gg/pokerogue).
 They will be able to provide you with further information.
 
 ## Languages
@@ -14,6 +14,7 @@ They will be able to provide you with further information.
 - en - English
 - de - German
 - es-ES - Spanish (Spain)
+- es-MX - Spanish (LATAM) - Bearly started, but empty keys falls back first on *es-ES* transaltions to allow a smooth transition
 - fr - French
 - it - Italian
 - ja - Japanese
@@ -21,23 +22,15 @@ They will be able to provide you with further information.
 - pt-BR - Portuguese (Brazil)
 - zh-CN - Chinese (Simplified)
 - zh-TW - Chinese (Traditional)
-
-### Present in game code but disabled
-
-- ca-ES - Catalan *(Removed because not yet translated enough, needs help)*
+- ca - Catalan *(Still at very low percentage, needs help)*
+- ru - Russian *(Still at low percentage, needs help)*
+- tr - Turkish *(Still at very low percentage, needs help)*
+- ro - Romanian *(Still at very low percentage, needs help)*
 
 ### Pending
-*Waiting for them to be more complete, needs help*
 
-- da - Danish
-- he - Hebrew *(Note: The game needs to be properly compatible with right-to-left languages before being implemented. Any help on this regard would be very welcomed.)*
-- tr - Turkish
-- ro - Romanian
+- he - Hebrew *(Note: The game needs first to have a minimum compatibility with right-to-left languages before being implemented. Any help on this regard would be very welcomed.)*
 
 ### Indefinitely pending
 
-- th - Thai *(No translator available)*
-
-### Non-existent and wished by Translation Heads
-
-- ru - Russian
+- th - Thai *(No translator available, most of the transaltions comes from an old abandoned PR)*

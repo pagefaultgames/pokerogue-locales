@@ -9,6 +9,7 @@
   "trainerComeBack": "{{trainerName}} ruft {{pokemonName}} zurück!",
   "playerGo": "Los! {{pokemonName}}!",
   "trainerGo": "{{trainerName}} sendet {{pokemonName}} raus!",
+  "pokemonDraggedOut": "{{pokemonName}} wurde ausgewählt!",
   "switchQuestion": "Möchtest du {{pokemonName}} auswechseln?",
   "trainerDefeated": "{{trainerName}} wurde besiegt!",
   "moneyWon": "Du gewinnst {{moneyAmount}} ₽!",
@@ -61,7 +62,7 @@
   "noPokeballTrainer": "Du kannst das Pokémon eines anderen Trainers nicht fangen!",
   "noPokeballMulti": "Du kannst erst einen Pokéball werfen, wenn nur noch ein Pokémon übrig ist!",
   "noPokeballStrong": "Das Ziel-Pokémon ist zu stark, um gefangen zu werden! Du musst es zuerst schwächen!",
-  "noPokeballMysteryEncounter": "You aren't able to\ncatch this Pokémon!",
+  "noPokeballMysteryEncounter": "Du kannst dieses Pokémon nicht fangen!",
   "noEscapeForce": "Eine unsichtbare Kraft verhindert die Flucht.",
   "noEscapeTrainer": "Du kannst nicht aus einem Trainerkampf fliehen!",
   "noEscapePokemon": "{{moveName}} von {{pokemonName}} verhindert {{escapeVerb}}!",
@@ -82,7 +83,7 @@
   "wildPokemonWithAffix": "{{pokemonName}} (wild)",
   "foePokemonWithAffix": "{{pokemonName}} (Gegner)",
   "useMove": "{{pokemonNameWithAffix}} setzt {{moveName}} ein!",
-  "MagicCoatExe": "{{pokemonNameWithAffix}} leitet {{moveName}} zurück!",
+  "magicCoatActivated": "{{pokemonNameWithAffix}} leitet {{moveName}} zurück!",
   "drainMessage": "{{pokemonName}} wurde Energie abgesaugt",
   "regainHealth": "KP von {{pokemonName}} wurden wieder aufgefrischt!",
   "stealEatBerry": "{{pokemonName}} hat {{targetName}} seine {{berryName}} weggefuttert!",
@@ -115,5 +116,6 @@
   "ppReduced": "{{moveName}} von {{targetName}} wird um {{reduction}} AP reduziert!",
   "mysteryEncounterAppeared": "Was ist das?",
   "battlerTagsHealBlock": "{{pokemonNameWithAffix}} kann nicht geheilt werden, da die Heilung blockiert wird!",
-  "battlerTagsHealBlockOnRemove": "{{pokemonNameWithAffix}} kann wieder geheilt werden!"
+  "battlerTagsHealBlockOnRemove": "{{pokemonNameWithAffix}} kann wieder geheilt werden!",
+  "pokemonTerastallized": "{{pokemonNameWithAffix}} terakristallisiert zum Typ {{type}}!"
 }

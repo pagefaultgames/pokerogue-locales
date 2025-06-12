@@ -106,7 +106,7 @@
       "description": "Aumenta o ganho de amizade em 50%."
     },
     "PokemonMoveAccuracyBoosterModifierType": {
-      "description": "Aumenta a precisão dos movimentos em {{accuracyAmount}} (máximo 100)."
+      "description": "Aumenta a precisão dos movimentos em {{accuracyAmount}}."
     },
     "PokemonMultiHitModifierType": {
       "description": "Converte 25% do dano dos ataques de quem segurar em um acerto adicional."
@@ -130,7 +130,7 @@
     },
     "TerastallizeModifierType": {
       "name": "Fragmento Tera {{teraType}}",
-      "description": "Terastalize um Pokémon para o tipo {{teraType}} por 10 ondas."
+      "description": "Muda o tipo Tera do Pokémon para {{teraType}}."
     },
     "ContactHeldItemTransferChanceModifierType": {
       "description": "Quando atacar, tem {{chancePercent}}% de chance de roubar um item do oponente."
@@ -160,7 +160,7 @@
     },
     "TERA_ORB": {
       "name": "Orbe Tera",
-      "description": "Fragmentos Tera ficam disponíveis."
+      "description": "Permite que seu Pokémon Terastalize. Recarrega lentamente. Fragmentos Tera também ficam disponíveis."
     },
     "MAP": {
       "name": "Mapa",
@@ -295,7 +295,7 @@
     },
     "AMULET_COIN": {
       "name": "Moeda Amuleto",
-      "description": "Aumenta a recompensa de dinheiro em 50%."
+      "description": "Aumenta a recompensa de dinheiro em 20%."
     },
     "GOLDEN_PUNCH": {
       "name": "Soco Dourado",
@@ -358,6 +358,10 @@
       "name": "Esfera da Chama",
       "description": "Uma esfera estranha que aquece quando tocada e queima quem a segurar."
     },
+    "MYSTICAL_ROCK": {
+      "name": "Pedra Mística",
+      "description": "Aumenta a duração de terrenos e climas causados por movimentos ou Habilidades de quem segurar por 2 turnos."
+    },
     "EVOLUTION_TRACKER_GIMMIGHOUL": {
       "name": "Tesouros",
       "description": "Esse Pokémon ama tesouro! Continue coletando tesouro e talvez algo aconteça!"
@@ -380,7 +384,7 @@
     },
     "IV_SCANNER": {
       "name": "Scanner de IVs",
-      "description": "Permite escanear os IVs de Pokémon selvagens. 2 IVs são revelados por item. Os melhores IVs são mostrados primeiro."
+      "description": "Permite escanear os IVs de Pokémon selvagens."
     },
     "DNA_SPLICERS": {
       "name": "Splicer de DNA"
