@@ -1,3 +1,13 @@
 {
-  "query": "Che cosa farai?"
+  "intro": "Questo non è un Pokémon comune!",
+  "title": "Una forma non comune",
+  "description": "Questo {{enemyPokemon}} sembra speciale in confronto agli altri della sua specie. @[TOOLTIP_TITLE]{Forse conosce una mossa speciale?} Potresti affrontarlo e catturarlo subito, ma potrebbe anche esserci un modo per essergli amico.",
+  "query": "Che cosa farai?",
+  "option": {
+    "1": {
+      "label": "Affronta il Pokémon",
+      "tooltip": "(-) Combattimento difficile\n(+) Avversario forte catturabile",
+      "selected": "Affronti il\n{{enemyPokemon}} senza paura."
+    }
+  }
 }
