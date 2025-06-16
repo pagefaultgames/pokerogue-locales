@@ -1,1 +1,25 @@
-{}
+{
+  "intro": "Un {{greedentName}} ti tende un agguato\ne ruba tutte le bacche della tua squadra!",
+  "title": "Cupidigia Assoluta",
+  "description": "Il {{greedentName}} ti ha colto completamente di sorpresa e tutte le tue bacche ora sono sparite!\n\nIl {{greedentName}} sembra sia sul punto di mangiarle quando si ferma per guadarti, interessato.",
+  "query": "Che cosa farai?",
+  "option": {
+    "1": {
+      "label": "Affrontalo",
+      "tooltip": "(-) Combattimento difficile\n(+) Ricompense dalla sua scorta di Bacche",
+      "selected": "Il {{greedentName}} gonfia le sue guance\ne si prepara a combattere!",
+      "boss_enraged": "L’insaziabile amore di {{greedentName}} per il cibo lo ha reso furioso!",
+      "food_stash": "Sembra che {{greedentName}} facesse la guardia a un’enorme scorta di cibo!$@s{item_fanfare}Ogni Pokémon della tua squadra riceve una {{foodReward}}!"
+    },
+    "2": {
+      "label": "Ragiona con lui",
+      "tooltip": "(+) Riottieni alcune Bacche rubate",
+      "selected": "Le tue suppliche fanno breccia nel cuore di {{greedentName}}.$Non ti restituisce tutte le tue bacche, ma comunque ne lancia qualcuna verso di te."
+    },
+    "3": {
+      "label": "Lasciagli le Bacche",
+      "tooltip": "(-) Perdi tutte le Bacche\n(?) Piacerai a {{greedentName}}",
+      "selected": "Il {{greedentName}} divora l’intera\nscorta di bacche in un lampo!$Picchiettandosi la pancia,\nti guarda con apprezzamento.$Forse potresti dargli\naltre bacche durante la tua avventura…$@s{level_up_fanfare}Il {{greedentName}} vuole unirsi alla tua squadra!"
+    }
+  }
+}
