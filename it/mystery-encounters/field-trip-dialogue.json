@@ -1,4 +1,31 @@
 {
   "intro": "C’è un’insegnante con i suoi alunni!",
-  "speaker": "Insegnante"
+  "speaker": "Insegnante",
+  "intro_dialogue": "Ehi, ciao! Potresti dedicare\nun minuto ai miei alunni?$Li sto istruendo sulle mosse Pokémon\ne mi piacerebbe che tu facessi loro una dimostrazione.$Ti dispiacerebbe mostrarci una delle\nmosse che uno dei tuoi Pokémon conosce?",
+  "title": "Gita Scolastica",
+  "description": "Un’insegnante ti chiede una dimostrazione di una mossa di un tuo Pokémon. In base alla mossa che scegli, potrebbe avere qualcosa di utile in cambio per te.",
+  "query": "Che tipo di mossa sceglierai di mostrare?",
+  "option": {
+    "1": {
+      "label": "Mossa Fisica",
+      "tooltip": "(+) Ricompense di oggetti per le mosse fisiche"
+    },
+    "2": {
+      "label": "Mossa Speciale",
+      "tooltip": "(+) Ricompense di oggetti per le mosse speciali"
+    },
+    "3": {
+      "label": "Mossa di Stato",
+      "tooltip": "(+) Ricompense di oggetti per le mosse di stato"
+    },
+    "selected": "{{pokeName}} esegue una dimostrazione incredibile di {{move}}!"
+  },
+  "second_option_prompt": "Scegli una mossa del tuo Pokémon da utilizzare.",
+  "incorrect": "…$Quella non è una mossa {{moveCategory}}!\nMi dispiace, ma non posso darti nulla in cambio.$Andiamo bambini, troveremo\nuna dimostrazione migliore altrove.",
+  "incorrect_exp": "Sembra che tu abbia imparato una lezione importante?$Il tuo Pokémon ha anche guadagnato un po’ di esperienza.",
+  "correct": "Grazie mille per la tua gentilezza!\nSpero che questi strumenti ti possano essere utili!",
+  "correct_exp": "{{pokeName}} ha anche guadagnato un bel po’ di esperienza!",
+  "status": "Stato",
+  "physical": "Fisica",
+  "special": "Speciale"
 }
