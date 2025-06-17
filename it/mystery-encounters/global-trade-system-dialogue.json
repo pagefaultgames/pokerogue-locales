@@ -1,3 +1,32 @@
 {
-  "query": "Che cosa farai?"
+  "intro": "È un’interfaccia di accesso alla GTS!",
+  "title": "La GTS",
+  "description": "Ah, la GTS! Una meraviglia tecnologica, ti puoi connettere con chiunque altro nel mondo per scambiare Pokémon! La fortuna sorriderà ai tuoi scambi oggi?",
+  "query": "Che cosa farai?",
+  "option": {
+    "1": {
+      "label": "Controlla le offerte di scambio",
+      "tooltip": "(+) Scegli un’offerta di scambio per uno dei tuoi Pokémon",
+      "trade_options_prompt": "Scegli un Pokémon da ricevere in cambio."
+    },
+    "2": {
+      "label": "Scambio Prodigioso",
+      "tooltip": "(+) Manda uno dei tuoi Pokémon alla GTS e ottieni un Pokémon speciale a caso in cambio"
+    },
+    "3": {
+      "label": "Scambia un oggetto",
+      "trade_options_prompt": "Seleziona uno strumento da inviare.",
+      "invalid_selection": "Questo Pokémon non ha alcuno strumento adatto allo scambio.",
+      "tooltip": "(+) Manda uno dei tuoi strumenti alla GTS e ottieni uno strumento a caso migliorato"
+    },
+    "4": {
+      "label": "Vai via",
+      "tooltip": "(-) Nessuna Ricompensa",
+      "selected": "Non c’è tempo per gli scambi oggi!\nProsegui oltre."
+    }
+  },
+  "pokemon_trade_selected": "{{tradedPokemon}} sarà inviato\na {{tradeTrainerName}}.",
+  "pokemon_trade_goodbye": "Addio, {{tradedPokemon}}!",
+  "item_trade_selected": "{{chosenItem}} sarà inviato a {{tradeTrainerName}}.$.@d{64}.@d{64}.@d{64}\n@s{level_up_fanfare}Scambio completato!$Hai ricevuto l'oggetto {{itemName}} da {{tradeTrainerName}}!",
+  "trade_received": "@s{evolution_fanfare}{{tradeTrainerName}} ha inviato {{received}}!"
 }
