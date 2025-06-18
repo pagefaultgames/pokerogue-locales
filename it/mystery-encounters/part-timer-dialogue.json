@@ -1,1 +1,31 @@
-{}
+{
+  "intro": "Un’operaia impegnata ti fa cenno di fermarti.",
+  "speaker": "Operaia",
+  "intro_dialogue": "Tu sembri uno come molti Pokémon capaci!$Possiamo pagarti se accetti di aiutarci con un po’ di lavoro part-time!",
+  "title": "Lavoro Part-Time",
+  "description": "Sembra che ci siano molti compiti da svolgere. A seconda di quanto un tuo Pokémon è adatto al compito, potrebbe guadagnare più o meno soldi.",
+  "query": "Quale lavoro sceglierai?",
+  "invalid_selection": "Questo Pokémon non può lavorare!",
+  "option": {
+    "1": {
+      "label": "Fare consegne",
+      "tooltip": "(-) Il tuo Pokémon usa la sua Velocità\n(+) Guadagna @[MONEY]{denaro}",
+      "selected": "Il tuo {{selectedPokemon}} fa un turno consegnando ordini ai clienti."
+    },
+    "2": {
+      "label": "Lavoro in magazzino",
+      "tooltip": "(-) Il tuo Pokémon usa la sua Forza e Resistenza\n(+) Guadagna @[MONEY]{denaro}",
+      "selected": "Il tuo {{selectedPokemon}} fa un turno spostando oggetti in magazzino."
+    },
+    "3": {
+      "label": "Assistente alle vendite",
+      "tooltip": "(-) Il tuo {{option3PrimaryName}} usa {{option3PrimaryMove}}\n(+) Guadagna @[MONEY]{denaro}",
+      "disabled_tooltip": "Il tuo Pokémon deve conoscere determinate mosse per questo lavoro.",
+      "selected": "Il tuo {{option3PrimaryName}} passa la giornata usando {{option3PrimaryMove}} per attirare dei clienti!"
+    }
+  },
+  "job_complete_good": "Grazie per l’aiuto!\nIl tuo {{selectedPokemon}} è stato incredibilmente utile!$Ecco la tua paga giornaliera.",
+  "job_complete_bad": "Il tuo {{selectedPokemon}} ci ha aiutato un pochino!$Ecco la tua paga giornaliera.",
+  "pokemon_tired": "Il tuo {{selectedPokemon}} è esausto!\nI PP di tutte le sue mosse sono ridotti a 2!",
+  "outro": "Torna pure ad aiutarci qualche volta!"
+}
