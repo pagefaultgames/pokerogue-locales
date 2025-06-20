@@ -1,1 +1,25 @@
-{}
+{
+  "intro": "Mentre cammini per un sentiero ristretto una silhouette imponente blocca il tuo cammino.$Ti avvicini e vedi uno {{snorlaxName}} dormire beatamente.\nSembra che non ci sia possibilità di oltrepassarlo.",
+  "title": "{{snorlaxName}} assopito",
+  "description": "Potresti considerare di attaccarlo per farlo spostare, o semplicemente attendere che si svegli. Chissà però quanto tempo potrebbe volerci…",
+  "query": "Che cosa farai?",
+  "option": {
+    "1": {
+      "label": "Affrontalo",
+      "tooltip": "(-) Affronta lo {{snorlaxName}} addormentato\n(+) Ricompensa speciale",
+      "selected": "Affronti il Pokémon\nsenza paura."
+    },
+    "2": {
+      "label": "Aspetta che si sposti",
+      "tooltip": "(-) Aspetta per molto tempo\n(+) Cura la tua squadra",
+      "selected": ".@d{32}.@d{32}.@d{32}$Aspetti un po’, ma gli sbadigli di {{snorlaxName}} fanno addormentare la tua squadra…",
+      "rest_result": "Quando ti risvegli, lo {{snorlaxName}} se n’è andato -\nma tutti i tuoi Pokémon sono stati curati!"
+    },
+    "3": {
+      "label": "Ruba il suo Strumento",
+      "tooltip": "(+) {{option3PrimaryName}} usa {{option3PrimaryMove}}\n(+) Ricompensa speciale",
+      "disabled_tooltip": "Il tuo Pokémon deve conoscere una determinata mossa per scegliere questa opzione.",
+      "selected": "Il tuo {{option3PrimaryName}} usa {{option3PrimaryMove}}!$@s{item_fanfare}Ruba gli Avanzi allo{{snorlaxName}}\naddormentato e fuggite a gambe levate!"
+    }
+  }
+}

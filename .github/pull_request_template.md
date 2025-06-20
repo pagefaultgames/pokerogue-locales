@@ -1,15 +1,16 @@
 ## Related PR
 <!--
-If this PR is related to a PR in the game repo, added its link here
+If this PR is related to a PR in the game repo, add its link here.
+If not, explain both what this PR changes and what it strives to accomplish.
 -->
 
 ## Screenshots/Videos
 <!--
-Screenshots/videos proving you additions/edits properly works in the game
+Post any screenshots/videos showing your additions/edits working properly in the game.
+While not strictly required for smaller fixes, any major changes (like adding/removing locale keys) should ideally have proof of actually functioning as intended.
 -->
 
 ## Checklist
-- [ ] I provided **screenshots** proving my additions are properly working and maked this PR as a **Draft** if I have not
-- [ ] This PR is related to a PR in the game repo
-  - [ ] If yes, added a link to it in this very description
-- [ ] I warned Transaltion staff on Discord about the existence of this PR
+- [ ] I have provided **screenshots** proving my additions are properly working (if necessary).
+- [ ] I have attached a link to a main repo PR or properly explained my changes as applicable.
+- [ ] I have notified Translation staff on Discord about the existence of this PR.

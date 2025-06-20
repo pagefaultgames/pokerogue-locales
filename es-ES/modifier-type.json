@@ -89,7 +89,7 @@
       "description": "Revive a todos los Pokémon debilitados y restaura completamente sus PS."
     },
     "MoneyRewardModifierType": {
-      "description": "Otorga una {{moneyMultiplier}} cantidad de dinero (₽{{moneyAmount}}).",
+      "description": "Otorga una {{moneyMultiplier}} cantidad de dinero.\n({{moneyAmount}} ₽)",
       "extra": {
         "small": "pequeña",
         "moderate": "moderada",
@@ -359,7 +359,8 @@
       "description": "Extraña esfera que causa quemaduras a quien la usa en combate."
     },
     "MYSTICAL_ROCK": {
-      "name": "Roca Mística"
+      "name": "Roca Mística",
+      "description": "Aumenta la duración del terreno y clima causado por el movimiento o habilidad del usuario en 2 turnos."
     },
     "EVOLUTION_TRACKER_GIMMIGHOUL": {
       "name": "Tesoros",
@@ -476,8 +477,8 @@
   "TempStatStageBoosterItem": {
     "x_attack": "Ataque X",
     "x_defense": "Defensa X",
-    "x_sp_atk": "Ataq. Esp. X",
-    "x_sp_def": "Def. Esp. X",
+    "x_sp_atk": "At. Especial X",
+    "x_sp_def": "Def. Especial X",
     "x_speed": "Velocidad X",
     "x_accuracy": "Precisión X"
   },

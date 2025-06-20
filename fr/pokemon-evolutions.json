@@ -1,21 +1,20 @@
 {
-  "level": "Au N.",
-  "using": "Avec ",
+  "atLevel": "Au N. {{lv}}",
+  "levelUp": "Montée de niveau",
+  "using": "Avec l’objet {{item}} ({{tier}})",
   "GREAT": "Super",
   "ULTRA": "Hyper",
-  "gender": "Sexe : {{gender}}",
-  "MALE": "Mâle",
-  "FEMALE": "Femelle",
   "connector": ", ",
-  "timeOfDay": "{{tod}}",
-  "day": "Jour ou Aube",
-  "night": "Nuit ou Crépuscule",
+  "gender": "({{gender}} uniquement)",
+  "timeOfDay": {
+    "DAY": "De Jour ou à l’Aube",
+    "DUSK": "Au Crépuscule",
+    "NIGHT": "De Nuit ou au Crépuscule",
+    "DAWN": "À l’Aube"
+  },
   "move": "Connaissant la capacité {{move}}",
   "moveType": "Connaissant une capacité {{type}}",
   "friendship": "Bonheur élevé",
-  "friendshipTimeOfDay": "Bonheur élevé pendant {{tod}}",
-  "friendshipMoveType": "Connaissant une capacité {{type}} et un bonheur élevé",
-  "moveTimeOfDay": "Connaissant la capacité {{move}} pendant",
   "shedinja": "S’il y a une place libre dans l’équipe",
   "partyType": "S’il y a un Pokémon {{type}} dans l’équipe",
   "caught": "Si un {{species}} a été capturé",
@@ -23,6 +22,10 @@
   "treasure": "Après avoir récolté assez de trésors",
   "nature": "Est d’une nature spécifique",
   "biome": "Dans un biome précis",
+  "heldItem": {
+    "DEEP_SEA_TOOTH": "En portant l’objet Dent Océan",
+    "DEEP_SEA_SCALE": "En portant l’objet Écaille Océan"
+  },
   "Forms": {
     "ability": "Due à son talent",
     "item": "Avec l’objet {{item}} activé",

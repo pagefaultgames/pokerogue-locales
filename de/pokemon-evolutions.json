@@ -1,21 +1,20 @@
 {
-  "level": "Auf Lvl.",
-  "using": "Benötigt ",
+  "atLevel": "Auf Lvl. {{lv}}",
+  "levelUp": "Level Up",
+  "using": "Benötigt {{item}} ({{tier}})",
   "GREAT": "Super",
   "ULTRA": "Hyper",
-  "gender": "Wenn {{gender}}",
-  "MALE": "Männlich",
-  "FEMALE": "Weiblich",
   "connector": ", ",
-  "timeOfDay": "Zur Tageszeit: {{tod}}",
-  "day": "Tag oder Morgengrauen",
-  "night": "Nacht oder Abenddämmerung",
+  "gender": "(Nur {{gender}})",
+  "timeOfDay": {
+    "DAY": "Während Tag oder Morgengrauen",
+    "DUSK": "Während Abenddämmerung",
+    "NIGHT": "Während Nacht oder Abenddämmerung",
+    "DAWN": "Während Morgengrauen"
+  },
   "move": "Mit erlernter Attacke {{move}}",
   "moveType": "Mit erlernter Attacke vom Typ {{type}}",
   "friendship": "Mit hoher Zutraulichkeit",
-  "friendshipTimeOfDay": "Mit hoher Zutraulichkeit zur Tageszeit: {{tod}}",
-  "friendshipMoveType": "Mit erlernter Attacke vom Typ {{type}} und hoher Zutraulichkeit",
-  "moveTimeOfDay": "Mit erlernter Attacke vom Typ {{type}} zur Tageszeit: {{tod}}",
   "shedinja": "Solange Platz im Team ist",
   "partyType": "Solange ein Pokémon vom Typ {{type}} im Team ist",
   "caught": "Wenn {{species}} gefangen wurde",
@@ -23,6 +22,10 @@
   "treasure": "Mit genügend gesammelten Schätzen",
   "nature": "Mit einem bestimmtem Wesen",
   "biome": "In einem bestimmten Biome",
+  "heldItem": {
+    "DEEP_SEA_TOOTH": "Wenn Abysszahn getragen",
+    "DEEP_SEA_SCALE": "Wenn Abyssplatte getragen"
+  },
   "Forms": {
     "ability": "Durch seine Fähigkeit",
     "item": "{{item}} aktivieren",

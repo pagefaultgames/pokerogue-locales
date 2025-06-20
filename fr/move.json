@@ -669,7 +669,7 @@
   },
   "thief": {
     "name": "Larcin",
-    "effect": "Le lanceur attaque la cible et vole son objet. Le lanceur ne peut rien voler s’il tient déjà un objet."
+    "effect": "Le lanceur attaque la cible et a 30% de chance de voler son objet."
   },
   "spiderWeb": {
     "name": "Toile",
@@ -1369,7 +1369,7 @@
   },
   "covet": {
     "name": "Implore",
-    "effect": "Le lanceur s’approche de la cible avec un air angélique afin de dérober l’objet qu’elle tient."
+    "effect": "Le lanceur s’approche de la cible avec un air angélique avec 30% de chance de dérober l’objet qu’elle tient."
   },
   "voltTackle": {
     "name": "Électacle",
@@ -2045,7 +2045,7 @@
   },
   "acrobatics": {
     "name": "Acrobatie",
-    "effect": "Le lanceur frappe la cible avec agilité. S’il ne tient pas d’objet, l’attaque inflige davantage de dégâts."
+    "effect": "Le lanceur frappe la cible avec agilité. Le moins d’objets il porte, plus l’attaque inflige de dégâts."
   },
   "reflectType": {
     "name": "Copie-Type",
@@ -2901,7 +2901,7 @@
   },
   "letsSnuggleForever": {
     "name": "Patati-Patattrape",
-    "effect": "Mimiqui concentre toute la Force Z dans son corps, et attaque dans le plus grand fracas !"
+    "effect": "Mimiqui concentre toute la Force Z dans son corps, et attaque dans le plus grand fracas !"
   },
   "splinteredStormshards": {
     "name": "Hurlement des Roches-Lames",
@@ -3713,23 +3713,23 @@
   },
   "blazingTorque": {
     "name": "Crash Brulant",
-    "effect": "Crash Brulant inflige des dégâts et possède 30 % de chances de bruler l’adversaire."
+    "effect": "Le lanceur fonce sur sa cible, moteur en tête. Peut bruler la cible."
   },
   "wickedTorque": {
     "name": "Crash Obscur",
-    "effect": "Crash Obscur inflige des dégâts et possède 10 % de chances d’endormir l’adversaire."
+    "effect": "Le lanceur fonce sur sa cible, moteur en tête. Peut endormir la cible."
   },
   "noxiousTorque": {
     "name": "Crash Toxique",
-    "effect": "Crash Toxique inflige des dégâts et possède 30 % de chances d’empoisonner l’adversaire."
+    "effect": "Le lanceur fonce sur sa cible, moteur en tête. Peut empoisonner la cible."
   },
   "combatTorque": {
     "name": "Crash Musclé",
-    "effect": "Crash Musclé inflige des dégâts et possède 30 % de chances de paralyser l’adversaire."
+    "effect": "Le lanceur fonce sur sa cible, moteur en tête. Peut paralyser la cible."
   },
   "magicalTorque": {
     "name": "Crash Magique",
-    "effect": "Crash Magique inflige des dégâts et possède 30 % de chances de rendre l’adversaire confus."
+    "effect": "Le lanceur fonce sur sa cible, moteur en tête. Peut rendre la cible confuse."
   },
   "bloodMoon": {
     "name": "Lune Rouge",

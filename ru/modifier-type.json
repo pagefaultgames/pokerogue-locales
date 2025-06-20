@@ -1,5 +1,11 @@
 {
   "ModifierType": {
+    "TmModifierType": {
+      "name": "ТМ{{moveId}} - {{moveName}}"
+    },
+    "TmModifierTypeWithInfo": {
+      "name": "ТМ{{moveId}} - {{moveName}}"
+    },
     "RARE_CANDY": {
       "name": "Редкая конфета"
     },
@@ -30,11 +36,24 @@
     "MAX_REVIVE": {
       "name": "Оживление макс"
     },
+    "FULL_HEAL": {
+      "name": "Полное Исцеление"
+    },
+    "MEMORY_MUSHROOM": {
+      "name": "Гриб Памяти",
+      "description": "Вспомнить забытый приём Покемона."
+    },
+    "EXP_SHARE": {
+      "name": "Общая Доля"
+    },
     "LUCKY_EGG": {
-      "name": "Удачливое яйцо"
+      "name": "Удачливое Яйцо"
     },
     "KINGS_ROCK": {
       "name": "Королевский камень"
+    },
+    "IV_SCANNER": {
+      "name": "IV Сканер"
     }
   },
   "AttackTypeBoosterItem": {

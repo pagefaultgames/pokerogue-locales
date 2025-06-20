@@ -1,1 +1,22 @@
-{}
+{
+  "intro": "Sono apparsi degli sfidanti misteriosi!",
+  "title": "Sfidanti Misteriosi",
+  "description": "Se sconfiggi uno sfidante, potresti impressionarli al punto da ricevere una ricompensa. Ma alcuni sembrano davvero forti, sei pronto per la sfida?",
+  "query": "Con chi lotterai?",
+  "option": {
+    "1": {
+      "label": "Un avversario intelligente e consapevole",
+      "tooltip": "(-) Combattimento normale\n(+) MT come ricompense"
+    },
+    "2": {
+      "label": "Un avversario forte",
+      "tooltip": "(-) Combattimento tosto\n(+) Buone ricompense"
+    },
+    "3": {
+      "label": "L’avversario più potente",
+      "tooltip": "(-) Combattimento brutale\n(-) Ottime ricompense"
+    },
+    "selected": "L’allenatore si fa avanti…"
+  },
+  "outro": "Lo sfidante misterioso è stato sconfitto!"
+}
