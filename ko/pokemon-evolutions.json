@@ -1,7 +1,17 @@
 {
+  "atLevel": "레벨 {{lv}}",
+  "levelUp": "레벨 업",
+  "using": "{{item}} ({{tier}}) 사용",
   "GREAT": "슈퍼",
   "ULTRA": "하이퍼",
   "connector": ", ",
+  "gender": "({{gender}} 한정)",
+  "timeOfDay": {
+    "DAY": "낮 또는 새벽",
+    "DUSK": "황혼",
+    "NIGHT": "밤 또는 황혼",
+    "DAWN": "새벽"
+  },
   "move": "{{move}}[[를]] 배우고 있어야 함",
   "moveType": "{{type}} 타입 기술을 배우고 있어야 함",
   "friendship": "특정 친밀도 이상일 때",
@@ -12,6 +22,10 @@
   "treasure": "충분한 보물을 모았을 때",
   "nature": "특정 성격을 갖고 있을 때",
   "biome": "특정 바이옴에서",
+  "heldItem": {
+    "DEEP_SEA_TOOTH": "심해의이빨을 지니고 있어야함",
+    "DEEP_SEA_SCALE": "심해의비늘을 지니고 있어야함"
+  },
   "Forms": {
     "ability": "특성을 통해 폼체인지",
     "item": "{{item}}[[를]] 통해 폼체인지",
