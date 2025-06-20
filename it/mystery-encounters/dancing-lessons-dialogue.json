@@ -1,3 +1,27 @@
 {
-  "query": "Che cosa farai?"
+  "intro": "Un {{oricorioName}} danza triste da solo, senza un compagno.",
+  "title": "Lezioni di danza",
+  "description": "L’{{oricorioName}} non sembra aggressivo, sembra più che altro sconfortato.\n\nForse vuole solo qualcuno con cui danzare…",
+  "query": "Che cosa farai?",
+  "option": {
+    "1": {
+      "label": "Affrontalo",
+      "tooltip": "(-) Combattimento difficile\n(+) Ottieni una Staffetta",
+      "selected": "L’{{oricorioName}} è scioccato e si muove per difendersi!",
+      "boss_enraged": "La paura di {{oricorioName}} ha aumentato le sue statistiche!"
+    },
+    "2": {
+      "label": "Impara la sua Danza",
+      "tooltip": "(+) Insegna a un qualsiasi Pokémon Mutadanza",
+      "selected": "Guardi {{oricorioName}} da vicino mentre esegue la sua danza…$@s{level_up_fanfare}Il tuo {{selectedPokemon}} impara Mutadanza da {{oricorioName}}!"
+    },
+    "3": {
+      "label": "Mostragli una Danza",
+      "tooltip": "(-) Insegna a {{oricorioName}} una mossa basata sulla Danza\n(+) Piacerai a {{oricorioName}}",
+      "disabled_tooltip": "Il tuo Pokémon deve conoscere una mossa basata sulla Danza per questa opzione.",
+      "select_prompt": "Seleziona una mossa basata sulla Danza da usare.",
+      "selected": "L’{{oricorioName}} guarda affascinato mentre\n{{selectedPokemon}} mostra {{selectedMove}}! Adora la dimostrazione!$@s{level_up_fanfare}L’{{oricorioName}} vuole unirsi alla tua squadra!"
+    }
+  },
+  "invalid_selection": "Questo Pokémon non conosce una mossa basata sulla Danza!"
 }

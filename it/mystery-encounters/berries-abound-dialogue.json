@@ -1,3 +1,26 @@
 {
-  "query": "Che cosa farai?"
+  "intro": "C’è un enorme cespuglio di bacche\nvicino a quel Pokémon!",
+  "title": "Bacche in Abbondanza",
+  "description": "Sembra che ci sia un Pokémon a fare la guardia al cespuglio di bacche. Lottare è l’idea più semplice, ma sembra essere molto forte. Magari un Pokémon veloce potrebbe prendere alcune bacche senza farsi scoprire?",
+  "query": "Che cosa farai?",
+  "berries": "Bacche",
+  "option": {
+    "1": {
+      "label": "Affronta il Pokémon",
+      "tooltip": "(-) Combattimento difficile\n(+) Ottieni delle Bacche",
+      "selected": "Affronti il Pokémon\nsenza paura."
+    },
+    "2": {
+      "label": "Corri verso il cespuglio",
+      "tooltip": "(-) {{fastestPokemon}} usa la sua Velocità\n(+) Ottieni delle Bacche",
+      "selected": "Il tuo {{fastestPokemon}} corre verso il cespuglio!$Riesce a rubare {{numBerries}} prima che {{enemyPokemon}} possa reagire!$Ti ritiri rapidamente con il bottino appena realizzato.",
+      "selected_bad": "Il tuo {{fastestPokemon}} corre verso il cespuglio!$Oh no! Il {{enemyPokemon}} è stato più veloce e gli ha bloccato la strada!",
+      "boss_enraged": "Il {{enemyPokemon}} avversario è diventato furioso!"
+    },
+    "3": {
+      "label": "Vai via",
+      "tooltip": "(-) Nessuna Ricompensa",
+      "selected": "Lasci il Pokémon con\nil suo bottino e prosegui oltre."
+    }
+  }
 }
