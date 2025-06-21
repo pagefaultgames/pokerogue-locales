@@ -7,7 +7,20 @@
     "1": {
       "label": "Affronta il Pokémon",
       "tooltip": "(-) Combattimento difficile\n(+) Avversario forte catturabile",
-      "selected": "Affronti il\n{{enemyPokemon}} senza paura."
+      "selected": "Affronti il\n{{enemyPokemon}} senza paura.",
+      "stat_boost": "Le incredibili abilità di {{enemyPokemon}} aumentano le sue statistiche!"
+    },
+    "2": {
+      "label": "Dagli del cibo",
+      "disabled_tooltip": "Devi avere 4 bacche per selezionare questa opzione.",
+      "tooltip": "(-) Dagli 4 Bacche\n(+) Piacerai a {{enemyPokemon}}",
+      "selected": "Lanci le bacche a {{enemyPokemon}}!$Se le mangia con gioia!$Il {{enemyPokemon}} vuole unirsi alla tua squadra!"
+    },
+    "3": {
+      "label": "Fattelo amico",
+      "disabled_tooltip": "Il tuo Pokémon deve conoscere una determinata mossa per scegliere questa opzione.",
+      "tooltip": "(+) {{option3PrimaryName}} usa {{option3PrimaryMove}}\n(+) Piaci a {{enemyPokemon}}",
+      "selected": "Il tuo {{option3PrimaryName}} usa {{option3PrimaryMove}} per affascinare {{enemyPokemon}}!$Il {{enemyPokemon}} vuole unirsi alla tua squadra!"
     }
   }
 }
