@@ -68,16 +68,6 @@
     "BaseStatBoosterModifierType": {
       "description": "지니게 하면 {{stat}} 종족치를 10% 올려준다. 개체값이 높을수록 더 많이 누적시킬 수 있다."
     },
-    "PokemonBaseStatTotalModifierType": {
-      "name": "단단지주스",
-      "description": "모든 종족치를 {{statValue}}만큼 {{increaseDecrease}}. 단단지의 {{blessCurse}}[[를]] 받았다.",
-      "extra": {
-        "increase": "올려준다",
-        "decrease": "떨어뜨린다",
-        "blessed": "축복",
-        "cursed": "저주"
-      }
-    },
     "PokemonBaseStatFlatModifierType": {
       "name": "숲의양갱",
       "description": "{{stats}} 종족치를 {{statValue}}만큼 올려준다. 이상한 꿈을 꾸고 얻었다."
@@ -428,9 +418,6 @@
       "name": "합체 토큰",
       "description": "야생 포켓몬이 합체되어 등장할 확률이 1% 추가된다."
     },
-    "MYSTERY_ENCOUNTER_SHUCKLE_JUICE": {
-      "name": "단단지주스"
-    },
     "MYSTERY_ENCOUNTER_BLACK_SLUDGE": {
       "name": "검은진흙",
       "description": "악취가 너무 심한 나머지 상점 물건 가격이 크게 비싸진다."
@@ -440,8 +427,7 @@
       "description": "포켓몬을 쓰러뜨리면 교정깁스 스택을 얻는다. 스택이 올라갈수록 능력치가 약간 올라가고, 최대 스택에서 추가 보너스를 얻는다."
     },
     "MYSTERY_ENCOUNTER_OLD_GATEAU": {
-      "name": "숲의양갱",
-      "description": "{{stats}} 종족치를 {{statValue}}만큼 올려준다."
+      "name": "숲의양갱"
     },
     "MYSTERY_ENCOUNTER_GOLDEN_BUG_NET": {
       "name": "황금잠자리채",
