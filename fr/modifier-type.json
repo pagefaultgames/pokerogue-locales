@@ -68,16 +68,6 @@
     "BaseStatBoosterModifierType": {
       "description": "Augmente de 10% {{stat}} de base de son porteur. Plus les IV sont hauts, plus il peut en porter."
     },
-    "PokemonBaseStatTotalModifierType": {
-      "name": "Jus de Caratroc",
-      "description": "{{increaseDecrease}} toutes les stats de son porteur de {{statValue}} cran. Caratroc vous a {{blessCurse}}.",
-      "extra": {
-        "increase": "Augmente",
-        "decrease": "Baisse",
-        "blessed": "accordé sa bénédiction",
-        "cursed": "jeté une malédiction"
-      }
-    },
     "PokemonBaseStatFlatModifierType": {
       "name": "Vieux Gâteau",
       "description": "Augmente de {{statValue}} {{stats}} de base du porteur. Trouvé après un étrange rêve."
@@ -436,9 +426,6 @@
       "name": "Jeton Fusion",
       "description": "Ajoute 1% de chances qu’un Pokémon sauvage soit une fusion."
     },
-    "MYSTERY_ENCOUNTER_SHUCKLE_JUICE": {
-      "name": "Jus de Caratroc"
-    },
     "MYSTERY_ENCOUNTER_BLACK_SLUDGE": {
       "name": "Boue Noire",
       "description": "Sa puanteur est telle que la boutique ne vous vendra que des objets aux prix fortement augmentés."
@@ -448,8 +435,7 @@
       "description": "Battre un Pokémon donne au porteur un lot de cet objet. Chacun augmente un peu les stats. Bonus au max de lots."
     },
     "MYSTERY_ENCOUNTER_OLD_GATEAU": {
-      "name": "Vieux Gâteau",
-      "description": "Augmente de {{statValue}} {{stats}} de base du porteur."
+      "name": "Vieux Gâteau"
     },
     "MYSTERY_ENCOUNTER_GOLDEN_BUG_NET": {
       "name": "Filet Doré",

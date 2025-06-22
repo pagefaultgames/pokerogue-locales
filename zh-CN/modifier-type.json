@@ -68,16 +68,6 @@
     "BaseStatBoosterModifierType": {
       "description": "增加10%持有者的{{stat}}，\n个体值越高堆叠上限越高。"
     },
-    "PokemonBaseStatTotalModifierType": {
-      "name": "壶壶果汁",
-      "description": "{{increaseDecrease}}持有者的所有基础属性{{statValue}}。你被壶壶{{blessCurse}}了。",
-      "extra": {
-        "increase": "提升",
-        "decrease": "降低",
-        "blessed": "强化",
-        "cursed": "诅咒"
-      }
-    },
     "PokemonBaseStatFlatModifierType": {
       "name": "森之羊羹",
       "description": "增加持有者{{stats}}的基础属性{{statValue}}，来自于一场怪梦。"
@@ -428,9 +418,6 @@
       "name": "融合硬币",
       "description": "增加1%野生融合宝可梦出现概率。"
     },
-    "MYSTERY_ENCOUNTER_SHUCKLE_JUICE": {
-      "name": "壶壶果汁"
-    },
     "MYSTERY_ENCOUNTER_BLACK_SLUDGE": {
       "name": "黑色污泥",
       "description": "由于恶臭扑鼻，商店会以非常高昂的价格向您出售商品。"
@@ -440,8 +427,7 @@
       "description": "击败对手后获得一层锻炼等级。每层会略微提升属性，\n达到最大层数时还会获得额外奖励。"
     },
     "MYSTERY_ENCOUNTER_OLD_GATEAU": {
-      "name": "森之羊羔",
-      "description": "提升持有者的{{stats}}的{{statValue}}。"
+      "name": "森之羊羔"
     },
     "MYSTERY_ENCOUNTER_GOLDEN_BUG_NET": {
       "name": "金捕虫网",

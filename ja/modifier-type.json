@@ -68,16 +68,6 @@
     "BaseStatBoosterModifierType": {
       "description": "ポケモン １匹の {{stat}}の 基礎ポイントを 10% あげる。個体値が 高けば高いほど、 飲める 限界が 上がる。"
     },
-    "PokemonBaseStatTotalModifierType": {
-      "name": "ツボツボジュース",
-      "description": "持たせると 基本能力が {{statValue}} {{increaseDecrease}}。ツボツボに {{blessCurse}}。",
-      "extra": {
-        "increase": "上がる",
-        "decrease": "下がる",
-        "blessed": "恵まれた",
-        "cursed": "呪われた"
-      }
-    },
     "PokemonBaseStatFlatModifierType": {
       "name": "もりのヨウカン",
       "description": "持たせると 基本能力が {{statValue}} 上がる。 謎の 夢の あとに 見つけた お菓子。"
@@ -428,9 +418,6 @@
       "name": "がったいトークン",
       "description": "野生ポケモンは 吸収合体している 1%の可能性を 加える"
     },
-    "MYSTERY_ENCOUNTER_SHUCKLE_JUICE": {
-      "name": "ツボツボジュース"
-    },
     "MYSTERY_ENCOUNTER_BLACK_SLUDGE": {
       "name": "くろいヘドロ",
       "description": "ムゴい 悪臭を放つから ショップが アイテムの 価格を ぐんと 上げる"
@@ -440,8 +427,7 @@
       "description": "持たせると 相手を 倒すとき もう1つの ギプスを もらう。 ギプス当たり 能力が 少し 上がる。 最多で さらに 上がる。"
     },
     "MYSTERY_ENCOUNTER_OLD_GATEAU": {
-      "name": "もりのヨウカン",
-      "description": "持たせると 基本能力が {{statValue}} 上がる"
+      "name": "もりのヨウカン"
     },
     "MYSTERY_ENCOUNTER_GOLDEN_BUG_NET": {
       "name": "きんのむしとりあみ",
