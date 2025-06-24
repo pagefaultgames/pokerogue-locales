@@ -68,16 +68,6 @@
     "BaseStatBoosterModifierType": {
       "description": "Aumenta l’/la {{stat}} di base del possessore del 10%."
     },
-    "PokemonBaseStatTotalModifierType": {
-      "name": "Succo Shuckle",
-      "description": "{{increaseDecrease}} tutte le statistiche del possessore di {{statValue}}. Shuckle ti ha {{blessCurse}}.",
-      "extra": {
-        "increase": "Aumenta",
-        "decrease": "Diminuisce",
-        "blessed": "benedetto/a",
-        "cursed": "maledetto/a"
-      }
-    },
     "PokemonBaseStatFlatModifierType": {
       "name": "Dolce Gateau",
       "description": "Aumenta le statistiche {{stats}} del possessore di {{statValue}}. Trovato dopo uno strano sogno."
@@ -366,6 +356,12 @@
       "name": "Tesori",
       "description": "Questo Pokémon adora i tesori! Continua a collezionare i tesori e potrebbe accadere qualcosa!"
     },
+    "EVOLUTION_TRACKER_PRIMEAPE": {
+      "name": "Pugno Furibondo"
+    },
+    "EVOLUTION_TRACKER_STANTLER": {
+      "name": "Barrierassalto"
+    },
     "BATON": {
       "name": "Staffetta",
       "description": "Permette di trasmettere gli effetti quando si cambia Pokémon, aggirando anche le trappole."
@@ -428,9 +424,6 @@
       "name": "Gettone della fusione",
       "description": "Aggiunge l’1% di possibilità che un Pokémon selvatico sia una fusione."
     },
-    "MYSTERY_ENCOUNTER_SHUCKLE_JUICE": {
-      "name": "Succo Shuckle"
-    },
     "MYSTERY_ENCOUNTER_BLACK_SLUDGE": {
       "name": "Fangopece",
       "description": "L’odore è talmente sgradevole che i prezzi dei negozi aumentano drasticamente."
@@ -440,8 +433,7 @@
       "description": "Sconfiggere un Pokémon aumenta di 1 il punteggio Crescicappa. Maggiore il punteggio, maggiore l’aumento alle statistiche, con un ulteriore bonus al massimo."
     },
     "MYSTERY_ENCOUNTER_OLD_GATEAU": {
-      "name": "Dolce Gateau",
-      "description": "Aumenta le statistiche {{stats}} del possessore di {{statValue}}."
+      "name": "Dolce Gateau"
     },
     "MYSTERY_ENCOUNTER_GOLDEN_BUG_NET": {
       "name": "Retino Dorato",

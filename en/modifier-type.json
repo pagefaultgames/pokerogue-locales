@@ -68,16 +68,6 @@
     "BaseStatBoosterModifierType": {
       "description": "Increases the holder’s base {{stat}} by 10%. The higher your IVs, the higher the stack limit."
     },
-    "PokemonBaseStatTotalModifierType": {
-      "name": "Shuckle Juice",
-      "description": "{{increaseDecrease}} all of the holder’s base stats by {{statValue}}. You were {{blessCurse}} by the Shuckle.",
-      "extra": {
-        "increase": "Increases",
-        "decrease": "Decreases",
-        "blessed": "blessed",
-        "cursed": "cursed"
-      }
-    },
     "PokemonBaseStatFlatModifierType": {
       "name": "Old Gateau",
       "description": "Increases the holder’s {{stats}} base stats by {{statValue}}. Found after a strange dream."
@@ -243,6 +233,14 @@
     "MYSTICAL_ROCK": { "name": "Mystical Rock", "description": "Extends the duration of terrain and weather caused by the holder’s moves or Abilities by 2 turns." },
 
     "EVOLUTION_TRACKER_GIMMIGHOUL": { "name": "Treasures", "description": "This Pokémon loves treasure! Keep collecting treasure and something might happen!"},
+    "EVOLUTION_TRACKER_PRIMEAPE": {
+      "name": "Rage Fist",
+      "description": "Primeape evolves when its rage surpasses the limits of its physical form!\nBuild up its rage by using the move Rage Fist!"
+    },
+    "EVOLUTION_TRACKER_STANTLER": {
+      "name": "Psyshield Bash",
+      "description": "Stantler evolves to adapt to harsh environments. Toughen up its defense by using the move Psyshield Bash!"
+    },
 
     "BATON": { "name": "Baton", "description": "Allows passing along effects when switching Pokémon, which also bypasses traps." },
 
@@ -268,10 +266,11 @@
     "ENEMY_ENDURE_CHANCE": { "name": "Endure Token" },
     "ENEMY_FUSED_CHANCE": { "name": "Fusion Token", "description": "Adds a 1% chance that a wild Pokémon will be a fusion." },
 
-    "MYSTERY_ENCOUNTER_SHUCKLE_JUICE": { "name": "Shuckle Juice" },
+    "MYSTERY_ENCOUNTER_SHUCKLE_JUICE_GOOD": { "name": "Sweet Shuckle Juice", "description": "Increases all of the holder’s base stats. You were blessed by the Shuckle." },
+    "MYSTERY_ENCOUNTER_SHUCKLE_JUICE_BAD": { "name": "Sour Shuckle Juice", "description": "Decreases all of the holder’s base stats. You were cursed by the Shuckle."  },
     "MYSTERY_ENCOUNTER_BLACK_SLUDGE": { "name": "Black Sludge", "description": "The stench is so powerful that shops will only sell you items at a steep cost increase." },
     "MYSTERY_ENCOUNTER_MACHO_BRACE": { "name": "Macho Brace", "description": "Defeating a Pokémon grants the holder a stack of it. Each stack boosts stats a bit. Bonus at max stacks." },
-    "MYSTERY_ENCOUNTER_OLD_GATEAU": { "name": "Old Gateau", "description": "Increases the holder’s {{stats}} stats by {{statValue}}." },
+    "MYSTERY_ENCOUNTER_OLD_GATEAU": { "name": "Old Gateau", "description": "Increases some of the holder’s stats." },
     "MYSTERY_ENCOUNTER_GOLDEN_BUG_NET": { "name": "Golden Bug Net", "description": "Imbues the owner with luck to find Bug Type Pokémon more often. Has a strange heft to it." }
   },
   "SpeciesBoosterItem": {
