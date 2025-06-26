@@ -4,8 +4,8 @@
   "intro_dialogue": "Hey! Care for a Sky Battle with a Sky Trainer?",
   "intro_dialogue_f": "Hey! Care for a Sky Battle with a Sky Trainer?",
   "title": "Sky Battle!",
-  "title_f": "Sky Battle!",
   "speaker": "Sky Trainer",
+  "speaker_f": "Sky Trainer",
   "description": "The Trainer is waiting for a response…\nIn this battle, only pokémon able to stay above the ground can battle. Moves that require surronding water or ground are disabled\nShow them your superior Flying Pokémon!",
   "description_f": "The Trainer is waiting for a response…\nIn this battle, only pokémon able to stay above the ground can battle. Moves that require surronding water or ground are disabled\nShow them your superior Flying Pokémon!",
   "query": "What will you do?",
@@ -13,24 +13,28 @@
     "1": {
       "label": "Accept the Battle",
       "tooltip": "(-) Hard or Tough Battle\n(+) Move Rewards\nIneligeble moves are set to 0 PP. Restored after Battle.",
-      "selected": "Let’s Fly!"
+      "selected": "Let’s Fly!",
+      "selected_f": "Let’s Fly!"
     },
     "2": {
       "label": "Flaunt Your Flying Pokémon",
       "tooltip": "(+) Receive a Gift Item",
       "disabled_tooltip": "You need at least 3 Flying Pokémon on your team to select this.",
-      "selected": "You proudly send out all your Flying Pokémon…$The Trainer is impressed, but disappointed you didn’t just battle them."
+      "selected": "You proudly send out all your Flying Pokémon…$The Trainer is impressed, but disappointed you didn’t just battle them.",
+      "selected_f": "You proudly send out all your Flying Pokémon…$The Trainer is impressed, but disappointed you didn’t just battle them."
     },
     "3": {
       "label": "Leave battle",
       "tooltip": "(-) No Rewards",
-      "selected": "Guess you chicken’d out, huh? You must fly as much as an ostrich."
+      "selected": "Guess you chicken’d out, huh? You must fly as much as an ostrich.",
+      "selected_f": "Guess you chicken’d out, huh? You must fly as much as an ostrich."
      }
   },
   "battle_won": "Well, this is a bit disappointing for a Sky Trainer like me…\nYou’re no penguin!$In exchange for the valuable lesson,\nallow me to teach one of your Pokémon a Flying-type move!",
   "battle_won_f": "Well, this is a bit disappointing for a Sky Trainer like me…\nYou’re no penguin!$In exchange for the valuable lesson,\nallow me to teach one of your Pokémon a Flying-type move!",
   "teach_move_prompt": "Select a move to teach a Pokémon.",
   "confirm_no_teach": "You sure you don’t want to learn one of these great moves?",
+  "confirm_no_teach_f": "You sure you don’t want to learn one of these great moves?",
   "outro": "May we meet again, high in the sky!",
   "outro_f": "May we meet again, high in the sky!"
 }
