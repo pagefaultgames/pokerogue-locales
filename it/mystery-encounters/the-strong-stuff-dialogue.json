@@ -1,3 +1,21 @@
 {
-  "query": "Che cosa farai?"
+  "intro": "C’è un enorme {{shuckleName}} e quella che sembra\nessere un’enorme scorta di… succo?",
+  "title": "La Roba Forte",
+  "description": "Lo {{shuckleName}} che ti blocca la strada ha un aspetto formidabile. Anche il succo vicino a lui emana un qualche tipo di potere.\n\nLo {{shuckleName}} allunga i suoi tentacoli verso di te. Sembra che voglia fare qualcosa…",
+  "query": "Che cosa farai?",
+  "option": {
+    "1": {
+      "label": "Avvicinati a {{shuckleName}}",
+      "tooltip": "(?) Potrebbe accadere qualcosa di meraviglioso o di terribile",
+      "selected": "Perdi conoscenza.",
+      "selected_2": "@f{150}Quando ti risvegli, lo {{shuckleName}} è sparito\ne la scorta di succo completamente finita.${{highBstPokemon1}} e {{highBstPokemon2}}\nsono vittima di un forte torpore!$Le loro statistiche base sono state ridotte del {{reductionValue}}!$Gli altri tuoi Pokémon, però, sono pervasi da una forza incredibile!\nLe loro statistiche base sono aumentate di {{increaseValue}}!"
+    },
+    "2": {
+      "label": "Affronta {{shuckleName}}",
+      "tooltip": "(-) Combattimento difficile\n(+) Ricompense speciali",
+      "selected": "Infuriato, lo {{shuckleName}} beve un po’ del suo succo e attacca!",
+      "stat_boost": "Il succo dello {{shuckleName}} aumenta le sue statistiche!"
+    }
+  },
+  "outro": "Che strana serie di eventi."
 }
