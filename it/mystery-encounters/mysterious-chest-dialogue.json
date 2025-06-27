@@ -1,1 +1,23 @@
-{}
+{
+  "intro": "Hai trovato…@d{32} un forziere?",
+  "title": "Il Forziere Misterioso",
+  "description": "Un bellissimo forziere decorato intralcia il passaggio. Deve esserci qualcosa di bello dentro… giusto?",
+  "query": "Lo aprirai?",
+  "option": {
+    "1": {
+      "label": "Aprilo",
+      "tooltip": "@[SUMMARY_BLUE]{({{trapPercent}}%) Qualcosa di terribile}\n@[SUMMARY_GREEN]{({{commonPercent}}%) Ricompense Accettabili}\n@[SUMMARY_GREEN]{({{ultraPercent}}%) Ricompense Buone}\n@[SUMMARY_GREEN]{({{roguePercent}}%) Ricompense Ottime}\n@[SUMMARY_GREEN]{({{masterPercent}}%) Ricompense Incredibili}",
+      "selected": "Apri il forziere e trovi…",
+      "normal": "Soltanto alcuni attrezzi e strumenti normali.",
+      "good": "Dei buoni attrezzi e strumenti.",
+      "great": "Un paio di grandi attrezzi e strumenti!",
+      "amazing": "Wow! Uno strumento incredibile!",
+      "bad": "Oh no!@d{32}\nIl forziere in realtà era un {{gimmighoulName}} mascherato!$Il tuo {{pokeName}} si mette davanti a te\nma finisce KO nel farlo!"
+    },
+    "2": {
+      "label": "Troppo rischioso, vai via",
+      "tooltip": "(-) Nessuna Ricompensa",
+      "selected": "Ti affretti per la tua strada,\ncon un leggere senso di rimpianto."
+    }
+  }
+}

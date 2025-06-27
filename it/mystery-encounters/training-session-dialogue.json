@@ -1,23 +1,23 @@
 {
-  "intro": "Ti sei imbattuto in alcuni\nstrumenti e attrezzi di allenamento.",
+  "intro": "Ti sei imbattuto in alcuni attrezzi da allenamento.",
   "title": "Sessione di Allenamento",
-  "description": "Sembra che questi strumenti possano essere utilizzati per allenare un membro della tua squadra! Ci sono diversi modi in cui potresti allenare i tuoi Pokémon, come @[TOOLTIP_TITLE]{lottando e sconfiggendolo con il resto della tua squadra}.",
-  "query": "Come ti vuoi allenare?",
+  "description": "Sembra che questi attrezzi servano per allenare un membro della tua squadra! Ci sono più modi in cui potresti allenare un Pokémon, come @[TOOLTIP_TITLE]{lottando e sconfiggendolo con il resto della tua squadra}.",
+  "query": "Che tipo di allenamento scegli?",
   "invalid_selection": "Questo Pokémon non può lottare!",
   "option": {
     "1": {
-      "label": "Allenamento Facile",
+      "label": "Facile",
       "tooltip": "(-) Combattimento facile contro il Pokémon scelto\n(+) Migliora permanentemente 2 IV casuali del Pokémon scelto",
       "finished": "{{selectedPokemon}} torna da te, sentendosi\nesausto ma realizzato!$Le sue IV in {{stat1}} e {{stat2}} sono migliorate!"
     },
     "2": {
-      "label": "Allenamento Intermedio",
+      "label": "Intermedio",
       "tooltip": "(-) Combattimento intermedio contro il Pokémon scelto\n(+) Cambia permanentemente la natura del Pokémon scelto",
       "select_prompt": "Seleziona una nuova natura\nper cui vuoi allenare il tuo Pokémon.",
       "finished": "{{selectedPokemon}} torna da te, sentendosi\nesausto ma realizzato!$La sua natura è stata cambiata in {{nature}}!"
     },
     "3": {
-      "label": "Allenamento Pesante",
+      "label": "Pesante",
       "tooltip": "(-) Combattimento difficile contro il Pokémon scelto\n(+) Cambia permanentemente l’abilità del Pokémon scelto",
       "select_prompt": "Seleziona la nuova abilità\nche vuoi che il tuo Pokémon ottenga.",
       "finished": "{{selectedPokemon}} torna da te, sentendosi\nesausto ma realizzato!$La sua abilità è stata cambiata in {{ability}}!"

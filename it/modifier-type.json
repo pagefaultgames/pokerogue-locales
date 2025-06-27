@@ -68,16 +68,6 @@
     "BaseStatBoosterModifierType": {
       "description": "Aumenta l’/la {{stat}} di base del possessore del 10%."
     },
-    "PokemonBaseStatTotalModifierType": {
-      "name": "Succo Shuckle",
-      "description": "{{increaseDecrease}} tutte le statistiche del possessore di {{statValue}}. Shuckle ti ha {{blessCurse}}.",
-      "extra": {
-        "increase": "Aumenta",
-        "decrease": "Diminuisce",
-        "blessed": "benedetto/a",
-        "cursed": "maledetto/a"
-      }
-    },
     "PokemonBaseStatFlatModifierType": {
       "name": "Dolce Gateau",
       "description": "Aumenta le statistiche {{stats}} del possessore di {{statValue}}. Trovato dopo uno strano sogno."
@@ -366,6 +356,14 @@
       "name": "Tesori",
       "description": "Questo Pokémon adora i tesori! Continua a collezionare i tesori e potrebbe accadere qualcosa!"
     },
+    "EVOLUTION_TRACKER_PRIMEAPE": {
+      "name": "Pugno Furibondo",
+      "description": "Primeape si evolve quando la sua furia oltrepassa i suoi limiti fisici!\nAccumula questa furia utilizzando la mossa Pugno Furibondo!"
+    },
+    "EVOLUTION_TRACKER_STANTLER": {
+      "name": "Barrierassalto",
+      "description": "Stantler si evolve per adattarsi a condizioni ambientali rigide. Rinforza la sua difesa utilizzando la mossa Barrierassalto!"
+    },
     "BATON": {
       "name": "Staffetta",
       "description": "Permette di trasmettere gli effetti quando si cambia Pokémon, aggirando anche le trappole."
@@ -428,8 +426,13 @@
       "name": "Gettone della fusione",
       "description": "Aggiunge l’1% di possibilità che un Pokémon selvatico sia una fusione."
     },
-    "MYSTERY_ENCOUNTER_SHUCKLE_JUICE": {
-      "name": "Succo Shuckle"
+    "MYSTERY_ENCOUNTER_SHUCKLE_JUICE_GOOD": {
+      "name": "Succo di Shuckle Dolce",
+      "description": "Aumenta tutte le statistiche base di chi lo tiene. Sei stato benedetto da Shuckle."
+    },
+    "MYSTERY_ENCOUNTER_SHUCKLE_JUICE_BAD": {
+      "name": "Succo di Shuckle Amaro",
+      "description": "Diminuisce tutte le statistiche base di chi lo tiene. Sei stato maledetto da Shuckle."
     },
     "MYSTERY_ENCOUNTER_BLACK_SLUDGE": {
       "name": "Fangopece",
@@ -441,7 +444,7 @@
     },
     "MYSTERY_ENCOUNTER_OLD_GATEAU": {
       "name": "Dolce Gateau",
-      "description": "Aumenta le statistiche {{stats}} del possessore di {{statValue}}."
+      "description": "Aumenta alcune statistiche di chi lo tiene."
     },
     "MYSTERY_ENCOUNTER_GOLDEN_BUG_NET": {
       "name": "Retino Dorato",

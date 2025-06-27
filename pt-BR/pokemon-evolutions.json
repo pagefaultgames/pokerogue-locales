@@ -1,21 +1,20 @@
 {
-  "level": "No Nv.",
-  "using": "Usando ",
+  "atLevel": "No Nível {{lv}}",
+  "levelUp": "Subir de nível",
+  "using": "Use {{item}} ({{tier}})",
   "GREAT": "Super",
   "ULTRA": "Ultra",
-  "gender": "Caso {{gender}}",
-  "MALE": "Macho",
-  "FEMALE": "Fêmea",
   "connector": ", ",
-  "timeOfDay": "De (ao) {{tod}}",
-  "day": "Dia ou Amanhecer",
-  "night": "Noite ou Anoitecer",
+  "gender": "(somente {{gender}})",
+  "timeOfDay": {
+    "DAY": "Durante Dia ou Amanhecer",
+    "DUSK": "Durante o Crepúsculo",
+    "NIGHT": "Durante Noite ou Crepúsculo",
+    "DAWN": "Durante o Amanhecer"
+  },
   "move": "Sabendo o movimento {{move}}",
   "moveType": "Sabendo um movimento do tipo {{type}}",
   "friendship": "Tendo amizade alta",
-  "friendshipTimeOfDay": "De (ao) {{tod}}, tendo amizade alta",
-  "friendshipMoveType": "Sabendo um movimento do tipo {{type}}, tendo amizade alta",
-  "moveTimeOfDay": "De (ao) {{tod}}, sabendo o movimento {{move}}",
   "shedinja": "Se tiver um espaço vazio na equipe",
   "partyType": "Se um Pokémon do tipo {{type}} estiver na equipe",
   "caught": "Se {{species}} já foi capturado",
@@ -23,6 +22,10 @@
   "treasure": "Após reunir tesouros suficientes",
   "nature": "Ser de uma natureza específica",
   "biome": "Em um determinado bioma",
+  "heldItem": {
+    "DEEP_SEA_TOOTH": "Enquanto segura Dente Marinho",
+    "DEEP_SEA_SCALE": "Enquanto segura Escama Marinha"
+  },
   "Forms": {
     "ability": "Devido à sua habilidade",
     "item": "Ativando {{item}}",

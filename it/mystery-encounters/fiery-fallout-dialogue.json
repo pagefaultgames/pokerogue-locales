@@ -1,3 +1,26 @@
 {
-  "query": "Che cosa farai?"
+  "intro": "Ti imbatti in una rovente tempesta di fumo e cenere!",
+  "title": "Passione Ardente",
+  "description": "La cenere vorticosa e le braci hanno praticamente ridotto la visibilità a zero. Sembra che ci possa essere… una fonte che causa queste condizioni. Ma cosa potrebbe esserci dietro a un fenomeno di questa portata?",
+  "query": "Che cosa farai?",
+  "option": {
+    "1": {
+      "label": "Trova la Fonte",
+      "tooltip": "(?) Scopri la fonte\n(-) Combattimento difficile\n(+) Ottieni uno strumento da tenere",
+      "selected": "Ti spingi attraverso la tempesta, e trovi due {{volcaronaName}} nel mezzo di una danza di accoppiamento!$Non gradiscono per niente la tua interruzione e ti attaccano!"
+    },
+    "2": {
+      "label": "Accovacciati",
+      "tooltip": "(-) Subisti gli effetti del meteo\n(?) Influenza l'abilità di un Pokémon",
+      "selected": "Gli effetti del meteo causano danni\nsignificativi mentre fatichi a trovare riparo!$La tua squadra perde il 20% degli HP totali!",
+      "target_burned": "Il tuo {{burnedPokemon}} è anche stato scottato!$In ogni caso, resistere a queste rigide condizioni ha cambiato l’abilità di {{burnedPokemon}} in {{abilityName}}!"
+    },
+    "3": {
+      "label": "I tuoi Pokémon resistenti al Fuoco aiutano",
+      "tooltip": "(+) Ferma le condizioni metereologiche\n(+) Ottieni uno strumento da tenere",
+      "disabled_tooltip": "Hai bisogno di un Pokémon di tipo Fuoco o una certa abilità Pokémon per selezionare questa opzione.",
+      "selected": "Il tuo {{option3PrimaryName}} ti guida verso dove i due {{volcaronaName}} sono in piena danza di accoppiamento!$Fortunatamente, i tuoi Pokémon sono in grado di calmarli,\ne si allontanano senza problemi."
+    }
+  },
+  "found_item": "Dopo che il meteo si è calmato, il tuo {{leadPokemon}} nota qualcosa per terra..$@s{item_fanfare}{{leadPokemon}} ha ottenuto {{itemName}}!"
 }
