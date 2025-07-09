@@ -1,12 +1,12 @@
 {
   "ModifierType": {
     "AddPokeballModifierType": {
-      "name": "{{modifierCount}}x {{pokeballName}}",
-      "description": "Ricevi {{pokeballName}} x{{modifierCount}} (Inventario: {{pokeballAmount}}) \nTasso di cattura: {{catchRate}}."
+      "name": "{{modifierCount}}× {{pokeballName}}",
+      "description": "Ricevi {{pokeballName}} ×{{modifierCount}} (Inventario: {{pokeballAmount}}) \nTasso di cattura: {{catchRate}}."
     },
     "AddVoucherModifierType": {
-      "name": "{{modifierCount}}x {{voucherTypeName}}.",
-      "description": "Ricevi {{voucherTypeName}} x{{modifierCount}}."
+      "name": "{{modifierCount}}× {{voucherTypeName}}.",
+      "description": "Ricevi {{voucherTypeName}} ×{{modifierCount}}."
     },
     "PokemonHeldItemModifierType": {
       "extra": {
@@ -431,7 +431,6 @@
       "description": "Aumenta tutte le statistiche base di chi lo tiene. Sei stato benedetto da Shuckle."
     },
     "MYSTERY_ENCOUNTER_SHUCKLE_JUICE_BAD": {
-      "name": "Succo di Shuckle Amaro",
       "description": "Diminuisce tutte le statistiche base di chi lo tiene. Sei stato maledetto da Shuckle."
     },
     "MYSTERY_ENCOUNTER_BLACK_SLUDGE": {
