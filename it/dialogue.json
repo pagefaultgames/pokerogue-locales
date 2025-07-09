@@ -1,7 +1,40 @@
 {
+  "youngster": {
+    "encounter": {
+      "1": "Hey, vuoi combattere?",
+      "2": "Sei anche tu un nuovo allenatore?",
+      "2_female": "Sei anche tu una nuova allenatrice?",
+      "3": "Hey, non ti ho mai visto prima! Lottiamo!",
+      "4": "Ho appena perso, così sto provando a catturare più Pokémon.\nAspetta! Tu sembri scarso! Forza, lottiamo!",
+      "4_female": "Ho appena perso, così sto provando a catturare più Pokémon.\nAspetta! Tu sembri scarsa! Forza, lottiamo!",
+      "5": "Ci siamo già incontrati oppure no? Davvero non ricordo. Beh, in ogni caso piacere di conoscerti!",
+      "6": "Tutto pronto! Si comincia!",
+      "7": "Tutto pronto! Eccomi! Ti mostrerò la mia potenza!",
+      "8": "BEH BEH BEH… Ti mostrerò quanto sono BEHlli i miei Pokémon!",
+      "9": "Non serve sprecare tempo salutando. Combattiamo quanto sei pronto!",
+      "9_female": "Non serve sprecare tempo salutando. Combattiamo quanto sei pronta!",
+      "10": "Non abbassare la guardia, o potresti piangere quando un bambino ti avrà battuto.",
+      "11": "Ho allenato i miei Pokémon con grande cura. Non ti è permesso ferirli!",
+      "12": "Sono felice che tu ce l’abbia fatta! Da qui in poi non sarà facile.",
+      "12_female": "Sono felice che tu ce l’abbia fatta! Da qui in poi non sarà facile.",
+      "13": "I combattimenti continuano all’infinito! Benvenuto nel mondo senza fine!",
+      "13_female": "I combattimenti continuano all’infinito! Benvenuta nel mondo senza fine!"
+    },
+    "victory": {
+      "1": "Wow! Sei forte!",
+      "1_female": "Wow! Sei forte!",
+      "2": "Non avevo nemmeno una possibilità, eh?",
+      "3": "Ti ritroverò di nuovo quando sarò più vecchio e ti sconfiggerò!",
+      "4": "Argh. Non ho più Pokémon.",
+      "5": "Impossibile… IMPOSSIBILE! Come ho potuto perdere ancora…",
+      "5_female": "Impossibile… IMPOSSIBILE! Come ho potuto perdere ancora…",
+      "6": "No! Ho perso!",
+      "7": "Wow! Sei incredibile! Resto di stucco!"
+    }
+  },
   "snow_worker": {
-   "encounter": {
-     "1": "Col freddo ci vogliono vestiti pesanti!$Questa è saggezza! Viva l’intelletto!"
+    "encounter": {
+      "1": "Col freddo ci vogliono vestiti pesanti!$Questa è saggezza! Viva l’intelletto!"
     },
     "victory": {
       "1": "Agitarsi quando è troppo tardi è inutile.\nAnche questa è saggezza."
@@ -19,6 +52,60 @@
     },
     "defeat": {
       "1": "…$Sai che-che…\nQui fa-fa freddo?"
+    }
+  },
+  "rival": {
+    "encounter": {
+      "1": "@c{smile}Hey, eccoti! Sapevo che eri impaziente di metterti in marcia ma mi aspettavo almeno un saluto…\n$@c{smile_eclosed}Quindi alla fine stai davvero inseguendo il tuo sogno? Quasi non riesco a crederci.$@c{serious_smile_fists}Già che ci siamo, che ne dici di una lotta?\nDopo tutto, voglio accertarmi che tu sia pronta.$@c{serious_mopen_fists}Non ti trattenere, voglio che tu faccia del tuo meglio!"
+    },
+    "victory": {
+      "1": "@c{shock}Wow… Mi hai stracciato.\nSei sicura di essere una novellina?$@c{smile}Forse si è trattata di fortuna ma… Chi lo sa, potresti anche arrivare fino in fondo.$Comunque, il professore mi ha chiesto di darti questi strumenti. Sembrano molto interessanti.$@c{serious_smile_fists}Buona fortuna là fuori!"
+    }
+  },
+  "rival_female": {
+    "encounter": {
+      "1": "@c{smile_wave}Eccoti! Ti ho cercato ovunque!\n@c{angry_mopen}Ti sei dimenticato di salutare la tua migliore amica?$@c{smile_ehalf}Stai inseguendo il tuo sogno, eh?\nQuel giorno è davvero arrivato…$@c{smile}Comunque, ti perdonerò per esserti scordato di me, ma a una condizione. @c{smile_wave_wink}Devi lottare con me!$@c{angry_mopen}Fai del tuo meglio! Non vorrai che la tua avventura finisca prima ancora di essere iniziata, giusto?"
+    },
+    "victory": {
+      "1": "@c{shock}Hai appena iniziato e sei già così forte?!@d{96}\n@c{angry}Hai barato, non è vero?$@c{smile_wave_wink}Scherzo!@d{64} @c{smile_eclosed}Ho perso secondo le regole… Ho la sensazione che farai grandi cose là fuori.$@c{smile}Comunque, il professore voleva che ti dessi alcuni strumenti. Spero ti siano utili!$@c{smile_wave}Fai del tuo meglio come sempre! Credo in te!"
+    }
+  },
+  "rival_2": {
+    "encounter": {
+      "1": "@c{smile}Hey, anche tu qui?\n@c{smile_eclosed}Ancora imbattuto, eh…?$@c{serious_mopen_fists}So che sembra che io ti abbia seguito fin qui, ma non è del tutto vero.$@c{serious_smile_fists}A essere onesto però stavo smaniando per una rivincita da quando mi hai battuto.$Mi sono allenato molto per conto mio quindi questa volta ti darò del filo da torcere.$@c{serious_mopen_fists}E come la scorsa volta, non trattenerti!\nSi comincia!"
+    },
+    "victory": {
+      "1": "@c{neutral_eclosed}Oh. Immagino di essere stato troppo sicuro di me.$@c{smile}Va bene, però. Immaginavo che potesse succedere.\n@c{serious_mopen_fists}Significa solo che dovrò fare meglio la prossima volta!$@c{smile}Oh, non che ti serva davvero aiuto, ma ho una copia extra di questi strumenti con me e ho pensato che li potessi volere tu.$@c{serious_smile_fists}Non aspettartene altri, però!\nNon posso continuare a dare un vantaggio al mio avversario, dopo tutto."
+    }
+  },
+  "rival_2_female": {
+    "encounter": {
+      "1": "@c{smile_wave}Oh, carino incontrarti qui. Sembra che tu sia ancora imbattuto. @c{angry_mopen}Oh… Non male!$@c{angry_mopen}So cosa stai pensando, e no, non ti stavo seguendo. @c{smile_eclosed}Sono solo capitata da queste parti.$@c{smile_ehalf}Sono felice per te ma volevo solo farti sapere che ogni tanto perdere è normale.$@c{smile}Noi impariamo dai nostri errori, spesso più che dai nostri successi.$@c{angry_mopen}In ogni caso, mi sono allenata molto per questa rivincita, quindi ti conviene dare il massimo!"
+    },
+    "victory": {
+      "1": "@c{neutral}Io… non dovevo perdere questa volta…$@c{smile}Ah, beh. Significa solo che mi dovrò allenare ancora di più per la prossima sfida!$@c{smile_wave}Ti ho anche preso altri due di questi!\n@c{smile_wave_wink}Non c’è bisogno di ringraziarmi~.$@c{angry_mopen}Però questa è l’ultima volta! Non avrai più niente in regalo da me dopo!"
+    },
+    "defeat": {
+      "1": "Perdere ogni tanto è normale…"
+    }
+  },
+  "rival_3": {
+    "encounter": {
+      "1": "@c{smile}Hey, guarda chi c’è! Non ci si vede da un po’.\n@c{neutral}Sei… ancora imbattuta? Ah.$@c{neutral_eclosed}Le cose sono state un po’… strane.\nNon è la stessa cosa a casa senza di te.$@c{serious}So che è da egoisti, ma devo togliermi questo peso.\n@c{neutral_eclosed}Penso che tu ti sia spinta troppo oltre.$@c{serious}Non perdere nemmeno una volta è semplicemente irrealistico.\nAbbiamo bisogno di perdere ogni tanto per poter crescere.$@c{neutral_eclosed}Tu hai fatto molta strada ma ce n’è ancora tanta, e diventa sempre più difficile. @c{neutral}Sei pronta per tutto questo?$@c{serious_mopen_fists}Se sì, dimostramelo."
+    },
+    "victory": {
+      "1": "@c{angry_mhalf}È ridicolo… Praticamente non ho mai smesso di allenarmi…\nCom’è possibile che ci sia ancora questo divario tra noi?"
+    }
+  },
+  "rival_3_female": {
+    "encounter": {
+      "1": "@c{smile_wave}Da quanto tempo! Ah, sei ancora imbattuto.\n@c{angry}Inizi a darmi sui nervi. @c{smile_wave_wink}Scherzo!$@c{smile_ehalf}Ma seriamente, a questo punto non ti manca casa? O… io?\nIo… Voglio dire, ci sei mancato tanto.$@c{smile_eclosed}Io supporto il tuo sogno e le tue ambizioni, ma la verità è che perderai prima o poi.$@c{smile}E quando succederà, io ci sarò per te, come al solito.\n@c{angry_mopen}Ora, lascia che ti mostri quanto sono diventata forte!"
+    },
+    "victory": {
+      "1": "@c{shock}Dopo tutto questo… non è stato abbastanza…?\nNon tornerai mai indietro di questo passo…"
+    },
+    "defeat": {
+      "1": "Hai fatto del tuo meglio, ora torniamo a casa."
     }
   }
 }

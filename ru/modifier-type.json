@@ -1,5 +1,32 @@
 {
   "ModifierType": {
+    "AddPokeballModifierType": {
+      "name": "×{{modifierCount}} {{pokeballName}}ов",
+      "description": "Получить ×{{modifierCount}} {{pokeballName}}ов (В инвентаре: {{pokeballAmount}})\nШанс поимки: {{catchRate}}"
+    },
+    "AddVoucherModifierType": {
+      "name": "×{{modifierCount}} {{voucherTypeName}}",
+      "description": "Получить ×{{modifierCount}} {{voucherTypeName}}"
+    },
+    "PokemonHeldItemModifierType": {
+      "extra": {
+        "inoperable": "{{pokemonName}} не может взять\nэтот предмет!",
+        "tooMany": "{{pokemonName}} не может взять\nбольше этого предмета!"
+      }
+    },
+    "PokemonHpRestoreModifierType": {
+      "description": "В зависимости от того, что больше, исцеляет {{restorePoints}} ОЖ или {{restorePercent}}% ОЖ одного Покемона.",
+      "extra": {
+        "fully": "Полностью исцеляет ОЖ одного Покемона.",
+        "fullyWithStatus": "Полностью исцеляет ОЖ и статусный недуг одного Покемона."
+      }
+    },
+    "PokemonReviveModifierType": {
+      "description": "Возрождает одного Покемона и исцеляет {{restorePercent}}% ОЖ."
+    },
+    "PokemonStatusHealModifierType": {
+      "description": "Исцеляет любой статусный недуг одного Покемона."
+    },
     "TmModifierType": {
       "name": "ТМ{{moveId}} - {{moveName}}"
     },
@@ -56,6 +83,14 @@
       "name": "IV Сканер"
     }
   },
+  "SpeciesBoosterItem": {
+    "DEEP_SEA_SCALE": {
+      "name": "Глубоководная Чешуя"
+    },
+    "DEEP_SEA_TOOTH": {
+      "name": "Глубоководный Зуб"
+    }
+  },
   "AttackTypeBoosterItem": {
     "metal_coat": "Металлический покров"
   },
@@ -65,6 +100,7 @@
     "DRAGON_SCALE": "Чешуя дракона"
   },
   "FormChangeItem": {
+    "NONE": "Нет",
     "SHOCK_DRIVE": "Шоковый Привод",
     "BURN_DRIVE": "Обжигающий Привод",
     "CHILL_DRIVE": "Охлаждающий Привод",
