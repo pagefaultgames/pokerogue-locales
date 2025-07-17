@@ -27,6 +27,18 @@
     "PokemonStatusHealModifierType": {
       "description": "Исцеляет любой статусный недуг одного Покемона."
     },
+    "PokemonPpRestoreModifierType": {
+      "description": "Восстанавливает {{restorePoints}} ОС одной атаке.",
+      "extra": {
+        "fully": "Восстанавливает все ОС одной атаке."
+      }
+    },
+    "PokemonAllMovePpRestoreModifierType": {
+      "description": "Восстанавливает {{restorePoints}} ОС всем атакам.",
+      "extra": {
+        "fully": "Восстанавливает все ОС всем атакам."
+      }
+    },
     "TmModifierType": {
       "name": "ТМ{{moveId}} - {{moveName}}"
     },
