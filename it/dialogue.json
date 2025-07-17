@@ -29,7 +29,66 @@
       "5": "Impossibile… IMPOSSIBILE! Come ho potuto perdere ancora…",
       "5_female": "Impossibile… IMPOSSIBILE! Come ho potuto perdere ancora…",
       "6": "No! Ho perso!",
-      "7": "Wow! Sei incredibile! Resto di stucco!"
+      "7": "Wow! Sei incredibile! Resto di stucco!",
+      "8": "Perché… Come… I miei Pokémon e io siamo i più forti, eppure…",
+      "9": "La prossima volta non perderò! Combattiamo ancora qualche volta!",
+      "10": "Ehi! Non vedi che sono solo un ragazzino! Non è stato corretto da parte tua massacrarmi così!",
+      "11": "I tuoi Pokémon sono più belli! Facciamo scambi!",
+      "12": "Mi sono fatto trascinare prima, ma di che lavoro stavo parlando?",
+      "13": "Ahaha! Eccolo! Così ci siamo! Sei già a casa in questo mondo!"
+    }
+  },
+  "lass": {
+    "encounter": {
+      "1": "Facciamo una lotta, che ne dici?",
+      "2": "Sembri un allenatore in erba. Lottiamo!",
+      "2_female": "Sembri un’allenatrice in erba. Lottiamo!",
+      "3": "Non ti riconosco. Che ne dici di una lotta?",
+      "4": "Divertiamoci con una bella lotta Pokémon!",
+      "5": "Ti mostrerò come si combatte davvero con i Pokémon!",
+      "6": "Un combattimento serio è serio dal primo momento! Sei sicuro di essere pronto?",
+      "6_female": "Un combattimento serio è serio dal primo momento! Sei sicura di essere pronta?",
+      "7": "Sei giovane una volta sola. E hai solo un’occasione in una determinata battaglia. Presto, sarai solo un ricordo.",
+      "8": "Vacci piano con me, ok? Però io lotterò al massimo!",
+      "9": "La scuola è noiosa. Non ho nulla da fare. Che noia. Lotto solo per ammazzare il tempo."
+    },
+    "victory": {
+      "1": "È stato impressionante! Ho molto da imparare.",
+      "2": "Non pensavo che mi avresti sconfitto in modo così clamoroso…",
+      "2_female": "Non pensavo che mi avresti sconfitto in modo così clamoroso…",
+      "3": "Spero che un nuovo combatteremo di nuovo.",
+      "4": "È stato davvero divertente! Mi hai totalmente consumato…",
+      "5": "Mi hai effettivamente insegnato una lezione! Sei davvero incredibile!",
+      "6": "Seriamente, ho perso. È seriamente deprimente, ma tu sei stato seriamente incredibile.",
+      "6_female": "Seriamente, ho perso. È seriamente deprimente, ma tu sei stata seriamente incredibile.",
+      "7": "Non ho bisogno di ricordi come questo. Cancellare ricordo…",
+      "8": "Ehi! Ti ho detto di andarci piano con me! Però sei piuttosto cool quando fai sul serio.",
+      "8_female": "Ehi! Ti ho detto di andarci piano con me! Però sei piuttosto cool quando fai sul serio.",
+      "9": "Inizio a stancarmi delle lotte… Ci dovrà essere qualcosa di nuovo da fare…"
+    }
+  },
+  "breeder": {
+    "encounter": {
+      "1": "Pokémon obbedienti, Pokémon egoisti… I Pokémon hanno caratteristiche uniche.",
+      "2": "Anche se la mia educazione e il mio comportamento sono pessimi, ho cresciuto bene i miei Pokémon.",
+      "3": "Uhm, tu rimproveri i tuoi Pokémon? Viziarli troppo non va bene."
+    },
+    "victory": {
+      "1": "È importante coltivare e allenare tutte le caratteristiche di un Pokémon.",
+      "2": "Al contrario di me, questi sono buoni Pokémon.",
+      "3": "Troppi elogi possono viziare sia i Pokémon che le persone."
+    },
+    "defeat": {
+      "1": "Non dovresti arrabbiarti con i tuoi Pokémon, anche se perdi una lotta.",
+      "2": "Vero? Pokémon niente male, eh? Sono bravo nell'allevare le cose.",
+      "3": "Non importa quanto ami i tuoi Pokémon, devi comunque rimproverarli quando si comportano male."
+    }
+  },
+  "breeder_female": {
+    "encounter": {
+      "1": "I Pokémon non ti tradiscono mai. Ti restituiscono tutto l’amore che gli dai.",
+      "2": "Dovrei darti un consiglio per allenare buoni Pokémon?",
+      "3": "Ho cresciuto questi Pokémon davvero speciali utilizzando un metodo speciale."
     }
   },
   "snow_worker": {
@@ -52,6 +111,21 @@
     },
     "defeat": {
       "1": "…$Sai che-che…\nQui fa-fa freddo?"
+    }
+  },
+  "bryony": {
+    "encounter": {
+      "3": "Ho previsto il tuo arrivo. È ora di un piccolo test. Iniziamo?"
+    }
+  },
+  "erika": {
+    "encounter": {
+      "2": "Le mie capacità nelle lotte Pokémon rivaleggiano con le mie capacità di ordinare i fiori."
+    }
+  },
+  "sabrina": {
+    "encounter": {
+      "1": "Grazie alla mia abilità psichica, ho avuto una visione del tuo arrivo!"
     }
   },
   "rival": {
@@ -106,6 +180,60 @@
     },
     "defeat": {
       "1": "Hai fatto del tuo meglio, ora torniamo a casa."
+    }
+  },
+  "rival_4": {
+    "encounter": {
+      "1": "@c{neutral}Hey.$Non userò giri di parole o convenevoli con te.\n@c{neutral_eclosed}Sono qui per vincere, facile e semplice.$@c{serious_mhalf_fists}Ho imparato a massimizzare il mio potenziale usando tutto il tempo per allenarmi.$@c{smile}Ottieni molto tempo extra quando rinunci al sonno in eccesso e alla vita sociale.$@c{serious_mopen_fists}Niente di tutto questo importa, non finché non avrò vinto.$@c{neutral_eclosed}Sono arrivato al punto in cui non perdo più.\n@c{smile_eclosed}Suppongo che la tua filosofia dopo tutto non fosse sbagliata.$@c{angry_mhalf}Perdere è per i deboli, e io non lo sono più.$@c{serious_mopen_fists}Preparati."
+    },
+    "victory": {
+      "1": "@c{neutral}Cosa…@d{64} Cosa sei?"
+    }
+  },
+  "rival_4_female": {
+    "encounter": {
+      "1": "@c{neutral}Sono io! Non ti sei dimenticato di nuovo di me, vero?$@c{smile}Dovresti essere fiero di quanto lontano sei arrivato. Congratulazioni!\nMa sembra che sia la fine del tuo viaggio.$@c{smile_eclosed}Hai risvegliato in me qualcosa che non ho mai saputo fosse lì.\nSembra che tutto ciò che faccio ora sia allenarmi.$@c{smile_ehalf}A malapena mangio o dormo, semplicemente alleno i miei Pokémon tutto il giorno, diventando sempre più forte.$@c{neutral}In effetti… mi riconosco a malapena.$E ora, ho raggiunto l'apice delle mie capacità.\nNon credo che qualcuno ora possa battermi.$E sai cosa? È tutto a causa tua.\n@c{smile_ehalf}Non so nemmeno se ringraziarti o odiarti.$@c{angry_mopen}Preparati."
+    },
+    "victory": {
+      "1": "@c{neutral}Cosa…@d{64} Cosa sei?"
+    },
+    "defeat": {
+      "1": "$@c{smile}Dovresti essere fiero di quanto lontano sei arrivato."
+    }
+  },
+  "rival_5": {
+    "encounter": {
+      "1": "@c{neutral}…"
+    },
+    "victory": {
+      "1": "@c{neutral}…"
+    }
+  },
+  "rival_5_female": {
+    "encounter": {
+      "1": "@c{neutral}…"
+    },
+    "victory": {
+      "1": "@c{neutral}…"
+    },
+    "defeat": {
+      "1": "$@c{smile_ehalf}…"
+    }
+  },
+  "rival_6": {
+    "encounter": {
+      "1": "@c{smile_eclosed}Ci incontriamo di nuovo.$@c{neutral}Ho avuto tempo per riflettere su quanto è successo.\nC’è un motivo se tutto questo sembra strano.$@c{neutral_eclosed}Il tuo sogno, la mia voglia di batterti…\nÈ tutto parte di qualcosa più grande.$@c{serious}Questo non riguarda me, o te… Questo riguarda il mondo, @c{serious_mhalf_fists}ed è mio dovere spingerti al limite.$@c{neutral_eclosed}Non saprei dire se ho realizzato il mio scopo, ma ho fatto tutto ciò che era in mio potere.$@c{neutral}Questo posto in cui siamo finiti è terrificante… Eppure in qualche modo mi sento impassibile, come se fossi già stato qui.$@c{serious_mhalf_fists}Tu provi lo stesso, non è così?$@c{serious}…ed è come se qualcosa qui mi stesse parlando.\nQuesto è tutto ciò che sappiamo del mondo da molto tempo.$Quei momenti passati insieme che sembrano così recenti non sono altro che un lontano ricordo.$@c{neutral_eclosed}Chi può dire se siano stati davvero reali o meno.$@c{serious_mopen_fists}Devi continuare a spingere, perché se non lo fai, non finirà mai. Sei l’unica che può farcela.$@c{serious_smile_fists}So a malapena che cosa significhi tutto questo, so soltanto che è reale.$@c{serious_mopen_fists}Se non riuscirai a battermi qui e ora, non avrai alcuna possibilità."
+    },
+    "victory": {
+      "1": "@c{smile_eclosed}Sembra che il mio lavoro qui sia finito.$Voglio che tu mi prometta una cosa.\n@c{smile}Dopo che avrai salvato il mondo, torna a casa."
+    }
+  },
+  "rival_6_female": {
+    "encounter": {
+      "1": "@c{smile_ehalf}Eccoci di nuovo qui da soli.$@c{smile_eclosed}Sai, continuo a pensare e a ripensare…$@c{smile_ehalf}C’è qualcosa in tutto questo, per cui sembra tutto così strano ora…$@c{smile}Tu hai il tuo sogno, e io ho questa ambizione in me…$Non posso farci niente, ma sento che c’è uno scopo più grande per tutto ciò che io e te siamo facendo.$@c{smile_eclosed}Penso di doverti spingere… ai tuoi limiti.$@c{smile_ehalf}Non sono certa di aver fatto un buon lavoro, ma ho fatto del mio meglio.$È qualcosa che ha a che fare con questo posto strano e terrificante… Tutto sembra così chiaro…$Questo… è tutto ciò che il mondo ha conosciuto per un lungo tempo.$@c{smile_eclosed}È come se io a malapena potessi ricordare i nostri momenti insieme.$@c{smile_ehalf}Erano reali, almeno? Sembrano così lontani ora…$@c{angry_mopen}Devi continuare a spingere, perché se non lo fai, non finirà mai. Sei l’unico che può farcela.$@c{smile_ehalf}Io… non so cosa significhi tutto questo… ma sento che è vero.$@c{neutral}Se non riesci a sconfiggermi qui e ora, non avrai alcuna possibilità."
+    },
+    "victory": {
+      "1": "@c{smile_ehalf}Io… Io credo di aver raggiunto il mio scopo…$@c{smile_eclosed}Promettimi… Dopo che avrai salvato il mondo… Per favore… torna a casa sano e salvo.$@c{smile_ehalf}…Grazie."
     }
   }
 }
