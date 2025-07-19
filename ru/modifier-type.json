@@ -39,23 +39,122 @@
         "fully": "Восстанавливает все ОС всем атакам."
       }
     },
+    "PokemonPpUpModifierType": {
+      "description": "Навсегда увеличивает ОД одного приёма на {{upPoints}} за каждые 5 максимальных ОД (максимум 3)."
+    },
+    "PokemonNatureChangeModifierType": {
+      "name": "Мята {{natureName}}",
+      "description": "Меняет характер Покемона на {{natureName}} и навсегда открывает этот характер для стартового Покемона."
+    },
+    "DoubleBattleChanceBoosterModifierType": {
+      "description": "Вчетверо увеличивает шанс встречи быть двойным сражением на {{battleCount}} битв."
+    },
+    "TempStatStageBoosterModifierType": {
+      "description": "Увеличивает {{stat}} всех членов команды на {{amount}} на 5 сражений",
+      "extra": {
+        "stage": "1 стадия",
+        "percentage": "30%"
+      }
+    },
+    "AttackTypeBoosterModifierType": {
+      "description": "Увеличивает силу атак {{moveType}}-типа Покемона на 20%."
+    },
+    "PokemonLevelIncrementModifierType": {
+      "description": "Увеличивает уровень Покемона на {{levels}}."
+    },
+    "AllPokemonLevelIncrementModifierType": {
+      "description": "Увеличивает уровень всех членов команды на {{levels}}."
+    },
+    "BaseStatBoosterModifierType": {
+      "description": "Увеличивает базовую {{stat}} владельца на 10%. Чем выше ваши IV, тем выше лимит суммирования."
+    },
+    "PokemonBaseStatFlatModifierType": {
+      "name": "Старый Гатó",
+      "description": "Увеличивает базовые характеристики {{stats}} владельца на {{statValue}}. Найдено после странного сна."
+    },
+    "AllPokemonFullHpRestoreModifierType": {
+      "description": "Восстанавливает 100% ОЖ всем Покемонам."
+    },
+    "AllPokemonFullReviveModifierType": {
+      "description": "Оживляет всех потерявших сознание Покемонов, полностью восстанавливая ОЖ."
+    },
+    "MoneyRewardModifierType": {
+      "description": "Дает {{moneyMultiplier}} количество денег ({{moneyAmount}} ₽).",
+      "extra": {
+        "small": "малый",
+        "moderate": "средний",
+        "large": "большой"
+      }
+    },
+    "ExpBoosterModifierType": {
+      "description": "Увеличивает получение опыта на {{boostPercent}}%."
+    },
+    "PokemonExpBoosterModifierType": {
+      "description": "Увеличивает получение опыта владельцем на {{boostPercent}}%"
+    },
+    "PokemonFriendshipBoosterModifierType": {
+      "description": "Увеличивает прирост дружбы на 50%."
+    },
+    "PokemonMoveAccuracyBoosterModifierType": {
+      "description": "Увеличивает точность приёмов на {{accuracyAmount}}."
+    },
+    "PokemonMultiHitModifierType": {
+      "description": "Превращает 25% урона от атак владельца в дополнительный удар."
+    },
     "TmModifierType": {
-      "name": "ТМ{{moveId}} - {{moveName}}"
+      "name": "ТМ{{moveId}} - {{moveName}}",
+      "description": "Обучает Покемона {{moveName}}."
     },
     "TmModifierTypeWithInfo": {
-      "name": "ТМ{{moveId}} - {{moveName}}"
+      "name": "ТМ{{moveId}} - {{moveName}}",
+      "description": "Обучает Покемона {{moveName}}\n(Удерживайте C или Shift для получения дополнительной информации)."
+    },
+    "EvolutionItemModifierType": {
+      "description": "Заставляет некоторых Покемонов эволюционировать."
+    },
+    "FormChangeItemModifierType": {
+      "description": "Заставляет некоторых Покемонов менять форму."
+    },
+    "FusePokemonModifierType": {
+      "description": "Объединяет двух Покемонов (передает Талант, разделяет базовые характеристики и типы, делится набором атак)."
+    },
+    "TerastallizeModifierType": {
+      "name": "{{teraType}} Тера-осколок",
+      "description": "Изменяет Тера-тип Покемона на {{teraType}}."
+    },
+    "ContactHeldItemTransferChanceModifierType": {
+      "description": "При атаке есть {{chancePercent}}% шанс украсть предмет, удерживаемый противником."
+    },
+    "TurnHeldItemTransferModifierType": {
+      "description": "Каждый ход владелец получает один удерживаемый предмет от противника."
+    },
+    "EnemyAttackStatusEffectChanceModifierType": {
+      "description": "Добавляет {{chancePercent}}% шанс наложить {{statusEffect}} с помощью атакующих приёмов."
+    },
+    "EnemyEndureChanceModifierType": {
+      "description": "Добавляет {{chancePercent}}% шанс выдержать удар."
     },
     "RARE_CANDY": {
       "name": "Редкая конфета"
     },
+    "RARER_CANDY": {
+      "name": "Редчайшая конфета"
+    },
     "MEGA_BRACELET": {
-      "name": "Мегабраслет"
+      "name": "Мегабраслет",
+      "description": "Мега-камни становятся доступными."
     },
     "DYNAMAX_BAND": {
-      "name": "Динамакс-браслет"
+      "name": "Динамакс-браслет",
+      "description": "Макс-Грибы становятся доступными."
+    },
+    "TERA_ORB": {
+      "name": "Тера-Сфера",
+      "description": "Позволяет вашему Покемону Терасталлизироваться. Медленно перезаряжается. Тера-осколки также становятся доступны."
     },
     "MAP": {
-      "name": "Карта"
+      "name": "Карта",
+      "description": "Позволяет вам выбрать пункт назначения на перекрестке."
     },
     "POTION": {
       "name": "Эликсир"
@@ -69,6 +168,9 @@
     "MAX_POTION": {
       "name": "Эликсир макс"
     },
+    "FULL_RESTORE": {
+      "name": "Полное Восстановление"
+    },
     "REVIVE": {
       "name": "Оживление"
     },
@@ -78,18 +180,168 @@
     "FULL_HEAL": {
       "name": "Полное Исцеление"
     },
+    "SACRED_ASH": {
+      "name": "Священный Пепел"
+    },
+    "REVIVER_SEED": {
+      "name": "Семя Возрождения",
+      "description": "Оживляет владельца на 1/2 ОЖ при потере сознания от прямого попадания."
+    },
+    "WHITE_HERB": {
+      "name": "Белая Трава",
+      "description": "Предмет для ношения Покемоном. Он восстановит любую пониженную характеристику в бою."
+    },
+    "ETHER": {
+      "name": "Эфир"
+    },
+    "MAX_ETHER": {
+      "name": "Макс-Эфир"
+    },
+    "ELIXIR": {
+      "name": "Эликсир"
+    },
+    "MAX_ELIXIR": {
+      "name": "Макс-Эликсир"
+    },
+    "PP_UP": {
+      "name": "Плюс ОС"
+    },
+    "PP_MAX": {
+      "name": "ОС Макс"
+    },
+    "LURE": {
+      "name": "Приманка"
+    },
+    "SUPER_LURE": {
+      "name": "Супер-Приманка"
+    },
+    "MAX_LURE": {
+      "name": "Макс-Приманка"
+    },
     "MEMORY_MUSHROOM": {
       "name": "Гриб Памяти",
       "description": "Вспомнить забытый приём Покемона."
     },
     "EXP_SHARE": {
-      "name": "Общая Доля"
+      "name": "Общая Доля",
+      "description": "Неучаствующие получают 20% опыта от одного участника."
+    },
+    "EXP_BALANCE": {
+      "name": "Баланс Опыта",
+      "description": "Распределяет очки опыта, полученные в битвах, в пользу членов команды с более низким уровнем."
+    },
+    "OVAL_CHARM": {
+      "name": "Овальный Оберег",
+      "description": "Когда несколько Покемонов участвуют в битве, каждый получает дополнительные 10% от общего опыта."
+    },
+    "EXP_CHARM": {
+      "name": "Оберег Роста"
+    },
+    "SUPER_EXP_CHARM": {
+      "name": "Супер Оберег Роста"
+    },
+    "GOLDEN_EXP_CHARM": {
+      "name": "Золотой Оберег Роста"
     },
     "LUCKY_EGG": {
       "name": "Удачливое Яйцо"
     },
+    "GOLDEN_EGG": {
+      "name": "Золотое Яйцо"
+    },
+    "SOOTHE_BELL": {
+      "name": "Колокольчик Успокоения"
+    },
+    "SCOPE_LENS": {
+      "name": "Снайперская Линза",
+      "description": "Это линза для выявления слабых мест. Она повышает шанс критического удара владельца."
+    },
+    "DIRE_HIT": {
+      "name": "Критический Удар",
+      "extra": {
+        "raises": "Шанс Критического Удара"
+      }
+    },
+    "LEEK": {
+      "name": "Лук-порей",
+      "description": "Этот очень длинный и крепкий стебель лука-порея повышает шанс критического удара атак Фарфетчда."
+    },
+    "EVIOLITE": {
+      "name": "Эвиолит",
+      "description": "Эта таинственная эволюционная глыба повышает показатели Защиты и Спец. Защиты, когда её держит Покемон, который ещё может эволюционировать."
+    },
+    "SOUL_DEW": {
+      "name": "Роса Души",
+      "description": "Увеличивает влияние характера Покемона на его характеристики на 10% (Складывается)"
+    },
+    "NUGGET": {
+      "name": "Самородок"
+    },
+    "BIG_NUGGET": {
+      "name": "Большой Самородок"
+    },
+    "RELIC_GOLD": {
+      "name": "Реликтовое Золото"
+    },
+    "AMULET_COIN": {
+      "name": "Денежный Талисман",
+      "description": "Увеличивает денежные награды на 20%."
+    },
+    "GOLDEN_PUNCH": {
+      "name": "Золотой удар",
+      "description": "Дает 50% от нанесенного прямого урона в виде денег."
+    },
+    "COIN_CASE": {
+      "name": "Кошелек для Монет",
+      "description": "После каждой 10-й битвы получайте 10% от своих денег в виде процентов."
+    },
+    "LOCK_CAPSULE": {
+      "name": "Запирающая Капсула",
+      "description": "Позволяет заблокировать редкость предметов при переброске предметов."
+    },
+    "GRIP_CLAW": {
+      "name": "Цепкий Крюк"
+    },
+    "WIDE_LENS": {
+      "name": "Широкие Линзы"
+    },
+    "MULTI_LENS": {
+      "name": "Мульти-Линзы"
+    },
+    "HEALING_CHARM": {
+      "name": "Оберег Исцеления",
+      "description": "Увеличивает эффективность восстанавливающих ОЖ приёмов и предметов на 10% (исключая Оживления)."
+    },
+    "CANDY_JAR": {
+      "name": "Банка с Конфетами",
+      "description": "Увеличивает количество уровней, добавляемых Редкими Конфетами, на 1."
+    },
+    "BERRY_POUCH": {
+      "name": "Мешочек для Ягод",
+      "description": "Добавляет 30% шанс, что использованная ягода не будет потрачена."
+    },
+    "FOCUS_BAND": {
+      "name": "Обод Фокуса",
+      "description": "Добавляет 10% шанс выжить с 1 ОЖ после получения урона, достаточного для потери сознания."
+    },
+    "QUICK_CLAW": {
+      "name": "Лихой Коготь",
+      "description": "Добавляет 10% шанс походить первым независимо от скорости (после приоритета)."
+    },
     "KINGS_ROCK": {
-      "name": "Королевский камень"
+      "name": "Королевский камень",
+      "description": "Добавляет 10% шанс, что атакующая способность заставит противника вздрогнуть."
+    },
+    "LEFTOVERS": {
+      "name": "Остатки",
+      "description": "Восстанавливает 1/16 от максимальных ОЖ Покемона каждый ход."
+    },
+    "SHELL_BELL": {
+      "name": "Бубенчик",
+      "description": "Восстанавливает 1/8 от нанесенного Покемоном урона."
+    },
+    "TOXIC_ORB": {
+      "name": "Сфера Яда"
     },
     "IV_SCANNER": {
       "name": "IV Сканер"
@@ -113,6 +365,7 @@
   },
   "FormChangeItem": {
     "NONE": "Нет",
+    "MAX_MUSHROOMS": "Макс-Грибы",
     "SHOCK_DRIVE": "Шоковый Привод",
     "BURN_DRIVE": "Обжигающий Привод",
     "CHILL_DRIVE": "Охлаждающий Привод",
