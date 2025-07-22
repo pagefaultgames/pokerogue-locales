@@ -429,7 +429,206 @@
       "3": "Sono nato per lavorare. È il mio destino."
     },
     "victory": {
-      "1": "Oh, ma dai! Sono inutile anche qui?"
+      "1": "Oh, ma dai! Sono inutile anche qui?",
+      "2": "Tu sei un astro nascente! Io non perderò, io non perderò!",
+      "3": "In effetti, fare lotte Pokémon è anche il mio lavoro."
+    }
+  },
+  "clerk_female": {
+    "encounter": {
+      "1": "Io ho un sogno! Prendere il controllo della compagnia!",
+      "2": "Dicono che una compagnia con dipendenti brillanti sia una buona compagnia!",
+      "3": "Sono trattato come un idolo in ufficio. Tutti mi viziano."
+    },
+    "victory": {
+      "1": "Ero ossessionato dal premio d’oro, con la mia ambizione scintillante!",
+      "2": "Oh, guarda che ora sono! Devo tornare al lavoro!",
+      "3": "Tutti lavorano per me, quindi io non ho nulla da fare."
+    }
+  },
+  "hooligans": {
+    "encounter": {
+      "1": "Hey, hey! Ci pensiamo noi a te!",
+      "2": "Hey, hey! Un cattivone che fa squadra con un altro cattivone!"
+    },
+    "victory": {
+      "1": "Uh? Stai dicendo che l’amicizia tra noi cattivi ragazzi non è abbastanza buona?",
+      "2": "Cosa? Il nostro atteggiamento da duri non è stato abbastanza?"
+    }
+  },
+  "musician": {
+    "encounter": {
+      "1": "Riecheggia, mia dolce melodia!\nLottate, miei cari Pokémon!",
+      "2": "Ascolta la canzone dei miei Pokémon!",
+      "3": "La mia esibizione dal vivo è aperta a tutti, e tu parteciperai!",
+      "4": "Ho una chitarra che non fa alcun suono!"
+    },
+    "victory": {
+      "1": "Uhm… Forse più che farmi avanti avrei dovuto farmi da parte…",
+      "2": "Uhm, immagino che il ritmo tra me e i miei Pokémon non fosse granché.",
+      "3": "Sono vincente tanto quanto la mia chitarra è rumorosa…"
+    }
+  },
+  "pilot": {
+    "encounter": {
+      "1": "Il mio Pokémon è più forte del vento. È il mio orgoglio e la mia gioia!",
+      "2": "Il volo per la lotta è pronto al decollo!",
+      "3": "Scommetto che non mi avevi visto! Non importa quanto siano lontane le cose, l’occhio di un Pilota riesce a vederle!",
+      "4": "Mi sono svegliato fresco e riposato oggi per allenare i miei Pokémon, spero tu sia venuto preparato!"
+    },
+    "victory": {
+      "1": "Percepisco una forte pressione proveniente da te e dai tuoi Pokémon!",
+      "2": "Sfortunatamente… Siamo costretti ad atterrare.",
+      "3": "Immagino che mi sarei dovuto svegliare ancora prima per allenarmi!",
+      "4": "Sembra che oggi i venti non fossero a mio favore!"
+    }
+  },
+  "pokefan": {
+    "encounter": {
+      "1": "Amo i miei Pokémon più di ogni altra cosa!",
+      "2": "La nostra battaglia rinforzerà il legame tra me e i miei Pokémon!",
+      "3": "Penso di essere un Pokéfan, quindi sono un Pokéfan. Il Pokéfan è potere!"
+    },
+    "victory": {
+      "1": "Potrai anche avermi sconfitto nella lotta, ma il mio amore per i Pokémon resta inarrivabile!",
+      "2": "Questa te la ricorderai! Io sono un grande Pokéfan!",
+      "3": "Non sono forte nelle lotte, ma questo è uno dei doveri di un Pokéfan…"
+    }
+  },
+  "pokefan_female": {
+    "encounter": {
+      "1": "Amo i miei Pokémon più di ogni altra cosa!",
+      "2": "Ahahaha! Andrei ovunque per mettere in mostra i miei incantevoli Pokémon!",
+      "3": "Giocherai con i miei squisitamente bellissimi Pokémon?"
+    },
+    "victory": {
+      "1": "Potrai anche avermi sconfitto nella lotta, ma il mio amore per i Pokémon resta inarrivabile!",
+      "2": "Oh, questo semplicemente non funzionerà.",
+      "3": "Non sono forte nelle lotte, ma questo è uno dei doveri di una Pokéfan…"
+    }
+  },
+  "rich": {
+    "encounter": {
+      "1": "Alla mia età, ho avuto molte ricche esperienze con i miei Pokémon.$Lascia che condivida con te il lusso di questa esperienza.",
+      "2": "Lasciamo che i nostri Pokémon lottino con signorile riserbo!",
+      "3": "Ho viaggiato ai quattro angoli del globo con i miei Pokémon.$Come potrai immaginare, ho fiducia nelle mie capacità."
+    },
+    "victory": {
+      "1": "Ah! Molto bene, giovane Allenatore!",
+      "2": "Cosa? Già finito?$Oh beh, non importa.\nLe persone ricche come me solitamente non lottano.",
+      "3": "Ah, ben fatto."
+    }
+  },
+  "rich_female": {
+    "encounter": {
+      "1": "Alla mia età, ho avuto molte ricche esperienze con i miei Pokémon.$Lascia che condivida con te il lusso di questa esperienza.",
+      "2": "Oh? Un’adorabile Allenatrice.$Vorresti conoscere il Pokémon che mi rende orgoglioso?",
+      "3": "Giovane Allenatrice, mi faresti l’onore di lottare con me?"
+    },
+    "victory": {
+      "1": "Oh, questa lotta è stata assolutamente splendida!",
+      "2": "Oh, cara… Questo non è stato per nulla come lottare con i miei amici.",
+      "3": "Così giovane, e già così forte!\nDavvero notevole!"
+    }
+  },
+  "rich_kid": {
+    "encounter": {
+      "1": "I tuoi Pokémon non possono in alcun modo eguagliare lo splendore dei miei!",
+      "2": "Credi davvero che i tuoi Pokémon possano resistere ai miei GRANDI Pokémon?",
+      "3": "Dicono che i ricchi non devono lottare per nulla, ma io AMO una buona lotta!"
+    },
+    "victory": {
+      "1": "Uh? Ma ho speso così tanti soldi per renderli il più splendidi possibile…",
+      "2": "Anche se ho perso, non sono frustrato! Bah!",
+      "3": "Hmph! Andrò a fare shopping per sentirmi meglio!",
+      "4": "Anche se perdo la lotta, non perderò la mia grazia."
+    }
+  },
+  "rich_kid_female": {
+    "encounter": {
+      "1": "Ho appena spazzolato il pelo dei miei Pokémon. Sarà meglio che non lo incasini!",
+      "2": "È stato destino che ci incontrassimo.\nPosso chiederti una lotta?",
+      "3": "Giusto perché tu lo sappia, non sono mai stato superato da nessuno in nessun ambito."
+    },
+    "victory": {
+      "1": "Oh no, i miei poveri Pokémon!",
+      "2": "Oh, accipicchia.\nQuesta per me è una nuova esperienza.",
+      "3": "Hmph! Andrò a fare shopping per sentirmi meglio!",
+      "4": "Anche se perdo la lotta, non perderò la mia grazia."
+    }
+  },
+  "archer": {
+    "encounter": {
+      "1": "Prima che tu vada oltre, vediamo come te la cavi contro di noi, il Team Rocket!",
+      "2": "Mi è giunta voce che le tue abilità non sono insignificanti. Vediamo se è vero.",
+      "3": "Io sono Archer, un Generale del Team Rocket. E non ci vado leggero con i nemici della nostra organizzazione."
+    },
+    "victory": {
+      "1": "Che cantonata!",
+      "2": "Con le mie abilità attuali, non sono stato all'altezza dell'incarico.",
+      "3": "P-perdonami, Giovanni… Per essere stato sconfitto da un semplice allenatore…"
+    }
+  },
+  "ariana": {
+    "encounter": {
+      "1": "Fermo subito lì!\nNon possiamo avere qualcuno a piede libero.$È dannoso per l'immagine del Team Rocket, capisci?",
+      "2": "Io non so se ciò che sto facendo è giusto o sbagliato, e non mi interessa…$Io ripongo semplicemente la mia fiducia in Giovanni e faccio quello che mi è detto di fare.",
+      "3": "La tua gita finisce qui. Sto per sconfiggerti!"
+    },
+    "victory": {
+      "1": "Tch, sei davvero forte. Che peccato.$Se ti unissi al Team Rocket, potresti diventare Generale.",
+      "1_female": "Tch, sei davvero forte. Che peccato.$Se ti unissi al Team Rocket, potresti diventare Generale.",
+      "2": "Io… Io sono distrutto…",
+      "3": "Aaaieeeee! Non può essere successo! Ho lottato con forza, ma ho comunque perso…"
+    }
+  },
+  "proton": {
+    "encounter": {
+      "1": "Che cosa voi? Se interrompi il nostro lavoro, non aspettarti alcuna pietà!",
+      "2": "Che cosa abbiamo qui? Io sono spesso etichettato come il membro più spaventoso e più crudele del Team Rocket…$Ho un forte bisogno che tu non interferisca con i nostri affari!",
+      "3": "Io sono Milas, un Generale del Team Rocket. Sono qui per porre fine alla tua intrusione!"
+    },
+    "victory": {
+      "1": "La fortezza è caduta!",
+      "2": "Potrai anche aver vinto questa volta… Ma tutto ciò che hai fatto è stato accrescere l’ira del Team Rocket…",
+      "3": "Sono stato sconfitto… Ma non me ne dimenticherò!"
+    }
+  },
+  "petrel": {
+    "encounter": {
+      "1": "Muhahaha, ti stavamo aspettando. Io? Non sai chi sono io? Io sono Giovanni.$Il grande Giovanni in persona! Wahahaha! …Uh? Non suono per nulla come Giovanni?$Non gli assomiglio nemmeno? Ma come? Ho lavorato sodo per impersonarlo!",
+      "2": "Io sono Maxus, un Generale del Team Rocket. Non ti permetterò di interferire con i nostri piani!",
+      "3": "Il Generale Rocket Maxus si occuperà di questo intruso!"
+    },
+    "victory": {
+      "1": "OK, OK. Ti dirò dove si trova lui.",
+      "2": "Io… Io non ho potuto fare nulla… Giovanni, per favore perdonami…",
+      "3": "No, non posso lasciare che questo mi influenzi. Devo informare gli altri…"
+    }
+  },
+  "tabitha": {
+    "encounter": {
+      "1": "Hehehe! Alla fine ce l'hai fatta ad arrivare! Ma è troppo tardi!",
+      "2": "Hehehe… Sei già arrivato qui, eh? Ti abbiamo sottovalutato! Ma questa è la fine!$Io sono una spanna sopra alle Reclute che hai visto fino a ora. Non devo temporeggiare.$Ti ridurrò in polvere!",
+      "3": "Sto per darti un piccolo assaggio di dolore! Rassegnati!"
+    },
+    "victory": {
+      "1": "Hehehe! Potrai anche avermi sconfitto, ma non hai alcuna possibilità contro il capo!$Se sparisci ora, non dovrai subire una sonora sconfitta!",
+      "2": "Hehehe… Quindi, ho perso anche io…",
+      "3": "Ahya! Come è potuto succedere? Un Generale come me che perde contro un allenatore qualunque…",
+      "3_female": "Ahya! Come è potuto succedere? Un Generale come me che perde contro un’allenatrice qualunque…"
+    }
+  },
+  "courtney": {
+    "encounter": {
+      "1": "Non. Intralciare. La. Mia. Strada.",
+      "2": "Tu… … Io voglio…analizzarti. Ahahaha. ♪",
+      "3": "… In tal caso…Cancellare…"
+    },
+    "victory": {
+      "1": "Hah hah… Uhn…hah hah…",
+      "2": "Come previsto. Non previsto. Tu. Acquisizione bersaglio…completata.$Iniziando…esperimento. Tu. Per sempre. Aha… ♪",
+      "3": "Questo non era previsto. …Lo sapevo. Tu…sei interessante! …Haha. ♪"
     }
   },
   "bryony": {
