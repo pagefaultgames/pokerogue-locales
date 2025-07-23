@@ -711,9 +711,240 @@
       "3_female": "Hmph. Sei un’Allenatrice più furba di quanto mi aspettassi, ma non furba abbastanza."
     }
   },
+  "colress": {
+    "encounter": {
+      "1": "In quanto ricercatore, cerco la verità e il modo ideale in cui le cose dovrebbero essere. La forza latente dei Pokémon…$Qual è il modo migliore per tirarla fuori?$Se possibile, io vorrei che fosse coltivando la fiducia reciproca tra Allenatori e Pokémon, come è sempre stato.$Non vedo l’ora che tu mi dimostri che è così!",
+      "2": "Quelli del Team Plasma dicono che bisognerebbe riconoscere le potenzialità dei Pokémon e liberarli dal giogo degli umani. Ma io non sono d'accordo.$Al contrario, dovremmo valorizzarli e spingerli a tirar fuori il loro potenziale!$E ora, lascia che verifichi di persona se sei un Allenatore capace di far emergere il potenziale dei Pokémon!",
+      "3": "Il mio desiderio è di sviluppare al massimo il potenziale dei Pokémon!$Per raggiungere questo scopo, sono disposto a usare qualsiasi mezzo!$Se questo significa che la forza deriva dal rapporto tra Pokémon e Allenatori, così sia!$Se significa che devi usare un approccio spietato, come quello del Team Plasma, e tirare fuori con la forza tutto il potenziale dei Pokémon…$Così sia! E sì, se l'intero mondo venisse distrutto come effetto collaterale, così sia…$Bene! Vediamo se hai la risposta che cerco! Fatti sotto!"
+    },
+    "victory": {
+      "1": "Ben fatto! Ho imparato molto da questa lotta!",
+      "2": "Splendido! Sei tu quell’Allenatore!",
+      "3": "Quindi è questo che vuol dire tirare fuori il potenziale nascosto dei tuoi Pokémon!"
+    }
+  },
+  "xerosic": {
+    "encounter": {
+      "1": "Ah ha ha! È un piacere. Forza, piccolo Allenatore! Vediamo cosa sai fare!",
+      "1_female": "Ah ha ha! È un piacere. Forza, piccola Allenatrice! Vediamo cosa sai fare!",
+      "2": "Hmm… Sei più forte di quanto sembri. Mi chiedo quanta energia ci sia in te.",
+      "2_female": "Hmm… Sei più forte di quanto sembri. Mi chiedo quanta energia ci sia in te.",
+      "3": "Ti stavo aspettando! Ho bisogno di fare qualche ricerca su di te. Forza, cominciamo!"
+    },
+    "victory": {
+      "1": "Ah, sei piuttosto forte. Oh sì—molto forte, in realtà.",
+      "2": "Ding-ding-ding! Ce l’hai fatta! Il bottino va al vincitore!",
+      "2_female": "Ding-ding-ding! Ce l’hai fatta! Il bottino va alla vincitrice!",
+      "3": "Meraviglioso! Incredibile! Tu hai capacità incredibili e coraggio!"
+    }
+  },
   "bryony": {
     "encounter": {
+      "1": "Io sono Bromelia, e mi farebbe piacere combattere con te. Fammi vedere che cosa sai fare.",
+      "2": "Impressionante… Sei più forte di quello che sembri. Vediamo la vera entità della tua energia.",
+      "2_female": "Impressionante… Sei più forte di quello che sembri. Vediamo la vera entità della tua energia.",
       "3": "Ho previsto il tuo arrivo. È ora di un piccolo test. Iniziamo?"
+    },
+    "victory": {
+      "1": "Ah, sei piuttosto forte. Oh sì—molto forte, in realtà.",
+      "2": "Ding-ding-ding! Complimenti. La vittoria è tua.",
+      "3": "Meraviglioso! Incredibile! La tua abilità e il tuo coraggio sono ammirevoli."
+    }
+  },
+  "rocket_grunt": {
+    "encounter": {
+      "1": "Preparati a passare dei guai!",
+      "2": "Qui stiamo facendo un lavoro impegnativo! Sparisci, ragazzino!",
+      "2_female": "Qui stiamo facendo un lavoro impegnativo! Sparisci, ragazzina!",
+      "3": "Consegnaci i tuoi Pokémon, o affronta la collera del Team Rocket!",
+      "4": "Stai per conoscere il vero terrore provocato dal Team Rocket!",
+      "5": "Hey, ragazzino! Io sono una specie di membro del Team Rocket!",
+      "5_female": "Hey, ragazzina! Io sono una specie di membro del Team Rocket!"
+    },
+    "victory": {
+      "1": "Il Team Rocket riparte alla velocità della luce!",
+      "2": "Oh no! Ho fatto cadere la Chiave Ascensore!",
+      "3": "Ho perso!",
+      "4": "Ai miei compagni non piacerà!",
+      "5": "Cosa dici? Addio Team Rocket? Sconfitto tu dici?"
+    }
+  },
+  "magma_grunt": {
+    "encounter": {
+      "1": "Se metti i bastoni tra le ruote al Team Magma, non ti aspettare alcuna pietà!",
+      "2": "Faresti meglio a non immischiarti nei nostri piani! Stiamo rendendo il mondo un posto migliore!",
+      "3": "Ci stai intralciando! Il Team Magma non ha tempo per i mocciosi come te!",
+      "4": "Spero che tu abbia portato i marshmallows, perché le cose stanno per scaldarsi!",
+      "5": "Utilizzeremo la potenza di un vulcano! Sarà… scoppiettante! L’hai capita? Heh heh!"
+    },
+    "victory": {
+      "1": "Huh? Ho perso?!",
+      "2": "Non posso credere di aver perso! Ho persino saltato il pranzo per questo…",
+      "3": "Impossibile! Sei solo un ragazzino!",
+      "3_female": "Impossibile! Sei solo una ragazzina!",
+      "4": "Urrrgh… Avrei dovuto scomparire nel nostro rifugio immediatamente…",
+      "5": "Mi hai sconfitto… Pensi che il capo tratterrà la mia paga per questo?"
+    }
+  },
+  "aqua_grunt": {
+    "encounter": {
+      "1": "Nessuna pietà per chiunque intralci il Team Idro, nemmeno per i bambini!",
+      "2": "Grrr… Hai fegato per impicciarti negli affari del Team Idro!",
+      "3": "Stai per essere messo a mollo! E non solo dai miei Pokémon Acqua!",
+      "4": "Noi, il Team Idro, esistiamo per il bene di tutti!",
+      "5": "Preparati a essere infradiciato dalle onde dei miei… uh, Pokémon! Sì, dei miei Pokémon!"
+    },
+    "victory": {
+      "1": "Mi stai prendendo in giro!",
+      "2": "Arrgh, non credevo che mi sarei fatto fermare da un ragazzino impiccione!",
+      "3": "Ho perso?! Credo che ora dovrò tornare a nuoto al rifugio…",
+      "4": "Oh, cavolo, che disastro… Il capo sarà furioso…",
+      "5": "Mi hai sconfitto… Credi che il capo mi butterà in mare per questo?"
+    }
+  },
+  "galactic_grunt": {
+    "encounter": {
+      "1": "Non mettere i bastoni tra le ruote al Team Galassia!",
+      "2": "Sii testimone della potenza della nostra tecnologia e del futuro che immaginiamo!",
+      "3": "In nome del Team Galassia, eliminerò chiunque ci intralci!",
+      "4": "Preparati a perdere!",
+      "5": "Spero che tu sia pronto per una batosta clamorosa!",
+      "5_female": "Spero che tu sia pronta per una batosta clamorosa!"
+    },
+    "victory": {
+      "1": "Spegnimento…",
+      "2": "Questa battuta d’arresto non significa nulla nel nostro grande schema.",
+      "3": "I nostri piano sono più grandi di questa sconfitta.",
+      "4": "Come?!",
+      "5": "Promemoria per me stesso: allenarsi nelle lotte Pokémon, SUBITO."
+    }
+  },
+  "plasma_grunt": {
+    "encounter": {
+      "1": "Noi non tollereremo persone che hanno idee diverse!",
+      "2": "Se ti batto, libererai i tuoi Pokémon!",
+      "3": "Se metti i bastoni tra le ruote al Team Plasma, ci penserò io a te!",
+      "4": "Il Team Plasma libererà i Pokémon dagli esseri umani egoisti come te!",
+      "5": "Le nostre acconciature sono incredibili… ma le nostre capacità nella lotta? Lo scoprirai molto presto."
+    },
+    "victory": {
+      "1": "Plasmaaaaaaaaa!",
+      "2": "Come ho potuto perdere…",
+      "3": "…Che Pokémon deboli, andrò a rubarne altri più forti!",
+      "4": "I grandi piani sono sempre interrotti.",
+      "5": "Così va male… Malemalemalemalemalemalemale! Male per il Team Plasma! O Plasmale, per dirla in breve!"
+    }
+  },
+  "flare_grunt": {
+    "encounter": {
+      "1": "I tuoi Pokémon non sono all’altezza dell’eleganza del Team Flare.",
+      "2": "Spero che tu abbia portato gli occhiali da sole, perché le cose stanno per diventare luminose!",
+      "2_female": "Spero che tu abbia portato gli occhiali da sole, perché le cose stanno per diventare luminose!",
+      "3": "Il Team Flare purificherà il mondo da ogni imperfezione!",
+      "4": "Preparati ad affrontare la brillantezza del Team Flare!",
+      "5": "La moda è la cosa più importante per noi!"
+    },
+    "victory": {
+      "1": "Il mio futuro non sembra luminoso.",
+      "2": "Forse le lotte sono più complicate di quanto avessi immaginato. Si torna alla tavola da disegno.",
+      "3": "Gahh?! Ho perso?!",
+      "4": "Anche nella sconfitta, l’eleganza del Team Flare brilla indiscussa.",
+      "5": "Potrai anche avermi sconfitto, ma quando perdo, me ne vado con stile!"
+    }
+  },
+  "aether_grunt": {
+    "encounter": {
+      "1": "Lotterò con tutto ciò che ho per spazzarti via!",
+      "2": "Non mi interessa se sei un ragazzino o che altro. Se ci minacci, ti polverizzerò!",
+      "2_female": "Non mi interessa se sei una ragazzina o che altro. Se ci minacci, ti polverizzerò!",
+      "3": "Mi è stato detto di respingere gli Allenatori, chiunque essi siano!",
+      "4": "Ti mostrerò la potenza dell’Æther Paradise!",
+      "5": "Ora che hai scoperto la malvagità alla base dell’Æther Paradise, facci il favore di sparire!"
+    },
+    "victory": {
+      "1": "Hmph! Sembri avere molte abilità.",
+      "2": "Che cosa significa? Che cosa significa!",
+      "3": "Hey! Sei così forte che è impossibile che io riesca a respingerti!",
+      "4": "Hmm… E così pare che io abbia perso.",
+      "5": "Ecco un’imitazione per te: Aiyee!"
+    }
+  },
+  "faba": {
+    "encounter": {
+      "1": "Io, Capo Filiale Vicio, ti mostrerò la crudeltà del mondo reale!",
+      "2": "L’uomo che è chiamato a essere l’ultima linea difensiva dell’Æther Paradise deve affrontare un semplice bambino?",
+      "2_female": "L’uomo che è chiamato a essere l’ultima linea difensiva dell’Æther Paradise deve affrontare una semplice bambina?",
+      "3": "Io, Vicio, sono il Capo Filiale Æther. L’unico al mondo, sono insostituibile."
+    },
+    "victory": {
+      "1": "Aiyee!",
+      "2": "C-c-come è possibile?! Come ha potuto questo ragazzino…",
+      "2_female": "C-c-come è possibile?! Come ha potuto questa ragazzina…",
+      "3": "Questo è il motivo… Questo è il motivo per cui non possono piacermi i bambini."
+    }
+  },
+  "skull_grunt": {
+    "encounter": {
+      "1": "Noi non siamo cattivi, siamo solo dei duri!",
+      "2": "Ne volete un po’? È così che salutiamo noi! Piacere di conoscervi, delinquenti!",
+      "2_female": "Ne volete un po’? È così che salutiamo noi! Piacere di conoscervi, delinquenti!",
+      "3": "Siamo soltanto un gruppo di ragazzi e ragazze con un grande interesse nei Pokémon delle altre persone!",
+      "4": "Perché cerchi di atteggiarti da duro quando qui ci siamo già noi duri come le ossa, fratello?",
+      "4_female": "Perché cerchi di atteggiarti da dura quando qui ci siamo già noi duri come le ossa, sorella?",
+      "5": "Comunque, pischello, resti fra noi! Ho per te un affare che rifiutar non puoi!",
+      "5_female": "Comunque, pischella, resti fra noi! Ho per te un affare che rifiutar non puoi!"
+    },
+    "victory": {
+      "1": "Huh? È già finita?",
+      "2": "È ora di darcela a gambe! Tanti saluti e occhio allo Sk-Sk-Skull!",
+      "3": "Non ci servono i tuoi terribili Pokémon, comunque!",
+      "4": "Cos-?! Questo ragazzino è fin troppo forte, nessun dubbio a riguardo!",
+      "5": "E quindi? Sono inferiore a un Pokémon?! Ho già problemi di autostima, dai."
+    }
+  },
+  "plumeria": {
+    "encounter": {
+      "1": " …Hmph. Non mi sembri niente di speciale.",
+      "1_female": " …Hmph. Non mi sembri niente di speciale.",
+      "2": "Queste stupide Reclute ci hanno messo fin troppo tempo a occuparsi di voi ragazzini…",
+      "3": "Prenditela con qualcuno del Team Skull, e ti farò vedere quanto seria posso diventare."
+    },
+    "victory": {
+      "1": "Hmmph! Sei piuttosto forte. Devo riconoscerlo.",
+      "1_female": "Hmmph! Sei piuttosto forte. Devo riconoscerlo.",
+      "2": "Hmmph. Sei piuttosto forte. Ora capisco perché le mie Reclute hanno sprecato così tanto tempo lottando con dei ragazzini.",
+      "3": "Hmmph! Immagino che dovrò farmi andare giù questa sconfitta."
+    }
+  },
+  "macro_grunt": {
+    "encounter": {
+      "1": "Sembra che sia giunta la fine per te!",
+      "2": "Sei un Allenatore, giusto? Temo che questo non ti dia il diritto di interferire con il nostro lavoro.",
+      "2_female": "Sei un’Allenatrice, giusto? Temo che questo non ti dia il diritto di interferire con il nostro lavoro.",
+      "3": "Sono della Macro Cosmos Assicurazioni! Hai una polizza di assicurazione sulla vita?",
+      "4": "Ti ho trovato! In questo caso, è ora di una lotta Pokémon!",
+      "4_female": "Ti ho trovata! In questo caso, è ora di una lotta Pokémon!",
+      "5": "Una predica da parte della signora Olive è molto peggio di qualsiasi cosa tu possa fare!"
+    },
+    "victory": {
+      "1": "Non ho altra scelta che ritirarmi rispettosamente.",
+      "2": "Ecco che se ne vanno i miei ultimi risparmi… E anche questo mese resto al verde…",
+      "3": "Nessuno può battere la Macro Cosmos quando si tratta del nostro impegno sul lavoro!",
+      "4": "Ho perfino cambiato i miei Pokémon…",
+      "5": "Le lotte non hanno funzionato… L’unica cosa da fare ora è correre!"
+    }
+  },
+  "oleana": {
+    "encounter": {
+      "1": "Non lascerò che qualcuno interferisca con il piano del Presidente Rose!",
+      "2": "E così avete sconfitto tutti i membri dello staff speciale a cui avevo ordinato di fermarvi. Non mi sarei aspettata nulla di meno.",
+      "3": "Per il presidente! Non perderò!"
+    },
+    "victory": {
+      "1": "*sospiro* Non sono stata in grado di vincere… Olive…sei davvero una donna senza speranza.",
+      "2": "Arghhh! Questo è imperdonabile… A cosa stavo pensando… Nessun allenatore che è arrivato fin qui sarebbe stato arrendevole..",
+      "2_female": "Arghhh! Questo è imperdonabile… A cosa stavo pensando… Nessuna allenatrice che è arrivata fin qui sarebbe stata arrendevole..",
+      "3": "*sospiro* Sono esausta capo…"
     }
   },
   "erika": {
