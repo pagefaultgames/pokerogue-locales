@@ -1,8 +1,17 @@
 {
   "atLevel": "Al Nv.{{lv}}",
+  "levelUp": "Subida de nivel",
+  "using": "Usa {{item}} ({{tier}})",
   "GREAT": "Súper",
   "ULTRA": "Ultra",
   "connector": ", ",
+  "gender": "({{gender}} solo)",
+  "timeOfDay": {
+    "DAY": "Durante el día o el amanecer",
+    "DUSK": "Durante el anochecer",
+    "NIGHT": "Durante la noche o el anochecer",
+    "DAWN": "Durante el amanecer"
+  },
   "move": "Conociendo el movimiento {{move}}",
   "moveType": "Conociendo un movimiento de tipo {{type}}",
   "friendship": "Teniendo suficiente amistad",
@@ -11,8 +20,13 @@
   "caught": "Si {{species}} ha sido capturado",
   "weather": "Con un tiempo atmosférico determinado",
   "treasure": "Después de encontrar tesoros suficientes",
+  "moveUseCount": "Después de usar el movimiento {{move}} {{count}} veces",
   "nature": "Siendo de una naturaleza específica",
   "biome": "En un bioma específico",
+  "heldItem": {
+    "DEEP_SEA_TOOTH": "Mientras tiene equipado Diente Marino",
+    "DEEP_SEA_SCALE": "Mientras tiene equipado Escama Marina"
+  },
   "Forms": {
     "ability": "Debido a su habilidad",
     "item": "Activando {{item}}",
