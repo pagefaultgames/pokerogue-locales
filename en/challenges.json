@@ -23,9 +23,14 @@
   },
   "freshStart": {
     "name": "Fresh Start",
-    "desc": "You can only use the original starters without any unlocks, as if you had just started PokéRogue for the first time.",
+    "desc.0": "Simulates the challenge of using freshly obtained starters with no unlocks.",
+    "desc.1": "You can only use the original starters without any unlocks, as if you had just started PokéRogue for the first time.",
+    "desc.2": "You can use any starter from the Common or Rare egg tiers, but without any unlocks, as if you had just obtained them for the first time.",
+    "desc.3": "You can use any starter, but without any unlocks, as if you had just obtained them for the first time.",
     "value.0": "Off",
-    "value.1": "On"
+    "value.1": "True Fresh Start",
+    "value.2": "No Legendaries",
+    "value.3": "Any Starter"
   },
   "inverseBattle": {
     "name": "Inverse Battle",
