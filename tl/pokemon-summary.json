@@ -1,4 +1,21 @@
 {
+  "pokemonInfo": "Info ng Pokémon",
+  "status": "Katayuan",
+  "powerAccuracyCategory": "Lakas\nKatumpakan\nKategorya",
+  "type": "Type",
+  "unknownTrainer": "Di Alam",
+  "ot": "OT",
+  "idNo": "ID No.",
+  "nature": "ugali",
+  "expPoints": "Puntos ng Exp.",
+  "lv": "Lv.",
+  "nextLv": "Susunod na Antas",
+  "cancel": "Cancel",
+  "memoString": "ugaling {{natureFragment}},\n{{metFragment}}",
+  "metFragment": {
+    "normal": "nakilala sa Lv{{level}},\n{{biome}}, Alon {{wave}}.",
+    "apparently": "ayon sa ulat, nakilala sa Lv{{level}},\n{{biome}}."
+  },
   "natureFragment": {
     "Hardy": "{{nature}}",
     "Lonely": "{{nature}}",
@@ -25,5 +42,6 @@
     "Sassy": "{{nature}}",
     "Careful": "{{nature}}",
     "Quirky": "{{nature}}"
-  }
+  },
+  "friendship": "Pagka-bond"
 }
