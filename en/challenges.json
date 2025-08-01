@@ -41,14 +41,16 @@
     "value.0": "Off",
     "value.1": "On"
   },
-  "noAutoHeal": {
-    "name": "No Free Heal",
+  "noSupport": {
+    "name": "No Support",
     "desc": "Disables the free automatic healing which normally occurs after every 10th wave.",
     "value.0": "Off",
-    "value.1": "On"
+    "value.1": "No Heal",
+    "value.2": "No Shop",
+    "value.3": "Both"
   },
-  "hardcore": {
-    "name": "Hardcore",
+  "permanentFaint": {
+    "name": "Permanent Faint",
     "desc": "You can no longer revive Pokémon that have fainted.",
     "value.0": "Off",
     "value.1": "On"
