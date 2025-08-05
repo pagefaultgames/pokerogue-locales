@@ -2,6 +2,16 @@
   "title": "Herausforderungsmodifikatoren",
   "illegalEvolution": "{{pokemon}} hat sich in ein Pokémon verwandelt, dass für diese Herausforderung nicht zulässig ist!",
   "noneSelected": "Keine ausgewählt",
+  "freshStart": {
+    "name": "Neuanfang",
+    "value.0": "Aus"
+  },
+  "limitedCatch": {
+    "name": "Fangbegrenzung",
+    "desc": "Du kannst nur das erste Pokémon eines Bioms zu deinem Team hinzufügen.",
+    "value.0": "Aus",
+    "value.1": "An"
+  },
   "singleGeneration": {
     "name": "Mono-Generation",
     "desc": "Du kannst nur Pokémon aus der {{gen}} Generation verwenden.",
@@ -21,10 +31,6 @@
     "desc": "Du kannst nur Pokémon des Typs {{type}} verwenden.",
     "desc_default": "Du kannst nur Pokémon des gewählten Typs verwenden."
   },
-  "freshStart": {
-    "name": "Neuanfang",
-    "value.0": "Aus"
-  },
   "inverseBattle": {
     "name": "Umkehrkampf",
     "shortName": "Umkehrkampf",
@@ -36,24 +42,6 @@
     "name": "Statuswert-Flip",
     "shortName": "Umkehren",
     "desc": "Die Werte werden neu gemischt. KP und Init tauschen.\nAngriff wird zu Sp.-Vert.\nVert. wird zu Sp.-Ang.\nSp.-Vert. wird zu Angriff.\nSp.-Ang. wird zu Vert.\nDeaktiviert die Erfolge anderer Herausforderungen.",
-    "value.0": "Aus",
-    "value.1": "An"
-  },
-  "noAutoHeal": {
-    "name": "Keine kostenlose Heilung",
-    "desc": "Deaktiviert die automatische Heilung alle 10 Wellen.",
-    "value.0": "Aus",
-    "value.1": "An"
-  },
-  "hardcore": {
-    "name": "Hardcore",
-    "desc": "Du kannst keine kampfunfähigen Pokémon mehr wiederbeleben.",
-    "value.0": "Aus",
-    "value.1": "An"
-  },
-  "limitedCatch": {
-    "name": "Fangbegrenzung",
-    "desc": "Du kannst nur das erste Pokémon eines Bioms zu deinem Team hinzufügen.",
     "value.0": "Aus",
     "value.1": "An"
   },
