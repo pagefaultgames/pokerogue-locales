@@ -2,6 +2,16 @@
   "title": "Parámetros de desafíos",
   "illegalEvolution": "¡{{pokemon}} ha evolucionado!\n¡No puede ser parte del desafío!",
   "noneSelected": "Ninguno Seleccionado",
+  "freshStart": {
+    "name": "Nuevo Comienzo",
+    "value.0": "Desact."
+  },
+  "limitedCatch": {
+    "name": "Captura limitada",
+    "desc": "Solo puedes añadir a tu equipo al primer Pokémon encontrado en cada bioma.",
+    "value.0": "Desact.",
+    "value.1": "Activo"
+  },
   "singleGeneration": {
     "name": "Monogeneración",
     "desc": "Solo puedes usar Pokémon de {{gen}} generación.",
@@ -21,12 +31,6 @@
     "desc": "Solo puedes usar Pokémon de tipo {{type}}.",
     "desc_default": "Solo puedes usar Pokémon del tipo elegido."
   },
-  "freshStart": {
-    "name": "Nuevo Comienzo",
-    "desc": "Sólo puedes usar Pokémon iniciales originales, como si acabases de empezar PokéRogue.",
-    "value.0": "Desact.",
-    "value.1": "Activo"
-  },
   "inverseBattle": {
     "name": "Lucha Inversa",
     "shortName": "Inverso",
@@ -38,24 +42,6 @@
     "name": "Stat Invertida",
     "shortName": "Invertido",
     "desc": "Las estadísticas se invierten de la siguiente forma:\n- PS con Velocidad\n- Ataque con Def. Esp.\n- Defensa con Atq. Esp.\nLos otros logros de desafíos están desactivados (Excepto Batalla Inversa)",
-    "value.0": "Desact.",
-    "value.1": "Activo"
-  },
-  "noAutoHeal": {
-    "name": "No hay Cura Gratis",
-    "desc": "Desactiva la cura automática que ocurre normalmente cada 10 oleadas",
-    "value.0": "Desact.",
-    "value.1": "Activo"
-  },
-  "hardcore": {
-    "name": "Extremo",
-    "desc": "No puedes revivir a Pokémon que han sido debilitados.",
-    "value.0": "Desact.",
-    "value.1": "Activo"
-  },
-  "limitedCatch": {
-    "name": "Captura limitada",
-    "desc": "Solo puedes añadir a tu equipo al primer Pokémon encontrado en cada bioma.",
     "value.0": "Desact.",
     "value.1": "Activo"
   },

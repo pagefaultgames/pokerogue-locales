@@ -2,6 +2,16 @@
   "title": "Modificatori delle sfide",
   "illegalEvolution": "{{pokemon}} non è più utilizzabile\nsecondo le regole della sfida!",
   "noneSelected": "Nessuna selezione",
+  "freshStart": {
+    "name": "Un nuovo inizio",
+    "value.0": "Off"
+  },
+  "limitedCatch": {
+    "name": "Catture limitate",
+    "desc": "Puoi catturare solo il primo Pokémon incontrato in ogni bioma.",
+    "value.0": "Off",
+    "value.1": "On"
+  },
   "singleGeneration": {
     "name": "Mono gen",
     "desc": "Puoi usare solo Pokémon di {{gen}} generazione.",
@@ -21,12 +31,6 @@
     "desc": "Puoi usare solo Pokémon di tipo {{type}}.",
     "desc_default": "Puoi usare solo Pokémon del tipo selezionato."
   },
-  "freshStart": {
-    "name": "Un nuovo inizio",
-    "desc": "Puoi usare solo gli starter originali, e come se avessi appena cominciato Pokérogue.",
-    "value.0": "Off",
-    "value.1": "On"
-  },
   "inverseBattle": {
     "name": "Battaglia invertita",
     "shortName": "Invertita",
@@ -38,24 +42,6 @@
     "name": "Invertistat",
     "shortName": "Invert",
     "desc": "Le statistiche sono invertite come segue:\n- PS con Velocità\n- Attacco con Difesa speciale\n- Difesa con Attacco speciale\nDisabilita gli obiettivi delle altre modalità sfida (eccetto Invertistat).",
-    "value.0": "Off",
-    "value.1": "On"
-  },
-  "noAutoHeal": {
-    "name": "Niente cure gratis",
-    "desc": "Disabilita le cure gratuite che normalmente avvengono ogni 10 onde.",
-    "value.0": "Off",
-    "value.1": "On"
-  },
-  "hardcore": {
-    "name": "Hardcore",
-    "desc": "Non puoi revitalizzare i Pokémon esausti.",
-    "value.0": "Off",
-    "value.1": "On"
-  },
-  "limitedCatch": {
-    "name": "Catture limitate",
-    "desc": "Puoi catturare solo il primo Pokémon incontrato in ogni bioma.",
     "value.0": "Off",
     "value.1": "On"
   },
