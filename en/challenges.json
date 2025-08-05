@@ -2,6 +2,21 @@
   "title": "Challenge Modifiers",
   "illegalEvolution": "{{pokemon}} changed into an ineligible Pokémon\nfor this challenge!",
   "noneSelected": "None Selected",
+  "freshStart": {
+    "name": "Fresh Start",
+    "desc.0": "Simulates the challenge of using freshly obtained starters with no unlocks.",
+    "desc.1": "You can only use the original starters without any unlocks, as if you had just started PokéRogue for the first time.",
+    "desc.2": "You can use any of your starters without any unlocks, as if you had just obtained them for the first time.",
+    "value.0": "Off",
+    "value.1": "Full Reset",
+    "value.2": "All Starters"
+  },
+  "limitedCatch": {
+    "name": "Limited Catch",
+    "desc": "You can only add the first Pokémon of a biome to your current party.",
+    "value.0": "Off",
+    "value.1": "On"
+  },
   "singleGeneration": {
     "name": "Mono Gen",
     "desc": "You can only use Pokémon from Generation {{gen}}.",
@@ -21,15 +36,6 @@
     "desc": "You can only use Pokémon with the {{type}} type.",
     "desc_default": "You can only use Pokémon of the chosen type."
   },
-  "freshStart": {
-    "name": "Fresh Start",
-    "desc.0": "Simulates the challenge of using freshly obtained starters with no unlocks.",
-    "desc.1": "You can only use the original starters without any unlocks, as if you had just started PokéRogue for the first time.",
-    "desc.2": "You can use any of your starters without any unlocks, as if you had just obtained them for the first time.",
-    "value.0": "Off",
-    "value.1": "Full Reset",
-    "value.2": "All Starters"
-  },
   "inverseBattle": {
     "name": "Inverse Battle",
     "shortName": "Inverse",
@@ -41,24 +47,6 @@
     "name": "Flip Stat",
     "shortName": "Flip",
     "desc": "Stats are flipped as follows:\n- HP with Speed\n- Attack with Sp. Def\n- Defense with Sp. Atk\nDisables other challenges’ achievements (Except Inverse Battle).",
-    "value.0": "Off",
-    "value.1": "On"
-  },
-  "noAutoHeal": {
-    "name": "No Free Heal",
-    "desc": "Disables the free automatic healing which normally occurs after every 10th wave.",
-    "value.0": "Off",
-    "value.1": "On"
-  },
-  "hardcore": {
-    "name": "Hardcore",
-    "desc": "You can no longer revive Pokémon that have fainted.",
-    "value.0": "Off",
-    "value.1": "On"
-  },
-  "limitedCatch": {
-    "name": "Limited Catch",
-    "desc": "You can only add the first Pokémon of a biome to your current party.",
     "value.0": "Off",
     "value.1": "On"
   },
