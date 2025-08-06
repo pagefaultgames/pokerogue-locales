@@ -2,6 +2,17 @@
   "title": "Desafios",
   "illegalEvolution": "{{pokemon}} não pode ser escolhido\nnesse desafio!",
   "noneSelected": "Nada Selecionado",
+  "freshStart": {
+    "name": "Novo Começo",
+    "desc.1": "Você só pode usar os iniciais originais, como se tivesse começado a jogar PokéRogue.",
+    "value.0": "Desligado"
+  },
+  "limitedCatch": {
+    "name": "Capturas Limitadas",
+    "desc": "Você só pode capturar o primeiro Pokémon de um bioma para sua equipe.",
+    "value.0": "Desligado",
+    "value.1": "Ligado"
+  },
   "singleGeneration": {
     "name": "Geração Única",
     "desc": "Você só pode usar Pokémon da {{gen}} geração.",
@@ -21,12 +32,6 @@
     "desc": "Você só pode usar Pokémon do tipo {{type}}.",
     "desc_default": "Você só pode usar Pokémon do tipo escolhido."
   },
-  "freshStart": {
-    "name": "Novo Começo",
-    "desc": "Você só pode usar os iniciais originais, como se tivesse começado a jogar PokéRogue.",
-    "value.0": "Desligado",
-    "value.1": "Ligado"
-  },
   "inverseBattle": {
     "name": "Batalha Inversa",
     "shortName": "Inversa",
@@ -38,24 +43,6 @@
     "name": "Inverter Atr.",
     "shortName": "Inversão",
     "desc": "Atributos são embaralhados para que os PS e Vel. sejam trocados.\nAta. vira Def. Esp.\nDef. vira Ata. Esp.\nDef. Esp. vira Ata.\nAta. Esp. vira Def.\nDesativa as conquistas de outros desafios (exceto Inversão).",
-    "value.0": "Desligado",
-    "value.1": "Ligado"
-  },
-  "noAutoHeal": {
-    "name": "Sem Cura de Graça",
-    "desc": "Desabilita a cura gratuita automática que normalmente ocorre a cada 10 ondas.",
-    "value.0": "Desligado",
-    "value.1": "Ligado"
-  },
-  "hardcore": {
-    "name": "Hardcore",
-    "desc": "Você não pode reanimar Pokémon desmaiados.",
-    "value.0": "Desligado",
-    "value.1": "Ligado"
-  },
-  "limitedCatch": {
-    "name": "Capturas Limitadas",
-    "desc": "Você só pode capturar o primeiro Pokémon de um bioma para sua equipe.",
     "value.0": "Desligado",
     "value.1": "Ligado"
   },
