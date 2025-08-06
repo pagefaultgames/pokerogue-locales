@@ -2,6 +2,38 @@
   "title": "Challenge Modifiers",
   "illegalEvolution": "{{pokemon}} changed into an ineligible Pokémon\nfor this challenge!",
   "noneSelected": "None Selected",
+  "freshStart": {
+    "name": "Fresh Start",
+    "desc.0": "Simulates the challenge of using freshly obtained starters with no unlocks.",
+    "desc.1": "You can only use the original starters without any unlocks, as if you had just started PokéRogue for the first time.",
+    "desc.2": "You can use any of your starters without any unlocks, as if you had just obtained them for the first time.",
+    "value.0": "Off",
+    "value.1": "Full Reset",
+    "value.2": "All Starters"
+  },
+  "permanentFaint": {
+    "name": "Hardcore",
+    "desc": "You can no longer revive Pokémon that have fainted.",
+    "value.0": "Off",
+    "value.1": "On"
+  },
+  "limitedCatch": {
+    "name": "Limited Catch",
+    "desc": "You can only add the first Pokémon of a biome to your current party.",
+    "value.0": "Off",
+    "value.1": "On"
+  },
+  "noSupport": {
+    "name": "No Support",
+    "desc.0": "Removes different ways you can restore your HP.",
+    "desc.1": "Removes the healing at the end of each biome.\nIn place you are given the standard end of wave reward menu.",
+    "desc.2": "Removes the Shop in the end of wave reward menu.",
+    "desc.3": "Removes the Shop in the end of wave reward menu.\n\nRemoves the healing at the end of each biome.\nIn place you are given the standard end of wave reward menu.",
+    "value.0": "Off",
+    "value.1": "No Heal",
+    "value.2": "No Shop",
+    "value.3": "Both"
+  },
   "singleGeneration": {
     "name": "Mono Gen",
     "desc": "You can only use Pokémon from Generation {{gen}}.",
@@ -21,49 +53,23 @@
     "desc": "You can only use Pokémon with the {{type}} type.",
     "desc_default": "You can only use Pokémon of the chosen type."
   },
-  "freshStart": {
-    "name": "Fresh Start",
-    "desc": "You can only use the original starters without any unlocks, as if you had just started PokéRogue for the first time.",
-    "value.0": "Off",
-    "value.1": "On"
-  },
   "inverseBattle": {
     "name": "Inverse Battle",
     "shortName": "Inverse",
-    "desc": "Type matchups are reversed and no type is immune to any other type.\nDisables other challenges’ achievements (Except Flip Stat).",
+    "desc": "Type matchups are reversed and no type is immune to any other type.\n\nDisables other challenges’ achievements (Except Flip Stat).",
     "value.0": "Off",
     "value.1": "On"
   },
   "flipStat": {
     "name": "Flip Stat",
     "shortName": "Flip",
-    "desc": "Stats are flipped as follows:\n- HP with Speed\n- Attack with Sp. Def\n- Defense with Sp. Atk\nDisables other challenges’ achievements (Except Inverse Battle).",
-    "value.0": "Off",
-    "value.1": "On"
-  },
-  "noSupport": {
-    "name": "No Support",
-    "desc": "Disables the free automatic healing which normally occurs after every 10th wave.",
-    "value.0": "Off",
-    "value.1": "No Heal",
-    "value.2": "No Shop",
-    "value.3": "Both"
-  },
-  "permanentFaint": {
-    "name": "Permanent Faint",
-    "desc": "You can no longer revive Pokémon that have fainted.",
-    "value.0": "Off",
-    "value.1": "On"
-  },
-  "limitedCatch": {
-    "name": "Limited Catch",
-    "desc": "You can only add the first Pokémon of a biome to your current party.",
+    "desc": "Stats are flipped as follows:\n- HP with Speed\n- Attack with Sp. Def\n- Defense with Sp. Atk\n\nDisables other challenges’ achievements (Except Inverse Battle).",
     "value.0": "Off",
     "value.1": "On"
   },
   "metronome": {
     "name": "Metronome Mode",
-    "desc": "You can only use Metronome! See how far you can get with pure chance.\nThis is a mode PURELY for fun and does not award an achievement.\nDisables all other achievements.",
+    "desc": "You can only use Metronome! See how far you can get with pure chance.\nThis is a mode PURELY for fun and does not award an achievement.\n\nDisables all other achievements.",
     "value.0": "Off",
     "value.1": "On"
   }
