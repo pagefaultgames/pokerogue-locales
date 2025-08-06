@@ -11,11 +11,28 @@
     "value.1": "Full Reset",
     "value.2": "All Starters"
   },
+  "hardcore": {
+    "name": "Hardcore",
+    "desc": "You can no longer revive Pokémon that have fainted.",
+    "value.0": "Off",
+    "value.1": "On"
+  },
   "limitedCatch": {
     "name": "Limited Catch",
     "desc": "You can only add the first Pokémon of a biome to your current party.",
     "value.0": "Off",
     "value.1": "On"
+  },
+  "limitedSupport": {
+    "name": "Limited Support",
+    "desc.0": "Removes some or all of the free options for healing your team.",
+    "desc.1": "Removes the healing at the end of each biome.\nIn place you are given the standard end of wave reward menu.",
+    "desc.2": "Removes the Shop in the end of wave reward menu.",
+    "desc.3": "Removes the Shop in the end of wave reward menu.\n\nRemoves the healing at the end of each biome.\nIn place you are given the standard end of wave reward menu.",
+    "value.0": "Off",
+    "value.1": "No Heal",
+    "value.2": "No Shop",
+    "value.3": "Both"
   },
   "singleGeneration": {
     "name": "Mono Gen",
@@ -39,20 +56,20 @@
   "inverseBattle": {
     "name": "Inverse Battle",
     "shortName": "Inverse",
-    "desc": "Type matchups are reversed and no type is immune to any other type.\nDisables other challenges’ achievements (Except Flip Stat).",
+    "desc": "Type matchups are reversed and no type is immune to any other type.\n\nDisables other challenges’ achievements (Except Flip Stat).",
     "value.0": "Off",
     "value.1": "On"
   },
   "flipStat": {
     "name": "Flip Stat",
     "shortName": "Flip",
-    "desc": "Stats are flipped as follows:\n- HP with Speed\n- Attack with Sp. Def\n- Defense with Sp. Atk\nDisables other challenges’ achievements (Except Inverse Battle).",
+    "desc": "Stats are flipped as follows:\n- HP with Speed\n- Attack with Sp. Def\n- Defense with Sp. Atk\n\nDisables other challenges’ achievements (Except Inverse Battle).",
     "value.0": "Off",
     "value.1": "On"
   },
   "metronome": {
     "name": "Metronome Mode",
-    "desc": "You can only use Metronome! See how far you can get with pure chance.\nThis is a mode PURELY for fun and does not award an achievement.\nDisables all other achievements.",
+    "desc": "You can only use Metronome! See how far you can get with pure chance.\nThis is a mode PURELY for fun and does not award an achievement.\n\nDisables all other achievements.",
     "value.0": "Off",
     "value.1": "On"
   }
