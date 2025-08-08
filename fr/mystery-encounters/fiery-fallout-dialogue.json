@@ -13,7 +13,7 @@
       "label": "S’accroupir",
       "tooltip": "(-) Subir la météo\n(?) Affecte le talent d’un Pokémon",
       "selected": "Les effets météorologiques causent d’importantes blessures alors que vous cherchez un abri !$Votre équipe perd 20% de ses PV totaux !",
-      "target_burned": "Votre {{burnedPokemon}} est également brulé !$À cause des conditions météo, {{burnedPokemon}}\nvoit également son talent modifié en {{abilityName}} !"
+      "targetBurned": "Votre {{burnedPokemon}} est également brulé !$À cause des conditions météo, {{burnedPokemon}}\nvoit également son talent modifié en {{abilityName}} !"
     },
     "3": {
       "label": "Type résistant au Feu à l’aide",
@@ -22,5 +22,5 @@
       "selected": "Votre {{option3PrimaryName}} vous guide et vous tombez sur deux {{volcaronaName}} en pleine parade nuptiale !$Heureusement, votre Pokémon parvient à les calmer et ils passent leur chemin sans causer de problèmes."
     }
   },
-  "found_item": "Alors que la météo se calme, votre {{leadPokemon}} repère quelque chose au sol.$@s{item_fanfare}{{leadPokemon}} obtient {{itemName}} !"
+  "foundItem": "Alors que la météo se calme, votre {{leadPokemon}} repère quelque chose au sol.$@s{item_fanfare}{{leadPokemon}} obtient {{itemName}} !"
 }

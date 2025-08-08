@@ -13,7 +13,7 @@
       "label": "Refugiarse",
       "tooltip": "(-) Sufre los efectos del clima\n(?) Afecta a la habilidad de un Pokémon",
       "selected": "Los efectos del clima causan un daño significativo mientras luchas por encontrar refugio. ¡Tu grupo pierde el 20% de su HP máximo!",
-      "target_burned": "¡Tu {{burnedPokemon}} también acabo quemándose!$¡Sin embargo, soportar las duras condiciones atmosféricas ha hecho que la habilidad de {{burnedPokemon}} cambie a {{abilityName}}!"
+      "targetBurned": "¡Tu {{burnedPokemon}} también acabo quemándose!$¡Sin embargo, soportar las duras condiciones atmosféricas ha hecho que la habilidad de {{burnedPokemon}} cambie a {{abilityName}}!"
     },
     "3": {
       "label": "Tus Pokémon resistentes al fuego ayudan",
@@ -22,5 +22,5 @@
       "selected": "¡Tu {{option3PrimaryName}} te guía hasta donde dos {{volcaronaName}}s están en medio de una danza de apareamiento!$Afortunadamente, tus Pokémon logran calmarlos\ny se van sin problemas."
     }
   },
-  "found_item": "Después de que el clima se despeja,\ntu {{leadPokemon}} ve algo en el suelo. $¡@s{item_fanfare}{{leadPokemon}} obtuvo un {{itemName}}!"
+  "foundItem": "Después de que el clima se despeja,\ntu {{leadPokemon}} ve algo en el suelo. $¡@s{item_fanfare}{{leadPokemon}} obtuvo un {{itemName}}!"
 }
