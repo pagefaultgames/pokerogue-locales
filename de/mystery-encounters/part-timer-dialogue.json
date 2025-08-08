@@ -5,7 +5,7 @@
   "title": "Teilzeitjob",
   "description": "Es scheint, als gäbe es viele Aufgaben, die erledigt werden müssen. Je besser dein Pokémon für eine Aufgabe geeignet ist, desto mehr Geld kann es verdienen.",
   "query": "Welchen Job wählst du?",
-  "invalid_selection": "Das Pokémon kann nicht arbeiten!",
+  "invalidSelection": "Das Pokémon kann nicht arbeiten!",
   "option": {
     "1": {
       "label": "Lieferdienst",
@@ -20,7 +20,7 @@
     "3": {
       "label": "Verkäufer",
       "tooltip": "(-) Dein {{option3PrimaryName}} nutzt {{option3PrimaryMove}}\n(+) Verdiene @[MONEY]{Geld}",
-      "disabled_tooltip": "Dein Pokémon muss bestimmte Attacken kennen, um diesen Job zu erledigen.",
+      "disabledTooltip": "Dein Pokémon muss bestimmte Attacken kennen, um diesen Job zu erledigen.",
       "selected": "Dein {{option3PrimaryName}} verbringt den Tag damit, {{option3PrimaryMove}} einzusetzen, um Kunden in den Laden zu locken!"
     }
   },

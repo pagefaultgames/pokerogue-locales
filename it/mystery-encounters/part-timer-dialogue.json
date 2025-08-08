@@ -5,7 +5,7 @@
   "title": "Lavoro Part-Time",
   "description": "Sembra che ci siano molti compiti da svolgere. A seconda di quanto un tuo Pokémon è adatto al compito, potrebbe guadagnare più o meno soldi.",
   "query": "Quale lavoro sceglierai?",
-  "invalid_selection": "Questo Pokémon non può lavorare!",
+  "invalidSelection": "Questo Pokémon non può lavorare!",
   "option": {
     "1": {
       "label": "Fare consegne",
@@ -20,7 +20,7 @@
     "3": {
       "label": "Assistente alle vendite",
       "tooltip": "(-) Il tuo {{option3PrimaryName}} usa {{option3PrimaryMove}}\n(+) Guadagna @[MONEY]{denaro}",
-      "disabled_tooltip": "Il tuo Pokémon deve conoscere determinate mosse per questo lavoro.",
+      "disabledTooltip": "Il tuo Pokémon deve conoscere determinate mosse per questo lavoro.",
       "selected": "Il tuo {{option3PrimaryName}} passa la giornata usando {{option3PrimaryMove}} per attirare dei clienti!"
     }
   },

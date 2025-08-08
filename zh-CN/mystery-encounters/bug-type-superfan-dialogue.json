@@ -14,27 +14,27 @@
     "2": {
       "label": "展示虫宝可梦",
       "tooltip": "(+)获得一件道具",
-      "disabled_tooltip": "你需要至少携带\n一只虫系宝可梦",
+      "disabledTooltip": "你需要至少携带\n一只虫系宝可梦",
       "selected": "你向训练师展示了你所有的虫系宝可梦",
-      "selected_0_to_1": "哈？你才有{{numBugTypes}}。$你对我来说真是浪费时间。",
-      "selected_2_to_3": "嘿，你有{{numBugTypes}}！\n不错。$来，这能帮你多抓点虫虫。",
-      "selected_4_to_5": "啥？你有{{numBugTypes}}！！\n牛啊！$你还没有达到我的水平，\n但我可以从你身上看到自己的影子！$拿着，我的小徒弟！",
-      "selected_6": "哇哦！{{numBugTypes}}种虫虫！$您一定和我一样喜欢虫属性！$来，把这个当作我们友谊的象征吧！"
+      "selected0To1": "哈？你才有{{numBugTypes}}。$你对我来说真是浪费时间。",
+      "selected2To3": "嘿，你有{{numBugTypes}}！\n不错。$来，这能帮你多抓点虫虫。",
+      "selected4To5": "啥？你有{{numBugTypes}}！！\n牛啊！$你还没有达到我的水平，\n但我可以从你身上看到自己的影子！$拿着，我的小徒弟！",
+      "selected6": "哇哦！{{numBugTypes}}种虫虫！$您一定和我一样喜欢虫属性！$来，把这个当作我们友谊的象征吧！"
     },
     "3": {
       "label": "赠送虫系道具",
       "tooltip": "(-)给予训练师{{requiredBugItems}}\n(+)得到一件礼物",
-      "disabled_tooltip": "你需要一件{{requiredBugItems}}\n才能选择",
-      "select_prompt": "选择一件道具",
-      "invalid_selection": "宝可梦未持有该类道具",
+      "disabledTooltip": "你需要一件{{requiredBugItems}}\n才能选择",
+      "selectPrompt": "选择一件道具",
+      "invalidSelection": "宝可梦未持有该类道具",
       "selected": "你递交了{{selectedItem}}.",
-      "selected_dialogue": "哇！一件{{selectedItem}}，给我的？\n你可以啊小子！$为了表达我的谢意，\n我希望你能拥有这份特别的礼物！$这可是我的传家宝啊，现在我希望你能拥有它！"
+      "selectedDialogue": "哇！一件{{selectedItem}}，给我的？\n你可以啊小子！$为了表达我的谢意，\n我希望你能拥有这份特别的礼物！$这可是我的传家宝啊，现在我希望你能拥有它！"
     }
   },
-  "battle_won": "你利用知识和技巧完美地痛击了我们的弱点！\n作为这一课的学费，请让我教你一个虫系招式！",
-  "teach_move_prompt": "选择要教给宝可梦的招式",
-  "confirm_no_teach": "你确定你不需要学习任何招式么？",
+  "battleWon": "你利用知识和技巧完美地痛击了我们的弱点！\n作为这一课的学费，请让我教你一个虫系招式！",
+  "teachMovePrompt": "选择要教给宝可梦的招式",
+  "confirmNoTeach": "你确定你不需要学习任何招式么？",
   "outro": "我看到你的未来将伴随伟大的虫系宝可梦！\n愿我们再次相遇！虫虫出动！",
-  "numBugTypes_one": "{{count}}种虫系",
-  "numBugTypes_other": "{{count}}种虫系"
+  "numBugTypesOne": "{{count}}种虫系",
+  "numBugTypesOther": "{{count}}种虫系"
 }

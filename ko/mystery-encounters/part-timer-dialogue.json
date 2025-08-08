@@ -5,7 +5,7 @@
   "title": "아르바이트",
   "description": "해야 할 일이 산더미같이 쌓여 있네요.\n포켓몬이 일을 얼마나 잘하는지에 따라\n일당을 더 많이 받을 수도, 더 적게 받을 수도 있을 것 같습니다.",
   "query": "어떤 아르바이트를 해볼까요?",
-  "invalid_selection": "이 포켓몬은 일할 수 없다!",
+  "invalidSelection": "이 포켓몬은 일할 수 없다!",
   "option": {
     "1": {
       "label": "배달하기",
@@ -20,7 +20,7 @@
     "3": {
       "label": "바람잡이",
       "tooltip": "(-) {{option3PrimaryName}}의 {{option3PrimaryMove}}를 활용\n(+) @[MONEY]{소지금} 획득",
-      "disabled_tooltip": "포켓몬이 해당 작업에 필요한 기술이 없습니다.",
+      "disabledTooltip": "포켓몬이 해당 작업에 필요한 기술이 없습니다.",
       "selected": "{{option3PrimaryName}}[[는]] {{option3PrimaryMove}}[[로]]\n하루 종일 손님들을 끌어모았다!"
     }
   },

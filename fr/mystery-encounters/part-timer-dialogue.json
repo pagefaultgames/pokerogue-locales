@@ -5,7 +5,7 @@
   "title": "L’intérimaire",
   "description": "La liste de tâches à effectuer a l’air incroyablement longue.\nEn fonction des compétences du Pokémon choisi pour une tâche donnée, vous gagnerez un salaire plus ou moins important.",
   "query": "Quel poste vous intéresse le plus ?",
-  "invalid_selection": "Ce Pokémon ne peut pas travailler !",
+  "invalidSelection": "Ce Pokémon ne peut pas travailler !",
   "option": {
     "1": {
       "label": "Livraisons",
@@ -20,7 +20,7 @@
     "3": {
       "label": "Assistant vendeur",
       "tooltip": "(-) Votre {{option3PrimaryName}} utilise {{option3PrimaryMove}}\n(+) Toucher un @[MONEY]{salaire}",
-      "disabled_tooltip": "Votre Pokémon doit connaitre certaines capacités pour choisir ce poste.",
+      "disabledTooltip": "Votre Pokémon doit connaitre certaines capacités pour choisir ce poste.",
       "selected": "Votre {{option3PrimaryName}} passe sa journée à utiliser {{option3PrimaryMove}} pour attirer des clients !"
     }
   },

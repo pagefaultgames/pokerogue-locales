@@ -5,7 +5,7 @@
   "title": "兼职",
   "description": "似乎有不少活要干。\n根据你宝可梦对任务的适应度，\n你能获得或多或少的报酬。",
   "query": "你要干什么活？",
-  "invalid_selection": "这只宝可梦无法工作了！",
+  "invalidSelection": "这只宝可梦无法工作了！",
   "option": {
     "1": {
       "label": "外卖",
@@ -20,7 +20,7 @@
     "3": {
       "label": "销售",
       "tooltip": "(-)你的{{option3PrimaryName}}使用{{option3PrimaryMove}}\n(+)赚取@[MONEY]{金钱}",
-      "disabled_tooltip": "你的宝可梦需要习得\n适合这份工作的招式",
+      "disabledTooltip": "你的宝可梦需要习得\n适合这份工作的招式",
       "selected": "你的{{option3PrimaryName}}花费一天时间\n使用{{option3PrimaryMove}}来吸引客户！"
     }
   },

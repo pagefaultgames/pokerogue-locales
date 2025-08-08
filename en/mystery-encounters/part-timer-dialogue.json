@@ -5,7 +5,7 @@
   "title": "Part-Timer",
   "description": "Looks like there are plenty of tasks that need to be done. Depending how well-suited your Pokémon is to a task, they might earn more or less money.",
   "query": "Which job will you choose?",
-  "invalid_selection": "This Pokémon can’t work!",
+  "invalidSelection": "This Pokémon can’t work!",
   "option": {
     "1": {
       "label": "Make Deliveries",
@@ -20,7 +20,7 @@
     "3": {
       "label": "Sales Assistant",
       "tooltip": "(-) Your {{option3PrimaryName}} uses {{option3PrimaryMove}}\n(+) Earn @[MONEY]{Money}",
-      "disabled_tooltip": "Your Pokémon need to know certain moves for this job.",
+      "disabledTooltip": "Your Pokémon need to know certain moves for this job.",
       "selected": "Your {{option3PrimaryName}} spends the day using {{option3PrimaryMove}} to draw customers to the business!"
     }
   },

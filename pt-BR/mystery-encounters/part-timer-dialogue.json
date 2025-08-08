@@ -5,7 +5,7 @@
   "title": "Trabalho Temporário",
   "description": "Parece que há muitas tarefas que precisam ser feitas. Dependendo de quão bem o seu Pokémon se adapta a uma tarefa, ele pode ganhar mais ou menos dinheiro.",
   "query": "Qual trabalho você vai escolher?",
-  "invalid_selection": "Esse Pokémon não pode trabalhar!",
+  "invalidSelection": "Esse Pokémon não pode trabalhar!",
   "option": {
     "1": {
       "label": "Fazer Entregas",
@@ -20,7 +20,7 @@
     "3": {
       "label": "Assistente de Vendas",
       "tooltip": "(-) Seu {{option3PrimaryName}} usa {{option3PrimaryMove}}\n(+) Ganhe @[MONEY]{Dinheiro}",
-      "disabled_tooltip": "Seu Pokémon precisa conhecer certos movimentos para este trabalho.",
+      "disabledTooltip": "Seu Pokémon precisa conhecer certos movimentos para este trabalho.",
       "selected": "Seu {{option3PrimaryName}} passa o dia usando {{option3PrimaryMove}} para atrair clientes para o negócio!"
     }
   },

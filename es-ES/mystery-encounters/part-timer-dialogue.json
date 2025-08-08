@@ -5,7 +5,7 @@
   "title": "Trabajador a Tiempo Parcial",
   "description": "Parece que hay mucho por hacer. Dependiendo de lo bien que se adapte tu Pokémon a una tarea, podría ganar más o menos dinero.",
   "query": "¿Qué trabajo escogerás?",
-  "invalid_selection": "¡Este Pokémon no puede trabajar!",
+  "invalidSelection": "¡Este Pokémon no puede trabajar!",
   "option": {
     "1": {
       "label": "Hacer Entregas",
@@ -20,7 +20,7 @@
     "3": {
       "label": "Asistente de Ventas",
       "tooltip": "(-) Tu {{option3PrimaryName}} usa {{option3PrimaryMove}}\n(+) Obtén @[MONEY]{Dinero}",
-      "disabled_tooltip": "Tu Pokémon necesita conocer ciertos movimientos para este trabajo.",
+      "disabledTooltip": "Tu Pokémon necesita conocer ciertos movimientos para este trabajo.",
       "selected": "¡Tu {{option3PrimaryName}} pasa el día usando {{option3PrimaryMove}} para atraer clientes!"
     }
   },
