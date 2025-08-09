@@ -7,7 +7,7 @@
     "1": {
       "label": "查找交换请求",
       "tooltip": "(+)为一只宝可梦\n选择交换",
-      "trade_options_prompt": "选择一只要通过交换接收的神奇宝贝。"
+      "tradeOptionsPrompt": "选择一只要通过交换接收的神奇宝贝。"
     },
     "2": {
       "label": "奇迹交换",
@@ -15,7 +15,7 @@
     },
     "3": {
       "label": "道具交换",
-      "trade_options_prompt": "选择要发送的道具",
+      "tradeOptionsPrompt": "选择要发送的道具",
       "invalidSelection": "这只宝可梦没有合法道具\n可以被交换。",
       "tooltip": "(+)发送一件道具\n并获得一件随机新道具"
     },
@@ -25,8 +25,8 @@
       "selected": "今日不宜交换！\n你上路了。"
     }
   },
-  "pokemon_trade_selected": "{{tradedPokemon}}将发送给{{tradeTrainerName}}。",
-  "pokemon_trade_goodbye": "再见，{{tradedPokemon}}！",
-  "item_trade_selected": "{{chosenItem}}将发送给{{tradeTrainerName}}.$.@d{64}.@d{64}.@d{64}\\n@s{level_up_fanfare}交易成功！$你从{{tradeTrainerName}}那得到了{{itemName}}！",
-  "trade_received": "@s{evolution_fanfare}{{tradeTrainerName}}已发送{{received}}！"
+  "pokemonTradeSelected": "{{tradedPokemon}}将发送给{{tradeTrainerName}}。",
+  "pokemonTradeGoodbye": "再见，{{tradedPokemon}}！",
+  "itemTradeSelected": "{{chosenItem}}将发送给{{tradeTrainerName}}.$.@d{64}.@d{64}.@d{64}\\n@s{level_up_fanfare}交易成功！$你从{{tradeTrainerName}}那得到了{{itemName}}！",
+  "tradeReceived": "@s{evolution_fanfare}{{tradeTrainerName}}已发送{{received}}！"
 }
