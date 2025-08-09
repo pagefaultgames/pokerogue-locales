@@ -4,13 +4,13 @@
   "introDialogue": "Salutations !\nJ’ai une offre à proposer rien qu’à VOUS !",
   "title": "Le vendeur de Pokémon",
   "description": "« Cet incroyable et unique {{purchasePokemon}} @[TOOLTIP_TITLE]{possède un talent jamais vu dans son espèce} ! Ce superbe {{purchasePokemon}} est à vous pour le prix imbattable de {{price, money}} ! »\n\n« Qu’en dites-vous ? »",
-  "description_shiny": "« Cet incroyable et unique {{purchasePokemon}} @[TOOLTIP_TITLE]{possède une pigmentation unique jamais vue dans son espèce} ! Ce superbe {{purchasePokemon}} est à vous pour le prix imbattable de {{price, money}} ! »\n\n« Qu’en dites-vous ? »",
+  "descriptionShiny": "« Cet incroyable et unique {{purchasePokemon}} @[TOOLTIP_TITLE]{possède une pigmentation unique jamais vue dans son espèce} ! Ce superbe {{purchasePokemon}} est à vous pour le prix imbattable de {{price, money}} ! »\n\n« Qu’en dites-vous ? »",
   "query": "Que voulez-vous faire ?",
   "option": {
     "1": {
       "label": "Accepter",
       "tooltip": "(-) Payer {{price, money}}\n(+) {{purchasePokemon}} obtenu avec son talent caché",
-      "tooltip_shiny": "(-) Payer {{price, money}}\n(+) {{purchasePokemon}} chromatique obtenu",
+      "tooltipShiny": "(-) Payer {{price, money}}\n(+) {{purchasePokemon}} chromatique obtenu",
       "selectedMessage": "Vous déboursez une somme absolument honteuse\npour acheter ce {{purchasePokemon}}.",
       "selectedDialogue": "Excellent choix !\nVous avez pour sûr un sens aiguisé des affaires.$Oh, ah euh…@d{64}\nNi repris, ni échangé par contre hein, compris ?"
     },

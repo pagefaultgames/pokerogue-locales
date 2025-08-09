@@ -4,13 +4,13 @@
   "introDialogue": "ハローゼアー！\nどこにも　見つけない　ディールが　あります！",
   "title": "ポケモンのセールスマン",
   "description": "「この {{purchasePokemon}}は とても ユニークで 種類の 中で @[TOOLTIP_TITLE]{滅多に 見られない 特性が あります}！ {{price, money}}だけで この アメイジングな {{purchasePokemon}}を もらいますよ！」\n「いかがですか？」",
-  "description_shiny": "「この {{purchasePokemon}}は とても ユニークで 種類の 中で @[TOOLTIP_TITLE]{滅多に 見られない カラーが あります}！ {{price, money}}だけで この アメイジングな {{purchasePokemon}}を もらいますよ！」\n「いかがですか？」",
+  "descriptionShiny": "「この {{purchasePokemon}}は とても ユニークで 種類の 中で @[TOOLTIP_TITLE]{滅多に 見られない カラーが あります}！ {{price, money}}だけで この アメイジングな {{purchasePokemon}}を もらいますよ！」\n「いかがですか？」",
   "query": "どうします？",
   "option": {
     "1": {
       "label": "受け取る",
       "tooltip": "(-) {{price, money}}を払う\n(+) 隠れ特性の ある {{purchasePokemon}}を もらう",
-      "tooltip_shiny": "(-) {{price, money}}を払う\n(+) 色違いの {{purchasePokemon}}を もらう",
+      "tooltipShiny": "(-) {{price, money}}を払う\n(+) 色違いの {{purchasePokemon}}を もらう",
       "selectedMessage": "とんでもない　価格を　払って　{{purchasePokemon}}を　買いました。",
       "selectedDialogue": "エクセレント・チョイス！$あなたは　ビジネス上手　なんでしょうね$あ　そうでね……@d{64} 返品が　受け入れない\n分かった？"
     },
