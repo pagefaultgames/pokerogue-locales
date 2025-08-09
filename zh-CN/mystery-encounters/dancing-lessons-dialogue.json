@@ -8,7 +8,7 @@
       "label": "战斗",
       "tooltip": "(-)艰难的战斗\n(+)获得接力棒",
       "selected": "{{oricorioName}}变得急躁，想要采取行动进行自卫！",
-      "boss_enraged": "{{oricorioName}}的恐惧使它的能力上升了！"
+      "bossEnraged": "{{oricorioName}}的恐惧使它的能力上升了！"
     },
     "2": {
       "label": "学习它的舞蹈",
@@ -18,10 +18,10 @@
     "3": {
       "label": "表演一支舞蹈",
       "tooltip": "(-)教{{oricorioName}}一支舞蹈\n(+){{oricorioName}}会喜欢你",
-      "disabled_tooltip": "你的宝可梦需要\n习得一种舞蹈动作。",
-      "select_prompt": "选择一个舞蹈招式",
+      "disabledTooltip": "你的宝可梦需要\n习得一种舞蹈动作。",
+      "selectPrompt": "选择一个舞蹈招式",
       "selected": "{{oricorioName}}着迷地观看着\n{{selectedPokemon}}展示{{selectedMove}}！$它喜欢这场表演！$@s{level_up_fanfare}{{oricorioName}}想要加入你的队伍！"
     }
   },
-  "invalid_selection": "该宝可梦无法学会跳舞招式"
+  "invalidSelection": "该宝可梦无法学会跳舞招式"
 }

@@ -1,7 +1,7 @@
 {
   "intro": "お金持ちっぽいな　男の子が　道を　さえぎる……",
   "speaker": "お坊っちゃま",
-  "intro_dialogue": "こんにちは！$まるで　素敵滅法な　{{strongestPokemon}}を\n飼っている　ことに　気づかずには　いられません！$ずーっと　そのような　\nポケモンを　飼いたかったんです！$ねッ　気前よく　支払って　サービスで\nこの古くて　安かった石を　あげて　いかがですか？",
+  "introDialogue": "こんにちは！$まるで　素敵滅法な　{{strongestPokemon}}を\n飼っている　ことに　気づかずには　いられません！$ずーっと　そのような　\nポケモンを　飼いたかったんです！$ねッ　気前よく　支払って　サービスで\nこの古くて　安かった石を　あげて　いかがですか？",
   "title": "断れない申し出",
   "description": "お坊っちゃまは {{strongestPokemon}}の 代わりに @[TOOLTIP_TITLE]{ {{itemName}}}と {{price, money}}を 申し出ています。 交換として 結構 すごいですが、 本当に こんな 強い 仲間と 別れるのを 耐えられますか？",
   "query": "どうしますか？",
@@ -14,7 +14,7 @@
     "2": {
       "label": "ガキを恐喝",
       "tooltip": "(+) {{option2PrimaryName}}は{{moveOrAbility}}を使う\n(+) {{price, money}}を貰う",
-      "tooltip_disabled": "選ぶには 手持ちポケモンが 特定な 技や 特性が 必要",
+      "tooltipDisabled": "選ぶには 手持ちポケモンが 特定な 技や 特性が 必要",
       "selected": "いやあ！　{{liepardName}}　泥棒だ！$お父さんの　弁護士は\nキサマを　連絡するぞ！！"
     },
     "3": {
