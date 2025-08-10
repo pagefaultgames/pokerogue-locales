@@ -1,84 +1,84 @@
 {
-  "ModifierType": {
-    "AddPokeballModifierType": {
-      "name": "{{modifierCount}}x {{pokeballName}}",
-      "description": "获得 {{pokeballName}}x {{modifierCount}} (已有：{{pokeballAmount}}) \n捕捉倍率：{{catchRate}}。"
+  "Item": {
+    "AddPokeballReward": {
+      "name": "{{rewardCount}}x {{pokeballName}}",
+      "description": "获得 {{pokeballName}}x {{rewardCount}} (已有：{{pokeballAmount}}) \n捕捉倍率：{{catchRate}}。"
     },
-    "AddVoucherModifierType": {
-      "name": "{{modifierCount}}x {{voucherTypeName}}",
-      "description": "获得 {{voucherTypeName}} x{{modifierCount}}。"
+    "AddVoucherReward": {
+      "name": "{{rewardCount}}x {{voucherTypeName}}",
+      "description": "获得 {{voucherTypeName}} x{{rewardCount}}。"
     },
-    "PokemonHeldItemModifierType": {
+    "PokemonHeldItemReward": {
       "extra": {
         "inoperable": "{{pokemonName}} 无法携带\n这个物品！",
         "tooMany": "{{pokemonName}} 已有太多\n这个物品！"
       }
     },
-    "PokemonHpRestoreModifierType": {
+    "PokemonHpRestoreReward": {
       "description": "为一只宝可梦回复{{restorePoints}}HP或{{restorePercent}}%HP，取较大值。",
       "extra": {
         "fully": "为一只宝可梦回复全部HP。",
         "fullyWithStatus": "为一只宝可梦回复全部HP并消除所有负面\n状态。"
       }
     },
-    "PokemonReviveModifierType": {
+    "PokemonReviveReward": {
       "description": "复活一只宝可梦并回复 {{restorePercent}}% HP。"
     },
-    "PokemonStatusHealModifierType": {
+    "PokemonStatusHealReward": {
       "description": "为一只宝可梦消除所有负面状态。"
     },
-    "PokemonPpRestoreModifierType": {
+    "PokemonPpRestoreReward": {
       "description": "为一只宝可梦的一个招式回复 {{restorePoints}} PP。",
       "extra": {
         "fully": "完全回复一只宝可梦一个招式的PP。"
       }
     },
-    "PokemonAllMovePpRestoreModifierType": {
+    "PokemonAllMovePpRestoreReward": {
       "description": "为一只宝可梦的所有招式回复 {{restorePoints}} PP。",
       "extra": {
         "fully": "为一只宝可梦的所有招式回复所有PP。"
       }
     },
-    "PokemonPpUpModifierType": {
+    "PokemonPpUpReward": {
       "description": "选择一只宝可梦的一个招式使用\n使其PP最大值提升基础的20％ (最多3次)。"
     },
-    "PokemonNatureChangeModifierType": {
+    "PokemonNatureChangeReward": {
       "name": "{{natureName}}薄荷",
       "description": "将一只宝可梦的性格改为{{natureName}}并为\n该宝可梦永久解锁该性格。"
     },
-    "DoubleBattleChanceBoosterModifierType": {
+    "DoubleBattleChanceBoosterTrainerItem": {
       "description": "遭遇双打概率提升四倍，持续{{battleCount}}场战斗。"
     },
-    "TempStatStageBoosterModifierType": {
+    "TempStatStageBoosterTrainerItem": {
       "description": "提升全队的{{stat}}{{amount}}，持续5场战斗。",
       "extra": {
         "stage": "1阶",
         "percentage": "30%"
       }
     },
-    "AttackTypeBoosterModifierType": {
+    "AttackTypeBoosterHeldItem": {
       "description": "一只宝可梦的{{moveType}}系招式威力提升20%。"
     },
-    "PokemonLevelIncrementModifierType": {
+    "PokemonLevelIncrementReward": {
       "description": "使一只宝可梦的等级提升{{levels}}级。"
     },
-    "AllPokemonLevelIncrementModifierType": {
+    "AllPokemonLevelIncrementReward": {
       "description": "使所有宝可梦的等级提升{{levels}}级。"
     },
-    "BaseStatBoosterModifierType": {
+    "BaseStatBoosterHeldItem": {
       "description": "增加10%持有者的{{stat}}，\n个体值越高堆叠上限越高。"
     },
-    "PokemonBaseStatFlatModifierType": {
+    "PokemonBaseStatFlatHeldItem": {
       "name": "森之羊羹",
       "description": "增加持有者{{stats}}的基础属性{{statValue}}，来自于一场怪梦。"
     },
-    "AllPokemonFullHpRestoreModifierType": {
+    "AllPokemonFullHpRestoreReward": {
       "description": "所有宝可梦完全回复HP。"
     },
-    "AllPokemonFullReviveModifierType": {
+    "AllPokemonFullReviveReward": {
       "description": "复活所有濒死的宝可梦，\n并完全回复HP。"
     },
-    "MoneyRewardModifierType": {
+    "MoneyReward": {
       "description": "获得{{moneyMultiplier}}金钱(₽{{moneyAmount}})。",
       "extra": {
         "small": "少量",
@@ -86,52 +86,52 @@
         "large": "大量"
       }
     },
-    "ExpBoosterModifierType": {
+    "ExpBoosterTrainerItem": {
       "description": "经验值获取量增加{{boostPercent}}%。"
     },
-    "PokemonExpBoosterModifierType": {
+    "PokemonExpBoosterTrainerItem": {
       "description": "持有者经验值获取量增加{{boostPercent}}%。"
     },
-    "PokemonFriendshipBoosterModifierType": {
+    "PokemonFriendshipBoosterHeldItem": {
       "description": "亲密度获取量增加50%。"
     },
-    "PokemonMoveAccuracyBoosterModifierType": {
+    "PokemonMoveAccuracyBoosterHeldItem": {
       "description": "招式命中率增加{{accuracyAmount}}。"
     },
-    "PokemonMultiHitModifierType": {
+    "PokemonMultiHitHeldItem": {
       "description": "将持有者本次伤害的25%转化为一次独立的攻击。"
     },
-    "TmModifierType": {
+    "TmReward": {
       "name": "招式学习器\n{{moveId}} - {{moveName}}",
       "description": "教会一只宝可梦{{moveName}}。"
     },
-    "TmModifierTypeWithInfo": {
+    "TmRewardWithInfo": {
       "name": "招式学习器\n{{moveId}} - {{moveName}}",
       "description": "教会一只宝可梦{{moveName}}\n(按住C或者Shift查看更多信息)。"
     },
-    "EvolutionItemModifierType": {
+    "EvolutionItemReward": {
       "description": "使某些宝可梦进化。"
     },
-    "FormChangeItemModifierType": {
+    "FormChangeItemReward": {
       "description": "使某些宝可梦更改形态。"
     },
-    "FusePokemonModifierType": {
+    "FusePokemonReward": {
       "description": "融合两只宝可梦（改变特性, 平分基础点数\n和属性, 共享招式池）。"
     },
-    "TerastallizeModifierType": {
+    "TerastallizeReward": {
       "name": "{{teraType}}太晶碎块",
       "description": "将宝可梦的太晶属性变为{{teraType}}。"
     },
-    "ContactHeldItemTransferChanceModifierType": {
+    "ContactHeldItemTransferChanceHeldItem": {
       "description": "攻击时{{chancePercent}}%概率\n偷取对手物品。"
     },
-    "TurnHeldItemTransferModifierType": {
+    "TurnHeldItemTransferHeldItem": {
       "description": "持有者每回合从对手那里\n获得一个持有的物品。"
     },
-    "EnemyAttackStatusEffectChanceModifierType": {
+    "EnemyAttackStatusEffectChanceTrainerItem": {
       "description": "攻击时{{chancePercent}}%概率造成{{statusEffect}}。"
     },
-    "EnemyEndureChanceModifierType": {
+    "EnemyEndureChanceTrainerItem": {
       "description": "敌方增加{{chancePercent}}%的概率\n在本回合不会倒下。"
     },
     "RARE_CANDY": {

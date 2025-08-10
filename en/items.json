@@ -1,84 +1,84 @@
 {
-  "ModifierType": {
-    "AddPokeballModifierType": {
-      "name": "{{modifierCount}}x {{pokeballName}}",
-      "description": "Receive {{pokeballName}} x{{modifierCount}} (Inventory: {{pokeballAmount}}) \nCatch Rate: {{catchRate}}"
+  "Item": {
+    "AddPokeballReward": {
+      "name": "{{rewardCount}}x {{pokeballName}}",
+      "description": "Receive {{pokeballName}} x{{rewardCount}} (Inventory: {{pokeballAmount}}) \nCatch Rate: {{catchRate}}"
     },
-    "AddVoucherModifierType": {
-      "name": "{{modifierCount}}x {{voucherTypeName}}",
-      "description": "Receive {{voucherTypeName}} x{{modifierCount}}."
+    "AddVoucherReward": {
+      "name": "{{rewardCount}}x {{voucherTypeName}}",
+      "description": "Receive {{voucherTypeName}} x{{rewardCount}}."
     },
-    "PokemonHeldItemModifierType": {
+    "PokemonHeldItemReward": {
       "extra": {
         "inoperable": "{{pokemonName}} can’t take\nthis item!",
         "tooMany": "{{pokemonName}} has too many\nof this item!"
       }
     },
-    "PokemonHpRestoreModifierType": {
+    "PokemonHpRestoreReward": {
       "description": "Restores {{restorePoints}} HP or {{restorePercent}}% HP for one Pokémon, whichever is higher.",
       "extra": {
         "fully": "Fully restores HP for one Pokémon.",
         "fullyWithStatus": "Fully restores HP for one Pokémon and heals any status ailment."
       }
     },
-    "PokemonReviveModifierType": {
+    "PokemonReviveReward": {
       "description": "Revives one Pokémon and restores {{restorePercent}}% HP."
     },
-    "PokemonStatusHealModifierType": {
+    "PokemonStatusHealReward": {
       "description": "Heals any status ailment for one Pokémon."
     },
-    "PokemonPpRestoreModifierType": {
+    "PokemonPpRestoreReward": {
       "description": "Restores {{restorePoints}} PP for one Pokémon move.",
       "extra": {
         "fully": "Restores all PP for one Pokémon move."
       }
     },
-    "PokemonAllMovePpRestoreModifierType": {
+    "PokemonAllMovePpRestoreReward": {
       "description": "Restores {{restorePoints}} PP for all of one Pokémon’s moves.",
       "extra": {
         "fully": "Restores all PP for all of one Pokémon’s moves."
       }
     },
-    "PokemonPpUpModifierType": {
+    "PokemonPpUpReward": {
       "description": "Permanently increases PP for one Pokémon move by {{upPoints}} for every 5 maximum PP (maximum 3)."
     },
-    "PokemonNatureChangeModifierType": {
+    "PokemonNatureChangeReward": {
       "name": "{{natureName}} Mint",
       "description": "Changes a Pokémon’s nature to {{natureName}} and permanently unlocks the nature for the starter."
     },
-    "DoubleBattleChanceBoosterModifierType": {
+    "DoubleBattleChanceBoosterTrainerItem": {
       "description": "Quadruples the chance of an encounter being a double battle for up to {{battleCount}} battles."
     },
-    "TempStatStageBoosterModifierType": {
+    "TempStatStageBoosterTrainerItem": {
       "description": "Increases the {{stat}} of all party members by {{amount}} for up to 5 battles.",
       "extra": {
         "stage": "1 stage",
         "percentage": "30%"
       }
     },
-    "AttackTypeBoosterModifierType": {
+    "AttackTypeBoosterHeldItem": {
       "description": "Increases the power of a Pokémon’s {{moveType}}-type moves by 20%."
     },
-    "PokemonLevelIncrementModifierType": {
+    "PokemonLevelIncrementReward": {
       "description": "Increases a Pokémon’s level by {{levels}}."
     },
-    "AllPokemonLevelIncrementModifierType": {
+    "AllPokemonLevelIncrementReward": {
       "description": "Increases all party members’ level by {{levels}}."
     },
-    "BaseStatBoosterModifierType": {
+    "BaseStatBoosterHeldItem": {
       "description": "Increases the holder’s base {{stat}} by 10%. The higher your IVs, the higher the stack limit."
     },
-    "PokemonBaseStatFlatModifierType": {
+    "PokemonBaseStatFlatHeldItem": {
       "name": "Old Gateau",
       "description": "Increases the holder’s {{stats}} base stats by {{statValue}}. Found after a strange dream."
     },
-    "AllPokemonFullHpRestoreModifierType": {
+    "AllPokemonFullHpRestoreReward": {
       "description": "Restores 100% HP for all Pokémon."
     },
-    "AllPokemonFullReviveModifierType": {
+    "AllPokemonFullReviveReward": {
       "description": "Revives all fainted Pokémon, fully restoring HP."
     },
-    "MoneyRewardModifierType": {
+    "MoneyReward": {
       "description": "Grants a {{moneyMultiplier}} amount of money (₽{{moneyAmount}}).",
       "extra": {
         "small": "small",
@@ -86,52 +86,52 @@
         "large": "large"
       }
     },
-    "ExpBoosterModifierType": {
+    "ExpBoosterTrainerItem": {
       "description": "Increases gain of EXP. Points by {{boostPercent}}%."
     },
-    "PokemonExpBoosterModifierType": {
+    "PokemonExpBoosterTrainerItem": {
       "description": "Increases the holder’s gain of EXP. Points by {{boostPercent}}%."
     },
-    "PokemonFriendshipBoosterModifierType": {
+    "PokemonFriendshipBoosterHeldItem": {
       "description": "Increases friendship gain by 50%."
     },
-    "PokemonMoveAccuracyBoosterModifierType": {
+    "PokemonMoveAccuracyBoosterHeldItem": {
       "description": "Increases move accuracy by {{accuracyAmount}}."
     },
-    "PokemonMultiHitModifierType": {
+    "PokemonMultiHitHeldItem": {
       "description": "Converts 25% of damage from the holder’s attacks into an additional strike."
     },
-    "TmModifierType": {
+    "TmReward": {
       "name": "TM{{moveId}} - {{moveName}}",
       "description": "Teach {{moveName}} to a Pokémon."
     },
-    "TmModifierTypeWithInfo": {
+    "TmRewardWithInfo": {
       "name": "TM{{moveId}} - {{moveName}}",
       "description": "Teach {{moveName}} to a Pokémon\n(Hold C or Shift for more info)."
     },
-    "EvolutionItemModifierType": {
+    "EvolutionItemReward": {
       "description": "Causes certain Pokémon to evolve."
     },
-    "FormChangeItemModifierType": {
+    "FormChangeItemReward": {
       "description": "Causes certain Pokémon to change form."
     },
-    "FusePokemonModifierType": {
+    "FusePokemonReward": {
       "description": "Combines two Pokémon (transfers Ability, splits base stats and types, shares move pool)."
     },
-    "TerastallizeModifierType": {
+    "TerastallizeReward": {
       "name": "{{teraType}} Tera Shard",
       "description": "Changes the Pokémon’s Tera type to {{teraType}}."
     },
-    "ContactHeldItemTransferChanceModifierType": {
+    "ContactHeldItemTransferChanceHeldItem": {
       "description": "Upon attacking, there is a {{chancePercent}}% chance the foe’s held item will be stolen."
     },
-    "TurnHeldItemTransferModifierType": {
+    "TurnHeldItemTransferHeldItem": {
       "description": "Every turn, the holder acquires one held item from the foe."
     },
-    "EnemyAttackStatusEffectChanceModifierType": {
+    "EnemyAttackStatusEffectChanceTrainerItem": {
       "description": "Adds a {{chancePercent}}% chance to inflict {{statusEffect}} with attack moves."
     },
-    "EnemyEndureChanceModifierType": {
+    "EnemyEndureChanceTrainerItem": {
       "description": "Adds a {{chancePercent}}% chance of enduring a hit."
     },
 

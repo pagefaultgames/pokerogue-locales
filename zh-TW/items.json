@@ -1,83 +1,83 @@
 {
-  "ModifierType": {
-    "AddPokeballModifierType": {
-      "name": "{{modifierCount}}x {{pokeballName}}",
-      "description": "獲得 {{pokeballName}} x{{modifierCount}} (已有：{{pokeballAmount}}) \n捕捉倍率：{{catchRate}}。"
+  "Item": {
+    "AddPokeballReward": {
+      "name": "{{rewardCount}}x {{pokeballName}}",
+      "description": "獲得 {{pokeballName}} x{{rewardCount}} (已有：{{pokeballAmount}}) \n捕捉倍率：{{catchRate}}。"
     },
-    "AddVoucherModifierType": {
-      "name": "{{modifierCount}}x {{voucherTypeName}}",
-      "description": "獲得 {{voucherTypeName}} x{{modifierCount}}。"
+    "AddVoucherReward": {
+      "name": "{{rewardCount}}x {{voucherTypeName}}",
+      "description": "獲得 {{voucherTypeName}} x{{rewardCount}}。"
     },
-    "PokemonHeldItemModifierType": {
+    "PokemonHeldItemReward": {
       "extra": {
         "inoperable": "{{pokemonName}} 無法攜帶\n這個物品！",
         "tooMany": "{{pokemonName}} 已有太多\n這個物品！"
       }
     },
-    "PokemonHpRestoreModifierType": {
+    "PokemonHpRestoreReward": {
       "description": "爲一隻寶可夢恢復 {{restorePoints}} HP 或 {{restorePercent}}% HP，取最大值。",
       "extra": {
         "fully": "爲一隻寶可夢恢復全部HP。",
         "fullyWithStatus": "爲一隻寶可夢恢復全部HP並消除所有負面\n狀態。"
       }
     },
-    "PokemonReviveModifierType": {
+    "PokemonReviveReward": {
       "description": "復活一隻寶可夢並恢復 {{restorePercent}}% HP。"
     },
-    "PokemonStatusHealModifierType": {
+    "PokemonStatusHealReward": {
       "description": "爲一隻寶可夢消除所有負面狀態。"
     },
-    "PokemonPpRestoreModifierType": {
+    "PokemonPpRestoreReward": {
       "description": "爲一隻寶可夢的一個招式恢復 {{restorePoints}} PP。",
       "extra": {
         "fully": "完全恢復一隻寶可夢一個招式的PP。"
       }
     },
-    "PokemonAllMovePpRestoreModifierType": {
+    "PokemonAllMovePpRestoreReward": {
       "description": "爲一隻寶可夢的所有招式恢復 {{restorePoints}} PP。",
       "extra": {
         "fully": "爲一隻寶可夢的所有招式恢復所有PP。"
       }
     },
-    "PokemonPpUpModifierType": {
+    "PokemonPpUpReward": {
       "description": "永久提升一個招式的PP，每5點最大PP增加{{upPoints}} (最多3點)。"
     },
-    "PokemonNatureChangeModifierType": {
+    "PokemonNatureChangeReward": {
       "name": "{{natureName}}薄荷",
       "description": "將一隻寶可夢的性格改爲{{natureName}}併爲該寶可\n夢永久解鎖該性格。"
     },
-    "DoubleBattleChanceBoosterModifierType": {
+    "DoubleBattleChanceBoosterTrainerItem": {
       "description": "遭遇雙打機率提升四倍，持續{{battleCount}}場戰鬥。"
     },
-    "TempStatStageBoosterModifierType": {
+    "TempStatStageBoosterTrainerItem": {
       "description": "提升全隊的{{stat}}{{amount}}級，持續5場戰鬥。",
       "extra": {
         "stage": "1階",
         "percentage": "30%"
       }
     },
-    "AttackTypeBoosterModifierType": {
+    "AttackTypeBoosterHeldItem": {
       "description": "一隻寶可夢的{{moveType}}系招式威力提升20%。"
     },
-    "PokemonLevelIncrementModifierType": {
+    "PokemonLevelIncrementReward": {
       "description": "使一只寶可夢的等級提升{{levels}}級。"
     },
-    "AllPokemonLevelIncrementModifierType": {
+    "AllPokemonLevelIncrementReward": {
       "description": "使一只寶可夢的等級提升{{levels}}級。"
     },
-    "BaseStatBoosterModifierType": {
+    "BaseStatBoosterHeldItem": {
       "description": "增加持有者的{{stat}}10%，個體值越高堆疊\n上限越高。"
     },
-    "PokemonBaseStatFlatModifierType": {
+    "PokemonBaseStatFlatHeldItem": {
       "name": "森之羊羹"
     },
-    "AllPokemonFullHpRestoreModifierType": {
+    "AllPokemonFullHpRestoreReward": {
       "description": "所有寶可夢完全恢復HP。"
     },
-    "AllPokemonFullReviveModifierType": {
+    "AllPokemonFullReviveReward": {
       "description": "復活所有瀕死寶可夢，完全恢復HP。"
     },
-    "MoneyRewardModifierType": {
+    "MoneyReward": {
       "description": "獲得{{moneyMultiplier}}金錢 (₽{{moneyAmount}})。",
       "extra": {
         "small": "少量",
@@ -85,51 +85,51 @@
         "large": "大量"
       }
     },
-    "ExpBoosterModifierType": {
+    "ExpBoosterTrainerItem": {
       "description": "經驗值獲取量增加{{boostPercent}}%。"
     },
-    "PokemonExpBoosterModifierType": {
+    "PokemonExpBoosterTrainerItem": {
       "description": "持有者經驗值獲取量增加{{boostPercent}}%。"
     },
-    "PokemonFriendshipBoosterModifierType": {
+    "PokemonFriendshipBoosterHeldItem": {
       "description": "親密度獲取量增加50%。"
     },
-    "PokemonMoveAccuracyBoosterModifierType": {
+    "PokemonMoveAccuracyBoosterHeldItem": {
       "description": "招式命中率增加{{accuracyAmount}}。"
     },
-    "PokemonMultiHitModifierType": {
+    "PokemonMultiHitHeldItem": {
       "description": "將持有者本次傷害的25%轉化為一次獨立的攻擊。"
     },
-    "TmModifierType": {
+    "TmReward": {
       "name": "招式學習器 {{moveId}} - {{moveName}}",
       "description": "教會一隻寶可夢{{moveName}}。"
     },
-    "TmModifierTypeWithInfo": {
+    "TmRewardWithInfo": {
       "name": "招式學習器{{moveId}} - {{moveName}}",
       "description": "教會一隻寶可夢{{moveName}}\n(按住C或者Shift查看更多信息)"
     },
-    "EvolutionItemModifierType": {
+    "EvolutionItemReward": {
       "description": "使某些寶可夢進化。"
     },
-    "FormChangeItemModifierType": {
+    "FormChangeItemReward": {
       "description": "使某些寶可夢更改形態。"
     },
-    "FusePokemonModifierType": {
+    "FusePokemonReward": {
       "description": "融合兩隻寶可夢 (改變特性, 平分基礎點數\n和屬性, 共享招式池)。"
     },
-    "TerastallizeModifierType": {
+    "TerastallizeReward": {
       "name": "{{teraType}}太晶碎塊"
     },
-    "ContactHeldItemTransferChanceModifierType": {
+    "ContactHeldItemTransferChanceHeldItem": {
       "description": "攻擊時{{chancePercent}}%概率偷取對手物品。"
     },
-    "TurnHeldItemTransferModifierType": {
+    "TurnHeldItemTransferHeldItem": {
       "description": "持有者每回合從對手那裏獲得一個持有的物品。"
     },
-    "EnemyAttackStatusEffectChanceModifierType": {
+    "EnemyAttackStatusEffectChanceTrainerItem": {
       "description": "攻擊時{{chancePercent}}%概率造成{{statusEffect}}。"
     },
-    "EnemyEndureChanceModifierType": {
+    "EnemyEndureChanceTrainerItem": {
       "description": "增加{{chancePercent}}%遭受攻擊的概率。"
     },
     "RARE_CANDY": {

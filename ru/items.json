@@ -1,84 +1,84 @@
 {
-  "ModifierType": {
-    "AddPokeballModifierType": {
-      "name": "×{{modifierCount}} {{pokeballName}}ов",
-      "description": "Получить ×{{modifierCount}} {{pokeballName}}ов (В инвентаре: {{pokeballAmount}})\nШанс поимки: {{catchRate}}"
+  "Item": {
+    "AddPokeballReward": {
+      "name": "×{{rewardCount}} {{pokeballName}}ов",
+      "description": "Получить ×{{rewardCount}} {{pokeballName}}ов (В инвентаре: {{pokeballAmount}})\nШанс поимки: {{catchRate}}"
     },
-    "AddVoucherModifierType": {
-      "name": "×{{modifierCount}} {{voucherTypeName}}",
-      "description": "Получить ×{{modifierCount}} {{voucherTypeName}}"
+    "AddVoucherReward": {
+      "name": "×{{rewardCount}} {{voucherTypeName}}",
+      "description": "Получить ×{{rewardCount}} {{voucherTypeName}}"
     },
-    "PokemonHeldItemModifierType": {
+    "PokemonHeldItemReward": {
       "extra": {
         "inoperable": "{{pokemonName}} не может взять\nэтот предмет!",
         "tooMany": "{{pokemonName}} не может взять\nбольше этого предмета!"
       }
     },
-    "PokemonHpRestoreModifierType": {
+    "PokemonHpRestoreReward": {
       "description": "В зависимости от того, что больше, исцеляет {{restorePoints}} ОЖ или {{restorePercent}}% ОЖ одного Покемона.",
       "extra": {
         "fully": "Полностью исцеляет ОЖ одного Покемона.",
         "fullyWithStatus": "Полностью исцеляет ОЖ и статусный недуг одного Покемона."
       }
     },
-    "PokemonReviveModifierType": {
+    "PokemonReviveReward": {
       "description": "Возрождает одного Покемона и исцеляет {{restorePercent}}% ОЖ."
     },
-    "PokemonStatusHealModifierType": {
+    "PokemonStatusHealReward": {
       "description": "Исцеляет любой статусный недуг одного Покемона."
     },
-    "PokemonPpRestoreModifierType": {
+    "PokemonPpRestoreReward": {
       "description": "Восстанавливает {{restorePoints}} ОС одной атаке.",
       "extra": {
         "fully": "Восстанавливает все ОС одной атаке."
       }
     },
-    "PokemonAllMovePpRestoreModifierType": {
+    "PokemonAllMovePpRestoreReward": {
       "description": "Восстанавливает {{restorePoints}} ОС всем атакам.",
       "extra": {
         "fully": "Восстанавливает все ОС всем атакам."
       }
     },
-    "PokemonPpUpModifierType": {
+    "PokemonPpUpReward": {
       "description": "Навсегда увеличивает ОД одного приёма на {{upPoints}} за каждые 5 максимальных ОД (максимум 3)."
     },
-    "PokemonNatureChangeModifierType": {
+    "PokemonNatureChangeReward": {
       "name": "Мята {{natureName}}",
       "description": "Меняет характер Покемона на {{natureName}} и навсегда открывает этот характер для стартового Покемона."
     },
-    "DoubleBattleChanceBoosterModifierType": {
+    "DoubleBattleChanceBoosterTrainerItem": {
       "description": "Вчетверо увеличивает шанс встречи быть двойным сражением на {{battleCount}} битв."
     },
-    "TempStatStageBoosterModifierType": {
+    "TempStatStageBoosterTrainerItem": {
       "description": "Увеличивает {{stat}} всех членов команды на {{amount}} на 5 сражений",
       "extra": {
         "stage": "1 стадия",
         "percentage": "30%"
       }
     },
-    "AttackTypeBoosterModifierType": {
+    "AttackTypeBoosterHeldItem": {
       "description": "Увеличивает силу атак {{moveType}}-типа Покемона на 20%."
     },
-    "PokemonLevelIncrementModifierType": {
+    "PokemonLevelIncrementReward": {
       "description": "Увеличивает уровень Покемона на {{levels}}."
     },
-    "AllPokemonLevelIncrementModifierType": {
+    "AllPokemonLevelIncrementReward": {
       "description": "Увеличивает уровень всех членов команды на {{levels}}."
     },
-    "BaseStatBoosterModifierType": {
+    "BaseStatBoosterHeldItem": {
       "description": "Увеличивает базовую {{stat}} владельца на 10%. Чем выше ваши IV, тем выше лимит суммирования."
     },
-    "PokemonBaseStatFlatModifierType": {
+    "PokemonBaseStatFlatHeldItem": {
       "name": "Старый Гатó",
       "description": "Увеличивает базовые характеристики {{stats}} владельца на {{statValue}}. Найдено после странного сна."
     },
-    "AllPokemonFullHpRestoreModifierType": {
+    "AllPokemonFullHpRestoreReward": {
       "description": "Восстанавливает 100% ОЖ всем Покемонам."
     },
-    "AllPokemonFullReviveModifierType": {
+    "AllPokemonFullReviveReward": {
       "description": "Оживляет всех потерявших сознание Покемонов, полностью восстанавливая ОЖ."
     },
-    "MoneyRewardModifierType": {
+    "MoneyReward": {
       "description": "Дает {{moneyMultiplier}} количество денег ({{moneyAmount}} ₽).",
       "extra": {
         "small": "малый",
@@ -86,52 +86,52 @@
         "large": "большой"
       }
     },
-    "ExpBoosterModifierType": {
+    "ExpBoosterTrainerItem": {
       "description": "Увеличивает получение опыта на {{boostPercent}}%."
     },
-    "PokemonExpBoosterModifierType": {
+    "PokemonExpBoosterTrainerItem": {
       "description": "Увеличивает получение опыта владельцем на {{boostPercent}}%"
     },
-    "PokemonFriendshipBoosterModifierType": {
+    "PokemonFriendshipBoosterHeldItem": {
       "description": "Увеличивает прирост дружбы на 50%."
     },
-    "PokemonMoveAccuracyBoosterModifierType": {
+    "PokemonMoveAccuracyBoosterHeldItem": {
       "description": "Увеличивает точность приёмов на {{accuracyAmount}}."
     },
-    "PokemonMultiHitModifierType": {
+    "PokemonMultiHitHeldItem": {
       "description": "Превращает 25% урона от атак владельца в дополнительный удар."
     },
-    "TmModifierType": {
+    "TmReward": {
       "name": "ТМ{{moveId}} - {{moveName}}",
       "description": "Обучает Покемона {{moveName}}."
     },
-    "TmModifierTypeWithInfo": {
+    "TmRewardWithInfo": {
       "name": "ТМ{{moveId}} - {{moveName}}",
       "description": "Обучает Покемона {{moveName}}\n(Удерживайте C или Shift для получения дополнительной информации)."
     },
-    "EvolutionItemModifierType": {
+    "EvolutionItemReward": {
       "description": "Заставляет некоторых Покемонов эволюционировать."
     },
-    "FormChangeItemModifierType": {
+    "FormChangeItemReward": {
       "description": "Заставляет некоторых Покемонов менять форму."
     },
-    "FusePokemonModifierType": {
+    "FusePokemonReward": {
       "description": "Объединяет двух Покемонов (передает Талант, разделяет базовые характеристики и типы, делится набором атак)."
     },
-    "TerastallizeModifierType": {
+    "TerastallizeReward": {
       "name": "{{teraType}} Тера-осколок",
       "description": "Изменяет Тера-тип Покемона на {{teraType}}."
     },
-    "ContactHeldItemTransferChanceModifierType": {
+    "ContactHeldItemTransferChanceHeldItem": {
       "description": "При атаке есть {{chancePercent}}% шанс украсть предмет, удерживаемый противником."
     },
-    "TurnHeldItemTransferModifierType": {
+    "TurnHeldItemTransferHeldItem": {
       "description": "Каждый ход владелец получает один удерживаемый предмет от противника."
     },
-    "EnemyAttackStatusEffectChanceModifierType": {
+    "EnemyAttackStatusEffectChanceTrainerItem": {
       "description": "Добавляет {{chancePercent}}% шанс наложить {{statusEffect}} с помощью атакующих приёмов."
     },
-    "EnemyEndureChanceModifierType": {
+    "EnemyEndureChanceTrainerItem": {
       "description": "Добавляет {{chancePercent}}% шанс выдержать удар."
     },
     "RARE_CANDY": {

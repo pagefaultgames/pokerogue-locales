@@ -1,84 +1,84 @@
 {
-  "ModifierType": {
-    "AddPokeballModifierType": {
-      "name": "{{modifierCount}}×\n{{pokeballName}}",
-      "description": "{{pokeballName}}を {{modifierCount}}個 手に入れる (所有: {{pokeballAmount}})\n捕捉率：{{catchRate}}"
+  "Item": {
+    "AddPokeballReward": {
+      "name": "{{rewardCount}}×\n{{pokeballName}}",
+      "description": "{{pokeballName}}を {{rewardCount}}個 手に入れる (所有: {{pokeballAmount}})\n捕捉率：{{catchRate}}"
     },
-    "AddVoucherModifierType": {
-      "name": "{{modifierCount}}×\n{{voucherTypeName}}",
-      "description": "{{voucherTypeName}}を {{modifierCount}}個 手に入れる"
+    "AddVoucherReward": {
+      "name": "{{rewardCount}}×\n{{voucherTypeName}}",
+      "description": "{{voucherTypeName}}を {{rewardCount}}個 手に入れる"
     },
-    "PokemonHeldItemModifierType": {
+    "PokemonHeldItemReward": {
       "extra": {
         "inoperable": "{{pokemonName}}は このアイテムを\n持つ ことが できません！",
         "tooMany": "{{pokemonName}}は　このアイテムを\n持ちすぎています！"
       }
     },
-    "PokemonHpRestoreModifierType": {
+    "PokemonHpRestoreReward": {
       "description": "ポケモン 一匹の {{restorePoints}}HP、または {{restorePercent}}% のどちらか 高い方を 回復する",
       "extra": {
         "fully": "ポケモン 1匹の HPを すべて 回復する",
         "fullyWithStatus": "ポケモン 1匹の HPと 状態異常を すべて 回復する"
       }
     },
-    "PokemonReviveModifierType": {
+    "PokemonReviveReward": {
       "description": "ひんしに なった ポケモン 1匹を 元気にした上で\nHPを {{restorePercent}}% 回復する"
     },
-    "PokemonStatusHealModifierType": {
+    "PokemonStatusHealReward": {
       "description": "ポケモン 1匹の 状態の 異常を すべて 回復する"
     },
-    "PokemonPpRestoreModifierType": {
+    "PokemonPpRestoreReward": {
       "description": "ポケモンが 覚えている 技のうち\n1つの PPを 10だけ 回復する",
       "extra": {
         "fully": "ポケモンが 覚えている 技のうち\n1つの PPを すべて 回復する"
       }
     },
-    "PokemonAllMovePpRestoreModifierType": {
+    "PokemonAllMovePpRestoreReward": {
       "description": "ポケモンが 覚えている 4つの 技の PPを {{restorePoints}}ずつ 回復する",
       "extra": {
         "fully": "ポケモンが 覚えている 4つの 技の PPを すべて 回復する"
       }
     },
-    "PokemonPpUpModifierType": {
+    "PokemonPpUpReward": {
       "description": "ポケモンが 覚えている 技のうち 1つの PPの 最大値を 5ごとに {{upPoints}}ポイントずつ 上げる (最大3)"
     },
-    "PokemonNatureChangeModifierType": {
+    "PokemonNatureChangeReward": {
       "name": "{{natureName}}ミント",
       "description": "ポケモンの 性格を {{natureName}}に 変える\n(あとで この性格を スターター 画面でも 選べる)"
     },
-    "DoubleBattleChanceBoosterModifierType": {
+    "DoubleBattleChanceBoosterTrainerItem": {
       "description": "バトル{{battleCount}}回の 間 ダブルバトルに なる 確率を 4倍に する"
     },
-    "TempStatStageBoosterModifierType": {
+    "TempStatStageBoosterTrainerItem": {
       "description": "全員の 手持ちポケモンの {{stat}}を 最大５回の バトルの間に {{amount}} 上げる",
       "extra": {
         "stage": "1段階",
         "percentage": "30%"
       }
     },
-    "AttackTypeBoosterModifierType": {
+    "AttackTypeBoosterHeldItem": {
       "description": "ポケモンの {{moveType}}タイプの 技の 威力を 20% 上げる"
     },
-    "PokemonLevelIncrementModifierType": {
+    "PokemonLevelIncrementReward": {
       "description": "ポケモンの レベルを {{levels}} 上げる"
     },
-    "AllPokemonLevelIncrementModifierType": {
+    "AllPokemonLevelIncrementReward": {
       "description": "手持ちポケモンの 全員のレベルを {{levels}} 上げる"
     },
-    "BaseStatBoosterModifierType": {
+    "BaseStatBoosterHeldItem": {
       "description": "ポケモン １匹の {{stat}}の 基礎ポイントを 10% あげる。個体値が 高けば高いほど、 飲める 限界が 上がる。"
     },
-    "PokemonBaseStatFlatModifierType": {
+    "PokemonBaseStatFlatHeldItem": {
       "name": "もりのヨウカン",
       "description": "持たせると 基本能力が {{statValue}} 上がる。 謎の 夢の あとに 見つけた お菓子。"
     },
-    "AllPokemonFullHpRestoreModifierType": {
+    "AllPokemonFullHpRestoreReward": {
       "description": "手持ちポケモン 全員の HPを すべて 回復する"
     },
-    "AllPokemonFullReviveModifierType": {
+    "AllPokemonFullReviveReward": {
       "description": "ひんしに なってしまった ポケモン 全員の HPを すべて 回復する"
     },
-    "MoneyRewardModifierType": {
+    "MoneyReward": {
       "description": "{{moneyMultiplier}}額の 円を 与える（{{moneyAmount}}円）",
       "extra": {
         "small": "小",
@@ -86,52 +86,52 @@
         "large": "多"
       }
     },
-    "ExpBoosterModifierType": {
+    "ExpBoosterTrainerItem": {
       "description": "もらえる 経験値を {{boostPercent}}% 増やす"
     },
-    "PokemonExpBoosterModifierType": {
+    "PokemonExpBoosterTrainerItem": {
       "description": "持っているポケモンの もらう経験値を {{boostPercent}}% 増やす"
     },
-    "PokemonFriendshipBoosterModifierType": {
+    "PokemonFriendshipBoosterHeldItem": {
       "description": "持たせると なかよし度の 収穫が 50%で 上がる"
     },
-    "PokemonMoveAccuracyBoosterModifierType": {
+    "PokemonMoveAccuracyBoosterHeldItem": {
       "description": "技の 命中率を {{accuracyAmount}}で 増やす"
     },
-    "PokemonMultiHitModifierType": {
+    "PokemonMultiHitHeldItem": {
       "description": "持たせると 攻撃技の ダメージの 25%が もう一回の 攻撃で 出す"
     },
-    "TmModifierType": {
+    "TmReward": {
       "name": "わざマシン{{moveId}}\n{{moveName}}",
       "description": "ポケモンに {{moveName}}を 教える"
     },
-    "TmModifierTypeWithInfo": {
+    "TmRewardWithInfo": {
       "name": "わざマシン{{moveId}}\n{{moveName}}",
       "description": "ポケモンに {{moveName}}を 教える\n(Cキー／Shiftキーを 押すと 技情報が 見える)"
     },
-    "EvolutionItemModifierType": {
+    "EvolutionItemReward": {
       "description": "ある特定の ポケモンを 進化させる"
     },
-    "FormChangeItemModifierType": {
+    "FormChangeItemReward": {
       "description": "ある特定の ポケモンを フォームチェンジさせる"
     },
-    "FusePokemonModifierType": {
+    "FusePokemonReward": {
       "description": "2匹の ポケモンを 吸収合体する (特性が 移行し、 基本能力と タイプを 分け、 覚える 技を 共有する)"
     },
-    "TerastallizeModifierType": {
+    "TerastallizeReward": {
       "name": "テラピース{{teraType}}",
       "description": "テラスタイプを {{teraType}}に チェンジする"
     },
-    "ContactHeldItemTransferChanceModifierType": {
+    "ContactHeldItemTransferChanceHeldItem": {
       "description": "持っているポケモンが 攻撃すると 相手の 持っている アイテムを {{chancePercent}}%の 確率で 盗む"
     },
-    "TurnHeldItemTransferModifierType": {
+    "TurnHeldItemTransferHeldItem": {
       "description": "毎ターン 相手の 持っている アイテムを 一つ 吸い込んで 盗む"
     },
-    "EnemyAttackStatusEffectChanceModifierType": {
+    "EnemyAttackStatusEffectChanceTrainerItem": {
       "description": "攻撃技に {{chancePercent}}%の 確率で {{statusEffect}}を 与える"
     },
-    "EnemyEndureChanceModifierType": {
+    "EnemyEndureChanceTrainerItem": {
       "description": "ひんしに なりそうな 技を 受けても {{chancePercent}}%の 確率で HPを 1だけ 残して 耐える"
     },
     "RARE_CANDY": {

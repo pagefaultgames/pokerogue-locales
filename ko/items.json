@@ -1,84 +1,84 @@
 {
-  "ModifierType": {
-    "AddPokeballModifierType": {
-      "name": "{{pokeballName}} {{modifierCount}}개",
-      "description": "{{pokeballName}} {{modifierCount}}개 (현재: {{pokeballAmount}}개)를 획득한다.\n포획률: {{catchRate}}"
+  "Item": {
+    "AddPokeballReward": {
+      "name": "{{pokeballName}} {{rewardCount}}개",
+      "description": "{{pokeballName}} {{rewardCount}}개 (현재: {{pokeballAmount}}개)를 획득한다.\n포획률: {{catchRate}}"
     },
-    "AddVoucherModifierType": {
-      "name": "{{voucherTypeName}} {{modifierCount}}장",
-      "description": "{{voucherTypeName}} {{modifierCount}}장을 획득한다."
+    "AddVoucherReward": {
+      "name": "{{voucherTypeName}} {{rewardCount}}장",
+      "description": "{{voucherTypeName}} {{rewardCount}}장을 획득한다."
     },
-    "PokemonHeldItemModifierType": {
+    "PokemonHeldItemReward": {
       "extra": {
         "inoperable": "{{pokemonName}}[[는]]\n이 아이템을 얻을 수 없다!",
         "tooMany": "{{pokemonName}}[[는]]\n이 아이템을 너무 많이 갖고 있다!"
       }
     },
-    "PokemonHpRestoreModifierType": {
+    "PokemonHpRestoreReward": {
       "description": "포켓몬 1마리의 HP를 {{restorePoints}} 또는 {{restorePercent}}% 중\n높은 수치만큼 회복한다.",
       "extra": {
         "fully": "포켓몬 1마리의 HP를 모두 회복한다.",
         "fullyWithStatus": "포켓몬 1마리의 HP와 상태 이상을 모두 회복한다."
       }
     },
-    "PokemonReviveModifierType": {
+    "PokemonReviveReward": {
       "description": "기절해 버린 포켓몬 1마리의 HP를 {{restorePercent}}%까지 회복한다."
     },
-    "PokemonStatusHealModifierType": {
+    "PokemonStatusHealReward": {
       "description": "포켓몬 1마리의 상태 이상을 모두 회복한다."
     },
-    "PokemonPpRestoreModifierType": {
+    "PokemonPpRestoreReward": {
       "description": "포켓몬이 기억하고 있는 기술 중 1개의 PP를 {{restorePoints}}만큼 회복한다.",
       "extra": {
         "fully": "포켓몬이 기억하고 있는 기술 중 1개의 PP를 모두 회복한다."
       }
     },
-    "PokemonAllMovePpRestoreModifierType": {
+    "PokemonAllMovePpRestoreReward": {
       "description": "포켓몬이 기억하고 있는 4개의 기술 PP를 {{restorePoints}}씩 회복한다.",
       "extra": {
         "fully": "포켓몬이 기억하고 있는 4개의 기술 PP를 모두 회복한다."
       }
     },
-    "PokemonPpUpModifierType": {
+    "PokemonPpUpReward": {
       "description": "포켓몬이 기억하고 있는 기술 중 1개의 PP 최대치를 5마다 {{upPoints}}씩 상승시킨다. (최대 3)"
     },
-    "PokemonNatureChangeModifierType": {
+    "PokemonNatureChangeReward": {
       "name": "{{natureName}}민트",
       "description": "포켓몬의 성격을 {{natureName}}[[로]] 바꾸고 스타팅에도 등록한다."
     },
-    "DoubleBattleChanceBoosterModifierType": {
+    "DoubleBattleChanceBoosterTrainerItem": {
       "description": "{{battleCount}}번의 배틀 동안 더블 배틀이 등장할 확률이 4배가 된다."
     },
-    "TempStatStageBoosterModifierType": {
+    "TempStatStageBoosterTrainerItem": {
       "description": "자신의 모든 포켓몬이 5번의 배틀 동안 {{stat}}[[가]] {{amount}} 증가한다.",
       "extra": {
         "stage": "1단계",
         "percentage": "30%"
       }
     },
-    "AttackTypeBoosterModifierType": {
+    "AttackTypeBoosterHeldItem": {
       "description": "지니게 하면 {{moveType}}타입 기술의 위력이 20% 상승한다."
     },
-    "PokemonLevelIncrementModifierType": {
+    "PokemonLevelIncrementReward": {
       "description": "포켓몬 1마리의 레벨이 {{levels}}만큼 상승한다."
     },
-    "AllPokemonLevelIncrementModifierType": {
+    "AllPokemonLevelIncrementReward": {
       "description": "자신의 모든 포켓몬의 레벨이 {{levels}}만큼 상승한다."
     },
-    "BaseStatBoosterModifierType": {
+    "BaseStatBoosterHeldItem": {
       "description": "지니게 하면 {{stat}} 종족치를 10% 올려준다. 개체값이 높을수록 더 많이 누적시킬 수 있다."
     },
-    "PokemonBaseStatFlatModifierType": {
+    "PokemonBaseStatFlatHeldItem": {
       "name": "숲의양갱",
       "description": "{{stats}} 종족치를 {{statValue}}만큼 올려준다. 이상한 꿈을 꾸고 얻었다."
     },
-    "AllPokemonFullHpRestoreModifierType": {
+    "AllPokemonFullHpRestoreReward": {
       "description": "자신의 포켓몬의 HP를 모두 회복한다."
     },
-    "AllPokemonFullReviveModifierType": {
+    "AllPokemonFullReviveReward": {
       "description": "기절해 버린 포켓몬 전원의 HP를 완전히 회복한다."
     },
-    "MoneyRewardModifierType": {
+    "MoneyReward": {
       "description": "{{moneyMultiplier}} 양의 돈을 획득한다. (₽{{moneyAmount}})",
       "extra": {
         "small": "적은",
@@ -86,52 +86,52 @@
         "large": "많은"
       }
     },
-    "ExpBoosterModifierType": {
+    "ExpBoosterTrainerItem": {
       "description": "포켓몬이 받는 경험치가 {{boostPercent}}% 증가한다."
     },
-    "PokemonExpBoosterModifierType": {
+    "PokemonExpBoosterTrainerItem": {
       "description": "지니게 한 포켓몬은 받는 경험치가 {{boostPercent}}% 증가한다."
     },
-    "PokemonFriendshipBoosterModifierType": {
+    "PokemonFriendshipBoosterHeldItem": {
       "description": "획득하는 친밀도가 50% 증가한다."
     },
-    "PokemonMoveAccuracyBoosterModifierType": {
+    "PokemonMoveAccuracyBoosterHeldItem": {
       "description": "기술의 명중률이 {{accuracyAmount}} 증가한다."
     },
-    "PokemonMultiHitModifierType": {
+    "PokemonMultiHitHeldItem": {
       "description": "지니게 된 포켓몬은 공격한 데미지의 25%로 한 번 더 공격한다."
     },
-    "TmModifierType": {
+    "TmReward": {
       "name": "No.{{moveId}} {{moveName}}",
       "description": "포켓몬에게 {{moveName}}[[를]] 가르침."
     },
-    "TmModifierTypeWithInfo": {
+    "TmRewardWithInfo": {
       "name": "No.{{moveId}} {{moveName}}",
       "description": "포켓몬에게 {{moveName}}[[를]] 가르침.\n(C 또는 Shift를 꾹 눌러 정보 확인)"
     },
-    "EvolutionItemModifierType": {
+    "EvolutionItemReward": {
       "description": "어느 특정 포켓몬을 진화시킨다."
     },
-    "FormChangeItemModifierType": {
+    "FormChangeItemReward": {
       "description": "어느 특정 포켓몬을 폼 체인지시킨다."
     },
-    "FusePokemonModifierType": {
+    "FusePokemonReward": {
       "description": "두 포켓몬을 결합시킨다. (특성 변환, 종족값과 타입 분배, 기술폭 공유)"
     },
-    "TerastallizeModifierType": {
+    "TerastallizeReward": {
       "name": "테라피스 {{teraType}}",
       "description": "테라스탈타입을 {{teraType}} 타입으로 한다."
     },
-    "ContactHeldItemTransferChanceModifierType": {
+    "ContactHeldItemTransferChanceHeldItem": {
       "description": "공격했을 때, {{chancePercent}}%의 확률로 상대의 도구를 도둑질한다."
     },
-    "TurnHeldItemTransferModifierType": {
+    "TurnHeldItemTransferHeldItem": {
       "description": "매 턴, 지닌 포켓몬은 상대로부터 도구를 하나 획득한다."
     },
-    "EnemyAttackStatusEffectChanceModifierType": {
+    "EnemyAttackStatusEffectChanceTrainerItem": {
       "description": "공격했을 때 {{statusEffect}} 상태로 만들 확률이 {{chancePercent}}% 추가된다."
     },
-    "EnemyEndureChanceModifierType": {
+    "EnemyEndureChanceTrainerItem": {
       "description": "받은 공격을 버텨낼 확률이 {{chancePercent}}% 추가된다."
     },
     "RARE_CANDY": {
