@@ -2,6 +2,38 @@
   "title": "Herausforderungsmodifikatoren",
   "illegalEvolution": "{{pokemon}} hat sich in ein Pokémon verwandelt, dass für diese Herausforderung nicht zulässig ist!",
   "noneSelected": "Keine ausgewählt",
+  "freshStart": {
+    "name": "Neuanfang",
+    "desc.0": "Simuliert die Herausforderung nur frisch gefangene Starter zu haben ohne Freischaltungen.",
+    "desc.1": "Du kannst nur die originalen Starter nutzen. Ohne andere Freischaltungen. So wie als hättest du gerade mit PokéRogue angefangen.",
+    "desc.2": "Du kannst jeden Starter nutzen. Ohne zusätzliche Freischaltungen. So als hättest du sie gerade erst gefangen.",
+    "value.0": "Aus",
+    "value.1": "Kompletter Reset",
+    "value.2": "Alle Starter"
+  },
+  "hardcore": {
+    "name": "Hardcore",
+    "desc": "Du kannst keine kampfunfähigen Pokémon mehr wiederbeleben.",
+    "value.0": "Aus",
+    "value.1": "An"
+  },
+  "limitedCatch": {
+    "name": "Fangbegrenzung",
+    "desc": "Du kannst nur das erste Pokémon eines Bioms zu deinem Team hinzufügen.",
+    "value.0": "Aus",
+    "value.1": "An"
+  },
+  "limitedSupport": {
+    "name": "Begrenzte Unterstützung",
+    "desc.0": "Beschränkt einige oder alle kostenlose Optionen für kostenlose Heilung.",
+    "desc.1": "Entfernt die Heilung am Ende eines Biomes.\nStattdessen erscheint das normale Wellenbelohnungsmenü.",
+    "desc.2": "Entfernt den Shop im Wellenbelohnungsmenü.",
+    "desc.3": "Entfernt den Shop im Wellenbelohnungsmenü.\n\nEntfernt die Heilung am Ende eines Biomes.\nStattdessen erscheint das normale Wellenbelohnungsmenü.",
+    "value.0": "Aus",
+    "value.1": "Keine Heilung",
+    "value.2": "Kein Shop",
+    "value.3": "Beides"
+  },
   "singleGeneration": {
     "name": "Mono-Generation",
     "desc": "Du kannst nur Pokémon aus der {{gen}} Generation verwenden.",
@@ -21,12 +53,6 @@
     "desc": "Du kannst nur Pokémon des Typs {{type}} verwenden.",
     "desc_default": "Du kannst nur Pokémon des gewählten Typs verwenden."
   },
-  "freshStart": {
-    "name": "Neuanfang",
-    "desc": "Du kannst nur die ursprünglichen Starter verwenden, genau so, als hättest du gerade erst mit Pokérogue begonnen.",
-    "value.0": "Aus",
-    "value.1": "An"
-  },
   "inverseBattle": {
     "name": "Umkehrkampf",
     "shortName": "Umkehrkampf",
@@ -38,24 +64,6 @@
     "name": "Statuswert-Flip",
     "shortName": "Umkehren",
     "desc": "Die Werte werden neu gemischt. KP und Init tauschen.\nAngriff wird zu Sp.-Vert.\nVert. wird zu Sp.-Ang.\nSp.-Vert. wird zu Angriff.\nSp.-Ang. wird zu Vert.\nDeaktiviert die Erfolge anderer Herausforderungen.",
-    "value.0": "Aus",
-    "value.1": "An"
-  },
-  "noAutoHeal": {
-    "name": "Keine kostenlose Heilung",
-    "desc": "Deaktiviert die automatische Heilung alle 10 Wellen.",
-    "value.0": "Aus",
-    "value.1": "An"
-  },
-  "hardcore": {
-    "name": "Hardcore",
-    "desc": "Du kannst keine kampfunfähigen Pokémon mehr wiederbeleben.",
-    "value.0": "Aus",
-    "value.1": "An"
-  },
-  "limitedCatch": {
-    "name": "Fangbegrenzung",
-    "desc": "Du kannst nur das erste Pokémon eines Bioms zu deinem Team hinzufügen.",
     "value.0": "Aus",
     "value.1": "An"
   },
