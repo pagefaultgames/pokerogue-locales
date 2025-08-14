@@ -4,13 +4,35 @@
   "noneSelected": "Keine ausgewählt",
   "freshStart": {
     "name": "Neuanfang",
-    "value.0": "Aus"
+    "desc.0": "Simuliert die Herausforderung nur frisch gefangene Starter zu haben ohne Freischaltungen.",
+    "desc.1": "Du kannst nur die originalen Starter nutzen. Ohne andere Freischaltungen. So wie als hättest du gerade mit PokéRogue angefangen.",
+    "desc.2": "Du kannst jeden Starter nutzen. Ohne zusätzliche Freischaltungen. So als hättest du sie gerade erst gefangen.",
+    "value.0": "Aus",
+    "value.1": "Kompletter Reset",
+    "value.2": "Alle Starter"
+  },
+  "hardcore": {
+    "name": "Hardcore",
+    "desc": "Du kannst keine kampfunfähigen Pokémon mehr wiederbeleben.",
+    "value.0": "Aus",
+    "value.1": "An"
   },
   "limitedCatch": {
     "name": "Fangbegrenzung",
     "desc": "Du kannst nur das erste Pokémon eines Bioms zu deinem Team hinzufügen.",
     "value.0": "Aus",
     "value.1": "An"
+  },
+  "limitedSupport": {
+    "name": "Begrenzte Unterstützung",
+    "desc.0": "Beschränkt einige oder alle kostenlose Optionen für kostenlose Heilung.",
+    "desc.1": "Entfernt die Heilung am Ende eines Biomes.\nStattdessen erscheint das normale Wellenbelohnungsmenü.",
+    "desc.2": "Entfernt den Shop im Wellenbelohnungsmenü.",
+    "desc.3": "Entfernt den Shop im Wellenbelohnungsmenü.\n\nEntfernt die Heilung am Ende eines Biomes.\nStattdessen erscheint das normale Wellenbelohnungsmenü.",
+    "value.0": "Aus",
+    "value.1": "Keine Heilung",
+    "value.2": "Kein Shop",
+    "value.3": "Beides"
   },
   "singleGeneration": {
     "name": "Mono-Generation",
