@@ -1,1 +1,26 @@
-{}
+{
+  "intro": "Questo non è un Pokémon comune!",
+  "title": "Una forma non comune",
+  "description": "Questo {{enemyPokemon}} sembra speciale in confronto agli altri della sua specie. @[TOOLTIP_TITLE]{Forse conosce una mossa speciale?} Potresti affrontarlo e catturarlo subito, ma potrebbe anche esserci un modo per essergli amico.",
+  "query": "Che cosa farai?",
+  "option": {
+    "1": {
+      "label": "Affronta il Pokémon",
+      "tooltip": "(-) Combattimento difficile\n(+) Avversario forte catturabile",
+      "selected": "Affronti il\n{{enemyPokemon}} senza paura.",
+      "stat_boost": "Le incredibili abilità di {{enemyPokemon}} aumentano le sue statistiche!"
+    },
+    "2": {
+      "label": "Dagli del cibo",
+      "disabled_tooltip": "Devi avere 4 bacche per selezionare questa opzione.",
+      "tooltip": "(-) Dagli 4 Bacche\n(+) Piacerai a {{enemyPokemon}}",
+      "selected": "Lanci le bacche a {{enemyPokemon}}!$Se le mangia con gioia!$Il {{enemyPokemon}} vuole unirsi alla tua squadra!"
+    },
+    "3": {
+      "label": "Fattelo amico",
+      "disabled_tooltip": "Il tuo Pokémon deve conoscere una determinata mossa per scegliere questa opzione.",
+      "tooltip": "(+) {{option3PrimaryName}} usa {{option3PrimaryMove}}\n(+) Piaci a {{enemyPokemon}}",
+      "selected": "Il tuo {{option3PrimaryName}} usa {{option3PrimaryMove}} per affascinare {{enemyPokemon}}!$Il {{enemyPokemon}} vuole unirsi alla tua squadra!"
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
   "ModifierType": {
     "AddPokeballModifierType": {
-      "name": "{{pokeballName}} x{{modifierCount}}",
+      "name": "{{pokeballName}} ×{{modifierCount}}",
       "description": "Recevez {{modifierCount}} {{pokeballName}}·s. (Inventaire : {{pokeballAmount}})\nTaux de capture : {{catchRate}}"
     },
     "AddVoucherModifierType": {
@@ -67,16 +67,6 @@
     },
     "BaseStatBoosterModifierType": {
       "description": "Augmente de 10% {{stat}} de base de son porteur. Plus les IV sont hauts, plus il peut en porter."
-    },
-    "PokemonBaseStatTotalModifierType": {
-      "name": "Jus de Caratroc",
-      "description": "{{increaseDecrease}} toutes les stats de son porteur de {{statValue}} cran. Caratroc vous a {{blessCurse}}.",
-      "extra": {
-        "increase": "Augmente",
-        "decrease": "Baisse",
-        "blessed": "accordé sa bénédiction",
-        "cursed": "jeté une malédiction"
-      }
     },
     "PokemonBaseStatFlatModifierType": {
       "name": "Vieux Gâteau",
@@ -366,6 +356,14 @@
       "name": "Trésors",
       "description": "Ce Pokémon adore les trésors ! Ramassez-en le plus possible et voyez ce qu’il se passe !"
     },
+    "EVOLUTION_TRACKER_PRIMEAPE": {
+      "name": "Poing de Colère",
+      "description": "Colossinge évolue quand sa rage surpasse ses limites physiques !\nAccumulez cette rage en utilisant la capacité Poing de Colère !"
+    },
+    "EVOLUTION_TRACKER_STANTLER": {
+      "name": "Sprint Bouclier",
+      "description": "Cerfrousse évolue pour s’adapter aux environnements difficiles.\nRenforcez-le en utilisant la capacité Sprint Bouclier !"
+    },
     "BATON": {
       "name": "Témoin",
       "description": "Permet de transmettre les effets en cas de changement de Pokémon. Ignore les pièges."
@@ -379,7 +377,7 @@
       "description": "Augmente énormément les chances de rencontrer un Pokémon sauvage avec un talent caché."
     },
     "CATCHING_CHARM": {
-      "name": "Charme Capture",
+      "name": "Charme Stabilité",
       "description": "Augmente les chances d’effectuer une capture critique."
     },
     "IV_SCANNER": {
@@ -428,8 +426,13 @@
       "name": "Jeton Fusion",
       "description": "Ajoute 1% de chances qu’un Pokémon sauvage soit une fusion."
     },
-    "MYSTERY_ENCOUNTER_SHUCKLE_JUICE": {
-      "name": "Jus de Caratroc"
+    "MYSTERY_ENCOUNTER_SHUCKLE_JUICE_GOOD": {
+      "name": "Jus de Caratroc Sucré",
+      "description": "Augmente toutes les stats de son porteur. Caratroc vous a accordé sa bénédiction."
+    },
+    "MYSTERY_ENCOUNTER_SHUCKLE_JUICE_BAD": {
+      "name": "Jus de Caratroc Pourri",
+      "description": "Diminue toutes les stats de son porteur. Caratroc vous a jeté une malédiction."
     },
     "MYSTERY_ENCOUNTER_BLACK_SLUDGE": {
       "name": "Boue Noire",
@@ -441,7 +444,7 @@
     },
     "MYSTERY_ENCOUNTER_OLD_GATEAU": {
       "name": "Vieux Gâteau",
-      "description": "Augmente de {{statValue}} {{stats}} de base du porteur."
+      "description": "Augmente quelques stats de base du porteur."
     },
     "MYSTERY_ENCOUNTER_GOLDEN_BUG_NET": {
       "name": "Filet Doré",

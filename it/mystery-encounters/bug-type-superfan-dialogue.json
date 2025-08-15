@@ -1,1 +1,40 @@
-{}
+{
+  "intro": "Una strana allenatrice con tutti i tipi di attrezzattura per insetti blocca il tuo cammino!",
+  "intro_dialogue": "Hey, allenatore! Sono in missione per trovare il Pokémon Coleottero più raro che ci sia!$Anche tu ami i Pokémon Coleottero, vero?\nTutti amano i Pokémon Coleottero!",
+  "title": "La Fan n.1 del tipo Coleottero",
+  "speaker": "Fan n.1 del tipo Coleottero",
+  "description": "L’allenatrice continua a blaterare, senza nemmeno attendere una risposta…\n\nSembra che l'unico modo per uscire da questa situazione sia catturare la sua attenzione!",
+  "query": "Che cosa farai?",
+  "option": {
+    "1": {
+      "label": "Offriti di sfidarla",
+      "tooltip": "(-) Combattimento difficile\n(+) Insegna a qualsiasi Pokémon una mossa di tipo Coleottero",
+      "selected": "Una sfida, eh?\nI miei Pokémon Coleottero sono più che pronti per te!"
+    },
+    "2": {
+      "label": "Mostra i tuoi Pokémon Coleottero",
+      "tooltip": "(+) Ricevi uno strumento in regalo",
+      "disabled_tooltip": "Devi avere in squadra almeno 1 Pokémon Coleottero per selezionare questa opzione.",
+      "selected": "Mostri all’allenatrice tutti i tuoi Pokémon Coleottero…",
+      "selected_0_to_1": "Eh? Ne hai solo {{numBugTypes}}…$Immagino che stia sprecando fiato con te…",
+      "selected_2_to_3": "Ehi, ne hai {{numBugTypes}}!\nNiente male.$Ecco, questo potrebbe aiutarti nel tuo viaggio per catturarne altri!",
+      "selected_4_to_5": "Cosa? Ne hai {{numBugTypes}}?\nBene!$Non sei ancora al mio livello, ma mi riconosco un pochino in te!$Prendi questo, mio giovane apprendista!",
+      "selected_6": "Wow! {{numBugTypes}}!$Devi davvero amare i Pokémon Coleottero almeno quanto li amo io!$Ecco, prendi questo come segno di spirito di squadra!"
+    },
+    "3": {
+      "label": "Dona uno strumento Coleottero",
+      "tooltip": "(-) Dona all’allenatrice un {{requiredBugItems}}\n(+) Ricevi uno strumento in regalo",
+      "disabled_tooltip": "Devi possedere almeno un {{requiredBugItems}} per selezionare questa opzione.",
+      "select_prompt": "Seleziona uno strumento da regalare.",
+      "invalid_selection": "Questo Pokémon non possiede quel tipo di strumento.",
+      "selected": "Porgi all’allenatrice l’oggetto {{selectedItem}}.",
+      "selected_dialogue": "Wow! {{selectedItem}}, per me?\nNon sei affatto male!$Come segno di gratitudine,\nvoglio che tu abbia questo dono speciale!$È stato della mia famiglia per generazioni, e ora voglio che lo abbia tu!"
+    }
+  },
+  "battle_won": "La tua conoscenza e abilità sono state perfette per esplorare le nostre debolezze!$In cambio di questa preziosa lezione, permettimi di insegnare a uno dei tuoi Pokémon una mossa Coleottero!",
+  "teach_move_prompt": "Seleziona una mossa da insegnare a un Pokémon.",
+  "confirm_no_teach": "Sei sicuro di non voler imparare una di queste incredibili mosse?",
+  "outro": "Vedo un incredibile Pokémon Coleottero nel tuo futuro!\nChe le nostre strade possano incrociarsi ancora!$A presto!",
+  "numBugTypes_one": "{{count}} tipo Coleottero",
+  "numBugTypes_other": "{{count}} tipi Coleottero"
+}

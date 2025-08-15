@@ -1,8 +1,21 @@
 {
-  "powerAccuracyCategory": "Мощность\nТочность\nКатегория",
+  "pokemonInfo": "Информация",
+  "status": "Статус",
+  "powerAccuracyCategory": "Сила\nТочность\nКатегория",
   "type": "Тип",
+  "unknownTrainer": "???",
+  "ot": "О.Т.",
+  "idNo": "ИД №",
   "nature": "Характер",
-  "cancel": "Отменить",
+  "expPoints": "Опыт",
+  "lv": "Ур.",
+  "nextLv": "До Повышения",
+  "cancel": "Отмена",
+  "memoString": "Характер {{natureFragment}},\n{{metFragment}}",
+  "metFragment": {
+    "normal": "встречен на Ур. {{level}},\n{{biome}}, Волна {{wave}}.",
+    "apparently": "возможно встречен на Ур. {{level}},\n{{biome}}."
+  },
   "natureFragment": {
     "Hardy": "{{nature}}",
     "Lonely": "{{nature}}",
@@ -29,5 +42,6 @@
     "Sassy": "{{nature}}",
     "Careful": "{{nature}}",
     "Quirky": "{{nature}}"
-  }
+  },
+  "friendship": "Дружба"
 }

@@ -68,16 +68,6 @@
     "BaseStatBoosterModifierType": {
       "description": "增加10%持有者的{{stat}}，\n个体值越高堆叠上限越高。"
     },
-    "PokemonBaseStatTotalModifierType": {
-      "name": "壶壶果汁",
-      "description": "{{increaseDecrease}}持有者的所有基础属性{{statValue}}。你被壶壶{{blessCurse}}了。",
-      "extra": {
-        "increase": "提升",
-        "decrease": "降低",
-        "blessed": "强化",
-        "cursed": "诅咒"
-      }
-    },
     "PokemonBaseStatFlatModifierType": {
       "name": "森之羊羹",
       "description": "增加持有者{{stats}}的基础属性{{statValue}}，来自于一场怪梦。"
@@ -366,6 +356,14 @@
       "name": "宝藏金币",
       "description": "这个宝可梦最爱金币！多收集点金币的话会发生什么呢？"
     },
+    "EVOLUTION_TRACKER_PRIMEAPE": {
+      "name": "愤怒之拳",
+      "description": "当怒气突破临界点时，它获得了能够摆脱肉体束缚的力量！\n用愤怒之拳来将愤怒化为力量吧！"
+    },
+    "EVOLUTION_TRACKER_STANTLER": {
+      "name": "屏障猛攻",
+      "description": "惊角鹿为了适应严酷的环境而进化。用屏障猛攻来加强它的防御吧！"
+    },
     "BATON": {
       "name": "接力棒",
       "description": "允许在切换宝可梦时保留能力变化, 对陷阱\n同样生效。"
@@ -379,7 +377,7 @@
       "description": "显著增加野生宝可梦有隐藏特性的概率。"
     },
     "CATCHING_CHARM": {
-      "name": "捕获护符",
+      "name": "防晃护符",
       "description": "增加关键捕获的几率。"
     },
     "IV_SCANNER": {
@@ -428,8 +426,13 @@
       "name": "融合硬币",
       "description": "增加1%野生融合宝可梦出现概率。"
     },
-    "MYSTERY_ENCOUNTER_SHUCKLE_JUICE": {
-      "name": "壶壶果汁"
+    "MYSTERY_ENCOUNTER_SHUCKLE_JUICE_GOOD": {
+      "name": "甜壶壶果汁",
+      "description": "增加持有者的所有基础个体值。你被壶壶祝福了！"
+    },
+    "MYSTERY_ENCOUNTER_SHUCKLE_JUICE_BAD": {
+      "name": "腐烂的壶壶果汁",
+      "description": "减少持有者的所有基础个体值。你被壶壶诅咒了！"
     },
     "MYSTERY_ENCOUNTER_BLACK_SLUDGE": {
       "name": "黑色污泥",
@@ -441,7 +444,7 @@
     },
     "MYSTERY_ENCOUNTER_OLD_GATEAU": {
       "name": "森之羊羔",
-      "description": "提升持有者的{{stats}}的{{statValue}}。"
+      "description": "增加持有者的部分个体值。"
     },
     "MYSTERY_ENCOUNTER_GOLDEN_BUG_NET": {
       "name": "金捕虫网",
@@ -467,7 +470,7 @@
     },
     "DEEP_SEA_SCALE": {
       "name": "深海鳞片",
-      "description": "闪耀着粉红色光泽的鳞片。$让珍珠贝携带后，特防就会提高。\t"
+      "description": "闪耀着粉红色光泽的鳞片。$让珍珠贝携带后，特防就会提高。"
     },
     "DEEP_SEA_TOOTH": {
       "name": "深海之牙",

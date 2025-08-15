@@ -1,1 +1,27 @@
-{}
+{
+  "intro": "Uno stormo di {{delibirdName}} è apparso!",
+  "title": "Gruppo di Delibird",
+  "description": "I {{delibirdName}} ti guardano trepidanti, come se volessero qualcosa. Forse dargli uno strumento o dei soldi potrebbe soddisfarli?",
+  "query": "Che cosa gli darai?",
+  "invalid_selection": "Questo Pokémon non possiede quel tipo di strumento.",
+  "option": {
+    "1": {
+      "label": "Dagli dei soldi",
+      "tooltip": "(-) Dai {{money, money}} ai {{delibirdName}}\n(+) Ricevi uno strumento",
+      "selected": "Lanci le monete ai {{delibirdName}},\nche cinguettano intensamente tra di loro.$Si girano verso di te sorridenti e ti danno un regalo!"
+    },
+    "2": {
+      "label": "Dagli del cibo",
+      "tooltip": "(-) Dai ai {{delibirdName}} una Bacca o un Revitalseme\n(+) Ricevi uno strumento",
+      "select_prompt": "Seleziona uno strumento da regalare.",
+      "selected": "Lanci lo {{chosenItem}} ai {{delibirdName}},\nche cinguettano intensamente tra di loro.$Si girano verso di te sorridenti e ti danno un regalo!"
+    },
+    "3": {
+      "label": "Dagli uno strumento",
+      "tooltip": "(-) Dai ai {{delibirdName}} uno strumento tenuto\n(+) Ricevi uno strumento",
+      "select_prompt": "Seleziona uno strumento da dare.",
+      "selected": "Lanci lo {{chosenItem}} ai {{delibirdName}},\nche cinguettano intensamente tra di loro.$Si girano verso di te sorridenti e ti danno un regalo!"
+    }
+  },
+  "outro": "Lo stormo di {{delibirdName}} si rimette in cammino felice.$Che scambio curioso!"
+}

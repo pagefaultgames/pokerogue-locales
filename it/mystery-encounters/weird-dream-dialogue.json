@@ -1,1 +1,28 @@
-{}
+{
+  "intro": "Una donna enigmatica blocca il tuo cammino.\nIn lei c’è qualcosa di inquietante…",
+  "speaker": "Donna",
+  "intro_dialogue": "Io ho visto i tuoi futuri, i tuoi passati…$Ragazzo mio, li vedi anche tu?",
+  "title": "???",
+  "description": "Le parole della donna riecheggiano nella tua testa. Non era una voce singola, ma una grande moltitudine, da tutte le linee temporali e realtà. Inizi a sentirti frastornato, la domanda persistente nella tua mente…\n\n@[TOOLTIP_TITLE]{\"Io ho visto i tuoi futuri, i tuoi passati... Ragazzo mio, li vedi anche tu?\"}",
+  "query": "Che cosa farai?",
+  "option": {
+    "1": {
+      "label": "\"Li vedo.\"",
+      "tooltip": "@[SUMMARY_GREEN]{(?) Influenza i tuoi Pokémon}",
+      "selected": "La sua mano si allunga per toccarti,\ne tutto diventa nero.$Poi…@d{64} Vedi ogni cosa.\nOgni linea temporale, tutte le tue diverse versioni,\npassate e future.$Ogni cosa che ti ha reso ciò che sei,\nogni cosa che diventerai…@d{64}",
+      "cutscene": "Vedi i tuoi Pokémon,@d{32} convergenti da\nogni realtà per diventare qualcosa di nuovo…@d{64}",
+      "dream_complete": "Quando ti risvegli, la donna -era una donna o un fantasma?- è sparita…$.@d{32}.@d{32}.@d{32}La tua squadra Pokémon è cambiata…\nO forse questa è la squadra che hai sempre avuto?"
+    },
+    "2": {
+      "label": "\"Mostrameli.\"",
+      "tooltip": "(-) Combattimento difficile\n(+) Buone ricompense",
+      "selected": "Ti senti come se la tua mente fosse svicolata in un sogno gelido.",
+      "selected_2": "@f{150}Quando riprendi i sensi, ti trovi davanti una figura strana ma familiare…"
+    },
+    "3": {
+      "label": "Allontanati rapidamente",
+      "tooltip": "(-) Influenza i tuoi Pokémon",
+      "selected": "Liberi la tua mente da questa morsa paralizzante, e ti allontani di corsa.$Quando finalmente ti fermi per riprenderti, controlli i Pokémon della tua squadra.$Per qualche motivo, il livello di tutti è diminuito!"
+    }
+  }
+}
