@@ -13,12 +13,12 @@
       "label": "움직일 때까지 기다린다",
       "tooltip": "(-) 긴 시간을 기다림 \n(+) 멤버 HP회복",
       "selected": ".@d{32}.@d{32}.@d{32}$한참을 기다리다보니, {{snorlaxName}}의 하품이 모두를 졸리게 만든다….",
-      "rest_result": "모두가 잠에서 깨어났을 무렵, {{snorlaxName}}[[는]] 어디에도 없었다.\n하지만 모든 포켓몬이 회복되었다!"
+      "restResult": "모두가 잠에서 깨어났을 무렵, {{snorlaxName}}[[는]] 어디에도 없었다.\n하지만 모든 포켓몬이 회복되었다!"
     },
     "3": {
       "label": "아이템을 훔친다",
       "tooltip": "(+) {{option3PrimaryName}}[[가]] {{option3PrimaryMove}}[[를]] 사용\n(+) 특별한 보상",
-      "disabled_tooltip": "포켓몬이 특정 기술을 알고 있어야 한다.",
+      "disabledTooltip": "포켓몬이 특정 기술을 알고 있어야 한다.",
       "selected": "{{option3PrimaryName}}[[는]] {{option3PrimaryMove}}[[를]] 사용했다!$@s{item_fanfare}자고 있는 {{snorlaxName}}[[로]]부터\n남은 음식을 훔쳐서 살금살금 도망쳤다!"
     }
   }

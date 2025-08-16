@@ -3,7 +3,7 @@
   "title": "Traningssitzung",
   "description": "Diese Vorräte sehen so aus, als könnten sie verwendet werden, um ein Mitglied deines Teams zu trainieren! Es gibt ein paar Möglichkeiten, wie du dein Pokémon trainieren könntest, indem du gegen es mit dem Rest deines Teams @[TOOLTIP_TITLE]{kämpfst und es besiegst}.",
   "query": "Wie möchtest du trainieren?",
-  "invalid_selection": "Pokémon muss kann nicht kämpfen!",
+  "invalidSelection": "Pokémon muss kann nicht kämpfen!",
   "option": {
     "1": {
       "label": "Leichtes Training",
@@ -13,13 +13,13 @@
     "2": {
       "label": "Moderates Training",
       "tooltip": "(-) Moderater Kampf\n(+) Ändere das Wesen des Pokémon",
-      "select_prompt": "Wähle ein neues Wesen aus, um dein Pokémon zu trainieren.",
+      "selectPrompt": "Wähle ein neues Wesen aus, um dein Pokémon zu trainieren.",
       "finished": "{{selectedPokemon}} kehrt zurück, fühlt sich erschöpft aber zufrieden!$Es hat nun ein neues Wesen: {{nature}}!"
     },
     "3": {
       "label": "Schweres Training",
       "tooltip": "(-) Harter Kampf\n(+) Ändere die Fähigkeit des Pokémon",
-      "select_prompt": "Wähle eine neue Fähigkeit aus, um dein Pokémon zu trainieren.",
+      "selectPrompt": "Wähle eine neue Fähigkeit aus, um dein Pokémon zu trainieren.",
       "finished": "{{selectedPokemon}} kehrt zurück, fühlt sich erschöpft aber zufrieden!$Seine Fähigkeit wurde zu {{ability}} geändert!"
     },
     "4": {

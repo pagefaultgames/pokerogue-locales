@@ -1,11 +1,11 @@
 {
   "intro": "Un homme en manteau noir vous aborde.",
   "speaker": "Dealer",
-  "intro_dialogue": ".@d{16}.@d{16}.@d{16}$J’ai de la bonne came pour toi, mais seulement\nsi t’as les thunes.$Assure-toi quand même que tes Pokémon\npuissent encaisser.",
+  "introDialogue": ".@d{16}.@d{16}.@d{16}$J’ai de la bonne came pour toi, mais seulement\nsi t’as les thunes.$Assure-toi quand même que tes Pokémon\npuissent encaisser.",
   "title": "Le Dealer d’accélérateurs",
   "description": "L’homme ouvre son manteau et vous laisse apercevoir des accélérateurs pour Pokémon. Le tarif qu’il annonce semble être une bonne affaire. Peut-être même un peu trop belle…\nIl vous laisse le choix entre deux offres.",
   "query": "Laquelle choisissez-vous ?",
-  "invalid_selection": "Ce Pokémon ne peut pas en recevoir !",
+  "invalidSelection": "Ce Pokémon ne peut pas en recevoir !",
   "option": {
     "1": {
       "label": "Offre douteuse",
@@ -22,6 +22,6 @@
     },
     "selected": "L’homme vous remet deux Accélérateurs et s’évapore.${{selectedPokemon}} reçoit 1 {{boost1}} et 1 {{boost2}} !"
   },
-  "cheap_side_effects": "Ah !\nDes effets secondaires se manifestent !$Votre {{selectedPokemon}} prend des dégâts,\net sa nature se change en {{newNature}} !",
-  "no_bad_effects": "Tout semble bien se passer, aucun effet indésirable à signaler !"
+  "cheapSideEffects": "Ah !\nDes effets secondaires se manifestent !$Votre {{selectedPokemon}} prend des dégâts,\net sa nature se change en {{newNature}} !",
+  "noBadEffects": "Tout semble bien se passer, aucun effet indésirable à signaler !"
 }

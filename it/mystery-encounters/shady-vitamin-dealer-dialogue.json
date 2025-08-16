@@ -1,11 +1,11 @@
 {
   "intro": "Un uomo con un cappotto scuro ti avvicina.",
   "speaker": "Il Venditore Misterioso",
-  "intro_dialogue": ".@d{16}.@d{16}.@d{16}$Ho la merce se tu hai i soldi.$Ma assicurati che i tuoi Pokémon riescano a gestirla.",
+  "introDialogue": ".@d{16}.@d{16}.@d{16}$Ho la merce se tu hai i soldi.$Ma assicurati che i tuoi Pokémon riescano a gestirla.",
   "title": "Il Commerciante di Vitamine",
   "description": "L'uomo apre la giacca e svela alcune vitamine Pokémon. I prezzi che propone sembrano davvero un buon affare. Quasi troppo buono…\nOffre due pacchetti di offerte tra cui scegliere.",
   "query": "Quale offerta sceglierai?",
-  "invalid_selection": "Questo Pokémon non può ricevere nulla!",
+  "invalidSelection": "Questo Pokémon non può ricevere nulla!",
   "option": {
     "1": {
       "label": "L’Accordo Economico",
@@ -22,6 +22,6 @@
     },
     "selected": "L’uomo ti porge due bottiglie e sparisce rapidamente.${{selectedPokemon}} ha guadagnato {{boost1}} e {{boost2}} in aumento!"
   },
-  "cheap_side_effects": "Ma la medicina ha alcuni effetti collaterali!$Il tuo {{selectedPokemon}} subisce dei danni,\ne la sua Natura è cambiata in {{newNature}}!",
-  "no_bad_effects": "Sembra che la medicina non abbia avuto effetti collaterali!"
+  "cheapSideEffects": "Ma la medicina ha alcuni effetti collaterali!$Il tuo {{selectedPokemon}} subisce dei danni,\ne la sua Natura è cambiata in {{newNature}}!",
+  "noBadEffects": "Sembra che la medicina non abbia avuto effetti collaterali!"
 }

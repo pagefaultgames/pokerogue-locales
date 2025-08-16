@@ -8,11 +8,11 @@
       "label": "포켓몬과 싸운다",
       "tooltip": "(-) 어려운 배틀\n(+) 새 아이템",
       "selected": "용감하게 포켓몬에게 다가갔다.",
-      "stat_boost": "{{enemyPokemon}}의 잠재력이 능력치 중 하나를 강화했다!"
+      "statBoost": "{{enemyPokemon}}의 잠재력이 능력치 중 하나를 강화했다!"
     },
     "2": {
       "label": "아이템을 훔친다",
-      "disabled_tooltip": "이 선택지를 선택하려면 포켓몬이 특정 기술을 가지고 있어야 합니다.",
+      "disabledTooltip": "이 선택지를 선택하려면 포켓몬이 특정 기술을 가지고 있어야 합니다.",
       "tooltip": "(+) {{option2PrimaryName}}의 {{option2PrimaryMove}} 사용",
       "selected": ".@d{32}.@d{32}.@d{32}${{option2PrimaryName}}[[가]] {{option2PrimaryMove}}[[를]] 사용했다!$아이템을 훔쳤다!"
     },
@@ -20,7 +20,6 @@
       "label": "떠난다",
       "tooltip": "(-) 보상 없음",
       "selected": "강한 포켓몬과 전리품을 남겨둔 채\n당신은 계속 나아간다."
-      
     }
   }
 }

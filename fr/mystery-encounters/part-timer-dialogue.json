@@ -1,11 +1,11 @@
 {
   "intro": "Une Ouvrière croulant sous une importante masse\nde travail vous interpelle.",
   "speaker": "Ouvrière",
-  "intro_dialogue": "T’as l’air d’avoir pas mal de Pokémon plutôt compétents\navec toi !$Si t’acceptes de nous aider pour quelques tâches,\non peut te payer !",
+  "introDialogue": "T’as l’air d’avoir pas mal de Pokémon plutôt compétents\navec toi !$Si t’acceptes de nous aider pour quelques tâches,\non peut te payer !",
   "title": "L’intérimaire",
   "description": "La liste de tâches à effectuer a l’air incroyablement longue.\nEn fonction des compétences du Pokémon choisi pour une tâche donnée, vous gagnerez un salaire plus ou moins important.",
   "query": "Quel poste vous intéresse le plus ?",
-  "invalid_selection": "Ce Pokémon ne peut pas travailler !",
+  "invalidSelection": "Ce Pokémon ne peut pas travailler !",
   "option": {
     "1": {
       "label": "Livraisons",
@@ -20,12 +20,12 @@
     "3": {
       "label": "Assistant vendeur",
       "tooltip": "(-) Votre {{option3PrimaryName}} utilise {{option3PrimaryMove}}\n(+) Toucher un @[MONEY]{salaire}",
-      "disabled_tooltip": "Votre Pokémon doit connaitre certaines capacités pour choisir ce poste.",
+      "disabledTooltip": "Votre Pokémon doit connaitre certaines capacités pour choisir ce poste.",
       "selected": "Votre {{option3PrimaryName}} passe sa journée à utiliser {{option3PrimaryMove}} pour attirer des clients !"
     }
   },
-  "job_complete_good": "Merci pour votre aide !\nVotre {{selectedPokemon}} nous a été d’un grand renfort !$Voici le salaire pour son travail.",
-  "job_complete_bad": "Votre {{selectedPokemon}} nous a plutôt bien aidé !$Voici le salaire pour son travail.",
-  "pokemon_tired": "Votre {{selectedPokemon}} est épuisé !\nLes PP de toutes ses capacités baissent à 2 !",
+  "jobCompleteGood": "Merci pour votre aide !\nVotre {{selectedPokemon}} nous a été d’un grand renfort !$Voici le salaire pour son travail.",
+  "jobCompleteBad": "Votre {{selectedPokemon}} nous a plutôt bien aidé !$Voici le salaire pour son travail.",
+  "pokemonTired": "Votre {{selectedPokemon}} est épuisé !\nLes PP de toutes ses capacités baissent à 2 !",
   "outro": "Reviens nous aider à l’occasion !"
 }

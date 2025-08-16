@@ -8,7 +8,7 @@
       "label": "Affrontalo",
       "tooltip": "(-) Combattimento difficile\n(+) Ottieni una Staffetta",
       "selected": "L’{{oricorioName}} è scioccato e si muove per difendersi!",
-      "boss_enraged": "La paura di {{oricorioName}} ha aumentato le sue statistiche!"
+      "bossEnraged": "La paura di {{oricorioName}} ha aumentato le sue statistiche!"
     },
     "2": {
       "label": "Impara la sua Danza",
@@ -18,10 +18,10 @@
     "3": {
       "label": "Mostragli una Danza",
       "tooltip": "(-) Insegna a {{oricorioName}} una mossa basata sulla Danza\n(+) Piacerai a {{oricorioName}}",
-      "disabled_tooltip": "Il tuo Pokémon deve conoscere una mossa basata sulla Danza per questa opzione.",
-      "select_prompt": "Seleziona una mossa basata sulla Danza da usare.",
+      "disabledTooltip": "Il tuo Pokémon deve conoscere una mossa basata sulla Danza per questa opzione.",
+      "selectPrompt": "Seleziona una mossa basata sulla Danza da usare.",
       "selected": "L’{{oricorioName}} guarda affascinato mentre\n{{selectedPokemon}} mostra {{selectedMove}}! Adora la dimostrazione!$@s{level_up_fanfare}L’{{oricorioName}} vuole unirsi alla tua squadra!"
     }
   },
-  "invalid_selection": "Questo Pokémon non conosce una mossa basata sulla Danza!"
+  "invalidSelection": "Questo Pokémon non conosce una mossa basata sulla Danza!"
 }

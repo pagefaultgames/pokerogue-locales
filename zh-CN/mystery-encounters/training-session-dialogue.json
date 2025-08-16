@@ -3,7 +3,7 @@
   "title": "集训",
   "description": "这些物品似乎可以\n用来训练你的队伍！\n有数种方式可以进行训练：\n让你队伍中的其他宝可梦与其进行对战。",
   "query": "要怎么训练？",
-  "invalid_selection": "这只宝可梦无法战斗了！",
+  "invalidSelection": "这只宝可梦无法战斗了！",
   "option": {
     "1": {
       "label": "轻量训练",
@@ -13,13 +13,13 @@
     "2": {
       "label": "适度训练",
       "tooltip": "(-)适中的战斗\n(+)改变宝可梦的性格",
-      "select_prompt": "选择一种想要的性格\n来训练你的神奇宝贝。",
+      "selectPrompt": "选择一种想要的性格\n来训练你的神奇宝贝。",
       "finished": "{{selectedPokemon}}回来了，感觉虽然疲惫不堪，\n但很有成就感！$它的性格变成了{{nature}}！"
     },
     "3": {
       "label": "重磅训练",
       "tooltip": "(-)艰苦的战斗\n(+)改变宝可梦的特性",
-      "select_prompt": "选择一种想要的特性\n来训练你的神奇宝贝。",
+      "selectPrompt": "选择一种想要的特性\n来训练你的神奇宝贝。",
       "finished": "{{selectedPokemon}}回来了，感觉虽然疲惫不堪，\n但很有成就感！$它的特性变成了{{ability}}！"
     },
     "4": {
