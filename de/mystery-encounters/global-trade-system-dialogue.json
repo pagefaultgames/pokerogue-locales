@@ -7,7 +7,7 @@
     "1": {
       "label": "Tauschangebote prüfen",
       "tooltip": "(+) Wähle ein Tauschangebot für eines deiner Pokémon aus",
-      "trade_options_prompt": "Wähle ein Pokémon aus, das du erhalten möchtest."
+      "tradeOptionsPrompt": "Wähle ein Pokémon aus, das du erhalten möchtest."
     },
     "2": {
       "label": "Zaubertausch",
@@ -15,8 +15,8 @@
     },
     "3": {
       "label": "Tausche ein Item",
-      "trade_options_prompt": "Wähle ein Item aus, das du senden möchtest.",
-      "invalid_selection": "Dieses Pokémon hat keine Items die getauscht werden können.",
+      "tradeOptionsPrompt": "Wähle ein Item aus, das du senden möchtest.",
+      "invalidSelection": "Dieses Pokémon hat keine Items die getauscht werden können.",
       "tooltip": "(+) Sende eines deiner Items an die GTS und erhalte ein zufälliges verbessertes Item im Austausch"
     },
     "4": {
@@ -25,8 +25,8 @@
       "selected": "Heute ist keine Zeit zum Tauschen! Du gehst weiter."
     }
   },
-  "pokemon_trade_selected": "{{tradedPokemon}} wird an {{tradeTrainerName}} gesendet.",
-  "pokemon_trade_goodbye": "Machs gut, {{tradedPokemon}}!",
-  "item_trade_selected": "{{chosenItem}} wird an {{tradeTrainerName}} gesendet.$.@d{64}.@d{64}.@d{64}\n@s{level_up_fanfare}Tausch abgeschlossen!$Du hast {{itemName}} von {{tradeTrainerName}} erhalten!",
-  "trade_received": "@s{evolution_fanfare}{{tradeTrainerName}} hat dir {{received}} geschickt!"
+  "pokemonTradeSelected": "{{tradedPokemon}} wird an {{tradeTrainerName}} gesendet.",
+  "pokemonTradeGoodbye": "Machs gut, {{tradedPokemon}}!",
+  "itemTradeSelected": "{{chosenItem}} wird an {{tradeTrainerName}} gesendet.$.@d{64}.@d{64}.@d{64}\n@s{level_up_fanfare}Tausch abgeschlossen!$Du hast {{itemName}} von {{tradeTrainerName}} erhalten!",
+  "tradeReceived": "@s{evolution_fanfare}{{tradeTrainerName}} hat dir {{received}} geschickt!"
 }
