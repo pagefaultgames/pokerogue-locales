@@ -3,7 +3,7 @@
   "title": "Delibir-dy",
   "description": "Os {{delibirdName}} estão te olhando com expectativa, como se quisessem algo. Talvez dar a eles um item ou um pouco de dinheiro os satisfaça?",
   "query": "O que você vai dar a eles?",
-  "invalid_selection": "O Pokémon não tem esse tipo de item.",
+  "invalidSelection": "O Pokémon não tem esse tipo de item.",
   "option": {
     "1": {
       "label": "Dar Dinheiro",
@@ -13,13 +13,13 @@
     "2": {
       "label": "Dar Comida",
       "tooltip": "(-) Dar aos {{delibirdName}} uma Fruta ou Semente Reanimadora\n(+) Receber um Item de Presente",
-      "select_prompt": "Selecione um item para dar.",
+      "selectPrompt": "Selecione um item para dar.",
       "selected": "Você joga a {{chosenItem}} para os {{delibirdName}},\nque conversam entre si animadamente.$Eles se viram para você e alegremente te dão um presente!"
     },
     "3": {
       "label": "Dar um Item",
       "tooltip": "(-) Dar aos {{delibirdName}} um Item Segurado\n(+) Receber um Item de Presente",
-      "select_prompt": "Selecione um item para dar.",
+      "selectPrompt": "Selecione um item para dar.",
       "selected": "Você joga o(a) {{chosenItem}} para os {{delibirdName}},\nque conversam entre si animadamente.$Eles se viram para você e alegremente te dão um presente!"
     }
   },

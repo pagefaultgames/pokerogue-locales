@@ -7,7 +7,7 @@
     "1": {
       "label": "Ver ofertas de intercambio",
       "tooltip": "(+) Selecciona una oferta de intercambio para uno de tus Pokémon",
-      "trade_options_prompt": "Selecciona un Pokémon para recibir a través del intercambio."
+      "tradeOptionsPrompt": "Selecciona un Pokémon para recibir a través del intercambio."
     },
     "2": {
       "label": "Intercambio Prodigioso",
@@ -15,8 +15,8 @@
     },
     "3": {
       "label": "Intercambia un objeto",
-      "trade_options_prompt": "Selecciona un objeto para enviar.",
-      "invalid_selection": "Este Pokémon no tiene objetos legales para intercambiar.",
+      "tradeOptionsPrompt": "Selecciona un objeto para enviar.",
+      "invalidSelection": "Este Pokémon no tiene objetos legales para intercambiar.",
       "tooltip": "(+) Envía uno de tus objetos a la GTS y recibe un nuevo objeto aleatorio."
     },
     "4": {
@@ -25,8 +25,8 @@
       "selected": "¡No hay tiempo para intercambiar hoy!\nSigues adelante."
     }
   },
-  "pokemon_trade_selected": "{{tradedPokemon}} será enviado a {{tradeTrainerName}}.",
-  "pokemon_trade_goodbye": "¡Adiós, {{tradedPokemon}}!",
-  "item_trade_selected": "{{chosenItem}} será enviado a {{tradeTrainerName}}.$.@d{64}.@d{64}.@d{64}\n@s{level_up_fanfare}¡Intercambio completo!$¡Has recibido un {{itemName}} de {{tradeTrainerName}}!",
-  "trade_received": "¡@s{evolution_fanfare}{{tradeTrainerName}} envió a {{received}}!"
+  "pokemonTradeSelected": "{{tradedPokemon}} será enviado a {{tradeTrainerName}}.",
+  "pokemonTradeGoodbye": "¡Adiós, {{tradedPokemon}}!",
+  "itemTradeSelected": "{{chosenItem}} será enviado a {{tradeTrainerName}}.$.@d{64}.@d{64}.@d{64}\n@s{level_up_fanfare}¡Intercambio completo!$¡Has recibido un {{itemName}} de {{tradeTrainerName}}!",
+  "tradeReceived": "¡@s{evolution_fanfare}{{tradeTrainerName}} envió a {{received}}!"
 }
