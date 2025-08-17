@@ -1,7 +1,7 @@
 {
   "intro": "You’re stopped by a rich looking boy.",
   "speaker": "Rich Boy",
-  "intro_dialogue": "Good day to you.$I can’t help but notice that your\n{{strongestPokemon}} looks positively divine!$I’ve always wanted to have a Pokémon like that!$I’d pay you handsomely,\nand also give you this old bauble!",
+  "introDialogue": "Good day to you.$I can’t help but notice that your\n{{strongestPokemon}} looks positively divine!$I’ve always wanted to have a Pokémon like that!$I’d pay you handsomely,\nand also give you this old bauble!",
   "title": "An Offer You Can’t Refuse",
   "description": "You’re being offered a@[TOOLTIP_TITLE]{ {{itemName}}} and {{price, money}} for your {{strongestPokemon}}!\n\nIt’s an extremely good deal, but can you really bear to part with such a strong team member?",
   "query": "What will you do?",
@@ -14,7 +14,7 @@
     "2": {
       "label": "Extort the Kid",
       "tooltip": "(+) {{option2PrimaryName}} uses {{moveOrAbility}}\n(+) Gain {{price, money}}",
-      "tooltip_disabled": "Your Pokémon need to have certain moves or abilities to choose this",
+      "tooltipDisabled": "Your Pokémon need to have certain moves or abilities to choose this",
       "selected": "My word, we’re being robbed, {{liepardName}}!$You’ll be hearing from my lawyers for this!"
     },
     "3": {
