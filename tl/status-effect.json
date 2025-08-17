@@ -1,0 +1,59 @@
+{
+  "none": {
+    "name": "Walang"
+  },
+  "poison": {
+    "name": "Lason",
+    "description": "pagkalason",
+    "obtain": "{{pokemonNameWithAffix}}\nnalasón na!",
+    "obtainSource": "{{pokemonNameWithAffix}}\nnalasón ng {{sourceText}}!",
+    "activation": "{{pokemonNameWithAffix}} nasasaktan\ndahil sa lason!",
+    "overlap": "{{pokemonNameWithAffix}} ay\nlasonado na!",
+    "heal": "{{pokemonNameWithAffix}}\nnawala ang lason!"
+  },
+  "toxic": {
+    "name": "Toxic",
+    "description": "pagkatoxic",
+    "obtain": "{{pokemonNameWithAffix}}\nmay pagkatoxic!",
+    "obtainSource": "{{pokemonNameWithAffix}}\nna toxic dahil sa {{sourceText}}!",
+    "activation": "{{pokemonNameWithAffix}} nasasaktan\ndahil sa lason!",
+    "overlap": "{{pokemonNameWithAffix}} ay\nlasonado na!",
+    "heal": "{{pokemonNameWithAffix}}\nnawala ang lason!"
+  },
+  "paralysis": {
+    "name": "Paralisis",
+    "description": "paralisis",
+    "obtain": "{{pokemonNameWithAffix}} ay paralisado,\nbaka mapigilan kumilos!",
+    "obtainSource": "{{pokemonNameWithAffix}} ay na-paralisado\ndahil sa {{sourceText}}! Baka mapigilan kumilos!",
+    "activation": "{{pokemonNameWithAffix}} ay paralisado!\nDi kaya kumilos!",
+    "overlap": "{{pokemonNameWithAffix}} \nparalisado na!",
+    "heal": "{{pokemonNameWithAffix}} gumaling\nna sa paralisis!"
+  },
+  "sleep": {
+    "name": "Tutulog",
+    "description": "tutulog",
+    "obtain": "{{pokemonNameWithAffix}}\ntutulog na!",
+    "obtainSource": "{{pokemonNameWithAffix}}\ntutulog na dahil sa {{sourceText}}!",
+    "activation": "{{pokemonNameWithAffix}} tulog na tulog!",
+    "overlap": "{{pokemonNameWithAffix}}\nnatututulog na!",
+    "heal": "{{pokemonNameWithAffix}} bumangon na!"
+  },
+  "freeze": {
+    "name": "Nagyelo",
+    "description": "nagyeyelo",
+    "obtain": "{{pokemonNameWithAffix}}\nnagyelo na!",
+    "obtainSource": "{{pokemonNameWithAffix}}\nnagyelo dahil sa {{sourceText}}!",
+    "activation": "{{pokemonNameWithAffix}} totally\nnagyelo na!",
+    "overlap": "{{pokemonNameWithAffix}} ay\nnagyelo na!",
+    "heal": "{{pokemonNameWithAffix}}\nnatunaw na!"
+  },
+  "burn": {
+    "name": "Nasunog",
+    "description": "nasunog",
+    "obtain": "{{pokemonNameWithAffix}}\nnasunog na!",
+    "obtainSource": "{{pokemonNameWithAffix}}\nnasunog dahil sa {{sourceText}}!",
+    "activation": "{{pokemonNameWithAffix}} nasasaktan\ndahil sa sunog!",
+    "overlap": "{{pokemonNameWithAffix}}\nnasunog na!",
+    "heal": "{{pokemonNameWithAffix}} gumaling\nna sa sunog!"
+  }
+}
