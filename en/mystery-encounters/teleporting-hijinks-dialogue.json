@@ -12,7 +12,7 @@
     "2": {
       "label": "A Pokémon Helps",
       "tooltip": "(-) {{option2PrimaryName}} Helps\n(+) {{option2PrimaryName}} gains EXP\n(?) Teleport to New Biome",
-      "disabled_tooltip": "You need a Steel or Electric Type Pokémon to choose this.",
+      "disabledTooltip": "You need a Steel or Electric Type Pokémon to choose this.",
       "selected": "{{option2PrimaryName}}’s Type allows it to bypass the machine’s paywall!$The capsule opens, and you step inside…"
     },
     "3": {
@@ -23,5 +23,5 @@
   },
   "transport": "The machine shakes violently,\nmaking all sorts of strange noises!$Just as soon as it had started, it quiets once more.",
   "attacked": "You step out into a completely new area, startling a wild Pokémon!$The wild Pokémon attacks!",
-  "boss_enraged": "The opposing {{enemyPokemon}} has become enraged!"
+  "bossEnraged": "The opposing {{enemyPokemon}} has become enraged!"
 }

@@ -13,12 +13,12 @@
       "label": "干等",
       "tooltip": "(-)漫长的等待\n(+)回复队伍",
       "selected": ".@d{32}.@d{32}.@d{32}$您等待了好一段时间，但是\n{{snorlaxName}}的哈欠让你的队伍昏昏欲睡…………",
-      "rest_result": "当你们醒来时，{{snorlaxName}}已无处可寻。\n但你所有的宝可梦都痊愈了！"
+      "restResult": "当你们醒来时，{{snorlaxName}}已无处可寻。\n但你所有的宝可梦都痊愈了！"
     },
     "3": {
       "label": "偷摸",
       "tooltip": "(+){{option3PrimaryName}}使用{{option3PrimaryMove}}\n(+)特别的奖励",
-      "disabled_tooltip": "宝可梦需要习得\n特别的招式来选择",
+      "disabledTooltip": "宝可梦需要习得\n特别的招式来选择",
       "selected": "你的{{option3PrimaryName}}使用{{option3PrimaryMove}}！$@s{item_fanfare}它从熟睡的\n{{snorlaxName}}身上偷走了吃剩的东西，简直像个怪盗！"
     }
   }

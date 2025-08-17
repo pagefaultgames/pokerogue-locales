@@ -3,7 +3,7 @@
   "title": "Sessione di Allenamento",
   "description": "Sembra che questi attrezzi servano per allenare un membro della tua squadra! Ci sono più modi in cui potresti allenare un Pokémon, come @[TOOLTIP_TITLE]{lottando e sconfiggendolo con il resto della tua squadra}.",
   "query": "Che tipo di allenamento scegli?",
-  "invalid_selection": "Questo Pokémon non può lottare!",
+  "invalidSelection": "Questo Pokémon non può lottare!",
   "option": {
     "1": {
       "label": "Facile",
@@ -13,13 +13,13 @@
     "2": {
       "label": "Intermedio",
       "tooltip": "(-) Combattimento intermedio contro il Pokémon scelto\n(+) Cambia permanentemente la natura del Pokémon scelto",
-      "select_prompt": "Seleziona una nuova natura\nper cui vuoi allenare il tuo Pokémon.",
+      "selectPrompt": "Seleziona una nuova natura\nper cui vuoi allenare il tuo Pokémon.",
       "finished": "{{selectedPokemon}} torna da te, sentendosi\nesausto ma realizzato!$La sua natura è stata cambiata in {{nature}}!"
     },
     "3": {
       "label": "Pesante",
       "tooltip": "(-) Combattimento difficile contro il Pokémon scelto\n(+) Cambia permanentemente l’abilità del Pokémon scelto",
-      "select_prompt": "Seleziona la nuova abilità\nche vuoi che il tuo Pokémon ottenga.",
+      "selectPrompt": "Seleziona la nuova abilità\nche vuoi che il tuo Pokémon ottenga.",
       "finished": "{{selectedPokemon}} torna da te, sentendosi\nesausto ma realizzato!$La sua abilità è stata cambiata in {{ability}}!"
     },
     "4": {
