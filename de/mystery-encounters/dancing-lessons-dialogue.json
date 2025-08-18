@@ -8,7 +8,7 @@
       "label": "Kampf beginnen",
       "tooltip": "(-) Schwerer Kampf\n(+) Erhalte ein Stab",
       "selected": "Das {{oricorioName}} ist verstört und verteidigt sich!",
-      "boss_enraged": "Das {{oricorioName}} ist wütend und steigert seine Werte!"
+      "bossEnraged": "Das {{oricorioName}} ist wütend und steigert seine Werte!"
     },
     "2": {
       "label": "Lerne den Tanz",
@@ -18,10 +18,10 @@
     "3": {
       "label": "Zeig einen Tanz",
       "tooltip": "(-) Bringe dem {{oricorioName}} einen Tanz bei\n(+) Das {{oricorioName}} wird dich mögen",
-      "disabled_tooltip": "Dein Pokémon muss einen Tanz beherrschen, um diese Option zu wählen.",
-      "select_prompt": "Wählen Sie eine Tanzattacke aus, die verwendet werden soll.",
+      "disabledTooltip": "Dein Pokémon muss einen Tanz beherrschen, um diese Option zu wählen.",
+      "selectPrompt": "Wählen Sie eine Tanzattacke aus, die verwendet werden soll.",
       "selected": "Das {{oricorioName}} schaut fasziniert zu, wie {{selectedPokemon}} {{selectedMove}} vorführt!$Es liebt die Vorführung!$@s{level_up_fanfare}Das {{oricorioName}} möchte sich dir anschließen!"
     }
   },
-  "invalid_selection": "Das Pokémon kennt keine Tanzattacke!"
+  "invalidSelection": "Das Pokémon kennt keine Tanzattacke!"
 }

@@ -3,7 +3,7 @@
   "title": "デリバリーサービス",
   "description": "何かを ほしがる 表情で {{delibirdName}}は 期待で 見つめます。 ひょっとして アイテムや お金で 満足できる かな？",
   "query": "何をあげますか？",
-  "invalid_selection": "このポケモンは　そのような　アイテムを　持っていない！",
+  "invalidSelection": "このポケモンは　そのような　アイテムを　持っていない！",
   "option": {
     "1": {
       "label": "お金をあげる",
@@ -13,13 +13,13 @@
     "2": {
       "label": "食べ物をあげる",
       "tooltip": "(-) {{delibirdName}}に きのみ や ふっかつのタネ をあげる\n(+) プレセントをもらう",
-      "select_prompt": "あげたい　アイテムを　選んでください",
+      "selectPrompt": "あげたい　アイテムを　選んでください",
       "selected": "{{chosenItem}}を　{{delibirdName}}に　投げます。\n興奮で　ペチャペチャと　話し合います。$話しが　終わってから\nありがたく　プレセントを　くれます！"
     },
     "3": {
       "label": "アイテムをあげる",
       "tooltip": "(-) {{delibirdName}}に 持ち物を あげる\n(+) プレセントを もらう",
-      "select_prompt": "あげたい　アイテムを　選んでください",
+      "selectPrompt": "あげたい　アイテムを　選んでください",
       "selected": "{{chosenItem}}を　{{delibirdName}}に　投げます。\n興奮で　ペチャペチャと　話し合います。$話しが　終わってから\nありがたく　プレセントを　くれます！"
     }
   },

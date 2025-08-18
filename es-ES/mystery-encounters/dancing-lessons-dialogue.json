@@ -8,7 +8,7 @@
       "label": "Enfrentarse",
       "tooltip": "(-) Batalla Ardua\n(+) Obtén el objeto Relevo",
       "selected": "¡El {{oricorioName}} está angustiado e intenta defenderse!",
-      "boss_enraged": "¡El miedo del {{oricorioName}} aumentó sus estadísticas!"
+      "bossEnraged": "¡El miedo del {{oricorioName}} aumentó sus estadísticas!"
     },
     "2": {
       "label": "Aprender su danza",
@@ -18,10 +18,10 @@
     "3": {
       "label": "Mostrarle una danza",
       "tooltip": "(-) Enseña al {{oricorioName}} un movimiento de danza\n(+) Le gustaras al {{oricorioName}}",
-      "disabled_tooltip": "Tus Pokémon necesitan conocer un movimiento de danza para esto.",
-      "select_prompt": "Selecciona un movimiento de tipo danza para usar.",
+      "disabledTooltip": "Tus Pokémon necesitan conocer un movimiento de danza para esto.",
+      "selectPrompt": "Selecciona un movimiento de tipo danza para usar.",
       "selected": "¡El {{oricorioName}} observa fascinado mientras\n{{selectedPokemon}} muestra {{selectedMove}}!$¡Le encanta la exhibición!$@s{level_up_fanfare}¡El {{oricorioName}} quiere unirse a tu equipo!"
     }
   },
-  "invalid_selection": "¡Este Pokémon no conoce ningún movimiento de danza!"
+  "invalidSelection": "¡Este Pokémon no conoce ningún movimiento de danza!"
 }
