@@ -669,7 +669,7 @@
   },
   "thief": {
     "name": "Larcin",
-    "effect": "Le lanceur attaque la cible et a 30% de chance de voler son objet."
+    "effect": "Le lanceur attaque la cible et a 30% de chance de voler un de ses objets tenus."
   },
   "spiderWeb": {
     "name": "Toile",
@@ -693,7 +693,7 @@
   },
   "curse": {
     "name": "Malédiction",
-    "effect": "Une capacité à l’effet différent selon que le lanceur est un Pokémon Spectre ou non."
+    "effect": "Si le lanceur est de type Spectre, il sacrifie la moitié de ses PV totaux pour maudire la cible. Sinon, le lanceur baisse sa Vitesse pour augmenter son Attaque et sa Défense."
   },
   "flail": {
     "name": "Gigotage",
@@ -1369,7 +1369,7 @@
   },
   "covet": {
     "name": "Implore",
-    "effect": "Le lanceur s’approche de la cible avec un air angélique avec 30% de chance de dérober l’objet qu’elle tient."
+    "effect": "Le lanceur s’approche de la cible avec un air angélique afin de dérober un des objets qu’elle tient dans 30% des cas."
   },
   "voltTackle": {
     "name": "Électacle",
