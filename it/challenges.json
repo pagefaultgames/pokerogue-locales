@@ -4,49 +4,63 @@
   "noneSelected": "Nessuna selezione",
   "freshStart": {
     "name": "Un nuovo inizio",
-    "desc.0": "Simula la sfida di utilizzare starter appena ottenuti, senza alcuno miglioramento.",
-    "desc.1": "Puoi usare solo gli starter originali, e come se avessi appena cominciato PokéRogue.",
-    "desc.2": "I tuoi starter non hanno alcun miglioramento sbloccato, come se li avessi appena catturati per la prima volta.",
-    "value.0": "No",
-    "value.1": "Ripristino",
-    "value.2": "Tutti gli Starter"
+    "desc": {
+      "0": "Simula la sfida di utilizzare starter appena ottenuti, senza alcuno miglioramento.",
+      "1": "Puoi usare solo gli starter originali, e come se avessi appena cominciato PokéRogue.",
+      "2": "I tuoi starter non hanno alcun miglioramento sbloccato, come se li avessi appena catturati per la prima volta."
+    },
+    "value": {
+      "0": "No",
+      "1": "Ripristino",
+      "2": "Tutti gli Starter"
+    }
   },
   "hardcore": {
     "name": "Zero Revitalizzanti",
     "desc": "Non puoi revitalizzare i Pokémon esausti.",
-    "value.0": "No",
-    "value.1": "Sì"
+    "value": {
+      "0": "No",
+      "1": "Sì"
+    }
   },
   "limitedCatch": {
     "name": "Catture limitate",
     "desc": "Puoi catturare solo il primo Pokémon incontrato in ogni bioma.",
-    "value.0": "No",
-    "value.1": "Sì"
+    "value": {
+      "0": "No",
+      "1": "Sì"
+    }
   },
   "limitedSupport": {
     "name": "Supporto Limitato",
-    "desc.0": "Rimuove alcune o tutte le opzioni gratuite per curare la tua squadra.",
-    "desc.1": "Rimuove le cure alla fine di ogni bioma.\nAl loro posto ti saranno proposte le normali ricompense di fine ondata.",
-    "desc.2": "Rimuove il Negozio alla fine di ogni ondata.",
-    "desc.3": "Rimuove il Negozio alla fine di ogni ondata.\n\nRimuove le cure alla fine di ogni bioma.\nAl loro posto ti saranno proposte le normali ricompense di fine ondata.",
-    "value.0": "No",
-    "value.1": "Nessuna Cura",
-    "value.2": "Nessun Negozio",
-    "value.3": "Entrambi"
+    "desc": {
+      "0": "Rimuove alcune o tutte le opzioni gratuite per curare la tua squadra.",
+      "1": "Rimuove le cure alla fine di ogni bioma.\nAl loro posto ti saranno proposte le normali ricompense di fine ondata.",
+      "2": "Rimuove il Negozio alla fine di ogni ondata.",
+      "3": "Rimuove il Negozio alla fine di ogni ondata.\n\nRimuove le cure alla fine di ogni bioma.\nAl loro posto ti saranno proposte le normali ricompense di fine ondata."
+    },
+    "value": {
+      "0": "No",
+      "1": "Nessuna Cura",
+      "2": "Nessun Negozio",
+      "3": "Entrambi"
+    }
   },
   "singleGeneration": {
     "name": "Mono gen",
     "desc": "Puoi usare solo Pokémon di {{gen}} generazione.",
     "descDefault": "Puoi usare solo Pokémon della generazione selezionata.",
-    "gen1": "1ª",
-    "gen2": "2ª",
-    "gen3": "3ª",
-    "gen4": "4ª",
-    "gen5": "5ª",
-    "gen6": "6ª",
-    "gen7": "7ª",
-    "gen8": "8ª",
-    "gen9": "9ª"
+    "gen": {
+      "1": "1ª",
+      "2": "2ª",
+      "3": "3ª",
+      "4": "4ª",
+      "5": "5ª",
+      "6": "6ª",
+      "7": "7ª",
+      "8": "8ª",
+      "9": "9ª"
+    }
   },
   "singleType": {
     "name": "Mono tipo",
@@ -57,20 +71,26 @@
     "name": "Battaglia invertita",
     "shortName": "Invertita",
     "desc": "I vantaggi di tipo sono invertiti e le immunità sono eliminate.\nDisabilita gli obiettivi per le altre sfide.",
-    "value.0": "No",
-    "value.1": "Sì"
+    "value": {
+      "0": "No",
+      "1": "Sì"
+    }
   },
   "flipStat": {
     "name": "Invertistat",
     "shortName": "Invert",
     "desc": "Le statistiche sono invertite come segue:\n- PS con Velocità\n- Attacco con Difesa speciale\n- Difesa con Attacco speciale\nDisabilita gli obiettivi delle altre modalità sfida (eccetto Invertistat).",
-    "value.0": "No",
-    "value.1": "Sì"
+    "value": {
+      "0": "No",
+      "1": "Sì"
+    }
   },
   "metronome": {
     "name": "Modalità Metronomo",
     "desc": "Puoi usare soltanto Metronomo! Prova a tirare avanti soltanto con la fortuna.\nQuesta modalità esiste puramente a scopo ludico e non conferisce ricompense.\nDisabilita gli altri obiettivi.",
-    "value.0": "No",
-    "value.1": "Sì"
+    "value": {
+      "0": "No",
+      "1": "Sì"
+    }
   }
 }

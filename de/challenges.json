@@ -4,49 +4,63 @@
   "noneSelected": "Keine ausgewählt",
   "freshStart": {
     "name": "Neuanfang",
-    "desc.0": "Simuliert die Herausforderung nur frisch gefangene Starter zu haben ohne Freischaltungen.",
-    "desc.1": "Du kannst nur die originalen Starter nutzen. Ohne andere Freischaltungen. So wie als hättest du gerade mit PokéRogue angefangen.",
-    "desc.2": "Du kannst jeden Starter nutzen. Ohne zusätzliche Freischaltungen. So als hättest du sie gerade erst gefangen.",
-    "value.0": "Aus",
-    "value.1": "Kompletter Reset",
-    "value.2": "Alle Starter"
+    "desc": {
+      "0": "Simuliert die Herausforderung nur frisch gefangene Starter zu haben ohne Freischaltungen.",
+      "1": "Du kannst nur die originalen Starter nutzen. Ohne andere Freischaltungen. So wie als hättest du gerade mit PokéRogue angefangen.",
+      "2": "Du kannst jeden Starter nutzen. Ohne zusätzliche Freischaltungen. So als hättest du sie gerade erst gefangen."
+    },
+    "value": {
+      "0": "Aus",
+      "1": "Kompletter Reset",
+      "2": "Alle Starter"
+    }
   },
   "hardcore": {
     "name": "Hardcore",
     "desc": "Du kannst keine kampfunfähigen Pokémon mehr wiederbeleben.",
-    "value.0": "Aus",
-    "value.1": "An"
+    "value": {
+      "0": "Aus",
+      "1": "An"
+    }
   },
   "limitedCatch": {
     "name": "Fangbegrenzung",
     "desc": "Du kannst nur das erste Pokémon eines Bioms zu deinem Team hinzufügen.",
-    "value.0": "Aus",
-    "value.1": "An"
+    "value": {
+      "0": "Aus",
+      "1": "An"
+    }
   },
   "limitedSupport": {
     "name": "Begrenzte Unterstützung",
-    "desc.0": "Beschränkt einige oder alle kostenlose Optionen für kostenlose Heilung.",
-    "desc.1": "Entfernt die Heilung am Ende eines Biomes.\nStattdessen erscheint das normale Wellenbelohnungsmenü.",
-    "desc.2": "Entfernt den Shop im Wellenbelohnungsmenü.",
-    "desc.3": "Entfernt den Shop im Wellenbelohnungsmenü.\n\nEntfernt die Heilung am Ende eines Biomes.\nStattdessen erscheint das normale Wellenbelohnungsmenü.",
-    "value.0": "Aus",
-    "value.1": "Keine Heilung",
-    "value.2": "Kein Shop",
-    "value.3": "Beides"
+    "desc": {
+      "0": "Beschränkt einige oder alle kostenlose Optionen für kostenlose Heilung.",
+      "1": "Entfernt die Heilung am Ende eines Biomes.\nStattdessen erscheint das normale Wellenbelohnungsmenü.",
+      "2": "Entfernt den Shop im Wellenbelohnungsmenü.",
+      "3": "Entfernt den Shop im Wellenbelohnungsmenü.\n\nEntfernt die Heilung am Ende eines Biomes.\nStattdessen erscheint das normale Wellenbelohnungsmenü."
+    },
+    "value": {
+      "0": "Aus",
+      "1": "Keine Heilung",
+      "2": "Kein Shop",
+      "3": "Beides"
+    }
   },
   "singleGeneration": {
     "name": "Mono-Generation",
     "desc": "Du kannst nur Pokémon aus der {{gen}} Generation verwenden.",
     "descDefault": "Du kannst nur Pokémon aus der gewählten Generation verwenden.",
-    "gen1": "ersten",
-    "gen2": "zweiten",
-    "gen3": "dritten",
-    "gen4": "vierten",
-    "gen5": "fünften",
-    "gen6": "sechsten",
-    "gen7": "siebten",
-    "gen8": "achten",
-    "gen9": "neunten"
+    "gen": {
+      "1": "ersten",
+      "2": "zweiten",
+      "3": "dritten",
+      "4": "vierten",
+      "5": "fünften",
+      "6": "sechsten",
+      "7": "siebten",
+      "8": "achten",
+      "9": "neunten"
+    }
   },
   "singleType": {
     "name": "Mono-Typ",
@@ -57,20 +71,26 @@
     "name": "Umkehrkampf",
     "shortName": "Umkehrkampf",
     "desc": "Die Typen-Effektivität wird umgekehrt, und kein Typ ist gegen einen anderen Typ immun.\nDeaktiviert die Erfolge anderer Herausforderungen.",
-    "value.0": "Aus",
-    "value.1": "An"
+    "value": {
+      "0": "Aus",
+      "1": "An"
+    }
   },
   "flipStat": {
     "name": "Statuswert-Flip",
     "shortName": "Umkehren",
     "desc": "Die Werte werden neu gemischt. KP und Init tauschen.\nAngriff wird zu Sp.-Vert.\nVert. wird zu Sp.-Ang.\nSp.-Vert. wird zu Angriff.\nSp.-Ang. wird zu Vert.\nDeaktiviert die Erfolge anderer Herausforderungen.",
-    "value.0": "Aus",
-    "value.1": "An"
+    "value": {
+      "0": "Aus",
+      "1": "An"
+    }
   },
   "metronome": {
     "name": "Metronom-Modus",
     "desc": "Du darfst nur das Metronom verwenden! Schau, wie weit du mit purem Zufall kommst.\nDieser Modus ist AUSSCHLIESSLICH zum Spaß und schaltet keine Erfolge frei. Deaktiviert alle anderen Erfolge.",
-    "value.0": "Aus",
-    "value.1": "An"
+    "value": {
+      "0": "Aus",
+      "1": "An"
+    }
   }
 }
