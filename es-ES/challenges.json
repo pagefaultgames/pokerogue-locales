@@ -5,13 +5,19 @@
   "freshStart": {
     "name": "Nuevo Comienzo",
     "desc": {
-      "1": "Sólo puedes usar Pokémon iniciales originales, como si acabases de empezar PokéRogue."
+      "0": "Revive el desafío de usar iniciales recién obtenidos sin desbloqueables.",
+      "1": "Sólo puedes usar Pokémon iniciales originales, como si acabases de empezar PokéRogue.",
+      "2": "Puedes usar cualquier Pokémon inicial sin desbloqueables, como si los acabaras de conseguir."
     },
     "value": {
-      "0": "Desact."
+      "0": "Desact.",
+      "1": "Reinicio Completo",
+      "2": "Todos los iniciales"
     }
   },
   "hardcore": {
+    "name": "Extremo",
+    "desc": "No puedes revivir a Pokémon que han sido debilitados.",
     "value": {
       "0": "Desact.",
       "1": "Activo"
@@ -26,8 +32,18 @@
     }
   },
   "limitedSupport": {
+    "name": "Recursos Limitados",
+    "desc": {
+      "0": "Elimina algunas o todas las opciones gratuitas de curar a tu equipo.",
+      "1": "Elimina la curación al final del bioma.\nEn cambio, obtén una recompensa de fin de oleada estándar.",
+      "2": "Elimina la tienda en la recompensa de fin de oleada.",
+      "3": "Elimina la tienda en la recompensa de fin de oleada.\n\nElimina la curación al final del bioma.\nEn cambio, obtén una recompensa de fin de oleada estándar."
+    },
     "value": {
-      "0": "Desact."
+      "0": "Desact.",
+      "1": "Sin Cura",
+      "2": "Sin Tienda",
+      "3": "Ambos"
     }
   },
   "singleGeneration": {
