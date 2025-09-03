@@ -1,0 +1,13 @@
+{
+  "name": "pokerogue-locales",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "check-locales-format:keys": "node ./.github/scripts/locales-format-checker/main.js -k -v",
+    "check-locales-format:files": "node ./.github/scripts/locales-format-checker/main.js -f -v"
+  },
+  "optionalDependencies": {
+    "@actions/core": "^1.11.1"
+  }
+}

@@ -1,0 +1,58 @@
+name: Validate locales formats
+on:
+    # adjust for Pokerogue
+    pull_request:
+        branches:
+            - main
+    push:
+        branches:
+            - main
+
+jobs:
+    validate-locale-keys:
+        name: Validate locale keys
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v5
+
+            - name: Install pnpm
+              uses: pnpm/action-setup@v4
+              with:
+                  version: 10
+
+            - name: Set up Node.js
+              uses: actions/setup-node@v4
+              with:
+                node-version: 22.14.0
+                cache: "pnpm"
+            
+            - name: Install Node.js dependencies
+              run: pnpm add @actions/core
+
+            - name: Validate locale keys
+              run: pnpm check-locales-format:keys
+
+    validate-locale-file-names:
+        name: Validate locale file names
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v5
+
+            - name: Install pnpm
+              uses: pnpm/action-setup@v4
+              with:
+                  version: 10
+
+            - name: Set up Node.js
+              uses: actions/setup-node@v4
+              with:
+                node-version: 22.14.0
+                cache: "pnpm"
+            
+            - name: Install Node.js dependencies
+              run: pnpm add @actions/core
+
+            - name: Validate locale file names
+              run: pnpm check-locales-format:files
