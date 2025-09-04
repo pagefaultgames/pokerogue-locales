@@ -1,5 +1,4 @@
 import * as core from "@actions/core";
-import { existsSync, readFileSync } from "node:fs";
 import {
   toCamelCase,
   toKebabCase,
@@ -8,8 +7,8 @@ import {
   toSnakeCase,
   toUpperSnakeCase,
 } from "../helpers/strings.js";
-import { COLORS, fileNameFormat, i18nextKeyExtensions, keyFormat, LOCALES_DIR } from "./constants.js";
-import { getFiles } from "./get-files.js";
+import { COLORS, fileNameFormat, i18nextKeyExtensions, keyFormat, LOCALES_DIR, mainLanguage } from "./constants.js";
+import { getFiles, getKeys, getMainLanguageKeys, removeLanguageCode } from "./get-files.js";
 
 //#region Key Format
 
@@ -45,18 +44,6 @@ export async function checkLocaleKeys(options) {
 }
 
 /**
- * Read a file and return its content.
- * @param {string} filePath - The path to the file to read.
- * @returns {string | null} The content of the file.
- */
-function readFileContent(filePath) {
-  if (!existsSync(filePath)) {
-    return null;
-  }
-  return readFileSync(filePath, "utf8");
-}
-
-/**
  * Check a file for incorrect keys.
  * @param {string} filePath - The path to the file to check.
  * @param {options} options - The options to use.
@@ -69,18 +56,11 @@ function checkForIncorrectKeys(filePath, options) {
     core.info(`${COLORS.file}checking file: ${filePath}`);
   }
 
-  let data;
-  try {
-    const fileContent = readFileContent(filePath);
-    if (fileContent === null) {
-      return null;
-    }
-    data = JSON.parse(fileContent);
-  } catch (e) {
-    core.setFailed(`Error parsing ${filePath}: ${e.message}`);
+  /** @type {object | null} */
+  const keys = getKeys(filePath);
+  if (keys === null) {
+    return null;
   }
-  const keys = Object.keys(data);
-
   const entries = keys.map((key, index) => analyzeKey(key, index, options)).filter(e => e !== null);
 
   if (entries.length > 0) {
@@ -115,7 +95,7 @@ function analyzeKey(key, index, options) {
   }
   if (options.verbose) {
     core.info(`${COLORS.red}Incorrect key found at line ${line}: ${key}`);
-  core.info(`${COLORS.corrected}Correct key: ${correctKey}`);
+    core.info(`${COLORS.corrected}Correct key: ${correctKey}`);
   }
   return { incorrectKey: key, correctedKey: correctKey, line: line };
 }
@@ -167,7 +147,7 @@ export async function checkLocaleFileNames(options) {
         }
       }
       core.info(
-          `${COLORS.magenta}Checked ${files.length} files for ${languageCode} and found ${languageCodeIncorrectFiles} incorrect file names.`,
+        `${COLORS.magenta}Checked ${files.length} files for ${languageCode} and found ${languageCodeIncorrectFiles} incorrect file names.`,
       );
       if (languageCodeIncorrectFiles > 0) {
         incorrectFileNames[languageCode] = InvalidFileNamesForLang;
@@ -203,6 +183,80 @@ function checkForIncorrectFileName(filePath, options) {
     core.info(`${COLORS.corrected}Correct file name: ${correctFileName}`);
   }
   return { incorrectFileName: fileName, correctedFileName: correctFileName };
+}
+
+//#endregion
+
+//#region Missing Keys
+
+/**
+ * Check the file name format of all locales files.
+ * @param {options} options - The options to use.
+ * @returns {Promise<fileKeys>} The incorrect file names found.
+ */
+export async function checkLocaleMissingKeys(options) {
+  return new Promise(resolve => {
+    /** @type {fileKeys} */
+    const missingKeys = {};
+
+    for (const languageCode of options.languages) {
+      if (languageCode === mainLanguage) {
+        continue;
+      }
+      core.startGroup(`${COLORS.info}Checking missing keys for ${languageCode}`);
+      const path = `${LOCALES_DIR}/${languageCode}`;
+      const files = getFiles(path);
+      let languageCodeMissingKeys = 0;
+      for (const filePath of files) {
+        const fileMissingKeys = checkForMissingKeys(filePath, options);
+        if (fileMissingKeys !== null && fileMissingKeys.length > 0) {
+          missingKeys[filePath] = fileMissingKeys;
+          languageCodeMissingKeys += fileMissingKeys.length;
+        }
+      }
+      core.info(
+        `${COLORS.magenta}Checked ${files.length} files for ${languageCode} and found ${languageCodeMissingKeys} incorrect keys.`,
+      );
+      core.endGroup();
+    }
+
+    resolve(missingKeys);
+  });
+}
+
+/** Check for keys, that don't exist in the main language
+ * @param {string} filePath - The path to the file to check.
+ * @param {options} options - The options to use.
+ * @returns {string[] | null} the keys, that don't exist in the main language
+ */
+function checkForMissingKeys(filePath, options) {
+  /** @type {string[]} */
+  const missingKeys = [];
+  if (options.verbose) {
+    core.info(`${COLORS.file}checking file: ${filePath}`);
+  }
+
+  const keys = getKeys(filePath);
+  if (keys === null) {
+    return null;
+  }
+  const mainLanguageKeys = getMainLanguageKeys();
+  const fileName = removeLanguageCode(filePath);
+  for (const key of keys) {
+    const keyExists = mainLanguageKeys[fileName].includes(key);
+    if (!keyExists) {
+      missingKeys.push(key);
+
+      if (options.verbose) {
+        core.info(`${COLORS.red}Missing key found: ${key}`)
+      }
+    }
+  }
+
+  if (missingKeys.length > 0 && options.verbose) {
+      core.info(`${COLORS.red}Found ${missingKeys.length} missing keys in ${filePath}`);
+  }
+  return missingKeys;
 }
 
 //#endregion

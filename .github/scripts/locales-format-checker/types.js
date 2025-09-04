@@ -7,7 +7,7 @@
  */
 
 /**
- * @typedef {{ checkKeys: boolean, checkFileNames: boolean, verbose: boolean, languages: string[] }} options
+ * @typedef {{ checkKeys: boolean, checkFileNames: boolean, checkMissing: boolean, verbose: boolean, languages: string[] }} options
  */
 
 /**
@@ -16,6 +16,10 @@
 
 /**
  * @typedef {Object.<string, incorrectFileName[]} incorrectFileNames
+ */
+
+/**
+ * @typedef {Object.<string, string[]>} fileKeys
  */
 
 /**

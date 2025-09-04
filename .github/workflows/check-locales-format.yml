@@ -56,3 +56,26 @@ jobs:
 
             - name: Validate locale file names
               run: pnpm check-locales-format:files
+    validate-main-keys-exist:
+        name: Validate main language keys exist
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v5
+
+            - name: Install pnpm
+              uses: pnpm/action-setup@v4
+              with:
+                  version: 10
+
+            - name: Set up Node.js
+              uses: actions/setup-node@v4
+              with:
+                node-version: 22.14.0
+                cache: "pnpm"
+            
+            - name: Install Node.js dependencies
+              run: pnpm add @actions/core
+
+            - name: Validate main language keys exist
+              run: pnpm check-locales-format:missing

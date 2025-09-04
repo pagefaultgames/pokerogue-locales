@@ -19,7 +19,7 @@ export const ignoreList = [
   "README.md",
   "pnpm-lock.yaml",
   "scripts",
-  "LICENSE"
+  "LICENSE",
 ];
 /**
  * A list of inbuild i18next key extensions which use snake_case instead of camelCase.
@@ -47,14 +47,20 @@ export const fileNameFormat = "kebab-case";
 export const fileExtension = ".json";
 
 /**
+ * The main language code.
+ * Used to check if the key exists in the main language.
+ */
+export const mainLanguage = "en";
+
+/**
  * 24 bit Color map
  */
 export const COLORS = {
-  "blue": "\u001b[38;2;0;0;255m",
-  "green": "\u001b[38;2;0;255;0m",
-  "red": "\u001b[38;2;255;0;0m",
-  "magenta": "\u001b[38;2;136;23;152m",
-  "info": "\u001b[38;2;255;165;0m",
-  "file": "\u001b[38;2;128;128;128m",
-  "corrected": "\u001b[38;2;0;150;255m",
-}
+  blue: "\u001b[38;2;0;0;255m",
+  green: "\u001b[38;2;0;255;0m",
+  red: "\u001b[38;2;255;0;0m",
+  magenta: "\u001b[38;2;136;23;152m",
+  info: "\u001b[38;2;255;165;0m",
+  file: "\u001b[38;2;128;128;128m",
+  corrected: "\u001b[38;2;0;150;255m",
+};
