@@ -1,6 +1,6 @@
-import * as core from "@actions/core";
 import { existsSync, lstatSync, readdirSync, readFileSync } from "node:fs";
 import { format } from "node:util";
+import * as core from "@actions/core";
 import { fileExtension, ignoreList, LOCALES_DIR, mainLanguage } from "./constants.js";
 
 /**
@@ -70,13 +70,32 @@ export function getKeys(filePath) {
     }
     const fileContent = readFileSync(filePath, "utf8");
     const data = JSON.parse(fileContent);
-    const keys = Object.keys(data);
+    const keys = getKeysByData(data);
     const ret = keys.length > 0 ? keys : null;
-    return ret
+    return ret;
   } catch (error) {
     core.setFailed(`Error parsing ${filePath}: ${error.message}`);
     return null;
   }
+}
+
+/** Get the keys from an json object.
+ * This function is used by {@linkcode getKeys} to get nested keys.
+ * @param {object} data - The json object to get the keys from.
+ * @returns {string[]} The keys of the object, including nested keys.
+ */
+function getKeysByData(data) {
+  if (typeof data !== "object") {
+    return [];
+  }
+  const keys = [];
+  for (const [key, value] of Object.entries(data)) {
+    keys.push(key);
+    if (typeof value === "object") {
+      keys.push(...getKeysByData(value));
+    }
+  }
+  return keys;
 }
 
 /**

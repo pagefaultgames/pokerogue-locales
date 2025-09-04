@@ -56,6 +56,7 @@ jobs:
 
             - name: Validate locale file names
               run: pnpm check-locales-format:files
+
     validate-main-keys-exist:
         name: Validate main language keys exist
         runs-on: ubuntu-latest
