@@ -86,6 +86,7 @@ function checkForIncorrectKeys(filePath, options) {
  * Analyze a key for correctness.
  * @param {string} key - The key to analyze.
  * @param {number} index - The index of the key.
+ * @param {options} options - The command line options.
  * @returns {incorrectKey | null} The incorrect key and its correction or null if the key is correct.
  */
 function analyzeKey(key, index, options) {
