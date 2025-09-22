@@ -2,9 +2,9 @@
  * The directory containing all locales files.
  */
 export const LOCALES_DIR = ".";
+
 /**
  * A list of files to ignore.
- * @type {string[]}
  */
 export const ignoreList = [
   "package.json",
@@ -21,11 +21,11 @@ export const ignoreList = [
   "scripts",
   "LICENSE",
 ];
+
 /**
  * A list of inbuild i18next key extensions which use snake_case instead of camelCase.
  * @example `AceTrainer_male`
- * @link https://www.i18next.com/translation-function/context
- * @returns {string[]}
+ * @see {@link https://www.i18next.com/translation-function/context}
  */
 export const i18nextKeyExtensions = ["_male", "_female", "_ordinal", "_one", "_two", "_other", "_few"];
 
