@@ -25,7 +25,11 @@ export async function checkLocaleKeys(options) {
     let incorrectKeys = {};
 
     for (const languageCode of options.languages) {
-      core.startGroup(`Checking keys for "${languageCode}"`);
+      if (options.verbose) {
+        core.startGroup(`${COLORS.info}Checking keys for "${languageCode}"`);
+      } else {
+        core.info(`${COLORS.info}Checking keys for "${languageCode}"`);
+      }
       const path = `${LOCALES_DIR}/${languageCode}`;
       const files = getFiles(path);
       let languageCodeIncorrectKeys = 0;
@@ -36,7 +40,9 @@ export async function checkLocaleKeys(options) {
           languageCodeIncorrectKeys += Object.values(fileIncorrectKeys).reduce((sum, val) => sum + val.length, 0);
         }
       }
-      core.endGroup();
+      if (options.verbose) {
+        core.endGroup();
+      }
       core.info(
         `${COLORS.magenta}Checked ${files.length} files for language "${languageCode}" and found ${languageCodeIncorrectKeys} incorrect keys.\n`,
       );
@@ -54,13 +60,12 @@ export async function checkLocaleKeys(options) {
 function checkForIncorrectKeys(filePath, options) {
   /** @type {incorrectKeys} */
   const incorrectKeys = {};
-  if (options.verbose) {
-    core.info(`${COLORS.file}checking file: ${filePath}`);
-  }
+  printVerboseLog(`${COLORS.file}checking file: ${filePath}`, options);
 
   /** @type {object | null} */
   const keys = getKeys(filePath);
   if (keys === null) {
+    printVerboseLog(`${COLORS.info}No keys found in ${filePath}`, options);
     return null;
   }
   const entries = keys.map((key, index) => analyzeKey(key, index, options)).filter(e => e !== null);
@@ -69,12 +74,10 @@ function checkForIncorrectKeys(filePath, options) {
     incorrectKeys[filePath] = entries;
   }
 
-  if (options.verbose) {
-    if (entries.length === 0) {
-      core.info(`${COLORS.green}No incorrect keys found in ${filePath}`);
-    } else {
-      core.info(`${COLORS.red}Found ${entries.length} incorrect keys in ${filePath}`);
-    }
+  if (entries.length === 0) {
+    printVerboseLog(`${COLORS.green}No incorrect keys found in ${filePath}`, options);
+  } else {
+    printVerboseLog(`${COLORS.red}Found ${entries.length} incorrect keys in ${filePath}`, options);
   }
   return incorrectKeys;
 }
@@ -94,10 +97,8 @@ function analyzeKey(key, index, options) {
   if (correctKey === key) {
     return null;
   }
-  if (options.verbose) {
-    core.info(`${COLORS.red}Incorrect key found at line ${line}: ${key}`);
-    core.info(`${COLORS.corrected}Correct key: ${correctKey}`);
-  }
+  printVerboseLog(`${COLORS.red}Incorrect key found at line ${line}: ${key}`, options);
+  printVerboseLog(`${COLORS.corrected}Correct key: ${correctKey}`, options);
   return { incorrectKey: key, correctedKey: correctKey, line };
 }
 
@@ -135,7 +136,11 @@ export async function checkLocaleFileNames(options) {
     const incorrectFileNames = {};
 
     for (const languageCode of options.languages) {
-      core.startGroup(`Checking file names for "${languageCode}"`);
+      if (options.verbose) {
+        core.startGroup(`${COLORS.info}Checking file names for "${languageCode}"`);
+      } else {
+        core.info(`${COLORS.info}Checking file names for "${languageCode}"`);
+      }
       const path = `${LOCALES_DIR}/${languageCode}`;
       const files = getFiles(path);
       let languageCodeIncorrectFiles = 0;
@@ -150,7 +155,9 @@ export async function checkLocaleFileNames(options) {
       if (languageCodeIncorrectFiles > 0) {
         incorrectFileNames[languageCode] = InvalidFileNamesForLang;
       }
-      core.endGroup();
+      if (options.verbose) {
+        core.endGroup();
+      }
       core.info(
         `${COLORS.magenta}Checked ${files.length} files for language "${languageCode}" and found ${languageCodeIncorrectFiles} incorrect file names.\n`,
       );
@@ -166,12 +173,11 @@ export async function checkLocaleFileNames(options) {
  * @returns {incorrectFileName | null} The incorrect file name found.
  */
 function checkForIncorrectFileName(filePath, options) {
-  if (options.verbose) {
-    core.info(`${COLORS.file}checking file: ${filePath}`);
-  }
+  printVerboseLog(`${COLORS.file}checking file: ${filePath}`, options);
 
   const fileName = filePath.split("/").pop();
   if (fileName === undefined) {
+    printVerboseLog(`${COLORS.red}No file found at path: ${filePath}`, options);
     return null;
   }
 
@@ -179,10 +185,8 @@ function checkForIncorrectFileName(filePath, options) {
   if (correctFileName === fileName) {
     return null;
   }
-  if (options.verbose) {
-    core.info(`${COLORS.red}Incorrect file name found: ${fileName}`);
-    core.info(`${COLORS.corrected}Correct file name: ${correctFileName}`);
-  }
+  printVerboseLog(`${COLORS.red}Incorrect file name found: ${fileName}`, options);
+  printVerboseLog(`${COLORS.corrected}Correct file name: ${correctFileName}`, options);
   return { incorrectFileName: fileName, correctedFileName: correctFileName };
 }
 
@@ -204,7 +208,11 @@ export async function checkLocaleMissingKeys(options) {
       if (languageCode === mainLanguage) {
         continue;
       }
-      core.startGroup(`${COLORS.info}Checking missing keys for "${languageCode}"`);
+      if (options.verbose) {
+        core.startGroup(`${COLORS.info}Checking missing keys for "${languageCode}"`);
+      } else {
+        core.info(`${COLORS.info}Checking missing keys for "${languageCode}"`);
+      }
       const path = `${LOCALES_DIR}/${languageCode}`;
       const files = getFiles(path);
       let languageCodeMissingKeys = 0;
@@ -215,7 +223,9 @@ export async function checkLocaleMissingKeys(options) {
           languageCodeMissingKeys += fileMissingKeys.length;
         }
       }
-      core.endGroup();
+      if (options.verbose) {
+        core.endGroup();
+      }
       core.info(
         `${COLORS.magenta}Checked ${files.length} files for language "${languageCode}" and found ${languageCodeMissingKeys} incorrect keys.`,
       );
@@ -233,9 +243,7 @@ export async function checkLocaleMissingKeys(options) {
 function checkForMissingKeys(filePath, options) {
   /** @type {string[]} */
   const missingKeys = [];
-  if (options.verbose) {
-    core.info(`${COLORS.file}checking file: ${filePath}`);
-  }
+  printVerboseLog(`${COLORS.file}checking file: ${filePath}`, options);
 
   const keys = getKeys(filePath);
   if (keys === null) {
@@ -248,14 +256,12 @@ function checkForMissingKeys(filePath, options) {
     if (!keyExists) {
       missingKeys.push(key);
 
-      if (options.verbose) {
-        core.info(`${COLORS.red}Missing key found: ${key}`)
-      }
+      printVerboseLog(`${COLORS.red}Missing key found: ${key}`, options);
     }
   }
 
   if (missingKeys.length > 0 && options.verbose) {
-      core.info(`${COLORS.red}Found ${missingKeys.length} missing keys in ${filePath}`);
+    core.info(`${COLORS.red}Found ${missingKeys.length} missing keys in ${filePath}`);
   }
   return missingKeys;
 }
@@ -284,5 +290,16 @@ function getCorrectFormat(key, format) {
       return toPascalSnakeCase(key);
     default:
       core.setFailed(`Unknown format: "${format}"`);
+  }
+}
+
+/**
+ * Prints a console log if verbose logging is enabled
+ * @param {string} text - The text to print to the console
+ * @param {options} options - The command line options.
+ */
+function printVerboseLog(text, options) {
+  if (options.verbose) {
+    core.info(text);
   }
 }
