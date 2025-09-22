@@ -18,7 +18,7 @@ async function main() {
 
   try {
     const args = process.argv.slice(2);
-    const options = await parseArgs(args);
+    const options = parseArgs(args);
 
     if (!options.checkKeys && !options.checkFileNames && !options.checkMissing) {
       core.setFailed("✗ Error: No options provided!");
@@ -46,15 +46,15 @@ async function main() {
     }
 
     if (options.checkKeys) {
-      await displayKeyResults(keyOutput, options);
+      displayKeyResults(keyOutput, options);
     }
 
     if (options.checkFileNames) {
-      await displayFileNameResults(fileNameOutput, options);
+      displayFileNameResults(fileNameOutput, options);
     }
 
     if (options.checkMissing) {
-      await displayMissingResult(mainLanguageMissingKeys, options);
+      displayMissingResult(mainLanguageMissingKeys, options);
     }
   } catch (error) {
     core.setFailed(error.message);
