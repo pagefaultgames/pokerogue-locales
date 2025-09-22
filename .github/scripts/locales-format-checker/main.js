@@ -264,4 +264,4 @@ function displayMissingKeys(languageCode, missingKeysForLang) {
   }
 }
 
-main();
+await main();
