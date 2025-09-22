@@ -40,11 +40,7 @@ export function getLanguageCodes() {
    */
   const languageCodes = [];
 
-  if (!existsSync(LOCALES_DIR)) {
-    const errStr = format("Locales folder not found: %s", LOCALES_DIR);
-    core.setFailed(errStr);
-    process.exit();
-  } else {
+  if (existsSync(LOCALES_DIR)) {
     const folders = readdirSync(LOCALES_DIR);
 
     for (const folder of folders) {
@@ -53,6 +49,10 @@ export function getLanguageCodes() {
       }
       languageCodes.push(folder);
     }
+  } else {
+    const errStr = format("Locales folder not found: %s", LOCALES_DIR);
+    core.setFailed(errStr);
+    process.exit();
   }
 
   return languageCodes;
