@@ -1,1 +1,46 @@
-{}
+{
+  "intro": "È una Zona Safari!",
+  "title": "La Zona Safari",
+  "description": "Qui si possono incontrare tutti i tipi di Pokémon rari e speciali!\nSe scegli di entrare, avrai un limite di@[TOOLTIP_TITLE]{ {{numEncounters}} Pokémon selvatici} che potrai tentare di catturare.\n\nMa attenzione, questi Pokémon potrebbero fuggire prima che tu riesca a cattuarli!",
+  "query": "Vorresti entrare?",
+  "option": {
+    "1": {
+      "label": "Entra",
+      "tooltip": "(-) Paga {{option1Money, money}}\n@[SUMMARY_GREEN]{(?) Zona Safari}",
+      "selected": "Tempo di tentare la sorte!"
+    },
+    "2": {
+      "label": "Vai via",
+      "tooltip": "(-) Nessuna Ricompensa",
+      "selected": "Ti affretti per la tua strada,\ncon un leggero senso di rimpianto."
+    }
+  },
+  "safari": {
+    "1": {
+      "label": "Lancia una Poké Ball",
+      "tooltip": "(+) Lancia una Poké Ball",
+      "selected": "Hai lanciato una Poké Ball!"
+    },
+    "2": {
+      "label": "Lancia un’esca",
+      "tooltip": "(+) Aumenta il tasso di cattura\n(-) Aumenta il rischio di fuga",
+      "selected": "Hai lanciato l’esca!"
+    },
+    "3": {
+      "label": "Lancia del fango",
+      "tooltip": "(+) Diminuisci il rischio di fuga\n(-) Diminuisci il tasso di cattura",
+      "selected": "Hai lanciato del fango!"
+    },
+    "4": {
+      "label": "Fuga",
+      "tooltip": "(?) Fuggi da questo Pokémon"
+    },
+    "watching": "{{pokemonName}} sta osservando attentamente!",
+    "eating": "{{pokemonName}} sta mangiando!",
+    "busyEating": "{{pokemonName}} è occupato a mangiare!",
+    "angry": "{{pokemonName}} è arrabbiato!",
+    "besideItselfAngry": "{{pokemonName}} esplode di rabbia!",
+    "remainingCount": "{{remainingCount}} Pokémon restanti!"
+  },
+  "outro": "È stata un’escursione divertente!"
+}

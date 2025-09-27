@@ -1,3 +1,27 @@
 {
-  "query": "Che cosa farai?"
+  "intro": "C’è uno strano macchinario, che ronza rumorosamente…",
+  "title": "Avventure con il Teletrasporto",
+  "description": "C’è un cartello sul macchinario che riporta:\n\"Istruzioni per l’uso: Inserire il denaro ed entrare nella capsula.\"\n\nForse può trasportarti da qualche parte…",
+  "query": "Che cosa farai?",
+  "option": {
+    "1": {
+      "label": "Inserisci il denaro",
+      "tooltip": "(-) Paga {{price, money}}\n(?) Teletrasporto verso un nuovo Bioma",
+      "selected": "Inserisci delle monete, e la capsula si apre.\nCi entri…"
+    },
+    "2": {
+      "label": "Un Pokémon aiuta",
+      "tooltip": "(-) {{option2PrimaryName}} ti aiuta\n(+) {{option2PrimaryName}} guadagna EXP\n(?) Teletrasporto verso un nuovo Bioma",
+      "disabledTooltip": "Hai bisogno di un Pokémon di tipo Acciaio o Elettro per selezionare questa opzione.",
+      "selected": "Il tipo di {{option2PrimaryName}} permette di evitare di pagare!$La capsula si apre, e tu ci entri…"
+    },
+    "3": {
+      "label": "Ispeziona il Macchinario",
+      "tooltip": "(-) Combattimento Pokémon",
+      "selected": "Sei attirato dalle luci lampeggianti\ne dagli strani rumori provenienti dal macchinario…$Non ti sei nemmeno accorto che un Pokémon\nselvatico striscia verso di te e ti attacca!"
+    }
+  },
+  "transport": "Il macchinario vibra in modo violento,\nfacendo ogni tipo di strano rumore!$Così come ha iniziato, poi di colpo diventa silenziosa.",
+  "attacked": "Entri in una zona completamente nuova, spaventando un Pokémon selvatico!$Il Pokémon selvatico ti attacca!",
+  "bossEnraged": "Il {{enemyPokemon}} avversario è diventato furioso!"
 }

@@ -25,7 +25,7 @@
     "description": "paralysis",
     "obtain": "{{pokemonNameWithAffix}} was paralyzed,\nIt may be unable to move!",
     "obtainSource": "{{pokemonNameWithAffix}} was paralyzed by the {{sourceText}}!\nIt may be unable to move!",
-    "activation": "{{pokemonNameWithAffix}} is paralyzed!\nIt can't move!",
+    "activation": "{{pokemonNameWithAffix}} is paralyzed!\nIt can’t move!",
     "overlap": "{{pokemonNameWithAffix}} is\nalready paralyzed!",
     "heal": "{{pokemonNameWithAffix}} was\nhealed of paralysis!"
   },
@@ -45,7 +45,8 @@
     "obtainSource": "{{pokemonNameWithAffix}}\nwas frozen solid by the {{sourceText}}!",
     "activation": "{{pokemonNameWithAffix}} is\nfrozen solid!",
     "overlap": "{{pokemonNameWithAffix}} is\nalready frozen!",
-    "heal": "{{pokemonNameWithAffix}} was\ndefrosted!"
+    "heal": "{{pokemonNameWithAffix}} was\ndefrosted!",
+    "healByMove": "{{pokemonNameWithAffix}}’s {{moveName}}\nmelted the ice!"
   },
   "burn": {
     "name": "Burn",

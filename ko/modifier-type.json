@@ -68,16 +68,6 @@
     "BaseStatBoosterModifierType": {
       "description": "지니게 하면 {{stat}} 종족치를 10% 올려준다. 개체값이 높을수록 더 많이 누적시킬 수 있다."
     },
-    "PokemonBaseStatTotalModifierType": {
-      "name": "단단지주스",
-      "description": "모든 종족치를 {{statValue}}만큼 {{increaseDecrease}}. 단단지의 {{blessCurse}}[[를]] 받았다.",
-      "extra": {
-        "increase": "올려준다",
-        "decrease": "떨어뜨린다",
-        "blessed": "축복",
-        "cursed": "저주"
-      }
-    },
     "PokemonBaseStatFlatModifierType": {
       "name": "숲의양갱",
       "description": "{{stats}} 종족치를 {{statValue}}만큼 올려준다. 이상한 꿈을 꾸고 얻었다."
@@ -366,6 +356,14 @@
       "name": "보물",
       "description": "이 포켓몬은 보물을 좋아한다. 보물을 모으다 보면 어떤 일이 일어날 지도 모른다!"
     },
+    "EVOLUTION_TRACKER_PRIMEAPE": {
+      "name": "분노의주먹",
+      "description": "성원숭은 분노가 물리적 한계를 뛰어넘을 때 진화합니다!\n분노의주먹을 사용하여 분노를 쌓아보세요!"
+    },
+    "EVOLUTION_TRACKER_STANTLER": {
+      "name": "배리어러시",
+      "description": "신비록은 혹독한 환경에 적응하기 위해 진화했습니다. 배리어러시를 사용하여 방어력을 올려보세요!"
+    },
     "BATON": {
       "name": "배턴",
       "description": "포켓몬을 교체할 때 효과를 넘겨줄 수 있으며, 함정의 영향을 받지 않게 한다."
@@ -428,8 +426,13 @@
       "name": "합체 토큰",
       "description": "야생 포켓몬이 합체되어 등장할 확률이 1% 추가된다."
     },
-    "MYSTERY_ENCOUNTER_SHUCKLE_JUICE": {
-      "name": "단단지주스"
+    "MYSTERY_ENCOUNTER_SHUCKLE_JUICE_GOOD": {
+      "name": "달콤한 단단지 주스",
+      "description": "지니고 있는 포켓몬의 모든 능력치가 올라갑니다. 단단지의 축복을 받았습니다."
+    },
+    "MYSTERY_ENCOUNTER_SHUCKLE_JUICE_BAD": {
+      "name": "쓴 단단지 주스",
+      "description": "지니고 있는 포켓몬의 모든 능력치가 내려갑니다. 단단지의 저주를 받았습니다."
     },
     "MYSTERY_ENCOUNTER_BLACK_SLUDGE": {
       "name": "검은진흙",
@@ -441,7 +444,7 @@
     },
     "MYSTERY_ENCOUNTER_OLD_GATEAU": {
       "name": "숲의양갱",
-      "description": "{{stats}} 종족치를 {{statValue}}만큼 올려준다."
+      "description": "장착한 포켓몬의 능력치를 약간 올린다."
     },
     "MYSTERY_ENCOUNTER_GOLDEN_BUG_NET": {
       "name": "황금잠자리채",
@@ -534,6 +537,7 @@
     "PRISM_SCALE": "고운비늘",
     "RAZOR_CLAW": "예리한손톱",
     "RAZOR_FANG": "예리한이빨",
+    "OVAL_STONE": "동글동글돌",
     "REAPER_CLOTH": "영계의천",
     "ELECTIRIZER": "에레키부스터",
     "MAGMARIZER": "마그마부스터",

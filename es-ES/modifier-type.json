@@ -1,12 +1,12 @@
 {
   "ModifierType": {
     "AddPokeballModifierType": {
-      "name": "{{modifierCount}}x {{pokeballName}}",
-      "description": "Recibes {{modifierCount}}x {{pokeballName}} (En inventario: {{pokeballAmount}}) \nRatio de captura: {{catchRate}}."
+      "name": "{{modifierCount}}× {{pokeballName}}",
+      "description": "Recibes {{modifierCount}}× {{pokeballName}} (En inventario: {{pokeballAmount}}) \nRatio de captura: {{catchRate}}."
     },
     "AddVoucherModifierType": {
-      "name": "{{modifierCount}}x {{voucherTypeName}}",
-      "description": "Recibes {{modifierCount}}x {{voucherTypeName}}."
+      "name": "{{modifierCount}}× {{voucherTypeName}}",
+      "description": "Recibes {{modifierCount}}× {{voucherTypeName}}."
     },
     "PokemonHeldItemModifierType": {
       "extra": {
@@ -67,16 +67,6 @@
     },
     "BaseStatBoosterModifierType": {
       "description": "Aumenta la est. {{stat}} base del portador en un 10%.\nCuanto mayores sean tus IVs, mayor será el límite de acumulación."
-    },
-    "PokemonBaseStatTotalModifierType": {
-      "name": "Zumo de Shuckle",
-      "description": "{{increaseDecrease}} todas las estadísticas base del portador en {{statValue}}. Fuiste {{blessCurse}} por el Shuckle.",
-      "extra": {
-        "increase": "Aumenta",
-        "decrease": "Disminuye",
-        "blessed": "bendecido",
-        "cursed": "maldecido"
-      }
     },
     "PokemonBaseStatFlatModifierType": {
       "name": "Tarta Vieja",
@@ -274,7 +264,7 @@
     },
     "LEEK": {
       "name": "Puerro",
-      "description": "Puerro muy largo y duro que aumenta la probabilidad de asestar un golpe crítico. Debe llevarlo Farfetch'd."
+      "description": "Puerro muy largo y duro que aumenta la probabilidad de asestar un golpe crítico. Debe llevarlo Farfetch’d."
     },
     "EVIOLITE": {
       "name": "Mineral Evolutivo",
@@ -324,7 +314,7 @@
     },
     "CANDY_JAR": {
       "name": "Tarro de Caramelos",
-      "description": "Aumenta la cantidad de niveles otorgados por los ítems Caramelos Raros en 1."
+      "description": "Aumenta la cantidad de niveles otorgados por los objectos Caramelos Raros en 1."
     },
     "BERRY_POUCH": {
       "name": "Saco Bayas",
@@ -365,6 +355,14 @@
     "EVOLUTION_TRACKER_GIMMIGHOUL": {
       "name": "Tesoros",
       "description": "¡A este Pokémon le encantan los tesoros! ¡Sigue coleccionandólos y tal vez pase algo!"
+    },
+    "EVOLUTION_TRACKER_PRIMEAPE": {
+      "name": "Puño Furia",
+      "description": "¡Primeape evoluciona cuando su furia sobrepasa los límites de su forma corpórea!\n¡Incrementa su furia usando el movimiento Puño Furia!"
+    },
+    "EVOLUTION_TRACKER_STANTLER": {
+      "name": "Asalto Barrera",
+      "description": "Stantler evoluciona para poder adaptarse a ambientes hostiles. ¡Refuerza su defensa usando el movimiento Asalto Barrera!"
     },
     "BATON": {
       "name": "Testigo",
@@ -428,8 +426,13 @@
       "name": "Ficha fusión",
       "description": "Agrega un 1% de probabilidad de que un Pokémon salvaje sea una fusión."
     },
-    "MYSTERY_ENCOUNTER_SHUCKLE_JUICE": {
-      "name": "Jugo de Shuckle"
+    "MYSTERY_ENCOUNTER_SHUCKLE_JUICE_GOOD": {
+      "name": "Zumo de Shuckle Dulce",
+      "description": "Incrementa todas las estadísticas base del portador. Has sido bendecido por Shuckle."
+    },
+    "MYSTERY_ENCOUNTER_SHUCKLE_JUICE_BAD": {
+      "name": "Zumo de Shuckle Pocho",
+      "description": "Reduce todas las estadísticas base del portador. Has sido maldecido por Shuckle."
     },
     "MYSTERY_ENCOUNTER_BLACK_SLUDGE": {
       "name": "Lodo Negro",
@@ -441,7 +444,7 @@
     },
     "MYSTERY_ENCOUNTER_OLD_GATEAU": {
       "name": "Tarta Vieja",
-      "description": "Aumenta las estadísticas de {{stats}} del portador en {{statValue}}."
+      "description": "Incrementa alguna de las estadísticas base del portador."
     },
     "MYSTERY_ENCOUNTER_GOLDEN_BUG_NET": {
       "name": "Cazamariposas Dorado",

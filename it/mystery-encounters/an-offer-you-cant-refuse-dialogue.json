@@ -1,3 +1,26 @@
 {
-  "speaker": "Elegantone"
+  "intro": "Un ragazzo di aspetto facoltoso ti ferma.",
+  "speaker": "Elegantone",
+  "introDialogue": "Buongiorno a te.$Non ho potuto fare a meno di notare che il tuo\n{{strongestPokemon}} sembra assolutamente straordinario!$Ho sempre voluto avere un Pokémon come quello!$Ti pagherò profumatamente,\ne ti darò anche questa vecchia chincaglieria!",
+  "title": "Un’offerta che non puoi rifiutare",
+  "description": "Ti sono offerti a@[TOOLTIP_TITLE]{ {{itemName}}} e {{price, money}} per il tuo {{strongestPokemon}}!\n\nL’offerta è davvero buona, ma puoi davvero sopportare di separarti da un membro così forte della tua squadra?",
+  "query": "Che cosa farai?",
+  "option": {
+    "1": {
+      "label": "Accetta l’offerta",
+      "tooltip": "(-) Perdi {{strongestPokemon}}\n(+) Ottieni a@[TOOLTIP_TITLE]{ {{itemName}}}\n(+) Ottieni {{price, money}}",
+      "selected": "Meraviglioso!@d{32} Vieni qui, {{strongestPokemon}}!$È ora di mostrarti a tutti allo yatch club!$Saranno così invidiosi!"
+    },
+    "2": {
+      "label": "Deruba il ragazzino",
+      "tooltip": "(+) {{option2PrimaryName}} usa {{moveOrAbility}}\n(+) Ottieni {{price, money}}",
+      "tooltipDisabled": "Il tuo Pokémon deve possedere certe mosse o abilità per scegliere questa opzione",
+      "selected": "Mio Dio, ci stanno derubando, {{liepardName}}!$Sarai contattato dai miei avvocati per questo!"
+    },
+    "3": {
+      "label": "Vai via",
+      "tooltip": "(-) Nessuna Ricompensa",
+      "selected": "Che giornata pessima…$Oh, beh. Torniamo allo yacht club, {{liepardName}}."
+    }
+  }
 }

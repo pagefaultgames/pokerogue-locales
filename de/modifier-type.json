@@ -68,16 +68,6 @@
     "BaseStatBoosterModifierType": {
       "description": "Erhöht den {{stat}} Basiswert des Trägers um 10%. Das Stapellimit erhöht sich, je höher dein IS-Wert ist."
     },
-    "PokemonBaseStatTotalModifierType": {
-      "name": "Pottrottsaft",
-      "description": "{{increaseDecrease}} alle Basiswerte des Trägers um {{statValue}}. Du wurdest von Pottrott {{blessCurse}}.",
-      "extra": {
-        "increase": "Erhöht",
-        "decrease": "Verringert",
-        "blessed": "gesegnet",
-        "cursed": "verflucht"
-      }
-    },
     "PokemonBaseStatFlatModifierType": {
       "name": "Spezialität",
       "description": "Erhöht den {{stats}}-Wert des Trägers um {{statValue}}. Nach einem komischen Traum gefunden."
@@ -129,7 +119,7 @@
       "description": "Fusioniert zwei Pokémon (überträgt die Fähigkeit, teilt Basiswerte und Typ auf, gemeinsamer Attackenpool)."
     },
     "TerastallizeModifierType": {
-      "name": "{{teraType}} Terra-Stück",
+      "name": "Tera-Stück ({{teraType}})",
       "description": "Ändert den Tera-Typ des Pokémon zu {{teraType}}."
     },
     "ContactHeldItemTransferChanceModifierType": {
@@ -160,7 +150,7 @@
     },
     "TERA_ORB": {
       "name": "Terakristall-Orb",
-      "description": "Erlaubt es deinem Pokémon die Terakristallisierung durchzuführen. Läd langsam auf. Lässt Terra-Stück erscheinen."
+      "description": "Erlaubt es deinem Pokémon die Terakristallisierung durchzuführen. Läd langsam auf. Lässt Tera-Stück erscheinen."
     },
     "MAP": {
       "name": "Karte",
@@ -366,6 +356,14 @@
       "name": "Schätze",
       "description": "Dieses Pokémon liebt Schätze! Sammle weiter Schätze und vielleicht passiert etwas!"
     },
+    "EVOLUTION_TRACKER_PRIMEAPE": {
+      "name": "Zornesfaust",
+      "description": "Rasaff entwickelt sich, wenn seine Wut die Grenzen seiner physischen Form übersteigt!\nSteigere seine Wut, indem du die Attacke Zornfaust einsetzt!"
+    },
+    "EVOLUTION_TRACKER_STANTLER": {
+      "name": "Barrierenstoß",
+      "description": "Damhirplex entwickelt sich, um sich an raue Umgebungen anzupassen.\nStärke seine Verteidigung, indem du die Attacke Barrierenstoß einsetzt!"
+    },
     "BATON": {
       "name": "Stab",
       "description": "Ermöglicht das Weitergeben von Effekten beim Wechseln von Pokémon, wodurch auch Fallen umgangen werden."
@@ -428,8 +426,13 @@
       "name": "Fusionsmarke",
       "description": "Fügt eine 1%ige Chance hinzu, dass ein wildes Pokémon eine Fusion ist."
     },
-    "MYSTERY_ENCOUNTER_SHUCKLE_JUICE": {
-      "name": "Pottrottsaft"
+    "MYSTERY_ENCOUNTER_SHUCKLE_JUICE_GOOD": {
+      "name": "Süßer Pottrottsaft",
+      "description": "Erhöht alle Basiswerte des Trägers. Du wurdest von Pottrott gesegnet."
+    },
+    "MYSTERY_ENCOUNTER_SHUCKLE_JUICE_BAD": {
+      "name": "Ranziger Pottrottsaft",
+      "description": "Verringert alle Basiswerte des Trägers. Du wurdest von Pottrott verflucht."
     },
     "MYSTERY_ENCOUNTER_BLACK_SLUDGE": {
       "name": "Giftschleim",
@@ -441,7 +444,7 @@
     },
     "MYSTERY_ENCOUNTER_OLD_GATEAU": {
       "name": "Spezialität",
-      "description": "Erhöht den {{stats}}-Wert des Trägers um {{statValue}}."
+      "description": "Erhöht einige der Werte des Trägers."
     },
     "MYSTERY_ENCOUNTER_GOLDEN_BUG_NET": {
       "name": "Goldenes Käfersammlernetz",
@@ -534,6 +537,7 @@
     "PRISM_SCALE": "Schönschuppe",
     "RAZOR_CLAW": "Scharfklaue",
     "RAZOR_FANG": "Scharfzahn",
+    "OVAL_STONE": "Ovaler Stein",
     "REAPER_CLOTH": "Düsterumhang",
     "ELECTIRIZER": "Stromisierer",
     "MAGMARIZER": "Magmaisierer",

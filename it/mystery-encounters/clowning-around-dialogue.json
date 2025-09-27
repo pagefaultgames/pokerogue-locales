@@ -1,3 +1,34 @@
 {
-  "query": "Che cosa farai?"
+  "intro": "Ma quello è…@d{64} un clown?",
+  "speaker": "Clown",
+  "introDialogue": "Imbranato buffone, preparati per una battaglia incredibile! Sarai battuto da questo rissoso artista di strada!",
+  "title": "Pagliacciate",
+  "description": "Qualcosa non torna in questo incontro. Il Clown sembra impaziente di spingerti a lottare, ma a che scopo?\n\nIl suo {{blacephalonName}} è particolarmente strano, come se avesse @[TOOLTIP_TITLE]{strani tipi e abilità}.",
+  "query": "Che cosa farai?",
+  "option": {
+    "1": {
+      "label": "Affronta il Clown",
+      "tooltip": "(-) Combattimento Strano\n(?) Influenza l’abilità di uno dei tuoi Pokémon",
+      "selected": "I tuoi ridicoli Pokémon sono pronti per una performance patetica!",
+      "applyAbilityDialogue": "Uno spettacolo incredibile!\nLa tua astuzia merita un’abilità speciale come ricompensa!",
+      "applyAbilityMessage": "Il Clown si offre di Barattare in modo permanente l’abilità di uno dei tuoi Pokémon in {{ability}}!",
+      "abilityPrompt": "Vorresti donare in modo permanente a un Pokémon l’abilità {{ability}}?",
+      "abilityGained": "@s{level_up_fanfare}{{chosenPokemon}} ha ottenuto l’abilità {{ability}}!"
+    },
+    "2": {
+      "label": "Resta impassibile",
+      "tooltip": "(?) Influenza gli strumenti di un Pokémon",
+      "selected": "Vergognoso truffatore, mi neghi un delizioso duello?\nSenti la mia furia!",
+      "selected2": "Il {{blacephalonName}} del Clown usa Raggiro! Tutti gli strumenti del tuo {{switchPokemon}} sono stati scambiati a casaccio!",
+      "selected3": "Confuso sciocco, casca nel mio inganno perfetto!"
+    },
+    "3": {
+      "label": "Restituisci gli insulti",
+      "tooltip": "(?) Influenza i tipi dei tuoi Pokémon",
+      "selected": "Vergognoso truffatore, mi neghi un delizioso duello?\nSenti la mia furia!",
+      "selected2": "Il {{blacephalonName}} del Clown usa una strana mossa!\nTutti i tipi dei tuoi Pokémon sono stati scambiati a casaccio!",
+      "selected3": "Confuso sciocco, casca nel mio inganno perfetto!"
+    }
+  },
+  "outro": "Il Clown e la sua schiera\nspariscono in una nuvola di fumo."
 }

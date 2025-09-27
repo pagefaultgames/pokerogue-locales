@@ -1,0 +1,59 @@
+{
+  "none": {
+    "name": "Нет"
+  },
+  "poison": {
+    "name": "Яд",
+    "description": "отравление",
+    "obtain": "{{pokemonNameWithAffix}}\nбыл отравлен(а)!",
+    "obtainSource": "{{pokemonNameWithAffix}}\nбыл(а) отравлен(а) из-за {{sourceText}}!",
+    "activation": "{{pokemonNameWithAffix}}\nстрадает от яда!",
+    "overlap": "{{pokemonNameWithAffix}}\nуже отравлен(а)!",
+    "heal": "{{pokemonNameWithAffix}}\nбыл(а) исцелен(а) от яда!"
+  },
+  "toxic": {
+    "name": "Токсичный Яд",
+    "description": "отравление",
+    "obtain": "{{pokemonNameWithAffix}}\nбыл(а) сильно отравлен(а)!",
+    "obtainSource": "{{pokemonNameWithAffix}} был(а)\nсильно отравлен(а) из-за {{sourceText}}!",
+    "activation": "{{pokemonNameWithAffix}}\nстрадает от яда!",
+    "overlap": "{{pokemonNameWithAffix}}\nуже отравлен(а)!",
+    "heal": "{{pokemonNameWithAffix}}\nбыл(а) исцелен(а) от яда!"
+  },
+  "paralysis": {
+    "name": "Паралич",
+    "description": "паралич",
+    "obtain": "{{pokemonNameWithAffix}} был(а) парализован(а),\nон(а) может быть не в состоянии двигаться!",
+    "obtainSource": "{{pokemonNameWithAffix}} был(а) парализован(а) из-за {{sourceText}}!\nОн(а) может быть не в состоянии двигаться!",
+    "activation": "{pokemonNameWithAffix}} парализован(а)!\nОн(а) не может двигаться!",
+    "overlap": "{{pokemonNameWithAffix}}\nуже парализован(а)!",
+    "heal": "{{pokemonNameWithAffix}} был(а)\nисцелен(а) от паралича!"
+  },
+  "sleep": {
+    "name": "Сон",
+    "description": "сон",
+    "obtain": "{{pokemonNameWithAffix}}\nуснул(а)!",
+    "obtainSource": "{{pokemonNameWithAffix}}\nуснул(а) из-за {{sourceText}}!",
+    "activation": "{{pokemonNameWithAffix}} крепко спит.",
+    "overlap": "{{pokemonNameWithAffix}} уже спит!",
+    "heal": "{{pokemonNameWithAffix}}\nпроснулся(лась)!"
+  },
+  "freeze": {
+    "name": "Заморозка",
+    "description": "заморозка",
+    "obtain": "{{pokemonNameWithAffix}} был(а)\nнамертво заморожен(а)!",
+    "obtainSource": "{{pokemonNameWithAffix}} был(а)\nнамертво заморожен(а) из-за {{sourceText}}!",
+    "activation": " {{pokemonNameWithAffix}}\n намертво заморожен(а)!",
+    "overlap": "{{pokemonNameWithAffix}}\nуже заморожен(а)!",
+    "heal": "{{pokemonNameWithAffix}} оттаял(а)!"
+  },
+  "burn": {
+    "name": "Ожог",
+    "description": "ожог",
+    "obtain": "{{pokemonNameWithAffix}}\nбыл(а) обожжен(а)!",
+    "obtainSource": "{{pokemonNameWithAffix}} был(а)\nобожжен(а) из-за {{sourceText}}!",
+    "activation": "{{pokemonNameWithAffix}}\nстрадает от ожога!",
+    "overlap": "{{pokemonNameWithAffix}}\nуже обожжен(а)!",
+    "heal": "{{pokemonNameWithAffix}}\nбыл(а) исцелен(а) от ожога!"
+  }
+}

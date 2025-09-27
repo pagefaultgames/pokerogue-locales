@@ -669,7 +669,7 @@
   },
   "thief": {
     "name": "Ladrón",
-    "effect": "El usuario ataca y tiene un 30% de robarle el objeto al objetivo."
+    "effect": "El usuario ataca e intenta robar al objetivo simultáneamente. Este movimiento tiene un 30% de robarle uno de los objetos al objetivo."
   },
   "spiderWeb": {
     "name": "Telaraña",
@@ -693,7 +693,7 @@
   },
   "curse": {
     "name": "Maldición",
-    "effect": "Un movimiento que tiene efectos distintos si el usuario es de tipo Fantasma o no."
+    "effect": "Si es un usado por un tipo Fantasma, el usuario pierde la mitad de su vida máxima, Maldiciendo al Usuario, haciéndole daño cada turno. Si no, el usuario se baja su Velocidad pero se sube su Ataque y Defensa."
   },
   "flail": {
     "name": "Azote",
@@ -1369,7 +1369,7 @@
   },
   "covet": {
     "name": "Antojo",
-    "effect": "Se acerca con ternura al objetivo y tiene un 30% de posibilidades de robar un objeto que lleve."
+    "effect": "El usuario se acerca con ternura al objetivo e intenta robarle un objeto. Este movimiento tiene un 30% de robarle uno de los objetos al objetivo."
   },
   "voltTackle": {
     "name": "Placaje Eléc",
@@ -3713,23 +3713,23 @@
   },
   "blazingTorque": {
     "name": "Pirochoque",
-    "effect": "The user revs their blazing engine into the target. This may also leave the target with a burn."
+    "effect": "El usuario acelera su motor ardiente contra el objetivo. Puede quemar al objetivo."
   },
   "wickedTorque": {
     "name": "Ominochoque",
-    "effect": "The user revs their engine into the target with malicious intent. This may put the target to sleep."
+    "effect": "El usuario acelera su motor contra el objetivo con mala intención. Puede dormir al objetivo."
   },
   "noxiousTorque": {
     "name": "Ponzochoque",
-    "effect": "The user revs their poisonous engine into the target. This may also poison the target."
+    "effect": "El usuario acelera su tóxico motor contra el objetivo. Puede envenenar al objetivo."
   },
   "combatTorque": {
     "name": "Pugnachoque",
-    "effect": "The user revs their engine forcefully into the target. This may also leave the target with paralysis."
+    "effect": "El usuario acelera su motor con fuerza contra el objetivo. Puede paralizar al objetivo."
   },
   "magicalTorque": {
     "name": "Feerichoque",
-    "effect": "The user revs their fae-like engine into the target. This may also confuse the target."
+    "effect": "El usuario acelera su motor feérico contra el objetivo. Puede confundir al objetivo."
   },
   "bloodMoon": {
     "name": "Luna Roja",

@@ -1,12 +1,12 @@
 {
   "ModifierType": {
     "AddPokeballModifierType": {
-      "name": "{{modifierCount}}x {{pokeballName}}",
-      "description": "Ganhe {{modifierCount}}x {{pokeballName}} (Mochila: {{pokeballAmount}}) \nChance de captura: {{catchRate}}."
+      "name": "{{modifierCount}}× {{pokeballName}}",
+      "description": "Ganhe {{modifierCount}}× {{pokeballName}} (Mochila: {{pokeballAmount}}) \nChance de captura: {{catchRate}}."
     },
     "AddVoucherModifierType": {
-      "name": "{{modifierCount}}x {{voucherTypeName}}",
-      "description": "Ganhe {{modifierCount}}x {{voucherTypeName}}."
+      "name": "{{modifierCount}}× {{voucherTypeName}}",
+      "description": "Ganhe {{modifierCount}}× {{voucherTypeName}}."
     },
     "PokemonHeldItemModifierType": {
       "extra": {
@@ -67,16 +67,6 @@
     },
     "BaseStatBoosterModifierType": {
       "description": "Aumenta o atributo base de {{stat}} em 10%. Quanto maior os IVs, maior o limite de aumento."
-    },
-    "PokemonBaseStatTotalModifierType": {
-      "name": "Suco Shuckle",
-      "description": "{{increaseDecrease}} todos os atributos base de quem o segurar por {{statValue}}. Você foi {{blessCurse}} por Shuckle.",
-      "extra": {
-        "increase": "Aumenta",
-        "decrease": "Diminui",
-        "blessed": "abençoado",
-        "cursed": "amaldiçoado"
-      }
     },
     "PokemonBaseStatFlatModifierType": {
       "name": "Doce Antigo",
@@ -274,7 +264,7 @@
     },
     "LEEK": {
       "name": "Alho-poró",
-      "description": "Esse talo de alho-poró muito longo e rígido aumenta a taxa de acerto crítico dos movimentos do Farfetch'd."
+      "description": "Esse talo de alho-poró muito longo e rígido aumenta a taxa de acerto crítico dos movimentos do Farfetch’d."
     },
     "EVIOLITE": {
       "name": "Eviolita",
@@ -366,6 +356,14 @@
       "name": "Tesouros",
       "description": "Esse Pokémon ama tesouro! Continue coletando tesouro e talvez algo aconteça!"
     },
+    "EVOLUTION_TRACKER_PRIMEAPE": {
+      "name": "Rage Fist",
+      "description": "O Primeape evolui quando sua fúria ultrapassa os limites de sua forma física!\nAumente sua fúria usando o movimento Rage Fist!"
+    },
+    "EVOLUTION_TRACKER_STANTLER": {
+      "name": "Psyshield Bash",
+      "description": "O Stantler evolui para se adaptar a ambientes adversos. Aumente sua defesa usando o movimento Psyshield Bash!"
+    },
     "BATON": {
       "name": "Bastão",
       "description": "Permite passar mudanças de atributo ao trocar Pokémon, ignorando armadilhas."
@@ -428,8 +426,13 @@
       "name": "Token de Fusão",
       "description": "Adiciona uma chance de 1% de que um Pokémon selvagem seja uma fusão."
     },
-    "MYSTERY_ENCOUNTER_SHUCKLE_JUICE": {
-      "name": "Suco Shuckle"
+    "MYSTERY_ENCOUNTER_SHUCKLE_JUICE_GOOD": {
+      "name": "Suco Doce de Shuckle",
+      "description": "Aumenta todos os atributos de quem segurar. Você foi abençoado pelo Shuckle."
+    },
+    "MYSTERY_ENCOUNTER_SHUCKLE_JUICE_BAD": {
+      "name": "Suco Sujo de Shuckle",
+      "description": "Diminui todos os atributos de quem segurar. Você foi amaldiçoado pelo Shuckle."
     },
     "MYSTERY_ENCOUNTER_BLACK_SLUDGE": {
       "name": "Lodo Escuro",
@@ -441,7 +444,7 @@
     },
     "MYSTERY_ENCOUNTER_OLD_GATEAU": {
       "name": "Doce Antigo",
-      "description": "Aumenta os atributos de {{stats}} de quem segurar por {{statValue}}."
+      "description": "Aumenta alguns atributos de quem segurar."
     },
     "MYSTERY_ENCOUNTER_GOLDEN_BUG_NET": {
       "name": "Rede de Insetos Dourada",
@@ -534,6 +537,7 @@
     "PRISM_SCALE": "Linda Escama",
     "RAZOR_CLAW": "Garra de Navalha",
     "RAZOR_FANG": "Presa Afiada",
+    "OVAL_STONE": "Pedra Oval",
     "REAPER_CLOTH": "Capa do Ceifador",
     "ELECTIRIZER": "Eletrizador",
     "MAGMARIZER": "Magmatizador",

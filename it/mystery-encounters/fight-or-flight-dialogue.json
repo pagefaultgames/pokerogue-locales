@@ -1,3 +1,25 @@
 {
-  "query": "Che cosa farai?"
+  "intro": "Qualcosa di luccicante brilla\nsul terreno vicino a quel Pokémon!",
+  "title": "Lotta o Scappa",
+  "description": "Sembra che ci sia un Pokémon molto forte a fare la guardia allo strumento. Potresti lottarci, ma sembra essere molto forte. Magari, con il Pokémon giusto, potresti rubare lo strumento?",
+  "query": "Che cosa farai?",
+  "option": {
+    "1": {
+      "label": "Affronta il Pokémon",
+      "tooltip": "(-) Combattimento difficile\n(+) Nuovo strumento",
+      "selected": "Affronti il Pokémon\nsenza paura.",
+      "statBoost": "La forza latente del {{enemyPokemon}} ha aumentato una delle sue statistiche!"
+    },
+    "2": {
+      "label": "Ruba l’oggetto",
+      "disabledTooltip": "Il tuo Pokémon deve conoscere una determinata mossa per scegliere questa opzione.",
+      "tooltip": "(+) {{option2PrimaryName}} usa {{option2PrimaryMove}}",
+      "selected": ".@d{32}.@d{32}.@d{32}$Il tuo {{option2PrimaryName}} ti aiuta e usa {{option2PrimaryMove}}!$Hai rubato lo strumento!"
+    },
+    "3": {
+      "label": "Vai via",
+      "tooltip": "(-) Nessuna Ricompensa",
+      "selected": "Lasci il Pokémon con\nil suo bottino e prosegui oltre."
+    }
+  }
 }

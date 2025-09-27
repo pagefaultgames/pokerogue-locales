@@ -1,3 +1,23 @@
 {
-  "query": "Che cosa farai?"
+  "intro": "Un allegro signore anziano ti si avvicina.",
+  "speaker": "Gentiluomo",
+  "introDialogue": "Buongiorno! Ho un’offerta solo per TE!",
+  "title": "Il Venditore di Pokémon",
+  "description": "\"Questo {{purchasePokemon}} è estremamente raro e @[TOOLTIP_TITLE]{possiede un’abilità che normalmente non si trova nella sua specie}! Ti vendo questo meraviglioso {{purchasePokemon}} per soli {{price, money}}!\"\n\n\"Che cosa ne dici?\"",
+  "descriptionShiny": "\"Questo {{purchasePokemon}} è estremamente raro e @[TOOLTIP_TITLE]{ha un colore che normalmente non si trova nella sua specie}! Ti vendo questo meraviglioso {{purchasePokemon}} per soli {{price, money}}!\"\n\n\"Che cosa ne dici?\"",
+  "query": "Che cosa farai?",
+  "option": {
+    "1": {
+      "label": "Accetta",
+      "tooltip": "(-) Paga {{price, money}}\n(+) Ottieni un {{purchasePokemon}} con la sua Abilità Speciale",
+      "tooltipShiny": "(-) Paga {{price, money}}\n(+) Ottieni un {{purchasePokemon}} cromatico",
+      "selectedMessage": "Hai pagato una cifra vergognosa e hai comprato {{purchasePokemon}}.",
+      "selectedDialogue": "Ottima scelta!$Posso dire che hai fiuto per gli affari.$Oh, giusto…@d{64} Nessun rimborso, capito?"
+    },
+    "2": {
+      "label": "Rifiuta",
+      "tooltip": "(-) Nessuna Ricompensa",
+      "selected": "No?@d{32} Rifiuti?$Io ti stavo solo facendo un favore!"
+    }
+  }
 }
