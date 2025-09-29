@@ -14,17 +14,16 @@ import fs from "node:fs";
 import path from "node:path";
 import chalk from "chalk";
 import inquirer from "inquirer";
-import { dirname, resolve } from "node:path";
-import { fileURLToPath } from "node:url";
+import { resolve } from "node:path";
 
 //#region Constants
 
-const __dirname = dirname(fileURLToPath(import.meta.url));
+const __dirname = import.meta.dirname;
 /** The path to the root of the locales directory */
 const LOCALES_DIR = resolve(__dirname, "../../../");
 /** The language code to edit */
 const LANG_CODE = "en";
-/** */
+/** The path to the English locales folder */
 const LOCALES_PATH = path.join(LOCALES_DIR, LANG_CODE);
 /**
  * The list of supported languages
@@ -35,7 +34,7 @@ const SUPPORTED_LANGS = fs
   .filter(f => f !== "en" && fs.statSync(path.join(LOCALES_DIR, f)).isDirectory());
 /**
  * The list of JSON files that can be edited
- * @type readonly string[]
+ * @type {readonly string[]}
  */
 const LOCALES_FILES = fs.readdirSync(LOCALES_PATH).filter(f => f.endsWith(".json"));
 /**
@@ -75,6 +74,12 @@ function getAllKeysFromFile(filePath) {
   return getFlatKeys(data);
 }
 
+/**
+ * Get the value of a key from the provided locales file
+ * @param {string} filePath The path to the locales file
+ * @param {string} key The key to get the value of
+ * @returns {string} The value of the key, or `undefined` if the key either does not exist or is not a string
+ */
 function getKeyValue(filePath, key) {
   const data = JSON.parse(fs.readFileSync(filePath, "utf8"));
   const parts = key.split(".");
@@ -94,7 +99,7 @@ function getKeyValue(filePath, key) {
  * @param {string} filePath The path to the locales file to edit
  * @param {string} key The name of the key to set
  * @param {string} value The value to set the key to
- * @returns {boolean} `true` if the key was set, `false` otherwise
+ * @returns {boolean} Whether the key was set
  */
 function setKeyValue(filePath, key, value) {
   const data = JSON.parse(fs.readFileSync(filePath, "utf8"));
@@ -113,7 +118,7 @@ function setKeyValue(filePath, key, value) {
  * Delete a key from a locales file.
  * @param {string} filePath
  * @param {string} key
- * @returns `true` if a matching key was found and deleted, `false` otherwise
+ * @returns {boolean} Whether a matching key was found and deleted
  */
 function deleteKey(filePath, key) {
   const data = JSON.parse(fs.readFileSync(filePath, "utf8"));
@@ -133,9 +138,9 @@ function deleteKey(filePath, key) {
 //#region Interactive CLI
 
 /**
- *
- * @param {string} str
- * @returns - The string with special characters escaped
+ * Escape special chatacters in a string to display them literally in the CLI.
+ * @param {string} str The string to escape
+ * @returns The string with special characters escaped
  */
 function escapeSpecialChars(str) {
   return str.replace(/[\n\r\t]/g, c => {
@@ -153,26 +158,13 @@ function escapeSpecialChars(str) {
 }
 
 /**
- * Reword a key in "en" and delete it from all other locale files.
- * @param {string} fileChoice The locales file to edit
- * @param {string} keyChoice The key to reword
- * @param {string} keyValue The current value of the key
- * @returns {Promise<void>}
+ * Convert escaped special characters back to their original form and convert
+ * normal quotes to the special quote characters.
+ * @param {string} str The string to unescape and postprocess
+ * @return The unescaped and postprocessed string
  */
-async function reword(fileChoice, keyChoice, keyValue) {
-  /** @type string */
-  const value = chalk.red(escapeSpecialChars(keyValue));
-  let newValue = (
-    await inquirer.prompt([
-      {
-        type: "input",
-        name: "newValue",
-        message: `"${keyChoice} current reads:\n\t${value}\nEnter new value for "${keyChoice}" (press TAB to edit the placeholder):\n`,
-        default: keyValue,
-      },
-    ])
-  ).newValue
-    // Postprocess the value to replace single quotes that do not have a whitespace before them with the special quote character
+function unescapeSpecialCharsAndConvertQuotes(str) {
+  return str
     .replace(/(?<!\s)'(?=\S)/g, "’")
     // Replace double quotes that appear after a space (or the beginning of the string) with special left quote
     .replace(/(?<=\s|^)"(?=^|\S)/g, "“")
@@ -191,9 +183,33 @@ async function reword(fileChoice, keyChoice, keyValue) {
           return c;
       }
     });
+}
+
+/**
+ * Handler for the "Reword" action - rewords the key in "en" and deletes it from
+ * all other locale files.
+ * @param {string} fileChoice The locales file to edit
+ * @param {string} keyChoice The key to reword
+ * @param {string} keyValue The current value of the key
+ * @returns {Promise<void>}
+ */
+async function reword(fileChoice, keyChoice, keyValue) {
+  const value = chalk.red(escapeSpecialChars(keyValue));
+  let newValue = unescapeSpecialCharsAndConvertQuotes((
+    await unescainquirer.prompt([
+      {
+        type: "input",
+        name: "newValue",
+        message: `"${keyChoice} current reads:\n\t${value}\nEnter new value for "${keyChoice}" (press TAB to edit the placeholder):\n`,
+        default: keyValue,
+      },
+    ])
+  ).newValue)
+
 
   if (newValue.trim().length === 0) {
-    console.error(chalk.red("✗ Error: New value cannot be empty."));
+    console.error(chalk.red.bold("✗  New value cannot be empty."));
+    process.exitCode = 1;
     return;
   }
 
@@ -266,7 +282,7 @@ async function main() {
 
     let keyValue = getKeyValue(filePath, keyChoice);
     if (keyValue === undefined) {
-      console.error(chalk.red(`✗ Error: Editing non-string keys (${keyChoice}) is not yet supported!.`));
+      console.error(chalk.red.bold(`✗ Error: Editing non-string keys (${keyChoice}) is not yet supported!.`));
       return;
     }
     keyValue = escapeSpecialChars(keyValue);
