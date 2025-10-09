@@ -235,9 +235,55 @@
       "1": "…\n… Tu-tu-tu sais quoi ?\n… Il fait su-super froid i-ici."
     }
   },
+  "tabitha": {
+    "encounter": {
+      "1": "Hé, hé, hé ! Alors t'as fait tout le chemin jusqu’ici ! Mais il est trop tard !",
+      "2": "Hé, hé, hé… On avait sous-estimé tes compétences ! Mais cette fois, ça y est ! $Je suis un cran au-dessus des Sbires que tu as vus. Je n’vais pas flancher. Je vais te pulvériser !",
+      "3": "Je vais te faire gouter à la douleur ! Tu ferais mieux de renoncer !"
+    },
+    "victory": {
+      "1": "Hé, hé, hé ! Tu m’as peut-être battu, mais tu n’as aucune chance contre le CHEF ! $Si tu te barres maintenant, ça t’évitera de prendre une sévère correction !",
+      "2": "Hé, hé, hé… Alors moi aussi, j’ai perdu…",
+      "3": "Mais… mais comment est-ce possible ? Moi, le bras droit du chef, battu par le premier Dresseur venu…",
+      "3_female": "Mais… mais comment est-ce possible ? Moi, le bras droit du chef, battu par la première Dresseuse venue…"
+    }
+  },
   "courtney": {
     "encounter": {
-      "1": "Microbe… HORS DE MON CHEMIIIIIIIIIIIN !!!!"
+      "1": "Microbe… HORS DE MON CHEMIIIIIIIIIIIN !!!!",
+      "2": "Je veux te connaitre davantage… Hu fu ! ♪",
+      "3": "… Très bien… … … Il va donc falloir vous ÉLIMINER… Hu fu ! ♪"
+    },
+    "victory": {
+      "1": "… Haaa… haaa… Gnnnh… haaa... !!!",
+      "2": "… C'est bien ce que je pensais… Hmm… Toi… Je t’ai dans le collimateur… Désormais, je ne vais plus te quitter des yeux… Hu fu ! ♪",
+      "3": "Intéressant… ♪ Tu es SURPRENANT ! Hu fu fu ! ♪"
+    }
+  },
+  "shelly": {
+    "encounter": {
+      "1": "Ha, ha, ha, ha, ha ! Tu veux te mêler des affaires de la Team Aqua ? $Soit tu es intrépide, soit tu es complètement stupide, ou les deux ! $Tu es tellement chou, c'est dégoutant ! Je vais t’apprendre la vie !",
+      "2": "Hum ? Mais d’où sortent ces marmots ?",
+      "3": "Calme toi. Inutile de s’emporter. Je vais régler ton compte.",
+      "3_female": "Calme toi. Inutile de s’emporter. Je vais régler ton compte."
+    },
+    "victory": {
+      "1": "Ha, ha, ha, ha, ha ! Nous avons été infiltrés, sans nous y attendre ! $Nous n’avons plus le choix. Il faut partir. $Mais tu entendras encore parler de la Team Aqua ! On a d’autres plans ! N’oublie jamais ça !",
+      "2": "Quoi ?! Alors ça, c’est la meilleure !",
+      "3": "Pfff... Tu as encore fait des progrès depuis la dernière fois... $Tu es vraiment une plaie... Une puissante, terrifiante plaie... Mes Pokémon et moi n’avons plus la force de t'arrêter... $Alors, va ! Arthur se chargera de te faire redescendre sur terre !",
+      "3_female": "Pfff... Tu as encore fait des progrès depuis la dernière fois... $Tu es vraiment une plaie... Une puissante, terrifiante plaie... Mes Pokémon et moi n’avons plus la force de t'arrêter... $Alors, va ! Arthur se chargera de te faire redescendre sur terre !"
+    }
+  },
+  "matt": {
+    "encounter": {
+      "1": "Toi, tu lâches les basques du chef et tu restes avec nous. On va bien s’amuser.",
+      "2": "Haaaaaaaaaaaah !!! Allez ! Ça va chauffer ! \nToi, moi, nos Pokémon... C’est le moment de tout donner ! $Vas-y ! Viens ! Viens ! VIENS ! \nDonne-nous tout ce que t’as !",
+      "3": "Ça va barder ! YAAAAAA !"
+    },
+    "victory": {
+      "1": "Bouahaha ! C’est ce qui s’appelle perdre en beauté !",
+      "3": "Bouahaha ! C’est ce qui s’appelle perdre en beauté !",
+      "3_female": "Bouahaha ! C’est ce qui s’appelle perdre en beauté !"
     }
   },
   "mars": {
@@ -1062,7 +1108,16 @@
     "encounter": {
       "1": "En tant que Champion, je dois voir ton potentiel de Dresseur.$Et je dois aussi vérifier la force des Pokémon qui se battent à tes côtés !",
       "1_female": "En tant que Champion, je dois voir ton potentiel de Dresseuse.$Et je dois aussi vérifier la force des Pokémon qui se battent à tes côtés !",
-      "2": "C’est parti ! En piste, mes Pokémon Roche, ma fierté !"
+      "2": "C’est parti ! En piste, mes Pokémon Roche, ma fierté !",
+      "3": "Les Pokémon de type Roche sont définitivement les meilleurs !",
+      "4": "Jour après jour, je creuse pour trouver des fossiles, et j’entraine mes Pokémon. $Tu vas voir comme ils sont géniaux !",
+      "4_female": "Jour après jour, je creuse pour trouver des fossiles, et j’entraine mes Pokémon. $Tu vas voir comme ils sont géniaux !"
+    },
+    "victory": {
+      "1": "Impossible ! Mes Pokémon Roche, entrainés si dur !",
+      "2": "J’ai perdu ? Bon, je vais aller me consoler en cherchant des fossiles dans les sous-sols de Sinnoh.",
+      "2_female": "J’ai perdu ? Bon, je vais aller me consoler en cherchant des fossiles dans les sous-sols de Sinnoh.",
+      "3": "Avec une force pareille, ta victoire est sans surprise !"
     }
   },
   "alder": {
