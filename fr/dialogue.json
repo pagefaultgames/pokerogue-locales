@@ -235,6 +235,54 @@
       "1": "…\n… Tu-tu-tu sais quoi ?\n… Il fait su-super froid i-ici."
     }
   },
+  "archer": {
+    "encounter": {
+      "1": "Avant de continuer ta route, voyons ce que tu vaux face à la Team Rocket !",
+      "2": "On m’a confié que tes talents étaient intéressants. Voyons voir.",
+      "3": "Je suis Amos, un Admin de la Team Rocket. Et je ne retiens pas mes coups sur les ennemis de notre organisation."
+    },
+    "victory": {
+      "1": "Quelle infamie !",
+      "2": "Je n’étais pas à la hauteur…"
+    }
+  },
+  "ariana": {
+    "encounter": {
+      "1": "Hop hop hop ! On bouge plus ! $On peut pas laisser une peste comme toi se balader. C’est la honte pour la Team Rocket.",
+      "2": "Je me moque de savoir si ce que je fais est bien ou mal. $J’obéis aveuglément aux ordres de Giovanni.",
+      "3": "Ta quête s’arrête ici. Je vais t’écraser !"
+    },
+    "victory": {
+      "1": "Pfff. C’est vrai que t’es fort. Ça craint. $Si tu venais à la Team Rocket, tu deviendrais vite un Admin.",
+      "1_female": "Pfff. C’est vrai que t’es forte. Ça craint. $Si tu venais à la Team Rocket, tu deviendrais vite une Admin.",
+      "2": "Je… Je suis à bout de forces…",
+      "3": "Griiiiiiiiiiiiiiiiiiiiiiii ! Je me suis donnée à fond… Et ça n’a pas suffi !"
+    }
+  },
+  "proton": {
+    "encounter": {
+      "1": "Qu'y a-t-il ? Si tu nous déranges, ne t'attends à aucune pitié !",
+      "2": "Quoi ? J’ai la réputation d’être le plus cruel des membres de la Team Rocket…$Je ne te laisserai pas nous mettre des bâtons dans les roues !",
+      "3": "Je suis Lance, admin de la Team Rocket. Je suis ici pour mettre fin à ton interférence !"
+    },
+    "victory": {
+      "1": "Tout cassé ma forteresse !",
+      "2": "Tout ce que tu as gagné en fin de compte, c’est de mettre la Team Rocket hors d’elle !",
+      "3": "Je suis vaincu… Mais je n'oublierai pas cela !"
+    }
+  },
+  "petrel": {
+    "encounter": {
+      "1": "Gnihihi… Enfin… Te voilà… Quoi ? Tu ne sais pas qui je suis ? Je suis Giovanni ! $Le maitre Giovanni ! Wahahaha ! … Hein ? Comment ça, je ne lui ressemble pas ? $Argh !! Dire que je me suis entrainé tous les soirs pour l’imiter !",
+      "2": "Je suis Lambda, Admin de la Team Rocket. Je vais mettre fin à ton interférence !",
+      "3": "L’Admin Rocket Lambda va s’occuper de cet intrus !"
+    },
+    "victory": {
+      "1": "OK, OK. Je vais parler.",
+      "2": "Je… comment… Je fais pas le poids. Pitié Maitre Giovanni !",
+      "3": "Je dois m’en remettre et… Je dois vite prévenir les autres !"
+    }
+  },
   "tabitha": {
     "encounter": {
       "1": "Hé, hé, hé ! Alors t'as fait tout le chemin jusqu’ici ! Mais il est trop tard !",
@@ -322,6 +370,16 @@
       "2": "T’es un adversaire à la hauteur, je te l’accorde.",
       "2_female": "T’es une adversaire à la hauteur, je te l’accorde.",
       "3": "Grrr… Impressionnant !"
+    }
+  },
+  "colress": {
+    "encounter": {
+      "1": "En tant que serviteur de la Science, la Réalité et l’Idéal que je cherche… ne sont rien moins que la force originelle des Pokémon !$Comment pourrait-on l’éveiller ?$Je veux croire que la méthode traditionnelle est la meilleure pour y parvenir : celle de la confiance mutuelle entre Pokémon et Dresseurs.$Je serais ravi que tu me démontres le bien-fondé de cette conjecture !",
+      "2": "La Team Plasma affirme que la reconnaissance du potentiel des Pokémon passe par leur libération. Balivernes !$Au contraire, l’humanité a pour tâche d’extraire le potentiel des Pokémon !$Bien, j’aimerais voir si, en tant que Dresseur, tu es capable de libérer toutes les ressources de ton équipe.",
+      "3": "Pousser le potentiel des Pokémon à son paroxysme ! Comment refuser cette offre ?$La fin justifie les moyens.$Les Dresseurs comme toi expriment la puissance des Pokémon par une… communion de cœur. $L’approche de la Team Plasma est bien différente : aucune compassion, exploitation brute. Et peu importe les effets collatéraux.$Aussi, tu me sembles la personne la plus appropriée pour résoudre mon problème. Prépare-toi, et affronte-moi ! J’ai soif de savoir !"
+    },
+    "victory": {
+      "1": "Stupéfiant ! Ce combat m’aura appris bien des choses…"
     }
   },
   "rocketGrunt": {
@@ -1111,13 +1169,48 @@
       "3": "J’espère que tu as ramené de l’Anti-Para !\nMouahaha !"
     },
     "victory": {
+      "1": "On dirait que je suis à court de jus !\nMouahaha !",
       "2": "Tu m’a fait tomber à plat !\nMouahaha !",
       "3": "Merci pour les frissons !\nMouahaha !"
     },
     "defeat": {
       "1": "Recharge tes batteries, et viens m’affronter à nouveau un de ces quatre !\nMouahaha !",
       "1_female": "Recharge tes batteries, et viens m’affronter à nouveau un de ces quatre !\nMouahaha !",
+      "2": "J’espère que tu as trouvé ce combat foudroyant !\nMouahaha !",
       "3": "J’ai gagné ! Tu n’es pas sous le choc ?\nMouahaha !"
+    }
+  },
+  "flannery": {
+    "encounter": {
+      "1": "Bienvenue… euh, non, attends…\nChaud devant !",
+      "2": "Je viens à peine d’être nommée Championne, mais je vais t’enflammer !",
+      "3": "Je vais te montrer les techniques que mon grand-père m'a apprises ! En garde !"
+    },
+    "victory": {
+      "1": "Tu me rappelles mon grand-père…\nPas étonnant que j'ai perdu.",
+      "2": "Je me suis enflammée…\nJe ferais mieux de rester fidèle à moi-même.",
+      "3": "La défaite ne va pas étouffer ma flamme.\nJe dois m’entrainer pour raviver mon ardeur !"
+    },
+    "defeat": {
+      "1": "J'espère avoir rendu honneur à mon grand-père…\nNous devrions remettre cela un de ces jours.",
+      "2": "J’ai pu gagner à ma façon, en restant moi-même.\nÇa veut dire que j’ai grandi !"
+    }
+  },
+  "norman": {
+    "encounter": {
+      "1": "Je suis surpris de voir que tu as réussi à venir\njusqu’ici par toi-même. Battons-nous.",
+      "2": "Je ferai tout en mon pouvoir de Champion pour gagner.\nAllons-y !",
+      "3": "En tant que Dresseur, je donne toujours mon maximum.\nJ’espère que tu en feras autant."
+    },
+    "victory": {
+      "1": "J’ai perdu… ?\nTrès bien, les règles sont les règles.",
+      "2": "Est-ce que c’était une erreur de déménager d’Oliville… ?",
+      "3": "Je ne peux pas le croire.\nQuel match exceptionnel."
+    },
+    "defeat": {
+      "1": "On a tous les deux fait notre maximum.\nJ’espère que nous pourrons bientôt nous battre à nouveau.",
+      "2": "Tu devrais plutôt défier mon enfant.\nTu pourrais apprendre quelque chose !",
+      "3": "Merci pour cet excellent combat.\nBonne chance pour la prochaine fois."
     }
   },
   "roark": {
