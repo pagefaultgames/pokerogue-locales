@@ -235,6 +235,12 @@
       "1": "…\n… Tu-tu-tu sais quoi ?\n… Il fait su-super froid i-ici."
     }
   },
+  "pilot": {
+    "encounter": {
+      "1": "Je suis fier de mon équipe Pokémon, qui ne craint pas les ouragans !",
+      "2": "Combat imminent, attention au décollage !"
+    }
+  },
   "archer": {
     "encounter": {
       "1": "Avant de continuer ta route, voyons ce que tu vaux face à la Team Rocket !",
@@ -1297,7 +1303,7 @@
     "encounter": {
       "1": "Hi hi…\nÇa te surprend de me voir sans mon frère ?",
       "1_female": "Hi hi…\nÇa te surprend de me voir sans mon frère ?",
-      "2": "Je peux déterminer ce que tu as en tête.\nTu souhaite te battre, n’est-ce pas ?",
+      "2": "Je peux déterminer ce que tu as en tête.\nTu souhaites te battre, n’est-ce pas ?",
       "3": "Comment peux-tu vaincre…\nQuelqu’un qui ne fait qu'un avec ses Pokémon ?"
     },
     "victory": {
@@ -1317,6 +1323,18 @@
       "2": "Ha ha ha ! Vos yeux vont se repaitre des illusions aquatiques de mes Pokémon !",
       "3": "Un typhon approche !\nSerez-vous à la hauteur ?",
       "4": "Préparez-vous à assister à une véritable démonstration de talent.\nUne œuvre sur le thème de l'eau composée par mes Pokémon et moi."
+    },
+    "victory": {
+      "1": "Votre génie pourrait certainement défier Marc !",
+      "2": "J’ai privilégié l’élégance, et vous, l’entrainement.\nIl est donc naturel que vous en ressortez victorieux.",
+      "3": "Ha ha ha !\nTrès bien, je m’incline.",
+      "4": "Je sens en vous l’existence d’une force qui vous permettra de surmonter les épreuves qui vous attendent."
+    },
+    "defeat": {
+      "1": "Mes Pokémon et moi ont sculpté une œuvre sur le thème de l’eau, et nous en sommes ressortis victorieux.",
+      "2": "Ha ha ha ! Je l’emporte sur vous.",
+      "3": "Peut-être devrais-je vous prêter mon habit ?\nIl pourrait vous aider au combat ! $Ah ah ah, je ne fais que me moquer !",
+      "4": "Je suis le vainqueur ! Et donc, vous, le perdant."
     }
   },
   "roark": {
@@ -1390,8 +1408,14 @@
     }
   },
   "steven": {
+    "encounter": {
+      "1": "Dis-moi… Qu’avez-vous vu, ton équipe et toi, au cours de ce périple ?$Qu’as-tu ressenti, face à tous les Dresseurs que tu as croisés ? $Ton voyage a vraisemblablement fait naitre en toi une force que je ne soupçonnais pas…$Je serais ravi que tu nous en fasses une démonstration, à mes Pokémon et moi.$Nous t’attendons de pied ferme ! Assez parlé, commençons !"
+    },
     "victory": {
       "1": "Tu as réussi à me battre, moi, le Maitre…"
+    },
+    "defeat": {
+      "1": "Ce moment était fantastique ! Merci !"
     }
   },
   "alder": {
