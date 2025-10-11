@@ -238,7 +238,15 @@
   "pilot": {
     "encounter": {
       "1": "Je suis fier de mon équipe Pokémon, qui ne craint pas les ouragans !",
-      "2": "Combat imminent, attention au décollage !"
+      "2": "Combat imminent, attention au décollage !",
+      "3": "Je parie que tu ne m’avais pas repéré ! Peu importe les distances, la vision d’un pilote doit être au top !",
+      "4": "Je me suis levé de bonne heure pour entrainer mes Pokémon. J'espère que tu es prêt !"
+    },
+    "victory": {
+      "1": "J’ai ressenti une énorme pression venant de toi et ton équipe Pokémon !",
+      "2": "Vol ajourné ! Retour à la base.",
+      "3": "Visiblement, j’aurai dû me lever et m’entrainer encore plus tôt !",
+      "4": "On dirait bien que cette fois, le vent n’était pas en ma faveur !"
     }
   },
   "archer": {
@@ -1145,6 +1153,23 @@
       "3": "Sa confiance en moi était donc justifiée."
     }
   },
+  "sabrina": {
+    "encounter": {
+      "1": "J'avais prédit ton arrivée, grâce à mes pouvoirs psychiques.",
+      "2": "Je n’aime pas combattre, mais si tu insistes, prépare-toi à mes pouvoirs psy !",
+      "3": "Je perçois en toi une grande ambition. Voyons si celle-ci s’avère juste."
+    },
+    "victory": {
+      "1": "Ta force est grande…\nPlus encore que je ne l’avais prévu…",
+      "2": "J’ai été incapable de prévoir ta puissance…",
+      "3": "Même avec mes pouvoirs psychiques, je ne peux percevoir d’autres Dresseurs aussi puissants que toi."
+    },
+    "defeat": {
+      "1": "Cette victoire… c’est exactement ce que j’avais prédit.",
+      "2": "Ce grand désir… l’ai-je perçu chez un autre Dresseur ?",
+      "3": "Améliore toi avant de foncer tête baissée.\nTu ne sais jamais ce que l’avenir pourrait te réserver…"
+    }
+  },
   "blaine": {
     "encounter": {
       "1": "J’espère que t’as fait le plein d’Anti-Brules, car ça va chauffer !",
@@ -1337,6 +1362,55 @@
       "4": "Je suis le vainqueur ! Et donc, vous, le perdant."
     }
   },
+  "chili": {
+    "encounter": {
+      "1": "Ouais ! Ouais ! Tu vas t’fritter avec le plus fort de la fratrie !",
+      "1_female": "Ouais ! Ouais ! Tu vas t’fritter avec le plus fort de la fratrie !",
+      "2": "Ouais ! Donc c’est moi qui vais te cramer la tête avec mon type Feu !",
+      "2_female": "Ouais ! Donc c’est moi qui vais te cramer la tête avec mon type Feu !",
+      "3": "Tu vas voir comment je crame la tête des gens avec mes Pokémon de type Feu !",
+      "3_female": "Tu vas voir comment je crame la tête des gens avec mes Pokémon de type Feu !"
+    },
+    "victory": {
+      "1": "J’ai… perdu ? Sérieux ? J’me suis fait cramer la tronche !!!",
+      "1_female": "J’ai… perdu ? Sérieux ? J’me suis fait cramer la tronche !!!",
+      "2": "Mais la vache ! Tu DÉCHIRES !!!",
+      "2_female": "Mais la vache ! Tu DÉCHIRES !!!",
+      "3": "Ça alors ! Quelle synchronisation !"
+    },
+    "defeat": {
+      "1": "J’suis tout feu, tout flamme ! Si tu fait pas gaffe, tu vas te bruler !",
+      "1_female": "J’suis tout feu, tout flamme ! Si tu fait pas gaffe, tu vas te bruler !",
+      "2": "Quand on joue avec le feu, on s’fait bruler !",
+      "3": "Mais oui ! Moi comme adversaire, c’est trop chaud pour toi !",
+      "3_female": "Mais oui ! Moi comme adversaire, c’est trop chaud pour toi !"
+    }
+  },
+  "cilan": {
+    "encounter": {
+      "1": "Donc... Je crois que ça veut dire... Que c’est moi... et le type... Plante... que tu vas... affronter.",
+      "1_female": "Donc... Je crois que ça veut dire... Que c’est moi... et le type... Plante... que tu vas... affronter.",
+      "2": "Oui… Euh… Si tu veux bien… On va s’affronter… en tout bien, tout honneur, hein ?",
+      "2_female": "Oui… Euh… Si tu veux bien… On va s’affronter… en tout bien, tout honneur, hein ?",
+      "3": "Merci ! D’avoir choisi de te battre avec l’amoureux du type Plante ! Je... suis... prêt.",
+      "3_female": "Merci ! D’avoir choisi de te battre avec l’amoureux du type Plante ! Je... suis... prêt."
+    },
+    "victory": {
+      "1": "… Et là, euh… C’est… comment dire… terminé, hein ?",
+      "1_female": "… Et là, euh… C’est… comment dire… terminé, hein ?",
+      "2": "Quelle surprise ! Tu as une sacrée force.$Même mes frères Armando et Noa n’auraient rien pu faire.",
+      "2_female": "Quelle surprise ! Tu as une sacrée force.$Même mes frères Armando et Noa n’auraient rien pu faire.",
+      "3": "Nous n’étions pas vraiment synchronisés…"
+    },
+    "defeat": {
+      "1": "J’ai… j’ai gagné ?",
+      "1_female": "J’ai… j’ai gagné ?",
+      "2": "Je vois… j’ai du l’emporter grâce aux combats avec mes frères Armando et Noa, qui nous ont renforcés.",
+      "2_female": "Je vois… j’ai du l’emporter grâce aux combats avec mes frères Armando et Noa, qui nous ont renforcés.",
+      "3": "C’était… c’était une sacrée expérience…",
+      "3_female": "C’était… c’était une sacrée expérience…"
+    }
+  },
   "roark": {
     "encounter": {
       "1": "En tant que Champion, je dois voir ton potentiel de Dresseur.$Et je dois aussi vérifier la force des Pokémon qui se battent à tes côtés !",
@@ -1358,6 +1432,17 @@
       "2": "Merci ! Avec cette victoire, je sens que je suis assez fort pour défier mon papa !",
       "3": "Tu vois ? Mes Pokémon Roche, c’est ma fierté !",
       "4": "Je savais que j’allais gagner !"
+    }
+  },
+  "cress": {
+    "encounter": {
+      "1": "Moi, Noa, grand amateur du type Eau, vais avoir le plaisir de t’affronter."
+    },
+    "victory": {
+      "1": "Quelle débâcle… Je n’aurais jamais cru perdre un jour…"
+    },
+    "defeat": {
+      "1": "C’est le résultat approprié si je suis ton adversaire."
     }
   },
   "sidney": {
@@ -1405,6 +1490,82 @@
     },
     "defeat": {
       "1": "Illusion aquatique !"
+    }
+  },
+  "lorelei": {
+    "encounter": {
+      "1": "Je suis la maitresse incontestée des Pokémon Glace. Personne ne peut les vaincre.$Car ma foi, une fois gelée, ton équipe sera à ma merci ! C’est parti !",
+      "1_female": "Je suis la maitresse incontestée des Pokémon Glace. Personne ne peut les vaincre.$Car ma foi, une fois gelée, ton équipe sera à ma merci ! C’est parti !"
+    },
+    "victory": {
+      "1": "Comment as-tu osé ?"
+    },
+    "defeat": {
+      "1": "Une fois gelé, tu es impuissant.",
+      "1_female": "Une fois gelée, tu es impuissante."
+    }
+  },
+  "bruno": {
+    "encounter": {
+      "1": "Ton équipe, j’vais en faire du yaourt !"
+    },
+    "victory": {
+      "1": "Moi ? Perdre ? Pourquoi ?"
+    },
+    "defeat": {
+      "1": "Tu peux me défier autant que tu le veux, l’issue restera la même !"
+    }
+  },
+  "agatha": {
+    "encounter": {
+      "1": "La nature des Pokémon, c’est de combattre ! Je vais te montrer ce qu’est un vrai combat de Dresseurs !"
+    },
+    "victory": {
+      "1": "Oh ho ! Pas mal, tu as du talent !"
+    },
+    "defeat": {
+      "1": "Hohoho, en voila, un vrai combat !"
+    }
+  },
+  "lance": {
+    "encounter": {
+      "1": "Je t’attendais. Je vais te mettre à l’épreuve.",
+      "2": "Je m’attendais à ce que tu arrives jusqu’à moi. En avant."
+    },
+    "victory": {
+      "1": "Bravo. Tu es fantastique !",
+      "1_female": "Bravo. Tu es fantastique !",
+      "2": "Je ne m’attendais pas à perdre aujourd’hui… Je suis surpris.",
+      "2_female": "Je ne m’attendais pas à perdre aujourd’hui… Je suis surpris."
+    },
+    "defeat": {
+      "1": "Presque. Tu veux encore tenter ta chance ?",
+      "2": "Je n’abandonne jamais. Toi non plus d'ailleurs ?",
+      "2_female": "Je n’abandonne jamais. Toi non plus d'ailleurs ?"
+    }
+  },
+  "blue": {
+    "encounter": {
+      "1": "Arriver jusqu'ici a dû être dur.",
+      "1_female": "Arriver jusqu'ici a dû être dur."
+    },
+    "victory": {
+      "1": "Seuls toi et lui m’avez battu… Lui ? Tu verras…"
+    },
+    "defeat": {
+      "1": "Tu vois ? Voilà pourquoi je suis si fort."
+    }
+  },
+  "lanceChampion": {
+    "encounter": {
+      "1": "Je suis le Dresseur le plus puissant ! Le Maitre de la Ligue ! L’expert Dracologue ! En garde !"
+    },
+    "victory": {
+      "1": "Un nouveau Maitre est né.",
+      "1_female": "Une nouvelle Maitresse est née."
+    },
+    "defeat": {
+      "1": "Mon titre est à l’abri."
     }
   },
   "steven": {
