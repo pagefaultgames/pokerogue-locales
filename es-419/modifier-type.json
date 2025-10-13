@@ -1,10 +1,76 @@
 {
   "ModifierType": {
+    "PokemonBaseStatFlatModifierType": {
+      "name": "Barrita Plus"
+    },
     "MoneyRewardModifierType": {
       "description": "Otorga una {{moneyMultiplier}} cantidad de dinero.\n(₽{{moneyAmount}})"
     },
+    "TmModifierType": {
+      "name": "TM{{moveId}} - {{moveName}}"
+    },
+    "TmModifierTypeWithInfo": {
+      "name": "TM{{moveId}} - {{moveName}}"
+    },
+    "TerastallizeModifierType": {
+      "name": "Teralito {{teraType}}"
+    },
+    "RARE_CANDY": {
+      "name": "Caramelo Raro"
+    },
+    "RARER_CANDY": {
+      "name": "Caramelorarísimo"
+    },
+    "MEGA_BRACELET": {
+      "name": "Megapulsera"
+    },
     "DYNAMAX_BAND": {
       "name": "Banda Dinamax"
+    },
+    "TERA_ORB": {
+      "name": "Orbe Teracristal"
+    },
+    "MAP": {
+      "name": "Mapa"
+    },
+    "POTION": {
+      "name": "Poción"
+    },
+    "SUPER_POTION": {
+      "name": "Superpoción"
+    },
+    "HYPER_POTION": {
+      "name": "Hiperpoción"
+    },
+    "MAX_POTION": {
+      "name": "Poción Máxima"
+    },
+    "FULL_RESTORE": {
+      "name": "Restauratodo"
+    },
+    "REVIVE": {
+      "name": "Revivir"
+    },
+    "MAX_REVIVE": {
+      "name": "Revivir Máximo"
+    },
+    "FULL_HEAL": {
+      "name": "Curación Total"
+    },
+    "SACRED_ASH": {
+      "name": "Ceniza Sagrada"
+    },
+    "WHITE_HERB": {
+      "name": "Hierba Blanca"
+    },
+    "SHELL_BELL": {
+      "name": "Cascabel Nácar"
+    },
+    "TOXIC_ORB": {
+      "name": "Toxiesfera"
+    },
+    "FLAME_ORB": {
+      "name": "Llamaesfera"
     },
     "SHINY_CHARM": {
       "description": "Aumenta drásticamente la posibilidad de que un Pokémon salvaje sea brillante."
@@ -12,11 +78,55 @@
     "GOLDEN_POKEBALL": {
       "name": "Pokébola Dorada"
     },
+    "MYSTERY_ENCOUNTER_MACHO_BRACE": {
+      "name": "Brazalete Firme"
+    },
+    "MYSTERY_ENCOUNTER_OLD_GATEAU": {
+      "name": "Barrita Plus"
+    },
     "MYSTERY_ENCOUNTER_GOLDEN_BUG_NET": {
       "description": "Imbuye al dueño con suerte para encontrar Pokémon de tipo Insecto más a menudo. Tiene un peso extraño."
     }
   },
+  "SpeciesBoosterItem": {
+    "QUICK_POWDER": {
+      "name": "Polvo Velocidad"
+    }
+  },
+  "AttackTypeBoosterItem": {
+    "dragon_fang": "Colmillo Dragón",
+    "black_glasses": "Lentes de Sol"
+  },
+  "EvolutionItem": {
+    "STRAWBERRY_SWEET": "Dulce de Fresa",
+    "DRAGON_SCALE": "Escama Dragón",
+    "SACHET": "Bolsita Fragante",
+    "WHIPPED_DREAM": "Bocadito de Crema",
+    "GALARICA_CUFF": "Brazalete Galanuez",
+    "SYRUPY_APPLE": "Manzana Empalagosa"
+  },
   "FormChangeItem": {
+    "LUSTROUS_GLOBE": "Gran Lustroesfera",
+    "GRISEOUS_CORE": "Gran Griseoesfera",
+    "FIST_PLATE": "Placa Fuerte",
+    "SKY_PLATE": "Placa Cielo",
+    "TOXIC_PLATE": "Placa Tóxica",
+    "EARTH_PLATE": "Placa Terral",
+    "STONE_PLATE": "Placa Pétrea",
+    "INSECT_PLATE": "Placa Insecto",
+    "SPOOKY_PLATE": "Placa Terror",
+    "IRON_PLATE": "Placa Acero",
+    "FLAME_PLATE": "Placa Llama",
+    "SPLASH_PLATE": "Placa Linfa",
+    "MEADOW_PLATE": "Placa Pradal",
+    "ZAP_PLATE": "Placa Trueno",
+    "MIND_PLATE": "Placa Mental",
+    "ICICLE_PLATE": "Placa Helada",
+    "DRACO_PLATE": "Placa Draco",
+    "DREAD_PLATE": "Placa Oscura",
+    "PIXIE_PLATE": "Placa Feérica",
+    "BLANK_PLATE": "Placa Neutral",
+    "LEGEND_PLATE": "Placa Legendaria",
     "FIGHTING_MEMORY": "Disco Pelea",
     "FLYING_MEMORY": "Disco Volador",
     "POISON_MEMORY": "Disco Veneno",
