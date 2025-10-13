@@ -1369,7 +1369,14 @@
       "3": "Papa, regarde ce combat !"
     },
     "victory": {
-      "1": "C’est compris… Il est temps de redescendre sur terre."
+      "1": "C’est compris… Il est temps de redescendre sur terre.",
+      "2": "J’ai perdu, indubitablement… Tu es un Dresseur très puissant, je le reconnais volontiers.",
+      "3": "…Mince ! Perdu."
+    },
+    "defeat": {
+      "1": "Papa… Avec les Pokémon que tu chérissais tant, j’ai remporté une magnifique victoire !",
+      "2": "Les Pokémon Oiseaux sont les meilleurs !",
+      "3": "Je suis visiblement en passe d’atteindre ton niveau, papa !"
     }
   },
   "chili": {
@@ -1442,6 +1449,33 @@
       "2": "Merci ! Avec cette victoire, je sens que je suis assez fort pour défier mon papa !",
       "3": "Tu vois ? Mes Pokémon Roche, c’est ma fierté !",
       "4": "Je savais que j’allais gagner !"
+    }
+  },
+  "morty": {
+    "encounter": {
+      "1": "Encore un peu et je pourrai voir dans le futur et rencontrer le Pokémon légendaire.$Tu vas m’aider à atteindre ce niveau !",
+      "2": "Il est dit qu’un Pokémon légendaire apparaitra face à un Dresseur d'exception.$Je crois à ce récit, et dans ce but, je m’entraine ici depuis ma naissance. C’est ainsi que je peux voir ce que les autres ne voient pas.$Je sais qui pourra faire venir le Pokémon de la légende…$C’est moi, je suis l’élu ! Et toi, tu vas m’aider à m’améliorer ici et maintenant !",
+      "3": "Que tu le veuilles ou non, les pouvoirs occultes existent.",
+      "4": "Vois les résultats d’un rude entrainement.",
+      "5": "Ton âme et celle de ton Pokémon doivent être unies. Peux-tu y arriver ?",
+      "6": "Cela te dirait-il de te mesurer à mon entrainement spécial ?"
+    },
+    "victory": {
+      "1": "Je ne suis pas encore assez bon.",
+      "2": "Je vois… Ta journée a été longue et mouvementée. Tu as fait plein de trucs super géniaux.$Je t’envie pour ça…",
+      "2_female": "Je vois… Ta journée a été longue et mouvementée. Tu as fait plein de trucs super géniaux.$Je t’envie pour ça…",
+      "3": "Qu’est ce que ça veut dire ?!",
+      "4": "Je n’aurais jamais dû perdre pourtant…$Toi… toi… tu as quelque chose qui… Tout est clair.",
+      "5": "Pourtant, je me suis tant entrainé… !",
+      "6": "Oh, dommage…"
+    },
+    "defeat": {
+      "1": "Encore un grand pas de fait sur la voie de l’apprentissage !",
+      "2": "… Huhuhu…",
+      "3": "Comment ? Impossible ! Cela n’a pas suffit ?",
+      "4": "C’est comme un poids immense qui s’est levé !",
+      "5": "Ha ha ha ha !",
+      "6": "Je savais que j’allais gagner !"
     }
   },
   "crispin": {
@@ -1586,6 +1620,17 @@
       "1_female": "Une fois gelée, tu es impuissante."
     }
   },
+  "will": {
+    "encounter": {
+      "1": "J’ai parcouru le monde pour tout connaitre sur les Pokémon de type Psy.$Mais je continuerai à m'améliorer ! Je ne peux pas perdre maintenant !"
+    },
+    "victory": {
+      "1": "C’est… Incroyable…"
+    },
+    "defeat": {
+      "1": "Presque. Il te manque le principal."
+    }
+  },
   "rika": {
     "encounter": {
       "1": "Tu sais, en fait, j’t’aime bien. Mais c’est pas pour ça que j’vais retenir mes coups !"
@@ -1608,6 +1653,29 @@
     },
     "defeat": {
       "1": "Tu peux me défier autant que tu le veux, l’issue restera la même !"
+    }
+  },
+  "bugsy": {
+    "encounter": {
+      "1": "Je suis Hector ! Je ne perds jamais lorsqu’il s’agit de Pokémon insecte."
+    },
+    "victory": {
+      "1": "Whaou, dingue ! Tu es un expert en Pokémon !\nMes recherches ne sont pas finies. OK, tu as gagné.",
+      "1_female": "Whaou, dingue ! Tu es un expert en Pokémon !\nMes recherches ne sont pas finies. OK, tu as gagné."
+    },
+    "defeat": {
+      "1": "Merci ! Grâce à toi, j’ai pu avancer dans mes recherches."
+    }
+  },
+  "koga": {
+    "encounter": {
+      "1": "Fwah ! Ha ! Ha ! Il est temps de t’apprendre que certains Pokémon ne peuvent pas être vaincus par la force pure !"
+    },
+    "victory": {
+      "1": "Hmmm… Tu es un honorable adversaire."
+    },
+    "defeat": {
+      "1": "Les ninjas te font peur, non ?"
     }
   },
   "poppy": {
@@ -1660,6 +1728,23 @@
       "2_female": "Je n’abandonne jamais. Toi non plus d'ailleurs ?"
     }
   },
+  "karen": {
+    "encounter": {
+      "1": "Mon nom est Marion. Ça te dit d'affronter mes Pokémon de type Ténèbres ?",
+      "2": "Je ne ressemble en rien à ceux que tu as déjà affrontés.",
+      "3": "Ton équipe est intéressante. Notre combat le sera tout autant."
+    },
+    "victory": {
+      "1": "Non ! Je ne peux pas gagner. Comment as-tu atteint ce niveau ?",
+      "2": "Ma route est toute tracée.",
+      "3": "Le Maitre veut te rencontrer."
+    },
+    "defeat": {
+      "1": "C’était prévisible.",
+      "2": "Comme c’était amusant.",
+      "3": "Reviens me voir quand tu veux."
+    }
+  },
   "hassel": {
     "encounter": {
       "1": "Laissons-nous porter par le souffle épique du combat !"
@@ -1681,6 +1766,17 @@
     },
     "defeat": {
       "1": "Tu vois ? Voilà pourquoi je suis si fort."
+    }
+  },
+  "jasmine": {
+    "encounter": {
+      "1": "Oh… Tes Pokémon sont impressionnants. Cela va s'avérer intéressant."
+    },
+    "victory": {
+      "1": "Tu es très fort. Je dois encore m’entrainer."
+    },
+    "defeat": {
+      "1": "Je ne m’attendais pas à gagner."
     }
   },
   "lanceChampion": {
@@ -1728,6 +1824,30 @@
       "1": "Quoi qu’il en soit, c’était un combat très instructif, pas vrai ?"
     }
   },
+  "whitney": {
+    "encounter": {
+      "1": "Tu trouves pas que les Pokémon sont trop mignons ?"
+    },
+    "victory": {
+      "1": "Waaah ! Waaah ! T'es méchant !",
+      "1_female": "Waaah ! Waaah ! T'es méchante !"
+    },
+    "defeat": {
+      "1": "Et voilà !"
+    }
+  },
+  "chuck": {
+    "encounter": {
+      "1": "Hah! Tu veux me défier ? Est-ce du courage, ou de l’inconscience ?",
+      "1_female": "Hah! Tu veux me défier ? Est-ce du courage, ou de l’inconscience ?"
+    },
+    "victory": {
+      "1": "Tu es fort ! Je peux être ton élève ?"
+    },
+    "defeat": {
+      "1": "Tiens. Tu la sens ma puissance, hein ?"
+    }
+  },
   "katy": {
     "encounter": {
       "1": "J’espère que tu aimes le sucre et que tu n’as pas peur des piqures d’insectes.$Parce qu’ici tu vas avoir droit aux deux à la fois !",
@@ -1738,6 +1858,28 @@
     },
     "defeat": {
       "1": "Mange à ta faim, surtout, mon petit Prismillon d’amour…"
+    }
+  },
+  "pryce": {
+    "encounter": {
+      "1": "Être jeune, c’est beau. Mais l’expérience, c’est mieux !"
+    },
+    "victory": {
+      "1": "Bravo ! C’était parfait. Continue sur cette voie."
+    },
+    "defeat": {
+      "1": "C’était prévisible."
+    }
+  },
+  "clair": {
+    "encounter": {
+      "1": "Sais-tu qui je suis ? Et tu oses me défier malgré tout ?"
+    },
+    "victory": {
+      "1": "Comment as-tu pu arriver à un tel niveau ?"
+    },
+    "defeat": {
+      "1": "Et toc."
     }
   },
   "brassius": {
