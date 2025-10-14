@@ -240,7 +240,8 @@
       "1": "Je suis fier de mon équipe Pokémon, qui ne craint pas les ouragans !",
       "2": "Combat imminent, attention au décollage !",
       "3": "Je parie que tu ne m’avais pas repéré ! Peu importe les distances, la vision d’un pilote doit être au top !",
-      "4": "Je me suis levé de bonne heure pour entrainer mes Pokémon. J'espère que tu es prêt !"
+      "4": "Je me suis levé de bonne heure pour entrainer mes Pokémon. J'espère que tu es prêt !",
+      "4_female": "Je me suis levé de bonne heure pour entrainer mes Pokémon. J'espère que tu es prête !"
     },
     "victory": {
       "1": "J’ai ressenti une énorme pression venant de toi et ton équipe Pokémon !",
@@ -258,7 +259,8 @@
     "victory": {
       "1": "Quelle infamie !",
       "2": "Je n’étais pas à la hauteur…",
-      "3": "Maitre Giovanni… Pardonnez-moi… J’ai perdu face à un Dresseur banal…"
+      "3": "Maitre Giovanni… Pardonnez-moi… J’ai perdu face à un Dresseur banal…",
+      "3_female": "Maitre Giovanni… Pardonnez-moi… J’ai perdu face à une Dresseuse banale…"
     }
   },
   "ariana": {
@@ -407,11 +409,13 @@
     "encounter": {
       "1": "En tant que serviteur de la Science, la Réalité et l’Idéal que je cherche… ne sont rien moins que la force originelle des Pokémon !$Comment pourrait-on l’éveiller ?$Je veux croire que la méthode traditionnelle est la meilleure pour y parvenir : celle de la confiance mutuelle entre Pokémon et Dresseurs.$Je serais ravi que tu me démontres le bien-fondé de cette conjecture !",
       "2": "La Team Plasma affirme que la reconnaissance du potentiel des Pokémon passe par leur libération. Balivernes !$Au contraire, l’humanité a pour tâche d’extraire le potentiel des Pokémon !$Bien, j’aimerais voir si, en tant que Dresseur, tu es capable de libérer toutes les ressources de ton équipe.",
+      "2_female": "La Team Plasma affirme que la reconnaissance du potentiel des Pokémon passe par leur libération. Balivernes !$Au contraire, l’humanité a pour tâche d’extraire le potentiel des Pokémon !$Bien, j’aimerais voir si, en tant que Dresseuse, tu es capable de libérer toutes les ressources de ton équipe.",
       "3": "Pousser le potentiel des Pokémon à son paroxysme ! Comment refuser cette offre ?$La fin justifie les moyens.$Les Dresseurs comme toi expriment la puissance des Pokémon par une… communion de cœur. $L’approche de la Team Plasma est bien différente : aucune compassion, exploitation brute. Et peu importe les effets collatéraux.$Aussi, tu me sembles la personne la plus appropriée pour résoudre mon problème. Prépare-toi, et affronte-moi ! J’ai soif de savoir !"
     },
     "victory": {
       "1": "Stupéfiant ! Ce combat m’aura appris bien des choses…",
       "2": "Splendide ! Tu es un Dresseur hors pair !",
+      "2_female": "Splendide ! Tu es une Dresseuse hors pair !",
       "3": "Voilà donc comment tirer tout le potentiel des Pokémon !"
     }
   },
@@ -425,6 +429,7 @@
     },
     "victory": {
       "1": "Oh, tu es redoutable. Oui, tu es sacrément puissant.",
+      "1_female": "Oh, tu es redoutable. Oui, tu es sacrément puissante.",
       "2": "Eurêka ! Eurêka !!! Ta victoire et ma défaite sont égales à… ?\nL’accès à de précieuses informations !",
       "2_female": "Eurêka ! Eurêka !!! Ta victoire et ma défaite sont égales à… ?\nL’accès à de précieuses informations !",
       "3": "Comment ?! Tu es incroyable ! Et tes Pokémon encore plus !"
@@ -435,10 +440,12 @@
       "1": "Je suis Brasénie, et ce serait un plaisir pour moi que de t’affronter.\nMontre moi ce que tu as dans le ventre.",
       "2": "Impressionnant…\nTu sembles plus puissant encore qu’au premier coup d’œil.$Voyons l’étendue véritable de ton énergie.",
       "2_female": "Impressionnant…\nTu sembles plus puissante encore qu’au premier coup d’œil.$Voyons l’étendue véritable de ton énergie.",
-      "3": "J’ai anticipé ton arrivée. Es-tu prêt pour une petite épreuve ?"
+      "3": "J’ai anticipé ton arrivée. Es-tu prêt pour une petite épreuve ?",
+      "3_female": "J’ai anticipé ton arrivée. Es-tu prête pour une petite épreuve ?"
     },
     "victory": {
       "1": "T’es fort, toi. Oui, t’es vraiment fort.",
+      "1_female": "T’es forte, toi. Oui, t’es vraiment forte.",
       "2": "Tadaaa ! Quelle victoire éclatante !\nJe n’ai d'autre choix que de m’incliner.",
       "3": "Merveilleux ! Ta maitrise du combat mérite des louanges."
     }
@@ -1205,6 +1212,7 @@
     },
     "defeat": {
       "1": "Ton incapacité à évaluer ta propre force est la démonstration claire que tu n’es encore qu’un gamin.",
+      "1_female": "Ton incapacité à évaluer ta propre force est la démonstration claire que tu n’es encore qu’une gamine.",
       "2": "Ne te remets pas en travers de ma route.",
       "3": "J’espère que tu comprends à quel point c’était idiot de me défier."
     }
@@ -1503,6 +1511,7 @@
   "crispin": {
     "encounter": {
       "1": "Pas de bol pour toi, mais j’ai envie de gagner…\nEt donc, quoi que tu fasses… t’es cuit !",
+      "1_female": "Pas de bol pour toi, mais j’ai envie de gagner…\nEt donc, quoi que tu fasses… t’es cuite !",
       "2": "Si j’ai envie de combattre, bah… je combats ! C’est aussi simple que ça !"
     },
     "victory": {
@@ -1912,7 +1921,8 @@
   },
   "steven": {
     "encounter": {
-      "1": "Dis-moi… Qu’avez-vous vu, ton équipe et toi, au cours de ce périple ?$Qu’as-tu ressenti, face à tous les Dresseurs que tu as croisés ? $Ton voyage a vraisemblablement fait naitre en toi une force que je ne soupçonnais pas…$Je serais ravi que tu nous en fasses une démonstration, à mes Pokémon et moi.$Nous t’attendons de pied ferme ! Assez parlé, commençons !"
+      "1": "Dis-moi… Qu’avez-vous vu, ton équipe et toi, au cours de ce périple ?$Qu’as-tu ressenti, face à tous les Dresseurs que tu as croisés ? $Ton voyage a vraisemblablement fait naitre en toi une force que je ne soupçonnais pas…$Je serais ravi que tu nous en fasses une démonstration, à mes Pokémon et moi.$Nous t’attendons de pied ferme ! Assez parlé, commençons !",
+      "1_female": "Dis-moi… Qu’avez-vous vu, ton équipe et toi, au cours de ce périple ?$Qu’as-tu ressentie, face à tous les Dresseurs que tu as croisés ? $Ton voyage a vraisemblablement fait naitre en toi une force que je ne soupçonnais pas…$Je serais ravi que tu nous en fasses une démonstration, à mes Pokémon et moi.$Nous t’attendons de pied ferme ! Assez parlé, commençons !"
     },
     "victory": {
       "1": "Tu as réussi à me battre, moi, le Maitre…"
