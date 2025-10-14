@@ -1409,6 +1409,25 @@
       "3": "Je suis visiblement en passe d’atteindre ton niveau, papa !"
     }
   },
+  "nessa": {
+    "encounter": {
+      "1": "Ton discernement suffira-t-il à te sauver face au torrent de mes attaques ?",
+      "1_female": "Ton discernement suffira-t-il à te sauver face au torrent de mes attaques ?",
+      "2": "Trêve de mondanités. Passons au combat !",
+      "3": "Tiens, j’ai un cadeau pour toi !\nEssaie de l’encaisser !",
+      "3_female": "Tiens, j’ai un cadeau pour toi !\nEssaie de l’encaisser !"
+    },
+    "victory": {
+      "1": "Je m’incline...",
+      "2": "In… incroyable !",
+      "3": "Ça alors ! Tu as fait boire la tasse à tous les membres de mon équipe !"
+    },
+    "defeat": {
+      "1": "Une fois de plus, le tsunami lapis-lazuli les a tous engloutis !",
+      "2": "Il est temps pour moi de surfer sur la vague de la victoire !",
+      "3": "Hé hé hé !"
+    }
+  },
   "marlon": {
     "encounter": {
       "1": "Ah ! Enfin T’es là ! Hum… Tu m’as l’air bien balèze comme j’aime. T’as tout bien préparé ?",
@@ -1430,12 +1449,14 @@
     "encounter": {
       "1": "Je m’excuse. Tu viens me défier, c’est bien ça ?\nÀ ton tour, désormais, d’affronter Anis, la reine du type Spectre !",
       "1_female": "Je m’excuse. Tu viens me défier, c’est bien ça ?\nÀ ton tour, désormais, d’affronter Anis, la reine du type Spectre !",
-      "2": "J’adore coucher sur le papier des histoires où Dresseurs et Pokémon venus me défier s’entendent parfaitement.$Il est donc temps de voir si tu feras un beau matériau littéraire !"
+      "2": "J’adore coucher sur le papier des histoires où Dresseurs et Pokémon venus me défier s’entendent parfaitement.$Il est donc temps de voir si tu feras un beau matériau littéraire !",
+      "3": "Toute personne travaillant main dans la main avec les Pokémon a une histoire propre à elle.$Quelle est l'histoire qui te lie ?"
     },
     "victory": {
       "1": "Alors là, j’en reste coite, muette, bouche bée, sidérée !",
       "2": "Je suis confuse, chagrinée, ennuyée, navrée, affligée !$D’abord, présentons nos excuses à nos équipes. Nous les avons fait souffrir.",
-      "3": "Tu es un Dresseur, et ce qui s’est passé est normal dans un combat, surtout contre un membre du Conseil 4."
+      "3": "Tu es un Dresseur, et ce qui s’est passé est normal dans un combat, surtout contre un membre du Conseil 4.",
+      "3_female": "Tu es une Dresseuse, et ce qui s’est passé est normal dans un combat, surtout contre un membre du Conseil 4."
     },
     "defeat": {
       "1": "Hihi…",
@@ -2071,6 +2092,18 @@
       "3": "Reviens me voir quand tu veux."
     }
   },
+  "milo": {
+    "encounter": {
+      "1": "Tu as de très bons instincts, en ce qui concerne les Pokémon. Tu les comprends.$Ce combat s’annonce serré !$Je vais devoir me servir de la puissance du Dynamax si je ne veux pas que tu me coupes l’herbe sous le pied !"
+    },
+    "victory": {
+      "1": "J’ai eu beau tout donner, tu m’as envoyé paitre !\nTu as du talent, Challenger, ça se voit !",
+      "1_female": "J’ai eu beau tout donner, tu m’as envoyé paitre !\nTu as du talent, Challenger, ça se voit !"
+    },
+    "defeat": {
+      "1": "J’espère que t’as les guibolles solides."
+    }
+  },
   "lucian": {
     "encounter": {
       "1": "Ah, tu ne pouvais mieux tomber, je viens tout juste de finir mon livre.$Ce n’est pas donné à tout le monde d’arriver jusqu'ici. Sache que l’on me considère comme le plus redoutable des membres du Conseil 4.$Et je vais te prouver sur-le-champ que je suis à la hauteur de ma réputation…"
@@ -2521,6 +2554,22 @@
     },
     "defeat": {
       "1": "On dirait bien que je t’ai jeté un froid."
+    }
+  },
+  "nessaElite": {
+    "encounter": {
+      "1": "Le flot des vagues est en ma faveur. Es-tu prêt a être balayé ?",
+      "1_female": "Le flot des vagues est en ma faveur. Es-tu prête a être balayée ?",
+      "2": "J’espère que tu t’es bien préparé. Avec ce combat, nous allons faire des vagues.",
+      "2_female": "J’espère que tu t’es bien préparée. Avec ce combat, nous allons faire des vagues."
+    },
+    "victory": {
+      "1": "Tu as navigué ces eaux avec grâce… Félicitations !",
+      "2": "Le courant n’était visiblement pas en ma faveur. Bien joué !"
+    },
+    "defeat": {
+      "1": "Quelle bataille rafraichissante !",
+      "2": "Tu as fait de ton mieux, mais nul ne peut se mesurer à l’océan !"
     }
   },
   "alder": {
