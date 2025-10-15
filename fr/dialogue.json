@@ -213,6 +213,62 @@
       "3": "Le chemin vers la victoire a toujours ses pentes et ses côtes."
     }
   },
+  "blackBelt": {
+    "encounter": {
+      "1": "Mes coups de pied sont les plus forts de tout l’univers ! Tu as bien du courage !",
+      "2": "Alors, qu’est-ce que tu préfères ? Finir déchiqueté ou plutôt me servir de punching-ball ?",
+      "2_female": "Alors, qu’est-ce que tu préfères ? Finir déchiquetée ou plutôt me servir de punching-ball ?"
+    },
+    "victory": {
+      "1": "Zut, c’est pas moi qui me bats, c’est mes Pokémon… Mes pieds ne servent à rien !",
+      "2": "Quitte à perdre, j’aurais bien voulu me prendre une bonne dérouillée."
+    }
+  },
+  "battleGirl": {
+    "encounter": {
+      "1": "Allons, il n’y a pas de honte à avoir. Tu peux perdre contre moi, ce n’est rien."
+    },
+    "victory": {
+      "1": "C’est dur de se dire au revoir, mais je n’ai plus beaucoup de temps…"
+    }
+  },
+  "hiker": {
+    "encounter": {
+      "1": "Ce n’est pas si mal de prendre du poids avec l’âge.\nOn trébuche moins, ça abaisse le centre de gravité !",
+      "2": "J’ai hérité de la stature de mes parents…\nJe suis aussi grand qu’une montagne !"
+    },
+    "victory": {
+      "1": "Peuh ! En termes d’indice de masse corporelle,\nau moins, c’est moi qui gagne haut la main !",
+      "2": "Grrr… C’est pas grave !\nUn jour, je te dépasserai toi aussi !"
+    }
+  },
+  "ranger": {
+    "encounter": {
+      "1": "Lorsqu’on vit entouré par la nature, les\nchoses perdent de leur importance.",
+      "2": "Si je m’éloigne trop de la nature, j’ai des accès de panique."
+    },
+    "victory": {
+      "1": "Ma défaite est bien peu de choses comparée à la nature environnante…",
+      "2": "C’est rien, à côté de l’angoisse de la vie en ville."
+    },
+    "defeat": {
+      "1": "Tiens, j’ai gagné ? Bah, peu importe.\nRegarde donc le spectacle de la nature !",
+      "2": "Tu te sens peut-être mal, mais je t’assure que c’est rien à côté de mes crises d’angoisse."
+    }
+  },
+  "scientist": {
+    "encounter": {
+      "1": "Mes recherches sauront mener le genre humain\nvers le bonheur éternel."
+    },
+    "victory": {
+      "1": "Je suis un génie… Un génie !\nComment ai-je pu perdre contre toi… ?"
+    }
+  },
+  "schoolKid": {
+    "encounter": {
+      "1": "Hé hé hé… Je suis plutôt doué en maths et en sciences, moi !"
+    }
+  },
   "snowWorker": {
     "encounter": {
       "1": "Quand il fait froid, on se couvre !\nTout le monde sait ça !"
@@ -1374,8 +1430,9 @@
     "defeat": {
       "1": "Mes Pokémon et moi ont sculpté une œuvre sur le thème de l’eau, et nous en sommes ressortis victorieux.",
       "2": "Ha ha ha ! Je l’emporte sur vous.",
-      "3": "Peut-être devrais-je vous prêter mon habit ?\nIl pourrait vous aider au combat ! $Ah ah ah, je ne fais que me moquer !",
-      "4": "Je suis le vainqueur ! Et donc, vous, le perdant."
+      "3": "Peut-être devrais-je vous prêter mon habit ?\nIl pourrait vous aider au combat !$Ah ah ah, je ne fais que me moquer !",
+      "4": "Je suis le vainqueur ! Et donc, vous, le perdant.",
+      "4_female": "Je suis le vainqueur ! Et donc, vous, la perdante."
     }
   },
   "crasherWake": {
@@ -1404,6 +1461,7 @@
     "victory": {
       "1": "C’est compris… Il est temps de redescendre sur terre.",
       "2": "J’ai perdu, indubitablement… Tu es un Dresseur très puissant, je le reconnais volontiers.",
+      "2_female": "J’ai perdu, indubitablement… Tu es une Dresseuse très puissante, je le reconnais volontiers.",
       "3": "…Mince ! Perdu."
     },
     "defeat": {
