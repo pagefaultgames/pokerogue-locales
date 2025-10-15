@@ -282,6 +282,33 @@
       "1": "Les temps changent, et les gouts aussi.\nJ’ai mis trop de temps à m’en rendre compte."
     }
   },
+  "worker": {
+    "encounter": {
+      "1": "Les ouvriers comme moi risquent leur vie sur le\nchantier. Mais c’est pour la bonne cause."
+    },
+    "victory": {
+      "1": "Et dire que les ponts et les immeubles que je construis seront\nencore là dans un siècle… C’est-y pas romantique, tout ça ?"
+    }
+  },
+  "workerFemale": {
+    "encounter": {
+      "1": "Les gens se laissent prendre par les apparences,\nc’est pathétique…"
+    },
+    "victory": {
+      "1": "C’est pas facile de prendre soin de sa peau au travail…\nJ’essaie de refuser tous les boulots en plein air."
+    },
+    "defeat": {
+      "1": "L’apparence n’a pas à correspondre à l’être que l’on est à l’intérieur !"
+    }
+  },
+  "workerDouble": {
+    "encounter": {
+      "1": "Je vais te montrer un peu de quoi nous sommes\ncapables, nous autres Ouvriers !"
+    },
+    "victory": {
+      "1": "Ah ben ça alors, c’est bizarre…\nIls sont forts, mes Pokémon, pourtant…"
+    }
+  },
   "snowWorker": {
     "encounter": {
       "1": "Quand il fait froid, on se couvre !\nTout le monde sait ça !"
@@ -327,6 +354,41 @@
       "1": "Hiiiiiiiiiii !"
     }
   },
+  "officer": {
+    "encounter": {
+      "1": "Attention ! Faites place à la justice !",
+      "2": "Prêt à faire régner l’ordre, et à apporter la justice au combat !"
+    },
+    "victory": {
+      "1": "Faire respecter l’ordre s’avère être de plus en plus pesant…",
+      "2": "L’ombre de la défaite me hante dans ce quartier."
+    }
+  },
+  "beauty": {
+    "encounter": {
+      "1": "Ce sera mon combat d’adieu… C’est ainsi que\nj’aimerais baisser le rideau sur ma carrière."
+    },
+    "victory": {
+      "1": "J’ai adoré ce que nous avons fait.\nJ’espère pouvoir refaire un autre combat d’adieu."
+    }
+  },
+  "baker": {
+    "encounter": {
+      "1": "Es-tu prêt à gouter à la défaite ?",
+      "1_female": "Es-tu prête à gouter à la défaite ?"
+    },
+    "victory": {
+      "1": "Quelle défaite cuisante ! \nOn verra bien qui pétrira le dernier…"
+    }
+  },
+  "biker": {
+    "encounter": {
+      "1": "Je vais te faire mordre la poussière !"
+    },
+    "victory": {
+      "1": "J’vais me chauffer pour la prochaine course."
+    }
+  },
   "sailor": {
     "encounter": {
       "1": "Si tu perds, on te balance aux requins !",
@@ -337,7 +399,54 @@
     "victory": {
       "1": "Hein ?\nBattu par toi ?",
       "2": "Ha !\nJe sombre !",
-      "3": "Je suis Marin, mais j'ai le mal de mer…"
+      "3": "Je suis marin, mais j'ai le mal de mer…"
+    }
+  },
+  "clerk": {
+    "encounter": {
+      "1": "Mes supérieurs m’ont enguirlandé…\nAutant déstresser un peu avec toi…",
+      "2": "Pour l’instant, je ne suis qu’un larbin,\nmais un jour, je serai au sommet !",
+      "3": "Je suis né pour travailler.\nC’est mon destin !"
+    },
+    "victory": {
+      "1": "Roh, mais c’est pas vrai, tout de même…\nMême ça je ne sais pas faire ?",
+      "2": "Tu as un talent incroyable !\nMais je refuse de perdre !",
+      "3": "Comme tu peux le voir, me battre fait aussi partie de mon travail."
+    }
+  },
+  "clerkFemale": {
+    "encounter": {
+      "1": "Mon désir secret, c’est de prendre le\npouvoir dans cette entreprise !",
+      "2": "Une entreprise où les femmes se plaisent\nest une bonne entreprise, il parait !",
+      "3": "Ici, les gens me traitent comme une Star.\nTout le monde est gentil avec moi !"
+    },
+    "victory": {
+      "1": "Aaah, j’ai été possédée par mes désirs…\nJ’ai cédé à leurs sirènes trompeuses…",
+      "2": "Oh, non, mais tu as vu l'heure ?\nJe file à la maison, j’ai encore du travail !",
+      "3": "En plus, tout le monde travaille à ma place,\nalors je n’ai rien à faire de mes journées."
+    }
+  },
+  "hooligans": {
+    "encounter": {
+      "1": "Hé, toi !\nViens par ici, qu’on rigole un peu…",
+      "2": "Oh là là ! Deux voyous ensemble ! \nTu sais ce que ça veut dire ? Le résultat risque d’être explosif !"
+    },
+    "victory": {
+      "1": "Quoi ? Notre amitié n’a pas été assez forte…",
+      "2": "Quoi ? Notre attitude de bad boys n'a pas suffi ?"
+    }
+  },
+  "musician": {
+    "encounter": {
+      "1": "Que ma mélodie résonne !\nQue mon équipe triomphe !",
+      "2": "Écoute la chanson de mon Pokémon !",
+      "3": "Allez, viens ! J’t’invite à un concert privé !",
+      "4": "Tu connais l’air guitar ? C’est quand on fait\nsemblant de jouer de la guitare !"
+    },
+    "victory": {
+      "1": "Hum… Au lieu d’y aller crescendo, j'aurais\ndû tout donner dès le début…",
+      "2": "Quel échec !\nMon Pokémon et moi, on était pas accordés !",
+      "3": "Toi, tu fais pas semblant, en tout cas…"
     }
   },
   "pilot": {
@@ -353,6 +462,30 @@
       "2": "Vol ajourné ! Retour à la base.",
       "3": "Visiblement, j’aurai dû me lever et m’entrainer encore plus tôt !",
       "4": "On dirait bien que cette fois, le vent n’était pas en ma faveur !"
+    }
+  },
+  "pokefan": {
+    "encounter": {
+      "1": "J’aime mon Pokémon plus que tout au monde !",
+      "2": "Ce combat va renforcer le lien qui me lie avec mon Pokémon !",
+      "3": "J’aime les Pokémon, alors je suis venu.\nPour résumer : j’aime, donc je suis."
+    },
+    "victory": {
+      "1": "J’ai peut-être été battu, mais mon amour pour les Pokémon reste indétrônable !",
+      "2": "Ne l’oublie pas ! Je suis un grand Pokéfan !",
+      "3": "Je ne suis pas doué pour les combats,\nje le fais pour le Fan Club Pokémon !"
+    }
+  },
+  "pokefanFemale": {
+    "encounter": {
+      "1": "J’aime mon Pokémon plus que tout au monde !",
+      "2": "Ho ho ho ! J’irai n'importe où pour démontrer le charme de mon Pokémon adoré !",
+      "3": "Tu veux jouer avec mon adorable Pokémon ?"
+    },
+    "victory": {
+      "1": "J’ai peut-être été battue, mais mon amour pour les Pokémon reste indétrônable !",
+      "2": "Oh non, ça ne va pas !",
+      "3": "Je ne suis pas douée pour les combats,\nje le fais pour le Fan Club Pokémon !"
     }
   },
   "archer": {
@@ -1572,7 +1705,8 @@
       "3": "T’es balèze comme un océan en furie, et cool comme une mer d’huile…"
     },
     "defeat": {
-      "1": "T’es balèze, mais pas assez pour refouler la marée !"
+      "1": "T’es balèze, mais pas assez pour refouler la marée !",
+      "2": "Hé ! On dirait bien que j’ai encore gagné !"
     }
   },
   "shauntal": {
@@ -1919,6 +2053,9 @@
     },
     "victory": {
       "1": "Oh, non ! J’ai lancé le défi et j’ai perdu…"
+    },
+    "defeat": {
+      "1": "J’espère te revoir bientôt pour un autre défi !"
     }
   },
   "glacia": {
@@ -1935,6 +2072,9 @@
     },
     "victory": {
       "1": "Superbe ! Je n’ai rien à ajouter !"
+    },
+    "defeat": {
+      "1": "J’ai tout donné pour ce combat !"
     }
   },
   "wallace": {
