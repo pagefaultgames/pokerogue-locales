@@ -266,7 +266,20 @@
   },
   "schoolKid": {
     "encounter": {
-      "1": "Hé hé hé… Je suis plutôt doué en maths et en sciences, moi !"
+      "1": "Hé hé hé… Je suis plutôt doué en maths et en sciences, moi !",
+      "2": "Je vais apprendre autant que possible ici pour devenir Champion d’Arène un jour."
+    },
+    "victory": {
+      "1": "Eh bien ça alors… Le hasard est plus fort que les maths et les sciences…",
+      "2": "Les mauvaises expériences aussi servent à s’endurcir."
+    }
+  },
+  "artist": {
+    "encounter": {
+      "1": "Avant, je pouvais vendre n’importe quelle\ncroûte, mais le public m’a déserté…"
+    },
+    "victory": {
+      "1": "Les temps changent, et les gouts aussi.\nJ’ai mis trop de temps à m’en rendre compte."
     }
   },
   "snowWorker": {
@@ -289,6 +302,42 @@
     },
     "defeat": {
       "1": "…\n… Tu-tu-tu sais quoi ?\n… Il fait su-super froid i-ici."
+    }
+  },
+  "hexManiac": {
+    "encounter": {
+      "1": "Je n’écoute que du classique, mais si je perds,\npromis, j’essaie le rap !",
+      "2": "Chaque larme versée me rend plus forte."
+    },
+    "victory": {
+      "1": "Je crois que je n’arriverai jamais à suivre le rythme des jeunes d’aujourd’hui !",
+      "2": "Je vais devenir encore plus haineuse.\nMa soif de revanche décuple mes forces !"
+    },
+    "defeat": {
+      "1": "Dis-moi… Sais-tu ce que râpent les rappeurs ?\nDu fromage ? Je n’ai jamais compris…",
+      "2": "Si j’ai une leçon à te donner : ne t’apitoie pas sur\nton sort. Laisse la haine t’envahir, plutôt !",
+      "2_female": "Si j’ai une leçon à te donner : ne t’apitoie pas sur\nton sort. Laisse la haine t’envahir, plutôt !"
+    }
+  },
+  "psychic": {
+    "encounter": {
+      "1": "Oooooh ! Je me concentre !"
+    },
+    "victory": {
+      "1": "Hiiiiiiiiiii !"
+    }
+  },
+  "sailor": {
+    "encounter": {
+      "1": "Si tu perds, on te balance aux requins !",
+      "2": "Ma réputation de marin est en jeu !",
+      "3": "Hoï !\nT’as le mal de mer ?",
+      "3_female": "Hoï !\nT’as le mal de mer ?"
+    },
+    "victory": {
+      "1": "Hein ?\nBattu par toi ?",
+      "2": "Ha !\nJe sombre !",
+      "3": "Je suis Marin, mais j'ai le mal de mer…"
     }
   },
   "pilot": {
@@ -705,7 +754,8 @@
   },
   "starGrunt": {
     "encounter": {
-      "1": "Ouais, un peu de respect, tu veux ?\n Tu sais à qui t’as affaire ?",
+      "1": "Ouais, un peu de respect, tu veux ?\nTu sais à qui t’as affaire ?",
+      "1_female": "Ouais, un peu de respect, tu veux ?\nTu sais à qui t’as affaire ?",
       "2": "Notre comité d’accueil va pas te faire de cadeau ! Hasta la vistaaar ! ★",
       "3": "Tu peux aller voir ailleurs si j’y suis ?$Si tu refuses, je m’autorise à faire valoir mes droits de légitime défense, je te préviens !",
       "4": "Désolé, mais si tu refuses de partir, on sera obligés de t’y forcer, et ça sera pas joli joli.",
@@ -1758,6 +1808,7 @@
   "candice": {
     "encounter": {
       "1": "Tu veux me défier ? Bien sûr ! J’attendais un Dresseur coriace !$Laisse-moi te dire une chose, je tire ma force de ma concentration.",
+      "1_female": "Tu veux me défier ? Bien sûr ! J’attendais une Dresseuse coriace !$Laisse-moi te dire une chose, je tire ma force de ma concentration.",
       "2": "Les Pokémon, la mode, l’amour… C’est une question de concentration !$Je vais t’en faire la démonstration. Tu peux numéroter tes abattis !"
     },
     "victory": {
