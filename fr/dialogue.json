@@ -389,6 +389,18 @@
       "1": "J’vais me chauffer pour la prochaine course."
     }
   },
+  "firebreather": {
+    "encounter": {
+      "1": "Mes flammes vont te flamber !",
+      "2": "Mon âme brule. Je vais te montrer à quel point !",
+      "3": "Venez ! Venez voir !"
+    },
+    "victory": {
+      "1": "Tu m’as réduit en cendres…",
+      "2": "Yaaah !",
+      "3": "Aïe, aïe, aïe !\nJ’ai le nez en feu !"
+    }
+  },
   "sailor": {
     "encounter": {
       "1": "Si tu perds, on te balance aux requins !",
@@ -486,6 +498,53 @@
       "1": "J’ai peut-être été battue, mais mon amour pour les Pokémon reste indétrônable !",
       "2": "Oh non, ça ne va pas !",
       "3": "Je ne suis pas douée pour les combats,\nje le fais pour le Fan Club Pokémon !"
+    }
+  },
+  "rich": {
+    "encounter": {
+      "2": "Tiens donc, mais que nous voilà un bien joli Dresseur !\nAuriez-vous l’amabilité d’admirer mes Pokémon ? J’en suis si fier…",
+      "3": "J’ai voyagé aux quatre coins du monde avec mon équipe.$Tu dois te dire que je suis confiant en ce qui concerne mes compétences."
+    },
+    "victory": {
+      "1": "Ha ha ! Félicitations, jeune Dresseur !",
+      "2": "Comment ? C’est déjà fini ? Peu importe. Les gens aussi \nriches que nous ne devraient même pas se battre.",
+      "3": "Ah, bien joué !"
+    }
+  },
+  "richFemale": {
+    "encounter": {
+      "2": "Tiens donc, mais que nous voilà un bien joli Dresseur !\nAuriez-vous l’amabilité d’admirer mes Pokémon ? J’en suis si fière…",
+      "3": "Jeune Dresseur, accepteriez-vous de combattre contre moi ?"
+    },
+    "victory": {
+      "1": "Oh, ce combat était absolument splendide !",
+      "2": "Oh là là… Cela n’a absolument rien à voir\navec les combats que je fais avec mes amis.",
+      "3": "Si jeune et pourtant si robuste !\nC’est remarquable !"
+    }
+  },
+  "richKid": {
+    "encounter": {
+      "2": "Crois-tu vraiment que tes Pokémon peuvent espérer rivaliser avec les miens ?",
+      "3": "Je suis bien aisé, mais j’ai bien le droit\nà un vrai combat parfois, non ?"
+    },
+    "victory": {
+      "1": "Comment ? Mais j’ai tellement dépensé pour les rendre resplendissants…",
+      "2": "Je viens d’une famille riche, et je ne\nsuis pas mauvais perdant, d’abord !",
+      "3": "Pff ! Je vais faire du shopping pour me changer les idées…",
+      "4": "Je perds, mais avec grâce et élégance.\nC’est ça, la signature d’un Richard !"
+    }
+  },
+  "richKidFemale": {
+    "encounter": {
+      "1": "Je viens de faire toiletter mes Pokémon. Surtout, ne ruine pas leur prestance !",
+      "2": "Le destin nous a fait nous rencontrer.\nAccepterais-tu un petit combat ?",
+      "3": "Pour ta gouverne, personne n’a jamais\npu me vaincre, personne !"
+    },
+    "victory": {
+      "1": "Oh non ! Mes Pokémon chéris !",
+      "2": "Eh bien, quelle expérience troublante…",
+      "3": "Pff ! Je vais faire du shopping pour me changer les idées…",
+      "4": "Je perds, mais avec grâce et élégance.\nC’est ça, la signature d’une Demoiselle !"
     }
   },
   "archer": {
@@ -1706,7 +1765,8 @@
     },
     "defeat": {
       "1": "T’es balèze, mais pas assez pour refouler la marée !",
-      "2": "Hé ! On dirait bien que j’ai encore gagné !"
+      "2": "Hé ! On dirait bien que j’ai encore gagné !",
+      "3": "Douce victoire rafraichissante !"
     }
   },
   "shauntal": {
@@ -2474,6 +2534,17 @@
     },
     "defeat": {
       "1": "J’me suis cassé la voix pendant ce combat, mais ça valait le coup ! Oh yeah !"
+    }
+  },
+  "red": {
+    "encounter": {
+      "1": "…!"
+    },
+    "victory": {
+      "1": "…?"
+    },
+    "defeat": {
+      "1": "…!"
     }
   },
   "jasmine": {
