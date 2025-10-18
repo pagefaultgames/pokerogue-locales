@@ -63,6 +63,114 @@
     "WHITE_HERB": {
       "name": "Hierba Blanca"
     },
+    "ETHER": {
+      "name": "Éter"
+    },
+    "MAX_ETHER": {
+      "name": "Éter Máximo"
+    },
+    "ELIXIR": {
+      "name": "Elíxir"
+    },
+    "MAX_ELIXIR": {
+      "name": "Elíxir Máximo"
+    },
+    "PP_UP": {
+      "name": "Más PP"
+    },
+    "PP_MAX": {
+      "name": "PP Máximos"
+    },
+    "LURE": {
+      "name": "Perfume"
+    },
+    "SUPER_LURE": {
+      "name": "Superperfume"
+    },
+    "MAX_LURE": {
+      "name": "Perfume Máximo"
+    },
+    "EXP_SHARE": {
+      "name": "Repartir Experiencia"
+    },
+    "EXP_BALANCE": {
+      "name": "Equilibrador Experiencia"
+    },
+    "OVAL_CHARM": {
+      "name": "Amuleto Oval"
+    },
+    "EXP_CHARM": {
+      "name": "Amuleto Experiencia"
+    },
+    "SUPER_EXP_CHARM": {
+      "name": "Superamuleto Experiencia"
+    },
+    "GOLDEN_EXP_CHARM": {
+      "name": "Amuleto Experiencia Dorado"
+    },
+    "LUCKY_EGG": {
+      "name": "Huevo Suerte"
+    },
+    "GOLDEN_EGG": {
+      "name": "Huevo Dorado"
+    },
+    "SOOTHE_BELL": {
+      "name": "Cascabel Alivio"
+    },
+    "SCOPE_LENS": {
+      "name": "Periscopio"
+    },
+    "DIRE_HIT": {
+      "name": "Crítico X"
+    },
+    "LEEK": {
+      "name": "Puerro"
+    },
+    "EVIOLITE": {
+      "name": "Mineral Evolutivo"
+    },
+    "SOUL_DEW": {
+      "name": "Rocío Bondad"
+    },
+    "NUGGET": {
+      "name": "Pepita de Oro"
+    },
+    "BIG_NUGGET": {
+      "name": "Maxipepita de Oro"
+    },
+    "AMULET_COIN": {
+      "name": "Moneda Amuleto"
+    },
+    "GOLDEN_PUNCH": {
+      "name": "Puño Dorado"
+    },
+    "COIN_CASE": {
+      "name": "Monedero"
+    },
+    "LOCK_CAPSULE": {
+      "name": "Cápsula Candado"
+    },
+    "GRIP_CLAW": {
+      "name": "Garra Garfio"
+    },
+    "WIDE_LENS": {
+      "name": "Lupa"
+    },
+    "CANDY_JAR": {
+      "name": "Tarro de Caramelos"
+    },
+    "FOCUS_BAND": {
+      "name": "Cinta Aguante"
+    },
+    "QUICK_CLAW": {
+      "name": "Garra Rápida"
+    },
+    "KINGS_ROCK": {
+      "name": "Roca del Rey"
+    },
+    "LEFTOVERS": {
+      "name": "Restos"
+    },
     "SHELL_BELL": {
       "name": "Cascabel Nácar"
     },
@@ -73,10 +181,20 @@
       "name": "Llamaesfera"
     },
     "SHINY_CHARM": {
+      "name": "Amuleto Iris",
       "description": "Aumenta drásticamente la posibilidad de que un Pokémon salvaje sea brillante."
+    },
+    "CATCHING_CHARM": {
+      "name": "Amuleto Captura"
+    },
+    "DNA_SPLICERS": {
+      "name": "Punta ADN"
     },
     "GOLDEN_POKEBALL": {
       "name": "Pokébola Dorada"
+    },
+    "MYSTERY_ENCOUNTER_BLACK_SLUDGE": {
+      "name": "Lodo Negro"
     },
     "MYSTERY_ENCOUNTER_MACHO_BRACE": {
       "name": "Brazalete Firme"
@@ -89,25 +207,131 @@
     }
   },
   "SpeciesBoosterItem": {
+    "LIGHT_BALL": {
+      "name": "Bola Luminosa"
+    },
+    "THICK_CLUB": {
+      "name": "Hueso Grueso"
+    },
+    "METAL_POWDER": {
+      "name": "Polvo Metálico"
+    },
     "QUICK_POWDER": {
       "name": "Polvo Velocidad"
+    },
+    "DEEP_SEA_SCALE": {
+      "name": "Escama Marina"
+    },
+    "DEEP_SEA_TOOTH": {
+      "name": "Diente Marino"
     }
   },
+  "TempStatStageBoosterItem": {
+    "x_attack": "Ataque X",
+    "x_defense": "Defensa X",
+    "x_sp_atk": "Ataque Especial X",
+    "x_sp_def": "Defensa Especial X",
+    "x_speed": "Velocidad X",
+    "x_accuracy": "Precisión X"
+  },
   "AttackTypeBoosterItem": {
+    "silk_scarf": "Pañuelo de Seda",
+    "black_belt": "Cinturón Negro",
+    "sharp_beak": "Pico Afilado",
+    "poison_barb": "Flecha Venenosa",
+    "soft_sand": "Arena Fina",
+    "hard_stone": "Piedra Dura",
+    "silver_powder": "Polvo Plata",
+    "spell_tag": "Hechizo",
+    "metal_coat": "Revest. Metálico",
+    "charcoal": "Carbón",
+    "mystic_water": "Agua Mística",
+    "miracle_seed": "Semilla Milagro",
+    "magnet": "Imán",
+    "twisted_spoon": "Cuchara Torcida",
+    "never_melt_ice": "Hielo Perpetuo",
     "dragon_fang": "Colmillo Dragón",
-    "black_glasses": "Lentes de Sol"
+    "black_glasses": "Lentes de Sol",
+    "fairy_feather": "Pluma Feérica"
+  },
+  "BaseStatBoosterItem": {
+    "hp_up": "Más PS",
+    "protein": "Proteína",
+    "iron": "Hierro",
+    "calcium": "Calcio",
+    "zinc": "Zinc",
+    "carbos": "Carbohidratos"
   },
   "EvolutionItem": {
+    "LINKING_CORD": "Cordón Unión",
+    "SUN_STONE": "Piedra Solar",
+    "MOON_STONE": "Piedra Lunar",
+    "LEAF_STONE": "Piedra Hoja",
+    "FIRE_STONE": "Piedra Fuego",
+    "WATER_STONE": "Piedra Agua",
+    "THUNDER_STONE": "Piedra Trueno",
+    "ICE_STONE": "Piedra Hielo",
+    "DUSK_STONE": "Piedra Noche",
+    "DAWN_STONE": "Piedra Alba",
+    "SHINY_STONE": "Piedra Día",
+    "CRACKED_POT": "Tetera Agrietada",
+    "SWEET_APPLE": "Manzana Dulce",
+    "TART_APPLE": "Manzana Ácida",
     "STRAWBERRY_SWEET": "Dulce de Fresa",
+    "UNREMARKABLE_TEACUP": "Cuenco Mediocre",
+    "UPGRADE": "Mejora",
+    "DUBIOUS_DISC": "Disco Extraño",
     "DRAGON_SCALE": "Escama Dragón",
+    "PRISM_SCALE": "Escama Bella",
+    "RAZOR_CLAW": "Garra Afilada",
+    "RAZOR_FANG": "Colmillo Agudo",
+    "OVAL_STONE": "Piedra Oval",
+    "REAPER_CLOTH": "Tela Terrible",
+    "ELECTIRIZER": "Electrizador",
+    "MAGMARIZER": "Magmatizador",
+    "PROTECTOR": "Protector",
     "SACHET": "Bolsita Fragante",
     "WHIPPED_DREAM": "Bocadito de Crema",
+    "LEADERS_CREST": "Distintivo de Líder",
+    "SUN_FLUTE": "Flauta Solar",
+    "MOON_FLUTE": "Flauta Lunar",
+    "CHIPPED_POT": "Tetera Rota",
+    "BLACK_AUGURITE": "Mineral Negro",
     "GALARICA_CUFF": "Brazalete Galanuez",
+    "GALARICA_WREATH": "Corona Galanuez",
+    "PEAT_BLOCK": "Bloque de Turba",
+    "AUSPICIOUS_ARMOR": "Armadura Auspiciosa",
+    "MALICIOUS_ARMOR": "Armadura Maldita",
+    "MASTERPIECE_TEACUP": "Cuenco Exquisito",
+    "METAL_ALLOY": "Metal Compuesto",
+    "SCROLL_OF_DARKNESS": "Manuscrito Sombras",
+    "SCROLL_OF_WATERS": "Manuscrito Aguas",
     "SYRUPY_APPLE": "Manzana Empalagosa"
   },
   "FormChangeItem": {
+    "BLUE_ORB": "Prisma Azul",
+    "RED_ORB": "Prisma Rojo",
+    "ADAMANT_CRYSTAL": "Gran Diamansfera",
     "LUSTROUS_GLOBE": "Gran Lustroesfera",
     "GRISEOUS_CORE": "Gran Griseoesfera",
+    "REVEAL_GLASS": "Espejo Veraz",
+    "GRACIDEA": "Gracídea",
+    "MAX_MUSHROOMS": "Maxihongo",
+    "DARK_STONE": "Orbe Oscuro",
+    "LIGHT_STONE": "Orbe Claro",
+    "PRISON_BOTTLE": "Vasija de Castigo",
+    "N_LUNARIZER": "Necroluna",
+    "N_SOLARIZER": "Necrosol",
+    "RUSTED_SWORD": "Espada Oxidada",
+    "RUSTED_SHIELD": "Escudo Oxidado",
+    "WELLSPRING_MASK": "Máscara Fuente",
+    "HEARTHFLAME_MASK": "Máscara Horno",
+    "CORNERSTONE_MASK": "Máscara Cimiento",
+    "SHOCK_DRIVE": "FulgoROM",
+    "BURN_DRIVE": "PiroROM",
+    "CHILL_DRIVE": "CrioROM",
+    "DOUSE_DRIVE": "HidroROM",
+    "ULTRANECROZIUM_Z": "Ultranecrostal Z",
     "FIST_PLATE": "Placa Fuerte",
     "SKY_PLATE": "Placa Cielo",
     "TOXIC_PLATE": "Placa Tóxica",
