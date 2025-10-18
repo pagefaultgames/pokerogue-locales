@@ -7,7 +7,7 @@
     "1": {
       "label": "Kæmp imod den",
       "tooltip": "(-) En hård kamp\n(+) Få en Baton",
-      "boss_enraged": "{{oricorioName}}s frygt boostede dens stats!"
+      "bossEnraged": "{{oricorioName}}s frygt boostede dens stats!"
     },
     "2": {
       "label": "Lær dens dans",
@@ -17,10 +17,10 @@
     "3": {
       "label": "Vis den en dans",
       "tooltip": "(-) Lær {{oricorioName}} et danse angreb\n(+) {{oricorioName}} vil syntes om dig",
-      "disabled_tooltip": "Din Pokémon skal kende et danse angreb for at du kan gøre dette.",
-      "select_prompt": "Vælg et danse angreb at bruge.",
+      "disabledTooltip": "Din Pokémon skal kende et danse angreb for at du kan gøre dette.",
+      "selectPrompt": "Vælg et danse angreb at bruge.",
       "selected": "{{oricorioName}} ser fascineret på imens {{selectedPokemon}} viser {{selectedMove}}!$Den elsker fremvisningen!$@s{level_up_fanfare}{{oricorioName}} vil gerne rejse med dig!"
     }
   },
-  "invalid_selection": "Denne Pokémon kender ikke et danse angreb!"
+  "invalidSelection": "Denne Pokémon kender ikke et danse angreb!"
 }

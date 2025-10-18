@@ -2,67 +2,95 @@
   "title": "Desafios",
   "illegalEvolution": "{{pokemon}} não pode ser escolhido\nnesse desafio!",
   "noneSelected": "Nada Selecionado",
+  "freshStart": {
+    "name": "Novo Começo",
+    "desc": {
+      "0": "Simula o desafio de usar iniciais recém-adquiridos sem desbloqueios.",
+      "1": "Você só pode usar os iniciais originais, como se tivesse começado a jogar PokéRogue.",
+      "2": "Você pode usar qualquer um dos seus iniciais sem precisar desbloqueá-los, como se tivesse acabado de obtê-los pela primeira vez."
+    },
+    "value": {
+      "0": "Desligado",
+      "1": "Reset Total",
+      "2": "Todos os Iniciais"
+    }
+  },
+  "hardcore": {
+    "name": "Hardcore",
+    "desc": "Você não pode reanimar Pokémon desmaiados.",
+    "value": {
+      "0": "Desligado",
+      "1": "Ligado"
+    }
+  },
+  "limitedCatch": {
+    "name": "Capturas Limitadas",
+    "desc": "Você só pode capturar o primeiro Pokémon de um bioma para sua equipe.",
+    "value": {
+      "0": "Desligado",
+      "1": "Ligado"
+    }
+  },
+  "limitedSupport": {
+    "name": "Suporte Limitado",
+    "desc": {
+      "0": "Remove algumas ou todas as opções gratuitas para curar sua equipe.",
+      "1": "Remove a cura no final de cada bioma.\nEm seu lugar, você recebe o menu padrão de recompensas do final da onda.",
+      "2": "Remove a Loja no final do menu de recompensas da onda.",
+      "3": "Remove a Loja no final do menu de recompensas da onda.\n\nRemove a cura no final de cada bioma.\nEm vez disso, você recebe o menu padrão de recompensas do final da onda."
+    },
+    "value": {
+      "0": "Desligado",
+      "1": "Sem Curas",
+      "2": "Sem Loja",
+      "3": "Ambos"
+    }
+  },
   "singleGeneration": {
     "name": "Geração Única",
     "desc": "Você só pode usar Pokémon da {{gen}} geração.",
-    "desc_default": "Você só pode usar Pokémon de uma única geração.",
-    "gen_1": "primeira",
-    "gen_2": "segunda",
-    "gen_3": "terceira",
-    "gen_4": "quarta",
-    "gen_5": "quinta",
-    "gen_6": "sexta",
-    "gen_7": "sétima",
-    "gen_8": "oitava",
-    "gen_9": "nona"
+    "descDefault": "Você só pode usar Pokémon de uma única geração.",
+    "gen": {
+      "1": "primeira",
+      "2": "segunda",
+      "3": "terceira",
+      "4": "quarta",
+      "5": "quinta",
+      "6": "sexta",
+      "7": "sétima",
+      "8": "oitava",
+      "9": "nona"
+    }
   },
   "singleType": {
     "name": "Monotipo",
     "desc": "Você só pode usar Pokémon do tipo {{type}}.",
-    "desc_default": "Você só pode usar Pokémon do tipo escolhido."
-  },
-  "freshStart": {
-    "name": "Novo Começo",
-    "desc": "Você só pode usar os iniciais originais, como se tivesse começado a jogar PokéRogue.",
-    "value.0": "Desligado",
-    "value.1": "Ligado"
+    "descDefault": "Você só pode usar Pokémon do tipo escolhido."
   },
   "inverseBattle": {
     "name": "Batalha Inversa",
     "shortName": "Inversa",
     "desc": "Fraquezas e resistências de tipos são invertidas e nenhum tipo é imune a outro tipo.\nDesativa as conquistas de outros desafios.",
-    "value.0": "Desligado",
-    "value.1": "Ligado"
+    "value": {
+      "0": "Desligado",
+      "1": "Ligado"
+    }
   },
   "flipStat": {
     "name": "Inverter Atr.",
     "shortName": "Inversão",
     "desc": "Atributos são embaralhados para que os PS e Vel. sejam trocados.\nAta. vira Def. Esp.\nDef. vira Ata. Esp.\nDef. Esp. vira Ata.\nAta. Esp. vira Def.\nDesativa as conquistas de outros desafios (exceto Inversão).",
-    "value.0": "Desligado",
-    "value.1": "Ligado"
-  },
-  "noAutoHeal": {
-    "name": "Sem Cura de Graça",
-    "desc": "Desabilita a cura gratuita automática que normalmente ocorre a cada 10 ondas.",
-    "value.0": "Desligado",
-    "value.1": "Ligado"
-  },
-  "hardcore": {
-    "name": "Hardcore",
-    "desc": "Você não pode reanimar Pokémon desmaiados.",
-    "value.0": "Desligado",
-    "value.1": "Ligado"
-  },
-  "limitedCatch": {
-    "name": "Capturas Limitadas",
-    "desc": "Você só pode capturar o primeiro Pokémon de um bioma para sua equipe.",
-    "value.0": "Desligado",
-    "value.1": "Ligado"
+    "value": {
+      "0": "Desligado",
+      "1": "Ligado"
+    }
   },
   "metronome": {
     "name": "Modo Metronome",
     "desc": "Você só pode usar Metronome! Veja até onde você consegue chegar com pura sorte.\nEste é um modo APENAS para diversão e não concede uma conquista.\nDesativa todas as outras conquistas.",
-    "value.0": "Desligado",
-    "value.1": "Ligado"
+    "value": {
+      "0": "Desligado",
+      "1": "Ligado"
+    }
   }
 }

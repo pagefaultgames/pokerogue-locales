@@ -1,31 +1,31 @@
 {
   "intro": "C’è un’allenatrice con tantissime Uova Pokémon!",
-  "intro_dialogue": "Ehilà, allenatore!$Sembra che alcuni dei tuoi\nPokémon si sentano un po’ giù.$Perché non li fai lottare con me per tirargli su il morale?",
+  "introDialogue": "Ehilà, allenatore!$Sembra che alcuni dei tuoi\nPokémon si sentano un po’ giù.$Perché non li fai lottare con me per tirargli su il morale?",
   "title": "L'Allevatrice di Pokémon Esperta",
   "description": "Un’Allenatrice ti ha proposto un combattimento in cui @[TOOLTIP_TITLE]{puoi utilizzare un solo Pokémon}. Potrebbe essere difficile, ma sicuramente rafforzerebbe il legame con il Pokémon che scegli!\nInoltre l’allevatrice ti sarà alcune @[TOOLTIP_TITLE]{Uova Pokémon} se vincerai!",
   "query": "Con chi combatterai?",
-  "cleffa_1_nickname": "Asso",
-  "cleffa_2_nickname": "Clefantastico",
-  "cleffa_3_nickname": "{{speciesName}} il Grande",
+  "cleffa1Nickname": "Asso",
+  "cleffa2Nickname": "Clefantastico",
+  "cleffa3Nickname": "{{speciesName}} il Grande",
   "option": {
     "1": {
       "label": "{{pokemon1Name}}",
-      "tooltip_base": "(-) Combattimento difficile\n(+) Aumenti l’amicizia con {{pokemon1Name}}"
+      "tooltipBase": "(-) Combattimento difficile\n(+) Aumenti l’amicizia con {{pokemon1Name}}"
     },
     "2": {
       "label": "{{pokemon2Name}}",
-      "tooltip_base": "(-) Combattimento difficile\n(+) Aumenti l’amicizia con {{pokemon2Name}}"
+      "tooltipBase": "(-) Combattimento difficile\n(+) Aumenti l’amicizia con {{pokemon2Name}}"
     },
     "3": {
       "label": "{{pokemon3Name}}",
-      "tooltip_base": "(-) Combattimento difficile\n(+) Aumenti l’amicizia con {{pokemon3Name}}"
+      "tooltipBase": "(-) Combattimento difficile\n(+) Aumenti l’amicizia con {{pokemon3Name}}"
     },
     "selected": "Facciamolo!"
   },
   "outro": "Guarda com’è felice ora il tuo {{chosenPokemon}}!$Ecco, puoi avere anche queste.",
-  "outro_failed": "Che delusione…$Sembra che tu abbia ancora molta strada\nda fare per guadagnare la fiducia dei tuoi Pokémon!",
-  "gained_eggs": "@s{item_fanfare}Ricevi {{numEggs}}!",
-  "eggs_tooltip": "\n(+) Ottieni {{eggs}}",
+  "outroFailed": "Che delusione…$Sembra che tu abbia ancora molta strada\nda fare per guadagnare la fiducia dei tuoi Pokémon!",
+  "gainedEggs": "@s{item_fanfare}Ricevi {{numEggs}}!",
+  "eggsTooltip": "\n(+) Ottieni {{eggs}}",
   "numEggs_one": "{{count}} Uovo {{rarity}}",
   "numEggs_other": "{{count}} Uova {{rarity}}"
 }

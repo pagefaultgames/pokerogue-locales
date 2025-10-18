@@ -6,15 +6,15 @@
   "option": {
     "1": {
       "label": "バトルする",
-      "tooltip": "(-) 勝負がキツい\n(+) 新しいアイテム",
+      "tooltip": "(-) 勝負はキツい\n(+) 新しいアイテム",
       "selected": "恐れないで　強いポケモンに　近寄ります。",
-      "stat_boost": "{{enemyPokemon}}は　潜在的な\n強さで　能力を　一つ　上げた！"
+      "statBoost": "{{enemyPokemon}}は　潜在的な\n強さで　能力を　一つ　上げた！"
     },
     "2": {
       "label": "アイテムを盗む",
-      "disabled_tooltip": "選ぶには 手持ちポケモンが 特定な 技を 覚えている 必要 が ある",
+      "disabledTooltip": "選ぶには 手持ちポケモンが 特定な 技を 覚えている 必要 が ある",
       "tooltip": "(+) {{option2PrimaryName}}が　 {{option2PrimaryMove}}を使う",
-      "selected": ".@d{32}.@d{32}.@d{32}${{option2PrimaryName}}が　手を貸し　 {{option2PrimaryMove}}を　使います！$アイテムを　奪いました！"
+      "selected": ".@d{32}.@d{32}.@d{32}${{option2PrimaryName}}が　手を貸し　 {{option2PrimaryMove}}を　使います！$アイテムを　うばいました！"
     },
     "3": {
       "label": "立ち去る",

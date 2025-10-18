@@ -1,22 +1,160 @@
 {
   "ModifierType": {
+    "AddPokeballModifierType": {
+      "name": "×{{modifierCount}} {{pokeballName}}ов",
+      "description": "Получить ×{{modifierCount}} {{pokeballName}}ов (В инвентаре: {{pokeballAmount}})\nШанс поимки: {{catchRate}}"
+    },
+    "AddVoucherModifierType": {
+      "name": "×{{modifierCount}} {{voucherTypeName}}",
+      "description": "Получить ×{{modifierCount}} {{voucherTypeName}}"
+    },
+    "PokemonHeldItemModifierType": {
+      "extra": {
+        "inoperable": "{{pokemonName}} не может взять\nэтот предмет!",
+        "tooMany": "{{pokemonName}} не может взять\nбольше этого предмета!"
+      }
+    },
+    "PokemonHpRestoreModifierType": {
+      "description": "В зависимости от того, что больше, исцеляет {{restorePoints}} ОЖ или {{restorePercent}}% ОЖ одного Покемона.",
+      "extra": {
+        "fully": "Полностью исцеляет ОЖ одного Покемона.",
+        "fullyWithStatus": "Полностью исцеляет ОЖ и статусный недуг одного Покемона."
+      }
+    },
+    "PokemonReviveModifierType": {
+      "description": "Возрождает одного Покемона и исцеляет {{restorePercent}}% ОЖ."
+    },
+    "PokemonStatusHealModifierType": {
+      "description": "Исцеляет любой статусный недуг одного Покемона."
+    },
+    "PokemonPpRestoreModifierType": {
+      "description": "Восстанавливает {{restorePoints}} ОС одной атаке.",
+      "extra": {
+        "fully": "Восстанавливает все ОС одной атаке."
+      }
+    },
+    "PokemonAllMovePpRestoreModifierType": {
+      "description": "Восстанавливает {{restorePoints}} ОС всем атакам.",
+      "extra": {
+        "fully": "Восстанавливает все ОС всем атакам."
+      }
+    },
+    "PokemonPpUpModifierType": {
+      "description": "Навсегда увеличивает ОД одного приёма на {{upPoints}} за каждые 5 максимальных ОД (максимум 3)."
+    },
+    "PokemonNatureChangeModifierType": {
+      "name": "Мята {{natureName}}",
+      "description": "Меняет характер Покемона на {{natureName}} и навсегда открывает этот характер для стартового Покемона."
+    },
+    "DoubleBattleChanceBoosterModifierType": {
+      "description": "Вчетверо увеличивает шанс встречи быть двойным сражением на {{battleCount}} битв."
+    },
+    "TempStatStageBoosterModifierType": {
+      "description": "Увеличивает {{stat}} всех членов команды на {{amount}} на 5 сражений",
+      "extra": {
+        "stage": "1 стадия",
+        "percentage": "30%"
+      }
+    },
+    "AttackTypeBoosterModifierType": {
+      "description": "Увеличивает силу атак {{moveType}}-типа Покемона на 20%."
+    },
+    "PokemonLevelIncrementModifierType": {
+      "description": "Увеличивает уровень Покемона на {{levels}}."
+    },
+    "AllPokemonLevelIncrementModifierType": {
+      "description": "Увеличивает уровень всех членов команды на {{levels}}."
+    },
+    "BaseStatBoosterModifierType": {
+      "description": "Увеличивает базовую {{stat}} владельца на 10%. Чем выше ваши IV, тем выше лимит суммирования."
+    },
+    "PokemonBaseStatFlatModifierType": {
+      "name": "Старый Гатó",
+      "description": "Увеличивает базовые характеристики {{stats}} владельца на {{statValue}}. Найдено после странного сна."
+    },
+    "AllPokemonFullHpRestoreModifierType": {
+      "description": "Восстанавливает 100% ОЖ всем Покемонам."
+    },
+    "AllPokemonFullReviveModifierType": {
+      "description": "Оживляет всех потерявших сознание Покемонов, полностью восстанавливая ОЖ."
+    },
+    "MoneyRewardModifierType": {
+      "description": "Дает {{moneyMultiplier}} количество денег ({{moneyAmount}} ₽).",
+      "extra": {
+        "small": "малый",
+        "moderate": "средний",
+        "large": "большой"
+      }
+    },
+    "ExpBoosterModifierType": {
+      "description": "Увеличивает получение опыта на {{boostPercent}}%."
+    },
+    "PokemonExpBoosterModifierType": {
+      "description": "Увеличивает получение опыта владельцем на {{boostPercent}}%"
+    },
+    "PokemonFriendshipBoosterModifierType": {
+      "description": "Увеличивает прирост дружбы на 50%."
+    },
+    "PokemonMoveAccuracyBoosterModifierType": {
+      "description": "Увеличивает точность приёмов на {{accuracyAmount}}."
+    },
+    "PokemonMultiHitModifierType": {
+      "description": "Превращает 25% урона от атак владельца в дополнительный удар."
+    },
     "TmModifierType": {
-      "name": "ТМ{{moveId}} - {{moveName}}"
+      "name": "ТМ{{moveId}} - {{moveName}}",
+      "description": "Обучает Покемона {{moveName}}."
     },
     "TmModifierTypeWithInfo": {
-      "name": "ТМ{{moveId}} - {{moveName}}"
+      "name": "ТМ{{moveId}} - {{moveName}}",
+      "description": "Обучает Покемона {{moveName}}\n(Удерживайте C или Shift для получения дополнительной информации)."
+    },
+    "EvolutionItemModifierType": {
+      "description": "Заставляет некоторых Покемонов эволюционировать."
+    },
+    "FormChangeItemModifierType": {
+      "description": "Заставляет некоторых Покемонов менять форму."
+    },
+    "FusePokemonModifierType": {
+      "description": "Объединяет двух Покемонов (передает Талант, разделяет базовые характеристики и типы, делится набором атак)."
+    },
+    "TerastallizeModifierType": {
+      "name": "{{teraType}} Тера-осколок",
+      "description": "Изменяет Тера-тип Покемона на {{teraType}}."
+    },
+    "ContactHeldItemTransferChanceModifierType": {
+      "description": "При атаке есть {{chancePercent}}% шанс украсть предмет, удерживаемый противником."
+    },
+    "TurnHeldItemTransferModifierType": {
+      "description": "Каждый ход владелец получает один удерживаемый предмет от противника."
+    },
+    "EnemyAttackStatusEffectChanceModifierType": {
+      "description": "Добавляет {{chancePercent}}% шанс наложить {{statusEffect}} с помощью атакующих приёмов."
+    },
+    "EnemyEndureChanceModifierType": {
+      "description": "Добавляет {{chancePercent}}% шанс выдержать удар."
     },
     "RARE_CANDY": {
       "name": "Редкая конфета"
     },
+    "RARER_CANDY": {
+      "name": "Редчайшая конфета"
+    },
     "MEGA_BRACELET": {
-      "name": "Мегабраслет"
+      "name": "Мегабраслет",
+      "description": "Мега-камни становятся доступными."
     },
     "DYNAMAX_BAND": {
-      "name": "Динамакс-браслет"
+      "name": "Динамакс-браслет",
+      "description": "Макс-Грибы становятся доступными."
+    },
+    "TERA_ORB": {
+      "name": "Тера-Сфера",
+      "description": "Позволяет вашему Покемону Терасталлизироваться. Медленно перезаряжается. Тера-осколки также становятся доступны."
     },
     "MAP": {
-      "name": "Карта"
+      "name": "Карта",
+      "description": "Позволяет вам выбрать пункт назначения на перекрестке."
     },
     "POTION": {
       "name": "Эликсир"
@@ -30,6 +168,9 @@
     "MAX_POTION": {
       "name": "Эликсир макс"
     },
+    "FULL_RESTORE": {
+      "name": "Полное Восстановление"
+    },
     "REVIVE": {
       "name": "Оживление"
     },
@@ -39,35 +180,500 @@
     "FULL_HEAL": {
       "name": "Полное Исцеление"
     },
+    "SACRED_ASH": {
+      "name": "Священный Пепел"
+    },
+    "REVIVER_SEED": {
+      "name": "Семя Возрождения",
+      "description": "Оживляет владельца на 1/2 ОЖ при потере сознания от прямого попадания."
+    },
+    "WHITE_HERB": {
+      "name": "Белая Трава",
+      "description": "Предмет для ношения Покемоном. Он восстановит любую пониженную характеристику в бою."
+    },
+    "ETHER": {
+      "name": "Эфир"
+    },
+    "MAX_ETHER": {
+      "name": "Макс-Эфир"
+    },
+    "ELIXIR": {
+      "name": "Эликсир"
+    },
+    "MAX_ELIXIR": {
+      "name": "Макс-Эликсир"
+    },
+    "PP_UP": {
+      "name": "Плюс ОД"
+    },
+    "PP_MAX": {
+      "name": "ОД Макс"
+    },
+    "LURE": {
+      "name": "Приманка"
+    },
+    "SUPER_LURE": {
+      "name": "Супер-Приманка"
+    },
+    "MAX_LURE": {
+      "name": "Макс-Приманка"
+    },
     "MEMORY_MUSHROOM": {
       "name": "Гриб Памяти",
       "description": "Вспомнить забытый приём Покемона."
     },
     "EXP_SHARE": {
-      "name": "Общая Доля"
+      "name": "Общая Доля",
+      "description": "Неучаствующие получают 20% опыта от одного участника."
+    },
+    "EXP_BALANCE": {
+      "name": "Баланс Опыта",
+      "description": "Распределяет очки опыта, полученные в битвах, в пользу членов команды с более низким уровнем."
+    },
+    "OVAL_CHARM": {
+      "name": "Овальный Оберег",
+      "description": "Когда несколько Покемонов участвуют в битве, каждый получает дополнительные 10% от общего опыта."
+    },
+    "EXP_CHARM": {
+      "name": "Оберег Роста"
+    },
+    "SUPER_EXP_CHARM": {
+      "name": "Супер Оберег Роста"
+    },
+    "GOLDEN_EXP_CHARM": {
+      "name": "Золотой Оберег Роста"
     },
     "LUCKY_EGG": {
       "name": "Удачливое Яйцо"
     },
+    "GOLDEN_EGG": {
+      "name": "Золотое Яйцо"
+    },
+    "SOOTHE_BELL": {
+      "name": "Колокольчик Успокоения"
+    },
+    "SCOPE_LENS": {
+      "name": "Снайперская Линза",
+      "description": "Это линза для выявления слабых мест. Она повышает шанс критического удара владельца."
+    },
+    "DIRE_HIT": {
+      "name": "Критический Удар",
+      "extra": {
+        "raises": "Шанс Критического Удара"
+      }
+    },
+    "LEEK": {
+      "name": "Лук-порей",
+      "description": "Этот очень длинный и крепкий стебель лука-порея повышает шанс критического удара атак Фарфетчда."
+    },
+    "EVIOLITE": {
+      "name": "Эвиолит",
+      "description": "Эта таинственная эволюционная глыба повышает показатели Защиты и Спец. Защиты, когда её держит Покемон, который ещё может эволюционировать."
+    },
+    "SOUL_DEW": {
+      "name": "Роса Души",
+      "description": "Увеличивает влияние характера Покемона на его характеристики на 10% (Складывается)"
+    },
+    "NUGGET": {
+      "name": "Самородок"
+    },
+    "BIG_NUGGET": {
+      "name": "Большой Самородок"
+    },
+    "RELIC_GOLD": {
+      "name": "Реликтовое Золото"
+    },
+    "AMULET_COIN": {
+      "name": "Денежный Талисман",
+      "description": "Увеличивает денежные награды на 20%."
+    },
+    "GOLDEN_PUNCH": {
+      "name": "Золотой удар",
+      "description": "Дает 50% от нанесенного прямого урона в виде денег."
+    },
+    "COIN_CASE": {
+      "name": "Кошелек для Монет",
+      "description": "После каждой 10-й битвы получайте 10% от своих денег в виде процентов."
+    },
+    "LOCK_CAPSULE": {
+      "name": "Запирающая Капсула",
+      "description": "Позволяет заблокировать редкость предметов при переброске предметов."
+    },
+    "GRIP_CLAW": {
+      "name": "Цепкий Крюк"
+    },
+    "WIDE_LENS": {
+      "name": "Широкие Линзы"
+    },
+    "MULTI_LENS": {
+      "name": "Мульти-Линзы"
+    },
+    "HEALING_CHARM": {
+      "name": "Оберег Исцеления",
+      "description": "Увеличивает эффективность восстанавливающих ОЖ приёмов и предметов на 10% (исключая Оживления)."
+    },
+    "CANDY_JAR": {
+      "name": "Банка с Конфетами",
+      "description": "Увеличивает количество уровней, добавляемых Редкими Конфетами, на 1."
+    },
+    "BERRY_POUCH": {
+      "name": "Мешочек для Ягод",
+      "description": "Добавляет 30% шанс, что использованная ягода не будет потрачена."
+    },
+    "FOCUS_BAND": {
+      "name": "Обод Фокуса",
+      "description": "Добавляет 10% шанс выжить с 1 ОЖ после получения урона, достаточного для потери сознания."
+    },
+    "QUICK_CLAW": {
+      "name": "Лихой Коготь",
+      "description": "Добавляет 10% шанс походить первым независимо от скорости (после приоритета)."
+    },
     "KINGS_ROCK": {
-      "name": "Королевский камень"
+      "name": "Королевский камень",
+      "description": "Добавляет 10% шанс, что атакующая способность заставит противника вздрогнуть."
+    },
+    "LEFTOVERS": {
+      "name": "Остатки",
+      "description": "Восстанавливает 1/16 от максимальных ОЖ Покемона каждый ход."
+    },
+    "SHELL_BELL": {
+      "name": "Бубенчик",
+      "description": "Восстанавливает 1/8 от нанесенного Покемоном урона."
+    },
+    "TOXIC_ORB": {
+      "name": "Сфера Яда",
+      "description": "Это странная сфера, которая источает токсины при прикосновении и сильно отравит владельца во время битвы."
+    },
+    "FLAME_ORB": {
+      "name": "Сфера Пламени",
+      "description": "Это странная сфера, которая при прикосновении излучает тепло и обожжет владельца во время битвы."
+    },
+    "MYSTICAL_ROCK": {
+      "name": "Мистический Камень",
+      "description": "Продлевает длительность эффектов поля и погоды, вызванных приёмами или Талантами владельца, на 2 хода."
+    },
+    "EVOLUTION_TRACKER_GIMMIGHOUL": {
+      "name": "Сокровища",
+      "description": "Этот Покемон обожает сокровища! Продолжайте собирать сокровища, и что-то может произойти!"
+    },
+    "EVOLUTION_TRACKER_PRIMEAPE": {
+      "name": "Кулак Ярости",
+      "description": "Праймейп эволюционирует, когда его ярость превосходит пределы его физической формы! Накапливайте его ярость, используя приём Кулак Ярости!"
+    },
+    "EVOLUTION_TRACKER_STANTLER": {
+      "name": "Пси-Щитовой Удар",
+      "description": "Стантлер эволюционирует, чтобы адаптироваться к суровым условиям. Укрепите его защиту, используя приём Пси-Щитовой Удар!"
+    },
+    "BATON": {
+      "name": "Эстафета",
+      "description": "Позволяет передавать эффекты при смене Покемонов, что также обходит ловушки."
+    },
+    "SHINY_CHARM": {
+      "name": "Сияющий Оберег",
+      "description": "Значительно увеличивает шанс того, что дикий Покемон окажется сияющим."
+    },
+    "ABILITY_CHARM": {
+      "name": "Оберег Талантов",
+      "description": "Значительно увеличивает шанс того, что дикий Покемон будет обладать Скрытым Талантом."
+    },
+    "CATCHING_CHARM": {
+      "name": "Оберег Поимки",
+      "description": "Увеличивает шанс критической поимки."
     },
     "IV_SCANNER": {
-      "name": "IV Сканер"
+      "name": "IV Сканер",
+      "description": "Позволяет сканировать IV диких Покемонов."
+    },
+    "DNA_SPLICERS": {
+      "name": "ДНК-сплайсеры"
+    },
+    "MINI_BLACK_HOLE": {
+      "name": "Мини-Черная Дыра"
+    },
+    "GOLDEN_POKEBALL": {
+      "name": "Золотой Покеболл",
+      "description": "Добавляет 1 дополнительную опцию предмета в конце каждой битвы."
+    },
+    "ENEMY_DAMAGE_BOOSTER": {
+      "name": "Жетоны Урона",
+      "description": "Увеличивает урон на 5%."
+    },
+    "ENEMY_DAMAGE_REDUCTION": {
+      "name": "Жетоны Защиты",
+      "description": "Снижает входящий урон на 2.5%."
+    },
+    "ENEMY_HEAL": {
+      "name": "Жетоны Исцеления",
+      "description": "Восстанавливает 2% от максимальных ОЗ каждый ход."
+    },
+    "ENEMY_ATTACK_POISON_CHANCE": {
+      "name": "Жетоны Яда"
+    },
+    "ENEMY_ATTACK_PARALYZE_CHANCE": {
+      "name": "Жетоны Паралича"
+    },
+    "ENEMY_ATTACK_BURN_CHANCE": {
+      "name": "Жетоны Пламени"
+    },
+    "ENEMY_STATUS_EFFECT_HEAL_CHANCE": {
+      "name": "Жетоны Полного Исцеления",
+      "description": "Добавляет 2.5% шанс каждый ход исцелить статусное состояние."
+    },
+    "ENEMY_ENDURE_CHANCE": {
+      "name": "Жетоны Выносливости"
+    },
+    "ENEMY_FUSED_CHANCE": {
+      "name": "Жетоны Объединения",
+      "description": "Добавляет 1% шанс, что дикий Покемон будет слитым."
+    },
+    "MYSTERY_ENCOUNTER_SHUCKLE_JUICE_GOOD": {
+      "name": "Сладкий Сок Шакла",
+      "description": "Увеличивает все базовые характеристики владельца. Вы были благословлены Шаклом."
+    },
+    "MYSTERY_ENCOUNTER_SHUCKLE_JUICE_BAD": {
+      "name": "Мерзкий Сок Шакла",
+      "description": "Уменьшает все базовые характеристики владельца. Вы были прокляты Шаклом."
+    },
+    "MYSTERY_ENCOUNTER_BLACK_SLUDGE": {
+      "name": "Чёрная Слизь",
+      "description": "Вонь настолько сильна, что магазины будут продавать вам предметы только с огромной наценкой."
+    },
+    "MYSTERY_ENCOUNTER_MACHO_BRACE": {
+      "name": "Мачо-Браслет",
+      "description": "Победа над Покемоном дарует владельцу один заряд. Каждый заряд немного повышает характеристики. Бонус при максимальном количестве зарядов."
+    },
+    "MYSTERY_ENCOUNTER_OLD_GATEAU": {
+      "name": "Старый Гатó",
+      "description": "Увеличивает некоторые характеристики владельца."
+    },
+    "MYSTERY_ENCOUNTER_GOLDEN_BUG_NET": {
+      "name": "Золотая Сачок для Жуков",
+      "description": "Наделяет владельца удачей, чтобы чаще находить Покемонов Жучьего типа. Обладает странным весом."
     }
   },
+  "SpeciesBoosterItem": {
+    "LIGHT_BALL": {
+      "name": "Световой Шар",
+      "description": "Этот таинственный шар, которая повышает показатели Атаки и Спец. Атаки Пикачу."
+    },
+    "THICK_CLUB": {
+      "name": "Толстая Дубина",
+      "description": "Эта твердая кость неизвестного происхождения повышает показатель Атаки Кьюбона или Маровака."
+    },
+    "METAL_POWDER": {
+      "name": "Металлическая Пудра",
+      "description": "Чрезвычайно мелкая, но твердая, эта странная пудра повышает показатель Защиты Дитто."
+    },
+    "QUICK_POWDER": {
+      "name": "Пудра Скорости",
+      "description": "Чрезвычайно мелкая, но твердая, эта странная пудра повышает показатель Скорости Дитто."
+    },
+    "DEEP_SEA_SCALE": {
+      "name": "Глубоководная Чешуя",
+      "description": "Эта чешуя слабо мерцает розовым и повышает показатель Спец. Защиты Кламперла."
+    },
+    "DEEP_SEA_TOOTH": {
+      "name": "Глубоководный Зуб",
+      "description": "Этот клык мерцает острым серебром и повышает показатель Спец. Атаки Кламперла."
+    }
+  },
+  "TempStatStageBoosterItem": {
+    "x_attack": "Х Атака",
+    "x_defense": "Х Защита",
+    "x_sp_atk": "Х Сп. Атк",
+    "x_sp_def": "Х Сп. Защ",
+    "x_speed": "Х Скорость",
+    "x_accuracy": "Х Точность"
+  },
   "AttackTypeBoosterItem": {
-    "metal_coat": "Металлический покров"
+    "silk_scarf": "Шелковый Шарф",
+    "black_belt": "Чёрный Пояс",
+    "sharp_beak": "Острый Клюв",
+    "poison_barb": "Ядовитая Колючка",
+    "soft_sand": "Мягкий Песок",
+    "hard_stone": "Гранит",
+    "silver_powder": "Серебряная Пудра",
+    "spell_tag": "Свиток Чар",
+    "metal_coat": "Металлический покров",
+    "charcoal": "Древесный Уголь",
+    "mystic_water": "Мистическая Вода",
+    "miracle_seed": "Чудо-Семя",
+    "magnet": "Магнит",
+    "twisted_spoon": "Изогнутая Ложка",
+    "never_melt_ice": "Нетающий Лёд",
+    "dragon_fang": "Клык Дракона",
+    "black_glasses": "Тёмные Очки",
+    "fairy_feather": "Перо Феи"
+  },
+  "BaseStatBoosterItem": {
+    "hp_up": "Плюс ОЖ",
+    "protein": "Протеин",
+    "iron": "Железо",
+    "calcium": "Кальций",
+    "zinc": "Цинк",
+    "carbos": "Углеводы"
   },
   "EvolutionItem": {
-    "SUN_STONE": "Солнечный камень",
+    "NONE": "Нет",
+    "LINKING_CORD": "Соединительный Шнур",
+    "SUN_STONE": "Солнечный Камень",
+    "MOON_STONE": "Лунный Камень",
+    "LEAF_STONE": "Лиственный Камень",
+    "FIRE_STONE": "Огненный Камень",
+    "WATER_STONE": "Водный Камень",
+    "THUNDER_STONE": "Громовой Камень",
+    "ICE_STONE": "Ледяной Камень",
+    "DUSK_STONE": "Сумеречный Камень",
+    "DAWN_STONE": "Камень Рассвета",
+    "SHINY_STONE": "Сияющий Камень",
+    "CRACKED_POT": "Потрескавшийся Горшок",
+    "SWEET_APPLE": "Сладкое Яблоко",
+    "TART_APPLE": "Кислое Яблоко",
+    "STRAWBERRY_SWEET": "Клубничное Лакомство",
+    "UNREMARKABLE_TEACUP": "Непримечательная Чашка Чая",
     "UPGRADE": "Улучшение",
-    "DRAGON_SCALE": "Чешуя дракона"
+    "DUBIOUS_DISC": "Странный Диск",
+    "DRAGON_SCALE": "Чешуя дракона",
+    "PRISM_SCALE": "Радужная Чешуя",
+    "RAZOR_CLAW": "Острый Коготь",
+    "RAZOR_FANG": "Острый Клык",
+    "OVAL_STONE": "Камень Голыш",
+    "REAPER_CLOTH": "Ткань Смерти",
+    "ELECTIRIZER": "Электризатор",
+    "MAGMARIZER": "Магматизатор",
+    "PROTECTOR": "Протектор",
+    "SACHET": "Саше",
+    "WHIPPED_DREAM": "Крем Грёз",
+    "LEADERS_CREST": "Герб Вождя",
+    "SUN_FLUTE": "Солнечная Флейта",
+    "MOON_FLUTE": "Лунная Флейта",
+    "CHIPPED_POT": "Отколотый Горшок",
+    "BLACK_AUGURITE": "Чёрный Аугурит",
+    "GALARICA_CUFF": "Галарическая Манжета",
+    "GALARICA_WREATH": "Галарический Венок",
+    "PEAT_BLOCK": "Торфяной Блок",
+    "AUSPICIOUS_ARMOR": "Благоприятные Доспехи",
+    "MALICIOUS_ARMOR": "Злобные Доспехи",
+    "MASTERPIECE_TEACUP": "Шедевральная Чайная Чашка",
+    "METAL_ALLOY": "Металлический Сплав",
+    "SCROLL_OF_DARKNESS": "Свиток Тьмы",
+    "SCROLL_OF_WATERS": "Свиток Вод",
+    "SYRUPY_APPLE": "Сиропное Яблоко"
   },
   "FormChangeItem": {
+    "NONE": "Нет",
+    "ABOMASITE": "Абомасит",
+    "ABSOLITE": "Абсолит",
+    "AERODACTYLITE": "Аэродактилит",
+    "AGGRONITE": "Аггронит",
+    "ALAKAZITE": "Алаказайт",
+    "ALTARIANITE": "Алтарианит",
+    "AMPHAROSITE": "Амфаросинит",
+    "AUDINITE": "Аудинит",
+    "BANETTITE": "Банеттит",
+    "BEEDRILLITE": "Бидриллит",
+    "BLASTOISINITE": "Бластоизинит",
+    "BLAZIKENITE": "Блазикенит",
+    "CAMERUPTITE": "Камеруптит",
+    "CHARIZARDITE_X": "Чаризардит X",
+    "CHARIZARDITE_Y": "Чаризардит Y",
+    "DIANCITE": "Диансит",
+    "GALLADITE": "Галладит",
+    "GARCHOMPITE": "Гарчомпит",
+    "GARDEVOIRITE": "Гардевуарит",
+    "GENGARITE": "Генгарит",
+    "GLALITITE": "Глалитит",
+    "GYARADOSITE": "Гярадосит",
+    "HERACRONITE": "Геракронит",
+    "HOUNDOOMINITE": "Хаундуминит",
+    "KANGASKHANITE": "Кангасханит",
+    "LATIASITE": "Латиасит",
+    "LATIOSITE": "Латиосит",
+    "LOPUNNITE": "Лопуннит",
+    "LUCARIONITE": "Лукарионит",
+    "MANECTITE": "Манектит",
+    "MAWILITE": "Мавилит",
+    "MEDICHAMITE": "Медичамит",
+    "METAGROSSITE": "Метагроссит",
+    "MEWTWONITE_X": "Мьютунит X",
+    "MEWTWONITE_Y": "Мьютунит Y",
+    "PIDGEOTITE": "Пиджеотит",
+    "PINSIRITE": "Пинсирит",
+    "RAYQUAZITE": "Рэйквазит",
+    "SABLENITE": "Сабленит",
+    "SALAMENCITE": "Саламенсит",
+    "SCEPTILITE": "Септилит",
+    "SCIZORITE": "Сцизорит",
+    "SHARPEDONITE": "Шарпедонит",
+    "SLOWBRONITE": "Слоубронит",
+    "STEELIXITE": "Стиликсит",
+    "SWAMPERTITE": "Свампертит",
+    "TYRANITARITE": "Тиранитарит",
+    "VENUSAURITE": "Венузаврит",
+    "BLUE_ORB": "Синий Шар",
+    "RED_ORB": "Красный Шар",
+    "SHARP_METEORITE": "Острый Метеорит",
+    "HARD_METEORITE": "Твёрдый Метеорит",
+    "SMOOTH_METEORITE": "Гладкий Метеорит",
+    "ADAMANT_CRYSTAL": "Адамантовый Кристалл",
+    "LUSTROUS_GLOBE": "Блестящий Глобус",
+    "GRISEOUS_CORE": "Мрачное Ядро",
+    "REVEAL_GLASS": "Зеркальце",
+    "GRACIDEA": "Грасидия",
+    "MAX_MUSHROOMS": "Макс-Грибы",
+    "DARK_STONE": "Камень Тьмы",
+    "LIGHT_STONE": "Камень Света",
+    "PRISON_BOTTLE": "Тюремная Бутылка",
+    "N_LUNARIZER": "Лунизатор N",
+    "N_SOLARIZER": "Соляризатор N",
+    "RUSTED_SWORD": "Ржавый Меч",
+    "RUSTED_SHIELD": "Ржавый Щит",
+    "ICY_REINS_OF_UNITY": "Ледяные Уздечки Единства",
+    "SHADOW_REINS_OF_UNITY": "Теневые Уздечки Единства",
+    "WELLSPRING_MASK": "Маска Родника",
+    "HEARTHFLAME_MASK": "Маска Пламени",
+    "CORNERSTONE_MASK": "Маска Краеугольного Камня",
     "SHOCK_DRIVE": "Шоковый Привод",
     "BURN_DRIVE": "Обжигающий Привод",
     "CHILL_DRIVE": "Охлаждающий Привод",
-    "DOUSE_DRIVE": "Погашающий Привод"
+    "DOUSE_DRIVE": "Погашающий Привод",
+    "ULTRANECROZIUM_Z": "Ультранекрозиум Z",
+    "FIST_PLATE": "Плита Кулака",
+    "SKY_PLATE": "Плита Неба",
+    "TOXIC_PLATE": "Плита Токсин",
+    "EARTH_PLATE": "Плита Почвы",
+    "STONE_PLATE": "Плита Скалы",
+    "INSECT_PLATE": "Плита Жуков",
+    "SPOOKY_PLATE": "Плита Мистик",
+    "IRON_PLATE": "Плита Железа",
+    "FLAME_PLATE": "Плита Пламя",
+    "SPLASH_PLATE": "Плита Брызг",
+    "MEADOW_PLATE": "Плита Лугов",
+    "ZAP_PLATE": "Плита Разряд",
+    "MIND_PLATE": "Плита Разума",
+    "ICICLE_PLATE": "Плита Ледник",
+    "DRACO_PLATE": "Плита Драко",
+    "DREAD_PLATE": "Плита Ужаса",
+    "PIXIE_PLATE": "Пластина Пикси",
+    "BLANK_PLATE": "Пустая Пластина",
+    "LEGEND_PLATE": "Пластина Легенды",
+    "FIGHTING_MEMORY": "Боевая Память",
+    "FLYING_MEMORY": "Летающая Память",
+    "POISON_MEMORY": "Ядовитая Память",
+    "GROUND_MEMORY": "Наземная Память",
+    "ROCK_MEMORY": "Каменная Память",
+    "BUG_MEMORY": "Память Насекомых",
+    "GHOST_MEMORY": "Призрачная Память",
+    "STEEL_MEMORY": "Стальная Память",
+    "FIRE_MEMORY": "Огненная Память",
+    "WATER_MEMORY": "Водная Память",
+    "GRASS_MEMORY": "Травяная Память",
+    "ELECTRIC_MEMORY": "Электрическая Память",
+    "PSYCHIC_MEMORY": "Психическая Память",
+    "ICE_MEMORY": "Ледяная Память",
+    "DRAGON_MEMORY": "Драконья Память",
+    "DARK_MEMORY": "Тёмная Память",
+    "FAIRY_MEMORY": "Волшебная Память",
+    "NORMAL_MEMORY": "Обычная Память"
   }
 }

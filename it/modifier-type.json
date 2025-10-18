@@ -1,12 +1,12 @@
 {
   "ModifierType": {
     "AddPokeballModifierType": {
-      "name": "{{modifierCount}}x {{pokeballName}}",
-      "description": "Ricevi {{pokeballName}} x{{modifierCount}} (Inventario: {{pokeballAmount}}) \nTasso di cattura: {{catchRate}}."
+      "name": "{{modifierCount}}× {{pokeballName}}",
+      "description": "Ricevi {{pokeballName}} ×{{modifierCount}} (Inventario: {{pokeballAmount}}) \nTasso di cattura: {{catchRate}}."
     },
     "AddVoucherModifierType": {
-      "name": "{{modifierCount}}x {{voucherTypeName}}.",
-      "description": "Ricevi {{voucherTypeName}} x{{modifierCount}}."
+      "name": "{{modifierCount}}× {{voucherTypeName}}.",
+      "description": "Ricevi {{voucherTypeName}} ×{{modifierCount}}."
     },
     "PokemonHeldItemModifierType": {
       "extra": {
@@ -431,7 +431,7 @@
       "description": "Aumenta tutte le statistiche base di chi lo tiene. Sei stato benedetto da Shuckle."
     },
     "MYSTERY_ENCOUNTER_SHUCKLE_JUICE_BAD": {
-      "name": "Succo di Shuckle Amaro",
+      "name": "Succo di Shuckle Marcio",
       "description": "Diminuisce tutte le statistiche base di chi lo tiene. Sei stato maledetto da Shuckle."
     },
     "MYSTERY_ENCOUNTER_BLACK_SLUDGE": {
@@ -537,6 +537,7 @@
     "PRISM_SCALE": "Squama bella",
     "RAZOR_CLAW": "Affilartiglio",
     "RAZOR_FANG": "Affilodente",
+    "OVAL_STONE": "Pietraovale",
     "REAPER_CLOTH": "Terrorpanno",
     "ELECTIRIZER": "Elettritore",
     "MAGMARIZER": "Magmatore",
@@ -609,6 +610,32 @@
     "SWAMPERTITE": "Swampertite",
     "TYRANITARITE": "Tyranitarite",
     "VENUSAURITE": "Venusaurite",
+    "CLEFABLITE": "Clefablite",
+    "VICTREEBELITE": "Victreebelite",
+    "STARMINITE": "Starmite",
+    "DRAGONINITE": "Dragonitite",
+    "MEGANIUMITE": "Meganiumite",
+    "FERALIGITE": "Feraligatrite",
+    "SKARMORITE": "Skarmorite",
+    "FROSLASSITE": "Froslassite",
+    "EMBOARITE": "Emboarite",
+    "EXCADRITE": "Excadrillite",
+    "SCOLIPITE": "Scolipedite",
+    "SCRAFTINITE": "Scraftite",
+    "EELEKTROSSITE": "Eelektrossite",
+    "CHANDELURITE": "Chandelurite",
+    "CHESNAUGHTITE": "Chesnaughtite",
+    "DELPHOXITE": "Delphoxite",
+    "GRENINJITE": "Greninjite",
+    "PYROARITE": "Pyroarite",
+    "FLOETTITE": "Floettite",
+    "MALAMARITE": "Malamarite",
+    "BARBARACITE": "Barbaraclite",
+    "DRAGALGITE": "Dragalgite",
+    "HAWLUCHANITE": "Hawluchite",
+    "ZYGARDITE": "Zygardite",
+    "DRAMPANITE": "Drampite",
+    "FALINKSITE": "Falinksite",
     "BLUE_ORB": "Gemma Blu",
     "RED_ORB": "Gemma Rossa",
     "SHARP_METEORITE": "Meteorite Tagliente",

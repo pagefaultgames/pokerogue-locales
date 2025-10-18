@@ -7,7 +7,7 @@
     "1": {
       "label": "Check Trade Offers",
       "tooltip": "(+) Select a trade offer for one of your Pokémon",
-      "trade_options_prompt": "Select a Pokémon to receive through trade."
+      "tradeOptionsPrompt": "Select a Pokémon to receive through trade."
     },
     "2": {
       "label": "Wonder Trade",
@@ -15,8 +15,8 @@
     },
     "3": {
       "label": "Trade an Item",
-      "trade_options_prompt": "Select an item to send.",
-      "invalid_selection": "This Pokémon doesn’t have legal items to trade.",
+      "tradeOptionsPrompt": "Select an item to send.",
+      "invalidSelection": "This Pokémon doesn’t have legal items to trade.",
       "tooltip": "(+) Send one of your Items to the GTS and get a random improved Item"
     },
     "4": {
@@ -25,8 +25,8 @@
       "selected": "No time to trade today!\nYou continue on."
     }
   },
-  "pokemon_trade_selected": "{{tradedPokemon}} will be sent to {{tradeTrainerName}}.",
-  "pokemon_trade_goodbye": "Goodbye, {{tradedPokemon}}!",
-  "item_trade_selected": "{{chosenItem}} will be sent to {{tradeTrainerName}}.$.@d{64}.@d{64}.@d{64}\n@s{level_up_fanfare}Trade complete!$You received a {{itemName}} from {{tradeTrainerName}}!",
-  "trade_received": "@s{evolution_fanfare}{{tradeTrainerName}} sent over {{received}}!"
+  "pokemonTradeSelected": "{{tradedPokemon}} will be sent to {{tradeTrainerName}}.",
+  "pokemonTradeGoodbye": "Goodbye, {{tradedPokemon}}!",
+  "itemTradeSelected": "{{chosenItem}} will be sent to {{tradeTrainerName}}.$.@d{64}.@d{64}.@d{64}\n@s{level_up_fanfare}Trade complete!$You received a {{itemName}} from {{tradeTrainerName}}!",
+  "tradeReceived": "@s{evolution_fanfare}{{tradeTrainerName}} sent over {{received}}!"
 }

@@ -1,7 +1,7 @@
 {
   "ModifierType": {
     "AddPokeballModifierType": {
-      "name": "{{pokeballName}} x{{modifierCount}}",
+      "name": "{{pokeballName}} ×{{modifierCount}}",
       "description": "Recevez {{modifierCount}} {{pokeballName}}·s. (Inventaire : {{pokeballAmount}})\nTaux de capture : {{catchRate}}"
     },
     "AddVoucherModifierType": {
@@ -377,7 +377,7 @@
       "description": "Augmente énormément les chances de rencontrer un Pokémon sauvage avec un talent caché."
     },
     "CATCHING_CHARM": {
-      "name": "Charme Capture",
+      "name": "Charme Stabilité",
       "description": "Augmente les chances d’effectuer une capture critique."
     },
     "IV_SCANNER": {
@@ -427,11 +427,11 @@
       "description": "Ajoute 1% de chances qu’un Pokémon sauvage soit une fusion."
     },
     "MYSTERY_ENCOUNTER_SHUCKLE_JUICE_GOOD": {
-      "name": "Jus de Caratorc Sucré",
+      "name": "Jus de Caratroc Sucré",
       "description": "Augmente toutes les stats de son porteur. Caratroc vous a accordé sa bénédiction."
     },
     "MYSTERY_ENCOUNTER_SHUCKLE_JUICE_BAD": {
-      "name": "Jus de Caratorc Acide",
+      "name": "Jus de Caratroc Pourri",
       "description": "Diminue toutes les stats de son porteur. Caratroc vous a jeté une malédiction."
     },
     "MYSTERY_ENCOUNTER_BLACK_SLUDGE": {
@@ -537,6 +537,7 @@
     "PRISM_SCALE": "Bel’Écaille",
     "RAZOR_CLAW": "Griffe Rasoir",
     "RAZOR_FANG": "Croc Rasoir",
+    "OVAL_STONE": "Pierre Ovale",
     "REAPER_CLOTH": "Tissu Fauche",
     "ELECTIRIZER": "Électriseur",
     "MAGMARIZER": "Magmariseur",
@@ -609,6 +610,34 @@
     "SWAMPERTITE": "Laggronite",
     "TYRANITARITE": "Tyranocivite",
     "VENUSAURITE": "Florizarrite",
+    "CLEFABLITE": "Mélodelfite",
+    "VICTREEBELITE": "Empiflorite",
+    "STARMINITE": "Starossite",
+    "DRAGONINITE": "Dracolossite",
+    "MEGANIUMITE": "Méganiumite",
+    "FERALIGITE": "Aligatueurite",
+    "SKARMORITE": "Airmurite",
+    "FROSLASSITE": "Momartikite",
+    "EMBOARITE": "Roitiflamite",
+    "EXCADRITE": "Minotaupite",
+    "SCOLIPITE": "Brutapodite",
+    "SCRAFTINITE": "Baggaïdite",
+    "EELEKTROSSITE": "Ohmassacrite",
+    "CHANDELURITE": "Lugulabrite",
+    "CHESNAUGHTITE": "Blindépiquite",
+    "DELPHOXITE": "Goupelinite",
+    "GRENINJITE": "Amphinolite",
+    "PYROARITE": "Néméliosite",
+    "FLOETTITE": "Floettite",
+    "MALAMARITE": "Sepiatrocite",
+    "BARBARACITE": "Golgopathite",
+    "DRAGALGITE": "Kravarekite",
+    "HAWLUCHANITE": "Brutalibrite",
+    "ZYGARDITE": "Zygardite",
+    "DRAMPANITE": "Draïeulite",
+    "FALINKSITE": "Hexadronite",
+    "RAICHUNITE_X": "Raichuite X",
+    "RAICHUNITE_Y": "Raichuite Y",
     "BLUE_ORB": "Gemme Bleue",
     "RED_ORB": "Gemme Rouge",
     "SHARP_METEORITE": "Méteorite Aiguisée",
