@@ -69,6 +69,28 @@
   },
   "inverseBattle": {
     "name": "Ters Maç",
-    "shortName": "Ters"
+    "shortName": "Ters",
+    "desc": "Tür avantajları ters çevrilir ve hiçbir tür başka bir türe karşı etkisiz olmaz.\n\nDiğer mücadele başarımlarını devre dışı bırakır (İstatistikleri Takasla Hariç)",
+    "value": {
+      "0": "Kapalı",
+      "1": "Açık"
+    }
+  },
+  "flipStat": {
+    "name": "İstatistikleri Takasla",
+    "shortName": "Takasla",
+    "desc": "İstatistikler şöyle takaslanır:\n- SP ile Hız\n- Saldırı İle Öz. Sal.\n- Savunma ile Öz. Sav.\n\nDiğer mücadele başarımlarını devre dışı bırakır (Ters Maç Hariç).",
+    "value": {
+      "0": "Kapalı",
+      "1": "Açık"
+    }
+  },
+  "metronome": {
+    "name": "Metronom Modu",
+    "desc": "Sadece Metronom kullanabilirsin! Saf şans ile ne kadar ileri gidebileceğini gör.\nBu mod SADECE eğlence için hazırlanmıştır ve herhangi bir başarım vermez.\n\nDiğer tüm başarımları devre dışı bırakır.",
+    "value": {
+      "0": "Kapalı",
+      "1": "Açık"
+    }
   }
 }
