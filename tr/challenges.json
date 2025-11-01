@@ -3,6 +3,72 @@
   "illegalEvolution": "{{pokemon}} bu mücadelede kullanılamayan\nbir Pokémon’a dönüştü!",
   "noneSelected": "Seçim Yapılmadı",
   "freshStart": {
-    "name": "Taze Başlangıç"
+    "name": "Taze Başlangıç",
+    "desc": {
+      "0": "Starter’lar ile hiçbir kilit açılmamış taze bir başlangıç yapmayı simüle eder.",
+      "1": "Tıpkı PokéRogue’a yeni başlamış gibi, sadece orijinal starter’ları kilitleri açılmamış şekilde kullanabilirsin.",
+      "2": "Sanki yeni yakalamış gibi, kilitleri açılmamış şekilde tüm yakaladığın starter’ları seçebilirsin."
+    },
+    "value": {
+      "0": "Kapalı",
+      "1": "Tam Sıfırla",
+      "2": "Tüm Starter’lar"
+    }
+  },
+  "hardcore": {
+    "name": "Zorlu",
+    "desc": "Bayılan Pokémon’ları canlandıramazsın.",
+    "value": {
+      "0": "Kapalı",
+      "1": "Açık"
+    }
+  },
+  "limitedCatch": {
+    "name": "Sınırlı Yakalama",
+    "desc": "Her biyomun sadece ilk Pokémon’unu ekibine ekleyebilirsin.",
+    "value": {
+      "0": "Kapalı",
+      "1": "Açık"
+    }
+  },
+  "limitedSupport": {
+    "name": "Sınırlı Destek",
+    "desc": {
+      "0": "Takımını iyileştirecek işlemlerin bazılarını veya hepsini kaldırır.",
+      "1": "Her biyomun sonunda verilen iyileştirmeyi kaldırır.\nOnun yerine standart dalga sonu ödül menüsü verilir.",
+      "2": "Dalga sonu ödül menüsündeki mağazayı kaldırır.",
+      "3": "Dalga sonu ödül menüsündeki mağazayı kaldırır.\n\nHer biyomun sonunda verilen iyileştirmeyi kaldırır.\nOnun yerine standart dalga sonu ödül menüsü verilir."
+    },
+    "value": {
+      "0": "Kapalı",
+      "1": "İyileşme Yok",
+      "2": "Mağaza Yok",
+      "3": "Her İkisi"
+    }
+  },
+  "singleGeneration": {
+    "name": "Tek Nesil",
+    "desc": "Sadece {{gen}} nesil Pokémon kullanabilirsin.",
+    "descDefault": "Sadece seçilen nesilden Pokémon kullanabilirsin.",
+    "gen": {
+      "1": "birinci",
+      "2": "ikinci",
+      "3": "üçüncü",
+      "4": "dördüncü",
+      "5": "beşinci",
+      "6": "altıncı",
+      "7": "yedinci",
+      "8": "sekizinci",
+      "9": "dokuzuncu"
+    }
+  },
+  "singleType": {
+    "name": "Tek Tür",
+    "desc": "Sadece {{type}} türü olan Pokémon’ları kullanabilirsin.",
+    "descDefault": "Sadece seçilen türden Pokémon kullanabilirsin."
+  },
+  "inverseBattle": {
+    "name": "Ters Maç",
+    "shortName": "Ters"
   }
 }
