@@ -1,0 +1,96 @@
+{
+  "title": "Hamon Turing",
+  "illegalEvolution": "Pinalitan si {{pokemon}} at hindi\nna siya pwede sa hamon na ito!",
+  "noneSelected": "Walang Napili",
+  "freshStart": {
+    "name": "Magsimula Muli",
+    "desc": {
+      "0": "Sinusubukan ang hamon gamit ang bagong starters na walang unlocks.",
+      "1": "Tanging mga unang starters lang ang puwedeng gamitin, walang kahit anong unlock, parang bagong simula sa PokéRogue.",
+      "2": "Puwede mong gamitin ang kahit alin sa mga starters mo nang walang kahit anong unlock, parang ngayon mo lang sila nakuha."
+    },
+    "value": {
+      "0": "Patay",
+      "1": "Buong Simula",
+      "2": "Buo Starters"
+    }
+  },
+  "hardcore": {
+    "name": "Hardcore",
+    "desc": "Hindi mo na pwedeng buhayin ulit ang mga Pokémon na bumagsak.",
+    "value": {
+      "0": "Patay",
+      "1": "Bukas"
+    }
+  },
+  "limitedCatch": {
+    "name": "Limitadong Huli",
+    "desc": "Pwede mo lang idagdag ang unang Pokémon mula sa isang biome sa kasalukuyang skwad mo.",
+    "value": {
+      "0": "Patay",
+      "1": "Bukas"
+    }
+  },
+  "limitedSupport": {
+    "name": "Limitadong Tulong",
+    "desc": {
+      "0": "Inaalis ang ilan o lahat ng libreng paraan para pagalingin ang skwad mo.",
+      "1": "Tinatanggal ang galing sa dulo ng bawat wave ng kalaban.\nSa halip, lalabas ang piling gantimpala.",
+      "2": "Tinatanggal ang Tindahan sa piling gantimpala.",
+      "3": "Tinatanggal ang tindahan sa piling gantimpala.\n\nTinatanggal ang galing sa dulo ng bawat wave ng kalaban.\nSa halip, lalabas and piling gantimpala."
+    },
+    "value": {
+      "0": "Patay",
+      "1": "Walang Galing",
+      "2": "Walang Tindahan",
+      "3": "Dalawa"
+    }
+  },
+  "singleGeneration": {
+    "name": "Isa Gen",
+    "desc": "Pwede mo lang gamitin ang mga Pokémon mula sa Generasyon {{gen}}.",
+    "descDefault": "Pwede mo lang gamitin ang mga Pokémon mula sa piniling generasyon.",
+    "gen": {
+      "1": "isa",
+      "2": "dalawa",
+      "3": "tatlo",
+      "4": "ipat",
+      "5": "lima",
+      "6": "anim",
+      "7": "pito",
+      "8": "walo",
+      "9": "siyam"
+    }
+  },
+  "singleType": {
+    "name": "Isa Type",
+    "desc": "Pwede lang gamitin yung mga Pokémon na {{type}} ang type.",
+    "descDefault": "Pwede lang gamitin yung mga Pokémon na piniling type."
+  },
+  "inverseBattle": {
+    "name": "Imberso Laban",
+    "shortName": "Imberso",
+    "desc": "Baliktad ang laban ng mga type at walang type na immune sa iba.\n\nHindi pwede maka-unlock ng tropeo ng ibang hamon (maliban sa Ipalit Stat).",
+    "value": {
+      "0": "Patay",
+      "1": "Bukas"
+    }
+  },
+  "flipStat": {
+    "name": "Ipalit Stat",
+    "shortName": "Ipalit",
+    "desc": "Binabaliktad ang stats gaya ng sumusunod:\n- HP at Speed\n- Attack at Sp. Def\n- Defense at Sp. Atk\n\nHindi pwede maka-unlock ng tropeo ng ibang hamon (maliban sa Imberso Laban).",
+    "value": {
+      "0": "Patay",
+      "1": "Bukas"
+    }
+  },
+  "metronome": {
+    "name": "Metronome Mode",
+    "desc": "Metronome lang ang gamit! Sulitin ang swerte mo.\nPara lang sa saya, walang tropeo dito.\n\nNaka-disable ang ibang tropeo.",
+    "value": {
+      "0": "Patay",
+      "1": "Bukas"
+    }
+  }
+}

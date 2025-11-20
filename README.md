@@ -14,14 +14,14 @@ They will be able to provide you with further information.
 - en - English
 - de - German
 - es-ES - Spanish (Spain)
-- es-MX - Spanish (LATAM) - Bearly started, but empty keys falls back first on *es-ES* transaltions to allow a smooth transition
+- es-419 - Spanish (LATAM) - Bearly started, but empty keys falls back first on *es-ES* transaltions to allow a smooth transition
 - fr - French
 - it - Italian
 - ja - Japanese
 - ko - Korean
 - pt-BR - Portuguese (Brazil)
-- zh-CN - Chinese (Simplified)
-- zh-TW - Chinese (Traditional)
+- zh-Hans - Chinese (Simplified)
+- zh-Hant - Chinese (Traditional)
 - ca - Catalan *(Still at very low percentage, needs help)*
 - ru - Russian *(Still at low percentage, needs help)*
 - tr - Turkish *(Still at very low percentage, needs help)*

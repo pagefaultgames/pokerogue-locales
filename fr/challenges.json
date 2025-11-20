@@ -3,74 +3,94 @@
   "illegalEvolution": "{{pokemon}} est devenu\ninéligible pour ce challenge !",
   "noneSelected": "Aucun sélectionné",
   "freshStart": {
-    "name": "Nouveau départ",
-    "desc.0": "Simule l’utilisation de starters fraichement obtenus, sans aucune amélioration.",
-    "desc.1": "Vous ne pouvez choisir que les starters de base du jeu, comme si vous le recommenciez.",
-    "desc.2": "Vos starters n’ont aucune amélioration débloquée, comme si vous le veniez de les capturer.",
-    "value.0": "Non",
-    "value.1": "Réinitialisation",
-    "value.2": "Tous starters"
+    "name": "Nouveau Départ",
+    "desc": {
+      "0": "Simule l’utilisation de starters fraichement obtenus, sans aucune amélioration.",
+      "1": "Vous ne pouvez choisir que les starters de base du jeu, comme si vous le recommenciez.",
+      "2": "Vos starters n’ont aucune amélioration débloquée, comme si vous veniez de les capturer."
+    },
+    "value": {
+      "0": "Non",
+      "1": "Réinitialisation",
+      "2": "Tous starters"
+    }
   },
   "hardcore": {
-    "name": "Zéro résurrection",
+    "name": "Zéro Résurrection",
     "desc": "Impossible de ranimer tout Pokémon tombé K.O. .",
-    "value.0": "Non",
-    "value.1": "Oui"
+    "value": {
+      "0": "Non",
+      "1": "Oui"
+    }
   },
   "limitedCatch": {
-    "name": "Captures limitées",
-    "desc": "Seul le premier Pokémon rencontré à l’arrivée dans un biome peut être ajouté à votre équipe.",
-    "value.0": "Non",
-    "value.1": "Oui"
+    "name": "Capture Limitée",
+    "desc": "Seul le premier Pokémon rencontré à l’arrivée d’un biome peut être ajouté à votre équipe.",
+    "value": {
+      "0": "Non",
+      "1": "Oui"
+    }
   },
   "limitedSupport": {
-    "name": "Assurance Privée",
-    "desc.0": "Le système de sécurité sociale s’est visiblement fait démanteler, retirant ainsi l'accès certains, sinon tous types de soins gratuits.",
-    "desc.1": "Supprime tous les soins d’étapes promulgués gratuitement à chaque fin de biome.\nCeux-ci sont remplacés par la boutique, comme pour toute les autres vagues.",
-    "desc.2": "Supprime la boutique de fin de vague.",
-    "desc.3": "Supprime la boutique de fin de vague.\n\nSupprime tous les soins d’étapes promulgués gratuitement à chaque fin de biome.\nCeux-ci sont remplacés par la boutique, comme pour toute les autres vagues.",
-    "value.0": "Non",
-    "value.1": "Aucun soin",
-    "value.2": "Aucune boutique",
-    "value.3": "Tout"
+    "name": "Désert Médical",
+    "desc": {
+      "0": "Le système de santé tombe en ruines.\n\nEn conséquence l’accès à certains, sinon tous types de soins gratuits voire même payants est devenu impossible.",
+      "1": "Le soin d’équipe gratuit en fin de biome est remplacé par un simple choix de récompense.\n\nSupprime les objets de soin immédiats des choix de récompense.",
+      "2": "Supprime la boutique payante ainsi que les objets de soin immédiats des choix de récompense.",
+      "3": "Le soin d’équipe gratuit en fin de biome est remplacé par un simple choix de récompense.\n\nSupprime la boutique payante ainsi que les objets de soin immédiats des choix de récompense."
+    },
+    "value": {
+      "0": "Non",
+      "1": "Carte Vita-less",
+      "2": "Pénurie",
+      "3": "Tout"
+    }
   },
   "singleGeneration": {
     "name": "Monogénération",
     "desc": "Vous ne pouvez choisir que des Pokémon de {{gen}} génération.",
-    "desc_default": "Vous ne pouvez choisir que des Pokémon de la génération sélectionnée.",
-    "gen_1": "1ʳᵉ",
-    "gen_2": "2ᵉ",
-    "gen_3": "3ᵉ",
-    "gen_4": "4ᵉ",
-    "gen_5": "5ᵉ",
-    "gen_6": "6ᵉ",
-    "gen_7": "7ᵉ",
-    "gen_8": "8ᵉ",
-    "gen_9": "9ᵉ"
+    "descDefault": "Vous ne pouvez choisir que des Pokémon de la génération sélectionnée.",
+    "gen": {
+      "1": "1ʳᵉ",
+      "2": "2ᵉ",
+      "3": "3ᵉ",
+      "4": "4ᵉ",
+      "5": "5ᵉ",
+      "6": "6ᵉ",
+      "7": "7ᵉ",
+      "8": "8ᵉ",
+      "9": "9ᵉ"
+    }
   },
   "singleType": {
     "name": "Monotype",
     "desc": "Vous ne pouvez choisir que des Pokémon de type {{type}}.",
-    "desc_default": "Vous ne pouvez choisir que des Pokémon du type sélectionné."
+    "descDefault": "Vous ne pouvez choisir que des Pokémon du type sélectionné."
   },
   "inverseBattle": {
     "name": "Combat Inversé",
     "shortName": "Inversé",
     "desc": "Les affinités de la table des types sont inversées et plus aucun type n’a d’immunité.\nDésactive les succès des autres challenges.",
-    "value.0": "Non",
-    "value.1": "Oui"
+    "value": {
+      "0": "Non",
+      "1": "Oui"
+    }
   },
   "flipStat": {
     "name": "Stats Inversées",
     "shortName": "S. Inversées",
     "desc": "Les stats sont inversées de la façon suivante :\n- PV et Vitesse\n- Attaque et Déf. Spé.\n- Défense et Atq. Spé.\nDésactive les succès des autres challenges sauf de « Combat Inversé ».",
-    "value.0": "Non",
-    "value.1": "Oui"
+    "value": {
+      "0": "Non",
+      "1": "Oui"
+    }
   },
   "metronome": {
     "name": "Mode Métronome",
     "desc": "Vous ne pouvez utiliser que Métronome ! Tentez de voir jusqu’où votre chance peut vous porter.\nCe mode est UNIQUEMENT pour le fun. Aucune récompense ni succès.\nDésactive tous les autres succès.",
-    "value.0": "Non",
-    "value.1": "Oui"
+    "value": {
+      "0": "Non",
+      "1": "Oui"
+    }
   }
 }

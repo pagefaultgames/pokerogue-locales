@@ -7,7 +7,7 @@
     "1": {
       "label": "Controlla le offerte di scambio",
       "tooltip": "(+) Scegli un’offerta di scambio per uno dei tuoi Pokémon",
-      "trade_options_prompt": "Scegli un Pokémon da ricevere in cambio."
+      "tradeOptionsPrompt": "Scegli un Pokémon da ricevere in cambio."
     },
     "2": {
       "label": "Scambio Prodigioso",
@@ -15,8 +15,8 @@
     },
     "3": {
       "label": "Scambia un oggetto",
-      "trade_options_prompt": "Seleziona uno strumento da inviare.",
-      "invalid_selection": "Questo Pokémon non ha alcuno strumento adatto allo scambio.",
+      "tradeOptionsPrompt": "Seleziona uno strumento da inviare.",
+      "invalidSelection": "Questo Pokémon non ha alcuno strumento adatto allo scambio.",
       "tooltip": "(+) Manda uno dei tuoi strumenti alla GTS e ottieni uno strumento a caso migliorato"
     },
     "4": {
@@ -25,8 +25,8 @@
       "selected": "Non c’è tempo per gli scambi oggi!\nProsegui oltre."
     }
   },
-  "pokemon_trade_selected": "{{tradedPokemon}} sarà inviato\na {{tradeTrainerName}}.",
-  "pokemon_trade_goodbye": "Addio, {{tradedPokemon}}!",
-  "item_trade_selected": "{{chosenItem}} sarà inviato a {{tradeTrainerName}}.$.@d{64}.@d{64}.@d{64}\n@s{level_up_fanfare}Scambio completato!$Hai ricevuto l'oggetto {{itemName}} da {{tradeTrainerName}}!",
-  "trade_received": "@s{evolution_fanfare}{{tradeTrainerName}} ha inviato {{received}}!"
+  "pokemonTradeSelected": "{{tradedPokemon}} sarà inviato\na {{tradeTrainerName}}.",
+  "pokemonTradeGoodbye": "Addio, {{tradedPokemon}}!",
+  "itemTradeSelected": "{{chosenItem}} sarà inviato a {{tradeTrainerName}}.$.@d{64}.@d{64}.@d{64}\n@s{level_up_fanfare}Scambio completato!$Hai ricevuto l'oggetto {{itemName}} da {{tradeTrainerName}}!",
+  "tradeReceived": "@s{evolution_fanfare}{{tradeTrainerName}} ha inviato {{received}}!"
 }

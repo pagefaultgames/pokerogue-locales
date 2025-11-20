@@ -1,5 +1,22 @@
 {
   "ModifierType": {
+    "AddPokeballModifierType": {
+      "name": "{{modifierCount}}× {{pokeballName}}",
+      "description": "{{modifierCount}} tane {{pokeballName}} al. (Envanter: {{pokeballAmount}})\nYakalama Şansı: {{catchRate}}"
+    },
+    "AddVoucherModifierType": {
+      "name": "{{modifierCount}}× {{voucherTypeName}}",
+      "description": "{{modifierCount}} tane {{voucherTypeName}} al."
+    },
+    "PokemonHeldItemModifierType": {
+      "extra": {
+        "inoperable": "{{pokemonName}} bu eşyayı\nalamaz!",
+        "tooMany": "{{pokemonName}} buna fazlasıyla\nsahip!"
+      }
+    },
+    "TmModifierType": {
+      "name": "TM{{moveId}} - {{moveName}}"
+    },
     "TmModifierTypeWithInfo": {
       "name": "TM{{moveId}} - {{moveName}}"
     },
@@ -7,10 +24,11 @@
       "name": "Nadir Şeker"
     },
     "MEGA_BRACELET": {
-      "name": "Mega Bilekliği"
+      "name": "Mega Bileklik"
     },
     "DYNAMAX_BAND": {
-      "name": "Dinamaks Bilekliği"
+      "name": "Dinamaks Bilekliği",
+      "description": "Maksi Mantarlar karşına çıkabilir hale gelir."
     },
     "MAP": {
       "name": "Harita"
@@ -27,30 +45,189 @@
     "MAX_POTION": {
       "name": "Maks. İksir"
     },
+    "FULL_RESTORE": {
+      "name": "Tam Yenileme"
+    },
     "REVIVE": {
       "name": "Canlandır"
     },
     "MAX_REVIVE": {
       "name": "Maks. Canlandır"
     },
+    "FULL_HEAL": {
+      "name": "Tam Şifa"
+    },
+    "SACRED_ASH": {
+      "name": "Kutsal Kül"
+    },
+    "WHITE_HERB": {
+      "name": "Beyaz Ot"
+    },
+    "ETHER": {
+      "name": "Eter"
+    },
+    "MAX_ETHER": {
+      "name": "Maks. Eter"
+    },
+    "ELIXIR": {
+      "name": "Eliksir"
+    },
+    "MAX_ELIXIR": {
+      "name": "Maks. Eliksir"
+    },
+    "PP_UP": {
+      "name": "GP Arttırıcı"
+    },
+    "PP_MAX": {
+      "name": "Maks. GP"
+    },
+    "MEMORY_MUSHROOM": {
+      "name": "Hatırlama Mantarı",
+      "description": "Bir Pokémon’un unuttuğu hareketi ona geri hatırlat."
+    },
+    "EXP_SHARE": {
+      "name": "Tecrübe Paylaştırıcı"
+    },
     "LUCKY_EGG": {
       "name": "Şans Yumurtası"
     },
+    "DIRE_HIT": {
+      "name": "Kri-Vuruş"
+    },
+    "SOUL_DEW": {
+      "name": "Ruh Damlası"
+    },
+    "NUGGET": {
+      "name": "Külçe"
+    },
+    "BIG_NUGGET": {
+      "name": "Büyük Külçe"
+    },
+    "AMULET_COIN": {
+      "name": "Para Tıksımı"
+    },
+    "COIN_CASE": {
+      "name": "Jeton Kasası"
+    },
+    "GRIP_CLAW": {
+      "name": "Kavrama Pençesi"
+    },
+    "WIDE_LENS": {
+      "name": "Geniş Lens"
+    },
+    "BERRY_POUCH": {
+      "name": "Meyve Kesesi"
+    },
+    "FOCUS_BAND": {
+      "name": "Odaklanma Bandı"
+    },
+    "QUICK_CLAW": {
+      "name": "Hızlı Pençe"
+    },
     "KINGS_ROCK": {
       "name": "Kral Kayası"
+    },
+    "LEFTOVERS": {
+      "name": "Kalıntılar"
+    },
+    "SHELL_BELL": {
+      "name": "Kabuk Çanı"
+    },
+    "TOXIC_ORB": {
+      "name": "Zehirli Küre"
+    },
+    "FLAME_ORB": {
+      "name": "Alev Küresi"
+    },
+    "MYSTERY_ENCOUNTER_BLACK_SLUDGE": {
+      "name": "Kara Balçık"
+    },
+    "MYSTERY_ENCOUNTER_MACHO_BRACE": {
+      "name": "Maçobileklik"
+    }
+  },
+  "SpeciesBoosterItem": {
+    "LIGHT_BALL": {
+      "name": "Işık Topu"
+    },
+    "THICK_CLUB": {
+      "name": "Kalın Kemik"
+    },
+    "METAL_POWDER": {
+      "name": "Metal Tozu"
+    },
+    "QUICK_POWDER": {
+      "name": "Çabuk Tozu"
+    },
+    "DEEP_SEA_SCALE": {
+      "name": "Derin Deniz Pulu"
+    },
+    "DEEP_SEA_TOOTH": {
+      "name": "Derin Deniz Dişi"
     }
   },
   "TempStatStageBoosterItem": {
     "x_attack": "X Saldırı",
     "x_defense": "X Savunma",
-    "x_speed": "X Hız"
+    "x_sp_atk": "X Öz. Sal.",
+    "x_sp_def": "X Öz. Sav.",
+    "x_speed": "X Hız",
+    "x_accuracy": "X İsabet"
   },
   "AttackTypeBoosterItem": {
-    "metal_coat": "Metal Kaplama"
+    "silk_scarf": "İpek Atkı",
+    "black_belt": "Kara Kuşak",
+    "sharp_beak": "Sivri Gaga",
+    "poison_barb": "Zehirli Diken",
+    "soft_sand": "Yumuşak Kum",
+    "hard_stone": "Sert Taş",
+    "silver_powder": "Gümüş Tozu",
+    "spell_tag": "Büyü Muskası",
+    "metal_coat": "Metal Kaplama",
+    "charcoal": "Kömür",
+    "mystic_water": "Mistik Su",
+    "miracle_seed": "Mucize Tohum",
+    "magnet": "Mıknatıs",
+    "twisted_spoon": "Bükülmüş Kaşık",
+    "never_melt_ice": "Erimez Buz",
+    "dragon_fang": "Ejderha Dişi",
+    "black_glasses": "Siyah Gözlük"
+  },
+  "BaseStatBoosterItem": {
+    "hp_up": "SV Arttırıcı",
+    "protein": "Protein",
+    "iron": "Demir",
+    "calcium": "Kalsiyum",
+    "zinc": "Çinko",
+    "carbos": "Karbon"
   },
   "EvolutionItem": {
     "SUN_STONE": "Güneş Taşı",
+    "MOON_STONE": "Ay Taşı",
+    "LEAF_STONE": "Yaprak Taşı",
+    "FIRE_STONE": "Ateş Taşı",
+    "WATER_STONE": "Su Taşı",
+    "THUNDER_STONE": "Yıldırım Taşı",
+    "DAWN_STONE": "Şafak Taşı",
+    "SHINY_STONE": "Parlak Taş",
     "UPGRADE": "Geliştirme",
-    "DRAGON_SCALE": "Ejderha Pulu"
+    "DUBIOUS_DISC": "Şüpheli Disk",
+    "DRAGON_SCALE": "Ejderha Pulu",
+    "PRISM_SCALE": "Prizma Pulu",
+    "RAZOR_CLAW": "Jilet Pençesi",
+    "RAZOR_FANG": "Jilet Dişi",
+    "REAPER_CLOTH": "Orak Bezi",
+    "ELECTIRIZER": "Electirizer",
+    "MAGMARIZER": "Magmarizer",
+    "PROTECTOR": "Koruyucu"
+  },
+  "FormChangeItem": {
+    "BLUE_ORB": "Mavi Küre",
+    "RED_ORB": "Kızıl Küre",
+    "MAX_MUSHROOMS": "Maksi Mantarlar",
+    "SHOCK_DRIVE": "Şok Sürücüsü",
+    "BURN_DRIVE": "Ateş Sürücüsü",
+    "CHILL_DRIVE": "Buz Sürücüsü",
+    "DOUSE_DRIVE": "Su Sürücüsü"
   }
 }

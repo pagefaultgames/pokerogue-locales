@@ -669,7 +669,7 @@
   },
   "thief": {
     "name": "Furto",
-    "effect": "Il Pokémon attacca e contemporaneamente ruba lo strumento tenuto dal nemico. Non ruberà nulla, se si possiede già uno strumento."
+    "effect": "L’utilizzatore attacca e contemporaneamente cerca di rubare lo strumento tenuto dal nemico. Questa mossa ha il 30% di probabilità di rubare uno degli stumenti tenuti dal bersaglio."
   },
   "spiderWeb": {
     "name": "Ragnatela",
@@ -693,7 +693,7 @@
   },
   "curse": {
     "name": "Maledizione",
-    "effect": "Una mossa che agisce in modo diverso se chi la usa è di tipo Spettro."
+    "effect": "Se utilizzata da un tipo Spettro, l’utilizzatore perde la metà dei PS totali per maledire il bersaglio, danneggiandolo ogni turno. Altrimenti, l’utilizzatore diminuisce la sua Velocità ma aumenta Attacco e Difesa."
   },
   "flail": {
     "name": "Flagello",
@@ -1369,7 +1369,7 @@
   },
   "covet": {
     "name": "Supplica",
-    "effect": "Chi la usa attacca il bersaglio sorridendo e gli ruba lo strumento che tiene."
+    "effect": "L’utilizzatore si avvicina al bersaglio sorridendo, poi cerca di rubargli uno strumento. Questa mossa ha il 30% di probabilità di rubare uno degli strumenti tenuti dal bersaglio."
   },
   "voltTackle": {
     "name": "Locomovolt",
@@ -3285,7 +3285,7 @@
   },
   "fieryWrath": {
     "name": "Furia Ardente",
-    "effect": "ERR\tIl Pokémon attacca trasformando la sua rabbia in un’aura simile a fiamme. Può anche far tentennare il bersaglio.ORE"
+    "effect": "Il Pokémon attacca trasformando la sua rabbia in un’aura simile a fiamme. Può anche far tentennare il bersaglio."
   },
   "thunderousKick": {
     "name": "Calcio Tonante",
@@ -3806,5 +3806,9 @@
   "malignantChain": {
     "name": "Intossicatena",
     "effect": "Il Pokémon logora il bersaglio avvolgendolo con le sue catene fatte di veleno e iniettandogli delle tossine che possono anche iperavvelenarlo."
+  },
+  "nihilLight": {
+    "name": "Tabula Laser",
+    "effect": "Il Pokémon lancia un potente raggio che va oltre le leggi della natura. Ignora le modifiche alle statistiche del bersaglio e infligge danni anche ai Pokémon Folletto."
   }
 }

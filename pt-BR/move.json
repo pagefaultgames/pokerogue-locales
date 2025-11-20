@@ -669,7 +669,7 @@
   },
   "thief": {
     "name": "Thief",
-    "effect": "O usuário ataca e rouba o item segurado por seu alvo simultaneamente. O usuário não pode roubar algo se ele já segurar um item."
+    "effect": "O usuário ataca e tenta roubar o alvo simultaneamente. Este movimento tem 30% de chance de roubar um dos itens que o alvo está segurando."
   },
   "spiderWeb": {
     "name": "Spider Web",
@@ -693,7 +693,7 @@
   },
   "curse": {
     "name": "Curse",
-    "effect": "Um movimento que funciona diferente com o tipo Fantasma do que com outros tipos."
+    "effect": "Se usado por um tipo Fantasma, o usuário perde PS igual à metade dos seus PS máximos para amaldiçoar o alvo, causando dano a cada turno. Caso contrário, o usuário reduz seu atributo de Velocidade, mas aumenta seus atributos de Ataque e Defesa."
   },
   "flail": {
     "name": "Flail",
@@ -1369,7 +1369,7 @@
   },
   "covet": {
     "name": "Covet",
-    "effect": "O usuário, despretensiosamente, se aproxima do alvo e então rouba o item segurado pelo alvo."
+    "effect": "O usuário se aproxima do alvo de forma amigável e tenta roubá-lo. Este movimento tem 30% de chance de roubar um dos itens que o alvo está segurando."
   },
   "voltTackle": {
     "name": "Volt Tackle",
@@ -3806,5 +3806,9 @@
   "malignantChain": {
     "name": "Malignant Chain",
     "effect": "O usuário derrama toxinas no alvo envolvendo-o em uma corrente tóxica e corrosiva. Isso também pode deixar o alvo seriamente envenenado."
+  },
+  "nihilLight": {
+    "name": "Nihil Light",
+    "effect": "O usuário ataca liberando uma luz poderosa que desafia todas as leis da natureza, atingindo até mesmo tipos Fada e ignorando quaisquer alterações nos atributos que afetem seus alvos."
   }
 }

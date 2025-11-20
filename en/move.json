@@ -45,7 +45,7 @@
   },
   "guillotine": {
     "name": "Guillotine",
-    "effect": "A vicious tearing attack with big pincers. The target faints instantly if this attack hits. Boss Pokémon are resistant to this move."
+    "effect": "A vicious, tearing attack with big pincers. The target faints instantly if this attack hits. Boss Pokémon are resistant to this move."
   },
   "razorWind": {
     "name": "Razor Wind",
@@ -425,7 +425,7 @@
   },
   "minimize": {
     "name": "Minimize",
-    "effect": "The user compresses its body to make itself look smaller, which sharply boosts its evasiveness. However, this leaves it more vulnerable to certain slamming moves."
+    "effect": "The user compresses its body to make itself look smaller, which sharply boosts its evasiveness. However, this leaves the user more vulnerable to certain slamming and crushing moves."
   },
   "smokescreen": {
     "name": "Smokescreen",
@@ -441,7 +441,7 @@
   },
   "defenseCurl": {
     "name": "Defense Curl",
-    "effect": "The user curls up and boosts its Defense stat. This also boosts the power of Rollout and Ice Ball."
+    "effect": "The user curls up to conceal weak spots, which boosts its Defense stat. This also increases the power of Rollout and Ice Ball."
   },
   "barrier": {
     "name": "Barrier",
@@ -669,7 +669,7 @@
   },
   "thief": {
     "name": "Thief",
-    "effect": "The user attacks and has a 30% chance to steal one of the target’s held items simultaneously."
+    "effect": "The user attacks and tries to steal from the target simultaneously. This move has a 30% chance to steal one of the target’s held items."
   },
   "spiderWeb": {
     "name": "Spider Web",
@@ -693,7 +693,7 @@
   },
   "curse": {
     "name": "Curse",
-    "effect": "If used by a Ghost type, cuts the user’s HP equal to half its max HP to Curse the target, dealing damage every turn. Otherwise, this move lowers the user’s Speed stat but boosts its Attack and Defense stats."
+    "effect": "If used by a Ghost type, the user loses HP equal to half its max HP to Curse the target, dealing damage every turn. Otherwise, the user lowers its Speed stat but boosts its Attack and Defense stats."
   },
   "flail": {
     "name": "Flail",
@@ -1313,7 +1313,7 @@
   },
   "sheerCold": {
     "name": "Sheer Cold",
-    "effect": "The target faints instantly. This move is less likely to hit the target if used by Pokémon other than Ice types. Boss Pokémon are resistant to this move."
+    "effect": "The target faints instantly. This move is less likely to hit the target if it’s used by Pokémon other than Ice types. Boss Pokémon are resistant to this move."
   },
   "muddyWater": {
     "name": "Muddy Water",
@@ -1369,7 +1369,7 @@
   },
   "covet": {
     "name": "Covet",
-    "effect": "The user endearingly approaches the target, then attacks. This has a 30% chance to steal one of the target’s held items."
+    "effect": "The user endearingly approaches the target, then tries to steal from the target. This move has a 30% chance to steal one of the target's held items."
   },
   "voltTackle": {
     "name": "Volt Tackle",
@@ -1793,7 +1793,7 @@
   },
   "judgment": {
     "name": "Judgment",
-    "effect": "The user releases countless shots of light at the target. This move’s type changes depending on the Plate or Memory Disc the user is holding."
+    "effect": "The user releases countless shots of light at the target. This move’s type changes depending on the kind of Plate or Memory Disc the user is holding."
   },
   "bugBite": {
     "name": "Bug Bite",
@@ -2869,7 +2869,7 @@
   },
   "multiAttack": {
     "name": "Multi-Attack",
-    "effect": "Cloaking itself in powerful energy, the user slams into the target to inflict damage. This move’s type changes depending on the Memory Disc or Plate the user is holding."
+    "effect": "Cloaking itself in powerful energy, the user slams into the target to inflict damage. This move’s type changes depending on the kind of Memory Disc or Plate the user is holding."
   },
   "tenMillionVoltThunderbolt": {
     "name": "10,000,000 Volt Thunderbolt",
@@ -3806,5 +3806,9 @@
   "malignantChain": {
     "name": "Malignant Chain",
     "effect": "The user pours toxins into the target by wrapping them in a toxic, corrosive chain. This may also leave the target badly poisoned."
+  },
+  "nihilLight": {
+    "name": "Nihil Light",
+    "effect": "The user attacks by unleashing a powerful light that defies all laws of nature, striking even Fairy types and ignoring any stat changes affecting its targets."
   }
 }
