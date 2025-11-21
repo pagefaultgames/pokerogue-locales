@@ -93,7 +93,7 @@
   },
   "roughSkin": {
     "name": "Rough Skin",
-    "description": "The Pokémon’s rough skin damages attackers that make direct contact with it by 1/8 of their maximum HP."
+    "description": "The Pokémon’s rough skin damages attackers that make contact for 1/8 of the attacker’s maximum HP."
   },
   "wonderGuard": {
     "name": "Wonder Guard",
@@ -221,7 +221,7 @@
   },
   "cuteCharm": {
     "name": "Cute Charm",
-    "description": "The Pokémon has a 30% chance to infatuate attackers that make direct contact with it."
+    "description": "Contact with the Pokémon has a 30% chance to infatuate the attacker."
   },
   "plus": {
     "name": "Plus",
@@ -421,7 +421,7 @@
   },
   "aftermath": {
     "name": "Aftermath",
-    "description": "Damages the attacker if it knocks out the Pokémon with a move that makes direct contact by 1/4 of the attacker’s maximum HP."
+    "description": "Damages the attacker if the Pokémon is knocked out with a move that makes contact by 1/4 of the attacker’s maximum HP."
   },
   "anticipation": {
     "name": "Anticipation",
@@ -489,11 +489,11 @@
   },
   "badDreams": {
     "name": "Bad Dreams",
-    "description": "Reduces the HP of sleeping opposing Pokémon by 1/8 of their maximum HP."
+    "description": "Reduces the HP of opposing sleeping Pokémon by 1/8 of their maximum HP."
   },
   "pickpocket": {
     "name": "Pickpocket",
-    "description": "The Pokémon steals the held item from attackers that make direct contact with it."
+    "description": "The Pokémon steals a held item from attackers that make direct contact with it."
   },
   "sheerForce": {
     "name": "Sheer Force",
@@ -517,7 +517,7 @@
   },
   "cursedBody": {
     "name": "Cursed Body",
-    "description": "Direct damage done to the Pokémon has a 30% chance to disable the move that was used."
+    "description": "Direct damage done to the Pokémon has a 30% chance to disable the move used."
   },
   "healer": {
     "name": "Healer",
@@ -637,7 +637,7 @@
   },
   "ironBarbs": {
     "name": "Iron Barbs",
-    "description": "The Pokémon’s iron barbs damage the attacker if it makes direct contact for 1/8 of the attacker’s maximum HP."
+    "description": "The Pokémon’s iron barbs damages attackers that make contact for 1/8 of the attacker’s maximum HP."
   },
   "zenMode": {
     "name": "Zen Mode",
