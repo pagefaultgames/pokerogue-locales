@@ -1,7 +1,7 @@
 {
   "stench": {
     "name": "Stench",
-    "description": "By releasing a stench when attacking, this Pokémon has a 10% chance to flinch the target. This does not stack with moves that already flinch."
+    "description": "By releasing a stench when attacking, this Pokémon has a 10% chance to cause the target to flinch. This does not stack with moves that can already cause flinching."
   },
   "drizzle": {
     "name": "Drizzle",
@@ -29,19 +29,19 @@
   },
   "sandVeil": {
     "name": "Sand Veil",
-    "description": "Boosts the Pokémon’s evasiveness in a sandstorm by 20%. It also takes no damage from sandstorms."
+    "description": "Boosts the Pokémon’s evasiveness in a sandstorm by 20%. The Pokémon also takes no damage from sandstorms."
   },
   "static": {
     "name": "Static",
-    "description": "Contact with the Pokémon has a 30% chance to paralyze the attacker."
+    "description": "The Pokémon is charged with static electricity and has a 30% chance to paralyze attackers that make direct contact with it."
   },
   "voltAbsorb": {
     "name": "Volt Absorb",
-    "description": "If hit by an Electric-type move, the Pokémon has 1/4 of its maximum HP restored instead of taking damage."
+    "description": "If hit by an Electric-type move, the Pokémon has its HP restored by up to 1/4 of its max HP instead of taking damage."
   },
   "waterAbsorb": {
     "name": "Water Absorb",
-    "description": "If hit by a Water-type move, the Pokémon has 1/4 of its maximum HP restored instead of taking damage."
+    "description": "If hit by a Water-type move, the Pokémon has its HP restored by up to 1/4 of its max HP instead of taking damage."
   },
   "oblivious": {
     "name": "Oblivious",
@@ -93,7 +93,7 @@
   },
   "roughSkin": {
     "name": "Rough Skin",
-    "description": "The Pokémon’s rough skin damages attackers that make contact for 1/8 of the attacker’s maximum HP."
+    "description": "The Pokémon’s rough skin damages attackers that make direct contact with it by 1/8 of the attacker’s max HP."
   },
   "wonderGuard": {
     "name": "Wonder Guard",
@@ -173,7 +173,7 @@
   },
   "rainDish": {
     "name": "Rain Dish",
-    "description": "The Pokémon gradually regains 1/16 of its maximum HP in rain."
+    "description": "The Pokémon gradually regains HP in rain by 1/16 its max HP."
   },
   "sandStream": {
     "name": "Sand Stream",
@@ -217,11 +217,11 @@
   },
   "hustle": {
     "name": "Hustle",
-    "description": "Boosts the Pokémon’s Attack stat by 50%, but lowers the accuracy of physical moves by 20%."
+    "description": "Boosts the Pokémon’s Attack stat by 50%, but lowers the accuracy of its physical moves by 20%."
   },
   "cuteCharm": {
     "name": "Cute Charm",
-    "description": "Contact with the Pokémon has a 30% chance to infatuate the attacker."
+    "description": "The Pokémon has a 30% chance to infatuate attackers that make direct contact with it."
   },
   "plus": {
     "name": "Plus",
@@ -253,7 +253,7 @@
   },
   "liquidOoze": {
     "name": "Liquid Ooze",
-    "description": "The strong stench of the Pokémon’s oozed liquid damages attackers that use HP-draining moves instead of healing them."
+    "description": "The strong stench of the Pokémon’s oozed liquid damages attackers that use HP-draining moves instead of the attacker being healed."
   },
   "overgrow": {
     "name": "Overgrow",
@@ -321,7 +321,7 @@
   },
   "snowCloak": {
     "name": "Snow Cloak",
-    "description": "Boosts the Pokémon’s evasiveness in snow or hail by 20%. It also takes no damage from hail."
+    "description": "Boosts the Pokémon’s evasiveness in snow or hail by 20%. The Pokémon also takes no damage from hail."
   },
   "gluttony": {
     "name": "Gluttony",
@@ -357,7 +357,7 @@
   },
   "poisonHeal": {
     "name": "Poison Heal",
-    "description": "If poisoned, the Pokémon has 1/8 of its maximum HP restored instead of taking damage"
+    "description": "If poisoned, the Pokémon has its HP restored by up to 1/8 of its max HP instead of taking damage"
   },
   "adaptability": {
     "name": "Adaptability",
@@ -401,7 +401,7 @@
   },
   "technician": {
     "name": "Technician",
-    "description": "Powers up moves which have an effective power of 60 or less by 50%. Moves with variable power must be 60 or less to be boosted."
+    "description": "Powers up moves which have an effective base power of 60 or less by 50%."
   },
   "leafGuard": {
     "name": "Leaf Guard",
@@ -421,7 +421,7 @@
   },
   "aftermath": {
     "name": "Aftermath",
-    "description": "Damages the attacker if the Pokémon is knocked out with a move that makes contact by 1/4 of the attacker’s maximum HP."
+    "description": "Damages the attacker by 1/4 of the attacker’s max HP if the Pokémon is knocked out with a move that makes direct contact."
   },
   "anticipation": {
     "name": "Anticipation",
@@ -441,7 +441,7 @@
   },
   "filter": {
     "name": "Filter",
-    "description": "Reduces the power of supereffective attacks taken by 25%."
+    "description": "Reduces the power of supereffective attacks that hit the Pokémon by 25%."
   },
   "slowStart": {
     "name": "Slow Start",
@@ -457,11 +457,11 @@
   },
   "iceBody": {
     "name": "Ice Body",
-    "description": "The Pokémon gradually regains 1/16 of their maximum HP in snow or hail. It also takes no damage from hail."
+    "description": "The Pokémon gradually regains HP in snow or hail by 1/16 of their max HP per turn. The Pokémon also takes no damage from hail."
   },
   "solidRock": {
     "name": "Solid Rock",
-    "description": "Reduces the power of supereffective attacks taken by 25%."
+    "description": "Reduces the power of supereffective attacks that hit the Pokémon by 25%."
   },
   "snowWarning": {
     "name": "Snow Warning",
@@ -477,7 +477,7 @@
   },
   "reckless": {
     "name": "Reckless",
-    "description": "Powers up moves that have recoil damage by 20%. Does not include Struggle."
+    "description": "Powers up moves that have recoil damage by 20%."
   },
   "multitype": {
     "name": "Multitype",
@@ -489,7 +489,7 @@
   },
   "badDreams": {
     "name": "Bad Dreams",
-    "description": "Reduces the HP of opposing sleeping Pokémon by 1/8 of their maximum HP."
+    "description": "Damages opposing Pokémon that are asleep by 1/8 of their max HP per turn."
   },
   "pickpocket": {
     "name": "Pickpocket",
@@ -513,19 +513,19 @@
   },
   "defeatist": {
     "name": "Defeatist",
-    "description": "Halves the Pokémon’s Attack and Sp. Atk stats when its HP drops to 1/2 or less."
+    "description": "Halves the Pokémon’s Attack and Sp. Atk stats when its HP drops to half or less."
   },
   "cursedBody": {
     "name": "Cursed Body",
-    "description": "Direct damage done to the Pokémon has a 30% chance to disable the move used."
+    "description": "Has a 30% chance to disable a move that has dealt damage to the Pokémon."
   },
   "healer": {
     "name": "Healer",
-    "description": "The Pokémon has a 30% chance to cure the status conditions of the Pokémon’s allies."
+    "description": "The Pokémon has a 30% chance to cure the status conditions of its allies."
   },
   "friendGuard": {
     "name": "Friend Guard",
-    "description": "The Pokémon reduces damage done to allies by 25%."
+    "description": "Reduces damage dealt to allies by 25%."
   },
   "weakArmor": {
     "name": "Weak Armor",
@@ -541,7 +541,7 @@
   },
   "multiscale": {
     "name": "Multiscale",
-    "description": "Reduces the amount of damage the Pokémon takes by 1/2 while its HP is full."
+    "description": "Halves the amount of damage the Pokémon takes while its HP is full."
   },
   "toxicBoost": {
     "name": "Toxic Boost",
@@ -569,11 +569,11 @@
   },
   "poisonTouch": {
     "name": "Poison Touch",
-    "description": "The Pokémon has a 30% chance to poison a target when it uses a move that makes contact."
+    "description": "The Pokémon has a 30% chance to poison a target when using a move that makes contact."
   },
   "regenerator": {
     "name": "Regenerator",
-    "description": "The Pokémon has 1/3 of its maximum HP restored when withdrawn from battle."
+    "description": "The Pokémon has its HP restored by up to 1/3 of its max HP when withdrawn from battle."
   },
   "bigPecks": {
     "name": "Big Pecks",
@@ -581,7 +581,7 @@
   },
   "sandRush": {
     "name": "Sand Rush",
-    "description": "Doubles the Pokémon’s Speed stat in a sandstorm. It also takes no damage from sandstorms."
+    "description": "Doubles the Pokémon’s Speed stat in a sandstorm. The Pokémon also takes no damage from sandstorms."
   },
   "wonderSkin": {
     "name": "Wonder Skin",
@@ -633,15 +633,15 @@
   },
   "sandForce": {
     "name": "Sand Force",
-    "description": "Boosts the power of Rock-, Ground-, and Steel-type moves in a sandstorm by 30%. It also takes no damage from sandstorms."
+    "description": "Boosts the power of Rock-, Ground-, and Steel-type moves in a sandstorm by 30%. The Pokémon also takes no damage from sandstorms."
   },
   "ironBarbs": {
     "name": "Iron Barbs",
-    "description": "The Pokémon’s iron barbs damages attackers that make contact for 1/8 of the attacker’s maximum HP."
+    "description": "The Pokémon’s iron barbs damage attackers that make direct contact with it by 1/8 of the attacker’s max HP."
   },
   "zenMode": {
     "name": "Zen Mode",
-    "description": "The Pokémon changes its form to Zen Mode when its HP drops to 1/2 or less."
+    "description": "The Pokémon changes its form to Zen Mode when its HP drops to half or less."
   },
   "victoryStar": {
     "name": "Victory Star",
@@ -677,7 +677,7 @@
   },
   "magician": {
     "name": "Magician",
-    "description": "The Pokémon has a 30% to steal the held item of a Pokémon it hits with a move."
+    "description": "The Pokémon has a 30% chance to steal the held item of a Pokémon it hits with a move."
   },
   "bulletproof": {
     "name": "Bulletproof",
@@ -709,7 +709,7 @@
   },
   "megaLauncher": {
     "name": "Mega Launcher",
-    "description": "Boosts the power of aura and pulse moves by 50%. Heal Pulse heals 25% more."
+    "description": "Boosts the power of aura and pulse moves by 50%."
   },
   "grassPelt": {
     "name": "Grass Pelt",
@@ -769,11 +769,11 @@
   },
   "wimpOut": {
     "name": "Wimp Out",
-    "description": "The Pokémon cowardly switches out when its HP drops to 1/2 or less."
+    "description": "The Pokémon cowardly switches out when its HP drops to half or less."
   },
   "emergencyExit": {
     "name": "Emergency Exit",
-    "description": "The Pokémon, sensing danger, switches out when its HP drops to 1/2 or less."
+    "description": "The Pokémon, sensing danger, switches out when its HP drops to half or less."
   },
   "waterCompaction": {
     "name": "Water Compaction",
@@ -785,7 +785,7 @@
   },
   "shieldsDown": {
     "name": "Shields Down",
-    "description": "When its HP drops to 1/2 or less, the Pokémon’s shell breaks and it becomes aggressive."
+    "description": "When its HP drops to half or less, the Pokémon’s shell breaks and it becomes aggressive."
   },
   "stakeout": {
     "name": "Stakeout",
@@ -793,7 +793,7 @@
   },
   "waterBubble": {
     "name": "Water Bubble",
-    "description": "Doubles the power of the Pokémon’s Water-type moves while halving the power of Fire-type moves done to the Pokémon. The Pokémon also cannot be burned."
+    "description": "Halves the power of Fire-type moves that hit the Pokémon and prevent it from being burned. Also doubles the power of the Pokémon’s Water-type moves"
   },
   "steelworker": {
     "name": "Steelworker",
@@ -805,7 +805,7 @@
   },
   "slushRush": {
     "name": "Slush Rush",
-    "description": "Doubles the Pokémon’s Speed stat in snow or hail. It also takes no damage from hail."
+    "description": "Doubles the Pokémon’s Speed stat in snow or hail. The Pokémon also takes no damage from hail."
   },
   "longReach": {
     "name": "Long Reach",
@@ -829,7 +829,7 @@
   },
   "schooling": {
     "name": "Schooling",
-    "description": "After the Pokémon reaches Level 20 and is above 1/4 HP, the Pokémon forms a powerful school. It stops schooling when its HP drops to 1/4 or less."
+    "description": "When the Pokémon is level 20 or higher and above 1/4 HP, the Pokémon forms a powerful school. It stops schooling when its HP drops to 1/4 or less."
   },
   "disguise": {
     "name": "Disguise",
@@ -837,11 +837,11 @@
   },
   "battleBond": {
     "name": "Battle Bond",
-    "description": "Defeating an opposing Pokémon strengthens the Pokémon’s bond with its Trainer and causes it to transform. This also boosts Water Shuriken’s power to 20, while always landing three hits."
+    "description": "Defeating an opposing Pokémon strengthens the Pokémon’s bond with its Trainer and causes it to transform. After transforming, Water Shuriken will always land three hits with a boosted 20 power per hit."
   },
   "powerConstruct": {
     "name": "Power Construct",
-    "description": "Cells gather to aid the Pokémon when its HP drops to 1/2 or less, causing it to change into its Complete Forme."
+    "description": "Cells gather to aid the Pokémon when its HP drops to half or less, causing it to change into its Complete Forme."
   },
   "corrosion": {
     "name": "Corrosion",
@@ -921,11 +921,11 @@
   },
   "shadowShield": {
     "name": "Shadow Shield",
-    "description": "Reduces the amount of damage the Pokémon takes while its HP is full by 1/2. This cannot be ignored by other moves or Abilities."
+    "description": "Halves the amount of damage the Pokémon takes while its HP is full. This cannot be ignored by other moves or Abilities."
   },
   "prismArmor": {
     "name": "Prism Armor",
-    "description": "Reduces the power of supereffective attacks taken by 25%."
+    "description": "Reduces the power of supereffective attacks taken by 25%. This cannot be ignored by other moves or Abilities."
   },
   "neuroforce": {
     "name": "Neuroforce",
@@ -973,7 +973,7 @@
   },
   "punkRock": {
     "name": "Punk Rock",
-    "description": "Boosts the power of sound-based moves by 30%. The Pokémon also takes 1/2 the damage from these kinds of moves."
+    "description": "Boosts the power of sound-based moves by 30%. The Pokémon also takes half the damage from these kinds of moves."
   },
   "sandSpit": {
     "name": "Sand Spit",
@@ -989,7 +989,7 @@
   },
   "iceFace": {
     "name": "Ice Face",
-    "description": "The Pokémon’s ice head can protect it from a physical attack once. The ice can be restored and protect it once again when it snows or hails. When on Eiscue, this ability changes its form."
+    "description": "The Pokémon’s ice head can take a physical attack as a substitute, but the attack also changes the Pokémon’s appearance. The ice will be restored when it snows or hails."
   },
   "powerSpot": {
     "name": "Power Spot",
@@ -1033,7 +1033,7 @@
   },
   "quickDraw": {
     "name": "Quick Draw",
-    "description": "The Pokémon has a 30% chance to move first in its priority bracket."
+    "description": "The Pokémon has a 30% chance to move first among moves with the same priority."
   },
   "unseenFist": {
     "name": "Unseen Fist",
@@ -1081,7 +1081,7 @@
   },
   "angerShell": {
     "name": "Anger Shell",
-    "description": "When an attack causes its HP to drop to 1/2 or less, the Pokémon gets angry. This lowers its Defense and Sp. Def stats but boosts its Attack, Sp. Atk, and Speed stats."
+    "description": "When an attack causes its HP to drop to half or less, the Pokémon gets angry. This lowers its Defense and Sp. Def stats but boosts its Attack, Sp. Atk, and Speed stats."
   },
   "purifyingSalt": {
     "name": "Purifying Salt",
@@ -1105,7 +1105,7 @@
   },
   "windPower": {
     "name": "Wind Power",
-    "description": "The Pokémon becomes charged if Tailwind takes effect or if the Pokémon is hit by a wind move, boosting the power of the next Electric-type move the Pokémon uses."
+    "description": "The Pokémon becomes charged when Tailwind takes effect or it is hit by a wind move, boosting the power of the next Electric-type move the Pokémon uses."
   },
   "zeroToHero": {
     "name": "Zero to Hero",
@@ -1113,7 +1113,7 @@
   },
   "commander": {
     "name": "Commander",
-    "description": "Upon entering battle, this Pokémon can go inside an ally Dondozo and sharply boost all stats except accuracy and evasion. If this Pokémon is your lead into battle, it raises the likelihood of double battles."
+    "description": "Upon entering battle, the Pokémon goes inside an ally Dondozo if one is on the field, then issues commands from there. This sharply boost all stats except accuracy and evasion. If this Pokémon is your lead into battle, it raises the likelihood of double battles."
   },
   "electromorphosis": {
     "name": "Electromorphosis",
@@ -1121,11 +1121,11 @@
   },
   "protosynthesis": {
     "name": "Protosynthesis",
-    "description": "Boosts the Pokémon’s most proficient stat in harsh sunlight by 30%, 50% if the stat boosted is Speed."
+    "description": "Boosts the Pokémon’s most proficient stat in harsh sunlight by 30%, or 50% if the stat boosted is Speed."
   },
   "quarkDrive": {
     "name": "Quark Drive",
-    "description": "Boosts the Pokémon’s most proficient stat on Electric Terrain by 30%, 50% if the stat boosted is Speed."
+    "description": "Boosts the Pokémon’s most proficient stat on Electric Terrain by 30%, or 50% if the stat boosted is Speed."
   },
   "goodAsGold": {
     "name": "Good as Gold",
@@ -1185,7 +1185,7 @@
   },
   "earthEater": {
     "name": "Earth Eater",
-    "description": "If hit by a Ground-type move, the Pokémon has 1/4 of its maximum HP restored instead of taking damage."
+    "description": "If hit by a Ground-type move, the Pokémon has its HP restored by up to 1/4 of its max HP instead of taking damage."
   },
   "myceliumMight": {
     "name": "Mycelium Might",
