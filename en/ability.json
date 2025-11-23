@@ -241,7 +241,7 @@
   },
   "shedSkin": {
     "name": "Shed Skin",
-    "description": "The Pokémon has a 1/3 chance to cure its own status conditions by shedding its skin."
+    "description": "The Pokémon has a 1 in 3 chance to cure its own status conditions by shedding its skin at the end of each turn."
   },
   "guts": {
     "name": "Guts",
@@ -325,7 +325,7 @@
   },
   "gluttony": {
     "name": "Gluttony",
-    "description": "If the Pokémon is holding a Berry to be eaten when its HP is 1/4 or less such as a Starf Berry, it will instead eat the Berry when its HP drops to 1/2 or less."
+    "description": "If the Pokémon is holding a Berry to be eaten when its HP is 1/4 or less such as a Starf Berry, it will instead eat the Berry when its HP drops to half or less."
   },
   "angerPoint": {
     "name": "Anger Point",
@@ -345,7 +345,7 @@
   },
   "drySkin": {
     "name": "Dry Skin",
-    "description": "Restores the Pokémon’s HP in rain by 1/8 of its max HP or 1/4 when it is hit by Water-type moves. Reduces its HP by 1/8 of its max HP in harsh sunlight, and receives 25% more damage from Fire-type moves."
+    "description": "Restores or reduces the Pokémon’s HP by 1/8 of its max HP in rain and harsh sunlight, respectively. The Pokémon also restores its HP by up to 1/4 of its max HP when hit by Water-type moves, but receives 25% more damage from Fire-type moves."
   },
   "download": {
     "name": "Download",
