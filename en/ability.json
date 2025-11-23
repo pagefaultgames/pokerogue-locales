@@ -201,7 +201,7 @@
   },
   "keenEye": {
     "name": "Keen Eye",
-    "description": "The Pokémon’s keen eyes prevent its accuracy from being lowered. It also ignores the target’s stages in evasion."
+    "description": "The Pokémon’s keen eyes prevent its accuracy from being lowered. It also ignores boosts to the target’s evasion."
   },
   "hyperCutter": {
     "name": "Hyper Cutter",
@@ -917,15 +917,15 @@
   },
   "fullMetalBody": {
     "name": "Full Metal Body",
-    "description": "Prevents other Pokémon’s moves or Abilities from lowering the Pokémon’s stats."
+    "description": "Prevents other Pokémon’s moves or Abilities from lowering the Pokémon’s stats. This effect cannot be ignored by other moves or Abilities."
   },
   "shadowShield": {
     "name": "Shadow Shield",
-    "description": "Halves the amount of damage the Pokémon takes while its HP is full. This cannot be ignored by other moves or Abilities."
+    "description": "Halves the amount of damage the Pokémon takes while its HP is full. This effect cannot be ignored by other moves or Abilities."
   },
   "prismArmor": {
     "name": "Prism Armor",
-    "description": "Reduces the power of supereffective attacks taken by 25%. This cannot be ignored by other moves or Abilities."
+    "description": "Reduces the power of supereffective attacks taken by 25%. This effect cannot be ignored by other moves or Abilities."
   },
   "neuroforce": {
     "name": "Neuroforce",
@@ -969,7 +969,7 @@
   },
   "steamEngine": {
     "name": "Steam Engine",
-    "description": "Maxes the Pokémon’s Speed stat if hit by a Fire- or Water-type move."
+    "description": "Boosts the Speed stat drastically by six stages when the Pokémon is hit by a Fire- or Water-type move."
   },
   "punkRock": {
     "name": "Punk Rock",
