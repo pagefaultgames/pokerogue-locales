@@ -1,8 +1,21 @@
 {
+  "pokemonInfo": "Pokémon Bilgisi",
+  "status": "Durum",
   "powerAccuracyCategory": "Güç\nİsabet\nKategori",
   "type": "Tür",
+  "unknownTrainer": "Bilinmeyen",
+  "ot": "AE",
+  "idNo": "Kim. No.",
+  "nature": "doğa",
+  "expPoints": "Tecrübe Puanı",
   "lv": "Sv.",
+  "nextLv": "Sonraki Seviye",
   "cancel": "İptal",
+  "memoString": "{{natureFragment}} doğa,\n{{metFragment}}",
+  "metFragment": {
+    "normal": "{{wave}}. Dalgada, {{biome}} Biyomunda,\nSv{{level}} iken tanışıldı.",
+    "apparently": "{{biome}} içinde, Sv{{level}} iken\nkarşılaşılmış gibi görünüyor."
+  },
   "natureFragment": {
     "hardy": "{{nature}}",
     "lonely": "{{nature}}",
@@ -29,5 +42,6 @@
     "sassy": "{{nature}}",
     "careful": "{{nature}}",
     "quirky": "{{nature}}"
-  }
+  },
+  "friendship": "Arkadaşlık"
 }

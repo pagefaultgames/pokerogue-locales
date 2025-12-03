@@ -1,5 +1,19 @@
 {
   "ModifierType": {
+    "AddPokeballModifierType": {
+      "name": "{{modifierCount}}× {{pokeballName}}",
+      "description": "{{modifierCount}} tane {{pokeballName}} al. (Envanter: {{pokeballAmount}})\nYakalama Şansı: {{catchRate}}"
+    },
+    "AddVoucherModifierType": {
+      "name": "{{modifierCount}}× {{voucherTypeName}}",
+      "description": "{{modifierCount}} tane {{voucherTypeName}} al."
+    },
+    "PokemonHeldItemModifierType": {
+      "extra": {
+        "inoperable": "{{pokemonName}} bu eşyayı\nalamaz!",
+        "tooMany": "{{pokemonName}} buna fazlasıyla\nsahip!"
+      }
+    },
     "TmModifierType": {
       "name": "TM{{moveId}} - {{moveName}}"
     },
@@ -10,10 +24,11 @@
       "name": "Nadir Şeker"
     },
     "MEGA_BRACELET": {
-      "name": "Mega Bilekliği"
+      "name": "Mega Bileklik"
     },
     "DYNAMAX_BAND": {
-      "name": "Dinamaks Bilekliği"
+      "name": "Dinamaks Bilekliği",
+      "description": "Maksi Mantarlar karşına çıkabilir hale gelir."
     },
     "MAP": {
       "name": "Harita"
@@ -65,6 +80,10 @@
     },
     "PP_MAX": {
       "name": "Maks. GP"
+    },
+    "MEMORY_MUSHROOM": {
+      "name": "Hatırlama Mantarı",
+      "description": "Bir Pokémon’un unuttuğu hareketi ona geri hatırlat."
     },
     "EXP_SHARE": {
       "name": "Tecrübe Paylaştırıcı"
@@ -205,6 +224,7 @@
   "FormChangeItem": {
     "BLUE_ORB": "Mavi Küre",
     "RED_ORB": "Kızıl Küre",
+    "MAX_MUSHROOMS": "Maksi Mantarlar",
     "SHOCK_DRIVE": "Şok Sürücüsü",
     "BURN_DRIVE": "Ateş Sürücüsü",
     "CHILL_DRIVE": "Buz Sürücüsü",

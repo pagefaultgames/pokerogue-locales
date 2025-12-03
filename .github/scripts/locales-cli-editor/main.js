@@ -7,7 +7,7 @@
 
 /*
  * Interactive CLI to reword or delete locales keys for the "en" file.
- * Usage: `node scripts/manage-locales.js`
+ * Usage: `node ./.github/scripts/locales-cli-editor/main.js`
  */
 
 import fs from "node:fs";
@@ -196,7 +196,7 @@ function unescapeSpecialCharsAndConvertQuotes(str) {
 async function reword(fileChoice, keyChoice, keyValue) {
   const value = chalk.red(escapeSpecialChars(keyValue));
   let newValue = unescapeSpecialCharsAndConvertQuotes((
-    await unescainquirer.prompt([
+    await inquirer.prompt([
       {
         type: "input",
         name: "newValue",

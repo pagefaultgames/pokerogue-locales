@@ -53,7 +53,7 @@
       "description": "Aumenta la est. {{stat}} de todos los miembros del equipo en {{amount}} durante 5 combates.",
       "extra": {
         "stage": "1 nivel",
-        "percentage": "30%"
+        "percentage": "20%"
       }
     },
     "AttackTypeBoosterModifierType": {
@@ -69,7 +69,7 @@
       "description": "Aumenta la est. {{stat}} base del portador en un 10%.\nCuanto mayores sean tus IVs, mayor será el límite de acumulación."
     },
     "PokemonBaseStatFlatModifierType": {
-      "name": "Tarta Vieja",
+      "name": "Barrita Plus",
       "description": "Aumenta las estadísticas base de {{stats}} del portador en {{statValue}}. Encontrado después de un sueño extraño."
     },
     "AllPokemonFullHpRestoreModifierType": {
@@ -223,11 +223,11 @@
       "description": "Recuerda un movimiento olvidado de un Pokémon."
     },
     "EXP_SHARE": {
-      "name": "Repartir EXP",
+      "name": "Repartir Experiencia",
       "description": "Los que no combatan reciben el 20% de la EXP."
     },
     "EXP_BALANCE": {
-      "name": "Equilibrador EXP",
+      "name": "Equilibrador Experiencia",
       "description": "Da una mayor parte de la EXP recibida a los miembros del equipo que tengan menos nivel."
     },
     "OVAL_CHARM": {
@@ -235,13 +235,13 @@
       "description": "Cada Pokémon combatiente recibe un 10% adicional de la EXP total."
     },
     "EXP_CHARM": {
-      "name": "Amuleto EXP"
+      "name": "Amuleto Experiencia"
     },
     "SUPER_EXP_CHARM": {
-      "name": "Super Amuleto EXP"
+      "name": "Superamuleto Experiencia"
     },
     "GOLDEN_EXP_CHARM": {
-      "name": "Amuleto EXP Dorado"
+      "name": "Amuleto Experiencia Dorado"
     },
     "LUCKY_EGG": {
       "name": "Huevo Suerte"
@@ -314,7 +314,7 @@
     },
     "CANDY_JAR": {
       "name": "Tarro de Caramelos",
-      "description": "Aumenta la cantidad de niveles otorgados por los objectos Caramelos Raros en 1."
+      "description": "Aumenta la cantidad de niveles otorgados por los objetos Caramelos Raros en 1."
     },
     "BERRY_POUCH": {
       "name": "Saco Bayas",
@@ -370,7 +370,7 @@
     },
     "SHINY_CHARM": {
       "name": "Amuleto Iris",
-      "description": "Aumenta drásticamente la posibilidad de que un Pokémon salvaje sea Shiny."
+      "description": "Aumenta drásticamente la posibilidad de que un Pokémon salvaje sea variocolor."
     },
     "ABILITY_CHARM": {
       "name": "Amuleto Habilidad",
@@ -537,6 +537,7 @@
     "PRISM_SCALE": "Escama Bella",
     "RAZOR_CLAW": "Garra Afilada",
     "RAZOR_FANG": "Colmillo Agudo",
+    "OVAL_STONE": "Piedra Oval",
     "REAPER_CLOTH": "Tela Terrible",
     "ELECTIRIZER": "Electrizador",
     "MAGMARIZER": "Magmatizador",
@@ -609,6 +610,34 @@
     "SWAMPERTITE": "Swampertita",
     "TYRANITARITE": "Tyranitarita",
     "VENUSAURITE": "Venusaurita",
+    "CLEFABLITE": "Clefablita",
+    "VICTREEBELITE": "Victreebelita",
+    "STARMINITE": "Starmita",
+    "DRAGONINITE": "Dragonitita",
+    "MEGANIUMITE": "Meganiumita",
+    "FERALIGITE": "Feraligatrita",
+    "SKARMORITE": "Skarmorita",
+    "FROSLASSITE": "Froslassita",
+    "EMBOARITE": "Emboarita",
+    "EXCADRITE": "Excadrillita",
+    "SCOLIPITE": "Scolipedita",
+    "SCRAFTINITE": "Scraftita",
+    "EELEKTROSSITE": "Eelektrossita",
+    "CHANDELURITE": "Chandelurita",
+    "CHESNAUGHTITE": "Chesnaughtita",
+    "DELPHOXITE": "Delphoxita",
+    "GRENINJITE": "Greninjanita",
+    "PYROARITE": "Pyroarita",
+    "FLOETTITE": "Floettita",
+    "MALAMARITE": "Malamarita",
+    "BARBARACITE": "Barbaraclita",
+    "DRAGALGITE": "Dragalgita",
+    "HAWLUCHANITE": "Hawluchanita",
+    "ZYGARDITE": "Zygardita",
+    "DRAMPANITE": "Drampanita",
+    "FALINKSITE": "Falinksita",
+    "RAICHUNITE_X": "Raichunita X",
+    "RAICHUNITE_Y": "Raichunita X",
     "BLUE_ORB": "Prisma Azul",
     "RED_ORB": "Prisma Rojo",
     "SHARP_METEORITE": "Meteorito Afilado",
