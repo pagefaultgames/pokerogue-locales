@@ -24,13 +24,16 @@ They will be able to provide you with further information.
 - zh-Hant - Chinese (Traditional)
 - ca - Catalan *(Still at very low percentage, needs help)*
 - ru - Russian *(Still at low percentage, needs help)*
+- tl - Tagalog *(Still at very low percentage, needs help)*
 - tr - Turkish *(Still at very low percentage, needs help)*
 - ro - Romanian *(Still at very low percentage, needs help)*
 
 ### Pending
 
 - he - Hebrew *(Note: The game needs first to have a minimum compatibility with right-to-left languages before being implemented. Any help on this regard would be very welcomed.)*
+- nb-NO - Norwegian Bokmål - Initiated but nothing started yet
 
 ### Indefinitely pending
 
+- hi - Hindi *(No translator available, most of the transaltions comes from Pokémon GO)*
 - th - Thai *(No translator available, most of the transaltions comes from an old abandoned PR)*
