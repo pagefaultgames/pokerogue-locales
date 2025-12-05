@@ -14,7 +14,7 @@ They will be able to provide you with further information.
 - en - English
 - de - German
 - es-ES - Spanish (Spain)
-- es-419 - Spanish (LATAM) - Bearly started, but empty keys falls back first on *es-ES* transaltions to allow a smooth transition
+- es-419 - Spanish (LATAM) - Barely started, but empty keys falls back first on *es-ES* translations to allow a smooth transition
 - fr - French
 - it - Italian
 - ja - Japanese
@@ -35,5 +35,5 @@ They will be able to provide you with further information.
 
 ### Indefinitely pending
 
-- hi - Hindi *(No translator available, most of the transaltions comes from Pokémon GO)*
-- th - Thai *(No translator available, most of the transaltions comes from an old abandoned PR)*
+- hi - Hindi *(No translator available, most of the translations comes from Pokémon GO)*
+- th - Thai *(No translator available, most of the translations comes from an old abandoned PR)*
