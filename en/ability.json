@@ -361,7 +361,7 @@
   },
   "adaptability": {
     "name": "Adaptability",
-    "description": "Increases the boost moves of the same type as the Pokémon get from 1.5x to 2x. Moves affected by the Stellar-type Tera do not receive a further increase."
+    "description": "Increases the boost moves of the same type as the Pokémon get from 1.5x to 2x. Does not stack with the Stellar-type Tera boost."
   },
   "skillLink": {
     "name": "Skill Link",
@@ -597,7 +597,7 @@
   },
   "imposter": {
     "name": "Imposter",
-    "description": "The Pokémon transforms itself into the Pokémon it’s facing, copying everything about it except HP and level. Copied moves have only five PP each."
+    "description": "The Pokémon transforms itself into the Pokémon it’s facing, copying everything about it except their HP and level. Copied moves only have 5 PP each."
   },
   "infiltrator": {
     "name": "Infiltrator",
@@ -961,7 +961,7 @@
   },
   "gulpMissile": {
     "name": "Gulp Missile",
-    "description": "After using Surf or Dive, the Pokémon will catch prey in its mouth. Taking damage will spit the prey at the attacker, dealing damage equal to ¼ of the attacker’ maximum HP and either lowering its defense or paralyzing it depending on its prey."
+    "description": "After using Surf or Dive, the Pokémon catches prey in its mouth. Taking damage causes it to spit the prey at the attacker, dealing ¼ of the attacker’s max HP in damage in addition to either lowering its Defense or inflicting paralysis, depending on the prey."
   },
   "stalwart": {
     "name": "Stalwart",
@@ -1061,11 +1061,11 @@
   },
   "asOneGlastrier": {
     "name": "As One",
-    "description": "This Ability combines the effects of both Unnerve and Chilling Neigh, preventing opposing Pokémon from consuming berries and boosting its Attack stat when knocking out a target."
+    "description": "This Ability combines the effects of both Unnerve and Chilling Neigh, preventing opposing Pokémon from consuming berries and boosting the Pokémon’s Attack stat when knocking out a target."
   },
   "asOneSpectrier": {
     "name": "As One",
-    "description": "This Ability combines the effects of both Unnerve and Grim Neigh, preventing opposing Pokémon from consuming berries and boosting its Sp. Atk stat when knocking out a target."
+    "description": "This Ability combines the effects of both Unnerve and Grim Neigh, preventing opposing Pokémon from consuming berries and boosting the Pokémon’s Sp. Atk stat when knocking out a target."
   },
   "lingeringAroma": {
     "name": "Lingering Aroma",
