@@ -22,15 +22,15 @@
       }
     },
     "PokemonReviveModifierType": {
-      "description": "ひんしに なった ポケモン 1匹を 元気にした上で\nHPを {{restorePercent}}% 回復する"
+      "description": "ひんしに なった ポケモン 1匹を 元気にした上で HPを {{restorePercent}}% 回復する"
     },
     "PokemonStatusHealModifierType": {
       "description": "ポケモン 1匹の 状態の 異常を すべて 回復する"
     },
     "PokemonPpRestoreModifierType": {
-      "description": "ポケモンが 覚えている 技のうち\n1つの PPを 10だけ 回復する",
+      "description": "ポケモンが 覚えている 技のうち 1つの PPを 10だけ 回復する",
       "extra": {
-        "fully": "ポケモンが 覚えている 技のうち\n1つの PPを すべて 回復する"
+        "fully": "ポケモンが 覚えている 技のうち 1つの PPを すべて 回復する"
       }
     },
     "PokemonAllMovePpRestoreModifierType": {
@@ -66,7 +66,7 @@
       "description": "手持ちポケモンの 全員のレベルを {{levels}} 上げる"
     },
     "BaseStatBoosterModifierType": {
-      "description": "ポケモン １匹の {{stat}}の 基礎ポイントを 10% あげる。個体値が 高けば高いほど、 飲める 限界が 上がる。"
+      "description": "{{stat}}の 基礎ポイントを 10% あげる。個体値が 高けば高いほど 飲める 限界が 上がる。"
     },
     "PokemonBaseStatFlatModifierType": {
       "name": "もりのヨウカン",
@@ -264,11 +264,11 @@
     },
     "LEEK": {
       "name": "ながねぎ",
-      "description": "とても長くて 硬いクキ。\nカモネギに 持たせると 技が 急所に 当たりやすくなる。"
+      "description": "とても長くて 硬いクキ。 カモネギに 持たせると 技が 急所に 当たりやすくなる。"
     },
     "EVIOLITE": {
       "name": "しんかのきせき",
-      "description": "進化の不思議な かたまり。\n持たせると 進化前ポケモンの 防御と 特防が あがる。"
+      "description": "進化の不思議な かたまり。 持たせると 進化前ポケモンの 防御と 特防が あがる。"
     },
     "SOUL_DEW": {
       "name": "こころのしずく",
@@ -358,11 +358,11 @@
     },
     "EVOLUTION_TRACKER_PRIMEAPE": {
       "name": "ふんどのこぶし",
-      "description": "オコリザルの 怒りが 肉体の 限界を 超えると 進化する！\n怒りを 臨界点まで 上げるには ふんどのこぶしを 出して続けよう！"
+      "description": "オコリザルの 怒りが 肉体の 限界を 超えると 進化する！ 怒りを 臨界点まで 上げるには ふんどのこぶしを 出して続けよう！"
     },
     "EVOLUTION_TRACKER_STANTLER": {
       "name": "バリアーラッシュ",
-      "description": "オドシシは 過酷な 環境に 適応するために 進化する。\nバリアーラッシュを 出して続けて 防御を 硬化しよう！"
+      "description": "オドシシは 過酷な 環境に 適応するために 進化する。 バリアーラッシュを 出して続けて 防御を 硬化しよう！"
     },
     "BATON": {
       "name": "バトン",
@@ -636,8 +636,25 @@
     "ZYGARDITE": "ジガルデナイト",
     "DRAMPANITE": "ジジーロナイト",
     "FALINKSITE": "タイレーツナイト",
+    "HEATRANITE": "ヒードラナイト",
+    "DARKRANITE": "ダークライナイト",
+    "ZERAORITE": "ゼラオラナイト",
     "RAICHUNITE_X": "ライチュウナイトX",
     "RAICHUNITE_Y": "ライチュウナイトY",
+    "CHIMECHITE": "チリーンナイト",
+    "ABSOLITE_Z": "アブソルナイトZ",
+    "STARAPTITE": "ムクホークナイト",
+    "GARCHOMPITE_Z": "ガブリアスナイトZ",
+    "LUCARIONITE_Z": "ルカリオナイトZ",
+    "GOLURKITE": "ゴルーグナイト",
+    "MEOWSTICITE": "ニャオニクスナイト",
+    "CRABOMINITE": "ケケンカニナイト",
+    "GOLISOPITE": "グソクムシャナイト",
+    "MAGEARNITE": "マギアナイト",
+    "SCOVILLAINITE": "スコヴィラナイト",
+    "BAXCALIBRITE": "セグレイブナイト",
+    "TATSUGIRINITE": "シャリタツナイト",
+    "GLIMMORANITE": "キラフロルナイト",
     "BLUE_ORB": "あいいろのたま",
     "RED_ORB": "べにいろのたま",
     "SHARP_METEORITE": "シャープなうんせき",
