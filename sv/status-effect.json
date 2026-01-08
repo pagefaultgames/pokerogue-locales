@@ -1,0 +1,60 @@
+{
+  "none": {
+    "name": "Ingen"
+  },
+  "poison": {
+    "name": "Gift",
+    "description": "förgiftning",
+    "obtain": "{{pokemonNameWithAffix}}\nblev förgiftad!",
+    "obtainSource": "{{pokemonNameWithAffix}}\nförgiftades av {{sourceText}}!",
+    "activation": "{{pokemonNameWithAffix}} \nled från giftet!",
+    "overlap": "{{pokemonNameWithAffix}} är\nredan förgiftad!",
+    "heal": "{{pokemonNameWithAffix}} blev\nbotad från förgiftningen!"
+  },
+  "toxic": {
+    "name": "Toxisk",
+    "description": "förgiftning",
+    "obtain": "{{pokemonNameWithAffix}}\nblev svårt förgiftad!",
+    "obtainSource": "{{pokemonNameWithAffix}}\nförgiftades svårt av {{sourceText}}!",
+    "activation": "{{pokemonNameWithAffix}} \nled från giftet!",
+    "overlap": "{{pokemonNameWithAffix}} är\nredan förgiftad!",
+    "heal": "{{pokemonNameWithAffix}} blev\nbotad från förgiftningen!"
+  },
+  "paralysis": {
+    "name": "Förlamning",
+    "description": "förlamning",
+    "obtain": "{{pokemonNameWithAffix}} förlamades,\nden kanske inte kan röra sig ordentligt nu!",
+    "obtainSource": "{{pokemonNameWithAffix}} förlamades av {{sourceText}},\nden kanske inte kan röra sig ordentligt nu!",
+    "activation": "{{pokemonNameWithAffix}} är förlamad!\nDen kan inte röra sig ordentligt!",
+    "overlap": "{{pokemonNameWithAffix}} är\nredan förlamad!",
+    "heal": "{{pokemonNameWithAffix}}\nskakade av sig sin förlamning!"
+  },
+  "sleep": {
+    "name": "Sömn",
+    "description": "sömn",
+    "obtain": "{{pokemonNameWithAffix}} somnade!",
+    "obtainSource": "{{pokemonNameWithAffix}}\nsomnade på grund av {{sourceText}}!",
+    "activation": "{{pokemonNameWithAffix}} sover djupt.",
+    "overlap": "{{pokemonNameWithAffix}}\nsover redan!",
+    "heal": "{{pokemonNameWithAffix}} vaknade!"
+  },
+  "freeze": {
+    "name": "Fryst",
+    "description": "frysning",
+    "obtain": "{{pokemonNameWithAffix}} \nblev helt nerfrusen!",
+    "obtainSource": "{{pokemonNameWithAffix}}\nblev helt nerfrusen på grund av {{sourceText}}!",
+    "activation": "{{pokemonNameWithAffix}} är nerfrusen!",
+    "overlap": "{{pokemonNameWithAffix}} är\nredan nerfrusen!",
+    "heal": "{{pokemonNameWithAffix}} tinade!",
+    "healByMove": "{{pokemonNameWithAffix}}s {{moveName}}\nsmälte isen!"
+  },
+  "burn": {
+    "name": "Brännskada",
+    "description": "brännskada",
+    "obtain": "{{pokemonNameWithAffix}}\nblev bränd!",
+    "obtainSource": "{{pokemonNameWithAffix}}\nblev bränd av {{sourceText}}!",
+    "activation": "{{pokemonNameWithAffix}} led\nav sin brännskada!",
+    "overlap": "{{pokemonNameWithAffix}} har\nredan blivit bränd!",
+    "heal": "{{pokemonNameWithAffix}}s \nbrännskada har läkt!"
+  }
+}
