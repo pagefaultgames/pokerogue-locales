@@ -26,16 +26,16 @@
     "decline": "分かる　手持ちポケモンが\n結構　傷ついたようだ$私が　回復してあげるよ"
   },
   "title": "強さの証明",
-  "description": "このトレーナーは 選択にかかわらず タマゴを １つ あげる ようです。 しかし 非常に強い トレーナーを 倒せば 最もレアな タマゴを もらいます。",
+  "description": "選択に かかわらず このトレーナーは タマゴを １つ あげる ようです。 しかし、 この非常に 強い トレーナーを 倒せるなら 最もレアな タマゴを もらいます。",
   "query": "どうしますか?",
   "option": {
     "1": {
       "label": "勝負を受け取る",
-      "tooltip": "(-) 勝負は残酷\n(+) @[TOOLTIP_TITLE]{Very Rare Egg}をもらう"
+      "tooltip": "(-) 勝負は残酷\n(+) @[TOOLTIP_TITLE]{すごくレアな タマゴ}を もらう"
     },
     "2": {
       "label": "勝負を断る",
-      "tooltip": "(+) 手持ち 全回復\n(+) @[TOOLTIP_TITLE]{Egg}をもらう"
+      "tooltip": "(+) 手持ち 全回復\n(+) @[TOOLTIP_TITLE]{タマゴ}をもらう"
     }
   },
   "eggTypes": {
@@ -43,5 +43,5 @@
     "epic": "超レアなタマゴ",
     "legendary": "伝説のタマゴ"
   },
-  "outro": "{{statTrainerName}}から　{{eggType}}を　もらった！"
+  "outro": "{{statTrainerName}}から　\n{{eggType}}を　もらった！"
 }

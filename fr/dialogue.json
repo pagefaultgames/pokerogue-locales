@@ -562,6 +562,48 @@
       "4": "Je perds, mais avec grâce et élégance.\nC’est ça, la signature d’une Demoiselle !"
     }
   },
+  "veteran": {
+    "encounter": {
+      "1": "Tu ne connais même pas l’A-B-C du combat !\nJe vais te montrer l’expérience de l’âge !",
+      "2": "Je peux lire le désespoir dans ton regard !\nAllez, viens te battre !"
+    },
+    "victory": {
+      "1": "Ah ? Tu préfères “la-si-do” à “A-B-C” ?\nJ'aurai appris quelque chose…",
+      "2": "Je te croyais plus faible car tu es encore fort jeune, mais ta force est prodigieuse…"
+    }
+  },
+  "veteranFemale": {
+    "encounter": {
+      "1": "Je vais te montrer ce qu’un vétéran\nsait faire avec des Pokémon !",
+      "2": "Mais ? Tu es bien trop jeune, voyons !\nIl ne faut pas venir jouer ici !"
+    },
+    "victory": {
+      "1": "Perdre, cela met du piment dans la vie.\nIl ne faut pas s’énerver, voyons…",
+      "2": "Je te croyais un peu jeune, mais…\nTu n’es pas mal du tout…"
+    }
+  },
+  "roughneck": {
+    "encounter": {
+      "1": "Moi, je suis un méchant ! Tu vas voir ce\nque je vais leur faire, à tes Pokémon !",
+      "2": "Je suis vraiment un peu bête et méchant,\nmais mes Pokémon, je les adore !",
+      "3": "Les Pokémon peuvent faire du grabuge\nsans se faire gronder !"
+    },
+    "victory": {
+      "1": "Quoi, tu m’as battu avec ÇA ?\nEspèce de malhonnête !",
+      "2": "J’espère qu’un jour, tu trouveras toi\naussi quelque chose qui te passionne.",
+      "3": "Et toi, tu as l’air d'aimer les combats\navec les Pokémon ! Je t’aime bien !"
+    }
+  },
+  "richDouble": {
+    "encounter": {
+      "1": "Hier une fête, aujourd’hui un combat. Nous sommes\nriches, nous nous amusons tous les jours !",
+      "2": "C’est toi, notre adversaire ?\nQuelle allure famélique…"
+    },
+    "victory": {
+      "1": "Nous n’avons pas besoin de gagner,\non a déjà plus d’argent qu’il n’en faut.",
+      "2": "Tu es bien plus coriace que tu ne le dis !\nQue manges-tu pour devenir comme ça ?"
+    }
+  },
   "archer": {
     "encounter": {
       "1": "Avant de continuer ta route, voyons ce que tu vaux face à la Team Rocket !",
@@ -720,7 +762,7 @@
   },
   "colress": {
     "encounter": {
-      "1": "En tant que serviteur de la Science, la Réalité et l’Idéal que je cherche… ne sont rien moins que la force originelle des Pokémon !$Comment pourrait-on l’éveiller ?$Je veux croire que la méthode traditionnelle est la meilleure pour y parvenir : celle de la confiance mutuelle entre Pokémon et Dresseurs.$Je serais ravi que tu me démontres le bien-fondé de cette conjecture !",
+      "1": "En tant que serviteur de la Science, la Réalité\net l’Idéal que je cherche…$...ne sont rien moins que la force originelle des Pokémon !$Comment pourrait-on l’éveiller ?$Je veux croire que la méthode traditionnelle\nest la meilleure pour y parvenir :$celle de la confiance mutuelle entre Pokémon et Dresseurs.$Je serais ravi que tu me démontres le bien-fondé\nde cette conjecture !",
       "2": "La Team Plasma affirme que la reconnaissance du potentiel des Pokémon passe par leur libération. Balivernes !$Au contraire, l’humanité a pour tâche d’extraire le potentiel des Pokémon !$Bien, j’aimerais voir si, en tant que Dresseur, tu es capable de libérer toutes les ressources de ton équipe.",
       "2_female": "La Team Plasma affirme que la reconnaissance du potentiel des Pokémon passe par leur libération. Balivernes !$Au contraire, l’humanité a pour tâche d’extraire le potentiel des Pokémon !$Bien, j’aimerais voir si, en tant que Dresseuse, tu es capable de libérer toutes les ressources de ton équipe.",
       "3": "Pousser le potentiel des Pokémon à son paroxysme ! Comment refuser cette offre ?$La fin justifie les moyens.$Les Dresseurs comme toi expriment la puissance des Pokémon par une… communion de cœur. $L’approche de la Team Plasma est bien différente : aucune compassion, exploitation brute. Et peu importe les effets collatéraux.$Aussi, tu me sembles la personne la plus appropriée pour résoudre mon problème. Prépare-toi, et affronte-moi ! J’ai soif de savoir !"
@@ -1916,7 +1958,7 @@
   "morty": {
     "encounter": {
       "1": "Encore un peu et je pourrai voir dans le futur et rencontrer le Pokémon légendaire.$Tu vas m’aider à atteindre ce niveau !",
-      "2": "Il est dit qu’un Pokémon légendaire apparaitra face à un Dresseur d'exception.$Je crois à ce récit, et dans ce but, je m’entraine ici depuis ma naissance. C’est ainsi que je peux voir ce que les autres ne voient pas.$Je sais qui pourra faire venir le Pokémon de la légende…$C’est moi, je suis l’élu ! Et toi, tu vas m’aider à m’améliorer ici et maintenant !",
+      "2": "Il est dit qu’un Pokémon légendaire apparaitra\nface à un Dresseur d'exception.$Je crois à ce récit, et dans ce but, je\nm’entraine ici depuis ma naissance.$C’est ainsi que je peux voir ce que les autres ne voient pas.$Je sais qui pourra faire venir le Pokémon de la légende…$C’est moi, je suis l’élu !\nEt toi, tu vas m’aider à m’améliorer ici et maintenant !",
       "3": "Que tu le veuilles ou non, les pouvoirs occultes existent.",
       "4": "Vois les résultats d’un rude entrainement.",
       "5": "Ton âme et celle de ton Pokémon doivent être unies. Peux-tu y arriver ?",
@@ -1924,7 +1966,7 @@
     },
     "victory": {
       "1": "Je ne suis pas encore assez bon.",
-      "2": "Je vois… Ta journée a été longue et mouvementée. Tu as fait plein de trucs super géniaux.$Je t’envie pour ça…",
+      "2": "Je vois… Ta journée a été longue et mouvementée.\nTu as fait plein de trucs super géniaux.$Je t’envie pour ça…",
       "2_female": "Je vois… Ta journée a été longue et mouvementée. Tu as fait plein de trucs super géniaux.$Je t’envie pour ça…",
       "3": "Qu’est ce que ça veut dire ?!",
       "4": "Je n’aurais jamais dû perdre pourtant…$Toi… toi… tu as quelque chose qui… Tout est clair.",
@@ -2158,7 +2200,7 @@
   },
   "wallace": {
     "encounter": {
-      "1": "Il y a quelque chose en toi… Une particularité dans ton attitude. $Je décèle ça en toi. Allez, fais voir ! Fais voir le pouvoir que tu as sur tes Pokémon. $Et en échange, je te montrerai mes talents d’illusionniste, dans l’eau, avec mes Pokémon."
+      "1": "Il y a quelque chose en toi…\nUne particularité dans ton attitude.$Je décèle ça en toi. Allez, fais voir !\nFais voir le pouvoir que tu as sur tes Pokémon. $Et en échange, je te montrerai mes talents d’illusionniste, dans l’eau, avec mes Pokémon."
     },
     "victory": {
       "1": "Bravo. Je connais désormais ton authenticité et ta splendeur en tant que Dresseur. $Ça m’a fait très plaisir de vous rencontrer, toi et tes Pokémon. Tu as prouvé que tu es digne.",
@@ -3055,7 +3097,7 @@
       "1": "Il suffit que je te congèle jusqu’aux os, et tout ira bien."
     },
     "victory": {
-      "1": "La flamme qui brule en toi… J’avoue qu’elle m’émeut quelque peu."
+      "1": "La flamme qui brule en toi…\nJ’avoue qu’elle m’émeut quelque peu."
     },
     "defeat": {
       "1": "On dirait bien que je t’ai jeté un froid."
