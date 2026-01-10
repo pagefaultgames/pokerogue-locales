@@ -38,5 +38,17 @@
   "expGain": "{{pokemonName}} tjänade\n{{exp}} erfarenhetspoäng!",
   "levelUp": "{{pokemonName}} nådde\nnivå {{level}}!",
   "learnMove": "{{pokemonName}} lärde sig\n{{moveName}}!",
-  "learnMovePrompt": "{{pokemonName}} försöker lära sig\ntekniken {{moveName}}."
+  "learnMovePrompt": "{{pokemonName}} försöker lära sig\ntekniken {{moveName}}.",
+  "learnMoveLimitReached": "{{pokemonName}} kan dock inte\nminnas fler än fyra tekniker samtidigt...!",
+  "learnMoveReplaceQuestion": "Ska den glömma en teknik\noch byta ut den med {{moveName}}?",
+  "learnMoveStopTeaching": "Ska den ge upp på\natt lära sig {{moveName}}?",
+  "learnMoveNotLearned": "{{pokemonName}} lärde sig inte \ntekniken {{moveName}}.",
+  "learnMoveForgetQuestion": "Vilken teknik ska glömmas?",
+  "learnMoveForgetSuccess": "{{pokemonName}} glömde bort hur\nman utför tekniken {{moveName}}.",
+  "countdownPoof": "@d{32}1, @d{15}2, and@d{15}… @d{15}… @d{15}… @d{15}@s{se/pb_bounce_1}Poff!",
+  "learnMoveAnd": "Och...",
+  "levelCapUp": "Nivågränsen ökade till {{levelCap}}!",
+  "moveNotImplemented": "{{moveName}} har inte implementerats än\noch kan därför inte utföras.",
+  "moveNoPp": "Det finns inga KP kvar för \natt utföra denna teknik!",
+  "moveDisabled": "Tekniken {{moveName}} har spärrats!"
 }
