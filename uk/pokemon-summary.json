@@ -8,9 +8,14 @@
   "idNo": "ID №",
   "nature": "Характер",
   "expPoints": "Очки Знань",
+  "lv": "Рв.",
   "nextLv": "До Наступного",
   "cancel": "Скасувати",
   "memoString": "Характер {{natureFragment}},\n{{metFragment}}",
+  "metFragment": {
+    "normal": "зустрівся на Рв.{{level}},\n{{biome}}, Хвиля {{wave}}.",
+    "apparently": "можливо зустрічен на Рв.{{level}},\n{{biome}}."
+  },
   "natureFragment": {
     "hardy": "{{nature}}",
     "lonely": "{{nature}}",
