@@ -1,5 +1,50 @@
 {
   "ModifierType": {
+    "AddPokeballModifierType": {
+      "name": "{{modifierCount}}× {{pokeballName}}",
+      "description": "Få {{modifierCount}} st. {{pokeballName}}ar (Till hands: {{pokeballAmount}}) \nFångstsannolikhet: {{catchRate}}"
+    },
+    "AddVoucherModifierType": {
+      "name": "{{modifierCount}}× {{voucherTypeName}}",
+      "description": "Få {{voucherTypeName}} ×{{modifierCount}}."
+    },
+    "PokemonHeldItemModifierType": {
+      "extra": {
+        "inoperable": "{{pokemonName}} kan inte\nanvända detta föremål!",
+        "tooMany": "{{pokemonName}} har för många\nav det här föremålet!"
+      }
+    },
+    "PokemonHpRestoreModifierType": {
+      "description": "Återhämtar {{restorePoints}} HP eller {{restorePercent}}%, HP hos en pokémon, beroende på vilket som är högre.",
+      "extra": {
+        "fully": "Återställer alla HP hos en pokémon.",
+        "fullyWithStatus": "Återställer alla HP hos en pokémon och kurerar all tillståndspåverkan."
+      }
+    },
+    "PokemonReviveModifierType": {
+      "description": "Återupplivar en pokémon och återhämtar {{restorePercent}}% HP."
+    },
+    "PokemonStatusHealModifierType": {
+      "description": "Kurerar all tillståndspåverkan hos en pokémon."
+    },
+    "PokemonPpRestoreModifierType": {
+      "description": "Återhämtar {{restorePoints}} KP för en pokémonteknik.",
+      "extra": {
+        "fully": "Återhämtar alla KP för en pokémonteknik."
+      }
+    },
+    "PokemonAllMovePpRestoreModifierType": {
+      "description": "Återhämtar {{restorePoints}} KP för alla tekniker som en av dina pokémon kan.",
+      "extra": {
+        "fully": "Återhämtar alla KP för alla tekniker som en av dina pokémon kan."
+      }
+    },
+    "PokemonPpUpModifierType": {
+      "description": "Ökar permanent en tekniks KP med {{upPoints}} för var 5:e bas-KP (max. 3 ökningar)."
+    },
+    "PokemonNatureChangeModifierType": {
+      "name": "{{natureName}} mynta"
+    },
     "PokemonBaseStatFlatModifierType": {
       "name": "Skogsgateau",
       "description": "Ökar bärarens grundläggande {{stats}} med {{statValue}}. Hittades efter en underlig dröm."
