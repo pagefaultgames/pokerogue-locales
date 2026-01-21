@@ -43,7 +43,21 @@
       "description": "Ökar permanent en tekniks KP med {{upPoints}} för var 5:e bas-KP (max. 3 ökningar)."
     },
     "PokemonNatureChangeModifierType": {
-      "name": "{{natureName}} mynta"
+      "name": "{{natureName}} mynta",
+      "description": "Ändrar en pokémons karaktärstyp till [{{natureName}}] och den låses permanent upp för startaren."
+    },
+    "DoubleBattleChanceBoosterModifierType": {
+      "description": "Fyrdubblar sannolikheten för dubbelstrid under förloppet av max {{battleCount}} strider."
+    },
+    "TempStatStageBoosterModifierType": {
+      "description": "Ökar {{stat}} för alla för lagmedlemmar med {{amount}} under max 5 strider.",
+      "extra": {
+        "stage": "1 steg",
+        "percentage": "20%"
+      }
+    },
+    "AttackTypeBoosterModifierType": {
+      "description": "Ökar kraften av en pokémons {{moveType}}typtekniker med 20%."
     },
     "PokemonBaseStatFlatModifierType": {
       "name": "Skogsgateau",
