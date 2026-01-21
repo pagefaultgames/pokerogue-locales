@@ -1,11 +1,63 @@
 {
   "ModifierType": {
+    "PokemonBaseStatFlatModifierType": {
+      "name": "Skogsgateau",
+      "description": "Ökar bärarens grundläggande {{stats}} med {{statValue}}. Hittades efter en underlig dröm."
+    },
     "TerastallizeModifierType": {
       "name": "Teraskärva: {{teraType}}"
     },
+    "RARE_CANDY": {
+      "name": "Sällsynt godis"
+    },
+    "RARER_CANDY": {
+      "name": "Sällsport godis"
+    },
+    "MEGA_BRACELET": {
+      "name": "Megaband",
+      "description": "Megastenar blir tillgängliga."
+    },
+    "DYNAMAX_BAND": {
+      "name": "Dynamaxband",
+      "description": "Maxsvampar blir tillgängliga."
+    },
     "TERA_ORB": {
       "name": "Teraklot",
-      "description": "Låter dina pokémon terastallisera. Återladdar långsamt. Teraskärvor blir också tillgängliga."
+      "description": "Kan terastallisera dina pokémon. Återladdar långsamt. Teraskärvor blir också tillgängliga."
+    },
+    "MAP": {
+      "name": "Karta",
+      "description": "Låter dig välja riktning vid vägskälen vid slutet av biomen."
+    },
+    "POTION": {
+      "name": "Hälsomedicin"
+    },
+    "SUPER_POTION": {
+      "name": "Supermedicin"
+    },
+    "HYPER_POTION": {
+      "name": "Ultramedicin"
+    },
+    "MAX_POTION": {
+      "name": "Maxmedicin"
+    },
+    "FULL_RESTORE": {
+      "name": "Helåterhämtare"
+    },
+    "REVIVE": {
+      "name": "Tillfrisknarin"
+    },
+    "MAX_REVIVE": {
+      "name": "Tillfrisknarin Max"
+    },
+    "FULL_HEAL": {
+      "name": "Allkur"
+    },
+    "SACRED_ASH": {
+      "name": "Livsaska"
+    },
+    "REVIVER_SEED": {
+      "name": "Återlivsfrö"
     }
   }
 }
