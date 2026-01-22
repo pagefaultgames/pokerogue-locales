@@ -1,0 +1,21 @@
+{
+  "ModifierType": {
+    "AddPokeballModifierType": {
+      "name": "×{{modifierCount}} {{pokeballName}}ов",
+      "description": "Отримати ×{{modifierCount}} {{pokeballName}}ов (В інветар: {{pokeballAmount}})\nШанс піймання: {{catchRate}}"
+    },
+    "AddVoucherModifierType": {
+      "name": "×{{modifierCount}} {{voucherTypeName}}",
+      "description": "Отримати ×{{modifierCount}} {{voucherTypeName}}"
+    },
+    "PokemonHeldItemModifierType": {
+      "extra": {
+        "inoperable": "{{pokemonName}} не може взять цей предмет!",
+        "tooMany": "{{pokemonName}} не може взять більше цього предмету!"
+      }
+    },
+    "PokemonHpRestoreModifierType": {
+      "description": "Відновлює здоров'я в {{restorePoints}} HP чи {{restorePercent}}% HP одного Поке́мона, залежно що більше."
+    }
+  }
+}
