@@ -57,14 +57,82 @@
       }
     },
     "AttackTypeBoosterModifierType": {
-      "description": "Ökar kraften av en pokémons {{moveType}}typtekniker med 20%."
+      "description": "Ökar kraften på en pokémons tekniker av typen {{moveType}} med 20%."
+    },
+    "PokemonLevelIncrementModifierType": {
+      "description": "Ökar en pokémons nivå med {{levels}}."
+    },
+    "AllPokemonLevelIncrementModifierType": {
+      "description": "Ökar alla lagmedlemmars nivåer med {{levels}}."
+    },
+    "BaseStatBoosterModifierType": {
+      "description": "Ökar bärarens grundläggande {{stat}} med 10%. Ju högre bärarens IV:n är, desto fler kan bäras."
     },
     "PokemonBaseStatFlatModifierType": {
       "name": "Skogsgateau",
       "description": "Ökar bärarens grundläggande {{stats}} med {{statValue}}. Hittades efter en underlig dröm."
     },
+    "AllPokemonFullHpRestoreModifierType": {
+      "description": "Återställer 100% av alla HP för alla pokémon."
+    },
+    "AllPokemonFullReviveModifierType": {
+      "description": "Återupplivar alla avsvimmade pokémon och återställer deras HP till max."
+    },
+    "MoneyRewardModifierType": {
+      "description": "Ger dig en {{moneyMultiplier}} summa pengar (₽{{moneyAmount}}).",
+      "extra": {
+        "small": "liten",
+        "moderate": "lagom",
+        "large": "stor"
+      }
+    },
+    "ExpBoosterModifierType": {
+      "description": "Ökar vinsten av erfarenhetspoäng med {{boostPercent}}%."
+    },
+    "PokemonExpBoosterModifierType": {
+      "description": "Ökar bärarens vinst av erfarenhetspoäng med {{boostPercent}}%."
+    },
+    "PokemonFriendshipBoosterModifierType": {
+      "description": "Ökar takten av vänskapsutveckling med 50%."
+    },
+    "PokemonMoveAccuracyBoosterModifierType": {
+      "description": "Ökar träffsäkerheten av tekniker med {{accuracyAmount}}."
+    },
+    "PokemonMultiHitModifierType": {
+      "description": "Omvandlar 25% av skadan orsakad av bärarens attacker till en extra träff."
+    },
+    "TmModifierType": {
+      "name": "TM{{moveId}} - {{moveName}}",
+      "description": "Lär en pokémon tekniken {{moveName}}."
+    },
+    "TmModifierTypeWithInfo": {
+      "name": "TM{{moveId}} - {{moveName}}",
+      "description": "Lär en pokémon tekniken {{moveName}}. \n(Tryck C eller Shift för mer info)"
+    },
+    "EvolutionItemModifierType": {
+      "description": "Orsakar utveckling hos vissa specifika pokémon."
+    },
+    "FormChangeItemModifierType": {
+      "description": "Orsakar formändring hos vissa specifika pokémon."
+    },
+    "FusePokemonModifierType": {
+      "description": "Kombinerar två pokémon (särdrag överförs; basförmågor, typer och tekniklistor delas)"
+    },
     "TerastallizeModifierType": {
-      "name": "Teraskärva: {{teraType}}"
+      "name": "Teraskärva: {{teraType}}",
+      "description": "Ändrar en pokémons teratyp till {{teraType}}"
+    },
+    "ContactHeldItemTransferChanceModifierType": {
+      "description": "Ger {{chancePercent}}% chans att stjäla ett av motståndarens burna föremål under en attack."
+    },
+    "TurnHeldItemTransferModifierType": {
+      "description": "Bäraren får ett av motståndarens burna föremål varje omgång."
+    },
+    "EnemyAttackStatusEffectChanceModifierType": {
+      "description": "Lägger till en {{chancePercent}}% chans att orsaka {{statusEffect}} med attacktekniker."
+    },
+    "EnemyEndureChanceModifierType": {
+      "description": "Lägger till en {{chancePercent}}% chans att stå emot en träff."
     },
     "RARE_CANDY": {
       "name": "Sällsynt godis"
@@ -145,7 +213,48 @@
       "name": "Lockparfym"
     },
     "SUPER_LURE": {
-      "name": "Lockparfym Silver"
+      "name": "Lockparfym d’Argent"
+    },
+    "MAX_LURE": {
+      "name": "Lockparfym d’Or"
+    },
+    "MEMORY_MUSHROOM": {
+      "name": "Minnesmussling",
+      "description": "Låter en pokémon minnas en bortglömd teknik."
+    },
+    "EXP_SHARE": {
+      "name": "Erfar-enhet",
+      "description": "Lagmedlemmar som inte stridit får 20% av en enskild stridares erfarenhetspoäng."
+    },
+    "EXP_BALANCE": {
+      "name": "Balanserfar-enhet",
+      "description": "Balanserar vunna erfarenhetspoäng och ger fler till lagmedlemmarna på lägre nivå."
+    },
+    "OVAL_CHARM": {
+      "name": "Ovalamulett",
+      "description": "När flera pokémon deltar i en strid får de alla en extra 10 % var av de totalt vunna erfarenhetspoängen."
+    },
+    "EXP_CHARM": {
+      "name": "Erfamulett"
+    },
+    "SUPER_EXP_CHARM": {
+      "name": "Superfamulett"
+    },
+    "GOLDEN_EXP_CHARM": {
+      "name": "Gulderfamulett"
+    },
+    "LUCKY_EGG": {
+      "name": "Lyckoägg"
+    },
+    "GOLDEN_EGG": {
+      "name": "Guldägg"
+    },
+    "SOOTHE_BELL": {
+      "name": "Stillhetsklocka"
+    },
+    "SCOPE_LENS": {
+      "name": "Kikarsikte",
+      "description": "Siktar in sig på svaga punkter och ökar bärarens chans att få till en kritisk träff."
     }
   }
 }
