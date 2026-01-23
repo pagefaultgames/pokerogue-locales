@@ -15,7 +15,14 @@
       }
     },
     "PokemonHpRestoreModifierType": {
-      "description": "Відновлює здоров'я в {{restorePoints}} HP чи {{restorePercent}}% HP одного Поке́мона, залежно що більше."
+      "description": "Відновлює здоров'я в {{restorePoints}} ОЗ чи {{restorePercent}}% HP одного Поке́мона, залежно що більше.",
+      "extra": {
+        "fully": "Повністю відновлює ОЗ Поке́мона",
+        "fullyWithStatus": "Відновлює ОЗ Поке́мону та при цьому лікує від статусних ефектів"
+      }
+    },
+    "PokemonReviveModifierType": {
+      "description": "Відроджує Поке́мона, відновлюючи йому ОЗ в {{restorePercent}}%"
     }
   }
 }
