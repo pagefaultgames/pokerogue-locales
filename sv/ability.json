@@ -33,7 +33,7 @@
   },
   "static": {
     "name": "Elstötar",
-    "description": "Denna pokémon är laddad med statisk elektricitet; om den vidrörs kan den orsaka förlamning."
+    "description": "Denna pokémon är laddad med statisk elektricitet; kontakt med den kan orsaka förlamning."
   },
   "voltAbsorb": {
     "name": "Ellagring",
@@ -81,7 +81,7 @@
   },
   "suctionCups": {
     "name": "Sugkoppar",
-    "description": "Denna pokémons sugkoppar håller fast den på plats; därför kan ingen teknik eller förmål tvinga den att bytas av."
+    "description": "Denna pokémons sugkoppar håller fast den på plats; därför kan ingen teknik eller föremål tvinga den att bytas av."
   },
   "intimidate": {
     "name": "Avskräckande",
@@ -93,7 +93,7 @@
   },
   "roughSkin": {
     "name": "Hudtänder",
-    "description": "Denna pokémons hudtänder orskadar skada på moståndare som vidrör dem."
+    "description": "Denna pokémons hudtänder orskadar skada på motståndare som vidrör dem."
   },
   "wonderGuard": {
     "name": "Änglavakt",
@@ -105,7 +105,7 @@
   },
   "effectSpore": {
     "name": "Sporer",
-    "description": "När denna pokémon vidrörs kan dess sporer orsaka förgiftning, sömn eller förlamning hos anfallaren."
+    "description": "Kontakt med denna pokémon kan orsaka förgiftning, sömn eller förlamning hos anfallaren."
   },
   "synchronize": {
     "name": "Synkronisering",
@@ -141,7 +141,7 @@
   },
   "trace": {
     "name": "Spårförmåga",
-    "description": "När den skickas ut i strid kopierar denna pokémon egenskapen av en moståndare."
+    "description": "När den skickas ut i strid kopierar denna pokémon egenskapen av en motståndare."
   },
   "hugePower": {
     "name": "Muskelknutte",
@@ -149,7 +149,7 @@
   },
   "poisonPoint": {
     "name": "Giftgadd",
-    "description": "Beröring av denna pokémon kan orsaka förgiftning hos anfallaren."
+    "description": "Kontakt med denna pokémon kan orsaka förgiftning hos anfallaren."
   },
   "innerFocus": {
     "name": "Inre fokus",
@@ -192,11 +192,11 @@
     "description": "Denna pokémon vaknar från sömn dubbelt så snabbt som andra pokémon."
   },
   "flameBody": {
-    "name": "Eldfarlig",
-    "description": "Beröring av denna pokémon kan bränna anfallaren."
+    "name": "Brandfarlig",
+    "description": "Kontakt med denna pokémon kan bränna anfallaren."
   },
   "runAway": {
-    "name": "Lättfotad",
+    "name": "Flyende fot",
     "description": "Lyckas alltid fly från vilda pokémon."
   },
   "keenEye": {
@@ -213,7 +213,7 @@
   },
   "truant": {
     "name": "Trögdjur",
-    "description": "Denna pokémon latar sig och gör inget om den har använt en teknik på rundan innan."
+    "description": "Denna pokémon latar sig och gör inget om den har använt en teknik på omgången innan."
   },
   "hustle": {
     "name": "Ivrig",
@@ -221,7 +221,7 @@
   },
   "cuteCharm": {
     "name": "Bedårande",
-    "description": "Beröring av denna pokémon kan göra en kär."
+    "description": "Kontakt med denna pokémon kan göra anfallaren kär."
   },
   "plus": {
     "name": "Plusladdning",
@@ -237,7 +237,7 @@
   },
   "stickyHold": {
     "name": "Klibbig",
-    "description": "Föremål som denna pokémon håller i är fastkletade och kan därför inte stjälas eller tas bort av andra pokémon."
+    "description": "Föremålen som denna pokémon bär är fastkletade och kan därför inte stjälas eller tas bort av andra pokémon."
   },
   "shedSkin": {
     "name": "Hudömsning",
@@ -272,8 +272,7 @@
     "description": "Denna pokémons insekttyptekniker blir starkare när har lite HP."
   },
   "rockHead": {
-    "name": "Stenansikte",
-    "description": "Denna pokémons hårda huvud och ansikte skyddar den från bakslag."
+    "name": "Tjockskalle"
   },
   "drought": {
     "name": "Solskapare",
@@ -304,7 +303,301 @@
     "description": "När denna pokémon är i strid slutar all väder att ha någon effekt."
   },
   "tangledFeet": {
-    "name": "Lättfotad",
+    "name": "Vacklande steg",
     "description": "Denna pokémons förmåga att undvika ökar när den blir förvirrad."
+  },
+  "motorDrive": {
+    "name": "Elmotor",
+    "description": "Denna pokémon skadas inte eltyptekniker, de ökar istället dess snabbhet."
+  },
+  "rivalry": {
+    "name": "Rivalitet",
+    "description": "Denna pokémon rivaliserar med pokémon av samma kön och orsakar dem mer skada, men orsakar motsatta könet mindre skada."
+  },
+  "steadfast": {
+    "name": "Okuvlig",
+    "description": "Denna pokémon vill aldrig kuva och ökar därför sin snabbhet varje gång den ryggar tillbaka."
+  },
+  "snowCloak": {
+    "name": "Göms i snö",
+    "description": "När det snöar ökas denna pokémons förmåga att udvika."
+  },
+  "gluttony": {
+    "name": "Glupsk",
+    "description": "Denna glupska pokémon äter sina bär när den har 50% HP eller lägre, vilket är snabbare än vanligt."
+  },
+  "angerPoint": {
+    "name": "Öm punkt",
+    "description": "Denna pokémon blir rasande när den får en kritisk träff på sig, vilket maxar dess attackförmåga."
+  },
+  "unburden": {
+    "name": "Akrobatisk",
+    "description": "Genom akrobatisk förmåga ökas denna pokémons snabbhet om den förbrukar eller förlorar ett buret föremål."
+  },
+  "heatproof": {
+    "name": "Värmetålig",
+    "description": "Denna pokémons värmetåliga kropp halverar skadan som eldtyptekniker orsakar den."
+  },
+  "simple": {
+    "name": "Enfaldig",
+    "description": "Förmågeändringar fördubblas för denna pokémon."
+  },
+  "drySkin": {
+    "name": "Torrhudad",
+    "description": "Återställer HP i regn eller när den träffas av en vattentypteknik. Förlorar HP i sol och tar mer skada av eldtyptekniker."
+  },
+  "download": {
+    "name": "Nerladdning",
+    "description": "Analyserar en motståndares försvar och sp. fsv för att sedan öka antingen sin attack- eller sp. atk, beroende på vad som blir mer effektivt."
+  },
+  "ironFist": {
+    "name": "Järnnäve",
+    "description": "Denna pokémons nävtekniker är extra starka."
+  },
+  "poisonHeal": {
+    "name": "Giftätare",
+    "description": "Förgiftning återställer denna pokémons HP istället för att skada den."
+  },
+  "adaptability": {
+    "name": "Anpassningsbar",
+    "description": "Tekniker av samma typ som denna pokémon är ännu starkare än vanligt."
+  },
+  "skillLink": {
+    "name": "Multikostnär",
+    "description": "Maxar antalet gånger som multislagtekniker träffar motståndaren."
+  },
+  "hydration": {
+    "name": "Hydrering",
+    "description": "Tillståndspåverkan läks när det regnar."
+  },
+  "solarPower": {
+    "name": "Solkraft",
+    "description": "Sp. Atk-förmåga ökas i stark solsken, men HP sjunker varje omgång."
+  },
+  "quickFeet": {
+    "name": "Snabb på fötterna",
+    "description": "Denna pokémons snabbhet ökar om den har tillståndspåverkan."
+  },
+  "normalize": {
+    "name": "Normalisering",
+    "description": "Alla tekniker ändrar typ till normal och deras kraft ökar lite."
+  },
+  "sniper": {
+    "name": "Prickskytt",
+    "description": "Denna pokémon prickar alltid rätt, så dess kritiska träffar är extra kraftfulla."
+  },
+  "magicGuard": {
+    "name": "Magisköld",
+    "description": "Endast attacktekniker kan orsaka skada på denna pokémon."
+  },
+  "noGuard": {
+    "name": "Sänkt gard",
+    "description": "Med sänkt gard blir denna pokémon alltid träffad av attacktekniker men lyckas även alltid träffa sin motståndare. Sannolikheten för dubbelstrid ökar också."
+  },
+  "stall": {
+    "name": "Sisten",
+    "description": "Denna pokémon utför sin teknik sist av alla pokémon i striden."
+  },
+  "technician": {
+    "name": "Tekniker",
+    "description": "Denna pokémons svagare tekniker är förstärkta."
+  },
+  "leafGuard": {
+    "name": "Lövsköld",
+    "description": "Denna pokémons lövsköld skyddar mot tillståndspåverkan i starkt solsken."
+  },
+  "klutz": {
+    "name": "Klantig",
+    "description": "Denna pokémon kan inte använda burna föremål."
+  },
+  "moldBreaker": {
+    "name": "Utanför ramarna",
+    "description": "Denna pokémon kan använda tekniker på motståndaren utan att hindras av dess särdrag."
+  },
+  "superLuck": {
+    "name": "Lyckost",
+    "description": "Denna pokémon har riktig tur, så chansen för den att orsaka kritiska träffar har ökat."
+  },
+  "aftermath": {
+    "name": "Sista smällen",
+    "description": "Om denna pokémon svimmar från en teknik med fysisk kontakt exploderar den och skadar anfallaren."
+  },
+  "anticipation": {
+    "name": "Förutseende",
+    "description": "Denna pokémon förutser och ryser om en motståndare har en livsfarlig teknik."
+  },
+  "forewarn": {
+    "name": "Synsk",
+    "description": "När den skickas ut in strid kan denna pokémon läsa av en av motståndarens tekniker."
+  },
+  "unaware": {
+    "name": "Aningslös",
+    "description": "Denna pokémons tekniker påverkas inte av motståndarens förmågeändringar."
+  },
+  "tintedLens": {
+    "name": "Rosenskimmer",
+    "description": "Denna pokémon kan utföra inte särskilt effektiva tekniker och orsaka vanlig skada."
+  },
+  "filter": {
+    "name": "Filter",
+    "description": "Supereffektiva attacker gör mindre skada."
+  },
+  "slowStart": {
+    "name": "Segstartad",
+    "description": "Denna pokémons snabbhet och attackförmåga halveras under de första 5 omgångarna."
+  },
+  "scrappy": {
+    "name": "Kämparanda",
+    "description": "Denna pokémon kan träffa spöktyppokémon med normal- och slagsmålstyptekniker."
+  },
+  "stormDrain": {
+    "name": "Vattensamling",
+    "description": "Denna pokémon drar till sig alla vattentyptekniker och istället för att skadas så ökar dess Sp. Atk."
+  },
+  "iceBody": {
+    "name": "Glassig",
+    "description": "Denna pokémon återhämtar gradvis HP när det snöar."
+  },
+  "solidRock": {
+    "name": "Stenhård",
+    "description": "Supereffektiva attacker gör mindre skada på denna pokémon."
+  },
+  "snowWarning": {
+    "name": "Snöläggare",
+    "description": "Denna pokémon orsakar snö när den skickas ut i strid."
+  },
+  "honeyGather": {
+    "name": "Honungssamlare",
+    "description": "Denna pokémon samlar honung efter att en strid har vunnits. Honungen säljs sedan genast för pengar."
+  },
+  "frisk": {
+    "name": "Genomskådande",
+    "description": "När denna pokémon skickas ut i strid kan den kolla en motståndares särdrag."
+  },
+  "reckless": {
+    "name": "Vårdslös",
+    "description": "Denna pokémons tekniker med bakslag är extra starka."
+  },
+  "multitype": {
+    "name": "Multityp",
+    "description": "Denna pokémons typ ändras efter vilken sorts platta den bär."
+  },
+  "flowerGift": {
+    "name": "Blomgåva",
+    "description": "I starkt solsken ökar attack- och sp. fsv-förmågan hos denna pokémon och den vid dess sida."
+  },
+  "badDreams": {
+    "name": "Mardrömslik",
+    "description": "Denna pokémon orsakar mardrömmar hos sovande motståndare, vilket orkar dem skada varje omgång."
+  },
+  "pickpocket": {
+    "name": "Långfingrad",
+    "description": "Denna pokémon stjäl burna föremål från anfallare vid fysisk kontakt."
+  },
+  "sheerForce": {
+    "name": "Råstyrka",
+    "description": "Denna pokémons tekniker tappar sina bonuseffekter men blir ännu starkare."
+  },
+  "contrary": {
+    "name": "Motsträvig",
+    "description": "Alla förmågeändringar har motsatt effekt."
+  },
+  "unnerve": {
+    "name": "Oroväckande",
+    "description": "Denna pokémon oroar sina motståndare, vilket gör så att de inte kan äta bär."
+  },
+  "defiant": {
+    "name": "Trotsig",
+    "description": "Denna pokémons attackförmåga ökar skarpt när en av dess förmågor sänks."
+  },
+  "defeatist": {
+    "name": "Krake",
+    "description": "Denna pokémons attack- och sp. atk-förmåga halveras när dess HP sjunker under hälften."
+  },
+  "cursedBody": {
+    "name": "Förbannad",
+    "description": "Denna pokémon förbannar ibland tekniker som används på den så att de spärras och inte kan utföras."
+  },
+  "healer": {
+    "name": "Helare",
+    "description": "Denna pokémon läker ibland tillståndspåverkan av den vid dess sida i strid."
+  },
+  "friendGuard": {
+    "name": "Beskyddande"
+  },
+  "weakArmor": {
+    "name": "Lättrustad"
+  },
+  "heavyMetal": {
+    "name": "Tungmetall"
+  },
+  "lightMetal": {
+    "name": "Lättmetall"
+  },
+  "multiscale": {
+    "name": "Multifjäll"
+  },
+  "toxicBoost": {
+    "name": "Giftdräpande"
+  },
+  "flareBoost": {
+    "name": "Eldfängd"
+  },
+  "harvest": {
+    "name": "Skördare"
+  },
+  "telepathy": {
+    "name": "Telepatisk"
+  },
+  "moody": {
+    "name": "Lynnig"
+  },
+  "overcoat": {
+    "name": "Partikelskydd"
+  },
+  "poisonTouch": {
+    "name": "Virulent"
+  },
+  "regenerator": {
+    "name": "Regenerativ"
+  },
+  "bigPecks": {
+    "name": "Tuppig"
+  },
+  "sandRush": {
+    "name": "Sandspringare"
+  },
+  "wonderSkin": {
+    "name": "Mirakulör"
+  },
+  "analytic": {
+    "name": "Analytisk"
+  },
+  "illusion": {
+    "name": "Illusionist"
+  },
+  "mummy": {
+    "name": "Mumie"
+  },
+  "moxie": {
+    "name": "Överlägsen"
+  },
+  "disguise": {
+    "name": "Förklädd"
+  },
+  "beastBoost": {
+    "name": "Bestbemästrande"
+  },
+  "iceFace": {
+    "name": "Huvudet kallt"
+  },
+  "perishBody": {
+    "name": "Undergångssjäl"
+  },
+  "quickDraw": {
+    "name": "Snabba drag"
+  },
+  "windPower": {
+    "name": "Vindkraft"
   }
 }

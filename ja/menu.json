@@ -28,8 +28,6 @@
   "registrationAgeWarning": "登録では 13歳以上 であることを 確認します。",
   "backToLogin": "ログインへ",
   "goBack": "戻る",
-  "changeLanguage": "言語を変える",
-  "showUsernames": "ユーザー名を表示",
   "failedToLoadSaveData": "セーブデータの 読み込みは 不可能でした。 ページを 再読み込み してください。\n長い間に続く 場合は Discordで #announcementsを ご確認ください。",
   "serverCommunicationFailed": "サーバーに接続できません。\nゲームが再読み込みされます。",
   "sessionSuccess": "セッションが　正常に　読み込まれました。",
@@ -49,7 +47,7 @@
   "wave": "ラウンド",
   "loading": "読み込み中…",
   "loadingAsset": "読み込み中: {{assetName}}",
-  "playersOnline": "オンラインのプレイヤー",
+  "playersOnline": "人のオンラインプレイヤー",
   "loggedInAs": "{{username}}としてログイン中",
   "yes": "はい",
   "no": "いいえ",
@@ -65,5 +63,6 @@
   "errorServerDown": "おや！\nサーバーとの 接続中に 問題が 発生しました。\nゲームは すぐ 自動的に 再接続されて\nウィンドウは 開いたままに しておいても よろしいです。\nDiscordで #announcementsも ご確認ください。",
   "noSaves": "何の　セーブファイルも　ありません！",
   "tooManySaves": "セーブファイルが　いっぱいです!",
-  "eventTimer": "イベントが終わるまで：{{days}}日 {{hours}}時間 {{mins}}分 {{secs}}秒"
+  "eventTimer": "イベントが終わるまで：{{days}}日 {{hours}}時間 {{mins}}分 {{secs}}秒",
+  "serverError": "サーバーエラーが発生しました。\nしばらくしてからもう一度お試しください。"
 }
