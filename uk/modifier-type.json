@@ -1,0 +1,28 @@
+{
+  "ModifierType": {
+    "AddPokeballModifierType": {
+      "name": "×{{modifierCount}} {{pokeballName}}ов",
+      "description": "Отримати ×{{modifierCount}} {{pokeballName}}ов (В інветар: {{pokeballAmount}})\nШанс піймання: {{catchRate}}"
+    },
+    "AddVoucherModifierType": {
+      "name": "×{{modifierCount}} {{voucherTypeName}}",
+      "description": "Отримати ×{{modifierCount}} {{voucherTypeName}}"
+    },
+    "PokemonHeldItemModifierType": {
+      "extra": {
+        "inoperable": "{{pokemonName}} не може взять цей предмет!",
+        "tooMany": "{{pokemonName}} не може взять більше цього предмету!"
+      }
+    },
+    "PokemonHpRestoreModifierType": {
+      "description": "Відновлює здоров'я в {{restorePoints}} ОЗ чи {{restorePercent}}% HP одного Поке́мона, залежно що більше.",
+      "extra": {
+        "fully": "Повністю відновлює ОЗ Поке́мона",
+        "fullyWithStatus": "Відновлює ОЗ Поке́мону та при цьому лікує від статусних ефектів"
+      }
+    },
+    "PokemonReviveModifierType": {
+      "description": "Відроджує Поке́мона, відновлюючи йому ОЗ в {{restorePercent}}%"
+    }
+  }
+}
