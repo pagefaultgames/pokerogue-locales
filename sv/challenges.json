@@ -1,0 +1,34 @@
+{
+  "title": "Utmaningsinställningar",
+  "illegalEvolution": "{{pokemon}} blev en ogiltig pokémon\nför denna utmaning!",
+  "noneSelected": "Inga valda",
+  "freshStart": {
+    "name": "Nystart",
+    "desc": {
+      "0": "Simulerar utmaningen att använda nyligen skaffade startare utan några upplåsta egenskaper.",
+      "1": "Du kan endast använda originalstartarna utan upplåsta egenskaper, som om du startat PokéRogue på nytt.",
+      "2": "Du kan använda alla dina startare men utan upplåsta egenskaper, som om du nyss skaffat dem för första gången."
+    },
+    "value": {
+      "0": "Av",
+      "1": "Nollställ",
+      "2": "Alla startare"
+    }
+  },
+  "hardcore": {
+    "name": "Hardcore",
+    "desc": "Du kan inte längre återuppliva pokémon som svimmat.",
+    "value": {
+      "0": "Av",
+      "1": "På"
+    }
+  },
+  "limitedCatch": {
+    "name": "Fångstgräns",
+    "desc": "Du kan endast lägga till den första pokémon du möter i ett biom i ditt aktuella lag.",
+    "value": {
+      "0": "Av",
+      "1": "På"
+    }
+  }
+}
