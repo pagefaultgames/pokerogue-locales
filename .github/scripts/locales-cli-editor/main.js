@@ -10,11 +10,10 @@
  * Usage: `node ./.github/scripts/locales-cli-editor/main.js`
  */
 
-import fs from "node:fs";
-import path from "node:path";
+import { input, select } from "@inquirer/prompts";
 import chalk from "chalk";
-import inquirer from "inquirer";
-import { resolve } from "node:path";
+import fs from "node:fs";
+import path, { resolve } from "node:path";
 
 //#region Constants
 
@@ -195,16 +194,12 @@ function unescapeSpecialCharsAndConvertQuotes(str) {
  */
 async function reword(fileChoice, keyChoice, keyValue) {
   const value = chalk.red(escapeSpecialChars(keyValue));
-  let newValue = unescapeSpecialCharsAndConvertQuotes((
-    await inquirer.prompt([
-      {
-        type: "input",
-        name: "newValue",
-        message: `"${keyChoice} current reads:\n\t${value}\nEnter new value for "${keyChoice}" (press TAB to edit the placeholder):\n`,
-        default: keyValue,
-      },
-    ])
-  ).newValue)
+  let newValue = unescapeSpecialCharsAndConvertQuotes(
+    await input({
+      message: `"${keyChoice} current reads:\n\t${value}\nEnter new value for "${keyChoice}" (press TAB to edit the placeholder):\n`,
+      default: keyValue,
+    })
+  )
 
 
   if (newValue.trim().length === 0) {
@@ -254,31 +249,24 @@ async function main() {
   try {
     // Step 1: Select file
     /** @type {string} */
-    const fileChoice = (
-      await inquirer.prompt([
-        {
-          type: "list",
-          name: "selectedFile",
-          message: "Select a locales file to manage:",
-          choices: LOCALES_FILES,
-        },
-      ])
-    ).selectedFile;
+    const fileChoice = await select({
+      message: "Select a locales file to manage:",
+      choices: LOCALES_FILES,
+    });
 
     const filePath = path.join(LOCALES_PATH, fileChoice);
     const allKeys = getAllKeysFromFile(filePath);
 
+    if (allKeys.length === 0) {
+      console.error(chalk.red.bold("✗ Error: No keys found in file. This can happen if the file contains only nested objects."));
+      return;
+    }
+
     /** @type {string} */
-    const keyChoice = (
-      await inquirer.prompt([
-        {
-          type: "list",
-          name: "selectedKey",
-          message: "Select a key to reword or delete:",
-          choices: allKeys.sort(),
-        },
-      ])
-    ).selectedKey;
+    const keyChoice = await select({
+      message: "Select a key to reword or delete:",
+      choices: allKeys.sort(),
+    });
 
     let keyValue = getKeyValue(filePath, keyChoice);
     if (keyValue === undefined) {
@@ -289,16 +277,10 @@ async function main() {
 
     // Step 3: Choose action
     /** @type string */
-    const action = (
-      await inquirer.prompt([
-        {
-          type: "list",
-          name: "action",
-          message: `What would you like to do with "${keyChoice}"?`,
-          choices: ["Reword", "Delete", "Cancel"],
-        },
-      ])
-    ).action;
+    const action = await select({
+      message: `What would you like to do with "${keyChoice}"?`,
+      choices: ["Reword", "Delete", "Cancel"],
+    });
 
     switch (action) {
       case "Reword":
