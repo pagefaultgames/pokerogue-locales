@@ -7,20 +7,23 @@
     "description": "Quando il Pokémon entra in campo, attira la pioggia."
   },
   "speedBoost": {
-    "name": "Acceleratore"
+    "name": "Acceleratore",
+    "description": "La Velocità aumenta a ogni turno."
   },
   "battleArmor": {
     "name": "Lottascudo",
     "description": "Il Pokémon è protetto da una dura corazza che gli evita di subire brutti colpi."
   },
   "sturdy": {
-    "name": "Vigore"
+    "name": "Vigore",
+    "description": "Evita che il Pokémon vada KO in un sol colpo se ha tutti i PS e lo rende immune alle mosse che causano KO immediato."
   },
   "damp": {
     "name": "Umidità"
   },
   "limber": {
-    "name": "Scioltezza"
+    "name": "Scioltezza",
+    "description": "Il corpo flessibile del Pokémon gli impedisce di subire gli effetti della paralisi."
   },
   "sandVeil": {
     "name": "Sabbiavelo"
@@ -35,7 +38,8 @@
     "name": "Assorbacqua"
   },
   "oblivious": {
-    "name": "Indifferenza"
+    "name": "Indifferenza",
+    "description": "L’imperturbabilità del Pokémon lo protegge da infatuazioni, provocazioni e dall’effetto di Prepotenza."
   },
   "cloudNine": {
     "name": "Antimeteo",
@@ -45,35 +49,43 @@
     "name": "Insettocchi"
   },
   "insomnia": {
-    "name": "Insonnia"
+    "name": "Insonnia",
+    "description": "Il Pokémon soffre d’insonnia e non può addormentarsi."
   },
   "colorChange": {
     "name": "Cambiacolore",
     "description": "Il Pokémon acquisisce il tipo della mossa subita."
   },
   "immunity": {
-    "name": "Immunità"
+    "name": "Immunità",
+    "description": "L’immunità naturale del Pokémon gli impedisce di essere avvelenato."
   },
   "flashFire": {
     "name": "Fuocardore"
   },
   "shieldDust": {
-    "name": "Polvoscudo"
+    "name": "Polvoscudo",
+    "description": "Il Pokémon è protetto da uno strato di scaglie che annulla gli effetti aggiuntivi delle mosse subite."
   },
   "ownTempo": {
-    "name": "Mente Locale"
+    "name": "Mente Locale",
+    "description": "Il Pokémon affronta la vita al proprio ritmo e per questo non può essere confuso o subire l’effetto di Prepotenza."
   },
   "suctionCups": {
-    "name": "Ventose"
+    "name": "Ventose",
+    "description": "Il Pokémon resiste a strumenti e mosse che causano la sostituzione appiccicandosi al terreno con le ventose."
   },
   "intimidate": {
-    "name": "Prepotenza"
+    "name": "Prepotenza",
+    "description": "Quando il Pokémon entra in campo, la sua prepotenza crea soggezione, riducendo l’Attacco degli avversari intimiditi."
   },
   "shadowTag": {
-    "name": "Pedinombra"
+    "name": "Pedinombra",
+    "description": "Il Pokémon impedisce la fuga o la sostituzione degli avversari di cui calpesta l’ombra."
   },
   "roughSkin": {
-    "name": "Cartavetro"
+    "name": "Cartavetro",
+    "description": "Quando il Pokémon subisce un attacco, grazie alla sua pelle ruvida infligge a sua volta danni al Pokémon con cui è entrato in contatto."
   },
   "wonderGuard": {
     "name": "Magidifesa",
@@ -95,19 +107,24 @@
     "description": "Impedisce la diminuzione delle statistiche causata da abilità o mosse di altri Pokémon."
   },
   "naturalCure": {
-    "name": "Alternacura"
+    "name": "Alternacura",
+    "description": "Quando il Pokémon lascia il campo, guarisce dai problemi di stato."
   },
   "lightningRod": {
-    "name": "Parafulmine"
+    "name": "Parafulmine",
+    "description": "Il Pokémon attira e neutralizza le mosse di tipo Elettro, facendo aumentare il suo Attacco Speciale."
   },
   "sereneGrace": {
-    "name": "Leggiadro"
+    "name": "Leggiadro",
+    "description": "Rende più probabili gli effetti aggiuntivi delle mosse. Non si applica agli strumenti."
   },
   "swiftSwim": {
-    "name": "Nuotovelox"
+    "name": "Nuotovelox",
+    "description": "Se piove, la Velocità aumenta."
   },
   "chlorophyll": {
-    "name": "Clorofilla"
+    "name": "Clorofilla",
+    "description": "Se la luce del sole è intensa, la Velocità aumenta."
   },
   "illuminate": {
     "name": "Risplendi"
@@ -124,16 +141,20 @@
     "name": "Velenopunto"
   },
   "innerFocus": {
-    "name": "Forza Interiore"
+    "name": "Forza Interiore",
+    "description": "La capacità di concentrazione del Pokémon evita che tentenni per gli attacchi subiti e lo protegge dall’effetto di Prepotenza."
   },
   "magmaArmor": {
-    "name": "Magmascudo"
+    "name": "Magmascudo",
+    "description": "Il magma riveste il corpo del Pokémon impedendogli di venire congelato."
   },
   "waterVeil": {
-    "name": "Idrovelo"
+    "name": "Idrovelo",
+    "description": "Un velo d’acqua riveste il corpo del Pokémon impedendogli di venire scottato."
   },
   "magnetPull": {
-    "name": "Magnetismo"
+    "name": "Magnetismo",
+    "description": "La carica magnetica attrae i Pokémon di tipo Acciaio impedendogli la fuga o la sostituzione."
   },
   "soundproof": {
     "name": "Antisuono",
@@ -168,13 +189,15 @@
     "name": "Sguardofermo"
   },
   "hyperCutter": {
-    "name": "Ipertaglio"
+    "name": "Ipertaglio",
+    "description": "Le possenti chele o tenaglie di cui è dotato il Pokémon fanno sì che il suo Attacco non possa essere diminuito da altri."
   },
   "pickup": {
     "name": "Raccolta"
   },
   "truant": {
-    "name": "Pigrone"
+    "name": "Pigrone",
+    "description": "Quando il Pokémon usa una mossa, nel turno successivo si riposerà."
   },
   "hustle": {
     "name": "Tuttafretta"
@@ -193,7 +216,8 @@
     "description": "Cambia il tipo del Pokémon in Acqua, Fuoco o Ghiaccio in base alle condizioni atmosferiche."
   },
   "stickyHold": {
-    "name": "Antifurto"
+    "name": "Antifurto",
+    "description": "Gli strumenti restano appiccicati al corpo adesivo del Pokémon e non possono essere rubati."
   },
   "shedSkin": {
     "name": "Muta"
@@ -254,13 +278,15 @@
     "name": "Intricopiedi"
   },
   "motorDrive": {
-    "name": "Elettrorapid"
+    "name": "Elettrorapid",
+    "description": "Se il Pokémon viene colpito da una mossa di tipo Elettro, la neutralizza e sfrutta la carica elettrica per aumentare la propria Velocità."
   },
   "rivalry": {
     "name": "Antagonismo"
   },
   "steadfast": {
-    "name": "Cuordeciso"
+    "name": "Cuordeciso",
+    "description": "Se il Pokémon tentenna, il suo animo indomito si risveglia e la sua Velocità aumenta."
   },
   "snowCloak": {
     "name": "Mantelneve"
@@ -269,7 +295,8 @@
     "name": "Voracità"
   },
   "angerPoint": {
-    "name": "Grancollera"
+    "name": "Grancollera",
+    "description": "Se il Pokémon subisce un brutto colpo, monta su tutte le furie e il suo Attacco aumenta al massimo."
   },
   "unburden": {
     "name": "Agiltecnica"
@@ -278,7 +305,8 @@
     "name": "Antifuoco"
   },
   "simple": {
-    "name": "Disinvoltura"
+    "name": "Disinvoltura",
+    "description": "Raddoppia le modifiche alle statistiche."
   },
   "drySkin": {
     "name": "Pellearsa"
@@ -321,7 +349,8 @@
     "name": "Nullodifesa"
   },
   "stall": {
-    "name": "Rallentatore"
+    "name": "Rallentatore",
+    "description": "Il Pokémon agisce sempre per ultimo."
   },
   "technician": {
     "name": "Tecnico"
@@ -335,7 +364,8 @@
     "description": "Il Pokémon non può usare lo strumento che ha con sé."
   },
   "moldBreaker": {
-    "name": "Rompiforma"
+    "name": "Rompiforma",
+    "description": "Il Pokémon può usare le sue mosse sul bersaglio indipendentemente dall’abilità di quest’ultimo."
   },
   "superLuck": {
     "name": "Supersorte"
@@ -368,7 +398,8 @@
     "name": "Nervisaldi"
   },
   "stormDrain": {
-    "name": "Acquascolo"
+    "name": "Acquascolo",
+    "description": "Il Pokémon attira e neutralizza le mosse di tipo Acqua e fa aumentare il proprio Attacco Speciale."
   },
   "iceBody": {
     "name": "Corpogelo"
@@ -414,10 +445,12 @@
     "description": "Il nemico viene intimidito e non può mangiare bacche."
   },
   "defiant": {
-    "name": "Agonismo"
+    "name": "Agonismo",
+    "description": "L’Attacco aumenta di molto quando le statistiche diminuiscono a causa di un avversario."
   },
   "defeatist": {
-    "name": "Sconforto"
+    "name": "Sconforto",
+    "description": "Quando i PS scendono a metà o meno, il Pokémon si scoraggia e l’Attacco e l’Attacco Speciale vengono dimezzati."
   },
   "cursedBody": {
     "name": "Corpofunesto"
@@ -429,7 +462,8 @@
     "name": "Amicoscudo"
   },
   "weakArmor": {
-    "name": "Sottilguscio"
+    "name": "Sottilguscio",
+    "description": "Se il Pokémon subisce danni da mosse fisiche, la Difesa diminuisce e la Velocità aumenta di molto."
   },
   "heavyMetal": {
     "name": "Metalpesante",
@@ -467,7 +501,8 @@
     "name": "Rigenergia"
   },
   "bigPecks": {
-    "name": "Pettinfuori"
+    "name": "Pettinfuori",
+    "description": "Evita che la Difesa venga ridotta."
   },
   "sandRush": {
     "name": "Remasabbia"
@@ -479,13 +514,15 @@
     "name": "Ponderazione"
   },
   "illusion": {
-    "name": "Illusione"
+    "name": "Illusione",
+    "description": "Il Pokémon crea un’illusione entrando in campo con le sembianze dell’ultimo Pokémon della propria squadra."
   },
   "imposter": {
     "name": "Sosia"
   },
   "infiltrator": {
-    "name": "Intrapasso"
+    "name": "Intrapasso",
+    "description": "Il Pokémon attacca evitando le barriere e i sostituti."
   },
   "mummy": {
     "name": "Mummia",
@@ -496,16 +533,20 @@
     "description": "Quando manda un nemico KO, il Pokémon si fa sicuro di sé e aumenta il proprio Attacco."
   },
   "justified": {
-    "name": "Giustizia"
+    "name": "Giustizia",
+    "description": "Quando il Pokémon subisce un attacco di tipo Buio, il suo forte senso di giustizia fa sì che l’Attacco aumenti."
   },
   "rattled": {
-    "name": "Paura"
+    "name": "Paura",
+    "description": "Se il Pokémon subisce un attacco di tipo Buio, Spettro o Coleottero, oppure subisce l’effetto di Prepotenza, si spaventa e la sua Velocità aumenta."
   },
   "magicBounce": {
-    "name": "Magispecchio"
+    "name": "Magispecchio",
+    "description": "Il Pokémon rimanda al mittente le mosse di stato senza subirne gli effetti."
   },
   "sapSipper": {
-    "name": "Mangiaerba"
+    "name": "Mangiaerba",
+    "description": "Se il Pokémon viene colpito da una mossa di tipo Erba, la neutralizza e aumenta il proprio Attacco."
   },
   "prankster": {
     "name": "Burla"
@@ -523,10 +564,12 @@
     "name": "Vittorstella"
   },
   "turboblaze": {
-    "name": "Piroturbina"
+    "name": "Piroturbina",
+    "description": "Quando il Pokémon attacca, ignora l’abilità del bersaglio se questa ha effetto sulle mosse."
   },
   "teravolt": {
-    "name": "Teravolt"
+    "name": "Teravolt",
+    "description": "Quando il Pokémon attacca, ignora l’abilità del bersaglio se questa ha effetto sulle mosse."
   },
   "aromaVeil": {
     "name": "Aromavelo"
@@ -545,13 +588,16 @@
     "name": "Foltopelo"
   },
   "magician": {
-    "name": "Prestigiatore"
+    "name": "Prestigiatore",
+    "description": "Quando chi la usa colpisce un Pokémon con una mossa, gli ruba lo strumento."
   },
   "bulletproof": {
-    "name": "Antiproiettile"
+    "name": "Antiproiettile",
+    "description": "Protegge da alcune mosse a base di proiettili e bombe."
   },
   "competitive": {
-    "name": "Tenacia"
+    "name": "Tenacia",
+    "description": "L’Attacco Speciale aumenta di molto quando le statistiche diminuiscono a causa di un avversario."
   },
   "strongJaw": {
     "name": "Ferromascella"
@@ -567,7 +613,8 @@
     "description": "Assume la Forma Spada se usa una mossa d’attacco e la Forma Scudo se usa Scudo Reale."
   },
   "galeWings": {
-    "name": "Aliraffica"
+    "name": "Aliraffica",
+    "description": "Se il Pokémon ha tutti i PS, le sue mosse di tipo Volante acquistano priorità alta."
   },
   "megaLauncher": {
     "name": "Megalancio"
@@ -616,26 +663,32 @@
     "name": "Flusso Delta"
   },
   "stamina": {
-    "name": "Sopportazione"
+    "name": "Sopportazione",
+    "description": "Se il Pokémon subisce un attacco, la sua Difesa aumenta."
   },
   "wimpOut": {
-    "name": "Fuggifuggi"
+    "name": "Fuggifuggi",
+    "description": "Se i PS scendono a metà o meno, il Pokémon si fa prendere dalla paura e abbandona la lotta in tutta fretta."
   },
   "emergencyExit": {
-    "name": "Passoindietro"
+    "name": "Passoindietro",
+    "description": "Se i PS scendono a metà o meno, il Pokémon abbandona la lotta per sfuggire al pericolo."
   },
   "waterCompaction": {
-    "name": "Idrorinforzo"
+    "name": "Idrorinforzo",
+    "description": "Se il Pokémon subisce una mossa di tipo Acqua, la sua Difesa aumenta di molto."
   },
   "merciless": {
     "name": "Spietatezza",
     "description": "Gli attacchi sferrati su un bersaglio avvelenato producono sempre brutti colpi."
   },
   "shieldsDown": {
-    "name": "Scudosoglia"
+    "name": "Scudosoglia",
+    "description": "Se i PS scendono a metà o meno, il guscio si rompe e il Pokémon si prepara all’offensiva."
   },
   "stakeout": {
-    "name": "Sorveglianza"
+    "name": "Sorveglianza",
+    "description": "Può infliggere il doppio dei danni a un bersaglio che è appena entrato in campo per sostituire un altro Pokémon."
   },
   "waterBubble": {
     "name": "Bolladacqua"
@@ -644,7 +697,8 @@
     "name": "Tempracciaio"
   },
   "berserk": {
-    "name": "Furore"
+    "name": "Furore",
+    "description": "Se i PS scendono a metà o meno a causa di un attacco, l’Attacco Speciale aumenta."
   },
   "slushRush": {
     "name": "Spalaneve"
@@ -654,10 +708,12 @@
     "description": "Il Pokémon è in grado di usare tutte le sue mosse senza entrare in contatto diretto con il bersaglio."
   },
   "liquidVoice": {
-    "name": "Idrovoce"
+    "name": "Idrovoce",
+    "description": "Le mosse del Pokémon basate sul suono diventano di tipo Acqua."
   },
   "triage": {
-    "name": "Primacura"
+    "name": "Primacura",
+    "description": "Le mosse che ripristinano i PS del Pokémon acquistano priorità alta."
   },
   "galvanize": {
     "name": "Pellelettro"
@@ -675,7 +731,8 @@
     "name": "Morfosintonia"
   },
   "powerConstruct": {
-    "name": "Sciamefusione"
+    "name": "Sciamefusione",
+    "description": "Se i PS del Pokémon scendono a metà o meno, le cellule si raggruppano e gli permettono di assumere la Forma Perfetta."
   },
   "corrosion": {
     "name": "Corrosione"
@@ -687,10 +744,12 @@
     "name": "Regalità"
   },
   "innardsOut": {
-    "name": "Espellinterno"
+    "name": "Espellinterno",
+    "description": "Se il Pokémon va KO, infligge a chi lo ha colpito tanti danni quanti erano i PS che gli restavano."
   },
   "dancer": {
-    "name": "Sincrodanza"
+    "name": "Sincrodanza",
+    "description": "Permette al Pokémon di copiare immediatamente qualsiasi mossa basata sulla danza usata da un altro Pokémon in campo."
   },
   "battery": {
     "name": "Batteria"
@@ -703,7 +762,8 @@
     "name": "Corposgargiante"
   },
   "soulHeart": {
-    "name": "Cuoreanima"
+    "name": "Cuoreanima",
+    "description": "Aumenta l’Attacco Speciale ogni volta che un Pokémon va KO."
   },
   "tanglingHair": {
     "name": "Boccolidoro",
@@ -718,7 +778,8 @@
     "description": "Il Pokémon trasforma la propria abilità in quella di un alleato andato KO."
   },
   "beastBoost": {
-    "name": "Ultraboost"
+    "name": "Ultraboost",
+    "description": "Quando il Pokémon manda KO un altro Pokémon, aumenta la propria statistica di punta."
   },
   "rksSystem": {
     "name": "Sistema Primevo",
@@ -833,7 +894,8 @@
     "name": "Vigorilla"
   },
   "neutralizingGas": {
-    "name": "Gas Reagente"
+    "name": "Gas Reagente",
+    "description": "Se in campo c’è un Pokémon con Gas Reagente, gli effetti delle abilità di tutti gli altri Pokémon vengono annullati o non si attivano."
   },
   "pastelVeil": {
     "name": "Pastelvelo"
