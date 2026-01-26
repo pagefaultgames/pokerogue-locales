@@ -7,20 +7,23 @@
     "description": "등장했을 때 날씨를 비로 만든다."
   },
   "speedBoost": {
-    "name": "가속"
+    "name": "가속",
+    "description": "매 턴 스피드가 올라간다."
   },
   "battleArmor": {
     "name": "전투무장",
     "description": "단단한 껍질에 보호받아 상대의 공격이 급소에 맞지 않는다."
   },
   "sturdy": {
-    "name": "옹골참"
+    "name": "옹골참",
+    "description": "HP가 꽉 찼을 때 기술을 받아도 일격에 쓰러지지 않는다. 일격필살 기술의 효과도 받지 않는다."
   },
   "damp": {
     "name": "습기"
   },
   "limber": {
-    "name": "유연"
+    "name": "유연",
+    "description": "유연한 몸으로 인해 마비 상태가 되지 않는다."
   },
   "sandVeil": {
     "name": "모래숨기"
@@ -35,7 +38,8 @@
     "name": "저수"
   },
   "oblivious": {
-    "name": "둔감"
+    "name": "둔감",
+    "description": "둔감해서 헤롱헤롱이나 도발 상태가 되지 않는다. 위협을 당해도 동요하지 않는다."
   },
   "cloudNine": {
     "name": "날씨부정",
@@ -45,32 +49,39 @@
     "name": "복안"
   },
   "insomnia": {
-    "name": "불면"
+    "name": "불면",
+    "description": "잠들지 못하는 체질이라 잠듦 상태가 되지 않는다."
   },
   "colorChange": {
     "name": "변색",
     "description": "상대에게 받은 기술의 타입으로 자신의 타입이 변화한다."
   },
   "immunity": {
-    "name": "면역"
+    "name": "면역",
+    "description": "체내에 면역을 가지고 있어 독 상태가 되지 않는다."
   },
   "flashFire": {
     "name": "타오르는불꽃"
   },
   "shieldDust": {
-    "name": "인분"
+    "name": "인분",
+    "description": "인분에 보호받아 기술의 추가 효과를 받지 않게 된다."
   },
   "ownTempo": {
-    "name": "마이페이스"
+    "name": "마이페이스",
+    "description": "마이페이스라서 혼란 상태가 되지 않는다. 위협을 당해도 동요하지 않는다."
   },
   "suctionCups": {
-    "name": "흡반"
+    "name": "흡반",
+    "description": "흡반으로 지면에 달라붙어 포켓몬을 교체시키는 기술이나 도구의 효과를 발휘하지 못하게 한다."
   },
   "intimidate": {
-    "name": "위협"
+    "name": "위협",
+    "description": "등장했을 때 위협해서 상대를 위축시켜 상대의 공격을 떨어뜨린다."
   },
   "shadowTag": {
-    "name": "그림자밟기"
+    "name": "그림자밟기",
+    "description": "상대의 그림자를 밟아 도망치거나 교체할 수 없게 한다."
   },
   "roughSkin": {
     "name": "까칠한피부"
@@ -95,10 +106,12 @@
     "description": "상대 기술이나 특성으로 능력이 떨어지지 않는다."
   },
   "naturalCure": {
-    "name": "자연회복"
+    "name": "자연회복",
+    "description": "지닌 포켓몬으로 돌아오면 상태 이상이 회복된다."
   },
   "lightningRod": {
-    "name": "피뢰침"
+    "name": "피뢰침",
+    "description": "전기타입의 기술을 자신에게 끌어모아 데미지를 받지 않고 특수공격을 올린다."
   },
   "sereneGrace": {
     "name": "하늘의은총"
@@ -124,16 +137,20 @@
     "name": "독가시"
   },
   "innerFocus": {
-    "name": "정신력"
+    "name": "정신력",
+    "description": "단련한 정신 덕분에 상대의 공격에 풀죽지 않는다. 위협을 당해도 동요하지 않는다."
   },
   "magmaArmor": {
-    "name": "마그마의무장"
+    "name": "마그마의무장",
+    "description": "뜨거운 마그마를 몸에 둘러서 얼음 상태가 되지 않는다."
   },
   "waterVeil": {
-    "name": "수의베일"
+    "name": "수의베일",
+    "description": "물의 베일을 몸에 둘러서 화상 상태가 되지 않는다."
   },
   "magnetPull": {
-    "name": "자력"
+    "name": "자력",
+    "description": "강철타입의 포켓몬을 자력으로 끌어모아 도망칠 수 없게 한다."
   },
   "soundproof": {
     "name": "방음",
@@ -168,13 +185,15 @@
     "name": "날카로운눈"
   },
   "hyperCutter": {
-    "name": "괴력집게"
+    "name": "괴력집게",
+    "description": "힘이 자랑인 집게를 가지고 있어 상대가 공격을 떨어뜨리지 못하게 한다."
   },
   "pickup": {
     "name": "픽업"
   },
   "truant": {
-    "name": "게으름"
+    "name": "게으름",
+    "description": "기술을 사용하면 다음 턴은 쉰다."
   },
   "hustle": {
     "name": "의욕"
@@ -193,7 +212,8 @@
     "description": "날씨의 영향을 받아 물타입, 불꽃타입, 얼음타입 중 하나로 변화한다."
   },
   "stickyHold": {
-    "name": "점착"
+    "name": "점착",
+    "description": "점성이 높은 몸에 도구가 달라붙어 있어 상대에게 도구를 뺏기지 않는다."
   },
   "shedSkin": {
     "name": "탈피"
@@ -254,13 +274,15 @@
     "name": "갈지자걸음"
   },
   "motorDrive": {
-    "name": "전기엔진"
+    "name": "전기엔진",
+    "description": "전기타입의 기술로 공격받으면 데미지를 받지 않고 스피드가 올라간다."
   },
   "rivalry": {
     "name": "투쟁심"
   },
   "steadfast": {
-    "name": "불굴의마음"
+    "name": "불굴의마음",
+    "description": "풀죽을 때마다 불굴의 마음을 불태워 스피드가 올라간다."
   },
   "snowCloak": {
     "name": "눈숨기"
@@ -269,7 +291,8 @@
     "name": "먹보"
   },
   "angerPoint": {
-    "name": "분노의경혈"
+    "name": "분노의경혈",
+    "description": "급소에 공격이 맞으면 크게 분노해 공격력이 최대가 된다."
   },
   "unburden": {
     "name": "곡예"
@@ -321,7 +344,8 @@
     "name": "노가드"
   },
   "stall": {
-    "name": "시간벌기"
+    "name": "시간벌기",
+    "description": "기술을 사용하는 순서가 반드시 마지막이 된다."
   },
   "technician": {
     "name": "테크니션"
@@ -335,7 +359,8 @@
     "description": "지니고 있는 도구를 쓸 수 없다."
   },
   "moldBreaker": {
-    "name": "틀깨기"
+    "name": "틀깨기",
+    "description": "상대 특성에 방해받지 않고 상대에게 기술을 쓸 수 있다."
   },
   "superLuck": {
     "name": "대운"
@@ -368,7 +393,8 @@
     "name": "배짱"
   },
   "stormDrain": {
-    "name": "마중물"
+    "name": "마중물",
+    "description": "물타입의 기술을 자신에게 끌어모아 데미지를 받지 않고 특수공격이 올라간다."
   },
   "iceBody": {
     "name": "아이스바디"
@@ -414,10 +440,12 @@
     "description": "상대를 긴장시켜 나무열매를 먹지 못하게 한다."
   },
   "defiant": {
-    "name": "오기"
+    "name": "오기",
+    "description": "상대에 의해 능력이 떨어지면 공격이 크게 올라간다."
   },
   "defeatist": {
-    "name": "무기력"
+    "name": "무기력",
+    "description": "HP가 절반이 되면 무기력해져서 공격과 특수공격이 반감된다."
   },
   "cursedBody": {
     "name": "저주받은바디"
@@ -429,7 +457,8 @@
     "name": "프렌드가드"
   },
   "weakArmor": {
-    "name": "깨어진갑옷"
+    "name": "깨어진갑옷",
+    "description": "물리 기술로 데미지를 받으면 방어가 떨어지고 스피드가 크게 올라간다."
   },
   "heavyMetal": {
     "name": "헤비메탈",
@@ -467,7 +496,8 @@
     "name": "재생력"
   },
   "bigPecks": {
-    "name": "부풀린가슴"
+    "name": "부풀린가슴",
+    "description": "방어를 떨어뜨리는 효과를 받지 않는다."
   },
   "sandRush": {
     "name": "모래헤치기"
@@ -479,13 +509,15 @@
     "name": "애널라이즈"
   },
   "illusion": {
-    "name": "일루전"
+    "name": "일루전",
+    "description": "지닌 포켓몬 중 제일 뒤에 있는 포켓몬으로 둔갑하여 나와서 상대를 속인다."
   },
   "imposter": {
     "name": "괴짜"
   },
   "infiltrator": {
-    "name": "틈새포착"
+    "name": "틈새포착",
+    "description": "상대의 벽이나 대타출동을 뚫고 공격할 수 있다."
   },
   "mummy": {
     "name": "미라",
@@ -496,16 +528,20 @@
     "description": "상대를 쓰러뜨리면 자신감이 붙어서 공격이 올라간다."
   },
   "justified": {
-    "name": "정의의마음"
+    "name": "정의의마음",
+    "description": "악타입 공격을 받으면 정의감으로 공격이 올라간다."
   },
   "rattled": {
-    "name": "주눅"
+    "name": "주눅",
+    "description": "악, 고스트, 벌레타입 기술로 공격받거나 위협을 받으면 주눅이 들어 스피드가 올라간다."
   },
   "magicBounce": {
-    "name": "매직미러"
+    "name": "매직미러",
+    "description": "상대가 쓴 변화 기술을 반사해 그대로 되돌려줄 수 있다."
   },
   "sapSipper": {
-    "name": "초식"
+    "name": "초식",
+    "description": "풀타입 기술로 공격받으면 데미지를 받지 않고 공격이 올라간다."
   },
   "prankster": {
     "name": "짓궂은마음"
@@ -523,10 +559,12 @@
     "name": "승리의별"
   },
   "turboblaze": {
-    "name": "터보블레이즈"
+    "name": "터보블레이즈",
+    "description": "상대 특성에 방해받지 않고 상대에게 기술을 쓸 수 있다."
   },
   "teravolt": {
-    "name": "테라볼티지"
+    "name": "테라볼티지",
+    "description": "상대 특성에 방해받지 않고 상대에게 기술을 쓸 수 있다."
   },
   "aromaVeil": {
     "name": "아로마베일"
@@ -545,13 +583,16 @@
     "name": "퍼코트"
   },
   "magician": {
-    "name": "매지션"
+    "name": "매지션",
+    "description": "기술을 맞은 상대의 도구를 빼앗아 버린다."
   },
   "bulletproof": {
-    "name": "방탄"
+    "name": "방탄",
+    "description": "상대의 구슬이나 폭탄 등의 기술을 막을 수 있다."
   },
   "competitive": {
-    "name": "승기"
+    "name": "승기",
+    "description": "상대에 의해 능력이 떨어지면 특수공격이 크게 올라간다."
   },
   "strongJaw": {
     "name": "옹골찬턱"
@@ -567,7 +608,8 @@
     "description": "공격 기술을 쓰면 블레이드폼으로 기술 킹실드를 쓰면 실드폼으로 변한다."
   },
   "galeWings": {
-    "name": "질풍날개"
+    "name": "질풍날개",
+    "description": "HP가 꽉 찼을 때 비행타입의 기술을 먼저 쓸 수 있다."
   },
   "megaLauncher": {
     "name": "메가런처"
@@ -616,26 +658,32 @@
     "name": "델타스트림"
   },
   "stamina": {
-    "name": "지구력"
+    "name": "지구력",
+    "description": "공격을 받으면 방어가 올라간다."
   },
   "wimpOut": {
-    "name": "도망태세"
+    "name": "도망태세",
+    "description": "HP가 절반이 되면 황급히 도망쳐서 지닌 포켓몬으로 돌아간다."
   },
   "emergencyExit": {
-    "name": "위기회피"
+    "name": "위기회피",
+    "description": "HP가 절반이 되면 위험을 회피하기 위해 지닌 포켓몬으로 돌아간다."
   },
   "waterCompaction": {
-    "name": "꾸덕꾸덕굳기"
+    "name": "꾸덕꾸덕굳기",
+    "description": "물타입의 기술로 공격받으면 방어가 크게 올라간다."
   },
   "merciless": {
     "name": "무도한행동",
     "description": "독 상태의 상대를 공격하면 반드시 급소에 맞는다."
   },
   "shieldsDown": {
-    "name": "리밋실드"
+    "name": "리밋실드",
+    "description": "HP가 절반이 되면 껍질이 깨져 공격적으로 된다."
   },
   "stakeout": {
-    "name": "잠복"
+    "name": "잠복",
+    "description": "교체로 나온 상대에게 2배 데미지로 공격할 수 있다."
   },
   "waterBubble": {
     "name": "수포"
@@ -644,7 +692,8 @@
     "name": "강철술사"
   },
   "berserk": {
-    "name": "발끈"
+    "name": "발끈",
+    "description": "상대의 공격으로 HP가 절반이 되면 특수공격이 올라간다."
   },
   "slushRush": {
     "name": "눈치우기"
@@ -654,10 +703,12 @@
     "description": "모든 기술을 상대에게 접촉하지 않고 사용할 수 있다."
   },
   "liquidVoice": {
-    "name": "촉촉보이스"
+    "name": "촉촉보이스",
+    "description": "모든 소리 기술이 물타입이 된다."
   },
   "triage": {
-    "name": "힐링시프트"
+    "name": "힐링시프트",
+    "description": "회복 기술을 먼저 사용할 수 있다."
   },
   "galvanize": {
     "name": "일렉트릭스킨"
@@ -675,7 +726,8 @@
     "name": "유대변화"
   },
   "powerConstruct": {
-    "name": "스웜체인지"
+    "name": "스웜체인지",
+    "description": "HP가 절반이 되면 셀들이 응원하러 달려와 퍼펙트폼으로 모습이 변한다."
   },
   "corrosion": {
     "name": "부식"
@@ -687,10 +739,12 @@
     "name": "여왕의위엄"
   },
   "innardsOut": {
-    "name": "내용물분출"
+    "name": "내용물분출",
+    "description": "상대에게 쓰러졌을 때 남아 있던 HP의 양만큼 상대에게 데미지를 준다."
   },
   "dancer": {
-    "name": "무희"
+    "name": "무희",
+    "description": "누군가 춤 기술을 쓰면 자신도 이어서 춤 기술을 쓸 수 있다."
   },
   "battery": {
     "name": "배터리"
@@ -703,7 +757,8 @@
     "name": "비비드바디"
   },
   "soulHeart": {
-    "name": "소울하트"
+    "name": "소울하트",
+    "description": "포켓몬이 기절할 때마다 특수공격이 올라간다."
   },
   "tanglingHair": {
     "name": "컬리헤어",
@@ -718,7 +773,8 @@
     "description": "쓰러진 같은 편의 특성을 이어받아 같은 특성으로 바뀐다."
   },
   "beastBoost": {
-    "name": "비스트부스트"
+    "name": "비스트부스트",
+    "description": "상대를 기절시켰을 때 자신의 가장 높은 능력이 올라간다."
   },
   "rksSystem": {
     "name": "AR시스템",
@@ -833,7 +889,8 @@
     "name": "무아지경"
   },
   "neutralizingGas": {
-    "name": "화학변화가스"
+    "name": "화학변화가스",
+    "description": "화학변화가스를 가진 포켓몬이 배틀에 나와 있으면 모든 포켓몬이 가진 특성의 효과가 사라지거나 발동하지 않게 된다."
   },
   "pastelVeil": {
     "name": "파스텔베일"
