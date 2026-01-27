@@ -20,63 +20,80 @@
     "description": "Das Pokémon kann bei vollen KP nicht auf einen Schlag von Attacken besiegt werden. Auch K.O.-Attacken wirken bei ihm nicht."
   },
   "damp": {
-    "name": "Feuchtigkeit"
+    "name": "Feuchtigkeit",
+    "description": "Befeuchtet die Umgebung und verhindert so den Einsatz von Attacken wie Finale, die Explosionen auslösen sowie Finalschlag."
   },
   "limber": {
-    "name": "Flexibilität"
+    "name": "Flexibilität",
+    "description": "Dank seines flexiblen Körpers kann das Pokémon nicht paralysiert werden."
   },
   "sandVeil": {
-    "name": "Sandschleier"
+    "name": "Sandschleier",
+    "description": "In Sandstürmen steigt der Ausweichwert des Pokémon um 20%. Das Pokémon nimmt in Sandstürmen keinen Schaden."
   },
   "static": {
-    "name": "Statik"
+    "name": "Statik",
+    "description": "Durch den statisch aufgeladenen Körper des Pokémon werden Angreifer bei Berührung mit einer Chance von 30% paralysiert."
   },
   "voltAbsorb": {
-    "name": "Voltabsorber"
+    "name": "Voltabsorber",
+    "description": "Wird das Pokémon von einer Elektro-Attacke getroffen, erleidet es keinen Schaden, sondern regeneriert ¼ seiner maximalen KP."
   },
   "waterAbsorb": {
-    "name": "H2O-Absorber"
+    "name": "H2O-Absorber",
+    "description": "Wird das Pokémon von einer Wasser-Attacke getroffen, erleidet es keinen Schaden, sondern regeneriert ¼ seiner maximalen KP."
   },
   "oblivious": {
-    "name": "Dösigkeit"
+    "name": "Dösigkeit",
+    "description": "Das Pokémon ist so apathisch, dass es nicht betört oder provoziert werden kann. Auch Bedroher wirkt bei ihm nicht."
   },
   "cloudNine": {
     "name": "Wolke Sieben",
     "description": "Hebt alle Wetter-Effekte auf."
   },
   "compoundEyes": {
-    "name": "Facettenauge"
+    "name": "Facettenauge",
+    "description": "Dank der Facettenaugen des Pokémon steigt die Genauigkeit seiner Attacken um 30%."
   },
   "insomnia": {
-    "name": "Insomnia"
+    "name": "Insomnia",
+    "description": "Das Pokémon leidet an Schlaflosigkeit und kann daher nicht in Schlaf versetzt werden."
   },
   "colorChange": {
     "name": "Farbwechsel",
     "description": "Ändert seinen Typ zu dem der Attacke des Angreifers."
   },
   "immunity": {
-    "name": "Immunität"
+    "name": "Immunität",
+    "description": "Dank seines starken Immunsystems kann das Pokémon nicht vergiftet werden."
   },
   "flashFire": {
-    "name": "Feuerfänger"
+    "name": "Feuerfänger",
+    "description": "Wird das Pokémon von einer Feuer-Attacke getroffen, nimmt es die Flammen in sich auf und verstärkt damit seine eigenen Feuer-Attacken um 50%."
   },
   "shieldDust": {
-    "name": "Puderabwehr"
+    "name": "Puderabwehr",
+    "description": "Das Pokémon ist durch Puder vor Zusatzeffekten von Attacken geschützt."
   },
   "ownTempo": {
-    "name": "Tempomacher"
+    "name": "Tempomacher",
+    "description": "Das Pokémon lässt sich nicht aus der Ruhe bringen und kann daher nicht verwirrt werden. Auch Bedroher wirkt bei ihm nicht."
   },
   "suctionCups": {
-    "name": "Saugnapf"
+    "name": "Saugnapf",
+    "description": "Das Pokémon verankert sich mit einem Saugnapf am Boden, wodurch Attacken und Items, durch die Pokémon ausgetauscht werden, keine Wirkung auf es haben."
   },
   "intimidate": {
-    "name": "Bedroher"
+    "name": "Bedroher",
+    "description": "Das Pokémon senkt bei Kampfantritt den Angriff von Gegnern, indem es sie bedroht und einschüchtert."
   },
   "shadowTag": {
-    "name": "Wegsperre"
+    "name": "Wegsperre",
+    "description": "Das Pokémon hindert Gegner an der Flucht beziehungsweise am Auswechseln, indem es ihnen den Weg versperrt."
   },
   "roughSkin": {
-    "name": "Rauhaut"
+    "name": "Rauhaut",
+    "description": "Angreifer werden bei Berührung durch die raue Haut des Pokémon verletzt und erhalten ⅛ ihrer maximalen KP als Schaden."
   },
   "wonderGuard": {
     "name": "Wunderwache",
@@ -87,7 +104,8 @@
     "description": "Verleiht volle Immunität gegen alle Boden-Attacken durch Schwebezustand."
   },
   "effectSpore": {
-    "name": "Sporenwirt"
+    "name": "Sporenwirt",
+    "description": "Angreifer werden bei Berührung zu 30% vergiftet, paralysiert oder in Schlaf versetzt."
   },
   "synchronize": {
     "name": "Synchro",
@@ -98,22 +116,28 @@
     "description": "Verhindert das Senken der Statuswerte durch Attacken und Fähigkeiten von Angreifern."
   },
   "naturalCure": {
-    "name": "Innere Kraft"
+    "name": "Innere Kraft",
+    "description": "Wird das Pokémon ausgewechselt, werden seine Statusprobleme geheilt."
   },
   "lightningRod": {
-    "name": "Blitzfänger"
+    "name": "Blitzfänger",
+    "description": "Das Pokémon zieht Elektro-Attacken an, erleidet dadurch aber keinen Schaden. Stattdessen steigt sein Spezial-Angriff."
   },
   "sereneGrace": {
-    "name": "Edelmut"
+    "name": "Edelmut",
+    "description": "Durch den Edelmut des Pokémon steigt die Wahrscheinlichkeit, dass Zusatzeffekte seiner Attacken auftreten. Interagiert nicht mit Items."
   },
   "swiftSwim": {
-    "name": "Wassertempo"
+    "name": "Wassertempo",
+    "description": "Bei Regen steigt die Initiative des Pokémon."
   },
   "chlorophyll": {
-    "name": "Chlorophyll"
+    "name": "Chlorophyll",
+    "description": "Bei Sonnenschein steigt die Initiative des Pokémon."
   },
   "illuminate": {
-    "name": "Erleuchtung"
+    "name": "Erleuchtung",
+    "description": "Erhellt die Umgebung und erhöht dadurch die Wahrscheinlichkeit, von Doppelkämpfen mit wilden Pokémon. Verhindert Senkung der Genauigkeit des Pokémons."
   },
   "trace": {
     "name": "Erfassen",
@@ -124,33 +148,40 @@
     "description": "Verdoppelt die Stärke von physischen Attacken."
   },
   "poisonPoint": {
-    "name": "Giftdorn"
+    "name": "Giftdorn",
+    "description": "Angreifer werden bei Berührung mit einer 30% Chance vergiftet."
   },
   "innerFocus": {
-    "name": "Konzentrator"
+    "name": "Konzentrator",
+    "description": "Die erhöhte Konzentrationsfähigkeit des Pokémon verhindert, dass es durch Angriffe anderer Pokémon zurückschreckt. Auch Bedroher wirkt bei ihm nicht."
   },
   "magmaArmor": {
-    "name": "Magmapanzer"
+    "name": "Magmapanzer",
+    "description": "Dank eines Panzers aus Magma kann das Pokémon nicht eingefroren werden."
   },
   "waterVeil": {
-    "name": "Aquahülle"
+    "name": "Aquahülle",
+    "description": "Dank einer Hülle aus Wasser kann das Pokémon keine Verbrennungen erleiden."
   },
   "magnetPull": {
-    "name": "Magnetfalle"
+    "name": "Magnetfalle",
+    "description": "Das Pokémon hindert Stahl-Pokémon durch Magnetismus an der Flucht beziehungsweise am Auswechseln."
   },
   "soundproof": {
     "name": "Lärmschutz",
     "description": "Bietet durch Schalldämmung volle Immunität gegen alle Lärm-Attacken."
   },
   "rainDish": {
-    "name": "Regengenuss"
+    "name": "Regengenuss",
+    "description": "Bei Regen regeneriert das Pokémon nach und nach KP. ¹⁄₁₆ der maximalen KP am Ende jeder Runde in der es regnet."
   },
   "sandStream": {
     "name": "Sandsturm",
     "description": "Erzeugt bei Kampfantritt Sandstürme."
   },
   "pressure": {
-    "name": "Erzwinger"
+    "name": "Erzwinger",
+    "description": "Das Pokémon zwingt Gegner dazu, beim Einsatz von Attacken mehr AP zu verbrauchen."
   },
   "thickFat": {
     "name": "Speckschicht",
@@ -161,66 +192,84 @@
     "description": "Wenn es eingeschlafen ist, kann es doppelt so schnell wieder aufwachen wie andere Pokémon."
   },
   "flameBody": {
-    "name": "Flammkörper"
+    "name": "Flammkörper",
+    "description": "Angreifern werden bei Berührung mit 30% Chance Verbrennungen zugefügt."
   },
   "runAway": {
     "name": "Angsthase",
     "description": "Die Flucht vor wilden Pokémon gelingt immer."
   },
   "keenEye": {
-    "name": "Adlerauge"
+    "name": "Adlerauge",
+    "description": "Dank seines scharfen Blicks kann die Genauigkeit des Pokémon nicht gesenkt werden."
   },
   "hyperCutter": {
-    "name": "Scherenmacht"
+    "name": "Scherenmacht",
+    "description": "Dank seiner mächtigen Scheren kann der Angriff des Pokémon nicht gesenkt werden."
   },
   "pickup": {
-    "name": "Mitnahme"
+    "name": "Mitnahme",
+    "description": "Das Pokémon hebt gelegentlich von anderen Pokémon im Kampf benutzte Items auf. Auch wenn es nicht am Kampf teilgenommen hat."
   },
   "truant": {
-    "name": "Schnarchnase"
+    "name": "Schnarchnase",
+    "description": "Das Pokémon muss nach Einsatz einer Attacke eine Runde lang aussetzen."
   },
   "hustle": {
-    "name": "Übereifer"
+    "name": "Übereifer",
+    "description": "Der Angriff des Pokémon steigt um 50%, aber seine Genauigkeit sinkt um 20%."
   },
   "cuteCharm": {
-    "name": "Charmebolzen"
+    "name": "Charmebolzen",
+    "description": "Angreifer verlieben sich mit einer 30% bei Berührung gelegentlich in das Pokémon."
   },
   "plus": {
-    "name": "Plus"
+    "name": "Plus",
+    "description": "Der Spezial-Angriff des Pokémon steigt um 50%, wenn es einen Mitstreiter mit der Fähigkeit Plus oder Minus hat."
   },
   "minus": {
-    "name": "Minus"
+    "name": "Minus",
+    "description": "Der Spezial-Angriff des Pokémon steigt um 50%, wenn es einen Mitstreiter mit der Fähigkeit Plus oder Minus hat."
   },
   "forecast": {
     "name": "Prognose",
     "description": "Nimmt je nach Wetter entweder den Typ Wasser, Feuer oder Eis an."
   },
   "stickyHold": {
-    "name": "Klebekörper"
+    "name": "Klebekörper",
+    "description": "Trägt das Pokémon ein Item, bleibt dieses an seinem klebrigen Körper haften, wodurch Item-Diebstahl verhindert wird."
   },
   "shedSkin": {
-    "name": "Expidermis"
+    "name": "Expidermis",
+    "description": "Das Pokémon befreit sich mit einer 33% Chance von Statusproblemen, indem es seine Haut abstreift."
   },
   "guts": {
-    "name": "Adrenalin"
+    "name": "Adrenalin",
+    "description": "Bei Statusproblemen setzt das Pokémon Adrenalin frei, wodurch sein Angriff um 50% steigt."
   },
   "marvelScale": {
-    "name": "Notschutz"
+    "name": "Notschutz",
+    "description": "Bei Statusproblemen schützt sich das Pokémon mit mysteriösen Schuppen, wodurch seine Verteidigung um 50% steigt."
   },
   "liquidOoze": {
-    "name": "Kloakensoße"
+    "name": "Kloakensoße",
+    "description": "Angreifer, die durch Saug-Attacken Kloakensoße in sich aufgenommen haben, erleiden durch deren widerwärtigen Gestank Schaden."
   },
   "overgrow": {
-    "name": "Notdünger"
+    "name": "Notdünger",
+    "description": "Wenn die KP des Pokémon unter ⅓ der maximalen KP fallen, steigt die Stärke seiner Pflanzen-Attacken um 50%."
   },
   "blaze": {
-    "name": "Großbrand"
+    "name": "Großbrand",
+    "description": "Wenn die KP des Pokémon unter ⅓ der maximalen KP fallen, steigt die Stärke seiner Feuer-Attacken um 50%."
   },
   "torrent": {
-    "name": "Sturzbach"
+    "name": "Sturzbach",
+    "description": "Wenn die KP des Pokémon unter ⅓ der maximalen KP fallen, steigt die Stärke seiner Wasser-Attacken um 50%."
   },
   "swarm": {
-    "name": "Hexaplaga"
+    "name": "Hexaplaga",
+    "description": "Wenn die KP des Pokémon unter ⅓ der maximalen KP fallen, steigt die Stärke seiner Käfer-Attacken um 50%."
   },
   "rockHead": {
     "name": "Steinhaupt",
@@ -231,7 +280,8 @@
     "description": "Erzeugt bei Kampfantritt gleißendes Sonnenlicht."
   },
   "arenaTrap": {
-    "name": "Ausweglos"
+    "name": "Ausweglos",
+    "description": "Das Pokémon hindert Gegner an der Flucht beziehungsweise am Auswechseln. Erhöht die Chance auf Doppelkämpfe."
   },
   "vitalSpirit": {
     "name": "Munterkeit",
@@ -254,80 +304,104 @@
     "description": "Hebt alle Wetter-Effekte auf."
   },
   "tangledFeet": {
-    "name": "Fußangel"
+    "name": "Fußangel",
+    "description": "Ist das Pokémon verwirrt, steigt sein Ausweichwert um 50%."
   },
   "motorDrive": {
-    "name": "Starthilfe"
+    "name": "Starthilfe",
+    "description": "Wird das Pokémon von einer Elektro-Attacke getroffen, erleidet es keinen Schaden. Stattdessen steigt seine Initiative."
   },
   "rivalry": {
-    "name": "Rivalität"
+    "name": "Rivalität",
+    "description": "Greift das Pokémon ein Ziel desselben Geschlechts an, verursacht es 25% mehr Schaden. Bei einem Ziel des anderen Geschlechts hingegen teilt es 25% weniger Schaden aus."
   },
   "steadfast": {
-    "name": "Felsenfest"
+    "name": "Felsenfest",
+    "description": "Dank seines eisernen Willens steigt die Initiative des Pokémon, wann immer es zurückschreckt."
   },
   "snowCloak": {
-    "name": "Schneemantel"
+    "name": "Schneemantel",
+    "description": "Bei Schnee oder Hagelsturm steigt der Ausweichwert des Pokémon um 20%. Das Pokémon nimmt keinen Schaden von Hagelstürmen."
   },
   "gluttony": {
-    "name": "Völlerei"
+    "name": "Völlerei",
+    "description": "Das Pokémon setzt bestimmte Beeren nicht erst wenn seine KP auf unter ¼ der maximalen KP fällt, sondern bereits dann, wenn seine KP auf die Hälfte des Maximalwerts oder weniger fallen."
   },
   "angerPoint": {
-    "name": "Kurzschluss"
+    "name": "Kurzschluss",
+    "description": "Das Pokémon wird nach Einstecken eines Volltreffers wütend und maximiert dabei seinen Angriff."
   },
   "unburden": {
-    "name": "Entlastung"
+    "name": "Entlastung",
+    "description": "Wenn das vom Pokémon getragene Item verwendet wird oder verloren geht, verdoppelt sich seine Initiative."
   },
   "heatproof": {
-    "name": "Hitzeschutz"
+    "name": "Hitzeschutz",
+    "description": "Der Hitze abweisende Körper des Pokémon halbiert den durch Feuer-Attacken erlittenen Schaden."
   },
   "simple": {
-    "name": "Wankelmut"
+    "name": "Wankelmut",
+    "description": "Statusveränderungen des Pokémon werden verdoppelt."
   },
   "drySkin": {
-    "name": "Trockenheit"
+    "name": "Trockenheit",
+    "description": "Das Pokémon erleidet 25% mehr Schaden durch Feuer-Attacken und verliert bei Sonnenschein ⅛ seiner maximalen KP. Regeneriert bei Regen ¼ seiner maximalen KP am Ende der Runde. Wird es von Wasser-Attacken getroffen regeneriert es ⅛ seiner maximalen KP."
   },
   "download": {
-    "name": "Download"
+    "name": "Download",
+    "description": "Ist die Spezial-Verteidigung des Gegners niedriger als seine Verteidigung, wird der eigene Spezial-Angriff erhöht. Ist die Verteidigung niedriger, steigt der Angriff."
   },
   "ironFist": {
-    "name": "Eisenfaust"
+    "name": "Eisenfaust",
+    "description": "Die Stärke von Hieb-, Punch-, Faust- und Schlag-Attacken des Pokémon steigt um 20%."
   },
   "poisonHeal": {
-    "name": "Aufheber"
+    "name": "Aufheber",
+    "description": "Das Pokémon erleidet keinen Schaden durch Vergiftung, sondern regeneriert ⅛ seiner maximalen KP."
   },
   "adaptability": {
-    "name": "Anpassung"
+    "name": "Anpassung",
+    "description": "Die Stärke von Attacken des Pokémon, die seinem Typ entsprechen, steigt von 1,5x auf 2x. Stackt nicht mit dem Stellar-Typ Terra Boost."
   },
   "skillLink": {
     "name": "Wertelink",
     "description": "Landet mit Serien-Attacken immer die maximale Anzahl an Treffern."
   },
   "hydration": {
-    "name": "Hydration"
+    "name": "Hydration",
+    "description": "Bei Regen werden Statusprobleme des Pokémon geheilt."
   },
   "solarPower": {
-    "name": "Solarkraft"
+    "name": "Solarkraft",
+    "description": "Bei Sonnenschein steigt der Spezial-Angriff des Pokémon um 50%, aber dafür verliert es in jeder Runde ⅛ seiner maximalen KP."
   },
   "quickFeet": {
-    "name": "Rasanz"
+    "name": "Rasanz",
+    "description": "Bei Statusproblemen steigt die Initiative des Pokémon um 50%."
   },
   "normalize": {
-    "name": "Regulierung"
+    "name": "Regulierung",
+    "description": "Alle Attacken des Pokémon nehmen den Typ Normal an und ihre Stärke steigt um 20%."
   },
   "sniper": {
-    "name": "Superschütze"
+    "name": "Superschütze",
+    "description": "Landet das Pokémon einen Volltreffer, steigt die Stärke der Attacke von 1,5x auf 2,25x."
   },
   "magicGuard": {
-    "name": "Magieschild"
+    "name": "Magieschild",
+    "description": "Das Pokémon erleidet nur durch Angriffe Schaden."
   },
   "noGuard": {
-    "name": "Schildlos"
+    "name": "Schildlos",
+    "description": "Alle Attacken des oder auf das Pokémon gelingen aufgrund seiner deckungslosen Kampftaktik. Erhöht die Chance auf Doppelkämpfe."
   },
   "stall": {
-    "name": "Zeitspiel"
+    "name": "Zeitspiel",
+    "description": "Das Pokémon setzt seine Attacken immer als Letztes ein."
   },
   "technician": {
-    "name": "Techniker"
+    "name": "Techniker",
+    "description": "Die Stärke von schwächeren Attacken mit einem Basiswert von 60 oder weniger des Pokémon steigt um 50%."
   },
   "leafGuard": {
     "name": "Floraschild",
@@ -338,13 +412,16 @@
     "description": "Das Pokémon kann keine getragenen Items verwenden."
   },
   "moldBreaker": {
-    "name": "Überbrückung"
+    "name": "Überbrückung",
+    "description": "Das Pokémon kann Attacken ungeachtet der Fähigkeit des Zieles einsetzen."
   },
   "superLuck": {
-    "name": "Glückspilz"
+    "name": "Glückspilz",
+    "description": "Das große Glück des Pokémon erhöht die Wahrscheinlichkeit, dass es einen Volltreffer landet."
   },
   "aftermath": {
-    "name": "Finalschlag"
+    "name": "Finalschlag",
+    "description": "Angreifer erleiden ¼ seiner maximalen KP als Schaden, wenn das Pokémon durch eine Attacke mit Berührung besiegt wird."
   },
   "anticipation": {
     "name": "Vorahnung",
@@ -355,84 +432,104 @@
     "description": "Gibt bei Kampfantritt Auskunft über eine Attacke aus dem gegnerischen Repertoire."
   },
   "unaware": {
-    "name": "Unkenntnis"
+    "name": "Unkenntnis",
+    "description": "Das Pokémon ignoriert beim Angriff sämtliche Statusveränderungen des Zieles."
   },
   "tintedLens": {
-    "name": "Aufwertung"
+    "name": "Aufwertung",
+    "description": "Nicht sehr effektive Attacken des Pokémon verursachen normalen Schaden."
   },
   "filter": {
-    "name": "Filter"
+    "name": "Filter",
+    "description": "Die Stärke von sehr effektiven Angriffen gegen das Pokémon wird um 25% gesenkt."
   },
   "slowStart": {
     "name": "Saumselig",
     "description": "Halbiert fünf Runden lang den Angriffs-Wert und die Initiative des Pokémon."
   },
   "scrappy": {
-    "name": "Rauflust"
+    "name": "Rauflust",
+    "description": "Normal- und Kampf-Attacken des Pokémon treffen auch Pokémon vom Typ Geist. Außerdem wirkt Bedroher bei ihm nicht."
   },
   "stormDrain": {
-    "name": "Sturmsog"
+    "name": "Sturmsog",
+    "description": "Das Pokémon zieht Wasser-Attacken an, erleidet dadurch aber keinen Schaden. Stattdessen steigt sein Spezial-Angriff."
   },
   "iceBody": {
-    "name": "Eishaut"
+    "name": "Eishaut",
+    "description": "Bei Schnee oder Hagel regeneriert das Pokémon nach und nach ¹⁄₁₆ der maximalen KP. Erleidet keinen Schaden durch Hagel."
   },
   "solidRock": {
-    "name": "Felskern"
+    "name": "Felskern",
+    "description": "Die Stärke von sehr effektiven Angriffen gegen das Pokémon wird um 25% gesenkt."
   },
   "snowWarning": {
     "name": "Hagelalarm",
     "description": "Löst bei Kampfantritt Hagel aus."
   },
   "honeyGather": {
-    "name": "Honigmaul"
+    "name": "Honigmaul",
+    "description": "Das Pokémon sammelt nach dem Kampf Honig. Dieser wird dann für Geld verkauft. "
   },
   "frisk": {
     "name": "Schnüffler",
     "description": "Kann bei Kampfantritt Auskunft über die Fähigkeit vom Gegner geben."
   },
   "reckless": {
-    "name": "Achtlos"
+    "name": "Achtlos",
+    "description": "Die Stärke von Attacken des Pokémon, die Rückstoßschaden verursachen, steigt um 20%."
   },
   "multitype": {
     "name": "Variabilität",
     "description": "Das Pokémon passt seinen Typ dem der getragenen Tafel an."
   },
   "flowerGift": {
-    "name": "Pflanzengabe"
+    "name": "Pflanzengabe",
+    "description": "Bei Sonnenschein steigen der Angriff und die Spezial-Verteidigung auf der Mitstreiterseite um 50%."
   },
   "badDreams": {
-    "name": "Alptraum"
+    "name": "Alptraum",
+    "description": "Schlafenden Gegnern wird ⅛ der maximalen KP als Schaden zugefügt."
   },
   "pickpocket": {
-    "name": "Langfinger"
+    "name": "Langfinger",
+    "description": "Das Pokémon stiehlt bei Berührung das Item des Angreifers."
   },
   "sheerForce": {
-    "name": "Rohe Gewalt"
+    "name": "Rohe Gewalt",
+    "description": "Die Zusatzeffekte der Attacken des Pokémon werden aufgehoben, aber dafür steigt die Stärke der Attacken um 30%."
   },
   "contrary": {
-    "name": "Umkehrung"
+    "name": "Umkehrung",
+    "description": "Statusveränderungen des Pokémon werden umgekehrt: Statuswerte, die eigentlich erhöht werden sollten, sinken und umgekehrt."
   },
   "unnerve": {
     "name": "Anspannung",
     "description": "Erzeugt bei Gegnern Stress und hindert sie so daran, Beeren zu konsumieren."
   },
   "defiant": {
-    "name": "Siegeswille"
+    "name": "Siegeswille",
+    "description": "Der Angriff des Pokémon steigt stark, wenn einer seiner Statuswerte durch ein anderes Pokémon gesenkt wird."
   },
   "defeatist": {
-    "name": "Schwächling"
+    "name": "Schwächling",
+    "description": "Fallen die KP des Pokémon auf die Hälfte des Maximalwerts oder weniger, bekommt es Angst und sein Angriff und Spezial-Angriff werden halbiert."
   },
   "cursedBody": {
-    "name": "Tastfluch"
+    "name": "Tastfluch",
+    "description": "Das Pokémon blockiert mit 30% Chance die Attacke, mit der ein Angreifer es getroffen hat."
   },
   "healer": {
-    "name": "Heilherz"
+    "name": "Heilherz",
+    "description": "Das Pokémon befreit Mitstreiter mit 30% Chance von Statusproblemen."
   },
   "friendGuard": {
-    "name": "Freundeshut"
+    "name": "Freundeshut",
+    "description": "Der Schaden, den Mitstreiter des Pokémon erleiden, wird um 25% gesenkt."
   },
   "weakArmor": {
-    "name": "Bruchrüstung"
+    "name": "Bruchrüstung",
+    "description": "Erleidet das Pokémon Schaden durch eine physische Attacke, sinkt seine Verteidigung, aber dafür steigt seine Initiative stark."
   },
   "heavyMetal": {
     "name": "Schwermetall",
@@ -443,52 +540,68 @@
     "description": "Halbiert das eigene Gewicht."
   },
   "multiscale": {
-    "name": "Multischuppe"
+    "name": "Multischuppe",
+    "description": "Bei vollen KP wird der erlittene Schaden des Pokémon gesenkt."
   },
   "toxicBoost": {
-    "name": "Giftwahn"
+    "name": "Giftwahn",
+    "description": "Die Stärke seiner physischen Attacken steigt um 50%, wenn das Pokémon vergiftet wurde."
   },
   "flareBoost": {
-    "name": "Hitzewahn"
+    "name": "Hitzewahn",
+    "description": "Die Stärke seiner Spezial-Attacken steigt um 50%, wenn das Pokémon an Verbrennungen leidet."
   },
   "harvest": {
-    "name": "Reiche Ernte"
+    "name": "Reiche Ernte",
+    "description": "Das Pokémon hat eine 50% Chance, nach dem Verzehr einer Beere eine weitere Beere zu erzeugen. Scheint die Sonne erhöht sich diese Chance auf 100 %."
   },
   "telepathy": {
-    "name": "Telepathie"
+    "name": "Telepathie",
+    "description": "Das Pokémon erkennt die Angriffe von Mitstreitern und weicht ihnen aus."
   },
   "moody": {
-    "name": "Gefühlswippe"
+    "name": "Gefühlswippe",
+    "description": "In jeder Runde steigt ein Statuswert des Pokémon stark und ein anderer sinkt. Genauigkeit und Fluchtwert ausgenommen."
   },
   "overcoat": {
-    "name": "Partikelschutz"
+    "name": "Partikelschutz",
+    "description": "Das Pokémon erleidet keinen Schaden durch Sandstürme. Außerdem ist es vor Effekten von Puder, Pulver, Saat und Sporen geschützt."
   },
   "poisonTouch": {
-    "name": "Giftgriff"
+    "name": "Giftgriff",
+    "description": "Das Pokémon vergiftet das Ziel mit 30% Chance durch bloßes Berühren."
   },
   "regenerator": {
-    "name": "Belebekraft"
+    "name": "Belebekraft",
+    "description": "Wird das Pokémon ausgewechselt, regeneriert es eine ⅓ seiner maximalen KP."
   },
   "bigPecks": {
-    "name": "Brustbieter"
+    "name": "Brustbieter",
+    "description": "Die Verteidigung des Pokémon kann nicht gesenkt werden."
   },
   "sandRush": {
-    "name": "Sandscharrer"
+    "name": "Sandscharrer",
+    "description": "In Sandstürmen steigt die Initiative des Pokémon. Das Pokémon nimmt in Sandstürmen keinen Schaden."
   },
   "wonderSkin": {
-    "name": "Wunderhaut"
+    "name": "Wunderhaut",
+    "description": "Durch seinen robusten Körper verfehlen Status-Attacken zu 50% das Pokémon."
   },
   "analytic": {
-    "name": "Analyse"
+    "name": "Analyse",
+    "description": "Setzt das Pokémon als Letztes eine Attacke ein, steigt deren Stärke um 30%."
   },
   "illusion": {
-    "name": "Trugbild"
+    "name": "Trugbild",
+    "description": "Das Pokémon führt Gegner hinters Licht, indem es bei Kampfantritt die Gestalt des Pokémon an der letzten Stelle im Team annimmt."
   },
   "imposter": {
-    "name": "Doppelgänger"
+    "name": "Doppelgänger",
+    "description": "Das Pokémon verwandelt sich in das Pokémon, dem es gegenübersteht, und kopiert alles an ihm, außer dessen KP und Level. Kopierte Attacken haben jeweils nur 5 AP."
   },
   "infiltrator": {
-    "name": "Schwebedurch"
+    "name": "Schwebedurch",
+    "description": "Das Pokémon überwindet beim Angriff gegnerische Schilde sowie Delegatoren."
   },
   "mummy": {
     "name": "Mumie",
@@ -499,31 +612,40 @@
     "description": "Besiegt es ein Pokémon, steigt sein Selbstvertrauen und somit auch sein Angriff."
   },
   "justified": {
-    "name": "Redlichkeit"
+    "name": "Redlichkeit",
+    "description": "Wird das Pokémon von einem Angriff vom Typ Unlicht getroffen, meldet sich sein Sinn für Gerechtigkeit zu Wort und sein Angriff steigt."
   },
   "rattled": {
-    "name": "Hasenfuß"
+    "name": "Hasenfuß",
+    "description": "Wird das Pokémon von einem Angriff vom Typ Unlicht, Geist oder Käfer getroffen oder bedroht, bekommt es Angst und seine Initiative steigt."
   },
   "magicBounce": {
-    "name": "Magiespiegel"
+    "name": "Magiespiegel",
+    "description": "Das Pokémon lenkt Status-Attacken auf den Angreifer um, ohne selbst von ihnen getroffen zu werden."
   },
   "sapSipper": {
-    "name": "Vegetarier"
+    "name": "Vegetarier",
+    "description": "Wird das Pokémon von einer Pflanzen-Attacke getroffen, erleidet es keinen Schaden. Stattdessen steigt sein Angriff."
   },
   "prankster": {
-    "name": "Strolch"
+    "name": "Strolch",
+    "description": "Die Fähigkeit ermöglicht dem Pokémon einen Erstschlag mit Status-Attacken. Unlicht-Pokémon sind immun gegen diese Attacken."
   },
   "sandForce": {
-    "name": "Sandgewalt"
+    "name": "Sandgewalt",
+    "description": "In Sandstürmen steigt die Stärke von Gesteins-, Boden- und Stahl-Attacken des Pokémon um 30%. Das Pokémon nimmt in Sandstürmen keinen Schaden."
   },
   "ironBarbs": {
-    "name": "Eisenstachel"
+    "name": "Eisenstachel",
+    "description": "Das Pokémon fügt Angreifern bei Berührung mit eisernen Stacheln ⅛ seiner maximalen KP als Schaden zu."
   },
   "zenMode": {
-    "name": "Trance-Modus"
+    "name": "Trance-Modus",
+    "description": "Fallen die KP des Pokémon auf die Hälfte des Maximalwerts oder weniger, wechselt es seine Form."
   },
   "victoryStar": {
-    "name": "Triumphstern"
+    "name": "Triumphstern",
+    "description": "Die Genauigkeit der Pokémon auf der Mitstreiterseite steigt um 10%."
   },
   "turboblaze": {
     "name": "Turbobrand"
