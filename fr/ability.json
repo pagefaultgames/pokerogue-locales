@@ -1,7 +1,7 @@
 {
   "stench": {
     "name": "Puanteur",
-    "description": "Le Pokémon émet une odeur si nauséabonde qu’il peut effrayer sa cible en l’attaquant."
+    "description": "Le Pokémon émet une odeur si nauséabonde qu’il a 10% de chance d’effrayer sa cible en l’attaquant. Ne se cumule pas avec les autres capacités et objets ayant une chance d’apeurer."
   },
   "drizzle": {
     "name": "Crachin",
@@ -21,7 +21,7 @@
   },
   "damp": {
     "name": "Moiteur",
-    "description": "Le Pokémon augmente l’humidité de l’air, ce qui empêche tous les Pokémon d’utiliser des capacités explosives telles que Destruction."
+    "description": "Le Pokémon augmente l’humidité de l’air, ce qui empêche tous les Pokémon d’utiliser des capacités ou talents explosifs telles que Destruction ou Boom Final."
   },
   "limber": {
     "name": "Échauffement",
@@ -29,7 +29,7 @@
   },
   "sandVeil": {
     "name": "Voile Sable",
-    "description": "Augmente l’Esquive du Pokémon lors des tempêtes de sable."
+    "description": "Augmente l’Esquive du Pokémon de 20% lors des tempêtes de sable. Immunise également le lanceur des tempêtes de sable."
   },
   "static": {
     "name": "Statik",
@@ -37,11 +37,11 @@
   },
   "voltAbsorb": {
     "name": "Absorbe-Volt",
-    "description": "Si le Pokémon est touché par une capacité Électrik, il ne subit aucun dégât et regagne des PV à la place."
+    "description": "Si le Pokémon est touché par une capacité Électrik, il ne subit aucun dégât et regagne 25% de ses PV totaux à la place."
   },
   "waterAbsorb": {
     "name": "Absorbe-Eau",
-    "description": "Si le Pokémon est touché par une capacité Eau, il ne subit aucun dégât et regagne des PV à la place."
+    "description": "Si le Pokémon est touché par une capacité Eau, il ne subit aucun dégât et regagne 25% de ses PV totaux à la place."
   },
   "oblivious": {
     "name": "Benêt",
@@ -53,7 +53,7 @@
   },
   "compoundEyes": {
     "name": "Œil Composé",
-    "description": "Les yeux à facettes du Pokémon augmentent la Précision de ses capacités."
+    "description": "Les yeux à facettes du Pokémon augmentent de 30% la Précision de ses capacités."
   },
   "insomnia": {
     "name": "Insomnia",
@@ -69,7 +69,7 @@
   },
   "flashFire": {
     "name": "Torche",
-    "description": "Lorsque le Pokémon est touché par une capacité de type Feu, il absorbe la chaleur pour renforcer ses propres capacités Feu."
+    "description": "Lorsque le Pokémon est touché par une capacité de type Feu, il absorbe la chaleur pour renforcer de 50% ses propres capacités Feu."
   },
   "shieldDust": {
     "name": "Écran Poudre",
@@ -93,7 +93,7 @@
   },
   "roughSkin": {
     "name": "Peau Dure",
-    "description": "Blesse l’attaquant lorsque le Pokémon subit une attaque directe."
+    "description": "Blesse l’attaquant de 12,5% de ses PV totaux lorsque le Pokémon subit une attaque directe."
   },
   "wonderGuard": {
     "name": "Garde Mystik",
@@ -105,7 +105,7 @@
   },
   "effectSpore": {
     "name": "Pose Spore",
-    "description": "Peut paralyser, empoisonner ou endormir l’attaquant lorsque le Pokémon subit une attaque directe."
+    "description": "A 30% de chance de paralyser, empoisonner ou endormir l’attaquant lorsque le Pokémon subit une attaque directe."
   },
   "synchronize": {
     "name": "Synchro",
@@ -149,7 +149,7 @@
   },
   "poisonPoint": {
     "name": "Point Poison",
-    "description": "Peut empoisonner l’attaquant lorsque le Pokémon subit une attaque directe."
+    "description": "A 30% de chance d’empoisonner l’attaquant lorsque le Pokémon subit une attaque directe."
   },
   "innerFocus": {
     "name": "Attention",
@@ -173,7 +173,7 @@
   },
   "rainDish": {
     "name": "Cuvette",
-    "description": "Le Pokémon récupère progressivement des PV lorsqu’il pleut."
+    "description": "Le Pokémon récupère à chaque tour 6,25% de ses PV totaux lorsqu’il pleut."
   },
   "sandStream": {
     "name": "Sable Volant",
@@ -193,7 +193,7 @@
   },
   "flameBody": {
     "name": "Corps Ardent",
-    "description": "Peut bruler l’attaquant lorsque le Pokémon subit une attaque directe."
+    "description": "A 30% de chance de bruler l’attaquant lorsque le Pokémon subit une attaque directe."
   },
   "runAway": {
     "name": "Fuite",
@@ -201,7 +201,7 @@
   },
   "keenEye": {
     "name": "Regard Vif",
-    "description": "Les yeux perçants du Pokémon empêchent sa Précision de baisser."
+    "description": "Les yeux perçants du Pokémon empêchent sa Précision de baisser. Ignore également les augmentations d’esquive de la cible."
   },
   "hyperCutter": {
     "name": "Hyper Cutter",
@@ -209,7 +209,7 @@
   },
   "pickup": {
     "name": "Ramassage",
-    "description": "Permet parfois au Pokémon de ramasser les objets que d’autres Pokémon ont utilisés. Il lui arrive aussi d’en trouver hors des combats."
+    "description": "Permet parfois au Pokémon de ramasser les objets que d’autres Pokémon ont utilisés. Il lui arrive aussi d’en trouver même quand il ne prend pas part au combat."
   },
   "truant": {
     "name": "Absentéisme",
@@ -217,19 +217,19 @@
   },
   "hustle": {
     "name": "Agitation",
-    "description": "Améliore l’Attaque du Pokémon, mais diminue la Précision."
+    "description": "Améliore de 50% l’Attaque du Pokémon, mais diminue de 20% la Précision de ses capacités physiques."
   },
   "cuteCharm": {
     "name": "Joli Sourire",
-    "description": "Peut séduire l’attaquant lorsque le Pokémon subit une attaque directe."
+    "description": "A 30% de chance de séduire l’attaquant lorsque le Pokémon subit une attaque directe."
   },
   "plus": {
     "name": "Plus",
-    "description": "L’Attaque Spéciale du Pokémon augmente si un Pokémon allié a le talent Moins ou Plus."
+    "description": "L’Attaque Spéciale du Pokémon augmente de 50% si un Pokémon allié a le talent Moins ou Plus."
   },
   "minus": {
     "name": "Moins",
-    "description": "L’Attaque Spéciale du Pokémon augmente si un Pokémon allié a le talent Moins ou Plus."
+    "description": "L’Attaque Spéciale du Pokémon augmente de 50% si un Pokémon allié a le talent Moins ou Plus."
   },
   "forecast": {
     "name": "Météo",
@@ -241,15 +241,15 @@
   },
   "shedSkin": {
     "name": "Mue",
-    "description": "Le Pokémon soigne parfois ses altérations de statut en muant."
+    "description": "Le Pokémon a 30% de chance de soigner ses altérations de statut en muant."
   },
   "guts": {
     "name": "Cran",
-    "description": "Augmente l’Attaque du Pokémon s’il est affecté par une altération de statut."
+    "description": "Augmente de 50% l’Attaque du Pokémon s’il est affecté par une altération de statut."
   },
   "marvelScale": {
     "name": "Écaille Spéciale",
-    "description": "Les écailles mystérieuses du Pokémon réagissent aux altérations de statut en augmentant sa Défense."
+    "description": "Les écailles mystérieuses du Pokémon réagissent aux altérations de statut en augmentant de 50% sa Défense."
   },
   "liquidOoze": {
     "name": "Suintement",
@@ -257,19 +257,19 @@
   },
   "overgrow": {
     "name": "Engrais",
-    "description": "Augmente la puissance des capacités de type Plante du Pokémon quand il a perdu une certaine quantité de PV."
+    "description": "Augmente de 50% la puissance des capacités de type Plante du Pokémon quand il lui reste moins du tiers de ses PV totaux."
   },
   "blaze": {
     "name": "Brasier",
-    "description": "Augmente la puissance des capacités de type Feu du Pokémon quand il a perdu une certaine quantité de PV."
+    "description": "Augmente de 50% la puissance des capacités de type Feu du Pokémon quand il lui reste moins du tiers de ses PV totaux."
   },
   "torrent": {
     "name": "Torrent",
-    "description": "Augmente la puissance des capacités de type Eau du Pokémon quand il a perdu une certaine quantité de PV."
+    "description": "Augmente de 50% la puissance des capacités de type Eau du Pokémon quand il lui reste moins du tiers de ses PV totaux."
   },
   "swarm": {
     "name": "Essaim",
-    "description": "Augmente la puissance des capacités de type Insecte du Pokémon quand il a perdu une certaine quantité de PV."
+    "description": "Augmente de 50% la puissance des capacités de type Insecte du Pokémon quand il lui reste moins du tiers de ses PV totaux."
   },
   "rockHead": {
     "name": "Tête de Roc",
@@ -281,7 +281,7 @@
   },
   "arenaTrap": {
     "name": "Piège Sable",
-    "description": "Empêche l’adversaire de quitter le terrain. Augmente également la probabilité des combats duo."
+    "description": "Empêche l’adversaire de quitter le terrain. Augmente également la probabilité de combats duo si le Pokémon est en tête d’équipe."
   },
   "vitalSpirit": {
     "name": "Esprit Vital",
@@ -305,7 +305,7 @@
   },
   "tangledFeet": {
     "name": "Pieds Confus",
-    "description": "Augmente l’Esquive du Pokémon s’il est confus."
+    "description": "Divise de moité la précision des capacités ciblant le Pokémon s’il est confus."
   },
   "motorDrive": {
     "name": "Motorisé",
@@ -313,7 +313,7 @@
   },
   "rivalry": {
     "name": "Rivalité",
-    "description": "Le Pokémon déteste la concurrence et inflige plus de dégâts si sa cible est du même sexe. Par contre, il en inflige moins si sa cible est du sexe opposé."
+    "description": "Le Pokémon déteste la concurrence et inflige 25% de dégâts supplémentaires si sa cible est du même sexe. Par contre, il en inflige 25% de moins si sa cible est du sexe opposé."
   },
   "steadfast": {
     "name": "Impassible",
@@ -321,11 +321,11 @@
   },
   "snowCloak": {
     "name": "Rideau Neige",
-    "description": "Augmente l’Esquive du Pokémon quand il neige."
+    "description": "Augmente de 20% l’Esquive du Pokémon quand il neige ou grêle. Ne prend également aucun dégâts de la grêle."
   },
   "gluttony": {
     "name": "Gloutonnerie",
-    "description": "Si le Pokémon tient une Baie à manger en cas de PV bas, il la mange dès qu’il a perdu la moitié de ses PV."
+    "description": "Si le Pokémon tient une Baie à manger en cas de PV totaux inférieurs à 25%, comme par exemple une Baie Frista, il la mangera plutôt dès qu’il a perdu la moitié de ses PV."
   },
   "angerPoint": {
     "name": "Colérique",
@@ -333,11 +333,11 @@
   },
   "unburden": {
     "name": "Délestage",
-    "description": "Augmente la Vitesse du Pokémon s’il perd ou utilise l’objet qu’il tenait au début du combat."
+    "description": "Augmente la Vitesse du Pokémon s’il perd ou utilise un objet qu’il tenait au début du combat."
   },
   "heatproof": {
     "name": "Ignifugé",
-    "description": "Diminue de moitié les dégâts infligés au Pokémon par les capacités de type Feu."
+    "description": "Diminue de moitié les dégâts infligés au Pokémon par les capacités de type Feu. Empêche également d’être brulé."
   },
   "simple": {
     "name": "Simple",
@@ -345,7 +345,7 @@
   },
   "drySkin": {
     "name": "Peau Sèche",
-    "description": "Quand le soleil brille, le Pokémon perd des PV et subit plus de dégâts des capacités Feu, mais il regagne des PV lorsqu’il pleut ou s’il est touché par une capacité Eau."
+    "description": "Quand le soleil brille, le Pokémon perd 12,5% de ses PV totaux à chaque tour et subit 25% de dégâts supplémentaires des capacités Feu. S’il pleut, il regagne des 12,5% de ses PV totaux ou 25% de ses PV totaux s’il est touché par une capacité Eau."
   },
   "download": {
     "name": "Télécharge",
@@ -353,15 +353,15 @@
   },
   "ironFist": {
     "name": "Poing de Fer",
-    "description": "Augmente la puissance des capacités coups de poing."
+    "description": "Augmente de 20% la puissance des capacités coups de poing."
   },
   "poisonHeal": {
     "name": "Soin Poison",
-    "description": "Quand le Pokémon est empoisonné, il regagne des PV au lieu d’en perdre."
+    "description": "Quand le Pokémon est empoisonné, il regagne 12,5% de ses PV totaux au lieu d’en perdre."
   },
   "adaptability": {
     "name": "Adaptabilité",
-    "description": "Quand le Pokémon utilise une capacité du même type que lui, le bonus de puissance qu’elle reçoit est encore plus important que normalement."
+    "description": "Quand le Pokémon utilise une capacité du même type que lui, le bonus de puissance qu’elle reçoit passe de ×1,5 à ×2. Ne se cumule pas avec le boost Téracristal de type Stellaire."
   },
   "skillLink": {
     "name": "Multi-Coups",
@@ -373,27 +373,27 @@
   },
   "solarPower": {
     "name": "Force Soleil",
-    "description": "Quand le soleil brille, l’Attaque Spéciale du Pokémon augmente mais il perd des PV à chaque tour."
+    "description": "Quand le soleil brille, l’Attaque Spéciale du Pokémon augmente de 50% mais il perd 12,5% de ses PV totaux à chaque tour."
   },
   "quickFeet": {
     "name": "Pied Véloce",
-    "description": "Augmente la Vitesse du Pokémon en cas d’altération de statut."
+    "description": "Augmente de 50% la Vitesse du Pokémon en cas d’altération de statut."
   },
   "normalize": {
     "name": "Normalise",
-    "description": "Toutes les capacités du Pokémon deviennent de type Normal, quel que soit leur type original. Leur puissance augmente légèrement."
+    "description": "Toutes les capacités du Pokémon deviennent de type Normal, quel que soit leur type original. Leur puissance augmente de 20%."
   },
   "sniper": {
     "name": "Sniper",
-    "description": "Lorsque le Pokémon porte un coup critique, les dégâts infligés augmentent encore plus que d’habitude."
+    "description": "Lorsque le Pokémon porte un coup critique, les dégâts infligés augmentent encore ×1,5, portant l’augmentation du coup critique à ×2,25."
   },
   "magicGuard": {
     "name": "Garde Magik",
-    "description": "Seules les attaques peuvent blesser le Pokémon."
+    "description": "Seules les attaques directes peuvent blesser le Pokémon."
   },
   "noGuard": {
     "name": "Annule Garde",
-    "description": "Les capacités du Pokémon touchent leur cible à coup sûr, mais les capacités adverses le touchent aussi à coup sûr. Augmente également la probabilité des combats duo."
+    "description": "Les capacités du Pokémon touchent leur cible à coup sûr, mais les capacités adverses le touchent aussi à coup sûr.  Augmente également la probabilité de combats duo si le Pokémon est en tête d’équipe."
   },
   "stall": {
     "name": "Frein",
@@ -401,7 +401,7 @@
   },
   "technician": {
     "name": "Technicien",
-    "description": "Augmente la puissance des capacités les plus faibles."
+    "description": "Augmente de 50% la puissance des capacités ayant une puissance égale ou inférieure à 60."
   },
   "leafGuard": {
     "name": "Feuille Garde",
@@ -417,11 +417,11 @@
   },
   "superLuck": {
     "name": "Chanceux",
-    "description": "Le Pokémon est tellement chanceux qu’il inflige plus fréquemment des coups critiques."
+    "description": "Le Pokémon est tellement chanceux que son ratio de coups critiques est augmenté d’un cran."
   },
   "aftermath": {
     "name": "Boom Final",
-    "description": "Si le Pokémon est mis K.O. par une attaque directe, il inflige des dégâts à l’attaquant avant de s’évanouir."
+    "description": "Si le Pokémon est mis K.O. par une attaque directe, l’attaquant subit une explosion lui faisant perdre 25% de ses PV totaux."
   },
   "anticipation": {
     "name": "Anticipation",
@@ -433,7 +433,7 @@
   },
   "unaware": {
     "name": "Inconscient",
-    "description": "Le Pokémon ignore les changements de stats de l’ennemi."
+    "description": "Le Pokémon ignore les changements de stats des autres Pokémon, qu’il attaque ou soit attaqué."
   },
   "tintedLens": {
     "name": "Lentiteintée",
@@ -441,7 +441,7 @@
   },
   "filter": {
     "name": "Filtre",
-    "description": "Diminue la puissance des attaques super efficaces subies."
+    "description": "Diminue de 25% la puissance des attaques super efficaces subies."
   },
   "slowStart": {
     "name": "Début Calme",
@@ -457,11 +457,11 @@
   },
   "iceBody": {
     "name": "Corps Gel",
-    "description": "Régénère peu à peu les PV du Pokémon quand il neige."
+    "description": "Le Pokémon régénère peu à peu 6,25% de ses PV totaux quand il neige ou grêle. Ne prend également aucun dégâts de la grêle."
   },
   "solidRock": {
     "name": "Solide Roc",
-    "description": "Diminue la puissance des attaques super efficaces subies."
+    "description": "Diminue de25% la puissance des attaques super efficaces subies."
   },
   "snowWarning": {
     "name": "Alerte Neige",
@@ -469,7 +469,7 @@
   },
   "honeyGather": {
     "name": "Cherche Miel",
-    "description": "Le Pokémon trouve du Miel après un combat gagné. Ce Miel est revendu contre de l’argent."
+    "description": "Le Pokémon trouve du Miel après un combat gagné, même sans y avoir pris part. Ce Miel est revendu contre de l’argent."
   },
   "frisk": {
     "name": "Fouille",
@@ -477,7 +477,7 @@
   },
   "reckless": {
     "name": "Téméraire",
-    "description": "Augmente la puissance des capacités occasionnant un contrecoup."
+    "description": "Augmente de 20% la puissance des capacités occasionnant un contrecoup."
   },
   "multitype": {
     "name": "Multi-Type",
@@ -485,11 +485,11 @@
   },
   "flowerGift": {
     "name": "Don Floral",
-    "description": "Augmente l’Attaque et la Défense Spéciale du Pokémon et de ses alliés lorsque le soleil brille."
+    "description": "Augmente de 50% l’Attaque et la Défense Spéciale du Pokémon et de ses alliés lorsque le soleil brille."
   },
   "badDreams": {
     "name": "Mauvais Rêve",
-    "description": "Inflige des dégâts aux ennemis endormis."
+    "description": "Les ennemis endormis perdent 12,5% de leur PV totaux à chaque tour."
   },
   "pickpocket": {
     "name": "Pickpocket",
@@ -497,7 +497,7 @@
   },
   "sheerForce": {
     "name": "Sans Limite",
-    "description": "Les capacités ayant un effet additionnel le perdent, mais leur puissance augmente."
+    "description": "Les capacités ayant un effet additionnel le perdent, mais leur puissance augmente de 30%."
   },
   "contrary": {
     "name": "Contestation",
@@ -517,15 +517,15 @@
   },
   "cursedBody": {
     "name": "Corps Maudit",
-    "description": "Quand le Pokémon est touché par une capacité adverse, il inflige parfois Entrave sur celle-ci."
+    "description": "Quand le Pokémon est touché par une capacité adverse, il a 30% de chance d’infliger une Entrave sur celle-ci."
   },
   "healer": {
     "name": "Cœur Soin",
-    "description": "Soigne parfois une altération de statut d’un allié proche."
+    "description": "A 30% de chance de soigner les altérations de statut d’un allié proche à chaque tour."
   },
   "friendGuard": {
     "name": "Garde-Ami",
-    "description": "Diminue les dégâts subis par les alliés."
+    "description": "Diminue de 25% les dégâts subis par les alliés."
   },
   "weakArmor": {
     "name": "Armurouillée",
@@ -541,19 +541,19 @@
   },
   "multiscale": {
     "name": "Multiécaille",
-    "description": "Le Pokémon subit moins de dégâts quand ses PV sont au maximum."
+    "description": "Le Pokémon subit moitié moins de dégâts quand ses PV sont au maximum."
   },
   "toxicBoost": {
     "name": "Rage Poison",
-    "description": "Augmente la puissance des capacités physiques quand le Pokémon est empoisonné."
+    "description": "Augmente de 50% la puissance des capacités physiques quand le Pokémon est empoisonné."
   },
   "flareBoost": {
     "name": "Rage Brulure",
-    "description": "Augmente la puissance des capacités spéciales quand le Pokémon est brulé."
+    "description": "Augmente de 50% la puissance des capacités spéciales quand le Pokémon est brulé."
   },
   "harvest": {
     "name": "Récolte",
-    "description": "Permet de réutiliser une même Baie plusieurs fois."
+    "description": "Le Pokémon a 50% de chance de pouvoir réutiliser la Baie qu’il a précédemment consommée. Possibilité garantie quand le soleil brille."
   },
   "telepathy": {
     "name": "Télépathe",
@@ -561,7 +561,7 @@
   },
   "moody": {
     "name": "Lunatique",
-    "description": "Augmente beaucoup une stat du Pokémon et en baisse une autre au hasard à chaque tour."
+    "description": "Augmente beaucoup une stat du Pokémon et en baisse une autre au hasard à chaque tour. L’Esquive et la Précision ne sont pas concernées."
   },
   "overcoat": {
     "name": "Envelocape",
@@ -569,11 +569,11 @@
   },
   "poisonTouch": {
     "name": "Toxitouche",
-    "description": "Peut empoisonner l’ennemi par simple contact."
+    "description": "A 30% de chance empoisonner l’ennemi par simple contact."
   },
   "regenerator": {
     "name": "Régé-Force",
-    "description": "Restaure un peu de PV si le Pokémon est retiré du combat."
+    "description": "Restaure le tiers de ses PV totaux si le Pokémon est retiré du combat."
   },
   "bigPecks": {
     "name": "Cœur de Coq",
@@ -581,15 +581,15 @@
   },
   "sandRush": {
     "name": "Baigne Sable",
-    "description": "Augmente la Vitesse lors des tempêtes de sable."
+    "description": "Double la Vitesse lors des tempêtes de sable. Ne prend également aucun dégâts des tempêtes de sable."
   },
   "wonderSkin": {
     "name": "Peau Miracle",
-    "description": "Le Pokémon résiste mieux aux capacités de statut."
+    "description": "Diminue de 50% la Précision des capacités de statut de l’attaquant."
   },
   "analytic": {
     "name": "Analyste",
-    "description": "Augmente la puissance des capacités du Pokémon s’il attaque en dernier."
+    "description": "Augmente de 30% la puissance des capacités du Pokémon s’il attaque en dernier."
   },
   "illusion": {
     "name": "Illusion",
@@ -597,7 +597,7 @@
   },
   "imposter": {
     "name": "Imposteur",
-    "description": "Le Pokémon prend l’apparence du Pokémon adverse."
+    "description": "Le Pokémon prend l’apparence du Pokémon adverse. Il copie tout à l’exception de ses PV et de son niveau. Les capacités copiées ne disposent que de 5 PP chacune."
   },
   "infiltrator": {
     "name": "Infiltration",
@@ -629,15 +629,15 @@
   },
   "prankster": {
     "name": "Farceur",
-    "description": "Rend les capacités de statut du Pokémon prioritaires."
+    "description": "Rend les capacités de statut du Pokémon prioritaires. Les Pokémon de type Ténèbres ne sont pas affectés."
   },
   "sandForce": {
     "name": "Force Sable",
-    "description": "Augmente la puissance des capacités de types Roche, Sol et Acier en cas de tempête de sable."
+    "description": "Augmente de30%  la puissance des capacités de types Roche, Sol et Acier en cas de tempête de sable. Ne prend également aucun dégâts des tempêtes de sable."
   },
   "ironBarbs": {
     "name": "Épine de Fer",
-    "description": "Inflige des dégâts à l’attaquant lorsque le Pokémon subit une attaque directe."
+    "description": "Lorsque le Pokémon subit une attaque directe, l’attaquant se blesse et perd 12,5% de ses PV totaux."
   },
   "zenMode": {
     "name": "Mode Transe",
@@ -645,7 +645,7 @@
   },
   "victoryStar": {
     "name": "Victorieux",
-    "description": "Augmente la Précision du Pokémon et de ses alliés."
+    "description": "Augmente de 10% la Précision du Pokémon et de ses alliés."
   },
   "turboblaze": {
     "name": "Turbo Brasier",
@@ -661,11 +661,11 @@
   },
   "flowerVeil": {
     "name": "Flora-Voile",
-    "description": "Empêche les alliés de type Plante de subir des baisses de stats et des altérations de statut."
+    "description": "Empêche le Pokémon les alliés de type Plante de subir des baisses de stats et des altérations de statut."
   },
   "cheekPouch": {
     "name": "Bajoues",
-    "description": "Le Pokémon récupère des PV lorsqu’il consomme n’importe quelle Baie en plus de bénéficier de ses effets habituels."
+    "description": "Le Pokémon récupère le tiers de ses PV totaux lorsqu’il consomme n’importe quelle Baie en plus de bénéficier de ses effets habituels."
   },
   "protean": {
     "name": "Protéen",
@@ -689,11 +689,11 @@
   },
   "strongJaw": {
     "name": "Prognathe",
-    "description": "Le Pokémon a une mâchoire robuste qui augmente la puissance de ses capacités de morsure."
+    "description": "Le Pokémon a une mâchoire robuste qui augmente de 50% la puissance de ses capacités de morsure."
   },
   "refrigerate": {
     "name": "Peau Gelée",
-    "description": "Les capacités de type Normal deviennent de type Glace. Leur puissance augmente légèrement."
+    "description": "Les capacités de type Normal deviennent de type Glace. Leur puissance augmente de 20%."
   },
   "sweetVeil": {
     "name": "Gluco-Voile",
@@ -709,11 +709,11 @@
   },
   "megaLauncher": {
     "name": "Méga Blaster",
-    "description": "Augmente la puissance des capacités qui projettent une aura."
+    "description": "Augmente de 50% la puissance des capacités qui projettent une aura."
   },
   "grassPelt": {
     "name": "Toison Herbue",
-    "description": "Augmente la Défense du Pokémon si un champ herbu est actif."
+    "description": "Augmente de 50% la Défense du Pokémon si un champ herbu est actif."
   },
   "symbiosis": {
     "name": "Symbiose",
@@ -721,11 +721,11 @@
   },
   "toughClaws": {
     "name": "Griffe Dure",
-    "description": "Augmente la puissance des attaques directes du Pokémon."
+    "description": "Augmente de 30% la puissance des attaques directes du Pokémon."
   },
   "pixilate": {
     "name": "Peau Féérique",
-    "description": "Les capacités de type Normal deviennent de type Fée. Leur puissance augmente légèrement."
+    "description": "Les capacités de type Normal deviennent de type Fée. Leur puissance augmente de 20%."
   },
   "gooey": {
     "name": "Poisseux",
@@ -733,23 +733,23 @@
   },
   "aerilate": {
     "name": "Peau Céleste",
-    "description": "Les capacités de type Normal deviennent de type Vol. Leur puissance augmente légèrement."
+    "description": "Les capacités de type Normal deviennent de type Vol. Leur puissance augmente de 20%."
   },
   "parentalBond": {
     "name": "Amour Filial",
-    "description": "La mère et son petit unissent leurs forces pour attaquer deux fois d’affilée."
+    "description": "La mère et son petit unissent leurs forces pour attaquer deux fois d’affilée. Le deuxième coup n’inflige que 25% de la puissance de la capacité. Les capacités à coups multiples et les capacités pouvant frapper plusieurs cibles à la fois sont ignorées."
   },
   "darkAura": {
     "name": "Aura Ténébreuse",
-    "description": "Augmente la puissance des capacités de type Ténèbres de tous les Pokémon."
+    "description": "Augmente d’un tiers la puissance des capacités de type Ténèbres de tous les Pokémon."
   },
   "fairyAura": {
     "name": "Aura Féérique",
-    "description": "Augmente la puissance des capacités de type Fée de tous les Pokémon."
+    "description": "Augmente d’un tiers la puissance des capacités de type Fée de tous les Pokémon."
   },
   "auraBreak": {
     "name": "Aura Inversée",
-    "description": "Inverse l’effet des talents « Aura » afin que ceux-ci baissent la puissance des capacités affectées au lieu de l’augmenter."
+    "description": "Inverse l’effet des talents « Aura » afin que ceux-ci baissent de 25% la puissance des capacités affectées au lieu de l’augmenter."
   },
   "primordialSea": {
     "name": "Mer Primaire",
@@ -793,11 +793,11 @@
   },
   "waterBubble": {
     "name": "Aquabulle",
-    "description": "Réduit la puissance des capacités de type Feu subies par le Pokémon. Il est également immunisé contre les brulures."
+    "description": "Réduit de moitié la puissance des capacités de type Feu subies par le Pokémon et double la puissance des capacités de type Eau. Il est également immunisé contre les brulures."
   },
   "steelworker": {
     "name": "Expert Acier",
-    "description": "Augmente la puissance des attaques de type Acier."
+    "description": "Augmente de 50% la puissance des attaques de type Acier."
   },
   "berserk": {
     "name": "Folle Furie",
@@ -805,7 +805,7 @@
   },
   "slushRush": {
     "name": "Chasse-Neige",
-    "description": "Augmente la Vitesse du Pokémon quand il neige."
+    "description": "Double la Vitesse du Pokémon quand il neige. Ne prend également aucun dégâts de la grêle."
   },
   "longReach": {
     "name": "Longue Portée",
@@ -821,7 +821,7 @@
   },
   "galvanize": {
     "name": "Peau Électrique",
-    "description": "Les capacités de type Normal deviennent de type Électrik. Leur puissance augmente légèrement."
+    "description": "Les capacités de type Normal deviennent de type Électrik. Leur puissance augmente de 20%."
   },
   "surgeSurfer": {
     "name": "Surf Caudal",
@@ -829,15 +829,15 @@
   },
   "schooling": {
     "name": "Banc",
-    "description": "Le Pokémon se rassemble avec ses congénères quand ses PV sont élevés. Quand il ne lui reste plus beaucoup de PV, le banc se disperse."
+    "description": "Le Pokémon se rassemble avec ses congénères quand il atteint le N. 20. Quand il ne lui reste que 25% de ses PV totaux ou moins, le banc se disperse."
   },
   "disguise": {
     "name": "Fantômasque",
-    "description": "Une fois par combat, le déguisement qui recouvre le corps du Pokémon est capable de le protéger d’une attaque."
+    "description": "Une fois par combat, le déguisement qui recouvre le corps du Pokémon est capable de le protéger d’une attaque aux prix de 12,5% de ses PV totaux."
   },
   "battleBond": {
     "name": "Synergie",
-    "description": "En battant un ennemi, ce Pokémon renforce ses liens avec son Dresseur et devient Sachanobi. Augmente également la puissance de la capacité Sheauriken."
+    "description": "En battant un ennemi, ce Pokémon renforce ses liens avec son Dresseur et devient Sachanobi. Augmente également la puissance de la capacité Sheauriken de 20% et frappera toujours trois fois."
   },
   "powerConstruct": {
     "name": "Rassemblement",
@@ -853,7 +853,7 @@
   },
   "queenlyMajesty": {
     "name": "Prestance Royale",
-    "description": "L’adversaire est impressionné par la majesté du Pokémon et ne peut pas le viser avec une capacité prioritaire."
+    "description": "L’adversaire est impressionné par la majesté du Pokémon et ne peut pas le viser lui et ses alliés avec une capacité prioritaire."
   },
   "innardsOut": {
     "name": "Expuls’Organes",
@@ -865,7 +865,7 @@
   },
   "battery": {
     "name": "Batterie",
-    "description": "Augmente la puissance des capacités spéciales des alliés."
+    "description": "Augmente de 30% la puissance des capacités spéciales des alliés."
   },
   "fluffy": {
     "name": "Boule de Poils",
@@ -873,7 +873,7 @@
   },
   "dazzling": {
     "name": "Corps Coloré",
-    "description": "L’adversaire est abasourdi par le Pokémon et ne peut pas le viser avec une capacité prioritaire."
+    "description": "L’adversaire est abasourdi par le Pokémon et ne peut pas le viser lui et ses alliés avec une capacité prioritaire."
   },
   "soulHeart": {
     "name": "Animacœur",
@@ -917,19 +917,19 @@
   },
   "fullMetalBody": {
     "name": "Métallo-Garde",
-    "description": "Empêche les stats du Pokémon de baisser à cause du talent ou d’une capacité de l’adversaire."
+    "description": "Empêche les stats du Pokémon de baisser à cause du talent ou d’une capacité de l’adversaire. L’effet ne peut pas être ignoré par les autres capacités ou talents."
   },
   "shadowShield": {
     "name": "Spectro-Bouclier",
-    "description": "Le Pokémon subit moins de dégâts quand ses PV sont au maximum."
+    "description": "Le Pokémon subit moitié moins de dégâts quand ses PV sont au maximum. L’effet ne peut pas être ignoré par les autres capacités ou talents."
   },
   "prismArmor": {
     "name": "Prisme-Armure",
-    "description": "Diminue la puissance des attaques super efficaces subies."
+    "description": "Diminue de 25% la puissance des attaques super efficaces subies. L’effet ne peut pas être ignoré par les autres capacités ou talents."
   },
   "neuroforce": {
     "name": "Cérébro-Force",
-    "description": "Augmente encore plus la puissance des attaques super efficaces."
+    "description": "Augmente de 25% la puissance des attaques super efficaces."
   },
   "intrepidSword": {
     "name": "Lame Indomptable",
@@ -945,7 +945,7 @@
   },
   "ballFetch": {
     "name": "Ramasse Ball",
-    "description": "Si le Pokémon ne tient aucun objet, il ramassera la Poké Ball lors du premier lancer raté du combat."
+    "description": "Le Pokémon ramassera la Poké Ball lors du premier lancer raté du combat, même s’il n’y prend pas part."
   },
   "cottonDown": {
     "name": "Effilochage",
@@ -961,7 +961,7 @@
   },
   "gulpMissile": {
     "name": "Dégobage",
-    "description": "Quand le Pokémon utilise Surf ou Plongée, il revient avec une proie. Lorsqu’il subit des dégâts par la suite, il attaque en recrachant sa proie."
+    "description": "Quand le Pokémon utilise Surf ou Plongée, il revient avec une proie. Lorsqu’il subit des dégâts par la suite, il attaque en recrachant sa proie et fait perdre à la cible 25% de ses PV totaux. Peut également baisser sa Défense ou la paralyser en fonction de la proie recrachée."
   },
   "stalwart": {
     "name": "Nerfs d’Acier",
@@ -969,11 +969,11 @@
   },
   "steamEngine": {
     "name": "Turbine",
-    "description": "Lorsque le Pokémon est touché par des capacités de type Eau ou Feu, sa Vitesse augmente énormément."
+    "description": "Lorsque le Pokémon est touché par des capacités de type Eau ou Feu, sa Vitesse augmente de 6 crans."
   },
   "punkRock": {
     "name": "Punk Rock",
-    "description": "Augmente la puissance des capacités basées sur le son. Le Pokémon ne subit que la moitié des dégâts quand il est touché par ce genre de capacités."
+    "description": "Augmente de 30% la puissance des capacités basées sur le son. Le Pokémon ne subit que la moitié des dégâts quand il est touché par ce genre de capacités."
   },
   "sandSpit": {
     "name": "Expul’Sable",
@@ -989,11 +989,11 @@
   },
   "iceFace": {
     "name": "Tête de Gel",
-    "description": "Le glaçon sur sa tête encaisse les attaques physiques à la place du Pokémon, mais sa destruction modifie son apparence. Le glaçon se reforme quand il neige."
+    "description": "Le glaçon sur sa tête encaisse les attaques physiques à la place du Pokémon, mais sa destruction modifie son apparence. Le glaçon se reforme quand il neige ou grêle."
   },
   "powerSpot": {
     "name": "Cercle d’Énergie",
-    "description": "Augmente la puissance des capacités des Pokémon qui se trouvent à proximité."
+    "description": "Augmente de 30% la puissance des capacités des Pokémon qui se trouvent à proximité."
   },
   "mimicry": {
     "name": "Mimétisme",
@@ -1005,7 +1005,7 @@
   },
   "steelySpirit": {
     "name": "Boost Acier",
-    "description": "Augmente la puissance des attaques de type Acier du Pokémon et de ses alliés."
+    "description": "Augmente de 50% la puissance des attaques de type Acier du Pokémon et de ses alliés."
   },
   "perishBody": {
     "name": "Corps Condamné",
@@ -1017,7 +1017,7 @@
   },
   "gorillaTactics": {
     "name": "Entêtement",
-    "description": "Augmente l’Attaque, mais empêche d’utiliser toute autre capacité que celle utilisée en premier par le Pokémon."
+    "description": "Augmente de 50% l’Attaque, mais empêche d’utiliser toute autre capacité que celle utilisée en premier par le Pokémon."
   },
   "neutralizingGas": {
     "name": "Gaz Inhibiteur",
@@ -1029,11 +1029,11 @@
   },
   "hungerSwitch": {
     "name": "Déclic Fringale",
-    "description": "À la fin de chaque tour, le Pokémon alterne entre ses formes Mode Rassasié et Mode Affamé."
+    "description": "À la fin de chaque tour, le Pokémon alterne entre ses formes Mode Rassasié et Mode Affamé. Change également le type de Roue Libre entre Électrik ou Ténèbres."
   },
   "quickDraw": {
     "name": "Tir Vif",
-    "description": "Permet parfois au Pokémon d’agir en premier."
+    "description": "Permet au Pokémon d’avoir 30% de chance d’agir en premier."
   },
   "unseenFist": {
     "name": "Poing Invisible",
@@ -1045,11 +1045,11 @@
   },
   "transistor": {
     "name": "Transistor",
-    "description": "Augmente la puissance des capacités de type Électrik."
+    "description": "Augmente de 30% la puissance des capacités de type Électrik."
   },
   "dragonsMaw": {
     "name": "Dent de Dragon",
-    "description": "Augmente la puissance des capacités de type Dragon."
+    "description": "Augmente 50% la puissance des capacités de type Dragon."
   },
   "chillingNeigh": {
     "name": "Blanche Ruade",
@@ -1061,11 +1061,11 @@
   },
   "asOneGlastrier": {
     "name": "Osmose Équine",
-    "description": "Les talents Tension de Sylveroy et Blanche Ruade de Blizzeval sont cumulés."
+    "description": "Les talents Tension et Blanche Ruade sont cumulés, empêchant les adversaires de consommer des Baies et d’augmenter leurs Attaque quand ils mettent K.-O. une cible."
   },
   "asOneSpectrier": {
     "name": "Osmose Équine",
-    "description": "Les talents Tension de Sylveroy et Sombre Ruade de Spectreval sont cumulés."
+    "description": "Les talents Tension et Sombre Ruade sont cumulés, empêchant les adversaires de consommer des Baies et d’augmenter leurs Attaque Spéciale quand ils mettent K.-O. une cible."
   },
   "lingeringAroma": {
     "name": "Odeur Tenace",
@@ -1101,11 +1101,11 @@
   },
   "rockyPayload": {
     "name": "Porte-Roche",
-    "description": "Augmente la puissance des capacités de type Roche."
+    "description": "Augmente de 50% la puissance des capacités de type Roche."
   },
   "windPower": {
     "name": "Turbine Éolienne",
-    "description": "Si le Pokémon est touché par une capacité faisant appel au vent, il se charge en électricité."
+    "description": "Si le Pokémon est touché par une capacité faisant appel au vent ou qu’il y a un Vent Arrière, il se charge en électricité pour augmenter la puissance de sa prochaine capacité Électrik."
   },
   "zeroToHero": {
     "name": "Supermutation",
@@ -1113,7 +1113,7 @@
   },
   "commander": {
     "name": "Commandant",
-    "description": "Si un Oyacata allié est sur le terrain ce Pokémon le rejoint en amont d’y être envoyé, ce dernier entre dans sa bouche et devient son commandant. Augmente également la probabilité des combats duo."
+    "description": "Si un Oyacata allié est sur le terrain ce Pokémon le rejoint en amont d’y être envoyé, ce dernier entre dans sa bouche et devient son commandant. Augmente également la probabilité de combats duo si le Pokémon est en tête d’équipe."
   },
   "electromorphosis": {
     "name": "Grecharge",
@@ -1121,11 +1121,11 @@
   },
   "protosynthesis": {
     "name": "Paléosynthèse",
-    "description": "Quand le soleil brille, la stat la plus élevée du Pokémon augmente."
+    "description": "Quand le soleil brille, la stat la plus élevée du Pokémon augmente de 30% ou de 50% si sa Vitesse est la stat la plus élevée."
   },
   "quarkDrive": {
     "name": "Charge Quantique",
-    "description": "Quand un champ électrifié est actif, la stat la plus élevée du Pokémon augmente."
+    "description": "Quand un champ électrifié est actif, la stat la plus élevée du Pokémon augmente de 30% ou de 50% si sa Vitesse est la stat la plus élevée."
   },
   "goodAsGold": {
     "name": "Corps en Or",
@@ -1133,27 +1133,27 @@
   },
   "vesselOfRuin": {
     "name": "Urne du Fléau",
-    "description": "Le pouvoir de l’urne qui appelle le fléau affaiblit l’Attaque Spéciale de tous les autres Pokémon."
+    "description": "Le pouvoir de l’urne qui appelle le fléau affaiblit de 25% l’Attaque Spéciale de tous les autres Pokémon."
   },
   "swordOfRuin": {
     "name": "Épée du Fléau",
-    "description": "Le pouvoir de l’épée qui appelle le fléau affaiblit la Défense de tous les autres Pokémon."
+    "description": "Le pouvoir de l’épée qui appelle le fléau affaiblit de 25% la Défense de tous les autres Pokémon."
   },
   "tabletsOfRuin": {
     "name": "Bois du Fléau",
-    "description": "Le pouvoir du bois qui appelle le fléau affaiblit l’Attaque de tous les autres Pokémon."
+    "description": "Le pouvoir du bois qui appelle le fléau affaiblit de 25% l’Attaque de tous les autres Pokémon."
   },
   "beadsOfRuin": {
     "name": "Perles du Fléau",
-    "description": "Le pouvoir des perles qui appellent le fléau affaiblit la Défense Spéciale de tous les autres Pokémon."
+    "description": "Le pouvoir des perles qui appellent le fléau affaiblit de 25% la Défense Spéciale de tous les autres Pokémon."
   },
   "orichalcumPulse": {
     "name": "Pouls Orichalque",
-    "description": "Le Pokémon invoque le soleil quand il rejoint le combat. Quand les rayons du soleil sont intenses, une pulsation primitive augmente son Attaque."
+    "description": "Le Pokémon invoque le soleil quand il rejoint le combat. Quand les rayons du soleil sont intenses, une pulsation primitive augmente son Attaque d’un tiers."
   },
   "hadronEngine": {
     "name": "Moteur à Hadrons",
-    "description": "Le Pokémon crée un champ électrifié quand il rejoint le combat. Une machine du futur fait monter son Attaque Spéciale si un champ électrifié est actif."
+    "description": "Le Pokémon crée un champ électrifié quand il rejoint le combat. Une machine du futur fait monter son Attaque Spéciale d’un tiers si un champ électrifié est actif."
   },
   "opportunist": {
     "name": "Opportuniste",
@@ -1165,11 +1165,11 @@
   },
   "sharpness": {
     "name": "Incisif",
-    "description": "Augmente la puissance des capacités tranchantes."
+    "description": "Augmente de 50% la puissance des capacités tranchantes."
   },
   "supremeOverlord": {
     "name": "Général Suprême",
-    "description": "Quand le Pokémon entre sur le terrain, son Attaque et son Attaque Spéciale augmentent légèrement pour chaque allié mis K.O. auparavant."
+    "description": "Quand le Pokémon entre sur le terrain, son Attaque et son Attaque Spéciale augmentent de 10% pour chaque allié mis K.O. auparavant."
   },
   "costar": {
     "name": "Collab",
@@ -1185,7 +1185,7 @@
   },
   "earthEater": {
     "name": "Absorbe-Terre",
-    "description": "Si le Pokémon est touché par une capacité de type Sol, il regagne des PV au lieu de subir des dégâts."
+    "description": "Si le Pokémon est touché par une capacité de type Sol, il regagne 25% de ses PV totaux au lieu de subir des dégâts."
   },
   "myceliumMight": {
     "name": "Force Fongique",
@@ -1201,11 +1201,11 @@
   },
   "hospitality": {
     "name": "Aux Petits Soins",
-    "description": "Quand il rejoint le combat, ce Pokémon est aux petits soins avec son allié et restaure quelques PV."
+    "description": "Quand il rejoint le combat, ce Pokémon est aux petits soins avec son allié et restaure 25% de ses PV totaux."
   },
   "toxicChain": {
     "name": "Chaine Toxique",
-    "description": "Grâce aux pouvoirs de sa chaine imprégnée de toxines, le Pokémon peut empoisonner gravement sa cible en la touchant avec une capacité."
+    "description": "Grâce aux pouvoirs de sa chaine imprégnée de toxines, le Pokémon a 30% de chance d’empoisonner gravement sa cible en la touchant avec une capacité."
   },
   "embodyAspectTeal": {
     "name": "Force Mémorielle",
@@ -1233,7 +1233,7 @@
   },
   "teraformZero": {
     "name": "Téraformation 0",
-    "description": "Lorsque Terapagos prend sa Forme Stellaire, il utilise son pouvoir enfoui pour annuler les effets de la météo et des champs actifs."
+    "description": "Le Pokémon utilise son pouvoir enfoui pour annuler les effets de la météo et des champs actifs."
   },
   "poisonPuppeteer": {
     "name": "Emprise Toxique",

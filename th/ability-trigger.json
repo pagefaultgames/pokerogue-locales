@@ -1,7 +1,26 @@
 {
+  "blockRecoilDamage": "{{pokemonName}} ของคุณ {{abilityName}}\nป้องกันความเสียหายจากการสะท้อนกับ!",
   "badDreams": "{{pokemonName}} ถูกทรมาน!",
+  "costar": "{{pokemonName}} ได้คัดลอกค่าพลังที่เปลี่ยนแปลงของ {{allyName}}!",
   "iceFaceAvoidedDamage": "{{pokemonName}} หลีกเลี่ยง\nความเสียหายด้วย {{abilityName}}!",
   "perishBody": "{{pokemonName}} ของคุณใช้ {{abilityName}}\nจะทำให้ทั้งสองโปเกมอนสลบใน 3 เทิร์น!",
   "poisonHeal": "{{pokemonName}} ของคุณใช้ {{abilityName}}\nฟื้นฟู HP เล็กน้อย!",
-  "windPowerCharged": "ถูกโจมตีโดย {{moveName}} ชาร์จ {{pokemonName}} ด้วยพลัง!"
+  "trace": "{{pokemonName}} ได้คัดลอก {{abilityName}} ของ {{targetName}}!\n",
+  "windPowerCharged": "ถูกโจมตีโดย {{moveName}} ชาร์จ {{pokemonName}} ด้วยพลัง!",
+  "quickDraw": "{{pokemonName}} สามารถเคลื่อนที่ได้เร็วกว่าปกติ,จากความสามารถ Quick Draw!",
+  "illusionBreak": "ภาพลวงตาของ {{pokemonName}} สลายไป!",
+  "disguiseAvoidedDamage": "ร่างปลอมของ {{pokemonNameWithAffix}} ถูกทำลายแล้ว!",
+  "blockItemTheft": "{{abilityName}}ของ{{pokemonNameWithAffix}}ป้องกันการขโมยไอเทม!",
+  "typeImmunityHeal": "{{pokemonNameWithAffix}}ฟื้นฟูHP เล็กน้อยด้วย{{abilityName}}!",
+  "nonSuperEffectiveImmunity": "{{pokemonNameWithAffix}} หลบหลีกการโจมตีด้วย {{abilityName}}!",
+  "fullHpResistType": "เปลือกของ {{pokemonNameWithAffix}} เปล่งประกาย! การแพ้ชนะของประเภทถูกบิดเบือน!",
+  "moveImmunity": "มันไม่มีผลต่อ {{pokemonNameWithAffix}}!",
+  "reverseDrain": "{{pokemonNameWithAffix}} ได้ดูดซับของเหลวเมือกเข้าไปแล้ว!",
+  "postDefendTypeChange": "{{pokemonNameWithAffix}} เปลี่ยนเป็นประเภท {{typeName}} ด้วย {{abilityName}}!",
+  "postDefendContactDamage": "ผู้โจมตีได้รับความเสียหายจาก {{abilityName}} ของ {{pokemonNameWithAffix}}!",
+  "postDefendAbilitySwap": "{{pokemonNameWithAffix}} ได้แลกเปลี่ยนความสามารถกับเป้าหมาย",
+  "postDefendAbilityGive": "{{pokemonNameWithAffix}} มอบความสามารถ {{abilityName}} ให้แก่เป้าหมาย!",
+  "postDefendMoveDisable": "{{pokemonNameWithAffix}} ไม่สามารถใช้ท่า {{moveName}} ได้!",
+  "pokemonTypeChange": "{{pokemonNameWithAffix}} ได้เปลี่ยนประเภทเป็น {{moveType}}!",
+  "pokemonTypeChangeRevert": "{{pokemonNameWithAffix}} ได้กลับคืนสู่ธาตุดั้งเดิม!"
 }

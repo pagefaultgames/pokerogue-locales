@@ -23,6 +23,97 @@
     },
     "PokemonReviveModifierType": {
       "description": "Відроджує Поке́мона, відновлюючи йому ОЗ в {{restorePercent}}%"
+    },
+    "PokemonStatusHealModifierType": {
+      "description": "Лікує будь-який Статусний Ефект одного покемона."
+    },
+    "PokemonPpRestoreModifierType": {
+      "description": "Відновлює {{restorePoints}} КВ для одного руху Поке́мона.",
+      "extra": {
+        "fully": "Відновлює всі КВ для одного руху Поке́мона."
+      }
+    },
+    "PokemonAllMovePpRestoreModifierType": {
+      "description": "Відновлює {{restorePoints}} КВ для всіх прийомів одного Поке́мона.",
+      "extra": {
+        "fully": "Відновлює всі КВ для всіх рухів одного Поке́мона."
+      }
+    },
+    "PokemonPpUpModifierType": {
+      "description": " Назавжди збільшує КВ для одного руху Поке́мона на {{upPoints}} за кожні 5 максимальних КВ (максимум 3)."
+    },
+    "PokemonNatureChangeModifierType": {
+      "name": "М'ята {{natureName}}",
+      "description": "Змінює характер Поке́мона на {{natureName}} і назавжди розблоковує характер для стартового Поке́мона."
+    },
+    "DoubleBattleChanceBoosterModifierType": {
+      "description": "Вчетверо збільшує ймовірність того, що зустрічі будуть являтися подвійними битвами, до {{battleCount}} битв."
+    },
+    "TempStatStageBoosterModifierType": {
+      "description": "Збільшує {{stat}} для всієї комнади на {{amount}} протягом 5 боїв.",
+      "extra": {
+        "stage": "1стадія",
+        "percentage": "20%"
+      }
+    },
+    "AttackTypeBoosterModifierType": {
+      "description": "Збільшує силу атак типу {{moveType}} Поке́мона на 20%."
+    },
+    "PokemonLevelIncrementModifierType": {
+      "description": "Підвищує рівень Поке́мона на {{levels}}."
+    },
+    "AllPokemonLevelIncrementModifierType": {
+      "description": "Підвищує рівень для всіх членів команди на {{levels}}."
+    },
+    "BaseStatBoosterModifierType": {
+      "description": "Збільшує базовий показник {{stat}} Поке́мона на 10%. Чим вищі IV, тим вищий ліміт накопичення."
+    },
+    "PokemonBaseStatFlatModifierType": {
+      "name": "Старий Гатó",
+      "description": "Збільшує базові характеристики {{stats}} Покемона на {{statValue}}. Знайдено після дивного сну."
+    },
+    "AllPokemonFullHpRestoreModifierType": {
+      "description": "Відновлює 100% ОЗ всім Поке́монам."
+    },
+    "AllPokemonFullReviveModifierType": {
+      "description": "Відновлює всіх знепритомнілих Поке́монів, повністю відновлюючи ОЗ."
+    },
+    "MoneyRewardModifierType": {
+      "description": "Надає {{moneyMultiplier}} грошей ({{moneyAmount}}₽).",
+      "extra": {
+        "small": "малий",
+        "moderate": "середній",
+        "large": "великий"
+      }
+    },
+    "ExpBoosterModifierType": {
+      "description": "Збільшує надбання ОД. на {{boostPercent}}%."
+    },
+    "PokemonExpBoosterModifierType": {
+      "description": "Збільшує надбання власника ОД на {{boostPercent}}%."
+    },
+    "PokemonFriendshipBoosterModifierType": {
+      "description": "Збільшує приріст дружби на 50%."
+    },
+    "PokemonMoveAccuracyBoosterModifierType": {
+      "description": "Збільшує точність прийому на {{accuracyAmount}}."
+    },
+    "PokemonMultiHitModifierType": {
+      "description": "Перетворює 25% шкоди від атак власника в додатковий удар."
+    },
+    "TmModifierType": {
+      "name": "TM{{moveId}} - {{moveName}}",
+      "description": "Навчає Поке́мона пройома {{moveName}}."
+    },
+    "TmModifierTypeWithInfo": {
+      "name": "TM{{moveId}} - {{moveName}}",
+      "description": "Навчає Поке́мона прийому {{moveName}} \n(Нажми на C або Shift щоб отримати більшу інформацію)."
+    },
+    "EvolutionItemModifierType": {
+      "description": "Змушує певних Поке́монів еволюціонувати."
+    },
+    "FormChangeItemModifierType": {
+      "description": "Змушує певних Поке́монів змінювати форму."
     }
   }
 }

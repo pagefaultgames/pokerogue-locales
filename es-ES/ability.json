@@ -1,7 +1,7 @@
 {
   "stench": {
     "name": "Hedor",
-    "description": "Puede amedrentar a un Pokémon al atacarlo debido al mal olor que emana."
+    "description": "Tiene un 10% de posibilidad de amedrentar a un Pokémon al atacarlo debido al mal olor que emana. Este efecto no se acumula con objetos o movimientos que puedan amedrentar."
   },
   "drizzle": {
     "name": "Llovizna",
@@ -21,7 +21,7 @@
   },
   "damp": {
     "name": "Humedad",
-    "description": "Aumenta la humedad del entorno y evita que se puedan utilizar movimientos explosivos, tales como Autodestrucción."
+    "description": "Aumenta la humedad del entorno y evita que se puedan utilizar movimientos explosivos, tales como Autodestrucción, o el daño de Detonación."
   },
   "limber": {
     "name": "Flexibilidad",
@@ -29,19 +29,19 @@
   },
   "sandVeil": {
     "name": "Velo Arena",
-    "description": "Aumenta su Evasión durante las tormentas de arena."
+    "description": "Aumenta la evasión durante las tormentas de arena un 20%. También evita el daño de las tormentas de arena."
   },
   "static": {
     "name": "Elec. Estática",
-    "description": "La electricidad estática que lo envuelve puede paralizar al Pokémon que lo ataque con un movimiento de contacto."
+    "description": "La electricidad estática que lo envuelve puede paralizar al Pokémon que lo ataque con un movimiento de\ncontacto con un 30% de posibilidad."
   },
   "voltAbsorb": {
     "name": "Absorbe Elec",
-    "description": "Si lo alcanza un movimiento de tipo Eléctrico, recupera PS en vez de sufrir daño."
+    "description": "Si lo alcanza un movimiento de tipo Eléctrico, recupera ¼ de sus PS máximos en vez de sufrir daño."
   },
   "waterAbsorb": {
     "name": "Absorbe Agua",
-    "description": "Si lo alcanza un movimiento de tipo Agua, recupera PS en vez de sufrir daño."
+    "description": "Si lo alcanza un movimiento de tipo Agua, recupera ¼ de sus PS máximos en vez de sufrir daño."
   },
   "oblivious": {
     "name": "Despiste",
@@ -53,7 +53,7 @@
   },
   "compoundEyes": {
     "name": "Ojo Compuesto",
-    "description": "Aumenta la precisión de sus movimientos."
+    "description": "Aumenta la precisión de sus movimientos un 30%."
   },
   "insomnia": {
     "name": "Insomnio",
@@ -69,7 +69,7 @@
   },
   "flashFire": {
     "name": "Absorbe Fuego",
-    "description": "Si lo alcanza algún movimiento de tipo Fuego, potencia sus propios movimientos de dicho tipo."
+    "description": "Si lo alcanza algún movimiento de tipo Fuego, potencia sus propios movimientos de dicho tipo en un 50%."
   },
   "shieldDust": {
     "name": "Polvo Escudo",
@@ -93,7 +93,7 @@
   },
   "roughSkin": {
     "name": "Piel Tosca",
-    "description": "Hiere con su piel áspera al Pokémon que lo ataque con un movimiento de contacto."
+    "description": "Hiere con su piel áspera al Pokémon que lo ataque con un movimiento de contacto, dañándolo ⅛ de sus PS máximos."
   },
   "wonderGuard": {
     "name": "Superguarda",
@@ -105,7 +105,7 @@
   },
   "effectSpore": {
     "name": "Efecto Espora",
-    "description": "Puede dormir, envenenar o paralizar al Pokémon que lo ataque con un movimiento de contacto."
+    "description": "Puede dormir, envenenar o paralizar al Pokémon que lo ataque con un movimiento de contacto con un 30% de posibilidad."
   },
   "synchronize": {
     "name": "Sincronía",
@@ -125,19 +125,19 @@
   },
   "sereneGrace": {
     "name": "Dicha",
-    "description": "Aumenta la probabilidad de que los movimientos causen efectos secundarios. No afecta a objetos."
+    "description": "Duplica la probabilidad de que los movimientos causen efectos secundarios. No afecta a objetos."
   },
   "swiftSwim": {
     "name": "Nado Rápido",
-    "description": "Aumenta su Velocidad cuando llueve."
+    "description": "Duplica su Velocidad cuando llueve."
   },
   "chlorophyll": {
     "name": "Clorofila",
-    "description": "Aumenta su Velocidad cuando hace sol."
+    "description": "Duplica su Velocidad cuando hace sol."
   },
   "illuminate": {
     "name": "Iluminación",
-    "description": "Al iluminar el entorno, evita que su precisión se reduzca y aumenta la probabilidad de combates dobles."
+    "description": "Al iluminar el entorno, evita que su Precisión se reduzca. Si está en combate, aumenta la probabilidad de que los siguientes combates sean combates dobles."
   },
   "trace": {
     "name": "Calco",
@@ -149,7 +149,7 @@
   },
   "poisonPoint": {
     "name": "Punto Tóxico",
-    "description": "Puede envenenar al Pokémon que lo ataque con un movimiento de contacto."
+    "description": "30% de posibilidad de envenenar al Pokémon que lo ataque con un movimiento de contacto."
   },
   "innerFocus": {
     "name": "Fuerza Mental",
@@ -173,7 +173,7 @@
   },
   "rainDish": {
     "name": "Cura Lluvia",
-    "description": "Recupera PS de forma gradual cuando llueve."
+    "description": "Recupera ¹⁄₁₆ de sus PS máximos de forma gradual cuando llueve."
   },
   "sandStream": {
     "name": "Chorro Arena",
@@ -181,7 +181,7 @@
   },
   "pressure": {
     "name": "Presión",
-    "description": "Presiona al rival de tal manera que este consume más PP al usar sus movimientos."
+    "description": "Presiona al rival de tal manera que este consume un PP más al usar sus movimientos."
   },
   "thickFat": {
     "name": "Sebo",
@@ -193,7 +193,7 @@
   },
   "flameBody": {
     "name": "Cuerpo Llama",
-    "description": "Puede quemar al Pokémon que lo ataque con un movimiento de contacto."
+    "description": "30% de posibilidad de quemar al Pokémon que lo ataque con un movimiento de contacto."
   },
   "runAway": {
     "name": "Fuga",
@@ -201,7 +201,7 @@
   },
   "keenEye": {
     "name": "Vista Lince",
-    "description": "Su aguda vista evita que su Precisión se reduzca."
+    "description": "Su aguda vista evita que su Precisión se reduzca e ignora los cambios en la Evasión del objetivo."
   },
   "hyperCutter": {
     "name": "Corte Fuerte",
@@ -209,7 +209,7 @@
   },
   "pickup": {
     "name": "Recogida",
-    "description": "Puede que recoja un objeto del enemigo tras cada batalla, al azar."
+    "description": "Puede recoger objetos que otro Pokémon haya utilizado en batalla, aún sin participar en combate."
   },
   "truant": {
     "name": "Pereza",
@@ -217,19 +217,19 @@
   },
   "hustle": {
     "name": "Entusiasmo",
-    "description": "Aumenta su ataque, pero reduce su precisión."
+    "description": "Aumenta su Ataque un 50%, pero reduce la Precisión de sus movimientos físicos un 20%."
   },
   "cuteCharm": {
     "name": "Gran Encanto",
-    "description": "Puede causar enamoramiento al Pokémon que lo ataque con un movimiento de contacto."
+    "description": "30% de posibilidad de causar enamoramiento al Pokémon que lo ataque con un movimiento de contacto."
   },
   "plus": {
     "name": "Más",
-    "description": "Aumenta su ataque especial si un Pokémon aliado tiene la habilidad Más o la habilidad Menos."
+    "description": "Aumenta su Ataque Especial un 50% si un Pokémon aliado tiene la habilidad Más o la habilidad Menos."
   },
   "minus": {
     "name": "Menos",
-    "description": "Aumenta su ataque especial si un Pokémon aliado tiene la habilidad Más o la habilidad Menos."
+    "description": "Aumenta su Ataque Especial un 50% si un Pokémon aliado tiene la habilidad Más o la habilidad Menos."
   },
   "forecast": {
     "name": "Predicción",
@@ -241,35 +241,35 @@
   },
   "shedSkin": {
     "name": "Mudar",
-    "description": "Puede curar sus problemas de estado al mudar la piel."
+    "description": "33% de posibilidad de curar sus problemas de estado al mudar la piel al final de turno."
   },
   "guts": {
     "name": "Agallas",
-    "description": "Si sufre un problema de estado, se arma de valor y aumenta su ataque."
+    "description": "Si sufre un problema de estado, se arma de valor y aumenta su Ataque un 50%."
   },
   "marvelScale": {
     "name": "Escama Especial",
-    "description": "Si sufre un problema de estado, sus escamas especiales reaccionan y aumenta su defensa."
+    "description": "Si sufre un problema de estado, sus escamas especiales reaccionan y aumenta su Defensa un 50%."
   },
   "liquidOoze": {
     "name": "Viscosecreción",
-    "description": "Exuda una secreción viscosa y tóxica de intenso hedor que hiere a quienes intentan drenarle PS."
+    "description": "Exuda una secreción viscosa y tóxica de intenso hedor que hiere a quienes intentan drenarle PS en vez de curarlos."
   },
   "overgrow": {
     "name": "Espesura",
-    "description": "Potencia sus movimientos de tipo Planta cuando le quedan pocos PS."
+    "description": "Potencia sus movimientos de tipo Planta un 50% cuando le quedan ⅓ o menos de sus PS."
   },
   "blaze": {
     "name": "Mar Llamas",
-    "description": "Potencia sus movimientos de tipo Fuego cuando le quedan pocos PS."
+    "description": "Potencia sus movimientos de tipo Fuego un 50% cuando le quedan ⅓ o menos de sus PS."
   },
   "torrent": {
     "name": "Torrente",
-    "description": "Potencia sus movimientos de tipo Agua cuando le quedan pocos PS."
+    "description": "Potencia sus movimientos de tipo Agua un 50% cuando le quedan ⅓ o menos de sus PS."
   },
   "swarm": {
     "name": "Enjambre",
-    "description": "Potencia sus movimientos de tipo Bicho cuando le quedan pocos PS."
+    "description": "Potencia sus movimientos de tipo Bicho un 50% cuando le quedan ⅓ o menos de sus PS."
   },
   "rockHead": {
     "name": "Cabeza Roca",
@@ -281,7 +281,7 @@
   },
   "arenaTrap": {
     "name": "Trampa Arena",
-    "description": "Evita que el Pokémon rival huya. También incrementa la probabilidad de combates dobles."
+    "description": " Evita que el rival huya o sea cambiado por otro. Si está en combate, aumenta la probabilidad de que los siguientes combates sean combates dobles."
   },
   "vitalSpirit": {
     "name": "Espíritu Vital",
@@ -305,39 +305,39 @@
   },
   "tangledFeet": {
     "name": "Tumbos",
-    "description": "Aumenta su evasión si está confuso."
+    "description": "Si el Pokémon está confuso, los movimientos contra él tienen su Precisión reducida a la mitad."
   },
   "motorDrive": {
     "name": "Electromotor",
-    "description": "Si lo alcanza un movimiento de tipo Eléctrico, aumenta su velocidad en vez de sufrir daño."
+    "description": "Si lo alcanza un movimiento de tipo Eléctrico, aumenta su Velocidad en vez de sufrir daño."
   },
   "rivalry": {
     "name": "Rivalidad",
-    "description": "Si el objetivo es del mismo sexo, su competitividad le lleva a infligir más daño. Si es del sexo contrario, en cambio, el daño será menor."
+    "description": "Si el objetivo es del mismo sexo, su competitividad le lleva a infligir un 25% más de daño. Si es del sexo contrario, en cambio, el daño será un 25% menor."
   },
   "steadfast": {
     "name": "Impasible",
-    "description": "Cada vez que se amedrenta, aumenta su velocidad debido a su voluntad inquebrantable."
+    "description": "Cada vez que se amedrenta, aumenta su Velocidad debido a su voluntad inquebrantable."
   },
   "snowCloak": {
     "name": "Manto Níveo",
-    "description": "Aumenta su evasión cuando nieva."
+    "description": "Aumenta su Evasión cuando nieva o graniza un 20%. También evita el daño del granizo."
   },
   "gluttony": {
     "name": "Gula",
-    "description": "Cuando sus PS se ven reducidos a la mitad, engulle la baya que normalmente solo se comería cuando le quedasen pocos PS."
+    "description": "Cuando sus PS se ven reducidos a la mitad, engulle la baya que normalmente solo se comería cuando le quedasen ¼ de los PS, como una Baya Arabol."
   },
   "angerPoint": {
     "name": "Irascible",
-    "description": "Si recibe un golpe crítico, monta en cólera y su ataque aumenta al máximo."
+    "description": "Si recibe un golpe crítico, monta en cólera y su Ataque aumenta al máximo."
   },
   "unburden": {
     "name": "Liviano",
-    "description": "Aumenta su velocidad si usa o pierde el objeto que lleva."
+    "description": "Duplica su Velocidad si usa o pierde el objeto que lleva."
   },
   "heatproof": {
     "name": "Ignífugo",
-    "description": "Su cuerpo, resistente al calor, reduce a la mitad el daño recibido por movimientos de tipo Fuego."
+    "description": "Su cuerpo, resistente al calor, reduce a la mitad el daño recibido por movimientos de tipo Fuego e impide que pueda ser quemado."
   },
   "simple": {
     "name": "Simple",
@@ -345,7 +345,7 @@
   },
   "drySkin": {
     "name": "Piel Seca",
-    "description": "Pierde PS si hace sol y los recupera si llueve o recibe un movimiento de tipo Agua. Los movimientos de tipo Fuego, por su parte, le hacen más daño de lo normal."
+    "description": "Pierde ⅛ de los PS máximos si hace sol y los recupera si llueve. Los movimientos de tipo Fuego le hacen un 25% más de daño de lo normal y los movimientos de tipo Agua le restauran ¼ de sus PS máximos en vez de dañarlo."
   },
   "download": {
     "name": "Descarga",
@@ -353,15 +353,15 @@
   },
   "ironFist": {
     "name": "Puño Férreo",
-    "description": "Aumenta la potencia de los movimientos con los puños."
+    "description": "Aumenta un 20% la potencia de los movimientos con los puños."
   },
   "poisonHeal": {
     "name": "Antídoto",
-    "description": "Si resulta envenenado, recupera PS en vez de perderlos."
+    "description": "Si resulta envenenado, recupera ⅛ de sus PS máximos en vez de perderlos."
   },
   "adaptability": {
     "name": "Adaptable",
-    "description": "Potencia aún más los movimientos cuyo tipo coincida con el suyo."
+    "description": "Aumenta la bonificación de los movimientos cuyo tipo coincida con el suyo de 1.5x a 2x. No se acumula con la bonificación del Teratipo Astral."
   },
   "skillLink": {
     "name": "Encadenado",
@@ -369,31 +369,31 @@
   },
   "hydration": {
     "name": "Hidratación",
-    "description": "Cura los problemas de estado si está lloviendo."
+    "description": "Cura los problemas de estado al final del turno si está lloviendo."
   },
   "solarPower": {
     "name": "Poder Solar",
-    "description": "Si hace sol, aumenta su ataque especial, pero pierde PS en cada turno."
+    "description": "Si hace sol, aumenta un 50% su Ataque Especial, pero pierde ⅛ de sus PS máximos en cada turno."
   },
   "quickFeet": {
     "name": "Pies Rápidos",
-    "description": "Aumenta su velocidad si sufre problemas de estado."
+    "description": "Aumenta un 50% su Velocidad si sufre problemas de estado."
   },
   "normalize": {
     "name": "Normalidad",
-    "description": "Hace que todos sus movimientos se vuelvan de tipo Normal y aumenta ligeramente su potencia."
+    "description": "Hace que todos sus movimientos se vuelvan de tipo Normal y aumenta un 20% su potencia."
   },
   "sniper": {
     "name": "Francotirador",
-    "description": "Potencia los golpes críticos que asesta aún más de lo normal."
+    "description": "Potencia los golpes críticos que asesta en un 1.5x adicional, para un 2,25x total sobre el daño estándar."
   },
   "magicGuard": {
     "name": "Muro Mágico",
-    "description": "Solo recibe daño de ataques."
+    "description": "Solo recibe daño directo de ataques."
   },
   "noGuard": {
     "name": "Indefenso",
-    "description": "Al quedar ambos expuestos, tanto sus movimientos como los del Pokémon que lo ataque acertarán siempre. También aumenta la probabilidad de combates dobles."
+    "description": "Al quedar ambos expuestos, tanto sus movimientos como los del Pokémon que lo ataque acertarán siempre. Si está en combate, aumenta la probabilidad de que los siguientes combates sean combates dobles."
   },
   "stall": {
     "name": "Rezagado",
@@ -401,7 +401,7 @@
   },
   "technician": {
     "name": "Experto",
-    "description": "Aumenta la potencia de sus movimientos débiles."
+    "description": "Aumenta un 50% la potencia de sus movimientos de 60 o menos poder."
   },
   "leafGuard": {
     "name": "Defensa Hoja",
@@ -417,11 +417,11 @@
   },
   "superLuck": {
     "name": "Afortunado",
-    "description": "Su buena suerte aumenta la probabilidad de asestar golpes críticos."
+    "description": "Su buena suerte aumenta en un nivel la probabilidad de asestar golpes críticos."
   },
   "aftermath": {
     "name": "Detonación",
-    "description": "Daña al Pokémon que le ha dado el golpe de gracia con un movimiento de contacto."
+    "description": "Daña al Pokémon que le ha dado el golpe de gracia con un movimiento de contacto por ¼ de sus PS máximos."
   },
   "anticipation": {
     "name": "Anticipación",
@@ -433,15 +433,15 @@
   },
   "unaware": {
     "name": "Ignorante",
-    "description": "Este Pokémon ignora los cambios en las estadísticas del Pokémon rival."
+    "description": "Pasa por alto los cambios en las características de un Pokémon al atacarlo o recibir daño."
   },
   "tintedLens": {
     "name": "Cromolente",
-    "description": "Potencia los movimientos que no son muy eficaces, que infligen ahora un daño normal."
+    "description": "Duplica el daño de los movimientos que \"no son muy eficaces\"."
   },
   "filter": {
     "name": "Filtro",
-    "description": "Mitiga el daño que le infligen los movimientos supereficaces."
+    "description": "Mitiga un 25% el daño que le infligen los movimientos supereficaces."
   },
   "slowStart": {
     "name": "Inicio Lento",
@@ -453,15 +453,15 @@
   },
   "stormDrain": {
     "name": "Colector",
-    "description": "Atrae y neutraliza los movimientos de tipo Agua, que además le aumentan el ataque especial."
+    "description": "Atrae y neutraliza los movimientos de tipo Agua, que además le aumentan el Ataque Especial."
   },
   "iceBody": {
     "name": "Gélido",
-    "description": "Recupera PS de forma gradual cuando nieva."
+    "description": "Recupera ¹⁄₁₆ de sus PS máximos de forma gradual cuando nieva o graniza. Este Pokémon no recibe daño del granizo."
   },
   "solidRock": {
     "name": "Roca Sólida",
-    "description": "Mitiga el daño que le infligen los movimientos supereficaces."
+    "description": "Mitiga un 25% el daño que le infligen los movimientos supereficaces."
   },
   "snowWarning": {
     "name": "Nevada",
@@ -469,7 +469,7 @@
   },
   "honeyGather": {
     "name": "Recogemiel",
-    "description": "El Pokémon recoge miel tras cada batalla. La miel se vende inmediatamente por ₽."
+    "description": "El Pokémon recoge miel tras cada batalla aún sin participar en el combate. La miel se vende inmediatamente por ₽."
   },
   "frisk": {
     "name": "Cacheo",
@@ -477,7 +477,7 @@
   },
   "reckless": {
     "name": "Audaz",
-    "description": "Potencia los movimientos que también dañan al usuario."
+    "description": "Potencia un 20% los movimientos que también dañan al usuario."
   },
   "multitype": {
     "name": "Multitipo",
@@ -485,11 +485,11 @@
   },
   "flowerGift": {
     "name": "Don Floral",
-    "description": "Si hace sol, aumenta su ataque y su defensa Especial, así como los de sus aliados."
+    "description": "Si hace sol, aumenta su ataque y su defensa Especial un 50%, así como los de sus aliados."
   },
   "badDreams": {
     "name": "Mal Sueño",
-    "description": "Inflige daño a cualquier rival que esté dormido."
+    "description": "Inflige un ⅛ de sus PS máximos de daño a cualquier rival que esté dormido al final del turno."
   },
   "pickpocket": {
     "name": "Hurto",
@@ -497,11 +497,11 @@
   },
   "sheerForce": {
     "name": "Potencia Bruta",
-    "description": "Aumenta la potencia de sus movimientos en detrimento de los efectos secundarios, que se ven anulados."
+    "description": "Aumenta un 30% la potencia de sus movimientos en detrimento de los efectos secundarios, que se ven anulados."
   },
   "contrary": {
     "name": "Respondón",
-    "description": "Invierte los cambios en las características: bajan cuando les toca subir y suben cuando les toca bajar."
+    "description": "Invierte los cambios en sus características: bajan cuando les toca subir y suben cuando les toca bajar."
   },
   "unnerve": {
     "name": "Nerviosismo",
@@ -517,15 +517,15 @@
   },
   "cursedBody": {
     "name": "Cuerpo Maldito",
-    "description": "Puede anular el movimiento usado en su contra."
+    "description": "30% de posibilidad de anular el movimiento recién usado en su contra."
   },
   "healer": {
     "name": "Alma Cura",
-    "description": "A veces cura los problemas de estado de un aliado."
+    "description": "30% de posibilidad de curar los problemas de estado de un aliado al final del turno."
   },
   "friendGuard": {
     "name": "Compiescolta",
-    "description": "Reduce el daño que sufren los aliados."
+    "description": "Reduce un 25% el daño que sufren los aliados."
   },
   "weakArmor": {
     "name": "Armadura Frágil",
@@ -545,15 +545,15 @@
   },
   "toxicBoost": {
     "name": "Ímpetu Tóxico",
-    "description": "Aumenta la potencia de sus ataques físicos cuando está envenenado."
+    "description": "Aumenta un 50% la potencia de sus ataques físicos cuando está envenenado."
   },
   "flareBoost": {
     "name": "Ímpetu Ardiente",
-    "description": "Aumenta la potencia de sus ataques especiales cuando sufre quemaduras."
+    "description": "Aumenta un 50% la potencia de sus ataques especiales cuando sufre quemaduras."
   },
   "harvest": {
     "name": "Cosecha",
-    "description": "Puede reutilizar varias veces una misma baya."
+    "description": "50% de posibilidad de regenerar una baya tras usarla. Incrementa a 100% de posibilidad cuando haga sol."
   },
   "telepathy": {
     "name": "Telepatía",
@@ -561,19 +561,19 @@
   },
   "moody": {
     "name": "Veleta",
-    "description": "Aumenta mucho una característica en cada turno, pero reduce otra."
+    "description": "Aumenta mucho una característica en cada turno, pero reduce otra. No afecta a la precisión y evasión."
   },
   "overcoat": {
     "name": "Funda",
-    "description": "No recibe daño de las tormentas de arena ni sufre los efectos causados por polvos o esporas."
+    "description": "No recibe daño de las tormentas de arena o granizo ni sufre los efectos causados por polvos o esporas."
   },
   "poisonTouch": {
     "name": "Toque Tóxico",
-    "description": "Puede envenenar al Pokémon al que ataque con un movimiento de contacto."
+    "description": "30% de probabilidad de envenenar al Pokémon al que ataque con un movimiento de contacto."
   },
   "regenerator": {
     "name": "Regeneración",
-    "description": "Recupera unos pocos PS cuando se retira del combate."
+    "description": "Recupera ⅓ de sus PS máximos cuando se retira del combate."
   },
   "bigPecks": {
     "name": "Sacapecho",
@@ -581,15 +581,15 @@
   },
   "sandRush": {
     "name": "Ímpetu Arena",
-    "description": "Aumenta su velocidad durante las tormentas de arena."
+    "description": "Duplica su velocidad durante las tormentas de arena. También evita el daño de las tormentas de arena."
   },
   "wonderSkin": {
     "name": "Piel Milagro",
-    "description": "Presenta una mayor resistencia ante los movimientos de estado."
+    "description": "Reduce un 50% la precisión de los movimientos de estado usados contra el Pokémon."
   },
   "analytic": {
     "name": "Cálculo Final",
-    "description": "Aumenta la potencia de su movimiento si es el último en atacar."
+    "description": "Aumenta un 30% la potencia de su movimiento si es el último en atacar."
   },
   "illusion": {
     "name": "Ilusión",
@@ -597,7 +597,7 @@
   },
   "imposter": {
     "name": "Impostor",
-    "description": "Se transforma en el Pokémon que tiene enfrente."
+    "description": "Se transforma en el Pokémon que tiene enfrente, copiando todo excepto los PS y el nivel. Los movimientos copiados solo tienen 5 PP."
   },
   "infiltrator": {
     "name": "Allanamiento",
@@ -621,7 +621,7 @@
   },
   "magicBounce": {
     "name": "Espejo Mágico",
-    "description": "Puede devolver los movimientos de estado sin verse afectado por ellos."
+    "description": "Devuelve los movimientos de estado sin verse afectado por ellos."
   },
   "sapSipper": {
     "name": "Herbívoro",
@@ -629,23 +629,23 @@
   },
   "prankster": {
     "name": "Bromista",
-    "description": "Sus movimientos de estado tienen prioridad alta."
+    "description": "Sus movimientos de estado tienen prioridad alta. Los Pokémon de tipo Siniestro son inmunes a estos movimientos."
   },
   "sandForce": {
     "name": "Poder Arena",
-    "description": "Potencia los movimientos de tipo Tierra, Acero y Roca durante las tormentas de arena."
+    "description": "Potencia un 30% los movimientos de tipo Tierra, Acero y Roca durante las tormentas de arena. También evita el daño de las tormentas de arena."
   },
   "ironBarbs": {
     "name": "Punta Acero",
-    "description": "Inflige daño con sus púas de acero al Pokémon que lo ataque con un movimiento de contacto."
+    "description": "Inflige daño con sus púas de acero al Pokémon que lo ataque con un movimiento de contacto, dañándolo ⅛ de sus PS máximos."
   },
   "zenMode": {
     "name": "Modo Daruma",
-    "description": "Cambia de forma si sus PS se ven reducidos a la mitad o menos."
+    "description": "Cambia a Forma Zen si sus PS se ven reducidos a la mitad o menos."
   },
   "victoryStar": {
     "name": "Tinovictoria",
-    "description": "Aumenta su precisión y la de sus aliados."
+    "description": "Aumenta un 10% su precisión y la de sus aliados."
   },
   "turboblaze": {
     "name": "Turbollama",
@@ -661,11 +661,11 @@
   },
   "flowerVeil": {
     "name": "Velo Flor",
-    "description": "Evita que los Pokémon de tipo Planta aliados sufran problemas de estado o que les reduzcan sus características."
+    "description": "Evita que los Pokémon de tipo Planta de tu bando sufran problemas de estado o que les reduzcan sus características."
   },
   "cheekPouch": {
     "name": "Carrillo",
-    "description": "Recupera PS al comer cualquier baya."
+    "description": "Recupera ⅓ de sus PS máximos al comer cualquier baya, además del efecto de la baya."
   },
   "protean": {
     "name": "Mutatipo",
@@ -673,7 +673,7 @@
   },
   "furCoat": {
     "name": "Pelaje Recio",
-    "description": "Reduce a la mitad el daño que recibe de ataques físicos."
+    "description": "Duplica su Defensa."
   },
   "magician": {
     "name": "Prestidigitador",
@@ -681,7 +681,7 @@
   },
   "bulletproof": {
     "name": "Antibalas",
-    "description": "No le afectan las bombas ni algunos proyectiles."
+    "description": "No le afectan las movimientos basados en bombas o proyectiles."
   },
   "competitive": {
     "name": "Tenacidad",
@@ -689,11 +689,11 @@
   },
   "strongJaw": {
     "name": "Mandíbula Fuerte",
-    "description": "Su robusta mandíbula le confiere una mordedura mucho más potente."
+    "description": "Su robusta mandíbula aumenta un 50% el daño de los movimientos basados en mordiscos."
   },
   "refrigerate": {
     "name": "Piel Helada",
-    "description": "Convierte los movimientos de tipo Normal en tipo Hielo y aumenta ligeramente su potencia."
+    "description": "Convierte los movimientos de tipo Normal en tipo Hielo y aumenta un 20% su potencia."
   },
   "sweetVeil": {
     "name": "Velo Dulce",
@@ -705,15 +705,15 @@
   },
   "galeWings": {
     "name": "Alas Vendaval",
-    "description": "Da prioridad a los movimientos de tipo Volador si sus PS están al máximo."
+    "description": "Da prioridad a sus movimientos de tipo Volador si sus PS están al máximo."
   },
   "megaLauncher": {
     "name": "Megadisparador",
-    "description": "Aumenta la potencia de algunos movimientos de pulsos y auras."
+    "description": "Aumenta un 50% la potencia de algunos movimientos de pulsos y auras."
   },
   "grassPelt": {
     "name": "Manto Frondoso",
-    "description": "Aumenta su defensa si hay un campo de hierba en el terreno de combate."
+    "description": "Aumenta un 50% su defensa si hay un Campo de Hierba en el terreno de combate."
   },
   "symbiosis": {
     "name": "Simbiosis",
@@ -721,11 +721,11 @@
   },
   "toughClaws": {
     "name": "Garra Dura",
-    "description": "Aumenta la potencia de los movimientos de contacto."
+    "description": "Aumenta un 30% la potencia de los movimientos de contacto."
   },
   "pixilate": {
     "name": "Piel Feérica",
-    "description": "Convierte los movimientos de tipo Normal en tipo Hada y aumenta ligeramente su potencia."
+    "description": "Convierte los movimientos de tipo Normal en tipo Hada y aumenta un 20% su potencia."
   },
   "gooey": {
     "name": "Baba",
@@ -733,23 +733,23 @@
   },
   "aerilate": {
     "name": "Piel Celeste",
-    "description": "Convierte los movimientos de tipo Normal en tipo Volador y aumenta ligeramente su potencia."
+    "description": "Convierte los movimientos de tipo Normal en tipo Volador y aumenta un 20% su potencia."
   },
   "parentalBond": {
     "name": "Amor Filial",
-    "description": "Une fuerzas con su cría y ataca dos veces."
+    "description": "Une fuerzas con su cría y ataca dos veces. El segundo golpe hace 25% del daño habitual. No afecta a movimientos que golpeen al objetivo varias veces o que golpeen a varios Pokémon."
   },
   "darkAura": {
     "name": "Aura Oscura",
-    "description": "Aumenta la potencia de los movimientos de tipo Siniestro de todos los Pokémon."
+    "description": "Aumenta un 33% la potencia de los movimientos de tipo Siniestro de todos los Pokémon."
   },
   "fairyAura": {
     "name": "Aura Feérica",
-    "description": "Aumenta la potencia de los movimientos de tipo Hada de todos los Pokémon."
+    "description": "Aumenta un 33% la potencia de los movimientos de tipo Hada de todos los Pokémon."
   },
   "auraBreak": {
     "name": "Rompeaura",
-    "description": "Invierte los efectos de las habilidades de auras, por lo que reduce la potencia de ciertos movimientos en vez de aumentarla."
+    "description": "Invierte los efectos de Aura Féerica y Aura Oscura, por lo que reduce la potencia un 25% de los movimientos afectados en vez de aumentarla."
   },
   "primordialSea": {
     "name": "Mar del Albor",
@@ -793,11 +793,11 @@
   },
   "waterBubble": {
     "name": "Pompa",
-    "description": "Reduce el daño que le provocan los movimientos de tipo Fuego y es inmune a las quemaduras."
+    "description": "Reduce el daño que le provocan los movimientos de tipo Fuego y es inmune a las quemaduras. También duplica la potencia de los movimientos de tipo Agua del usuario."
   },
   "steelworker": {
     "name": "Acero Templado",
-    "description": "Potencia los movimientos de tipo Acero."
+    "description": "Potencia un 50% los movimientos de tipo Acero."
   },
   "berserk": {
     "name": "Cólera",
@@ -805,7 +805,7 @@
   },
   "slushRush": {
     "name": "Quitanieves",
-    "description": "Aumenta su velocidad cuando nieva."
+    "description": "Duplica su velocidad cuando nieva o graniza. También evita el daño del granizo."
   },
   "longReach": {
     "name": "Remoto",
@@ -821,63 +821,52 @@
   },
   "galvanize": {
     "name": "Piel Eléctrica",
-    "description": "Convierte los movimientos de tipo Normal en tipo Eléctrico y aumenta ligeramente su potencia."
+    "description": "Convierte los movimientos de tipo Normal en tipo Eléctrico y aumenta un 20% su potencia."
   },
   "surgeSurfer": {
     "name": "Cola Surf",
-    "description": "Duplica su velocidad si hay un campo eléctrico en el terreno de combate."
+    "description": "Duplica su velocidad mientras haya un campo eléctrico en el terreno de combate."
   },
   "schooling": {
     "name": "Banco",
-    "description": "Forma bancos con sus congéneres cuando tiene muchos PS, lo cual le otorga más fuerza. Cuando le quedan pocos PS, el banco se dispersa."
+    "description": "Forma bancos con sus congéneres cuando llega a nivel 20, lo cual le otorga más fuerza. Cuando sus PS se ven reducidos a ¼, el banco se dispersa."
   },
   "disguise": {
-    "name": "Disfraz",
-    "description": "Puede eludir un ataque valiéndose de la tela que le cubre el cuerpo una vez por combate."
+    "name": "Disfraz"
   },
   "battleBond": {
-    "name": "Fuerte Afecto",
-    "description": "Al derrotar a un Pokémon, los vínculos con su Entrenador se refuerzan y aumentan su ataque, su ataque especial y su velocidad."
+    "name": "Fuerte Afecto"
   },
   "powerConstruct": {
-    "name": "Agrupamiento",
-    "description": "Cuando sus PS se ven reducidos a la mitad, las células se reagrupan y adopta su Forma Completa."
+    "name": "Agrupamiento"
   },
   "corrosion": {
-    "name": "Corrosión",
-    "description": "Puede envenenar incluso a Pokémon de tipo Acero o Veneno."
+    "name": "Corrosión"
   },
   "comatose": {
-    "name": "Letargo Perenne",
-    "description": "No despierta jamás de su profundo letargo e incluso ataca dormido. Se considera como afectado por problema de estado."
+    "name": "Letargo Perenne"
   },
   "queenlyMajesty": {
-    "name": "Regia Presencia",
-    "description": "Intimida al rival y le impide usar movimientos con prioridad contra él y sus aliados."
+    "name": "Regia Presencia"
   },
   "innardsOut": {
-    "name": "Revés",
-    "description": "Al caer debilitado, inflige al atacante un daño equivalente a los PS que le quedaran antes de recibir el golpe de gracia."
+    "name": "Revés"
   },
   "dancer": {
-    "name": "Pareja de Baile",
-    "description": "Puede copiar inmediatamente cualquier movimiento de baile que haya usado otro Pokémon presente en el combate."
+    "name": "Pareja de Baile"
   },
   "battery": {
-    "name": "Batería",
-    "description": "Potencia los ataques especiales de los aliados."
+    "name": "Batería"
   },
   "fluffy": {
     "name": "Peluche",
     "description": "Reduce a la mitad el daño recibido por los movimientos de contacto, pero duplica el que le infligen los de tipo Fuego."
   },
   "dazzling": {
-    "name": "Cuerpo Vívido",
-    "description": "Desconcierta al rival y le impide usar movimientos con prioridad contra él y sus aliados."
+    "name": "Cuerpo Vívido"
   },
   "soulHeart": {
-    "name": "Coránima",
-    "description": "Aumenta su ataque especial cada vez que un Pokémon cae debilitado."
+    "name": "Coránima"
   },
   "tanglingHair": {
     "name": "Rizos Rebeldes",
@@ -892,8 +881,7 @@
     "description": "Reacciona copiando la habilidad de un aliado debilitado."
   },
   "beastBoost": {
-    "name": "Ultraimpulso",
-    "description": "Al derrotar a un Pokémon, aumenta su característica más fuerte."
+    "name": "Ultraimpulso"
   },
   "rksSystem": {
     "name": "Sistema Alfa",
@@ -916,20 +904,16 @@
     "description": "Crea un campo de hierba al entrar en combate."
   },
   "fullMetalBody": {
-    "name": "Guardia Metálica",
-    "description": "Evita que se reduzcan sus características a causa de movimientos o habilidades de otros Pokémon."
+    "name": "Guardia Metálica"
   },
   "shadowShield": {
-    "name": "Guardia Espectro",
-    "description": "Reduce el daño que sufre si sus PS están al máximo."
+    "name": "Guardia Espectro"
   },
   "prismArmor": {
-    "name": "Armadura Prisma",
-    "description": "Mitiga el daño que le infligen los movimientos supereficaces."
+    "name": "Armadura Prisma"
   },
   "neuroforce": {
-    "name": "Fuerza Cerebral",
-    "description": "Potencia los ataques supereficaces."
+    "name": "Fuerza Cerebral"
   },
   "intrepidSword": {
     "name": "Espada Indómita",
@@ -944,8 +928,7 @@
     "description": "Al entrar en combate, cambia su tipo al del primer movimiento que va a usar."
   },
   "ballFetch": {
-    "name": "Recogebolas",
-    "description": "Recupera la Poké Ball del primer intento de captura fallido."
+    "name": "Recogebolas"
   },
   "cottonDown": {
     "name": "Pelusa",
@@ -960,20 +943,17 @@
     "description": "Refleja los efectos que reducen las características."
   },
   "gulpMissile": {
-    "name": "Tragamisil",
-    "description": "Tras usar Surf o Buceo, emerge con una presa en la boca. Al recibir daño, ataca escupiéndola."
+    "name": "Tragamisil"
   },
   "stalwart": {
     "name": "Acérrimo",
     "description": "Ignora los efectos de las habilidades o los movimientos que permiten a un Pokémon centrar la atención sobre sí."
   },
   "steamEngine": {
-    "name": "Combustible",
-    "description": "Si lo alcanza un movimiento de tipo Fuego o Agua, aumenta muchísimo su velocidad."
+    "name": "Combustible"
   },
   "punkRock": {
-    "name": "Punk Rock",
-    "description": "Potencia los movimientos que usan sonido y reduce a la mitad el daño que le infligen dichos movimientos."
+    "name": "Punk Rock"
   },
   "sandSpit": {
     "name": "Expulsarena",
@@ -988,12 +968,10 @@
     "description": "Hace madurar las bayas, por lo que duplica sus efectos."
   },
   "iceFace": {
-    "name": "Cara de Hielo",
-    "description": "Absorbe el daño de un ataque físico con el hielo de la cabeza, tras lo cual cambia de forma. El hielo se regenerará la próxima vez que nieve."
+    "name": "Cara de Hielo"
   },
   "powerSpot": {
-    "name": "Fuente Energía",
-    "description": "Potencia los movimientos de los Pokémon adyacentes."
+    "name": "Fuente Energía"
   },
   "mimicry": {
     "name": "Mimetismo",
@@ -1004,8 +982,7 @@
     "description": "Anula los efectos de Pantalla de Luz, Reflejo y Velo Aurora tanto de rivales como de aliados al entrar en combate."
   },
   "steelySpirit": {
-    "name": "Alma Acerada",
-    "description": "Potencia los movimientos de tipo Acero del Pokémon y sus aliados."
+    "name": "Alma Acerada"
   },
   "perishBody": {
     "name": "Cuerpo Mortal",
@@ -1016,24 +993,19 @@
     "description": "Si lo alcanza un movimiento de contacto, intercambia su habilidad con la del atacante."
   },
   "gorillaTactics": {
-    "name": "Monotema",
-    "description": "Aumenta su ataque, pero solo puede usar el primer movimiento escogido."
+    "name": "Monotema"
   },
   "neutralizingGas": {
-    "name": "Gas Reactivo",
-    "description": "Anula los efectos de las habilidades de los demás Pokémon presentes mientras esté en el terreno de combate."
+    "name": "Gas Reactivo"
   },
   "pastelVeil": {
-    "name": "Velo Pastel",
-    "description": "Se protege a sí mismo y a sus aliados del envenenamiento."
+    "name": "Velo Pastel"
   },
   "hungerSwitch": {
-    "name": "Mutapetito",
-    "description": "Alterna entre su Forma Saciada y Forma Voraz al final de cada turno."
+    "name": "Mutapetito"
   },
   "quickDraw": {
-    "name": "Mano Rápida",
-    "description": "A veces, puede atacar el primero."
+    "name": "Mano Rápida"
   },
   "unseenFist": {
     "name": "Puño Invisible",
@@ -1044,12 +1016,10 @@
     "description": "Al entrar en combate, rezuma una substancia medicinal por la caracola que revierte los cambios en las características de los aliados."
   },
   "transistor": {
-    "name": "Transistor",
-    "description": "Potencia los movimientos de tipo Eléctrico."
+    "name": "Transistor"
   },
   "dragonsMaw": {
-    "name": "Mandíbula Dragón",
-    "description": "Potencia los movimientos de tipo Dragón."
+    "name": "Mandíbula Dragón"
   },
   "chillingNeigh": {
     "name": "Relincho Blanco",
@@ -1060,12 +1030,10 @@
     "description": "Al derrotar a un objetivo, emite un relincho aterrador y aumenta su ataque especial."
   },
   "asOneGlastrier": {
-    "name": "Unidad Ecuestre",
-    "description": "El Pokémon tiene dos habilidades: Relincho Negro de Spectrier y Nerviosismo de Calyrex."
+    "name": "Unidad Ecuestre"
   },
   "asOneSpectrier": {
-    "name": "Unidad Ecuestre",
-    "description": "El Pokémon tiene dos habilidades: Relincho Negro de Spectrier y Nerviosismo de Calyrex."
+    "name": "Unidad Ecuestre"
   },
   "lingeringAroma": {
     "name": "Olor Persistente",
@@ -1100,60 +1068,49 @@
     "description": "Aumenta su ataque si sufre los efectos de Intimidación. También anula movimientos y objetos que fuercen el cambio de Pokémon."
   },
   "rockyPayload": {
-    "name": "Transportarrocas",
-    "description": "Potencia los movimientos de tipo Roca."
+    "name": "Transportarrocas"
   },
   "windPower": {
-    "name": "Energía Eólica",
-    "description": "Su cuerpo se carga de electricidad si lo alcanza un movimiento que usa viento, lo que potencia su siguiente movimiento de tipo Eléctrico."
+    "name": "Energía Eólica"
   },
   "zeroToHero": {
     "name": "Cambio Heroico",
     "description": "Adopta la Forma Heroica cuando se retira del combate."
   },
   "commander": {
-    "name": "Comandar",
-    "description": "Si al entrar en combate coincide con un Dondozo aliado, se cuela en el interior de su boca para tomar el control. También aumenta la probabilidad de combates dobles."
+    "name": "Comandar"
   },
   "electromorphosis": {
     "name": "Dinamo",
     "description": "Su cuerpo se carga de electricidad al recibir daño, lo que potencia su siguiente movimiento de tipo Eléctrico."
   },
   "protosynthesis": {
-    "name": "Paleosíntesis",
-    "description": "Si hace sol, aumenta su característica más alta."
+    "name": "Paleosíntesis"
   },
   "quarkDrive": {
-    "name": "Carga Cuark",
-    "description": "Si hay un campo eléctrico en el terreno de combate, aumenta su característica más alta."
+    "name": "Carga Cuark"
   },
   "goodAsGold": {
     "name": "Cuerpo Áureo",
     "description": "Su robusto cuerpo de oro inoxidable lo hace inmune frente a movimientos de estado de otros Pokémon."
   },
   "vesselOfRuin": {
-    "name": "Caldero Debacle",
-    "description": "Reduce el ataque especial de todos los demás Pokémon con el poder de su caldero maldito."
+    "name": "Caldero Debacle"
   },
   "swordOfRuin": {
-    "name": "Espada Debacle",
-    "description": "Reduce la defensa de todos los demás Pokémon con el poder de su espada maldita."
+    "name": "Espada Debacle"
   },
   "tabletsOfRuin": {
-    "name": "Tablilla Debacle",
-    "description": "Reduce el ataque de todos los demás Pokémon con el poder de sus tablillas malditas."
+    "name": "Tablilla Debacle"
   },
   "beadsOfRuin": {
-    "name": "Abalorio Debacle",
-    "description": "Reduce la defensa especial de todos los demás Pokémon con el poder de sus abalorios malditos."
+    "name": "Abalorio Debacle"
   },
   "orichalcumPulse": {
-    "name": "Latido Oricalco",
-    "description": "El tiempo pasa a ser soleado cuando entra en combate. Si hace mucho sol, su ataque aumenta gracias a su pulso primigenio."
+    "name": "Latido Oricalco"
   },
   "hadronEngine": {
-    "name": "Motor Hadrónico",
-    "description": "Crea un campo eléctrico al entrar en combate. Si hay un campo eléctrico, su ataque especial aumenta gracias a su motor futurista."
+    "name": "Motor Hadrónico"
   },
   "opportunist": {
     "name": "Oportunista",
@@ -1164,12 +1121,10 @@
     "description": "Cuando ingiere una baya, la regurgita al final del siguiente turno y se la come por segunda vez."
   },
   "sharpness": {
-    "name": "Cortante",
-    "description": "Aumenta la potencia de los movimientos cortantes."
+    "name": "Cortante"
   },
   "supremeOverlord": {
-    "name": "General Supremo",
-    "description": "Al entrar en combate, su ataque y su ataque especial aumentan un poco por cada miembro del equipo que haya sido derrotado hasta el momento."
+    "name": "General Supremo"
   },
   "costar": {
     "name": "Unísono",
@@ -1184,12 +1139,10 @@
     "description": "La extraña cola que le envuelve la cabeza impide al rival usar movimientos con prioridad contra él y sus aliados."
   },
   "earthEater": {
-    "name": "Geofagia",
-    "description": "Si lo alcanza un movimiento de tipo Tierra, recupera PS en vez de sufrir daño."
+    "name": "Geofagia"
   },
   "myceliumMight": {
-    "name": "Poder Fúngico",
-    "description": "El Pokémon siempre actúa con lentitud cuando usa movimientos de estado, pero estos no se ven afectados por la habilidad del objetivo."
+    "name": "Poder Fúngico"
   },
   "mindsEye": {
     "name": "Ojo Mental",
@@ -1200,12 +1153,10 @@
     "description": "Al entrar en combate , esparce un aroma dulzón a néctar que reduce la Evasión del rival."
   },
   "hospitality": {
-    "name": "Hospitalidad",
-    "description": "Al entrar en combate, restaura algunos PS de su aliado como muestra de hospitalidad."
+    "name": "Hospitalidad"
   },
   "toxicChain": {
-    "name": "Cadena Tóxica",
-    "description": "Gracias al poder de su cadena impregnada de toxinas, puede envenenar gravemente al Pokémon al que ataque."
+    "name": "Cadena Tóxica"
   },
   "embodyAspectTeal": {
     "name": "Evocarrecuerdos",
@@ -1232,8 +1183,7 @@
     "description": "Su caparazón encierra energía de todos los tipos. Gracias a ello, si sus PS están al máximo, el movimiento que lo alcance no será muy eficaz."
   },
   "teraformZero": {
-    "name": "Teraformación 0",
-    "description": "Cuando Terapagos adopta la Forma Astral, anula todos los efectos del tiempo atmosférico y de los campos que haya en el terreno gracias a su poder oculto."
+    "name": "Teraformación 0"
   },
   "poisonPuppeteer": {
     "name": "Títere Tóxico",

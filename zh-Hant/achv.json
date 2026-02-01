@@ -9,16 +9,20 @@
     "description": "累計獲得 ₽{{moneyAmount}}"
   },
   "10KMoney": {
-    "name": "小有積蓄"
+    "name": "小有積蓄",
+    "name_female": "小有積蓄"
   },
   "100KMoney": {
-    "name": "大戶人家"
+    "name": "大戶人家",
+    "name_female": "大戶人家"
   },
   "1MMoney": {
-    "name": "百萬富翁"
+    "name": "百萬富翁",
+    "name_female": "百萬富翁"
   },
   "10MMoney": {
-    "name": "暴發戶"
+    "name": "暴發戶",
+    "name_female": "暴發戶"
   },
   "damageAchv": {
     "description": "在單次攻擊中造成\n {{damageAmount}} 點傷害"
@@ -27,28 +31,35 @@
     "name": "重拳出擊"
   },
   "1000Dmg": {
-    "name": "神拳猛擊"
+    "name": "神拳猛擊",
+    "name_female": "神拳猛擊"
   },
   "2500Dmg": {
-    "name": "奪少？"
+    "name": "奪少？",
+    "name_female": "奪少？"
   },
   "10000Dmg": {
-    "name": "一拳超人"
+    "name": "一拳超人",
+    "name_female": "一拳超人"
   },
   "healAchv": {
     "description": "通過技能、能力或攜帶的道具\n一次性治療 {{healAmount}} {{HP}}點"
   },
   "250Heal": {
-    "name": "新手奶媽"
+    "name": "新手奶媽",
+    "name_female": "新手奶媽"
   },
   "1000Heal": {
-    "name": "治療擔當"
+    "name": "治療擔當",
+    "name_female": "治療擔當"
   },
   "2500Heal": {
-    "name": "牧師"
+    "name": "牧師",
+    "name_female": "牧師"
   },
   "10000Heal": {
-    "name": "泉水"
+    "name": "泉水",
+    "name_female": "泉水"
   },
   "levelAchv": {
     "description": "將一隻寶可夢提升到 Lv{{level}}"
@@ -57,7 +68,8 @@
     "name": "别急，後面還有"
   },
   "lv250": {
-    "name": "精英"
+    "name": "精英",
+    "name_female": "精英"
   },
   "lv1000": {
     "name": "天外有天"
@@ -66,19 +78,24 @@
     "description": "累計獲得 {{ribbonAmount}} 個勛章"
   },
   "10Ribbons": {
-    "name": "寶可夢聯盟冠軍"
+    "name": "寶可夢聯盟冠軍",
+    "name_female": "寶可夢聯盟冠軍"
   },
   "25Ribbons": {
-    "name": "超級球聯盟冠軍"
+    "name": "超級球聯盟冠軍",
+    "name_female": "超級球聯盟冠軍"
   },
   "50Ribbons": {
-    "name": "高級球聯盟冠軍"
+    "name": "高級球聯盟冠軍",
+    "name_female": "高級球聯盟冠軍"
   },
   "75Ribbons": {
-    "name": "肉鴿球聯盟冠軍"
+    "name": "肉鴿球聯盟冠軍",
+    "name_female": "肉鴿球聯盟冠軍"
   },
   "100Ribbons": {
-    "name": "大師球聯盟冠軍"
+    "name": "大師球聯盟冠軍",
+    "name_female": "大師球聯盟冠軍"
   },
   "transferMaxStatStage": {
     "name": "團隊協作",
@@ -130,6 +147,7 @@
   },
   "shinyParty": {
     "name": "嘔心瀝血",
+    "name_female": "嘔心瀝血",
     "description": "擁有一支由閃光寶可夢組成\n的滿員隊伍"
   },
   "hatchMythical": {
@@ -158,6 +176,7 @@
   },
   "classicVictory": {
     "name": "戰無不勝",
+    "name_female": "戰無不勝",
     "description": "在經典模式中通關遊戲"
   },
   "unevolvedClassicVictory": {
@@ -165,31 +184,40 @@
     "description": "通關經典模式時隊伍中至少有\n一名未進化的寶可夢"
   },
   "monoGenOne": {
-    "name": "最初的勁敵"
+    "name": "最初的勁敵",
+    "description": "完成僅限第一世代的挑戰"
   },
   "monoGenTwo": {
-    "name": "1.5世代"
+    "name": "1.5世代",
+    "description": "完成僅限第二世代的挑戰"
   },
   "monoGenThree": {
-    "name": "“水太多了”"
+    "name": "“水太多了”",
+    "description": "完成僅限第三世代的挑戰"
   },
   "monoGenFour": {
-    "name": "她真是最強冠軍嗎？"
+    "name": "她真是最強冠軍嗎？",
+    "description": "完成僅限第四世代的挑戰"
   },
   "monoGenFive": {
-    "name": "完全原創"
+    "name": "完全原創",
+    "description": "完成僅限第五世代的挑戰"
   },
   "monoGenSix": {
-    "name": "女大公"
+    "name": "女大公",
+    "description": "完成僅限第六世代的挑戰"
   },
   "monoGenSeven": {
-    "name": "首屆冠軍"
+    "name": "首屆冠軍",
+    "description": "完成僅限第七世代的挑戰"
   },
   "monoGenEight": {
-    "name": "冠軍時刻！"
+    "name": "冠軍時刻！",
+    "description": "完成僅限第八世代的挑戰"
   },
   "monoGenNine": {
-    "name": "她又放水了"
+    "name": "她又放水了",
+    "description": "完成僅限第九世代的挑戰"
   },
   "monoType": {
     "description": "完成 {{type}} 單屬性挑戰."
@@ -249,14 +277,31 @@
     "name": "林克，醒醒！"
   },
   "freshStart": {
-    "name": "初次嘗試！"
+    "name": "初次嘗試！",
+    "description": "完成初次嘗試挑戰：全部重置"
   },
   "inverseBattle": {
     "name": "鏡子子鏡",
     "description": "完成逆轉之戰挑戰\n戰挑戰之轉逆成完"
   },
+  "flipStats": {
+    "name": "等價交換",
+    "description": "完成能力互換挑戰"
+  },
+  "flipInverse": {
+    "name": "了轉反",
+    "description": "同時完成能力互換與逆轉之戰挑戰"
+  },
+  "nuzlocke": {
+    "name": "Nuzlocke挑戰！",
+    "description": "在同時啟動初次嘗試、硬派與捕捉受限挑戰的情況下完成遊戲。"
+  },
   "breedersInSpace": {
     "name": "飼養員上太空？",
     "description": "在太空中擊敗(專業)寶可夢培育家"
+  },
+  "dailyVictory": {
+    "name": "早起晨跑",
+    "description": "完成每日挑戰一次。"
   }
 }

@@ -1,1 +1,46 @@
-{}
+{
+  "intro": "到狩獵地帶了！",
+  "title": "狩獵地帶",
+  "description": "這裡有各種稀有和特殊的寶可夢！\n如果選擇進入，你將有@[TOOLTIP_TITLE]{ {{numEncounters}}次機會遇到野生寶可夢}，供你捕捉。\n但注意了，它們可能會在你捕捉到之前逃走！",
+  "query": "要進去試試嗎？",
+  "option": {
+    "1": {
+      "label": "進入",
+      "tooltip": "(-)支付{{option1Money, money}}\n@[SUMMARY_GREEN]{(?)狩獵地帶}",
+      "selected": "該試試運氣了！"
+    },
+    "2": {
+      "label": "離開",
+      "tooltip": "(-)無獎勵",
+      "selected": "你匆匆上路，心裡卻有一絲遺憾。"
+    }
+  },
+  "safari": {
+    "1": {
+      "label": "投擲精靈球",
+      "tooltip": "(+)投擲一顆精靈球",
+      "selected": "你丟出了精靈球！"
+    },
+    "2": {
+      "label": "投擲誘餌",
+      "tooltip": "(+)增加捕獲率\n(-)有機率增加逃跑率",
+      "selected": "你丟了些誘餌！"
+    },
+    "3": {
+      "label": "投擲泥巴",
+      "tooltip": "(+)降低逃跑率\n(-)有概率降低逃跑率 ",
+      "selected": "你丟了些泥巴！"
+    },
+    "4": {
+      "label": "逃跑",
+      "tooltip": "(?)逃離寶可夢 "
+    },
+    "watching": "{{pokemonName}}正在凝視你！",
+    "eating": "{{pokemonName}}正在進食！",
+    "busyEating": "{{pokemonName}}忙着進食！",
+    "angry": "{{pokemonName}}發怒了！",
+    "besideItselfAngry": "{{pokemonName}}憤怒至極！",
+    "remainingCount": "還有{{remainingCount}}只寶可夢！"
+  },
+  "outro": "真是有趣的經歷！"
+}
