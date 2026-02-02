@@ -832,41 +832,52 @@
     "description": "Forma bancos con sus congéneres cuando llega a nivel 20, lo cual le otorga más fuerza. Cuando sus PS se ven reducidos a ¼, el banco se dispersa."
   },
   "disguise": {
-    "name": "Disfraz"
+    "name": "Disfraz",
+    "description": "Puede eludir un ataque valiéndose de la tela que le cubre el cuerpo una vez por combate, a costo de ⅛ de sus PS máximos."
   },
   "battleBond": {
-    "name": "Fuerte Afecto"
+    "name": "Fuerte Afecto",
+    "description": "Al derrotar a un rival, los vínculos con su Entrenador se refuerzan y se transforma. Tras transformarse, su Shuriken de Agua siempre golpea tres veces con 20 de potencia por golpe."
   },
   "powerConstruct": {
-    "name": "Agrupamiento"
+    "name": "Agrupamiento",
+    "description": "Cuando sus PS se ven reducidos a la mitad, las células se reagrupan y adopta su Forma Completa."
   },
   "corrosion": {
-    "name": "Corrosión"
+    "name": "Corrosión",
+    "description": "Puede envenenar incluso a Pokémon de tipo Acero o Veneno."
   },
   "comatose": {
-    "name": "Letargo Perenne"
+    "name": "Letargo Perenne",
+    "description": "No despierta jamás de su profundo letargo e incluso ataca dormido. Se considera como afectado por problema de estado."
   },
   "queenlyMajesty": {
-    "name": "Regia Presencia"
+    "name": "Regia Presencia",
+    "description": "Intimida al rival y le impide usar movimientos con prioridad contra él y sus aliados."
   },
   "innardsOut": {
-    "name": "Revés"
+    "name": "Revés",
+    "description": "Al caer debilitado, inflige al atacante un daño equivalente a los PS que le quedaran antes de recibir el golpe de gracia."
   },
   "dancer": {
-    "name": "Pareja de Baile"
+    "name": "Pareja de Baile",
+    "description": "Puede copiar inmediatamente cualquier movimiento de baile que haya usado otro Pokémon presente en el combate."
   },
   "battery": {
-    "name": "Batería"
+    "name": "Batería",
+    "description": "Potencia en 30% los ataques especiales de los aliados."
   },
   "fluffy": {
     "name": "Peluche",
     "description": "Reduce a la mitad el daño recibido por los movimientos de contacto, pero duplica el que le infligen los de tipo Fuego."
   },
   "dazzling": {
-    "name": "Cuerpo Vívido"
+    "name": "Cuerpo Vívido",
+    "description": "Desconcierta al rival y le impide usar movimientos con prioridad contra él y sus aliados."
   },
   "soulHeart": {
-    "name": "Coránima"
+    "name": "Coránima",
+    "description": "Aumenta su Ataque Especial cada vez que otro Pokémon cae debilitado."
   },
   "tanglingHair": {
     "name": "Rizos Rebeldes",
@@ -881,7 +892,8 @@
     "description": "Reacciona copiando la habilidad de un aliado debilitado."
   },
   "beastBoost": {
-    "name": "Ultraimpulso"
+    "name": "Ultraimpulso",
+    "description": "Al derrotar a un Pokémon, aumenta su característica más fuerte."
   },
   "rksSystem": {
     "name": "Sistema Alfa",
@@ -904,16 +916,20 @@
     "description": "Crea un campo de hierba al entrar en combate."
   },
   "fullMetalBody": {
-    "name": "Guardia Metálica"
+    "name": "Guardia Metálica",
+    "description": "Evita que se reduzcan sus características a causa de movimientos o habilidades de otros Pokémon. Este efecto no puede ser ignorado por otros movimientos o habilidades."
   },
   "shadowShield": {
-    "name": "Guardia Espectro"
+    "name": "Guardia Espectro",
+    "description": "Reduce el daño que sufre si sus PS están al máximo. Este efecto no puede ser ignorado por otros movimientos o habilidades."
   },
   "prismArmor": {
-    "name": "Armadura Prisma"
+    "name": "Armadura Prisma",
+    "description": "Mitiga en un 25% el daño que le infligen los movimientos supereficaces. Este efecto no puede ser ignorado por otros movimientos o habilidades."
   },
   "neuroforce": {
-    "name": "Fuerza Cerebral"
+    "name": "Fuerza Cerebral",
+    "description": "Potencia en un 25% los ataques supereficaces."
   },
   "intrepidSword": {
     "name": "Espada Indómita",
@@ -928,7 +944,8 @@
     "description": "Al entrar en combate, cambia su tipo al del primer movimiento que va a usar."
   },
   "ballFetch": {
-    "name": "Recogebolas"
+    "name": "Recogebolas",
+    "description": "Recupera la Poké Ball del primer intento de captura fallido, aun sin estar en el campo de batalla."
   },
   "cottonDown": {
     "name": "Pelusa",
@@ -943,17 +960,20 @@
     "description": "Refleja los efectos que reducen las características."
   },
   "gulpMissile": {
-    "name": "Tragamisil"
+    "name": "Tragamisil",
+    "description": "Tras usar Surf o Buceo, emerge con una presa en la boca. Al recibir daño, ataca escupiéndola infligiendo ¼ de los PS máximos del atacante en daño. En función de la presa atrapada, también reduce la defensa del objetivo o inflige parálisis en él."
   },
   "stalwart": {
     "name": "Acérrimo",
     "description": "Ignora los efectos de las habilidades o los movimientos que permiten a un Pokémon centrar la atención sobre sí."
   },
   "steamEngine": {
-    "name": "Combustible"
+    "name": "Combustible",
+    "description": "Si lo alcanza un movimiento de tipo Fuego o Agua, aumenta en seis fases su velocidad."
   },
   "punkRock": {
-    "name": "Punk Rock"
+    "name": "Punk Rock",
+    "description": "Potencia un 30% los movimientos que usan sonido y reduce a la mitad el daño que le infligen dichos movimientos."
   },
   "sandSpit": {
     "name": "Expulsarena",
@@ -968,10 +988,12 @@
     "description": "Hace madurar las bayas, por lo que duplica sus efectos."
   },
   "iceFace": {
-    "name": "Cara de Hielo"
+    "name": "Cara de Hielo",
+    "description": "Absorbe el daño de un ataque físico con el hielo de la cabeza, tras lo cual cambia de forma. El hielo se regenerará la próxima vez que nieve o granice."
   },
   "powerSpot": {
-    "name": "Fuente Energía"
+    "name": "Fuente Energía",
+    "description": "Potencia un 30% los movimientos de los Pokémon adyacentes."
   },
   "mimicry": {
     "name": "Mimetismo",
@@ -982,7 +1004,8 @@
     "description": "Anula los efectos de Pantalla de Luz, Reflejo y Velo Aurora tanto de rivales como de aliados al entrar en combate."
   },
   "steelySpirit": {
-    "name": "Alma Acerada"
+    "name": "Alma Acerada",
+    "description": "Potencia un 50% los movimientos de tipo Acero del Pokémon y sus aliados."
   },
   "perishBody": {
     "name": "Cuerpo Mortal",
@@ -993,13 +1016,16 @@
     "description": "Si lo alcanza un movimiento de contacto, intercambia su habilidad con la del atacante."
   },
   "gorillaTactics": {
-    "name": "Monotema"
+    "name": "Monotema",
+    "description": "Aumenta un 50% su ataque, pero solo puede usar el primer movimiento escogido."
   },
   "neutralizingGas": {
-    "name": "Gas Reactivo"
+    "name": "Gas Reactivo",
+    "description": "Anula los efectos de las habilidades de los demás Pokémon presentes mientras esté en el terreno de combate."
   },
   "pastelVeil": {
-    "name": "Velo Pastel"
+    "name": "Velo Pastel",
+    "description": "Previene a sí mismo y a sus aliados del envenenamiento."
   },
   "hungerSwitch": {
     "name": "Mutapetito"
