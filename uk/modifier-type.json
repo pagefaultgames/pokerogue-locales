@@ -114,6 +114,125 @@
     },
     "FormChangeItemModifierType": {
       "description": "Змушує певних Поке́монів змінювати форму."
+    },
+    "FusePokemonModifierType": {
+      "description": "Об'єднує двох Поке́емонів (передає здібності, розділяє базові характеристики та типи, ділиться набором рухів)."
+    },
+    "TerastallizeModifierType": {
+      "name": "{{teraType}} Тера-осколок",
+      "description": "Змінює Тера-тип Поке́мона на {{teraType}}."
+    },
+    "ContactHeldItemTransferChanceModifierType": {
+      "description": "При атаці існує {{chancePercent}}% шанс, що предмет, який тримає ціль, буде вкрадений."
+    },
+    "TurnHeldItemTransferModifierType": {
+      "description": "Кожен хід власник отримує один предмет, який тримає супротивник."
+    },
+    "EnemyAttackStatusEffectChanceModifierType": {
+      "description": "Додає {{chancePercent}}% шанс нанести {{statusEffect}} атакуючими рухами."
+    },
+    "EnemyEndureChanceModifierType": {
+      "description": "Додає {{chancePercent}}% шанс витримати удар."
+    },
+    "RARE_CANDY": {
+      "name": "Рідкісна Цукерка"
+    },
+    "RARER_CANDY": {
+      "name": "Найрідкісніша Цукерка"
+    },
+    "MEGA_BRACELET": {
+      "name": "Мега Браслет",
+      "description": "Стають доступними Мегакамені та Мега-еволюції"
+    },
+    "DYNAMAX_BAND": {
+      "name": "Динамакс Браслет",
+      "description": "Макс Гриби стають доступними."
+    },
+    "TERA_ORB": {
+      "name": "Тера-Сфера",
+      "description": "Дозволяє вашому Поке́мону Терасталізуватися. Повільно перезаряджається. Також стають доступними Тера-Осколки."
+    },
+    "MAP": {
+      "name": "Мапа",
+      "description": "Дозволяє вибрати місце призначення на роздоріжжі. "
+    },
+    "POTION": {
+      "name": "Зілля"
+    },
+    "SUPER_POTION": {
+      "name": "Супер Зілля"
+    },
+    "HYPER_POTION": {
+      "name": "Гіпер Зілля"
+    },
+    "MAX_POTION": {
+      "name": "Макс Зілля"
+    },
+    "FULL_RESTORE": {
+      "name": "Повне Відновлення"
+    },
+    "REVIVE": {
+      "name": "Оживлення"
+    },
+    "MAX_REVIVE": {
+      "name": "Повне Оживлення"
+    },
+    "FULL_HEAL": {
+      "name": "Повне Одужання"
+    },
+    "SACRED_ASH": {
+      "name": "Священний Порошок"
+    },
+    "REVIVER_SEED": {
+      "name": "Насіння Відродження",
+      "description": "Спрацює якщо Поке́мон знепритомніть. Відновлює ОЗ на 1/2 одиниці відроджуючи власника."
+    },
+    "WHITE_HERB": {
+      "name": "Біла Трава",
+      "description": "Предмет, який тримає Покемон. Відновлює будь-який знижений показник у бою. "
+    },
+    "ETHER": {
+      "name": "Ефір"
+    },
+    "MAX_ETHER": {
+      "name": "Макс Ефір"
+    },
+    "ELIXIR": {
+      "name": "Еліксир"
+    },
+    "MAX_ELIXIR": {
+      "name": "Макс Еліксир"
+    },
+    "PP_UP": {
+      "name": "Збільшувач КВ"
+    },
+    "PP_MAX": {
+      "name": "КВ Макс"
+    },
+    "LURE": {
+      "name": "Приманка"
+    },
+    "SUPER_LURE": {
+      "name": "Чудова Приманка"
+    },
+    "MAX_LURE": {
+      "name": "Найкраща Приманка"
+    },
+    "MEMORY_MUSHROOM": {
+      "name": "Гриб Пам'яті",
+      "description": "Дозволяє згадати Поке́мону один Прийом"
+    },
+    "EXP_SHARE": {
+      "name": "Розподілювач ДОС.",
+      "description": "Надає 20% досвіду за кожен такий предмет Поке́монам, які не брали участі в бою"
+    },
+    "EXP_BALANCE": {
+      "name": "ДОС. Балансир",
+      "description": "Розподіляє досвід, отриманий у боях, на користь членів команди нижчого рівня."
+    },
+    "OVAL_CHARM": {
+      "name": "Овальний Брелок",
+      "description": "Коли в битві беруть участь кілька поке́монів, кожен з них отримує додаткові 10% від загальної кількості досвіту."
     }
   }
 }
