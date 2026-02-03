@@ -1,7 +1,7 @@
 {
   "stench": {
     "name": "Odör",
-    "description": "Denna pokémons hemska odör medan den anfaller ger en 10 % chans att få motståndaren att rygga tillbaka. Denna procent adderas inte till procenten av andra tekniker och föremål som kan orsaka ryggande."
+    "description": "Denna pokémons hemska odör medan den anfaller ger en 10 % chans att få motståndaren att rygga tillbaka. Denna procent staplas inte på procenten av andra tekniker och föremål som kan orsaka ryggande."
   },
   "drizzle": {
     "name": "Regnmakare",
@@ -236,7 +236,8 @@
     "description": "Denna pokémon förvandlas med vädret till vatten-, eld- eller istyp."
   },
   "stickyHold": {
-    "name": "Klibbig"
+    "name": "Klibbig",
+    "description": "Föremålen som denna pokémon bär är fastkletade och kan därför inte stjälas eller tas bort av andra pokémon."
   },
   "shedSkin": {
     "name": "Hudömsning",
@@ -315,7 +316,8 @@
     "description": "Denna pokémon rivaliserar med pokémon av samma kön och orsakar dem 25% mer skada, men orsakar motsatta könet 25% mindre skada."
   },
   "steadfast": {
-    "name": "Okuvlig"
+    "name": "Okuvlig",
+    "description": "Denna pokémon vill aldrig kuva och ökar därför sin snabbhet varje gång den ryggar tillbaka."
   },
   "snowCloak": {
     "name": "Göms i snö",
@@ -342,16 +344,20 @@
     "description": "Förmågeändringar fördubblas för denna pokémon."
   },
   "drySkin": {
-    "name": "Torrhudad"
+    "name": "Torrhudad",
+    "description": "Denna pokémon återfår ⅛ av max. HP per omgångsslut när det regnar eller ¼ av max. HP när den träffas av en vattentypteknik. Tyvärr tappar den också ⅛ av max. HP per omgångsslut när solen lyser starkt och tar 25% mer skada av eldtyptekniker."
   },
   "download": {
-    "name": "Nerladdning"
+    "name": "Nerladdning",
+    "description": "Denna pokémon analyserar en motståndares försvar och sp. fsv för att sedan öka antingen sin attack- eller sp. atk, beroende på vad som blir mer effektivt."
   },
   "ironFist": {
-    "name": "Järnnäve"
+    "name": "Järnnäve",
+    "description": "Denna pokémons nävtekniker är 20% starkare än vanligt."
   },
   "poisonHeal": {
-    "name": "Giftätare"
+    "name": "Giftätare",
+    "description": "Förgiftning återställer ⅛ av denna pokémons max. HP per omgångsslut, istället för att skada den."
   },
   "adaptability": {
     "name": "Anpassningsbar"
