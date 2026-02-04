@@ -37,7 +37,7 @@
   },
   "voltAbsorb": {
     "name": "Ellagring",
-    "description": "Denna pokémon återhämtar ¼ av sin maximala HP när den träffas av en eltypteknik istället för att ta skada."
+    "description": "Denna pokémon återhämtar ¼ av sin max. HP när den träffas av en eltypteknik istället för att ta skada."
   },
   "waterAbsorb": {
     "name": "Vattenabsorption",
@@ -309,7 +309,7 @@
   },
   "motorDrive": {
     "name": "Elmotor",
-    "description": "Denna pokémon skadas inte eltyptekniker; de ökar istället dess snabbhet."
+    "description": "Denna pokémon skadas inte av eltyptekniker; de ökar istället dess snabbhet."
   },
   "rivalry": {
     "name": "Rivalitet",
@@ -616,11 +616,32 @@
     "description": "När denna pokémon träffas av en mörktypteknik fylls den av ädelmod och ökar sin attackförmåga."
   },
   "rattled": {
-    "name": "Skraj",
+    "name": "Skrajsen",
     "description": "Denna pokémon blir rädd när den träffas av en mörk-, spök- eller insekttypattack eller blir avskräckt; detta ökar dess snabbhet."
   },
   "magicBounce": {
-    "name": "Trollspegel"
+    "name": "Trollspegel",
+    "description": "Denna pokémon återkastar tillståndstekniker istället för att träffas av dem."
+  },
+  "sapSipper": {
+    "name": "Växtätare",
+    "description": "Denna pokémon skadas inte av grästyptekniker; de ökar istället dess attackförmåga."
+  },
+  "prankster": {
+    "name": "Busfrö",
+    "description": "Denna pokémons tillståndstekniker ges prioritet. Mörktyppokémon är immuna mot dessa tekniker."
+  },
+  "sandForce": {
+    "name": "Sandstyrka",
+    "description": "Denna pokémons sten-, jord- och ståltyptekniker ökar i kraft med 30% under sandstormar. Den tar inte heller någon skada av sandstormar."
+  },
+  "ironBarbs": {
+    "name": "Järnpiggar",
+    "description": "Denna pokémons järnpiggar orsakar ⅛ av en anfallares  max. HP i skada vid fysisk kontakt."
+  },
+  "zenMode": {
+    "name": "Zentillstånd",
+    "description": "Denna pokémon ändrar form till Zentillstånd när dess HP sänks till 50% eller lägre."
   },
   "turboblaze": {
     "name": "Turbobrand",
