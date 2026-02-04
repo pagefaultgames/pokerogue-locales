@@ -360,38 +360,48 @@
     "description": "Förgiftning återställer ⅛ av denna pokémons max. HP per omgångsslut, istället för att skada den."
   },
   "adaptability": {
-    "name": "Anpassningsbar"
+    "name": "Anpassningsbar",
+    "description": "Tekniker av samma typ som denna pokémon är 2x starkare (istället för 1,5x starkare som vanligt). Denna ökning staplas inte på ökningen som stellärtypen ger."
   },
   "skillLink": {
     "name": "Multikostnär",
     "description": "Maxar antalet gånger som multislagtekniker träffar motståndaren."
   },
   "hydration": {
-    "name": "Hydrering"
+    "name": "Hydrering",
+    "description": "Denna pokémons tillståndspåverkan läks vid slutet av varje omgång när det regnar."
   },
   "solarPower": {
-    "name": "Solkraft"
+    "name": "Solkraft",
+    "description": "Denna pokémons Sp. Atk-förmåga ökas med 50% när solen skiner starkt men den förlorar ⅛ av sin max. HP i slutet av varje omgång."
   },
   "quickFeet": {
-    "name": "Snabb på fötterna"
+    "name": "Snabb på fötterna",
+    "description": "Denna pokémons snabbhet ökar med 50% om den har tillståndspåverkan."
   },
   "normalize": {
-    "name": "Normalisering"
+    "name": "Normalisering",
+    "description": "Alla tekniker ändrar typ till normal och deras kraft ökar med 20%."
   },
   "sniper": {
-    "name": "Prickskytt"
+    "name": "Prickskytt",
+    "description": "Denna pokémons kritiska träffar har ökat i kraft med ytterligare 50%; skadan blir totalt 2,25x normalskada."
   },
   "magicGuard": {
-    "name": "Magisköld"
+    "name": "Magisköld",
+    "description": "Endast attacktekniker kan orsaka skada på denna pokémon."
   },
   "noGuard": {
-    "name": "Sänkt gard"
+    "name": "Sänkt gard",
+    "description": "Med sänkt gard blir denna pokémon alltid träffad av attacktekniker men lyckas även alltid träffa sin motståndare. Sannolikheten för dubbelstrid ökar också när den är först i laget."
   },
   "stall": {
-    "name": "Sisten"
+    "name": "Sisten",
+    "description": "Denna pokémon utför alltid sin teknik sist av alla pokémon i striden."
   },
   "technician": {
-    "name": "Tekniker"
+    "name": "Tekniker",
+    "description": "Denna pokémons tekniker med en baskraft på 60 eller lägre förstärks med 50%."
   },
   "leafGuard": {
     "name": "Lövsköld",
@@ -406,10 +416,12 @@
     "description": "Denna pokémon kan använda tekniker på motståndaren utan att hindras av dess särdrag."
   },
   "superLuck": {
-    "name": "Lyckost"
+    "name": "Lyckost",
+    "description": "Denna pokémon har riktig tur, så chansen för den att orsaka kritiska träffar har ökat med ett steg."
   },
   "aftermath": {
-    "name": "Sista smällen"
+    "name": "Sista smällen",
+    "description": "Om denna pokémon svimmar från en teknik med fysisk kontakt exploderar den och anfallaren förlorar ¼ av dess max. HP."
   },
   "anticipation": {
     "name": "Förutseende",
@@ -420,96 +432,120 @@
     "description": "När den skickas ut in strid kan denna pokémon läsa av en av motståndarens tekniker."
   },
   "unaware": {
-    "name": "Aningslös"
+    "name": "Aningslös",
+    "description": "Denna pokémon ignorerar motståndarens förmågeändringar när den anfaller eller försvarar sig."
   },
   "tintedLens": {
-    "name": "Rosenskimmer"
+    "name": "Rosenskimmer",
+    "description": "Denna pokémons inte särskilt effektiva tekniker orsakar dubbel skada."
   },
   "filter": {
-    "name": "Filter"
+    "name": "Filter",
+    "description": "Supereffektiva attacker som träffar denna pokémon gör 25% mindre skada."
   },
   "slowStart": {
     "name": "Segstartad",
     "description": "Denna pokémons snabbhet och attackförmåga halveras under de första 5 omgångarna."
   },
   "scrappy": {
-    "name": "Kämparanda"
+    "name": "Kämparanda",
+    "description": "Denna pokémon kan träffa spöktyppokémon med normal- och slagsmålstyptekniker. Den påverkas inte heller av avskräckande pokémon."
   },
   "stormDrain": {
-    "name": "Vattensamling"
+    "name": "Vattensamling",
+    "description": "Denna pokémon drar till sig alla vattentyptekniker och istället för att skadas ökas dess Sp. Atk."
   },
   "iceBody": {
-    "name": "Glassig"
+    "name": "Is i magen",
+    "description": "Denna pokémon återhämtar ¹⁄₁₆ av dess max. HP per omgångsslut när det snöar eller haglar. Den tar inte heller skada från hagel."
   },
   "solidRock": {
-    "name": "Stenhård"
+    "name": "Stenhård",
+    "description": "Supereffektiva attacker orsakar 25% mindre skada på denna pokémon."
   },
   "snowWarning": {
     "name": "Snöläggare",
     "description": "Denna pokémon orsakar snö när den skickas ut i strid."
   },
   "honeyGather": {
-    "name": "Honungssamlare"
+    "name": "Honungssamlare",
+    "description": "Denna pokémon samlar honung, som sedan genast säljs för pengar, efter att en strid har vunnits även om den inte deltog."
   },
   "frisk": {
     "name": "Genomskådande",
     "description": "När denna pokémon skickas ut i strid kan den kolla en motståndares särdrag."
   },
   "reckless": {
-    "name": "Vårdslös"
+    "name": "Vårdslös",
+    "description": "Denna pokémons tekniker med bakslag är 20% starkare än vanligt."
   },
   "multitype": {
     "name": "Multityp",
     "description": "Denna pokémons typ ändras efter vilken sorts platta den bär."
   },
   "flowerGift": {
-    "name": "Blomgåva"
+    "name": "Blomgåva",
+    "description": "I starkt solsken ökas attack- och sp. fsv-förmågan med 50% hos denna pokémon och den vid dess sida."
   },
   "badDreams": {
-    "name": "Mardrömslik"
+    "name": "Mardrömslik",
+    "description": "Denna pokémon orsakar mardrömmar hos sovande motståndare, vilka gör att de förlorar ⅛ av deras max. HP per omgångsslut."
   },
   "pickpocket": {
-    "name": "Långfingrad"
+    "name": "Långfingrad",
+    "description": "Denna pokémon stjäl burna föremål från anfallare när deras attacker har fysiskt kontakt med den."
   },
   "sheerForce": {
-    "name": "Råstyrka"
+    "name": "Råstyrka",
+    "description": "Denna pokémons tekniker med bonuseffekter tappar dem men ökar 30% i kraft."
   },
   "contrary": {
-    "name": "Motsträvig"
+    "name": "Motsträvig",
+    "description": "Alla förmågeändringar hos denna pokémon är omvända:  försök att öka en förmåga sänker den istället, medan försök att sänka en förmåga ökar den."
   },
   "unnerve": {
     "name": "Oroväckande",
     "description": "Denna pokémon oroar sina motståndare, vilket gör så att de inte kan äta bär."
   },
   "defiant": {
-    "name": "Trotsig"
+    "name": "Trotsig",
+    "description": "Denna pokémons attackförmåga ökar skarpt när en av dess förmågor sänks av en motståndare."
   },
   "defeatist": {
-    "name": "Krake"
+    "name": "Krake",
+    "description": "Denna pokémons attack- och sp. atk-förmåga halveras när dess HP hamnar under 50%."
   },
   "cursedBody": {
-    "name": "Förbannad"
+    "name": "Förbannad",
+    "description": "Denna pokémon har 30% sannolikhet att förbanna tekniker som används på den så att de spärras och inte kan utföras."
   },
   "healer": {
-    "name": "Helare"
+    "name": "Helare",
+    "description": "Vid varje omgångslut kan, med 30% sannolikhet, all tillståndspåverkan läkas hos den vid denna pokémons sida."
   },
   "friendGuard": {
-    "name": "Beskyddande"
+    "name": "Beskyddande",
+    "description": "De vid denna pokémons sida i en strid orsakas 25% mindre skada."
   },
   "weakArmor": {
-    "name": "Lättrustad"
+    "name": "Lättrustad",
+    "description": "Fysiska attacker mot denna pokémon sänker dess försvarsförmåga men ökar dess snabbhet skarpt."
   },
   "heavyMetal": {
-    "name": "Tungmetall"
+    "name": "Tungmetall",
+    "description": "Denna pokémons vikt är fördubblad."
   },
   "lightMetal": {
-    "name": "Lättmetall"
+    "name": "Lättmetall",
+    "description": "Denna pokémons vikt är halverad."
   },
   "multiscale": {
-    "name": "Multifjäll"
+    "name": "Multifjäll",
+    "description": "Denna pokémon tar hälften så mycket skada när den har fullt med HP."
   },
   "toxicBoost": {
-    "name": "Giftdräpande"
+    "name": "Giftdräpande",
+    "description": "Denna pokémons fysiska teknikers ökar i kraft med 50% när den är förgiftad."
   },
   "flareBoost": {
     "name": "Eldfängd"
