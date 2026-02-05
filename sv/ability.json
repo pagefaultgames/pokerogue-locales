@@ -629,7 +629,7 @@
   },
   "prankster": {
     "name": "Busfrö",
-    "description": "Denna pokémons tillståndstekniker ges prioritet. Mörktyppokémon är immuna mot dessa tekniker."
+    "description": "Denna pokémons tillståndstekniker ges högre prioritet. Mörktyppokémon är immuna mot dessa tekniker."
   },
   "sandForce": {
     "name": "Sandstyrka",
@@ -705,7 +705,7 @@
   },
   "galeWings": {
     "name": "Luft under vingarna",
-    "description": "Denna pokémons flygtyptekniker ges prioritet när den har fullt med HP."
+    "description": "Denna pokémons flygtyptekniker ges högre prioritet när den har fullt med HP."
   },
   "megaLauncher": {
     "name": "Helt kanon",
@@ -815,11 +815,52 @@
     "name": "Flytande tal",
     "description": "Denna pokémon ljudbaserade tekniker blir vattentyptekniker."
   },
+  "triage": {
+    "name": "Förstavårdare",
+    "description": "Denna pokémons HP-återställande tekniker ges högre prioritet"
+  },
   "galvanize": {
-    "name": "Elektriserande"
+    "name": "Elektriserande",
+    "description": "Denna pokémons normaltyptekniker blir av eltyp. Dessa tekniker ökar även i kraft med 20%."
+  },
+  "surgeSurfer": {
+    "name": "Elnätsurfare",
+    "description": "Denna pokémons snabbhet fördubblas på Elterräng."
+  },
+  "schooling": {
+    "name": "Stimmig",
+    "description": "Denna pokémon drar ihop ett kraftfull stim efter att den har nått nivå 20. Den slutar stimma om dess HP sjunker till 25% eller lägre."
   },
   "disguise": {
-    "name": "Förklädd"
+    "name": "Förklädd",
+    "description": "En gång per strid skyddar denna pokémons täckmantel den mot en attack, så att den bara tappar ⅛ av dess max. HP."
+  },
+  "battleBond": {
+    "name": "Supersynergi",
+    "description": "När denna pokémon besegrar en motståndare förstärks bandet mellan den och tränaren, vilket gör så att den byter form. Efter bytet träffar Vattenshuriken alltid tre gånger med 20 mer i kraft per träff."
+  },
+  "powerConstruct": {
+    "name": "Cellsvärm",
+    "description": "Nya celler ansamlas för att förstärka denna pokémon när dess HP blir 50% eller lägre, vilket förvandlar den till  sin Helform."
+  },
+  "corrosion": {
+    "name": "Sönderfrätande",
+    "description": "Denna pokémon kan förgifta en motståndaren även om den är av stål- eller gifttyp."
+  },
+  "comatose": {
+    "name": "8-sovare",
+    "description": "Denna pokémon är i evig sömn och kan anfalla medan den sovar. Sömnen räknas som tillståndspåverkan."
+  },
+  "queenlyMajesty": {
+    "name": "Majestätisk",
+    "description": "Denna pokémons majestät sätter tryck på motståndare, vilket gör så att de inte kan utföra prioritetstekniker mot den eller de vid dess sida i strid."
+  },
+  "innardsOut": {
+    "name": "Insidan utåt",
+    "description": "När denna pokémon svimmar från en attack spottar den ut sina inälvor och orskar anfallaren skada som är lika med HP:n den hade kvar innan attacken."
+  },
+  "dancer": {
+    "name": "Dansant"
   },
   "beastBoost": {
     "name": "Bestbemästrande"
@@ -839,6 +880,9 @@
   },
   "windPower": {
     "name": "Vindkraft"
+  },
+  "zeroToHero": {
+    "name": "Heroisering"
   },
   "vesselOfRuin": {
     "name": "Kalamitetskärl"
