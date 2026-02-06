@@ -684,7 +684,8 @@
     "description": "Das Pokémon ist vor Attacken mit kugelförmigen Objekten, wie zum Beispiel Bomben, geschützt."
   },
   "competitive": {
-    "name": "Unbeugsamkeit"
+    "name": "Unbeugsamkeit",
+    "description": "Der Spezial-Angriff des Pokémon steigt stark, wenn einer seiner Statuswerte durch ein anderes Pokémon gesenkt wird."
   },
   "strongJaw": {
     "name": "Titankiefer"
@@ -700,7 +701,8 @@
     "description": "Setzt das Pokémon eine Offensiv-Attacke ein, nimmt es die Klingenform an. Setzt es danach die Attacke Königsschild ein, nimmt es die Schildform an."
   },
   "galeWings": {
-    "name": "Orkanschwingen"
+    "name": "Orkanschwingen",
+    "description": "Die Fähigkeit ermöglicht dem Pokémon bei vollen KP einen Erstschlag mit Flug-Attacken."
   },
   "megaLauncher": {
     "name": "Megawumme"
@@ -749,23 +751,28 @@
     "name": "Delta-Wind"
   },
   "stamina": {
-    "name": "Zähigkeit"
+    "name": "Zähigkeit",
+    "description": "Wird das Pokémon von einem Angriff getroffen, steigt seine Verteidigung."
   },
   "wimpOut": {
-    "name": "Reißaus"
+    "name": "Reißaus",
+    "description": "Fallen die KP des Pokémon auf die Hälfte des Maximalwerts oder weniger, zieht es sich ängstlich in seinen Pokéball zurück."
   },
   "emergencyExit": {
-    "name": "Rückzug"
+    "name": "Rückzug",
+    "description": "Fallen die KP des Pokémon auf die Hälfte des Maximalwerts oder weniger, bringt es sich in Sicherheit und kehrt in seinen Pokéball zurück."
   },
   "waterCompaction": {
-    "name": "Verklumpen"
+    "name": "Verklumpen",
+    "description": "Wird das Pokémon von einer Wasser-Attacke getroffen, steigt seine Verteidigung stark."
   },
   "merciless": {
     "name": "Quälerei",
     "description": "Sorgt bei Angriffen auf vergiftete Ziele für Volltreffergarantie."
   },
   "shieldsDown": {
-    "name": "Limitschild"
+    "name": "Limitschild",
+    "description": "Fallen die KP des Pokémon auf die Hälfte des Maximalwerts oder weniger, zerbricht seine Panzerung und es wird aggressiver."
   },
   "stakeout": {
     "name": "Beschattung"
@@ -777,7 +784,8 @@
     "name": "Stahlprofi"
   },
   "berserk": {
-    "name": "Wutausbruch"
+    "name": "Wutausbruch",
+    "description": "Fallen die KP des Pokémon durch einen Angriff auf die Hälfte des Maximalwerts oder weniger, steigt sein Spezial-Angriff."
   },
   "slushRush": {
     "name": "Schneescharrer"
@@ -787,10 +795,12 @@
     "description": "Ermöglicht dem Pokémon den Einsatz aller seiner Attacken, ohne das Ziel dabei direkt zu berühren."
   },
   "liquidVoice": {
-    "name": "Plätscherstimme"
+    "name": "Plätscherstimme",
+    "description": "Alle Geräusch-Attacken des Pokémon nehmen den Typ Wasser an."
   },
   "triage": {
-    "name": "Heilwandel"
+    "name": "Heilwandel",
+    "description": "Die Fähigkeit ermöglicht dem Pokémon einen Erstschlag mit Attacken, welche die KP des Anwenders direkt regenerieren."
   },
   "galvanize": {
     "name": "Elektrohaut"
@@ -808,7 +818,8 @@
     "name": "Freundschaftsakt"
   },
   "powerConstruct": {
-    "name": "Scharwandel"
+    "name": "Scharwandel",
+    "description": "Fallen die KP des Pokémon auf die Hälfte des Maximalwerts oder weniger, eilen ihm weitere Zellen zu Hilfe und es nimmt die Optimumform an."
   },
   "corrosion": {
     "name": "Korrosion"
@@ -820,10 +831,12 @@
     "name": "Majestät"
   },
   "innardsOut": {
-    "name": "Magenkrempler"
+    "name": "Magenkrempler",
+    "description": "Wird das Pokémon von einem Angreifer besiegt, fügt es diesem Schaden in Höhe des KP-Werts zu, den es besaß, bevor es kampfunfähig wurde."
   },
   "dancer": {
-    "name": "Tänzer"
+    "name": "Tänzer",
+    "description": "Das Pokémon kann direkt im Anschluss an die Tanz-Attacke eines anderen Pokémon dieselbe Attacke ebenfalls einsetzen."
   },
   "battery": {
     "name": "Batterie"
@@ -836,7 +849,8 @@
     "name": "Buntkörper"
   },
   "soulHeart": {
-    "name": "Seelenherz"
+    "name": "Seelenherz",
+    "description": "Jedes Mal, wenn ein anderes Pokémon besiegt wird, steigt der Spezial-Angriff des Pokémon."
   },
   "tanglingHair": {
     "name": "Lockenkopf",
@@ -851,7 +865,8 @@
     "description": "Wechselt seine Fähigkeit zu der eines kampfunfähig gewordenen Mitstreiters."
   },
   "beastBoost": {
-    "name": "Bestien-Boost"
+    "name": "Bestien-Boost",
+    "description": "Besiegt das Pokémon ein anderes Pokémon, steigt sein höchster Statuswert."
   },
   "rksSystem": {
     "name": "Alpha-System",
@@ -966,7 +981,8 @@
     "name": "Affenfokus"
   },
   "neutralizingGas": {
-    "name": "Reaktionsgas"
+    "name": "Reaktionsgas",
+    "description": "Solange das Pokémon am Kampf beteiligt ist, werden die Fähigkeiten aller anderen Pokémon unterdrückt oder aufgehoben."
   },
   "pastelVeil": {
     "name": "Pastellhülle"
