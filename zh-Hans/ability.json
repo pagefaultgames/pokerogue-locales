@@ -17,7 +17,7 @@
   },
   "sturdy": {
     "name": "结实",
-    "description": "这只宝可梦在满ＨＰ状态下受到一\n次攻击时，至少会保留1点ＨＰ。\n一击必杀的招式对这只宝可梦无效。"
+    "description": "在ＨＰ全满时，即使受到招式攻击，\n也不会被一击打倒。\n一击必杀的招式也没有效果。"
   },
   "damp": {
     "name": "湿气",
@@ -43,7 +43,7 @@
   },
   "oblivious": {
     "name": "迟钝",
-    "description": "这只宝可梦感觉迟钝，不会变为着\n迷和挑衅状态，也不受威吓影响。"
+    "description": "因为感觉迟钝，\n不会变为着迷和被挑衅状态。\n对威吓也毫不动摇。"
   },
   "cloudNine": {
     "name": "无关天气",
@@ -55,7 +55,7 @@
   },
   "insomnia": {
     "name": "不眠",
-    "description": "这只宝可梦有着睡不着的体质，所\n以不会陷入睡眠状态。"
+    "description": "因为有着睡不着的体质，\n所以不会陷入睡眠状态。"
   },
   "colorChange": {
     "name": "变色",
@@ -63,7 +63,7 @@
   },
   "immunity": {
     "name": "免疫",
-    "description": "这只宝可梦因为体内拥有免疫能力，\n所以不会变为中毒状态。"
+    "description": "因为体内拥有免疫能力，\n不会变为中毒状态。"
   },
   "flashFire": {
     "name": "引火",
@@ -71,11 +71,11 @@
   },
   "shieldDust": {
     "name": "鳞粉",
-    "description": "这只宝可梦被鳞粉守护着，不会受\n到招式的追加效果影响。"
+    "description": "被鳞粉守护着，\n不会受到招式的追加效果影响。"
   },
   "ownTempo": {
     "name": "我行我素",
-    "description": "这只宝可梦我行我素，不会变为混\n乱状态，也不受威吓影响。"
+    "description": "因为我行我素，\n不会变为混乱状态。\n对威吓也毫不动摇。"
   },
   "suctionCups": {
     "name": "吸盘",
@@ -83,11 +83,11 @@
   },
   "intimidate": {
     "name": "威吓",
-    "description": "这只宝可梦出场时威吓对手，使它\n们的攻击下降1级。"
+    "description": "出场时威吓对手，\n让其退缩，\n降低对手的攻击。"
   },
   "shadowTag": {
     "name": "踩影",
-    "description": "这只宝可梦能踩住对方的影子，使\n对方不持有踩影特性的非幽灵属性\n宝可梦无法替换或逃走。"
+    "description": "踩住对手的影子\n使其无法逃走或替换。"
   },
   "roughSkin": {
     "name": "粗糙皮肤",
@@ -115,7 +115,7 @@
   },
   "naturalCure": {
     "name": "自然回复",
-    "description": "这只宝可梦回到同行队伍后，异常\n状态就会被治愈。"
+    "description": "回到同行队伍后，\n异常状态就会被治愈。"
   },
   "lightningRod": {
     "name": "避雷针",
@@ -151,19 +151,19 @@
   },
   "innerFocus": {
     "name": "精神力",
-    "description": "这只宝可梦拥有经过锻炼的精神，\n不会变为畏缩状态，也不受威吓影\n响。"
+    "description": "拥有经过锻炼的精神，\n而不会因对手的攻击而畏缩。\n对威吓也毫不动摇。"
   },
   "magmaArmor": {
     "name": "熔岩铠甲",
-    "description": "因为将炽热的熔岩覆盖在身上，这\n只宝可梦不会变为冰冻状态。"
+    "description": "将炽热的熔岩覆盖在身上，\n不会变为冰冻状态。"
   },
   "waterVeil": {
     "name": "水幕",
-    "description": "因为将水幕裹在身上，这只宝可梦\n不会变为灼伤状态。"
+    "description": "将水幕裹在身上，\n不会变为灼伤状态。"
   },
   "magnetPull": {
     "name": "磁力",
-    "description": "这只宝可梦能用磁力吸住钢属性的\n宝可梦，使对方非幽灵属性的钢属\n性宝可梦无法替换或逃走。"
+    "description": "用磁力吸住钢属性的宝可梦，\n使其无法逃走。"
   },
   "soundproof": {
     "name": "隔音",
@@ -203,7 +203,7 @@
   },
   "hyperCutter": {
     "name": "怪力钳",
-    "description": "这只宝可梦拥有以力量自豪的钳子，\n不会被对手降低攻击。"
+    "description": "因为拥有以力量自豪的钳子，\n不会被对手降低攻击。"
   },
   "pickup": {
     "name": "捡拾",
@@ -211,7 +211,7 @@
   },
   "truant": {
     "name": "懒惰",
-    "description": "这只宝可梦如果使出招式，下一回\n合就会休息。"
+    "description": "如果使出招式，\n下一回合就会休息。"
   },
   "hustle": {
     "name": "活力",
@@ -442,7 +442,7 @@
   },
   "multitype": {
     "name": "多属性",
-    "description": "自己的属性会根据持有的石板而改\n变。"
+    "description": "自己的属性会根据\n持有的石板而改变"
   },
   "flowerGift": {
     "name": "花之礼"
