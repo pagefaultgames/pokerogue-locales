@@ -7,20 +7,23 @@
     "description": "出場時，會將天氣變為下雨\n。"
   },
   "speedBoost": {
-    "name": "加速"
+    "name": "加速",
+    "description": "每一回合速度會變快。"
   },
   "battleArmor": {
     "name": "戰鬥盔甲",
     "description": "被堅硬的甲殼守護著，不會\n被對手的攻擊擊中要害。"
   },
   "sturdy": {
-    "name": "結實"
+    "name": "結實",
+    "description": "在ＨＰ全滿時受到招式攻擊\n不會被一擊打倒。\n一擊必殺的招式也沒有效果。"
   },
   "damp": {
     "name": "濕氣"
   },
   "limber": {
-    "name": "柔軟"
+    "name": "柔軟",
+    "description": "因為身體柔軟，\n不會陷入麻痺狀態。"
   },
   "sandVeil": {
     "name": "沙隱"
@@ -35,7 +38,8 @@
     "name": "儲水"
   },
   "oblivious": {
-    "name": "遲鈍"
+    "name": "遲鈍",
+    "description": "感覺遲鈍，\n不會陷入著迷和被挑釁狀態。\n面對威嚇也不會動搖。"
   },
   "cloudNine": {
     "name": "無關天氣",
@@ -45,32 +49,39 @@
     "name": "複眼"
   },
   "insomnia": {
-    "name": "不眠"
+    "name": "不眠",
+    "description": "因為有著睡不著的體質，\n所以不會陷入睡眠狀態。"
   },
   "colorChange": {
     "name": "變色",
     "description": "自己的屬性會變為擊中自己\n的對手招式的屬性。"
   },
   "immunity": {
-    "name": "免疫"
+    "name": "免疫",
+    "description": "因為體內擁有免疫能力，\n不會陷入中毒狀態。"
   },
   "flashFire": {
     "name": "引火"
   },
   "shieldDust": {
-    "name": "鱗粉"
+    "name": "鱗粉",
+    "description": "被鱗粉守護著，\n不會受到招式的追加效果影響。"
   },
   "ownTempo": {
-    "name": "我行我素"
+    "name": "我行我素",
+    "description": "因為我行我素，\n不會陷入混亂狀態。\n面對威嚇也不會動搖。"
   },
   "suctionCups": {
-    "name": "吸盤"
+    "name": "吸盤",
+    "description": "用吸盤將自己牢牢吸附在地面上，\n讓替換寶可夢的招式和道具失效。"
   },
   "intimidate": {
-    "name": "威嚇"
+    "name": "威嚇",
+    "description": "出場時威嚇對手，\n使其退縮，\n從而降低對手的攻擊。"
   },
   "shadowTag": {
-    "name": "踩影"
+    "name": "踩影",
+    "description": "踩住對手的影子\n使其無法逃走或替換。"
   },
   "roughSkin": {
     "name": "粗糙皮膚"
@@ -94,10 +105,12 @@
     "description": "不會因對手的招式或特性而\n被降低能力。"
   },
   "naturalCure": {
-    "name": "自然回復"
+    "name": "自然回復",
+    "description": "異常狀態會在\n離場後治癒。"
   },
   "lightningRod": {
-    "name": "避雷針"
+    "name": "避雷針",
+    "description": "將電屬性的招式吸引到自己身上，\n不但不會受到傷害，反而會提高特攻。"
   },
   "sereneGrace": {
     "name": "天恩"
@@ -123,16 +136,20 @@
     "name": "毒刺"
   },
   "innerFocus": {
-    "name": "精神力"
+    "name": "精神力",
+    "description": "靠著經過鍛鍊的精神，\n不會因對手的攻擊而畏縮。\n面對威嚇也不會動搖。"
   },
   "magmaArmor": {
-    "name": "熔岩鎧甲"
+    "name": "熔岩鎧甲",
+    "description": "將熾熱的熔岩覆蓋在身上，\n不會陷入冰凍狀態。"
   },
   "waterVeil": {
-    "name": "水幕"
+    "name": "水幕",
+    "description": "將水幕裹在身上，\n不會陷入灼傷狀態。"
   },
   "magnetPull": {
-    "name": "磁力"
+    "name": "磁力",
+    "description": "用磁力吸住鋼屬性的寶可夢，\n使其無法逃走。"
   },
   "soundproof": {
     "name": "隔音",
@@ -167,13 +184,15 @@
     "name": "銳利目光"
   },
   "hyperCutter": {
-    "name": "怪力鉗"
+    "name": "怪力鉗",
+    "description": "因為擁有以力量為傲的鉗子，\n不會被對手降低攻擊。"
   },
   "pickup": {
     "name": "撿拾"
   },
   "truant": {
-    "name": "懶惰"
+    "name": "懶惰",
+    "description": "如果使出招式，\n下一回合就需要休息。"
   },
   "hustle": {
     "name": "活力"
@@ -192,7 +211,8 @@
     "description": "在天氣的影響下，會變成水\n屬性、火屬性或冰屬性之中\n的一種。"
   },
   "stickyHold": {
-    "name": "黏著"
+    "name": "黏著",
+    "description": "道具會黏在\n具有黏性的身體上，\n不會被對手奪走。"
   },
   "shedSkin": {
     "name": "蛻皮"
@@ -253,13 +273,15 @@
     "name": "蹣跚"
   },
   "motorDrive": {
-    "name": "電氣引擎"
+    "name": "電氣引擎",
+    "description": "受到電屬性的招式攻擊時，\n不但不會受到傷害，反而速度會提高。"
   },
   "rivalry": {
     "name": "鬥爭心"
   },
   "steadfast": {
-    "name": "不屈之心"
+    "name": "不屈之心",
+    "description": "每次畏縮時，\n不屈之心就會燃起，\n速度也會提高。"
   },
   "snowCloak": {
     "name": "雪隱"
@@ -268,7 +290,8 @@
     "name": "貪吃鬼"
   },
   "angerPoint": {
-    "name": "憤怒穴位"
+    "name": "憤怒穴位",
+    "description": "要害被擊中時會大發雷霆。\n攻擊力會提高到最大。"
   },
   "unburden": {
     "name": "輕裝"
@@ -283,7 +306,8 @@
     "name": "乾燥皮膚"
   },
   "download": {
-    "name": "下載"
+    "name": "下載",
+    "description": "比較對手的防禦和特防，\n根據較低的那項能力\n相應地提高自己的攻擊或特攻。"
   },
   "ironFist": {
     "name": "鐵拳"
@@ -320,7 +344,8 @@
     "name": "無防守"
   },
   "stall": {
-    "name": "慢出"
+    "name": "慢出",
+    "description": "使出招式的順序\n必定會變為最後。"
   },
   "technician": {
     "name": "技術高手"
@@ -334,7 +359,8 @@
     "description": "無法使用持有的道具。"
   },
   "moldBreaker": {
-    "name": "破格"
+    "name": "破格",
+    "description": "可不受特性影響，\n向對手使出招式。"
   },
   "superLuck": {
     "name": "超幸運"
@@ -364,10 +390,12 @@
     "description": "在５回合內，攻擊和速度會\n減半。"
   },
   "scrappy": {
-    "name": "膽量"
+    "name": "膽量",
+    "description": "一般屬性和格鬥屬性的招式\n可擊中幽靈屬性的寶可夢。\n面對威嚇也不會動搖。"
   },
   "stormDrain": {
-    "name": "引水"
+    "name": "引水",
+    "description": "將水屬性的招式引到自己身上，\n不但不會受到傷害，\n反而會提高特攻。"
   },
   "iceBody": {
     "name": "冰凍之軀"
@@ -390,7 +418,8 @@
     "name": "捨身"
   },
   "multitype": {
-    "name": "多屬性"
+    "name": "多屬性",
+    "description": "自己的屬性會依\n持有的石板而改變。"
   },
   "flowerGift": {
     "name": "花之禮"
@@ -399,20 +428,23 @@
     "name": "夢魘"
   },
   "pickpocket": {
-    "name": "順手牽羊"
+    "name": "順手牽羊",
+    "description": "盜取接觸到自己的\n對手的道具。"
   },
   "sheerForce": {
     "name": "強行"
   },
   "contrary": {
-    "name": "唱反調"
+    "name": "唱反調",
+    "description": "能力的變化會逆轉，\n原本提高時會降低，\n原本降低時會提高。"
   },
   "unnerve": {
     "name": "緊張感",
     "description": "讓對手感到緊張，無法吃樹\n果。"
   },
   "defiant": {
-    "name": "不服輸"
+    "name": "不服輸",
+    "description": "被對手降低能力時，\n攻擊會大幅提高。"
   },
   "defeatist": {
     "name": "軟弱"
@@ -427,7 +459,8 @@
     "name": "友情防守"
   },
   "weakArmor": {
-    "name": "碎裂鎧甲"
+    "name": "碎裂鎧甲",
+    "description": "因物理招式受到傷害時，\n防禦會降低，\n速度會大幅提高。"
   },
   "heavyMetal": {
     "name": "重金屬",
@@ -465,7 +498,8 @@
     "name": "再生力"
   },
   "bigPecks": {
-    "name": "健壯胸肌"
+    "name": "健壯胸肌",
+    "description": "不會受到降低防禦的效果影響。"
   },
   "sandRush": {
     "name": "撥沙"
@@ -477,13 +511,15 @@
     "name": "分析"
   },
   "illusion": {
-    "name": "幻覺"
+    "name": "幻覺",
+    "description": "假扮成同行隊伍中的\n最後一隻寶可夢出場，\n迷惑對手。"
   },
   "imposter": {
     "name": "變身者"
   },
   "infiltrator": {
-    "name": "穿透"
+    "name": "穿透",
+    "description": "可穿透對手的屏障\n或替身進行攻擊。"
   },
   "mummy": {
     "name": "木乃伊",
@@ -494,16 +530,20 @@
     "description": "如果打倒對手，會充滿自信\n並提高攻擊。"
   },
   "justified": {
-    "name": "正義之心"
+    "name": "正義之心",
+    "description": "受到惡屬性的招式攻擊時，\n因為正義感，攻擊會提高。"
   },
   "rattled": {
-    "name": "膽怯"
+    "name": "膽怯",
+    "description": "受到惡屬性、幽靈屬性和蟲屬性的\n招式攻擊，或受到威嚇時，\n會因膽怯而使得速度提高。"
   },
   "magicBounce": {
-    "name": "魔法鏡"
+    "name": "魔法鏡",
+    "description": "可不受到由對手使出的\n變化類招式所影響，並將其反彈。"
   },
   "sapSipper": {
-    "name": "食草"
+    "name": "食草",
+    "description": "受到草屬性的招式攻擊時，\n不但不會受到傷害，反而攻擊會提高。"
   },
   "prankster": {
     "name": "惡作劇之心"
@@ -521,10 +561,12 @@
     "name": "勝利之星"
   },
   "turboblaze": {
-    "name": "渦輪火焰"
+    "name": "渦輪火焰",
+    "description": "可以不受對手特性的干擾，\n向對手使出招式。"
   },
   "teravolt": {
-    "name": "兆級電壓"
+    "name": "兆級電壓",
+    "description": "可以不受對手特性的干擾，\n向對手使出招式。"
   },
   "aromaVeil": {
     "name": "芳香幕"
@@ -543,13 +585,16 @@
     "name": "毛皮大衣"
   },
   "magician": {
-    "name": "魔術師"
+    "name": "魔術師",
+    "description": "奪走被自己招式\n擊中的對手的道具。"
   },
   "bulletproof": {
-    "name": "防彈"
+    "name": "防彈",
+    "description": "可防住對手的\n球和彈類的招式。"
   },
   "competitive": {
-    "name": "好勝"
+    "name": "好勝",
+    "description": "被對手降低能力時，\n特攻會大幅提高。"
   },
   "strongJaw": {
     "name": "強壯之顎"
@@ -565,7 +610,8 @@
     "description": "若使出攻擊招式，會變為刀\n劍形態，若使出招式「王者\n盾牌」，會變為盾牌形態。"
   },
   "galeWings": {
-    "name": "疾風之翼"
+    "name": "疾風之翼",
+    "description": "ＨＰ全滿時，\n可以搶先在對手之前\n使出飛行屬性的招式。"
   },
   "megaLauncher": {
     "name": "超級發射器"
@@ -614,23 +660,28 @@
     "name": "德爾塔氣流"
   },
   "stamina": {
-    "name": "持久力"
+    "name": "持久力",
+    "description": "受到攻擊時，\n防禦會提高。"
   },
   "wimpOut": {
-    "name": "躍躍欲逃"
+    "name": "躍躍欲逃",
+    "description": "ＨＰ變為一半時，\n會慌慌張張逃走，\n退回同行隊伍裡面。"
   },
   "emergencyExit": {
-    "name": "危險迴避"
+    "name": "危險迴避",
+    "description": "ＨＰ減到一半時，\n為了避開危險，\n會退回同行隊伍裡面。"
   },
   "waterCompaction": {
-    "name": "遇水凝固"
+    "name": "遇水凝固",
+    "description": "受到水屬性的招式攻擊時，\n防禦會大幅提高。"
   },
   "merciless": {
     "name": "不仁不義",
     "description": "攻擊中毒狀態的對手時，\n必定會擊中要害。"
   },
   "shieldsDown": {
-    "name": "界限盾殼"
+    "name": "界限盾殼",
+    "description": "ＨＰ變為一半時，\n殼會壞掉，變得更有攻擊性。"
   },
   "stakeout": {
     "name": "蹲守"
@@ -642,7 +693,8 @@
     "name": "鋼能力者"
   },
   "berserk": {
-    "name": "怒火沖天"
+    "name": "怒火沖天",
+    "description": "ＨＰ因對手的攻擊\n降到一半時，\n特攻會提高。"
   },
   "slushRush": {
     "name": "撥雪"
@@ -652,10 +704,12 @@
     "description": "可以不接觸對手就使出所有\n的招式。"
   },
   "liquidVoice": {
-    "name": "溼潤之聲"
+    "name": "溼潤之聲",
+    "description": "所有的聲音招式\n都變為水屬性。"
   },
   "triage": {
-    "name": "先行治療"
+    "name": "先行治療",
+    "description": "可以搶先使出回復招式。"
   },
   "galvanize": {
     "name": "電氣皮膚"
@@ -673,7 +727,8 @@
     "name": "牽絆變身"
   },
   "powerConstruct": {
-    "name": "群聚變形"
+    "name": "群聚變形",
+    "description": "ＨＰ變為一半時，\n細胞們會趕來支援，\n變為完全體形態。"
   },
   "corrosion": {
     "name": "腐蝕"
@@ -685,10 +740,12 @@
     "name": "女王的威嚴"
   },
   "innardsOut": {
-    "name": "飛出的內在物"
+    "name": "飛出的內在物",
+    "description": "被對手打倒的時候，\n會給予對手相當於\nＨＰ剩餘量的傷害。"
   },
   "dancer": {
-    "name": "舞者"
+    "name": "舞者",
+    "description": "當有誰使出跳舞招式時，\n自己也能接著使出跳舞招式。"
   },
   "battery": {
     "name": "蓄電池"
@@ -701,7 +758,8 @@
     "name": "鮮豔之軀"
   },
   "soulHeart": {
-    "name": "魂心"
+    "name": "魂心",
+    "description": "每當場上有寶可夢\n陷入瀕死狀態時，\n特攻就會提高。"
   },
   "tanglingHair": {
     "name": "捲髮",
@@ -716,7 +774,8 @@
     "description": "繼承被打倒的同伴的特性，\n變為相同的特性。"
   },
   "beastBoost": {
-    "name": "異獸提升"
+    "name": "異獸提升",
+    "description": "打倒對手的時候，\n會提高自己最高的那項能力。"
   },
   "rksSystem": {
     "name": "ＡＲ系統",
@@ -831,7 +890,8 @@
     "name": "一猩一意"
   },
   "neutralizingGas": {
-    "name": "化學變化氣體"
+    "name": "化學變化氣體",
+    "description": "當場上有特性是化學變化氣體的寶可夢時，\n所有寶可夢的特性效果\n都會消失或無法發動。"
   },
   "pastelVeil": {
     "name": "粉彩護幕"
@@ -984,7 +1044,8 @@
     "description": "一般屬性和格鬥屬性的招式\n可以擊中幽靈屬性的寶可夢。\n無視對手的閃避率的變化，\n且命中率不會被降低。"
   },
   "supersweetSyrup": {
-    "name": "甘露之蜜"
+    "name": "甘露之蜜",
+    "description": "在對戰中首次出場時，\n會四處散播甜膩的蜜香，\n降低對手的閃避率。"
   },
   "hospitality": {
     "name": "款待"
