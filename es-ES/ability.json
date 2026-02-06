@@ -832,41 +832,52 @@
     "description": "Forma bancos con sus congéneres cuando llega a nivel 20, lo cual le otorga más fuerza. Cuando sus PS se ven reducidos a ¼, el banco se dispersa."
   },
   "disguise": {
-    "name": "Disfraz"
+    "name": "Disfraz",
+    "description": "Puede eludir un ataque valiéndose de la tela que le cubre el cuerpo una vez por combate, a costo de ⅛ de sus PS máximos."
   },
   "battleBond": {
-    "name": "Fuerte Afecto"
+    "name": "Fuerte Afecto",
+    "description": "Al derrotar a un rival, los vínculos con su Entrenador se refuerzan y se transforma. Tras transformarse, su Shuriken de Agua siempre golpea tres veces con 20 de potencia por golpe."
   },
   "powerConstruct": {
-    "name": "Agrupamiento"
+    "name": "Agrupamiento",
+    "description": "Cuando sus PS se ven reducidos a la mitad, las células se reagrupan y adopta su Forma Completa."
   },
   "corrosion": {
-    "name": "Corrosión"
+    "name": "Corrosión",
+    "description": "Puede envenenar incluso a Pokémon de tipo Acero o Veneno."
   },
   "comatose": {
-    "name": "Letargo Perenne"
+    "name": "Letargo Perenne",
+    "description": "No despierta jamás de su profundo letargo e incluso ataca dormido. Se considera como afectado por problema de estado."
   },
   "queenlyMajesty": {
-    "name": "Regia Presencia"
+    "name": "Regia Presencia",
+    "description": "Intimida al rival y le impide usar movimientos con prioridad contra él y sus aliados."
   },
   "innardsOut": {
-    "name": "Revés"
+    "name": "Revés",
+    "description": "Al caer debilitado, inflige al atacante un daño equivalente a los PS que le quedaran antes de recibir el golpe de gracia."
   },
   "dancer": {
-    "name": "Pareja de Baile"
+    "name": "Pareja de Baile",
+    "description": "Puede copiar inmediatamente cualquier movimiento de baile que haya usado otro Pokémon presente en el combate."
   },
   "battery": {
-    "name": "Batería"
+    "name": "Batería",
+    "description": "Potencia en 30% los ataques especiales de los aliados."
   },
   "fluffy": {
     "name": "Peluche",
     "description": "Reduce a la mitad el daño recibido por los movimientos de contacto, pero duplica el que le infligen los de tipo Fuego."
   },
   "dazzling": {
-    "name": "Cuerpo Vívido"
+    "name": "Cuerpo Vívido",
+    "description": "Desconcierta al rival y le impide usar movimientos con prioridad contra él y sus aliados."
   },
   "soulHeart": {
-    "name": "Coránima"
+    "name": "Coránima",
+    "description": "Aumenta su Ataque Especial cada vez que otro Pokémon cae debilitado."
   },
   "tanglingHair": {
     "name": "Rizos Rebeldes",
@@ -881,7 +892,8 @@
     "description": "Reacciona copiando la habilidad de un aliado debilitado."
   },
   "beastBoost": {
-    "name": "Ultraimpulso"
+    "name": "Ultraimpulso",
+    "description": "Al derrotar a un Pokémon, aumenta su característica más fuerte."
   },
   "rksSystem": {
     "name": "Sistema Alfa",
@@ -904,16 +916,20 @@
     "description": "Crea un campo de hierba al entrar en combate."
   },
   "fullMetalBody": {
-    "name": "Guardia Metálica"
+    "name": "Guardia Metálica",
+    "description": "Evita que se reduzcan sus características a causa de movimientos o habilidades de otros Pokémon. Este efecto no puede ser ignorado por otros movimientos o habilidades."
   },
   "shadowShield": {
-    "name": "Guardia Espectro"
+    "name": "Guardia Espectro",
+    "description": "Reduce el daño que sufre si sus PS están al máximo. Este efecto no puede ser ignorado por otros movimientos o habilidades."
   },
   "prismArmor": {
-    "name": "Armadura Prisma"
+    "name": "Armadura Prisma",
+    "description": "Mitiga en un 25% el daño que le infligen los movimientos supereficaces. Este efecto no puede ser ignorado por otros movimientos o habilidades."
   },
   "neuroforce": {
-    "name": "Fuerza Cerebral"
+    "name": "Fuerza Cerebral",
+    "description": "Potencia en un 25% los ataques supereficaces."
   },
   "intrepidSword": {
     "name": "Espada Indómita",
@@ -928,7 +944,8 @@
     "description": "Al entrar en combate, cambia su tipo al del primer movimiento que va a usar."
   },
   "ballFetch": {
-    "name": "Recogebolas"
+    "name": "Recogebolas",
+    "description": "Recupera la Poké Ball del primer intento de captura fallido, aun sin estar en el campo de batalla."
   },
   "cottonDown": {
     "name": "Pelusa",
@@ -943,17 +960,20 @@
     "description": "Refleja los efectos que reducen las características."
   },
   "gulpMissile": {
-    "name": "Tragamisil"
+    "name": "Tragamisil",
+    "description": "Tras usar Surf o Buceo, emerge con una presa en la boca. Al recibir daño, ataca escupiéndola infligiendo ¼ de los PS máximos del atacante en daño. En función de la presa atrapada, también reduce la defensa del objetivo o inflige parálisis en él."
   },
   "stalwart": {
     "name": "Acérrimo",
     "description": "Ignora los efectos de las habilidades o los movimientos que permiten a un Pokémon centrar la atención sobre sí."
   },
   "steamEngine": {
-    "name": "Combustible"
+    "name": "Combustible",
+    "description": "Si lo alcanza un movimiento de tipo Fuego o Agua, aumenta en seis fases su velocidad."
   },
   "punkRock": {
-    "name": "Punk Rock"
+    "name": "Punk Rock",
+    "description": "Potencia un 30% los movimientos que usan sonido y reduce a la mitad el daño que le infligen dichos movimientos."
   },
   "sandSpit": {
     "name": "Expulsarena",
@@ -968,10 +988,12 @@
     "description": "Hace madurar las bayas, por lo que duplica sus efectos."
   },
   "iceFace": {
-    "name": "Cara de Hielo"
+    "name": "Cara de Hielo",
+    "description": "Absorbe el daño de un ataque físico con el hielo de la cabeza, tras lo cual cambia de forma. El hielo se regenerará la próxima vez que nieve o granice."
   },
   "powerSpot": {
-    "name": "Fuente Energía"
+    "name": "Fuente Energía",
+    "description": "Potencia un 30% los movimientos de los Pokémon adyacentes."
   },
   "mimicry": {
     "name": "Mimetismo",
@@ -982,7 +1004,8 @@
     "description": "Anula los efectos de Pantalla de Luz, Reflejo y Velo Aurora tanto de rivales como de aliados al entrar en combate."
   },
   "steelySpirit": {
-    "name": "Alma Acerada"
+    "name": "Alma Acerada",
+    "description": "Potencia un 50% los movimientos de tipo Acero del Pokémon y sus aliados."
   },
   "perishBody": {
     "name": "Cuerpo Mortal",
@@ -993,19 +1016,24 @@
     "description": "Si lo alcanza un movimiento de contacto, intercambia su habilidad con la del atacante."
   },
   "gorillaTactics": {
-    "name": "Monotema"
+    "name": "Monotema",
+    "description": "Aumenta un 50% su ataque, pero solo puede usar el primer movimiento escogido."
   },
   "neutralizingGas": {
-    "name": "Gas Reactivo"
+    "name": "Gas Reactivo",
+    "description": "Anula los efectos de las habilidades de los demás Pokémon presentes mientras esté en el terreno de combate."
   },
   "pastelVeil": {
-    "name": "Velo Pastel"
+    "name": "Velo Pastel",
+    "description": "Previene a sí mismo y a sus aliados del envenenamiento."
   },
   "hungerSwitch": {
-    "name": "Mutapetito"
+    "name": "Mutapetito",
+    "description": "Alterna entre su Forma Saciada y Forma Voraz al final de cada turno. Esto también alterna el tipo del movimiento Rueda Aural."
   },
   "quickDraw": {
-    "name": "Mano Rápida"
+    "name": "Mano Rápida",
+    "description": "30% de posibilidad de atacar el primero."
   },
   "unseenFist": {
     "name": "Puño Invisible",
@@ -1016,10 +1044,12 @@
     "description": "Al entrar en combate, rezuma una substancia medicinal por la caracola que revierte los cambios en las características de los aliados."
   },
   "transistor": {
-    "name": "Transistor"
+    "name": "Transistor",
+    "description": "Potencia un 30% los movimientos de tipo Eléctrico."
   },
   "dragonsMaw": {
-    "name": "Mandíbula Dragón"
+    "name": "Mandíbula Dragón",
+    "description": "Potencia un 50% los movimientos de tipo Dragón."
   },
   "chillingNeigh": {
     "name": "Relincho Blanco",
@@ -1030,10 +1060,12 @@
     "description": "Al derrotar a un objetivo, emite un relincho aterrador y aumenta su ataque especial."
   },
   "asOneGlastrier": {
-    "name": "Unidad Ecuestre"
+    "name": "Unidad Ecuestre",
+    "description": "El Pokémon tiene dos habilidades: Relincho Blanco de Glastrier, aumentando su ataque al derrotar un objetivo, y Nerviosismo de Calyrex, impidiendo comer bayas al rival."
   },
   "asOneSpectrier": {
-    "name": "Unidad Ecuestre"
+    "name": "Unidad Ecuestre",
+    "description": "El Pokémon tiene dos habilidades: Relincho Negro de Spectrier, aumentando su ataque especial al derrotar un objetivo, y Nerviosismo de Calyrex, impidiendo comer bayas al rival."
   },
   "lingeringAroma": {
     "name": "Olor Persistente",
@@ -1068,49 +1100,60 @@
     "description": "Aumenta su ataque si sufre los efectos de Intimidación. También anula movimientos y objetos que fuercen el cambio de Pokémon."
   },
   "rockyPayload": {
-    "name": "Transportarrocas"
+    "name": "Transportarrocas",
+    "description": "Potencia un 50% los movimientos de tipo Roca."
   },
   "windPower": {
-    "name": "Energía Eólica"
+    "name": "Energía Eólica",
+    "description": "Su cuerpo se carga de electricidad si es afectado por Viento Afín o lo alcanza un movimiento que usa viento, lo que potencia su siguiente movimiento de tipo Eléctrico."
   },
   "zeroToHero": {
     "name": "Cambio Heroico",
     "description": "Adopta la Forma Heroica cuando se retira del combate."
   },
   "commander": {
-    "name": "Comandar"
+    "name": "Comandar",
+    "description": "Si al entrar en combate coincide con un Dondozo aliado, se cuela en el interior de su boca para tomar el control. Si está en combate, aumenta la probabilidad de que los siguientes combates sean combates dobles."
   },
   "electromorphosis": {
     "name": "Dinamo",
     "description": "Su cuerpo se carga de electricidad al recibir daño, lo que potencia su siguiente movimiento de tipo Eléctrico."
   },
   "protosynthesis": {
-    "name": "Paleosíntesis"
+    "name": "Paleosíntesis",
+    "description": "Si hace sol, aumenta un 30% su característica más alta, 50% si es su Velocidad."
   },
   "quarkDrive": {
-    "name": "Carga Cuark"
+    "name": "Carga Cuark",
+    "description": "Si hace un campo eléctrico en el terreno de combate, aumenta un 30% su característica más alta, 50% si es su Velocidad."
   },
   "goodAsGold": {
     "name": "Cuerpo Áureo",
     "description": "Su robusto cuerpo de oro inoxidable lo hace inmune frente a movimientos de estado de otros Pokémon."
   },
   "vesselOfRuin": {
-    "name": "Caldero Debacle"
+    "name": "Caldero Debacle",
+    "description": "Reduce un 25% el Ataque Especial de todos los demás Pokémon con el poder de su caldero maldito."
   },
   "swordOfRuin": {
-    "name": "Espada Debacle"
+    "name": "Espada Debacle",
+    "description": "Reduce un 25% la Defensa de todos los demás Pokémon con el poder de su espada maldita."
   },
   "tabletsOfRuin": {
-    "name": "Tablilla Debacle"
+    "name": "Tablilla Debacle",
+    "description": "Reduce un 25% el ataque de todos los demás Pokémon con el poder de sus tablillas malditas."
   },
   "beadsOfRuin": {
-    "name": "Abalorio Debacle"
+    "name": "Abalorio Debacle",
+    "description": "Reduce un 25% la defensa especial de todos los demás Pokémon con el poder de sus abalorios malditos."
   },
   "orichalcumPulse": {
-    "name": "Latido Oricalco"
+    "name": "Latido Oricalco",
+    "description": "El tiempo pasa a ser soleado cuando entra en combate. Si hace mucho sol, su ataque aumenta un 33% gracias a su pulso primigenio."
   },
   "hadronEngine": {
-    "name": "Motor Hadrónico"
+    "name": "Motor Hadrónico",
+    "description": "Crea un campo eléctrico al entrar en combate. Si hay un campo eléctrico, su ataque especial aumenta un 33% gracias a su motor futurista."
   },
   "opportunist": {
     "name": "Oportunista",
@@ -1121,10 +1164,12 @@
     "description": "Cuando ingiere una baya, la regurgita al final del siguiente turno y se la come por segunda vez."
   },
   "sharpness": {
-    "name": "Cortante"
+    "name": "Cortante",
+    "description": "Aumenta un 50% la potencia de los movimientos cortantes."
   },
   "supremeOverlord": {
-    "name": "General Supremo"
+    "name": "General Supremo",
+    "description": "Al entrar en combate, su ataque y su ataque especial aumentan un 10% por cada miembro del equipo que haya sido derrotado hasta el momento."
   },
   "costar": {
     "name": "Unísono",
@@ -1139,10 +1184,12 @@
     "description": "La extraña cola que le envuelve la cabeza impide al rival usar movimientos con prioridad contra él y sus aliados."
   },
   "earthEater": {
-    "name": "Geofagia"
+    "name": "Geofagia",
+    "description": "Si lo alcanza un movimiento de tipo Tierra, recupera ¼ de sus PS máximos en vez de sufrir daño."
   },
   "myceliumMight": {
-    "name": "Poder Fúngico"
+    "name": "Poder Fúngico",
+    "description": "El Pokémon siempre actuará el último en su nivel de prioridad cuando usa movimientos de estado, pero estos no se ven afectados por la habilidad del objetivo."
   },
   "mindsEye": {
     "name": "Ojo Mental",
@@ -1153,10 +1200,12 @@
     "description": "Al entrar en combate , esparce un aroma dulzón a néctar que reduce la Evasión del rival."
   },
   "hospitality": {
-    "name": "Hospitalidad"
+    "name": "Hospitalidad",
+    "description": "Al entrar en combate, restaura ¼ PS de los PS máximos de su aliado como muestra de hospitalidad."
   },
   "toxicChain": {
-    "name": "Cadena Tóxica"
+    "name": "Cadena Tóxica",
+    "description": "Gracias al poder de su cadena impregnada de toxinas, tiene un 30% de envenenar gravemente al Pokémon al que ataque."
   },
   "embodyAspectTeal": {
     "name": "Evocarrecuerdos",
@@ -1183,7 +1232,8 @@
     "description": "Su caparazón encierra energía de todos los tipos. Gracias a ello, si sus PS están al máximo, el movimiento que lo alcance no será muy eficaz."
   },
   "teraformZero": {
-    "name": "Teraformación 0"
+    "name": "Teraformación 0",
+    "description": "Anula todos los efectos del tiempo atmosférico y de los campos que haya en el terreno gracias a su poder oculto."
   },
   "poisonPuppeteer": {
     "name": "Títere Tóxico",

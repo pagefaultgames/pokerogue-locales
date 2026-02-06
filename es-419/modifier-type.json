@@ -7,10 +7,10 @@
       "description": "Otorga una {{moneyMultiplier}} cantidad de dinero.\n(₽{{moneyAmount}})"
     },
     "TmModifierType": {
-      "name": "TM{{moveId}} - {{moveName}}"
+      "name": "MT{{moveId}} - {{moveName}}"
     },
     "TmModifierTypeWithInfo": {
-      "name": "TM{{moveId}} - {{moveName}}"
+      "name": "MT{{moveId}} - {{moveName}}"
     },
     "TerastallizeModifierType": {
       "name": "Teralito {{teraType}}"
@@ -118,7 +118,8 @@
       "name": "Cascabel Alivio"
     },
     "SCOPE_LENS": {
-      "name": "Periscopio"
+      "name": "Periscopio",
+      "description": "Aumenta la probabilidad de lanzar un golpe crítico."
     },
     "DIRE_HIT": {
       "name": "Crítico X"
@@ -127,7 +128,8 @@
       "name": "Puerro"
     },
     "EVIOLITE": {
-      "name": "Mineral Evolutivo"
+      "name": "Mineral Evolutivo",
+      "description": "Una roca misteriosa. El Pokémon portador aumentará su Defensa y su Defensa Especial si aún puede evolucionar."
     },
     "SOUL_DEW": {
       "name": "Rocío Bondad"
@@ -175,10 +177,12 @@
       "name": "Cascabel Nácar"
     },
     "TOXIC_ORB": {
-      "name": "Toxiesfera"
+      "name": "Toxiesfera",
+      "description": "Una extraña esfera que envenena gravemente al Pokémon que la lleva en combate."
     },
     "FLAME_ORB": {
-      "name": "Llamaesfera"
+      "name": "Llamaesfera",
+      "description": "Una extraña esfera que causa quemaduras al Pokémon que la lleva en combate."
     },
     "SHINY_CHARM": {
       "name": "Amuleto Iris",
@@ -208,22 +212,28 @@
   },
   "SpeciesBoosterItem": {
     "LIGHT_BALL": {
-      "name": "Bola Luminosa"
+      "name": "Bola Luminosa",
+      "description": "Una asombrosa esfera que aumenta el Ataque y el Ataque Especial. Debe llevarla Pikachu."
     },
     "THICK_CLUB": {
-      "name": "Hueso Grueso"
+      "name": "Hueso Grueso",
+      "description": "Un extraño tipo de hueso que potencia los ataques físicos. Debe llevarlo Cubone o Marowak."
     },
     "METAL_POWDER": {
-      "name": "Polvo Metálico"
+      "name": "Polvo Metálico",
+      "description": "Un polvo muy fino, pero a la vez poderoso, que aumenta la Defensa. Debe llevarlo Ditto."
     },
     "QUICK_POWDER": {
-      "name": "Polvo Velocidad"
+      "name": "Polvo Velocidad",
+      "description": "Un polvo muy fino, pero a la vez poderoso, que aumenta la Velocidad. Debe llevarlo Ditto."
     },
     "DEEP_SEA_SCALE": {
-      "name": "Escama Marina"
+      "name": "Escama Marina",
+      "description": "Tiene un débil brillo rosado y aumenta la Defensa Especial. Debe llevarla Clamperl."
     },
     "DEEP_SEA_TOOTH": {
-      "name": "Diente Marino"
+      "name": "Diente Marino",
+      "description": "Tiene un intenso brillo plateado y aumenta el Ataque Especial. Debe llevarlo Clamperl."
     }
   },
   "TempStatStageBoosterItem": {
@@ -309,6 +319,100 @@
     "SYRUPY_APPLE": "Manzana Empalagosa"
   },
   "FormChangeItem": {
+    "NONE": "Ninguno",
+    "ABOMASITE": "Abomasnowita",
+    "ABSOLITE": "Absolita",
+    "AERODACTYLITE": "Aerodactylita",
+    "AGGRONITE": "Aggronita",
+    "ALAKAZITE": "Alakazamita",
+    "ALTARIANITE": "Altarianita",
+    "AMPHAROSITE": "Ampharosita",
+    "AUDINITE": "Audinita",
+    "BANETTITE": "Banettita",
+    "BEEDRILLITE": "Beedrillita",
+    "BLASTOISINITE": "Blastoisita",
+    "BLAZIKENITE": "Blazikenita",
+    "CAMERUPTITE": "Cameruptita",
+    "CHARIZARDITE_X": "Charizardita X",
+    "CHARIZARDITE_Y": "Charizardita Y",
+    "DIANCITE": "Diancita",
+    "GALLADITE": "Galladita",
+    "GARCHOMPITE": "Garchompita",
+    "GARDEVOIRITE": "Gardevoirita",
+    "GENGARITE": "Gengarita",
+    "GLALITITE": "Glalita",
+    "GYARADOSITE": "Gyaradosita",
+    "HERACRONITE": "Heracrossita",
+    "HOUNDOOMINITE": "Houndoomita",
+    "KANGASKHANITE": "Kangaskhanita",
+    "LATIASITE": "Latiasita",
+    "LATIOSITE": "Latiosita",
+    "LOPUNNITE": "Lopunnita",
+    "LUCARIONITE": "Lucarita",
+    "MANECTITE": "Manectricita",
+    "MAWILITE": "Mawilita",
+    "MEDICHAMITE": "Medichamita",
+    "METAGROSSITE": "Metagrossita",
+    "MEWTWONITE_X": "Mewtwoita X",
+    "MEWTWONITE_Y": "Mewtwoita Y",
+    "PIDGEOTITE": "Pidgeotita",
+    "PINSIRITE": "Pinsirita",
+    "RAYQUAZITE": "Rayquazita",
+    "SABLENITE": "Sableynita",
+    "SALAMENCITE": "Salamencita",
+    "SCEPTILITE": "Sceptilita",
+    "SCIZORITE": "Scizorita",
+    "SHARPEDONITE": "Sharpedonita",
+    "SLOWBRONITE": "Slowbronita",
+    "STEELIXITE": "Steelixita",
+    "SWAMPERTITE": "Swampertita",
+    "TYRANITARITE": "Tyranitarita",
+    "VENUSAURITE": "Venusaurita",
+    "CLEFABLITE": "Clefablita",
+    "VICTREEBELITE": "Victreebelita",
+    "STARMINITE": "Starmita",
+    "DRAGONINITE": "Dragonitita",
+    "MEGANIUMITE": "Meganiumita",
+    "FERALIGITE": "Feraligatrita",
+    "SKARMORITE": "Skarmorita",
+    "FROSLASSITE": "Froslassita",
+    "EMBOARITE": "Emboarita",
+    "EXCADRITE": "Excadrillita",
+    "SCOLIPITE": "Scolipedita",
+    "SCRAFTINITE": "Scraftita",
+    "EELEKTROSSITE": "Eelektrossita",
+    "CHANDELURITE": "Chandelurita",
+    "CHESNAUGHTITE": "Chesnaughtita",
+    "DELPHOXITE": "Delphoxita",
+    "GRENINJITE": "Greninjanita",
+    "PYROARITE": "Pyroarita",
+    "FLOETTITE": "Floettita",
+    "MALAMARITE": "Malamarita",
+    "BARBARACITE": "Barbaraclita",
+    "DRAGALGITE": "Dragalgita",
+    "HAWLUCHANITE": "Hawluchanita",
+    "ZYGARDITE": "Zygardita",
+    "DRAMPANITE": "Drampanita",
+    "FALINKSITE": "Falinksita",
+    "HEATRANITE": "Heatranita",
+    "DARKRANITE": "Darkrainita",
+    "ZERAORITE": "Zeraoranita",
+    "RAICHUNITE_X": "Raichunita X",
+    "RAICHUNITE_Y": "Raichunita X",
+    "CHIMECHITE": "Chimechita",
+    "ABSOLITE_Z": "Absolita Z",
+    "STARAPTITE": "Staraptorita",
+    "GARCHOMPITE_Z": "Garchompita Z",
+    "LUCARIONITE_Z": "Lucarita Z",
+    "GOLURKITE": "Golurkita",
+    "MEOWSTICITE": "Meowsticita",
+    "CRABOMINITE": "Crabominablita",
+    "GOLISOPITE": "Golisopodita",
+    "MAGEARNITE": "Magearnita",
+    "SCOVILLAINITE": "Scovillainita",
+    "BAXCALIBRITE": "Baxcaliburita",
+    "TATSUGIRINITE": "Tatsugirita",
+    "GLIMMORANITE": "Glimmoranita",
     "BLUE_ORB": "Prisma Azul",
     "RED_ORB": "Prisma Rojo",
     "ADAMANT_CRYSTAL": "Gran Diamansfera",
