@@ -36,10 +36,12 @@
     "description": "这只宝可梦身上带有静电，使用接\n触类招式攻击它的宝可梦会有30%\n的机率麻痹。"
   },
   "voltAbsorb": {
-    "name": "蓄电"
+    "name": "蓄电",
+    "description": "受到电属性的招式攻击时，不会受\n到伤害，而是会回复1/4最大生命。"
   },
   "waterAbsorb": {
-    "name": "储水"
+    "name": "储水",
+    "description": "受到水属性的招式攻击时，不会受\n到伤害，而是会回复1/4最大生命。"
   },
   "oblivious": {
     "name": "迟钝",
@@ -238,28 +240,35 @@
     "description": "因为道具是粘在黏性身体上的，\n所以不会被对手夺走。"
   },
   "shedSkin": {
-    "name": "蜕皮"
+    "name": "蜕皮",
+    "description": "通过蜕去身上的皮，每回合有33%几率\n治愈异常状态。"
   },
   "guts": {
-    "name": "毅力"
+    "name": "毅力",
+    "description": "如果变为异常状态，会拿出毅力，\n攻击会提高50%。"
   },
   "marvelScale": {
-    "name": "神奇鳞片"
+    "name": "神奇鳞片",
+    "description": "如果变为异常状态，神奇鳞片会发\n生反应，防御会提高50%。"
   },
   "liquidOoze": {
     "name": "污泥浆"
   },
   "overgrow": {
-    "name": "茂盛"
+    "name": "茂盛",
+    "description": "ＨＰ减少的时候，草属性的招式威\n力会提高50%。"
   },
   "blaze": {
-    "name": "猛火"
+    "name": "猛火",
+    "description": "ＨＰ减少的时候，火属性的招式威\n力会提高50%。"
   },
   "torrent": {
-    "name": "激流"
+    "name": "激流",
+    "description": "ＨＰ减少的时候，水属性的招式威\n力会提高50%。"
   },
   "swarm": {
-    "name": "虫之预感"
+    "name": "虫之预感",
+    "description": "ＨＰ减少的时候，虫属性的招式威\n力会提高50%。"
   },
   "rockHead": {
     "name": "坚硬脑袋",
@@ -300,65 +309,79 @@
     "description": "受到电属性的招式攻击时，\n不会受到伤害，而是速度会提高。"
   },
   "rivalry": {
-    "name": "斗争心"
+    "name": "斗争心",
+    "description": "面对性别相同的对手，会燃起斗争\n心，造成的伤害提高25%。\n而面对性别不同的对手，则会减少25%。"
   },
   "steadfast": {
     "name": "不屈之心",
     "description": "每次畏缩时，不屈之心就会燃起，\n速度也会提高。"
   },
   "snowCloak": {
-    "name": "雪隐"
+    "name": "雪隐",
+    "description": "下雪天气或极巨寒冰时，闪避率会提高20%。\n不受冰雹与极巨寒冰影响。"
   },
   "gluttony": {
-    "name": "贪吃鬼"
+    "name": "贪吃鬼",
+    "description": "原本ＨＰ在1/4时才会吃树果，\n在ＨＰ还有一半时就会把它吃掉。"
   },
   "angerPoint": {
     "name": "愤怒穴位",
     "description": "要害被击中时，会大发雷霆，\n攻击力变为最大。"
   },
   "unburden": {
-    "name": "轻装"
+    "name": "轻装",
+    "description": "失去所持有的道具时，速度会翻倍。"
   },
   "heatproof": {
-    "name": "耐热"
+    "name": "耐热",
+    "description": "耐热的体质会让火属性的招式伤害\n减半，且不会烧伤。"
   },
   "simple": {
     "name": "单纯"
   },
   "drySkin": {
-    "name": "干燥皮肤"
+    "name": "干燥皮肤",
+    "description": "下雨天气时，ＨＰ会回复1/8。\n受到水属性的招式时，ＨＰ会回复1/4。\n晴朗天气时，每回合损失1/8ＨＰ。\n受到火属性的招式时，受到的伤害增加25%。"
   },
   "download": {
     "name": "下载",
     "description": "比较对手的防御和特防，\n根据较低的那项能力\n相应地提高自己的攻击或特攻。"
   },
   "ironFist": {
-    "name": "铁拳"
+    "name": "铁拳",
+    "description": "使用拳类招式的威力会提高20%。"
   },
   "poisonHeal": {
-    "name": "毒疗"
+    "name": "毒疗",
+    "description": "变为中毒状态时，ＨＰ不会减少，\n反而会增加1/8。"
   },
   "adaptability": {
-    "name": "适应力"
+    "name": "适应力",
+    "description": "与自身同属性的招式威力会提高2倍，而不是1.5倍。\n不与星晶属性太晶化叠加。"
   },
   "skillLink": {
     "name": "连续攻击",
     "description": "如果使用连续招式，总是能使出最\n高次数。"
   },
   "hydration": {
-    "name": "湿润之躯"
+    "name": "湿润之躯",
+    "description": "下雨天气时，异常状态每回合结束时会治愈。"
   },
   "solarPower": {
-    "name": "太阳之力"
+    "name": "太阳之力",
+    "description": "晴朗天气时，特攻会提高50%，\n但每回合ＨＰ会减少1/8。"
   },
   "quickFeet": {
-    "name": "飞毛腿"
+    "name": "飞毛腿",
+    "description": "变为异常状态时，速度会提高50%。"
   },
   "normalize": {
-    "name": "一般皮肤"
+    "name": "一般皮肤",
+    "description": "无论是什么属性的招式，全部会变\n为一般属性。威力会提高20%。"
   },
   "sniper": {
-    "name": "狙击手"
+    "name": "狙击手",
+    "description": "击中要害时，威力会额外提高1.5倍，总计提高2.25倍。"
   },
   "magicGuard": {
     "name": "魔法防守"
@@ -371,7 +394,8 @@
     "description": "使出招式的顺序\n必定会变为最后。"
   },
   "technician": {
-    "name": "技术高手"
+    "name": "技术高手",
+    "description": "攻击时可以将60威力以下招式的威力提高50%。"
   },
   "leafGuard": {
     "name": "叶子防守",
@@ -386,10 +410,12 @@
     "description": "可以不受对手特性的干扰，\n向对手使出招式。"
   },
   "superLuck": {
-    "name": "超幸运"
+    "name": "超幸运",
+    "description": "因为拥有超幸运，攻击击中对手要害的概率提高一级。"
   },
   "aftermath": {
-    "name": "引爆"
+    "name": "引爆",
+    "description": "变为濒死时，会对接触到自己的对\n手造成1/4对方最大HP的伤害。"
   },
   "anticipation": {
     "name": "危险预知",
@@ -400,13 +426,15 @@
     "description": "出场时，只读取１个对手拥有的招\n式。"
   },
   "unaware": {
-    "name": "纯朴"
+    "name": "纯朴",
+    "description": "可以无视对手能力的变化。"
   },
   "tintedLens": {
     "name": "有色眼镜"
   },
   "filter": {
-    "name": "过滤"
+    "name": "过滤",
+    "description": "受到效果绝佳的攻击时，威力减弱25%。"
   },
   "slowStart": {
     "name": "慢启动",
@@ -421,10 +449,12 @@
     "description": "将水属性的招式引到自己身上，\n不会受到伤害，而是会提高特攻。"
   },
   "iceBody": {
-    "name": "冰冻之躯"
+    "name": "冰冻之躯",
+    "description": "下雪天气时，每回合回复1/16ＨＰ。\n不受雪天影响。"
   },
   "solidRock": {
-    "name": "坚硬岩石"
+    "name": "坚硬岩石",
+    "description": "受到效果绝佳的攻击时，威力减弱25%。"
   },
   "snowWarning": {
     "name": "降雪",
@@ -438,24 +468,28 @@
     "description": "出场时，可以察觉对手的特性。"
   },
   "reckless": {
-    "name": "舍身"
+    "name": "舍身",
+    "description": "自己会因反作用力受伤的招式，其\n威力会提高20%。"
   },
   "multitype": {
     "name": "多属性",
     "description": "自己的属性会根据\n持有的石板而改变"
   },
   "flowerGift": {
-    "name": "花之礼"
+    "name": "花之礼",
+    "description": "晴朗天气时，自己与相邻同伴的攻击和\n特防能力会提高50%。"
   },
   "badDreams": {
-    "name": "梦魇"
+    "name": "梦魇",
+    "description": "每回合结束时\n给予睡眠状态的对手1/8最大HP伤害。"
   },
   "pickpocket": {
     "name": "顺手牵羊",
     "description": "盗取接触到自己的\n对手的道具。"
   },
   "sheerForce": {
-    "name": "强行"
+    "name": "强行",
+    "description": "招式的追加效果消失，但因此能以\n30%更高的威力使出招式。"
   },
   "contrary": {
     "name": "唱反调",
@@ -470,16 +504,20 @@
     "description": "被对手降低能力时，\n攻击会大幅提高。"
   },
   "defeatist": {
-    "name": "软弱"
+    "name": "软弱",
+    "description": "ＨＰ在一半以下时，会变得软弱，\n攻击和特攻会减半。"
   },
   "cursedBody": {
-    "name": "诅咒之躯"
+    "name": "诅咒之躯",
+    "description": "受到攻击时，有时会把对手的招式禁用。"
   },
   "healer": {
-    "name": "治愈之心"
+    "name": "治愈之心",
+    "description": "回合结束时，有30%概率治愈\n相邻位置状态异常的同伴。"
   },
   "friendGuard": {
-    "name": "友情防守"
+    "name": "友情防守",
+    "description": "相邻位置的同伴受到-25%伤害。"
   },
   "weakArmor": {
     "name": "碎裂铠甲",
@@ -494,51 +532,62 @@
     "description": "自身的重量会减半。"
   },
   "multiscale": {
-    "name": "多重鳞片"
+    "name": "多重鳞片",
+    "description": "ＨＰ全满时，受到的伤害会减半。"
   },
   "toxicBoost": {
-    "name": "中毒激升"
+    "name": "中毒激升",
+    "description": "变为中毒状态时，物理招式的威力\n会提高50%。"
   },
   "flareBoost": {
-    "name": "受热激升"
+    "name": "受热激升",
+    "description": "变为灼伤状态时，特殊招式的威力\n会提高50%。"
   },
   "harvest": {
-    "name": "收获"
+    "name": "收获",
+    "description": "有50%几率重新制作使用掉的树果。\n晴朗天气下，概率为100%。"
   },
   "telepathy": {
     "name": "心灵感应"
   },
   "moody": {
-    "name": "心情不定"
+    "name": "心情不定",
+    "description": "每一回合，能力中的某项会大幅提\n高，而另一项会降低。\n不包括命中率和闪避。"
   },
   "overcoat": {
     "name": "防尘"
   },
   "poisonTouch": {
-    "name": "毒手"
+    "name": "毒手",
+    "description": "只通过接触就有30%几率让对手变为中\n毒状态。"
   },
   "regenerator": {
-    "name": "再生力"
+    "name": "再生力",
+    "description": "退回同行队伍后，ＨＰ会回复1/3。"
   },
   "bigPecks": {
     "name": "健壮胸肌",
     "description": "不会受到防御降低的效果。"
   },
   "sandRush": {
-    "name": "拨沙"
+    "name": "拨沙",
+    "description": "沙暴天气时，速度会翻倍。不受沙暴影响。"
   },
   "wonderSkin": {
-    "name": "奇迹皮肤"
+    "name": "奇迹皮肤",
+    "description": "以此宝可梦为目标的变化招式\n命中率减少50%。"
   },
   "analytic": {
-    "name": "分析"
+    "name": "分析",
+    "description": "如果在最后使出招式，招式的威力\n会提高30%。"
   },
   "illusion": {
     "name": "幻觉",
     "description": "假扮成同行队伍中的\n最后一只宝可梦出场，\n迷惑对手。"
   },
   "imposter": {
-    "name": "变身者"
+    "name": "变身者",
+    "description": "变身为当前面对的宝可梦。HP和等级除外。\n复制的招式只有5PP。"
   },
   "infiltrator": {
     "name": "穿透",
@@ -569,19 +618,24 @@
     "description": "受到草属性的招式攻击时，\n不会受到伤害，而是攻击会提高。"
   },
   "prankster": {
-    "name": "恶作剧之心"
+    "name": "恶作剧之心",
+    "description": "可以率先使出变化招式。暗属性宝可梦免疫其招式。"
   },
   "sandForce": {
-    "name": "沙之力"
+    "name": "沙之力",
+    "description": "沙暴天气时，岩石属性、地面属性\n和钢属性的招式威力会提高30%。\n不受沙暴影响。"
   },
   "ironBarbs": {
-    "name": "铁刺"
+    "name": "铁刺",
+    "description": "用铁刺给予接触到自己的对手1/8HP伤害。"
   },
   "zenMode": {
-    "name": "达摩模式"
+    "name": "达摩模式",
+    "description": "ＨＰ变为一半以下时，会变为达摩模式。"
   },
   "victoryStar": {
-    "name": "胜利之星"
+    "name": "胜利之星",
+    "description": "自己和相邻同伴的命中率会提高10%。"
   },
   "turboblaze": {
     "name": "涡轮火焰",
@@ -592,20 +646,23 @@
     "description": "可以不受对手特性的干扰，\n向对手使出招式。"
   },
   "aromaVeil": {
-    "name": "芳香幕"
+    "name": "芳香幕",
+    "description": "保护自己和相邻同伴不受定身法影响。"
   },
   "flowerVeil": {
     "name": "花幕"
   },
   "cheekPouch": {
-    "name": "颊囊"
+    "name": "颊囊",
+    "description": "无论是哪种树果，食用后，ＨＰ都\n会额外回复1/3。"
   },
   "protean": {
     "name": "变幻自如",
     "description": "这只宝可梦的属性在使用招式之\n前变为所使用的招式的属性。"
   },
   "furCoat": {
-    "name": "毛皮大衣"
+    "name": "毛皮大衣",
+    "description": "此宝可梦的物防翻倍。"
   },
   "magician": {
     "name": "魔术师",
@@ -620,10 +677,12 @@
     "description": "如果被对手降低能力，\n特攻会大幅提高。"
   },
   "strongJaw": {
-    "name": "强壮之颚"
+    "name": "强壮之颚",
+    "description": "因为颚部强壮，啃咬类招式的威力\n会提高50%。"
   },
   "refrigerate": {
-    "name": "冰冻皮肤"
+    "name": "冰冻皮肤",
+    "description": "一般属性的招式会变为冰属性。威\n力会提高20%。"
   },
   "sweetVeil": {
     "name": "甜幕"
@@ -637,39 +696,48 @@
     "description": "ＨＰ全满时，\n飞行属性的招式可以率先使出。"
   },
   "megaLauncher": {
-    "name": "超级发射器"
+    "name": "超级发射器",
+    "description": "波动和波导类招式的威力会提高50%。"
   },
   "grassPelt": {
-    "name": "草之毛皮"
+    "name": "草之毛皮",
+    "description": "在青草场地时，防御会提高50%。"
   },
   "symbiosis": {
     "name": "共生",
     "description": "同伴使用道具时，会把自己持有的\n道具传递给同伴。"
   },
   "toughClaws": {
-    "name": "硬爪"
+    "name": "硬爪",
+    "description": "接触到对手的招式威力会提高30%。"
   },
   "pixilate": {
-    "name": "妖精皮肤"
+    "name": "妖精皮肤",
+    "description": "一般属性的招式会变为妖精属性。\n威力会提高20%。"
   },
   "gooey": {
     "name": "黏滑",
     "description": "对于用攻击接触到自己的对手，会\n降低其速度。"
   },
   "aerilate": {
-    "name": "飞行皮肤"
+    "name": "飞行皮肤",
+    "description": "一般属性的招式会变为飞行属性。\n威力会提高20%。"
   },
   "parentalBond": {
-    "name": "亲子爱"
+    "name": "亲子爱",
+    "description": "亲子俩可以合计攻击２次。第二次造成25%伤害。\n攻击多次的招式和指定多个目标的招式不受影响。"
   },
   "darkAura": {
-    "name": "暗黑气场"
+    "name": "暗黑气场",
+    "description": "全体的恶属性招式变强33%。"
   },
   "fairyAura": {
-    "name": "妖精气场"
+    "name": "妖精气场",
+    "description": "全体的妖精属性招式变强33%。"
   },
   "auraBreak": {
-    "name": "气场破坏"
+    "name": "气场破坏",
+    "description": "让气场的效果发生逆转，降低25%威力。"
   },
   "primordialSea": {
     "name": "始源之海",
@@ -710,17 +778,20 @@
     "name": "蹲守"
   },
   "waterBubble": {
-    "name": "水泡"
+    "name": "水泡",
+    "description": "降低自己受到的火属性招式的威力，不会灼伤。\n此宝可梦的水系招式威力翻倍。"
   },
   "steelworker": {
-    "name": "钢能力者"
+    "name": "钢能力者",
+    "description": "钢属性的招式威力会提高50%。"
   },
   "berserk": {
     "name": "怒火冲天",
     "description": "因对手的攻击\nＨＰ变为一半时，\n特攻会提高。"
   },
   "slushRush": {
-    "name": "拨雪"
+    "name": "拨雪",
+    "description": "下雪天气时，速度会翻倍。\n不受冰雹影响。"
   },
   "longReach": {
     "name": "远隔",
@@ -735,19 +806,23 @@
     "description": "可以率先使出回复招式。"
   },
   "galvanize": {
-    "name": "电气皮肤"
+    "name": "电气皮肤",
+    "description": "一般属性的招式会变为电属性。威\n力会提高20%。"
   },
   "surgeSurfer": {
     "name": "冲浪之尾"
   },
   "schooling": {
-    "name": "鱼群"
+    "name": "鱼群",
+    "description": "20级以上，ＨＰ多的时候会聚起来变强。ＨＰ\n剩余量少于1/4时，群体会分崩离析。"
   },
   "disguise": {
-    "name": "画皮"
+    "name": "画皮",
+    "description": "通过画皮覆盖住身体，可以防住１\n次攻击。只损失1/8HP。"
   },
   "battleBond": {
-    "name": "牵绊变身"
+    "name": "牵绊变身",
+    "description": "打倒对手时，与训练家的牵绊会增\n强，自己的攻击、特攻、速度会提\n高。如果是甲贺忍蛙，会变身为\n小智的甲贺忍蛙。"
   },
   "powerConstruct": {
     "name": "群聚变形",
@@ -771,7 +846,8 @@
     "description": "有谁使出跳舞招式时，\n自己也能就这么接着使出跳舞招式。"
   },
   "battery": {
-    "name": "蓄电池"
+    "name": "蓄电池",
+    "description": "会提高我方的特殊招式30%的威力。"
   },
   "fluffy": {
     "name": "毛茸茸",
@@ -824,13 +900,16 @@
     "name": "金属防护"
   },
   "shadowShield": {
-    "name": "幻影防守"
+    "name": "幻影防守",
+    "description": "ＨＰ全满时，受到的伤害会减半。不会被其他招式或特性无视。"
   },
   "prismArmor": {
-    "name": "棱镜装甲"
+    "name": "棱镜装甲",
+    "description": "受到效果绝佳的攻击时，可以减弱\n25%威力。不会被其他招式或特性无视。"
   },
   "neuroforce": {
-    "name": "脑核之力"
+    "name": "脑核之力",
+    "description": "效果绝佳的攻击，威力会提高25%。"
   },
   "intrepidSword": {
     "name": "不挠之剑",
@@ -845,7 +924,8 @@
     "description": "这只宝可梦的属性在使用招式之\n前变为所使用的招式的属性。"
   },
   "ballFetch": {
-    "name": "捡球"
+    "name": "捡球",
+    "description": "没有携带道具时，会拾取第１个投\n出后捕捉失败的精灵球。\n不参战也能生效。"
   },
   "cottonDown": {
     "name": "棉絮",
@@ -860,17 +940,20 @@
     "description": "只反弹自己受到的能力降低效果。"
   },
   "gulpMissile": {
-    "name": "一口导弹"
+    "name": "一口导弹",
+    "description": "冲浪或潜水时会叼来猎物。受到伤\n害时，会吐出猎物进行攻击，\n造成对方最大HP1/4的伤害。\n根据捕获的猎物，还会降低对手防御\n或造成麻痹效果。"
   },
   "stalwart": {
     "name": "坚毅",
     "description": "能无视具有吸引对手招式效果的特\n性或招式的影响。"
   },
   "steamEngine": {
-    "name": "蒸汽机"
+    "name": "蒸汽机",
+    "description": "受到水属性或火属性的招式攻击时\n，速度会提高至最大。"
   },
   "punkRock": {
-    "name": "庞克摇滚"
+    "name": "庞克摇滚",
+    "description": "声音招式的威力会提高30%。受到的声\n音招式伤害会减半。"
   },
   "sandSpit": {
     "name": "吐沙",
@@ -888,7 +971,8 @@
     "name": "结冻头"
   },
   "powerSpot": {
-    "name": "能量点"
+    "name": "能量点",
+    "description": "相邻位置的同伴招式的威力提高30%。"
   },
   "mimicry": {
     "name": "拟态",
@@ -899,7 +983,8 @@
     "description": "出场时，敌方和我方的光墙、反射\n壁和极光幕的效果会消失。"
   },
   "steelySpirit": {
-    "name": "钢之意志"
+    "name": "钢之意志",
+    "description": "我方的钢属性攻击威力会提高50%。"
   },
   "perishBody": {
     "name": "灭亡之躯",
@@ -910,7 +995,8 @@
     "description": "与使用接触类招式攻击自己的宝可\n梦互换特性。"
   },
   "gorillaTactics": {
-    "name": "一猩一意"
+    "name": "一猩一意",
+    "description": "虽然攻击会提高50%，但是只能使出一\n开始所选的招式。"
   },
   "neutralizingGas": {
     "name": "化学变化气体",
@@ -920,10 +1006,12 @@
     "name": "粉彩护幕"
   },
   "hungerSwitch": {
-    "name": "饱了又饿"
+    "name": "饱了又饿",
+    "description": "每回合结束时会在满腹花纹与空腹\n花纹之间交替改变样子。\n也会使气场轮在电和暗属性间切换。"
   },
   "quickDraw": {
-    "name": "速击"
+    "name": "速击",
+    "description": "有30%概率比对手先一步行动。"
   },
   "unseenFist": {
     "name": "无形拳",
@@ -934,10 +1022,12 @@
     "description": "出场时会从贝壳撒药，将我方的能\n力变化复原。"
   },
   "transistor": {
-    "name": "电晶体"
+    "name": "电晶体",
+    "description": "电属性的招式威力会提高30%。"
   },
   "dragonsMaw": {
-    "name": "龙颚"
+    "name": "龙颚",
+    "description": "龙属性的招式威力会提高50%。"
   },
   "chillingNeigh": {
     "name": "苍白嘶鸣",
@@ -948,10 +1038,12 @@
     "description": "打倒对手时会用恐怖的声音嘶鸣并\n提高特攻。"
   },
   "asOneGlastrier": {
-    "name": "人马一体"
+    "name": "人马一体",
+    "description": "此特性融合了紧张感和苍白嘶鸣，\n对手无法使用树果，自己击败\n对手时攻击会上升。"
   },
   "asOneSpectrier": {
-    "name": "人马一体"
+    "name": "人马一体",
+    "description": "此特性融合了紧张感和漆黑嘶鸣。\n对手无法使用树果，自己击败\n对手时特攻会上升。"
   },
   "lingeringAroma": {
     "name": "甩不掉的气味",
@@ -986,10 +1078,12 @@
     "description": "受到威吓时，攻击会提高。让替换\n宝可梦的招式和道具无效。"
   },
   "rockyPayload": {
-    "name": "搬岩"
+    "name": "搬岩",
+    "description": "岩石属性的招式威力会提高50%。"
   },
   "windPower": {
-    "name": "风力发电"
+    "name": "风力发电",
+    "description": "受到风的招式攻击或顺风时，会变为充电\n状态，提高下一个电属性招式的威力。"
   },
   "zeroToHero": {
     "name": "全能变身",
@@ -1003,34 +1097,38 @@
     "description": "受到伤害时，会变为充电状态。"
   },
   "protosynthesis": {
-    "name": "古代活性",
-    "description": "天气为晴朗时，数值最高的能力会提高。"
+    "name": "古代活性"
   },
   "quarkDrive": {
-    "name": "夸克充能",
-    "description": "在电气场地上时，数值最高的能力会提高。"
+    "name": "夸克充能"
   },
   "goodAsGold": {
     "name": "黄金之躯",
     "description": "不会氧化的坚固黄金身躯不会受到\n对手的变化招式的影响。"
   },
   "vesselOfRuin": {
-    "name": "灾祸之鼎"
+    "name": "灾祸之鼎",
+    "description": "以能呼唤灾厄的鼎的力量降低除自\n己以外的宝可梦25%的特攻。"
   },
   "swordOfRuin": {
-    "name": "灾祸之剑"
+    "name": "灾祸之剑",
+    "description": "以能呼唤灾厄的剑的力量降低除自\n己以外的宝可梦25%的防御。"
   },
   "tabletsOfRuin": {
-    "name": "灾祸之简"
+    "name": "灾祸之简",
+    "description": "以能呼唤灾厄的简的力量降低除自\n己以外的宝可梦25%的攻击。"
   },
   "beadsOfRuin": {
-    "name": "灾祸之玉"
+    "name": "灾祸之玉",
+    "description": "以能呼唤灾厄的勾玉的力量降低除\n自己以外的宝可梦25%的特防。"
   },
   "orichalcumPulse": {
-    "name": "绯红脉动"
+    "name": "绯红脉动",
+    "description": "出场时，会将天气变为晴朗。日照\n强烈时，会通过古代的脉动升高33%攻\n击。"
   },
   "hadronEngine": {
-    "name": "强子引擎"
+    "name": "强子引擎",
+    "description": "出场时，会布下电气场地。处于电\n气场地时，会通过未来的机关升高\n33%特攻。"
   },
   "opportunist": {
     "name": "跟风",
@@ -1041,10 +1139,12 @@
     "description": "吃了树果后，会在下一回合结束时\n从胃反刍出来再吃１次。"
   },
   "sharpness": {
-    "name": "锋锐"
+    "name": "锋锐",
+    "description": "提高切割对手的招式的威力50%。"
   },
   "supremeOverlord": {
-    "name": "大将"
+    "name": "大将",
+    "description": "出场时，攻击和特攻会按照目前被\n打倒的同伴数量逐渐提升10%，被打倒\n越多，提升越多。"
   },
   "costar": {
     "name": "同台共演",
@@ -1059,10 +1159,12 @@
     "description": "包裹头部的神秘尾巴使对手无法对\n我方使出先制招式。"
   },
   "earthEater": {
-    "name": "食土"
+    "name": "食土",
+    "description": "受到地面属性的招式攻击时，不会\n受到伤害，而是回复1/4HP。"
   },
   "myceliumMight": {
-    "name": "菌丝之力"
+    "name": "菌丝之力",
+    "description": "使出变化招式时，虽然必定会\n最后使用，但能不受对手的特性妨碍。"
   },
   "mindsEye": {
     "name": "心眼",
@@ -1073,10 +1175,12 @@
     "description": "首次出场时，会散发出甜腻的蜜\n的香味来降低对手的闪避率。"
   },
   "hospitality": {
-    "name": "款待"
+    "name": "款待",
+    "description": "出场时款待同伴，回复其1/4ＨＰ。"
   },
   "toxicChain": {
-    "name": "毒锁链"
+    "name": "毒锁链",
+    "description": "凭借含有毒素的锁链的力量，有30%\n概率让被招式击中的对手陷入剧毒状态。"
   },
   "embodyAspectTeal": {
     "name": "面影辉映",
