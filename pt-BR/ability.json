@@ -1,7 +1,7 @@
 {
   "stench": {
     "name": "Stench",
-    "description": "Ao liberar um odor fedido ao atacar, este Pokémon tem 10% de chance de fazer com que o alvo hesite. Isto não se acumula com movimentos ou itens que tenham chance de causar hesitação."
+    "description": "Ao liberar um odor fedido ao atacar, este Pokémon tem 10% de chance de fazer com que o alvo hesite. Isso não se acumula com movimentos ou itens que tenham chance de causar hesitação."
   },
   "drizzle": {
     "name": "Drizzle",
@@ -29,7 +29,7 @@
   },
   "sandVeil": {
     "name": "Sand Veil",
-    "description": "Aumenta a evasão do Pokémon numa tempestade de areia em 20%. O Pokémon não sofre danos causados por tempestades de areia."
+    "description": "Aumenta a evasão do Pokémon em uma tempestade de areia em 20%. O Pokémon não sofre danos causados por tempestades de areia."
   },
   "static": {
     "name": "Static",
@@ -44,45 +44,56 @@
     "description": "Se for atingido por um movimento do tipo Água, o Pokémon recupera ¼ dos seus PS máximos em vez de sofrer danos."
   },
   "oblivious": {
-    "name": "Oblivious"
+    "name": "Oblivious",
+    "description": "O Pokémon fica alheio, impedindo-o de se apaixonar, cair em provocações ou ser afetado por Intimidate."
   },
   "cloudNine": {
     "name": "Cloud Nine",
     "description": "Anula todos os efeitos climáticos na batalha."
   },
   "compoundEyes": {
-    "name": "Compound Eyes"
+    "name": "Compound Eyes",
+    "description": "Os olhos compostos do Pokémon aumentam sua precisão em 30%."
   },
   "insomnia": {
-    "name": "Insomnia"
+    "name": "Insomnia",
+    "description": "A insônia do Pokémon impede-o de adormecer."
   },
   "colorChange": {
     "name": "Color Change",
     "description": "Este Pokémon se torna do tipo do último ataque que sofreu."
   },
   "immunity": {
-    "name": "Immunity"
+    "name": "Immunity",
+    "description": "O sistema imunológico do Pokémon impede que ele seja envenenado."
   },
   "flashFire": {
-    "name": "Flash Fire"
+    "name": "Flash Fire",
+    "description": "Se atingido por um movimento do tipo Fogo, o Pokémon absorve as chamas e as utiliza para aumentar em 50% o poder dos seus próprios movimentos do tipo Fogo."
   },
   "shieldDust": {
-    "name": "Shield Dust"
+    "name": "Shield Dust",
+    "description": "Uma poeira protetora protege o Pokémon dos efeitos adicionais dos movimentos."
   },
   "ownTempo": {
-    "name": "Own Tempo"
+    "name": "Own Tempo",
+    "description": "O Pokémon mantém seu próprio ritmo, evitando ficar confuso ou ser afetado por Intimidate."
   },
   "suctionCups": {
-    "name": "Suction Cups"
+    "name": "Suction Cups",
+    "description": "O Pokémon usa ventosas para permanecer no mesmo lugar. Isso o protege de movimentos e itens que o forçariam a sair de campo."
   },
   "intimidate": {
-    "name": "Intimidate"
+    "name": "Intimidate",
+    "description": "Quando o Pokémon entra em uma batalha, ele intimida os Pokémon adversários e os faz recuar, reduzindo seus atributos de Ataque."
   },
   "shadowTag": {
-    "name": "Shadow Tag"
+    "name": "Shadow Tag",
+    "description": "O Pokémon pisa nas sombras dos Pokémon adversários para impedir que eles fujam ou sejam trocados."
   },
   "roughSkin": {
-    "name": "Rough Skin"
+    "name": "Rough Skin",
+    "description": "A pele áspera do Pokémon causa danos aos atacantes que entram em contato direto com ela, causando danos ao atacante equivalentes a ⅛ dos seus PS máximos."
   },
   "wonderGuard": {
     "name": "Wonder Guard",
@@ -93,7 +104,8 @@
     "description": "Através da levitação esse Pokémon se torna completamente imune a movimentos do tipo Terrestre."
   },
   "effectSpore": {
-    "name": "Effect Spore"
+    "name": "Effect Spore",
+    "description": "O contato com o Pokémon tem 30% de chance de causar envenenamento, sono ou paralisia no atacante."
   },
   "synchronize": {
     "name": "Synchronize",
@@ -104,22 +116,28 @@
     "description": "Previne que Habilidades e movimentos de outros Pokémon diminuam os atributos deste Pokémon."
   },
   "naturalCure": {
-    "name": "Natural Cure"
+    "name": "Natural Cure",
+    "description": "As mudanças de estado do Pokémon são curadas quando ele é substituído."
   },
   "lightningRod": {
-    "name": "Lightning Rod"
+    "name": "Lightning Rod",
+    "description": "O Pokémon absorve todos os movimentos do tipo Elétrico. Em vez de sofrer danos com eles, seu atributo de Ataque Especial é aumentado."
   },
   "sereneGrace": {
-    "name": "Serene Grace"
+    "name": "Serene Grace",
+    "description": "Duplica a chance de ocorrerem efeitos adicionais quando o Pokémon usa seus movimentos. Isso não afeta os itens."
   },
   "swiftSwim": {
-    "name": "Swift Swim"
+    "name": "Swift Swim",
+    "description": "Duplica o atributo de velocidade do Pokémon na chuva."
   },
   "chlorophyll": {
-    "name": "Chlorophyll"
+    "name": "Chlorophyll",
+    "description": "Duplica o atributo de velocidade do Pokémon sob luz solar intensa."
   },
   "illuminate": {
-    "name": "Illuminate"
+    "name": "Illuminate",
+    "description": "Ao iluminar o ambiente ao seu redor, o Pokémon evita que sua precisão seja reduzida. Se este Pokémon for o seu líder na batalha, aumenta a probabilidade de batalhas duplas."
   },
   "trace": {
     "name": "Trace",
@@ -130,33 +148,40 @@
     "description": "Dobra o Ataque do Pokémon."
   },
   "poisonPoint": {
-    "name": "Poison Point"
+    "name": "Poison Point",
+    "description": "O contato com o Pokémon tem 30% de chance de envenenar o atacante."
   },
   "innerFocus": {
-    "name": "Inner Focus"
+    "name": "Inner Focus",
+    "description": "O intenso foco do Pokémon impede que ele hesite ou seja afetado por Intimidate."
   },
   "magmaArmor": {
-    "name": "Magma Armor"
+    "name": "Magma Armor",
+    "description": "A camada de magma quente do Pokémon impede que ele seja congelado."
   },
   "waterVeil": {
-    "name": "Water Veil"
+    "name": "Water Veil",
+    "description": "O véu de água do Pokémon impede que ele seja queimado."
   },
   "magnetPull": {
-    "name": "Magnet Pull"
+    "name": "Magnet Pull",
+    "description": "Impede que os Pokémon do tipo Aço fujam, atraindo-os com magnetismo."
   },
   "soundproof": {
     "name": "Soundproof",
     "description": "Antirruído dá ao Pokémon imunidade completa a todos movimentos baseados em som."
   },
   "rainDish": {
-    "name": "Rain Dish"
+    "name": "Rain Dish",
+    "description": "O Pokémon recupera gradualmente ¹⁄₁₆ dos seus PS máximos no final de cada turno em que chove."
   },
   "sandStream": {
     "name": "Sand Stream",
     "description": "Quando entra em batalha o Pokémon conjura uma tempestade de areia."
   },
   "pressure": {
-    "name": "Pressure"
+    "name": "Pressure",
+    "description": "Coloca os Pokémon adversários sob pressão, fazendo com que gastem mais um PP do que o normal ao usar seus movimentos."
   },
   "thickFat": {
     "name": "Thick Fat",
@@ -167,42 +192,52 @@
     "description": "O Pokémon acorda duas vezes mais rápido que outros Pokémon."
   },
   "flameBody": {
-    "name": "Flame Body"
+    "name": "Flame Body",
+    "description": "O contato com o Pokémon tem 30% de chance de queimar o atacante."
   },
   "runAway": {
     "name": "Run Away",
     "description": "Torna a fuga de encontros com Pokémon selvagem garantida."
   },
   "keenEye": {
-    "name": "Keen Eye"
+    "name": "Keen Eye",
+    "description": "Os olhos aguçados do Pokémon impedem que sua precisão seja reduzida. Ele também ignora os aumentos na evasão do alvo."
   },
   "hyperCutter": {
-    "name": "Hyper Cutter"
+    "name": "Hyper Cutter",
+    "description": "As poderosas pinças do Pokémon impedem que outros Pokémon diminuam seu atributo de Ataque."
   },
   "pickup": {
-    "name": "Pickup"
+    "name": "Pickup",
+    "description": "O Pokémon pode pegar um item que outro Pokémon usou durante uma batalha, mesmo que não tenha participado dela."
   },
   "truant": {
-    "name": "Truant"
+    "name": "Truant",
+    "description": "Cada vez que o Pokémon usa um movimento, ele passa o turno seguinte sem fazer nada."
   },
   "hustle": {
-    "name": "Hustle"
+    "name": "Hustle",
+    "description": "Aumenta o atributo Ataque do Pokémon em 50%, mas reduz a precisão dos seus movimentos físicos em 20%."
   },
   "cuteCharm": {
-    "name": "Cute Charm"
+    "name": "Cute Charm",
+    "description": "O Pokémon tem 30% de chance de encantar os atacantes que entrarem em contato direto com ele."
   },
   "plus": {
-    "name": "Plus"
+    "name": "Plus",
+    "description": "Aumenta o atributo de Ataque Especial do Pokémon em 50% se um aliado com a habilidade Plus ou Minus também estiver em batalha."
   },
   "minus": {
-    "name": "Minus"
+    "name": "Minus",
+    "description": "Aumenta o atributo de Ataque Especial do Pokémon em 50% se um aliado com a habilidade Plus ou Minus também estiver em batalha."
   },
   "forecast": {
     "name": "Forecast",
     "description": "O tipo do Pokémon altera-se para Água, Fogo ou Gelo, dependendo do clima."
   },
   "stickyHold": {
-    "name": "Sticky Hold"
+    "name": "Sticky Hold",
+    "description": "Os itens que o Pokémon segura ficam presos ao seu corpo pegajoso e não podem ser removidos por outros Pokémon."
   },
   "shedSkin": {
     "name": "Shed Skin"
