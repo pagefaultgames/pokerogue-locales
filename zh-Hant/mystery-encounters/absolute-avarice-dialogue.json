@@ -1,1 +1,25 @@
-{}
+{
+  "intro": "一個{{greedentName}}埋伏了你\n並且偷走了你隊伍攜帶的樹果！",
+  "title": "貪得無厭",
+  "description": "{{greedentName}}讓你措手不及，\n現在你所有的樹果都被奪走了！\n\n{{greedentName}}正要吃掉它們時，\n突然停下來饒有興趣地看着你。",
+  "query": "你要怎麼做？",
+  "option": {
+    "1": {
+      "label": "必須戰鬥",
+      "tooltip": "(-)艱難的戰鬥\n(+)樹果寶藏的獎勵",
+      "selected": "{{greedentName}}塞滿臉頰\n並準備戰鬥！",
+      "bossEnraged": "{{greedentName}}對食物的熱衷讓它非常憤怒！",
+      "foodStash": "{{greedentName}}似乎守護着一大堆食物！$@s{item_fanfare}你隊伍中的每個神奇寶貝都會獲得{{foodReward}}！"
+    },
+    "2": {
+      "label": "講點道理",
+      "tooltip": "(+)拿回一些失去的樹果",
+      "selected": "你的懇求引起了{{greedentName}}的共鳴。$它不會把你所有的果子都歸還給你，但仍然會扔給你一些。"
+    },
+    "3": {
+      "label": "讓它拿吧",
+      "tooltip": "(-)失去所有樹果\n(?){{greedentName}}會很感激你",
+      "selected": "{{greedentName}}一瞬間就吃掉了整個樹果堆！$它拍拍肚子，\n感激地看着你。$也許你可以在冒險中喂它\n更多漿果……$@s{level_up_fanfare}{{greedentName}}想加入你的隊伍！"
+    }
+  }
+}
