@@ -1,1 +1,31 @@
-{}
+{
+  "intro": "這是一位攜帶大量神奇寶貝蛋的訓練師！",
+  "introDialogue": "嘿，訓練師！$看起來你的一些\n寶可夢感覺有點沮喪。$為什麼不和我打一場\n來讓它們興奮一下呢？",
+  "title": "專業飼養員",
+  "description": "你被發起了一場\n@[TOOLTIP_TITLE]{只能使用一隻寶可夢}的挑戰。\n這可能很難，但它肯定會\n加深你與所選寶可夢之間的牽絆！\n如果你贏了，飼養員還會\n給你一些@[TOOLTIP_TITLE]{蛋}！",
+  "query": "你要與誰並肩作戰？",
+  "cleffa1Nickname": "超級王牌",
+  "cleffa2Nickname": "皮氪稀",
+  "cleffa3Nickname": "帝王{{speciesName}}",
+  "option": {
+    "1": {
+      "label": "{{pokemon1Name}}",
+      "tooltipBase": "(-)艱難的戰鬥\n(+)獲得與{{pokemon1Name}}的友誼"
+    },
+    "2": {
+      "label": "{{pokemon2Name}}",
+      "tooltipBase": "(-)艱難的戰鬥\n(+)獲得與{{pokemon2Name}}的友誼"
+    },
+    "3": {
+      "label": "{{pokemon3Name}}",
+      "tooltipBase": "(-)艱難的戰鬥\n(+)獲得與{{pokemon3Name}}的友誼"
+    },
+    "selected": "我們開始吧！"
+  },
+  "outro": "看看你的 {{chosenPokemon}}現在有多開心！$給，這些你也拿着。",
+  "outroFailed": "太可惜了……$看起來要讓你的寶可夢信任你\n你的路還長着呢。",
+  "gainedEggs": "@s{item_fanfare}你獲得了{{numEggs}}！",
+  "eggsTooltip": "\n(+)獲得{{eggs}}",
+  "numEggs_one": "{{count}}個{{rarity}}蛋",
+  "numEggs_other": "{{count}}個{{rarity}}蛋"
+}

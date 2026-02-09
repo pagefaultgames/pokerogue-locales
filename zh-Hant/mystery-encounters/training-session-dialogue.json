@@ -1,1 +1,33 @@
-{}
+{
+  "intro": "你遇到了一些\n訓練工具和用品。",
+  "title": "集訓",
+  "description": "這些物品似乎可以\n用來訓練你的隊伍！\n有數種方式可以進行訓練：\n讓你隊伍中的其他寶可夢與其進行對戰。",
+  "query": "要怎麼訓練？",
+  "invalidSelection": "這隻寶可夢無法戰鬥了！",
+  "option": {
+    "1": {
+      "label": "輕量訓練",
+      "tooltip": "(-)輕鬆戰鬥\n(+)提升隨機2隻\n寶可夢的個體",
+      "finished": "{{selectedPokemon}}回來了，感覺雖然疲憊不堪，\n但很有成就感！$它的{{stat1}}和{{stat2}}的個體得到了改善！"
+    },
+    "2": {
+      "label": "適度訓練",
+      "tooltip": "(-)適中的戰鬥\n(+)改變寶可夢的性格",
+      "selectPrompt": "選擇一種想要的性格\n來訓練你的神奇寶貝。",
+      "finished": "{{selectedPokemon}}回來了，感覺雖然疲憊不堪，\n但很有成就感！$它的性格變成了{{nature}}！"
+    },
+    "3": {
+      "label": "重磅訓練",
+      "tooltip": "(-)艱苦的戰鬥\n(+)改變寶可夢的特性",
+      "selectPrompt": "選擇一種想要的特性\n來訓練你的神奇寶貝。",
+      "finished": "{{selectedPokemon}}回來了，感覺雖然疲憊不堪，\n但很有成就感！$它的特性變成了{{ability}}！"
+    },
+    "4": {
+      "label": "離開",
+      "tooltip": "(-)無獎勵",
+      "selected": "你無暇訓練\n該動身了。"
+    },
+    "selected": "{{selectedPokemon}}穿過空地來到你面前……"
+  },
+  "outro": "這次訓練成果不錯！"
+}
