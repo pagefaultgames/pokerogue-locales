@@ -49,7 +49,7 @@
   },
   "razorWind": {
     "name": "Sickelvind",
-    "effect": "Utföraren laddar först upp tekniken och anfaller sedan med sicklor av vind omgången efter. Högre chans för kritisk träff."
+    "effect": "Utföraren laddar först upp tekniken och anfaller sedan med sicklor av vind omgången efter. Kritiska träffar inträffar oftare."
   },
   "swordsDance": {
     "name": "Svärdsdans",
@@ -126,8 +126,19 @@
     "name": "Fysiobarriär",
     "effect": "En bastant barriär av ljus reducerar skadan av fysiska attacker i fem omgångar."
   },
+  "slash": {
+    "name": "Skärande svep",
+    "effect": "Motståndaren skärs av svepande klor eller blad. Kritiska träffar inträffar oftare."
+  },
+  "spikes": {
+    "name": "Fotanglar"
+  },
   "perishSong": {
     "name": "Undergångssång"
+  },
+  "furyCutter": {
+    "name": "Insekvenshugg",
+    "effect": "Motståndaren skärs med blad eller klor. Attacken blir starkare för varje hugg som lyckas träffa i rad."
   },
   "airCutter": {
     "name": "Skärande vind",
@@ -137,9 +148,39 @@
     "name": "Svalsvep",
     "effect": "Utföraren flyger snabbt mot motståndaren och skär till innan den hinner reagera. Attacken träffar alltid."
   },
+  "leafBlade": {
+    "name": "Bladsblad",
+    "effect": "Utföraren använder ett av sina löv som ett vasst knivblad för att skära motståndaren. Chansen av kritiska träffas är förhöjd."
+  },
+  "toxicSpikes": {
+    "name": "Giftanglar"
+  },
+  "nightSlash": {
+    "name": "Skugghugg",
+    "effect": "Utföraren skär motståndaren från skuggorna när den minst anar. Kritiska träffar händer oftare."
+  },
   "airSlash": {
     "name": "Luftklinga",
     "effect": "Utföraren anfaller med en klinga av luft som skär självaste skyn. Detta kan få motståndaren att rygga tillbaka."
+  },
+  "xScissor": {
+    "name": "X-sax",
+    "effect": "Utföraren skär i motståndaren genom att klippa den i en saxliknande rörelse med blad eller klor."
+  },
+  "psychoCut": {
+    "name": "Skärande sinne",
+    "effect": "Användaren skär motståndaren med blad skapade genom mental kraft. Kritiska träffar inträffar oftare."
+  },
+  "stealthRock": {
+    "name": "Svävande stenar"
+  },
+  "sacredSword": {
+    "name": "Helgat svärd",
+    "effect": "Utföraren skadar motståndaren genom att skära den med ett långt horn. Motståndarens förmågeändringar påverkar inte skadan."
+  },
+  "razorShell": {
+    "name": "Snäcksvärd",
+    "effect": "Utförare skär motståndare med en vassa snäcka. Detta kan sänka motståndarens försvarsförmåga."
   },
   "grassyTerrain": {
     "name": "Grästerräng"
@@ -150,15 +191,27 @@
   "electricTerrain": {
     "name": "Elterräng"
   },
+  "solarBlade": {
+    "name": "Solsvärd",
+    "effect": "En tvåomgångsattack där utföraren först samlar solljus för att skapa ett energisvärd, för att sedan skära motståndaren omgången efter."
+  },
   "psychicTerrain": {
     "name": "Psykoterräng"
   },
   "terrainPulse": {
     "name": "Terrängpuls"
   },
+  "stoneAxe": {
+    "name": "Stenyxa",
+    "effect": "Utföraren skär motståndaren med en yxa av sten. Stenspillror bryts av och svävar i luften runt motståndaren efter attacken."
+  },
   "ceaselessEdge": {
     "name": "Skärvig snäckatana",
     "effect": "Utföraren skär motståndaren med en katana gjord av snäckor. Snäckskärvor sprids på marken efter attacken och agerar som fotanglar."
+  },
+  "populationBomb": {
+    "name": "Överbedolkning",
+    "effect": "Utförarens släkt samlas i en hord för en kombinerad attack där de skär motståndaren med dolkliknande rörelser 1-10 gånger i rad."
   },
   "aquaCutter": {
     "name": "Skärande ström",
