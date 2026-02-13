@@ -272,28 +272,36 @@
     "effect": "En motattack. En fysisk attack kontras med dubbelt så mycket skada på motståndaren."
   },
   "seismicToss": {
-    "name": "Tyngkraftskast"
+    "name": "Tyngkraftskast",
+    "effect": "Motståndaren kastas med hjälp av tyngkraft. Skadan som orsakas motsvarar utförarens nivå."
   },
   "strength": {
-    "name": "Råstyrka"
+    "name": "Råstyrka",
+    "effect": "Motståndaren träffas av ett rundslag med maximal kraft."
   },
   "absorb": {
-    "name": "Absorbera"
+    "name": "Absorbera",
+    "effect": "En näringsdränerande attack. Utförarens HP återställs med 50% av skadan som motståndaren tagit."
   },
   "megaDrain": {
-    "name": "Mega-absorption"
+    "name": "Mega-absorption",
+    "effect": "En näringsdränerande attack. Utförarens HP återställs med 50% av skadan som motståndaren tagit."
   },
   "leechSeed": {
-    "name": "Parasitfrö"
+    "name": "Parasitfrö",
+    "effect": "Ett frö sås på motståndaren. Det stjäl lite HP från motståndaren varje omgång."
   },
   "growth": {
-    "name": "Snabbväxt"
+    "name": "Snabbväxt",
+    "effect": "Hela utförarens kropp växer på en gång, vilket höjer dess attack- och sp. atk-förmåga."
   },
   "razorLeaf": {
-    "name": "Vassa blad"
+    "name": "Vassa blad",
+    "effect": "Vasseggade löv avfyras mot motståndarna för att skära dem. Denna teknik orsakar kritiska träffar oftare."
   },
   "solarBeam": {
-    "name": "Solstråle"
+    "name": "Solstråle",
+    "effect": "En tvåomgångsattack där utföraren samlar solljus för att sedan skjuta motståndaren med en energistråle i följande omgång."
   },
   "poisonPowder": {
     "name": "Giftpulver",
@@ -304,16 +312,20 @@
     "effect": "Utföraren sprider ett moln av paralyserande pulver som förlamar motståndaren."
   },
   "sleepPowder": {
-    "name": "Sömnsporer"
+    "name": "Sömnpulver",
+    "effect": "Utföraren sprider ett stort moln av sömnframkallande damm runt motståndaren."
   },
   "petalDance": {
-    "name": "Blombladsbalett"
+    "name": "Blombladsbalett",
+    "effect": "Utföraren attackerar motståndaren genom att sprida blomblad i 2-3 omgångar. Utföraren blir sedan förvirrad."
   },
   "stringShot": {
-    "name": "Silkesspott"
+    "name": "Silkesspott",
+    "effect": "Motståndarna viras i silke som spottas från utförarens mun, vilket skarpt sänker deras snabbhet."
   },
   "dragonRage": {
-    "name": "Drakens ilska"
+    "name": "Drakens ilska",
+    "effect": "Denna attack träffar motståndaren med en chockvåg av ren ilska. Denna attack orsakar alltid 40 HP i skada."
   },
   "fireSpin": {
     "name": "Eldvirvel",
@@ -340,7 +352,8 @@
     "effect": "Utföraren plockar upp och kastar en liten sten på motståndaren för att skada den."
   },
   "earthquake": {
-    "name": "Jordbävning"
+    "name": "Jordbävning",
+    "effect": "Utföraren utlöser en jordbävning som drabbar alla pokémon runt omkring."
   },
   "fissure": {
     "name": "Jordklyvare",
@@ -355,19 +368,63 @@
     "effect": "Toxin som svårt förgiftar motståndaren. Giftet orsakar mer skada för varje omgång."
   },
   "confusion": {
-    "name": "Telekinesi"
+    "name": "Telekinesi",
+    "effect": "Motståndaren skadas av svag telekinetisk kraft. Detta kan också förvirra motståndaren."
   },
   "psychic": {
-    "name": "Psykokinesi"
+    "name": "Psykokinesi",
+    "effect": "Motståndaren skadas med stark telekinetisk kraft. Detta kan också sänka motståndarens sp. fsv-förmåga."
   },
   "hypnosis": {
-    "name": "Hypnos"
+    "name": "Hypnos",
+    "effect": "Utföraren använder hypnotisk kraft för att få motståndaren att somna djupt."
   },
   "meditate": {
-    "name": "Meditation"
+    "name": "Meditation",
+    "effect": "Utföraren mediterar för att väcka kraften djupt inom sig för att öka sin attackförmåga."
   },
   "agility": {
-    "name": "Spänstighet"
+    "name": "Spänstighet",
+    "effect": "Utföraren gör sin kropp spänstig för att kunna röra sig snabbare. Detta ökar snabbheten skarpt."
+  },
+  "quickAttack": {
+    "name": "Snabbslag",
+    "effect": "Utföraren kastar sig mot motståndaren med en hastighet som gör den nästan osynlig. Denna teknik går alltid först."
+  },
+  "rage": {
+    "name": "Raserianfall",
+    "effect": "Så länge denna teknik är i användning ökar raseriets kraft utförarens attackförmåga varje gång utföraren träffas av en attack i strid."
+  },
+  "teleport": {
+    "name": "Teleportering",
+    "effect": "Utföraren byter plats med en lagmedlem (om det finns en). Om en vild pokémon använder denna teknik så flyr den."
+  },
+  "nightShade": {
+    "name": "Nattvålnad",
+    "effect": "Utföraren får motståndaren att se en skrämmande hägring. Den orsakar skada som motsvarar utförarens nivå."
+  },
+  "mimic": {
+    "name": "Härmning",
+    "effect": "Utföraren kopierar motståndarens senaste drag. Tekniken kan användas under striden tills utföraren byts ut."
+  },
+  "screech": {
+    "name": "Skri",
+    "effect": "Ett öronbedövande skri sänker skarpt motståndarens försvarsförmåga."
+  },
+  "doubleTeam": {
+    "name": "Skenbilder",
+    "effect": "Genom att röra sig blixtsnabbt skapar användaren illusoriska skenbilder av sig själv för att öka sin undvikandeförmåga."
+  },
+  "recover": {
+    "name": "Regeneration",
+    "effect": "Genom att regenerera sina egna celler återställer utföraren sin egen HP med 50% av sin max. HP."
+  },
+  "harden": {
+    "name": "Hårdnad",
+    "effect": "Utföraren stelnar hela sin kropp för att öka sin försvarsförmåga."
+  },
+  "minimize": {
+    "name": "Krympning"
   },
   "lightScreen": {
     "name": "Specialskärm",
@@ -376,6 +433,9 @@
   "reflect": {
     "name": "Fysiobarriär",
     "effect": "En bastant barriär av ljus reducerar skadan av fysiska attacker i fem omgångar."
+  },
+  "focusEnergy": {
+    "effect": "Utföraren tar ett djupt andetag och fokuserar så att den kan orsaka kritiska träffar oftare."
   },
   "lick": {
     "effect": "Motståndaren slickas med en lång tunga och tar skada. Detta kan också förlama motståndaren."
@@ -403,7 +463,7 @@
   },
   "slash": {
     "name": "Skärande svep",
-    "effect": "Motståndaren skärs av svepande klor eller blad. Kritiska träffar inträffar oftare."
+    "effect": "Motståndaren skärs av svepande klor eller blad. Denna teknik orsakar kritiska träffar oftare."
   },
   "struggle": {
     "effect": "Denna attack används endast i desperation om användaren inte har KP kvar. Detta skadar även utföraren lite."
@@ -446,12 +506,15 @@
   "refresh": {
     "effect": "Utföraren vilar och läker därmed förgiftning, brännskada eller förlamning."
   },
+  "blazeKick": {
+    "effect": "En brinnande spark mot en motståndare. Den orsakar kritiska träffar oftare. Den kan också orsaka brännskada."
+  },
   "poisonFang": {
     "effect": "Utföraren biter motståndaren med gifttänder. Detta kan också svårt förgifta motståndaren."
   },
   "airCutter": {
     "name": "Skärande vind",
-    "effect": "Utföraren skickar ett vinddrag vass som en klinga för skära en motståndare. Denna teknik orsakar kritiska träffar oftare."
+    "effect": "Utföraren skickar ett vindil vass som en klinga för att skära en motståndare. Denna teknik orsakar kritiska träffar oftare."
   },
   "sheerCold": {
     "effect": "Om den träffar svimmar motståndaren genast; en stjärnsmäll. Bosspokémon står emot denna teknik."
@@ -494,17 +557,25 @@
     "name": "X-sax",
     "effect": "Utföraren skär i motståndaren genom att klippa den i en saxliknande rörelse med blad eller klor."
   },
+  "shadowClaw": {
+    "effect": "Utföraren anfaller med klor skapade utav skugga. Denna teknik orsakar kritiska träffar oftare."
+  },
   "thunderFang": {
     "effect": "Utföraren biter med elektrifierade tänder. Detta kan också förlama motståndaren eller få den att rygga tillbaka."
   },
   "psychoCut": {
-    "name": "Skärande sinne",
+    "name": "Sylvasst sinnesvep",
     "effect": "Användaren skär motståndaren med blad skapade genom mental kraft. Kritiska träffar inträffar oftare."
   },
   "discharge": {
     "effect": "Utföraren träffas alla runt om med en eruption av el. Detta kan också förlama de runt om sig."
   },
+  "crossPoison": {
+    "name": "Giftigt korssvep",
+    "effect": "En skärande attack med en giftig kling som kan förgifta motståndaren. Denna teknik kan orsaka kritiska träffar oftare."
+  },
   "gunkShot": {
+    "name": "Avfallskanon",
     "effect": "Utföraren avfyrar vidrigt avfall mot motståndaren för att skada den. Detta kan också förgifta motståndaren."
   },
   "stoneEdge": {
