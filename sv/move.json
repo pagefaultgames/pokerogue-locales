@@ -33,7 +33,7 @@
   },
   "thunderPunch": {
     "name": "Blixtnäve",
-    "effect": "Motståndaren slås med en elladdad knytnäve. Detta kan också orsaka förlamning."
+    "effect": "Motståndaren slås med en elladdad knytnäve. Detta kan också förlama motståndaren."
   },
   "scratch": {
     "name": "Rispa",
@@ -45,7 +45,7 @@
   },
   "guillotine": {
     "name": "Giljotin",
-    "effect": "En våldsam, huggande kloattack. Motståndaren svimmar omedelbart om denna attack träffar; en stjärnsmäll. Bosspokémon står emot detta drag."
+    "effect": "En våldsam, huggande kloattack. Motståndaren svimmar omedelbart om denna attack träffar; en stjärnsmäll. Bosspokémon står emot denna teknik."
   },
   "razorWind": {
     "name": "Sickelvind",
@@ -124,17 +124,19 @@
   },
   "hornDrill": {
     "name": "Hornborr",
-    "effect": "Utföraren borrar motståndaren med ett roterande horn. Vid träff svimmar motståndaren genast; en stjärnsmäll. Bosspokémon står emot denna teknik."
+    "effect": "Utföraren borrar motståndaren med ett roterande horn. Om den träffar svimmar motståndaren genast; en stjärnsmäll. Bosspokémon står emot denna teknik."
   },
   "tackle": {
     "name": "Tackling",
     "effect": "Utföraren rusar mot motståndaren och krockar in i den med hela kroppen."
   },
   "bodySlam": {
-    "name": "Smällning"
+    "name": "Storsmäll",
+    "effect": "Utföraren smäller in i motståndaren med hela sin vikt. Detta kan också förlama motståndaren."
   },
   "wrap": {
-    "name": "Invirande"
+    "name": "Invirande",
+    "effect": "Långa kroppsdelar, rankor eller liknande virar in och klämmer motståndaren i 4-5 omgångar."
   },
   "takeDown": {
     "name": "Helkroppstackling"
@@ -149,10 +151,12 @@
     "name": "Svansvift"
   },
   "poisonSting": {
-    "name": "Giftstick"
+    "name": "Giftstick",
+    "effect": "Detta kan också förgifta motståndaren."
   },
   "twineedle": {
-    "name": "Dubbelnål"
+    "name": "Dubbelnål",
+    "effect": "Detta kan också förgifta motståndaren."
   },
   "pinMissile": {
     "name": "Missilnålar"
@@ -261,16 +265,78 @@
     "name": "Solstråle"
   },
   "poisonPowder": {
-    "name": "Giftpulver"
+    "name": "Giftpulver",
+    "effect": "Ett moln av giftiga partiklar som förgiftar motståndaren."
   },
   "stunSpore": {
-    "name": "Paralyspulver"
+    "name": "Paralyspulver",
+    "effect": "Utföraren sprider ett moln av paralyserande pulver som förlamar motståndaren."
   },
   "sleepPowder": {
     "name": "Sömnsporer"
   },
   "petalDance": {
     "name": "Blombladsbalett"
+  },
+  "stringShot": {
+    "name": "Silkesspott"
+  },
+  "dragonRage": {
+    "name": "Drakens ilska"
+  },
+  "fireSpin": {
+    "name": "Eldvirvel",
+    "effect": "Motståndaren fångas i en våldsam virvel av eld som brinner i 4-5 omgångar."
+  },
+  "thunderShock": {
+    "name": "Åskstöt",
+    "effect": "En elektrisk stöt slår ner på motståndaren och skadar den. Detta kan också förlama motståndaren."
+  },
+  "thunderbolt": {
+    "name": "Åskboll",
+    "effect": "En stark elektrisk stöt slår ner på motståndaren och skadar den. Detta kan också förlama motståndaren."
+  },
+  "thunderWave": {
+    "name": "Åskvåg",
+    "effect": "En lätt våg av el förlamar motståndaren."
+  },
+  "thunder": {
+    "name": "Blixt",
+    "effect": "En kraftig blixt slår ner på motståndaren och skadar den. Detta kan också förlama motståndaren."
+  },
+  "rockThrow": {
+    "name": "Stenkast",
+    "effect": "Utföraren plockar upp och kastar en liten sten på motståndaren för att skada den."
+  },
+  "earthquake": {
+    "name": "Jordbävning"
+  },
+  "fissure": {
+    "name": "Jordklyvare",
+    "effect": "Om den träffar svimmar motståndaren genast; en stjärnsmäll. Bosspokémon står emot denna teknik."
+  },
+  "dig": {
+    "name": "Grävning",
+    "effect": "Utföraren gräver sig under mark för att anfalla motståndaren omgången efter."
+  },
+  "toxic": {
+    "name": "Toxin",
+    "effect": "Toxin som svårt förgiftar motståndaren. Giftet orsakar mer skada för varje omgång."
+  },
+  "confusion": {
+    "name": "Telekinesi"
+  },
+  "psychic": {
+    "name": "Psykokinesi"
+  },
+  "hypnosis": {
+    "name": "Hypnos"
+  },
+  "meditate": {
+    "name": "Meditation"
+  },
+  "agility": {
+    "name": "Spänstighet"
   },
   "lightScreen": {
     "name": "Specialskärm",
@@ -280,6 +346,24 @@
     "name": "Fysiobarriär",
     "effect": "En bastant barriär av ljus reducerar skadan av fysiska attacker i fem omgångar."
   },
+  "lick": {
+    "effect": "Motståndaren slickas med en lång tunga och tar skada. Detta kan också förlama motståndaren."
+  },
+  "smog": {
+    "effect": "Detta kan också förgifta motståndaren."
+  },
+  "sludge": {
+    "effect": "Detta kan också förgifta motståndaren."
+  },
+  "glare": {
+    "effect": "Utföraren skrämmer motståndaren med mönstret på sin mage och förlamar den."
+  },
+  "poisonGas": {
+    "effect": "Ett moln av giftig gas sprejas i ansikte på motståndare. Detta förgiftar de som träffas."
+  },
+  "triAttack": {
+    "effect": "En skadig attack med tre strålar samtidigt. Den kan också bränna, förlama eller frysa ner motståndaren."
+  },
   "slash": {
     "name": "Skärande svep",
     "effect": "Motståndaren skärs av svepande klor eller blad. Kritiska träffar inträffar oftare."
@@ -287,20 +371,54 @@
   "spikes": {
     "name": "Fotanglar"
   },
+  "zapCannon": {
+    "effect": "Utföraren skjuter en stark elprojektil som skadar och förlamar motståndaren."
+  },
   "perishSong": {
-    "name": "Undergångssång"
+    "name": "Undergångssång",
+    "effect": "Alla pokémon som hör denna sång svimmar efter 3 omgångar om de inte byts av. Bosspokémon är immuna mot denna teknik."
+  },
+  "spark": {
+    "effect": "Utföraren laddar upp med el och tacklar motståndaren. Detta kan också förlama motståndaren."
   },
   "furyCutter": {
     "name": "Insekvenshugg",
     "effect": "Motståndaren skärs med blad eller klor. Attacken blir starkare för varje hugg som lyckas träffa i rad."
   },
+  "painSplit": {
+    "effect": "Utföraren adderar sina HP och motståndarens HP för att sedan jämlikt dela den kombinerade HP:n mellan motståndaren och sig själv. Bosspokémon är immuna mot denna teknik."
+  },
+  "dragonBreath": {
+    "effect": "Utföraren andas in mäktig vindil som skadar motståndaren. Detta kan också förlama motståndaren."
+  },
+  "facade": {
+    "effect": "Attacken orsakar dubbel skada om utföraren är förgiftad, bränd eller förlamad."
+  },
+  "smellingSalts": {
+    "effect": "Attackens kraft fördubblas når motståndaren som den riktas mot är förlamad. Detta läker dock förlamningen också."
+  },
+  "refresh": {
+    "effect": "Utföraren vilar och läker därmed förgiftning, brännskada eller förlamning."
+  },
+  "poisonFang": {
+    "effect": "Utföraren biter motståndaren med gifttänder. Detta kan också svårt förgifta motståndaren."
+  },
   "airCutter": {
     "name": "Skärande vind",
     "effect": "Utföraren skickar ett vinddrag vass som en klinga för skära en motståndare, med högre chans för kritisk träff."
   },
+  "sheerCold": {
+    "effect": "Om den träffar svimmar motståndaren genast; en stjärnsmäll. Bosspokémon står emot denna teknik."
+  },
   "aerialAce": {
     "name": "Svalsvep",
     "effect": "Utföraren flyger snabbt mot motståndaren och skär till innan den hinner reagera. Attacken träffar alltid."
+  },
+  "bounce": {
+    "effect": "Utföraren studsar högt upp i luften för att falla ner på motståndaren följande omgång. Detta kan också förlama motståndaren."
+  },
+  "voltTackle": {
+    "effect": "Utföraren elektrifierar sig själv och springer rakt in i motståndaren. Detta skadar även utföraren ganska mycket. Detta kan också förlama motståndaren."
   },
   "leafBlade": {
     "name": "Bladsblad",
@@ -308,6 +426,12 @@
   },
   "toxicSpikes": {
     "name": "Giftanglar"
+  },
+  "forcePalm": {
+    "effect": "Motståndaren attackeras med en chockvåg. Detta kan också förlama motståndaren."
+  },
+  "poisonJab": {
+    "effect": "Detta kan också förgifta motståndaren."
   },
   "nightSlash": {
     "name": "Skugghugg",
@@ -321,12 +445,24 @@
     "name": "X-sax",
     "effect": "Utföraren skär i motståndaren genom att klippa den i en saxliknande rörelse med blad eller klor."
   },
+  "thunderFang": {
+    "effect": "Utföraren biter med elektrifierade tänder. Detta kan också förlama motståndaren eller få den att rygga tillbaka."
+  },
   "psychoCut": {
     "name": "Skärande sinne",
     "effect": "Användaren skär motståndaren med blad skapade genom mental kraft. Kritiska träffar inträffar oftare."
   },
+  "discharge": {
+    "effect": "Utföraren träffas alla runt om med en eruption av el. Detta kan också förlama de runt om sig."
+  },
+  "gunkShot": {
+    "effect": "Utföraren avfyrar vidrigt avfall mot motståndaren för att skada den. Detta kan också förgifta motståndaren."
+  },
   "stealthRock": {
     "name": "Svävande stenar"
+  },
+  "sludgeWave": {
+    "effect": "Utföraren träffar alla runt omkring sig med massiv våg av slam. Detta kan också förgifta de som träffas."
   },
   "sacredSword": {
     "name": "Helgat svärd",
@@ -335,6 +471,12 @@
   "razorShell": {
     "name": "Snäcksvärd",
     "effect": "Utförare skär motståndare med en vassa snäcka. Detta kan sänka motståndarens försvarsförmåga."
+  },
+  "boltStrike": {
+    "effect": "Utföraren skapar ett massiv mängd av el runt sig och hoppar på motståndaren. Detta kan också förlama motståndaren."
+  },
+  "freezeShock": {
+    "effect": "Utföraren laddar först upp för att omgången efteråt träffa motståndaren med elladdad is. Detta kan också förlama motståndaren."
   },
   "grassyTerrain": {
     "name": "Grästerräng"
@@ -345,6 +487,9 @@
   "electricTerrain": {
     "name": "Elterräng"
   },
+  "nuzzle": {
+    "effect": "Utföraren gnuggar sina elektriska kinder mot motståndaren. Detta förlamar också motståndaren."
+  },
   "solarBlade": {
     "name": "Solsvärd",
     "effect": "En tvåomgångsattack där utföraren först samlar solljus för att skapa ett energisvärd, för att sedan skära motståndaren omgången efter."
@@ -352,16 +497,40 @@
   "psychicTerrain": {
     "name": "Psykoterräng"
   },
+  "stokedSparksurfer": {
+    "effect": "Efter att ha erhållit Z-kraft anfaller utföraren Alolansk Raichu motståndaren med all sin kraft. Detta förlamar motståndaren."
+  },
+  "splishySplash": {
+    "effect": "Utföraren laddar en stor våg med el och träffar båda motståndarna med den. Detta kan också förlama motståndarna."
+  },
+  "buzzyBuzz": {
+    "effect": "Utföraren skjuter en elstöt på motståndaren för att orsaka skada. Detta förlamar motståndaren."
+  },
   "terrainPulse": {
     "name": "Terrängpuls"
+  },
+  "direClaw": {
+    "effect": "Utföraren går till angrepp mot motståndaren för förödande klor. Detta kan också förgifta, förlama eller söva motståndaren."
   },
   "stoneAxe": {
     "name": "Stenyxa",
     "effect": "Utföraren skär motståndaren med en yxa av sten. Stenspillror bryts av och svävar i luften runt motståndaren efter attacken."
   },
   "ceaselessEdge": {
-    "name": "Skärvig snäckatana",
+    "name": "Skärvig snäckkatana",
     "effect": "Utföraren skär motståndaren med en katana gjord av snäckor. Snäckskärvor sprids på marken efter attacken och agerar som fotanglar."
+  },
+  "wildboltStorm": {
+    "effect": "Utföraren frammanar en åskfylld storm och anfaller brutalt med blixtar and vind. Detta kan också förlama båda motståndare."
+  },
+  "gMaxBefuddle": {
+    "effect": "En insekttypattack som en G-maxad Butterfree använder. Den förgifter, förlamar eller söver motståndarna."
+  },
+  "gMaxVoltCrash": {
+    "effect": "En eltypattack som en G-maxad Pikachu använder. Den förlamar motståndarna."
+  },
+  "gMaxStunShock": {
+    "effect": "En eltypattack som en G-maxad Toxtricity  använder. Den förgifter eller förlamar motståndarna."
   },
   "populationBomb": {
     "name": "Överbedolkning",
@@ -370,5 +539,11 @@
   "aquaCutter": {
     "name": "Skärande ström",
     "effect": "Utföraren sprutar en ström av vatten med så högt tryck att det skär motståndaren, med förhöjd chans av kritisk träff."
+  },
+  "noxiousTorque": {
+    "effect": "Utföraren varvar upp sin miljöfarliga motor och kör rakt in i motståndaren. Detta kan också förgifta motståndaren."
+  },
+  "combatTorque": {
+    "effect": "Utföraren varvar upp sin motor och kör, med stor kraft, rakt in i motståndaren. Detta kan också förlama motståndaren."
   }
 }
