@@ -139,7 +139,8 @@
     "effect": "Långa kroppsdelar, rankor eller liknande virar in och klämmer motståndaren i 4-5 omgångar."
   },
   "takeDown": {
-    "name": "Helkroppstackling"
+    "name": "Helkroppstackling",
+    "effect": "En vårdslös helkroppsattack som skadar motståndaren. Detta skadar även utföraren lite."
   },
   "thrash": {
     "name": "Bärsärkargång"
@@ -232,7 +233,8 @@
     "name": "Hackborr"
   },
   "submission": {
-    "name": "Helvetesgrepp"
+    "name": "Helvetesgrepp",
+    "effect": "Utföraren griper tag i motståndaren och dyker vårdslöst mot marken. Detta skadar även utföraren lite."
   },
   "lowKick": {
     "name": "Benspark"
@@ -361,12 +363,24 @@
   "poisonGas": {
     "effect": "Ett moln av giftig gas sprejas i ansikte på motståndare. Detta förgiftar de som träffas."
   },
+  "skyAttack": {
+    "effect": "En tvåomgångsattack som orsakar kritiska träffar oftare. Den kan även få motståndaren att rygga tillbaka."
+  },
+  "crabhammer": {
+    "effect": "Motståndaren hamras med en massiv klo. Denna teknik orsakar kritiska träffar oftare."
+  },
   "triAttack": {
     "effect": "En skadig attack med tre strålar samtidigt. Den kan också bränna, förlama eller frysa ner motståndaren."
   },
   "slash": {
     "name": "Skärande svep",
     "effect": "Motståndaren skärs av svepande klor eller blad. Kritiska träffar inträffar oftare."
+  },
+  "struggle": {
+    "effect": "Denna attack används endast i desperation om användaren inte har KP kvar. Detta skadar även utföraren lite."
+  },
+  "aeroblast": {
+    "effect": "En tromb skjuts mot motståndaren för att skada den. Denna teknik orsakar kritiska träffar oftare."
   },
   "spikes": {
     "name": "Fotanglar"
@@ -391,6 +405,9 @@
   "dragonBreath": {
     "effect": "Utföraren andas in mäktig vindil som skadar motståndaren. Detta kan också förlama motståndaren."
   },
+  "crossChop": {
+    "effect": "Utföraren anfaller med dubbla hugg med korsade armar. Denna teknik orsakar kritiska träffar oftare."
+  },
   "facade": {
     "effect": "Attacken orsakar dubbel skada om utföraren är förgiftad, bränd eller förlamad."
   },
@@ -405,7 +422,7 @@
   },
   "airCutter": {
     "name": "Skärande vind",
-    "effect": "Utföraren skickar ett vinddrag vass som en klinga för skära en motståndare, med högre chans för kritisk träff."
+    "effect": "Utföraren skickar ett vinddrag vass som en klinga för skära en motståndare. Denna teknik orsakar kritiska träffar oftare."
   },
   "sheerCold": {
     "effect": "Om den träffar svimmar motståndaren genast; en stjärnsmäll. Bosspokémon står emot denna teknik."
@@ -417,12 +434,15 @@
   "bounce": {
     "effect": "Utföraren studsar högt upp i luften för att falla ner på motståndaren följande omgång. Detta kan också förlama motståndaren."
   },
+  "poisonTail": {
+    "effect": "Utföraren skadar motståndaren med sin svans. Detta kan också förgifta motståndaren. Denna teknik orsakar kritiska träffar oftare."
+  },
   "voltTackle": {
     "effect": "Utföraren elektrifierar sig själv och springer rakt in i motståndaren. Detta skadar även utföraren ganska mycket. Detta kan också förlama motståndaren."
   },
   "leafBlade": {
     "name": "Bladsblad",
-    "effect": "Utföraren använder ett av sina löv som ett vasst knivblad för att skära motståndaren. Chansen av kritiska träffas är förhöjd."
+    "effect": "Utföraren använder ett av sina löv som ett vasst knivblad för att skära motståndaren. Denna teknik orsakar kritiska träffar oftare."
   },
   "toxicSpikes": {
     "name": "Giftanglar"
@@ -435,7 +455,7 @@
   },
   "nightSlash": {
     "name": "Skugghugg",
-    "effect": "Utföraren skär motståndaren från skuggorna när den minst anar. Kritiska träffar händer oftare."
+    "effect": "Utföraren skär motståndaren från skuggorna när den minst anar.  Denna teknik orsakar kritiska träffar oftare."
   },
   "airSlash": {
     "name": "Luftklinga",
@@ -458,11 +478,26 @@
   "gunkShot": {
     "effect": "Utföraren avfyrar vidrigt avfall mot motståndaren för att skada den. Detta kan också förgifta motståndaren."
   },
+  "stoneEdge": {
+    "effect": "Utföraren hugger motståndaren underifrån med hårda stenar. Denna teknik orsakar kritiska träffar oftare."
+  },
   "stealthRock": {
     "name": "Svävande stenar"
   },
+  "attackOrder": {
+    "effect": "Utföraren skickar sina undersåtar på motståndaren för att slå ner den. Denna teknik orsakar kritiska träffar oftare."
+  },
+  "spacialRend": {
+    "effect": "Utföraren river hål i den fysiska rymden för att skada motståndaren. Denna teknik orsakar kritiska träffar oftare."
+  },
   "sludgeWave": {
     "effect": "Utföraren träffar alla runt omkring sig med massiv våg av slam. Detta kan också förgifta de som träffas."
+  },
+  "wildCharge": {
+    "effect": "Utföraren höljer sig i elektricitet och slår in i motståndaren. Detta skadar även utföraren lite."
+  },
+  "drillRun": {
+    "effect": "Utföraren kraschar in i motståndaren medan den roterar kroppen som en borr. Denna teknik orsakar kritiska träffar oftare."
   },
   "sacredSword": {
     "name": "Helgat svärd",
@@ -471,6 +506,9 @@
   "razorShell": {
     "name": "Snäcksvärd",
     "effect": "Utförare skär motståndare med en vassa snäcka. Detta kan sänka motståndarens försvarsförmåga."
+  },
+  "headCharge": {
+    "effect": "Utföraren rusar med sitt tjockhåriga huvud före mot motståndaren och skadar den. Detta skadar även utföraren lite."
   },
   "boltStrike": {
     "effect": "Utföraren skapar ett massiv mängd av el runt sig och hoppar på motståndaren. Detta kan också förlama motståndaren."
@@ -499,6 +537,9 @@
   },
   "stokedSparksurfer": {
     "effect": "Efter att ha erhållit Z-kraft anfaller utföraren Alolansk Raichu motståndaren med all sin kraft. Detta förlamar motståndaren."
+  },
+  "tenMillionVoltThunderbolt": {
+    "effect": "Utföraren, Keps-Pikachu, laddar upp en elstöt med sin Z-kraft och släpper den lös. Denna teknik orsakar kritiska träffar oftare."
   },
   "splishySplash": {
     "effect": "Utföraren laddar en stor våg med el och träffar båda motståndarna med den. Detta kan också förlama motståndarna."
@@ -529,6 +570,9 @@
   "gMaxVoltCrash": {
     "effect": "En eltypattack som en G-maxad Pikachu använder. Den förlamar motståndarna."
   },
+  "gMaxChiStrike": {
+    "effect": "En slagsmålstypteknik som en G-maxad Machamp använder. Denna teknik orsakar kritiska träffar oftare."
+  },
   "gMaxStunShock": {
     "effect": "En eltypattack som en G-maxad Toxtricity  använder. Den förgifter eller förlamar motståndarna."
   },
@@ -545,5 +589,8 @@
   },
   "combatTorque": {
     "effect": "Utföraren varvar upp sin motor och kör, med stor kraft, rakt in i motståndaren. Detta kan också förlama motståndaren."
+  },
+  "dragonCheer": {
+    "effect": "Utföraren släpper ut ett moralhöjande drakoniskt rop som gör så att lagmedlemmen vid sin sida i strid orsakar kritiska träffar oftare. Draktyper påverkas ännu mer."
   }
 }
