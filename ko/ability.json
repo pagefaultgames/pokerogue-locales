@@ -388,7 +388,8 @@
     "description": "공격을 급소에 맞혔을 때 위력이 1.5배를 더하여 2.25배가 된다."
   },
   "magicGuard": {
-    "name": "매직가드"
+    "name": "매직가드",
+    "description": "The Pokémon only takes damage from direct attacks."
   },
   "noGuard": {
     "name": "노가드",
@@ -459,7 +460,8 @@
     "description": "날씨가 눈일 때 매 턴 최대 HP의 1/16만큼 회복한다. 싸라기눈에 대미지를 입지 않는다."
   },
   "solidRock": {
-    "name": "하드록"
+    "name": "하드록",
+    "description": "효과가 굉장한 공격의 위력을 25% 약하게 만든다."
   },
   "snowWarning": {
     "name": "눈퍼뜨리기",
@@ -554,7 +556,8 @@
     "description": "사용한 나무열매를 50% 확률로 만들어 낸다. 맑을 때 100% 확률이 된다."
   },
   "telepathy": {
-    "name": "텔레파시"
+    "name": "텔레파시",
+    "description": "같은 편의 공격을 간파하여 기술을 회피한다."
   },
   "moody": {
     "name": "변덕쟁이",
@@ -657,7 +660,8 @@
     "description": "자신과 같은 편으로 향하는 기술 사용을 방해하는 공격을 막을 수 있다."
   },
   "flowerVeil": {
-    "name": "플라워베일"
+    "name": "플라워베일",
+    "description": "같은 편의 풀타입 포켓몬은 능력이 떨어지지 않고 상태 이상도 되지 않는다."
   },
   "cheekPouch": {
     "name": "볼주머니",
@@ -756,7 +760,8 @@
     "description": "물타입의 공격을 받지 않는 날씨로 만든다."
   },
   "deltaStream": {
-    "name": "델타스트림"
+    "name": "델타스트림",
+    "description": "비행타입의 약점이 없어지는 날씨로 만든다."
   },
   "stamina": {
     "name": "지구력",
@@ -819,7 +824,8 @@
     "description": "노말타입 기술이 전기타입이 된다. 위력이 20% 올라간다."
   },
   "surgeSurfer": {
-    "name": "서핑테일"
+    "name": "서핑테일",
+    "description": "일렉트릭필드일 때 스피드가 2배가 된다."
   },
   "schooling": {
     "name": "어군",
@@ -838,14 +844,16 @@
     "description": "HP가 절반이 되면 셀들이 응원하러 달려와 퍼펙트폼으로 모습이 변한다."
   },
   "corrosion": {
-    "name": "부식"
+    "name": "부식",
+    "description": "강철타입이나 독타입도 독 상태로 만들 수 있다."
   },
   "comatose": {
     "name": "절대안깸",
     "description": "항상 비몽사몽 상태로 절대 깨지 않는다. 잠든 상태로 공격할 수 있다. 이미 상태이상에 걸린 것으로 간주되어 다른 상태이상이 될 수 없다."
   },
   "queenlyMajesty": {
-    "name": "여왕의위엄"
+    "name": "여왕의위엄",
+    "description": "상대에게 위압감을 줘서 이쪽을 향한 선제 기술을 사용할 수 없게 한다."
   },
   "innardsOut": {
     "name": "내용물분출",
@@ -864,7 +872,8 @@
     "description": "상대로부터 받은 접촉하는 기술의 데미지를 반감시키지만 불꽃타입 기술의 데미지는 2배가 된다."
   },
   "dazzling": {
-    "name": "비비드바디"
+    "name": "비비드바디",
+    "description": "상대를 놀라게 해서 이쪽을 향한 선제 기술을 사용할 수 없게 한다."
   },
   "soulHeart": {
     "name": "소울하트",
@@ -1015,7 +1024,8 @@
     "description": "화학변화가스를 가진 포켓몬이 배틀에 나와 있으면 모든 포켓몬이 가진 특성의 효과가 사라지거나 발동하지 않게 된다."
   },
   "pastelVeil": {
-    "name": "파스텔베일"
+    "name": "파스텔베일",
+    "description": "자신과 같은 편이 독의 상태 이상 효과를 받지 않게 된다."
   },
   "hungerSwitch": {
     "name": "꼬르륵스위치",
@@ -1178,7 +1188,8 @@
     "description": "땅타입의 기술로 공격받으면 대미지를 받지 않고 최대 HP의 1/4만큼 회복한다."
   },
   "myceliumMight": {
-    "name": "균사의힘"
+    "name": "균사의힘",
+    "description": "변화 기술을 사용할 때 반드시 행동이 느려지지만 상대 특성에 방해받지 않는다."
   },
   "mindsEye": {
     "name": "심안",
@@ -1221,7 +1232,8 @@
     "description": "모든 타입의 힘이 담긴 등껍질이 HP가 꽉 찼을 때 받는 데미지를 모두 효과가 별로이게 만든다."
   },
   "teraformZero": {
-    "name": "제로포밍"
+    "name": "제로포밍",
+    "description": "테라파고스가 스텔라폼이 되었을 때 숨겨진 힘에 의해 날씨와 필드의 영향을 모두 무효로 만든다."
   },
   "poisonPuppeteer": {
     "name": "독조종",

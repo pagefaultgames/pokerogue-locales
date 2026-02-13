@@ -709,7 +709,7 @@
   },
   "megaLauncher": {
     "name": "Helt kanon",
-    "description": "Denna pokémons aura- och pulstekniker ökar i kraft med 50%."
+    "description": "Denna pokémons pulstekniker ökar i kraft med 50%."
   },
   "grassPelt": {
     "name": "Barrig",
@@ -837,7 +837,7 @@
   },
   "battleBond": {
     "name": "Supersynergi",
-    "description": "När denna pokémon besegrar en motståndare förstärks bandet mellan den och tränaren, vilket gör så att den byter form. Efter bytet träffar Vattenshuriken alltid tre gånger med 20 mer i kraft per träff."
+    "description": "En gång per inbyte ökas denna pokémons attackförmåga, sp. atk-förmåga och snabbhet när den besegrar en motståndare. Om Greninja har detta särdrag förvandlas den till istället till Ash-Greninja när den besegrar en moståndare."
   },
   "powerConstruct": {
     "name": "Cellsvärm",
@@ -868,40 +868,375 @@
     "description": "De vid denna pokémons sida i strid får sp. atk-förmågan ökad med 30% när de använder speciella tekniker."
   },
   "fluffy": {
-    "name": "Fluffig"
+    "name": "Fluffig",
+    "description": "Skadan som denna pokémon tar från tekniker med fysisk kontakt halveras, men skadan från eldtyptekniker fördubblas."
+  },
+  "dazzling": {
+    "name": "Prålig",
+    "description": "Denna pokémon prålar med sina starka färger, vilka gör så att motståndare inte kan använda prioritetstekniker mot den och de vid dess sida i strid."
+  },
+  "soulHeart": {
+    "name": "Själ/hjärta",
+    "description": "Denna pokémons sp. atk-förmåga ökas varje gång en pokémon svimmar."
+  },
+  "tanglingHair": {
+    "name": "Krullrufs",
+    "description": "Fysisk kontakt med denna pokémon sänker anfallarens snabbhet."
+  },
+  "receiver": {
+    "name": "Mottagare",
+    "description": "När denna pokémon är i strid och den vid sin sida svimmar, så tar denna pokémon genast emot särdraget av den avsvimmade."
+  },
+  "powerOfAlchemy": {
+    "name": "Alkemist",
+    "description": "När denna pokémon är i strid och den vid sin sida svimmar, så kopierar och anammar genast denna pokémon särdraget av den avsvimmade."
   },
   "beastBoost": {
-    "name": "Bestbemästrande"
+    "name": "Bestbemästrande",
+    "description": "Denna pokémons främsta förmåga förstärks varje gång den besegrar en moståndare."
+  },
+  "rksSystem": {
+    "name": "AR-system",
+    "description": "Denna pokémon typ ändras efter minnesdisken den bär."
+  },
+  "electricSurge": {
+    "name": "Elgenerering",
+    "description": "Denna pokémon skapar en Elterräng när den skickas in i strid."
+  },
+  "psychicSurge": {
+    "name": "Pyskogenerering",
+    "description": "Denna pokémon skapar en Pyskoterräng när den skickas in i strid."
+  },
+  "mistySurge": {
+    "name": "Dimmgenerering",
+    "description": "Denna pokémon skapar en Dimmterräng när den skickas in i strid."
+  },
+  "grassySurge": {
+    "name": "Växtgenerering",
+    "description": "Denna pokémon skapar en Grästerräng när den skickas in i strid."
+  },
+  "fullMetalBody": {
+    "name": "Helmantlad",
+    "description": "Motståndare kan inte sänka denna pokémons förmågor med tekniker eller särdrag. Denna effekt kan inte ignoreras av andra tekniker eller särdrag."
+  },
+  "shadowShield": {
+    "name": "Fantommantel",
+    "description": "Denna pokémon tar hälften så mycket skada när den har fullt med HP. Denna effekt kan inte ignoreras av andra tekniker eller särdrag."
+  },
+  "prismArmor": {
+    "name": "Prismarustning",
+    "description": "Supereffektiva attacker mot denna pokémon sänks i kraft med 25%. Denna effekt kan inte ignoreras av andra tekniker eller särdrag."
+  },
+  "neuroforce": {
+    "name": "Cerebrokraft",
+    "description": "Denna pokémons supereffektiva tekniker ökar i kraft med 25%"
+  },
+  "intrepidSword": {
+    "name": "Okuvligt svärd",
+    "description": "Denna pokémons attackförmåga ökas när den skickas in i strid."
+  },
+  "dauntlessShield": {
+    "name": "Orubblig sköld",
+    "description": "Denna pokémons försvarsförmåga ökas när den skickas in i strid."
+  },
+  "libero": {
+    "name": "Libero",
+    "description": "Denna pokémons typ ändras till samma som tekniken den ska utföra."
+  },
+  "ballFetch": {
+    "name": "Apportering",
+    "description": "Denna pokémon hämtar tillbaka pokébollen från den första misslyckade kastet i striden, även om den inte deltog."
+  },
+  "cottonDown": {
+    "name": "Bomullsfluff",
+    "description": "När denna pokémon träffas av en attack sprider den bomullsfluff runt sig som sänker snabbheten för alla pokémon på fältet utom sig själv."
+  },
+  "propellerTail": {
+    "name": "Propellerfena",
+    "description": "Denna pokémon ignorerar effekterna av motståndarnas särdrag och tekniker som drar till sig tekniker."
+  },
+  "mirrorArmor": {
+    "name": "Spegelrustning",
+    "description": "Denna pokémon reflekterar tillbaka endast de förmågesänkande effekterna som den träffas av."
+  },
+  "gulpMissile": {
+    "name": "Glupskott",
+    "description": "Efter Surfning eller Dyk fångar denna pokémon ett byte i munnen. När den tar skada spottar den bytet mot anfallaren och orsakar ¼ av anfallarens max. HP i skada. Beroende på bytet sänks antingen även anfallarens försvarsförmåga eller så blir den förlamad."
+  },
+  "stalwart": {
+    "name": "Stålsatt",
+    "description": "Denna pokémon ignorerar effekterna av motståndarnas särdrag och tekniker som drar till sig tekniker."
+  },
+  "steamEngine": {
+    "name": "Ångmaskin",
+    "description": "Denna pokémons snabbhet maxas när den träffas av en eld- eller vattentypteknik."
+  },
+  "punkRock": {
+    "name": "Punkrockare",
+    "description": "Denna pokémons ljudbaserade tekniker ökar i kraft med 30%. Den tar också hälften så mycket skada av sådana tekniker."
+  },
+  "sandSpit": {
+    "name": "Sandspottare",
+    "description": "Denna pokémon skapar en sandstorm när den träffas av en attack."
+  },
+  "iceScales": {
+    "name": "Snöfjäll",
+    "description": "Den pokémon har sina snöliknande fjäll som skydd och tar därför hälften så mycket skada av speciella tekniker. "
+  },
+  "ripen": {
+    "name": "Mognad",
+    "description": "Denna pokémon mognar sina bär, vilket fördubblar deras effekter."
   },
   "iceFace": {
-    "name": "Huvudet kallt"
+    "name": "Huvudet kallt",
+    "description": "Denna pokémons kalla huvud av is står helt emot en fysisk attack, men attacken får även huvudet att försvinna. Ishuvudet kommer tillbaka när det börja snöa eller hagla."
+  },
+  "powerSpot": {
+    "name": "Leylinje",
+    "description": "De vid denna pokémons sida i strid orsakar 30% mer i skada."
+  },
+  "mimicry": {
+    "name": "Mimikry",
+    "description": "Denna pokémons typ ändras beroende på terrängen."
+  },
+  "screenCleaner": {
+    "name": "Skärmfri",
+    "description": "När denna pokémon skickas ut i strid tar den bort effekterna av alla skyddande skärmar (Specialskärm, Fysiobarriär, Polarskärm) för alla på fältet."
+  },
+  "steelySpirit": {
+    "name": "Järnvilja",
+    "description": "Ståltyptekniker ökar i kraft med 50% för denna pokémon och de vid dess sida i strid."
   },
   "perishBody": {
-    "name": "Undergångssjäl"
+    "name": "Undergångssjäl",
+    "description": "Om denna pokémon träffas av en teknik med fysisk kontakt kommer både den och anfallaren svimma efter tre omgångar om de inte byts av."
+  },
+  "wanderingSpirit": {
+    "name": "Själavandrare",
+    "description": "Denna pokémon byter särdrag med en pokémon som träffar den med en teknik med fysisk kontakt."
+  },
+  "gorillaTactics": {
+    "name": "Gorillakrigföring",
+    "description": "Denna pokémons attackförmåga ökas med 50% men endast den först valda tekniken kan användas under en strid."
   },
   "neutralizingGas": {
     "name": "Neutral gas",
     "description": "När denna pokémon är i strid stoppas effekterna av alla andra pokémons särdrag."
   },
+  "pastelVeil": {
+    "name": "Pastellpansar",
+    "description": "Denna pokémon och de vid sin sida i strid är skyddade mot förgiftning."
+  },
+  "hungerSwitch": {
+    "name": "Hungritation",
+    "description": "Denna pokémon byter form mellan Mättobelåten och Hungriterad varje omgångsslut. Detta ändrar även Aurahjul:s typ till antigen El eller Mörk."
+  },
   "quickDraw": {
-    "name": "Snabba drag"
+    "name": "Snabba drag",
+    "description": "Denna pokémon har 30% chans att agera först i sin prioritetsklass."
+  },
+  "unseenFist": {
+    "name": "Osynlig näve",
+    "description": "När denna pokémon använder tekniker med fysisk kontakt så kan den träffa motståndaren även om motståndaren garderar sig."
+  },
+  "curiousMedicine": {
+    "name": "Häxbrygd",
+    "description": "När denna pokémon skickas ut i strid sprider den förhäxad medicinsk brygd från sitt skal; den nollställer alla förmågeändringar hos de vid dess sida."
+  },
+  "transistor": {
+    "name": "Transistor",
+    "description": "Denna pokémon intrinsiska transistor får dess eltyptekniker att öka i kraft med 30%."
+  },
+  "dragonsMaw": {
+    "name": "Drakens gap",
+    "description": "Denna pokémons mäktiga gap får dess draktyptekniker att öka i kraft med 50%."
+  },
+  "chillingNeigh": {
+    "name": "Isande gnägg",
+    "description": "När denna pokémon besegrar en motståndare yttrar den ett isande gnägg som ökar dess attackförmåga."
+  },
+  "grimNeigh": {
+    "name": "Grymt gnägg",
+    "description": "När denna pokémon besegrar en motståndare yttrar den ett grymt gnägg som ökar dess sp. atk-förmåga."
+  },
+  "asOneGlastrier": {
+    "name": "Enade",
+    "description": "Särdragen Oroväckande och Isande gnägg kombineras så att motståndare inte kan äta bär och denna pokémons attackförmåga ökas varje gång den besegrar en motståndare."
+  },
+  "asOneSpectrier": {
+    "name": "Enade",
+    "description": "Särdragen Oroväckande och Grymt gnägg kombineras så att motståndare inte kan äta bär och denna pokémons sp. atk-förmåga ökas varje gång den besegrar en motståndare."
+  },
+  "lingeringAroma": {
+    "name": "Kvardröjande doft",
+    "description": "Fysisk kontakt med denna pokémon ändrar anfallarens särdrag till Kvardörjande doft."
+  },
+  "seedSower": {
+    "name": "Självsåningsman",
+    "description": "Denna pokémon skapar en Grästerräng när den träffas av en attack."
+  },
+  "thermalExchange": {
+    "name": "Värmeöverföring",
+    "description": "Denna pokémons attackförmåga ökas när den träffas av en eldtypteknik. Den kan inte heller bli brännskadad."
+  },
+  "angerShell": {
+    "name": "Vredesskal",
+    "description": "När en attack får denna pokémons HP att bli 50% eller lägre känner den stark vrede. Detta sänker dess försvar- och sp. fsv-förmågor men ökar dess snabbhet, attack- och sp- atk-förmåga."
+  },
+  "purifyingSalt": {
+    "name": "Renande salt",
+    "description": "Denna pokémons rena salt skyddar den från tillståndspåverkan och halverar skadan av spöktyptekniker."
+  },
+  "wellBakedBody": {
+    "name": "Bakas väl",
+    "description": "Denna pokémon tar ingen skada av eldtyptekniker, istället ökas dess försvarsförmåga skarpt."
+  },
+  "windRider": {
+    "name": "Vindsurfare",
+    "description": "Denna pokémons attackförmåga ökas när en Medvind börja blåsa eller när den träffas av den vindteknik. Den tar inte heller skada av vindtekniker."
+  },
+  "guardDog": {
+    "name": "Vakthund",
+    "description": "Denna pokémons attackförmåga ökas om den blir avskräckt. Tekniker och föremål som skulle tvinga denna pokémon att bytas av misslyckas också."
+  },
+  "rockyPayload": {
+    "name": "Stenbärare",
+    "description": "Denna pokémon samlar och bär på sten, vilket ökar dess stentyptekniker med 50%."
   },
   "windPower": {
-    "name": "Vindkraft"
+    "name": "Vindkraft",
+    "description": "Denna pokémons laddas när en Medvind börjar blåsa eller när den träffas av den vindteknik, vilket ökar kraften av den nästa eltyptekniken den använder."
   },
   "zeroToHero": {
-    "name": "Heroisering"
+    "name": "Heroisering",
+    "description": "Denna pokémon förvandlas till Hjältefigur när den byts av."
+  },
+  "commander": {
+    "name": "Befälhavare",
+    "description": "Om Dondozo finns vid denna pokémons sida när den skickas ut i strid hoppar den in i Dondozo:s mun, vilket ökar Dondozo:s samtliga förmågor. Om denna pokémon är först i laget ökas även sannolikheten av dubbelstrid."
+  },
+  "electromorphosis": {
+    "name": "Elektromorfos",
+    "description": "Denna pokémon laddas när den tar skada, vilket gör så att nästa eltypteknik den utför blir starkare."
+  },
+  "protosynthesis": {
+    "name": "Protosyntes",
+    "description": "När solen skiner stark ökas denna pokémons främsta förmåga med 30%, eller 50% om förmågan är snabbhet."
+  },
+  "quarkDrive": {
+    "name": "Kvarkladdning",
+    "description": "På en Elterräng ökas denna pokémons främsta förmåga med 30%, eller 50% om förmågan är snabbhet."
+  },
+  "goodAsGold": {
+    "name": "Guldläge",
+    "description": "Denna pokémons kropp av rent gult gör den immun mot andra pokémons tillståndstekniker."
   },
   "vesselOfRuin": {
-    "name": "Kalamitetskärl"
+    "name": "Kalamitetskärl",
+    "description": "Denna pokémons förödande kärl sänker sp. atk-förmågan med 25% hos alla pokémon förutom sig själv när den är i strid."
   },
   "swordOfRuin": {
-    "name": "Kalamitetssvärd"
+    "name": "Kalamitetssvärd",
+    "description": "Denna pokémons förödande svärd sänker försvarsförmågan med 25% hos alla pokémon förutom sig själv när den är i strid."
   },
   "tabletsOfRuin": {
-    "name": "Kalamitetsplattor"
+    "name": "Kalamitetsplattor",
+    "description": "Denna pokémons förödande vedplattor sänker attackförmågan med 25% hos alla pokémon förutom sig själv när den är i strid."
   },
   "beadsOfRuin": {
-    "name": "Kalamitetsjuveler"
+    "name": "Kalamitetsjuveler",
+    "description": "Denna pokémons förödande ögonjuveler sänker sp. fsv-förmågan med 25% hos alla pokémon förutom sig själv när den är i strid."
+  },
+  "orichalcumPulse": {
+    "name": "Scharlakantitpuls",
+    "description": "Solen blir stark när denna pokémon skickas ut i strid. Dess urtida, scharlakanröda puls ökar dess attackförmåga med 33% när solen skiner starkt."
+  },
+  "hadronEngine": {
+    "name": "Violett hadronmotor",
+    "description": "Denna pokémon skapar en Elterräng när den skickas ut i strid. Dess framtida, violetta motor ökar dess sp. atk-förmåga med 33% på en Elterräng."
+  },
+  "opportunist": {
+    "name": "Opportunist",
+    "description": "När en motståndares förmåga ökas tar denna pokémon chansen att öka samma förmåga hos sig själv."
+  },
+  "cudChew": {
+    "name": "Idisslare",
+    "description": "När denna pokémon har ätit ett bär kommer den att stöta upp bäret vid nästa omgångsslut och äta den en gång till."
+  },
+  "sharpness": {
+    "name": "Sylvass",
+    "description": "Tekniker som skär ökar i kraft med 50%."
+  },
+  "supremeOverlord": {
+    "name": "Fältöverste",
+    "description": "När denna pokémon skickas ut i strid ökas dess attack- och sp. atk-förmåga med 10% för varje lagmedlem som svimmat i striden."
+  },
+  "costar": {
+    "name": "Medspelare",
+    "description": "När denna pokémon skickas ut i dubbelstrid kopierar den förmågeändringarna hos den vid dess sida."
+  },
+  "toxicDebris": {
+    "name": "Giftspillror",
+    "description": "Denna pokémon sprider giftiga taggar runt motståndarna när den tar skada av en fysisk teknik."
+  },
+  "armorTail": {
+    "name": "Pansarsvans",
+    "description": "Den konstiga svansen som bepansrar denna pokémons huvud gör så att motståndare inte kan utföra prioritetstekniker på den eller de vid dess sida i strid."
+  },
+  "earthEater": {
+    "name": "Geofagi",
+    "description": "När denna pokémon träffas av en jordtypteknik återhämtar den ¼ av sin max. HP istället för att ta skada."
+  },
+  "myceliumMight": {
+    "name": "Svampkamp",
+    "description": "Denna pokémon agerar alltid sist i sin prioritetsklass när den utför tillståndstekniker, men dessa tekniker blir obehindrade av motståndarens särdrag."
+  },
+  "mindsEye": {
+    "name": "Inre öga",
+    "description": "Denna pokémons träffsäkerhet kan inte sänkas och den ignorerar ändringar av motståndarens undvikande. Den kan även träffa spöktyper med normal- och slagsmålstyptekniker."
+  },
+  "supersweetSyrup": {
+    "name": "Sötsliskig saft",
+    "description": "En sötsliskig lukt sprids över fältet när denna pokémon skickas ut i strid, vilken sänker motståndarnas undvikande."
+  },
+  "hospitality": {
+    "name": "Gästfrihet",
+    "description": "När denna gästfria pokémon skickas ut i dubbelstrid tar den hand om den vid sin sida genom att återställa ¼ av dess max. HP."
+  },
+  "toxicChain": {
+    "name": "Toxisk kedja",
+    "description": "Denna pokémon har 30% chans att kraftigt förgifta en motståndare som den träffär med en teknik."
+  },
+  "embodyAspectTeal": {
+    "name": "Minnesinförlivning",
+    "description": "Denna pokémons hjärta fylls med minnen, vilka får Grönskans mask att glänsa och denna pokémons snabbhet att ökas."
+  },
+  "embodyAspectWellspring": {
+    "name": "Minnesinförlivning",
+    "description": "Denna pokémons hjärta fylls med minnen, vilka får Källans mask att glänsa och denna pokémons sp. fsv-förmåga att ökas."
+  },
+  "embodyAspectHearthflame": {
+    "name": "Minnesinförlivning",
+    "description": "Denna pokémons hjärta fylls med minnen, vilka får Härdens mask att glänsa och denna pokémons attackförmåga att ökas."
+  },
+  "embodyAspectCornerstone": {
+    "name": "Minnesinförlivning",
+    "description": "Denna pokémons hjärta fylls med minnen, vilka får Hörnstenens mask att glänsa och denna pokémons försvarsförmåga att ökas."
+  },
+  "teraShift": {
+    "name": "Teraskifte",
+    "description": "När denna pokémon skickas ut i strid absorberar den energin runt sig och förvandlar sig till sin Terastallform."
+  },
+  "teraShell": {
+    "name": "Teraskal",
+    "description": "Denna pokémons skal innehåller krafterna av varje typ. Alla skadande tekniker som träffar denna pokémon när den har fullt med HP blir inte särskilt effektiva."
+  },
+  "teraformZero": {
+    "name": "Teraformering 0",
+    "description": "Denna pokémon använder sina dolda krafter för att nollställa alla effekter av väder och terräng."
+  },
+  "poisonPuppeteer": {
+    "name": "Giftgäckare",
+    "description": "De som förgiftas av denna pokémons tekniker blir även förvirrade."
   }
 }
