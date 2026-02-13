@@ -116,7 +116,8 @@
     "effect": "Utföraren rusar mot motståndaren och slår den med skallen. Detta kan få den att rygga tillbaka."
   },
   "hornAttack": {
-    "name": "Hornattack"
+    "name": "Hornattack",
+    "effect": "Motståndaren sticks med ett vasst horn för att orsaka skada."
   },
   "furyAttack": {
     "name": "Hackattack",
@@ -143,13 +144,16 @@
     "effect": "En vårdslös helkroppsattack som skadar motståndaren. Detta skadar även utföraren lite."
   },
   "thrash": {
-    "name": "Bärsärkargång"
+    "name": "Bärsärkargång",
+    "effect": "Utföraren härjar och attackerar i 2-3 omgångar. Utföraren blir sedan förvirrad."
   },
   "doubleEdge": {
-    "name": "Tveeggad tackling"
+    "name": "Tveeggad tackling",
+    "effect": "En vårdslös, livsfarlig tackling där utföraren rusar in i motståndaren. Detta skadar också utföraren en hel del."
   },
   "tailWhip": {
-    "name": "Svansvift"
+    "name": "Svansvift",
+    "effect": "Utföraren viftar gulligt på svansen, vilket gör motståndarna mindre försiktiga och sänker deras försvarsförmåga."
   },
   "poisonSting": {
     "name": "Giftstick",
@@ -160,87 +164,112 @@
     "effect": "Detta kan också förgifta motståndaren."
   },
   "pinMissile": {
-    "name": "Missilnålar"
+    "name": "Missilnålar",
+    "effect": "Vassa spikar skjuts mot motståndaren i snabb följd. De träffar 2-5 i rad."
   },
   "leer": {
-    "name": "Bläng"
+    "name": "Bläng",
+    "effect": "Utföraren blänger argsint mot motståndarna, vilket sänker deras försvarsförmåga."
   },
   "bite": {
-    "name": "Bett"
+    "name": "Bett",
+    "effect": "Motståndaren bits våldsamt med vassa huggtänder. Detta kan också få motståndaren att rygga tillbaka."
   },
   "growl": {
-    "name": "Morr"
+    "name": "Morr",
+    "effect": "Utföraren morrar på ett älskvärt sätt, vilket gör motståndarna mindre försiktiga. Detta sänker deras attackförmåga."
   },
   "roar": {
-    "name": "Ryt"
+    "name": "Ryt",
+    "effect": "Motståndaren skräms bort, och en annan pokémon tvingas ut i strid. I det vilda avslutar detta en en-mot-en strid."
   },
   "sing": {
-    "name": "Vaggvisa"
+    "name": "Vaggvisa",
+    "effect": "En lugnande vaggvisa sjungs med en vacker röst som söver motståndaren."
   },
   "supersonic": {
-    "name": "Ultraljud"
+    "name": "Ultraljud",
+    "effect": "Utföraren genererar konstiga ljudvågor som förvirrar motståndaren."
   },
   "sonicBoom": {
-    "name": "Shockvåg"
+    "name": "Shockvåg",
+    "effect": "Motståndaren träffas av en destruktiv chockvåg som alltid orsakar 20 HP i skada."
   },
   "disable": {
     "name": "Spärr",
     "effect": "Spärrar motståndaren från att använda dess senast utförda teknik i 4 omgångar."
   },
   "acid": {
-    "name": "Syra"
+    "name": "Syra",
+    "effect": "Motståndarna sprejas med frätande syra och tar skada. Detta kan också sänka deras sp. fsv-förmåga."
   },
   "ember": {
-    "name": "Glöd"
+    "name": "Glöd",
+    "effect": "Motståndaren attackeras med små lågor. Detta kan också orsaka brännskada."
   },
   "flamethrower": {
-    "name": "Eldkastare"
+    "name": "Eldkastare",
+    "effect": "Motståndaren bränns av en intensiv eld. Målet attackeras med små lågor."
   },
   "mist": {
-    "name": "Vitt dis"
+    "name": "Vitt dis",
+    "effect": "Utföraren döljer sig själv och de vid sin sida i strid med vitt dis som förhindrar att deras förmågor sänks under 5 omgångar."
   },
   "waterGun": {
-    "name": "Vattenpistol"
+    "name": "Vattenpistol",
+    "effect": "Motståndaren skjuts med ett ganska kraftfullt vattenskott."
   },
   "hydroPump": {
-    "name": "Hydropump"
+    "name": "Hydropump",
+    "effect": "Motståndaren träffas av en enorm mängd vatten som skjuts ut under stort tryck."
   },
   "surf": {
-    "name": "Surfning"
+    "name": "Surfning",
+    "effect": "Motståndaren attackerar alla runt omkring sig genom att översvämma omgivningen med en jättevåg."
   },
   "iceBeam": {
-    "name": "Isstråle"
+    "name": "Isstråle",
+    "effect": "Motståndaren träffas av en iskall energistråle. Detta kan också frysa ner motståndaren."
   },
   "blizzard": {
-    "name": "Snöstorm"
+    "name": "Snöstorm",
+    "effect": "En våldsam snöstorm framkallas för att anfalla motståndarna. Detta kan också frysa ner motståndarna."
   },
   "psybeam": {
-    "name": "Psykostråle"
+    "name": "Psykostråle",
+    "effect": "Motståndaren attackeras med en underlig stråle. Detta kan också förvirra motståndaren."
   },
   "bubbleBeam": {
-    "name": "Bubbelstråle"
+    "name": "Bubbelstråle",
+    "effect": "En stråle av bubblor sprutas kraftfullt mot motståndaren. Detta kan också sänka motståndarens snabbhet."
   },
   "auroraBeam": {
-    "name": "Polarskensstråle"
+    "name": "Polarskensstråle",
+    "effect": "Motståndaren träffas av en regnbågsfärgad stråle. Detta kan också sänka motståndarens attackförmåga."
   },
   "hyperBeam": {
-    "name": "Hyperstråle"
+    "name": "Hyperstråle",
+    "effect": "Utföraren skjuter motståndaren med en extremt kraftig stråle. Utföraren kan sedan inte röra sig i följande omgång."
   },
   "peck": {
-    "name": "Hacka"
+    "name": "Hacka",
+    "effect": "Motståndaren sticks med en vass näbb eller ett horn."
   },
   "drillPeck": {
-    "name": "Hackborr"
+    "name": "Hackborr",
+    "effect": "En korkskruvande attack som träffar motståndaren med en vass näbb som agerar som en borr."
   },
   "submission": {
     "name": "Helvetesgrepp",
     "effect": "Utföraren griper tag i motståndaren och dyker vårdslöst mot marken. Detta skadar även utföraren lite."
   },
   "lowKick": {
-    "name": "Benspark"
+    "name": "Benspark",
+    "effect": "En kraftfull spark mot motståndarens ben som får den att falla. Ju tyngre målet är, desto mer kraft har tekniken."
   },
   "counter": {
-    "name": "Motanfall"
+    "name": "Motanfall",
+    "effect": "En motattack. En fysisk attack kontras med dubbelt så mycket skada på motståndaren."
   },
   "seismicToss": {
     "name": "Tyngkraftskast"
