@@ -1,5 +1,19 @@
 {
+  "pokemonInfo": "ข้อมูลโปเกมอน",
+  "status": "สเตตัส",
+  "powerAccuracyCategory": "พลัง\nความแม่นยำ\nประเภท",
   "type": "ประเภท",
+  "unknownTrainer": "ไม่ทราบ",
+  "idNo": "รหัสไอดี",
+  "nature": "นิสัย",
+  "expPoints": "แต้ม EXP",
+  "lv": "Lv.",
+  "nextLv": "เลเวลถัดไป",
+  "cancel": "ยกเลิก",
+  "memoString": "นิสัย {{natureFragment}}\n{{metFragment}}",
+  "metFragment": {
+    "normal": "เจอตอนเลเวล {{level}}\nที่ {{biome}} ด่าน {{wave}}"
+  },
   "natureFragment": {
     "hardy": "{{nature}}",
     "lonely": "{{nature}}",
@@ -26,5 +40,6 @@
     "sassy": "{{nature}}",
     "careful": "{{nature}}",
     "quirky": "{{nature}}"
-  }
+  },
+  "friendship": "ความสนิท"
 }
