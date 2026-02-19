@@ -28,19 +28,19 @@
       "description": "Лікує будь-який Статусний Ефект одного покемона."
     },
     "PokemonPpRestoreModifierType": {
-      "description": "Відновлює {{restorePoints}} КВ для одного руху Поке́мона.",
+      "description": "Відновлює {{restorePoints}} КВ для одного прийому Поке́мона.",
       "extra": {
-        "fully": "Відновлює всі КВ для одного руху Поке́мона."
+        "fully": "Відновлює всі КВ для одного прийому Поке́мона."
       }
     },
     "PokemonAllMovePpRestoreModifierType": {
       "description": "Відновлює {{restorePoints}} КВ для всіх прийомів одного Поке́мона.",
       "extra": {
-        "fully": "Відновлює всі КВ для всіх рухів одного Поке́мона."
+        "fully": "Відновлює всі КВ для всіх прийомів одного Поке́мона."
       }
     },
     "PokemonPpUpModifierType": {
-      "description": " Назавжди збільшує КВ для одного руху Поке́мона на {{upPoints}} за кожні 5 максимальних КВ (максимум 3)."
+      "description": "Назавжди збільшує КВ для одного прийому Поке́мона на {{upPoints}} за кожні 5 максимальних КВ (максимум 3)."
     },
     "PokemonNatureChangeModifierType": {
       "name": "М'ята {{natureName}}",
@@ -116,7 +116,7 @@
       "description": "Змушує певних Поке́монів змінювати форму."
     },
     "FusePokemonModifierType": {
-      "description": "Об'єднує двох Поке́емонів (передає здібності, розділяє базові характеристики та типи, ділиться набором рухів)."
+      "description": "Об'єднує двох Поке́емонів (передає здібності, розділяє базові характеристики та типи, ділиться набором прийомів)."
     },
     "TerastallizeModifierType": {
       "name": "{{teraType}} Тера-осколок",
@@ -129,7 +129,7 @@
       "description": "Кожен хід власник отримує один предмет, який тримає супротивник."
     },
     "EnemyAttackStatusEffectChanceModifierType": {
-      "description": "Додає {{chancePercent}}% шанс нанести {{statusEffect}} атакуючими рухами."
+      "description": "Додає {{chancePercent}}% шанс нанести {{statusEffect}} атакуючими прийомами."
     },
     "EnemyEndureChanceModifierType": {
       "description": "Додає {{chancePercent}}% шанс витримати удар."
@@ -350,7 +350,7 @@
     },
     "MYSTICAL_ROCK": {
       "name": "Містичний Кругляк",
-      "description": "Продовжує тривалість впливу поля та погоди, спричиненого рухами або здібностями власника, на 2 ходи."
+      "description": "Продовжує тривалість впливу поля та погоди, спричиненого прийому або здібностями власника, на 2 ходи."
     },
     "EVOLUTION_TRACKER_GIMMIGHOUL": {
       "name": "Скарби",
