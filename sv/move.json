@@ -76,7 +76,7 @@
     "effect": "Utföraren flyger högt upp i skyn för att dyka ner och träffa motståndaren omgången efter."
   },
   "bind": {
-    "name": "Hård binding",
+    "name": "Hårdbinding",
     "effect": "Motståndaren binds hårt av långa kroppsdelar eller tentakler för att skada den 4-5 omgångar i rad."
   },
   "slam": {
@@ -836,7 +836,7 @@
     "effect": "Utföraren laddar upp med el och tacklar motståndaren. Detta kan också förlama motståndaren."
   },
   "furyCutter": {
-    "name": "Insekvenshugg",
+    "name": "Insekvensskärare",
     "effect": "Motståndaren skärs med blad eller klor. Attacken blir starkare för varje hugg som lyckas träffa i rad."
   },
   "steelWing": {
@@ -908,72 +908,92 @@
     "effect": "Utföraren ropar efter dacapo och tvingar motståndaren att använda sitt senast använda teknik i 3 omgångar."
   },
   "pursuit": {
-    "name": "Hack i häl"
+    "name": "Hack i häl",
+    "effect": "Kraften av denna attack fördubblas om den används på en motståndare som byts av."
   },
   "rapidSpin": {
-    "name": "Spurtskruvare"
+    "name": "Spurtskruvare",
+    "effect": "En snurrande attack som också kan eliminera ihållande tekniker som Hårdbinding, Invirande och Parasitfrö. Den ökar också användarens snabbhet."
   },
   "sweetScent": {
-    "name": "Söt doft"
+    "name": "Söt doft",
+    "effect": "En söt doft som skarpt sänker motståndarnas undvikande."
   },
   "ironTail": {
-    "name": "Järnsvans"
+    "name": "Järnsvans",
+    "effect": "Motståndaren träffas av en svans hård som stål. Detta kan också sänka motståndarens försvarsförmåga."
   },
   "metalClaw": {
-    "name": "Metallklo"
+    "name": "Metallklo",
+    "effect": "Motståndaren rivs med stålklor. Detta kan också öka utförarens attackförmåga."
   },
   "vitalThrow": {
-    "name": "Kontrakast"
+    "name": "Kontrakast",
+    "effect": "Utföraren attackerar alltid sist. I gengäld missar aldrig denna teknik."
   },
   "morningSun": {
-    "name": "Morgonsol"
+    "name": "Morgonsol",
+    "effect": "Utföraren återställer sina egna HP. Mängden HP som återställs varierar beroende på vädret."
   },
   "synthesis": {
-    "name": "Fotosyntes"
+    "name": "Fotosyntes",
+    "effect": "Utföraren återställer sina egna HP. Mängden HP som återställs varierar beroende på vädret."
   },
   "moonlight": {
-    "name": "Månsken"
+    "name": "Månsken",
+    "effect": "Utföraren återställer sina egna HP. Mängden HP som återställs varierar beroende på vädret."
   },
   "hiddenPower": {
-    "name": "Hemlig kraft"
+    "name": "Hemlig kraft",
+    "effect": "En unik attack som varierar i typ beroende på vilken pokémon som utför den."
   },
   "crossChop": {
     "name": "Korshugg",
     "effect": "Utföraren anfaller med dubbla hugg med korsade armar. Denna teknik orsakar kritiska träffar oftare."
   },
   "twister": {
-    "name": "Drakvind"
+    "name": "Drakvind",
+    "effect": "Utföraren piskar upp en våldsam tornado för att skada motståndarna. Detta kan också få dem att rygga tillbaka."
   },
   "rainDance": {
-    "name": "Regnritual"
+    "name": "Regnritual",
+    "effect": "Utföraren frammanar ett kraftigt regn som faller i 5 omgångar, vilket förstärker vattentyptekniker. Det sänker också kraften av eldtyptekniker."
   },
   "sunnyDay": {
-    "name": "Solskensdag"
+    "name": "Solskensdag",
+    "effect": "Utföraren intensifierar solskenet i 5 omgångar, vilket förstärker eldtyptekniker. Det sänker också kraften av vattentyptekniker."
   },
   "crunch": {
-    "name": "Knaprande"
+    "name": "Knaprande",
+    "effect": "Utföraren krossar motståndaren med vassa huggtänder. Detta kan också sänka motståndarens försvarsförmåga."
   },
   "mirrorCoat": {
-    "name": "Spegelställ"
+    "name": "Spegelställ",
+    "effect": "En vedergällningsteknik som kontrar speciella attacker genom att orsaka dubbel så mycket skada på motståndaren."
   },
   "psychUp": {
     "name": "Somatisk empati",
     "effect": "Utföraren förkroppsligar psykiskt en motståndares förmågeändringar och kopierar dem exakt."
   },
   "extremeSpeed": {
-    "name": "Gudafart"
+    "name": "Gudafart",
+    "effect": "Utföraren anfaller motståndaren genom att ruscha dem med en bländande fart. Denna teknik går alltid först."
   },
   "ancientPower": {
-    "name": "Urkraft"
+    "name": "Urkraft",
+    "effect": "Utföraren attackerar med en förhistorisk kraft. Detta kan också öka alla av utförarens förmågor samtidigt."
   },
   "shadowBall": {
-    "name": "Skuggboll"
+    "name": "Skuggboll",
+    "effect": "Utföraren kastar en skuggig klump på motståndaren. Detta kan också sänka motståndarens sp. fsv-förmåga."
   },
   "futureSight": {
-    "name": "Framtidssyn"
+    "name": "Framtidssyn",
+    "effect": "2 omgångar efter att denna teknik används träffas motståndaren av en massa av psykisk energi."
   },
   "rockSmash": {
-    "name": "Stenkrossare"
+    "name": "Stenkrossare",
+    "effect": "Utföraren attackerar med ett slag som krossa sten. Detta kan också sänka motståndarens försvarsförmåga."
   },
   "whirlpool": {
     "name": "Virvelström"
@@ -989,6 +1009,9 @@
   },
   "facade": {
     "effect": "Attacken orsakar dubbel skada om utföraren är förgiftad, bränd eller förlamad."
+  },
+  "focusPunch": {
+    "name": "Fokuserad näve"
   },
   "smellingSalts": {
     "effect": "Attackens kraft fördubblas når motståndaren som den riktas mot är förlamad. Detta läker dock förlamningen också."
@@ -1006,16 +1029,26 @@
   "poisonFang": {
     "effect": "Utföraren biter motståndaren med gifttänder. Detta kan också svårt förgifta motståndaren."
   },
+  "meteorMash": {
+    "name": "Meteornäve"
+  },
   "airCutter": {
     "name": "Skärande vind",
     "effect": "Utföraren skickar ett vindil vass som en klinga för att skära en motståndare. Denna teknik orsakar kritiska träffar oftare."
+  },
+  "shadowPunch": {
+    "name": "Skuggnäve"
+  },
+  "skyUppercut": {
+    "name": "Flygande näve",
+    "effect": "Utföraren svingar näven underifrån med så mycket kraft att den till och med kan träffa en motståndare som är uppe i skyn."
   },
   "sheerCold": {
     "effect": "Om den träffar svimmar motståndaren genast; en stjärnsmäll. Bosspokémon står emot denna teknik."
   },
   "aerialAce": {
     "name": "Svalsvep",
-    "effect": "Utföraren flyger snabbt mot motståndaren och skär till innan den hinner reagera. Attacken träffar alltid."
+    "effect": "Utföraren flyger snabbt som en svala mot motståndaren och skär till innan den hinner reagera. Attacken träffar alltid."
   },
   "bounce": {
     "effect": "Utföraren studsar högt upp i luften för att falla ner på motståndaren följande omgång. Detta kan också förlama motståndaren."
@@ -1029,6 +1062,9 @@
   "leafBlade": {
     "name": "Bladsblad",
     "effect": "Utföraren använder ett av sina löv som ett vasst knivblad för att skära motståndaren. Denna teknik orsakar kritiska träffar oftare."
+  },
+  "hammerArm": {
+    "name": "Hammarnäve"
   },
   "toxicSpikes": {
     "name": "Giftanglar"
@@ -1050,6 +1086,12 @@
   "xScissor": {
     "name": "X-sax",
     "effect": "Utföraren skär i motståndaren genom att klippa den i en saxliknande rörelse med blad eller klor."
+  },
+  "drainPunch": {
+    "name": "Drännäve"
+  },
+  "bulletPunch": {
+    "name": "Kulsprutnävar"
   },
   "shadowClaw": {
     "effect": "Utföraren anfaller med klor skapade utav skugga. Denna teknik orsakar kritiska träffar oftare."
@@ -1122,6 +1164,12 @@
   "nuzzle": {
     "effect": "Utföraren gnuggar sina elektriska kinder mot motståndaren. Detta förlamar också motståndaren."
   },
+  "powerUpPunch": {
+    "name": "Peppnäve"
+  },
+  "iceHammer": {
+    "name": "Ishammarnäve"
+  },
   "solarBlade": {
     "name": "Solsvärd",
     "effect": "En tvåomgångsattack där utföraren först samlar solljus för att skapa ett energisvärd, för att sedan skära motståndaren omgången efter."
@@ -1135,14 +1183,29 @@
   "tenMillionVoltThunderbolt": {
     "effect": "Utföraren, Keps-Pikachu, laddar upp en elstöt med sin Z-kraft och släpper den lös. Denna teknik orsakar kritiska träffar oftare."
   },
+  "plasmaFists": {
+    "name": "Plasmanävar"
+  },
   "splishySplash": {
     "effect": "Utföraren laddar en stor våg med el och träffar båda motståndarna med den. Detta kan också förlama motståndarna."
   },
   "buzzyBuzz": {
     "effect": "Utföraren skjuter en elstöt på motståndaren för att orsaka skada. Detta förlamar motståndaren."
   },
+  "doubleIronBash": {
+    "name": "Dubbelpansarnäve"
+  },
+  "behemothBlade": {
+    "name": "Vidundersvärja"
+  },
   "terrainPulse": {
     "name": "Terrängpuls"
+  },
+  "wickedBlow": {
+    "name": "Mörkrets nävslag"
+  },
+  "surgingStrikes": {
+    "name": "Nävkaskad"
   },
   "direClaw": {
     "effect": "Utföraren går till angrepp mot motståndaren för förödande klor. Detta kan också förgifta, förlama eller söva motståndaren."
@@ -1170,9 +1233,15 @@
   "gMaxStunShock": {
     "effect": "En eltypattack som en G-maxad Toxtricity  använder. Den förgifter eller förlamar motståndarna."
   },
+  "jetPunch": {
+    "name": "Jetnäve"
+  },
   "populationBomb": {
     "name": "Överbedolkning",
     "effect": "Utförarens släkt samlas i en hord för en kombinerad attack där de skär motståndaren med dolkliknande rörelser 1-10 gånger i rad."
+  },
+  "rageFist": {
+    "name": "Aggnäve"
   },
   "aquaCutter": {
     "name": "Skärande ström",
