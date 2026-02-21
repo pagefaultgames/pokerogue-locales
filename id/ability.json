@@ -191,7 +191,8 @@
     "name": "Memungut"
   },
   "truant": {
-    "name": "Pemalas"
+    "name": "Pemalas",
+    "description": "Jika menggunakan jurus, Pokémon ini akan beristirahat pada giliran berikutnya."
   },
   "hustle": {
     "name": "Bersemangat"
@@ -206,10 +207,12 @@
     "name": "Minus"
   },
   "forecast": {
-    "name": "Prakiraan Cuaca"
+    "name": "Prakiraan Cuaca",
+    "description": "Tipe Pokémon ini berubah menjadi tipe Air, Api atau Es menyesuaikan cuaca."
   },
   "stickyHold": {
-    "name": "Lengket"
+    "name": "Lengket",
+    "description": "Karena item menempel di tubuh lengketnya, Pokémon lain tidak dapat merebut item tersebut."
   },
   "shedSkin": {
     "name": "Ganti Kulit"
@@ -221,7 +224,8 @@
     "name": "Sisik Ajaib"
   },
   "liquidOoze": {
-    "name": "Cairan Limbah"
+    "name": "Cairan Limbah",
+    "description": "Pokémon lain yang mengisap limbah cair dengan jurus pengisap HP akan menerima kerusakan akibat bau busuk sehingga HP-nya berkurang."
   },
   "overgrow": {
     "name": "Hijau Rindang"
@@ -236,40 +240,50 @@
     "name": "Firasat Buruk"
   },
   "rockHead": {
-    "name": "Kepala Batu"
+    "name": "Kepala Batu",
+    "description": "Meskipun menggunakan jurus yang menyebabkan tolak balik, HP Pokémon ini tidak akan berkurang."
   },
   "drought": {
-    "name": "Kemarau"
+    "name": "Kemarau",
+    "description": "Pokémon ini membuat cuaca cerah saat memasuki pertarungan."
   },
   "arenaTrap": {
     "name": "Undur-undur"
   },
   "vitalSpirit": {
-    "name": "Semangat Vital"
+    "name": "Semangat Vital",
+    "description": "Menjadi kebal terhadap kondisi tidur dikarenakan mengeluarkan semangat."
   },
   "whiteSmoke": {
-    "name": "Asap Putih"
+    "name": "Asap Putih",
+    "description": "Pokémon ini dilindungi oleh asap putih sehingga Statistiknya tidak dapat diturunkan oleh Pokémon lain."
   },
   "purePower": {
-    "name": "Kekuatan Yoga"
+    "name": "Kekuatan Yoga",
+    "description": "Dengan menggunakan kekuatan yoga, kekuatan Serangan Pokémon ini menjadi ganda."
   },
   "shellArmor": {
-    "name": "Zirah Cangkang"
+    "name": "Zirah Cangkang",
+    "description": "Pokémon ini dilindungi oleh cangkang keras sehingga serangan tidak mengenai titik kritisnya."
   },
   "airLock": {
-    "name": "Air Lock"
+    "name": "Air Lock",
+    "description": "Segala efek cuaca dihilangkan."
   },
   "tangledFeet": {
-    "name": "Sempoyongan"
+    "name": "Sempoyongan",
+    "description": "Saat dalam kondisi pusing, Rasio Menghindar Pokémon ini naik."
   },
   "motorDrive": {
-    "name": "Mesin Listrik"
+    "name": "Mesin Listrik",
+    "description": "Jika menerima jurus tipe Listrik, Pokémon ini tidak akan menerima kerusakan dan Kecepatannya naik."
   },
   "rivalry": {
     "name": "Semangat Bersaing"
   },
   "steadfast": {
-    "name": "Semangat Pantang Mundur"
+    "name": "Semangat Pantang Mundur",
+    "description": "Tiap kali tersentak, semangat pantang mundur Pokémon ini membara sehingga Kecepatannya naik."
   },
   "snowCloak": {
     "name": "Persembunyian Salju"
@@ -278,13 +292,15 @@
     "name": "Lahap"
   },
   "angerPoint": {
-    "name": "Titik Amarah"
+    "name": "Titik Amarah",
+    "description": "Ketika serangan mengenai titik kritisnya, Pokémon ini akan mengamuk sehingga Serangannya menjadi maksimal."
   },
   "unburden": {
     "name": "Meringankan Tubuh"
   },
   "heatproof": {
-    "name": "Tahan Panas"
+    "name": "Tahan Panas",
+    "description": "Mengurangi setengah kerusakan yang disebabkan oleh jurus tipe Api dengan tubuh yang tahan panas."
   },
   "simple": {
     "name": "Sederhana"
@@ -293,7 +309,8 @@
     "name": "Kulit Kering"
   },
   "download": {
-    "name": "Unduh"
+    "name": "Unduh",
+    "description": "Meningkatkan Serangan atau Serangan Khusus Pokémon ini disesuaikan dengan Statistik terendah dari Pertahanan atau Pertahanan Khusus Pokémon lawan."
   },
   "ironFist": {
     "name": "Tinju Besi"
@@ -305,10 +322,12 @@
     "name": "Kemampuan Adaptasi"
   },
   "skillLink": {
-    "name": "Hubungan Keahlian"
+    "name": "Hubungan Keahlian",
+    "description": "Memaksimalkan jumlah serangan dari jurus beruntun."
   },
   "hydration": {
-    "name": "Tubuh Lembap"
+    "name": "Tubuh Lembap",
+    "description": "Pulih dari kondisi abnormal pada saat hujan."
   },
   "solarPower": {
     "name": "Tenaga Surya"
@@ -323,25 +342,30 @@
     "name": "Sniper"
   },
   "magicGuard": {
-    "name": "Magic Guard"
+    "name": "Magic Guard",
+    "description": "Pokémon ini tidak menerima kerusakan selain dari serangan."
   },
   "noGuard": {
     "name": "Tanpa Pelindung"
   },
   "stall": {
-    "name": "Melangkah Belakangan"
+    "name": "Melangkah Belakangan",
+    "description": "Pokémon ini selalu menjadi yang terakhir saat mengeluarkan jurus."
   },
   "technician": {
     "name": "Teknisi"
   },
   "leafGuard": {
-    "name": "Pelindung Daun"
+    "name": "Pelindung Daun",
+    "description": "Menjadi kebal terhadap kondisi abnormal pada saat cerah."
   },
   "klutz": {
-    "name": "Kikuk"
+    "name": "Kikuk",
+    "description": "Tidak dapat menggunakan item yang dibawa."
   },
   "moldBreaker": {
-    "name": "Inkonvensional"
+    "name": "Inkonvensional",
+    "description": "Pokémon ini dapat menyarangkan jurusnya tanpa terganggu oleh Ability lawan."
   },
   "superLuck": {
     "name": "Super Untung"
@@ -350,7 +374,8 @@
     "name": "Detonasi"
   },
   "anticipation": {
-    "name": "Antisipasi"
+    "name": "Antisipasi",
+    "description": "Pokémon ini dapat mendeteksi jurus lawan yang berbahaya."
   },
   "forewarn": {
     "name": "Prediksi Mimpi"
