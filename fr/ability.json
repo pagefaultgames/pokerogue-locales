@@ -29,7 +29,7 @@
   },
   "sandVeil": {
     "name": "Voile Sable",
-    "description": "Augmente l’Esquive du Pokémon de 20% lors des tempêtes de sable. Immunise également le lanceur des tempêtes de sable."
+    "description": "Augmente l’Esquive du Pokémon de 20% lors des tempêtes de sable. Ne prend également aucun dégâts des tempêtes de sable."
   },
   "static": {
     "name": "Statik",
@@ -345,7 +345,7 @@
   },
   "drySkin": {
     "name": "Peau Sèche",
-    "description": "Quand le soleil brille, le Pokémon perd 12,5% de ses PV totaux à chaque tour et subit 25% de dégâts supplémentaires des capacités Feu. S’il pleut, il regagne des 12,5% de ses PV totaux ou 25% de ses PV totaux s’il est touché par une capacité Eau."
+    "description": "Le Pokémon regagne 25% de ses PV totaux s'il est touché par une capacité Eau, ou 12,5% à chaque tour sous la pluie. Cependant, il subit 25% de dégâts supplémentaires des capacités Feu, et perd 12,5% de ses PV totaux à chaque tour sous le soleil."
   },
   "download": {
     "name": "Télécharge",
@@ -565,7 +565,7 @@
   },
   "overcoat": {
     "name": "Envelocape",
-    "description": "Protège des dégâts occasionnés par les tempêtes de sable, ainsi que des effets des capacités qui libèrent de la poudre et des spores."
+    "description": "Protège des dégâts occasionnés par les tempêtes de sable et la grêle, ainsi que des effets des capacités qui libèrent de la poudre et des spores."
   },
   "poisonTouch": {
     "name": "Toxitouche",
@@ -805,7 +805,7 @@
   },
   "slushRush": {
     "name": "Chasse-Neige",
-    "description": "Double la Vitesse du Pokémon quand il neige. Ne prend également aucun dégâts de la grêle."
+    "description": "Double la Vitesse du Pokémon quand il neige ou grêle. Ne prend également aucun dégâts de la grêle."
   },
   "longReach": {
     "name": "Longue Portée",
@@ -1113,7 +1113,7 @@
   },
   "commander": {
     "name": "Commandant",
-    "description": "Si un Oyacata allié est sur le terrain ce Pokémon le rejoint en amont d’y être envoyé, ce dernier entre dans sa bouche et devient son commandant. Augmente également la probabilité de combats duo si le Pokémon est en tête d’équipe."
+    "description": "Si un Oyacata allié est sur le terrain, ce Pokémon entre dans sa bouche et devient son commandant, ce qui augmente beaucoup ses stats. Augmente également la probabilité de combats duo si le Pokémon est en tête d’équipe."
   },
   "electromorphosis": {
     "name": "Grecharge",
@@ -1121,11 +1121,11 @@
   },
   "protosynthesis": {
     "name": "Paléosynthèse",
-    "description": "Quand le soleil brille, la stat la plus élevée du Pokémon augmente de 30% ou de 50% si sa Vitesse est la stat la plus élevée."
+    "description": "Quand le soleil brille, la stat la plus élevée du Pokémon augmente de 30%, ou de 50% si sa Vitesse est la stat la plus élevée."
   },
   "quarkDrive": {
     "name": "Charge Quantique",
-    "description": "Quand un champ électrifié est actif, la stat la plus élevée du Pokémon augmente de 30% ou de 50% si sa Vitesse est la stat la plus élevée."
+    "description": "Quand un champ électrifié est actif, la stat la plus élevée du Pokémon augmente de 30%, ou de 50% si sa Vitesse est la stat la plus élevée."
   },
   "goodAsGold": {
     "name": "Corps en Or",
