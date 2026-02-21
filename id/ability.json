@@ -15,13 +15,15 @@
     "description": "Cangkang yang keras melindungi Pokémon ini dari serangan agar tidak mengenai titik kritis."
   },
   "sturdy": {
-    "name": "Kokoh"
+    "name": "Kokoh",
+    "description": "Saat HP Pokémon ini penuh, tidak akan langsung KO dengan 1 serangan. Jurus maut tunggal pun tidak akan berpengaruh."
   },
   "damp": {
     "name": "Lembab"
   },
   "limber": {
-    "name": "Fleksibel"
+    "name": "Fleksibel",
+    "description": "Menjadi kebal terhadap kondisi lumpuh karena tubuhnya yang lentur."
   },
   "sandVeil": {
     "name": "Persembunyian Pasir"
@@ -36,49 +38,61 @@
     "name": "Menyimpan Air"
   },
   "oblivious": {
-    "name": "Tidak Sensitif"
+    "name": "Tidak Sensitif",
+    "description": "Menjadi kebal terhadap kondisi terpesona atau terprovokasi karena tidak sensitif. Juga kebal terhadap intimidasi."
   },
   "cloudNine": {
-    "name": "Bukan Cuaca"
+    "name": "Bukan Cuaca",
+    "description": "Menghilangkan segala efek cuaca."
   },
   "compoundEyes": {
     "name": "Mata Majemuk"
   },
   "insomnia": {
-    "name": "Imsomnia"
+    "name": "Imsomnia",
+    "description": "Menjadi kebal terhadap kondisi tidur karena memiliki tubuh yang tidak bisa tidur."
   },
   "colorChange": {
-    "name": "Berubah Warna"
+    "name": "Berubah Warna",
+    "description": "Tipe Pokémon ini berubah menjadi tipe jurus yang diterima dari lawan."
   },
   "immunity": {
-    "name": "Imunitas"
+    "name": "Imunitas",
+    "description": "Menjadi kebal terhadap kondisi racun karena memiliki imunitas di dalam tubuh."
   },
   "flashFire": {
     "name": "Api Merembet"
   },
   "shieldDust": {
-    "name": "Sisik Serangga"
+    "name": "Sisik Serangga",
+    "description": "Tidak menerima efek tambahan jurus karena dilindungi oleh debu sisik."
   },
   "ownTempo": {
-    "name": "Buat Gampang"
+    "name": "Buat Gampang",
+    "description": "Menjadi kebal terhadap kondisi pusing karena punya Buat Gampang. Juga kebal terhadap intimidasi."
   },
   "suctionCups": {
-    "name": "Pengisap"
+    "name": "Pengisap",
+    "description": "Pokémon ini menancapkan pengisap ke permukaan tanah sehingga jurus atau item yang menyebabkan pergantian tidak akan berpengaruh."
   },
   "intimidate": {
-    "name": "Intimidasi"
+    "name": "Intimidasi",
+    "description": "Pokémon ini mengintimidasi lawan saat memasuki pertarungan sehingga menurunkan Serangan lawan."
   },
   "shadowTag": {
-    "name": "Injak Bayangan"
+    "name": "Injak Bayangan",
+    "description": "Pokémon ini menginjak bayangan lawan untuk mencegahnya kabur atau melakukan pergantian."
   },
   "roughSkin": {
     "name": "Kulit Kasar"
   },
   "wonderGuard": {
-    "name": "Pelindung Ajaib"
+    "name": "Pelindung Ajaib",
+    "description": "Kekuatan misterius Pokémon ini hanya memungkinkan jurus super efektif untuk mengenai dirinya."
   },
   "levitate": {
-    "name": "Mengambang"
+    "name": "Mengambang",
+    "description": "Tidak menerima jurus tipe Tanah dikarenakan mengambang di udara."
   },
   "effectSpore": {
     "name": "Spora"
@@ -87,13 +101,16 @@
     "name": "Sinkronisasi"
   },
   "clearBody": {
-    "name": "Badan Tangguh"
+    "name": "Badan Tangguh",
+    "description": "Statistik Pokémon ini tidak dapat diturunkan oleh jurus atau Ability Pokémon lain."
   },
   "naturalCure": {
-    "name": "Penyembuhan Alami"
+    "name": "Penyembuhan Alami",
+    "description": "Menyembuhkan kondisi abnormal saat ditarik kembali dari pertarungan."
   },
   "lightningRod": {
-    "name": "Penangkal Petir"
+    "name": "Penangkal Petir",
+    "description": "Mengalihkan semua jurus tipe Listrik ke dirinya, Pokémon ini tidak akan menerima kerusakan dan Serangan Khususnya naik."
   },
   "sereneGrace": {
     "name": "Berkah Langit"
@@ -108,34 +125,42 @@
     "name": "Jamur"
   },
   "trace": {
-    "name": "Mengikuti Jejak"
+    "name": "Mengikuti Jejak",
+    "description": "Saat memasuki pertarungan, Pokémon ini menyalin Ability Pokémon lawan."
   },
   "hugePower": {
-    "name": "Tenaga Raksasa"
+    "name": "Tenaga Raksasa",
+    "description": "Menggandakan kekuatan Serangan Pokémon."
   },
   "poisonPoint": {
     "name": "Jarum Racun"
   },
   "innerFocus": {
-    "name": "Kekuatan Mental"
+    "name": "Kekuatan Mental",
+    "description": "Tidak akan tersentak oleh serangan Pokémon lain karena mental yang terlatih. Juga kebal terhadap intimidasi."
   },
   "magmaArmor": {
-    "name": "Zirah Magma"
+    "name": "Zirah Magma",
+    "description": "Menjadi kebal terhadap kondisi beku karena melapisi tubuh dengan magma panas."
   },
   "waterVeil": {
-    "name": "Kerudung Air"
+    "name": "Kerudung Air",
+    "description": "Menjadi kebal terhadap kondisi terbakar karena melapisi tubuh dengan tudung air."
   },
   "magnetPull": {
-    "name": "Tarikan Magnet"
+    "name": "Tarikan Magnet",
+    "description": "Menarik Pokémon tipe Logam dengan kekuatan magnet sehingga membuatnya tidak dapat melarikan diri."
   },
   "soundproof": {
-    "name": "Kedap Suara"
+    "name": "Kedap Suara",
+    "description": "Tidak menerima jurus bunyi dengan memblokir bunyi."
   },
   "rainDish": {
     "name": "Piring Penampung Hujan"
   },
   "sandStream": {
-    "name": "Aliran Pasir"
+    "name": "Aliran Pasir",
+    "description": "Pokémon ini membuat badai pasir saat memasuki pertarungan."
   },
   "pressure": {
     "name": "Tekanan"
@@ -144,19 +169,23 @@
     "name": "Lemak Tebal"
   },
   "earlyBird": {
-    "name": "Bangun Pagi"
+    "name": "Bangun Pagi",
+    "description": "Dalam kondisi tidur, dapat terbangun dengan kecepatan 2 kali lipat."
   },
   "flameBody": {
     "name": "Badan Api"
   },
   "runAway": {
-    "name": "Kabur"
+    "name": "Kabur",
+    "description": "Selalu dapat melarikan diri dari Pokémon liar."
   },
   "keenEye": {
-    "name": "Mata Tajam"
+    "name": "Mata Tajam",
+    "description": "Berkat mata tajamnya, Rasio Akurasinya tidak dapat diturunkan."
   },
   "hyperCutter": {
-    "name": "Gunting Kuat"
+    "name": "Gunting Kuat",
+    "description": "Karena memiliki gunting yang kuat dan membanggakan, Serangannya tidak dapat diturunkan oleh Pokémon lain."
   },
   "pickup": {
     "name": "Memungut"
