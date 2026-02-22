@@ -1,38 +1,867 @@
 {
   "stench": {
-    "description": "เนื่องจากปล่อยกลิ่นเหม็นออกมา การโจมตีจะมีโอกาส 10% ที่จะทำให้เป้าหมายผงะได้ เอฟเฟกต์นี้จะไม่ซ้อนทับกับผลของท่าต่อสู้หรือไอเทมที่มีโอกาสทำให้ผงะ"
+    "name": "ส่งกลิ่นเหม็น",
+    "description": "เนื่องจากปล่อยกลิ่นเหม็นออกมา การโจมตีจะมีโอกาส 10% ที่จะทำให้เป้าหมายผงะได้\nเอฟเฟกต์นี้จะไม่ซ้อนทับกับผลของท่าต่อสู้หรือไอเทมที่มีโอกาสทำให้ผงะ"
   },
   "drizzle": {
+    "name": "เรียกฝน",
     "description": "โปเกมอนจะสร้างฝนตอนปรากฏตัว"
   },
   "speedBoost": {
+    "name": "เร่งความเร็ว",
     "description": "ค่าความเร็วของโปเกมอนตัวนี้จะเพิ่มขึ้นในทุกเทิร์น"
   },
   "battleArmor": {
+    "name": "เกราะแข็ง",
     "description": "เกราะอันแข็งแกร่งช่วยปกป้องไม่ให้โปเกมอนโดนการโจมตีคริติคอล"
   },
   "sturdy": {
-    "description": "หากมี HP เต็ม โปเกมอนจะไม่มีทางโดนล้มด้วยการโจมตีเพียงครั้งเดียว ถึงแม้จะเป็นท่าต่อสู้ที่ปิดฉากในครั้งเดียวก็ตาม"
+    "name": "ทนทาน",
+    "description": "หากมี HP เต็ม โปเกมอนจะไม่มีทางโดนล้มด้วยการโจมตีเพียงครั้งเดียว\nถึงแม้จะเป็นท่าต่อสู้ที่ปิดฉากในครั้งเดียวก็ตาม"
   },
   "damp": {
-    "description": "โปเกมอนทำให้บริเวณรอบข้างเปียกชื้น ทำให้ไม่มีใครใช้ท่าระเบิด เช่น ท่าระเบิดตัวเองหรือสร้างความเสียหายด้วยคุณสมบัติพิเศษเหนี่ยวนำระเบิดได้"
+    "name": "เปียกชื้น",
+    "description": "โปเกมอนทำให้บริเวณรอบข้างเปียกชื้น ทำให้ไม่มีใครใช้ท่าระเบิด เช่น ท่าระเบิดตัวเอง\nหรือสร้างความเสียหายด้วยคุณสมบัติพิเศษเหนี่ยวนำระเบิดได้"
   },
   "limber": {
+    "name": "ยืดหยุ่น",
     "description": "ร่างกายที่อ่อนนุ่มของโปเกมอนทำให้มันไม่สามารถตกอยู่ในสถานะอัมพาตได้"
   },
+  "sandVeil": {
+    "name": "พรางตัวในทราย",
+    "description": "เพิ่มอัตราหลบหลีกของโปเกมอนเมื่ออยู่ในพายุทราย 20% โปเกมอนตัวนี้จะไม่รับความเสียหายของพายุทราย"
+  },
+  "static": {
+    "name": "ไฟฟ้าสถิต",
+    "description": "ปกคลุมร่างกายของโปเกมอนด้วยไฟฟ้าสถิต ฝ่ายตรงข้ามมีโอกาส 30% ที่จะติดสถานะอัมพาตเมื่อสัมผัสกับมัน"
+  },
+  "voltAbsorb": {
+    "name": "ดูดซับไฟฟ้า",
+    "description": "เมื่อโดนโจมตีด้วยท่าต่อสู้ประเภทไฟฟ้า โปเกมอนจะฟื้นฟูพลังชีวิต ¼ ของ HP สูงสุด แทนที่จะได้รับความเสียหาย"
+  },
+  "waterAbsorb": {
+    "name": "ดูดซับน้ำ",
+    "description": "เมื่อโดนโจมตีด้วยท่าต่อสู้ประเภทน้ำ โปเกมอนจะฟื้นฟูพลังชีวิต ¼ ของ HP สูงสุด แทนที่จะได้รับความเสียหาย"
+  },
+  "oblivious": {
+    "name": "ความรู้สึกช้า",
+    "description": "โปเกมอนมีความรู้สึกช้า ทำให้มันไม่ตกอยู่ในสถานะถูกมนตร์เคลิบเคลิ้ม ถูกยั่วยุ หรือถูกข่มขู่"
+  },
+  "cloudNine": {
+    "name": "ทนสภาพอากาศ",
+    "description": "เอฟเฟกต์ทั้งหมดจากสภาพอากาศจะหายไป"
+  },
+  "compoundEyes": {
+    "name": "ตารวม",
+    "description": "เนื่องจากมีตารวม ทำให้อัตราความแม่นยำของท่าเพิ่มขึ้น 30%"
+  },
+  "insomnia": {
+    "name": "นอนไม่หลับ",
+    "description": "เนื่องจากโปเกมอนมีอาการนอนไม่หลับ ทำให้ไม่ตกอยู่ในสถานะหลับ"
+  },
+  "colorChange": {
+    "name": "เปลี่ยนสี",
+    "description": "เปลี่ยนประเภทของโปเกมอนเป็นประเภทเดียวกันกับท่าต่อสู้ที่ได้รับจากอีกฝ่าย"
+  },
+  "immunity": {
+    "name": "ภูมิคุ้มกัน",
+    "description": "ระบบภูมิคุ้มกันของโปเกมอนทำให้ไม่ติดสถานะพิษ"
+  },
+  "flashFire": {
+    "name": "ติดไฟ"
+  },
+  "shieldDust": {
+    "name": "ปีกเกล็ด"
+  },
+  "ownTempo": {
+    "name": "รักสันโดษ"
+  },
+  "suctionCups": {
+    "name": "ยางดูด"
+  },
+  "intimidate": {
+    "name": "ข่มขู่"
+  },
+  "shadowTag": {
+    "name": "ตรึงเงา"
+  },
+  "roughSkin": {
+    "name": "ผิวขรุขระ"
+  },
+  "wonderGuard": {
+    "name": "พรคุ้มครอง"
+  },
+  "levitate": {
+    "name": "ล่องลอย"
+  },
+  "effectSpore": {
+    "name": "สร้างสปอร์"
+  },
+  "synchronize": {
+    "name": "ประสานเวลา"
+  },
+  "clearBody": {
+    "name": "ร่างใสสะอาด"
+  },
+  "naturalCure": {
+    "name": "ฟื้นตัวตามธรรมชาติ"
+  },
+  "lightningRod": {
+    "name": "สายล่อฟ้า"
+  },
+  "sereneGrace": {
+    "name": "พรจากสวรรค์"
+  },
+  "swiftSwim": {
+    "name": "ลื่นไหล"
+  },
+  "chlorophyll": {
+    "name": "คลอโรฟิลล์"
+  },
+  "illuminate": {
+    "name": "เรืองแสง"
+  },
+  "trace": {
+    "name": "คัดลอก"
+  },
+  "hugePower": {
+    "name": "จอมพลัง"
+  },
+  "poisonPoint": {
+    "name": "หนามพิษ"
+  },
+  "innerFocus": {
+    "name": "พลังใจ"
+  },
+  "magmaArmor": {
+    "name": "เกราะแม็กมา"
+  },
+  "waterVeil": {
+    "name": "ม่านน้ำ"
+  },
+  "magnetPull": {
+    "name": "แรงแม่เหล็ก"
+  },
+  "soundproof": {
+    "name": "กันเสียง"
+  },
+  "rainDish": {
+    "name": "จานรองน้ำฝน"
+  },
+  "sandStream": {
+    "name": "ก่อพายุทราย"
+  },
+  "pressure": {
+    "name": "กดดัน"
+  },
+  "thickFat": {
+    "name": "พุงพลุ้ย"
+  },
   "earlyBird": {
+    "name": "ตื่นเช้า",
     "description": "โปเกมอนจะตื่นจากสถานะหลับได้เร็วกว่าโปเกมอนทั่วไปสองเท่า"
   },
   "flameBody": {
+    "name": "ร่างเปลวไฟ",
     "description": "ผู้โจมตีมีโอกาส 30% ที่จะถูกเผาเมื่อมาสัมผัสโปเกมอนตัวนี้"
   },
   "runAway": {
+    "name": "วิ่งหนี",
     "description": "เมื่อทำการหลบหนีจากโปเกมอนป่า จะสามารถหนีได้อย่างแน่นอน"
   },
+  "keenEye": {
+    "name": "ตาแหลม"
+  },
+  "hyperCutter": {
+    "name": "ก้ามทรงพลัง"
+  },
+  "pickup": {
+    "name": "เก็บของ"
+  },
+  "truant": {
+    "name": "ขี้เกียจ"
+  },
+  "hustle": {
+    "name": "ฮึกเหิม"
+  },
+  "cuteCharm": {
+    "name": "เสน่ห์ดึงดูด"
+  },
+  "plus": {
+    "name": "บวก"
+  },
+  "minus": {
+    "name": "ลบ"
+  },
+  "forecast": {
+    "name": "อารมณ์แปรปรวน"
+  },
+  "stickyHold": {
+    "name": "ติดแน่น"
+  },
+  "shedSkin": {
+    "name": "ลอกคราบ"
+  },
+  "guts": {
+    "name": "มุ่งมั่น"
+  },
+  "marvelScale": {
+    "name": "เกล็ดพิศวง"
+  },
+  "liquidOoze": {
+    "name": "สลัดจ์ลิควิด"
+  },
+  "overgrow": {
+    "name": "เขียวชอุ่ม"
+  },
+  "blaze": {
+    "name": "ไฟลุก"
+  },
+  "torrent": {
+    "name": "น้ำเชี่ยว"
+  },
+  "swarm": {
+    "name": "ฝูงแมลง"
+  },
+  "rockHead": {
+    "name": "หัวแข็ง"
+  },
+  "drought": {
+    "name": "เรียกแดด"
+  },
+  "arenaTrap": {
+    "name": "กับดักแมลงช้าง"
+  },
+  "vitalSpirit": {
+    "name": "กระตือรือร้น"
+  },
+  "whiteSmoke": {
+    "name": "ควันขาว"
+  },
+  "purePower": {
+    "name": "พลังโยคะ"
+  },
+  "shellArmor": {
+    "name": "กระดองเกราะ"
+  },
+  "airLock": {
+    "name": "แอร์ล็อก"
+  },
+  "tangledFeet": {
+    "name": "เดินโซเซ"
+  },
+  "motorDrive": {
+    "name": "เครื่องยนต์ไฟฟ้า"
+  },
+  "rivalry": {
+    "name": "ใจสู้"
+  },
+  "steadfast": {
+    "name": "จิตใจที่แน่วแน่"
+  },
+  "snowCloak": {
+    "name": "พรางตัวในหิมะ"
+  },
+  "gluttony": {
+    "name": "ตะกละ"
+  },
+  "angerPoint": {
+    "name": "จุดโกรธ"
+  },
+  "unburden": {
+    "name": "กายกรรม"
+  },
+  "heatproof": {
+    "name": "กันความร้อน"
+  },
+  "simple": {
+    "name": "เรียบง่าย"
+  },
+  "drySkin": {
+    "name": "ผิวแห้ง"
+  },
+  "download": {
+    "name": "ดาวน์โหลด"
+  },
+  "ironFist": {
+    "name": "หมัดเหล็ก"
+  },
+  "poisonHeal": {
+    "name": "พิษรักษา"
+  },
+  "adaptability": {
+    "name": "ปรับตัวง่าย"
+  },
+  "skillLink": {
+    "name": "ทักษะลูกโซ่"
+  },
+  "hydration": {
+    "name": "ร่างกายชุ่มชื้น"
+  },
+  "solarPower": {
+    "name": "พลังสุริยัน"
+  },
+  "quickFeet": {
+    "name": "ฝีเท้าว่องไว"
+  },
+  "normalize": {
+    "name": "นอร์มอลสกิน"
+  },
+  "sniper": {
+    "name": "สไนเปอร์"
+  },
+  "magicGuard": {
+    "name": "เกราะวิเศษ"
+  },
+  "noGuard": {
+    "name": "ไร้การป้องกัน"
+  },
+  "stall": {
+    "name": "ออกทีหลัง"
+  },
+  "technician": {
+    "name": "ผู้เชี่ยวชาญ"
+  },
+  "leafGuard": {
+    "name": "ใบไม้ป้องกัน"
+  },
+  "klutz": {
+    "name": "งุ่มง่าม"
+  },
+  "moldBreaker": {
+    "name": "ทำลายรูปแบบ"
+  },
+  "superLuck": {
+    "name": "ดวงดี"
+  },
+  "aftermath": {
+    "name": "เหนี่ยวนำระเบิด"
+  },
+  "anticipation": {
+    "name": "ลางบอกเหตุ"
+  },
+  "forewarn": {
+    "name": "ฝันบอกเหตุ"
+  },
+  "unaware": {
+    "name": "ไม่รู้ตัว"
+  },
+  "tintedLens": {
+    "name": "แว่นสี"
+  },
+  "filter": {
+    "name": "ฟิลเตอร์"
+  },
+  "slowStart": {
+    "name": "เริ่มช้า"
+  },
+  "scrappy": {
+    "name": "ใจกล้า"
+  },
+  "stormDrain": {
+    "name": "ล่อน้ำ"
+  },
+  "iceBody": {
+    "name": "ร่างน้ำแข็ง"
+  },
+  "solidRock": {
+    "name": "หินแข็ง"
+  },
+  "snowWarning": {
+    "name": "หิมะโปรยปราย"
+  },
+  "honeyGather": {
+    "name": "สะสมน้ำผึ้ง"
+  },
+  "frisk": {
+    "name": "มองทะลุ"
+  },
+  "reckless": {
+    "name": "เสี่ยงชีวิต"
+  },
+  "multitype": {
+    "name": "มัลติไทป์"
+  },
+  "flowerGift": {
+    "name": "ฟลาวเวอร์กิฟต์"
+  },
+  "badDreams": {
+    "name": "ฝันร้าย"
+  },
+  "pickpocket": {
+    "name": "ล้วงกระเป๋า"
+  },
+  "sheerForce": {
+    "name": "ทุ่มเทกำลัง"
+  },
+  "contrary": {
+    "name": "ต่อต้าน"
+  },
+  "unnerve": {
+    "name": "ทำให้เสียขวัญ"
+  },
+  "defiant": {
+    "name": "ไม่ยอมแพ้"
+  },
+  "defeatist": {
+    "name": "ขี้กลัว"
+  },
+  "cursedBody": {
+    "name": "ร่างกายต้องสาป"
+  },
+  "healer": {
+    "name": "หัวใจแห่งการเยียวยา"
+  },
+  "friendGuard": {
+    "name": "ปกป้องเพื่อน"
+  },
+  "weakArmor": {
+    "name": "เกราะแตก"
+  },
+  "heavyMetal": {
+    "name": "โลหะหนัก"
+  },
+  "lightMetal": {
+    "name": "โลหะเบา"
+  },
+  "telepathy": {
+    "name": "โทรจิต"
+  },
+  "overcoat": {
+    "name": "กันฝุ่น"
+  },
+  "poisonTouch": {
+    "name": "มือพิษ"
+  },
+  "regenerator": {
+    "name": "พลังฟื้นฟู"
+  },
   "bigPecks": {
+    "name": "พองหน้าอก",
     "description": "โปเกมอนตัวนี้ไม่รับผลการลดค่าป้องกัน"
   },
   "sandRush": {
+    "name": "ตะกุยทราย",
     "description": "โปเกมอนนี้จะไม่ได้รับความเสียหายเมื่ออยู่ในพายุทรายและจะมีค่าความเร็วเพิ่มขึ้นเป็นสองเท่าอีกด้วย"
+  },
+  "wonderSkin": {
+    "name": "ผิวมหัศจรรย์"
+  },
+  "illusion": {
+    "name": "ภาพมายา"
+  },
+  "infiltrator": {
+    "name": "ทะลุผ่าน"
+  },
+  "mummy": {
+    "name": "มัมมี่"
+  },
+  "moxie": {
+    "name": "ได้ใจ"
+  },
+  "justified": {
+    "name": "จิตใจแห่งความเที่ยงธรรม"
+  },
+  "rattled": {
+    "name": "ตื่นกลัว"
+  },
+  "magicBounce": {
+    "name": "กระจกวิเศษ"
+  },
+  "sapSipper": {
+    "name": "กินพืช"
+  },
+  "prankster": {
+    "name": "ขี้เล่น"
+  },
+  "sandForce": {
+    "name": "พลังทราย"
+  },
+  "ironBarbs": {
+    "name": "หนามเหล็ก"
+  },
+  "zenMode": {
+    "name": "โหมดดะรุมะ"
+  },
+  "victoryStar": {
+    "name": "ดาวแห่งชัยชนะ"
+  },
+  "turboblaze": {
+    "name": "เทอร์โบเบลซ"
+  },
+  "teravolt": {
+    "name": "ทราโวลต์"
+  },
+  "aromaVeil": {
+    "name": "ม่านหอมกรุ่น"
+  },
+  "flowerVeil": {
+    "name": "ม่านบุปฝา"
+  },
+  "cheekPouch": {
+    "name": "กระพุ้งแก้ม"
+  },
+  "furCoat": {
+    "name": "ขนหนานุ่ม"
+  },
+  "magician": {
+    "name": "นักมายากล"
+  },
+  "bulletproof": {
+    "name": "กันกระสุน"
+  },
+  "competitive": {
+    "name": "ชอบเอาชนะ"
+  },
+  "strongJaw": {
+    "name": "กรามแข็งแรง"
+  },
+  "refrigerate": {
+    "name": "ฟรีซสกิน"
+  },
+  "sweetVeil": {
+    "name": "ม่านหอมหวาน"
+  },
+  "stanceChange": {
+    "name": "ปรับกลยุทธ์"
+  },
+  "megaLauncher": {
+    "name": "เครื่องยิงแรงสูง"
+  },
+  "toughClaws": {
+    "name": "กรงเล็บแข็งแรง"
+  },
+  "pixilate": {
+    "name": "แฟรี่สกิน"
+  },
+  "gooey": {
+    "name": "เหนียวเหนอะ"
+  },
+  "aerilate": {
+    "name": "สกายสกิน"
+  },
+  "parentalBond": {
+    "name": "สายสัมพันธ์แม่ลูก"
+  },
+  "darkAura": {
+    "name": "ออร่ามืด"
+  },
+  "fairyAura": {
+    "name": "ออร่าแฟรี่"
+  },
+  "auraBreak": {
+    "name": "ทำลายออร่า"
+  },
+  "primordialSea": {
+    "name": "ทะเลต้นกำเนิด"
+  },
+  "desolateLand": {
+    "name": "แผ่นดินสุดท้าย"
+  },
+  "deltaStream": {
+    "name": "เดลตาสตรีม"
+  },
+  "stamina": {
+    "name": "ทรหด"
+  },
+  "wimpOut": {
+    "name": "เตรียมตัวหนี"
+  },
+  "emergencyExit": {
+    "name": "ลี้ภัยฉุกเฉิน"
+  },
+  "waterCompaction": {
+    "name": "ก่อตัวด้วยน้ำ"
+  },
+  "merciless": {
+    "name": "ไร้ความปราณี"
+  },
+  "shieldsDown": {
+    "name": "ลิมิตชีลด์"
+  },
+  "stakeout": {
+    "name": "ซุ่มดู"
+  },
+  "waterBubble": {
+    "name": "ฟองสบู่"
+  },
+  "steelworker": {
+    "name": "ผู้ใช้เหล็กกล้า"
+  },
+  "berserk": {
+    "name": "คลุ้มคลั่ง"
+  },
+  "slushRush": {
+    "name": "ตะกุยหิมะ"
+  },
+  "triage": {
+    "name": "เร่งการรักษา"
+  },
+  "surgeSurfer": {
+    "name": "หางโต้คลื่น"
+  },
+  "schooling": {
+    "name": "ฝูงปลา"
+  },
+  "disguise": {
+    "name": "ปลอมตัว"
+  },
+  "powerConstruct": {
+    "name": "รวมตัวเปลี่ยนร่าง"
+  },
+  "corrosion": {
+    "name": "กัดกร่อน"
+  },
+  "comatose": {
+    "name": "หลับเป็นตาย"
+  },
+  "queenlyMajesty": {
+    "name": "ความสง่างามของราชินี"
+  },
+  "innardsOut": {
+    "name": "ไส้ทะลัก"
+  },
+  "dancer": {
+    "name": "นักเต้น"
+  },
+  "battery": {
+    "name": "แบตเตอรี่"
+  },
+  "fluffy": {
+    "name": "ปุกปุย"
+  },
+  "dazzling": {
+    "name": "สีฉูดฉาด"
+  },
+  "soulHeart": {
+    "name": "โซลฮาร์ต"
+  },
+  "tanglingHair": {
+    "name": "ผมหยิก"
+  },
+  "receiver": {
+    "name": "รีซีฟเวอร์"
+  },
+  "beastBoost": {
+    "name": "บีสต์บูสต์"
+  },
+  "rksSystem": {
+    "name": "ระบบAR"
+  },
+  "electricSurge": {
+    "name": "อิเล็กทริกเมกเกอร์"
+  },
+  "psychicSurge": {
+    "name": "ไซโคเมกเกอร์"
+  },
+  "mistySurge": {
+    "name": "มิสต์เมกเกอร์"
+  },
+  "grassySurge": {
+    "name": "กราสเมกเกอร์"
+  },
+  "fullMetalBody": {
+    "name": "โลหะป้องกัน"
+  },
+  "shadowShield": {
+    "name": "วิญญาณคุ้มครอง"
+  },
+  "prismArmor": {
+    "name": "ปริซึ่มอาร์เมอร์"
+  },
+  "neuroforce": {
+    "name": "เบรนฟอร์ซ"
+  },
+  "intrepidSword": {
+    "name": "ดาบไร้พ่าย"
+  },
+  "dauntlessShield": {
+    "name": "โล่คงกระพัน"
+  },
+  "ballFetch": {
+    "name": "เก็บบอล"
+  },
+  "cottonDown": {
+    "name": "ปุยฝ้าย"
+  },
+  "gulpMissile": {
+    "name": "มิสไซล์กระเดือก"
+  },
+  "steamEngine": {
+    "name": "เครื่องจักรไอน้ำ"
+  },
+  "punkRock": {
+    "name": "พังก์ร็อก"
+  },
+  "sandSpit": {
+    "name": "พ่นทราย"
+  },
+  "ripen": {
+    "name": "บ่มสุก"
+  },
+  "iceFace": {
+    "name": "ไอซ์เฟซ"
+  },
+  "powerSpot": {
+    "name": "พาวเวอร์สปอต"
+  },
+  "mimicry": {
+    "name": "ล้อเลียน"
+  },
+  "screenCleaner": {
+    "name": "บาเรียฟรี"
+  },
+  "wanderingSpirit": {
+    "name": "วิญญาณเร่ร่อน"
+  },
+  "gorillaTactics": {
+    "name": "มืดแปดด้าน"
+  },
+  "neutralizingGas": {
+    "name": "ก๊าซแปรสภาพเป็นกลาง"
+  },
+  "pastelVeil": {
+    "name": "พาสเทลเวล"
+  },
+  "hungerSwitch": {
+    "name": "สวิตช์ท้องร้อง"
+  },
+  "quickDraw": {
+    "name": "ควิกดรอว์"
+  },
+  "unseenFist": {
+    "name": "หมัดไร้เงา"
+  },
+  "curiousMedicine": {
+    "name": "ยาแปลกประหลาด"
+  },
+  "transistor": {
+    "name": "ทรานซิสเตอร์"
+  },
+  "dragonsMaw": {
+    "name": "ขากรรไกรมังกร"
+  },
+  "chillingNeigh": {
+    "name": "เสียงม้าร้องเยือกแข็ง"
+  },
+  "grimNeigh": {
+    "name": "เสียงม้าร้องชวนขนลุก"
+  },
+  "asOneGlastrier": {
+    "name": "รวมเป็นหนึ่งเดียว"
+  },
+  "asOneSpectrier": {
+    "name": "รวมเป็นหนึ่งเดียว"
+  },
+  "lingeringAroma": {
+    "name": "กลิ่นติดไม่หลุด"
+  },
+  "seedSower": {
+    "name": "เมล็ดหก"
+  },
+  "thermalExchange": {
+    "name": "แลกเปลี่ยนความร้อน"
+  },
+  "angerShell": {
+    "name": "กระดองพิโรธ"
+  },
+  "purifyingSalt": {
+    "name": "เกลือชำระล้าง"
+  },
+  "wellBakedBody": {
+    "name": "สุกได้ที่"
+  },
+  "windRider": {
+    "name": "ตามลม"
+  },
+  "guardDog": {
+    "name": "หมาเฝ้ายาม"
+  },
+  "windPower": {
+    "name": "ไฟฟ้าพลังลม"
+  },
+  "zeroToHero": {
+    "name": "แปลงร่างขั้นสุดยอด"
+  },
+  "commander": {
+    "name": "หอบัญชาการ"
+  },
+  "electromorphosis": {
+    "name": "แปลงเป็นไฟฟ้า"
+  },
+  "protosynthesis": {
+    "name": "สังเคราะห์พลังโบราณ"
+  },
+  "quarkDrive": {
+    "name": "ควาร์กชาร์จ"
+  },
+  "goodAsGold": {
+    "name": "ร่างทองอร่าม"
+  },
+  "vesselOfRuin": {
+    "name": "ภาชนะแห่งภัยพิบัติ"
+  },
+  "swordOfRuin": {
+    "name": "ดาบแห่งภัยพิบัติ"
+  },
+  "tabletsOfRuin": {
+    "name": "ยันต์แห่งภัยพิบัติ"
+  },
+  "beadsOfRuin": {
+    "name": "ลูกแก้วแห่งภัยพิบัติ"
+  },
+  "orichalcumPulse": {
+    "name": "ชีพจรสีแดงชาด"
+  },
+  "hadronEngine": {
+    "name": "เครื่องยนต์แฮดรอน"
+  },
+  "opportunist": {
+    "name": "ฉวยโอกาส"
+  },
+  "cudChew": {
+    "name": "เคี้ยวเอื้อง"
+  },
+  "sharpness": {
+    "name": "คมกริบ"
+  },
+  "supremeOverlord": {
+    "name": "ผู้นำสูงสุด"
+  },
+  "toxicDebris": {
+    "name": "พิษเปรอะ"
+  },
+  "armorTail": {
+    "name": "เกราะหาง"
+  },
+  "earthEater": {
+    "name": "กินดิน"
+  },
+  "myceliumMight": {
+    "name": "พลังเส้นใยรา"
+  },
+  "mindsEye": {
+    "name": "ดวงตาแห่งใจ"
+  },
+  "supersweetSyrup": {
+    "name": "น้ำหวานเชื่อม"
+  },
+  "hospitality": {
+    "name": "ยินดีให้บริการ"
+  },
+  "toxicChain": {
+    "name": "โซ่พิษ"
+  },
+  "teraShift": {
+    "name": "เปลี่ยนเทรัส"
+  },
+  "teraShell": {
+    "name": "กระดองเทรัส"
+  },
+  "teraformZero": {
+    "name": "รีเซ็ตซีโร่"
+  },
+  "poisonPuppeteer": {
+    "name": "พิษหุ่นเชิด"
   }
 }
