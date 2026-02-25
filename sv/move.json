@@ -769,7 +769,7 @@
   },
   "foresight": {
     "name": "Genomskådning",
-    "effect": "Gör så att spöktyppokémon kan träffas av normal- och slagsmålstypattacker. Detta möjliggör även att en mycket undvikande motståndare kan träffas."
+    "effect": "Gör så att spöktyppokémon kan träffas av normal- och slagsmålstypattacker. Mycket undvikande motståndare kan även träffas utan risk för miss."
   },
   "destinyBond": {
     "name": "Ödesband",
@@ -1076,113 +1076,144 @@
     "effect": "Utföraren provocerar motståndaren med glåpord så att den blir rasande. Detta gör så att motståndaren använder enbart attacktekniker i 3 omgångar."
   },
   "helpingHand": {
-    "name": "Hjälpande hand"
+    "name": "Hjälpande hand",
+    "effect": "Utföraren ökar kraften av tekniken som utförs av lagmedlemmen vid sin sida i strid."
   },
   "trick": {
-    "name": "Trix"
+    "name": "Trolleritrick",
+    "effect": "Utföraren lurar motståndaren genom att byta ut ett av dess burna foremål mot ett av sina egna."
   },
   "rolePlay": {
-    "name": "Rollspel"
+    "name": "Rollspel",
+    "effect": "Utföraren imiterar motståndaren fullständigt genom att kopiera motståndarens särdrag."
   },
   "wish": {
-    "name": "Önskan"
+    "name": "Önskan",
+    "effect": "En omgång efter att denna teknik har utförts återställs utförarens eller dess avbytares HP med 50% av utförarens max. HP."
   },
   "assist": {
     "name": "Schrödingers teknik",
     "effect": "Utföraren utför en slumpmässig teknik från tekniklistan av lagmedlemmen vid sin sida i strid."
   },
   "ingrain": {
-    "name": "Rotfäste"
+    "name": "Rotfäste",
+    "effect": "Utföraren planterar sina rötter som återställer HP varje omgång. Eftersom den blir fastrotad kan den inte bytas av."
   },
   "superpower": {
-    "name": "Tokstyrka"
+    "name": "Tokstyrka",
+    "effect": "Utföraren attackerar motståndaren med brutal kraft. Detta sänker dock även utförarens attack- och försvarsförmåga"
   },
   "magicCoat": {
-    "name": "Magimantel"
+    "name": "Magimantel",
+    "effect": "Tekniker som Parasitfrö och tekniker som orsakar tillståndspåverkan blockeras av en barriär och reflekteras tillbaka till utföraren av dessa tekniker."
   },
   "recycle": {
-    "name": "Återbruk"
+    "name": "Återbruk",
+    "effect": "Utföraren återvinner ett buret föremål som har använts i strid så att det kan användas igen."
   },
   "revenge": {
-    "name": "Hämnd"
+    "name": "Hämnd",
+    "effect": "Denna attacktekniks kraft fördubblas om utföraren har skadats av motståndaren i samma omgång."
   },
   "brickBreak": {
-    "name": "Tegelkrossare"
+    "name": "Tegelkrossare",
+    "effect": "Utföraren anfaller med ett snabbt hugg. Den kan också bryta barriärer, som Specialskärm och Fysiobarriär."
   },
   "yawn": {
-    "name": "Gäspning"
+    "name": "Gäspning",
+    "effect": "Utföraren gäspar enormt, vilket får motståndaren att somna under följande omgång."
   },
   "knockOff": {
-    "name": "Tapprapp"
+    "name": "Tapprapp",
+    "effect": "Utföraren rappar till motståndaren, vilket får den att tappa ett föremål som sedan inte kan användas i striden. Mer skada orsakas om motståndaren bär ett föremål."
   },
   "endeavor": {
-    "name": "Jämlikhets"
+    "name": "Jämlik-hets",
+    "effect": "Denna attackteknik sänker motståndarens HP till att vara jämlik med utförarens HP."
   },
   "eruption": {
-    "name": "Eruption"
+    "name": "Eruption",
+    "effect": "Utföraren attackerar motståndarna med explosiv ilska. Ju lägre utförarens HP är, desto lägre kraft har tekniken."
   },
   "skillSwap": {
-    "name": "Personlighetsbyte"
+    "name": "Personlighetsbyte",
+    "effect": "Utföraren använder sin psykiska kraft för att byta särdag med motståndaren."
   },
   "imprison": {
-    "name": "Försegling"
+    "name": "Försegling",
+    "effect": "Om motståndarna kan en eller fler tekniker som utföraren också kan, hindras de från att använda dem."
   },
   "refresh": {
     "name": "Förfriskning",
     "effect": "Utföraren vilar och läker därmed förgiftning, brännskada eller förlamning."
   },
   "grudge": {
-    "name": "Efterdyning"
+    "name": "Efterdyning",
+    "effect": "Om utföraren svimmar utarmas all KP från tekniken som besegrade den."
   },
   "snatch": {
-    "name": "Usurpation"
+    "name": "Usurpation",
+    "effect": "Utföraren stjäl effekterna av alla försök att använda en läkande eller förmågeändrande teknik."
   },
   "secretPower": {
-    "name": "Hemlig kraft"
+    "name": "Hemlig kraft",
+    "effect": "Bonuseffekterna av denna attack beror på var den utförs."
   },
   "dive": {
-    "name": "Dyk"
+    "name": "Dyk",
+    "effect": "Utföraren dyker ner första omgången för att sedan simma upp och attackera motståndaren följande omgång."
   },
   "armThrust": {
-    "name": "Handflatestötar"
+    "name": "Handflatestötar",
+    "effect": "Utföraren släpper lös en storm av stötar med öppna handflator som träffar 2-5 gånger i rad."
   },
   "camouflage": {
-    "name": "Kamouflage"
+    "name": "Kamouflage",
+    "effect": "Utförarens typ ändras beroende på dess omgivning, t.ex. vid vattenbryn, i gräs eller i en grotta."
   },
   "tailGlow": {
-    "name": "Eldflugeglöd"
+    "name": "Eldflugeglöd",
+    "effect": "Utföraren stirrar på blinkande ljus för att fokusera, vilket skarpt ökar des sp.atk-förmåga"
   },
   "lusterPurge": {
-    "name": "Lysterrening"
+    "name": "Renande lyster",
+    "effect": "Utföraren släpper lös ett skadligt, bländande ljussken. Detta kan också sänka motståndarens sp.fsv-förmåga."
   },
   "mistBall": {
-    "name": "Disboll"
+    "name": "Disboll",
+    "effect": "En dimliknande virvel omsluter och skadar motståndaren. Detta kan också sänka motståndarens sp. atk-förmåga."
   },
   "featherDance": {
-    "name": "Fjäderdans"
+    "name": "Fjäderdans",
+    "effect": "Utföraren täcker motståndarens kropp med en massa fjädrar som skarpt sänker dess attackförmåga."
   },
   "teeterDance": {
-    "name": "Virrvarrdans"
+    "name": "Virrvarrdans",
+    "effect": "Utföraren utför en vinglig dans som förvirrar alla pokémon runt den på fältet."
   },
   "blazeKick": {
     "name": "Brandspark",
     "effect": "En brinnande spark mot en motståndare. Den orsakar kritiska träffar oftare. Den kan också orsaka brännskada."
   },
   "mudSport": {
-    "name": "Smutskastning"
+    "name": "Smutskastning",
+    "effect": "Utföraren sparkar upp och kastar runt lera på stridsfältet. Detta försvagar alla elttyptekniker i 5 omgångar."
   },
   "iceBall": {
     "name": "Isklot",
     "effect": "Utföraren attackerar motståndaren med klot av is ständigt 5 omgångar i rad. Teknikens kraft ökar varje gång den träffar."
   },
   "needleArm": {
-    "name": "Taggarm"
+    "name": "Taggarm",
+    "effect": "Utföraren attackerar genom att vilt svinga sina taggiga armar. Detta kan också få motståndaren att rygga tillbaka."
   },
   "slackOff": {
-    "name": "Mikropaus"
+    "name": "Vilopaus",
+    "effect": "Utföraren vilar ett kort tag. Detta återställer dess HP med upp till 50% av dess max. HP"
   },
   "hyperVoice": {
-    "name": "Kakofoni"
+    "name": "Kakofoni",
+    "effect": "Utföraren utbrister ett fruktansvärt, ekande skrik som orsakar skada hos motståndarna."
   },
   "poisonFang": {
     "name": "Giftiga huggtänder",
@@ -1215,6 +1246,25 @@
   "airCutter": {
     "name": "Skärande vind",
     "effect": "Utföraren skickar ett vindil vass som en klinga för att skära en motståndare. Denna teknik orsakar kritiska träffar oftare."
+  },
+  "overheat": {
+    "name": "Överhettning"
+  },
+  "odorSleuth": {
+    "name": "Detektivnos",
+    "effect": "Gör så att spöktyppokémon kan träffas av normal- och slagsmålstypattacker. Mycket undvikande motståndare kan även träffas utan risk för miss."
+  },
+  "rockTomb": {
+    "name": "Bumlingbur"
+  },
+  "silverWind": {
+    "name": "Silverfjäll"
+  },
+  "metalSound": {
+    "name": "Metallgnissel"
+  },
+  "grassWhistle": {
+    "name": "Gräsvissla"
   },
   "shadowPunch": {
     "name": "Skuggnäve"
