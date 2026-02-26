@@ -7,7 +7,7 @@
       "3": "Hé, j’me souviens pas de ta tête. Combat !",
       "4": "J’ai perdu, alors j’essaye de capturer d’autres Pokémon.\nHé, t’as l’air faible toi ! Allez, combat !",
       "4_female": "J’ai perdu, alors j’essaye de capturer d’autres Pokémon.\nHé, t’as l’air faible toi ! Allez, combat !",
-      "5": "On s’connait ? J’ai comme un doute. Dans tous les cas, sympa de te rencontrer !",
+      "5": "On s’connait ? J’ai comme un doute.\nDans tous les cas, sympa de te rencontrer !",
       "6": "Allez, c’est parti !",
       "7": "Attention, me voilà !\nTu vas voir comment j’suis fort !",
       "8": "Coucou… Tu veux voir mes bô Pokémon ?",
@@ -1247,8 +1247,8 @@
       "1_female": "Ouais, un peu de respect, tu veux ?\nTu sais à qui t’as affaire ?",
       "2": "Notre comité d’accueil va pas te faire de cadeau !\nHasta la vistaaar ! ★",
       "3": "Tu peux aller voir ailleurs si j’y suis ?$Si tu refuses, je m’autorise à faire valoir mes droits de légitime défense, je te préviens !",
-      "4": "Désolé, mais si tu refuses de partir, on sera obligés de t’y forcer, et ça sera pas joli joli.",
-      "4_female": "Désolé, mais si tu refuses de partir, on sera obligés de t’y forcer, et ça sera pas joli joli.",
+      "4": "Désolé, mais si tu refuses de partir, on sera obligés\nde t’y forcer, et ça sera pas joli joli.",
+      "4_female": "Désolé, mais si tu refuses de partir, on sera obligés\nde t’y forcer, et ça sera pas joli joli.",
       "5": "Quoi ? Toi aussi, t’es venu me casser les pieds ?\nC’est vraiment pas ma journée…",
       "5_female": "Quoi ? Toi aussi, t’es venue me casser les pieds ?\nC’est vraiment pas ma journée…"
     },
@@ -1308,7 +1308,7 @@
   "eri": {
     "encounter": {
       "1": "J’ignore tes intentions, mais mon rôle est d’anéantir quiconque s’attaque à la Team Star !",
-      "2": "Si on m’attaque, je riposte ! Nous verrons bien qui de nous deux restera debout à la fin !"
+      "2": "Si on m’attaque, je riposte ! Nous verrons bien\nqui de nous deux restera debout à la fin !"
     },
     "victory": {
       "1": "Les amis…\nJe suis désolée…",
@@ -1672,7 +1672,7 @@
     "encounter": {
       "1": "Mon expertise des types Roche va te mettre au sol !\nEn garde !",
       "2": "Tu veux toujours te battre avec moi ? Même en sachant que tu vas perdre ?",
-      "3": "Laisse-moi de montrer la véritable force\nde mes Pokémon Roche !"
+      "3": "Laisse-moi de montrer la véritable\nforce de mes Pokémon Roche !"
     },
     "victory": {
       "1": "J’étais trop sûr de moi, c’est pour ça que j’ai perdu.",
@@ -1689,7 +1689,7 @@
     "encounter": {
       "1": "Ma tactique ? Attaquer avec des Pokémon Eau !",
       "1_female": "Ma tactique ? Attaquer avec des Pokémon Eau !",
-      "2": "Je vais te prouver le tsunami que sont mes Pokémon aquatiques !",
+      "2": "Je vais te prouver le tsunami que sont\nmes Pokémon aquatiques !",
       "3": "Mon rêve, c’était de voyager et de défier des Dresseurs super forts. Seras-tu à la hauteur ?"
     },
     "victory": {
@@ -3465,7 +3465,7 @@
   },
   "rivalFemale": {
     "encounter": {
-      "1": "@c{smile_wave}Ah, te voilà ! Je t’ai cherché partout !\n@c{angry_mopen}On oublie de dire au revoir à sa meilleure amie ?$@c{smile_ehalf}T’as décidé de réaliser ton rêve, hein ?\nCe jour est donc vraiment arrivé…$@c{smile}Je veux bien te pardonner de m’avoir oubliée,\nà une condition. @c{smile_wave_wink}Que tu m’affronte !$@c{angry_mopen}Donne tout ! Ce serait dommage que ton aventure finisse avant d’avoir commencé, hein ?"
+      "1": "@c{smile_wave}Ah, te voilà ! Je t’ai cherché partout !\n@c{angry_mopen}On oublie de dire au revoir à sa meilleure amie ?$@c{smile_ehalf}T’as décidé de réaliser ton rêve, hein ?\nCe jour est donc vraiment arrivé…$@c{smile}Je veux bien te pardonner de m’avoir oubliée,\nà une condition. @c{smile_wave_wink}Que tu m’affronte !$@c{angry_mopen}Donne tout ! Ce serait dommage que ton aventure\nfinisse avant d’avoir commencé, hein ?"
     },
     "victory": {
       "1": "@c{shock}Tu viens de commencer et t’es déjà si fort ?!@d{96}\n@c{angry}T’as triché non ? Avoue !$@c{smile_wave_wink}J’déconne !@d{64} @c{smile_eclosed}J’ai perdu dans les règles…\nJ’ai le sentiment que tu vas très bien t’en sortir.$@c{smile}D’ailleurs, le prof veut que je te donne ces quelques objets. Ils te seront utiles, pour sûr !$@c{smile_wave}Fais de ton mieux, comme toujours !\nJe crois fort en toi !"
@@ -3481,10 +3481,10 @@
   },
   "rival2Female": {
     "encounter": {
-      "1": "@c{smile_wave}Hé, sympa de te croiser ici. T’as toujours l’air invaincu. @c{angry_mopen}Eh… Pas mal !$@c{angry_mopen}Je sais à quoi tu penses et non, je t’espionne pas.\n@c{smile_eclosed}C’est juste que j’étais aussi dans le coin.$@c{smile_ehalf}Heureuse pour toi, mais je veux juste te rappeler que c’est pas grave de perdre parfois.$@c{smile}On apprend de nos erreurs, souvent plus que si on ne connaissait que le succès.$@c{angry_mopen}Dans tous les cas je me suis bien entrainée pour cette revanche, t’as intérêt à tout donner !"
+      "1": "@c{smile_wave}Hé, sympa de te croiser ici.\nT’as toujours l’air invaincu.$@c{angry_mopen}Eh… Pas mal !$@c{angry_mopen}Je sais à quoi tu penses et non, je t’espionne pas.\n@c{smile_eclosed}C’est juste que j’étais aussi dans le coin.$@c{smile_ehalf}Heureuse pour toi, mais je veux juste te rappeler que c’est pas grave de perdre parfois.$@c{smile}On apprend de nos erreurs, souvent plus que si on ne connaissait que le succès.$@c{angry_mopen}Dans tous les cas je me suis bien entrainée pour cette revanche, t’as intérêt à tout donner !"
     },
     "victory": {
-      "1": "@c{neutral}Je… J’étais pas encore supposée perdre…$@c{smile}Bon. Ça veut juste dire que je vais devoir\nencore plus m’entrainer !$@c{smile_wave}J’ai aussi ça en rab pour toi !\n@c{smile_wave_wink}Inutile de me remercier ~.$@c{angry_mopen}C’étaient les derniers, terminé les cadeaux après ceux-là !$@c{smile_wave}Allez, tiens le coup !"
+      "1": "@c{neutral}Je… J’étais pas encore supposée perdre…$@c{smile}Bon. Ça veut juste dire que je vais\ndevoir encore plus m’entrainer !$@c{smile_wave}J’ai aussi ça en rab pour toi !\n@c{smile_wave_wink}Inutile de me remercier ~.$@c{angry_mopen}C’étaient les derniers, terminé les cadeaux après ceux-là !$@c{smile_wave}Allez, tiens le coup !"
     },
     "defeat": {
       "1": "Je suppose que c’est parfois normal de perdre…"
