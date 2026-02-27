@@ -253,7 +253,7 @@
   },
   "peck": {
     "name": "Hacka",
-    "effect": "Motståndaren sticks med en vass näbb eller ett horn."
+    "effect": "Motståndaren pickas med en vass näbb eller ett horn."
   },
   "drillPeck": {
     "name": "Hackborr",
@@ -736,7 +736,7 @@
     "effect": "Utföraren skrämmer motståndaren med ett läskigt ansikte för att skarpt sänka dess snabbhet."
   },
   "feintAttack": {
-    "name": "Fint",
+    "name": "Smygattack",
     "effect": "Utföraren närmar sig motståndaren oskyldigt och slår sedan den med ett oväntat slag. Denna attack missar aldrig."
   },
   "sweetKiss": {
@@ -969,7 +969,7 @@
   },
   "mirrorCoat": {
     "name": "Spegelställ",
-    "effect": "En vedergällningsteknik som kontrar speciella attacker genom att orsaka dubbel så mycket skada på motståndaren."
+    "effect": "En hämndteknik som kontrar speciella attacker genom att orsaka dubbel så mycket skada på motståndaren."
   },
   "psychUp": {
     "name": "Somatisk empati",
@@ -1448,10 +1448,59 @@
     "effect": "Om motståndarens HP är 50% eller mindre kommer denna attack att ha dubbel kraft."
   },
   "naturalGift": {
-    "name": "Naturens gåva"
+    "name": "Naturens gåva",
+    "effect": "Utföraren inhämtar kraft för att attackera genom att äta ett buret bär. Bäret avgör teknikens typ och kraft."
+  },
+  "feint": {
+    "name": "Fint",
+    "effect": "Denna attack kan träffa en motståndare som utför en teknik som Skyddsköld eller Parering. Detta tar även bort effekterna av dessa tekniker."
+  },
+  "pluck": {
+    "name": "Pick-o-plock",
+    "effect": "Utföraren pickar på motståndaren. Om motståndaren bär på ett bär, äter utföraren det och får dess effekt."
   },
   "tailwind": {
-    "name": "Medvind"
+    "name": "Medvind",
+    "effect": "Utföraren piskar upp en turbulent vind som ökar snabbhet hos utföraren och lagmedlemmen vid dess sida i 4 omgångar."
+  },
+  "acupressure": {
+    "name": "Akupressur",
+    "effect": "Utföraren applicerar tryck på en kroppspunkt, vilket skarpt ökar en förmåga hos den eller den vid dess sida i strid."
+  },
+  "metalBurst": {
+    "name": "Metallknall",
+    "effect": "Utföraren hämnas med mycket större kraft på motståndaren som senast orsakade den skada."
+  },
+  "uTurn": {
+    "name": "Sländevändning",
+    "effect": "Efter att ha utfört attacken skyndar sig utföraren tillbaka för att byta plats med en avbytare."
+  },
+  "closeCombat": {
+    "name": "Närkamp",
+    "effect": "Utföraren slår motståndaren på nära håll utan att skydda sig själv. Detta sänker också utförarens försvars- och sp. fsv-förmåga."
+  },
+  "payback": {
+    "name": "Vedergällning",
+    "effect": "Utföraren lagrar kraft och attackerar sedan. Om utföraren utför sin teknik efter motståndaren fördubblas kraften."
+  },
+  "assurance": {
+    "name": "Saltisårsmäll",
+    "effect": "Om motståndaren redan har tagit skada under samma omgång fördubblas denna attacks kraft."
+  },
+  "embargo": {
+    "name": "Beslag",
+    "effect": "Denna teknik hindrar motståndaren från att använda sina burna föremål i 5 omgångar."
+  },
+  "fling": {
+    "name": "Redskapskast",
+    "effect": "Utföraren kastar ett buret föremål på motståndaren för att attackera. Teknikens kraft och effekt beror på föremålet."
+  },
+  "psychoShift": {
+    "name": "Psykoskifte",
+    "effect": "Genom att använda psykisk suggestionskraft överför utföraren sin tillståndspåverkan till motståndaren."
+  },
+  "trumpCard": {
+    "name": "Trumf"
   },
   "copycat": {
     "name": "Härmapa"
