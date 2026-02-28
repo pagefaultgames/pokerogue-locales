@@ -14,7 +14,7 @@
   "trainerDefeated": "你击败了\n{{trainerName}}！",
   "moneyWon": "你赢得了\n₽{{moneyAmount}}！",
   "moneyPickedUp": "捡到了₽{{moneyAmount}}！",
-  "pokemonCaught": "{{pokemonName}}被抓住了！",
+  "pokemonCaught": "太好了！\n捉到{{pokemonName}}了！",
   "pokemonCaughtButChallenge": "抓到了{{pokemonName}}！\n但是因为挑战限制无法加入队伍。",
   "pokemonObtained": "你获得了{{pokemonName}}！",
   "pokemonBrokeFree": "噢不！\n宝可梦挣脱了！",
@@ -53,7 +53,7 @@
   "moveDisabled": "{{moveName}}被禁用！",
   "moveDisabledTorment": "{{pokemonNameWithAffix}}遭到了无理取闹，\n因此无法继续使出相同的招式！",
   "moveDisabledTaunt": "{{pokemonNameWithAffix}}受到了挑衅，无法使出{{moveName}}！",
-  "moveDisabledHealBlock": "{{pokemonNameWithAffix}}由于{{healBlockName}}而无法使出{{moveName}}！",
+  "moveDisabledHealBlock": "{{pokemonNameWithAffix}}的回复被阻止了，所以它不能使出{{moveName}}！",
   "moveDisabledImprison": "{{pokemonNameWithAffix}}因封印而无法使出{{moveName}}！",
   "moveDisabledConsecutive": "不能连续使出２次{{moveName}}！",
   "moveDisabledBelch": "{{pokemonNameWithAffix}}\n因没有吃树果而无法使出招式！",
@@ -123,7 +123,5 @@
   "beatModeFirstTime": "{{speciesName}}首次击败了{{gameMode}}！\n你获得了{{newModifier}}！",
   "ppReduced": "降低了{{targetName}}的\n{{moveName}}的PP{{reduction}}点！",
   "mysteryEncounterAppeared": "这是什么？",
-  "battlerTagsHealBlock": "{{pokemonNameWithAffix}}无法回复其生命！",
-  "battlerTagsHealBlockOnRemove": "{{pokemonNameWithAffix}}可以回复其生命了！",
   "pokemonTerastallized": "{{pokemonNameWithAffix}} 太晶化成了 {{type}}属性！"
 }

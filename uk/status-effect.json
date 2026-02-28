@@ -1,0 +1,60 @@
+{
+  "none": {
+    "name": "Нема"
+  },
+  "poison": {
+    "name": "Отруїний",
+    "description": "отруєний",
+    "obtain": "{{pokemonNameWithAffix}} отруївся(-лася)!",
+    "obtainSource": "{{pokemonNameWithAffix}} отруївся (-лася) {{sourceText}}!",
+    "activation": "{{pokemonNameWithAffix}} страждає від отруєння!",
+    "overlap": "{{pokemonNameWithAffix}} і так під дією отрути!",
+    "heal": "{{pokemonNameWithAffix}} відновився(-лася)  від отруєння!"
+  },
+  "toxic": {
+    "name": "Токсичний Яд",
+    "description": "отруєння",
+    "obtain": "{{pokemonNameWithAffix}} сильно отруївся(-лася)!",
+    "obtainSource": "{{pokemonNameWithAffix}} сильно отруївся(-лася) {{sourceText}}!",
+    "activation": "{{pokemonNameWithAffix}} страждає від отруєння!",
+    "overlap": "{{pokemonNameWithAffix}} і так під дією отруєння!",
+    "heal": "{{pokemonNameWithAffix}} відновився(-лася)  від отруєння!"
+  },
+  "paralysis": {
+    "name": "Параліч",
+    "description": "Параліч",
+    "obtain": "{{pokemonNameWithAffix}} паралізувало! Тепер він(вона) не може нормально рухатися! ",
+    "obtainSource": "{{pokemonNameWithAffix}} був(-ла) паралізований(-а) {{sourceText}}!! Тепер він(вона) не може нормально рухатися!",
+    "activation": "{{pokemonNameWithAffix}} паралізувало! Не може діяти!",
+    "overlap": "{{pokemonNameWithAffix}} і так під дією паралізму!",
+    "heal": "{{pokemonNameWithAffix}} відновився(-лася)  від паралізму!"
+  },
+  "sleep": {
+    "name": "Сон",
+    "description": "спить",
+    "obtain": "{{pokemonNameWithAffix}} заснув(-ла)!",
+    "obtainSource": "{{pokemonNameWithAffix}} заснув(-ла) через  {{sourceText}}!",
+    "activation": "{{pokemonNameWithAffix}} міцно спить.",
+    "overlap": "{{pokemonNameWithAffix}} і так спить!",
+    "heal": "{{pokemonNameWithAffix}} прокинувся!"
+  },
+  "freeze": {
+    "name": "Заморозка",
+    "description": "заморозка",
+    "obtain": "{{pokemonNameWithAffix}} заморозився(-лася)!",
+    "obtainSource": "{{pokemonNameWithAffix}} замерз(-ла) через {{sourceText}}!",
+    "activation": "{{pokemonNameWithAffix}} заморожений(-а) на кістку!",
+    "overlap": "{{pokemonNameWithAffix}} вже нагадує крижану статую!",
+    "heal": "{{pokemonNameWithAffix}} розморожився(-лася)!",
+    "healByMove": "{{moveName}} {{pokemonNameWithAffix}} розморожує його(її)!"
+  },
+  "burn": {
+    "name": "Горить",
+    "description": "горить",
+    "obtain": "{{pokemonNameWithAffix}} охопив вогонь!",
+    "obtainSource": "{{pokemonNameWithAffix}} загоряється через {{sourceText}}!",
+    "activation": "{{pokemonNameWithAffix}} страждає від опіків!",
+    "overlap": "{{pokemonNameWithAffix}} і так горить!",
+    "heal": "{{pokemonNameWithAffix}} потушився(-лася)!"
+  }
+}

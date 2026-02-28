@@ -1,0 +1,60 @@
+{
+  "none": {
+    "name": "ไม่มี"
+  },
+  "poison": {
+    "name": "พิษ",
+    "description": "พิษ",
+    "obtain": "{{pokemonNameWithAffix}}\nติดพิษ!",
+    "obtainSource": "{{pokemonNameWithAffix}}\nติดพิษด้วยผลของ {{sourceText}}!",
+    "activation": "{{pokemonNameWithAffix}} ได้รับความเสียหาย\nจากผลของสถานะพิษ!",
+    "overlap": "{{pokemonNameWithAffix}} ติด\nสถานะพิษอยู่แล้ว!",
+    "heal": "{{pokemonNameWithAffix}} ฟื้นฟู\nจากการติดสถานะพิษแล้ว!"
+  },
+  "toxic": {
+    "name": "พิษร้ายแรง",
+    "description": "พิษ",
+    "obtain": "{{pokemonNameWithAffix}}\nติดพิษร้ายแรง!",
+    "obtainSource": "{{pokemonNameWithAffix}}\nติดพิษร้ายแรงด้วยผลของ {{sourceText}}!",
+    "activation": "{{pokemonNameWithAffix}} ได้รับความเสียหาย\nจากผลของสถานะพิษ!",
+    "overlap": "{{pokemonNameWithAffix}} ติด\nสถานะพิษอยู่แล้ว!",
+    "heal": "{{pokemonNameWithAffix}} ฟื้นฟู\nจากการติดสถานะพิษแล้ว!"
+  },
+  "paralysis": {
+    "name": "อัมพาต",
+    "description": "อัมพาต",
+    "obtain": "{{pokemonNameWithAffix}} ติดอัมพาต,\nมันอาจจะไม่สามารถออกท่าต่อสู้ได้!",
+    "obtainSource": "{{pokemonNameWithAffix}} ติดอัมพาตด้วยผลของ {{sourceText}}!\nมันอาจจะไม่สามารถออกท่าต่อสู้ได้!",
+    "activation": "{{pokemonNameWithAffix}} เป็นอัมพาต!\nมันไม่สามารถออกท่าต่อสู้ได้!",
+    "overlap": "{{pokemonNameWithAffix}} ติด\nสถานะอัมพาตอยู่แล้ว!",
+    "heal": "{{pokemonNameWithAffix}} ได้รับ\nการรักษาจากสถานะอัมพาตแล้ว!"
+  },
+  "sleep": {
+    "name": "หลับ",
+    "description": "หลับ",
+    "obtain": "{{pokemonNameWithAffix}}\nหลับไปแล้ว!",
+    "obtainSource": "{{pokemonNameWithAffix}}\nหลับสนิทด้วยผลของ {{sourceText}}!",
+    "activation": "{{pokemonNameWithAffix}} หลับสนิท",
+    "overlap": "{{pokemonNameWithAffix}} ติด\nสถานะหลับอยู่แล้ว!",
+    "heal": "{{pokemonNameWithAffix}} ตื่นขึ้น!"
+  },
+  "freeze": {
+    "name": "แช่แข็ง",
+    "description": "แช่แข็ง",
+    "obtain": "{{pokemonNameWithAffix}}\nถูกแช่แข็ง!",
+    "obtainSource": "{{pokemonNameWithAffix}}\nถูกแช่แข็งด้วยผลของ {{sourceText}}!",
+    "activation": "{{pokemonNameWithAffix}} หยุดนิ่ง\nจากสถานะแช่แข็ง!",
+    "overlap": "{{pokemonNameWithAffix}} ติด\nสถานะแช่แข็งอยู่แล้ว!",
+    "heal": "{{pokemonNameWithAffix}} หาย\nจากการติดสถานะแช่แข็งแล้ว!",
+    "healByMove": "{{pokemonNameWithAffix}} ใช้ท่า {{moveName}}\nละลายน้ำแข็งได้แล้ว!"
+  },
+  "burn": {
+    "name": "เผา",
+    "description": "เผา",
+    "obtain": "{{pokemonNameWithAffix}}\nถูกเผา!",
+    "obtainSource": "{{pokemonNameWithAffix}}\nถูกเผาด้วยผลของ {{sourceText}}!",
+    "activation": "{{pokemonNameWithAffix}} ได้รับความเสียหาย\nจากผลของสถานะเผา!",
+    "overlap": "{{pokemonNameWithAffix}} ติด\nสถานะเผาอยู่แล้ว!",
+    "heal": "{{pokemonNameWithAffix}} ได้รับ\nการรักษาจากสถานะเผาแล้ว!"
+  }
+}

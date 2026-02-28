@@ -1,1 +1,26 @@
-{}
+{
+  "intro": "你遭遇了一場煙灰風暴！",
+  "title": "熾熱餘波",
+  "description": "呼嘯的火山灰和餘燼\n使能見度幾乎為零。\n看來可能有什麼…東西\n造成了這種狀況。\n但到底會是什麼呢？",
+  "query": "你要怎麼做？",
+  "option": {
+    "1": {
+      "label": "找到源頭",
+      "tooltip": "(?)尋找源頭\n(-)困難的戰鬥\n(+)獲得攜帶道具",
+      "selected": "你衝破風暴，發現兩隻{{volcaronaName}}正在相互求偶！$它們很不情願被打擾，併發起了攻擊！"
+    },
+    "2": {
+      "label": "原地趴下",
+      "tooltip": "(-)忍受天氣的影響\n(?)影響一隻寶可夢的特性",
+      "selected": "極端天氣在你尋找庇護所時對你造成了嚴重的傷害！$隊伍受到最大生命值20%的傷害！",
+      "targetBurned": "你的{{burnedPokemon}}還被灼傷了！\n然而，熬過困境使得你{{burnedPokemon}}的特性變為了{{abilityName}}！"
+    },
+    "3": {
+      "label": "讓抗火的寶可夢幫忙",
+      "tooltip": "(+)解決困境\n(+)獲得攜帶道具",
+      "disabledTooltip": "你需要一隻火系寶可夢或\n有指定特性的寶可夢才能選擇",
+      "selected": "你的{{option3PrimaryName}}引導你發現了\n兩隻{{volcaronaName}}正在求偶起舞的地方！$幸運的是，你的寶可夢能夠讓它們平靜下來，\n然後它們就平安離開了"
+    }
+  },
+  "foundItem": "天氣轉晴后，你的{{leadPokemon}}沾上了什麼東西。\n@s{item_fanfare}{{leadPokemon}}獲得了{{itemName}}！"
+}

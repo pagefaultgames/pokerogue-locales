@@ -1,1 +1,25 @@
-{}
+{
+  "intro": "寶可夢附近的地上\n有閃閃發光的東西！",
+  "title": "戰逃反應",
+  "description": "似乎有強大的寶可夢守護着這一道具。\n戰鬥是最直接的方法，但是\n它的實力似乎不容小覷。\n如果你有合適的寶可夢，\n似乎也可以直接偷走它。",
+  "query": "你要怎麼做？",
+  "option": {
+    "1": {
+      "label": "戰鬥",
+      "tooltip": "(-)困難的戰鬥\n(+)新道具",
+      "selected": "你無所畏懼的走向寶可夢。",
+      "statBoost": "{{enemyPokemon}}的潛在實力提升了它的一項能力！"
+    },
+    "2": {
+      "label": "竊取物品",
+      "disabledTooltip": "你的寶可夢需要習得\n特定的招式來選擇。",
+      "tooltip": "(+){{option2PrimaryName}}使用{{option2PrimaryMove}} ",
+      "selected": ".@d{32}.@d{32}.@d{32}$你的{{option2PrimaryName}}願意幫忙，並使用了{{option2PrimaryMove}}！$你偷走了道具！"
+    },
+    "3": {
+      "label": "離開",
+      "tooltip": "(-)無獎勵",
+      "selected": "你讓那個寶可夢留着屬於它的果子\n繼續上路了。"
+    }
+  }
+}

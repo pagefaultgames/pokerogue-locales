@@ -14,6 +14,19 @@
         "tooMany": "{{pokemonName}} buna fazlasıyla\nsahip!"
       }
     },
+    "PokemonHpRestoreModifierType": {
+      "description": "Hangisinin daha yüksek olduğuna göre bir Pokémon’un canını {{restorePoints}} SP veya %{{restorePercent}} SP yeniler.",
+      "extra": {
+        "fully": "Bir Pokémon’un SP’sini tamamen yeniler.",
+        "fullyWithStatus": "Bir Pokémon’un SP’sini tamamen yeniler ve durum etkilerini iyileştirir."
+      }
+    },
+    "PokemonReviveModifierType": {
+      "description": "Bir Pokémon’u canlandırır ve SP’sini %{{restorePercent}} yeniler."
+    },
+    "PokemonStatusHealModifierType": {
+      "description": "Bir Pokémon’un durum etkilerini iyileştirir."
+    },
     "TmModifierType": {
       "name": "TM{{moveId}} - {{moveName}}"
     },
@@ -80,6 +93,15 @@
     },
     "PP_MAX": {
       "name": "Maks. GP"
+    },
+    "LURE": {
+      "name": "Yem"
+    },
+    "SUPER_LURE": {
+      "name": "Süper Yem"
+    },
+    "MAX_LURE": {
+      "name": "Maks. Yem"
     },
     "MEMORY_MUSHROOM": {
       "name": "Hatırlama Mantarı",

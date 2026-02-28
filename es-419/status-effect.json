@@ -1,0 +1,45 @@
+{
+  "poison": {
+    "obtain": "¡{{pokemonNameWithAffix}}\nfue envenenado!",
+    "obtainSource": "¡{{pokemonNameWithAffix}}\nfue envenenado por {{sourceText}}!",
+    "activation": "¡El veneno resta PS a {{pokemonNameWithAffix}}!",
+    "overlap": "¡{{pokemonNameWithAffix}} ya\nestá envenenado!",
+    "heal": "¡{{pokemonNameWithAffix}} ya no\nestá envenenado!"
+  },
+  "toxic": {
+    "obtain": "¡{{pokemonNameWithAffix}}\nfue gravemente envenenado!",
+    "obtainSource": "¡{{pokemonNameWithAffix}}\nfue gravemente envenenado por {{sourceText}}!",
+    "activation": "¡El veneno resta PS a {{pokemonNameWithAffix}}!",
+    "overlap": "¡{{pokemonNameWithAffix}} ya\nestá envenenado!",
+    "heal": "¡{{pokemonNameWithAffix}} ya no\nestá envenenado!"
+  },
+  "paralysis": {
+    "obtain": "¡{{pokemonNameWithAffix}} sufre parálisis!\nQuizás no se pueda mover.",
+    "obtainSource": "¡{{pokemonNameWithAffix}} sufre parálisis por {{sourceText}}!\nQuizás no se pueda mover.",
+    "activation": "¡{{pokemonNameWithAffix}} está paralizado!\n¡No se puede mover!",
+    "overlap": "¡{{pokemonNameWithAffix}} ya\nestá paralizado!",
+    "heal": "¡{{pokemonNameWithAffix}} se curó\nde la parálisis!"
+  },
+  "sleep": {
+    "obtain": "¡{{pokemonNameWithAffix}}\nse durmió!",
+    "obtainSource": "¡{{pokemonNameWithAffix}} se durmió\npor culpa de {{sourceText}}!",
+    "activation": "¡{{pokemonNameWithAffix}} está\ndormido como un tronco!",
+    "overlap": "¡{{pokemonNameWithAffix}} ya\nestá dormido!",
+    "heal": "{{pokemonNameWithAffix}} se despertó."
+  },
+  "freeze": {
+    "obtain": "¡{{pokemonNameWithAffix}}\nfue congelado!",
+    "obtainSource": "¡{{pokemonNameWithAffix}}\nfue congelado por {{sourceText}}!",
+    "activation": "¡{{pokemonNameWithAffix}} está congelado!\nNo se puede mover.",
+    "overlap": "¡{{pokemonNameWithAffix}} ya\nestá congelado!",
+    "heal": "¡{{pokemonNameWithAffix}} ya\nno está congelado!",
+    "healByMove": "¡{{pokemonNameWithAffix}} derritió\nel hielo con {{moveName}}!"
+  },
+  "burn": {
+    "obtain": "¡{{pokemonNameWithAffix}}\nse quemó!",
+    "obtainSource": "¡{{pokemonNameWithAffix}}\nse quemó por {{sourceText}}!",
+    "activation": "¡{{pokemonNameWithAffix}} recibe daño\npor las quemaduras!",
+    "overlap": "¡{{pokemonNameWithAffix}} ya\nestá quemado!",
+    "heal": "¡{{pokemonNameWithAffix}} ya no\nestá quemado!"
+  }
+}

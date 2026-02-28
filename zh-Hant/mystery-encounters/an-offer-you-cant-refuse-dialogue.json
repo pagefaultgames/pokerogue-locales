@@ -1,1 +1,26 @@
-{}
+{
+  "intro": "一名看上去就很有錢的小男孩攔住了你。",
+  "speaker": "富家子弟",
+  "introDialogue": "向你問好。$你的{{strongestPokemon}}看起來舉世無雙，我挪不開我的眼睛了！\n我一直也想要一隻那樣的寶可夢！$你的報酬不會少的，\n這個老傢伙也可以送給你！",
+  "title": "難以拒絕的買賣",
+  "description": "對方願意為了你的{{strongestPokemon}}\n出一個@[TOOLTIP_TITLE]{ {{itemName}}}和{{price, money}}。\n這交易非常划算，但是你真的捨得\n送走如此強大的夥伴嗎？",
+  "query": "你要怎麼做？",
+  "option": {
+    "1": {
+      "label": "接受交易",
+      "tooltip": "(-)失去{{strongestPokemon}}\n(+)獲得一個@[TOOLTIP_TITLE]{ {{itemName}}}\n(+)獲得{{price, money}}",
+      "selected": "太棒了！@d{32}過來吧，{{strongestPokemon}}！$現在是時候向遊艇俱樂部的那幫小子炫耀一番了！$他們肯定得酸爆了！"
+    },
+    "2": {
+      "label": "敲詐他",
+      "tooltip": "(+){{option2PrimaryName}}使用{{moveOrAbility}}\n(+)獲得{{price, money}}",
+      "tooltipDisabled": "你的寶可夢需要具備某些\n特性或招式才能選擇此項",
+      "selected": "我的天，你搶劫我。{{liepardName}}，走了！$我要找律師告你！"
+    },
+    "3": {
+      "label": "離開",
+      "tooltip": "(-)無獎勵",
+      "selected": "真夠跌份兒的……$啊，好吧。那我們回遊艇吧，{{liepardName}}。"
+    }
+  }
+}

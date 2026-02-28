@@ -1,1 +1,21 @@
-{}
+{
+  "intro": "眼前是一個巨大的{{shuckleName}}而看起來\n有一大壺……果汁？",
+  "title": "滿滿當當",
+  "description": "擋住你去路的{{shuckleName}}\n看起來異常強大。與此同時，它旁邊的果汁\n散發著某種力量。\n\n{{shuckleName}}向你伸出了觸角。\n它似乎想做些什麼……",
+  "query": "你要怎麼做？",
+  "option": {
+    "1": {
+      "label": "接近{{shuckleName}}",
+      "tooltip": "(?)可能會發生一些\n可怕或驚奇的事情",
+      "selected": "你眼前一黑",
+      "selected2": "@f{150}當你醒來時，{{shuckleName}}不見了。\n並且壺裡的果汁完全耗盡。${{highBstPokemon1}}和{{highBstPokemon2}}\n覺得一陣可怕的無力感襲來！$他們的基礎屬性減少了{{reductionValue}}！$然而，你剩下的神奇寶貝卻感到精力充沛！\n他們的基礎屬性增加了{{increaseValue}}！"
+    },
+    "2": {
+      "label": "與{{shuckleName}}戰鬥",
+      "tooltip": "(-)艱難的戰鬥\n(+)特別的獎勵",
+      "selected": "{{shuckleName}}被激怒了，它喝了一些果汁併發起了攻擊！",
+      "statBoost": "{{shuckleName}}的果汁提升了它的能力！"
+    }
+  },
+  "outro": "好詭異的一回啊。"
+}

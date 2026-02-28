@@ -1,1 +1,27 @@
-{}
+{
+  "intro": "一夥{{delibirdName}}出現了！",
+  "title": "信使鳥快遞",
+  "description": "{{delibirdName}}滿懷期待地看着你，\n它們好像想要什麼東西。\n\n給它們一件道具或一些錢的話\n會不會讓它們滿意呢？",
+  "query": "你要給它們什麼？",
+  "invalidSelection": "寶可夢身上並沒有那種道具。",
+  "option": {
+    "1": {
+      "label": "給錢",
+      "tooltip": "(-)給予{{delibirdName}}們{{money, money}}\n(+)獲得一件禮物",
+      "selected": "你向{{delibirdName}}們扔了點錢，\n它們興奮地互相嚷嚷着。$信使鳥們轉向你並高興地給你一份禮物！"
+    },
+    "2": {
+      "label": "給吃的",
+      "tooltip": "(-)給予{{delibirdName}}們\n樹果或復活之種\n(+)獲得一件禮物",
+      "selectPrompt": "選擇要給予的道具",
+      "selected": "你向{{delibirdName}}們扔了點{{chosenItem}}，\n它們興奮地互相嚷嚷着。$信使鳥們轉向你並高興地給你一份禮物！"
+    },
+    "3": {
+      "label": "給道具",
+      "tooltip": "(-)給予{{delibirdName}}一件道具\n(+)獲得一件禮物",
+      "selectPrompt": "選擇要給予的道具",
+      "selected": "你向{{delibirdName}}們扔了點{{chosenItem}}，\n它們興奮地互相嚷嚷着。$信使鳥們轉向你並高興地給你一份禮物！"
+    }
+  },
+  "outro": "{{delibirdName}}們興高采烈地搖擺着，走向遠方。$多麼有趣的小交易！"
+}
