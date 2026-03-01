@@ -1540,32 +1540,72 @@
     "effect": "Utföraren använder psykisk kraft för byta alla försvar- och sp.fsv-förmågeändringar med motståndaren."
   },
   "punishment": {
-    "name": "Avhyvling"
+    "name": "Avhyvling",
+    "effect": "Ju mer motståndaren har gjort sig starkare med förmågeändringar, desto större blir denna tekniks kraft."
   },
   "lastResort": {
-    "name": "Dolt vapen"
+    "name": "Dolt vapen",
+    "effect": "Denna teknik kan endast användas efter att utföraren har, under striden, använt de andra 3 teknikerna den känner till."
   },
   "worrySeed": {
-    "name": "Orosfrö"
+    "name": "Orosfrö",
+    "effect": "Ett frö som orsakar oro planteras på motståndaren. Fröt förhindrar sömn genom att ändra motståndarens särdrag till Sömnlös."
+  },
+  "suckerPunch": {
+    "name": "Överraskningsdask",
+    "effect": "Denna teknik gör det möjligt för utföraren att attackera först. Denna teknik misslyckas om motståndaren inte förbereder en attack."
   },
   "toxicSpikes": {
-    "name": "Giftanglar"
+    "name": "Giftanglar",
+    "effect": "Utföraren sprider giftiga fotanglar runt motståndarnas fötter. Spikarna förgiftar motståndare som går in i strid."
+  },
+  "heartSwap": {
+    "name": "Energiöverföring",
+    "effect": "Utföraren använder psykisk kraft för att byta sina förmågeändringar med motståndarens."
+  },
+  "aquaRing": {
+    "name": "Akvakrets",
+    "effect": "Utföraren täcks av en sfär gjord av vatten. Den återställer lite HP varje omgång."
+  },
+  "magnetRise": {
+    "name": "Magnetsvävning",
+    "effect": "Utföraren svävar med hjälp av elektriskt genererad magnetism i 5 omgångar."
+  },
+  "flareBlitz": {
+    "name": "Brisant eldkrasch",
+    "effect": "Utföraren tuttar eld på sig själv och tacklar motståndaren. Detta skadar utföraren en hel del. Denna attack kan ge motståndaren en brännskada."
   },
   "forcePalm": {
-    "effect": "Motståndaren attackeras med en chockvåg. Detta kan också förlama motståndaren."
+    "name": "Fājìn-stöt",
+    "effect": "Utföraren skickar en chockvåg genom motståndarens kropp genom inre kroppsenergi. Detta kan också förlama motståndaren."
   },
   "auraSphere": {
-    "name": "Aurapulsering"
+    "name": "Aurapulsering",
+    "effect": "Utföraren släpper lös en explosion av aurakraft från djupet av sin kropp mot motståndaren. Denna attack missar aldrig."
+  },
+  "rockPolish": {
+    "name": "Stenpolering",
+    "effect": "Utföraren polerar sin kropp för att sänka luftmotståndet. Detta ökar snabbhets skarpt."
   },
   "poisonJab": {
-    "effect": "Detta kan också förgifta motståndaren."
+    "name": "Gifthugg",
+    "effect": "Motståndaren huggs med en gifttäckt tentakel, arm eller dylikt. Detta kan också förgifta motståndaren."
   },
   "darkPulse": {
-    "name": "Mörkerpulsering"
+    "name": "Mörkerpulsering",
+    "effect": "Utföraren släpper lös en hemsk aura genomsyrad med mörka tankar. Detta kan också få motståndaren att rygga tillbaka."
   },
   "nightSlash": {
     "name": "Skugghugg",
     "effect": "Utföraren skär motståndaren från skuggorna när den minst anar.  Denna teknik orsakar kritiska träffar oftare."
+  },
+  "aquaTail": {
+    "name": "Akvasvans",
+    "effect": "Utföraren attackerar genom att svinga sin svans som om den vore en våldsam våg i en rasande storm."
+  },
+  "seedBomb": {
+    "name": "Fröbomb",
+    "effect": "Utföraren slungar våldsamt stora frön med hårda skal på motståndaren."
   },
   "airSlash": {
     "name": "Luftklinga",
@@ -1575,24 +1615,109 @@
     "name": "X-sax",
     "effect": "Utföraren skär i motståndaren genom att klippa den i en saxliknande rörelse med blad eller klor."
   },
+  "bugBuzz": {
+    "name": "Supersurr",
+    "effect": "Utföraren skapar en skadlig ljudvåg genom vibration. Detta kan också sänka motståndarens sp. fsv-förmåga."
+  },
   "dragonPulse": {
-    "name": "Drakpulsering"
+    "name": "Drakpulsering",
+    "effect": "Motståndaren attackeras med en chockvåg som genereras i utförarens gap."
+  },
+  "dragonRush": {
+    "name": "Drakdykning",
+    "effect": "Utföraren dyker ner på motståndaren på ett skräckinjagande sätt. Detta kan också få motståndaren att rygga tillbaka."
+  },
+  "powerGem": {
+    "name": "Energijuveler",
+    "effect": "Utföraren attackerar med ljusstrålar som glittrar som om de var gjorda av juveler."
   },
   "drainPunch": {
-    "name": "Drännäve"
+    "name": "Energislukarnäve",
+    "effect": "Ett energislukande slag. Utförarens HP återställs med 50% av den skada som motståndaren tar."
+  },
+  "vacuumWave": {
+    "name": "Vakuumvåg",
+    "effect": "Utföraren virvlar med sina nävar för att skicka en våg av rent vakuum mot motståndaren. Denna teknik går alltid först."
+  },
+  "focusBlast": {
+    "name": "Kampandans kula",
+    "effect": "Utföraren höjer sin kampanda och frigör all sin energi i form av en kula. Detta kan också sänka motståndarens sp. fsv-förmåga."
+  },
+  "energyBall": {
+    "name": "Ekosfär",
+    "effect": "Utföraren hämtar kraft från naturen och avfyrar den på motståndaren. Detta kan också sänka motståndarens sp. fsv-förmåga."
+  },
+  "braveBird": {
+    "name": "Djärv störtdykning",
+    "effect": "Utföraren fäller in sina vingar och störtdyker ner på motståndaren. Detta skadar också utföraren en hel del."
+  },
+  "earthPower": {
+    "name": "Geofysiskt tryck",
+    "effect": "Utföraren får jorden under motståndaren att brista med starkt tryck. Detta kan också sänka motståndarens sp. fsv-förmåga"
+  },
+  "switcheroo": {
+    "name": "Bytt-e-bytt",
+    "effect": "Utföraren byter ett av sina burna föremål med ett av motståndarens innan den ens hinner märka."
+  },
+  "gigaImpact": {
+    "name": "Gigakollision",
+    "effect": "Utföraren tacklar in i motståndaren med all sin kraft. Utföraren kan inte röra sig i följande omgång."
+  },
+  "nastyPlot": {
+    "name": "Ond plan",
+    "effect": "Utföraren stimulerar sin hjärna genom att tänka ondskefulla tankar. Detta ökar skarpt utförarens sp. atk-förmåga"
   },
   "bulletPunch": {
-    "name": "Kulsprutnävar"
+    "name": "Kulsprutnävar",
+    "effect": "Utföraren slår motståndaren med tuffa knytnävar lika snabba som en kulspruta. Denna teknik går alltid först."
+  },
+  "avalanche": {
+    "name": "Lavin",
+    "effect": "Kraften av denna attackteknik fördubblas om utföraren har skadats av motståndaren i samma omgång."
+  },
+  "iceShard": {
+    "name": "Isskärva",
+    "effect": "Utföraren snabbfryser isskärvor och kastar dem mot motståndaren. Denna teknik sker alltid först."
   },
   "shadowClaw": {
+    "name": "Skuggklo",
     "effect": "Utföraren anfaller med klor skapade utav skugga. Denna teknik orsakar kritiska träffar oftare."
   },
   "thunderFang": {
+    "name": "Blixtbett",
     "effect": "Utföraren biter med elektrifierade tänder. Detta kan också förlama motståndaren eller få den att rygga tillbaka."
+  },
+  "iceFang": {
+    "name": "Frysbett",
+    "effect": "Utföraren biter med isiga huggtänder. Detta kan också frysa ner motståndaren eller få den att rygga tillbaka."
+  },
+  "fireFang": {
+    "name": "Eldbett",
+    "effect": "Utföraren biter med flammande huggtänder. Detta kan också få motståndaren att rygga tillbaka eller ge den en brännskada."
+  },
+  "shadowSneak": {
+    "name": "Skuggsmygare",
+    "effect": "Utföraren utvidgar sin skugga och attackerar motståndaren bakifrån. Denna teknik går alltid först."
+  },
+  "mudBomb": {
+    "name": "Lerbomb",
+    "effect": "Utföraren avfyrar en hårt packad lerboll för att attackera. Detta kan också sänka motståndarens träffsäkerhet."
   },
   "psychoCut": {
     "name": "Sylvasst sinnesvep",
     "effect": "Användaren skär motståndaren med blad skapade genom mental kraft. Kritiska träffar inträffar oftare."
+  },
+  "zenHeadbutt": {
+    "name": "Zenskalle",
+    "effect": "Utföraren fokuserar sin viljestyrka till skallen och slår motståndaren med den. Detta kan också få motståndaren att rygga tillbaka."
+  },
+  "mirrorShot": {
+    "name": "Spegelskott",
+    "effect": "Utföraren släpper lös en massa energi på motståndaren från dess polerade kropp. Detta kan också sänka motståndarens träffsäkerhet."
+  },
+  "flashCannon": {
+    "name": "Briljanskanon",
+    "effect": "Utföraren samlar all ljusenergi inom sig och släpper ut den på en gång. Detta kan också sänka motståndarens sp. fsv-förmåga."
   },
   "discharge": {
     "effect": "Utföraren träffas alla runt om med en eruption av el. Detta kan också förlama de runt om sig."
