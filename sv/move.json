@@ -1724,29 +1724,36 @@
     "effect": "Utföraren klättrar blixtsnabbt upp mot motståndaren och slår in i den med otrolig kraft. Detta kan också förvirra motståndaren."
   },
   "defog": {
-    "name": "Klarblåst"
+    "name": "Klarblåst",
+    "effect": "En stark vind blåser bort motståndarens barriärer, t.ex. Fysiobarriär eller Specialskärm. Detta sänker också motståndarens undvikande."
   },
   "trickRoom": {
-    "name": "Lustiga rummet"
+    "name": "Lustiga rummet",
+    "effect": "Utföraren skapar ett bisarrt område där långsammare pokémon rör sig först i 5 omgångar."
   },
   "dracoMeteor": {
-    "name": "Draconidmeteor"
+    "name": "Draconidmeteor",
+    "effect": "Kometer kallas ner från himlen på motståndaren. Attackens rekyl sänker skarpt utförarens sp. atk-förmåga."
   },
   "discharge": {
     "name": "Urladdning",
     "effect": "Utföraren träffas alla runt om med en eruption av el. Detta kan också förlama de runt om sig."
   },
   "lavaPlume": {
-    "name": "Pyroklast"
+    "name": "Pyroklast",
+    "effect": "Utföraren sätter eld på allt runt omkring i en inferno av scharlakansröda lågor. Detta kan också orsaka brännskador på de som träffas."
   },
   "leafStorm": {
-    "name": "Lövstorm"
+    "name": "Lövstorm",
+    "effect": "Utföraren piskar upp en lövstorm runt motståndaren. Attackens rekyl sänker skarpt utförarens sp.atk-förmåga."
   },
   "powerWhip": {
-    "name": "Mäktig piska"
+    "name": "Mäktig piska",
+    "effect": "Utföraren virvlar våldsamt sina rankor, tentakler eller dylikt för att hårt piska motståndaren."
   },
   "rockWrecker": {
-    "name": "Klippkrossare"
+    "name": "Klippkrossare",
+    "effect": "Utföraren kastar en enorm stenblock mot motståndaren för att attackera. Utföraren kan inte röra sig i följande omgång."
   },
   "crossPoison": {
     "name": "Giftigt korssvep",
@@ -1761,32 +1768,118 @@
     "effect": "Utföraren skallar motståndaren med sitt stålhårda huvud. Detta kan också få motståndaren att rygga tillbaka."
   },
   "magnetBomb": {
-    "name": "Magnetbomber"
+    "name": "Magnetbomber",
+    "effect": "Utföraren avfyrar magnetiska bomber som fastnar på motståndaren. Denna attack missar aldrig."
   },
   "stoneEdge": {
     "name": "Steneggar",
     "effect": "Utföraren hugger motståndaren underifrån med kantiga stenar. Denna teknik orsakar kritiska träffar oftare."
   },
   "captivate": {
-    "name": "Förförelse"
+    "name": "Förförelse",
+    "effect": "Om någon motståndare är av motsatt kön till utföraren, blir den förförd, vilket skarpt sänker dess sp. atk-förmåga."
   },
   "stealthRock": {
-    "name": "Svävande stenar"
+    "name": "Svävande stenar",
+    "effect": "Utföraren skapar en fälla av svävande stenar runt motståndarlaget. Fällan skadar motståndare som går in i strid."
   },
   "grassKnot": {
-    "name": "Grässnara"
+    "name": "Grässnara",
+    "effect": "Utföraren snärjar motståndaren med gräs och får den att ramla. Ju tyngre motståndaren är, desto större blir teknikens kraft."
   },
   "chatter": {
-    "name": "Tjatter"
+    "name": "Tjatter",
+    "effect": "Utföraren attackerar motståndaren med ljudvågor av öronbedövande tjatter. Detta förvirrar motståndaren."
   },
   "judgment": {
-    "name": "Domens ljus"
+    "name": "Domens ljus",
+    "effect": "Utföraren avfyrar otaliga ljusskott mot motståndaren. Denna tekniks typ ändras beroende på vilken typ av platta eller minnesdisk utföraren bär."
+  },
+  "bugBite": {
+    "name": "Insektbett",
+    "effect": "Utföraren biter motståndaren. Om motståndaren bär ett bär, äter utföraren det och får dess effekt."
+  },
+  "chargeBeam": {
+    "name": "Laddningstråle",
+    "effect": "Utföraren attackerar motståndaren med en elektrisk laddning. Utföraren kanske använder återstående elektricitet för att öka sin sp. atk-förmåga."
+  },
+  "woodHammer": {
+    "name": "Trähammare",
+    "effect": "Utföraren slår sin robusta kropp mot motståndaren för att attackera. Detta skadar också utföraren en hel del."
+  },
+  "aquaJet": {
+    "name": "Akvajet",
+    "effect": "Utföraren skjuter sig mot motståndaren med jetliknande hastighet. Denna teknik går alltid först."
   },
   "attackOrder": {
+    "name": "Anfallsorder",
     "effect": "Utföraren skickar sina undersåtar på motståndaren för att slå ner den. Denna teknik orsakar kritiska träffar oftare."
   },
+  "defendOrder": {
+    "name": "Försvarsorder",
+    "effect": "Utföraren beordrar sina undersåtar att skydda den, vilket ökar dess försvars- och sp. fsv-förmåga."
+  },
+  "healOrder": {
+    "name": "Läkningsorder",
+    "effect": "Utföraren beordrar sina undersåtar att läka den, vilket återställer dess HP med upp till 50% av dess max. HP."
+  },
+  "headSmash": {
+    "name": "Tokskallning",
+    "effect": "Utföraren attackerar motståndaren med en riskabel, kraftfull skallning. Detta skadar också utföraren allvarligt."
+  },
+  "doubleHit": {
+    "name": "Dubbelsmocka",
+    "effect": "Utföraren smäller motståndaren med en lång svans, rankor eller en tentakel. Motståndaren träffas två gånger i rad."
+  },
+  "roarOfTime": {
+    "name": "Tidsvrål",
+    "effect": "Utföraren skadar motståndaren med en kraft som förvränger tiden själv. Utföraren kan inte röra sig i följande omgång."
+  },
   "spacialRend": {
-    "effect": "Utföraren river hål i den fysiska rymden för att skada motståndaren. Denna teknik orsakar kritiska träffar oftare."
+    "name": "Rymdreva",
+    "effect": "Utföraren river hål i den fysiska rymden runt den för att skada motståndaren. Denna teknik orsakar kritiska träffar oftare."
+  },
+  "lunarDance": {
+    "name": "Månskärvans dans",
+    "effect": "Utföraren svimmar. I gengäld får avbytaren som tar dess plats sitt tillstånd och HP helt återställd."
+  },
+  "crushGrip": {
+    "name": "Krossgrepp",
+    "effect": "Motståndaren krossas med stor kraft. Ju mer HP motståndaren har kvar, desto större blir kraften av denna teknik."
+  },
+  "magmaStorm": {
+    "name": "Magmastorm",
+    "effect": "Motståndaren fångas i en malström av eld som rasar i 4-5 omgångar."
+  },
+  "darkVoid": {
+    "name": "Mörkt tomrum",
+    "effect": "Motståndarna dras in i en värld av totalt mörker som får dem att somna."
+  },
+  "seedFlare": {
+    "name": "Grönskegloria",
+    "effect": "Utföraren avger en våg av ljus från sin kropp för att attackera en motståndare. Detta kan också skarpt sänka motståndarens sp. fsv-förmåga."
+  },
+  "ominousWind": {
+    "name": "Vedervärdig vind",
+    "effect": "Utföraren skadar motståndaren med en motbjudande vindpust. Detta kan också öka alla av utförarens förmågor samtidigt."
+  },
+  "shadowForce": {
+    "name": "Skuggopassage",
+    "effect": "Utföraren försvinner för att sedan skada motståndaren i följande omgång. Denna teknik träffar även om motståndaren skyddar sig själv."
+  },
+  "honeClaws": {
+    "name": "Klovässning",
+    "effect": "Utföraren vässar sina klor för att öka sin attackförmåga och träffsäkerhet."
+  },
+  "wideGuard": {
+    "name": "Bred sköld",
+    "effect": "Utföraren och den vid sin sida i strid skyddas under en omgång från attacker som träffar fler än en pokémon samtidigt."
+  },
+  "guardSplit": {
+    "name": "Försvarsutjämning"
+  },
+  "powerSplit": {
+    "name": "Attackutjämning"
   },
   "magicRoom": {
     "name": "Magisk zon"
