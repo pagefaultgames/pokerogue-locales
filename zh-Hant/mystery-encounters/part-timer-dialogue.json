@@ -1,1 +1,31 @@
-{}
+{
+  "intro": "一個忙碌的工人向你招手。",
+  "speaker": "工人",
+  "introDialogue": "你看起來有不少能幹的寶可夢！\n如果你願意幫忙干點活，我們會付錢的！",
+  "title": "兼職",
+  "description": "似乎有不少活要干。\n根據你寶可夢對任務的適應度，\n你能獲得或多或少的報酬。",
+  "query": "你要幹什麼活？",
+  "invalidSelection": "這隻寶可夢無法工作了！",
+  "option": {
+    "1": {
+      "label": "外賣",
+      "tooltip": "(-)使用速度\n(+)賺取@[MONEY]{金錢}",
+      "selected": "您的{{selectedPokemon}}輪班為客戶配送訂單。"
+    },
+    "2": {
+      "label": "倉管",
+      "tooltip": "(-)使用力量和耐力\n(+)賺取@[MONEY]{金錢}",
+      "selected": "你的{{selectedPokemon}}輪班工作，在倉庫內搬運物品。"
+    },
+    "3": {
+      "label": "銷售",
+      "tooltip": "(-)你的{{option3PrimaryName}}使用{{option3PrimaryMove}}\n(+)賺取@[MONEY]{金錢}",
+      "disabledTooltip": "你的寶可夢需要習得\n適合這份工作的招式",
+      "selected": "你的{{option3PrimaryName}}花費一天時間\n使用{{option3PrimaryMove}}來吸引客戶！ "
+    }
+  },
+  "jobCompleteGood": "謝謝你的幫助！\n你的{{selectedPokemon}}幫了大忙了！這是你的日結。",
+  "jobCompleteBad": "你的{{selectedPokemon}}也幫了不少忙！這是你的日結。",
+  "pokemonTired": "你的{{selectedPokemon}}疲憊不堪！\n它所有招式的PP值只剩2點！",
+  "outro": "下次還來幫忙啊！"
+}

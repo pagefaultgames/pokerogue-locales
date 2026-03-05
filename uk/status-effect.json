@@ -40,6 +40,21 @@
   },
   "freeze": {
     "name": "Заморозка",
-    "description": "заморозка"
+    "description": "заморозка",
+    "obtain": "{{pokemonNameWithAffix}} заморозився(-лася)!",
+    "obtainSource": "{{pokemonNameWithAffix}} замерз(-ла) через {{sourceText}}!",
+    "activation": "{{pokemonNameWithAffix}} заморожений(-а) на кістку!",
+    "overlap": "{{pokemonNameWithAffix}} вже нагадує крижану статую!",
+    "heal": "{{pokemonNameWithAffix}} розморожився(-лася)!",
+    "healByMove": "{{moveName}} {{pokemonNameWithAffix}} розморожує його(її)!"
+  },
+  "burn": {
+    "name": "Горить",
+    "description": "горить",
+    "obtain": "{{pokemonNameWithAffix}} охопив вогонь!",
+    "obtainSource": "{{pokemonNameWithAffix}} загоряється через {{sourceText}}!",
+    "activation": "{{pokemonNameWithAffix}} страждає від опіків!",
+    "overlap": "{{pokemonNameWithAffix}} і так горить!",
+    "heal": "{{pokemonNameWithAffix}} потушився(-лася)!"
   }
 }

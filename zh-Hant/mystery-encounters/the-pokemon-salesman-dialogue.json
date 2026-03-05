@@ -1,1 +1,23 @@
-{}
+{
+  "intro": "一位精神抖擻的老人向你走來。",
+  "speaker": "紳士",
+  "introDialogue": "你好啊！我有一份專門為你準備的好買賣！",
+  "title": "寶可夢銷售員",
+  "description": "“這個{{purchasePokemon}}非常獨特，\n擁有該物種通常不具備的特性！只需{{price, money}}就讓你擁有\n這個與眾不同的{{purchasePokemon}}！”\n\n“你怎麼說？” ",
+  "descriptionShiny": "“這個{{purchasePokemon}}非常獨特，\n擁有該物種非常不尋常的顏色！只需{{price, money}}就讓你擁有\n這個與眾不同的{{purchasePokemon}}！”\n\n“你怎麼說？” ",
+  "query": "你要怎麼做？",
+  "option": {
+    "1": {
+      "label": "同意",
+      "tooltip": "(-)支付{{price, money}}\n(+)獲得{{purchasePokemon}}和\n它的隱藏特性 ",
+      "tooltipShiny": "(-)支付{{price, money}}\n(+)獲得一隻閃光的\n{{purchasePokemon}} ",
+      "selectedMessage": "你花了一大筆錢買了{{purchasePokemon}}. ",
+      "selectedDialogue": "非常好的選擇！$我看得出來你對商業有敏銳的眼光。$哦，對了……@d{64}不接受退貨，你懂嗎？"
+    },
+    "2": {
+      "label": "拒絕",
+      "tooltip": "(-)無獎勵",
+      "selected": "不？@d{32} 你說不要？$又不會讓你吃虧！"
+    }
+  }
+}

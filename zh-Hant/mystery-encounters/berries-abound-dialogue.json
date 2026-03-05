@@ -1,1 +1,26 @@
-{}
+{
+  "intro": "寶可夢旁邊\n有着巨大的樹果叢！",
+  "title": "碩“果”累累",
+  "description": "似乎有強大的寶可夢守護着樹果叢。\n最簡單的方法是戰鬥，\n但它的實力不容小覷。\n也許一隻速度很快的寶可夢\n可以乘機順走一些樹果？",
+  "query": "你要怎麼做？",
+  "berries": "樹果",
+  "option": {
+    "1": {
+      "label": "與它戰鬥",
+      "tooltip": "(-)艱難的戰鬥\n(+)獲得樹果",
+      "selected": "你無所畏懼地\n走向了寶可夢們。"
+    },
+    "2": {
+      "label": "沖向果叢",
+      "tooltip": "(-){{fastestPokemon}}試試速度\n(+)獲得樹果",
+      "selected": "你的{{fastestPokemon}}沖向了果叢！$它在{{enemyPokemon}}做出反應之前成功抓住了{{numBerries}}！$你帶着你的戰利品迅速撤退。",
+      "selectedBad": "你的{{fastestPokemon}}向漿果叢奔去！$哦不！{{enemyPokemon}}速度更快，擋住了它的去路！",
+      "bossEnraged": "對方的{{enemyPokemon}}變得非常憤怒！"
+    },
+    "3": {
+      "label": "離開",
+      "tooltip": "(-)無獎勵",
+      "selected": "你讓那個寶可夢留着屬於它的果子\n繼續上路了。"
+    }
+  }
+}

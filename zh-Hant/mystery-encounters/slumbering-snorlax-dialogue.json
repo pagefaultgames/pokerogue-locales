@@ -1,1 +1,25 @@
-{}
+{
+  "intro": "當你走在一條狹窄的小路上時，\n一個高聳的身影擋住了你的去路。\n當你走近時，你看到了一個{{snorlaxName}}正在酣睡。\n似乎沒有辦法繞過它。",
+  "title": "沉睡的{{snorlaxName}}",
+  "description": "你可以攻擊它來讓它醒來，\n要麼就等它睡醒。\n誰知道要等多久呢？",
+  "query": "你要怎麼做？",
+  "option": {
+    "1": {
+      "label": "掄醒",
+      "tooltip": "(-)與沉睡的{{snorlaxName}}戰鬥\n(+)特別的獎勵",
+      "selected": "你無所畏懼地\n走向了寶可夢們。"
+    },
+    "2": {
+      "label": "乾等",
+      "tooltip": "(-)漫長的等待\n(+)回復隊伍",
+      "selected": ".@d{32}.@d{32}.@d{32}$您等待了好一段時間，但是\n{{snorlaxName}}的哈欠讓你的隊伍昏昏欲睡…………",
+      "restResult": "當你們醒來時，{{snorlaxName}}已無處可尋。\n但你所有的寶可夢都痊癒了！"
+    },
+    "3": {
+      "label": "偷摸",
+      "tooltip": "(+){{option3PrimaryName}}使用{{option3PrimaryMove}}\n(+)特別的獎勵 ",
+      "disabledTooltip": "寶可夢需要習得\n特別的招式來選擇",
+      "selected": "你的{{option3PrimaryName}}使用{{option3PrimaryMove}}！$@s{item_fanfare}它從熟睡的\n{{snorlaxName}}身上偷走了吃剩的東西，簡直像個怪盜！"
+    }
+  }
+}

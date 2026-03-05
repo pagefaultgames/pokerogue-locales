@@ -1,1 +1,27 @@
-{}
+{
+  "intro": "一個穿着深色大衣的人向你走來。",
+  "speaker": "可疑的銷售",
+  "introDialogue": ".@d{16}.@d{16}.@d{16}\n我有貨，要來點么？\n當然，你的寶可夢得頂得住。",
+  "title": "營養飲料商人",
+  "description": "男子打開外套，\n露出一些寶可夢營養飲料。\n他報出的數字非常划算。\n有點太划算了…\n他還提供兩種套餐供你選擇。",
+  "query": "你要選哪一種？",
+  "invalidSelection": "這隻寶可夢無法喝葯！",
+  "option": {
+    "1": {
+      "label": "經濟套餐",
+      "tooltip": "(-)支付{{option1Money, money}}\n(-)副作用？\n(+)選擇的寶可夢獲得\n兩份隨機努力葯"
+    },
+    "2": {
+      "label": "高級套餐",
+      "tooltip": "(-)支付{{option2Money, money}}\n(+)選擇的寶可夢獲得\n兩份隨機努力葯"
+    },
+    "3": {
+      "label": "離開",
+      "tooltip": "(-)無獎勵",
+      "selected": "呵呵，沒想到你竟然是個懦夫。"
+    },
+    "selected": "那人遞給你兩瓶東西后\n然後很快就消失了。${{selectedPokemon}}獲得了{{boost1}}和{{boost2}}提升！"
+  },
+  "cheapSideEffects": "但是藥物有一些副作用！$你的{{selectedPokemon}}受到一些傷害，\n並且它的性格變為{{newNature}}！",
+  "noBadEffects": "看來藥物完全沒有副作用！"
+}

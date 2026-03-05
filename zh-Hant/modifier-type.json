@@ -69,7 +69,8 @@
       "description": "增加持有者的{{stat}}10%，個體值越高堆疊\n上限越高。"
     },
     "PokemonBaseStatFlatModifierType": {
-      "name": "森之羊羹"
+      "name": "森之羊羹",
+      "description": "增加持有者{{stats}}的基礎屬性{{statValue}}，來自於一場怪夢。"
     },
     "AllPokemonFullHpRestoreModifierType": {
       "description": "所有寶可夢完全恢復HP。"
@@ -118,7 +119,8 @@
       "description": "融合兩隻寶可夢 (改變特性, 平分基礎點數\n和屬性, 共享招式池)。"
     },
     "TerastallizeModifierType": {
-      "name": "{{teraType}}太晶碎塊"
+      "name": "{{teraType}}太晶碎塊",
+      "description": "將寶可夢的太晶屬性變爲{{teraType}}。"
     },
     "ContactHeldItemTransferChanceModifierType": {
       "description": "攻擊時{{chancePercent}}%概率偷取對手物品。"
@@ -147,7 +149,8 @@
       "description": "能讓攜帶着極巨菇菇戰鬥的寶可夢進行\n極巨化。"
     },
     "TERA_ORB": {
-      "name": "太晶珠"
+      "name": "太晶珠",
+      "description": "能讓戰鬥的寶可夢進行太晶化。\n緩慢充能，太晶碎片也會出現在商店中。"
     },
     "MAP": {
       "name": "地圖",
@@ -345,15 +348,21 @@
       "name": "火焰寶珠",
       "description": "觸碰後會放出熱量的神奇寶珠。\n攜帶後，在戰鬥時會變成灼傷狀態。"
     },
+    "MYSTICAL_ROCK": {
+      "name": "神秘之力",
+      "description": "每堆疊一次，可將招式或能力造成的\n地形和天氣的持續時間延長 2 回合。"
+    },
     "EVOLUTION_TRACKER_GIMMIGHOUL": {
       "name": "金子寶物",
       "description": "這個小精靈愛金子! 繼續挑金子然後誰知道什麼會發生!"
     },
     "EVOLUTION_TRACKER_PRIMEAPE": {
-      "name": "憤怒之拳"
+      "name": "憤怒之拳",
+      "description": "当怒气突破临界点时，它获得了能够摆脱肉体束缚的力量！\n用愤怒之拳来将愤怒化为力量吧！"
     },
     "EVOLUTION_TRACKER_STANTLER": {
-      "name": "屏障猛攻"
+      "name": "屏障猛攻",
+      "description": "驚角鹿爲了適應嚴酷的環境而進化。用屏障猛攻來加強它的防禦吧！"
     },
     "BATON": {
       "name": "接力棒",
@@ -368,7 +377,8 @@
       "description": "顯著增加野生寶可夢有隱藏特性的概率。"
     },
     "CATCHING_CHARM": {
-      "name": "防晃護符"
+      "name": "防晃護符",
+      "description": "增加關鍵捕獲的幾率。"
     },
     "IV_SCANNER": {
       "name": "個體值探測器",
@@ -416,14 +426,29 @@
       "name": "融合硬幣",
       "description": "增加1%野生融合寶可夢出現概率。"
     },
+    "MYSTERY_ENCOUNTER_SHUCKLE_JUICE_GOOD": {
+      "name": "甜壺壺果汁",
+      "description": "增加持有者的所有基礎個體值。你被壺壺祝福了！"
+    },
+    "MYSTERY_ENCOUNTER_SHUCKLE_JUICE_BAD": {
+      "name": "腐朽的壺壺果汁",
+      "description": "减少持有者的所有基础个体值。你被壶壶诅咒了！"
+    },
     "MYSTERY_ENCOUNTER_BLACK_SLUDGE": {
-      "name": "黑色污泥"
+      "name": "黑色污泥",
+      "description": "由於惡臭撲鼻，商店會以非常高昂的價格向您出售商品。"
     },
     "MYSTERY_ENCOUNTER_MACHO_BRACE": {
-      "name": "強制鍛鍊器"
+      "name": "強制鍛鍊器",
+      "description": "擊敗對手後獲得一層鍛鍊等級。每層會略微提升屬性，\n達到最大層數時還會獲得額外獎勵。"
     },
     "MYSTERY_ENCOUNTER_OLD_GATEAU": {
-      "name": "森之羊羹"
+      "name": "森之羊羹",
+      "description": "增加持有者的部分個體值。"
+    },
+    "MYSTERY_ENCOUNTER_GOLDEN_BUG_NET": {
+      "name": "金捕蟲網",
+      "description": "賦予主人好運，使其更容易\n找到蟲屬性寶可夢，手感很奇妙。"
     }
   },
   "SpeciesBoosterItem": {
