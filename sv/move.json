@@ -2060,41 +2060,52 @@
     "effect": "Utföraren riskerar allt för att attackera sitt motståndare. Utföraren svimmar men orsakar skada som motsvarar dess HP."
   },
   "bestow": {
-    "name": "Gåva"
+    "name": "Gåva",
+    "effect": "Utföraren skickar ett av sina burna föremål till en annan pokémon när den inte bär ett föremål."
   },
   "inferno": {
-    "name": "Skärseld"
+    "name": "Skärseld",
+    "effect": "Utföraren bränner motståndaren i en intensiv eld. Detta orskar en brännskada på motståndaren."
   },
   "waterPledge": {
-    "name": "Vattnets löfte"
+    "name": "Vattenlöfte",
+    "effect": "En vattenpelare avfyras på motståndaren. När den utförs samtidigt som Eldlöfte ökas dess kraft och en regnbåge skapas."
   },
   "firePledge": {
-    "name": "Eldens löfte"
+    "name": "Eldlöfte",
+    "effect": "En eldpelare avfyras på motståndaren. När den utförs samtidigt som Gräslöfte ökas dess kraft och ett hav av lågor skapas."
   },
   "grassPledge": {
-    "name": "Gräsets löfte"
+    "name": "Gräslöfte",
+    "effect": "En gräspelare avfyras på motståndaren. När den utförs samtidigt som Vattenlöfte ökas dess kraft och ett stort träsk skapas."
   },
   "voltSwitch": {
     "name": "Strömbytare",
     "effect": "Efter att ha utfört attacken skyndar sig utföraren tillbaka för att byta plats med en avbytare."
   },
   "struggleBug": {
-    "name": "Småkrypskytt"
+    "name": "Småkrypskytt",
+    "effect": "Utföraren skjuter insektljus på motståndarna. Detta sänker sp. atk-förmågan hos de som träffas."
   },
   "bulldoze": {
-    "name": "Jordstamp"
+    "name": "Jordstamp",
+    "effect": "Utföraren träffar alla runt omkring sig genom att stampa ner på marken. Detta sänker snabbheten hos de träffade."
   },
   "frostBreath": {
-    "name": "Köldanda"
+    "name": "Köldanda",
+    "effect": "Utföraren blåser sin isiga andedräkt på motståndaren. Denna attack orsakar alltid kritisk träff."
   },
   "dragonTail": {
-    "name": "Draksvans"
+    "name": "Draksvans",
+    "effect": "Motståndaren slås bort och en avbytare tvingas ut. I en strid mot en enda vild pokémon avslutar denna teknik striden."
   },
   "workUp": {
-    "name": "Pigghet"
+    "name": "Pigghet",
+    "effect": "Utföraren piggar upp sig själv. Detta ökar dess attack- och sp. atk-förmåga."
   },
   "electroweb": {
-    "name": "Elnät"
+    "name": "Elnät",
+    "effect": "Utföraren attackerar och fångar motståndarna i ett elektriskt nät. Detta sänker deras snabbhet."
   },
   "wildCharge": {
     "name": "Vildvolt",
@@ -2105,13 +2116,16 @@
     "effect": "Utföraren kraschar in i motståndaren medan den roterar kroppen som en borr. Denna teknik orsakar kritiska träffar oftare."
   },
   "dualChop": {
-    "name": "Dubbla karatehugg"
+    "name": "Dubbla karatehugg",
+    "effect": "Utföraren slår motståndaren med brutala hugg. Motståndaren träffas två gånger i rad."
   },
   "heartStamp": {
-    "name": "Hjärtklapp"
+    "name": "Hjärtklapp",
+    "effect": "Utföraren spelar gullig mot motståndaren för att slå den våldsamt. Detta kan också få motståndaren att rygga tillbaka."
   },
   "hornLeech": {
-    "name": "Parasitväxthorn"
+    "name": "Parasitväxthorn",
+    "effect": "Utföraren suger upp motståndarens energi med dess horn. Utförarens HP återställs med 50% av den skada som motståndaren tar."
   },
   "sacredSword": {
     "name": "Helgat svärd",
@@ -2122,44 +2136,108 @@
     "effect": "Utförare skär motståndare med en vassa snäcka. Detta kan sänka motståndarens försvarsförmåga."
   },
   "heatCrash": {
-    "name": "Eldbollskrossare"
+    "name": "Eldbollskrossare",
+    "effect": "Utföraren kraschar in i motståndaren med sin flammande kropp. Ju tyngre utföraren är jämfört med motståndaren, desto större blir teknikens kraft."
   },
   "leafTornado": {
-    "name": "Bladorkan"
+    "name": "Bladorkan",
+    "effect": "Utföraren skickar en orkan av vassa löv på motståndaren. Detta kan också sänka motståndarens träffsäkerhet."
   },
   "steamroller": {
-    "name": "Ångvältmosare"
+    "name": "Ångvältmosare",
+    "effect": "Utföraren krossar sitt motståndare genom att rulla över motståndaren som en ångvält. Detta kan också få motståndaren att rygga tillbaka."
   },
   "cottonGuard": {
-    "name": "Bomullrustning"
+    "name": "Bomullrustning",
+    "effect": "Utföraren skyddar sig själv genom att linda in sin kropp i mjuk bomull, vilket skarpt ökar dess försvarsförmåga."
   },
   "nightDaze": {
-    "name": "Kvällsmäll"
+    "name": "Kvällsmäll",
+    "effect": "Utföraren skjuter en kolsvart chockvåg på motståndaren. Detta kan också sänka motståndarens träffsäkerhet."
   },
   "psystrike": {
     "name": "Psykrossare",
     "effect": "Utföraren materialiserar en chockvåg av psykisk kraft för att attackera motståndaren. Denna attack gör fysisk skada."
   },
   "tailSlap": {
-    "name": "Svansdask"
+    "name": "Svansdask",
+    "effect": "Utföraren slår motståndaren med sin hårda svans. Den träffar motståndaren 2-5 gånger i rad."
   },
   "hurricane": {
-    "name": "Orkan"
+    "name": "Orkan",
+    "effect": "Utföraren sveper in motståndaren i en våldsam vind som flyger upp mot himlen. Detta kan också förvirra motståndaren."
   },
   "headCharge": {
+    "name": "Hårdhårsskalle",
     "effect": "Utföraren rusar med sitt tjockhåriga huvud före mot motståndaren och skadar den. Detta skadar även utföraren lite."
   },
+  "gearGrind": {
+    "name": "Kugghjulsmalare",
+    "effect": "Utföraren kastar kugghjul av stål på motståndaren två gånger."
+  },
+  "searingShot": {
+    "name": "Brandbomb",
+    "effect": "Utföraren sätter eld på alla andra på stridsfältet med en flammade projektil. Detta kan också orsaka brännskador på de som träffas."
+  },
+  "technoBlast": {
+    "name": "Teknostråle",
+    "effect": "Utföraren avfyrar en ljusstråle mot motståndaren. Teknikens typ ändras beroende på vilken kassett utföraren bär."
+  },
+  "relicSong": {
+    "name": "Relikmelodi",
+    "effect": "Utföraren sjunger en uråldrig sång och attackerar genom att vädja till hjärtat av motståndaren. Detta kan också få den att somna."
+  },
   "secretSword": {
-    "name": "Enigmatisk egg"
+    "name": "Enigmatisk egg",
+    "effect": "Utföraren hugger med sitt långa horn. Den udda kraften i hornet gör fysisk skada på motståndaren."
+  },
+  "glaciate": {
+    "name": "Glaciation",
+    "effect": "Utföraren attackerar genom att blåsa iskall luft mot motståndarna. Detta sänker deras snabbhet."
   },
   "boltStrike": {
+    "name": "Blixtangrepp",
     "effect": "Utföraren skapar ett massiv mängd av el runt sig och hoppar på motståndaren. Detta kan också förlama motståndaren."
   },
+  "blueFlare": {
+    "name": "Blå låga",
+    "effect": "Utföraren omsluter motståndaren med en intensiv, men vacker, blå låga. Detta kan också orsaka en brännskada på motståndaren."
+  },
+  "fieryDance": {
+    "name": "Lågornas dans",
+    "effect": "Höljd i lågor attackerar utföraren motståndaren genom att dansa och flaxa med vingarna. Detta kan också öka utförarens sp. atk-förmåga."
+  },
   "freezeShock": {
+    "name": "Frostvolt",
     "effect": "Utföraren laddar först upp för att omgången efteråt träffa motståndaren med elladdad is. Detta kan också förlama motståndaren."
   },
+  "iceBurn": {
+    "name": "Hypotermisk köld",
+    "effect": "Utföraren omger sig med en ultrakall, isande vind för att skicka den på motståndaren följande omgång. Detta kan orsaka en brännskada."
+  },
+  "snarl": {
+    "name": "Utskällning",
+    "effect": "Utföraren skriker och skäller ut motståndarna, vilket sänker deras sp. atk-förmåga."
+  },
   "icicleCrash": {
-    "name": "Isspetsare"
+    "name": "Isspetsare",
+    "effect": "Utföraren släpper stora, spetsiga istappar på motståndaren. Detta kan också få motståndaren att rygga tillbaka"
+  },
+  "vCreate": {
+    "name": "V-brännare",
+    "effect": "Med en het låga i pannan kastar sig utföraren mot sin motståndare. Detta sänker utförarens försvars- och sp. fsv-förmåga samt snabbhet."
+  },
+  "fusionFlare": {
+    "name": "Fusionflamma",
+    "effect": "Utföraren kastar ner en gigantisk låga på motståndaren. Denna tekniks kraft ökar när den används samtidigt som Fusionblixt."
+  },
+  "fusionBolt": {
+    "name": "Fusionblixt",
+    "effect": "Utföraren kastar ner en gigantisk blixt på moståndaren. Denna tekniks kraft ökar när den används samtidigt som Fusionblixt."
+  },
+  "flyingPress": {
+    "name": "Flygande press",
+    "effect": "Utföraren dyker ner på motståndaren från himlen. Denna teknik är både slagsmålstyp och flygandetyp."
   },
   "petalBlizzard": {
     "name": "Blombladsstorm"
