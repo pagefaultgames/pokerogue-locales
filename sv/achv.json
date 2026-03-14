@@ -5,7 +5,261 @@
   "locked": {
     "name": "Låst"
   },
+  "moneyAchv": {
+    "description": "Samla ihop sammanlagt ₽{{moneyAmount}}."
+  },
+  "10KMoney": {
+    "name": "Pengahavare",
+    "name_female": "Pengahaverska"
+  },
+  "100KMoney": {
+    "name": "Riking",
+    "name_female": "Riking"
+  },
+  "1MMoney": {
+    "name": "Miljonär",
+    "name_female": "Miljonärska"
+  },
+  "10MMoney": {
+    "name": "Krösus Sork",
+    "name_female": "Pomperipossa"
+  },
+  "damageAchv": {
+    "description": "Orsaka {{damageAmount}} i skada med en träff."
+  },
+  "250Dmg": {
+    "name": "Hårdhänt"
+  },
+  "1000Dmg": {
+    "name": "Stålhänt",
+    "name_female": "Stålhänt"
+  },
+  "2500Dmg": {
+    "name": "Mitt i nyllet!",
+    "name_female": "Mitt i nyllet!"
+  },
+  "10000Dmg": {
+    "name": "Bamse",
+    "name_female": "Pippi"
+  },
+  "healAchv": {
+    "description": "Återställ {{healAmount}} i {{HP}} på en gång med en teknik, ett särdrag eller buret föremål."
+  },
+  "250Heal": {
+    "name": "Läkarlärling",
+    "name_female": "Läkarlärling"
+  },
+  "1000Heal": {
+    "name": "Läkare",
+    "name_female": "Läkare"
+  },
+  "2500Heal": {
+    "name": "Helare",
+    "name_female": "Helare"
+  },
+  "10000Heal": {
+    "name": "Broder Joy",
+    "name_female": "Syster Joy"
+  },
   "levelAchv": {
     "description": "Träna upp en pokémon till N.{{level}}."
+  },
+  "lv100": {
+    "name": "Och mer därtill"
+  },
+  "lv250": {
+    "name": "Elit",
+    "name_female": "Elit"
+  },
+  "lv1000": {
+    "name": "Till oändligheten och vidare"
+  },
+  "ribbonAchv": {
+    "description": "Samla totalt {{ribbonAmount}} medaljer."
+  },
+  "10Ribbons": {
+    "name": "Pokémonligamästare",
+    "name_female": "Pokémonligamästare"
+  },
+  "25Ribbons": {
+    "name": "Superligamästare",
+    "name_female": "Superligamästare"
+  },
+  "50Ribbons": {
+    "name": "Ultraligamästare",
+    "name_female": "Ultraligamästare"
+  },
+  "75Ribbons": {
+    "name": "Rogueligamästare",
+    "name_female": "Rogueligamästare"
+  },
+  "100Ribbons": {
+    "name": "Den ultimata ligmästaren",
+    "name_female": "Den ultimata ligmästaren"
+  },
+  "transferMaxStatStage": {
+    "name": "Dreamwork!",
+    "description": "Skicka Stafettpinne till en lagmedlem när minst en förmåga har maxats."
+  },
+  "maxFriendship": {
+    "name": "Min bästis festis",
+    "description": "Maxa vänskapsnivån med en pokémon."
+  },
+  "megaEvolve": {
+    "name": "Utvecklas till ultimat",
+    "description": "Megautveckla en pokémon."
+  },
+  "gigantamax": {
+    "name": "Åbäkifiering",
+    "description": "G-maxa en pokémon"
+  },
+  "terastallize": {
+    "name": "Typbonusfamiljen",
+    "description": "Terastallisera en pokémon."
+  },
+  "stellarTerastallize": {
+    "name": "Den hemliga typen",
+    "description": "Stellärterastallisera en pokémon."
+  },
+  "splice": {
+    "name": "Oändlig fusion",
+    "description": "Fusionera två pokémon med en DNA-skarvare."
+  },
+  "miniBlackHole": {
+    "name": "En hålmassa saker",
+    "description": "Få tag i ett svart minihål"
+  },
+  "catchMythical": {
+    "name": "Myten",
+    "description": "Fånga en mytisk pokémon."
+  },
+  "catchSubLegendary": {
+    "name": "(Semi)legenden",
+    "description": "Fånga en semilegendpokémon."
+  },
+  "catchLegendary": {
+    "name": "Legenden",
+    "description": "Fånga en legendpokémon."
+  },
+  "seeShiny": {
+    "name": "Skenet behagar",
+    "description": "Hitta en skimrande pokémon i det vilda."
+  },
+  "shinyParty": {
+    "name": "Störtkulört",
+    "name_female": "Störtkulört",
+    "description": "Ha ett lag fullt med skimrande pokémon."
+  },
+  "hatchMythical": {
+    "name": "En mytomspunnet ägg",
+    "description": "Kläck en mytpokémon från ett ägg."
+  },
+  "hatchSubLegendary": {
+    "name": "Ett halvlegendariskt ägg",
+    "description": "Kläck en semilegendpokémon från ett ägg"
+  },
+  "hatchLegendary": {
+    "name": "Ett legendariskt ägg",
+    "description": "Kläck en legendpokémon från ett ägg."
+  },
+  "hatchShiny": {
+    "name": "Ett skinande ägg",
+    "description": "Kläck en skimrande pokémon från ett ägg."
+  },
+  "hiddenAbility": {
+    "name": "Under ytan",
+    "description": "Fånga en pokémon med ett hemligt särdrag."
+  },
+  "perfectIvs": {
+    "name": "Individuellt värdebevis",
+    "description": "Uppnå perfekta IV:n hos en pokémon."
+  },
+  "classicVictory": {
+    "name": "Obesegrad",
+    "name_female": "Obesegrad",
+    "description": "Klara av en klassisk rond."
+  },
+  "unevolvedClassicVictory": {
+    "name": "Vabbare",
+    "description": "Klara av en klassisk rond med minst en outvecklad lagmedlem."
+  },
+  "monoGenOne": {
+    "name": "Nu tänker jag bli allra bäst",
+    "description": "Klara av En-Gen-utmaningen för Gen I."
+  },
+  "monoGenTwo": {
+    "name": "Generation 1,5",
+    "description": "Klara av En-Gen-utmaningen för Gen II."
+  },
+  "monoGenThree": {
+    "name": "Lite för mycket vatten",
+    "description": "Klara av En-Gen-utmaningen för Gen III."
+  },
+  "monoGenFour": {
+    "name": "Pärlor på min panna",
+    "description": "Klara av En-Gen-utmaningen för Gen IV"
+  },
+  "monoGenFive": {
+    "name": "Svart på vitt",
+    "description": "Klara av En-Gen-utmaningen för Gen V."
+  },
+  "monoGenSix": {
+    "name": "Äta gelé mä träsk'e",
+    "description": "Klara av En-Gen-utmaningen för Gen VI"
+  },
+  "monoGenSeven": {
+    "name": "Z-Tekniskt sett",
+    "description": "Klara av En-Gen-utmaningen för Gen VII."
+  },
+  "monoNormal": {
+    "name": "Extra ordinär"
+  },
+  "monoFighting": {
+    "name": "Åka på en propp"
+  },
+  "monoFlying": {
+    "name": "Fångad av en stormvind"
+  },
+  "monoPoison": {
+    "name": "Gift vid första ödleantastandet"
+  },
+  "monoGround": {
+    "name": "Helt skakis"
+  },
+  "monoRock": {
+    "name": "För dålig för att kasta sten"
+  },
+  "monoBug": {
+    "name": "Fem myror är fler"
+  },
+  "monoGhost": {
+    "name": "Jag har redan länge gått vid din sida"
+  },
+  "monoSteel": {
+    "name": "Nerver av stål"
+  },
+  "monoFire": {
+    "name": "Brinn pengar brinn"
+  },
+  "monoWater": {
+    "name": "Du bara låtsas som det regnar"
+  },
+  "monoGrass": {
+    "name": "Och luktar på blommorna"
+  },
+  "monoElectric": {
+    "name": "Blixtar och dunder magiska under"
+  },
+  "monoPsychic": {
+    "name": "Jättegärna"
+  },
+  "monoIce": {
+    "name": "Räven raskar"
+  },
+  "monoDragon": {
+    "name": "Katlatämjaren"
+  },
+  "monoDark": {
+    "name": "Stora skuggan"
   }
 }

@@ -2241,7 +2241,7 @@
   },
   "matBlock": {
     "name": "Tatamisköld",
-    "effect": "Genom att använda en tatamimatta som sköld skyddar utföraren sig själv och den vid sin sida mot skadande tekniker. Den hindrar dock inte tillståndstekniker."
+    "effect": "Genom att använda en tatamimatta som sköld skyddar utföraren sig själv och den vid sin sida mot skadande tekniker. Den hindrar dock inte inverkanstekniker."
   },
   "belch": {
     "name": "Rapning",
@@ -2264,24 +2264,99 @@
     "effect": "Utföraren försvinner för att sedan skada motståndaren i följande omgång. Denna teknik träffar även om motståndaren skyddar sig själv."
   },
   "trickOrTreat": {
-    "name": "Allhelgona"
+    "name": "Halloweenbus",
+    "effect": "Utföraren genomsyrar motståndaren med halloweenanda. Spöktyp läggs till på motståndarens typ."
+  },
+  "nobleRoar": {
+    "name": "Ädelryt",
+    "effect": "Utföraren ryter kraftigt och ädelt, vilket sänker en motståndares attack- och sp. atk-förmåga."
+  },
+  "ionDeluge": {
+    "name": "Plasmakaskad",
+    "effect": "Utföraren sprider elektriska partiklar som ändrar alla pokémons normaltyptekniker till eltyp under omgången."
+  },
+  "parabolicCharge": {
+    "name": "Parabolisk ström",
+    "effect": "Utföraren avfyrar el på alla andra på stridsfältet. Utförarens HP återställs med 50% av skadan som orsakas de som träffas."
+  },
+  "forestsCurse": {
+    "name": "Skogens förbannelse",
+    "effect": "Utföraren åkallar skogens förbannelse på en motståndare. Grästyp läggs till dess typ."
   },
   "petalBlizzard": {
-    "name": "Blombladsstorm"
+    "name": "Blombladsstorm",
+    "effect": "Utföraren piskar upp en våldsam storm med blomblad som skadar alla runt omkring."
+  },
+  "freezeDry": {
+    "name": "Frystork",
+    "effect": "Utföraren kyler blixtsnabbt ner motståndaren. Detta kan frysa ner den. Tekniken är supereffektiv mot vattentyper."
+  },
+  "disarmingVoice": {
+    "name": "Ömkligt läte",
+    "effect": "Ett ömkligt läte påverkar motståndarna emotionellt och skadar dem. Tekniken missar aldrig."
+  },
+  "partingShot": {
+    "name": "Sista känga",
+    "effect": "Med en sista spydig kommentar sänker utföraren en motståndares attack- och sp. atk-förmåga. En lagmedlem byter sedan av utföraren."
+  },
+  "topsyTurvy": {
+    "name": "Opp-och-ner",
+    "effect": "Alla förmågeändringar som hänt motståndaren vänts upp och ned och blir motsatsen."
+  },
+  "drainingKiss": {
+    "name": "Livsslukarpuss",
+    "effect": "Utföraren stjäl motståndarens HP med en puss. HP återställs med över 50% av skadan som orsakas."
+  },
+  "craftyShield": {
+    "name": "Lurisköld",
+    "effect": "Utföraren skyddar sig och den vid sin sida mot inverkanstekniker med en mystisk sköld. Detta stoppar inte skadande tekniker."
+  },
+  "flowerShield": {
+    "name": "Blomstersköld",
+    "effect": "Utföraren ökar försvarsförmågan hos alla grästyppokémon på stridsfältet."
   },
   "grassyTerrain": {
-    "name": "Grästerräng"
+    "name": "Grästerräng",
+    "effect": "Utföraren gör hela stridsfältet grönt i 5 omgångar. Alla pokémon på marken återfår lite HP varje omgång och grästyptekniker ökar i kraft."
   },
   "mistyTerrain": {
-    "name": "Dimmterräng"
+    "name": "Dimmterräng",
+    "effect": "Dimman skyddar alla pokémon på marken från tillståndspåverkan och halverar skadan av draktyptekniker i 5 omgångar."
+  },
+  "electrify": {
+    "name": "Elektrifiering",
+    "effect": "Om denna teknik elektrifierar en pokémon innan den utför en teknik själv samma omgång blir dess teknik eltyp."
+  },
+  "playRough": {
+    "name": "Skojbråk",
+    "effect": "Utföraren bankar på moståndaren \"på skoj\". Detta kan även sänka motståndarens attackförmåga."
   },
   "fairyWind": {
-    "name": "Trolsk vind"
+    "name": "Trolsk vind",
+    "effect": "Utföraren blåser en trolsk vind för att skada en motståndare."
+  },
+  "moonblast": {
+    "name": "Månknall",
+    "effect": "Utföraren skickar ner månens kraft på en motståndare. Detta kan också sänka motståndarens sp. atk-förmåga."
+  },
+  "boomburst": {
+    "name": "Ultraknall",
+    "effect": "Utföraren attackerar alla runt omkring sig med ett hemskt och explosivt oljud."
+  },
+  "fairyLock": {
+    "name": "Älvring",
+    "effect": "Utföraren skapar en älvring runt stridsfältet som förhindrar alla från att fly under följande omgång."
+  },
+  "kingsShield": {
+    "name": "Kungasköld",
+    "effect": "Utföraren skyddar sig mot all skada. Detta sänker också attackförmågan på de som gör fysisk kontakt med utföraren."
   },
   "electricTerrain": {
-    "name": "Elterräng"
+    "name": "Elterräng",
+    "effect": "Utföraren elektrifierar marken i 5 omgångar, vilket ökar eltypteknikers kraft. Pokémon på marken kan inte somna under den tiden."
   },
   "nuzzle": {
+    "name": "Kindgos",
     "effect": "Utföraren gnuggar sina elektriska kinder mot motståndaren. Detta förlamar också motståndaren."
   },
   "powerUpPunch": {
