@@ -30,5 +30,45 @@
       "0": "Av",
       "1": "På"
     }
+  },
+  "limitedSupport": {
+    "name": "Stödbegränsning",
+    "desc": {
+      "0": "Några eller alla gratis laghelningsalternativ tas bort.",
+      "1": "Helningen vid slutet av varje biom tas bort. Istället kommer den vanliga belöningsmenyn upp.",
+      "2": "Ingen butik på belöningsmenyn vid vågavslut.",
+      "3": "Ingen butik på belöningsmenyn vid vågavslut. Helningen vid slutet av varje biom tas bort. Istället kommer den vanliga belöningsmenyn upp."
+    },
+    "value": {
+      "0": "Av",
+      "1": "Helning av",
+      "2": "Butik av",
+      "3": "Både och"
+    }
+  },
+  "singleGeneration": {
+    "name": "En-Gen",
+    "desc": "Du kan endast använda pokémon från Generation {{gen}}.",
+    "descDefault": "Du kan endast använda pokémon från den valda generationen.",
+    "gen": {
+      "1": "I",
+      "2": "II",
+      "3": "III",
+      "4": "IV",
+      "5": "V",
+      "6": "VI",
+      "7": "VII",
+      "8": "VIII",
+      "9": "IX"
+    }
+  },
+  "singleType": {
+    "name": "Entyp",
+    "desc": "Du kan endast använda pokémon av typen {{type}}.",
+    "descDefault": "Du kan endast använda pokémon av den valda typen."
+  },
+  "inverseBattle": {
+    "name": "Motsatsstrid",
+    "shortName": "Motsats"
   }
 }
