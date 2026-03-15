@@ -69,6 +69,15 @@
   },
   "inverseBattle": {
     "name": "Motsatsstrid",
-    "shortName": "Motsats"
+    "shortName": "Motsats",
+    "desc": "All typeffektivitet omvänds och ingen typ är immun mot en annan. Andra utmaningsprestationer avaktiveras (förutom Förmågeflippare).",
+    "value": {
+      "0": "Av",
+      "1": "På"
+    }
+  },
+  "flipStat": {
+    "name": "Förmågeflippare",
+    "shortName": "Flippa"
   }
 }
