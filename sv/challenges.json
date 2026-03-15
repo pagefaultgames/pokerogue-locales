@@ -78,6 +78,32 @@
   },
   "flipStat": {
     "name": "Förmågeflippare",
-    "shortName": "Flippa"
+    "shortName": "Flippa",
+    "desc": "Förmågor vänds om:\n- HP med snabbhet\n- Attack med sp.fsv\n- Försvar med sp.atk\nAndra utmaningsprestationer avaktiveras (förutom Motsatsstrid).",
+    "value": {
+      "0": "Av",
+      "1": "På"
+    }
+  },
+  "metronome": {
+    "name": "Ute på fingervift",
+    "desc": "Du kan bara utföra Fingervift! Se hur långt du tar med ren tur. Denna \"utmaning\" är bara för skojs skull, den ger inte en prestation. Alla andra prestationer avaktiveras.",
+    "value": {
+      "0": "Av",
+      "1": "På"
+    }
+  },
+  "passives": {
+    "name": "Aktiva passiver",
+    "desc": {
+      "0": "Några eller alla pokémon har sina passiver aktiverade.",
+      "1": "Tränares pokémon har aktiva passiver. Dina startare påverkas inte.",
+      "2": "Alla pokémon inklusive dina har aktiva passiver under ronden. Alla andra utmaningsprestationer avaktiveras."
+    },
+    "value": {
+      "0": "Av",
+      "1": "Tränares",
+      "2": "Alla"
+    }
   }
 }
