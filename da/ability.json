@@ -400,7 +400,8 @@
     "description": "Pokémonen er altid den sidste til at angribe."
   },
   "technician": {
-    "name": "Technician"
+    "name": "Technician",
+    "description": "Forstærker angreb som har en base kraft på 60 eller mindre med 50%."
   },
   "leafGuard": {
     "name": "Leaf Guard",
@@ -411,13 +412,16 @@
     "description": "Denne Pokémon kan ikke bruge holdte genstande."
   },
   "moldBreaker": {
-    "name": "Mold Breaker"
+    "name": "Mold Breaker",
+    "description": "Pokémonens angreb uhindret af modstanderens Evne."
   },
   "superLuck": {
-    "name": "Super Luck"
+    "name": "Super Luck",
+    "description": "Pokémonen er så heldig at chancen for et kritisk angreb stiger med et stadie."
   },
   "aftermath": {
-    "name": "Aftermath"
+    "name": "Aftermath",
+    "description": "Skader angriberen for ¼ af deres maksimum HP hvis de besejrer denne Pokémon med et angreb der gør direkte kontakt."
   },
   "anticipation": {
     "name": "Anticipation",
@@ -428,62 +432,76 @@
     "description": "Når den sendes i kamp kan denne Pokémon gennemskue et af modstanderens angreb."
   },
   "unaware": {
-    "name": "Unaware"
+    "name": "Unaware",
+    "description": "Pokémonen ignorerer modstanderens stat ændringer når den angriber eller bliver angrebet."
   },
   "tintedLens": {
-    "name": "Tinted Lens"
+    "name": "Tinted Lens",
+    "description": "Pokémonens \"ikke særlig effektive\" angreb gør dobbelt skade."
   },
   "filter": {
-    "name": "Filter"
+    "name": "Filter",
+    "description": "Reducerer kraften af super effektive angreb der rammer Pokémonen med 25%."
   },
   "slowStart": {
     "name": "Slow Start",
     "description": "I fem ture er denne Pokémons Angreb og Hastighed stat halveret."
   },
   "scrappy": {
-    "name": "Scrappy"
+    "name": "Scrappy",
+    "description": "Pokémonen kan ramme Spøgelses-type Pokémon med Normal- og Kamp-type angreb. Den kan heller ikke blive intimideret."
   },
   "stormDrain": {
-    "name": "Storm Drain"
+    "name": "Storm Drain",
+    "description": "Pokémonen tiltrækker alle Vand-type angreb. I stedet for at tage skade fra dem bliver dens Sp. Ang øget."
   },
   "iceBody": {
-    "name": "Ice Body"
+    "name": "Ice Body",
+    "description": "Pokémonen regenererer langsomt ¹⁄₁₆ af dens maksimum HP i slutningen af hver tur i sne eller hagl. Denne Pokémon tager ikke skade fra hagl."
   },
   "solidRock": {
-    "name": "Solid Rock"
+    "name": "Solid Rock",
+    "description": "Reducerer kraften på super effektive angreb der rammer Pokémonen med 25%."
   },
   "snowWarning": {
     "name": "Snow Warning",
     "description": "Denne Pokémon får det til at sne, når den sendes i kamp."
   },
   "honeyGather": {
-    "name": "Honey Gather"
+    "name": "Honey Gather",
+    "description": "Pokémonen samler Honning som så bliver solgt efter en kamp er vundet, selv hvis den ikke selv deltog."
   },
   "frisk": {
     "name": "Frisk",
     "description": "Når denne Pokémon sendes i kamp kan den tjekke modstanderens Evne."
   },
   "reckless": {
-    "name": "Reckless"
+    "name": "Reckless",
+    "description": "Forstærker angreb der har rekyl skade med 20%."
   },
   "multitype": {
     "name": "Multitype",
     "description": "Ændrer denne Pokémons type til at matche den Plade den holder."
   },
   "flowerGift": {
-    "name": "Flower Gift"
+    "name": "Flower Gift",
+    "description": "Øger Angreb og Sp. For statene for den selv og dens allierede i kamp med 50% i skarp solskin."
   },
   "badDreams": {
-    "name": "Bad Dreams"
+    "name": "Bad Dreams",
+    "description": "Skader modstanderens Pokémon der sover i slutningen af hver tur for ⅛ af deres maksimum HP."
   },
   "pickpocket": {
-    "name": "Pickpocket"
+    "name": "Pickpocket",
+    "description": "Pokémonen stjæler en holdt genstand fra angribere der gør direkte kontakt med den."
   },
   "sheerForce": {
-    "name": "Sheer Force"
+    "name": "Sheer Force",
+    "description": "Fjerne yderligere effekter fra Pokémonens angreb, men øger deres kraft med 30%."
   },
   "contrary": {
-    "name": "Contrary"
+    "name": "Contrary",
+    "description": "Omvender stat ændringer for Pokémonen så forsøg på at øge dens stats vil sænke dem i stedet — omvendt vil forsøg på at sænke dem øge dem."
   },
   "unnerve": {
     "name": "Unnerve",
