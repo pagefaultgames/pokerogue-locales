@@ -1,16 +1,43 @@
 {
+  "title": "Modificadors de Repte",
+  "illegalEvolution": "{{pokemon}} s'ha convertit en\nun Pokémon inelegible per a aquest repte!",
+  "noneSelected": "Cap Escollit",
   "freshStart": {
     "value": {
       "0": "No"
     }
   },
-  "limitedCatch": {
+  "hardcore": {
     "value": {
       "0": "No",
       "1": "Sí"
     }
   },
+  "limitedCatch": {
+    "name": "Caça Limitada",
+    "desc": "Només pots afegir el primer Pokémon d’un bioma al teu equip.",
+    "value": {
+      "0": "No",
+      "1": "Sí"
+    }
+  },
+  "limitedSupport": {
+    "name": "Suport Limitat",
+    "desc": {
+      "0": "Elimina totes o algunes de les opcions gratuïtes per a curar el teu equip.",
+      "1": "Elimina la curació al final de cadia bioma.\nEn el seu lloc et donen les recompenses de final d'onada normals.",
+      "2": "Elimina la Botiga al menú de recompenses del final d’onada."
+    },
+    "value": {
+      "0": "No",
+      "1": "Sense Curació",
+      "2": "Sense Botiga",
+      "3": "Tots dos"
+    }
+  },
   "singleGeneration": {
+    "desc": "Només pots utilitzar Pokémon de la Generació {{gen}}.",
+    "descDefault": "Només pots utilitzar Pokémon de la generació escollida.",
     "gen": {
       "1": "1ª",
       "2": "2ª",
@@ -23,7 +50,12 @@
       "9": "9ª"
     }
   },
+  "singleType": {
+    "descDefault": "Només pots utilitzar Pokémon del tipus escollit."
+  },
   "inverseBattle": {
+    "name": "Batalla Inversa",
+    "shortName": "Inversa",
     "value": {
       "0": "No",
       "1": "Sí"

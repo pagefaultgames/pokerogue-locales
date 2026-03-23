@@ -1,0 +1,40 @@
+{
+  "intro": "En forunderlig træner med alle slags Insekt tilbehør blokerer din vej!",
+  "introDialogue": "Hey træner! Jeg er på en mission for at finde den sjældneste Insekt Pokémon der findes!$Du må også elske Insekt Pokémon, ikke?\nAlle elsker Insekt Pokémon!",
+  "title": "Insekt-Type Superfanen",
+  "speaker": "Insekt-Type Superfan",
+  "description": "Trænerne sludre løs, de venter ikke engng på en respons…\n\nDet ser ud til at den eneste vej ud af situationen er ved at fange deres opmærksomhed!",
+  "query": "Hvad vil du gøre?",
+  "option": {
+    "1": {
+      "label": "Tilbyd at Kæmpe",
+      "tooltip": "(-) Svær Kamp\n(+) Lær en Pokémon et Insekt-type angreb",
+      "selected": "En udfordring, eh?\nMine insekter er mere en klar til dig!"
+    },
+    "2": {
+      "label": "Vis Dine Insekt-typer",
+      "tooltip": "(+) Modtag en Gave Genstand",
+      "disabledTooltip": "Du skal have mindst 1 Insekt-type Pokémon på dit hold for at vælge dette.",
+      "selected": "Du viser træneren alle dine Insekt-type Pokémon…",
+      "selected0To1": "Hva? Du har kun {{numBugTypes}}…$Ser ud til jeg spilder min tid på sådan en som dig…",
+      "selected2To3": "Hey, du har{{numBugTypes}}!\nIkke dårligt.$Her, det her kan sikker hjælpe dig med at fange flere!",
+      "selected4To5": "Hvad? Du har {{numBugTypes}}?\nNice!$Du er ikke helt på mit niveau, men jeg kan se lidt af mig selv i dig!$Tag det her, min unge lærling!",
+      "selected6": "Whoa! {{numBugTypes}}!$Du må virkelig elske Insekt-typer næsten lige så meget som mig!$Her, tag det her som et symbol på vores venskab!"
+    },
+    "3": {
+      "label": "Giv en Insekt Genstand",
+      "tooltip": "(-) Giv træneren en {{requiredBugItems}}\n(+) Få en Gave Genstand",
+      "disabledTooltip": "You skal have en {{requiredBugItems}} for at vælge dette.",
+      "selectPrompt": "Vælg en genstand at give.",
+      "invalidSelection": "Denne Pokémon har ikke sådan en genstand.",
+      "selected": "Du giver træneren en{{selectedItem}}.",
+      "selectedDialogue": "Woah! En {{selectedItem}}, til mig?\nDu er ikke så slem, min ven!$Som et tegn på min glæde,\nvil jeg give dig en speciel gave!$Den er speciel i min familie, og nu vil jeg give den til dig, så pas godt på den!"
+    }
+  },
+  "battleWon": "Din viden og talent var perfekt til at udnytte vores svaghed!$Som belønning for den dyrebare lektion,\nvenligst lad mig lære en af dine Pokémon et Insekt-type angreb!",
+  "teachMovePrompt": "Vælg et angreb at lære en Pokémon.",
+  "confirmNoTeach": "Er du sikker på du ikke vil lære et af de her fantastiske angreb?",
+  "outro": "Jeg kan se utrolige Insekt Pokémon i din fremtid!\nMå vores veje krydse igen!$Insekter afsted!",
+  "numBugTypes_one": "{{count}} Insekt-type",
+  "numBugTypes_other": "{{count}} Insekt-typer"
+}

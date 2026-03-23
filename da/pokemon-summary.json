@@ -1,9 +1,21 @@
 {
+  "pokemonInfo": "Pokémon-info",
+  "status": "Tilstand",
   "powerAccuracyCategory": "Styrke\nPræcision\nKategori",
   "type": "Type",
+  "unknownTrainer": "Ukendt",
+  "ot": "OT",
+  "idNo": "ID nr.",
+  "nature": "natur",
   "expPoints": "Erfaringspoint",
   "lv": "N.",
+  "nextLv": "Næste niveau",
   "cancel": "Annuller",
+  "memoString": "{{natureFragment}} natur,\n{{metFragment}}",
+  "metFragment": {
+    "normal": "mødt ved N.{{level}},\n{{biome}}, Runde {{wave}}.",
+    "apparently": "Åbenbart mødt som N. {{level}}\ni {{biome}}-biomet."
+  },
   "natureFragment": {
     "hardy": "{{nature}}",
     "lonely": "{{nature}}",
@@ -30,5 +42,6 @@
     "sassy": "{{nature}}",
     "careful": "{{nature}}",
     "quirky": "{{nature}}"
-  }
+  },
+  "friendship": "Venskab"
 }
