@@ -849,7 +849,7 @@
   },
   "attract": {
     "name": "Tjusning",
-    "effect": "Om motståndaren är motsatt kön till utföraren blir motståndaren förälskad och mindre benägen att attackera."
+    "effect": "Om motståndaren är motsatt kön till utföraren blir motståndaren kär och mindre benägen att attackera."
   },
   "sleepTalk": {
     "name": "Sömnprat",
@@ -3301,7 +3301,7 @@
   },
   "eerieSpell": {
     "name": "Kuslig trollformel",
-    "effect": "Utföraren attackerar med enorm psykisk kraft. Detta tar också bort 3 PP från motståndarens sista teknik."
+    "effect": "Utföraren attackerar med enorm psykisk kraft. Detta tar också bort 3 KP från motståndarens sista teknik."
   },
   "direClaw": {
     "name": "Katastrofklor",
@@ -3400,7 +3400,8 @@
     "effect": "Utföraren stålsätter sitt hjärta, botar sin tillståndspåverkan och ökar både attack- och försvarsförmåga."
   },
   "gMaxWildfire": {
-    "name": "G-Maxad glödhetta"
+    "name": "G-Maxad glödhetta",
+    "effect": "En eldtypattack som en G-maxad Charizard utför. Denna fortsätter skada motståndarna i 4 omgångar."
   },
   "gMaxBefuddle": {
     "name": "G-maxad glamor",
@@ -3411,20 +3412,168 @@
     "effect": "En eltypattack som en G-maxad Pikachu använder. Den förlamar motståndarna."
   },
   "gMaxGoldRush": {
-    "name": "G-maxad guldrush"
+    "name": "G-maxad guldrush",
+    "effect": "En normaltypattack som en G-maxad Meowth utför. Den förvirrar motståndare och ger också extra pengar efter strid."
   },
   "gMaxChiStrike": {
+    "name": "G-maxad gyaku-tsuki",
     "effect": "En slagsmålstypteknik som en G-maxad Machamp använder. Denna teknik orsakar kritiska träffar oftare."
   },
+  "gMaxTerror": {
+    "name": "G-maxad gastkram",
+    "effect": "En spöktypattack som en G-maxad Gengar utför. Den kramar fast motståndaren för att hindra den från att fly."
+  },
+  "gMaxResonance": {
+    "name": "G-maxat glissando",
+    "effect": "En istypattack som G-maxad Lapras utför. Denna attack sänker skadan i 5 omgångar"
+  },
+  "gMaxCuddle": {
+    "name": "G-maxat gosigos",
+    "effect": "En normaltypattack som en G-maxad Eevee utför. Den gör motståndaren kär."
+  },
+  "gMaxReplenish": {
+    "name": "G-maxad gröda",
+    "effect": "En normaltypattack som en G-maxad Snorlax utför. Den återställer bär som har ätits."
+  },
+  "gMaxMalodor": {
+    "name": "G-maxad geggamoja",
+    "effect": "En gifttypattack som en G-maxad Garbodor utför. Den förgiftar motståndarna."
+  },
+  "gMaxStonesurge": {
+    "name": "G-maxad grusström",
+    "effect": "En vattentypsattack som en G-maxad Drednaw utför. Den sprider vassa stenar runt stridsfältet."
+  },
+  "gMaxWindRage": {
+    "name": "G-maxad grovstorm",
+    "effect": "En flygandetypattack som en G-maxad Corviknight utför. Den tar bort effekterna av Fysiobarriär, Specialskärm och dylika tekniker."
+  },
   "gMaxStunShock": {
-    "effect": "En eltypattack som en G-maxad Toxtricity  använder. Den förgifter eller förlamar motståndarna."
+    "name": "G-maxad giftchock",
+    "effect": "En eltypattack som en G-maxad Toxtricity använder. Den förgifter eller förlamar motståndarna."
+  },
+  "gMaxFinale": {
+    "name": "G-maxat gott slut",
+    "effect": "En fetypattack som en G-maxad Alcremie utför. Den återställer HP hos utföraren och den vid dess sida."
+  },
+  "gMaxDepletion": {
+    "name": "G-maxad grymhet",
+    "effect": "En draktypattack som en G-maxad Duraludon utför. Den sänker KP för den senast utförda tekniken."
+  },
+  "gMaxGravitas": {
+    "name": "G-maxad gravitation",
+    "effect": "En attack av psyktypteknik som en G-maxad Orbeetle utför. Den ändrar gravitationen i 5 omgångar."
+  },
+  "gMaxVolcalith": {
+    "name": "G-maxad geotermi",
+    "effect": "En stentypattack som en G-maxad Coalossal utför. Den fortsätter att skada motståndare i 4 omgångar."
+  },
+  "gMaxSandblast": {
+    "name": "G-maxad granitgruva",
+    "effect": "En jordtypattack som en G-maxad Sandaconda utför. Motståndarna fångas i en sandstorm i 4-5 omgångar."
+  },
+  "gMaxSnooze": {
+    "name": "G-maxad gäspning",
+    "effect": "En mörktypattack som G-maxad Grimmsnarl utför. Utföraren gäspar enormt vilket vaggar motståndaren till sömns följande omgång."
+  },
+  "gMaxTartness": {
+    "name": "G-maxad garvsyra",
+    "effect": "En grästypattack som en G-maxad Flapple utför. Den sänker motståndarnas undvikande."
+  },
+  "gMaxSweetness": {
+    "name": "G-maxade go'äpplen",
+    "effect": "En grästypattack som en G-maxad Appletun utför. Den läker tillståndspåverkan hos utföraren och den vid sin sida."
+  },
+  "gMaxSmite": {
+    "name": "G-maxat gudsstraff"
+  },
+  "gMaxSteelsurge": {
+    "name": "G-maxad galvanisering"
+  },
+  "gMaxMeltdown": {
+    "name": "G-maxat gjutjärn"
+  },
+  "gMaxFoamBurst": {
+    "name": "G-maxad gejser"
+  },
+  "gMaxCentiferno": {
+    "name": "G-maxad grandbrand"
+  },
+  "gMaxVineLash": {
+    "name": "G-maxad gräspiska"
+  },
+  "gMaxCannonade": {
+    "name": "G-maxad gevärfors"
+  },
+  "gMaxDrumSolo": {
+    "name": "G-maxad grästrumma"
+  },
+  "gMaxFireball": {
+    "name": "G-maxad gnistboll"
+  },
+  "gMaxHydrosnipe": {
+    "name": "G-maxad grovkaliber"
+  },
+  "gMaxOneBlow": {
+    "name": "G-maxad gråsop"
+  },
+  "gMaxRapidFlow": {
+    "name": "G-maxad garddränkare"
+  },
+  "teraBlast": {
+    "name": "Teraexplosion"
+  },
+  "silkTrap": {
+    "name": "Silkesfälla"
+  },
+  "axeKick": {
+    "name": "Yxspark"
+  },
+  "lastRespects": {
+    "name": "Postumt hedrande"
+  },
+  "luminaCrash": {
+    "name": "Luminakrasch"
+  },
+  "orderUp": {
+    "name": "Dagens rättvisa"
   },
   "jetPunch": {
     "name": "Jetnäve"
   },
+  "spicyExtract": {
+    "name": "Kapsaicinsaft"
+  },
+  "spinOut": {
+    "name": "Däcksladdare"
+  },
   "populationBomb": {
     "name": "Överbedolkning",
     "effect": "Utförarens släkt samlas i en hord för en kombinerad attack där de skär motståndaren med klor vassa som dolkar 1-10 gånger i rad."
+  },
+  "iceSpinner": {
+    "name": "Ispiruett"
+  },
+  "glaiveRush": {
+    "name": "Glavkrasch"
+  },
+  "revivalBlessing": {
+    "name": "Livsvälsingnelse"
+  },
+  "saltCure": {
+    "name": "Torrsaltning"
+  },
+  "tripleDive": {
+    "name": "Trippeldyk"
+  },
+  "mortalSpin": {
+    "name": "Mortal saltomortal"
+  },
+  "doodle": {
+    "name": "Avbildning",
+    "effect": "Utföraren fångar essensen av en pokémon med ett porträtt. Utföraren och den vid dess sida får därmed samma särdrag som den avbildade."
+  },
+  "filletAway": {
+    "name": "Kött från benen"
   },
   "kowtowCleave": {
     "name": "Knäfallskniv"
