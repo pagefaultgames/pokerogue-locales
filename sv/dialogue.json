@@ -23,12 +23,71 @@
       "1": "@c{shock}Jäklar… fetspö fick jag. Är du verkligen nybörjare?$@c{smile}Du kanske bara hade lite tur, men... vem vet? Du kanske kan ta dig hela vägen fram.$Förresten, professorn bad mig ge dig de här sakerna. Sjysst, va!$@c{serious_smile_fists}Lycka till nu!"
     }
   },
+  "rivalFemale": {
+    "encounter": {
+      "1": "@c{smile_wave}Men åh, där är du! Jag har letat precis överallt!\n@c{angry_mopen}Hur kunde du glömma säga hejdå till din bästis?$@c{smile_ehalf}Dags att jaga din dröm, alltså? Den dagen är verkligen här, eller hur…$@c{smile}Okej, jag förlåter dig för att du fetglömde mig... på ett villkor!@c{smile_wave_wink}Du måste fajtas med mig!$@c{angry_mopen}Kör hårt nu asså! Fett synd om äventyret tog slut dirr, eller hur?"
+    },
+    "victory": {
+      "1": "@c{shock}HUR kan du vara såhär stark när du precis satt igång!?@d{96}\n@c{angry}Jag svär, du fuskade loss...$@c{smile_wave_wink}Skojaaa!@d{64} @c{smile_eclosed}Jag förlorade helt och hållet... Jag känner på mig att du kommer klara dig riktigt långt!$@c{smile}Juste! Professorn ville att du skulle ha lite saker! Hoppas de hjälper!$@c{smile_wave}Kör riktigt jäkla hårt nu, som alltid! Tror på diiig!"
+    }
+  },
   "rival2": {
     "encounter": {
       "1": "@c{smile}Tja! Är du här också?\n@c{smile_eclosed}Fortfarande obesegrad, eller hur...?$@c{serious_mopen_fists}Jag vet att det ser ut som jag har följt men det är inte heeelt sant...$@c{serious_smile_fists}Ärligt? Jag har varit sugen på revansch ända sen du vann där hemma.$Jag har tränat själv en massa, så du får riktig konkurrens den här gången.$@c{serious_mopen_fists}Håll inte tillbaka denna gång heller! Kom an!"
     },
     "victory": {
       "1": "@c{neutral_eclosed}Jaha. Antar att jag var för självsäker. $@c{smile}Aja, tänkte att det här kunde hända.\n@c{serious_mopen_fists}Det betyder bara att måste satsa hårdare tills nästa gång!$@c{smile}Just det, inte för att du behöver mer hjälp, men jag hade några extra såna här, du kanske vill ha.$@c{serious_smile_fists}Men du får inget mer från och med nu! Kan inte fortsätta ge min motståndare en massa övertag, ju."
+    }
+  },
+  "rival2Female": {
+    "encounter": {
+      "1": "@c{smile_wave}Men lägg av, det är du! ...Och du har inte förlorat än. @c{angry_mopen}Jahopp! Najs ju!$@c{angry_mopen}Och jag vet, det här ser fett skumt ut, men jag lovar att jag inte stalkar dig eller nåt!@c{smile_eclosed}Jag bara råka hänga här lite.$@c{smile_ehalf}Du, jag är glad för din skull, men bara så att du vet, det är okej att förlora också!$@c{smile}Man lär sig från sina misstag, ofta mer än om man bara lyckas, lyckas, lyckas, ju.$@c{angry_mopen}Hur som haver! Jag har tränat järnet för vår returmatch, så jag vill se dig satsa precis allt! Kom an, liksom!"
+    },
+    "victory": {
+      "1": "@c{neutral}Det var…inte... meningen att jag skulle förlora nu.$@c{smile}Jahopp! Jag får bara träna ännu ännu hårder tills nästa gång!$@c{smile_wave}Jag har också två till såna här till dig!\n@c{smile_wave_wink}Det var så jättelite så~!$@c{angry_mopen}Men de blir de sista, lugnt! Inga fler gratisleksaker från och med nu!"
+    }
+  },
+  "rival3": {
+    "encounter": {
+      "1": "@c{smile}Nämen, det är du! Det var ett tag sedan.\n@c{neutral}Och... du har fortfarande inte förlorat? Oj.$@c{neutral_eclosed}Allt har känts lite... mysko på sistone. Hemma känns det inte likadant utan dig.$@c{serious}Jag vet att det här är själviskt, men jag måste få det sagt.\n@c{neutral_eclosed}Jag tror att du tar dig vatten över huvudet.$@c{serious}Det är bara inte realistiskt att aldrig någonsin förlora.\nAlla måste misslyckas någon gång för att kunna växa.$@c{neutral_eclosed}Du har klarat bra hittils, men det finns väldigt mycket kvar och det kommer bara bli svårare.@c{neutral}Är du verkligen redo för det?$@c{serious_mopen_fists}Om du tycker det... Bevisa det."
+    },
+    "victory": {
+      "1": "@c{angry_mhalf}Det här är ju löjligt... Jag har bara tränat och tränat…\nHur kan du ha kommit så mycket längre?"
+    }
+  },
+  "rival4": {
+    "encounter": {
+      "1": "@c{neutral}Tja.$Jag tänker bara säga som det är.\n@c{neutral_eclosed}Jag är här för att vinna, inget mer.$@c{serious_mhalf_fists}Jag har maximerat min potential genom lägga all min tid på träning.$@c{smile}Man vinner väldigt många timmar på att utesluta onödigheter som sömn och umgänge.$@c{serious_mopen_fists}Allt sånt kvittar tills jag slutligen vinner.$@c{neutral_eclosed}Jag har till och med nått punkten där jag inte förlorar längre.\n@c{smile_eclosed}Verkar som att du inte hade så fel i din filosofi, trots allt.$@c{angry_mhalf}Att förlora är vad de svaga gör. Och jag är inte svag längre.$@c{serious_mopen_fists}Kom an."
+    },
+    "victory": {
+      "1": "@c{neutral}Vad…@d{64} vad är du?"
+    }
+  },
+  "rival5": {
+    "encounter": {
+      "1": "@c{neutral}…"
+    },
+    "victory": {
+      "1": "@c{neutral}…"
+    }
+  },
+  "rival5Female": {
+    "encounter": {
+      "1": "@c{neutral}…"
+    },
+    "victory": {
+      "1": "@c{neutral}…"
+    },
+    "defeat": {
+      "1": "$@c{smile_ehalf}…"
+    }
+  },
+  "rival6": {
+    "encounter": {
+      "1": "@c{smile_eclosed}Vi möts igen.$@c{neutral}Jag har haft tid att reflektera över allt det här.\nDet finns en anledning till att allt känns så konstigt.$@c{neutral_eclosed}Din dröm, mitt driv till att besegra dig...\nAllt är del av något större.$@c{serious}Det handlar inte om dig eller mig... Det handlar om världen,@c{serious_mhalf_fists}och mitt syfte är driva dig till ditt yttersta förmåga.$@c{neutral_eclosed}Jag vet inte om jag har uppfyllt mitt syfte, men jag har gjort precis allt jag kunnat.$@c{neutral}Det här stället... Det borde kännas obehagligt här, men jag är opåverkad, som om jag varit här förut.$@c{serious_mhalf_fists}Du känner likadant, eller hur?$@c{serious}…Och det är som om något talar till mig.\nDet här är det enda som denna värld har varit... i evigheter.$Alla stunder vi tillbringade tillsammans, som känns som alldeles nyligen... Ett minne blott nu.$@c{neutral_eclosed}Vem vet om de ens var på riktigt alls...?$@c{serious_mopen_fists}Du måste kämpa vidare. Om du inte gör det, kommer det aldrig att ta slut. Du är den enda som kan klara detta.$@c{serious_smile_fists}Jag vet knappt vad något av det här betyder. Jag vet bara att det är sant. $@c{serious_mopen_fists}Om du inte kan besegra mig här och nu, har du ingen chans alls."
+    },
+    "victory": {
+      "1": "@c{smile_eclosed}Jag tror jag har klarat av min uppgift.$Jag vill att du lovar mig något.\n@c{smile}Efter att du har läkt världen... Snälla, kom hem."
     }
   }
 }
