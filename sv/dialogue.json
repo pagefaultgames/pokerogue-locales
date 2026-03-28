@@ -45,6 +45,9 @@
     },
     "victory": {
       "1": "@c{neutral}Det var…inte... meningen att jag skulle förlora nu.$@c{smile}Jahopp! Jag får bara träna ännu ännu hårder tills nästa gång!$@c{smile_wave}Jag har också två till såna här till dig!\n@c{smile_wave_wink}Det var så jättelite så~!$@c{angry_mopen}Men de blir de sista, lugnt! Inga fler gratisleksaker från och med nu!"
+    },
+    "defeat": {
+      "1": "Det är okej att förlora ibland..."
     }
   },
   "rival3": {
@@ -55,12 +58,34 @@
       "1": "@c{angry_mhalf}Det här är ju löjligt... Jag har bara tränat och tränat…\nHur kan du ha kommit så mycket längre?"
     }
   },
+  "rival3Female": {
+    "encounter": {
+      "1": "@c{smile_wave}Det var inte igår! Och ingen har slått dig än...\n@c{angry}Börjar typ bli fett lack.@c{smile_wave_wink}Skojaaa!$@c{smile_ehalf}Men seriöst, börjar du inte sakna hem? Eller... mig?\nJag... jag menar, vi har saknat dig jättemycket.$@c{smile_eclosed}Jag stödjer dig i din dröm och sånt, men sanningen är ju att du kommer att förlora förr eller senare.$@c{smile}Och när du gör det, så kommer jag vara här för dig som alltid.\n@c{angry_mopen}Nu ska du få se hur stark jag har blivit!"
+    },
+    "victory": {
+      "1": "@c{shock}Räckte det...fortfarande inte till...?\nDu kommer aldrig komma hem vid det här laget…"
+    },
+    "defeat": {
+      "1": "Du fajtades hårt, men nu sticker vi hem!"
+    }
+  },
   "rival4": {
     "encounter": {
       "1": "@c{neutral}Tja.$Jag tänker bara säga som det är.\n@c{neutral_eclosed}Jag är här för att vinna, inget mer.$@c{serious_mhalf_fists}Jag har maximerat min potential genom lägga all min tid på träning.$@c{smile}Man vinner väldigt många timmar på att utesluta onödigheter som sömn och umgänge.$@c{serious_mopen_fists}Allt sånt kvittar tills jag slutligen vinner.$@c{neutral_eclosed}Jag har till och med nått punkten där jag inte förlorar längre.\n@c{smile_eclosed}Verkar som att du inte hade så fel i din filosofi, trots allt.$@c{angry_mhalf}Att förlora är vad de svaga gör. Och jag är inte svag längre.$@c{serious_mopen_fists}Kom an."
     },
     "victory": {
       "1": "@c{neutral}Vad…@d{64} vad är du?"
+    }
+  },
+  "rival4Female": {
+    "encounter": {
+      "1": "@c{neutral}Här är lilla jag! Du glömde väl mig inte... igen?$@c{smile}Du ska vara stolt över hur långt du kommit. Grattis ju!\nMen jag tror att det här blir slutet på dina resa.$@c{smile_eclosed}Du? Du har väckt något inom mig som jag inte visste fanns. Allt jag gör nu är att träna.$@c{smile_ehalf}Jag äter knappt, sover inte... Tränar bara mina pokémon varje dag, och de blir bara starkare och starkare.$@c{neutral}Ärligt...? Jag vet inte vem jag är längre. $Och nu är jag här, mitt bästa jag. Ingen kan vinna mot mig nu.$Och vet du vad? Det är tack vare dig.\n@c{smile_ehalf}Jag vet inte om jag ska tacka dig eller hata dig.$@c{angry_mopen}Gör dig redo."
+    },
+    "victory": {
+      "1": "@c{neutral}Vad…@d{64} vad är du?"
+    },
+    "defeat": {
+      "1": "$@c{smile}Du ska vara så stolt över dig själv..."
     }
   },
   "rival5": {
@@ -88,6 +113,14 @@
     },
     "victory": {
       "1": "@c{smile_eclosed}Jag tror jag har klarat av min uppgift.$Jag vill att du lovar mig något.\n@c{smile}Efter att du har läkt världen... Snälla, kom hem."
+    }
+  },
+  "rival6Female": {
+    "encounter": {
+      "1": "@c{smile_ehalf}Bara vi två igen.$@c{smile_eclosed}Vet du... Allt går bara runt, runt i mitt huvud.$@c{smile_ehalf}Det är något med allt det här, varför allt känns så knas nu...$@c{smile}Du har din dröm, och jag har det här drivet...$Det känns bara som att det finns någon högre mening med allt det här, med varför vi gör det här, du och jag.$@c{smile_eclosed}Jag tror mitt syfte är att pusha dig... till ditt yttersta.$@c{smile_ehalf}Jag vet inte om jag lyckats med det, men... jag gjorde mitt bästa.$Det är nåt med det här konstiga, hemska stället. Allt verkar så tydligt nu...$Det här... är det enda som den här världen har varit... i evigheter.$@c{smile_eclosed}Jag kan knappt minnas alla stunder vi tillbringat tillsammans.$@c{smile_ehalf}Hände de ens till att börja med? De känns så långt borta nu...$@c{angry_mopen}Du måste kämpa vidare. Om du inte gör det, så kommer det här aldrig ta slut. Du är den enda som kan klara det här.$@c{smile_ehalf}Jag... vet inte vad allt det här betyder... men jag vet att det är sant.$@c{neutral}Om du inte kan vinna mot mig här och nu, så har du ingen chans alls."
+    },
+    "victory": {
+      "1": "@c{smile_ehalf}Jag… jag tror att jag har uppfyllt mitt syfte…$@c{smile_eclosed}Lova mig bara... Efter att du har läkt världen... Snälll… kom hem oskadd.$@c{smile_ehalf}…Tack."
     }
   }
 }
