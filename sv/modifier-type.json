@@ -2,7 +2,7 @@
   "ModifierType": {
     "AddPokeballModifierType": {
       "name": "{{modifierCount}}× {{pokeballName}}",
-      "description": "Få {{modifierCount}} st. {{pokeballName}}ar (Till hands: {{pokeballAmount}}) \nFångstsannolikhet: {{catchRate}}"
+      "description": "Få {{modifierCount}}x {{pokeballName}} (Till hands: {{pokeballAmount}}) \nFångstsannolikhet: {{catchRate}}"
     },
     "AddVoucherModifierType": {
       "name": "{{modifierCount}}× {{voucherTypeName}}",
@@ -15,7 +15,7 @@
       }
     },
     "PokemonHpRestoreModifierType": {
-      "description": "Återhämtar {{restorePoints}} HP eller {{restorePercent}}%, HP hos en pokémon, beroende på vilket som är högre.",
+      "description": "Återhämtar {{restorePoints}} HP eller {{restorePercent}} % HP hos en pokémon, beroende på vilket som är högre.",
       "extra": {
         "fully": "Återställer alla HP hos en pokémon.",
         "fullyWithStatus": "Återställer alla HP hos en pokémon och kurerar all tillståndspåverkan."
