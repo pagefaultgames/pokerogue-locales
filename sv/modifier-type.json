@@ -50,7 +50,7 @@
       "description": "Fyrdubblar sannolikheten för dubbelstrid under förloppet av max {{battleCount}} strider."
     },
     "TempStatStageBoosterModifierType": {
-      "description": "Ökar {{stat}} för alla för lagmedlemmar med {{amount}} under max 5 strider.",
+      "description": "Ökar {{stat}} för alla för lagmedlemmar med {{amount}} i högst 5 strider.",
       "extra": {
         "stage": "1 steg",
         "percentage": "20%"
@@ -257,9 +257,9 @@
       "description": "Siktar in sig på svaga punkter och ökar bärarens chans att få till en kritisk träff."
     },
     "DIRE_HIT": {
-      "name": "Kritiskärpin",
+      "name": "Kritiskärpren",
       "extra": {
-        "raises": "Odds för kritisk träff"
+        "raises": "chansen för kritisk träff"
       }
     },
     "LEEK": {
@@ -365,7 +365,19 @@
       "description": "Stantler utvecklas för att anpassa sig till brutala miljöer. Förstärk dess försvar med tekniken Psykosköldstöt!"
     },
     "BATON": {
-      "name": "Stafettpinne"
+      "name": "Stafettpinne",
+      "description": "Skickar vidare effekter till avbytaren och kringgår fällor vid avbyte."
+    },
+    "SHINY_CHARM": {
+      "name": "Skimrande amulett",
+      "description": "Ökar avsevärt chansen att möta en vild pokémon som är skimrande."
+    },
+    "ABILITY_CHARM": {
+      "name": "Säregen amulett",
+      "description": "Ökar avsevärt chansen att möta en vild pokémon med ett hemligt särdrag."
+    },
+    "CATCHING_CHARM": {
+      "name": "Fångstamulett"
     },
     "IV_SCANNER": {
       "name": "IV-skanner",
