@@ -1,0 +1,26 @@
+{
+  "intro": "Det finns en enorm bärbuske\nbakom en pokémon där borta!",
+  "title": "Bär eller brist",
+  "description": "En kraftig pokémon vaktar bärbusken där borta. En strid blir det mest direkta sättet att nå den, men det kan bli tufft. Kanske kan en snabb pokémon i ditt lag sno några bär utan att bli upptäckt?",
+  "query": "Hur gör du?",
+  "berries": "Bär",
+  "option": {
+    "1": {
+      "label": "Strid",
+      "tooltip": "(-) Tuff strid\n(+) Få flera bär",
+      "selected": "Du närmar dig \ndin motståndare utan fruktan."
+    },
+    "2": {
+      "label": "Rusa till busken",
+      "tooltip": "(-) {{fastestPokemon}} gör nytta av sin snabbhet\n(+) Få bär",
+      "selected": "Din {{fastestPokemon}} rusar mot bärbusken!$Den lyckas norpa {{numBerries}} innan {{enemyPokemon}} hinner reagera!$Du drar dig snabbt tillbaka med ditt nyfunna byte.",
+      "selectedBad": "Din {{fastestPokemon}} rusar mot bärbusken!$Åh nej! {{enemyPokemon}} var snabbare och blockerade {{fastestPokemon}}!",
+      "bossEnraged": "Den motstående {{enemyPokemon}} har blivit ursinnig!"
+    },
+    "3": {
+      "label": "Gå din väg",
+      "tooltip": "(-) Ingen belöning",
+      "selected": "Du lämnar den läskiga buskväktaren\noch fortsätter vidare."
+    }
+  }
+}

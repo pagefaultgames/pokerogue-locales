@@ -1,0 +1,40 @@
+{
+  "intro": "En ovanlig tränare med alla möjliga sorters insektstillbehör blockerar din väg!",
+  "introDialogue": "Tjena krypet! Jag är på ett uppdrag att hitta alla de mest sällsynta insekttyperna i världen!$Du älskar också insektspokémon, eller hur?\nAlla gör ju det!",
+  "title": "Myror i huvudet",
+  "speaker": "Insektfanatikern",
+  "description": "Fanatikern pladdrar på utan att ens vänta på ett svar…\n\nDet verkar som att det enda sättet att ta sig ur den här situationen är att fånga tränarens uppmärksamhet!",
+  "query": "Hur gör du?",
+  "option": {
+    "1": {
+      "label": "Inbjud till strid",
+      "tooltip": "(-) Tuff strid\n(+) Lär vilken pokémon som helst en insekttypteknik",
+      "selected": "En utmaning, va?\nMina krypkompisar är mer än redo!"
+    },
+    "2": {
+      "label": "Visa upp dina insekttyper",
+      "tooltip": "(+) Få en gåva",
+      "disabledTooltip": "Du behöver minst en insekttyppokémon i ditt lag för att kunna välja detta.",
+      "selected": "Du visar tränaren alla dina insekttyper…",
+      "selected0To1": "Va? Har du bara {{numBugTypes}}…?$Jag slösar bara tid på att prata med nån som dig…",
+      "selected2To3": "Åhå, du har {{numBugTypes}}!\nInte illa.$Det här kanske hjälper dig på din resa att fånga fler!",
+      "selected4To5": "Nämen, har du {{numBugTypes}}?\nSnyggt!$Du är inte riktigt på min nivå än, men jag kan se drag av mig själv i dig!$Mottag denna belöning, unga lärling!",
+      "selected6": "Wow! {{numBugTypes}}!$Du måste älska insekttyper nästan lika mycket som jag gör!$Här, ta det här som ett tecken på vår kamratskap!"
+    },
+    "3": {
+      "label": "Ge ett insektsföremål",
+      "tooltip": "(-) Ge tränaren en {{requiredBugItems}}\n(+) Få en gåva",
+      "disabledTooltip": "Du behöver ha 1x {{requiredBugItems} för att välja detta.",
+      "selectPrompt": "Välj föremålet du vill ge bort.",
+      "invalidSelection": "Denna pokémon har inte den sortens föremål.",
+      "selected": "Du räcker över 1x {{selectedItem}} till tränaren.",
+      "selectedDialogue": "Oj! {{selectedItem}}, till mig?\nDu är en riktig kamrat ju, surrisen!$Som ett tecken på min uppskattning\nvill jag ge dig denna speciella gåva!$Den har gått i arv i min familj; nu vill jag att du ska ta hand om den!"
+    }
+  },
+  "battleWon": "Din kunskap och skicklighet prickade in våra svagheter perfekt!$Som tack för denna värdefulla lärdom,\nlåt mig lära en av dina pokémon en insektteknik!",
+  "teachMovePrompt": "Välj en teknik som du vill lära din pokémon.",
+  "confirmNoTeach": "Är du säker på att du inte vill lära ut en av dessa starka tekniker?",
+  "outro": "Jag förutser mången starka kryp i din framtid!\nMå våra vägar korsas än en gång!$Dåså, två Durant och en stack; jag alltså! Tjarrå!",
+  "numBugTypes_one": "{{count}} insekttyp",
+  "numBugTypes_other": "{{count}} insekttyper"
+}

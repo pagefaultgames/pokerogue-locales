@@ -1,0 +1,34 @@
+{
+  "intro": "Är det…@d{64} en clown?",
+  "speaker": "Clown",
+  "introDialogue": "Din dumdristige dåre, du duelleras direkt!\nDestruktivt dråp; denna dom drabbas dig!",
+  "title": "Pajaseri och pangpang",
+  "description": "Något känns konstigt med det här. Clownen verkar ivrig att provocera dig till en strid, men varför...?\n\nClownens {{blacephalonName}} är särskilt märklig, som om den har @[TOOLTIP_TITLE]{konstiga typer och ett mysko särdrag}.",
+  "query": "Hur gör du?",
+  "option": {
+    "1": {
+      "label": "Prygla pajasen",
+      "tooltip": "(-) Konstig strid\n(?) En pokémons särdrag påverkas",
+      "selected": "Preparera pokémonpacket, patetiska prestationer påverkar pajaspartajet!",
+      "applyAbilityDialogue": "Sicket storslaget spektakel!\nSom segerskatt: speciellt särdrag!",
+      "applyAbilityMessage": "Clownen erbjuder sig att permanent byta en av dina pokémons särdrag till {{ability}}!",
+      "abilityPrompt": "Vill du permanent ge en pokémon särdraget {{ability}}?",
+      "abilityGained": "@s{level_up_fanfare}{{chosenPokemon}} anammade särdraget {{ability}}!"
+    },
+    "2": {
+      "label": "Påverkas pyttelite",
+      "tooltip": "(?) En pokémons föremål påverkas",
+      "selected": "Lömska luring! Lämna lekkamratens lärorika lektion!?\nFå föremålen fullkomligt flippade!",
+      "selected2": "Clownens {{blacephalonName}} utförde tekniken Lurig zon!$Alla föremål som bärs av din {{switchPokemon}} har slumpmässigt bytts ut!",
+      "selected3": "Fahaha, förvirrade fånen föll för felfria förförelser! Fyskäms!"
+    },
+    "3": {
+      "label": "Pracka på påhopp",
+      "tooltip": "(?) Alla dina pokémons typer påverkas",
+      "selected": "Lömska luring! Lämna lekkamratens lärorika lektion!?\nFå formerna fullkomligt flippade!",
+      "selected2": "Clownens {{blacephalonName}} utförde en mysko teknik!$Alla typer i ditt lag har slumpmässigt bytts runt!",
+      "selected3": "Fahaha, förvirrade fånen föll för felfria förförelser! Fyskäms!"
+    }
+  },
+  "outro": "Clownen och hans kumpaner\nförsvinner i en puff av rök."
+}
