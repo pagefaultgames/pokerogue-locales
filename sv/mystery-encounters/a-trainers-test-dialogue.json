@@ -9,5 +9,39 @@
     "introDialogue": "God dag. Jag heter Cheryl.$Jag har ett särskilt intressant erbjudande för en sådan stark tränare som ni.$Jag bär två sällsynta pokémonägg med mig,\nmen jag skulle vilja att en ny tränare tog hand om en.$Om ni kan bevisa er styrka som ett lag,\nså får ni det sällsyntare ägget!",
     "accept": "Jag hoppas att ni är redo!",
     "decline": "Jag förstår, det ser ut som om\nert lag är i dåligt skick för tillfället.$Låt mig hjälpa er."
-  }
+  },
+  "marley": {
+    "introDialogue": "…@d{64} Jag är Marley.$Jag har ett erbjudande…$Jag har två pokémonägg... \nJag vill att någon tar hand om ett av dem.$Om du är starkare än mig i strid \nfår du det sällsyntare ägget...",
+    "accept": "... Jag förstår.",
+    "decline": "... Jag förstår.$Dina pokémon har skador... Låt mig läka dem. "
+  },
+  "mira": {
+    "introDialogue": "Hallå! Jag är Mira!$Vet du, jag har något att ge en stark tränare!$Jag har två jätteovanliga pokémonägg,\nmen jag vill ge bort en!$Är du stark? Visa mig! Om du vinner så får du det bästa ägget!",
+    "accept": "Ska vi fajtas! Jippi!",
+    "decline": "Åååh, ingen fajt?\nDet är okej!$Jag kan läka ditt lag om du vill!"
+  },
+  "riley": {
+    "introDialogue": "Mitt namn är Riley.$Jag har ett lite udda förslag till en stark tränare som dig.$I min ägo har jag två pokémonägg, sällsynta. Jag tänker ge bort en till en annan tränare.$Om du kan bevisa din styrka vinner du det sällsyntare av de två.",
+    "accept": "Din blick...\nJag ser att du är redo.",
+    "decline": "Förstår. Ditt lag ser ganska nerslaget ut.$Ge hit, jag kan hjälpa dem."
+  },
+  "title": "En tränares styrkebevis",
+  "description": "Det verkar som att denna tränare vill ge dig ett ägg oavsett ditt val. Om du lyckas besegra den starka tränaren, kommer du att få det mycket sällsyntare ägget.",
+  "query": "Hur gör du?",
+  "option": {
+    "1": {
+      "label": "Anta utmaningen",
+      "tooltip": "(-) Brutal strid\n(+) Få ett @[TOOLTIP_TITLE]{väldigt sällsynt ägg}"
+    },
+    "2": {
+      "label": "Avböj utmaningen",
+      "tooltip": "(+) Laget läks helt\n(+) Få ett @[TOOLTIP_TITLE]{Egg}."
+    }
+  },
+  "eggTypes": {
+    "rare": "sällsynt ägg",
+    "epic": "episkt ägg",
+    "legendary": "legendägg"
+  },
+  "outro": "{{statTrainerName}} gav dig ett {{eggType}}!"
 }
