@@ -1,4 +1,27 @@
 {
   "intro": "En flock av {{delibirdName}} har dykt upp!",
-  "title": "Delibird far till alla barnen"
+  "title": "Delibird far till alla barnen",
+  "description": "{{delibirdName}}flocken tittar på dig förväntansfullt, som om de vill ha någonting. Kanske om du ger dem ett föremål eller lite pengar så blir de nöjda?",
+  "query": "Vad vill du ge dem?",
+  "invalidSelection": "Denna pokémon har inte den sortens föremål.",
+  "option": {
+    "1": {
+      "label": "Ge dem pengar",
+      "tooltip": "(-) Ge {{delibirdName}}flocken {{money, money}}\n(+) Få en gåva",
+      "selected": "Du kastar pengar till flocken,\nvilket får dem tjattra glatt med varandra.$Med glädje vänder de sig till dig med en present!"
+    },
+    "2": {
+      "label": "Ge dem mat",
+      "tooltip": "(-) Ge {{delibirdName}}flocken ett bär eller ett Vitalitetsfrö\n(+) Få en gåva",
+      "selectPrompt": "Välj föremålet du vill ge bort.",
+      "selected": "Du kastar ett {{chosenItem}} till flocken,\nvilket får dem tjattra glatt med varandra.$Med glädje vänder de sig till dig med en present!"
+    },
+    "3": {
+      "label": "Ge dem ett föremål",
+      "tooltip": "(-) Ge {{delibirdName}}flocken ett buret föremål\n(+) Få en gåva",
+      "selectPrompt": "Välj föremålet du vill ge bort.",
+      "selected": "Du kastar 1x {{chosenItem}} till flocken,\nvilket får dem tjattra glatt med varandra.$Med glädje vänder de sig till dig med en present!"
+    }
+  },
+  "outro": "{{delibirdName}}flocken vaggar glatt bort mot horisonten.$Vilket egendomligt litet utbyte!"
 }
