@@ -1,0 +1,25 @@
+{
+  "intro": "Något glimtar på marken\nnära en pokémon där borta!",
+  "title": "Kamp / Flykt",
+  "description": "En pokémon vaktar föremålet. Att slåss är det enklaste alternativet, men den ser ganska stark ut. Kanske kan du stjäla föremålet och fly om du har rätt sorts pokémon...",
+  "query": "Hur gör du?",
+  "option": {
+    "1": {
+      "label": "Kamp",
+      "tooltip": "(-) Tuff strid\n(+) Nytt föremål",
+      "selected": "Du närmar dig \ndin motståndare utan fruktan.",
+      "statBoost": "Motståndarens latenta styrka fick en av dess förmågor att öka!"
+    },
+    "2": {
+      "label": "Stöld + flykt",
+      "disabledTooltip": "En av dina pokémon måste kunna vissa tekniker för detta.",
+      "tooltip": "(+) {{option2PrimaryName}} utför {{option2PrimaryMove}}",
+      "selected": ".@d{32}.@d{32}.@d{32}$Din {{option2PrimaryName}} hjälper dig genom att utföra tekniken {{option2PrimaryMove}}!$Du snodde föremålet!"
+    },
+    "3": {
+      "label": "Flykt",
+      "tooltip": "(-) Ingen belöning",
+      "selected": "Du flyr den läskiga föremålsväktaren\noch fortsätter vidare."
+    }
+  }
+}

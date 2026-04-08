@@ -1,0 +1,26 @@
+{
+  "intro": "Du har fångats i en svidande storm av rök och aska!",
+  "title": "Kom och ta mig långt härifrån",
+  "description": "Den virvlande askan och glöden har minskat synlighet till nästan noll. Det verkar som att det finns någon… källa som orsakar dessa förhållanden. Men vad kan ligga bakom ett fenomen av denna magnitud?",
+  "query": "Hur gör du?",
+  "option": {
+    "1": {
+      "label": "Hitta källan",
+      "tooltip": "(?) Upptäck källan\n(-) Tuff strid\n(+) Vinn ett buret föremål",
+      "selected": "Du kämpar dig igenom stormen och hittar två {{volcaronaName}} mitt i en parningsdans! De blir inte glada av avbrottet och attackerar!"
+    },
+    "2": {
+      "label": "Ta skydd",
+      "tooltip": "(-) Genomlid vädret\n(?) En pokémons särdrag påverkas",
+      "selected": "Vädret orsakar allvarlig skada medan du kämpar för att hitta skydd!\n$Ditt lag tar 20 % av max. HP i skada!",
+      "targetBurned": "Din {{burnedPokemon}} fick även en brännskada!$Genom att uthärda de allvarliga förhållandena blev dock {{burnedPokemon}}s särdrag {{abilityName}} istället!"
+    },
+    "3": {
+      "label": "Få hjälp av en brandtålig pokémon",
+      "tooltip": "(+) Få bukt med vädret\n(+) Hitta ett föremål",
+      "disabledTooltip": "Du behöver en eldtyppokémon eller ett visst särdrag för att välja detta.",
+      "selected": "Din {{option3PrimaryName}} leder dig till platsen \ndär två {{volcaronaName}} är mitt i en parningsdans!\n$Som tur är lyckas din pokémon lugna dem,\noch de ger sig av utan bråk."
+    }
+  },
+  "foundItem": "Efter att vädret klarnat ser din {{leadPokemon}} något på marken.\n$@s{item_fanfare}{{leadPokemon}} fick 1x {{itemName}}!"
+}

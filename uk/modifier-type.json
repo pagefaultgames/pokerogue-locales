@@ -28,19 +28,19 @@
       "description": "Лікує будь-який Статусний Ефект одного покемона."
     },
     "PokemonPpRestoreModifierType": {
-      "description": "Відновлює {{restorePoints}} КВ для одного руху Поке́мона.",
+      "description": "Відновлює {{restorePoints}} КВ для одного прийому Поке́мона.",
       "extra": {
-        "fully": "Відновлює всі КВ для одного руху Поке́мона."
+        "fully": "Відновлює всі КВ для одного прийому Поке́мона."
       }
     },
     "PokemonAllMovePpRestoreModifierType": {
       "description": "Відновлює {{restorePoints}} КВ для всіх прийомів одного Поке́мона.",
       "extra": {
-        "fully": "Відновлює всі КВ для всіх рухів одного Поке́мона."
+        "fully": "Відновлює всі КВ для всіх прийомів одного Поке́мона."
       }
     },
     "PokemonPpUpModifierType": {
-      "description": " Назавжди збільшує КВ для одного руху Поке́мона на {{upPoints}} за кожні 5 максимальних КВ (максимум 3)."
+      "description": "Назавжди збільшує КВ для одного прийому Поке́мона на {{upPoints}} за кожні 5 максимальних КВ (максимум 3)."
     },
     "PokemonNatureChangeModifierType": {
       "name": "М'ята {{natureName}}",
@@ -52,7 +52,7 @@
     "TempStatStageBoosterModifierType": {
       "description": "Збільшує {{stat}} для всієї комнади на {{amount}} протягом 5 боїв.",
       "extra": {
-        "stage": "1стадія",
+        "stage": "1 рівень",
         "percentage": "20%"
       }
     },
@@ -116,7 +116,7 @@
       "description": "Змушує певних Поке́монів змінювати форму."
     },
     "FusePokemonModifierType": {
-      "description": "Об'єднує двох Поке́емонів (передає здібності, розділяє базові характеристики та типи, ділиться набором рухів)."
+      "description": "Об'єднує двох Поке́емонів (передає здібності, розділяє базові характеристики та типи, ділиться набором прийомів)."
     },
     "TerastallizeModifierType": {
       "name": "{{teraType}} Тера-осколок",
@@ -129,7 +129,7 @@
       "description": "Кожен хід власник отримує один предмет, який тримає супротивник."
     },
     "EnemyAttackStatusEffectChanceModifierType": {
-      "description": "Додає {{chancePercent}}% шанс нанести {{statusEffect}} атакуючими рухами."
+      "description": "Додає {{chancePercent}}% шанс нанести {{statusEffect}} атакуючими прийомами."
     },
     "EnemyEndureChanceModifierType": {
       "description": "Додає {{chancePercent}}% шанс витримати удар."
@@ -223,11 +223,11 @@
       "description": "Дозволяє згадати Поке́мону один Прийом"
     },
     "EXP_SHARE": {
-      "name": "Розподілювач ДОС.",
+      "name": "Розподілювач ОД.",
       "description": "Надає 20% досвіду за кожен такий предмет Поке́монам, які не брали участі в бою"
     },
     "EXP_BALANCE": {
-      "name": "ДОС. Балансир",
+      "name": "ОД. Балансир",
       "description": "Розподіляє досвід, отриманий у боях, на користь членів команди нижчого рівня."
     },
     "OVAL_CHARM": {
@@ -350,7 +350,7 @@
     },
     "MYSTICAL_ROCK": {
       "name": "Містичний Кругляк",
-      "description": "Продовжує тривалість впливу поля та погоди, спричиненого рухами або здібностями власника, на 2 ходи."
+      "description": "Продовжує тривалість впливу поля та погоди, спричиненого прийому або здібностями власника, на 2 ходи."
     },
     "EVOLUTION_TRACKER_GIMMIGHOUL": {
       "name": "Скарби",
@@ -467,6 +467,157 @@
     "QUICK_POWDER": {
       "name": "Пудра швидкості",
       "description": "Завдяки цій пудрі, характеристики швидкості Дітто стають більшими"
+    },
+    "DEEP_SEA_SCALE": {
+      "name": "Глибоководна Луска",
+      "description": "Ця луска має слабкий рожевий відтінок і підвищує показник спеціального захисту Кламперла."
+    },
+    "DEEP_SEA_TOOTH": {
+      "name": "Глибоководна Зуб",
+      "description": "Ця луска має слабкий рожевий відтінок і підвищує показник спеціальної атаки Кламперла."
     }
+  },
+  "TempStatStageBoosterItem": {
+    "x_attack": "X Атака",
+    "x_defense": "Х Захист",
+    "x_sp_atk": "Х Спец. Атк",
+    "x_sp_def": "Х Спец, Зах",
+    "x_speed": "Х Швидкість",
+    "x_accuracy": "Х Точність"
+  },
+  "AttackTypeBoosterItem": {
+    "silk_scarf": "Шовковий Шарф",
+    "black_belt": "Чорний Пояс",
+    "sharp_beak": "Гострий Здьоб",
+    "poison_barb": "Отруйний Болт",
+    "soft_sand": "М'яхкий Писок",
+    "hard_stone": "Граніт",
+    "silver_powder": "Срібний Порошок",
+    "spell_tag": "Сувій Чар",
+    "metal_coat": "Металевий Покрив",
+    "charcoal": "Древесний Уголь",
+    "mystic_water": "Містична Вода",
+    "miracle_seed": "Чудо-Насіння",
+    "magnet": "Магніт",
+    "twisted_spoon": "Зігнута Ложка",
+    "never_melt_ice": "Лід-Нетайка",
+    "dragon_fang": "Драконячий Кіготь",
+    "black_glasses": "Чорні Окуляри",
+    "fairy_feather": "Перо Феї"
+  },
+  "BaseStatBoosterItem": {
+    "hp_up": "OЗ Плюс",
+    "protein": "Білок",
+    "iron": "Залізо",
+    "calcium": "Кальцій",
+    "zinc": "Цинк",
+    "carbos": "Вуглеводи"
+  },
+  "EvolutionItem": {
+    "NONE": "Ні",
+    "LINKING_CORD": "З'єднувальний Шнур",
+    "SUN_STONE": "Сонячний Камінь",
+    "MOON_STONE": "Місячний Камінь",
+    "LEAF_STONE": "Листовий Камінь",
+    "FIRE_STONE": "Вогняний Камінь",
+    "WATER_STONE": "Водний Камінь",
+    "THUNDER_STONE": "Електро-Камінь",
+    "ICE_STONE": "Ледяний Камінь",
+    "DUSK_STONE": "Сутінковий Камінь",
+    "DAWN_STONE": "Камінь Світанка",
+    "SHINY_STONE": "Близкучий Камінь",
+    "CRACKED_POT": "Потрісканий Горщик",
+    "SWEET_APPLE": "Солотке Яблуко",
+    "TART_APPLE": "Кисле Яблуко",
+    "STRAWBERRY_SWEET": "Полуничні Ласощі",
+    "UNREMARKABLE_TEACUP": "Непримітна Чашка",
+    "UPGRADE": "Покращення",
+    "DUBIOUS_DISC": "Дивний Диск",
+    "DRAGON_SCALE": "Луска Дракона",
+    "PRISM_SCALE": "Райдужна Луска",
+    "RAZOR_CLAW": "Гострий Кіготь",
+    "RAZOR_FANG": "Гострий Ікло",
+    "OVAL_STONE": "Камінь Голиш",
+    "REAPER_CLOTH": "Тканина Женця",
+    "ELECTIRIZER": "Електризатор",
+    "MAGMARIZER": "Магмарайзер",
+    "PROTECTOR": "Захисник",
+    "SACHET": "Сашет",
+    "WHIPPED_DREAM": "Крем Грез",
+    "LEADERS_CREST": "Емблема Лідера",
+    "SUN_FLUTE": "Флейта Сонця",
+    "MOON_FLUTE": "Флейта Місяця",
+    "CHIPPED_POT": "Сколений Горщик",
+    "BLACK_AUGURITE": "Чорний Аугурит",
+    "GALARICA_CUFF": "Галарична Манжета",
+    "GALARICA_WREATH": "Галарічний Вінок",
+    "PEAT_BLOCK": "Торф'яний Блок",
+    "AUSPICIOUS_ARMOR": "Благополучні Обладунки",
+    "MALICIOUS_ARMOR": "Злісні Обладунки",
+    "MASTERPIECE_TEACUP": "Шедевральна Чайна Чашка",
+    "METAL_ALLOY": "Металевий Сплав",
+    "SCROLL_OF_DARKNESS": "Сувій Темряви",
+    "SCROLL_OF_WATERS": "Сувій Вод",
+    "SYRUPY_APPLE": "Сиропне Яблуко"
+  },
+  "FormChangeItem": {
+    "NONE": "Ні",
+    "ABOMASITE": "Абомасит",
+    "ABSOLITE": "Абсоліт",
+    "AERODACTYLITE": "Аеродактиліт",
+    "AGGRONITE": "Аггроніт",
+    "ALAKAZITE": "Алаказайт",
+    "ALTARIANITE": "Алтаріаніт",
+    "AMPHAROSITE": "Амфаросиніт",
+    "AUDINITE": "Аудініт",
+    "BANETTITE": "Банеттит",
+    "BEEDRILLITE": "Бідрілліт",
+    "BLASTOISINITE": "Бластоізініт",
+    "BLAZIKENITE": "Блазікеніт",
+    "CAMERUPTITE": "Камеруптит",
+    "CHARIZARDITE_X": "Чарізардит X",
+    "CHARIZARDITE_Y": "Чарізардит Y",
+    "DIANCITE": "Діанцит",
+    "GALLADITE": "Галладит",
+    "GARCHOMPITE": "Гархомпіт",
+    "GARDEVOIRITE": "Гардевоірит",
+    "GENGARITE": "Генгарит",
+    "GLALITITE": "Глалітит",
+    "GYARADOSITE": "Гіарадозит",
+    "HERACRONITE": "Геракроніт",
+    "HOUNDOOMINITE": "Хаундомініт",
+    "KANGASKHANITE": "Кангасканіт",
+    "LATIASITE": "Латіазит",
+    "LATIOSITE": "Латіозит",
+    "LOPUNNITE": "Лопунніт",
+    "LUCARIONITE": "Лукаріоніт",
+    "MANECTITE": "Манектит",
+    "MAWILITE": "Мавіліт",
+    "MEDICHAMITE": "Медічаміт",
+    "METAGROSSITE": "Метагроссит",
+    "MEWTWONITE_X": "М'туніт X",
+    "MEWTWONITE_Y": "М'туніт Y",
+    "PIDGEOTITE": "Піджеотит",
+    "PINSIRITE": "Пінсіріт",
+    "RAYQUAZITE": "Рейквазіт",
+    "SABLENITE": "Сабленіт",
+    "SALAMENCITE": "Саламенцит",
+    "SCEPTILITE": "Септиліт",
+    "SCIZORITE": "Сцизорит",
+    "SHARPEDONITE": "Шарпедоніт",
+    "SLOWBRONITE": "Слоуброніт",
+    "STEELIXITE": "Стиліксит",
+    "SWAMPERTITE": "Свампертит",
+    "TYRANITARITE": "Тиранітарит",
+    "VENUSAURITE": "Венузаврит",
+    "CLEFABLITE": "Клефабліт",
+    "VICTREEBELITE": "Віктрибеліт",
+    "STARMINITE": "Стармініт",
+    "DRAGONINITE": "Драгонініт",
+    "MEGANIUMITE": "Меганіуміт",
+    "FERALIGITE": "Фералігіт",
+    "SKARMORITE": "Скарморит",
+    "FROSLASSITE": "Фрослассіт",
+    "EMBOARITE": "Емборит"
   }
 }

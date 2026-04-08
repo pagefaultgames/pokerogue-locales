@@ -1,0 +1,26 @@
+{
+  "intro": "Du er fanget i en voldsom storm af røg og aske!",
+  "title": "Vulkanisk Vejr",
+  "description": "Det svirvelende aske og gløder har gjort det umuligt at se tydeligt. Det virker til at der måske er… noget som er skyld i stormen. Men hvad kunne være skyld i et fænomen på den her skala?",
+  "query": "Hvad vil du gøre?",
+  "option": {
+    "1": {
+      "label": "Find Årsagen",
+      "tooltip": "(?) Opdag årsagen\n(-) Hård Kamp\n(+) Få en Holdt Genstand",
+      "selected": "Du presser igennem stormen og finder to {{volcaronaName}}er i midten af en parings dans!$De er ikke glade for at blive afbrudt og angriber!"
+    },
+    "2": {
+      "label": "Slå Lejr",
+      "tooltip": "(-) Lide konsekvenserne af vejret\n(?) Påvirk En Pokémon’s Evne",
+      "selected": "Vejret er skyld i voldsom\nskade mens du kæmper for at finde ly!$Dit hold tager 20% Maks HP skade!",
+      "targetBurned": "Din{{burnedPokemon}} blev også skoldet!$Men at udholde de hårde vilkår ændrede {{burnedPokemon}}’s evne til {{abilityName}}!"
+    },
+    "3": {
+      "label": "Din Ild Resistante Pokémon Hjælper",
+      "tooltip": "(+) Stands vilkårne\n(+) Modtag en Holdt Genstand",
+      "disabledTooltip": "Du skal have en Ild Type Pokémon eller specifik Pokémon evne for at vælge dette.",
+      "selected": "Din {{option3PrimaryName}} leder dig til hvor to {{volcaronaName}}er er midt i en parings dans!$Gudskelov er din Pokémon i stand til at berolige dem,\nog de forlader området uden problemer."
+    }
+  },
+  "foundItem": "Efter vejret bliver bedre,\nfinder din {{leadPokemon}} noget på jorden.$@s{item_fanfare}{{leadPokemon}} modtog {{itemName}}!"
+}

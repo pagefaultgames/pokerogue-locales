@@ -1,0 +1,902 @@
+{
+  "stench": {
+    "name": "Bau Tidak Enak"
+  },
+  "drizzle": {
+    "name": "Menurunkan Hujan",
+    "description": "Pokémon ini membuat hujan saat memasuki pertarungan."
+  },
+  "speedBoost": {
+    "name": "Tancap Gas",
+    "description": "Kecepatan Pokémon ini naik setiap giliran."
+  },
+  "battleArmor": {
+    "name": "Perisai Tempur",
+    "description": "Cangkang yang keras melindungi Pokémon ini dari serangan agar tidak mengenai titik kritis."
+  },
+  "sturdy": {
+    "name": "Kokoh",
+    "description": "Saat HP Pokémon ini penuh, tidak akan langsung KO dengan 1 serangan. Jurus maut tunggal pun tidak akan berpengaruh."
+  },
+  "damp": {
+    "name": "Lembab"
+  },
+  "limber": {
+    "name": "Fleksibel",
+    "description": "Menjadi kebal terhadap kondisi lumpuh karena tubuhnya yang lentur."
+  },
+  "sandVeil": {
+    "name": "Persembunyian Pasir"
+  },
+  "static": {
+    "name": "Listrik Statis"
+  },
+  "voltAbsorb": {
+    "name": "Menyimpan Listrik"
+  },
+  "waterAbsorb": {
+    "name": "Menyimpan Air"
+  },
+  "oblivious": {
+    "name": "Tidak Sensitif",
+    "description": "Menjadi kebal terhadap kondisi terpesona atau terprovokasi karena tidak sensitif. Juga kebal terhadap intimidasi."
+  },
+  "cloudNine": {
+    "name": "Bukan Cuaca",
+    "description": "Menghilangkan segala efek cuaca."
+  },
+  "compoundEyes": {
+    "name": "Mata Majemuk"
+  },
+  "insomnia": {
+    "name": "Imsomnia",
+    "description": "Menjadi kebal terhadap kondisi tidur karena memiliki tubuh yang tidak bisa tidur."
+  },
+  "colorChange": {
+    "name": "Berubah Warna",
+    "description": "Tipe Pokémon ini berubah menjadi tipe jurus yang diterima dari lawan."
+  },
+  "immunity": {
+    "name": "Imunitas",
+    "description": "Menjadi kebal terhadap kondisi racun karena memiliki imunitas di dalam tubuh."
+  },
+  "flashFire": {
+    "name": "Api Merembet"
+  },
+  "shieldDust": {
+    "name": "Sisik Serangga",
+    "description": "Tidak menerima efek tambahan jurus karena dilindungi oleh debu sisik."
+  },
+  "ownTempo": {
+    "name": "Buat Gampang",
+    "description": "Menjadi kebal terhadap kondisi pusing karena punya Buat Gampang. Juga kebal terhadap intimidasi."
+  },
+  "suctionCups": {
+    "name": "Pengisap",
+    "description": "Pokémon ini menancapkan pengisap ke permukaan tanah sehingga jurus atau item yang menyebabkan pergantian tidak akan berpengaruh."
+  },
+  "intimidate": {
+    "name": "Intimidasi",
+    "description": "Pokémon ini mengintimidasi lawan saat memasuki pertarungan sehingga menurunkan Serangan lawan."
+  },
+  "shadowTag": {
+    "name": "Injak Bayangan",
+    "description": "Pokémon ini menginjak bayangan lawan untuk mencegahnya kabur atau melakukan pergantian."
+  },
+  "roughSkin": {
+    "name": "Kulit Kasar"
+  },
+  "wonderGuard": {
+    "name": "Pelindung Ajaib",
+    "description": "Kekuatan misterius Pokémon ini hanya memungkinkan jurus super efektif untuk mengenai dirinya."
+  },
+  "levitate": {
+    "name": "Mengambang",
+    "description": "Tidak menerima jurus tipe Tanah dikarenakan mengambang di udara."
+  },
+  "effectSpore": {
+    "name": "Spora"
+  },
+  "synchronize": {
+    "name": "Sinkronisasi"
+  },
+  "clearBody": {
+    "name": "Badan Tangguh",
+    "description": "Statistik Pokémon ini tidak dapat diturunkan oleh jurus atau Ability Pokémon lain."
+  },
+  "naturalCure": {
+    "name": "Penyembuhan Alami",
+    "description": "Menyembuhkan kondisi abnormal saat ditarik kembali dari pertarungan."
+  },
+  "lightningRod": {
+    "name": "Penangkal Petir",
+    "description": "Mengalihkan semua jurus tipe Listrik ke dirinya, Pokémon ini tidak akan menerima kerusakan dan Serangan Khususnya naik."
+  },
+  "sereneGrace": {
+    "name": "Berkah Langit"
+  },
+  "swiftSwim": {
+    "name": "Renang Gesit"
+  },
+  "chlorophyll": {
+    "name": "Klorofil"
+  },
+  "illuminate": {
+    "name": "Jamur"
+  },
+  "trace": {
+    "name": "Mengikuti Jejak",
+    "description": "Saat memasuki pertarungan, Pokémon ini menyalin Ability Pokémon lawan."
+  },
+  "hugePower": {
+    "name": "Tenaga Raksasa",
+    "description": "Menggandakan kekuatan Serangan Pokémon."
+  },
+  "poisonPoint": {
+    "name": "Jarum Racun"
+  },
+  "innerFocus": {
+    "name": "Kekuatan Mental",
+    "description": "Tidak akan tersentak oleh serangan Pokémon lain karena mental yang terlatih. Juga kebal terhadap intimidasi."
+  },
+  "magmaArmor": {
+    "name": "Zirah Magma",
+    "description": "Menjadi kebal terhadap kondisi beku karena melapisi tubuh dengan magma panas."
+  },
+  "waterVeil": {
+    "name": "Kerudung Air",
+    "description": "Menjadi kebal terhadap kondisi terbakar karena melapisi tubuh dengan tudung air."
+  },
+  "magnetPull": {
+    "name": "Tarikan Magnet",
+    "description": "Menarik Pokémon tipe Logam dengan kekuatan magnet sehingga membuatnya tidak dapat melarikan diri."
+  },
+  "soundproof": {
+    "name": "Kedap Suara",
+    "description": "Tidak menerima jurus bunyi dengan memblokir bunyi."
+  },
+  "rainDish": {
+    "name": "Piring Penampung Hujan"
+  },
+  "sandStream": {
+    "name": "Aliran Pasir",
+    "description": "Pokémon ini membuat badai pasir saat memasuki pertarungan."
+  },
+  "pressure": {
+    "name": "Tekanan"
+  },
+  "thickFat": {
+    "name": "Lemak Tebal"
+  },
+  "earlyBird": {
+    "name": "Bangun Pagi",
+    "description": "Dalam kondisi tidur, dapat terbangun dengan kecepatan 2 kali lipat."
+  },
+  "flameBody": {
+    "name": "Badan Api"
+  },
+  "runAway": {
+    "name": "Kabur",
+    "description": "Selalu dapat melarikan diri dari Pokémon liar."
+  },
+  "keenEye": {
+    "name": "Mata Tajam",
+    "description": "Berkat mata tajamnya, Rasio Akurasinya tidak dapat diturunkan."
+  },
+  "hyperCutter": {
+    "name": "Gunting Kuat",
+    "description": "Karena memiliki gunting yang kuat dan membanggakan, Serangannya tidak dapat diturunkan oleh Pokémon lain."
+  },
+  "pickup": {
+    "name": "Memungut"
+  },
+  "truant": {
+    "name": "Pemalas",
+    "description": "Jika menggunakan jurus, Pokémon ini akan beristirahat pada giliran berikutnya."
+  },
+  "hustle": {
+    "name": "Bersemangat"
+  },
+  "cuteCharm": {
+    "name": "Tubuh Mempesona"
+  },
+  "plus": {
+    "name": "Plus"
+  },
+  "minus": {
+    "name": "Minus"
+  },
+  "forecast": {
+    "name": "Prakiraan Cuaca",
+    "description": "Tipe Pokémon ini berubah menjadi tipe Air, Api atau Es menyesuaikan cuaca."
+  },
+  "stickyHold": {
+    "name": "Lengket",
+    "description": "Karena item menempel di tubuh lengketnya, Pokémon lain tidak dapat merebut item tersebut."
+  },
+  "shedSkin": {
+    "name": "Ganti Kulit"
+  },
+  "guts": {
+    "name": "Nyali"
+  },
+  "marvelScale": {
+    "name": "Sisik Ajaib"
+  },
+  "liquidOoze": {
+    "name": "Cairan Limbah",
+    "description": "Pokémon lain yang mengisap limbah cair dengan jurus pengisap HP akan menerima kerusakan akibat bau busuk sehingga HP-nya berkurang."
+  },
+  "overgrow": {
+    "name": "Hijau Rindang"
+  },
+  "blaze": {
+    "name": "Kobar Api"
+  },
+  "torrent": {
+    "name": "Arus Deras"
+  },
+  "swarm": {
+    "name": "Firasat Buruk"
+  },
+  "rockHead": {
+    "name": "Kepala Batu",
+    "description": "Meskipun menggunakan jurus yang menyebabkan tolak balik, HP Pokémon ini tidak akan berkurang."
+  },
+  "drought": {
+    "name": "Kemarau",
+    "description": "Pokémon ini membuat cuaca cerah saat memasuki pertarungan."
+  },
+  "arenaTrap": {
+    "name": "Undur-undur"
+  },
+  "vitalSpirit": {
+    "name": "Semangat Vital",
+    "description": "Menjadi kebal terhadap kondisi tidur dikarenakan mengeluarkan semangat."
+  },
+  "whiteSmoke": {
+    "name": "Asap Putih",
+    "description": "Pokémon ini dilindungi oleh asap putih sehingga Statistiknya tidak dapat diturunkan oleh Pokémon lain."
+  },
+  "purePower": {
+    "name": "Kekuatan Yoga",
+    "description": "Dengan menggunakan kekuatan yoga, kekuatan Serangan Pokémon ini menjadi ganda."
+  },
+  "shellArmor": {
+    "name": "Zirah Cangkang",
+    "description": "Pokémon ini dilindungi oleh cangkang keras sehingga serangan tidak mengenai titik kritisnya."
+  },
+  "airLock": {
+    "name": "Air Lock",
+    "description": "Segala efek cuaca dihilangkan."
+  },
+  "tangledFeet": {
+    "name": "Sempoyongan",
+    "description": "Saat dalam kondisi pusing, Rasio Menghindar Pokémon ini naik."
+  },
+  "motorDrive": {
+    "name": "Mesin Listrik",
+    "description": "Jika menerima jurus tipe Listrik, Pokémon ini tidak akan menerima kerusakan dan Kecepatannya naik."
+  },
+  "rivalry": {
+    "name": "Semangat Bersaing"
+  },
+  "steadfast": {
+    "name": "Semangat Pantang Mundur",
+    "description": "Tiap kali tersentak, semangat pantang mundur Pokémon ini membara sehingga Kecepatannya naik."
+  },
+  "snowCloak": {
+    "name": "Persembunyian Salju"
+  },
+  "gluttony": {
+    "name": "Lahap"
+  },
+  "angerPoint": {
+    "name": "Titik Amarah",
+    "description": "Ketika serangan mengenai titik kritisnya, Pokémon ini akan mengamuk sehingga Serangannya menjadi maksimal."
+  },
+  "unburden": {
+    "name": "Meringankan Tubuh"
+  },
+  "heatproof": {
+    "name": "Tahan Panas",
+    "description": "Mengurangi setengah kerusakan yang disebabkan oleh jurus tipe Api dengan tubuh yang tahan panas."
+  },
+  "simple": {
+    "name": "Sederhana"
+  },
+  "drySkin": {
+    "name": "Kulit Kering"
+  },
+  "download": {
+    "name": "Unduh",
+    "description": "Meningkatkan Serangan atau Serangan Khusus Pokémon ini disesuaikan dengan Statistik terendah dari Pertahanan atau Pertahanan Khusus Pokémon lawan."
+  },
+  "ironFist": {
+    "name": "Tinju Besi"
+  },
+  "poisonHeal": {
+    "name": "Penyembuhan Racun"
+  },
+  "adaptability": {
+    "name": "Kemampuan Adaptasi"
+  },
+  "skillLink": {
+    "name": "Hubungan Keahlian",
+    "description": "Memaksimalkan jumlah serangan dari jurus beruntun."
+  },
+  "hydration": {
+    "name": "Tubuh Lembap",
+    "description": "Pulih dari kondisi abnormal pada saat hujan."
+  },
+  "solarPower": {
+    "name": "Tenaga Surya"
+  },
+  "quickFeet": {
+    "name": "Kaki Cepat"
+  },
+  "normalize": {
+    "name": "Normalisasi"
+  },
+  "sniper": {
+    "name": "Sniper"
+  },
+  "magicGuard": {
+    "name": "Magic Guard",
+    "description": "Pokémon ini tidak menerima kerusakan selain dari serangan."
+  },
+  "noGuard": {
+    "name": "Tanpa Pelindung"
+  },
+  "stall": {
+    "name": "Melangkah Belakangan",
+    "description": "Pokémon ini selalu menjadi yang terakhir saat mengeluarkan jurus."
+  },
+  "technician": {
+    "name": "Teknisi"
+  },
+  "leafGuard": {
+    "name": "Pelindung Daun",
+    "description": "Menjadi kebal terhadap kondisi abnormal pada saat cerah."
+  },
+  "klutz": {
+    "name": "Kikuk",
+    "description": "Tidak dapat menggunakan item yang dibawa."
+  },
+  "moldBreaker": {
+    "name": "Inkonvensional",
+    "description": "Pokémon ini dapat menyarangkan jurusnya tanpa terganggu oleh Ability lawan."
+  },
+  "superLuck": {
+    "name": "Super Untung"
+  },
+  "aftermath": {
+    "name": "Detonasi"
+  },
+  "anticipation": {
+    "name": "Antisipasi",
+    "description": "Pokémon ini dapat mendeteksi jurus lawan yang berbahaya."
+  },
+  "forewarn": {
+    "name": "Prediksi Mimpi"
+  },
+  "unaware": {
+    "name": "Bebal"
+  },
+  "tintedLens": {
+    "name": "Kacamata Berwarna"
+  },
+  "filter": {
+    "name": "Filter"
+  },
+  "slowStart": {
+    "name": "Terlambat Mulai"
+  },
+  "scrappy": {
+    "name": "Bernyali"
+  },
+  "stormDrain": {
+    "name": "Penyedot Air"
+  },
+  "iceBody": {
+    "name": "Tubuh Es"
+  },
+  "solidRock": {
+    "name": "Batu Keras"
+  },
+  "snowWarning": {
+    "name": "Menurunkan Salju"
+  },
+  "honeyGather": {
+    "name": "Mengumpulkan Madu"
+  },
+  "frisk": {
+    "name": "Serba Tahu"
+  },
+  "reckless": {
+    "name": "Nekat"
+  },
+  "multitype": {
+    "name": "Multitipe"
+  },
+  "flowerGift": {
+    "name": "Hadiah Bunga"
+  },
+  "badDreams": {
+    "name": "Nightmare"
+  },
+  "pickpocket": {
+    "name": "Kebiasaan Mencuri"
+  },
+  "sheerForce": {
+    "name": "Memaksa"
+  },
+  "contrary": {
+    "name": "Berlawanan"
+  },
+  "unnerve": {
+    "name": "Perasaan Tegang"
+  },
+  "defiant": {
+    "name": "Tidak Mau Kalah"
+  },
+  "defeatist": {
+    "name": "Bersikap Mengalah"
+  },
+  "cursedBody": {
+    "name": "Tubuh Terkutuk"
+  },
+  "healer": {
+    "name": "Semangat Penyembuh"
+  },
+  "friendGuard": {
+    "name": "Friend Guard"
+  },
+  "weakArmor": {
+    "name": "Perisai Lemah"
+  },
+  "heavyMetal": {
+    "name": "Logam Berat"
+  },
+  "lightMetal": {
+    "name": "Logam Ringan"
+  },
+  "telepathy": {
+    "name": "Telepati"
+  },
+  "overcoat": {
+    "name": "Tahan Debu"
+  },
+  "poisonTouch": {
+    "name": "Racun Sentuh"
+  },
+  "regenerator": {
+    "name": "Regenerator"
+  },
+  "bigPecks": {
+    "name": "Dada Besar"
+  },
+  "sandRush": {
+    "name": "Mencedok Pasir"
+  },
+  "wonderSkin": {
+    "name": "Kulit Ajaib"
+  },
+  "illusion": {
+    "name": "Ilusi"
+  },
+  "infiltrator": {
+    "name": "Tembus"
+  },
+  "mummy": {
+    "name": "Mumi"
+  },
+  "moxie": {
+    "name": "Percaya Diri Berlebihan"
+  },
+  "justified": {
+    "name": "Semangat  Keadilan"
+  },
+  "rattled": {
+    "name": "Pengecut"
+  },
+  "magicBounce": {
+    "name": "Cermin Ajaib"
+  },
+  "sapSipper": {
+    "name": "Herbivora"
+  },
+  "prankster": {
+    "name": "Semangat Usil"
+  },
+  "sandForce": {
+    "name": "Kekuatan Pasir"
+  },
+  "ironBarbs": {
+    "name": "Duri Besi"
+  },
+  "zenMode": {
+    "name": "Modus Zen"
+  },
+  "victoryStar": {
+    "name": "Bintang Kemenangan"
+  },
+  "turboblaze": {
+    "name": "Turboblaze"
+  },
+  "teravolt": {
+    "name": "Teravolt"
+  },
+  "aromaVeil": {
+    "name": "Tudung Aroma"
+  },
+  "flowerVeil": {
+    "name": "Kerudung Bunga"
+  },
+  "cheekPouch": {
+    "name": "Kantong Pipi"
+  },
+  "furCoat": {
+    "name": "Mantel Bulu"
+  },
+  "magician": {
+    "name": "Penyihir"
+  },
+  "bulletproof": {
+    "name": "Tahan Peluru"
+  },
+  "competitive": {
+    "name": "Bersaing"
+  },
+  "strongJaw": {
+    "name": "Rahang Kukuh"
+  },
+  "refrigerate": {
+    "name": "Pembekuan Kulit"
+  },
+  "sweetVeil": {
+    "name": "Kerudung Manis"
+  },
+  "stanceChange": {
+    "name": "Pergantian Posisi"
+  },
+  "megaLauncher": {
+    "name": "Peluncur Mega"
+  },
+  "toughClaws": {
+    "name": "Cakar Keras"
+  },
+  "pixilate": {
+    "name": "Kulit Peri"
+  },
+  "gooey": {
+    "name": "Berlendir"
+  },
+  "aerilate": {
+    "name": "Kulit Langit"
+  },
+  "parentalBond": {
+    "name": "Kasih Sayang Orang Tua"
+  },
+  "darkAura": {
+    "name": "Aura Kegelapan"
+  },
+  "fairyAura": {
+    "name": "Aura Peri"
+  },
+  "auraBreak": {
+    "name": "Pemutusan Aura"
+  },
+  "primordialSea": {
+    "name": "Lautan Permulaan"
+  },
+  "desolateLand": {
+    "name": "Daratan Penghabisan"
+  },
+  "deltaStream": {
+    "name": "Aliran Delta"
+  },
+  "stamina": {
+    "name": "Stamina"
+  },
+  "wimpOut": {
+    "name": "Terinitimidasi"
+  },
+  "emergencyExit": {
+    "name": "Pintu Darurat"
+  },
+  "waterCompaction": {
+    "name": "Padatan Air"
+  },
+  "merciless": {
+    "name": "Tanpa Ampun"
+  },
+  "shieldsDown": {
+    "name": "Perisai Ambang Batas"
+  },
+  "stakeout": {
+    "name": "Mengawasi"
+  },
+  "waterBubble": {
+    "name": "Gelembung Air"
+  },
+  "steelworker": {
+    "name": "Pekerja Besi"
+  },
+  "berserk": {
+    "name": "Kalut Marut"
+  },
+  "slushRush": {
+    "name": "Mencedok Salju"
+  },
+  "triage": {
+    "name": "Prioritas Penyembuhan"
+  },
+  "surgeSurfer": {
+    "name": "Ekor Selancar"
+  },
+  "schooling": {
+    "name": "Gerombolan"
+  },
+  "disguise": {
+    "name": "Samaran"
+  },
+  "powerConstruct": {
+    "name": "Susunan Kekuatan"
+  },
+  "corrosion": {
+    "name": "Korosi"
+  },
+  "comatose": {
+    "name": "Kantuk Mutlak"
+  },
+  "queenlyMajesty": {
+    "name": "Kehormatan Ratu"
+  },
+  "innardsOut": {
+    "name": "Jeroan Keluar"
+  },
+  "dancer": {
+    "name": "Penari"
+  },
+  "battery": {
+    "name": "Baterai"
+  },
+  "fluffy": {
+    "name": "Berbulu Halus"
+  },
+  "dazzling": {
+    "name": "Tubuh Cemerlang"
+  },
+  "soulHeart": {
+    "name": "Soul-Heart"
+  },
+  "tanglingHair": {
+    "name": "Rambut Berombak"
+  },
+  "receiver": {
+    "name": "Penerima"
+  },
+  "beastBoost": {
+    "name": "Beast Boost"
+  },
+  "rksSystem": {
+    "name": "Sistem RKS"
+  },
+  "electricSurge": {
+    "name": "Pembuatan Listrik"
+  },
+  "psychicSurge": {
+    "name": "Pembuatan Psikis"
+  },
+  "mistySurge": {
+    "name": "Pembuatan Kabut"
+  },
+  "grassySurge": {
+    "name": "Pembuatan Daun"
+  },
+  "fullMetalBody": {
+    "name": "Lindungan Logam"
+  },
+  "shadowShield": {
+    "name": "Pelindung Bayangan"
+  },
+  "prismArmor": {
+    "name": "Zirah Prisma"
+  },
+  "neuroforce": {
+    "name": "Daya Syaraf"
+  },
+  "intrepidSword": {
+    "name": "Pedang Maju Terus"
+  },
+  "dauntlessShield": {
+    "name": "Perisai Pantang Mundur"
+  },
+  "ballFetch": {
+    "name": "Pemungut Bola"
+  },
+  "cottonDown": {
+    "name": "Bulu Kapas"
+  },
+  "gulpMissile": {
+    "name": "Misil Telan"
+  },
+  "steamEngine": {
+    "name": "Mesin Uap"
+  },
+  "punkRock": {
+    "name": "Punk Rock"
+  },
+  "sandSpit": {
+    "name": "Tembakan Pasir"
+  },
+  "ripen": {
+    "name": "Matang"
+  },
+  "iceFace": {
+    "name": "Ice Face"
+  },
+  "powerSpot": {
+    "name": "Power Spot"
+  },
+  "mimicry": {
+    "name": "Mimikri"
+  },
+  "screenCleaner": {
+    "name": "Bebas Halangan"
+  },
+  "wanderingSpirit": {
+    "name": "Arwah Gentayangan"
+  },
+  "gorillaTactics": {
+    "name": "Kehilangan Arah"
+  },
+  "neutralizingGas": {
+    "name": "Gas Hasil Perubahan Kimia"
+  },
+  "pastelVeil": {
+    "name": "Tudung Pastel"
+  },
+  "hungerSwitch": {
+    "name": "Tombol Lapar"
+  },
+  "quickDraw": {
+    "name": "Tembak Cepat"
+  },
+  "unseenFist": {
+    "name": "Tinju Tak Terlihat"
+  },
+  "curiousMedicine": {
+    "name": "Obat Ganjil"
+  },
+  "transistor": {
+    "name": "Transistor"
+  },
+  "dragonsMaw": {
+    "name": "Rahang Naga"
+  },
+  "chillingNeigh": {
+    "name": "Ringkikan Putih"
+  },
+  "grimNeigh": {
+    "name": "Ringkikan Hitam"
+  },
+  "asOneGlastrier": {
+    "name": "Unifikasi"
+  },
+  "asOneSpectrier": {
+    "name": "Unifikasi"
+  },
+  "lingeringAroma": {
+    "name": "Bau Bandel"
+  },
+  "seedSower": {
+    "name": "Luapan Benih"
+  },
+  "thermalExchange": {
+    "name": "Pertukaran Kalor"
+  },
+  "angerShell": {
+    "name": "Tempurung Amarah"
+  },
+  "purifyingSalt": {
+    "name": "Garam Pemurni"
+  },
+  "wellBakedBody": {
+    "name": "Tubuh Matang"
+  },
+  "windRider": {
+    "name": "Naik Angin"
+  },
+  "guardDog": {
+    "name": "Anjing Penjaga"
+  },
+  "windPower": {
+    "name": "Tenaga Angin"
+  },
+  "zeroToHero": {
+    "name": "Menjadi Tangguh"
+  },
+  "commander": {
+    "name": "Komandan"
+  },
+  "electromorphosis": {
+    "name": "Elektromorfosis"
+  },
+  "protosynthesis": {
+    "name": "Protosintesis"
+  },
+  "quarkDrive": {
+    "name": "Quark Charge"
+  },
+  "goodAsGold": {
+    "name": "Tubuh Keemasan"
+  },
+  "vesselOfRuin": {
+    "name": "Wadah Petaka"
+  },
+  "swordOfRuin": {
+    "name": "Pedang Petaka"
+  },
+  "tabletsOfRuin": {
+    "name": "Jimat Petaka"
+  },
+  "beadsOfRuin": {
+    "name": "Bola Petaka"
+  },
+  "orichalcumPulse": {
+    "name": "Debaran Scarlet"
+  },
+  "hadronEngine": {
+    "name": "Mesin Hadron"
+  },
+  "opportunist": {
+    "name": "Menebeng"
+  },
+  "cudChew": {
+    "name": "Memamah"
+  },
+  "sharpness": {
+    "name": "Ketajaman"
+  },
+  "supremeOverlord": {
+    "name": "Jenderal"
+  },
+  "toxicDebris": {
+    "name": "Debris Toksik"
+  },
+  "armorTail": {
+    "name": "Zirah Ekor"
+  },
+  "earthEater": {
+    "name": "Pemakan Tanah"
+  },
+  "myceliumMight": {
+    "name": "Tenaga Miselium"
+  },
+  "mindsEye": {
+    "name": "Mata Hati"
+  },
+  "supersweetSyrup": {
+    "name": "Nektar Lezat"
+  },
+  "hospitality": {
+    "name": "Ramah-tamah"
+  },
+  "toxicChain": {
+    "name": "Rantai Beracun"
+  },
+  "teraShift": {
+    "name": "Menjadi Terastal"
+  },
+  "teraShell": {
+    "name": "Batok Terastal"
+  },
+  "teraformZero": {
+    "name": "Zeroformasi"
+  },
+  "poisonPuppeteer": {
+    "name": "Racun Dalang"
+  }
+}

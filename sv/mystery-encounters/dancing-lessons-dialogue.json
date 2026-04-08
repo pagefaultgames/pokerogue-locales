@@ -1,0 +1,27 @@
+{
+  "intro": "En {{oricorioName}} dansar sorgset utan en partner.",
+  "title": "Lätt på klon",
+  "description": "{{oricorioName}} verkar inte aggressiv. Om något verkar den bara nedstämd.\n\nKanske vill den bara ha någon att dansa med…",
+  "query": "Hur gör du?",
+  "option": {
+    "1": {
+      "label": "Strid",
+      "tooltip": "(-) Tuff strid\n(+) Vinn en Stafettpinne",
+      "selected": "{{oricorioName}} blev förtvivlad och går till försvar!",
+      "bossEnraged": "{{oricorioName}} ökade sina förmågor utav rädsla!"
+    },
+    "2": {
+      "label": "Lär dig dess dans",
+      "tooltip": "(+) Lär vilken pokémon som helst Insiktsdans",
+      "selected": "Du tittar noggrant på {{oricorioName}} medan den utför sin dans…$@s{level_up_fanfare}Din {{selectedPokemon}} lärde sig av {{oricorioName}}!"
+    },
+    "3": {
+      "label": "Visa den en dans",
+      "tooltip": "(-) Lär {{oricorioName}} en dansteknik\n(+) {{oricorioName}} tycker om dig",
+      "disabledTooltip": "En pokémon måste kunna en dansteknik för detta.",
+      "selectPrompt": "Välj en dansteknik att lära ut.",
+      "selected": "{{oricorioName}} tittar fascinerat medan {{selectedPokemon}} visar upp {{selectedMove}}!$Den älskar uppträdandet!$@s{level_up_fanfare}{{oricorioName}} vill gå med i ditt lag!"
+    }
+  },
+  "invalidSelection": "Denna pokémon kan inte någon dansteknik!"
+}

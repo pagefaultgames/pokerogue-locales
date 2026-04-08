@@ -24,8 +24,91 @@
     }
   },
   "limitedCatch": {
-    "name": "Fångstgräns",
+    "name": "Fångstbegränsning",
     "desc": "Du kan endast lägga till den första pokémon du möter i ett biom i ditt aktuella lag.",
+    "value": {
+      "0": "Av",
+      "1": "På"
+    }
+  },
+  "limitedSupport": {
+    "name": "Stödbegränsning",
+    "desc": {
+      "0": "Några eller alla gratis laghelningsalternativ tas bort.",
+      "1": "Helningen vid slutet av varje biom tas bort. Istället kommer den vanliga belöningsmenyn upp.",
+      "2": "Ingen butik på belöningsmenyn vid vågavslut.",
+      "3": "Ingen butik på belöningsmenyn vid vågavslut. Helningen vid slutet av varje biom tas bort. Istället kommer den vanliga belöningsmenyn upp."
+    },
+    "value": {
+      "0": "Av",
+      "1": "Helning av",
+      "2": "Butik av",
+      "3": "Båda av"
+    }
+  },
+  "singleGeneration": {
+    "name": "En-Gen",
+    "desc": "Du kan endast använda pokémon från Generation {{gen}}.",
+    "descDefault": "Du kan endast använda pokémon från den valda generationen.",
+    "gen": {
+      "1": "I",
+      "2": "II",
+      "3": "III",
+      "4": "IV",
+      "5": "V",
+      "6": "VI",
+      "7": "VII",
+      "8": "VIII",
+      "9": "IX"
+    }
+  },
+  "singleType": {
+    "name": "Entyp",
+    "desc": "Du kan endast använda pokémon av typen {{type}}.",
+    "descDefault": "Du kan endast använda pokémon av den valda typen."
+  },
+  "inverseBattle": {
+    "name": "Motsatsstrid",
+    "shortName": "Motsats",
+    "desc": "All typeffektivitet omvänds och ingen typ är immun mot en annan. Andra utmaningsprestationer avaktiveras (förutom Förmågeflippare).",
+    "value": {
+      "0": "Av",
+      "1": "På"
+    }
+  },
+  "flipStat": {
+    "name": "Förmågeflippare",
+    "shortName": "Flippa",
+    "desc": "Förmågor vänds om:\n- HP med snabbhet\n- Attack med sp.fsv\n- Försvar med sp.atk\nAndra utmaningsprestationer avaktiveras (förutom Motsatsstrid).",
+    "value": {
+      "0": "Av",
+      "1": "På"
+    }
+  },
+  "metronome": {
+    "name": "Ute på fingervift",
+    "desc": "Du kan bara utföra Fingervift! Se hur långt du tar med ren tur. Denna \"utmaning\" är bara för skojs skull, den ger inte en prestation. Alla andra prestationer avaktiveras.",
+    "value": {
+      "0": "Av",
+      "1": "På"
+    }
+  },
+  "passives": {
+    "name": "Aktiva passiver",
+    "desc": {
+      "0": "Några eller alla pokémon har sina passiver aktiverade.",
+      "1": "Tränares pokémon har aktiva passiver. Dina startare påverkas inte.",
+      "2": "Alla pokémon inklusive dina har aktiva passiver under ronden. Alla andra utmaningsprestationer avaktiveras."
+    },
+    "value": {
+      "0": "Av",
+      "1": "Tränares",
+      "2": "Alla"
+    }
+  },
+  "movesetRandomizer": {
+    "name": "Slumpad teknikordning",
+    "desc": "Ordningen i vilken var pokémon lär sig sina tekniker vid nivåökningen slumpas. Startare börjar med bastekniker som matchar deras typ.\n\nAndra utmaningsprestationer avaktiveras.",
     "value": {
       "0": "Av",
       "1": "På"

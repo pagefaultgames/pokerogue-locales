@@ -1,16 +1,51 @@
 {
+  "title": "Modificadors de Repte",
+  "illegalEvolution": "{{pokemon}} s'ha convertit en\nun Pokémon inelegible per a aquest repte!",
+  "noneSelected": "Cap Escollit",
   "freshStart": {
+    "name": "Nou Inici",
+    "desc": {
+      "0": "Simula el repte d’usar inicials acabats d’obtenir sense desbloquejables."
+    },
     "value": {
-      "0": "No"
+      "0": "No",
+      "1": "Reinici Complet",
+      "2": "Tots els inicials"
     }
   },
-  "limitedCatch": {
+  "hardcore": {
+    "name": "Extrem",
     "value": {
       "0": "No",
       "1": "Sí"
     }
   },
+  "limitedCatch": {
+    "name": "Caça Limitada",
+    "desc": "Només pots afegir el primer Pokémon d’un bioma al teu equip.",
+    "value": {
+      "0": "No",
+      "1": "Sí"
+    }
+  },
+  "limitedSupport": {
+    "name": "Suport Limitat",
+    "desc": {
+      "0": "Elimina totes o algunes de les opcions gratuïtes per a curar el teu equip.",
+      "1": "Elimina la curació al final de cadia bioma.\nEn el seu lloc et donen les recompenses de final d'onada normals.",
+      "2": "Elimina la Botiga al menú de recompenses del final d’onada."
+    },
+    "value": {
+      "0": "No",
+      "1": "Sense Curació",
+      "2": "Sense Botiga",
+      "3": "Tots dos"
+    }
+  },
   "singleGeneration": {
+    "name": "Monogeneració",
+    "desc": "Només pots utilitzar Pokémon de la Generació {{gen}}.",
+    "descDefault": "Només pots utilitzar Pokémon de la generació escollida.",
     "gen": {
       "1": "1ª",
       "2": "2ª",
@@ -23,22 +58,40 @@
       "9": "9ª"
     }
   },
+  "singleType": {
+    "name": "Monotipus",
+    "desc": "Només pots usar Pokémon de tipus {{type}}.",
+    "descDefault": "Només pots utilitzar Pokémon del tipus escollit."
+  },
   "inverseBattle": {
+    "name": "Batalla Inversa",
+    "shortName": "Inversa",
     "value": {
       "0": "No",
       "1": "Sí"
     }
   },
   "flipStat": {
+    "name": "Estadística Invertida",
+    "shortName": "Invertit",
     "value": {
       "0": "No",
       "1": "Sí"
     }
   },
   "metronome": {
+    "name": "Mode Metrònom",
     "value": {
       "0": "No",
       "1": "Sí"
+    }
+  },
+  "passives": {
+    "name": "Passives",
+    "value": {
+      "0": "Desact.",
+      "1": "Entrenadors",
+      "2": "Totes"
     }
   }
 }
