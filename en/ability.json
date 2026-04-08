@@ -29,11 +29,11 @@
   },
   "sandVeil": {
     "name": "Sand Veil",
-    "description": "Boosts the Pokémon’s evasiveness in a sandstorm by 20%. The Pokémon takes no damage from sandstorms."
+    "description": "Boosts the Pokémon’s evasiveness by 25% in a sandstorm. The Pokémon takes no damage from sandstorms if it would otherwise."
   },
   "static": {
     "name": "Static",
-    "description": "The Pokémon is charged with static electricity and has a 30% chance to paralyze attackers that make direct contact with it."
+    "description": "The Pokémon is charged with static electricity, when the Pokémon is hit by a contact move the attacker has a 30% chance of being paralyzed."
   },
   "voltAbsorb": {
     "name": "Volt Absorb",
@@ -77,7 +77,7 @@
   },
   "ownTempo": {
     "name": "Own Tempo",
-    "description": "The Pokémon sticks to its own tempo, preventing it from becoming confused or being affected by Intimidate."
+    "description": "The Pokémon sticks to its own tempo, preventing it from becoming confused and is unaffected by Intimidate."
   },
   "suctionCups": {
     "name": "Suction Cups",
@@ -85,7 +85,7 @@
   },
   "intimidate": {
     "name": "Intimidate",
-    "description": "When the Pokémon enters a battle, it intimidates opposing Pokémon and makes them cower, lowering their Attack stats."
+    "description": "When the Pokémon enters a battle, it intimidates opposing Pokémon and lowers the Attack stats of opponents by 1 stage."
   },
   "shadowTag": {
     "name": "Shadow Tag",
@@ -93,7 +93,7 @@
   },
   "roughSkin": {
     "name": "Rough Skin",
-    "description": "The Pokémon’s rough skin damages attackers that make direct contact with it, damaging the attacker for ⅛ of their maximum HP."
+    "description": "When the Pokémon is hit by a contact move, the attacker takes damage equal to ⅛ of its max HP."
   },
   "wonderGuard": {
     "name": "Wonder Guard",
@@ -101,7 +101,7 @@
   },
   "levitate": {
     "name": "Levitate",
-    "description": "By floating in the air, the Pokémon receives full immunity to all Ground-type moves."
+    "description": "The Pokémon floats off the ground, making it immune to Ground-type moves, as well as Spikes, Toxic Spikes, and Sticky Web."
   },
   "effectSpore": {
     "name": "Effect Spore",
@@ -109,19 +109,19 @@
   },
   "synchronize": {
     "name": "Synchronize",
-    "description": "Passes its status condition to the Pokémon that inflicted it. If this Pokémon is your lead into battle, opposing wild Pokémon will share its nature."
+    "description": "If the Pokémon is burned, paralyzed, poisoned, or badly poisoned by another Pokémon’s move or Ability, that Pokémon will also be inflicted with the same status condition. If this Pokémon is your lead into battle, opposing wild Pokémon will share its nature."
   },
   "clearBody": {
     "name": "Clear Body",
-    "description": "Prevents other Pokémon’s moves or Abilities from lowering the Pokémon’s stats."
+    "description": "The Pokémon’s stats cannot be lowered by other Pokémon’s moves or Abilities."
   },
   "naturalCure": {
     "name": "Natural Cure",
-    "description": "The Pokémon’s status conditions are cured when it switches out."
+    "description": "The Pokémon’s status conditions are cured when it switches out of battle."
   },
   "lightningRod": {
     "name": "Lightning Rod",
-    "description": "The Pokémon draws in all Electric-type moves. Instead of taking damage from them, its Sp. Atk stat is boosted."
+    "description": "The Pokémon draws in all Electric-type moves. These moves do not work on the Pokémon. Instead, they boost its Sp. Atk stat by 1 stage."
   },
   "sereneGrace": {
     "name": "Serene Grace",
@@ -137,15 +137,15 @@
   },
   "illuminate": {
     "name": "Illuminate",
-    "description": "By illuminating its surroundings, the Pokémon prevents its accuracy from being lowered. If this Pokémon is your lead into battle, it raises the likelihood of double battles."
+    "description": "By illuminating its surroundings, the Pokémon ignores changes to targets’ evasiveness and its accuracy cannot be lowered. If this Pokémon is your lead into battle, it raises the likelihood of double battles."
   },
   "trace": {
     "name": "Trace",
-    "description": "When it enters a battle, the Pokémon copies an opposing Pokémon’s Ability."
+    "description": "When the Pokémon enters a battle, it changes its Ability to match that of an opponent."
   },
   "hugePower": {
     "name": "Huge Power",
-    "description": "Doubles the Pokémon’s Attack stat."
+    "description": "Doubles the power of the Pokémon’s physical moves."
   },
   "poisonPoint": {
     "name": "Poison Point",
@@ -153,7 +153,7 @@
   },
   "innerFocus": {
     "name": "Inner Focus",
-    "description": "The Pokémon’s intense focus prevents it from flinching or being affected by Intimidate."
+    "description": "The Pokémon’s intense focus prevents it from flinching when attacked and is unaffected by Intimidate."
   },
   "magmaArmor": {
     "name": "Magma Armor",
@@ -173,7 +173,7 @@
   },
   "rainDish": {
     "name": "Rain Dish",
-    "description": "The Pokémon gradually regains ¹⁄₁₆ of their maximum HP at the end of each turn in rain."
+    "description": "The Pokémon has ¹⁄₁₆ of its max HP restored at the end of every turn in rain."
   },
   "sandStream": {
     "name": "Sand Stream",
@@ -181,11 +181,11 @@
   },
   "pressure": {
     "name": "Pressure",
-    "description": "Puts opposing Pokémon under pressure, causing them to expend one more PP than usual when using their moves."
+    "description": "Puts opposing Pokémon under pressure, causing them to expend 1 more PP when using moves against the Pokémon."
   },
   "thickFat": {
     "name": "Thick Fat",
-    "description": "The Pokémon is protected by a layer of thick fat, which halves the damage taken from Fire- and Ice-type moves."
+    "description": "The Pokémon is protected by a layer of thick fat, which halves the damage the Pokémon takes from Fire- and Ice-type moves."
   },
   "earlyBird": {
     "name": "Early Bird",
@@ -193,7 +193,7 @@
   },
   "flameBody": {
     "name": "Flame Body",
-    "description": "Contact with the Pokémon has a 30% chance to burn the attacker."
+    "description": "When the Pokémon is hit by a contact move, the attacker has a 30% chance of being burned."
   },
   "runAway": {
     "name": "Run Away",
@@ -201,7 +201,7 @@
   },
   "keenEye": {
     "name": "Keen Eye",
-    "description": "The Pokémon’s keen eyes prevent its accuracy from being lowered. It also ignores boosts to the target’s evasion."
+    "description": "The Pokémon’s keen eyes ignores changes to targets’ evasiveness and its accuracy cannot be lowered."
   },
   "hyperCutter": {
     "name": "Hyper Cutter",
@@ -221,7 +221,7 @@
   },
   "cuteCharm": {
     "name": "Cute Charm",
-    "description": "The Pokémon has a 30% chance to infatuate attackers that make direct contact with it."
+    "description": "When the Pokémon is hit by a contact move, the attacker has a 30% chance of becoming infatuated if the attacker and the Pokémon are of opposite genders."
   },
   "plus": {
     "name": "Plus",
@@ -237,7 +237,7 @@
   },
   "stickyHold": {
     "name": "Sticky Hold",
-    "description": "The Pokémon’s held items cling to its sticky body and cannot be removed by other Pokémon."
+    "description": "The Pokémon’s held items cling to its sticky body and cannot be stolen or removed by other Pokémon."
   },
   "shedSkin": {
     "name": "Shed Skin",
@@ -245,11 +245,11 @@
   },
   "guts": {
     "name": "Guts",
-    "description": "It’s so gutsy that having a status condition boosts the Pokémon’s Attack stat by 50%."
+    "description": "The Pokémon is so gutsy that when it has a status condition, its Attack stat is boosted by 50%. Being burned does not halve the damage dealt by the Pokémon’s physical moves."
   },
   "marvelScale": {
     "name": "Marvel Scale",
-    "description": "The Pokémon’s marvelous scales boost its Defense stat by 50% if it has a status condition."
+    "description": "The Pokémon’s marvelous scales boost its Defense stat by 50% when it has a status condition."
   },
   "liquidOoze": {
     "name": "Liquid Ooze",
@@ -257,19 +257,19 @@
   },
   "overgrow": {
     "name": "Overgrow",
-    "description": "Powers up Grass-type moves by 50% when the Pokémon’s HP drops to ⅓ or less."
+    "description": "Boosts the power of the Pokémon’s Grass-type moves by 50% when its HP drops to ⅓ or less of its max."
   },
   "blaze": {
     "name": "Blaze",
-    "description": "Powers up Fire-type moves by 50% when the Pokémon’s HP drops to ⅓ or less."
+    "description": "Boosts the power of the Pokémon’s Fire-type moves by 50% when its HP drops to ⅓ or less of its max."
   },
   "torrent": {
     "name": "Torrent",
-    "description": "Powers up Water-type moves by 50% when the Pokémon’s HP drops to ⅓ or less."
+    "description": "Boosts the power of the Pokémon’s Water-type moves by 50% when its HP drops to ⅓ or less of its max."
   },
   "swarm": {
     "name": "Swarm",
-    "description": "Powers up Bug-type moves by 50% when the Pokémon’s HP drops to ⅓ or less."
+    "description": "Boosts the power of the Pokémon’s Bug-type moves by 50% when its HP drops to ⅓ or less of its max."
   },
   "rockHead": {
     "name": "Rock Head",
@@ -317,11 +317,11 @@
   },
   "steadfast": {
     "name": "Steadfast",
-    "description": "The Pokémon’s determination boosts its Speed stat every time it flinches."
+    "description": "The Pokémon’s determination boosts its Speed stat by 1 stage when the Pokémon flinches."
   },
   "snowCloak": {
     "name": "Snow Cloak",
-    "description": "Boosts the Pokémon’s evasiveness in snow or a hailstorm by 20%. The Pokémon takes no damage from hail."
+    "description": "Boosts the Pokémon’s evasiveness by 25% in snow or a hail. The Pokémon takes no damage from hail if it would otherwise."
   },
   "gluttony": {
     "name": "Gluttony",
@@ -333,7 +333,7 @@
   },
   "unburden": {
     "name": "Unburden",
-    "description": "Doubles the Speed stat of the Pokémon if its held item is used or lost."
+    "description": "Doubles the Pokémon’s Speed stat when its held item is consumed or lost."
   },
   "heatproof": {
     "name": "Heatproof",
@@ -353,7 +353,7 @@
   },
   "ironFist": {
     "name": "Iron Fist",
-    "description": "Powers up punching moves by 20%."
+    "description": "Boosts the power of the Pokémon’s punching moves by 20%."
   },
   "poisonHeal": {
     "name": "Poison Heal",
@@ -373,7 +373,7 @@
   },
   "solarPower": {
     "name": "Solar Power",
-    "description": "The Pokémon’s Sp. Atk stat is boosted by 50% in harsh sunlight, but it loses ⅛ of its maximum HP at the end of each turn."
+    "description": "In harsh sunlight, the Pokémon’s Sp. Atk stat is boosted by 50% but it loses ⅛ of its max HP at the end of every turn."
   },
   "quickFeet": {
     "name": "Quick Feet",
@@ -393,7 +393,7 @@
   },
   "noGuard": {
     "name": "No Guard",
-    "description": "The Pokémon employs no-guard tactics to ensure incoming and outgoing attacks always land. If this Pokémon is your lead into battle, it raises the likelihood of double battles."
+    "description": "The Pokémon employs no-guard tactics to ensure the accuracy of moves used both by and against the Pokémon becomes 100%. If this Pokémon is your lead into battle, it raises the likelihood of double battles."
   },
   "stall": {
     "name": "Stall",
@@ -405,11 +405,11 @@
   },
   "leafGuard": {
     "name": "Leaf Guard",
-    "description": "Prevents status conditions in harsh sunlight."
+    "description": "The Pokémon is immune to status conditions in harsh sunlight."
   },
   "klutz": {
     "name": "Klutz",
-    "description": "The Pokémon can’t use any held items."
+    "description": "Items do not work when held by the Pokémon."
   },
   "moldBreaker": {
     "name": "Mold Breaker",
@@ -509,7 +509,7 @@
   },
   "defiant": {
     "name": "Defiant",
-    "description": "If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply."
+    "description": "When the Pokémon has any of its stats lowered by an opponent, its Attack stat is boosted by 2 stages."
   },
   "defeatist": {
     "name": "Defeatist",
@@ -517,7 +517,7 @@
   },
   "cursedBody": {
     "name": "Cursed Body",
-    "description": "The Pokémon has a 30% chance to disable a move that has inflicted damage on it."
+    "description": "When the Pokémon takes damage from a move, the attacker has a 30% chance to have whichever move it last used disabled for 4 turns."
   },
   "healer": {
     "name": "Healer",
@@ -541,7 +541,7 @@
   },
   "multiscale": {
     "name": "Multiscale",
-    "description": "Halves the amount of damage the Pokémon takes while its HP is full."
+    "description": "Halves the damage the Pokémon takes while its HP is full."
   },
   "toxicBoost": {
     "name": "Toxic Boost",
@@ -565,15 +565,15 @@
   },
   "overcoat": {
     "name": "Overcoat",
-    "description": "The Pokémon takes no damage from sandstorms or hail. It is also protected from the effects of powders and spores."
+    "description": "The Pokémon takes no damage from sandstorms or hail, and is immune to moves and Abilities involving powder or spores."
   },
   "poisonTouch": {
     "name": "Poison Touch",
-    "description": "The Pokémon has a 30% chance to poison a target when using a move that makes contact."
+    "description": "When the Pokémon hits a target with a contact move, the target has a 30% chance of being poisoned."
   },
   "regenerator": {
     "name": "Regenerator",
-    "description": "The Pokémon has ⅓ of its maximum HP restored when withdrawn from battle."
+    "description": "The Pokémon has ⅓ of its max HP restored when it switches out of battle."
   },
   "bigPecks": {
     "name": "Big Pecks",
@@ -589,11 +589,11 @@
   },
   "analytic": {
     "name": "Analytic",
-    "description": "Boosts the power of the Pokémon’s move by 30% if it is the last to act that turn."
+    "description": "Boosts the power of the Pokémon’s move by 30% when the Pokémon is the last to move that turn."
   },
   "illusion": {
     "name": "Illusion",
-    "description": "The Pokémon fools opponents by entering battle disguised as the last Pokémon in its Trainer’s party."
+    "description": "The Pokémon fools opponents by entering battle disguised as the last Pokémon in its party. It reverts to its usual appearance when it takes damage from a move."
   },
   "imposter": {
     "name": "Imposter",
@@ -609,7 +609,7 @@
   },
   "moxie": {
     "name": "Moxie",
-    "description": "When the Pokémon knocks out a target, it shows moxie, which boosts its Attack stat."
+    "description": "When the Pokémon knocks out a target with an attack, it shows moxie, which boosts its Attack stat by 1 stage."
   },
   "justified": {
     "name": "Justified",
@@ -625,7 +625,7 @@
   },
   "sapSipper": {
     "name": "Sap Sipper",
-    "description": "The Pokémon takes no damage when hit by Grass-type moves. Instead, its Attack stat is boosted."
+    "description": "Grass-type moves do not work on the Pokémon. Instead, they boost its Attack stat by 1 stage."
   },
   "prankster": {
     "name": "Prankster",
@@ -685,7 +685,7 @@
   },
   "competitive": {
     "name": "Competitive",
-    "description": "Boosts the Pokémon’s Sp. Atk stat sharply when its stats are lowered by an opposing Pokémon."
+    "description": "When the Pokémon has any of its stats lowered by an opponent, its Sp. Atk stat is boosted by 2 stages."
   },
   "strongJaw": {
     "name": "Strong Jaw",
@@ -697,7 +697,7 @@
   },
   "sweetVeil": {
     "name": "Sweet Veil",
-    "description": "Prevents the Pokémon and its allies next to it in battle from falling asleep."
+    "description": "The Pokémon and its allies next to it in battle cannot become drowsy or be put to sleep."
   },
   "stanceChange": {
     "name": "Stance Change",
@@ -705,7 +705,7 @@
   },
   "galeWings": {
     "name": "Gale Wings",
-    "description": "Gives priority to the Pokémon’s Flying-type moves while its HP is full."
+    "description": "Increases the priority of the Pokémon’s Flying-type moves by 1 stage while its HP is full."
   },
   "megaLauncher": {
     "name": "Mega Launcher",
@@ -1165,11 +1165,11 @@
   },
   "sharpness": {
     "name": "Sharpness",
-    "description": "Powers up slicing moves by 50%."
+    "description": "Boosts the power of the Pokémon’s slicing moves by 50%."
   },
   "supremeOverlord": {
     "name": "Supreme Overlord",
-    "description": "When the Pokémon enters a battle, its Attack and Sp. Atk stats receive a 10% boost for each of its allies that have already been defeated."
+    "description": "When the Pokémon enters a battle, the power of its moves is boosted by 10% for each Pokémon in its party that has been defeated in battle already. The maximum boost is 50%"
   },
   "costar": {
     "name": "Costar",
@@ -1185,7 +1185,7 @@
   },
   "earthEater": {
     "name": "Earth Eater",
-    "description": "If hit by a Ground-type move, the Pokémon has ¼ of its maximum HP restored instead of taking damage."
+    "description": "Ground-type moves do not work on the Pokémon. Instead, they restore ¼ of its max HP."
   },
   "myceliumMight": {
     "name": "Mycelium Might",
@@ -1197,7 +1197,7 @@
   },
   "supersweetSyrup": {
     "name": "Supersweet Syrup",
-    "description": "A sickly sweet scent spreads across the field when the Pokémon enters a battle, lowering the evasiveness of opposing Pokémon."
+    "description": "A sickly sweet scent spreads across the field when the Pokémon enters a battle, lowering the evasiveness of opposing Pokémon by 1 stage."
   },
   "hospitality": {
     "name": "Hospitality",
