@@ -1,4 +1,23 @@
 {
   "intro": "Det är en safarizon!",
-  "title": "Safarizonen"
+  "title": "Safarizonen",
+  "description": "Det finns många sorters sällsynta och speciella pokémon i denna zon!\nOm du väljer att gå in får du en tidsgräns på@[TOOLTIP_TITLE]{ {{numEncounters}} vilda möten} där du kan försöka fånga dessa speciella pokémon.\n\nObs! Tänk på att dessa pokémon kan fly innan du hinner fånga dem!",
+  "query": "Vill du gå in?",
+  "option": {
+    "1": {
+      "label": "Gå in",
+      "tooltip": "(-) Betala {{option1Money, money}}\n@[SUMMARY_GREEN]{(?) Safarizonen}",
+      "selected": "Lycka till nu!"
+    },
+    "2": {
+      "label": "Gå din väg",
+      "tooltip": "(-) Ingen belöning",
+      "selected": "Du skyndar dig iväg med en viss känsla av ånger."
+    }
+  },
+  "safari": {
+    "1": {
+      "label": "Kasta en pokéboll"
+    }
+  }
 }
