@@ -1,0 +1,23 @@
+{
+  "intro": "Du hittade…@d{32} en skattkista?",
+  "title": "Det e' också bra å ha",
+  "description": "En vackert utsmyckad kista står på marken. Det måste finnas något bra där i… eller?",
+  "query": "Vill du öppna den?",
+  "option": {
+    "1": {
+      "label": "Öppna den",
+      "tooltip": "@[SUMMARY_BLUE]{({{trapPercent}}%) Något hemskt}\n@[SUMMARY_GREEN]{({{commonPercent}}%) Okej skatt}\n@[SUMMARY_GREEN]{({{ultraPercent}}%) Bra skatt}\n@[SUMMARY_GREEN]{({{roguePercent}}%) Jättebra skatt}\n@[SUMMARY_GREEN]{({{masterPercent}}%) Otrolig skatt}",
+      "selected": "Du öppnar kistan och hittar...",
+      "normal": "Några vanliga redskap och föremål.",
+      "good": "Ganska så bra redskap och föremål.",
+      "great": "Några riktigt bra redskap och föremål!",
+      "amazing": "Wow! Ett helt fantastiskt föremål!",
+      "bad": "Ahhh!@d{32}\nKistan var i själva verket en förklädd {{gimmighoulName}}!$Din {{pokeName}} hoppar framför dig och tar smällen\nmen svimmar som resultat!"
+    },
+    "2": {
+      "label": "För farligt, vi drar",
+      "tooltip": "(-) Ingen belöning",
+      "selected": "Du skyndar dig iväg med en viss känsla av ånger."
+    }
+  }
+}

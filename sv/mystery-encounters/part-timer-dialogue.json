@@ -1,0 +1,31 @@
+{
+  "intro": "En fullt sysselsatt arbetare gör tecken åt dig att stanna.",
+  "speaker": "Arbetare",
+  "introDialogue": "Du ser ut att ha många starka pokémon!$Vi kan betala dig om du kan hjälpa till med lite deltidsjobb!",
+  "title": "Extraknäck",
+  "description": "Det verkar finnas gott om uppgifter som behöver utföras. Beroende på hur väl lämpad din pokémon är för en uppgift kan de tjäna mer eller mindre pengar.",
+  "query": "Vilket jobb blir det?",
+  "invalidSelection": "Denna pokémon kan inte jobba!",
+  "option": {
+    "1": {
+      "label": "Leverans",
+      "tooltip": "(-) Din pokémon tar nytta av sin snabbhet\n(+) Tjäna @[MONEY]{Money}",
+      "selected": "Din {{selectedPokemon}} jobbar ett pass med att leverera beställningar till kunder."
+    },
+    "2": {
+      "label": "Lagerarbete",
+      "tooltip": "(-) Din pokémon använder sin styrka och uthållighet\n(+) Tjäna @[MONEY]{Money}",
+      "selected": "Din {{selectedPokemon}} jobbar ett pass med att flytta föremål runt i lagret."
+    },
+    "3": {
+      "label": "Butiksbiträde",
+      "tooltip": "(-) Din {{option3PrimaryName}} utför {{option3PrimaryMove}}\n(+) Tjäna @[MONEY]{Money}",
+      "disabledTooltip": "Din pokémon måste kunna vissa tekniker för jobbet.",
+      "selected": "Din {{option3PrimaryName}} tillbringar dagen med att utföra tekniken {{option3PrimaryMove}} för att locka kunder till butiken!"
+    }
+  },
+  "jobCompleteGood": "Tack för all din hjälp!\nDin {{selectedPokemon}} var oerhört hjälpsam!\n$Här är din betalning för dagens arbete.",
+  "jobCompleteBad": "Din {{selectedPokemon}} hjälpte oss en del ändå!\nHär är din ersättning för dagen.",
+  "pokemonTired": "Din {{selectedPokemon}} är utmattad!\nKP:n för alla dess tekniker sänktes med 2!",
+  "outro": "Kom gärna tillbaka och hjälp oss igen vid tillfälle!"
+}
