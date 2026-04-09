@@ -5,7 +5,7 @@
   },
   "drizzle": {
     "name": "Drizzle",
-    "description": "The Pokémon makes it rain when it enters a battle."
+    "description": "Summons rain for 5 turns when the Pokémon enters a battle."
   },
   "speedBoost": {
     "name": "Speed Boost",
@@ -105,7 +105,7 @@
   },
   "effectSpore": {
     "name": "Effect Spore",
-    "description": "Contact with the Pokémon has a 30% chance to inflict poison, sleep, or paralysis on the attacker."
+    "description": "When the Pokémon is hit by a contact move, the attacker has a 30% chance of being poisoned, paralyzed, or put to sleep."
   },
   "synchronize": {
     "name": "Synchronize",
@@ -149,7 +149,7 @@
   },
   "poisonPoint": {
     "name": "Poison Point",
-    "description": "Contact with the Pokémon has a 30% chance to poison the attacker."
+    "description": "When the Pokémon is hit by a contact move, the attacker has a 30% chance of being poisoned."
   },
   "innerFocus": {
     "name": "Inner Focus",
@@ -177,7 +177,7 @@
   },
   "sandStream": {
     "name": "Sand Stream",
-    "description": "The Pokémon summons a sandstorm when it enters a battle."
+    "description": "Summons a sandstorm for 5 turns when the Pokémon enters a battle."
   },
   "pressure": {
     "name": "Pressure",
@@ -225,11 +225,11 @@
   },
   "plus": {
     "name": "Plus",
-    "description": "Boosts the Sp. Atk stat of the Pokémon by 50% if an ally with the Plus or Minus Ability is also in battle."
+    "description": "The Pokémon’s Sp. Atk stat is boosted by 50% if an ally with the Plus or Minus Ability is also in battle."
   },
   "minus": {
     "name": "Minus",
-    "description": "Boosts the Sp. Atk stat of the Pokémon by 50% if an ally with the Plus or Minus Ability is also in battle."
+    "description": "The Pokémon’s Sp. Atk stat is boosted by 50% if an ally with the Plus or Minus Ability is also in battle."
   },
   "forecast": {
     "name": "Forecast",
@@ -241,7 +241,7 @@
   },
   "shedSkin": {
     "name": "Shed Skin",
-    "description": "The Pokémon has a 33% chance to cure its own status conditions at the end of each turn by shedding its skin."
+    "description": "The Pokémon has a 30% chance to cure its own status conditions at the end of every turn by shedding its skin."
   },
   "guts": {
     "name": "Guts",
@@ -285,11 +285,11 @@
   },
   "vitalSpirit": {
     "name": "Vital Spirit",
-    "description": "The Pokémon is full of vitality, and that prevents it from falling asleep."
+    "description": "The Pokémon is full of vitality, and that prevents it from becoming drowsy or being put to sleep."
   },
   "whiteSmoke": {
     "name": "White Smoke",
-    "description": "The Pokémon is protected by its white smoke, which prevents other Pokémon from lowering its stats."
+    "description": "The Pokémon is protected by its white smoke, which prevents its stats from being lowered by other Pokémon’s moves or Abilities."
   },
   "purePower": {
     "name": "Pure Power",
@@ -305,7 +305,7 @@
   },
   "tangledFeet": {
     "name": "Tangled Feet",
-    "description": "Moves targeting the Pokémon have their accuracy halved while the Pokémon is confused."
+    "description": "Doubles the Pokémon’s evasiveness if it is confused."
   },
   "motorDrive": {
     "name": "Motor Drive",
@@ -313,7 +313,7 @@
   },
   "rivalry": {
     "name": "Rivalry",
-    "description": "The Pokémon’s competitive spirit makes it deal 25% increased damage to Pokémon of the same gender, but 25% reduced damage to Pokémon of the opposite gender."
+    "description": "The Pokémon’s competitive spirit boosts the power of its moves by 25% against targets of the same gender, and lowers it by 25% against targets of the opposite gender. The power remains the same as usual if either Pokémon’s gender is unknown."
   },
   "steadfast": {
     "name": "Steadfast",
@@ -365,7 +365,7 @@
   },
   "skillLink": {
     "name": "Skill Link",
-    "description": "Maximizes the number of times multistrike moves hit."
+    "description": "The Pokémon’s multistrike moves always hit the maximum amount of times."
   },
   "hydration": {
     "name": "Hydration",
@@ -413,7 +413,7 @@
   },
   "moldBreaker": {
     "name": "Mold Breaker",
-    "description": "The Pokémon’s moves are unaffected by the Ability of the target (with certain exceptions)."
+    "description": "The Pokémon’s moves are unaffected by the Ability of the target, with certain exceptions."
   },
   "superLuck": {
     "name": "Super Luck",
@@ -421,7 +421,7 @@
   },
   "aftermath": {
     "name": "Aftermath",
-    "description": "Attackers that knock out the Pokémon with a contact move take damage equal to ¼ of their max HP."
+    "description": "When the Pokémon is knocked out by a contact move, the attacker takes damage equal to ¼ of their max HP."
   },
   "anticipation": {
     "name": "Anticipation",
@@ -477,7 +477,7 @@
   },
   "reckless": {
     "name": "Reckless",
-    "description": "Powers up moves that have recoil damage by 20%."
+    "description": "Boosts the power of the Pokémon’s moves by 20% if they have recoil or crash damage."
   },
   "multitype": {
     "name": "Multitype",
@@ -513,7 +513,7 @@
   },
   "defeatist": {
     "name": "Defeatist",
-    "description": "Halves the Pokémon’s Attack and Sp. Atk stats when its HP drops to half or less."
+    "description": "Halves the Pokémon’s Attack and Sp. Atk stats when its HP drops to ½ or less."
   },
   "cursedBody": {
     "name": "Cursed Body",
@@ -545,11 +545,11 @@
   },
   "toxicBoost": {
     "name": "Toxic Boost",
-    "description": "Powers up physical moves by 50% when the Pokémon is poisoned."
+    "description": "When the Pokémon is poisoned or badly poisoned, the power of its physical moves are boosted by 50%."
   },
   "flareBoost": {
     "name": "Flare Boost",
-    "description": "Powers up special moves by 50% when the Pokémon is burned."
+    "description": "When the Pokémon is burned, the power of its special moves are boosted by 50%."
   },
   "harvest": {
     "name": "Harvest",
@@ -641,7 +641,7 @@
   },
   "zenMode": {
     "name": "Zen Mode",
-    "description": "The Pokémon changes its form to Zen Mode when its HP drops to half or less."
+    "description": "The Pokémon changes its form to Zen Mode when its HP drops to ½ or less."
   },
   "victoryStar": {
     "name": "Victory Star",
@@ -649,11 +649,11 @@
   },
   "turboblaze": {
     "name": "Turboblaze",
-    "description": "The Pokémon’s moves are unimpeded by the Ability of the target."
+    "description": "The Pokémon’s moves are unaffected by the Ability of the target, with certain exceptions."
   },
   "teravolt": {
     "name": "Teravolt",
-    "description": "The Pokémon’s moves are unimpeded by the Ability of the target."
+    "description": "The Pokémon’s moves are unaffected by the Ability of the target, with certain exceptions."
   },
   "aromaVeil": {
     "name": "Aroma Veil",
@@ -729,7 +729,7 @@
   },
   "gooey": {
     "name": "Gooey",
-    "description": "Contact with the Pokémon lowers the attacker’s Speed stat."
+    "description": "When the Pokémon is hit by a contact move, the attacker’s Speed stat is lowered."
   },
   "aerilate": {
     "name": "Aerilate",
@@ -769,11 +769,11 @@
   },
   "wimpOut": {
     "name": "Wimp Out",
-    "description": "The Pokémon cowardly switches out when its HP drops to half or less."
+    "description": "The Pokémon cowardly switches out when its HP drops to ½ or less."
   },
   "emergencyExit": {
     "name": "Emergency Exit",
-    "description": "The Pokémon, sensing danger, switches out when its HP drops to half or less."
+    "description": "The Pokémon, sensing danger, switches out when its HP drops to ½ or less."
   },
   "waterCompaction": {
     "name": "Water Compaction",
@@ -785,7 +785,7 @@
   },
   "shieldsDown": {
     "name": "Shields Down",
-    "description": "When its HP drops to half or less, the Pokémon’s shell breaks and it becomes aggressive."
+    "description": "When its HP drops to ½ or less, the Pokémon’s shell breaks and it becomes aggressive."
   },
   "stakeout": {
     "name": "Stakeout",
@@ -797,7 +797,7 @@
   },
   "steelworker": {
     "name": "Steelworker",
-    "description": "Powers up Steel-type moves by 50%."
+    "description": "Boosts the power of the Pokémon’s Steel-type moves by 50%."
   },
   "berserk": {
     "name": "Berserk",
@@ -805,7 +805,7 @@
   },
   "slushRush": {
     "name": "Slush Rush",
-    "description": "Doubles the Pokémon’s Speed stat in snow or a hailstorm. The Pokémon takes no damage from hail."
+    "description": "Doubles the Pokémon’s Speed stat in snow or hail. The Pokémon takes no damage from hail if it would otherwise."
   },
   "longReach": {
     "name": "Long Reach",
@@ -825,7 +825,7 @@
   },
   "surgeSurfer": {
     "name": "Surge Surfer",
-    "description": "Doubles the Pokémon’s Speed stat while on Electric Terrain."
+    "description": "Doubles the Pokémon’s Speed stat on Electric Terrain."
   },
   "schooling": {
     "name": "Schooling",
@@ -841,7 +841,7 @@
   },
   "powerConstruct": {
     "name": "Power Construct",
-    "description": "Cells gather to aid the Pokémon when its HP drops to half or less, causing it to change into its Complete Forme."
+    "description": "Cells gather to aid the Pokémon when its HP drops to ½ or less, causing it to change into its Complete Forme."
   },
   "corrosion": {
     "name": "Corrosion",
@@ -929,7 +929,7 @@
   },
   "neuroforce": {
     "name": "Neuroforce",
-    "description": "Powers up moves that are super effective by 25%."
+    "description": "Boosts the power of the Pokémon’s moves that are super effective against the target by 25%."
   },
   "intrepidSword": {
     "name": "Intrepid Sword",
@@ -961,7 +961,7 @@
   },
   "gulpMissile": {
     "name": "Gulp Missile",
-    "description": "When the Pokémon uses Surf or Dive, it catches prey in its mouth. Taking damage causes the Pokémon to spit its prey at its attacker, dealing ¼ of the attacker’s max HP. Depending on the caught prey, it will also lower the opponent’s Defense or inflict paralysis on them."
+    "description": "When the Pokémon uses Surf or Dive, it catches prey in its mouth. Taking damage causes the Pokémon to spit its prey at its attacker, dealing ¼ of the their max HP in damage. Depending on the caught prey, it will also lower the opponent’s Defense stat or inflict paralysis."
   },
   "stalwart": {
     "name": "Stalwart",
@@ -973,7 +973,7 @@
   },
   "punkRock": {
     "name": "Punk Rock",
-    "description": "Boosts the power of sound-based moves by 30%. The Pokémon also takes half the damage from these kinds of moves."
+    "description": "Boosts the power of sound-based moves by 30%. The Pokémon also halves the damage taken from these kinds of moves."
   },
   "sandSpit": {
     "name": "Sand Spit",
@@ -1005,11 +1005,11 @@
   },
   "steelySpirit": {
     "name": "Steely Spirit",
-    "description": "Powers up the Steel-type moves of the Pokémon and its allies next to it in battle by 50%."
+    "description": "Boosts the power of the Pokémon and its allies next to it in battle’s Steel-type moves by 50%."
   },
   "perishBody": {
     "name": "Perish Body",
-    "description": "When hit by a move that makes direct contact, the Pokémon and the attacker will faint after three turns unless they switch out of battle."
+    "description": "When the Pokémon is hit by a contact move, the Pokémon and the attacker will faint after three turns unless they switch out of battle."
   },
   "wanderingSpirit": {
     "name": "Wandering Spirit",
@@ -1037,7 +1037,7 @@
   },
   "unseenFist": {
     "name": "Unseen Fist",
-    "description": "If the Pokémon uses moves that make direct contact, it can attack the target even if the target protects itself."
+    "description": "When the Pokémon uses contact moves, it can hit even targets that are protecting themselves, dealing of the damage that the move would otherwise deal. Everything aside from the target’s protective effects is still triggered."
   },
   "curiousMedicine": {
     "name": "Curious Medicine",
@@ -1045,11 +1045,11 @@
   },
   "transistor": {
     "name": "Transistor",
-    "description": "Powers up Electric-type moves by 30%."
+    "description": "Boosts the power of the Pokémon’s Electric-type moves by 30%."
   },
   "dragonsMaw": {
     "name": "Dragon’s Maw",
-    "description": "Powers up Dragon-type moves by 50%."
+    "description": "Boosts the power of the Pokémon’s Dragon-type moves by 50%."
   },
   "chillingNeigh": {
     "name": "Chilling Neigh",
@@ -1069,7 +1069,7 @@
   },
   "lingeringAroma": {
     "name": "Lingering Aroma",
-    "description": "Contact with the Pokémon changes the attacker’s Ability to Lingering Aroma."
+    "description": "When the Pokémon is hit by a contact move, the attacker has its Ability changed to Lingering Aroma."
   },
   "seedSower": {
     "name": "Seed Sower",
@@ -1081,7 +1081,7 @@
   },
   "angerShell": {
     "name": "Anger Shell",
-    "description": "When an attack causes its HP to drop to half or less, the Pokémon gets angry. This lowers its Defense and Sp. Def stats but boosts its Attack, Sp. Atk, and Speed stats."
+    "description": "When an attack causes its HP to drop to ½ or less, the Pokémon gets angry. This lowers its Defense and Sp. Def stats but boosts its Attack, Sp. Atk, and Speed stats."
   },
   "purifyingSalt": {
     "name": "Purifying Salt",
@@ -1101,7 +1101,7 @@
   },
   "rockyPayload": {
     "name": "Rocky Payload",
-    "description": "Powers up Rock-type moves by 50%."
+    "description": "Boosts the power of the Pokémon’s Rock-type moves by 50%."
   },
   "windPower": {
     "name": "Wind Power",
