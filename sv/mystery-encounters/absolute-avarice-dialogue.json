@@ -1,0 +1,25 @@
+{
+  "intro": "En {{greedentName}} överfaller dig\noch stjäl ditt lags bär!",
+  "title": "Gränslös glupskhet",
+  "description": "{{greedentName}} överraskade dig helt; nu är alla dina bär borta!\n\n{{greedentName}} ser ut som att den är på väg att äta dem när den plötsligt stannar upp och tittar på dig nyfiket.",
+  "query": "Hur gör du?",
+  "option": {
+    "1": {
+      "label": "Slåss med den",
+      "tooltip": "(-) Tuff strid\n(+) Vinster från bärhögen",
+      "selected": "{{greedentName}} stoppar kinderna fulla\noch gör sig redo för strid!",
+      "bossEnraged": "{{greedentName}}s starka matkärlek har gjort den ursinnig!",
+      "foodStash": "Det ser ut som att {{greedentName}} vaktade en enorm hög mat!$@s{item_fanfare}Varje pokémon i ditt lag får en {{foodReward}}!"
+    },
+    "2": {
+      "label": "Förhandla",
+      "tooltip": "(+) Få tillbaka några bär",
+      "selected": "Din vädjan berör {{greedentName}}.$Den ger inte tillbaka alla dina bär, men kastar ändå några i din riktning."
+    },
+    "3": {
+      "label": "Låt den äta allt",
+      "tooltip": "(-) Förlora alla bär\n(?) {{greedentName}} tycker om dig",
+      "selected": "Hux flux slukar {{greedentName}} hela bärhögen!$Den klappar sig på magen\noch tittar på dig med glädje i ögonen.$Kanske kan du mata den\nfler bär under ditt äventyr…$@s{level_up_fanfare}{{greedentName}} vill gå med ditt lag!"
+    }
+  }
+}

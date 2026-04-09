@@ -1,0 +1,32 @@
+{
+  "intro": "Det är en terminal för det Globala utbytessystemet!",
+  "title": "GUS: \"Bytt är bytt!\"",
+  "description": "GUS: En teknikunder som kopplar dig till vem som helst i världen för utbyte av pokémon! Kommer turen vara på din sida denna bytardag?",
+  "query": "Hur gör du?",
+  "option": {
+    "1": {
+      "label": "Kolla utbytena",
+      "tooltip": "(+) Välj ett utbyte mot en av dina pokémon",
+      "tradeOptionsPrompt": "Välj den pokémon du vill få via utbyte."
+    },
+    "2": {
+      "label": "Ultrabyte",
+      "tooltip": "(+) Skicka en pokémon till GUS och få en slumpmässig speciell pokémon i utbyte"
+    },
+    "3": {
+      "label": "Föremålsbyte",
+      "tradeOptionsPrompt": "Välj ett föremål att skicka.",
+      "invalidSelection": "Denna pokémon har inga tillåtna föremål att skicka.",
+      "tooltip": "(+) Skicka ett föremål till GTS och få ett bättre, slumpmässigt föremål   "
+    },
+    "4": {
+      "label": "Fortsätt vidare",
+      "tooltip": "(-) Ingen belöning",
+      "selected": "Du har inte tid för utbyten!\nDu forsätter vidare."
+    }
+  },
+  "pokemonTradeSelected": "{{tradedPokemon}} kommer att skickas till {{tradeTrainerName}}.",
+  "pokemonTradeGoodbye": "Hejdå, {{tradedPokemon}}!",
+  "itemTradeSelected": "{{chosenItem}} kommer att skickas till {{tradeTrainerName}}.$.@d{64}.@d{64}.@d{64}\n@s{level_up_fanfare}Utbyte avklarat!$Du fick 1x {{itemName}} från {{tradeTrainerName}}!",
+  "tradeReceived": "@s{evolution_fanfare}{{tradeTrainerName}} skickade {{received}}!"
+}

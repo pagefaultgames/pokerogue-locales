@@ -3,11 +3,18 @@
   "illegalEvolution": "{{pokemon}} s'ha convertit en\nun Pokémon inelegible per a aquest repte!",
   "noneSelected": "Cap Escollit",
   "freshStart": {
+    "name": "Nou Inici",
+    "desc": {
+      "0": "Simula el repte d’usar inicials acabats d’obtenir sense desbloquejables."
+    },
     "value": {
-      "0": "No"
+      "0": "No",
+      "1": "Reinici Complet",
+      "2": "Tots els inicials"
     }
   },
   "hardcore": {
+    "name": "Extrem",
     "value": {
       "0": "No",
       "1": "Sí"
@@ -36,6 +43,7 @@
     }
   },
   "singleGeneration": {
+    "name": "Monogeneració",
     "desc": "Només pots utilitzar Pokémon de la Generació {{gen}}.",
     "descDefault": "Només pots utilitzar Pokémon de la generació escollida.",
     "gen": {
@@ -51,6 +59,8 @@
     }
   },
   "singleType": {
+    "name": "Monotipus",
+    "desc": "Només pots usar Pokémon de tipus {{type}}.",
     "descDefault": "Només pots utilitzar Pokémon del tipus escollit."
   },
   "inverseBattle": {
@@ -62,15 +72,26 @@
     }
   },
   "flipStat": {
+    "name": "Estadística Invertida",
+    "shortName": "Invertit",
     "value": {
       "0": "No",
       "1": "Sí"
     }
   },
   "metronome": {
+    "name": "Mode Metrònom",
     "value": {
       "0": "No",
       "1": "Sí"
+    }
+  },
+  "passives": {
+    "name": "Passives",
+    "value": {
+      "0": "Desact.",
+      "1": "Entrenadors",
+      "2": "Totes"
     }
   }
 }
