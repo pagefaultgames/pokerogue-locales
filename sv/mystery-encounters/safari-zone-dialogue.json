@@ -17,7 +17,30 @@
   },
   "safari": {
     "1": {
-      "label": "Kasta en pokéboll"
-    }
-  }
+      "label": "Kasta en pokéboll",
+      "tooltip": "(+) Kasta en pokéboll",
+      "selected": "Du kastar en pokéboll!"
+    },
+    "2": {
+      "label": "Släng ut bete",
+      "tooltip": "(+) Ökar chans för fångst\n(-) Kan öka för risk för flykt",
+      "selected": "Du slängde ut lite bete!"
+    },
+    "3": {
+      "label": "Kasta lera",
+      "tooltip": "(+) Sänker risk för flykt\n(-) Kan öka chans för fångst",
+      "selected": "Du kastade lite lera!"
+    },
+    "4": {
+      "label": "Fly",
+      "tooltip": "(?) Fly från denna pokémon"
+    },
+    "watching": "{{pokemonName}} tittar noggrant på dig!",
+    "eating": "{{pokemonName}} äter!",
+    "busyEating": "{{pokemonName}} är upptagen med att äta!",
+    "angry": "{{pokemonName}} är arg!",
+    "besideItselfAngry": "{{pokemonName}} är helt ursinnig!",
+    "remainingCount": "{{remainingCount}} pokémon kvar!"
+  },
+  "outro": "Vilken rolig liten utflykt!"
 }
