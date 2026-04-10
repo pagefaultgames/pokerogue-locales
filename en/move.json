@@ -25,15 +25,15 @@
   },
   "firePunch": {
     "name": "Fire Punch",
-    "effect": "The target is attacked with a fiery punch. This may also leave the target with a burn."
+    "effect": "The target is attacked with a fiery punch. This has a 10% chance of burning the target."
   },
   "icePunch": {
     "name": "Ice Punch",
-    "effect": "The target is attacked with an icy punch. This may also leave the target frozen."
+    "effect": "The target is attacked with an icy punch. This has a 10% chance of freezing the target."
   },
   "thunderPunch": {
     "name": "Thunder Punch",
-    "effect": "The target is attacked with an electrified punch. This may also leave the target with paralysis."
+    "effect": "The target is attacked with an electrified punch. This has a 10% chance of paralyzing the target."
   },
   "scratch": {
     "name": "Scratch",
@@ -133,7 +133,7 @@
   },
   "bodySlam": {
     "name": "Body Slam",
-    "effect": "The user attacks by dropping onto the target with its full body weight. This may also leave the target with paralysis."
+    "effect": "The user attacks by dropping onto the target with its full body weight. This has a 30% chance of paralyzing the target. If the target used Minimize, this move’s power is doubled and it will be sure to hit.."
   },
   "wrap": {
     "name": "Wrap",
@@ -149,7 +149,7 @@
   },
   "doubleEdge": {
     "name": "Double-Edge",
-    "effect": "A reckless life-risking tackle in which the user rushes the target. This also damages the user quite a lot."
+    "effect": "A reckless life-risking tackle in which the user rushes the target. The user takes ⅓ of the damage dealt by this move."
   },
   "tailWhip": {
     "name": "Tail Whip",
@@ -173,7 +173,7 @@
   },
   "bite": {
     "name": "Bite",
-    "effect": "The target is bitten with viciously sharp fangs. This may also make the target flinch."
+    "effect": "The target is bitten with viciously sharp fangs. This has a 30% chance of making the target flinch."
   },
   "growl": {
     "name": "Growl",
@@ -209,7 +209,7 @@
   },
   "flamethrower": {
     "name": "Flamethrower",
-    "effect": "The target is scorched with an intense blast of fire. This may also leave the target with a burn."
+    "effect": "The target is scorched with an intense blast of fire. This has a 10% chance of burning the target."
   },
   "mist": {
     "name": "Mist",
@@ -225,15 +225,15 @@
   },
   "surf": {
     "name": "Surf",
-    "effect": "The user attacks everything around it by swamping its surroundings with a giant wave."
+    "effect": "The user attacks everything around it by swamping its surroundings with a giant wave. This move’s power is doubled against targets submerged with Dive."
   },
   "iceBeam": {
     "name": "Ice Beam",
-    "effect": "The target is struck with an icy-cold beam of energy. This may also leave the target frozen."
+    "effect": "The target is struck with an icy-cold beam of energy. This has a 10% chance of freezing the target."
   },
   "blizzard": {
     "name": "Blizzard",
-    "effect": "A howling blizzard is summoned to strike opposing Pokémon. This may also leave the opposing Pokémon frozen."
+    "effect": "A howling blizzard is summoned to strike opposing Pokémon. This has a 10% chance of freezing the target, and never misses in snow or hail."
   },
   "psybeam": {
     "name": "Psybeam",
@@ -265,7 +265,7 @@
   },
   "lowKick": {
     "name": "Low Kick",
-    "effect": "A powerful low kick that makes the target fall over. The heavier the target, the greater the move’s power."
+    "effect": "A powerful low kick that makes the target fall over. The heavier the target, the greater the move’s power (ranging between 20 and 120)."
   },
   "counter": {
     "name": "Counter",
@@ -289,11 +289,11 @@
   },
   "leechSeed": {
     "name": "Leech Seed",
-    "effect": "A seed is planted on the target. It steals some HP from the target every turn."
+    "effect": "A seed is planted on the target. The Pokémon steals ¹⁄₁₆ of the target’s max HP at the end of every turn."
   },
   "growth": {
     "name": "Growth",
-    "effect": "The user’s body grows all at once, boosting the Attack and Sp. Atk stats."
+    "effect": "The user’s body grows all at once, boosting its Attack and Sp. Atk stat. In harsh sunlight, these stats will be boosted sharply instead."
   },
   "razorLeaf": {
     "name": "Razor Leaf",
@@ -301,7 +301,7 @@
   },
   "solarBeam": {
     "name": "Solar Beam",
-    "effect": "The user gathers light on the first turn, then blasts a bundled beam on the next turn."
+    "effect": "The user gathers light on the first turn, then blasts a bundled beam on the next turn. In harsh sunlight, the user can attack immediately. This move’s power is halved in any other weather condition."
   },
   "poisonPowder": {
     "name": "Poison Powder",
@@ -337,7 +337,7 @@
   },
   "thunderbolt": {
     "name": "Thunderbolt",
-    "effect": "The user attacks the target with a strong electric blast. This may also leave the target with paralysis."
+    "effect": "The user attacks the target with a strong electric blast. This has a 10% chance of paralyzing the target."
   },
   "thunderWave": {
     "name": "Thunder Wave",
@@ -345,7 +345,7 @@
   },
   "thunder": {
     "name": "Thunder",
-    "effect": "A wicked thunderbolt is dropped on the target to inflict damage. This may also leave the target with paralysis."
+    "effect": "A wicked thunderbolt is dropped on the target to inflict damage. This has a 30% chance of paralyzing the target, and never misses in rain. This move can also hit a target in the air from Fly, Bounce, or Sky Drop."
   },
   "rockThrow": {
     "name": "Rock Throw",
@@ -353,7 +353,7 @@
   },
   "earthquake": {
     "name": "Earthquake",
-    "effect": "The user sets off an earthquake that strikes every Pokémon around it."
+    "effect": "The user sets off an earthquake that strikes every Pokémon around it. This move’s power is doubled against targets underground from Dig, and halved while Grassy Terrain is active."
   },
   "fissure": {
     "name": "Fissure",
@@ -365,7 +365,7 @@
   },
   "toxic": {
     "name": "Toxic",
-    "effect": "A move that leaves the target badly poisoned. Its poison damage worsens every turn."
+    "effect": "A move that leaves the target badly poisoned and always lands when used by a Poison-type. The poison damage taken by the target worsens every turn, starting at ¹⁄₁₆ of its max HP and increasing by as much with each turn."
   },
   "confusion": {
     "name": "Confusion",
@@ -373,7 +373,7 @@
   },
   "psychic": {
     "name": "Psychic",
-    "effect": "The target is hit with a strong telekinetic force to inflict damage. This may also lower the target’s Sp. Def stat."
+    "effect": "The target is hit with a strong telekinetic force to inflict damage. This has a 10% chance of lowering the target’s Sp. Def stat."
   },
   "hypnosis": {
     "name": "Hypnosis",
@@ -1369,7 +1369,7 @@
   },
   "covet": {
     "name": "Covet",
-    "effect": "The user endearingly approaches the target, then tries to steal from the target. This move has a 30% chance to steal one of the target's held items."
+    "effect": "The user endearingly approaches the target, then tries to steal from the target. This move has a 30% chance to steal one of the target’s held items."
   },
   "voltTackle": {
     "name": "Volt Tackle",
