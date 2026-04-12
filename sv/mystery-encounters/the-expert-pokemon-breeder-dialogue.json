@@ -1,5 +1,31 @@
 {
   "intro": "Det är en tränare med en massa pokémonägg!",
   "introDialogue": "Tjenamors, tränarn!$Dina pokémonpartner ser lite nere ut...$Vad sägs om en strid för att pigga upp dem lite?",
-  "title": "Uppfödarstjärnan"
+  "title": "Uppfödarstjärnan",
+  "description": "Du har blivit utmanad till en strid där @[TOOLTIP_TITLE]{du bara får använda en enda pokémon}. Den kan bli tuff men det kommer garanterat att fördjupa bandet mellan dig och den pokémon du väljer!\nUppfödaren kommer att ge dig några @[TOOLTIP_TITLE]{pokémonägg} också om du vinner!",
+  "query": "Vem ska strida?",
+  "cleffa1Nickname": "Stjärnan",
+  "cleffa2Nickname": "Clefursten",
+  "cleffa3Nickname": "{{speciesName}} den Store",
+  "option": {
+    "1": {
+      "label": "{{pokemon1Name}}",
+      "tooltipBase": "(-) Tuff strid\n(+) Vänskapen med {{pokemon1Name}} växer"
+    },
+    "2": {
+      "label": "{{pokemon2Name}}",
+      "tooltipBase": "(-) Tuff strid\n(+) Vänskapen med {{pokemon2Name}} växer"
+    },
+    "3": {
+      "label": "{{pokemon3Name}}",
+      "tooltipBase": "(-) Tuff strid\n(+) Vänskapen med {{pokemon3Name}} växer"
+    },
+    "selected": "Nu sätter vi igång!"
+  },
+  "outro": "Titta vad glad din {{chosenPokemon}} blev!$Varsågod, du får de här också!",
+  "outroFailed": "Nej, vad synd…$Verkar som det blir ett tag innan du vinner din pokémons förtroende!",
+  "gainedEggs": "@s{item_fanfare}Du fick {{numEggs}}!",
+  "eggsTooltip": "\n(+) Få {{eggs}}",
+  "numEggs_one": "{{count}} {{rarity}} ägg",
+  "numEggs_other": "{{count}} {{rarity}}a ägg"
 }

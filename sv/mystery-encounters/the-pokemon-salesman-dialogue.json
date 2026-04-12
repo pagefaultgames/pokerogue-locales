@@ -1,0 +1,23 @@
+{
+  "intro": "En kry äldre man närmar sig dig.",
+  "speaker": "Kavaljeren",
+  "introDialogue": "Hallå där! Det är din lyckodag; jag har ett erbjudande perfekt för just dig!",
+  "title": "Pokémonhandlaren",
+  "description": "“Denna {{purchasePokemon}} är helt unik; den @[TOOLTIP_TITLE]{har ett särdrag som normalt inte finns i dess art}! Du får köpa denna fina {{purchasePokemon}} för endast {{price, money}}!”\n\n“Vad sägs?”",
+  "descriptionShiny": "“Denna {{purchasePokemon}} är helt unik; den @[TOOLTIP_TITLE]{har en kulör som är ovanlig för dess art}! Du får köpa denna fina {{purchasePokemon}} för endast {{price, money}}!”\n\n“Vad sägs?”",
+  "query": "Hur gör du?",
+  "option": {
+    "1": {
+      "label": "Godta",
+      "tooltip": "(-) Betala {{price, money}}\n(+) Få en {{purchasePokemon}} med ett hemlig särdrag",
+      "tooltipShiny": "(-) Betala {{price, money}}\n(+) Få en skimrande {{purchasePokemon}}",
+      "selectedMessage": "Du betalade ockersumman och fick en {{purchasePokemon}}.",
+      "selectedDialogue": "Utmärkt val!$Jag kan se att du har ett skarpt öga för affärer.$Åh, just det, en sak till…@d{64} Returer godtas ej."
+    },
+    "2": {
+      "label": "Avböj",
+      "tooltip": "(-) Ingen belöning",
+      "selected": "Nej?@d{32} Säger du nej!?$Jag gör ju det här som en tjänst åt dig!"
+    }
+  }
+}
