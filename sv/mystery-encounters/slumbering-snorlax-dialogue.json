@@ -1,0 +1,25 @@
+{
+  "intro": "Du går längs en smal stig när du ser en enorm siluett som blockerar din väg.\nDu går närmare och ser att det är en {{snorlaxName}} som sover fridfullt.\nDet verkar inte finnas någon väg runt den.",
+  "title": "Den sussande {{snorlaxName}}",
+  "description": "Du kan attackera den för att försöka få den att flytta på sig, eller helt enkelt vänta på att den ska vakna. Vem vet hur lång tid det kan ta…",
+  "query": "Hur gör du?",
+  "option": {
+    "1": {
+      "label": "Strid",
+      "tooltip": "(-) Strid mot en sovande {{snorlaxName}}\n(+) Speciell belöning",
+      "selected": "Du närmar dig \ndin motståndare utan fruktan."
+    },
+    "2": {
+      "label": "Vänta",
+      "tooltip": "(-) Vänta väldigt länge\n(+) Laget läks helt",
+      "selected": ".@d{32}.@d{32}.@d{32}$Du väntar ett tag, men {{snorlaxName}}s gäsningar gör dig och ditt lag dåsiga…",
+      "restResult": "När du vaknar syns {{snorlaxName}} inte till längre... men alla dina pokémon har helt läkts!"
+    },
+    "3": {
+      "label": "Sno dess föremål",
+      "tooltip": "(+) {{option3PrimaryName}} utför {{option3PrimaryMove}}\n(+) Speciell belöning",
+      "disabledTooltip": "En av dina pokémon måste kunna vissa tekniker för detta.",
+      "selected": "Din {{option3PrimaryName}} utför tekniken {{option3PrimaryMove}}!$@s{item_fanfare}Den stjäl Rester från den sovande\n{{snorlaxName}} och ni rymmer er kos!"
+    }
+  }
+}

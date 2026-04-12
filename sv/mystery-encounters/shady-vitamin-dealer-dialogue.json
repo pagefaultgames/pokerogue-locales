@@ -1,4 +1,27 @@
 {
   "intro": "En man i en mörk rock närmar sig dig.",
-  "speaker": "Skum försäljare"
+  "speaker": "Skum försäljare",
+  "introDialogue": ".@d{16}.@d{16}.@d{16}$Jag har godset om du har pengarna.$Se bara till att dina pokémon kan klara av det.",
+  "title": "Pillermannen",
+  "description": "Mannen öppnar rocken för att visa upp flertals förmågetillskott. Priserna han anger är otroligt värt pengarna. Kanske lite för värt...\nHan lägger fram två paketerbjudanden.",
+  "query": "Vilket paket blir det?",
+  "invalidSelection": "Denna pokémon kan inte ta emot tillskott!",
+  "option": {
+    "1": {
+      "label": "Det billiga",
+      "tooltip": "(-) Betala {{option1Money, money}}\n(-) Biverkningar?\n(+) En pokémon får 2 slumpmässiga tillskott"
+    },
+    "2": {
+      "label": "Det dyra",
+      "tooltip": "(-) Betala {{option1Money, money}}\n(+) En pokémon får 2 slumpmässiga tillskott"
+    },
+    "3": {
+      "label": "Gå din väg",
+      "tooltip": "(-) Ingen belöning",
+      "selected": "Hm. Trodde inte du skulle vara så feg."
+    },
+    "selected": "Mannen ger dig två flaskor och försvinner snabbt.${{selectedPokemon}} fick {{boost1}} and {{boost2}} som tillskott!"
+  },
+  "cheapSideEffects": "Men tillskotten hade biverkningar!$Din {{selectedPokemon}} tog skada,\noch dess karaktärstyp ändrades till {{newNature}}!",
+  "noBadEffects": "Verkar som om tillskotten inte hade några biverkningar!"
 }

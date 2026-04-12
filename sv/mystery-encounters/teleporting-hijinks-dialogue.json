@@ -1,0 +1,27 @@
+{
+  "intro": "Det är en konstig maskin som surrar högt...",
+  "title": "Hux flux",
+  "description": "Maskinen har en skylt:\n \"Vid användning, mata in pengar och kliv in i kapseln.\"\n\nDen kanske kan teleportera dig någonstans…",
+  "query": "Hur gör du?",
+  "option": {
+    "1": {
+      "label": "Mata in pengar",
+      "tooltip": "(-) Betala {{price, money}}\n(?) Teleporteras till ett nytt biom",
+      "selected": "Du matar in lite pengar och kapseln öppnas.\nDu kliver in…"
+    },
+    "2": {
+      "label": "En pokémon hjälper till",
+      "tooltip": "(-) {{option2PrimaryName}} hjälper till\n(+) {{option2PrimaryName}} tjänar Erf.\n(?) Teleporteras till ett nytt biom",
+      "disabledTooltip": "Du behöver en el- eller ståltyppokémon för att välja detta.",
+      "selected": "{{option2PrimaryName}}s typ låter den kringgå maskinens betalvägg!\nKapseln öppnas och du kliver in…"
+    },
+    "3": {
+      "label": "Inspektera maskinen",
+      "tooltip": "(-) Pokémonstrid",
+      "selected": "Du hänförs av de blinkande ljusen\noch de märkliga ljuden från maskinen…\nDu märker inte ens när en vild pokémon\nsmyger sig på och överfaller dig!"
+    }
+  },
+  "transport": "Maskinen skakar våldsamt\noch ger ifrån sig alla möjliga märkliga ljud!\n$Precis lika plötsligt som det började blir det tyst igen.",
+  "attacked": "Du kliver ut på en helt ny plats... och skrämmer en vild pokémon! Den anfaller!",
+  "bossEnraged": "Motståndaren {{enemyPokemon}} har blivit ursinnig!"
+}
