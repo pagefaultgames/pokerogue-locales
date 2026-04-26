@@ -1,11 +1,11 @@
 {
   "stench": {
     "name": "Stench",
-    "description": "By releasing a stench when the Pokémon deals damage with its moves, there is a 10% chance that targets will flinch. This does not stack with moves or items that have a chance to flinch."
+    "description": "By releasing a stench when attacking, there is a 10% chance that targets damaged by the Pokémon’s moves will flinch. This does not stack with moves or items that have a chance to flinch."
   },
   "drizzle": {
     "name": "Drizzle",
-    "description": "Summons rain for 5 turns when the Pokémon enters a battle."
+    "description": "The Pokémon makes it rain for 5 turns when it enters a battle."
   },
   "speedBoost": {
     "name": "Speed Boost",
@@ -17,11 +17,11 @@
   },
   "sturdy": {
     "name": "Sturdy",
-    "description": "If the Pokémon has full HP and takes damage from a move that would knock it out in one hit, it will endure the hit with 1 HP. The Pokémon is also immune to one-hit KO moves."
+    "description": "If the Pokémon has full HP and takes a single hit that would knock it out, it will endure the hit with 1 HP. The Pokémon is also unaffected by one-hit KO moves."
   },
   "damp": {
     "name": "Damp",
-    "description": "The Pokémon dampens its surroundings, preventing all Pokémon from using explosive moves. Explosive Abilities also fail to trigger."
+    "description": "The Pokémon dampens its surroundings, preventing all Pokémon from using explosive moves such as Self-Destruct or dealing damage with Aftermath."
   },
   "limber": {
     "name": "Limber",
@@ -29,11 +29,11 @@
   },
   "sandVeil": {
     "name": "Sand Veil",
-    "description": "Boosts the Pokémon’s evasiveness by 25% in a sandstorm. The Pokémon takes no damage from sandstorms if it would otherwise."
+    "description": "Boosts the Pokémon’s evasiveness by 25% in a sandstorm. The Pokémon also takes no damage from sandstorms."
   },
   "static": {
     "name": "Static",
-    "description": "The Pokémon is charged with static electricity, when the Pokémon is hit by a contact move the attacker has a 30% chance of being paralyzed."
+    "description": "The Pokémon is charged with static electricity and has a 30% chance to paralyze attackers that hit it with a contact move."
   },
   "voltAbsorb": {
     "name": "Volt Absorb",
@@ -45,7 +45,7 @@
   },
   "oblivious": {
     "name": "Oblivious",
-    "description": "The Pokémon is oblivious, keeping it from being infatuated or falling for taunts, and is unaffected by Intimidate."
+    "description": "The Pokémon is oblivious, keeping it from being infatuated, falling for taunts, or being affected by Intimidate."
   },
   "cloudNine": {
     "name": "Cloud Nine",
@@ -53,11 +53,11 @@
   },
   "compoundEyes": {
     "name": "Compound Eyes",
-    "description": "The Pokémon’s compound eyes boost the accuracy of its moves by 30%."
+    "description": "The Pokémon’s compound eyes boost its accuracy by 30%."
   },
   "insomnia": {
     "name": "Insomnia",
-    "description": "The Pokémon’s insomnia prevents it from becoming drowsy or being put to sleep."
+    "description": "The Pokémon’s insomnia prevents it from becoming drowsy or falling asleep."
   },
   "colorChange": {
     "name": "Color Change",
@@ -73,11 +73,11 @@
   },
   "shieldDust": {
     "name": "Shield Dust",
-    "description": "Protective dust shields the Pokémon, making it immune to additional effects from attacks."
+    "description": "Protective dust shields the Pokémon from the additional effects of moves."
   },
   "ownTempo": {
     "name": "Own Tempo",
-    "description": "The Pokémon sticks to its own tempo, preventing it from becoming confused and is unaffected by Intimidate."
+    "description": "The Pokémon sticks to its own tempo, preventing it from becoming confused and or being affected by Intimidate."
   },
   "suctionCups": {
     "name": "Suction Cups",
@@ -93,7 +93,7 @@
   },
   "roughSkin": {
     "name": "Rough Skin",
-    "description": "When the Pokémon is hit by a contact move, its rough skin damages the attacker equal to ⅛ of their max HP."
+    "description": "The Pokémon’s rough skin damages attackers that hit it with contact moves for ⅛ of their maximum HP."
   },
   "wonderGuard": {
     "name": "Wonder Guard",
@@ -153,7 +153,7 @@
   },
   "innerFocus": {
     "name": "Inner Focus",
-    "description": "The Pokémon’s intense focus prevents it from flinching when attacked and is unaffected by Intimidate."
+    "description": "The Pokémon’s intense focus prevents it from flinching or being affected by Intimidate."
   },
   "magmaArmor": {
     "name": "Magma Armor",
@@ -177,15 +177,15 @@
   },
   "sandStream": {
     "name": "Sand Stream",
-    "description": "Summons a sandstorm for 5 turns when the Pokémon enters a battle."
+    "description": "The Pokémon summons a sandstorm for 5 turns when it enters a battle."
   },
   "pressure": {
     "name": "Pressure",
-    "description": "Puts opposing Pokémon under pressure, causing them to expend 1 more PP when using moves against the Pokémon."
+    "description": "Puts opposing Pokémon under pressure, causing them to expend 1 more PP than usual when using moves against it."
   },
   "thickFat": {
     "name": "Thick Fat",
-    "description": "The Pokémon is protected by a layer of thick fat, which halves the damage the Pokémon takes from Fire- and Ice-type moves."
+    "description": "The Pokémon is protected by a layer of thick fat, which halves the damage taken from Fire- and Ice-type moves."
   },
   "earlyBird": {
     "name": "Early Bird",
@@ -201,7 +201,7 @@
   },
   "keenEye": {
     "name": "Keen Eye",
-    "description": "The Pokémon’s keen eyes ignores changes to targets’ evasiveness and its accuracy cannot be lowered."
+    "description": "The Pokémon’s keen eyes ignore changes to targets’ evasiveness and prevent its accuracy from being lowered."
   },
   "hyperCutter": {
     "name": "Hyper Cutter",
@@ -321,7 +321,7 @@
   },
   "snowCloak": {
     "name": "Snow Cloak",
-    "description": "Boosts the Pokémon’s evasiveness by 25% in snow or hail. The Pokémon takes no damage from hail if it would otherwise."
+    "description": "Boosts the Pokémon’s evasiveness by 25% in snow or hail. The Pokémon also takes no damage from hail."
   },
   "gluttony": {
     "name": "Gluttony",
@@ -457,7 +457,7 @@
   },
   "iceBody": {
     "name": "Ice Body",
-    "description": "The Pokémon has ¹⁄₁₆ of its max HP restored at the end of every turn in snow or hail. The Pokémon takes no damage from hail if it would otherwise."
+    "description": "The Pokémon has ¹⁄₁₆ of its max HP restored at the end of every turn in snow or hail. The Pokémon also takes no damage from hail."
   },
   "solidRock": {
     "name": "Solid Rock",
@@ -485,7 +485,7 @@
   },
   "flowerGift": {
     "name": "Flower Gift",
-    "description": "Boosts the Attack and Sp. Def stats of the Pokémon and its allies next to it in battle by 50% in harsh sunlight."
+    "description": "Boosts the Attack and Sp. Def stats of the Pokémon and its allies by 50% in harsh sunlight."
   },
   "badDreams": {
     "name": "Bad Dreams",
@@ -521,7 +521,7 @@
   },
   "healer": {
     "name": "Healer",
-    "description": "Allies next to the Pokémon in battle have a 50% chance to be cured of their status conditions at the end of every turn."
+    "description": "The Pokémon has a 50% chance of curing the status conditions of its allies at the end of every turn."
   },
   "friendGuard": {
     "name": "Friend Guard",
@@ -557,7 +557,7 @@
   },
   "telepathy": {
     "name": "Telepathy",
-    "description": "The Pokémon anticipates and dodges the attacks of its allies next to it in battle."
+    "description": "The Pokémon anticipates and dodges the attacks of its allies."
   },
   "moody": {
     "name": "Moody",
@@ -581,7 +581,7 @@
   },
   "sandRush": {
     "name": "Sand Rush",
-    "description": "Doubles the Pokémon’s Speed stat in a sandstorm. The Pokémon takes no damage from sandstorms if it would otherwise."
+    "description": "Doubles the Pokémon’s Speed stat in a sandstorm. The Pokémon also takes no damage from sandstorms."
   },
   "wonderSkin": {
     "name": "Wonder Skin",
@@ -633,7 +633,7 @@
   },
   "sandForce": {
     "name": "Sand Force",
-    "description": "Boosts the power of the Pokémon’s Rock-, Ground-, and Steel-type moves by 30% in a sandstorm. The Pokémon takes no damage from sandstorms if it would otherwise."
+    "description": "Boosts the power of the Pokémon’s Rock-, Ground-, and Steel-type moves by 30% in a sandstorm. The Pokémon also takes no damage from sandstorms."
   },
   "ironBarbs": {
     "name": "Iron Barbs",
@@ -645,7 +645,7 @@
   },
   "victoryStar": {
     "name": "Victory Star",
-    "description": "The Pokémon and its allies next to it in battle have their accuracy boosted by 10%."
+    "description": "The Pokémon and its allies have their accuracy boosted by 10%."
   },
   "turboblaze": {
     "name": "Turboblaze",
@@ -657,11 +657,11 @@
   },
   "aromaVeil": {
     "name": "Aroma Veil",
-    "description": "The Pokémon and its allies next to it in battle are protected from Infatuation, Taunt, Torment, Disable, Heal Block, and Encore."
+    "description": "The Pokémon and its allies are protected from Infatuation, Taunt, Torment, Disable, Heal Block, and Encore."
   },
   "flowerVeil": {
     "name": "Flower Veil",
-    "description": "If the Pokémon or its allies next to it in battle are Grass-type, they are immune to status conditions and cannot have their stats lowered."
+    "description": "If the Pokémon or its allies are Grass-type, they are immune to status conditions and cannot have their stats lowered."
   },
   "cheekPouch": {
     "name": "Cheek Pouch",
@@ -697,7 +697,7 @@
   },
   "sweetVeil": {
     "name": "Sweet Veil",
-    "description": "The Pokémon and its allies next to it in battle cannot become drowsy or be put to sleep."
+    "description": "The Pokémon and its allies cannot become drowsy or be put to sleep."
   },
   "stanceChange": {
     "name": "Stance Change",
@@ -737,7 +737,7 @@
   },
   "parentalBond": {
     "name": "Parental Bond",
-    "description": "The Pokémon strikes twice, with the second strike dealing ¼ of the first attack’s power. Multistrike moves and moves that target multiple Pokémon are ignored."
+    "description": "When the Pokémon attacks, its kin follows up with a second strike at ¼ of the first attack’s power. This does not occur for multistrike moves or moves that target multiple Pokémon."
   },
   "darkAura": {
     "name": "Dark Aura",
@@ -805,7 +805,7 @@
   },
   "slushRush": {
     "name": "Slush Rush",
-    "description": "Doubles the Pokémon’s Speed stat in snow or hail. The Pokémon takes no damage from hail if it would otherwise."
+    "description": "Doubles the Pokémon’s Speed stat in snow or hail. The Pokémon also takes no damage from hail."
   },
   "longReach": {
     "name": "Long Reach",
@@ -853,7 +853,7 @@
   },
   "queenlyMajesty": {
     "name": "Queenly Majesty",
-    "description": "The Pokémon’s majesty pressures opponents and makes them unable to use priority moves against the Pokémon or its allies next to it in battle."
+    "description": "The Pokémon’s majesty pressures opponents and makes them unable to use priority moves against the Pokémon or its allies."
   },
   "innardsOut": {
     "name": "Innards Out",
@@ -865,7 +865,7 @@
   },
   "battery": {
     "name": "Battery",
-    "description": "Allies next to the Pokémon in battle have their Sp. Atk increased by 30% when using special moves."
+    "description": "Powers up special moves used by allies by 30%."
   },
   "fluffy": {
     "name": "Fluffy",
@@ -873,7 +873,7 @@
   },
   "dazzling": {
     "name": "Dazzling",
-    "description": "The Pokémon dazzles its opponents, making them unable to use priority moves against the Pokémon or its allies next to it in battle."
+    "description": "The Pokémon dazzles its opponents, making them unable to use priority moves against the Pokémon or its allies."
   },
   "soulHeart": {
     "name": "Soul-Heart",
@@ -885,11 +885,11 @@
   },
   "receiver": {
     "name": "Receiver",
-    "description": "The Pokémon changes its Ability to match that of a defeated ally in a Double Battle."
+    "description": "The Pokémon changes its Ability to match that of a defeated ally."
   },
   "powerOfAlchemy": {
     "name": "Power of Alchemy",
-    "description": "The Pokémon changes its Ability to match that of a defeated ally in a Double Battle."
+    "description": "The Pokémon changes its Ability to match that of a defeated ally."
   },
   "beastBoost": {
     "name": "Beast Boost",
@@ -993,7 +993,7 @@
   },
   "powerSpot": {
     "name": "Power Spot",
-    "description": "Allies next to the Pokémon in battle deal 30% increased damage."
+    "description": "Just being next to the Pokémon powers up the moves of its allies by 30%."
   },
   "mimicry": {
     "name": "Mimicry",
@@ -1005,7 +1005,7 @@
   },
   "steelySpirit": {
     "name": "Steely Spirit",
-    "description": "Boosts the power of the Pokémon and its allies next to it in battle’s Steel-type moves by 50%."
+    "description": "Boosts the power of Steel-type moves used by the Pokémon and its allies by 50%."
   },
   "perishBody": {
     "name": "Perish Body",
@@ -1025,7 +1025,7 @@
   },
   "pastelVeil": {
     "name": "Pastel Veil",
-    "description": "The Pokémon and its allies next to it in battle are protected from being poisoned or badly poisoned."
+    "description": "The Pokémon and its allies are protected from being poisoned or badly poisoned."
   },
   "hungerSwitch": {
     "name": "Hunger Switch",
@@ -1173,7 +1173,7 @@
   },
   "costar": {
     "name": "Costar",
-    "description": "When the Pokémon enters a double battle, it copies its ally’s stat changes."
+    "description": "When the Pokémon enters a battle, it copies its ally’s stat changes."
   },
   "toxicDebris": {
     "name": "Toxic Debris",
@@ -1181,7 +1181,7 @@
   },
   "armorTail": {
     "name": "Armor Tail",
-    "description": "The mysterious tail covering the Pokémon’s head makes opponents unable to use priority moves against the Pokémon or its allies next to it in battle."
+    "description": "The mysterious tail covering the Pokémon’s head makes opponents unable to use priority moves against the Pokémon or its allies."
   },
   "earthEater": {
     "name": "Earth Eater",
