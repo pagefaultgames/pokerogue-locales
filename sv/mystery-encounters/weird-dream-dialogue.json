@@ -1,0 +1,28 @@
+{
+  "intro": "En skuggomsluten kvinna spärrar din väg.\nHennes närvaro är obehaglig…",
+  "speaker": "Kvinna",
+  "introDialogue": "Jag haver sett edra framtider och edert förgångna…$Barn, skådar du dem ock?",
+  "title": "???",
+  "description": "Kvinnans ord ekar i ditt huvud. Men det var inte bara en enskild röst utan en väldig mångfald, från alla tidslinjer och alla verkligheter. Du börjar känna dig yr medan frågan dröjer sig kvar i ditt sinne…\n\n@[TOOLTIP_TITLE]{\"Jag haver sett edra framtider och edert förgångna… Barn, skådar du dem ock?\"}",
+  "query": "Hur gör du?",
+  "option": {
+    "1": {
+      "label": "\"Jag skådar dem\"",
+      "tooltip": "@[SUMMARY_GREEN]{(?) Dina pokémon påverkas}",
+      "selected": "Hennes hand sträcker sig mot dig,\noch allt blir svart.\n$Sedan…@d{64} ser du allt.\nAlla tidslinjer, alla dina jag, förflutna och framtida.\n$Allt som format dig,\nallt du kommer att bli…@d{64}",
+      "cutscene": "Du ser dina pokémon.@d{32}De strömmar samman\nfrån alla verkligheter för att bli något nytt…@d{64}",
+      "dreamComplete": "När du vaknar är kvinnan \n– om hon ens fanns – borta…\n$.@d{32}.@d{32}.@d{32}\n$Ditt pokémonlag har förändrats...\neller är det samma lag som du alltid haft?"
+    },
+    "2": {
+      "label": "\"Visa dem för mig\"",
+      "tooltip": "(-) Tuff strid\n(+) Väldigt bra belöningar",
+      "selected": "Du känner hur ditt medvetande\nsjunker in i en kylig dröm.",
+      "selected2": "@f{150}När du kvicknar till står du inför\nen främmande men ändå bekant skepnad…"
+    },
+    "3": {
+      "label": "Fly",
+      "tooltip": "(-) Dina pokémon påverkas",
+      "selected": "Du sliter ditt sinne loss från\nett bedövande grepp och skyndar därifrån.\n$När du till slut stannar för \natt samla dig kollar du ditt lag.\n$Av någon anledning har\nalla deras nivåer sjunkit!"
+    }
+  }
+}

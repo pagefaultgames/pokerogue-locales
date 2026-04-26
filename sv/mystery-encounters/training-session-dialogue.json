@@ -1,0 +1,33 @@
+{
+  "intro": "Du råkade på en samling av träningsutrustning och redskap.",
+  "title": "Frisk och satsig 24/7",
+  "description": "De här sakerna kan nog användas för att träna en i ditt lag! Du tränar en pokémon genom att @[TOOLTIP_TITLE]{besegra den i strid med resten av laget}.",
+  "query": "Hur vill du träna?",
+  "invalidSelection": "Denna pokémon kan inte strida!",
+  "option": {
+    "1": {
+      "label": "Lätt träningspass",
+      "tooltip": "(-) Lätt strid mot en pokémon i ditt lag\n(+) Förbättra permanent 2 slumpmässiga IV:n hos den",
+      "finished": "{{selectedPokemon}} återvänder, \ntrött men riktigt nöjd med sin insats! \n$Dess IV:n för {{stat1}} och {{stat2}} ökade!"
+    },
+    "2": {
+      "label": "Måttligt träningspass",
+      "tooltip": "(-) Måttlig strid mot en pokémon i ditt lag\n(+) Ändra permanent dess karaktärstyp",
+      "selectPrompt": "Välj en ny karaktärstyp\natt träna din pokémon till.",
+      "finished": "{{selectedPokemon}} återvänder, \ntrött men riktigt nöjd med sin insats! \n$Dess karaktärstyp ändrades till {{nature}}!"
+    },
+    "3": {
+      "label": "Intensivt träningspass",
+      "tooltip": "(-) Intensiv strid mot en pokémon i ditt lag\n(+) Ändra permanent dess särdrag",
+      "selectPrompt": "Välj ett nytt särdrag\natt träna din pokémon till.",
+      "finished": "{{selectedPokemon}} återvänder, \ntrött men riktigt nöjd med sin insats! \n$Dess särdrag ändrades till {{ability}}!"
+    },
+    "4": {
+      "label": "Gå din väg",
+      "tooltip": "(-) Ingen belöning",
+      "selected": "Du har inte tid att träna.\nDags att gå vidare."
+    },
+    "selected": "{{selectedPokemon}} rör sig \növer gläntan för att strida mot dig…"
+  },
+  "outro": "Ett lyckat träningspass!"
+}

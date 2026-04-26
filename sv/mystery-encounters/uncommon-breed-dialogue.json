@@ -1,0 +1,26 @@
+{
+  "intro": "Det där är ingen vanlig pokémon...!",
+  "title": "Av den rätta ullen",
+  "description": "Denna {{enemyPokemon}} ser egendomlig ut jämfört med andra av sitt slag. @[TOOLTIP_TITLE]{Kanske kan den en särskild teknik?} Du kan strida mot den och fånga den direkt, men det kan också finnas ett sätt att bli vän med den.",
+  "query": "Hur gör du?",
+  "option": {
+    "1": {
+      "label": "Strid",
+      "tooltip": "(-) Tuff strid\n(+) Stark fångbar motståndare",
+      "selected": "Du närmar dig \ndin motståndare utan fruktan.",
+      "statBoost": "{{enemyPokemon}}s särskilda anlag ökar dess förmågor!"
+    },
+    "2": {
+      "label": "Ge den mat",
+      "disabledTooltip": "Du behöver 4 bär för att välja detta.",
+      "tooltip": "(-) Ge 4 bär\n(+) {{enemyPokemon}} kommer gilla dig",
+      "selected": "Du kastar bären till {{enemyPokemon}};\nden äter dem glatt!\n${{enemyPokemon}} vill gå med i ditt lag!"
+    },
+    "3": {
+      "label": "Bli vän med den",
+      "disabledTooltip": "En av dina pokémon måste kunna särskilda tekniker för detta.",
+      "tooltip": "(+) {{option3PrimaryName}} utför {{option3PrimaryMove}}\n(+) The {{enemyPokemon}} kommer gilla dig",
+      "selected": "Din {{option3PrimaryName}} utför tekniken {{option3PrimaryMove}} för att charma {{enemyPokemon}}!${{enemyPokemon}} vill gå med i ditt lag!"
+    }
+  }
+}

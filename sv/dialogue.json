@@ -61,7 +61,586 @@
       "5": "Jag lärde mig från dig istället...! Du är otrolig, ju!",
       "6": "Meh, på allvar!? Jag förlorade...! Blir allvarligt talat deppig... Men du var så cool... på riktigt!",
       "6_female": "Meh, på allvar!? Jag förlorade...! Blir allvarligt talat deppig... Men du var så cool... på riktigt!",
-      "7": "Detta minne är av ingen nytta för mig. Raderar minne..."
+      "7": "Detta minne är av ingen nytta för mig. Raderar minne...",
+      "8": "Jag sa ju att du skulle det lite lugnt!! Men du var rätt cool ändå...!",
+      "8_female": "Jag sa ju att du skulle det lite lugnt!! Men du var rätt cool ändå...!",
+      "9": "Helt ärligt, börjar bli gött trött på å knega hela tin… Måste ju finnas nån lite goare grej å göra liksom."
+    }
+  },
+  "breeder": {
+    "encounter": {
+      "1": "Pokémon kan vara lydiga, envisa, själviska... Var och en är unik!",
+      "2": "Även om jag vart stökig å haft en kass uppväxt, så har jag ändå tagit hand om mina Pokémon, serru.",
+      "3": "Uppfostrar du dina pokémon väl? Man får inte skämma bort dem för mycket!"
+    },
+    "victory": {
+      "1": "Det är viktigt att vårda och träna varje pokémons unika egenskaper!",
+      "2": "Till skillnad från mig som kan va en riktig jäkel, så är mina pokémon schyssta ändå, va.",
+      "3": "För mycket beröm gör både pokémon och männsikor bortskämda."
+    },
+    "defeat": {
+      "1": "Man ska inte bli arg på sina pokémon, även om man förlorar.",
+      "2": "Rätt sjyssta pokémon ändå, va? Känns som jag e rätt grym på att ta hand om dem, trots allt.",
+      "3": "Hur mycket man än älskar sina pokémon \nmåste man tillrättavisa dem när de missköter sig."
+    }
+  },
+  "breederFemale": {
+    "encounter": {
+      "1": "Pokémon förråder en aldrig! De återgäldar all kärlek man ger dem.",
+      "2": "Vill du ha lite bra uppfödartips?",
+      "3": "Jag har uppfostrat mina superspeciella pokémon med en hemlighållen metod."
+    },
+    "victory": {
+      "1": "Blä. Det var inte såhär det skulle gå. Fick de fel näringsblandning?",
+      "2": "Hur kunde det här hända? Vad matar du dina pokémon!?",
+      "3": "Att jag förlorade visar att det här bara var tidsfördriv. Du sårade inte mig alls...!"
+    },
+    "defeat": {
+      "1": "Det här är bevis på mina pokémons kärlek!",
+      "2": "Tricket till att träna starka pokémon... är att fånga starka pokémon!",
+      "3": "Pokémon blir svaga eller starka beroende på hur man föder upp dem."
+    }
+  },
+  "fisherman": {
+    "encounter": {
+      "1": "Men for helvede! Du fick mig till o trassla fisklinan!\nNu blir det strid!\n",
+      "2": "Stick iväg! Du skrämmer alla pokémon!",
+      "3": "Få se om du kan fiska upp en seger!"
+    },
+    "victory": {
+      "1": "Äh, bara glöm det!",
+      "2": "Nästa gång blir det jag som trålar in vinsten!",
+      "3": "Gahhh! Jag underskattade strömmarna...!"
+    }
+  },
+  "fishermanFemale": {
+    "encounter": {
+      "1": "Wow! Jag fick tag i en riktig baddare!",
+      "2": "Linan är i, dags att hala in segern!",
+      "3": "Redo att ställa till med lite svall!"
+    },
+    "victory": {
+      "1": "Jäklar, du var ett större kap än jag trodde!",
+      "2": "Det blir jag som fiskar upp guldet nästa gång...",
+      "3": "Jag får slipa mina krokar inför min återkomst..."
+    }
+  },
+  "swimmer": {
+    "encounter": {
+      "1": "Kanonkula!!!",
+      "2": "Nu rider vi vågen mot vinsten!",
+      "3": "Redo att bli dyngsur?"
+    },
+    "victory": {
+      "1": "Helt dränkt!",
+      "2": "En förlustens ebb...",
+      "3": "Dags att simma mot land, verkar det som..."
+    }
+  },
+  "backpacker": {
+    "encounter": {
+      "1": "Två resenärer möts vid livets korsning...",
+      "2": "Få se om du kan hålla jämna steg med mig!",
+      "3": "Gör dig redo, äventyrare!",
+      "4": "Efter 20 år på jakt efter mig själv har jag mest gått vilse."
+    },
+    "victory": {
+      "1": "Jag snubblade till...",
+      "2": "Gud, jag känner mig helt vilse.",
+      "3": "Vilken återvändsgränd...",
+      "4": "Jag kommer inte ens ihåg var jag kom från..."
+    }
+  },
+  "aceTrainer": {
+    "encounter": {
+      "1": "Jag ser hur självsäker du är...",
+      "1_female": "Jag ser hur självsäker du är...",
+      "2": "Dina pokémon... Visa dem för mig...",
+      "3": "Att vara en proffstränare innebär \natt man ses som en stark person.",
+      "4": "Vet du vad som krävs för att bli en proffstränare?"
+    },
+    "victory": {
+      "1": "Ja... Du har bra pokémon...",
+      "2": "Vad i...!? Jag är ju ett stridsgeni!",
+      "3": "Det verkar dock vara du som är huvudpersonen!",
+      "3_female": "Det verkar dock vara du som är huvudpersonen!",
+      "4": "Okej, okej! Du har vad som krävs!",
+      "4_female": "Okej, okej! Du har vad som krävs!"
+    },
+    "defeat": {
+      "1": "Jag har dedikerat min kropp och själ till striderna!",
+      "2": "Allt enligt mina beräkningar... Inga överraskningar här.",
+      "3": "Och alla trodde att jag skulle fortsätta vara en svag, lättsårad person...",
+      "4": "Det är bara naturligt att jag vinner med min kraft. Det som är viktigt är hur graciöst jag kan strida."
+    }
+  },
+  "parasolLady": {
+    "encounter": {
+      "1": "Dags att beträda stridsfältet med elegans och klass!"
+    },
+    "victory": {
+      "1": "Min elegans kan inte sölas ner!"
+    }
+  },
+  "twins": {
+    "encounter": {
+      "1": "Är du redo för dubbeltrubbel!?",
+      "1_female": "Är du redo för dubbeltrubbel!?",
+      "2": "Två hjärtan, en strategi! Nu får du smaka på våran duodunder!",
+      "3": "Hihihi! Dags för en dubbel dos stryk!",
+      "3_female": "Hihihi! Dags för en dubbel dos stryk!"
+    },
+    "victory": {
+      "1": "Vi förlorade... men vi kommer aldrig förlora varandra!",
+      "2": "V-vår duodunder... gick under...",
+      "3": "Du kommer få igen för det här med dubb- fyrdubbelt så mycket stryk!"
+    },
+    "defeat": {
+      "1": "Tvillingar två-ever!",
+      "2": "Två hjärtan, en vinst!",
+      "3": "Jaaa! Nu är vi dubb- fyrdubbelt så glada!"
+    }
+  },
+  "cyclist": {
+    "encounter": {
+      "1": "Fortsätt cykla, cykla, cykla tills benen ramlar av. Det är cyklisternas motto!",
+      "2": "Jag vill ha en riktigt uppväxlad strid! Låter det bra!?",
+      "3": "En gång var jag som du... Sätet fullt med drömmar och hopp."
+    },
+    "victory": {
+      "1": "Mitt cyklande är evigt. En dag möts vi igen...",
+      "2": "Jag måste vara ute och cy- \nÄh, för enkelt.",
+      "3": "Att bara ha en dröm räcker inte till. Man måste trampa mot den varje dag!"
+    }
+  },
+  "blackBelt": {
+    "encounter": {
+      "1": "Jag beundrar ditt mod, utmanare, ty jag är han med den starkaste sparken i detta rike!  ",
+      "2": "Okej, vill du bli totalt mosad eller ska du agera slagpåse?",
+      "2_female": "Okej, vill du bli totalt mosad eller ska du agera slagpåse?"
+    },
+    "victory": {
+      "1": "Åh. Det är ju bara pokémon som slåss. Min starka spark var inte relevant alls.",
+      "2": "Bah. Om jag ändå skulle förlora kunde jag lika gärna ha blivit helt manglad. Tråååkigt!"
+    }
+  },
+  "battleGirl": {
+    "encounter": {
+      "1": "Ingen stress med att försöka impa mig! Det går bra att förlora också."
+    },
+    "victory": {
+      "1": "Jag sa ju att jag är svårimponerad! Jag är INTE så impad just nu!"
+    }
+  },
+  "hiker": {
+    "encounter": {
+      "1": "Min grandiosa embonpoint gör mig lika ståtlig som bergen jag bestiger!",
+      "2": "Jag ärvde denna grova benstomme från päronen... Jag är som en vandrande bergskedja!"
+    },
+    "victory": {
+      "1": "När det gäller BMI är jag i alla fall oslagen!",
+      "2": "Det räckte inte... Det räcker aldrig... Mitt kolesterolvärde räcker aldrig heller..."
+    }
+  },
+  "ranger": {
+    "encounter": {
+      "1": "När jag är mitt i naturen slutar allt det där andra att spela någon roll...",
+      "2": "Utan lite grönt och skönt runt mig tror jag att jag skulle få panik!"
+    },
+    "victory": {
+      "1": "Så länge jag är bland skog och mark är det helt okej att jag förlorar...",
+      "2": "Jämfört med det kvävande storstadslivet är en förlust inget att bry sig om, egentligen."
+    },
+    "defeat": {
+      "1": "Jag vann striden. Men segern bleknar inför naturens väldighet…",
+      "2": "Jag är säker på att det du känner inte är så farligt om man jämför med min ångest..."
+    }
+  },
+  "scientist": {
+    "encounter": {
+      "1": "Min forskning kommer leda denna värld in i en ålder av fred och lycka."
+    },
+    "victory": {
+      "1": "Jag är ett geni... Det var inte meningen att jag skulle förlora mot någon av ditt slag..."
+    }
+  },
+  "schoolKid": {
+    "encounter": {
+      "1": "Hehehe... Jag har full tilltro till mina beräkningar och analyser!",
+      "2": "Jag skaffar så mycket erfarenhet jag kan eftersom jag tänker bli en gymledare en dag!"
+    },
+    "victory": {
+      "1": "Näää... Beräkningar och analys kanske inte mäta sig med slumpen...",
+      "2": "Till och med jobbiga erfarenheter har sitt syfte... antar jag."
+    }
+  },
+  "artist": {
+    "encounter": {
+      "1": "Jag brukade vara avantgarde, à la mode, men nu är jag helt passé..."
+    },
+    "victory": {
+      "1": "Tiderna ändras, det gör även folkets värderingar. C'est la vie..."
+    }
+  },
+  "guitarist": {
+    "encounter": {
+      "1": "Är du redo att rocka loss?!"
+    },
+    "victory": {
+      "1": "Du kan slå ner mig men du kan aldrig tysta mina hjärtsträngar..."
+    }
+  },
+  "worker": {
+    "encounter": {
+      "1": "Man riskerar livet som en kroppsarbetare men man känner sig redigt uppfylld."
+    },
+    "victory": {
+      "1": "Är det inte poetiskt ändå att vi bygger hus och broar som står kvar i decennier?"
+    }
+  },
+  "workerFemale": {
+    "encounter": {
+      "1": "Folk tänker alltid fel om mig, jag är mycket mer av en känslomänniska än vad alla tror."
+    },
+    "victory": {
+      "1": "Jag vill verkligen inte bränna mig i solen så jag jobbar bara i skuggan."
+    },
+    "defeat": {
+      "1": "Mitt kropp och mitt sinne är inte alltid i synk..."
+    }
+  },
+  "workerDouble": {
+    "encounter": {
+      "1": "Jag ska visa att vi kan bryta dig! Vi får redigt med arbetsplatsförlagd träning, f'ståru!"
+    },
+    "victory": {
+      "1": "Hur sjutton kunde hände det här hända en muskelknutte som mig...?"
+    }
+  },
+  "snowWorker": {
+    "encounter": {
+      "1": "Det finns inga dåliga väder, bara dåliga kläder...\nDen som kom på det måste ha varit så smart!"
+    },
+    "victory": {
+      "1": "Tyvärr är jag själv inte så smart..."
+    },
+    "defeat": {
+      "1": "Jag har ett till smart tips: en eldtypattack på en nedfryst pokémon gör så att isen smälter!"
+    }
+  },
+  "snowWorkerDouble": {
+    "encounter": {
+      "1": "…$…B-b-beredd att s-slåss?"
+    },
+    "victory": {
+      "1": "…$…S-så k-k-kallt..."
+    },
+    "defeat": {
+      "1": "…$…V-v-vet du vad?\n…D-d-det är k-kallt här..."
+    }
+  },
+  "hexManiac": {
+    "encounter": {
+      "1": "Jag brukar bara lyssna på kuslig klassisk musik, \nmen om jag förlorar kanske jag får köra på rapp istället...",
+      "2": "För var tår som fälls ökar min kraft..."
+    },
+    "victory": {
+      "1": "Vi kan gå igenom taket, SPÖK-LIT!\nHemsöka hela haket, SPÖK-LIT!",
+      "2": "Nu blir jag kraftfullare. Mer förgrämelse gör mig bara starkare."
+    },
+    "defeat": {
+      "1": "I och för sig så kan rappare också vara spökansiktsmördare... Jag kanske får hitta en annan genre.",
+      "2": "Låt inte sorgen hindra dig. Utnyttja ilskan, bli okuvlig.",
+      "2_female": "Låt inte sorgen hindra dig. Utnyttja ilskan, bli okuvlig."
+    }
+  },
+  "psychic": {
+    "encounter": {
+      "1": "Hej! Fokus!!!"
+    },
+    "victory": {
+      "1": "Iiiaaa!!!"
+    }
+  },
+  "officer": {
+    "encounter": {
+      "1": "Lagens långa arm har kommit för att stoppa dig!",
+      "2": "Rättvisan har hunnit ikapp; här blir det stopp för dina hyss!"
+    },
+    "victory": {
+      "1": "Kortväxt som jag är nog min lagens arm lite för kort...",
+      "2": "Vänta lite, du är inte busen jag såg tidigare... Öh, förlåt."
+    }
+  },
+  "beauty": {
+    "encounter": {
+      "1": "Jag vill se denna strid som min sista strid någonsin... Imponera mig."
+    },
+    "victory": {
+      "1": "Gud vad roligt det var. Vi tar en till sista strid någonsin om ett tag!"
+    }
+  },
+  "baker": {
+    "encounter": {
+      "1": "Nu blir det andra bullar!",
+      "1_female": "Nu blir det andra bullar!"
+    },
+    "victory": {
+      "1": "Men för sjutton pepparkaksgubbar..."
+    }
+  },
+  "biker": {
+    "encounter": {
+      "1": "Nu blir det full rulle!! Håll i dig, snorunge!"
+    },
+    "victory": {
+      "1": "Vilken jäääkla krasch!"
+    }
+  },
+  "firebreather": {
+    "encounter": {
+      "1": "Mina flammor kommer sluka dig med hull och hår!",
+      "2": "Själen min brinner starkare än skärseld! Låt mig visa dig!",
+      "3": "Kliv fram, kliv fram, gott folk! Nu blir det show!"
+    },
+    "victory": {
+      "1": "Flammor slukade allt mitt hår istället...",
+      "2": "Ajjj! Själen bränns ju!",
+      "3": "Vilken flammande flopp...!"
+    }
+  },
+  "sailor": {
+    "encounter": {
+      "1": "Hörru, landkrabban! Torskar du blir'e plankan!",
+      "2": "Kom an! Min sjömansheder står på spel!",
+      "3": "Ohoj! Er'u sjösjuk än?",
+      "3_female": "Ohoj! Er'u sjösjuk än?"
+    },
+    "victory": {
+      "1": "Helt kölhalad!",
+      "2": "Hedern föll i plurret...",
+      "3": "Urk... örk... Om du ursäktar mig lite..."
+    }
+  },
+  "clerk": {
+    "encounter": {
+      "1": "Lönessamtalet gick åt helsike... Får jag ta ut frustrationen på dig?",
+      "2": "Jag är längst ner på kedjan men en dag blir jag herre på täppan!",
+      "3": "Jag lever för att arbeta! Det är mitt livsöde!"
+    },
+    "victory": {
+      "1": "...Jag kanske inte förtjänar mer lön ändå.",
+      "2": "Jag får nog nöja mig med att bara nå halvvägs upp!",
+      "3": "Jag måste börja arbeta för att leva istället..."
+    }
+  },
+  "clerkFemale": {
+    "encounter": {
+      "1": "Jag har en strävan! En dag blir hela företaget mitt!!",
+      "2": "Ett företag med energi och synergi är ett företag som kommer vara länge!",
+      "3": "Alla är sååå snälla mot mig på jobbet! Det tar hand om mig varje dag."
+    },
+    "victory": {
+      "1": "Jag blev för fokuserad på min dröm, jag glömde leva i nuet...",
+      "2": "Oj, fikarasten är slut! Jag måste skynda mig tillbaka!",
+      "3": "Alla fixar allt åt mig!\n...Det blir lite tråkigt ibland!"
+    }
+  },
+  "hooligans": {
+    "encounter": {
+      "1": "Hörru! Nu ska du få lära dig ett och annat!",
+      "2": "Tjenamors, din lilla satunge! Gänget e' här!"
+    },
+    "victory": {
+      "1": "Vad i? Vad hände med vårt vapenbrödraskap!?",
+      "2": "Jag vill bara åka hem till mamma..."
+    }
+  },
+  "musician": {
+    "encounter": {
+      "1": "O min kampsång, eka högt!\nO mina pokémon, kämpa friskt!",
+      "2": "Lyssna på min sång!\nDet heter \"Kustlinjen\"!",
+      "3": "Kom på min konsert! Du får gratisbiljetter efter att jag vinner!",
+      "4": "Jag har en ljudlös gittar!"
+    },
+    "victory": {
+      "1": "O min heder, dö långsamt!",
+      "2": "Vill du höra en annan låt istället? Den heter \"Under väggen\"...",
+      "3": "Vill du komma på konserten ändå...? Det är inte dyrt..."
+    }
+  },
+  "pilot": {
+    "encounter": {
+      "1": "Turbulenta förhållanden rubbar inte mina pokémon! Jag är så stolt över dem.",
+      "2": "Strid förberedd, banan klar,\nredo för start!",
+      "3": "Hah, fångade dig! En pilots ögon är som Hawlucha-ögon, de ser allt från alla avstånd!",
+      "4": "Morsning! Jag klev upp tidigt för att träna mina pokémon, hoppas du är lika förberedd!",
+      "4_female": "Morsning! Jag klev upp tidigt för att träna mina pokémon, hoppas du är lika förberedd!"
+    },
+    "victory": {
+      "1": "Vilket högtryck från dina pokémon...!",
+      "2": "Vilken kraschlandning...",
+      "3": "Jag borde ha gått upp ännu tidigare...",
+      "4": "En ordentlig motvind idag..."
+    }
+  },
+  "pokefan": {
+    "encounter": {
+      "1": "Jag älskar mina pokémon över allt annat!",
+      "2": "Vår strid kommer bara att stärka banden mellan mig och mina pokémon!"
+    }
+  },
+  "archer": {
+    "encounter": {
+      "1": "Innan du går ett steg till ska vi se om kan stå upp mot Team Rocket!",
+      "2": "Hejdukarna rapporterar att dina förmågor är goda. Vi får se om det är sant!",
+      "3": "Det är jag som är Archer, en av Team Rockets chefer. Jag visar ingen nåd mot verksamhetens fiender!"
+    },
+    "victory": {
+      "1": "Vilken fadäs...",
+      "2": "Min egna förmåga räckte inte ens till...",
+      "3": "F-förlåt mig, Giovanni... Att en simpel tränare kunde besegra mig...",
+      "3_female": "F-förlåt mig, Giovanni... Att en simpel tränare kunde besegra mig..."
+    }
+  },
+  "ariana": {
+    "encounter": {
+      "1": "Stopp där! Jag tänker inte låta dig gå lös.\nDet vore en skam för Team Rocket!",
+      "2": "Jag varken vet eller bryr mig om det är rätt eller fel…\nGiovanni leder, jag lyder.",
+      "3": "Ditt lilla äventyr tar slut här! Jag kommer sänka dig!"
+    },
+    "victory": {
+      "1": "Hmpf! Du är verkligen stark, vad synd. Du har styrkan att bli chef för Team Rocket du själv!",
+      "1_female": "Hmpf! Du är verkligen stark, vad synd. Du har styrkan att bli chef för Team Rocket du själv!",
+      "2": "Du... du sänkte mig...!",
+      "3": "NEEEJ! Det här är omöjligt! Trots att jag kämpade så starkt...!!"
+    }
+  },
+  "proton": {
+    "encounter": {
+      "1": "Stopp! Det är jag som kallas Team Rockets fästning!\nIngen passerar mig!",
+      "2": "De kallar mig Team Rockets grymhet, förkroppsligad.\nJag uppmanar dig starkt att inte lägga dig i våra affärer!",
+      "3": "Jag är Proton, en av Team Rockets chefer.\nJag är här för att sätta stopp för ditt intrång!"
+    },
+    "victory": {
+      "1": "Fästningen rasade...",
+      "2": "Du må ha vunnit... Men Team Rockets vrede växer bara starkare...",
+      "3": "Jag har fallit... Men jag kommer inte glömma detta!"
+    }
+  },
+  "petrel": {
+    "encounter": {
+      "1": "Mohahaha! Jag har väntat på dig! Vem är jag? Känner du inte igen självaste Giovanni?$Det stämmer, Giovanni, i egen hög person! Mohaha! Va? Låter jag inte som honom.$Jag ser inte ens ut som honom!? Hurså? Jag har jobbat så hårt med att härma honom!",
+      "2": "Du tänker inte låta dig sabotera våra planer!",
+      "3": "Jag är Petrel, ansvarig för att avlägsna alla inkräktare! "
+    },
+    "victory": {
+      "1": "Okej, okej! Jag säger väl var bossen är...",
+      "2": "Jag... jag kunde inte göra något... Giovanni, förlåt mig...",
+      "3": "Nej... det här får inte påverka mig. Jag måste informera de andra..."
+    }
+  },
+  "tabitha": {
+    "encounter": {
+      "1": "Hihihi! Så du har nått ända hit! Men alldeles för sent!",
+      "2": "Hihihi... Är du redan här? Vi underskattade dig! Men här tar det slut!$Jag är långt över de hejdukar du stött på. Inget tidsspill här! Jag kommer mosa dig!",
+      "3": "Hihihi! Du ska få avnjuta smaken av smärta! Förlik dig med den!"
+    },
+    "victory": {
+      "1": "Hihihi! Du slog mig men du har ingen chans mot bossen!\nStick nu, så slipper du bli ordenligt nerspöad!",
+      "2": "Hihihi... Till och med jag förlorade...",
+      "3": "Iiihihi! Hur kunde detta ske? En storchef som jag, spöad av nån godtycklig tränare?!",
+      "3_female": "Iiihihi! Hur kunde detta ske? En storchef som jag, spöad av nån godtycklig tränare?!"
+    }
+  },
+  "courtney": {
+    "encounter": {
+      "1": "Stå. Inte. I. Min. Väg.",
+      "2": "Dig... vill jag... analysera. AhahahA♪",
+      "3": "... Nåväl.\n... Raderar nu."
+    },
+    "victory": {
+      "1": "Hah hah… Öhn…hah hah…",
+      "2": "...Som väntat ...oväntad.\nMitt radarsikte... är på dig...$\nInitierar... experiment... på dig...\nNu... och för alltid...  AhahA♪",
+      "3": "Än en gång... oväntat. Jag visste...\natt du... skulle vara... fascinerande.  HahA♪"
+    }
+  },
+  "shelly": {
+    "encounter": {
+      "1": "Ohohoho! Du vågar blanda dig i Team Aquas planer?$Du är antingen dumdristig... eller bara dum i huvudet!$Du är så rar att jag mår illa. Du måste dräpas!",
+      "2": "Vad i hela...? Vad är det här för sjåpigt litet yngel?",
+      "3": "Simma lugnt, chilla lite, jag krossar dig strax.",
+      "3_female": "Simma lugnt, chilla lite, jag krossar dig strax."
+    },
+    "victory": {
+      "1": "Ohohoho! Vilken käpp i vattenhjulet du är!\nVi får dra oss tillbaka...\n$Men det här är inte det sista du sett av Team Aqua!\nVi har fler planer, glöm inte bort det!",
+      "2": "Åhhh! \nJag borde ha tagit till med hårdhandskarna...",
+      "3": "Ohoho... du har blivit alldeles för stark.\nDu må vara ett yngel men du har lysande potential...!\n$Mina pokémon och jag är helt slut.\nStick bara, gå och låt Archie förinta dig...",
+      "3_female": "Ohoho... du har blivit alldeles för stark.\nDu må vara ett yngel men du har lysande potential...!\n$Mina pokémon och jag är helt slut.\nStick bara, gå och låt Archie förinta dig..."
+    }
+  },
+  "matt": {
+    "encounter": {
+      "1": "Hooah! Tills bossen har tid för dig så kommer jag vara din fiende!!",
+      "2": "Hooah! Full fart framåt som en jetmotor!\n$Kom an! Kom an! KOM AN!\nJag ska krama ur dig till sista droppen!",
+      "3": "Hooahhh! Jag ska smula dig sönder!"
+    },
+    "victory": {
+      "1": "Hoooahahaha! \nJag misslyckades! Men det var störtkul!",
+      "2": "Styrkan som forsar ur dig!\nJag kan KÄNNA den!\n$Jag längtar redan tills vår nästa strid,\nnär jag kommer att mala sönder dig!",
+      "2_female": "Styrkan som forsar ur dig!\nJag kan KÄNNA den!\n$Jag längtar redan tills vår nästa strid,\nnär jag kommer att mala sönder dig!",
+      "3": "Hooahaha! \nEn förlust som jag kan vara stolt över!",
+      "3_female": "Hooahaha! \nEn förlust som jag kan vara stolt över!"
+    }
+  },
+  "mars": {
+    "encounter": {
+      "1": "Jag är den utsökta, kraftfulla Mars, en av Team Galactics toppchefer!",
+      "2": "Team Galactics framtidsvision kan inte kuvas!\nAllt motstånd tillintentgörs utan nåd!",
+      "3": "Nervös?\nDet bör du vara!",
+      "3_female": "Nervös?\nDet bör du vara!"
+    },
+    "victory": {
+      "1": "Detta är oerhört!\nHur kunde jag förlora!?",
+      "2": "Vad ÄR detta!?\nHatar du mig så innerligt!?",
+      "3": "En förlust...!\nDin uppstudsiga lilla odåga!"
+    }
+  },
+  "saturn": {
+    "encounter": {
+      "1": "Uppdraget går som ett stjärnskott!\nBossen kommer bli riktigt nöjd.\nDet här är för Team Galactics... \noch mänsklighetens skull!",
+      "2": "Vårt uppdrag är kompromisslöst!\nAlla hinder måste krossas!",
+      "3": "Team Galactic tar ensamrätt på allt som är viktigt...\noch rensar bort allt onödigt!"
+    },
+    "victory": {
+      "1": "Du har kraft...!\nÄndå förbarmar jag mig över dig...",
+      "2": "Jag ser nu att du är stark...\nDärför vågar du opponera dig mot oss!",
+      "2_female": "Jag ser nu att du är stark...\nDärför vågar du opponera dig mot oss!",
+      "3": "Gah! \nAtt jag bara kunde slösa lite av din tid... \n$Nåväl! Vad du än gör kan du inte\nstoppa tiden som forsar skoningslöst vidare!"
+    }
+  },
+  "zinzolin": {
+    "encounter": {
+      "1": "Du har blivit en orosfaktor för Team Plasma.\nDärmed måste du elimineras här och nu!",
+      "1_female": "Du har blivit en orosfaktor för Team Plasma.\nDärmed måste du elimineras här och nu!",
+      "2": "Du har till synes ingen förmåga att resignera.\nLåt mig visa nåd genom att utplåna dig direkt!",
+      "3": "Du är tämligen imponerande som tränare\nom du har tagit dig ända hit. Men här tar det slut.",
+      "3_female": "Du är tämligen imponerande som tränare\nom du har tagit dig ända hit. Men här tar det slut."
+    },
+    "victory": {
+      "1": "Ghetsis... Jag har svikit dig...",
+      "2": "En känsla av köld. Jag fryser. Jag lider.\nLikväl ska vi segra i slutändan.",
+      "3": "Hm.\nEn oförväntat intelligent tränare...",
+      "3_female": "Hm.\nEn oförväntat intelligent tränare..."
+    }
+  },
+  "rocketGrunt": {
+    "encounter": {
+      "5": "Hey-san! Jag kommer hit fran Unova, den singel one i Team Rocket there från!",
+      "5_female": "Hey-san! Jag kommer hit fran Unova, den singel one i Team Rocket there från!"
+    },
+    "victory": {
+      "5": "Vad say-er du? Team Rocket har slutad? Är den over!?"
     }
   },
   "rival": {
@@ -74,7 +653,7 @@
   },
   "rivalFemale": {
     "encounter": {
-      "1": "@c{smile_wave}Men åh, där är du! Jag har letat precis överallt!\n@c{angry_mopen}Hur kunde du glömma säga hejdå till din bästis?$@c{smile_ehalf}Dags att jaga din dröm, alltså? Den dagen är verkligen här, eller hur…$@c{smile}Okej, jag förlåter dig för att du fetglömde mig... på ett villkor! @c{smile_wave_wink}Du måste fajtas med mig!$@c{angry_mopen}Kör hårt nu asså! Fett synd om äventyret tog slut dirr, eller hur?"
+      "1": "@c{smile_wave}Men åh, där är du! Jag har letat precis överallt!\n@c{angry_mopen}Hur kunde du glömma säga hejdå till din bästis?$@c{smile_ehalf}Du tänker jaga din dröm nu, alltså? Sjukt att den dagen verkligen kommit…$@c{smile}Okej, jag förlåter dig för att du fetglömde mig... på ett villkor! @c{smile_wave_wink}Du måste fajtas med mig!$@c{angry_mopen}Kör hårt nu asså! Fett synd om äventyret tog slut dirr, eller hur?"
     },
     "victory": {
       "1": "@c{shock}HUR kan du vara såhär stark när du precis satt igång!?@d{96}\n@c{angry}Jag svär, du fuskade loss...$@c{smile_wave_wink}Skojaaa!@d{64} @c{smile_eclosed}Jag förlorade helt och hållet... Jag känner på mig att du kommer klara dig riktigt långt!$@c{smile}Juste! Professorn ville att du skulle ha lite saker! Hoppas de hjälper!$@c{smile_wave}Kör riktigt jäkla hårt nu, som alltid! Tror på diiig!"
@@ -128,7 +707,7 @@
   },
   "rival4Female": {
     "encounter": {
-      "1": "@c{neutral}Här är lilla jag! Du glömde väl mig inte... igen?$@c{smile}Du ska vara stolt över hur långt du kommit. Grattis ju!\nMen jag tror att det här blir slutet på dina resa.$@c{smile_eclosed}Du? Du har väckt något inom mig som jag inte visste fanns. Allt jag gör nu är att träna.$@c{smile_ehalf}Jag äter knappt, sover inte... Tränar bara mina pokémon varje dag, och de blir bara starkare och starkare.$@c{neutral}Ärligt...? Jag vet inte vem jag är längre. $Och nu är jag här, mitt bästa jag. Ingen kan vinna mot mig nu.$Och vet du vad? Det är tack vare dig.\n@c{smile_ehalf}Jag vet inte om jag ska tacka dig eller hata dig.$@c{angry_mopen}Gör dig redo."
+      "1": "@c{neutral}Här är jag! Du glömde väl mig inte... igen?$@c{smile}Du ska vara stolt över hur långt du kommit. Grattis ju!\nMen det här blir nog slutet på din resa.$@c{smile_eclosed}Vet du? Du har väckt något inom mig som jag inte visste fanns. Allt jag gör nu är att träna.$@c{smile_ehalf}Jag äter knappt, sover inte... Tränar bara mina pokémon varje dag, och de blir bara starkare och starkare.$@c{neutral}Ärligt talat...? Jag vet inte ens vem jag är längre. $Och nu är jag här, som mitt bästa jag. Ingen kan vinna mot mig nu.$ Allt är på grund av dig.\n@c{smile_ehalf}Jag vet inte om jag ska tacka dig eller hata dig.$@c{angry_mopen}Gör dig redo."
     },
     "victory": {
       "1": "@c{neutral}Vad…@d{64} vad är du?"
@@ -166,7 +745,7 @@
   },
   "rival6Female": {
     "encounter": {
-      "1": "@c{smile_ehalf}Bara vi två igen.$@c{smile_eclosed}Vet du... Allt går bara runt, runt i mitt huvud.$@c{smile_ehalf}Det är något med allt det här, varför allt känns så knas nu...$@c{smile}Du har din dröm, och jag har det här drivet...$Det känns bara som att det finns någon högre mening med allt det här, med varför vi gör det här, du och jag.$@c{smile_eclosed}Jag tror mitt syfte är att pusha dig... till ditt yttersta.$@c{smile_ehalf}Jag vet inte om jag lyckats med det, men... jag gjorde mitt bästa.$Det är nåt med det här konstiga, hemska stället. Allt verkar så tydligt nu...$Det här... är det enda som den här världen har varit... i evigheter.$@c{smile_eclosed}Jag kan knappt minnas alla stunder vi tillbringat tillsammans.$@c{smile_ehalf}Hände de ens till att börja med? De känns så långt borta nu...$@c{angry_mopen}Du måste kämpa vidare. Om du inte gör det, så kommer det här aldrig ta slut. Du är den enda som kan klara det här.$@c{smile_ehalf}Jag... vet inte vad allt det här betyder... men jag vet att det är sant.$@c{neutral}Om du inte kan vinna mot mig här och nu, så har du ingen chans alls."
+      "1": "@c{smile_ehalf}Bara vi två igen.$@c{smile_eclosed}Allt går bara runt i mitt huvud.$@c{smile_ehalf}Det är nåt med allt det här, och varför allt känns så konstigt nu...$@c{smile}Du har din dröm, och jag har det här drivet...$Det känns som att det finns någon högre mening bakom varför vi gör det här, du och jag.$@c{smile_eclosed}Jag tror att mitt syfte är att pusha dig... till ditt yttersta.$@c{smile_ehalf}Jag vet inte om jag lyckats med det, men... jag gjorde mitt bästa.$Det är nåt med det här konstiga, hemska stället. Allt känns så tydligt nu...$Det här... är det enda som den här världen har varit. Sen länge.$@c{smile_eclosed}Jag minns knappt alla de stunder vi tillbringade när vi var små.$@c{smile_ehalf}Hände allt ens i första taget? Det känns så långt borta nu...$@c{angry_mopen}Du måste kämpa vidare. Om du inte gör det, så kommer det här aldrig ta slut. Du är den enda som kan klara av det här.$@c{smile_ehalf}Jag... vet inte vad allt det här betyder... men jag vet att det är sant.$@c{neutral}Om du inte kan vinna mot mig här och nu, så har du ingen chans alls."
     },
     "victory": {
       "1": "@c{smile_ehalf}Jag… jag tror att jag har uppfyllt mitt syfte…$@c{smile_eclosed}Lova mig bara... Efter att du har läkt världen... Snälll… kom hem oskadd.$@c{smile_ehalf}…Tack."
