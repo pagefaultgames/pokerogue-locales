@@ -469,6 +469,12 @@
       "3": "Vill du komma på konserten ändå...? Det är inte dyrt..."
     }
   },
+  "pilot": {
+    "encounter": {
+      "1": "Turbulenta förhållanden rubbar inte mina pokémon! Jag är så stolt över dem.",
+      "2": "Strid förberedd, banan klar,\nredo för start!"
+    }
+  },
   "archer": {
     "encounter": {
       "1": "Innan du går ett steg till ska vi se om kan stå upp mot Team Rocket!",
@@ -546,10 +552,80 @@
   },
   "shelly": {
     "encounter": {
-      "1": "Hahaha! Du vågar blanda dig i Team Aquas planer?$Du är antingen dumdristig... eller bara dum i huvudet!$Du är så rar att jag mår illa. Du måste dräpas!",
+      "1": "Ohohoho! Du vågar blanda dig i Team Aquas planer?$Du är antingen dumdristig... eller bara dum i huvudet!$Du är så rar att jag mår illa. Du måste dräpas!",
       "2": "Vad i hela...? Vad är det här för sjåpigt litet yngel?",
       "3": "Simma lugnt, chilla lite, jag krossar dig strax.",
       "3_female": "Simma lugnt, chilla lite, jag krossar dig strax."
+    },
+    "victory": {
+      "1": "Ohohoho! Vilken käpp i vattenhjulet du är!\nVi får dra oss tillbaka...\n$Men det här är inte det sista du sett av Team Aqua!\nVi har fler planer, glöm inte bort det!",
+      "2": "Åhhh! \nJag borde ha tagit till med hårdhandskarna...",
+      "3": "Ohoho... du har blivit alldeles för stark.\nDu må vara ett yngel men du har lysande potential...!\n$Mina pokémon och jag är helt slut.\nStick bara, gå och låt Archie förinta dig...",
+      "3_female": "Ohoho... du har blivit alldeles för stark.\nDu må vara ett yngel men du har lysande potential...!\n$Mina pokémon och jag är helt slut.\nStick bara, gå och låt Archie förinta dig..."
+    }
+  },
+  "matt": {
+    "encounter": {
+      "1": "Hooah! Tills bossen har tid för dig så kommer jag vara din fiende!!",
+      "2": "Hooah! Full fart framåt som en jetmotor!\n$Kom an! Kom an! KOM AN!\nJag ska krama ur dig till sista droppen!",
+      "3": "Hooahhh! Jag ska smula dig sönder!"
+    },
+    "victory": {
+      "1": "Hoooahahaha! \nJag misslyckades! Men det var störtkul!",
+      "2": "Styrkan som forsar ur dig!\nJag kan KÄNNA den!\n$Jag längtar redan tills vår nästa strid,\nnär jag kommer att mala sönder dig!",
+      "2_female": "Styrkan som forsar ur dig!\nJag kan KÄNNA den!\n$Jag längtar redan tills vår nästa strid,\nnär jag kommer att mala sönder dig!",
+      "3": "Hooahaha! \nEn förlust som jag kan vara stolt över!",
+      "3_female": "Hooahaha! \nEn förlust som jag kan vara stolt över!"
+    }
+  },
+  "mars": {
+    "encounter": {
+      "1": "Jag är den utsökta, kraftfulla Mars, en av Team Galactics toppchefer!",
+      "2": "Team Galactics framtidsvision kan inte kuvas!\nAllt motstånd tillintentgörs utan nåd!",
+      "3": "Nervös?\nDet bör du vara!",
+      "3_female": "Nervös?\nDet bör du vara!"
+    },
+    "victory": {
+      "1": "Detta är oerhört!\nHur kunde jag förlora!?",
+      "2": "Vad ÄR detta!?\nHatar du mig så innerligt!?",
+      "3": "En förlust...!\nDin uppstudsiga lilla odåga!"
+    }
+  },
+  "saturn": {
+    "encounter": {
+      "1": "Uppdraget går som ett stjärnskott!\nBossen kommer bli riktigt nöjd.\nDet här är för Team Galactics... \noch mänsklighetens skull!",
+      "2": "Vårt uppdrag är kompromisslöst!\nAlla hinder måste krossas!",
+      "3": "Team Galactic tar ensamrätt på allt som är viktigt...\noch rensar bort allt onödigt!"
+    },
+    "victory": {
+      "1": "Du har kraft...!\nÄndå förbarmar jag mig över dig...",
+      "2": "Jag ser nu att du är stark...\nDärför vågar du opponera dig mot oss!",
+      "2_female": "Jag ser nu att du är stark...\nDärför vågar du opponera dig mot oss!",
+      "3": "Gah! \nAtt jag bara kunde slösa lite av din tid... \n$Nåväl! Vad du än gör kan du inte\nstoppa tiden som forsar skoningslöst vidare!"
+    }
+  },
+  "zinzolin": {
+    "encounter": {
+      "1": "Du har blivit en orosfaktor för Team Plasma.\nDärmed måste du elimineras här och nu!",
+      "1_female": "Du har blivit en orosfaktor för Team Plasma.\nDärmed måste du elimineras här och nu!",
+      "2": "Du har till synes ingen förmåga att resignera.\nLåt mig visa nåd genom att utplåna dig direkt!",
+      "3": "Du är tämligen imponerande som tränare\nom du har tagit dig ända hit. Men här tar det slut.",
+      "3_female": "Du är tämligen imponerande som tränare\nom du har tagit dig ända hit. Men här tar det slut."
+    },
+    "victory": {
+      "1": "Ghetsis... Jag har svikit dig...",
+      "2": "En känsla av köld. Jag fryser. Jag lider.\nLikväl ska vi segra i slutändan.",
+      "3": "Hm.\nEn oförväntat intelligent tränare...",
+      "3_female": "Hm.\nEn oförväntat intelligent tränare..."
+    }
+  },
+  "rocketGrunt": {
+    "encounter": {
+      "5": "Hey-san! Jag kommer hit fran Unova, den singel one i Team Rocket there från!",
+      "5_female": "Hey-san! Jag kommer hit fran Unova, den singel one i Team Rocket there från!"
+    },
+    "victory": {
+      "5": "Vad say-er du? Team Rocket har slutad? Är den over!?"
     }
   },
   "rival": {
