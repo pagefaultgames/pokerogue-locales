@@ -3601,7 +3601,7 @@
   },
   "filletAway": {
     "name": "Fillet Away",
-    "effect": "The user sharply boosts its Attack, Sp. Atk, and Speed stats by using its own HP."
+    "effect": "The user loses ½ of its max HP to sharply boost its Attack, Sp. Atk, and Speed stats. This move fails if the user doesn't have enough remaining HP."
   },
   "kowtowCleave": {
     "name": "Kowtow Cleave",
@@ -3621,35 +3621,35 @@
   },
   "ragingBull": {
     "name": "Raging Bull",
-    "effect": "The user performs a tackle like a raging bull. This move’s type depends on the user’s form. It can also break barriers, such as Light Screen and Reflect."
+    "effect": "The user performs a tackle like a raging bull. It can also break barriers, such as Light Screen and Reflect. When used by Paldean Tauros, this move’s type changes depending on its form."
   },
   "makeItRain": {
     "name": "Make It Rain",
-    "effect": "The user attacks by throwing out a mass of coins. This also lowers the user’s Sp. Atk stat. Money is earned after the battle."
+    "effect": "The user attacks by throwing out a mass of coins. This also lowers the user’s Sp. Atk stat. If a target is successfully struck, you will earn money."
   },
   "psyblade": {
     "name": "Psyblade",
-    "effect": "The user rends the target with an ethereal blade. This move’s power is boosted by 50 percent if the user is on Electric Terrain."
+    "effect": "The user rends the target with an ethereal blade. This move’s power is boosted by 50% if the user is on Electric Terrain."
   },
   "hydroSteam": {
     "name": "Hydro Steam",
-    "effect": "The user blasts the target with boiling-hot water. This move’s power is not lowered in harsh sunlight but rather boosted by 50 percent."
+    "effect": "The user blasts the target with boiling-hot water. This move’s power is not lowered in harsh sunlight but rather boosted by 50%."
   },
   "ruination": {
     "name": "Ruination",
-    "effect": "The user summons a ruinous disaster. This cuts the target’s HP in half."
+    "effect": "The user summons a ruinous disaster. This deals damage to the target equal to ½ of their remaining HP."
   },
   "collisionCourse": {
     "name": "Collision Course",
-    "effect": "The user rushes forward and crashes to the ground, causing a massive prehistoric explosion. This move’s power is boosted more than usual if it’s a supereffective hit."
+    "effect": "The user rushes forward and crashes to the ground, causing a massive prehistoric explosion. This move’s power is boosted by 33% if it’s a supereffective hit."
   },
   "electroDrift": {
     "name": "Electro Drift",
-    "effect": "The user races forward at ultrafast speeds, piercing its target with futuristic electricity. This move’s power is boosted more than usual if it’s a supereffective hit."
+    "effect": "The user races forward at ultrafast speeds, piercing its target with futuristic electricity. This move’s power is boosted by 33% if it’s a supereffective hit."
   },
   "shedTail": {
     "name": "Shed Tail",
-    "effect": "The user creates a substitute for itself using its own HP before switching places with a party Pokémon in waiting."
+    "effect": "The user creates a substitute for itself using ½ of its max HP before switching places with a party Pokémon in waiting."
   },
   "chillyReception": {
     "name": "Chilly Reception",
@@ -3685,15 +3685,15 @@
   },
   "rageFist": {
     "name": "Rage Fist",
-    "effect": "The user converts its rage into energy to attack. The more times the user has been hit by attacks, the greater the move’s power."
+    "effect": "The user attacks by converting its rage into energy. This move’s power is increased by 50 each time the user is hit in battle, up to a max of 6 times."
   },
   "armorCannon": {
     "name": "Armor Cannon",
-    "effect": "The user shoots its own armor as blazing projectiles, leaving itself vulnerable afterwards. This also lowers the user’s Defense and Sp. Def stats."
+    "effect": "The user attacks by shooting off its own armor as blazing projectiles. This also lowers the user’s Defense and Sp. Def stats."
   },
   "bitterBlade": {
     "name": "Bitter Blade",
-    "effect": "The user focuses its bitter feelings toward the world of the living into a slashing attack. The user’s HP is restored by up to half the damage taken by the target."
+    "effect": "The user attacks by focusing all its bitter feelings toward this world into a slashing attack. The user’s HP is restored by ½ of the damage dealt by this move."
   },
   "doubleShock": {
     "name": "Double Shock",
@@ -3705,31 +3705,31 @@
   },
   "comeuppance": {
     "name": "Comeuppance",
-    "effect": "The user retaliates with much greater force against the opponent that last inflicted damage on it."
+    "effect": "The user retaliates to deal 150% of the damage it took from an opponent's move during the turn this move is used."
   },
   "aquaCutter": {
     "name": "Aqua Cutter",
-    "effect": "The user expels pressurized water to cut at the target like a blade. This move has a heightened chance of landing a critical hit."
+    "effect": "The user expels pressurized water to cut at the target like a blade. This move's critical-hit ratio is boosted by 1 stage."
   },
   "blazingTorque": {
     "name": "Blazing Torque",
-    "effect": "The user rams into the target with blazing energy. This may also leave the target with a burn."
+    "effect": "The user rams into the target with blazing energy. This has a 30% chance of burning the target."
   },
   "wickedTorque": {
     "name": "Wicked Torque",
-    "effect": "The user rams into the target with malicious intent. This may put the target to sleep."
+    "effect": "The user rams into the target with malicious intent. This has a 10% chance of putting the target to sleep."
   },
   "noxiousTorque": {
     "name": "Noxious Torque",
-    "effect": "The user rams into the target with a poisonous end. This may also poison the target."
+    "effect": "The user rams into the target with a poisonous end. This has a 30% chance of poisoning the target."
   },
   "combatTorque": {
     "name": "Combat Torque",
-    "effect": "The user rams into the target with great force. This may also leave the target with paralysis."
+    "effect": "The user rams into the target with great force. This has a 30% chance of paralyzing the target."
   },
   "magicalTorque": {
     "name": "Magical Torque",
-    "effect": "The user rams into the target with a fae-like force. This may also confuse the target."
+    "effect": "The user rams into the target with a fae-like force. This has a 30% chance of confusing the target."
   },
   "bloodMoon": {
     "name": "Blood Moon",
@@ -3737,7 +3737,7 @@
   },
   "matchaGotcha": {
     "name": "Matcha Gotcha",
-    "effect": "The user fires a blast of tea that it mixed. The user’s HP is restored by up to half the damage taken by the target. This may also leave the target with a burn."
+    "effect": "The user fires a blast of tea that it mixed. The user’s HP is restored by ½ of the damage dealt by this move, and has a 20% chance of burning targets."
   },
   "syrupBomb": {
     "name": "Syrup Bomb",
@@ -3745,7 +3745,7 @@
   },
   "ivyCudgel": {
     "name": "Ivy Cudgel",
-    "effect": "The user strikes with an ivy-wrapped cudgel. This move’s type changes depending on the mask worn by the user, and it has a heightened chance of landing a critical hit."
+    "effect": "The user strikes with an ivy-wrapped cudgel, this move's critical-hit ratio is boosted by 1 stage. When used by Ogerpon, this move’s type changes depending on the mask worn."
   },
   "electroShot": {
     "name": "Electro Shot",
@@ -3753,11 +3753,11 @@
   },
   "teraStarstorm": {
     "name": "Tera Starstorm",
-    "effect": "With the power of its crystals, the user bombards and eliminates the target. When used by Terapagos in its Stellar Form, this move damages all opposing Pokémon."
+    "effect": "With the power of its crystals, the user bombards and eliminates the target. When used by Terapagos in its Stellar Form, this move damages all opposing Pokémon. This move inflicts damage using the Attack or Sp. Atk stat—whichever is higher for the user when Terastallized."
   },
   "fickleBeam": {
     "name": "Fickle Beam",
-    "effect": "The user shoots a beam of light to inflict damage. Sometimes all the user’s heads shoot beams in unison, doubling the move’s power."
+    "effect": "The user shoots a beam of light to inflict damage. There is a 30% chance all the user’s heads will shoot beams in unison, doubling the move’s power."
   },
   "burningBulwark": {
     "name": "Burning Bulwark",
@@ -3777,11 +3777,11 @@
   },
   "hardPress": {
     "name": "Hard Press",
-    "effect": "The target is crushed with an arm, a claw, or the like to inflict damage. The more HP the target has left, the greater the move’s power."
+    "effect": "The target is crushed with an arm, a claw, or the like to inflict damage. The more HP the target has left, the greater the move’s power (ranging between 1 and 100)."
   },
   "dragonCheer": {
     "name": "Dragon Cheer",
-    "effect": "The user raises its allies’ morale with a draconic cry so that their future attacks have a heightened chance of landing critical hits. This rouses Dragon types more."
+    "effect": "The user raises its allies’ morale with a draconic cry so that their future attacks have a heightened chance of landing critical hits. Dragon types receive a 2-stage boost. All other types receive a 1-stage boost."
   },
   "alluringVoice": {
     "name": "Alluring Voice",
@@ -3793,7 +3793,7 @@
   },
   "supercellSlam": {
     "name": "Supercell Slam",
-    "effect": "The user electrifies its body and drops onto the target to inflict damage. If this move misses, the user takes damage instead."
+    "effect": "The user electrifies its body and drops onto the target to inflict damage. If this move misses, the user takes damage equal to ½ of its max HP. This move’s power is doubled and sure to hit against targets that have used Minimize."
   },
   "psychicNoise": {
     "name": "Psychic Noise",
@@ -3805,7 +3805,7 @@
   },
   "malignantChain": {
     "name": "Malignant Chain",
-    "effect": "The user pours toxins into the target by wrapping them in a toxic, corrosive chain. This may also leave the target badly poisoned."
+    "effect": "The user pours toxins into the target by wrapping them in a toxic, corrosive chain. This move has a 50% chance of badly poisoning the target."
   },
   "nihilLight": {
     "name": "Nihil Light",
