@@ -4,8 +4,14 @@
   "type": "Typ",
   "nature": "usposobienie",
   "expPoints": "PD",
+  "lv": "Pz.",
   "nextLv": "Następny Poziom za",
   "cancel": "Wróć",
+  "memoString": "{{natureFragment}} usposobienie,\n{{metFragment}}",
+  "metFragment": {
+    "normal": "spotkany na Pz. {{level}},\n{{biome}}, Fala {{wave}}.",
+    "apparently": "podobno napotkany na Pz. {{level}}\n{{biome}}"
+  },
   "natureFragment": {
     "hardy": "{{nature}}",
     "lonely": "{{nature}}",
