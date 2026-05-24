@@ -44,7 +44,7 @@
     },
     "PokemonNatureChangeModifierType": {
       "name": "{{natureName}} mynta",
-      "description": "Ändrar en pokémons karaktärstyp till [{{natureName}}] och den låses permanent upp för startaren."
+      "description": "Ändrar karaktärstyp till [{{natureName}}]; den låses permanent upp för startaren."
     },
     "DoubleBattleChanceBoosterModifierType": {
       "description": "Fyrdubblar sannolikheten för dubbelstrid under förloppet av max {{battleCount}} strider."
@@ -154,7 +154,7 @@
     },
     "MAP": {
       "name": "Karta",
-      "description": "Låter dig välja riktning vid vägskälen vid slutet av biomen."
+      "description": "Låter dig välja riktning vid vägskälen på slutet av biomen."
     },
     "POTION": {
       "name": "Hälsomedicin"
@@ -264,7 +264,7 @@
     },
     "LEEK": {
       "name": "Purjolök",
-      "description": "En lång, robust purjolök som ökar chansen för kritisk träff för en Farfetch'ds tekniker."
+      "description": "En lång, robust purjolök som ökar chansen för kritisk träff för en Farfetch’ds tekniker."
     },
     "EVIOLITE": {
       "name": "Evolit",
@@ -478,12 +478,12 @@
     }
   },
   "TempStatStageBoosterItem": {
-    "x_attack": "Attack Plus",
-    "x_defense": "Försvar Plus",
-    "x_sp_atk": "Sp.atk Plus",
-    "x_sp_def": "Sp.fsv Plus",
-    "x_speed": "Snabb Plus",
-    "x_accuracy": "Träff Plus"
+    "x_attack": "Attackerin",
+    "x_defense": "Försvararin",
+    "x_sp_atk": "SP Attackerin",
+    "x_sp_def": "SP Försvararin",
+    "x_speed": "Snabbarin",
+    "x_accuracy": "Träffsäkerin"
   },
   "AttackTypeBoosterItem": {
     "silk_scarf": "Silkessjal",
@@ -678,7 +678,7 @@
     "WELLSPRING_MASK": "Källans mask",
     "HEARTHFLAME_MASK": "Härdens mask",
     "CORNERSTONE_MASK": "Hörnstenens mask",
-    "SHOCK_DRIVE": "Blixtkassett",
+    "SHOCK_DRIVE": "Åskassett",
     "BURN_DRIVE": "Flamkassett",
     "CHILL_DRIVE": "Frostkassett",
     "DOUSE_DRIVE": "Akvakassett",
@@ -694,7 +694,7 @@
     "FLAME_PLATE": "Flamplatta",
     "SPLASH_PLATE": "Plaskplatta",
     "MEADOW_PLATE": "Ängplatta",
-    "ZAP_PLATE": "Blixtplatta",
+    "ZAP_PLATE": "Tordönplatta",
     "MIND_PLATE": "Sinnesplatta",
     "ICICLE_PLATE": "Glaciärplatta",
     "DRACO_PLATE": "Skräcködleplatta",

@@ -1,0 +1,850 @@
+{
+  "stench": {
+    "name": "Mùi Thối",
+    "description": "Bằng cách phát ra mùi hôi khi Pokémon gây sát thương bằng chiêu thức của nó, có 10% tỉ lệ mục tiêu sẽ bị giật mình. Không cộng dồn với kĩ năng hay vật phẩm có khả năng gây giật mình."
+  },
+  "drizzle": {
+    "name": "Mưa Phùn",
+    "description": "Triệu hồi cơn mưa trong 5 lượt khi Pokémon này tham trận đấu."
+  },
+  "speedBoost": {
+    "name": "Tăng Tốc",
+    "description": "Tăng chỉ số tốc độ của Pokémon khi kết thúc mỗi lượt."
+  },
+  "battleArmor": {
+    "name": "Giáp Chiến Đấu",
+    "description": "Lớp giáp cứng bảo vệ Pokémon khỏi những đòn đánh chí mạng."
+  },
+  "sturdy": {
+    "name": "Cứng Cỏi",
+    "description": "Nếu Pokémon có đầy đủ HP và bị trúng đòn tấn công có thể hạ gục nó chỉ trong một đòn, nó sẽ chịu đựng được đòn tấn công đó với 1 HP. Pokémon này cũng miễn nhiễm với các chiêu thức hạ gục tức thì."
+  },
+  "damp": {
+    "name": "Ẩm Ướt"
+  },
+  "limber": {
+    "name": "Linh Hoạt"
+  },
+  "sandVeil": {
+    "name": "Cát Ẩn Thân"
+  },
+  "static": {
+    "name": "Tĩnh Điện"
+  },
+  "voltAbsorb": {
+    "name": "Trữ Điện"
+  },
+  "waterAbsorb": {
+    "name": "Trữ Nước"
+  },
+  "oblivious": {
+    "name": "Ngờ Nghệch"
+  },
+  "cloudNine": {
+    "name": "Vô Hiệu Thời Tiết"
+  },
+  "compoundEyes": {
+    "name": "Mắt Kép"
+  },
+  "insomnia": {
+    "name": "Mất Ngủ"
+  },
+  "colorChange": {
+    "name": "Đổi Màu"
+  },
+  "immunity": {
+    "name": "Miễn Dịch"
+  },
+  "flashFire": {
+    "name": "Tiếp Lửa"
+  },
+  "shieldDust": {
+    "name": "Vảy Phấn"
+  },
+  "ownTempo": {
+    "name": "Nhịp Điệu Riêng"
+  },
+  "suctionCups": {
+    "name": "Giác Hút"
+  },
+  "intimidate": {
+    "name": "Hăm Dọa"
+  },
+  "shadowTag": {
+    "name": "Giẫm Bóng"
+  },
+  "roughSkin": {
+    "name": "Da Xù Xì"
+  },
+  "wonderGuard": {
+    "name": "Phòng Ngự Thần Kì"
+  },
+  "levitate": {
+    "name": "Lơ Lửng"
+  },
+  "effectSpore": {
+    "name": "Bào Tử"
+  },
+  "synchronize": {
+    "name": "Đồng Bộ"
+  },
+  "clearBody": {
+    "name": "Cơ Thể Trơn Láng"
+  },
+  "naturalCure": {
+    "name": "Hồi Phục Tự Nhiên"
+  },
+  "lightningRod": {
+    "name": "Cột Thu Lôi"
+  },
+  "sereneGrace": {
+    "name": "Thiên Ân"
+  },
+  "swiftSwim": {
+    "name": "Bơi Nhanh"
+  },
+  "chlorophyll": {
+    "name": "Diệp Lục"
+  },
+  "illuminate": {
+    "name": "Phát Quang"
+  },
+  "trace": {
+    "name": "Theo Dấu"
+  },
+  "hugePower": {
+    "name": "Đại Lực Sĩ"
+  },
+  "poisonPoint": {
+    "name": "Gai Độc"
+  },
+  "innerFocus": {
+    "name": "Sức Mạnh Ý Chí"
+  },
+  "magmaArmor": {
+    "name": "Giáp Mắc Ma"
+  },
+  "waterVeil": {
+    "name": "Màn Nước"
+  },
+  "magnetPull": {
+    "name": "Từ Tính"
+  },
+  "soundproof": {
+    "name": "Cách Âm"
+  },
+  "rainDish": {
+    "name": "Hứng Mưa"
+  },
+  "sandStream": {
+    "name": "Gọi Bão Cát"
+  },
+  "pressure": {
+    "name": "Tạo Áp Lực"
+  },
+  "thickFat": {
+    "name": "Mỡ Dày"
+  },
+  "earlyBird": {
+    "name": "Dậy Sớm"
+  },
+  "flameBody": {
+    "name": "Cơ Thể Bùng Cháy"
+  },
+  "runAway": {
+    "name": "Đào Tẩu"
+  },
+  "keenEye": {
+    "name": "Tinh Mắt"
+  },
+  "hyperCutter": {
+    "name": "Kềm Siêu Lực"
+  },
+  "pickup": {
+    "name": "Thu Nhặt"
+  },
+  "truant": {
+    "name": "Lười Biếng"
+  },
+  "hustle": {
+    "name": "Hăng Hái"
+  },
+  "cuteCharm": {
+    "name": "Bùa Mê Khả Ái"
+  },
+  "plus": {
+    "name": "Cực Dương"
+  },
+  "minus": {
+    "name": "Cực Âm"
+  },
+  "forecast": {
+    "name": "Dự Báo Thời Tiết"
+  },
+  "stickyHold": {
+    "name": "Bám Dính"
+  },
+  "shedSkin": {
+    "name": "Lột Da"
+  },
+  "guts": {
+    "name": "Ngoan Cường"
+  },
+  "marvelScale": {
+    "name": "Vảy Thần Kì"
+  },
+  "liquidOoze": {
+    "name": "Dịch Nhầy Độc"
+  },
+  "overgrow": {
+    "name": "Xanh Tươi"
+  },
+  "blaze": {
+    "name": "Rực Lửa"
+  },
+  "torrent": {
+    "name": "Nước Xiết"
+  },
+  "swarm": {
+    "name": "Bọ Cảnh Báo"
+  },
+  "rockHead": {
+    "name": "Đầu Đá"
+  },
+  "drought": {
+    "name": "Hạn Hán"
+  },
+  "arenaTrap": {
+    "name": "Bẫy Trận Địa"
+  },
+  "vitalSpirit": {
+    "name": "Hưng Phấn"
+  },
+  "whiteSmoke": {
+    "name": "Khói Trắng"
+  },
+  "purePower": {
+    "name": "Sức Mạnh Yoga"
+  },
+  "shellArmor": {
+    "name": "Giáp Vỏ Sò"
+  },
+  "airLock": {
+    "name": "Trấn Áp Khí Quyển"
+  },
+  "tangledFeet": {
+    "name": "Lảo Đảo"
+  },
+  "motorDrive": {
+    "name": "Động Cơ Điện"
+  },
+  "rivalry": {
+    "name": "Cạnh Tranh"
+  },
+  "steadfast": {
+    "name": "Trái Tim Bất Khuất"
+  },
+  "snowCloak": {
+    "name": "Tuyết Ẩn Thân"
+  },
+  "gluttony": {
+    "name": "Phàm Ăn"
+  },
+  "angerPoint": {
+    "name": "Huyệt Phẫn Nộ"
+  },
+  "unburden": {
+    "name": "Trút Gánh"
+  },
+  "heatproof": {
+    "name": "Cách Nhiệt"
+  },
+  "simple": {
+    "name": "Đơn Thuần"
+  },
+  "drySkin": {
+    "name": "Da Khô"
+  },
+  "download": {
+    "name": "Tải Dữ Liệu"
+  },
+  "ironFist": {
+    "name": "Nắm Đấm Sắt"
+  },
+  "poisonHeal": {
+    "name": "Độc Chữa Thương"
+  },
+  "adaptability": {
+    "name": "Thích Ứng"
+  },
+  "skillLink": {
+    "name": "Công Kích Liên Tục"
+  },
+  "hydration": {
+    "name": "Thủy Hóa"
+  },
+  "solarPower": {
+    "name": "Năng Lượng Mặt Trời"
+  },
+  "quickFeet": {
+    "name": "Nhanh Chân"
+  },
+  "normalize": {
+    "name": "Bình Thường Hóa"
+  },
+  "sniper": {
+    "name": "Xạ Thủ Bắn Tỉa"
+  },
+  "magicGuard": {
+    "name": "Phòng Vệ Ma Thuật"
+  },
+  "noGuard": {
+    "name": "Vô Hiệu Phòng Vệ"
+  },
+  "stall": {
+    "name": "Trễ Nải"
+  },
+  "technician": {
+    "name": "Kĩ Thuật Viên"
+  },
+  "leafGuard": {
+    "name": "Phòng Vệ Lá Cây"
+  },
+  "klutz": {
+    "name": "Vụng Về"
+  },
+  "moldBreaker": {
+    "name": "Phá Vỡ Khuôn Mẫu"
+  },
+  "superLuck": {
+    "name": "Siêu May Mắn"
+  },
+  "aftermath": {
+    "name": "Kích Nổ"
+  },
+  "anticipation": {
+    "name": "Dự Báo Nguy Hiểm"
+  },
+  "forewarn": {
+    "name": "Báo Mộng"
+  },
+  "unaware": {
+    "name": "Hồn Nhiên"
+  },
+  "tintedLens": {
+    "name": "Kính Sắc Màu"
+  },
+  "filter": {
+    "name": "Bộ Lọc"
+  },
+  "slowStart": {
+    "name": "Khởi Động Chậm"
+  },
+  "scrappy": {
+    "name": "Can Đảm"
+  },
+  "stormDrain": {
+    "name": "Dẫn Nước"
+  },
+  "iceBody": {
+    "name": "Cơ Thể Băng Giá"
+  },
+  "solidRock": {
+    "name": "Đá Rắn Chắc"
+  },
+  "snowWarning": {
+    "name": "Tuyết Rơi"
+  },
+  "honeyGather": {
+    "name": "Tìm Mật"
+  },
+  "frisk": {
+    "name": "Bắt Bài"
+  },
+  "reckless": {
+    "name": "Xả Thân"
+  },
+  "multitype": {
+    "name": "Đa Hệ"
+  },
+  "flowerGift": {
+    "name": "Quà Tặng Hoa Tươi"
+  },
+  "badDreams": {
+    "name": "Gieo Ác Mộng"
+  },
+  "pickpocket": {
+    "name": "Kẻ Móc Túi"
+  },
+  "sheerForce": {
+    "name": "Toàn Lực"
+  },
+  "contrary": {
+    "name": "Đảo Ngược"
+  },
+  "unnerve": {
+    "name": "Gây Căng Thẳng"
+  },
+  "defiant": {
+    "name": "Hiên Ngang"
+  },
+  "defeatist": {
+    "name": "Nhút Nhát"
+  },
+  "cursedBody": {
+    "name": "Cơ Thể Nguyền Rủa"
+  },
+  "healer": {
+    "name": "Trái Tim Trị Liệu"
+  },
+  "friendGuard": {
+    "name": "Phòng Vệ Bằng Hữu"
+  },
+  "weakArmor": {
+    "name": "Giáp Yếu"
+  },
+  "heavyMetal": {
+    "name": "Kim Loại Nặng"
+  },
+  "lightMetal": {
+    "name": "Kim Loại Nhẹ"
+  },
+  "telepathy": {
+    "name": "Thần Giao Cách Cảm"
+  },
+  "overcoat": {
+    "name": "Áo Khoác"
+  },
+  "poisonTouch": {
+    "name": "Độc Thủ"
+  },
+  "regenerator": {
+    "name": "Tái Sinh"
+  },
+  "bigPecks": {
+    "name": "Tấm Chắn Ngực"
+  },
+  "sandRush": {
+    "name": "Tay Chèo Cát"
+  },
+  "wonderSkin": {
+    "name": "Da Thần Kì"
+  },
+  "illusion": {
+    "name": "Ảo Ảnh"
+  },
+  "infiltrator": {
+    "name": "Xâm Nhập"
+  },
+  "mummy": {
+    "name": "Xác Ướp"
+  },
+  "moxie": {
+    "name": "Cao Ngạo"
+  },
+  "justified": {
+    "name": "Trái Tim Chính Nghĩa"
+  },
+  "rattled": {
+    "name": "Khiếp Sợ"
+  },
+  "magicBounce": {
+    "name": "Gương Ma Thuật"
+  },
+  "sapSipper": {
+    "name": "Ăn Cỏ"
+  },
+  "prankster": {
+    "name": "Phá Phách"
+  },
+  "sandForce": {
+    "name": "Lực Cát"
+  },
+  "ironBarbs": {
+    "name": "Gai Sắt"
+  },
+  "zenMode": {
+    "name": "Thể Lật Đật"
+  },
+  "victoryStar": {
+    "name": "Ngôi Sao Chiến Thắng"
+  },
+  "turboblaze": {
+    "name": "Tăng Áp Hỏa Thiêu"
+  },
+  "teravolt": {
+    "name": "Điện Thế Nghìn Tỉ"
+  },
+  "aromaVeil": {
+    "name": "Màn Hương Thơm"
+  },
+  "flowerVeil": {
+    "name": "Màn Hoa Tươi"
+  },
+  "cheekPouch": {
+    "name": "Túi Má"
+  },
+  "furCoat": {
+    "name": "Áo Khoác Lông"
+  },
+  "magician": {
+    "name": "Ảo Thuật Gia"
+  },
+  "bulletproof": {
+    "name": "Chống Đạn"
+  },
+  "competitive": {
+    "name": "Quyết Thắng"
+  },
+  "strongJaw": {
+    "name": "Hàm Khỏe"
+  },
+  "refrigerate": {
+    "name": "Đông Lạnh Hóa"
+  },
+  "sweetVeil": {
+    "name": "Màn Ngọt Ngào"
+  },
+  "stanceChange": {
+    "name": "Chuyển Đổi Tư Thế"
+  },
+  "megaLauncher": {
+    "name": "Bệ Phóng Siêu Cấp"
+  },
+  "toughClaws": {
+    "name": "Vuốt Cứng"
+  },
+  "pixilate": {
+    "name": "Thần Tiên Hóa"
+  },
+  "gooey": {
+    "name": "Nhớp Nháp"
+  },
+  "aerilate": {
+    "name": "Thiên Không Hóa"
+  },
+  "parentalBond": {
+    "name": "Tình Mẫu Tử"
+  },
+  "darkAura": {
+    "name": "Linh Khí Hắc Ám"
+  },
+  "fairyAura": {
+    "name": "Linh Khí Thần Tiên"
+  },
+  "auraBreak": {
+    "name": "Phá Vỡ Linh Khí"
+  },
+  "primordialSea": {
+    "name": "Vùng Biển Ban Sơ"
+  },
+  "desolateLand": {
+    "name": "Vùng Đất Tận Cùng"
+  },
+  "deltaStream": {
+    "name": "Luồng Gió Delta"
+  },
+  "stamina": {
+    "name": "Sức Bền"
+  },
+  "wimpOut": {
+    "name": "Lẩn Tránh"
+  },
+  "emergencyExit": {
+    "name": "Thoát Hiểm"
+  },
+  "waterCompaction": {
+    "name": "Nước Nén"
+  },
+  "merciless": {
+    "name": "Tàn Nhẫn"
+  },
+  "shieldsDown": {
+    "name": "Khiên Chắn Tạm Thời"
+  },
+  "stakeout": {
+    "name": "Mai Phục"
+  },
+  "waterBubble": {
+    "name": "Bong Bóng Nước"
+  },
+  "steelworker": {
+    "name": "Dụng Thép"
+  },
+  "berserk": {
+    "name": "Hóa Điên"
+  },
+  "slushRush": {
+    "name": "Bới Tuyết"
+  },
+  "triage": {
+    "name": "Ưu Tiên Trị Liệu"
+  },
+  "surgeSurfer": {
+    "name": "Đuôi Lướt Ván"
+  },
+  "schooling": {
+    "name": "Cá Gọi Đàn"
+  },
+  "disguise": {
+    "name": "Cải Trang"
+  },
+  "powerConstruct": {
+    "name": "Kiến tạo = Construct Sức mạnh = Power"
+  },
+  "corrosion": {
+    "name": "Ăn Mòn"
+  },
+  "comatose": {
+    "name": "Hôn Mê"
+  },
+  "queenlyMajesty": {
+    "name": "Uy Quyền Nữ Vương"
+  },
+  "innardsOut": {
+    "name": "Lộn Ruột"
+  },
+  "dancer": {
+    "name": "Vũ Công"
+  },
+  "battery": {
+    "name": "Pin Sạc"
+  },
+  "fluffy": {
+    "name": "Lông Xốp"
+  },
+  "dazzling": {
+    "name": "Chói Lọi"
+  },
+  "soulHeart": {
+    "name": "Tâm Hồn"
+  },
+  "tanglingHair": {
+    "name": "Tóc Xoăn"
+  },
+  "receiver": {
+    "name": "Tiếp Nhận"
+  },
+  "beastBoost": {
+    "name": "Khuếch Đại Quái Thú"
+  },
+  "rksSystem": {
+    "name": "Hệ Thống RKS"
+  },
+  "electricSurge": {
+    "name": "Lan Trào Điện Tích"
+  },
+  "psychicSurge": {
+    "name": "Lan Trào Tâm Linh"
+  },
+  "mistySurge": {
+    "name": "Lan Trào Sương Mù"
+  },
+  "grassySurge": {
+    "name": "Lan Trào Thảo Mộc"
+  },
+  "fullMetalBody": {
+    "name": "Bảo Hộ Kim Loại"
+  },
+  "shadowShield": {
+    "name": "Phòng Vệ Bóng Ma"
+  },
+  "prismArmor": {
+    "name": "Giáp Lăng Kính"
+  },
+  "neuroforce": {
+    "name": "Thần Lực Não Bộ"
+  },
+  "intrepidSword": {
+    "name": "Lưỡi Kiếm Kiên Cường"
+  },
+  "dauntlessShield": {
+    "name": "Tấm Khiên Bất Khuất"
+  },
+  "ballFetch": {
+    "name": "Nhặt Bóng"
+  },
+  "cottonDown": {
+    "name": "Lông Tơ"
+  },
+  "gulpMissile": {
+    "name": "Tên Lửa Nuốt Chửng"
+  },
+  "steamEngine": {
+    "name": "Động Cơ Hơi Nước"
+  },
+  "punkRock": {
+    "name": "Punk Rock"
+  },
+  "sandSpit": {
+    "name": "Phun Cát"
+  },
+  "ripen": {
+    "name": "Thành Thục"
+  },
+  "iceFace": {
+    "name": "Khuôn Mặt Băng"
+  },
+  "powerSpot": {
+    "name": "Điểm Sức Mạnh"
+  },
+  "mimicry": {
+    "name": "Bắt Chước"
+  },
+  "screenCleaner": {
+    "name": "Không Rào Chắn"
+  },
+  "wanderingSpirit": {
+    "name": "Vong Hồn Lang Thang"
+  },
+  "gorillaTactics": {
+    "name": "Hoang Mang"
+  },
+  "neutralizingGas": {
+    "name": "Khí Ga Biến Hóa"
+  },
+  "pastelVeil": {
+    "name": "Bức Màn Màu Phấn"
+  },
+  "hungerSwitch": {
+    "name": "Kích Hoạt Cơn Đói"
+  },
+  "quickDraw": {
+    "name": "Tấn Công Chớp Nhoáng"
+  },
+  "unseenFist": {
+    "name": "Nắm Đấm Vô Hình"
+  },
+  "curiousMedicine": {
+    "name": "Thuốc Kỳ Diệu"
+  },
+  "transistor": {
+    "name": "Transistor"
+  },
+  "dragonsMaw": {
+    "name": "Hàm Rồng"
+  },
+  "chillingNeigh": {
+    "name": "Tiếng Hí Trắng"
+  },
+  "grimNeigh": {
+    "name": "Tiếng Hí Đen"
+  },
+  "asOneGlastrier": {
+    "name": "Nhân Mã Nhất Thể"
+  },
+  "asOneSpectrier": {
+    "name": "Nhân Mã Nhất Thể"
+  },
+  "lingeringAroma": {
+    "name": "Mùi Hương Không Phai"
+  },
+  "seedSower": {
+    "name": "Gieo Hạt"
+  },
+  "thermalExchange": {
+    "name": "Trao Đổi Nhiệt"
+  },
+  "angerShell": {
+    "name": "Chiếc Vỏ Nổi Giận"
+  },
+  "purifyingSalt": {
+    "name": "Muối Thanh Tẩy"
+  },
+  "wellBakedBody": {
+    "name": "Cơ Thể Chín Kỹ"
+  },
+  "windRider": {
+    "name": "Cưỡi Gió"
+  },
+  "guardDog": {
+    "name": "Chó Canh"
+  },
+  "windPower": {
+    "name": "Điện Khí Gió"
+  },
+  "zeroToHero": {
+    "name": "Thay Đổi Thần Thánh"
+  },
+  "commander": {
+    "name": "Chỉ Huy"
+  },
+  "electromorphosis": {
+    "name": "Biến Đổi Điện Lực"
+  },
+  "protosynthesis": {
+    "name": "Hoạt Tính Cổ Đại"
+  },
+  "quarkDrive": {
+    "name": "Động Cơ Quark"
+  },
+  "goodAsGold": {
+    "name": "Cơ Thể Hoàng Kim"
+  },
+  "vesselOfRuin": {
+    "name": "Công Cụ Thảm Họa"
+  },
+  "swordOfRuin": {
+    "name": "Thanh Kiếm Thảm Họa"
+  },
+  "tabletsOfRuin": {
+    "name": "Bùa Thảm Họa"
+  },
+  "beadsOfRuin": {
+    "name": "Chuỗi Hạt Thảm Họa"
+  },
+  "orichalcumPulse": {
+    "name": "Nhịp Đập Phi Hồng"
+  },
+  "hadronEngine": {
+    "name": "Động Cơ Hadron"
+  },
+  "opportunist": {
+    "name": "Thừa Cơ"
+  },
+  "cudChew": {
+    "name": "Nhai Lại"
+  },
+  "sharpness": {
+    "name": "Sắc Bén"
+  },
+  "supremeOverlord": {
+    "name": "Tổng Đại Tướng"
+  },
+  "toxicDebris": {
+    "name": "Đất Nhiễm Độc"
+  },
+  "armorTail": {
+    "name": "Giáp Đuôi"
+  },
+  "earthEater": {
+    "name": "Ăn Đất"
+  },
+  "myceliumMight": {
+    "name": "Sức Mạnh Vi Khuẩn"
+  },
+  "mindsEye": {
+    "name": "Tâm Nhãn"
+  },
+  "supersweetSyrup": {
+    "name": "Mật Ngọt Lịm"
+  },
+  "hospitality": {
+    "name": "Hiếu Khách"
+  },
+  "toxicChain": {
+    "name": "Xích Độc"
+  },
+  "teraShift": {
+    "name": "Thay Đổi Bậc Thang"
+  },
+  "teraShell": {
+    "name": "Vỏ Bậc Thang"
+  },
+  "teraformZero": {
+    "name": "Hình Thành Zero"
+  },
+  "poisonPuppeteer": {
+    "name": "Con Rối Độc"
+  }
+}
