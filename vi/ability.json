@@ -95,7 +95,346 @@
   "sereneGrace": {
     "description": "Tăng gấp đôi khả năng các hiệu ứng thêm xảy ra khi Pokémon sử dụng chiêu thức. Kỹ năng này không ảnh hưởng đến vật phẩm."
   },
+  "swiftSwim": {
+    "description": "Tăng gấp đôi chỉ số Speed của Pokémon trong thời tiết MƯA."
+  },
+  "chlorophyll": {
+    "description": "Tăng gấp đôi chỉ số Speed của Pokémon trong thời tiết NẮNG."
+  },
+  "illuminate": {
+    "description": "Bằng cách chiếu sáng môi trường xung quanh, Pokémon này bỏ qua những thay đổi về khả năng né tránh của mục tiêu và độ chính xác của nó không thể bị giảm. Nếu Pokémon này đứng đầu trong đội hình, nó sẽ làm tăng khả năng xảy ra các trận đấu đôi."
+  },
   "trace": {
     "description": "Khi Pokémon này vào trận, nó sẽ sao chép Đặc Tính của đối phương."
+  },
+  "hugePower": {
+    "description": "Tăng gấp đôi sức mạnh các chiêu thức vật lý của Pokémon."
+  },
+  "poisonPoint": {
+    "description": "Khi Pokémon bị trúng đòn tấn công tiếp xúc, kẻ tấn công có 30% khả năng bị nhiễm độc."
+  },
+  "innerFocus": {
+    "description": "Sự tập trung cao độ của Pokémon này giúp nó không hề nao núng khi bị tấn công và không bị ảnh hưởng bởi khả năng Intimidate."
+  },
+  "magmaArmor": {
+    "description": "Lớp vỏ dung nham nóng chảy bao phủ Pokémon này giúp nó không bị đóng băng."
+  },
+  "waterVeil": {
+    "description": "Lớp màng nước bao phủ Pokémon giúp nó tránh bị bỏng."
+  },
+  "magnetPull": {
+    "description": "Ngăn chặn Pokémon hệ Thép bỏ chạy bằng cách hút chúng lại gần bằng từ tính."
+  },
+  "soundproof": {
+    "description": "Khả năng cách âm giúp Pokémon này hoàn toàn miễn nhiễm với mọi chiêu thức dựa trên âm thanh."
+  },
+  "rainDish": {
+    "description": "Pokémon này được hồi phục ¹⁄₁₆ lượng HP tối đa vào cuối mỗi lượt khi trời MƯA"
+  },
+  "sandStream": {
+    "description": "Triệu hồi bão cát trong 5 lượt khi Pokémon này tham trận đấu."
+  },
+  "pressure": {
+    "description": "Gây áp lực lên Pokémon đối phương, khiến chúng phải tiêu tốn thêm 1 điểm PP khi sử dụng chiêu thức chống lại Pokémon này."
+  },
+  "thickFat": {
+    "description": "Pokémon này được bảo vệ bởi một lớp mỡ dày, giúp giảm một nửa sát thương mà nó phải chịu từ các chiêu thức hệ Lửa và Băng."
+  },
+  "earlyBird": {
+    "description": "Pokémon này tỉnh giấc nhanh gấp đôi so với các Pokémon khác."
+  },
+  "flameBody": {
+    "description": "Khi Pokémon bị trúng đòn tấn công tiếp xúc, kẻ tấn công có 30% khả năng bị bỏng."
+  },
+  "runAway": {
+    "description": "Giúp thoát khỏi Pokémon hoang dã một cách chắc chắn."
+  },
+  "keenEye": {
+    "description": "Đôi mắt tinh tường của Pokémon này bỏ qua những thay đổi về khả năng né tránh của mục tiêu và độ chính xác của nó không thể bị giảm."
+  },
+  "hyperCutter": {
+    "description": "Cặp càng mạnh mẽ và quý giá của Pokémon này ngăn chặn các chiêu thức hoặc khả năng của Pokémon khác làm giảm chỉ số Tấn công của nó."
+  },
+  "pickup": {
+    "description": "Pokémon có thể nhặt vật phẩm mà Pokémon khác đã sử dụng trong trận chiến, ngay cả khi nó không tham gia vào trận chiến."
+  },
+  "truant": {
+    "description": "Mỗi lần Pokémon sử dụng một chiêu thức, nó sẽ dành lượt tiếp theo để thư giãn."
+  },
+  "hustle": {
+    "description": "Khi Pokémon sử dụng các chiêu thức vật lý, chỉ số Tấn công của nó được tăng 50%, nhưng độ chính xác lại giảm 20%."
+  },
+  "cuteCharm": {
+    "description": "Khi Pokémon bị trúng đòn tấn công tiếp xúc, kẻ tấn công có 30% khả năng bị mê hoặc nếu kẻ tấn công và Pokémon khác giới."
+  },
+  "plus": {
+    "description": "Chỉ số Tấn công đặc biệt (Sp. Atk) của Pokémon được tăng 50% nếu có đồng minh sở hữu Khả năng Cộng hoặc Trừ tham gia trận chiến."
+  },
+  "minus": {
+    "description": "Chỉ số Tấn công đặc biệt (Sp. Atk) của Pokémon được tăng 50% nếu có đồng minh sở hữu Khả năng Cộng hoặc Trừ tham gia trận chiến."
+  },
+  "forecast": {
+    "description": "Pokémon này biến đổi theo thời tiết để thay đổi hệ thành Nước, Lửa hoặc Băng."
+  },
+  "stickyHold": {
+    "description": "Các vật phẩm mà Pokémon này mang theo sẽ bám chặt vào cơ thể dính của nó và không thể bị Pokémon khác đánh cắp hoặc lấy đi."
+  },
+  "shedSkin": {
+    "description": "Pokémon này có 30% cơ hội tự chữa khỏi các trạng thái bất lợi của mình vào cuối mỗi lượt bằng cách lột da."
+  },
+  "guts": {
+    "description": "Pokémon này rất gan dạ, khi bị ảnh hưởng bởi trạng thái bất lợi, chỉ số Tấn công của nó được tăng 50%. Bị bỏng không làm giảm một nửa sát thương gây ra bởi các chiêu thức vật lý của Pokémon này."
+  },
+  "marvelScale": {
+    "description": "Khi Pokémon bị ảnh hưởng bởi trạng thái bất lợi, lớp vảy tuyệt đẹp của nó sẽ tăng chỉ số Phòng thủ lên 50%."
+  },
+  "liquidOoze": {
+    "description": "Mùi hôi nồng nặc từ chất dịch rỉ ra của Pokémon này gây sát thương cho những kẻ tấn công sử dụng các chiêu thức hút máu thay vì hồi phục máu."
+  },
+  "overgrow": {
+    "description": "Tăng sức mạnh của các chiêu thức hệ Cỏ của Pokémon lên 50% khi HP của nó giảm xuống còn ⅓ hoặc ít hơn so với mức tối đa."
+  },
+  "blaze": {
+    "description": "Tăng sức mạnh của các chiêu thức hệ Lửa của Pokémon lên 50% khi HP của nó giảm xuống còn ⅓ hoặc ít hơn so với mức tối đa."
+  },
+  "torrent": {
+    "description": "Tăng sức mạnh của các chiêu thức hệ Nước của Pokémon lên 50% khi HP của nó giảm xuống còn ⅓ hoặc ít hơn so với mức tối đa."
+  },
+  "swarm": {
+    "description": "Tăng sức mạnh của các chiêu thức hệ Côn trùng của Pokémon lên 50% khi HP của nó giảm xuống còn ⅓ hoặc ít hơn so với mức tối đa."
+  },
+  "rockHead": {
+    "description": "Pokémon này sẽ không bị mất HP do sát thương phản hồi từ các chiêu thức của nó."
+  },
+  "drought": {
+    "description": "Triệu hồi ánh nắng gay gắt trong 5 lượt khi Pokémon này bước vào trận chiến."
+  },
+  "arenaTrap": {
+    "description": "Ngăn chặn Pokémon đối phương bỏ chạy khỏi trận chiến. Nếu Pokémon này là Pokémon dẫn đầu của bạn trong trận chiến, nó sẽ làm tăng khả năng xảy ra trận đấu đôi."
+  },
+  "vitalSpirit": {
+    "description": "Pokémon này tràn đầy sức sống, điều đó giúp nó không bị buồn ngủ hay ngủ gục."
+  },
+  "whiteSmoke": {
+    "description": "Pokémon này được bảo vệ bởi làn khói trắng, giúp ngăn chặn việc chỉ số của nó bị giảm bởi các chiêu thức hoặc khả năng của Pokémon khác."
+  },
+  "purePower": {
+    "description": "Nhờ sức mạnh thuần túy, Pokémon này tăng gấp đôi sức mạnh của các đòn tấn công vật lý."
+  },
+  "shellArmor": {
+    "description": "Lớp vỏ cứng bảo vệ Pokémon khỏi những đòn tấn công chí mạng."
+  },
+  "airLock": {
+    "description": "Loại bỏ ảnh hưởng của thời tiết."
+  },
+  "tangledFeet": {
+    "description": "Tăng gấp đôi khả năng né tránh của Pokémon nếu nó bị bối rối."
+  },
+  "motorDrive": {
+    "description": "Pokémon này không bị sát thương khi trúng đòn tấn công hệ Điện. Thay vào đó, chỉ số Tốc độ của nó được tăng lên."
+  },
+  "rivalry": {
+    "description": "Tinh thần cạnh tranh của Pokémon này giúp tăng sức mạnh các chiêu thức lên 25% khi đối đầu với mục tiêu cùng giới tính, và giảm 25% khi đối đầu với mục tiêu khác giới tính. Sức mạnh vẫn giữ nguyên như bình thường nếu một trong hai Pokémon này có giới tính không xác định."
+  },
+  "steadfast": {
+    "description": "Sự quyết tâm của Pokémon giúp tăng chỉ số Tốc độ khi nó chùn bước."
+  },
+  "snowCloak": {
+    "description": "Tăng khả năng né tránh của Pokémon lên 25% khi gặp tuyết hoặc mưa đá. Pokémon sẽ không bị sát thương bởi mưa đá nếu bình thường nó sẽ bị sát thương."
+  },
+  "gluttony": {
+    "description": "Nếu Pokémon đang giữ một loại Berry dự định ăn khi HP giảm xuống còn ¼ hoặc ít hơn HP tối đa, thì thay vào đó nó sẽ ăn loại Berry đó khi HP giảm xuống còn ½ hoặc ít hơn HP tối đa."
+  },
+  "angerPoint": {
+    "description": "Pokémon này sẽ nổi giận khi nhận đòn chí mạng, và điều đó sẽ làm tăng tối đa chỉ số Tấn công của nó."
+  },
+  "unburden": {
+    "description": "Tăng gấp đôi chỉ số Tốc độ của Pokémon khi vật phẩm nó đang giữ bị sử dụng hoặc mất đi."
+  },
+  "heatproof": {
+    "description": "Cơ thể chịu nhiệt của Pokémon này giúp giảm một nửa sát thương nhận từ vết bỏng và các chiêu thức hệ Lửa."
+  },
+  "simple": {
+    "description": "Nhân đôi hiệu quả của việc thay đổi chỉ số của Pokémon."
+  },
+  "drySkin": {
+    "description": "Hồi phục ¼ lượng HP tối đa của Pokémon khi bị trúng đòn tấn công hệ Nước hoặc ⅛ lượng HP tối đa vào cuối mỗi lượt khi trời mưa. Tuy nhiên, Pokémon này sẽ chịu thêm 25% sát thương từ các chiêu thức hệ Lửa và mất ⅛ lượng HP tối đa vào cuối mỗi lượt khi gặp ánh nắng gay gắt."
+  },
+  "download": {
+    "description": "Pokémon này so sánh chỉ số Phòng thủ và Phòng thủ đặc biệt của Pokémon đối phương trước khi tăng chỉ số Tấn công hoặc Tấn công đặc biệt của chính nó — tùy thuộc vào chỉ số nào hiệu quả hơn."
+  },
+  "ironFist": {
+    "description": "Tăng sức mạnh các đòn đấm của Pokémon lên 20%."
+  },
+  "poisonHeal": {
+    "description": "Nếu bị trúng độc hoặc trúng độc nặng, Pokémon sẽ được hồi phục ⅛ lượng HP tối đa vào cuối mỗi lượt thay vì mất HP."
+  },
+  "adaptability": {
+    "description": "Tăng sức mạnh của các chiêu thức cùng loại với Pokémon lên 100% thay vì 50%. Không cộng dồn với hiệu ứng tăng sức mạnh Tera của Pokémon hệ Sao."
+  },
+  "skillLink": {
+    "description": "Các chiêu thức tấn công nhiều lần của Pokémon này luôn gây sát thương tối đa số lần."
+  },
+  "hydration": {
+    "description": "Chữa khỏi các trạng thái bất lợi của Pokémon vào cuối mỗi lượt khi trời mưa."
+  },
+  "solarPower": {
+    "description": "Dưới ánh nắng gay gắt, chỉ số Tấn công đặc biệt (Sp. Atk) của Pokémon này được tăng 50% nhưng nó sẽ mất ⅛ lượng HP tối đa vào cuối mỗi lượt."
+  },
+  "quickFeet": {
+    "description": "Khi Pokémon bị ảnh hưởng bởi trạng thái bất lợi, chỉ số Tốc độ của nó sẽ được tăng 50%. Trạng thái tê liệt không làm giảm chỉ số Tốc độ của Pokémon."
+  },
+  "normalize": {
+    "description": "Tất cả các chiêu thức của Pokémon đều trở thành hệ Thường và sức mạnh được tăng thêm 20%."
+  },
+  "sniper": {
+    "description": "Tăng sức mạnh của đòn chí mạng của Pokémon lên 125% thay vì 50%."
+  },
+  "noGuard": {
+    "description": "Pokémon này sử dụng chiến thuật không phòng thủ để đảm bảo các đòn tấn công đến và đi đều trúng đích. Nếu Pokémon đứng đầu trong đội hình , khả năng xảy ra trận đấu đôi sẽ cao hơn."
+  },
+  "stall": {
+    "description": "Chiêu thức của Pokémon này được thực hiện sau cùng trong số các chiêu thức có cùng độ ưu tiên."
+  },
+  "technician": {
+    "description": "Tăng sức mạnh của các chiêu thức của Pokémon lên 50% nếu sức mạnh của chúng từ 60 trở xuống."
+  },
+  "leafGuard": {
+    "description": "Pokémon này miễn nhiễm với các trạng thái bất lợi khi ở dưới trời NẮNG."
+  },
+  "klutz": {
+    "description": "Các vật phẩm sẽ không có tác dụng khi Pokémon đang giữ chúng."
+  },
+  "moldBreaker": {
+    "description": "Các chiêu thức của Pokémon không bị ảnh hưởng bởi Ability của mục tiêu, ngoại trừ một số trường hợp nhất định."
+  },
+  "superLuck": {
+    "description": "Con Pokémon này may mắn đến mức tỷ lệ chí mạng các chiêu thức của nó được tăng lên một bậc."
+  },
+  "aftermath": {
+    "description": "Khi Pokémon bị hạ gục bởi đòn tấn công tiếp xúc, kẻ tấn công sẽ chịu sát thương bằng ¼ lượng HP tối đa của chúng."
+  },
+  "anticipation": {
+    "description": "Khi Pokémon bước vào trận chiến, nó sẽ cảm nhận xem đối thủ có biết chiêu thức nào có thể hạ gục đối phương chỉ bằng một đòn duy nhất hoặc chiêu thức nào có hiệu quả cực mạnh đối với nó hay không."
+  },
+  "forewarn": {
+    "description": "Khi tham gia trận chiến, Pokémon này có thể nhận biết một trong những chiêu thức của Pokémon đối phương."
+  },
+  "unaware": {
+    "description": "Pokémon này bỏ qua sự thay đổi chỉ số của mục tiêu khi tấn công, và bỏ qua sự thay đổi chỉ số của đối phương khi bị tấn công. Tuy nhiên, nó không thể bỏ qua sự thay đổi chỉ số Speed."
+  },
+  "tintedLens": {
+    "description": "Các đòn tấn công \"không mấy hiệu quả\" của Pokémon này gây sát thương gấp đôi."
+  },
+  "filter": {
+    "description": "Giảm 25% sát thương mà Pokémon phải chịu từ các chiêu thức có hiệu quả vượt trội."
+  },
+  "slowStart": {
+    "description": "Trong năm lượt, chỉ số Attack và Speed của Pokémon sẽ bị giảm một nửa."
+  },
+  "scrappy": {
+    "description": "Pokémon này có thể tấn công Pokémon hệ Ma bằng các chiêu thức hệ Thường và hệ Giác đấu. Nó cũng không bị ảnh hưởng bởi Intimidate."
+  },
+  "stormDrain": {
+    "description": "Pokémon này thu thập tất cả các chiêu thức hệ nước . Các chiêu thức đó không có tác dụng lên Pokémon này. Thay vào đó nó sẽ tăng chỉ số Sp. Atk cho Pokémon."
+  },
+  "iceBody": {
+    "description": "Pokémon này được hồi phục ¹⁄₁₆ lượng HP tối đa vào cuối mỗi lượt khi có tuyết hoặc mưa đá. Pokémon này sẽ không bị sát thương bởi mưa đá nếu bình thường nó bị ảnh hưởng."
+  },
+  "solidRock": {
+    "description": "Giảm 25% sát thương mà Pokémon phải chịu từ các chiêu thức có hiệu quả vượt trội."
+  },
+  "snowWarning": {
+    "description": "Khi Pokémon này tham gia trận chiến, nó sẽ tạo ra tuyết trong 5 lượt."
+  },
+  "honeyGather": {
+    "description": "Pokémon này thu thập Mật ong, sau đó bán lấy tiền khi thắng trận, ngay cả khi nó không tham gia trận chiến."
+  },
+  "reckless": {
+    "description": "Tăng sức mạnh chiêu thức của Pokémon lên 20% nếu chúng gây sát thương phản lực hoặc va chạm."
+  },
+  "multitype": {
+    "description": "Thay đổi hệ của Pokémon theo Plate mà nó đang giữ."
+  },
+  "flowerGift": {
+    "description": "Tăng chỉ số Tấn công và Phòng thủ đặc biệt của Pokémon và các đồng minh đứng cạnh nó trong trận chiến lên 50% khi trời nắng gắt."
+  },
+  "badDreams": {
+    "description": "Gây sát thương bằng ⅛ lượng HP tối đa của Pokémon đối phương khi đang ngủ vào cuối mỗi lượt."
+  },
+  "harvest": {
+    "description": "Nếu Pokémon đã sử dụng một loại Berry, nó có 50% cơ hội tạo ra một loại Berry khác vào cuối mỗi lượt. Trong điều kiện ánh nắng gay gắt, Pokémon chắc chắn sẽ tạo ra một loại Berry."
+  },
+  "analytic": {
+    "description": "Tăng sức mạnh chiêu thức của Pokémon lên 30% khi Pokémon đó là Pokémon cuối cùng ra đòn trong lượt đó."
+  },
+  "moxie": {
+    "description": "Khi Pokémon hạ gục mục tiêu bằng một đòn tấn công, nó thể hiện sự tự tin, giúp tăng chỉ số Tấn công của nó."
+  },
+  "rattled": {
+    "description": "Pokémon này sẽ hoảng sợ khi bị tấn công bằng đòn đánh hệ Bóng tối, Ma hoặc Côn trùng, hoặc khi bị đe dọa, điều này giúp tăng chỉ số Tốc độ của nó."
+  },
+  "sandForce": {
+    "description": "Tăng sức mạnh của các chiêu thức hệ Đá, Đất và Thép của Pokémon lên 30% khi gặp bão cát. Pokémon sẽ không bị sát thương bởi bão cát nếu bình thường nó sẽ bị sát thương."
+  },
+  "cheekPouch": {
+    "description": "Pokémon này sẽ được hồi phục ⅓ lượng HP tối đa khi ăn một loại Berry, bên cạnh hiệu ứng thông thường của Berry đó."
+  },
+  "strongJaw": {
+    "description": "Hàm răng chắc khỏe của Pokémon này giúp tăng sức mạnh các chiêu cắn của nó lên 50%."
+  },
+  "megaLauncher": {
+    "description": "Tăng sức mạnh của Aura Sphere và các chiêu thức có từ \"Pulse\" trong tên lên 50%."
+  },
+  "grassPelt": {
+    "description": "Tăng chỉ số Phòng thủ của Pokémon lên 50% trên Grassy Terrain."
+  },
+  "toughClaws": {
+    "description": "Tăng sức mạnh của các chiêu thức tấn công cận chiến của Pokémon lên 30%."
+  },
+  "darkAura": {
+    "description": "Tăng sức mạnh của các chiêu thức hệ Bóng tối của tất cả Pokémon trên sân lên 33%."
+  },
+  "fairyAura": {
+    "description": "Tăng sức mạnh của các chiêu thức hệ Tiên của tất cả Pokémon trên sân lên 33%."
+  },
+  "waterCompaction": {
+    "description": "Tăng mạnh chỉ số Phòng thủ khi Pokémon bị trúng đòn tấn công hệ Nước."
+  },
+  "steelworker": {
+    "description": "Tăng sức mạnh của các chiêu thức hệ Thép của Pokémon lên 50%."
+  },
+  "berserk": {
+    "description": "Tăng chỉ số Tấn công đặc biệt của Pokémon khi một đòn tấn công khiến HP của nó giảm xuống còn ½ hoặc ít hơn so với HP tối đa."
+  },
+  "soulHeart": {
+    "description": "Tăng chỉ số Tấn công đặc biệt của Pokémon mỗi khi một Pokémon khác bị hạ gục."
+  },
+  "beastBoost": {
+    "description": "Tăng chỉ số mạnh nhất của Pokémon mỗi khi nó hạ gục mục tiêu."
+  },
+  "neuroforce": {
+    "description": "Tăng sức mạnh của các chiêu thức có hiệu quả vượt trội của Pokémon lên 25%."
+  },
+  "intrepidSword": {
+    "description": "Tăng chỉ số Tấn công của Pokémon khi Pokémon tham gia trận chiến."
+  },
+  "dauntlessShield": {
+    "description": "Tăng chỉ số Defense của Pokémon khi Pokémon tham gia trận chiến."
+  },
+  "steamEngine": {
+    "description": "Tăng chỉ số Tốc độ lên 6 bậc khi Pokémon bị trúng đòn tấn công hệ Lửa hoặc hệ Nước."
+  },
+  "punkRock": {
+    "description": "Tăng sức mạnh của các chiêu thức dựa trên âm thanh của Pokémon lên 30%. Pokémon cũng chỉ chịu một nửa sát thương từ các chiêu thức này."
+  },
+  "steelySpirit": {
+    "description": "Tăng sức mạnh của các chiêu thức hệ Thép của Pokémon và đồng minh đứng cạnh nó trong trận chiến lên 50%."
+  },
+  "gorillaTactics": {
+    "description": "Tăng chỉ số Tấn công của Pokémon lên 50%, nhưng chỉ cho phép sử dụng chiêu thức đầu tiên được chọn."
+  },
+  "cudChew": {
+    "description": "Nếu Pokémon ăn một Berry, nó sẽ nôn ra và ăn lại Berry đó một lần nữa vào cuối lượt tiếp theo."
   }
 }
