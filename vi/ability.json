@@ -290,6 +290,9 @@
   "sniper": {
     "description": "Tăng sức mạnh của đòn chí mạng của Pokémon lên 125% thay vì 50%."
   },
+  "magicGuard": {
+    "description": "Pokémon không nhận sát thương từ các đòn tấn công gián tiếp."
+  },
   "noGuard": {
     "description": "Pokémon này sử dụng chiến thuật không phòng thủ để đảm bảo các đòn tấn công đến và đi đều trúng đích. Nếu Pokémon đứng đầu trong đội hình , khả năng xảy ra trận đấu đôi sẽ cao hơn."
   },
@@ -350,6 +353,9 @@
   "honeyGather": {
     "description": "Pokémon này thu thập Mật ong, sau đó bán lấy tiền khi thắng trận, ngay cả khi nó không tham gia trận chiến."
   },
+  "frisk": {
+    "description": "Khi tham gia trận chiến, Pokémon này có thể kiểm tra Ability của Pokémon đối phương."
+  },
   "reckless": {
     "description": "Tăng sức mạnh chiêu thức của Pokémon lên 20% nếu chúng gây sát thương phản lực hoặc va chạm."
   },
@@ -361,6 +367,18 @@
   },
   "badDreams": {
     "description": "Gây sát thương bằng ⅛ lượng HP tối đa của Pokémon đối phương khi đang ngủ vào cuối mỗi lượt."
+  },
+  "pickpocket": {
+    "description": "Khi Pokémon này bị trúng đòn tấn công tiếp xúc, nó sẽ cướp một vật phẩm đang được giữ bởi kẻ tấn công."
+  },
+  "sheerForce": {
+    "description": "Các chiêu thức của Pokémon sẽ mất đi hiệu ứng bổ sung, nhưng sức mạnh của chúng sẽ được tăng thêm 30%."
+  },
+  "contrary": {
+    "description": "Đảo ngược mọi thay đổi chỉ số ảnh hưởng đến Pokémon, sao cho những nỗ lực tăng chỉ số của nó sẽ làm giảm chỉ số — và những nỗ lực giảm chỉ số của nó sẽ làm tăng chỉ số."
+  },
+  "unnerve": {
+    "description": "Làm cho Pokémon đối phương hoảng sợ và không thể ăn Berries."
   },
   "harvest": {
     "description": "Nếu Pokémon đã sử dụng một loại Berry, nó có 50% cơ hội tạo ra một loại Berry khác vào cuối mỗi lượt. Trong điều kiện ánh nắng gay gắt, Pokémon chắc chắn sẽ tạo ra một loại Berry."
@@ -377,11 +395,59 @@
   "sandForce": {
     "description": "Tăng sức mạnh của các chiêu thức hệ Đá, Đất và Thép của Pokémon lên 30% khi gặp bão cát. Pokémon sẽ không bị sát thương bởi bão cát nếu bình thường nó sẽ bị sát thương."
   },
+  "ironBarbs": {
+    "description": "Khi Pokémon này bị trúng đòn tấn công trực diện, những gai sắt của nó sẽ gây sát thương cho kẻ tấn công bằng ⅛ lượng HP tối đa của kẻ đó."
+  },
+  "zenMode": {
+    "description": "Pokémon này sẽ chuyển dạng sang Zen Mode khi lượng HP giảm xuống còn ½ hoặc thấp hơn."
+  },
+  "victoryStar": {
+    "description": "Độ chính xác của Pokémon và các đồng minh đứng cạnh nó trong trận chiến được tăng thêm 10%."
+  },
+  "turboblaze": {
+    "description": "Các chiêu thức của Pokémon không bị ảnh hưởng bởi Ability của mục tiêu, ngoại trừ một số trường hợp nhất định."
+  },
+  "teravolt": {
+    "description": "Các chiêu thức của Pokémon không bị ảnh hưởng bởi Ability của mục tiêu, ngoại trừ một số trường hợp nhất định."
+  },
+  "aromaVeil": {
+    "description": "Pokémon này và các đồng minh đứng cạnh nó trong trận chiến được bảo vệ khỏi các hiệu ứng Infatuation, Taunt, Torment, Disable, Heal Block và Encore."
+  },
+  "flowerVeil": {
+    "description": "Nếu Pokémon hoặc đồng minh của nó trong trận chiến thuộc hệ Cỏ, chúng sẽ miễn nhiễm với các trạng thái bất lợi và không thể bị giảm chỉ số."
+  },
   "cheekPouch": {
     "description": "Pokémon này sẽ được hồi phục ⅓ lượng HP tối đa khi ăn một loại Berry, bên cạnh hiệu ứng thông thường của Berry đó."
   },
+  "protean": {
+    "description": "Thay đổi hệ của Pokémon thành hệ của chiêu thức mà nó sắp sử dụng."
+  },
+  "furCoat": {
+    "description": "Giảm một nửa sát thương mà Pokémon phải chịu từ các đòn tấn công vật lý."
+  },
+  "magician": {
+    "description": "Pokémon này sẽ cướp vật phẩm đang giữ từ bất kỳ mục tiêu nào mà nó tấn công bằng chiêu thức."
+  },
+  "bulletproof": {
+    "description": "Pokémon này miễn nhiễm với các chiêu thức dùng bóng và bom."
+  },
+  "competitive": {
+    "description": "Khi bất kỳ chỉ số nào của Pokémon bị đối thủ làm giảm, chỉ số Sp. Atk của nó sẽ được tăng mạnh."
+  },
   "strongJaw": {
     "description": "Hàm răng chắc khỏe của Pokémon này giúp tăng sức mạnh các chiêu cắn của nó lên 50%."
+  },
+  "refrigerate": {
+    "description": "Các chiêu thức hệ Thường của Pokémon này trở thành chiêu thức hệ Băng và sức mạnh của chúng được tăng thêm 20%."
+  },
+  "sweetVeil": {
+    "description": "Pokémon này và các đồng minh của nó bên cạnh trong trận chiến không thể bị buồn ngủ hoặc bị ru ngủ."
+  },
+  "stanceChange": {
+    "description": "Pokémon này biến hình thành Blade Forme khi tấn công và biến hình thành Shield Forme khi sử dụng chiêu thức King’s Shield."
+  },
+  "galeWings": {
+    "description": "Tăng độ ưu tiên của các chiêu thức hệ Bay của Pokémon lên 1 bậc khi HP của nó đầy."
   },
   "megaLauncher": {
     "description": "Tăng sức mạnh của Aura Sphere và các chiêu thức có từ \"Pulse\" trong tên lên 50%."
@@ -389,8 +455,17 @@
   "grassPelt": {
     "description": "Tăng chỉ số Phòng thủ của Pokémon lên 50% trên Grassy Terrain."
   },
+  "symbiosis": {
+    "description": "Khi một đồng minh sử dụng một vật phẩm, Pokémon đó sẽ đưa vật phẩm mà nó đang giữ cho đồng minh đó."
+  },
   "toughClaws": {
     "description": "Tăng sức mạnh của các chiêu thức tấn công cận chiến của Pokémon lên 30%."
+  },
+  "pixilate": {
+    "description": "Các chiêu thức hệ Thường của Pokémon này trở thành chiêu thức hệ Tiên và sức mạnh của chúng được tăng thêm 20%."
+  },
+  "gooey": {
+    "description": "Khi Pokémon bị trúng đòn tấn công tiếp xúc, chỉ số Speed của kẻ tấn công sẽ bị giảm."
   },
   "darkAura": {
     "description": "Tăng sức mạnh của các chiêu thức hệ Bóng tối của tất cả Pokémon trên sân lên 33%."
