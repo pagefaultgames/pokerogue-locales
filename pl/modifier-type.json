@@ -1,7 +1,116 @@
 {
   "ModifierType": {
+    "PokemonHeldItemModifierType": {
+      "extra": {
+        "inoperable": "{{pokemonName}} nie może\ntego wziąć!"
+      }
+    },
+    "PokemonHpRestoreModifierType": {
+      "extra": {
+        "fully": "W pełni odnawia PŻ jednego Pokémona."
+      }
+    },
+    "MAP": {
+      "name": "Mapa",
+      "description": "Pozwala wybrać drogę na rozdrożach."
+    },
     "POTION": {
       "name": "Lekarstwo"
+    },
+    "SUPER_POTION": {
+      "name": "Super Lekarstwo"
+    },
+    "HYPER_POTION": {
+      "name": "Hiper Lekarstwo"
+    },
+    "ELIXIR": {
+      "name": "Eliksir"
+    },
+    "LEEK": {
+      "name": "Por"
+    },
+    "EVIOLITE": {
+      "name": "Ewolit"
+    },
+    "LEFTOVERS": {
+      "name": "Resztki",
+      "description": "Co turę odnawia 1/16 całkowitych PŻ Pokémona."
+    },
+    "IV_SCANNER": {
+      "name": "Skaner IV",
+      "description": "Umożliwia skanowanie IV dzikich Pokémonów."
+    },
+    "MINI_BLACK_HOLE": {
+      "name": "Mała Czarna Dziura"
     }
+  },
+  "TempStatStageBoosterItem": {
+    "x_attack": "Atak X",
+    "x_defense": "Obrona X",
+    "x_sp_atk": "Atak Sp. X",
+    "x_sp_def": "Obrona Sp. X",
+    "x_speed": "Szybkość X",
+    "x_accuracy": "Celność X"
+  },
+  "AttackTypeBoosterItem": {
+    "silk_scarf": "Jedwabny Szal",
+    "black_belt": "Czarny Pas",
+    "magnet": "Magnes"
+  },
+  "BaseStatBoosterItem": {
+    "protein": "Białko",
+    "iron": "Żelazo",
+    "calcium": "Wapń",
+    "zinc": "Cynk"
+  },
+  "EvolutionItem": {
+    "CRACKED_POT": "Pęknięty Imbryk",
+    "UPGRADE": "Aktualizacja",
+    "DRAGON_SCALE": "Smocza Łuska"
+  },
+  "FormChangeItem": {
+    "ABSOLITE": "Absolit",
+    "AERODACTYLITE": "Aerodactylit",
+    "AGGRONITE": "Aggronit",
+    "ALAKAZITE": "Alakazamyt",
+    "ALTARIANITE": "Altarianit",
+    "AMPHAROSITE": "Ampharosyt",
+    "AUDINITE": "Audinyt",
+    "BANETTITE": "Banettyt",
+    "BEEDRILLITE": "Beedrillyt",
+    "BLASTOISINITE": "Blastoisyt",
+    "BLAZIKENITE": "Blazikenyt",
+    "CAMERUPTITE": "Cameruptyt",
+    "CHARIZARDITE_X": "Charizardyt X",
+    "CHARIZARDITE_Y": "Charizardyt Y",
+    "DIANCITE": "Diancyt",
+    "GALLADITE": "Galladyt",
+    "GARCHOMPITE": "Garchompyt",
+    "GARDEVOIRITE": "Gardevoryt",
+    "GENGARITE": "Gengaryt",
+    "GLALITITE": "Glalityt",
+    "GYARADOSITE": "Gyaradosyt",
+    "HERACRONITE": "Heracronit",
+    "HOUNDOOMINITE": "Houndoomnit",
+    "KANGASKHANITE": "Kangaskhanit",
+    "LATIASITE": "Latiasyt",
+    "LATIOSITE": "Latiosyt",
+    "LOPUNNITE": "Lopunit",
+    "LUCARIONITE": "Lucarionit",
+    "MANECTITE": "Manectyt",
+    "MAWILITE": "Mawilyt",
+    "MEDICHAMITE": "Medichamyt",
+    "METAGROSSITE": "Metagrossyt",
+    "MEWTWONITE_X": "Mewtwonit X",
+    "MEWTWONITE_Y": "Mewtwonit Y",
+    "PIDGEOTITE": "Pidgeotyt",
+    "PINSIRITE": "Pinsiryt",
+    "RAYQUAZITE": "Rayquazyt",
+    "SABLENITE": "Sablenit",
+    "SALAMENCITE": "Salamencyt",
+    "SCEPTILITE": "Sceptilyt",
+    "SCIZORITE": "Scizoryt",
+    "RUSTED_SWORD": "Zardzewiały Miecz",
+    "RUSTED_SHIELD": "Zardzewiała Tarcza"
   }
 }
