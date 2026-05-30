@@ -31,7 +31,7 @@ They will be able to provide you with further information.
 - th - Thai *(Still at low percentage, needs help)*
 - tl - Tagalog *(Still at very low percentage, needs help)*
 - tr - Turkish *(Still at very low percentage, needs help)*
-- uk - Ukrainian *(Still at very low percentage, needs help)*
+- uk - Ukrainian *(Mostly low percenage, needs help)*
 
 ### Pending
 
