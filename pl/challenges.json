@@ -1,4 +1,5 @@
 {
+  "title": "Modyfikatory Wyzwań",
   "freshStart": {
     "desc": {
       "1": "Możesz korzystać tylko z początkowych starterów bez żadnych odblokowanych dodatków, jak gdybyś grał w PokéRogue po raz pierwszy.",
@@ -30,6 +31,8 @@
     }
   },
   "singleGeneration": {
+    "name": "Monogeneracja",
+    "desc": "Możesz korzystać tylko z Pokémonów z Generacji {{gen}}.",
     "descDefault": "Możesz korzystać tylko z Pokémonów wybranej generacji.",
     "gen": {
       "1": "1",
@@ -51,6 +54,26 @@
   "metronome": {
     "name": "Tryb Metronomu",
     "desc": "Sprawdź jak daleko możesz zajść, posługując się jedynie atakiem Metronom. \nTryb istnieje tylko dla zabawy i nie jest nagradzany osiągnięciem.\n\nDezaktywuje wszystkie pozostałe osiągnięcia.",
+    "value": {
+      "0": "Wył.",
+      "1": "Wł."
+    }
+  },
+  "passives": {
+    "name": "Zdolności Pasywne",
+    "desc": {
+      "0": "Sprawia, że część lub wszystkie Pokémony mają aktywne zdolności pasywne.",
+      "1": "Pokémony trenerów mają aktywne zdolności pasywne.\nNie dotyczy wybranych starterów.",
+      "2": "Wszystkie Pokémony, włącznie z twoimi, będą miały aktywną zdolność pasywną.\n\nDezaktywuje osiągnięcia pozostałych wyzwań."
+    },
+    "value": {
+      "0": "Wył.",
+      "1": "Trenerzy",
+      "2": "Wszyscy"
+    }
+  },
+  "movesetRandomizer": {
+    "name": "Losowe Ataki",
     "value": {
       "0": "Wył.",
       "1": "Wł."
