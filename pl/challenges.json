@@ -13,7 +13,7 @@
   },
   "hardcore": {
     "name": "Hardcore",
-    "desc": "Niemożesz ożywiać znokautowanych Pokémonów.",
+    "desc": "Nie możesz ożywiać znokautowanych Pokémonów.",
     "value": {
       "0": "Wył.",
       "1": "Wł."
@@ -50,6 +50,18 @@
     "name": "Monotyp",
     "desc": "Możesz korzystać tylko z Pokémonów o typie {{type}}m.",
     "descDefault": "Możesz korzystać tylko z Pokémonów wybranego typu."
+  },
+  "inverseBattle": {
+    "value": {
+      "0": "Wył.",
+      "1": "Wł."
+    }
+  },
+  "flipStat": {
+    "value": {
+      "0": "Wył.",
+      "1": "Wł."
+    }
   },
   "metronome": {
     "name": "Tryb Metronomu",
