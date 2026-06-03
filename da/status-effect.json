@@ -3,6 +3,25 @@
     "name": "Ingen"
   },
   "poison": {
-    "obtain": "{{pokemonNameWithAffix}}\ner blevet forgiftet!"
+    "obtain": "{{pokemonNameWithAffix}}\ner blevet forgiftet!",
+    "overlap": "{{pokemonNameWithAffix}} er \nallerede forgiftet!",
+    "heal": "{{pokemonNameWithAffix}} blev\nkureret af dens forgiftning!"
+  },
+  "toxic": {
+    "name": "Toxic",
+    "description": "forgiftning",
+    "obtain": "{{pokemonNameWithAffix}}\ner blevet slemt forgiftet!",
+    "obtainSource": "{{pokemonNameWithAffix}}\ner blevet slemt forgiftet af {{sourceText}}!",
+    "activation": "{{pokemonNameWithAffix}} tog skade\nfra dens forgiftning!",
+    "overlap": "{{pokemonNameWithAffix}} er \nallerede forgiftet!",
+    "heal": "{{pokemonNameWithAffix}} er blevet\nkureret af dens forgiftning!"
+  },
+  "paralysis": {
+    "name": "Paralyse",
+    "description": "paralyse",
+    "obtain": "{{pokemonNameWithAffix}} er blevet lammet,\nDet er muligt at den ikke kan bevæge sig!",
+    "obtainSource": "{{pokemonNameWithAffix}} blev lammet af {{sourceText}}!\nDet er muligt at den ikke kan bevæge sig!",
+    "activation": "{{pokemonNameWithAffix}} er lammet!\nDen kan ikke bevæge sig!",
+    "overlap": "{{pokemonNameWithAffix}} er\nallerede lammet!"
   }
 }
