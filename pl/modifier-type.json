@@ -1,5 +1,12 @@
 {
   "ModifierType": {
+    "AddPokeballModifierType": {
+      "name": "×{{modifierCount}} {{pokeballName}}ów"
+    },
+    "AddVoucherModifierType": {
+      "name": "{{voucherTypeName}} ×{{modifierCount}}",
+      "description": "Otrzymaj: {{voucherTypeName}} ×{{modifierCount}}"
+    },
     "PokemonHeldItemModifierType": {
       "extra": {
         "inoperable": "{{pokemonName}} nie może\ntego wziąć!"
@@ -9,6 +16,41 @@
       "extra": {
         "fully": "W pełni odnawia PŻ jednego Pokémona."
       }
+    },
+    "PokemonReviveModifierType": {
+      "description": "Ożywia jednego Pokémona i odnawia {{restorePercent}}% PŻ."
+    },
+    "PokemonPpRestoreModifierType": {
+      "extra": {
+        "fully": "Odnawia wszystkie PM jednego ataku."
+      }
+    },
+    "PokemonAllMovePpRestoreModifierType": {
+      "description": "Odnawia {{restorePoints}} PM wszystkich ataków jednego Pokémona.",
+      "extra": {
+        "fully": "Odnawia wszystkie PM wszystkich ataków jednego Pokémona."
+      }
+    },
+    "PokemonNatureChangeModifierType": {
+      "description": "Zmienia naturę Pokémona na: {{natureName}} i odblokowuje ją do użycia na starcie."
+    },
+    "PokemonLevelIncrementModifierType": {
+      "description": "Podnosi poziom jednego Pokémona o {{levels}}."
+    },
+    "AllPokemonFullHpRestoreModifierType": {
+      "description": "Odnawia 100% PŻ wszystkich Pokémonów."
+    },
+    "AllPokemonFullReviveModifierType": {
+      "description": "Ożywia wszystkie znokautowane Pokémony, w pełni odnawiając ich PŻ."
+    },
+    "ExpBoosterModifierType": {
+      "description": "Zwiększa przyrost doświadczenia o {{boostPercent}}%."
+    },
+    "PokemonExpBoosterModifierType": {
+      "description": "Zwiększa przyrost doświadczenia trzymającego o {{boostPercent}}%."
+    },
+    "PokemonMoveAccuracyBoosterModifierType": {
+      "description": "Zwiększa celność ataków o {{accuracyAmount}}."
     },
     "MAP": {
       "name": "Mapa",
