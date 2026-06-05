@@ -1,10 +1,12 @@
 {
   "ModifierType": {
     "AddPokeballModifierType": {
-      "description": "Nhận {{pokeballName}} x{{modifierCount}} (Túi đồ: {{pokeballAmount}}) \nTỉ lệ thu phục: {{catchRate}}"
+      "name": "{{modifierCount}}× {{pokeballName}}",
+      "description": "Nhận {{pokeballName}} ×{{modifierCount}} (Túi đồ: {{pokeballAmount}}) \nTỉ lệ thu phục: {{catchRate}}"
     },
     "AddVoucherModifierType": {
-      "description": "Nhận {{voucherTypeName}} x{{modifierCount}}."
+      "name": "{{modifierCount}}× {{voucherTypeName}}",
+      "description": "Nhận {{voucherTypeName}} ×{{modifierCount}}."
     },
     "PokemonHeldItemModifierType": {
       "extra": {
@@ -50,7 +52,8 @@
     "TempStatStageBoosterModifierType": {
       "description": "Tăng chỉ số {{stat}} của tất cả thành viên trong nhóm lên {{amount}} trong tối đa 5 trận chiến.",
       "extra": {
-        "stage": "1 bậc"
+        "stage": "1 bậc",
+        "percentage": "20%"
       }
     },
     "AttackTypeBoosterModifierType": {
@@ -99,9 +102,11 @@
       "description": "Chuyển đổi 25% sát thương từ các đòn tấn công của người sở hữu thành một đòn đánh bổ sung."
     },
     "TmModifierType": {
+      "name": "TM{{moveId}} - {{moveName}}",
       "description": "Dạy chiêu thức {{moveName}} cho một Pokémon."
     },
     "TmModifierTypeWithInfo": {
+      "name": "TM{{moveId}} - {{moveName}}",
       "description": "Dạy chiêu thức {{moveName}} cho Pokémon\n (Giữ phím C hoặc Shift để xem thêm thông tin)."
     },
     "EvolutionItemModifierType": {
@@ -499,7 +504,12 @@
     "fairy_feather": "Lông Tiên"
   },
   "BaseStatBoosterItem": {
-    "hp_up": "Tăng HP"
+    "hp_up": "Tăng HP",
+    "protein": "Đạm Tăng Lực",
+    "iron": "Sắt Gia Cố",
+    "calcium": "Canxi Tăng Cường",
+    "zinc": "Kẽm Bền Bỉ",
+    "carbos": "Carbos Tăng Tốc"
   },
   "EvolutionItem": {
     "NONE": "Không",
@@ -550,6 +560,99 @@
   },
   "FormChangeItem": {
     "NONE": "Không",
+    "ABOMASITE": "Abomasite",
+    "ABSOLITE": "Absolite",
+    "AERODACTYLITE": "Aerodactylite",
+    "AGGRONITE": "Aggronite",
+    "ALAKAZITE": "Alakazite",
+    "ALTARIANITE": "Altarianite",
+    "AMPHAROSITE": "Ampharosite",
+    "AUDINITE": "Audinite",
+    "BANETTITE": "Banettite",
+    "BEEDRILLITE": "Beedrillite",
+    "BLASTOISINITE": "Blastoisinite",
+    "BLAZIKENITE": "Blazikenite",
+    "CAMERUPTITE": "Cameruptite",
+    "CHARIZARDITE_X": "Charizardite X",
+    "CHARIZARDITE_Y": "Charizardite Y",
+    "DIANCITE": "Diancite",
+    "GALLADITE": "Galladite",
+    "GARCHOMPITE": "Garchompite",
+    "GARDEVOIRITE": "Gardevoirite",
+    "GENGARITE": "Gengarite",
+    "GLALITITE": "Glalitite",
+    "GYARADOSITE": "Gyaradosite",
+    "HERACRONITE": "Heracronite",
+    "HOUNDOOMINITE": "Houndoominite",
+    "KANGASKHANITE": "Kangaskhanite",
+    "LATIASITE": "Latiasite",
+    "LATIOSITE": "Latiosite",
+    "LOPUNNITE": "Lopunnite",
+    "LUCARIONITE": "Lucarionite",
+    "MANECTITE": "Manectite",
+    "MAWILITE": "Mawilite",
+    "MEDICHAMITE": "Medichamite",
+    "METAGROSSITE": "Metagrossite",
+    "MEWTWONITE_X": "Mewtwonite X",
+    "MEWTWONITE_Y": "Mewtwonite Y",
+    "PIDGEOTITE": "Pidgeotite",
+    "PINSIRITE": "Pinsirite",
+    "RAYQUAZITE": "Rayquazite",
+    "SABLENITE": "Sablenite",
+    "SALAMENCITE": "Salamencite",
+    "SCEPTILITE": "Sceptilite",
+    "SCIZORITE": "Scizorite",
+    "SHARPEDONITE": "Sharpedonite",
+    "SLOWBRONITE": "Slowbronite",
+    "STEELIXITE": "Steelixite",
+    "SWAMPERTITE": "Swampertite",
+    "TYRANITARITE": "Tyranitarite",
+    "VENUSAURITE": "Venusaurite",
+    "CLEFABLITE": "Clefablite",
+    "VICTREEBELITE": "Victreebelite",
+    "STARMINITE": "Starminite",
+    "DRAGONINITE": "Dragoninite",
+    "MEGANIUMITE": "Meganiumite",
+    "FERALIGITE": "Feraligite",
+    "SKARMORITE": "Skarmorite",
+    "FROSLASSITE": "Froslassite",
+    "EMBOARITE": "Emboarite",
+    "EXCADRITE": "Excadrite",
+    "SCOLIPITE": "Scolipite",
+    "SCRAFTINITE": "Scraftinite",
+    "EELEKTROSSITE": "Eelektrossite",
+    "CHANDELURITE": "Chandelurite",
+    "CHESNAUGHTITE": "Chesnaughtite",
+    "DELPHOXITE": "Delphoxite",
+    "GRENINJITE": "Greninjite",
+    "PYROARITE": "Pyroarite",
+    "FLOETTITE": "Floettite",
+    "MALAMARITE": "Malamarite",
+    "BARBARACITE": "Barbaracite",
+    "DRAGALGITE": "Dragalgite",
+    "HAWLUCHANITE": "Hawluchanite",
+    "ZYGARDITE": "Zygardite",
+    "DRAMPANITE": "Drampanite",
+    "FALINKSITE": "Falinksite",
+    "HEATRANITE": "Heatranite",
+    "DARKRANITE": "Darkranite",
+    "ZERAORITE": "Zeraorite",
+    "RAICHUNITE_X": "Raichunite X",
+    "RAICHUNITE_Y": "Raichunite Y",
+    "CHIMECHITE": "Chimechite",
+    "ABSOLITE_Z": "Absolite Z",
+    "STARAPTITE": "Staraptite",
+    "GARCHOMPITE_Z": "Garchompite Z",
+    "LUCARIONITE_Z": "Lucarionite Z",
+    "GOLURKITE": "Golurkite",
+    "MEOWSTICITE": "Meowsticite",
+    "CRABOMINITE": "Crabominite",
+    "GOLISOPITE": "Golisopite",
+    "MAGEARNITE": "Magearnite",
+    "SCOVILLAINITE": "Scovillainite",
+    "BAXCALIBRITE": "Baxcalibrite",
+    "TATSUGIRINITE": "Tatsugirinite",
+    "GLIMMORANITE": "Glimmoranite",
     "BLUE_ORB": "Thủy Lam Cầu",
     "RED_ORB": "Thổ Hồng Cầu",
     "SHARP_METEORITE": "Thiên Thạch Sắc Nhọn",
@@ -577,6 +680,7 @@
     "BURN_DRIVE": "Đĩa Lửa",
     "CHILL_DRIVE": "Đĩa Băng",
     "DOUSE_DRIVE": "Đĩa Thủy",
+    "ULTRANECROZIUM_Z": "Ultranecrozium Z",
     "FIST_PLATE": "Bản Nắm Đấm",
     "SKY_PLATE": "Bản Nắm Đấm",
     "TOXIC_PLATE": "Bản Độc Hại",
