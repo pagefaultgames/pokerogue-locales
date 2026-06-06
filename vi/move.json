@@ -33,10 +33,10 @@
     "effect": "Mục tiêu bị kẹp và siết chặt từ hai phía để gây sát thương."
   },
   "guillotine": {
-    "effect": "Một đòn tấn công tàn bạo, xé toạc bằng những chiếc càng lớn. Mục tiêu sẽ bất tỉnh ngay lập tức nếu trúng đòn này. Pokémon trùm có khả năng kháng lại chiêu thức này."
+    "effect": "Một nhát cắt hung tàn bằng cặp càng quá cỡ. Mục tiêu gục ngã tức thì nếu đòn tấn công này trúng đích. Vô hiệu với Boss."
   },
   "razorWind": {
-    "effect": "Pokémon dùng tấn công ở lượt tiếp theo sau khi sử dụng chiêu thức này bằng những lưỡi gió. Chiêu thức này có tỷ lệ gây sát thương chí mạng cao hơn."
+    "effect": "Pokémon tích tụ những lưỡi dao gió để tấn công vào lượt kế tiếp với tỷ lệ chí mạng cao."
   },
   "swordsDance": {
     "effect": "Một điệu nhảy cuồng nhiệt nhằm nâng cao tinh thần chiến đấu. Điều này giúp tăng mạnh chỉ số Tấn công của Pokémon."
@@ -84,7 +84,7 @@
     "effect": "Mục tiêu bị tạt cát thẳng vào mặt, làm giảm độ chuẩn của chúng."
   },
   "headbutt": {
-    "effect": "Người dùng thò đầu ra và tấn công bằng cách lao thẳng vào mục tiêu. Điều này cũng có thể khiến mục tiêu giật mình."
+    "effect": "Đòn nhô đầu và lao thẳng để tấn công mục tiêu. Có thể sẽ khiến chúng bị giật mình."
   },
   "hornAttack": {
     "effect": "Mục tiêu gánh chịu sát thương từ đòn đâm bởi chiếc sừng sắc nhọn."
@@ -129,7 +129,7 @@
     "effect": "Một cái trừng mắt dọa nạt sẽ làm giảm chỉ số Phòng thủ của đối thủ."
   },
   "bite": {
-    "effect": "Một đòn cắn bằng cặp nanh nhọn đầy hung tợn sẽ tấn công mục tiêu, có thể sẽ khiến chúng bị rối loạn."
+    "effect": "Một đòn cắn bằng cặp nanh nhọn đầy hung tợn sẽ tấn công mục tiêu, có thể sẽ khiến chúng giật mình."
   },
   "growl": {
     "effect": "Tiếng gầm gừ nũng nịu làm xao nhãng đối thủ, khiến chỉ số Tấn công của chúng bị hạ thấp."
@@ -294,7 +294,7 @@
     "effect": "Lao tới tấn công với Tốc độ mắt thường khó thấy. Luôn đi trước đối thủ."
   },
   "rage": {
-    "effect": "Dẫn dụ cơn giận tích lũy, tăng chỉ số Tấn công mỗi khi người dùng chịu sát thương."
+    "effect": "Dẫn dụ cơn giận tích lũy, tăng chỉ số Tấn công mỗi khi bản thân chịu sát thương."
   },
   "teleport": {
     "effect": "Pokémon hoán đổi vị trí với một thành viên trong đội hình nếu có. Khi một Pokémon hoang dã sử dụng chiêu này đồng nghĩa với việc nó sẽ tháo chạy."
@@ -387,7 +387,7 @@
     "effect": "Những tia sáng hình ngôi sao được bắn vào các Pokémon đối thủ. Đòn tấn công này không bao giờ trượt."
   },
   "skullBash": {
-    "effect": "Pokémon dùng rụt đầu lại để tăng chỉ số Phòng thủ trong lượt đầu tiên, sau đó húc mạnh vào mục tiêu ở lượt kế tiếp."
+    "effect": "Pokémon rụt đầu lại để tăng chỉ số Phòng thủ trong lượt đầu tiên, sau đó húc mạnh vào mục tiêu ở lượt kế tiếp."
   },
   "spikeCannon": {
     "effect": "Những đòn bắn gai nhọn chớp nhoáng sẽ tấn công mục tiêu từ hai đến năm lần liên tục."
@@ -396,10 +396,10 @@
     "effect": "Mục tiêu bị tấn công bởi những xúc tu, dây leo dài bò lan hoặc những thứ tương tự. Điều này cũng có thể làm giảm chỉ số Tốc độ của mục tiêu."
   },
   "amnesia": {
-    "effect": "Pokémon dùng tạm thời làm trống tâm trí của mình để quên đi mọi lo lắng. Điều này làm tăng mạnh chỉ số P.thủ Đ.b. của Pokémon."
+    "effect": "Pokémon tạm thời trút bỏ mọi suy nghĩ để quên đi muộn phiền. Việc này làm tăng mạnh chỉ số P.thủ Đ.b. của bản thân."
   },
   "kinesis": {
-    "effect": "Người dùng làm phân tâm mục tiêu bằng cách bẻ cong một chiếc thìa. Điều này làm giảm độ chuẩn của mục tiêu."
+    "effect": "Pokémon làm xao nhãng mục tiêu bằng cách uốn cong một chiếc thìa. Việc này làm giảm độ chuẩn của mục tiêu."
   },
   "softBoiled": {
     "effect": "Pokémon tự hồi phục lượng HP bằng tối đa một nửa 50% lượng HP cực đại của chính mình."
@@ -411,7 +411,7 @@
     "effect": "Pokémon uy hiếp mục tiêu bằng hoa văn trên bụng của nó để gây tê liệt."
   },
   "dreamEater": {
-    "effect": "Pokémon ăn giấc mơ của một mục tiêu đang ngủ. HP của người dùng được hồi phục bằng một nửa lượng sát thương mà mục tiêu phải gánh chịu."
+    "effect": "Pokémon ăn những giấc mơ của mục tiêu đang say ngủ. HP của bản thân sẽ được hồi phục bằng một nửa lượng sát thương gây ra cho mục tiêu."
   },
   "poisonGas": {
     "effect": "Một làn khói độc được phun vào mặt các Pokémon đối thủ, gây nhiễm độc cho những mục tiêu bị trúng đòn."
@@ -435,13 +435,13 @@
     "effect": "Một làn bọt bong bóng vô số kể được phun vào các Pokémon đối thủ. Điều này cũng có thể làm giảm chỉ số Tốc độ của chúng."
   },
   "dizzyPunch": {
-    "effect": "Mục tiêu bị tấn công bằng những cú đấm tung ra theo nhịp điệu. Điều này cũng có thể khiến mục tiêu bị hỗn loạn."
+    "effect": "Mục tiêu trúng những cú đấm được tung ra theo nhịp điệu. Đòn này cũng có thể khiến mục tiêu rơi vào trạng thái rối loạn."
   },
   "spore": {
     "effect": "Pokémon rải các cụm bào tử để gây buồn ngủ."
   },
   "flash": {
-    "effect": "Người dùng lóe lên một luồng ánh sáng chói lọi làm giảm độ chuẩn của mục tiêu."
+    "effect": "Pokémon lóe lên một luồng ánh sáng chói lọi làm giảm độ chuẩn của mục tiêu."
   },
   "psywave": {
     "effect": "Mục tiêu bị tấn công bởi một làn sóng ngoại cảm kỳ lạ. Đòn tấn công này thay đổi theo các mức độ cường độ khác nhau."
@@ -777,7 +777,7 @@
     "effect": "Pokémon dằn vặt và chọc giận mục tiêu, khiến nó không thể sử dụng cùng một chiêu thức hai lần liên tiếp."
   },
   "flatter": {
-    "effect": "Nịnh bợ được sử dụng để làm xáo trộn và khiến mục tiêu bị hỗn loạn. Tuy nhiên, điều này cũng làm tăng chỉ số T.công Đ.b. của mục tiêu."
+    "effect": "Pokémon dùng những lời đường mật để khiến mục tiêu rối loạn. Tuy nhiên, đòn này cũng làm tăng chỉ số T.công Đ.b. của mục tiêu."
   },
   "willOWisp": {
     "effect": "Pokémon bắn một ngọn lửa tà ác vào mục tiêu để gây bỏng."
@@ -861,7 +861,7 @@
     "effect": "Pokémon nghỉ ngơi để tự chữa khỏi các trạng thái trúng độc, bỏng hoặc tê liệt."
   },
   "grudge": {
-    "effect": "Nếu Pokémon ngất xỉu, oán hận của Pokémon sẽ làm cạn kiệt hoàn toàn NL của chiêu thức mà đối thủ đã dùng để hạ gục nó."
+    "effect": "Nếu Pokémon gục ngã, oán niệm của bản thân sẽ cấu xé sạch toàn bộ NL của chiêu thức vừa hạ gục nó."
   },
   "snatch": {
     "effect": "Pokémon đánh cắp hiệu ứng từ bất kỳ nỗ lực sử dụng chiêu thức hồi máu hoặc thay đổi chỉ số nào của đối phương."
@@ -984,7 +984,7 @@
     "effect": "Pokémon bẫy mục tiêu vào bên trong một trận bão cát hoành hành dữ dội từ bốn đến năm lượt."
   },
   "sheerCold": {
-    "effect": "Mục tiêu sẽ bị ngất xỉu ngay lập tức. Chiêu thức này sẽ ít có khả năng đánh trúng mục tiêu hơn nếu được sử dụng bởi các Pokémon không thuộc hệ Băng. Các Pokémon Boss có khả năng kháng lại chiêu thức này."
+    "effect": "Mục tiêu gục ngã tức thì. Chiêu thức này bị giảm độ chính xác nếu được tung ra bởi Pokémon không phải hệ Băng. Vô hiệu với Boss."
   },
   "muddyWater": {
     "effect": "Người dùng tấn công bằng cách bắn nước bùn vào các Pokémon đối phương. Chiêu này cũng có thể làm giảm độ chuẩn của chúng."
@@ -1290,7 +1290,7 @@
     "effect": "Người dùng tập trung toàn bộ năng lượng ánh sáng của mình và giải phóng tất cả cùng một lúc. Chiêu thức này cũng có thể làm giảm chỉ số P.thủ Đ.b. của mục tiêu."
   },
   "rockClimb": {
-    "effect": "Người dùng tấn công mục tiêu bằng cách tông sầm vào nó với một lực cực mạnh. Chiêu thức này cũng có thể khiến mục tiêu bị hoang mang."
+    "effect": "Pokémon tấn công mục tiêu bằng cách tông sầm vào đối thủ với một lực cực mạnh. Đòn này cũng có thể khiến mục tiêu rơi vào trạng thái rối loạn."
   },
   "defog": {
     "effect": "Một cơn gió mạnh thổi bay các rào chắn của mục tiêu như Reflect hoặc Light Screen. Chiêu thức này cũng làm giảm khả năng né tránh của mục tiêu."
@@ -1380,7 +1380,7 @@
     "effect": "Người dùng xé toạc mục tiêu cùng với không gian xung quanh nó. Các đòn chí mạng sẽ dễ xuất hiện hơn."
   },
   "lunarDance": {
-    "effect": "Người dùng tự ngất (bị hạ gục). Đổi lại, Pokémon ra trận thay thế vị trí của nó sẽ được hồi phục hoàn toàn thanh HP và các trạng thái bất lợi."
+    "effect": "Bản thân tự gục ngã. Đổi lại, Pokémon thế chỗ nó sẽ được hồi phục toàn bộ trạng thái và HP."
   },
   "crushGrip": {
     "effect": "Người dùng nghiền nát mục tiêu với một lực cực mạnh. Mục tiêu càng nhiều HP, uy lực của chiêu thức này sẽ càng lớn."
@@ -1539,10 +1539,10 @@
     "effect": "Người dùng phản ánh loại của mục tiêu, khiến người dùng có cùng loại với mục tiêu."
   },
   "retaliate": {
-    "effect": "Người chơi trả thù cho đồng minh bị hạ gục. Nếu đồng minh bị hạ gục ở lượt trước, sức mạnh của chiêu thức này sẽ được tăng lên."
+    "effect": "Pokémon trả thù cho đồng đội vừa gục ngã. Nếu có đồng đội ngã xuống ở lượt trước, uy lực của chiêu thức này được gia tăng."
   },
   "finalGambit": {
-    "effect": "Người chơi liều lĩnh tấn công mục tiêu. Người chơi bất tỉnh nhưng gây sát thương bằng với lượng HP của mình."
+    "effect": "Pokémon đánh cược tất cả để tấn công mục tiêu. Bản thân sẽ gục ngã nhưng gây sát thương bằng đúng lượng HP hiện có của mình."
   },
   "bestow": {
     "effect": "Người dùng chuyển vật phẩm đang cầm cho mục tiêu khi mục tiêu không cầm vật phẩm nào."
@@ -2313,7 +2313,7 @@
     "effect": "Pokémon tấn công mục tiêu với sức mạnh khủng khiếp, có thể làm suy sụp tinh thần mục tiêu. Điều này cũng làm giảm chỉ số T.công Đ.b. của mục tiêu."
   },
   "strangeSteam": {
-    "effect": "Pokémon tấn công mục tiêu bằng cách phát ra hơi nước. Điều này cũng có thể gây nhầm lẫn cho mục tiêu."
+    "effect": "Pokémon tấn công mục tiêu bằng cách phát ra hơi nước. Điều này cũng có thể gây rối loạn cho mục tiêu."
   },
   "lifeDew": {
     "effect": "Pokémon rải nước bí ẩn xung quanh và hồi phục HP cho bản thân cũng như Pokémon đồng minh trong trận chiến."
@@ -2349,7 +2349,7 @@
     "effect": "Chiêu thức này gây sát thương vật lý hoặc sát thương đặc biệt, tùy thuộc vào loại nào hiệu quả hơn. Chiêu thức này cũng có thể gây độc cho mục tiêu."
   },
   "mistyExplosion": {
-    "effect": "Pokémon tấn công mọi thứ xung quanh và bất tỉnh sau khi sử dụng chiêu thức này. Sức mạnh của chiêu thức này được tăng lên trên Misty Terrain."
+    "effect": "Pokémon tấn công mọi thứ xung quanh rồi gục ngã sau khi thi triển. Uy lực của chiêu thức này được gia tăng trong Misty Terrain."
   },
   "grassyGlide": {
     "effect": "Lướt trên mặt đất, Pokémon tấn công mục tiêu. Chiêu thức này luôn được thực hiện trước trên Grassy Terrain."
@@ -2505,7 +2505,7 @@
     "effect": "Một đòn tấn công hệ Điện mà Gigantamax Pikachu sử dụng. Chiêu thức này làm tê liệt đối thủ."
   },
   "gMaxGoldRush": {
-    "effect": "Một đòn tấn công hệ Thường mà Gigantamax Meowth sử dụng. Chiêu thức này gây trạng thái bối rối cho đối thủ và cũng giúp kiếm thêm tiền."
+    "effect": "Một đòn tấn công hệ Thường mà Meowth Gigantamax sử dụng. Chiêu thức này gây trạng thái rối loạn cho đối thủ và cũng giúp kiếm thêm tiền."
   },
   "gMaxChiStrike": {
     "effect": "Một đòn tấn công hệ Chiến đấu mà Gigantamax Machamp sử dụng. Chiêu thức này làm tăng khả năng gây sát thương chí mạng."
@@ -2601,7 +2601,7 @@
     "effect": "Người dùng giăng một cái bẫy bằng tơ, bảo vệ bản thân khỏi sát thương đồng thời làm giảm chỉ số Tốc độ của bất kỳ kẻ tấn công nào tiếp xúc trực tiếp."
   },
   "axeKick": {
-    "effect": "Pokémon tấn công bằng cách đá lên không trung và giáng mạnh gót chân xuống mục tiêu.Chiêu này cũng có thể làm mục tiêu mất phương hướng. Nếu đánh trượt, Pokémon sẽ chịu sát thương."
+    "effect": "Pokémon tấn công bằng cách đá lên không trung và giáng mạnh gót chân xuống mục tiêu. Chiêu này cũng có thể làm mục tiêu rối loạn. Nếu đánh trượt, Pokémon sẽ chịu sát thương."
   },
   "lastRespects": {
     "effect": "Pokémon tấn công để trả thù cho đồng minh. Càng nhiều đồng minh bị đánh bại trong đội của Pokémon, sức mạnh của chiêu thức càng lớn."
@@ -2784,7 +2784,7 @@
     "effect": "Pokémon nâng cao tinh thần đồng minh bằng tiếng gầm rồng, giúp tăng khả năng gây sát thương chí mạng cho các đòn tấn công trong tương lai. Điều này càng khích lệ các Pokémon hệ Rồng hơn."
   },
   "alluringVoice": {
-    "effect": "Pokémon tấn công mục tiêu bằng giọng nói thiên thần của mình. Điều này cũng gây hoang mang cho mục tiêu nếu chỉ số của nó đã được tăng cường trong lượt chơi."
+    "effect": "Pokémon tấn công mục tiêu bằng thanh âm thiên thần. Đòn này sẽ khiến chúng rơi vào trạng thái rối loạn nếu các chỉ số của nó vừa được tăng trong lượt này."
   },
   "temperFlare": {
     "effect": "Do tuyệt vọng, người dùng tấn công mục tiêu. Sức mạnh của chiêu thức này được nhân đôi nếu chiêu thức trước đó của người dùng thất bại."
