@@ -2292,7 +2292,7 @@
     "effect": "Thân thể Pokémon trở thành một tấm khiên vững chắc và lao vào mục tiêu một cách dữ dội."
   },
   "auraWheel": {
-    "effect": "Pokémon tấn công và tăng Tốc độ bằng năng lượng tích trữ trong má. Nếu được sử dụng bởi Morpeko, loại chiêu thức này sẽ thay đổi tùy thuộc vào hình dạng của người dùng."
+    "effect": "Pokémon tấn công và tăng Tốc độ bằng năng lượng tích trữ trong má. Nếu được sử dụng bởi Morpeko, hệ của chiêu thức này sẽ thay đổi tùy thuộc vào thái hình bản thân."
   },
   "breakingSwipe": {
     "effect": "Pokémon vung chiếc đuôi cứng cáp của nó một cách dữ dội và tấn công Pokémon đối phương. Điều này cũng làm giảm chỉ số Tấn công của chúng."
@@ -2379,13 +2379,13 @@
     "effect": "Pokémon huấn luyện đồng minh của mình một cách bài bản, giúp tăng cường chỉ số Tấn công và Phòng thủ của chúng."
   },
   "flipTurn": {
-    "effect": "Sau khi thực hiện đòn tấn công, người dùng lao nhanh về để đổi chỗ với một Pokémon đang chờ sẵn trong đội hình."
+    "effect": "Sau khi tấn công, Pokémon nhanh chóng rút lui để đổi chỗ với một Pokémon khác trong đội."
   },
   "tripleAxel": {
     "effect": "Đòn đá ba cú liên hoàn, uy lực tăng dần trong từng cú đánh trúng đích."
   },
   "dualWingbeat": {
-    "effect": "Người dùng dùng cánh đập mạnh vào mục tiêu. Mục tiêu bị trúng đòn hai lần liên tiếp."
+    "effect": "Pokémon đập đôi cánh vào mục tiêu. Mục tiêu bị đánh hai lần liên tiếp."
   },
   "scorchingSands": {
     "effect": "Người dùng ném cát nóng bỏng vào mục tiêu để tấn công. Điều này cũng có thể khiến mục tiêu bị bỏng."
@@ -2400,16 +2400,16 @@
     "effect": "Người sử dụng, sau khi đã thành thạo Thủy độn, tấn công mục tiêu bằng ba đòn liên tiếp theo một đường uyển chuyển. Đòn tấn công này luôn gây ra sát thương chí mạng."
   },
   "thunderCage": {
-    "effect": "Người dùng nhốt mục tiêu trong một cái lồng điện phát ra tia lửa trong bốn đến năm lượt."
+    "effect": "Pokémon nhốt mục tiêu vào một lồng điện giật trong bốn đến năm lượt."
   },
   "dragonEnergy": {
-    "effect": "Biến đổi sinh mệnh thành sức mạnh, Pokemon tấn công các Pokémon đối thủ. HP của người dùng càng thấp, uy lực của chiêu thức càng giảm."
+    "effect": "Pokémon chuyển hóa sinh lực thành năng lượng để tấn công các Pokémon đối phương. HP của bản thân càng thấp, uy lực của chiêu thức càng giảm."
   },
   "freezingGlare": {
     "effect": "Pokémon phóng sức mạnh tâm linh từ mắt để tấn công. Điều này cũng có thể khiến mục tiêu bị đóng băng."
   },
   "fieryWrath": {
-    "effect": "Người dùng chuyển hóa cơn thịnh nộ của mình thành một luồng khí giống như lửa để tấn công. Điều này cũng có thể khiến Pokémon đối phương giật mình."
+    "effect": "Pokémon hóa cơn thịnh nộ thành hào quang rực lửa để tấn công. Đòn này có thể sẽ khiến đối phương giật mình."
   },
   "thunderousKick": {
     "effect": "Pokémon áp đảo mục tiêu bằng những chuyển động nhanh như chớp trước khi tung cú đá. Điều này cũng làm giảm chỉ số Phòng thủ của mục tiêu."
@@ -2424,10 +2424,10 @@
     "effect": "Người sử dụng tấn công bằng năng lượng tâm linh áp đảo. Đòn đánh này đồng thời xóa bỏ 3 PP của chiêu thức mà mục tiêu vừa sử dụng trước đó."
   },
   "direClaw": {
-    "effect": "Pokémon tấn công mục tiêu bằng những móng vuốt sắc nhọn. Điều này cũng có thể khiến mục tiêu bị trúng độc, tê liệt hoặc bất tỉnh."
+    "effect": "Pokémon vung móng vuốt hủy diệt tấn công mục tiêu. Đòn này có thể sẽ khiến mục tiêu bị trúng độc, tê liệt hoặc rơi vào giấc ngủ."
   },
   "psyshieldBash": {
-    "effect": "Bao bọc bản thân trong năng lượng tâm linh, người dùng lao vào mục tiêu. Điều này cũng giúp tăng chỉ số Phòng thủ của người dùng."
+    "effect": "Pokémon bao bọc bản thân trong năng lượng tâm linh rồi lao thẳng vào mục tiêu. Đòn này cũng giúp tăng chỉ số Phòng thủ của bản thân."
   },
   "powerShift": {
     "effect": "Pokémon hoán đổi chỉ số Tấn công và Phòng thủ của mình."
@@ -2796,12 +2796,12 @@
     "effect": "Người dùng tấn công mục tiêu bằng sóng âm khó chịu. Trong hai lượt, mục tiêu không thể hồi phục HP thông qua các chiêu thức, đặc tính hoặc vật phẩm đang giữ."
   },
   "upperHand": {
-    "effect": "Người dùng phản ứng với chuyển động của mục tiêu và tấn công bằng gót lòng bàn tay, khiến mục tiêu giật mình. Đòn tấn công này thất bại nếu mục tiêu không chuẩn bị một đòn tấn công ưu tiên."
+    "effect": "Pokémon men theo chuyển động của mục tiêu và tung chưởng bằng lòng bàn tay, khiến mục tiêu giật mình. Chiêu thức này thất bại nếu mục tiêu không trong thế thủ sẵn một chiêu thức ưu tiên."
   },
   "malignantChain": {
-    "effect": "Người dùng truyền độc tố vào mục tiêu bằng cách quấn chúng trong một sợi xích độc ăn mòn. Chiêu thức này cũng có thể khiến mục tiêu bị nhiễm độc nặng."
+    "effect": "Vây mục tiêu bằng chuỗi xích ăn mòn ác tính để truyền độc. Đòn này cũng có thể khiến mục tiêu rơi vào trạng thái trúng kịch độc."
   },
   "nihilLight": {
-    "effect": "Người dùng tấn công bằng cách giải phóng một luồng ánh sáng mạnh mẽ thách thức mọi quy luật tự nhiên, đánh trúng cả hệ Tiên và bỏ qua bất kỳ thay đổi chỉ số nào đang ảnh hưởng đến mục tiêu."
+    "effect": "Pokémon tung ra một luồng sáng cường đại thách thức mọi quy luật tự nhiên, đánh trúng cả hệ Tiên và bỏ qua mọi thay đổi chỉ số của mục tiêu."
   }
 }
