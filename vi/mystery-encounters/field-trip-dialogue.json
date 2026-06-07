@@ -1,0 +1,31 @@
+{
+  "intro": "Đấy là một giáo viên và một vài học sinh!",
+  "speaker": "Giáo Viên",
+  "introDialogue": "Chào bạn! Bạn có thể cho tôi và các học sinh vài phút được không?$Tôi đang dạy họ về các chiêu thức của Pokémon và rất muốn cho tụi nhỏ xem một ví dụ minh họa.$Bạn có phiền nếu cho chúng tôi xem một ví dụ những chiêu thức mà Pokémon của bạn có thể sử dụng không?",
+  "title": "Chuyến Đi Thực Địa",
+  "description": "Một giáo viên đang muốn bạn trình diễn một chiêu thức từ một Pokémon. Tùy thuộc vào chiêu thức bạn chọn, cô ấy có thể tặng bạn một món quà hữu ích.",
+  "query": "Bạn sẽ thể hiện chiêu thức thuộc thể loại nào?",
+  "option": {
+    "1": {
+      "label": "Một Chiêu Vật Lý",
+      "tooltip": "(+) Vật Phẩm Vật Lý"
+    },
+    "2": {
+      "label": "Chiêu Thức Đặc Biệt",
+      "tooltip": "(+) Vật Phẩm Đặc Biệt"
+    },
+    "3": {
+      "label": "Một Chiêu Hiệu Ứng",
+      "tooltip": "(+) Vật Phẩm Hiệu Ứng"
+    },
+    "selected": "{{pokeName}} trưng bày một màn hình tuyệt vời\nchiêu {{move}}!"
+  },
+  "secondOptionPrompt": "Hãy chọn một chiêu thức cho Pokémon của bạn sử dụng.",
+  "incorrect": "…$Hình như đó không phải chiêu thức loại {{moveCategory}}!\nTôi rất tiếc, nhưng tôi không thể cho bạn bất cứ thứ gì.$Đi nào các em, chúng ta sẽ tìm một huấn luyện viên tốt hơn ở nơi khác..",
+  "incorrectExp": "Có vẻ như các em đã học được một bài học rất quý giá đúng không nào?$Pokémon của bạn cũng đã tích lũy được thêm một số kinh nghiệm luôn nhỉ.",
+  "correct": "Cảm ơn bạn rất nhiều vì lòng tốt của bạn!\nTôi hy vọng những vật phẩm này sẽ hữu ích cho bạn!",
+  "correctExp": "{{pokeName}} đã thu được một số kinh nghiệm quý báu!",
+  "status": "Hiệu Ứng",
+  "physical": "Vật Lý",
+  "special": "Đặc Biệt"
+}
