@@ -77,7 +77,7 @@
   "flipStat": {
     "name": "Đảo ngược Chỉ số",
     "shortName": "Đảo ngược",
-    "desc": "Các chỉ số bị đảo ngược như sau:\n-​Máu với Tốc độ\n-​Tấn công với Phòng thủ Đặc biệt\n​-Phòng thủ với Tấn công Đặc biệt\n​Vô hiệu hóa thành tựu của các thử thách khác (Ngoại trừ Trận chiến Đảo ngược).",
+    "desc": "Các chỉ số bị đảo ngược như sau:\n-​Máu với Tốc độ\n-​Tấn công với P.thủ Đ.b.\n​-Phòng thủ với T.công Đ.b.\n​Vô hiệu hóa thành tựu của các thử thách khác (Ngoại trừ Trận chiến Đảo ngược).",
     "value": {
       "0": "Tắt",
       "1": "Bật"
@@ -89,6 +89,13 @@
     "value": {
       "0": "Tắt",
       "1": "Bật"
+    }
+  },
+  "passives": {
+    "name": "​Kích hoạt Nội tại",
+    "desc": {
+      "0": "Bắt buộc một số hoặc tất cả Pokémon phải kích hoạt nội tại của chúng.",
+      "1": "Pokémon của các Huấn luyện viên sẽ được kích hoạt nội tại.\nKhông ảnh hưởng đến các Pokémon khởi đầu mà cậu đã chọn."
     }
   }
 }
