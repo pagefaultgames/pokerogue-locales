@@ -1,0 +1,31 @@
+{
+  "intro": "Một nhân viên bận rộn vẫy tay gọi bạn lại.",
+  "speaker": "Nhân Viên",
+  "introDialogue": "Trông bạn giống như người sở hữu rất nhiều Pokémon giỏi!$Chúng tôi có thể trả tiền cho bạn nếu bạn có thể giúp chúng tôi với một số công việc bán thời gian!",
+  "title": "Anh Hùng Bán Thời Gian",
+  "description": "Có vẻ như có rất nhiều nhiệm vụ cần phải hoàn thành. Tùy thuộc vào mức độ phù hợp của Pokémon của bạn với nhiệm vụ, chúng ta thể kiếm được nhiều hoặc ít tiền hơn.",
+  "query": "Bạn sẽ chọn công việc nào?",
+  "invalidSelection": "Pokémon này không thể làm việc được!",
+  "option": {
+    "1": {
+      "label": "Giao Hàng",
+      "tooltip": "(-) Pokémon của bạn sử dụng Tốc độ\n(+) Kiếm được @[MONEY]{Money}",
+      "selected": "{{selectedPokemon}} của bạn làm việc theo ca để giao đơn hàng cho khách hàng."
+    },
+    "2": {
+      "label": "Việc Kho Hàng",
+      "tooltip": "(-) Pokémon của bạn sử dụng Sức mạnh và Sức bền\n(+) Kiếm được @[MONEY]{Money}",
+      "selected": "{{selectedPokemon}} của bạn làm việc theo ca, di chuyển các mặt hàng trong kho."
+    },
+    "3": {
+      "label": "Trợ Lý Bán Hàng",
+      "tooltip": "(-) {{option3PrimaryName}} của bạn sử dụng {{option3PrimaryMove}}\n(+) Kiếm được @[MONEY]{Money}",
+      "disabledTooltip": "Pokémon của bạn cần biết một số chiêu thức nhất định để thực hiện nhiệm vụ này.",
+      "selected": "{{option3PrimaryName}} của bạn dành cả ngày sử dụng {{option3PrimaryMove}} để thu hút khách hàng đến với doanh nghiệp!"
+    }
+  },
+  "jobCompleteGood": "Cảm ơn sự hỗ trợ!\n{{selectedPokemon}} của bạn đã vô cùng hữu ích!$Đây là hóa đơn của bạn hôm nay.",
+  "jobCompleteBad": "{{selectedPokemon}} của bạn đã giúp chúng tôi kha khá!$Đây là tiền công của bạn hôm nay.",
+  "pokemonTired": "{{selectedPokemon}} của bạn đã kiệt sức!\nĐiểm NL của tất cả các chiêu thức đã giảm xuống còn 2!",
+  "outro": "Hãy quay lại và giúp đỡ chúng tôi vào một dịp khác nhé!"
+}

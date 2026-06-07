@@ -1,0 +1,32 @@
+{
+  "intro": "Đây là giao diện dành cho Hệ thống Trao đổi Toàn cầu!",
+  "title": "GTS",
+  "description": "À, GTS! Một kỳ tích công nghệ, bạn có thể kết nối với bất kỳ ai trên toàn cầu để trao đổi Pokémon với họ! Liệu vận may có mỉm cười với bạn vào hôm nay?",
+  "query": "Ngươi định sẽ làm gì đây?",
+  "option": {
+    "1": {
+      "label": "Kiểm Tra Đề Nghị Trao Đổi",
+      "tooltip": "(+) Chọn một đề nghị trao đổi cho một trong những Pokémon của bạn",
+      "tradeOptionsPrompt": "Chọn một Pokémon bạn muốn nhận thông qua trao đổi."
+    },
+    "2": {
+      "label": "Trao Đổi Diệu Kì",
+      "tooltip": "(+) Gửi một trong những Pokémon của bạn lên GTS và nhận lại một Pokémon đặc biệt ngẫu nhiên."
+    },
+    "3": {
+      "label": "Trao Đổi Vật Phẩm",
+      "tradeOptionsPrompt": "Chọn một vật phẩm để gửi.",
+      "invalidSelection": "Pokémon này không có vật phẩm hợp lệ để trao đổi.",
+      "tooltip": "(+) Gửi một trong những vật phẩm của bạn đến GTS và nhận ngẫu nhiên một vật phẩm tương xứng."
+    },
+    "4": {
+      "label": "Rời đi",
+      "tooltip": "(-) Không có phần thưởng",
+      "selected": "Hôm nay không có thời gian để trao đổi!\nBạn tiếp tục cuộc hành trình."
+    }
+  },
+  "pokemonTradeSelected": "{{tradedPokemon}} sẽ được gửi đến {{tradeTrainerName}}.",
+  "pokemonTradeGoodbye": "Tạm biệt, {{tradedPokemon}}!",
+  "itemTradeSelected": "{{chosenItem}} sẽ được gửi đến {{tradeTrainerName}}.$.@d{64}.@d{64}.@d{64}\n@s{level_up_fanfare}Trao đổi hoàn tất!$Bạn đã nhận được một {{itemName}} từ {{tradeTrainerName}}!",
+  "tradeReceived": "@s{evolution_fanfare}{{tradeTrainerName}} đã gửi {{received}}!"
+}

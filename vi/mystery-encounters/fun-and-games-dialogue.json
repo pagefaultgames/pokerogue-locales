@@ -1,0 +1,31 @@
+{
+  "introDialogue": "Mời các bạn lên nào! Hãy thử vận may của mình với trò chơi đập búa hoàn toàn mới {{wobbuffetName}} Whack-o-matic!",
+  "speaker": "Người Biểu Diễn",
+  "title": "Vui Chơi Giải Trí!",
+  "description": "Bạn vừa gặp một gánh xiếc lưu động với trò chơi trúng thưởng! Bạn sẽ có @[TOOLTIP_TITLE]{3 lượt} để đưa {{wobbuffetName}} về mức HP thấp nhất có thể @[TOOLTIP_TITLE]{1 HP mà không hạ gục nó} để nó có thể tích lũy một bộ đếm khổng lồ trên máy rung chuông.\nNhưng hãy cẩn thận! Nếu bạn hạ gục {{wobbuffetName}}, bạn sẽ phải trả chi phí hồi sinh nó!",
+  "query": "Bạn có muốn chơi không?",
+  "invalidSelection": "Pokémon này không được chơi!",
+  "option": {
+    "1": {
+      "label": "Chơi trò chơi",
+      "tooltip": "(-) Trả {{option1Money, money}}\n(+) Chơi {{wobbuffetName}} Whack-o-matic",
+      "selected": "Đến lúc thử vận may rồi!"
+    },
+    "2": {
+      "label": "Rời đi",
+      "tooltip": "(-) Không có phần thưởng",
+      "selected": "Bạn vội vã bước đi, trong lòng có chút tiếc nuối."
+    }
+  },
+  "ko": "Ôi không! {{wobbuffetName}} đã ngất xỉu!$Bạn thua trận và phải trả phí hồi sinh…",
+  "chargingContinue": "Wobbuffet tiếp tục tung đòn phản công!",
+  "turnRemaining3": "Còn ba lượt nữa!",
+  "turnRemaining2": "Còn hai lượt nữa!",
+  "turnRemaining1": "Chỉ còn một lượt nữa!",
+  "endGame": "Hết giờ rồi!$Con {{wobbuffetName}} lên đà phản công và@d{16}.@d{16}.@d{16}.",
+  "bestResult": "Con {{wobbuffetName}} ấn nút mạnh đến nỗi chuông trên đỉnh rơi xuống! Bạn thắng giải nhất!",
+  "greatResult": "Con {{wobbuffetName}} nhấn nút, suýt nữa thì chạm vào chuông!$Tí nữa thì trúng rồi!\nBạn giành được giải thưởng hạng nhì!",
+  "goodResult": "Con {{wobbuffetName}} nhấn nút đủ mạnh để đạt đến mức giữa thang điểm!$Bạn giành được giải thưởng hạng ba!",
+  "badResult": "Con {{wobbuffetName}} chạm nhẹ vào nút và chẳng có gì xảy ra…$Ôi không!\nBạn chẳng nhận được gì cả!",
+  "outro": "Đó là một trò chơi khá thú vị!"
+}
