@@ -1,8 +1,9 @@
 {
   "title": "Điều Chỉnh Thử Thách",
+  "illegalEvolution": "{{pokemon}} đã biến đổi thành một Pokémon không hợp lệ cho thử thách này!",
   "noneSelected": "Chưa chọn",
   "freshStart": {
-    "name": "Khởi Đầu Mới",
+    "name": "KĐ Mới",
     "desc": {
       "0": "Mô phỏng thử thách sử dụng các Pokemon khởi đầu mới nhận được khi chưa mở khóa bất kỳ tính năng nào.",
       "1": "Cậu chỉ có thể sử dụng các Pokémon khởi đầu nguyên bản mà không có bất kỳ mở khóa nào, giống như khi vừa mới bắt đầu chơi PokéRogue lần đầu tiên vậy.",
@@ -10,12 +11,12 @@
     },
     "value": {
       "0": "Tắt",
-      "1": "Cài đặt lại Toàn bộ",
-      "2": "Tất cả Pokémon Khởi đầu"
+      "1": "Cài Lại",
+      "2": "Chỉ Starters"
     }
   },
   "hardcore": {
-    "name": "Chế độ Khó khăn",
+    "name": "Chế độ Khó",
     "desc": "Cậu không thể hồi sinh những Pokémon đã bị ngất nữa.",
     "value": {
       "0": "Tắt",
@@ -62,6 +63,7 @@
     }
   },
   "singleType": {
+    "name": "Đơn Hệ",
     "desc": "Cậu chỉ có thể sử dụng các Pokémon có hệ {{type}}.",
     "descDefault": "Cậu chỉ có thể sử dụng các Pokémon thuộc hệ đã chọn."
   },
