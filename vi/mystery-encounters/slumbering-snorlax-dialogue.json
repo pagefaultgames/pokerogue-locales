@@ -1,0 +1,25 @@
+{
+  "intro": "Khi bạn bước xuống một con đường hẹp, bạn thấy một cái bóng cao lớn chắn ngang đường đi.$Bạn đến gần hơn và thấy một {{snorlaxName}} đang ngủ say sưa. Có vẻ như không có cách nào khác.",
+  "title": "{{snorlaxName}} Say Mộng",
+  "description": "Bạn có thể tấn công nó để cố gắng khiến nó di chuyển, hoặc đơn giản là chờ nó tỉnh dậy. Nhưng ai biết việc đó sẽ mất bao lâu…",
+  "query": "Ngươi định sẽ làm gì đây?",
+  "option": {
+    "1": {
+      "label": "Chiến Đấu Với Nó",
+      "tooltip": "(-) Chiến đấu với {{snorlaxName}} đang ngủ\n(+) Phần thưởng đặc biệt",
+      "selected": "Bạn dũng cảm tiến lại gần Pokémon\nđó mà không hề sợ hãi."
+    },
+    "2": {
+      "label": "Chờ nó di chuyển",
+      "tooltip": "(-) Chờ đợi một lúc lâu\n(+) Cả đội hồi phục",
+      "selected": ".@d{32}.@d{32}.@d{32}$Bạn chờ một lúc, nhưng những cái ngáp của {{snorlaxName}} khiến cả nhóm buồn ngủ…",
+      "restResult": "Khi bạn tỉnh dậy, không thấy {{snorlaxName}} đâu cả - nhưng tất cả Pokémon của bạn đều đã được chữa lành!"
+    },
+    "3": {
+      "label": "Đánh cắp vật phẩm của nó",
+      "tooltip": "(+) {{option3PrimaryName}} dùng {{option3PrimaryMove}}\n(+) Phần thưởng đặc biệt",
+      "disabledTooltip": "Pokémon của ngươi cần phải biết một số chiêu thức nhất định mới chọn được điều này.",
+      "selected": "{{option3PrimaryName}} của bạn dùng {{option3PrimaryMove}}!$@s{item_fanfare}Nó trộm mất Lõi Táo Thừa khỏi tay {{snorlaxName}} đang say ngủ và bạn nhanh chóng rời đi!"
+    }
+  }
+}
