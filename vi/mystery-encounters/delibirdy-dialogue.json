@@ -1,0 +1,27 @@
+{
+  "intro": "Một đàn {{delibirdName}} đã xuất hiện!",
+  "title": "Cánh Cụt Giao Hàng",
+  "description": "Đàn {{delibirdName}}s đang nhìn bạn đầy mong đợi, như thể muốn điều gì đó. Có lẽ tặng chúng một món đồ hoặc một ít tiền sẽ làm chúng hài lòng?",
+  "query": "Bạn sẽ tặng chúng cái gì?",
+  "invalidSelection": "Pokémon này không mang loại vật phẩm đó.",
+  "option": {
+    "1": {
+      "label": "Cho Tiền",
+      "tooltip": "(-) Cho đàn {{delibirdName}}s {{money, money}}\n(+) Nhận một món quà",
+      "selected": "Bạn ném tiền cho đàn {{delibirdName}}s,\nchúng bắt đầu giao tiếp với nhau một cách hào hứng. Sau đó, quay lại và vui vẻ tặng bạn một món quà!"
+    },
+    "2": {
+      "label": "Cho Đồ Ăn",
+      "tooltip": "(-) Cho đàn {{delibirdName}}s 1 Berry hoặc Hạt Hồi Sinh\n(+) Nhận một món quà",
+      "selectPrompt": "Hãy chọn một vật phẩm để tặng.",
+      "selected": "Bạn ném {{chosenItem}} cho đàn {{delibirdName}}s, chúng bắt đầu trò chuyện rôm rả với nhau một cách hào hứng.$Sau đó, quay lại và vui vẻ tặng bạn một món quà!"
+    },
+    "3": {
+      "label": "Cho 1 Vật Phẩm",
+      "tooltip": "(-) Cho đàn {{delibirdName}}s 1 Vật Phẩm\n(+) Nhận một món quà",
+      "selectPrompt": "Hãy chọn một vật phẩm để tặng.",
+      "selected": "Bạn ném {{chosenItem}} cho đàn {{delibirdName}}s, chúng trò chuyện rôm rả với nhau một cách hào hứng.$Sau đó, quay lại và vui vẻ tặng bạn một món quà!"
+    }
+  },
+  "outro": "Đàn {{delibirdName}} vui vẻ lạch bạch đi về phía xa.$Thật là một cuộc trao đổi kỳ lạ!"
+}
