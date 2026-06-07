@@ -23,7 +23,27 @@
     }
   },
   "limitedCatch": {
-    "name": "Giới hạn Bắt Pokémon"
+    "name": "Giới hạn Bắt Pokémon",
+    "desc": "Cậu chỉ có thể thêm Pokémon đầu tiên gặp được ở mỗi hệ sinh thái vào đội hình hiện tại của mình.",
+    "value": {
+      "0": "Tắt",
+      "1": "Bật"
+    }
+  },
+  "limitedSupport": {
+    "name": "Hỗ trợ Giới hạn",
+    "desc": {
+      "0": "Loại bỏ một số hoặc tất cả các lựa chọn hồi máu miễn phí cho đội hình của cậu.",
+      "1": "Loại bỏ tính năng tự động hồi máu ở cuối mỗi hệ sinh thái.\nThay vào đó, cậu sẽ nhận được menu phần thưởng tiêu chuẩn như ở cuối mỗi đợt.",
+      "2": "Loại bỏ Cửa hàng trong menu phần thưởng ở cuối mỗi đợt.",
+      "3": "Loại bỏ Cửa hàng trong menu phần thưởng ở cuối mỗi đợt.\n​Loại bỏ tính năng tự động hồi máu ở cuối mỗi hệ sinh thái.\nThay vào đó, cậu sẽ nhận được menu phần thưởng tiêu chuẩn như ở cuối mỗi đợt."
+    },
+    "value": {
+      "0": "Tắt",
+      "1": "Không hồi máu",
+      "2": "Không Cửa Hàng",
+      "3": "Cả hai"
+    }
   },
   "singleGeneration": {
     "gen": {
