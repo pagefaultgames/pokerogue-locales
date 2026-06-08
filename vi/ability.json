@@ -168,10 +168,10 @@
     "description": "Khi Pokémon bị trúng đòn tấn công tiếp xúc, kẻ tấn công có 30% khả năng bị mê hoặc nếu kẻ tấn công và Pokémon khác giới."
   },
   "plus": {
-    "description": "Chỉ số Tấn công đặc biệt (Sp. Atk) của Pokémon được tăng 50% nếu có đồng minh sở hữu Khả năng Cộng hoặc Trừ tham gia trận chiến."
+    "description": "Chỉ số T.công Đ.b. của Pokémon được tăng 50% nếu có đồng minh sở hữu Khả năng Cộng hoặc Trừ tham gia trận chiến."
   },
   "minus": {
-    "description": "Chỉ số Tấn công đặc biệt (Sp. Atk) của Pokémon được tăng 50% nếu có đồng minh sở hữu Khả năng Cộng hoặc Trừ tham gia trận chiến."
+    "description": "Chỉ số T.công Đ.b. của Pokémon được tăng 50% nếu có đồng minh sở hữu Khả năng Cộng hoặc Trừ tham gia trận chiến."
   },
   "forecast": {
     "description": "Pokémon này biến đổi theo thời tiết để thay đổi hệ thành Nước, Lửa hoặc Băng."
@@ -261,7 +261,7 @@
     "description": "Hồi phục ¼ lượng HP tối đa của Pokémon khi bị trúng đòn tấn công hệ Nước hoặc ⅛ lượng HP tối đa vào cuối mỗi lượt khi trời mưa. Tuy nhiên, Pokémon này sẽ chịu thêm 25% sát thương từ các chiêu thức hệ Lửa và mất ⅛ lượng HP tối đa vào cuối mỗi lượt khi gặp ánh nắng gay gắt."
   },
   "download": {
-    "description": "Pokémon này so sánh chỉ số Phòng thủ và Phòng thủ đặc biệt của Pokémon đối phương trước khi tăng chỉ số Tấn công hoặc Tấn công đặc biệt của chính nó — tùy thuộc vào chỉ số nào hiệu quả hơn."
+    "description": "Pokémon này so sánh chỉ số Phòng thủ và P.thủ Đ.b. của Pokémon đối phương trước khi tăng chỉ số Tấn công hoặc T.công Đ.b. của chính nó — tùy thuộc vào chỉ số nào hiệu quả hơn."
   },
   "ironFist": {
     "description": "Tăng sức mạnh các đòn đấm của Pokémon lên 20%."
@@ -279,7 +279,7 @@
     "description": "Chữa khỏi các trạng thái bất lợi của Pokémon vào cuối mỗi lượt khi trời mưa."
   },
   "solarPower": {
-    "description": "Dưới ánh nắng gay gắt, chỉ số Tấn công đặc biệt (Sp. Atk) của Pokémon này được tăng 50% nhưng nó sẽ mất ⅛ lượng HP tối đa vào cuối mỗi lượt."
+    "description": "Dưới ánh nắng gay gắt, chỉ số T.công Đ.b. của Pokémon này được tăng 50% nhưng nó sẽ mất ⅛ lượng HP tối đa vào cuối mỗi lượt."
   },
   "quickFeet": {
     "description": "Khi Pokémon bị ảnh hưởng bởi trạng thái bất lợi, chỉ số Tốc độ của nó sẽ được tăng 50%. Trạng thái tê liệt không làm giảm chỉ số Tốc độ của Pokémon."
@@ -363,7 +363,7 @@
     "description": "Thay đổi hệ của Pokémon theo Plate mà nó đang giữ."
   },
   "flowerGift": {
-    "description": "Tăng chỉ số Tấn công và Phòng thủ đặc biệt của Pokémon và các đồng minh đứng cạnh nó trong trận chiến lên 50% khi trời nắng gắt."
+    "description": "Tăng chỉ số Tấn công và P.thủ Đ.b. của Pokémon và các đồng minh đứng cạnh nó trong trận chiến lên 50% khi trời nắng gắt."
   },
   "badDreams": {
     "description": "Gây sát thương bằng ⅛ lượng HP tối đa của Pokémon đối phương khi đang ngủ vào cuối mỗi lượt."
@@ -600,7 +600,7 @@
     "description": "Tăng sức mạnh của các chiêu thức hệ Thép của Pokémon lên 50%."
   },
   "berserk": {
-    "description": "Tăng chỉ số Tấn công đặc biệt của Pokémon khi một đòn tấn công khiến HP của nó giảm xuống còn ½ hoặc ít hơn so với HP tối đa."
+    "description": "Tăng chỉ số T.công Đ.b. của Pokémon khi một đòn tấn công khiến HP của nó giảm xuống còn ½ hoặc ít hơn so với HP tối đa."
   },
   "slushRush": {
     "description": "Tăng gấp đôi chỉ số Tốc độ của Pokémon khi gặp tuyết hoặc mưa đá. Pokémon sẽ không bị sát thương bởi mưa đá nếu bình thường nó bị ảnh hưởng."
@@ -627,7 +627,7 @@
     "description": "Mỗi trận chiến, lớp màn bao phủ Pokémon có thể bảo vệ nó khỏi một đòn tấn công với cái giá là mất đi ⅛ lượng HP tối đa."
   },
   "battleBond": {
-    "description": "Mỗi lần đổi Pokémon và hạ gục mục tiêu, chỉ số Tấn công, Tấn công đặc biệt và Tốc độ của nó sẽ được tăng lên. Nếu Greninja có khả năng này, nó sẽ biến hình thành Satoshi-Greninja mỗi khi hạ gục mục tiêu."
+    "description": "Mỗi lần đổi Pokémon và hạ gục mục tiêu, chỉ số Tấn công, T.công Đ.b. và Tốc độ của nó sẽ được tăng lên. Nếu Greninja có khả năng này, nó sẽ biến hình thành Satoshi-Greninja mỗi khi hạ gục mục tiêu."
   },
   "powerConstruct": {
     "description": "Các tế bào tập hợp lại để hỗ trợ Pokémon khi HP của nó giảm xuống còn ½ hoặc thấp hơn, khiến nó biến đổi thành Dạng Hoàn Chỉnh."
@@ -648,7 +648,7 @@
     "description": "Mỗi khi một động tác nhảy được sử dụng trong trận chiến, Pokémon sẽ sao chép người dùng để ngay lập tức thực hiện động tác nhảy đó."
   },
   "battery": {
-    "description": "Các đồng minh đứng cạnh Pokémon trong trận chiến sẽ được tăng 30% chỉ số Tấn công đặc biệt khi sử dụng chiêu thức đặc biệt."
+    "description": "Các đồng minh đứng cạnh Pokémon trong trận chiến sẽ được tăng 30% chỉ số T.công Đ.b. khi sử dụng chiêu thức đặc biệt."
   },
   "fluffy": {
     "description": "Giảm một nửa sát thương nhận từ các đòn tấn công trực diện, nhưng tăng gấp đôi sát thương nhận từ các đòn tấn công hệ Lửa."
@@ -657,7 +657,7 @@
     "description": "Pokémon này làm cho đối thủ choáng ngợp, khiến chúng không thể sử dụng các chiêu thức ưu tiên chống lại Pokémon này hoặc các đồng minh của nó bên cạnh trong trận chiến."
   },
   "soulHeart": {
-    "description": "Tăng chỉ số Tấn công đặc biệt của Pokémon mỗi khi một Pokémon khác bị hạ gục."
+    "description": "Tăng chỉ số T.công Đ.b. của Pokémon mỗi khi một Pokémon khác bị hạ gục."
   },
   "tanglingHair": {
     "description": "Khi Pokémon bị trúng đòn tấn công tiếp xúc, chỉ số Tốc độ của kẻ tấn công sẽ bị giảm."
@@ -798,7 +798,7 @@
     "description": "Đặc tính này kết hợp hiệu ứng của cả Unnerve và Chilling Neigh, ngăn chặn Pokémon đối phương ăn quả mọng đồng thời tăng chỉ số Tấn công của Pokémon khi hạ gục một mục tiêu."
   },
   "asOneSpectrier": {
-    "description": "Đặc tính này kết hợp hiệu ứng của cả Áp Lực Tâm Lý và Tiếng Hí Hắc Ám, ngăn chặn Pokémon đối phương ăn quả mọng đồng thời tăng chỉ số Tấn công Đặc biệt của Pokémon khi hạ gục một mục tiêu."
+    "description": "Đặc tính này kết hợp hiệu ứng của cả Áp Lực Tâm Lý và Tiếng Hí Hắc Ám, ngăn chặn Pokémon đối phương ăn quả mọng đồng thời tăng chỉ số T.công Đ.b. của Pokémon khi hạ gục một mục tiêu."
   },
   "lingeringAroma": {
     "description": "Khi Pokémon này bị tấn công bởi chiêu thức vật lý, đối thủ tấn công sẽ mất đặc tính và biến thành Lingering Aroma."
@@ -810,7 +810,7 @@
     "description": "Tăng chỉ số Tấn công khi Pokémon bị trúng một chiêu thức hệ Lửa. Pokémon này cũng không thể bị bỏng."
   },
   "angerShell": {
-    "description": "Khi một đòn tấn công khiến HP của nó giảm xuống còn một nửa hoặc ít hơn, Pokémon sẽ trở nên tức giận. Điều này làm giảm chỉ số Tấn công và Phòng thủ của nó nhưng lại tăng mạnh chỉ số Tấn công, Tấn công Đặc biệt và Tốc độ."
+    "description": "Khi một đòn tấn công khiến HP của nó giảm xuống còn một nửa hoặc ít hơn, Pokémon sẽ trở nên tức giận. Điều này làm giảm chỉ số Tấn công và Phòng thủ của nó nhưng lại tăng mạnh chỉ số Tấn công, T.công Đ.b. và Tốc độ."
   },
   "purifyingSalt": {
     "description": "Lượng muối tinh khiết của Pokémon giúp bảo vệ nó khỏi các trạng thái bất lợi và giảm một nửa sát thương nhận vào từ các chiêu thức hệ Ma."
@@ -849,7 +849,7 @@
     "description": "Một cơ thể bằng vàng ròng nguyên khối giúp Pokémon hoàn toàn miễn nhiễm với các chiêu thức trạng thái của các Pokémon khác."
   },
   "vesselOfRuin": {
-    "description": "Sức mạnh từ chiếc bình tàn hại của Pokémon làm giảm 25% chỉ số Tấn công Đặc biệt của tất cả các Pokémon khác ngoại trừ chính nó khi ở trên sân."
+    "description": "Sức mạnh từ chiếc bình tàn hại của Pokémon làm giảm 25% chỉ số T.công Đ.b. của tất cả các Pokémon khác ngoại trừ chính nó khi ở trên sân."
   },
   "swordOfRuin": {
     "description": "Sức mạnh từ thanh kiếm tàn hại của Pokémon làm giảm 25% chỉ số Phòng thủ của tất cả các Pokémon khác ngoại trừ chính nó khi ở trên sân."
@@ -858,13 +858,13 @@
     "description": "Sức mạnh từ những thẻ gỗ tàn hại của Pokémon làm giảm 25% chỉ số Tấn công của tất cả các Pokémon khác ngoại trừ chính nó khi ở trên sân."
   },
   "beadsOfRuin": {
-    "description": "Sức mạnh từ những hạt ngọc tàn hại của Pokémon làm giảm 25% chỉ số Phòng thủ Đặc biệt của tất cả các Pokémon khác ngoại trừ chính nó khi ở trên sân."
+    "description": "Sức mạnh từ những hạt ngọc tàn hại của Pokémon làm giảm 25% chỉ số P.thủ Đ.b. của tất cả các Pokémon khác ngoại trừ chính nó khi ở trên sân."
   },
   "orichalcumPulse": {
     "description": "Triệu hồi ánh nắng gay gắt trong 5 lượt khi Pokémon vào trận chiến. Xung động cổ đại đập mạnh qua Pokémon cũng giúp tăng 33% chỉ số Tấn công của nó dưới ánh nắng gay gắt."
   },
   "hadronEngine": {
-    "description": "Tạo ra Sân điện trên mặt đất trong 5 lượt khi Pokémon vào trận chiến. Động cơ tương lai bên trong Pokémon cũng giúp tăng 33% chỉ số Tấn công Đặc biệt của nó trên Sân điện."
+    "description": "Tạo ra Sân điện trên mặt đất trong 5 lượt khi Pokémon vào trận chiến. Động cơ tương lai bên trong Pokémon cũng giúp tăng 33% chỉ số T.công Đ.b. của nó trên Sân điện."
   },
   "opportunist": {
     "description": "Khi các chỉ số của đối thủ được tăng lên, Pokémon sẽ nắm bắt cơ hội để tăng các chỉ số của chính nó theo cách hoàn toàn tương tự."
@@ -909,7 +909,7 @@
     "description": "Trái tim của Pokémon tràn ngập những ký ức, khiến Thanh Diện Mặt Nạ tỏa sáng và chỉ số Tốc độ của Pokémon được tăng cường."
   },
   "embodyAspectWellspring": {
-    "description": "Trái tim của Pokémon tràn ngập những ký ức, khiến Thanh Tuyền Mặt Nạ tỏa sáng và chỉ số Phòng thủ Đặc biệt của Pokémon được tăng cường."
+    "description": "Trái tim của Pokémon tràn ngập những ký ức, khiến Thanh Tuyền Mặt Nạ tỏa sáng và chỉ số P.thủ Đ.b. của Pokémon được tăng cường."
   },
   "embodyAspectHearthflame": {
     "description": "Trái tim của Pokémon tràn ngập những ký ức, khiến Diễm Hỏa Mặt Nạ tỏa sáng và chỉ số Tấn công của Pokémon được tăng cường."
