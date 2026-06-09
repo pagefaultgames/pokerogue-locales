@@ -9,10 +9,12 @@
     },
     "PokemonHeldItemModifierType": {
       "extra": {
-        "inoperable": "{{pokemonName}} nie może\ntego wziąć!"
+        "inoperable": "{{pokemonName}} nie może\ntego wziąć!",
+        "tooMany": "{{pokemonName}} ma tego za dużo!"
       }
     },
     "PokemonHpRestoreModifierType": {
+      "description": "Odnawia {{restorePoints}} PŻ lub {{restorePercent}% PŻ jednego Pokémona, w zależności, która wartość jest większa.",
       "extra": {
         "fully": "W pełni odnawia PŻ jednego Pokémona."
       }
@@ -21,6 +23,7 @@
       "description": "Ożywia jednego Pokémona i odnawia {{restorePercent}}% PŻ."
     },
     "PokemonPpRestoreModifierType": {
+      "description": "Odnawia {{restorePoints}} PM ataku jednego Pokémona.",
       "extra": {
         "fully": "Odnawia wszystkie PM jednego ataku."
       }
@@ -33,6 +36,12 @@
     },
     "PokemonNatureChangeModifierType": {
       "description": "Zmienia naturę Pokémona na: {{natureName}} i odblokowuje ją do użycia na starcie."
+    },
+    "TempStatStageBoosterModifierType": {
+      "description": "{{stat}} wszystkich twoich Pokémonów wzrasta o {{amount}} na czas 5 bitew.",
+      "extra": {
+        "percentage": "20%"
+      }
     },
     "PokemonLevelIncrementModifierType": {
       "description": "Podnosi poziom jednego Pokémona o {{levels}}."
@@ -52,6 +61,9 @@
     "PokemonMoveAccuracyBoosterModifierType": {
       "description": "Zwiększa celność ataków o {{accuracyAmount}}."
     },
+    "TmModifierType": {
+      "description": "Uczy Pokémona ataku {{moveName}}."
+    },
     "MAP": {
       "name": "Mapa",
       "description": "Pozwala wybrać drogę na rozdrożach."
@@ -65,8 +77,14 @@
     "HYPER_POTION": {
       "name": "Hiper Lekarstwo"
     },
+    "WHITE_HERB": {
+      "name": "Białe Ziele"
+    },
     "ELIXIR": {
       "name": "Eliksir"
+    },
+    "PP_MAX": {
+      "name": "PM Maks"
     },
     "LEEK": {
       "name": "Por"
@@ -74,9 +92,22 @@
     "EVIOLITE": {
       "name": "Ewolit"
     },
+    "NUGGET": {
+      "name": "Samorodek"
+    },
+    "BIG_NUGGET": {
+      "name": "Duży Samorodek"
+    },
     "LEFTOVERS": {
       "name": "Resztki",
       "description": "Co turę odnawia 1/16 całkowitych PŻ Pokémona."
+    },
+    "EVOLUTION_TRACKER_GIMMIGHOUL": {
+      "name": "Skarby",
+      "description": "Ten Pokémon kocha skarby! Zbieraj dalej, a może coś się wydarzy!"
+    },
+    "BATON": {
+      "name": "Sztafeta"
     },
     "IV_SCANNER": {
       "name": "Skaner IV",
@@ -97,6 +128,8 @@
   "AttackTypeBoosterItem": {
     "silk_scarf": "Jedwabny Szal",
     "black_belt": "Czarny Pas",
+    "charcoal": "Węgiel Drzewny",
+    "miracle_seed": "Cudowne Nasiono",
     "magnet": "Magnes"
   },
   "BaseStatBoosterItem": {
@@ -111,6 +144,7 @@
     "DRAGON_SCALE": "Smocza Łuska"
   },
   "FormChangeItem": {
+    "ABOMASITE": "Abomasnonit",
     "ABSOLITE": "Absolit",
     "AERODACTYLITE": "Aerodactylit",
     "AGGRONITE": "Aggronit",
@@ -152,6 +186,57 @@
     "SALAMENCITE": "Salamencyt",
     "SCEPTILITE": "Sceptilyt",
     "SCIZORITE": "Scizoryt",
+    "SHARPEDONITE": "Sharpedonit",
+    "SLOWBRONITE": "Slowbronit",
+    "STEELIXITE": "Steelixyt",
+    "SWAMPERTITE": "Swamperyt",
+    "TYRANITARITE": "Tyranitaryt",
+    "VENUSAURITE": "Venusauryt",
+    "CLEFABLITE": "Clefablit",
+    "VICTREEBELITE": "Victreebelit",
+    "STARMINITE": "Starminit",
+    "DRAGONINITE": "Dragonityt",
+    "MEGANIUMITE": "Meganiumit",
+    "FERALIGITE": "Feraligatryt",
+    "SKARMORITE": "Skarmoryt",
+    "FROSLASSITE": "Froslassyt",
+    "EMBOARITE": "Emboaryt",
+    "EXCADRITE": "Excadrilyt",
+    "SCOLIPITE": "Scolipedyt",
+    "SCRAFTINITE": "Scraftynit",
+    "EELEKTROSSITE": "Elektrossyt",
+    "CHANDELURITE": "Chandeluryt",
+    "CHESNAUGHTITE": "Chenaughtyt",
+    "DELPHOXITE": "Delphoxyt",
+    "GRENINJITE": "Greninjyt",
+    "PYROARITE": "Pyroaryt",
+    "FLOETTITE": "Floettyt",
+    "MALAMARITE": "Malamaryt",
+    "BARBARACITE": "Barbaracyt",
+    "DRAGALGITE": "Dragalgit",
+    "HAWLUCHANITE": "Hawluchanit",
+    "ZYGARDITE": "Zygardyt",
+    "DRAMPANITE": "Drampanit",
+    "FALINKSITE": "Falinksyt",
+    "HEATRANITE": "Heatranit",
+    "DARKRANITE": "Darkrainit",
+    "ZERAORITE": "Zeraoratyt",
+    "RAICHUNITE_X": "Raichunit X",
+    "RAICHUNITE_Y": "Raichunit Y",
+    "CHIMECHITE": "Chimechotyt",
+    "ABSOLITE_Z": "Absolit Z",
+    "STARAPTITE": "Staraptyt",
+    "GARCHOMPITE_Z": "Garchompit Z",
+    "LUCARIONITE_Z": "Lucarionit Z",
+    "GOLURKITE": "Golurktyt",
+    "MEOWSTICITE": "Meowstictyt",
+    "CRABOMINITE": "Crabominyt",
+    "GOLISOPITE": "Golisopodyt",
+    "MAGEARNITE": "Magearnit",
+    "SCOVILLAINITE": "Scovillainit",
+    "BAXCALIBRITE": "Baxcalibryt",
+    "TATSUGIRINITE": "Tatsugiryt",
+    "GLIMMORANITE": "Glimmoranit",
     "RUSTED_SWORD": "Zardzewiały Miecz",
     "RUSTED_SHIELD": "Zardzewiała Tarcza"
   }
