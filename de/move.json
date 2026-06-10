@@ -3336,10 +3336,12 @@
     "effect": "Der Anwender hüllt sich in Wasser und prallt mit seinem ganzen Körper gegen das Ziel, um Schaden zuzufügen. Der Anwender erleidet dabei ein Drittel des durch diese Attacke verursachten Schadens."
   },
   "chloroblast": {
-    "name": "Chlorostrahl"
+    "name": "Chlorostrahl",
+    "effect": "Der Anwender setzt sein angesammeltes Chlorophyll frei, um dem Ziel Schaden zuzufügen. Nach dem Angriff erleidet der Anwender Schaden in Höhe der Hälfte seiner maximalen KP."
   },
   "mountainGale": {
-    "name": "Frostfallwind"
+    "name": "Frostfallwind",
+    "effect": "Der Anwender schleudert riesige Eisbrocken auf das Ziel, um Schaden zuzufügen. Diese Attacke hat eine Chance von 30 %, das Ziel zurückschrecken zu lassen."
   },
   "victoryDance": {
     "name": "Siegestanz",
@@ -3350,10 +3352,12 @@
     "effect": "Der Anwender rammt das Ziel mit dem ganzen Körper. Dadurch sinken die Verteidigung und Spezial-Verteidigung des Anwenders."
   },
   "barbBarrage": {
-    "name": "Giftstachelregen"
+    "name": "Giftstachelregen",
+    "effect": "Der Anwender verschießt unzählige giftige Stacheln, um Schaden zuzufügen. Diese Attacke hat eine Chance von 50 %, das Ziel zu vergiften. Ihre Stärke verdoppelt sich, wenn das Ziel bereits vergiftet ist."
   },
   "esperWing": {
-    "name": "Auraschwingen"
+    "name": "Auraschwingen",
+    "effect": "Der Anwender schlägt mit aura-verstärkten Flügeln auf das Ziel ein und erhöht dabei seinen Initiative-Wert. Zudem wird die Volltrefferquote dieser Attacke um eine Stufe erhöht."
   },
   "bitterMalice": {
     "name": "Niedertracht",
@@ -3364,32 +3368,40 @@
     "effect": "Der Anwender macht seine Haut so hart wie Eisen und erhöht dadurch seine Verteidigung stark."
   },
   "tripleArrows": {
-    "name": "Drillingspfeile"
+    "name": "Drillingspfeile",
+    "effect": "Der Anwender tritt zu und verschießt anschließend drei Pfeile. Die Attacke hat eine Chance von 50 %, den Verteidigungs-Wert des Ziels zu senken, und eine Chance von 30 %, das Ziel zurückschrecken zu lassen. Zudem ist die Volltrefferquote dieser Attacke um eine Stufe erhöht."
   },
   "infernalParade": {
-    "name": "Phantomparade"
+    "name": "Phantomparade",
+    "effect": "Der Anwender greift mit einer Vielzahl von Feuerbällen an. Diese Attacke hat eine Chance von 30 %, das Ziel zu verbrennen. Ihre Stärke verdoppelt sich, wenn das Ziel unter einem Statusproblem leidet."
   },
   "ceaselessEdge": {
-    "name": "Klingenschwall"
+    "name": "Klingenschwall",
+    "effect": "Der Anwender schlägt mit seiner geschärften Klinge nach dem Ziel. Die durch diesen Angriff hinterlassenen Splitter bleiben als Stacheln unter dem Ziel verstreut liegen – bis zu einer maximalen Schichtung von drei Lagen."
   },
   "bleakwindStorm": {
-    "name": "Polarorkan"
+    "name": "Polarorkan",
+    "effect": "Der Anwender greift mit eisigen Winden an, die sowohl Körper als auch Geist erzittern lassen. Diese Attacke senkt mit einer Wahrscheinlichkeit von 30 % die Initiative gegnerischer Pokémon und trifft bei Regen immer."
   },
   "wildboltStorm": {
-    "name": "Donnerorkan"
+    "name": "Donnerorkan",
+    "effect": "Der Anwender beschwört einen donnernden Sturm herauf und greift mit Blitz und Wind heftig an. Diese Attacke hat eine Chance von 20 %, das Ziel zu paralysieren, und trifft bei Regen immer."
   },
   "sandsearStorm": {
-    "name": "Wüstenorkan"
+    "name": "Wüstenorkan",
+    "effect": "Der Anwender greift an, indem er das gegnerische Pokémon in heftige Winde und sengend heißen Sand hüllt. Diese Attacke hat eine Chance von 20 %, das Ziel zu verbrennen, und trifft bei Regen immer."
   },
   "lunarBlessing": {
-    "name": "Lunargebet"
+    "name": "Lunargebet",
+    "effect": "Der Anwender erhält einen Segen vom Halbmond, der ⅙ der maximalen KP des Anwenders und seines verbündeten Pokémon wiederherstellt und gleichzeitig Statusprobleme heilt."
   },
   "takeHeart": {
     "name": "Mutschub",
     "effect": "Der Anwender fasst sich ein Herz, befreit sich von Statusproblemen und erhöht außerdem seinen Spezial-Angriff und seine Spezial-Verteidigung."
   },
   "gMaxWildfire": {
-    "name": "Giga-Feuerflug"
+    "name": "Giga-Feuerflug",
+    "effect": "Eine Feuer-Attacke, die von Gigadynamax-Glurak eingesetzt wird. Diese Attacke fügt Gegnern, die nicht vom Typ Feuer sind, vier Runden lang am Ende jeder Runde Schaden in Höhe von einem Sechstel ihrer maximalen KP zu."
   },
   "gMaxBefuddle": {
     "name": "Giga-Benebelung",
