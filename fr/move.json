@@ -89,7 +89,7 @@
   },
   "stomp": {
     "name": "Écrasement",
-    "effect": "Écrase la cible avec un énorme pied. A 30 % de l’apeurer. Si la cible a utilisé Lilliput, les dégâts sont doublés."
+    "effect": "Écrase la cible avec un énorme pied. A 30 % de l’apeurer. Si ce dernier est lilliputien, sa puissance est multipliée par 2."
   },
   "doubleKick": {
     "name": "Double Pied",
@@ -1576,235 +1576,295 @@
     "effect": "Le lanceur s’embrase avant de charger la cible. A 10 % de chances de la bruler. Si elle est gelée, elle sera dégelée. Le choc blesse aussi gravement le lanceur."
   },
   "forcePalm": {
-    "name": "Forte-Paume"
+    "name": "Forte-Paume",
+    "effect": "Une onde de choc frappe la cible. A 30 % de chances de la paralyser."
   },
   "auraSphere": {
-    "name": "Aurasphère"
+    "name": "Aurasphère",
+    "effect": "Le lanceur puise au fond de lui-même pour dégager une aura et projeter de l’énergie sur la cible. N’échoue jamais."
   },
   "rockPolish": {
-    "name": "Poliroche"
+    "name": "Poliroche",
+    "effect": "Le lanceur polit son corps pour diminuer sa résistance au vent. Augmente beaucoup la Vitesse."
   },
   "poisonJab": {
-    "name": "Direct Toxik"
+    "name": "Direct Toxik",
+    "effect": "Le lanceur attaque la cible avec un tentacule, un bras, ou un autre membre imprégné de poison. A 30 % de chances de l’empoisonner."
   },
   "darkPulse": {
-    "name": "Vibrobscur"
+    "name": "Vibrobscur",
+    "effect": "Le lanceur projette une horrible aura chargée de pensées maléfiques. A 20 % de chances de l’apeurer."
   },
   "nightSlash": {
-    "name": "Tranche-Nuit"
+    "name": "Tranche-Nuit",
+    "effect": "Le lanceur lacère la cible à la première occasion. Taux de critique supérieur d’un cran."
   },
   "aquaTail": {
     "name": "Hydro-Queue",
     "effect": "Le lanceur attaque en balançant sa queue comme une lame de fond en pleine tempête."
   },
   "seedBomb": {
-    "name": "Canon Graine"
+    "name": "Canon Graine",
+    "effect": "Le lanceur déclenche un déluge de grosses graines à la coque solide sur la cible."
   },
   "airSlash": {
-    "name": "Lame d’Air"
+    "name": "Lame d’Air",
+    "effect": "Le lanceur attaque avec une lame d’air capable de fendre le ciel. A 30 % de chances de l’apeurer."
   },
   "xScissor": {
-    "name": "Plaie Croix"
+    "name": "Plaie Croix",
+    "effect": "Le lanceur taillade la cible en utilisant ses faux ou ses griffes comme une paire de ciseaux."
   },
   "bugBuzz": {
-    "name": "Bourdon"
+    "name": "Bourdon",
+    "effect": "Le lanceur fait vibrer son corps pour lancer une vague sonique. A 10 % de chances de baisser sa Défense Spéciale."
   },
   "dragonPulse": {
     "name": "Draco-Choc",
     "effect": "Le lanceur ouvre la bouche pour projeter une aura qui frappe la cible."
   },
   "dragonRush": {
-    "name": "Draco-Charge"
+    "name": "Draco-Charge",
+    "effect": "Le lanceur frappe la cible en prenant un air menaçant. A 20 % de chances de l’apeurer. Si ce dernier est lilliputien, la capacité n’échoue jamais et sa puissance est multipliée par 2."
   },
   "powerGem": {
     "name": "Rayon Gemme",
     "effect": "Le lanceur attaque avec un rayon de lumière qui scintille comme s’il était composé de gemmes."
   },
   "drainPunch": {
-    "name": "Vampi-Poing"
+    "name": "Vampi-Poing",
+    "effect": "Un coup de poing qui draine l’énergie. Convertit la moitié des dégâts infligés en PV pour le lanceur."
   },
   "vacuumWave": {
     "name": "Onde Vide",
     "effect": "Le lanceur agite son poing pour projeter une onde de vide. Frappe en priorité."
   },
   "focusBlast": {
-    "name": "Exploforce"
+    "name": "Exploforce",
+    "effect": "Le lanceur rassemble ses forces et laisse éclater son pouvoir. A 10 % de chances de baisser la Défense Spéciale de la cible."
   },
   "energyBall": {
-    "name": "Éco-Sphère"
+    "name": "Éco-Sphère",
+    "effect": "Le lanceur utilise les pouvoirs de la nature pour attaquer la cible. A 10 % de chances de baisser sa Défense Spéciale."
   },
   "braveBird": {
-    "name": "Rapace"
+    "name": "Rapace",
+    "effect": "Le lanceur replie ses ailes et charge en rase-mottes. Il subit 1/3 des dégâts infligés."
   },
   "earthPower": {
-    "name": "Telluriforce"
+    "name": "Telluriforce",
+    "effect": "De terribles séismes secouent la cible. A 10 % de chances de baisser sa Défense Spéciale."
   },
   "switcheroo": {
-    "name": "Passe-Passe"
+    "name": "Passe-Passe",
+    "effect": "Le lanceur échange son objet avec celui de la cible à une vitesse que l’œil a du mal à suivre."
   },
   "gigaImpact": {
     "name": "Giga Impact",
     "effect": "Le lanceur charge la cible de toute ses forces et doit ensuite se reposer au tour suivant."
   },
   "nastyPlot": {
-    "name": "Machination"
+    "name": "Machination",
+    "effect": "Stimule l’esprit par de mauvaises pensées. Augmente beaucoup l’Attaque Spéciale du lanceur."
   },
   "bulletPunch": {
     "name": "Pisto-Poing",
     "effect": "Le lanceur envoie des coups de poing aussi rapides que des balles de revolver. Frappe en priorité."
   },
   "avalanche": {
-    "name": "Avalanche"
+    "name": "Avalanche",
+    "effect": "Une capacité dont la puissance est doublée si le lanceur a été blessé par la cible durant ce tour."
   },
   "iceShard": {
     "name": "Éclats Glace",
     "effect": "Le lanceur crée des éclats de glace qu’il envoie sur la cible. Frappe en priorité."
   },
   "shadowClaw": {
-    "name": "Griffe Ombre"
+    "name": "Griffe Ombre",
+    "effect": "Attaque avec une griffe puissante faite d’ombres. Taux de critique supérieur d’un cran."
   },
   "thunderFang": {
-    "name": "Crocs Éclair"
+    "name": "Crocs Éclair",
+    "effect": "Le lanceur utilise une morsure électrifiée. qui peut aussi paralyser ou apeurer la cible. A 10 % de chances de la paralyser et 10 % de chances de l’apeurer."
   },
   "iceFang": {
-    "name": "Crocs Givre"
+    "name": "Crocs Givre",
+    "effect": "Le lanceur utilise une morsure glaciale. A 10 % de chances de la geler et 10 % de chances de l’apeurer."
   },
   "fireFang": {
-    "name": "Crocs Feu"
+    "name": "Crocs Feu",
+    "effect": "Le lanceur utilise une morsure enflammée. A 10 % de chances de la bruler et 10 % de chances de l’apeurer."
   },
   "shadowSneak": {
     "name": "Ombre Portée",
     "effect": "Le lanceur étend son ombre pour frapper par-derrière. Frappe en priorité."
   },
   "mudBomb": {
-    "name": "Boue-Bombe"
+    "name": "Boue-Bombe",
+    "effect": "Le lanceur attaque à l’aide d’une boule de boue solidifiée. A 30 % de baisser la Précisons de la cible."
   },
   "psychoCut": {
-    "name": "Coupe Psycho"
+    "name": "Coupe Psycho",
+    "effect": "Le lanceur entaille la cible grâce à des lames faites d’énergie psychique. Taux de critique supérieur d’un cran."
   },
   "zenHeadbutt": {
-    "name": "Psykoud’Boul"
+    "name": "Psykoud’Boul",
+    "effect": "Le lanceur concentre son énergie psychique dans son front et donne un coup de tête à la cible. A 20 % de chances d’apeurer la cible."
   },
   "mirrorShot": {
-    "name": "Miroi-Tir"
+    "name": "Miroi-Tir",
+    "effect": "Le corps poli du lanceur libère un éclair d’énergie. A 30 % de chances d’apeurer la cible."
   },
   "flashCannon": {
-    "name": "Luminocanon"
+    "name": "Luminocanon",
+    "effect": "Le lanceur concentre son énergie lumineuse et la fait exploser. A 10 % de chances de baisser la Défense Spéciale de la cible."
   },
   "rockClimb": {
-    "name": "Escalade"
+    "name": "Escalade",
+    "effect": "Le lanceur se jette violemment sur la cible. A 20 % de chances de la rendre confuse."
   },
   "defog": {
     "name": "Anti-Brume"
   },
   "trickRoom": {
-    "name": "Distorsion"
+    "name": "Distorsion",
+    "effect": "Le lanceur crée une zone mystérieuse où les Pokémon les plus lents frappent en priorité pendant 5 tours."
   },
   "dracoMeteor": {
-    "name": "Draco-Météore"
+    "name": "Draco-Météore",
+    "effect": "Le lanceur invoque des comètes. Le contrecoup réduit beaucoup son Attaque Spéciale."
   },
   "discharge": {
-    "name": "Coup d’Jus"
+    "name": "Coup d’Jus",
+    "effect": "Un flamboiement d’électricité frappe tous les Pokémon autour du lanceur. A 30 % de chances de les paralyser."
   },
   "lavaPlume": {
-    "name": "Ébullilave"
+    "name": "Ébullilave",
+    "effect": "Des flammes s’abattent sur tous les Pokémon autour du lanceur. A 10 % de chances de les bruler."
   },
   "leafStorm": {
-    "name": "Tempête Verte"
+    "name": "Tempête Verte",
+    "effect": "Invoque une tempête de feuilles acérées. Le contrecoup réduit beaucoup l’Attaque Spéciale du lanceur."
   },
   "powerWhip": {
-    "name": "Mégafouet"
+    "name": "Mégafouet",
+    "effect": "Le lanceur fait virevolter violemment ses lianes ou ses tentacules pour fouetter la cible."
   },
   "rockWrecker": {
     "name": "Roc-Boulet",
     "effect": "Le lanceur attaque en projetant un gros rocher sur l’ennemi. Il doit se reposer au tour suivant."
   },
   "crossPoison": {
-    "name": "Poison Croix"
+    "name": "Poison Croix",
+    "effect": "Un coup tranchant qui peut empoisonner la cible. Taux de critique supérieur d’un cran.\n"
   },
   "gunkShot": {
-    "name": "Détricanon"
+    "name": "Détricanon",
+    "effect": "Le lanceur envoie des détritus sur la cible. A 30 % de chances de l’empoisonner."
   },
   "ironHead": {
-    "name": "Tête de Fer"
+    "name": "Tête de Fer",
+    "effect": "Le lanceur heurte la cible avec sa tête dure comme de l’acier. A 20 % de chances d’apeurer la cible."
   },
   "magnetBomb": {
     "name": "Bombe Aimant",
     "effect": "Le lanceur projette des bombes d’acier qui collent à l’ennemi. N’échoue jamais."
   },
   "stoneEdge": {
-    "name": "Lame de Roc"
+    "name": "Lame de Roc",
+    "effect": "Le lanceur transperce la cible avec des rochers aiguisés. Taux de critique supérieur d’un cran."
   },
   "captivate": {
     "name": "Séduction",
     "effect": "Si l’ennemi est de sexe opposé au lanceur, il est séduit et son Attaque Spéciale baisse beaucoup."
   },
   "stealthRock": {
-    "name": "Piège de Roc"
+    "name": "Piège de Roc",
+    "effect": "Le lanceur fait flotter des pierres autour de la cible qui blessent à hauteur de 1/8 des PV max de tout adversaire entrant au combat. Les dégâts reçus diffèrent en fonction de l’affinité du Pokémon au type Roche."
   },
   "grassKnot": {
-    "name": "Nœud Herbe"
+    "name": "Nœud Herbe",
+    "effect": "Le lanceur fait des nœuds dans l’herbe pour faire trébucher la cible. Plus la cible est lourde, plus la puissance de cette capacité augmente. La puissance peut varier entre 20 et 120."
   },
   "chatter": {
-    "name": "Babil"
+    "name": "Babil",
+    "effect": "Le lanceur attaque avec les ondes sonores assourdissantes qu’il émet en bavardant, ce qui rend la cible confuse."
   },
   "judgment": {
-    "name": "Jugement"
+    "name": "Jugement",
+    "effect": "Le lanceur libère une myriade de rayons de lumière. Le type varie selon la plaque, du module que tient le lanceur, s’il a le talent Multi-Type ou Système Alpha."
   },
   "bugBite": {
-    "name": "Piqure"
+    "name": "Piqure",
+    "effect": "Le lanceur pique la cible. Si celle-ci tient une Baie, le lanceur la dévore et obtient son effet."
   },
   "chargeBeam": {
-    "name": "Rayon Chargé"
+    "name": "Rayon Chargé",
+    "effect": "Le lanceur tire un rayon chargé d’électricité. A 70 % de chances d’augmenter son Attaque Spéciale."
   },
   "woodHammer": {
-    "name": "Martobois"
+    "name": "Martobois",
+    "effect": "Le lanceur heurte la cible de son corps robuste, ce qui blesse aussi gravement le lanceur à hauteur de 1/3 des dégâts infligés."
   },
   "aquaJet": {
-    "name": "Aqua-Jet"
+    "name": "Aqua-Jet",
+    "effect": "Le lanceur fonce sur la cible si rapidement qu’on parvient à peine à le discerner. Frappe en priorité."
   },
   "attackOrder": {
-    "name": "Appel Attaque"
+    "name": "Appel Attaque",
+    "effect": "Le lanceur appelle ses subalternes pour frapper la cible. Taux de critique supérieur d’un cran."
   },
   "defendOrder": {
-    "name": "Appel Défense"
+    "name": "Appel Défense",
+    "effect": "Le lanceur appelle ses subalternes pour former un bouclier qui augmente sa Défense et sa Défense Spéciale."
   },
   "healOrder": {
-    "name": "Appel Soins"
+    "name": "Appel Soins",
+    "effect": "Le lanceur appelle ses sous-fifres pour le soigner. Il récupère jusqu’à la moitié de ses PV max."
   },
   "headSmash": {
-    "name": "Fracass’Tête"
+    "name": "Fracass’Tête",
+    "effect": "Le lanceur assène un coup de tête désespéré, ce qui le blesse à hauteur de la moité des dégâts infligés."
   },
   "doubleHit": {
-    "name": "Coup Double"
+    "name": "Coup Double",
+    "effect": "Le lanceur frappe la cible 2 fois d’affilée à l’aide de sa queue ou d’un autre membre."
   },
   "roarOfTime": {
     "name": "Hurle-Temps",
     "effect": "Le lanceur frappe si fort qu’il affecte le cours du temps. Il se repose au tour suivant."
   },
   "spacialRend": {
-    "name": "Spatio-Rift"
+    "name": "Spatio-Rift",
+    "effect": "Le lanceur déchire la cible et l’espace autour de lui. Taux de critique supérieur d’un cran."
   },
   "lunarDance": {
-    "name": "Danse Lune"
+    "name": "Danse Lune",
+    "effect": "Le lanceur tombe K.O. pour soigner totalement le Pokémon qui prendra sa place au combat."
   },
   "crushGrip": {
-    "name": "Presse"
+    "name": "Presse",
+    "effect": "Une force oppressante écrase la cible. Plus il lui reste de PV, plus la puissance de la capacité augmente. La puissance peut varier entre 1 et 120."
   },
   "magmaStorm": {
-    "name": "Vortex Magma"
+    "name": "Vortex Magma",
+    "effect": "La cible est prise dans un tourbillon de feu qui dure de quatre à cinq tours. Lui inflige des dégâts à hauteur de 1/8 de ses PV max à la fin de chaque tour."
   },
   "darkVoid": {
-    "name": "Trou Noir"
+    "name": "Trou Noir",
+    "effect": "La cible est plongée dans les ténèbres et tombe dans un profond sommeil."
   },
   "seedFlare": {
-    "name": "Fulmigraine"
+    "name": "Fulmigraine",
+    "effect": "Le corps du lanceur émet une onde de choc. A 40 % de chances de baisser la Défense Spéciale de la cible."
   },
   "ominousWind": {
-    "name": "Vent Mauvais"
+    "name": "Vent Mauvais",
+    "effect": "Le lanceur crée une violente bourrasque. A 10 % de chances d’augmenter toutes les stats du lanceur d’un seul coup."
   },
   "shadowForce": {
-    "name": "Revenant"
+    "name": "Revenant",
+    "effect": "Le lanceur se cache dans l’ombre pour frapper. Les capacités de la cible deviennent plus faciles à esquiver. Annule les effets de capacités telles qu’Abri ou Détection."
   },
   "honeClaws": {
     "name": "Aiguisage",
