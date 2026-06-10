@@ -1048,75 +1048,92 @@
     "effect": "Der Anwender wird besiegt und senkt den Angriffs-Wert und den Spezial-Angriff des Zieles stark."
   },
   "facade": {
-    "name": "Fassade"
+    "name": "Fassade",
+    "effect": "Die Stärke dieser Attacke verdoppelt sich, wenn der Anwender vergiftet, schwer vergiftet, verbrannt oder paralysiert ist. Obwohl es sich um eine physische Attacke handelt, wird der verursachte Schaden nicht halbiert, wenn der Anwender verbrannt ist."
   },
   "focusPunch": {
-    "name": "Power-Punch"
+    "name": "Power-Punch",
+    "effect": "Anwender konzentriert sich, bevor er angreift. Wird er vorher getroffen, ist die Attacke erfolglos."
   },
   "smellingSalts": {
     "name": "Riechsalz",
     "effect": "Doppelt wirksam gegen paralysierte Ziele, heilt sie aber auch von der Paralyse."
   },
   "followMe": {
-    "name": "Spotlight"
+    "name": "Spotlight",
+    "effect": "Zieht Aufmerksamkeit auf sich. Gegner greift nur Anwender an."
   },
   "naturePower": {
-    "name": "Natur-Kraft"
+    "name": "Natur-Kraft",
+    "effect": "Angriff mit der Kraft der Natur, dessen Typ vom Ort abhängt, wo er durchgeführt wird."
   },
   "charge": {
-    "name": "Ladevorgang"
+    "name": "Ladevorgang",
+    "effect": "Lädt Energie für die kommende Elektro-Attacke auf. Erhöht die Spezial-Verteidigung."
   },
   "taunt": {
-    "name": "Verhöhner"
+    "name": "Verhöhner",
+    "effect": "Bringt das Ziel in Rage. Dieses kann über drei Runden hinweg nur noch angreifen."
   },
   "helpingHand": {
-    "name": "Rechte Hand"
+    "name": "Rechte Hand",
+    "effect": "Anwender steigert die Kraft eines Angriffes eines Freundes um 50%."
   },
   "trick": {
-    "name": "Trickbetrug"
+    "name": "Trickbetrug",
+    "effect": "Der Anwender überrumpelt das Ziel und tauscht mit ihm die getragenen Items."
   },
   "rolePlay": {
     "name": "Rollenspiel",
     "effect": "Parodiert das Ziel und kopiert seine Fähigkeit."
   },
   "wish": {
-    "name": "Wunschtraum"
+    "name": "Wunschtraum",
+    "effect": "Ein Wunsch füllt in der nächsten Runde 50 % der KP des Anwenders bei diesem oder einem eingewechselten Pokémon auf."
   },
   "assist": {
     "name": "Zuschuss",
     "effect": "Greift zufällig mit einer Attacke eines Mitstreiters an."
   },
   "ingrain": {
-    "name": "Verwurzler"
+    "name": "Verwurzler",
+    "effect": "Verwurzelung füllt jede Runde KP auf. Austausch ist unmöglich."
   },
   "superpower": {
-    "name": "Kraftkoloss"
+    "name": "Kraftkoloss",
+    "effect": "Starke Attacke, die jedoch auch den Angriff und die Verteidigung des Anwenders senkt."
   },
   "magicCoat": {
-    "name": "Magiemantel"
+    "name": "Magiemantel",
+    "effect": "Egelsamen und alle Attacken mit Status verändernden Effekten prallen ab."
   },
   "recycle": {
     "name": "Aufbereitung",
     "effect": "Recycling eines getragenen Items, das zuvor im Kampf verwendet wurde."
   },
   "revenge": {
-    "name": "Vergeltung"
+    "name": "Vergeltung",
+    "effect": "Schaden verdoppelt sich, wenn der Anwender in der Runde bereits Schaden vom Ziel des Angriffes genommen hat."
   },
   "brickBreak": {
-    "name": "Durchbruch"
+    "name": "Durchbruch",
+    "effect": "Der Anwender greift mit einem schnellen Hieb an. Diese Attacke kann zudem Barrieren wie Lichtschild, Reflektor und Auroraschleier durchbrechen."
   },
   "yawn": {
     "name": "Gähner",
     "effect": "Angreifer gähnt und das Ziel schläft in der nächsten Runde ein."
   },
   "knockOff": {
-    "name": "Abschlag"
+    "name": "Abschlag",
+    "effect": "Der Anwender schlägt das getragene Item des Ziels weg und entfernt es so. Die Stärke dieser Attacke erhöht sich um 50 %, wenn das Ziel ein Item trägt."
   },
   "endeavor": {
-    "name": "Notsituation"
+    "name": "Notsituation",
+    "effect": "Der Anwender fügt Schaden zu, indem er die KP des Ziels so weit reduziert, dass sie in etwa den eigenen KP entsprechen. Die Attacke schlägt fehl, wenn die KP des Ziels gleich hoch oder niedriger als die des Anwenders sind. Boss-Pokémon sind gegen diese Attacke immun."
   },
   "eruption": {
-    "name": "Eruption"
+    "name": "Eruption",
+    "effect": "Der Anwender greift gegnerische Pokémon mit explosiver Wut an. Je weniger KP der Anwender noch hat, desto geringer ist die Stärke dieser Attacke (sie liegt zwischen 1 und 150)."
   },
   "skillSwap": {
     "name": "Fähigkeitstausch",
@@ -1139,56 +1156,72 @@
     "effect": "Raubt den Effekt eingesetzter heilender oder Werte verändernder Attacken."
   },
   "secretPower": {
-    "name": "Geheimpower"
+    "name": "Geheimpower",
+    "effect": "Angriff, der abhängig vom Anwendungsort einen unterschiedlichen Zusatz-Effekt hat."
   },
   "dive": {
-    "name": "Taucher"
+    "name": "Taucher",
+    "effect": "Taucht in Runde 1 ab und greift in Runde 2 aus der Tiefe an."
   },
   "armThrust": {
-    "name": "Armstoß"
+    "name": "Armstoß",
+    "effect": "Schläge mit geradem Arm, die das Ziel zwei- bis fünfmal treffen."
   },
   "camouflage": {
-    "name": "Tarnung"
+    "name": "Tarnung",
+    "effect": "Der Typ des Anwenders passt sich der Umgebung an, sei es im Wasser, im Gras oder in einer Höhle."
   },
   "tailGlow": {
-    "name": "Schweifglanz"
+    "name": "Schweifglanz",
+    "effect": "Ein blinkendes Licht, das den Spezial-Angriff drastisch erhöht."
   },
   "lusterPurge": {
-    "name": "Scheinwerfer"
+    "name": "Scheinwerfer",
+    "effect": "Der Anwender setzt einen schädlichen Lichtstoß frei. Diese Attacke hat eine Chance von 50 %, den Spezial-Verteidigungs-Wert des Ziels zu senken."
   },
   "mistBall": {
-    "name": "Nebelball"
+    "name": "Nebelball",
+    "effect": "Der Anwender greift mit einem Ball an, der mit nebelartigem Flaum gefüllt ist. Diese Attacke hat eine Chance von 50 %, den Spezial-Angriff des Ziels zu senken."
   },
   "featherDance": {
     "name": "Daunenreigen",
     "effect": "Hüllt das Ziel in Daunen und senkt dessen Angriffs-Wert stark."
   },
   "teeterDance": {
-    "name": "Taumeltanz"
+    "name": "Taumeltanz",
+    "effect": "Ein Wackeltanz, der andere Pokémon in der Umgebung des Anwenders verwirrt."
   },
   "blazeKick": {
-    "name": "Feuerfeger"
+    "name": "Feuerfeger",
+    "effect": "Der Anwender greift mit einem Tritt an, der das Ziel mit einer Chance von 10 % verbrennt. Die Volltrefferquote dieser Attacke ist um eine Stufe erhöht."
   },
   "mudSport": {
-    "name": "Lehmsuhler"
+    "name": "Lehmsuhler",
+    "effect": "Der Anwender wirbelt auf dem Kampffeld Schlamm auf. Dies schwächt Elektro-Attacken für 5 Runden."
   },
   "iceBall": {
-    "name": "Frostbeule"
+    "name": "Frostbeule",
+    "effect": "Der Anwender rollt sich über 5 Runden hinweg immer wieder auf das Ziel. Die Stärke dieser Attacke verdoppelt sich bei jedem Treffer; der Effekt wird zurückgesetzt, sobald 5 Runden vergangen sind oder die Attacke unterbrochen wird."
   },
   "needleArm": {
-    "name": "Nietenranke"
+    "name": "Nietenranke",
+    "effect": "Der Anwender greift an, indem er seine dornigen Arme wild umherschwingt. Diese Attacke hat eine Chance von 30 %, das Ziel zurückschrecken zu lassen."
   },
   "slackOff": {
-    "name": "Tagedieb"
+    "name": "Tagedieb",
+    "effect": "Durch Müßiggang werden KP des Anwenders um 50 % der maximalen KP aufgefüllt."
   },
   "hyperVoice": {
-    "name": "Schallwelle"
+    "name": "Schallwelle",
+    "effect": "Laute Attacke mit Schallwellen."
   },
   "poisonFang": {
-    "name": "Giftzahn"
+    "name": "Giftzahn",
+    "effect": "Der Anwender beißt das Ziel mit giftigen Fangzähnen. Diese Attacke hat eine Chance von 50 %, das Ziel schwer zu vergiften."
   },
   "crushClaw": {
-    "name": "Zermalmklaue"
+    "name": "Zermalmklaue",
+    "effect": "Der Anwender schlitzt das Ziel mit harten, scharfen Krallen auf. Diese Attacke hat eine Chance von 50 %, den Verteidigungswert des Ziels zu senken."
   },
   "blastBurn": {
     "name": "Lohekanonade",
@@ -1199,7 +1232,8 @@
     "effect": "Das Ziel wird von Wasserkanone getroffen. Angreifer setzt eine Runde aus."
   },
   "meteorMash": {
-    "name": "Sternenhieb"
+    "name": "Sternenhieb",
+    "effect": "Das Ziel wird von einem harten Schlag getroffen, der wie ein Meteor abgefeuert wird. Diese Attacke hat eine Chance von 20 %, den Angriffs-Wert des Anwenders zu erhöhen."
   },
   "astonish": {
     "name": "Erstauner"
