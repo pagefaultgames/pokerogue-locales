@@ -3416,50 +3416,60 @@
     "effect": "Eine Normal-Attacke, die nur Gigadynamax-Mauzi einsetzen kann. Verwirrt Gegner und bringt nach dem Kampf Geld ein."
   },
   "gMaxChiStrike": {
-    "name": "Giga-Fokusschlag"
+    "name": "Giga-Fokusschlag",
+    "effect": "Eine Attacke vom Typ Kampf, die Gigadynamax-Machomei einsetzt. Diese Attacke stärkt den Anwender sowie seine Verbündeten und erhöht die Volltrefferquote von Attacken um eine Stufe."
   },
   "gMaxTerror": {
     "name": "Giga-Spuksperre",
     "effect": "Eine Geister-Attacke, die nur Gigadynamax-Gengar einsetzen kann. Hindert gegnerische Pokémon an der Flucht beziehungsweise am Auswechseln."
   },
   "gMaxResonance": {
-    "name": "Giga-Melodie"
+    "name": "Giga-Melodie",
+    "effect": "Eine Eis-Attacke, die Gigadynamax-Lapras einsetzen kann. Diese Attacke halbiert für 5 Runden den Schaden durch physische und spezielle Attacken."
   },
   "gMaxCuddle": {
     "name": "Giga-Gekuschel",
     "effect": "Eine Normal-Attacke, die nur Gigadynamax-Evoli einsetzen kann. Gegnerische Pokémon verlieben sich in es."
   },
   "gMaxReplenish": {
-    "name": "Giga-Recycling"
+    "name": "Giga-Recycling",
+    "effect": "Eine Attacke vom Typ Normal, die Gigadynamax-Relaxo einsetzt. Diese Attacke hat eine Chance von 50 %, vom Anwender oder seinen Verbündeten verbrauchte Beeren wiederherzustellen."
   },
   "gMaxMalodor": {
     "name": "Giga-Gestank",
     "effect": "Eine Gift-Attacke, die nur Gigadynamax-Deponitox einsetzen kann. Vergiftet gegnerische Pokémon."
   },
   "gMaxStonesurge": {
-    "name": "Giga-Geröll"
+    "name": "Giga-Geröll",
+    "effect": "Eine Attacke vom Typ Wasser, die von Gigadynamax-Kamalm eingesetzt wird. Diese Attacke verteilt scharfe Steine ​​auf dem Spielfeld; gegnerische Pokémon, die in den Kampf wechseln, erleiden dadurch Schaden in Höhe von einem Achtel ihrer maximalen KP. Die Höhe des Schadens hängt von der Typ-Effektivität gegenüber dem Typ Gestein ab."
   },
   "gMaxWindRage": {
-    "name": "Giga-Sturmstoß"
+    "name": "Giga-Sturmstoß",
+    "effect": "Eine Attacke vom Typ Flug, die von Gigadynamax-Krarmor eingesetzt wird. Diese Attacke beseitigt Barrieren des Ziels – wie Lichtschild, Reflektor, Auroraschleier oder Bodyguard – sowie jegliche Auslegware oder Geländeeffekte auf dem Spielfeld. Zudem kann sie dichten Nebel auflösen."
   },
   "gMaxStunShock": {
     "name": "Giga-Voltschlag",
     "effect": "Eine Elektro-Attacke, die nur Gigadynamax-Riffex einsetzen kann. Vergiftet oder paralysiert gegnerische Pokémon."
   },
   "gMaxFinale": {
-    "name": "Giga-Lichtblick"
+    "name": "Giga-Lichtblick",
+    "effect": "Eine Attacke vom Typ Fee, die von Gigadynamax-Pokusan eingesetzt wird. Sie stellt ⅙ der maximalen KP des Anwenders und seiner Verbündeten wieder her."
   },
   "gMaxDepletion": {
-    "name": "Giga-Dämpfer"
+    "name": "Giga-Dämpfer",
+    "effect": "Eine Drachen-Attacke, die Gigadynamax-Duraludon einsetzt. Verringert die AP der zuletzt vom Ziel eingesetzten Attacke um 2."
   },
   "gMaxGravitas": {
-    "name": "Giga-Astrowellen"
+    "name": "Giga-Astrowellen",
+    "effect": "Eine Attacke vom Typ Psycho, die von Gigadynamax-Brimova eingesetzt wird. Diese Attacke verändert für 5 Runden die Schwerkraft, wodurch die Genauigkeit von Attacken um 67 % erhöht wird und Flug-Pokémon sowie Pokémon mit der Fähigkeit Schwebe am Boden gehalten werden."
   },
   "gMaxVolcalith": {
-    "name": "Giga-Schlacke"
+    "name": "Giga-Schlacke",
+    "effect": "Eine Gesteins-Attacke, die Gigadynamax-Montecarbo einsetzt. Diese Attacke fügt Gegnern, die nicht vom Typ Gestein sind, vier Runden lang am Ende jeder Runde Schaden in Höhe von 1/6 ihrer maximalen KP zu."
   },
   "gMaxSandblast": {
-    "name": "Giga-Sandstoß"
+    "name": "Giga-Sandstoß",
+    "effect": "Eine Boden-Attacke, die Gigadynamax-Sanaconda einsetzt. Gegner werden in einem tobenden Sandsturm gefangen, der über 4 bis 5 Runden hinweg Schaden in Höhe von 1/8 ihrer maximalen KP verursacht."
   },
   "gMaxSnooze": {
     "name": "Giga-Gähnzwang",
@@ -3478,7 +3488,8 @@
     "effect": "Eine Feen-Attacke, die nur Gigadynamax-Silembrim einsetzen kann. Verwirrt gegnerische Pokémon."
   },
   "gMaxSteelsurge": {
-    "name": "Giga-Stahlschlag"
+    "name": "Giga-Stahlschlag",
+    "effect": "Eine Attacke vom Typ Stahl, die Gigadynamax-Patinaraja einsetzt. Diese Attacke verteilt scharfe Stacheln auf dem Spielfeld, die gegnerischen Pokémon, die in den Kampf wechseln, Schaden in Höhe von 1/8 ihrer maximalen KP zufügen. Die Höhe dieses Schadens variiert je nach Typen-Effektivität gegenüber dem Typ Stahl."
   },
   "gMaxMeltdown": {
     "name": "Giga-Schmelze",
@@ -3489,13 +3500,16 @@
     "effect": "Eine Wasser-Attacke, die nur Gigadynamax-Kingler einsetzen kann. Senkt die Initiative der gegnerischen Pokémon stark."
   },
   "gMaxCentiferno": {
-    "name": "Giga-Feuerkessel"
+    "name": "Giga-Feuerkessel",
+    "effect": "Eine Feuer-Attacke, die Gigadynamax-Infernopod einsetzt. Sie schließt Gegner für 4 bis 5 Runden in Flammen ein, die am Ende jeder Runde Schaden in Höhe von 1/8 ihrer maximalen KP verursachen."
   },
   "gMaxVineLash": {
-    "name": "Giga-Geißel"
+    "name": "Giga-Geißel",
+    "effect": "Eine Attacke vom Typ Pflanze, die von Gigadynamax-Bisaflor eingesetzt wird. Diese Attacke fügt Gegnern, die nicht vom Typ Pflanze sind, vier Runden lang am Ende jeder Runde Schaden in Höhe von einem Sechstel ihrer maximalen KP zu."
   },
   "gMaxCannonade": {
-    "name": "Giga-Beschuss"
+    "name": "Giga-Beschuss",
+    "effect": "Eine Attacke vom Typ Wasser, die von Gigadynamax-Turtok eingesetzt wird. Diese Attacke fügt Gegnern, die nicht vom Typ Wasser sind, vier Runden lang am Ende jeder Runde Schaden in Höhe von einem Sechstel ihrer maximalen KP zu."
   },
   "gMaxDrumSolo": {
     "name": "Giga-Getrommel",
@@ -3510,30 +3524,36 @@
     "effect": "Eine Wasser-Attacke, die nur Gigadynamax-Intelleon einsetzen kann. Ignoriert die Effekte der gegnerischen Fähigkeiten."
   },
   "gMaxOneBlow": {
-    "name": "Giga-Einzelhieb"
+    "name": "Giga-Einzelhieb",
+    "effect": "Eine Unlicht-Attacke, die Gigadynamax-Wulaosu einsetzt. Diese Attacke kann ein Ziel treffen, selbst wenn dieses eine Attacke wie Schutzschild oder Scanner verwendet hat."
   },
   "gMaxRapidFlow": {
-    "name": "Giga-Multihieb"
+    "name": "Giga-Multihieb",
+    "effect": "Eine Attacke vom Typ Wasser, die Gigadynamax-Wulaosu einsetzt. Diese Attacke des Typs Fließender Stil kann ein Ziel treffen, selbst wenn dieses eine Attacke wie Schutzschild oder Scanner einsetzt."
   },
   "teraBlast": {
     "name": "Tera-Ausbruch",
     "effect": "Ist der Anwender terakristallisiert, greift er mit Energie seines Tera-Typs an. Der Schaden hängt vom Angriff oder Spezial-Angriff ab, je nachdem, welcher Wert höher ist."
   },
   "silkTrap": {
-    "name": "Fadenfalle"
+    "name": "Fadenfalle",
+    "effect": "Der Anwender spinnt eine seidene Falle, die ihn vor Schaden schützt und gleichzeitig den Initiative-Wert jedes Angreifers senkt, der direkten Kontakt herstellt. Bei jeder aufeinanderfolgenden Anwendung sinkt die Erfolgschance dieser Attacke auf ein Drittel des vorherigen Werts."
   },
   "axeKick": {
-    "name": "Fersenkick"
+    "name": "Fersenkick",
+    "effect": "Der Anwender greift an, indem er in die Luft kickt und seine Ferse auf das Ziel schmettert. Diese Attacke hat eine Chance von 30 %, das Ziel zu verwirren. Geht die Attacke daneben oder schlägt sie fehl, erleidet der Anwender stattdessen Schaden in Höhe der Hälfte seiner maximalen KP."
   },
   "lastRespects": {
-    "name": "Letzte Ehre"
+    "name": "Letzte Ehre",
+    "effect": "Der Anwender greift an, um seine Verbündeten zu rächen. Die Stärke dieser Attacke erhöht sich um 50 für jedes Mal, dass ein Pokémon im Team des Anwenders kampfunfähig geworden ist."
   },
   "luminaCrash": {
     "name": "Lichteinschlag",
     "effect": "Der Anwender greift an, indem er ein sonderbares Licht freisetzt, das sich auch auf die Psyche auswirkt. Zudem wird die Spezial-Verteidigung des Zieles stark gesenkt."
   },
   "orderUp": {
-    "name": "Auftischen"
+    "name": "Auftischen",
+    "effect": "Der Anwender greift mit eleganter Haltung an. Hält der Anwender ein Nigiragi im Maul, werden seine Statuswerte je nach Form des Nigiragi erhöht: Angriff bei der Kringelform, Verteidigung bei der Hängeform oder Initiative bei der Streckform."
   },
   "jetPunch": {
     "name": "Düsenhieb",
@@ -3548,7 +3568,8 @@
     "effect": "Der Anwender wirbelt wild umher, indem er sein Gewicht auf seine Extremitäten verlagert, und richtet so Schaden an. Seine eigene Initiative sinkt dadurch stark"
   },
   "populationBomb": {
-    "name": "Mäuseplage"
+    "name": "Mäuseplage",
+    "effect": "Der Anwender versammelt eine Schar von Artgenossen, die dann geschlossen angreift und das Ziel ein- bis zehnmal hintereinander trifft."
   },
   "iceSpinner": {
     "name": "Eiskreisel",
@@ -3563,20 +3584,24 @@
     "effect": "Der Anwender belebt mit einem Wunsch voller Mitgefühl ein kampfunfähiges Team-Mitglied wieder und stellt die Hälfte dessen maximaler KP wieder her."
   },
   "saltCure": {
-    "name": "Pökelsalz"
+    "name": "Pökelsalz",
+    "effect": "Der Anwender belegt das Ziel mit Salzsalbe, wodurch diesem am Ende jeder Runde Schaden in Höhe von ¹⁄₁₆ seiner maximalen KP zugefügt wird. Pokémon der Typen Stahl und Wasser erleiden stattdessen Schaden in Höhe von ⅛ ihrer maximalen KP."
   },
   "tripleDive": {
-    "name": "Tauchtriade"
+    "name": "Tauchtriade",
+    "effect": "Der Anwender taucht mit perfekt abgestimmtem Timing ab und trifft das Ziel mit Wasserspritzern. Dabei richtet er dreimal hintereinander Schaden an."
   },
   "mortalSpin": {
-    "name": "Letalwirbler"
+    "name": "Letalwirbler",
+    "effect": "Der Anwender führt eine Drehattacke aus, die die Wirkung von fesselnden Attacken und Egelsamen sowie auf der eigenen Seite ausgelegte Gefahren beseitigen kann. Zudem vergiftet sie gegnerische Pokémon."
   },
   "doodle": {
     "name": "Abpausen",
     "effect": "Der Anwender kopiert die wahre Essenz des Zieles. Dadurch erhalten alle Pokémon auf der Mitstreiterseite die Fähigkeit des Zieles."
   },
   "filletAway": {
-    "name": "Abspaltung"
+    "name": "Abspaltung",
+    "effect": "Der Anwender verliert die Hälfte seiner maximalen KP, um seine Werte für Angriff, Spezial-Angriff und Initiative stark zu erhöhen. Die Attacke schlägt fehl, wenn der Anwender nicht über genügend verbleibende KP verfügt."
   },
   "kowtowCleave": {
     "name": "Kniefallspalter",
@@ -3595,38 +3620,48 @@
     "effect": "Der Anwender neckt das Ziel mit flinken, fließenden Tanzschritten und greift es dann an. Dadurch steigt auch die Initiative des Anwenders."
   },
   "ragingBull": {
-    "name": "Rasender Stier"
+    "name": "Rasender Stier",
+    "effect": "Der Anwender führt eine Rammattacke wie ein wütender Stier aus. Sie kann zudem Barrieren wie Lichtschild und Reflektor durchbrechen. Wird die Attacke von Tauros eingesetzt, ändert sich ihr Typ je nach dessen Form."
   },
   "makeItRain": {
-    "name": "Goldrausch"
+    "name": "Goldrausch",
+    "effect": "Der Anwender greift an, indem er eine Menge Münzen wirft. Dadurch sinkt auch sein Spezial-Angriff-Wert. Wird das Ziel erfolgreich getroffen, erhält man nach dem Kampf Geld."
   },
   "psyblade": {
-    "name": "Psychoschneide"
+    "name": "Psychoschneide",
+    "effect": "Der Anwender zerfetzt das Ziel mit einer ätherischen Klinge. Die Stärke dieser Attacke erhöht sich um 50 %, wenn sich der Anwender auf Elektrofeld befindet."
   },
   "hydroSteam": {
-    "name": "Hydrodampf"
+    "name": "Hydrodampf",
+    "effect": "Der Anwender beschießt das Ziel mit kochend heißem Wasser. Die Stärke dieser Attacke wird bei starkem Sonnenlicht nicht verringert, sondern um 50 % erhöht."
   },
   "ruination": {
-    "name": "Verderben"
+    "name": "Verderben",
+    "effect": "Der Anwender beschwört eine verheerende Katastrophe herauf. Dies fügt dem Ziel Schaden in Höhe der Hälfte seiner verbleibenden KP zu."
   },
   "collisionCourse": {
-    "name": "Kollisionskurs"
+    "name": "Kollisionskurs",
+    "effect": "Der Anwender stürmt vorwärts und kracht zu Boden, was eine gewaltige prähistorische Explosion auslöst. Die Stärke dieser Attacke erhöht sich um 33 %, wenn sie sehr effektiv ist."
   },
   "electroDrift": {
-    "name": "Blitztour"
+    "name": "Blitztour",
+    "effect": "Der Anwender stürmt mit rasender Geschwindigkeit vorwärts und durchbohrt das Ziel mit futuristischer Elektrizität. Die Stärke dieser Attacke erhöht sich um 33 %, wenn sie sehr effektiv ist."
   },
   "shedTail": {
-    "name": "Schwanzabwurf"
+    "name": "Schwanzabwurf",
+    "effect": "Der Anwender erschafft unter Einsatz von 50 % seiner maximalen KP einen Delegator, bevor er den Platz mit einem wartenden Pokémon des Teams tauscht."
   },
   "chillyReception": {
-    "name": "Eisige Stimmung"
+    "name": "Eisige Stimmung",
+    "effect": "Der Anwender erzählt einen erschreckend schlechten Witz, bevor er den Platz mit einem wartenden Pokémon aus dem Team tauscht. Dies beschwört einen Schneesturm herauf, der 5 Runden lang anhält."
   },
   "tidyUp": {
     "name": "Aufräumen",
     "effect": "Die Effekte von Stachler, Tarnsteine, Klebenetz, Giftspitzen und Delegator werden aufgehoben. Zudem steigen der Angriff und die Initiative des Anwenders."
   },
   "snowscape": {
-    "name": "Schneelandschaft"
+    "name": "Schneelandschaft",
+    "effect": "Der Anwender beschwört einen Schneesturm, der 5 Runden lang anhält. Dies erhöht die Verteidigung von Eis-Pokémon."
   },
   "pounce": {
     "name": "Anspringen",
@@ -3649,84 +3684,104 @@
     "effect": "Der Anwender greift mit übernatürlichen Lichtstrahlen an, die er aus seinen Augen abfeuert, und trifft das Ziel zweimal hintereinander."
   },
   "rageFist": {
-    "name": "Zornesfaust"
+    "name": "Zornesfaust",
+    "effect": "Der Anwender greift an, indem er seine Wut in Energie umwandelt. Die Stärke dieser Attacke erhöht sich um 50, jedes Mal wenn der Anwender im Kampf getroffen wird – bis zu einem Maximum von sechsmal."
   },
   "armorCannon": {
-    "name": "Rüstungskanone"
+    "name": "Rüstungskanone",
+    "effect": "Der Anwender greift an, indem er seine eigene Rüstung als brennende Projektile verschießt. Dadurch sinken auch die Werte für Verteidigung und Spezial-Verteidigung des Anwenders."
   },
   "bitterBlade": {
-    "name": "Reueschwert"
+    "name": "Reueschwert",
+    "effect": "Der Anwender greift an, indem er all seine bitteren Gefühle gegenüber dieser Welt in einen Hieb kanalisiert. Die KP des Anwenders werden um die Hälfte des durch diese Attacke verursachten Schadens wiederhergestellt."
   },
   "doubleShock": {
-    "name": "Zweifachladung"
+    "name": "Zweifachladung",
+    "effect": "Der Anwender entlädt die gesamte Elektrizität aus seinem Körper für einen Angriff mit hohem Schaden und verliert dabei den Typ Elektro. Diese Attacke schlägt fehl, wenn sie nicht von einem Pokémon vom Typ Elektro eingesetzt wird."
   },
   "gigatonHammer": {
     "name": "Riesenhammer",
     "effect": "Der Anwender greift mit einem großen Hammer an, den er mit vollem Körpereinsatz um sich schwingt. Diese Attacke kann nicht zweimal in Folge eingesetzt werden."
   },
   "comeuppance": {
-    "name": "Vendetta"
+    "name": "Vendetta",
+    "effect": "Der Anwender kontert und fügt dem Gegner das 1,5-Fache des Schadens zu, den er selbst durch eine gegnerische Attacke in derselben Runde erlitten hat."
   },
   "aquaCutter": {
-    "name": "Aquaschnitt"
+    "name": "Aquaschnitt",
+    "effect": "Der Anwender stößt unter Druck stehendes Wasser aus, um das Ziel wie mit einer Klinge zu schneiden. Die Volltrefferquote dieser Attacke ist um eine Stufe erhöht."
   },
   "blazingTorque": {
-    "name": "Hitzeturbo"
+    "name": "Hitzeturbo",
+    "effect": "Der Anwender rammt das Ziel mit lodernder Energie. Diese Attacke hat eine Chance von 30 %, das Ziel zu verbrennen."
   },
   "wickedTorque": {
-    "name": "Finsterturbo"
+    "name": "Finsterturbo",
+    "effect": "Der Anwender rammt das Ziel in böser Absicht. Diese Attacke hat eine Chance von 10 %, das Ziel einschlafen zu lassen."
   },
   "noxiousTorque": {
-    "name": "Toxiturbo"
+    "name": "Toxiturbo",
+    "effect": "Der Anwender rammt das Ziel mit einem giftigen Körperteil. Diese Attacke hat eine Chance von 30 %, das Ziel zu vergiften."
   },
   "combatTorque": {
-    "name": "Raufturbo"
+    "name": "Raufturbo",
+    "effect": "Der Anwender rammt das Ziel mit großer Wucht. Diese Attacke hat eine Chance von 30 %, das Ziel zu paralysieren."
   },
   "magicalTorque": {
-    "name": "Zauberturbo"
+    "name": "Zauberturbo",
+    "effect": "Der Anwender rammt das Ziel mit einer feenhaften Kraft. Diese Attacke hat eine Chance von 30 %, das Ziel zu verwirren."
   },
   "bloodMoon": {
     "name": "Blutmond",
     "effect": "Der Anwender entfesselt eine gewaltige Energieladung aus einem blutroten Vollmond. Diese Attacke kann nicht zweimal in Folge eingesetzt werden."
   },
   "matchaGotcha": {
-    "name": "Quirlschuss"
+    "name": "Quirlschuss",
+    "effect": "Der Anwender verschießt einen Strahl aus gemischtem Tee. Die KP des Anwenders werden um die Hälfte des durch diese Attacke verursachten Schadens regeneriert, und es besteht eine Chance von 20 %, das Ziel zu verbrennen. Zudem taut diese Attacke den Anwender oder das Ziel auf, falls diese eingefroren sind."
   },
   "syrupBomb": {
-    "name": "Sirupbombe"
+    "name": "Sirupbombe",
+    "effect": "Der Anwender löst eine Explosion aus klebrigem Bonbonsirup aus, der das Ziel bedeckt und dessen Initiative-Wert drei Runden lang jede Runde sinken lässt."
   },
   "ivyCudgel": {
-    "name": "Rankenkeule"
+    "name": "Rankenkeule",
+    "effect": "Der Anwender schlägt mit einer mit Efeu umwickelten Keule zu; die Volltrefferquote dieser Attacke wird um eine Stufe erhöht. Wird die Attacke von Ogerpon eingesetzt, ändert sich ihr Typ je nach der getragenen Maske."
   },
   "electroShot": {
     "name": "Stromstrahl",
     "effect": "Sammelt in Runde 1 Elektrizität, um den Spezial-Angriff zu erhöhen, und greift dann in Runde 2 mit Starkstrom an. Bei Regen erfolgt der Angriff sofort in Runde 1."
   },
   "teraStarstorm": {
-    "name": "Tera-Sternhagel"
+    "name": "Tera-Sternhagel",
+    "effect": "Der Anwender bombardiert das Ziel mit der Kraft seiner Kristalle und schaltet es aus. Setzt Terapagos diese Attacke in seiner Stellarform ein, fügt sie allen gegnerischen Pokémon Schaden zu. Der Schaden berechnet sich dabei entweder nach dem Angriffs- oder dem Spezial-Angriffs-Wert – je nachdem, welcher Wert beim Anwender in der Terakristallisierung höher ist."
   },
   "fickleBeam": {
-    "name": "Launenlaser"
+    "name": "Launenlaser",
+    "effect": "Der Anwender verschießt einen Lichtstrahl, um Schaden zuzufügen. Es besteht eine Chance von 30 %, dass alle Köpfe des Anwenders gleichzeitig Strahlen abfeuern, wodurch sich die Stärke der Attacke verdoppelt."
   },
   "burningBulwark": {
-    "name": "Flammenschild"
+    "name": "Flammenschild",
+    "effect": "Der Anwender erhitzt einen Teil seines Körpers stark, wodurch er sich vor Angriffen schützt und jedem Angreifer, der direkten Kontakt herstellt, Verbrennungen zufügt."
   },
   "thunderclap": {
     "name": "Sturmblitz",
     "effect": "Bei dieser Erstschlag-Attacke lässt der Anwender einen Blitz auf das Ziel einschlagen. Sie gelingt nur, wenn dieses gerade eine Angriffsattacke vorbereitet."
   },
   "mightyCleave": {
-    "name": "Wuchtklinge"
+    "name": "Wuchtklinge",
+    "effect": "Der Anwender setzt das in seinen Klingen angesammelte Licht ein, um das Ziel zu spalten. Diese Attacke trifft selbst dann, wenn sich das Ziel schützt."
   },
   "tachyonCutter": {
     "name": "Tachyon-Schnitt",
     "effect": "Der Anwender greift das Ziel zweimal hintereinander mit Partikelklingen an. Der Angriff trifft garantiert."
   },
   "hardPress": {
-    "name": "Stahlpresse"
+    "name": "Stahlpresse",
+    "effect": "Das Ziel wird mit einem Arm, einer Klaue oder Ähnlichem zerquetscht, um Schaden zuzufügen. Je mehr KP das Ziel noch hat, desto höher ist die Stärke der Attacke (sie liegt zwischen 1 und 100)."
   },
   "dragonCheer": {
-    "name": "Drachenschrei"
+    "name": "Drachenschrei",
+    "effect": "Der Anwender stärkt die Moral seiner Verbündeten mit einem drachenartigen Schrei, sodass ihre künftigen Angriffe eine erhöhte Chance auf Volltreffer haben. Drachen-Pokémon erhalten eine Verstärkung um zwei Stufen. Alle anderen Typen erhalten eine Verstärkung um eine Stufe."
   },
   "alluringVoice": {
     "name": "Lockstimme",
@@ -3737,17 +3792,20 @@
     "effect": "Der Anwender greift das Ziel voller Verzweiflung an. Wenn seine vorige Attacke fehlgeschlagen ist, verdoppelt sich die Stärke der Attacke."
   },
   "supercellSlam": {
-    "name": "Donnerstoß"
+    "name": "Donnerstoß",
+    "effect": "Der Anwender lädt seinen Körper elektrisch auf und lässt sich auf das Ziel fallen, um Schaden zuzufügen. Verfehlt die Attacke oder schlägt sie fehl, erleidet der Anwender Schaden in Höhe der Hälfte seiner maximalen KP. Hat das Ziel Komprimator eingesetzt, verdoppelt sich die Stärke dieser Attacke und sie trifft garantiert."
   },
   "psychicNoise": {
-    "name": "Psycholärm"
+    "name": "Psycholärm",
+    "effect": "Der Anwender greift das Ziel mit unangenehmen Schallwellen an. Zwei Runden lang wird das Ziel daran gehindert, durch Attacken, Fähigkeiten oder getragene Items KP zu regenerieren."
   },
   "upperHand": {
     "name": "Schnellkonter",
     "effect": "Der Anwender reagiert auf Bewegungen des Zieles und lässt es durch einen Schlag zurückschrecken. Gelingt nur, wenn das Ziel gerade eine Erstschlag-Attacke vorbereitet."
   },
   "malignantChain": {
-    "name": "Giftkettung"
+    "name": "Giftkettung",
+    "effect": "Der Anwender leitet Gift in das Ziel, indem er es in eine giftige, ätzende Kette hüllt. Diese Attacke hat eine Chance von 50 %, das Ziel schwer zu vergiften."
   },
   "nihilLight": {
     "name": "Tilgungslicht",
