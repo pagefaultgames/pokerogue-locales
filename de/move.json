@@ -1980,48 +1980,60 @@
     "effect": "Anwender ermöglicht dem Ziel direkt nach ihm zu handeln, solange der Anwender als Erstes zum Zug kommt."
   },
   "round": {
-    "name": "Kanon"
+    "name": "Kanon",
+    "effect": "Der Anwender greift das Ziel mit einem Lied an. Wenn andere diese Attacke einsetzen, agieren sie unmittelbar nach dem ursprünglichen Anwender, und die Stärke ihrer Kanon-Attacken verdoppelt sich."
   },
   "echoedVoice": {
-    "name": "Widerhall"
+    "name": "Widerhall",
+    "effect": "Der Anwender greift das Ziel mit einer widerhallenden Stimme an. Die Stärke dieser Attacke erhöht sich um 40 für jede aufeinanderfolgende Runde, in der sie von einem beliebigen Pokémon eingesetzt wird – bis zu einem Maximum von 200."
   },
   "chipAway": {
-    "name": "Zermürben"
+    "name": "Zermürben",
+    "effect": "Auf der Suche nach einer Schwachstelle greift der Anwender beständig an. Diese Attacke ignoriert bei der Schadensberechnung die Statuswertveränderungen des Ziels."
   },
   "clearSmog": {
-    "name": "Klärsmog"
+    "name": "Klärsmog",
+    "effect": "Anwender greift das Ziel mit spezialgefertigten Schlammklumpen an. Setzt Statusveränderungen zurück."
   },
   "storedPower": {
-    "name": "Kraftvorrat"
+    "name": "Kraftvorrat",
+    "effect": "Der Anwender greift das Ziel mit gespeicherter Kraft an. Die Stärke dieser Attacke erhöht sich um 20 für jede Stufe, um die die Statuswerte des Anwenders gesteigert wurden."
   },
   "quickGuard": {
     "name": "Rapidschutz",
     "effect": "Schützt Anwender und Mitstreiter vor gegnerischen Erstschlag-Attacken."
   },
   "allySwitch": {
-    "name": "Seitentausch"
+    "name": "Seitentausch",
+    "effect": "Der Anwender teleportiert sich mithilfe einer seltsamen Kraft und tauscht den Platz mit einem seiner Verbündeten. Bei jeder aufeinanderfolgenden Anwendung sinkt die Erfolgschance dieser Attacke auf ein Drittel des vorherigen Werts."
   },
   "scald": {
-    "name": "Siedewasser"
+    "name": "Siedewasser",
+    "effect": "Der Anwender greift an, indem er kochend heißes Wasser auf das Ziel schießt. Diese Attacke hat eine Chance von 30 %, das Ziel zu verbrennen, und taut einen eingefrorenen Anwender oder ein eingefrorenes Ziel auf."
   },
   "shellSmash": {
-    "name": "Hausbruch"
+    "name": "Hausbruch",
+    "effect": "Der Anwender zerbricht seine Schale, wodurch seine Werte für Verteidigung und Spezial-Verteidigung sinken, während Angriff, Spezial-Angriff und Initiative stark erhöht werden."
   },
   "healPulse": {
-    "name": "Heilwoge"
+    "name": "Heilwoge",
+    "effect": "Der Anwender sendet einen Heilimpuls aus, der die Hälfte der maximalen KP des Ziels wiederherstellt."
   },
   "hex": {
-    "name": "Bürde"
+    "name": "Bürde",
+    "effect": "Eine Attacke, bei der der Anwender das Ziel bedrängt. Fügt Zielen mit Statusproblemen hohen Schaden zu."
   },
   "skyDrop": {
     "name": "Freier Fall",
     "effect": "Steigt in Runde 1 mit dem Ziel in die Luft auf und lässt es in Runde 2 fallen. Das Ziel kann dabei nicht angreifen."
   },
   "shiftGear": {
-    "name": "Gangwechsel"
+    "name": "Gangwechsel",
+    "effect": "Durch Drehen der Zahnräder erhöht sich nicht nur der Angriffs-Wert, sondern auch die Initiative des Anwenders stark."
   },
   "circleThrow": {
-    "name": "Überkopfwurf"
+    "name": "Überkopfwurf",
+    "effect": "Schleudert das Ziel davon und bewirkt damit, dass ein anderes Pokémon eingewechselt wird. Beendet Kämpfe gegen wilde Pokémon."
   },
   "incinerate": {
     "name": "Einäschern",
@@ -2032,155 +2044,200 @@
     "effect": "Anwender stemmt sich gegen das Ziel und bewirkt, dass dieses erst als Letztes angreift."
   },
   "acrobatics": {
-    "name": "Akrobatik"
+    "name": "Akrobatik",
+    "effect": "Der Anwender trifft das Ziel mit flinken Bewegungen. Je weniger getragene Items vorhanden sind, desto höher ist der verursachte Schaden (zwischen 55 und 110)."
   },
   "reflectType": {
-    "name": "Typenspiegel"
+    "name": "Typenspiegel",
+    "effect": "Anwender bildet das Ziel nach und nimmt dabei dessen Typ an."
   },
   "retaliate": {
-    "name": "Heimzahlung"
+    "name": "Heimzahlung",
+    "effect": "Anwender nimmt Rache für einen besiegten Mitstreiter. Wurde in der vorigen Runde ein Mitstreiter besiegt, steigt die Kraft."
   },
   "finalGambit": {
-    "name": "Wagemut"
+    "name": "Wagemut",
+    "effect": "Ein Angriff, der dem Ziel Schaden in Höhe der aktuellen KP des Anwenders zufügt. Letzterer wird dadurch selbst besiegt."
   },
   "bestow": {
-    "name": "Offerte"
+    "name": "Offerte",
+    "effect": "Der Anwender übergibt dem Ziel ein getragenes Item."
   },
   "inferno": {
     "name": "Inferno",
     "effect": "Anwender greift das Ziel an, indem er es mit dichten Flammen umhüllt. Ziel erleidet Verbrennungen."
   },
   "waterPledge": {
-    "name": "Wassersäulen"
+    "name": "Wassersäulen",
+    "effect": "Eine Wassersäule trifft das Ziel. Wird die Attacke zusammen mit Feuerschwur oder Pflanzenschwur eingesetzt, kombinieren sich die Attacken zu einer Stärke von 150 und beschwören für 4 Runden einen Regenbogen beziehungsweise ein riesiges Sumpfgebiet herauf."
   },
   "firePledge": {
-    "name": "Feuersäulen"
+    "name": "Feuersäulen",
+    "effect": "Eine Feuersäule trifft das Ziel. Bei gleichzeitiger Verwendung mit Wasserschwur oder Pflanzenschwur kombinieren sich die Attacken zu einer Stärke von 150 und beschwören für 4 Runden einen Regenbogen beziehungsweise ein gewaltiges Flammenmeer herauf."
   },
   "grassPledge": {
-    "name": "Pflanzensäulen"
+    "name": "Pflanzensäulen",
+    "effect": "Eine Säule aus Gras trifft das Ziel. Bei Kombination mit Wassereid oder Feuereid vereinen sich die Attacken zu einer Stärke von 150 und beschwören für vier Runden entweder einen riesigen Sumpf oder ein Flammenmeer herauf."
   },
   "voltSwitch": {
     "name": "Voltwechsel",
     "effect": "Anwender kehrt nach dem Angriff mit atemberaubender Geschwindigkeit zurück und tauscht Platz mit einem anderen Pokémon."
   },
   "struggleBug": {
-    "name": "Käfertrutz"
+    "name": "Käfertrutz",
+    "effect": "Anwender leistet Widerstand und greift an. Der Spezial-Angriff der Ziele sinkt."
   },
   "bulldoze": {
     "name": "Dampfwalze",
     "effect": "Anwender greift an, indem er den Boden um sich herum plattwalzt. Die Initiative aller betroffenen Pokémon sinkt."
   },
   "frostBreath": {
-    "name": "Eisesodem"
+    "name": "Eisesodem",
+    "effect": "Anwender greift an, indem er dem Ziel eisigen Atem entgegenhaucht. Volltreffergarantie."
   },
   "dragonTail": {
-    "name": "Drachenrute"
+    "name": "Drachenrute",
+    "effect": "Putzt das Ziel vom Feld und wechselt es mit einem anderen Pokémon aus. Beendet Kämpfe gegen wilde Pokémon."
   },
   "workUp": {
-    "name": "Kraftschub"
+    "name": "Kraftschub",
+    "effect": "Anwender erhält einen Kraftschub, der seinen Angriff und Spezial-Angriff erhöht."
   },
   "electroweb": {
-    "name": "Elektronetz"
+    "name": "Elektronetz",
+    "effect": "Fängt Ziele mit einem elektrischen Netz und senkt deren Initiative."
   },
   "wildCharge": {
-    "name": "Stromstoß"
+    "name": "Stromstoß",
+    "effect": "Der Anwender hüllt sich in Elektrizität und prallt gegen das Ziel. Der Anwender erleidet ein Viertel des durch diese Attacke verursachten Schadens."
   },
   "drillRun": {
-    "name": "Schlagbohrer"
+    "name": "Schlagbohrer",
+    "effect": "Der Anwender rammt das Ziel, während er seinen Körper wie einen Bohrer dreht. Die Volltrefferquote dieser Attacke wird um eine Stufe erhöht."
   },
   "dualChop": {
     "name": "Doppelhieb",
     "effect": "Versetzt dem Ziel mit massiven Extremitäten Hiebe. Angriff erfolgt zweimal hintereinander."
   },
   "heartStamp": {
-    "name": "Herzstempel"
+    "name": "Herzstempel",
+    "effect": "Der Anwender versetzt dem Ziel einen heftigen Schlag, nachdem er es durch sein niedliches Verhalten in Sicherheit gewiegt hat. Diese Attacke hat eine Chance von 30 %, das Ziel zurückschrecken zu lassen."
   },
   "hornLeech": {
-    "name": "Holzgeweih"
+    "name": "Holzgeweih",
+    "effect": "Der Anwender entzieht dem Ziel mit seinen Hörnern Energie. Die KP des Anwenders werden um die Hälfte des durch diese Attacke verursachten Schadens wiederhergestellt."
   },
   "sacredSword": {
-    "name": "Sanctoklinge"
+    "name": "Sanctoklinge",
+    "effect": "Der Anwender greift mit einem Schwertstreich an. Diese Attacke ignoriert bei der Schadensberechnung die Statuswertveränderungen des Ziels."
   },
   "razorShell": {
-    "name": "Kalkklinge"
+    "name": "Kalkklinge",
+    "effect": "Der Anwender trifft das Ziel mit scharfen Schalen, um Schaden zuzufügen. Diese Attacke hat eine Chance von 50 %, den Verteidigungs-Wert des Ziels zu senken."
   },
   "heatCrash": {
-    "name": "Brandstempel"
+    "name": "Brandstempel",
+    "effect": "Der Anwender rammt das Ziel mit seinem von Flammen umhüllten Körper. Je schwerer der Anwender im Vergleich zum Ziel ist, desto höher ist die Stärke der Attacke (zwischen 40 und 120). Hat das Ziel „Komprimator“ eingesetzt, verdoppelt sich die Stärke der Attacke und sie trifft garantiert."
   },
   "leafTornado": {
-    "name": "Grasmixer"
+    "name": "Grasmixer",
+    "effect": "Der Anwender greift sein Ziel an, indem er es mit scharfen Blättern umschließt. Diese Attacke hat eine Chance von 50 %, die Genauigkeit des Ziels zu senken."
   },
   "steamroller": {
-    "name": "Quetschwalze"
+    "name": "Quetschwalze",
+    "effect": "Der Anwender zerquetscht sein Ziel, indem er mit seinem zusammengerollten Körper über es hinwegrollt. Diese Attacke hat eine Chance von 30 %, das Ziel zurückschrecken zu lassen."
   },
   "cottonGuard": {
-    "name": "Watteschild"
+    "name": "Watteschild",
+    "effect": "Anwender schützt sich, indem er sich in einen luftigen Flaum hüllt. Erhöht die Verteidigung drastisch."
   },
   "nightDaze": {
-    "name": "Nachtflut"
+    "name": "Nachtflut",
+    "effect": "Der Anwender feuert eine pechschwarze Schockwelle auf das Ziel ab, um Schaden zu verursachen. Diese Attacke hat eine Chance von 40 %, die Genauigkeit des Ziels zu senken."
   },
   "psystrike": {
-    "name": "Psychostoß"
+    "name": "Psychostoß",
+    "effect": "Anwender erzeugt seltsame Energiewellen, die dem Ziel physischen Schaden zufügen."
   },
   "tailSlap": {
-    "name": "Kehrschelle"
+    "name": "Kehrschelle",
+    "effect": "Anwender greift das Ziel mit seiner schlagfesten Rute zwei- bis fünfmal hintereinander an."
   },
   "hurricane": {
-    "name": "Orkan"
+    "name": "Orkan",
+    "effect": "Der Anwender greift an, indem er seinen Gegner in einen heftigen Wind hüllt. Diese Attacke hat eine Chance von 30 %, das Ziel zu verwirren, und trifft bei Regen immer. Sie kann zudem Ziele treffen, die sich durch Fliegen, Sprungfeder oder Himmelsfeger in der Luft befinden."
   },
   "headCharge": {
-    "name": "Steinschädel"
+    "name": "Steinschädel",
+    "effect": "Der Anwender stürmt mit dem Kopf voran auf das Ziel zu und setzt dabei sein kräftiges Deckhaar ein. Der Anwender erleidet ¼ des durch diese Attacke verursachten Schadens."
   },
   "gearGrind": {
-    "name": "Klikkdiskus"
+    "name": "Klikkdiskus",
+    "effect": "Anwender greift an, indem er stählerne Zahnräder auf das Ziel schleudert. Angriff erfolgt zweimal hintereinander."
   },
   "searingShot": {
-    "name": "Flammenball"
+    "name": "Flammenball",
+    "effect": "Der Anwender versengt seine gesamte Umgebung in einem Inferno aus scharlachroten Flammen. Diese Attacke hat eine Chance von 30 %, das Ziel zu verbrennen."
   },
   "technoBlast": {
-    "name": "Techblaster"
+    "name": "Techblaster",
+    "effect": "Der Anwender greift an, indem er einen Lichtstrahl auf das Ziel feuert. Wird diese Attacke von Genesect eingesetzt, ändert sich ihr Typ je nach dem getragenen Modul."
   },
   "relicSong": {
-    "name": "Urgesang"
+    "name": "Urgesang",
+    "effect": "Der Anwender singt ein uraltes Lied und greift an, indem er die Herzen der zuhörenden gegnerischen Pokémon anspricht. Die Attacke hat eine Chance von 10 %, das Ziel in Schlaf zu versetzen. Wird sie von Meloetta eingesetzt, wechselt dieses zwischen seiner Gesangs- und seiner Tanzform."
   },
   "secretSword": {
-    "name": "Mystoschwert"
+    "name": "Mystoschwert",
+    "effect": "Der Anwender greift an, indem er mit einem Langschwert auf das Ziel einschlägt. Die im Schwert innewohnende, eigenartige Kraft fügt dem Ziel physischen Schaden zu. Beherrscht Keldeo diese Attacke, nimmt es seine Resolutform an."
   },
   "glaciate": {
-    "name": "Eiszeit"
+    "name": "Eiszeit",
+    "effect": "Anwender greift an, indem er dem Ziel klirrend kalte Luft entgegenbläst. Senkt die Initiative des Zieles."
   },
   "boltStrike": {
-    "name": "Blitzschlag"
+    "name": "Blitzschlag",
+    "effect": "Der Anwender umgibt sich mit einer großen Menge Elektrizität und stürmt auf das Ziel zu. Diese Attacke hat eine Chance von 20 %, das Ziel zu paralysieren."
   },
   "blueFlare": {
-    "name": "Blauflammen"
+    "name": "Blauflammen",
+    "effect": "Der Anwender greift an, indem er das Ziel in eine intensive, aber wunderschöne blaue Flamme hüllt. Diese Attacke hat eine Chance von 20 %, beim Ziel eine Verbrennung zu verursachen."
   },
   "fieryDance": {
-    "name": "Feuerreigen"
+    "name": "Feuerreigen",
+    "effect": "Der Anwender tanzt, in Flammen gehüllt, und greift das Ziel an. Diese Attacke hat eine Chance von 50 %, den Spezial-Angriff des Anwenders zu erhöhen."
   },
   "freezeShock": {
-    "name": "Frostvolt"
+    "name": "Frostvolt",
+    "effect": "In der Runde nach Einsatz dieser Attacke trifft der Anwender das Ziel mit elektrisch geladenem Eis und fügt Schaden zu. Die Attacke hat eine Chance von 30 %, das Ziel zu paralysieren."
   },
   "iceBurn": {
-    "name": "Frosthauch"
+    "name": "Frosthauch",
+    "effect": "In der Runde nach dem Einsatz dieser Attacke umgibt der Anwender das Ziel mit einem extrem kalten, eisigen Wind, um Schaden zuzufügen. Diese Attacke hat eine Chance von 30 %, das Ziel zu verbrennen."
   },
   "snarl": {
-    "name": "Standpauke"
+    "name": "Standpauke",
+    "effect": "Wäscht Zielen in der Nähe mit einer ausführlichen Standpauke den Kopf und senkt dabei deren Spezial-Angriff."
   },
   "icicleCrash": {
-    "name": "Eiszapfhagel"
+    "name": "Eiszapfhagel",
+    "effect": "Der Anwender greift an, indem er große Eiszapfen auf das Ziel stürzen lässt. Diese Attacke hat eine Chance von 30 %, das Ziel zurückschrecken zu lassen."
   },
   "vCreate": {
-    "name": "V-Generator"
+    "name": "V-Generator",
+    "effect": "Der Anwender stößt eine heiße Flamme aus seiner Stirn aus und stürzt sich auf das Ziel, um Schaden zuzufügen. Zudem sinken dadurch die Werte Verteidigung, Spezial-Verteidigung und Initiative des Anwenders."
   },
   "fusionFlare": {
-    "name": "Kreuzflamme"
+    "name": "Kreuzflamme",
+    "effect": "Der Anwender lässt eine gewaltige Flamme herabfallen. Die Stärke dieser Attacke verdoppelt sich, wenn sie nach Kreuzdonner eingesetzt wird. Sie taut den Anwender auf, falls dieser eingefroren ist."
   },
   "fusionBolt": {
-    "name": "Kreuzdonner"
+    "name": "Kreuzdonner",
+    "effect": "Der Anwender schleudert einen gewaltigen Blitz herab. Die Stärke dieser Attacke verdoppelt sich, wenn sie nach Kreuzflamme eingesetzt wird."
   },
   "flyingPress": {
-    "name": "Flying Press"
+    "name": "Flying Press",
+    "effect": "Der Anwender stürzt sich aus der Luft auf das Ziel. Diese Attacke ist gleichzeitig vom Typ Kampf und Flug. Hat das Ziel Komprimator eingesetzt, verdoppelt sich die Stärke der Attacke und sie trifft garantiert."
   },
   "matBlock": {
     "name": "Tatami-Schild",
@@ -2191,32 +2248,40 @@
     "effect": "Der Anwender fügt dem Ziel Schaden zu, indem er es anrülpst. Diese Attacke gelingt nur nach dem Konsum einer getragenen Beere."
   },
   "rototiller": {
-    "name": "Pflüger"
+    "name": "Pflüger",
+    "effect": "Durch das Auflockern des Bodens erleichtert der Anwender das Pflanzenwachstum. Dies steigert im Kampf den Angriff und Spezial-Angriff aller am Boden befindlichen Pflanzen-Pokémon."
   },
   "stickyWeb": {
-    "name": "Klebenetz"
+    "name": "Klebenetz",
+    "effect": "Der Anwender webt ein klebriges Netz um das gegnerische Team. Bei Pokémon, die in den Kampf eingewechselt werden, sinkt der Initiative-Wert. Pokémon vom Typ Flug oder solche mit der Fähigkeit Schwebe sind davon nicht betroffen."
   },
   "fellStinger": {
-    "name": "Stachelfinale"
+    "name": "Stachelfinale",
+    "effect": "Gelingt es dem Anwender, das Ziel mit dieser Attacke zu besiegen, steigt sein Angriffs-Wert stark."
   },
   "phantomForce": {
-    "name": "Phantomkraft"
+    "name": "Phantomkraft",
+    "effect": "Der Anwender greift an, indem er für kurze Zeit in den Schatten verschwindet und dann wieder auftaucht, um das Ziel im nächsten Zug zu treffen. Diese Attacke kann ein Ziel treffen, das eine Attacke wie Schutzschild oder Scanner eingesetzt hat, und hebt die Wirkung dieser Attacken auf."
   },
   "trickOrTreat": {
-    "name": "Halloween"
+    "name": "Halloween",
+    "effect": "Der Anwender lehrt das Ziel das Fürchten. Dieses nimmt dadurch zusätzlich den Typ Geist an."
   },
   "nobleRoar": {
-    "name": "Kampfgebrüll"
+    "name": "Kampfgebrüll",
+    "effect": "Der Anwender stößt ein Kampfgebrüll aus, dass das Ziel einschüchtert und zugleich seinen Angriffs- und Spezial-Angriffs-Wert senkt."
   },
   "ionDeluge": {
     "name": "Plasmaschauer",
     "effect": "Versprüht elektrisch geladene Partikel und bewirkt, dass Normal-Attacken den Typ Elektro annehmen."
   },
   "parabolicCharge": {
-    "name": "Parabolladung"
+    "name": "Parabolladung",
+    "effect": "Der Anwender greift an, indem er eine Welle aus Elektrizität entfesselt. Die KP des Anwenders werden um die Hälfte des durch diese Attacke verursachten Schadens wiederhergestellt."
   },
   "forestsCurse": {
-    "name": "Waldesfluch"
+    "name": "Waldesfluch",
+    "effect": "Der Anwender belegt das Ziel mit einem Waldesfluch, durch den dieses zusätzlich den Typ Pflanze annimmt."
   },
   "petalBlizzard": {
     "name": "Blütenwirbel"
