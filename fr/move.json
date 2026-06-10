@@ -184,7 +184,8 @@
     "effect": "Effraie le Pokémon ennemi et le remplace par un autre. Lors d’un combat contre un Pokémon sauvage seul, met fin au combat."
   },
   "sing": {
-    "name": "Berceuse"
+    "name": "Berceuse",
+    "effect": "Une berceuse plonge la cible dans un profond sommeil."
   },
   "supersonic": {
     "name": "Ultrason",
@@ -195,19 +196,24 @@
     "effect": "Une onde de choc destructrice qui inflige toujours 20 PV de dégâts."
   },
   "disable": {
-    "name": "Entrave"
+    "name": "Entrave",
+    "effect": "Empêche la cible de répéter sa dernière attaque. Dure 4 tours."
   },
   "acid": {
-    "name": "Acide"
+    "name": "Acide",
+    "effect": "Le lanceur attaque la cible avec un jet d’acide corrosif. A 10 % de chances de baisser sa Défense Spéciale."
   },
   "ember": {
-    "name": "Flammèche"
+    "name": "Flammèche",
+    "effect": "La cible est attaquée par une faible flamme. A 10 % de chances de la bruler."
   },
   "flamethrower": {
-    "name": "Lance-Flammes"
+    "name": "Lance-Flammes",
+    "effect": "La cible reçoit un torrent de flammes. A 10 % de chances de la bruler."
   },
   "mist": {
-    "name": "Brume"
+    "name": "Brume",
+    "effect": "Une brume blanche enveloppe le lanceur et ses alliés et empêche la réduction des stats pour 5 tours."
   },
   "waterGun": {
     "name": "Pistolet à O",
@@ -218,42 +224,52 @@
     "effect": "Un puissant jet d’eau est dirigé sur la cible."
   },
   "surf": {
-    "name": "Surf"
+    "name": "Surf",
+    "effect": "Une énorme vague s’abat sur le champ de bataille et inflige des dégâts à tous les Pokémon autour du lanceur. Sa puissance est multipliée par 2 sur les cibles sous l’eau."
   },
   "iceBeam": {
-    "name": "Laser Glace"
+    "name": "Laser Glace",
+    "effect": "Un rayon de glace frappe la cible. A 10 % de chances de la geler."
   },
   "blizzard": {
-    "name": "Blizzard"
+    "name": "Blizzard",
+    "effect": "Une violente tempête de neige s’abat sur la cible. A 10 % de chances de la geler. N’échoue jamais quand il neige ou grêle."
   },
   "psybeam": {
-    "name": "Rafale Psy"
+    "name": "Rafale Psy",
+    "effect": "Un étrange rayon frappe la cible. A 10 % de chances de la rendre confuse."
   },
   "bubbleBeam": {
-    "name": "Bulles d’O"
+    "name": "Bulles d’O",
+    "effect": "Des bulles sont envoyées avec puissance sur la cible. A 10 % de chances de baisser sa Vitesse."
   },
   "auroraBeam": {
-    "name": "Onde Boréale"
+    "name": "Onde Boréale",
+    "effect": "Le lanceur envoie un rayon arc-en-ciel sur la cible. A 10 % de chances de baisser son Attaque."
   },
   "hyperBeam": {
     "name": "Ultralaser",
     "effect": "Le lanceur projette un puissant rayon sur la cible, mais doit se reposer au tour suivant."
   },
   "peck": {
-    "name": "Picpic"
+    "name": "Picpic",
+    "effect": "Le lanceur frappe la cible d’un bec acéré ou d’une corne pointue pour infliger des dégâts."
   },
   "drillPeck": {
     "name": "Bec Vrille",
     "effect": "Une attaque utilisant le bec comme une perceuse."
   },
   "submission": {
-    "name": "Sacrifice"
+    "name": "Sacrifice",
+    "effect": "Le lanceur agrippe la cible et l’écrase au sol. Blesse aussi légèrement le lanceur à hauteur de 1/4 des dégâts infligés."
   },
   "lowKick": {
-    "name": "Balayage"
+    "name": "Balayage",
+    "effect": "Un grand coup de pied bas qui fauche la cible. Plus celle-ci est lourde, plus la puissance de cette capacité augmente. La puissance peut varier entre 20 et 120."
   },
   "counter": {
-    "name": "Riposte"
+    "name": "Riposte",
+    "effect": "Une riposte qui répond à toute attaque physique en infligeant le double de dégâts."
   },
   "seismicToss": {
     "name": "Frappe Atlas",
@@ -264,7 +280,8 @@
     "effect": "Le lanceur cogne la cible de toutes ses forces."
   },
   "absorb": {
-    "name": "Vole-Vie"
+    "name": "Vole-Vie",
+    "effect": "Une attaque qui absorbe les nutriments et convertit la moitié des dégâts infligés en PV pour le lanceur."
   },
   "megaDrain": {
     "name": "Méga-Sangsue"
