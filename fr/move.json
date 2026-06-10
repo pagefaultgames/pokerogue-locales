@@ -356,58 +356,72 @@
     "effect": "Le lanceur provoque un tremblement de terre touchant tous les Pokémon autour de lui. La puissance est doublée sur les cibles sous la terre. Quand un champ herbu est actif, la puissance de cette capacité est réduite de moitié."
   },
   "fissure": {
-    "name": "Abime"
+    "name": "Abime",
+    "effect": "Le lanceur fait tomber la cible dans une crevasse. Si cette attaque réussit, elle met K.O. sur le coup. Sa Précision reste fixe à 30 %. Les Pokémon Boss y sont immunisés."
   },
   "dig": {
-    "name": "Tunnel"
+    "name": "Tunnel",
+    "effect": "Le lanceur creuse au premier tour et frappe au second."
   },
   "toxic": {
-    "name": "Toxik"
+    "name": "Toxik",
+    "effect": "Le lanceur empoisonne gravement la cible. Les dégâts dus au poison augmentent à chaque tour, d’abord à 1/16 de ses PV totaux, puis à 2/16 et ainsi de suite. N’échoue jamais si le lanceur est de type Poison."
   },
   "confusion": {
-    "name": "Choc Mental"
+    "name": "Choc Mental",
+    "effect": "Une faible vague télékinétique frappe la cible. A 10 % de chances de la rendre confuse."
   },
   "psychic": {
-    "name": "Psyko"
+    "name": "Psyko",
+    "effect": "Une puissante force télékinétique frappe la cible. A 10 % de chances de baisser sa Défense Spéciale."
   },
   "hypnosis": {
-    "name": "Hypnose"
+    "name": "Hypnose",
+    "effect": "Le lanceur hypnotise la cible pour la plonger dans un profond sommeil."
   },
   "meditate": {
-    "name": "Yoga"
+    "name": "Yoga",
+    "effect": "Le lanceur médite pour éveiller son pouvoir latent et augmenter son Attaque."
   },
   "agility": {
-    "name": "Hâte"
+    "name": "Hâte",
+    "effect": "Le lanceur se relaxe et allège son corps. Augmente la Vitesse du lanceur de 2 crans."
   },
   "quickAttack": {
-    "name": "Vive-Attaque"
+    "name": "Vive-Attaque",
+    "effect": "Le lanceur fonce sur la cible si rapidement qu’on parvient à peine à le discerner. Frappe en priorité."
   },
   "rage": {
     "name": "Frénésie",
     "effect": "Une fois activée, cette capacité augmente l’Attaque du lanceur à mesure que celui-ci subit des attaques."
   },
   "teleport": {
-    "name": "Téléport"
+    "name": "Téléport",
+    "effect": "Permet de changer de place avec un autre Pokémon de l’équipe s’il y en a. Quand cette capacité est utilisée par un Pokémon sauvage, celui-ci fuit le combat."
   },
   "nightShade": {
     "name": "Ombre Nocturne",
     "effect": "Le lanceur invoque un mirage et inflige des dégâts égaux au niveau du lanceur."
   },
   "mimic": {
-    "name": "Copie"
+    "name": "Copie",
+    "effect": "Le lanceur copie la dernière capacité utilisée par la cible et la conserve tant qu’il reste au combat."
   },
   "screech": {
     "name": "Grincement",
     "effect": "Le lanceur émet un son strident qui donne envie de se boucher les oreilles. Baisse beaucoup la Défense de la cible."
   },
   "doubleTeam": {
-    "name": "Reflet"
+    "name": "Reflet",
+    "effect": "Le lanceur se déplace si vite qu’il crée des copies illusoires de lui-même. Augmente son Esquive de 1 cran."
   },
   "recover": {
-    "name": "Soin"
+    "name": "Soin",
+    "effect": "Un soin qui permet au lanceur de récupérer jusqu’à la moitié de ses PV max."
   },
   "harden": {
-    "name": "Armure"
+    "name": "Armure",
+    "effect": "Le lanceur contracte tous ses muscles pour augmenter sa Défense."
   },
   "minimize": {
     "name": "Lilliput",
@@ -418,40 +432,48 @@
     "effect": "Le lanceur disperse un nuage d’encre ou de fumée qui réduit la Précision de la cible."
   },
   "confuseRay": {
-    "name": "Onde Folie"
+    "name": "Onde Folie",
+    "effect": "Une lumière étrange qui plonge la cible dans un état de confusion."
   },
   "withdraw": {
-    "name": "Repli"
+    "name": "Repli",
+    "effect": "Le lanceur se recroqueville dans sa carapace, ce qui augmente sa Défense."
   },
   "defenseCurl": {
-    "name": "Boul’Armure"
+    "name": "Boul’Armure",
+    "effect": "Le lanceur s’enroule pour cacher ses points faibles, ce qui augmente sa Défense. Double également la puissance de Roulade et Ball’Glace."
   },
   "barrier": {
     "name": "Bouclier",
     "effect": "Le lanceur érige un mur solide qui augmente beaucoup sa Défense."
   },
   "lightScreen": {
-    "name": "Mur Lumière"
+    "name": "Mur Lumière",
+    "effect": "Crée un fabuleux mur de lumière qui réduit les dégâts causés par les capacités spéciales pendant 5 tours."
   },
   "haze": {
     "name": "Buée Noire",
     "effect": "Crée un brouillard qui annule les changements de stats de tous les Pokémon au combat."
   },
   "reflect": {
-    "name": "Protection"
+    "name": "Protection",
+    "effect": "Crée un fabuleux mur de lumière qui réduit les dégâts causés par les capacités physiques pendant 5 tours."
   },
   "focusEnergy": {
-    "name": "Puissance"
+    "name": "Puissance",
+    "effect": "Le lanceur prend une profonde inspiration et se concentre pour augmenter son taux de critiques de 2 crans."
   },
   "bide": {
-    "name": "Patience"
+    "name": "Patience",
+    "effect": "Le lanceur encaisse les coups durant 2 tours et réplique en infligeant le double des dégâts subis."
   },
   "metronome": {
     "name": "Métronome",
     "effect": "Le lanceur agite un doigt et stimule son cerveau pour utiliser presque n’importe quelle capacité au hasard."
   },
   "mirrorMove": {
-    "name": "Mimique"
+    "name": "Mimique",
+    "effect": "Le lanceur riposte à l’attaque de l’ennemi avec la même attaque. Échoue si aucune autre capacité n’a été déjà utilisée ou si la dernière capacité utilisée ne peut pas être copiée."
   },
   "selfDestruct": {
     "name": "Destruction",
@@ -462,25 +484,32 @@
     "effect": "De toutes ses forces, le lanceur jette un gros œuf sur l’ennemi pour lui infliger des dégâts."
   },
   "lick": {
-    "name": "Léchouille"
+    "name": "Léchouille",
+    "effect": "Un grand coup de langue qui inflige des dégâts à la cible. A 30 % de chances de la paralyser."
   },
   "smog": {
-    "name": "Purédpois"
+    "name": "Purédpois",
+    "effect": "Le lanceur attaque à l’aide d’une éruption de gaz répugnants. A 30 % de chances de l’empoisonner."
   },
   "sludge": {
-    "name": "Détritus"
+    "name": "Détritus",
+    "effect": "Des détritus toxiques sont projetés sur la cible, ce qui peut aussi l’empoisonner."
   },
   "boneClub": {
-    "name": "Massd’Os"
+    "name": "Massd’Os",
+    "effect": "Le lanceur frappe la cible à grands coups d’os. A 10 % de chances de l’apeurer."
   },
   "fireBlast": {
-    "name": "Déflagration"
+    "name": "Déflagration",
+    "effect": "Un déluge de flammes ardentes submerge la cible. A 10 % de chances de la bruler."
   },
   "waterfall": {
-    "name": "Cascade"
+    "name": "Cascade",
+    "effect": "Le lanceur charge la cible avec une intensité remarquable. A 20 % de chances de l’apeurer."
   },
   "clamp": {
-    "name": "Claquoir"
+    "name": "Claquoir",
+    "effect": "Le lanceur piège la cible dans sa dure coquille et l’écrase pendant 4 à 5 tours. Inflige des dégâts à hauteur de 1/8 des PV totaux de la cible à la fin de chaque tour."
   },
   "swift": {
     "name": "Météores",
@@ -491,54 +520,68 @@
     "effect": "Le lanceur baisse la tête pour augmenter sa Défense au premier tour et percuter l’ennemi au second."
   },
   "spikeCannon": {
-    "name": "Picanon"
+    "name": "Picanon",
+    "effect": "Envoie une rafale de dards. Peut toucher de 2 à 5 fois."
   },
   "constrict": {
-    "name": "Constriction"
+    "name": "Constriction",
+    "effect": "De longs tentacules ou lianes attaquent l’ennemi. A 10 % de chances de baisser sa Vitesse."
   },
   "amnesia": {
-    "name": "Amnésie"
+    "name": "Amnésie",
+    "effect": "Le lanceur fait le vide dans son esprit pour oublier ses soucis. Augmente beaucoup sa Défense Spéciale."
   },
   "kinesis": {
     "name": "Télékinésie",
     "effect": "Le lanceur distrait l’ennemi en pliant une cuiller, ce qui baisse sa Précision."
   },
   "softBoiled": {
-    "name": "E-Coque"
+    "name": "E-Coque",
+    "effect": "Le lanceur récupère jusqu’à la moitié de ses PV max."
   },
   "highJumpKick": {
-    "name": "Pied Voltige"
+    "name": "Pied Voltige",
+    "effect": "Le lanceur s’élance pour effectuer un coup de genou sauté. S’il échoue, le lanceur se blesse à hauteur de la moité des PV totaux."
   },
   "glare": {
-    "name": "Regard Médusant"
+    "name": "Regard Médusant",
+    "effect": "Le lanceur intimide la cible grâce à son regard terrifiant pour la paralyser."
   },
   "dreamEater": {
-    "name": "Dévorêve"
+    "name": "Dévorêve",
+    "effect": "Le lanceur mange le rêve de la cible endormie et récupère en PV la moitié des dégâts infligés."
   },
   "poisonGas": {
-    "name": "Gaz Toxik"
+    "name": "Gaz Toxik",
+    "effect": "Le lanceur empoisonne la cible en lui projetant un nuage de gaz toxique au visage."
   },
   "barrage": {
-    "name": "Pilonnage"
+    "name": "Pilonnage",
+    "effect": "Projette de 2 à 5 grosses boules sur la cible."
   },
   "leechLife": {
-    "name": "Vampirisme"
+    "name": "Vampirisme",
+    "effect": "Une attaque qui aspire le sang de la cible. La moitié des dégâts sont convertis en PV pour le lanceur."
   },
   "lovelyKiss": {
-    "name": "Grobisou"
+    "name": "Grobisou",
+    "effect": "Le lanceur fait un bisou à la cible en prenant une mine effrayante, ce qui la fait s’endormir."
   },
   "skyAttack": {
-    "name": "Piqué"
+    "name": "Piqué",
+    "effect": "Une attaque en deux tours au taux de critiques supérieur d’un cran, qui peut aussi apeurer la cible. A 30 % de chances de l’apeurer."
   },
   "transform": {
-    "name": "Morphing"
+    "name": "Morphing",
+    "effect": "Le lanceur devient une copie de sa cible et obtient la même palette de capacités. Toutes les caractéristiques de ce dernier, à l’exception de ses PV, sont également dupliquées. Les capacités copiées ne disposent que de 5 PP chacune."
   },
   "bubble": {
     "name": "Écume",
     "effect": "Des bulles frappent l’ennemi. Peut réduire sa Vitesse."
   },
   "dizzyPunch": {
-    "name": "Uppercut"
+    "name": "Uppercut",
+    "effect": "Un enchainement de coups de poing cadencés frappe l’ennemi. A 20 % de chances de la rendre confuse."
   },
   "spore": {
     "name": "Spore",
@@ -546,39 +589,47 @@
   },
   "flash": {
     "name": "Flash",
-    "effect": "Explosion lumineuse qui fait baisser la Précision de l’ennemi."
+    "effect": "Explosion lumineuse qui fait baisser la Précision de la cible."
   },
   "psywave": {
-    "name": "Vague Psy"
+    "name": "Vague Psy",
+    "effect": "Une étrange onde d’énergie chaude frappe l’ennemi. Cette attaque est d’une intensité virant de 50 % à 150 % du niveau du lanceur."
   },
   "splash": {
     "name": "Trempette",
     "effect": "Le lanceur barbote et éclabousse les environs. Cette capacité n’a aucun effet."
   },
   "acidArmor": {
-    "name": "Acidarmure"
+    "name": "Acidarmure",
+    "effect": "Le lanceur modifie sa structure moléculaire pour se liquéfier et beaucoup augmenter sa Défense."
   },
   "crabhammer": {
-    "name": "Pince-Masse"
+    "name": "Pince-Masse",
+    "effect": "Une grande pince martèle la cible. Taux de critique supérieur d’un cran."
   },
   "explosion": {
     "name": "Explosion",
     "effect": "Le lanceur explose et inflige des dégâts à tous les Pokémon autour de lui. Met K.O. le lanceur."
   },
   "furySwipes": {
-    "name": "Combo-Griffe"
+    "name": "Combo-Griffe",
+    "effect": "La cible est lacérée par des faux ou des griffes de 2 à 5 fois d’affilée."
   },
   "bonemerang": {
-    "name": "Osmerang"
+    "name": "Osmerang",
+    "effect": "Le lanceur projette son os comme un boomerang. Cette attaque frappe 2 fois d’affilée, à l’aller et au retour."
   },
   "rest": {
-    "name": "Repos"
+    "name": "Repos",
+    "effect": "Le lanceur regagne tous ses PV et ses altérations de statut sont soignées, puis il dort pendant 2 tours. Échoue si ses PV sont déjà au maximum."
   },
   "rockSlide": {
-    "name": "Éboulement"
+    "name": "Éboulement",
+    "effect": "Le lanceur envoie de gros rochers sur la cible pour lui infliger des dégâts. A 30 % de chances de l’apeurer."
   },
   "hyperFang": {
-    "name": "Croc de Mort"
+    "name": "Croc de Mort",
+    "effect": "Le lanceur mord l’ennemi à l’aide de ses incisives aiguisées. A 10 % de chances de l’apeurer."
   },
   "sharpen": {
     "name": "Affutage",
@@ -589,19 +640,24 @@
     "effect": "Le lanceur change de type pour prendre celui de la première capacité de sa liste."
   },
   "triAttack": {
-    "name": "Triplattaque"
+    "name": "Triplattaque",
+    "effect": "Le lanceur envoie trois boules d’énergie simultanément. A 20 % de chances de paralyser, de bruler ou de geler la cible."
   },
   "superFang": {
-    "name": "Croc Fatal"
+    "name": "Croc Fatal",
+    "effect": "Une vilaine morsure d’incisives qui réduit de moitié les PV restants de la cible."
   },
   "slash": {
-    "name": "Tranche"
+    "name": "Tranche",
+    "effect": "Le lanceur donne un coup de griffe ou de faux. Taux de critique supérieur d’un cran."
   },
   "substitute": {
-    "name": "Clonage"
+    "name": "Clonage",
+    "effect": "Le lanceur crée un clone en sacrifiant 1/4 de ses PV max. Ce clone sert de leurre pour subir les capacités à la place du lanceur et disparait après avoir subi des dégâts équivalents à 1/4 des PV max du lanceur."
   },
   "struggle": {
-    "name": "Lutte"
+    "name": "Lutte",
+    "effect": "Une attaque désespérée, utilisée quand le lanceur n’a plus de PP. Le blesse aussi légèrement à hauteur de 1/3 de ses PV max."
   },
   "sketch": {
     "name": "Gribouille"
