@@ -21,7 +21,7 @@
   },
   "payDay": {
     "name": "Jackpot",
-    "effect": "Des pièces sont lancées sur la cible pour le infliger des dégâts. Si l’attaque le rate pas, vous recevrez de l’argent après le combat."
+    "effect": "Des pièces sont lancées sur la cible pour le infliger des dégâts. Si l’attaque est réussie, vous recevrez de l’argent après le combat."
   },
   "firePunch": {
     "name": "Poing Feu",
@@ -685,7 +685,7 @@
   },
   "flameWheel": {
     "name": "Roue de Feu",
-    "effect": "Le lanceur s’entoure de feu et charge la cible. A 10 % de chances de la bruler. Si elle est dégelée, elle sera dégelée."
+    "effect": "Le lanceur s’entoure de feu et charge la cible. A 10 % de chances de la bruler. Si elle est gelée, elle sera dégelée."
   },
   "snore": {
     "name": "Ronflement",
@@ -1416,10 +1416,12 @@
     "effect": "Attaque l’ennemi à pleine puissance. Le contrecoup baisse beaucoup l’Attaque Spéciale du lanceur."
   },
   "roost": {
-    "name": "Atterrissage"
+    "name": "Atterrissage",
+    "effect": "Le lanceur atterrit et se repose. Restaure jusqu’à la moitié de ses PV max. Si le lanceur est de type Vol, il ne l’est plus pendant ce tour."
   },
   "gravity": {
-    "name": "Gravité"
+    "name": "Gravité",
+    "effect": "Pendant 5 tours, les Pokémon Vol ou qui ont Lévitation deviennent sensibles aux capacités Sol, et les capacités volantes deviennent inutilisables. Augmente de 67 % la Précision des capacités."
   },
   "miracleEye": {
     "name": "Œil Miracle",
@@ -1430,68 +1432,84 @@
     "effect": "Cette attaque inflige d’importants dégâts à un Pokémon endormi. Mais elle le réveille également."
   },
   "hammerArm": {
-    "name": "Marto-Poing"
+    "name": "Marto-Poing",
+    "effect": "Le lanceur donne un puissant coup de poing à la cible, ce qui réduit la Vitesse du lanceur."
   },
   "gyroBall": {
-    "name": "Gyroballe"
+    "name": "Gyroballe",
+    "effect": "Le lanceur effectue une rotation rapide et frappe la cible. Plus la Vitesse du lanceur est basse par rapport à celle de la cible, plus il inflige de dégâts. La puissance peut varier entre 1 et 150."
   },
   "healingWish": {
     "name": "Vœu Soin",
     "effect": "Le lanceur tombe K.O. pour soigner les altérations de statut et les PV du Pokémon qui viendra le remplacer sur le terrain."
   },
   "brine": {
-    "name": "Saumure"
+    "name": "Saumure",
+    "effect": "La puissance de cette capacité est doublée lorsque la cible a moins de la moitié de ses PV."
   },
   "naturalGift": {
-    "name": "Don Naturel"
+    "name": "Don Naturel",
+    "effect": "Avant d’attaquer, le lanceur rassemble ses forces grâce à sa Baie. Elle détermine le type et la puissance de l’attaque."
   },
   "feint": {
-    "name": "Ruse"
+    "name": "Ruse",
+    "effect": "Une attaque capable de toucher une cible qui utilise une capacité similaire à Détection ou Abri, et annule l’effet de cette capacité."
   },
   "pluck": {
-    "name": "Picore"
+    "name": "Picore",
+    "effect": "Le lanceur picore la cible. Si cette dernière tient une Baie, le lanceur la mange et profite de ses effets."
   },
   "tailwind": {
-    "name": "Vent Arrière"
+    "name": "Vent Arrière",
+    "effect": "Génère une rafale de vent qui augmente la Vitesse des Pokémon de l’équipe pendant 4 tours."
   },
   "acupressure": {
     "name": "Acupression",
     "effect": "Le lanceur utilise sa connaissance des points de pression pour beaucoup augmenter une stat."
   },
   "metalBurst": {
-    "name": "Fulmifer"
+    "name": "Fulmifer",
+    "effect": "Lors du tour d’utilisation de cette capacité, si le lanceur subit des dégâts infligés par une capacité de l’adversaire, il riposte et lui inflige 1,5 fois les dégâts qu’il a subis."
   },
   "uTurn": {
     "name": "Demi-Tour",
     "effect": "Après son attaque, le lanceur revient à toute vitesse et change de place avec un Pokémon de l’équipe prêt à combattre."
   },
   "closeCombat": {
-    "name": "Close Combat"
+    "name": "Close Combat",
+    "effect": "Le lanceur ne pense plus à se protéger et frappe sa cible violemment au corps à corps. Cette capacité baisse la Défense et la Défense Spéciale du lanceur."
   },
   "payback": {
-    "name": "Représailles"
+    "name": "Représailles",
+    "effect": "Le lanceur charge son énergie, puis attaque. La puissance de la capacité est doublée si le lanceur agit après la cible."
   },
   "assurance": {
-    "name": "Assurance"
+    "name": "Assurance",
+    "effect": "La puissance de cette capacité est 2 fois plus élevée si la cible a déjà été blessée durant ce tour."
   },
   "embargo": {
-    "name": "Embargo"
+    "name": "Embargo",
+    "effect": "Empêche la cible d’utiliser un objet tenu pendant 5 tours."
   },
   "fling": {
-    "name": "Dégommage"
+    "name": "Dégommage",
+    "effect": "Le lanceur envoie un des objets qu’il tient sur la cible. La puissance et les effets dépendent de l’objet."
   },
   "psychoShift": {
     "name": "Échange Psy",
     "effect": "Le lanceur transfère ses problèmes de statut à l’ennemi grâce à son pouvoir de suggestion."
   },
   "trumpCard": {
-    "name": "Atout"
+    "name": "Atout",
+    "effect": "Moins cette capacité possède de PP, plus elle est puissante. 40 à 5 PP, 50 à 4 PP, 60 à 3 PP, 80 à 2 PP et enfin 200 à 1 PP. N’échoue jamais."
   },
   "healBlock": {
-    "name": "Anti-Soin"
+    "name": "Anti-Soin",
+    "effect": "Le lanceur empêche l’ennemi de récupérer des PV à l’aide de capacités, talents ou objets tenus, pendant 5 tours."
   },
   "wringOut": {
-    "name": "Essorage"
+    "name": "Essorage",
+    "effect": "Le lanceur essore la cible. Plus la cible a de PV, plus cette attaque est puissante. La puissance peut varier entre 1 et 120."
   },
   "powerTrick": {
     "name": "Astuce Force",
@@ -1502,13 +1520,16 @@
     "effect": "Le lanceur répand ses sucs digestifs sur la cible. Le fluide neutralise le talent de celle-ci."
   },
   "luckyChant": {
-    "name": "Air Veinard"
+    "name": "Air Veinard",
+    "effect": "Le lanceur envoie une incantation vers le ciel et protège l’équipe des coups critiques pendant 5 tours."
   },
   "meFirst": {
-    "name": "Moi d’Abord"
+    "name": "Moi d’Abord",
+    "effect": "Le lanceur vole la capacité prévue par la cible et l’utilise avec une puissance augmentée de 50 %. Échoue si le lanceur ne frappe pas en premier."
   },
   "copycat": {
-    "name": "Photocopie"
+    "name": "Photocopie",
+    "effect": "Le lanceur imite la dernière capacité employée. Échoue si aucune capacité n’a été utilisée ou si la dernière capacité utilisée ne peut pas être copiée."
   },
   "powerSwap": {
     "name": "Permuforce",
@@ -1519,7 +1540,8 @@
     "effect": "Le lanceur utilise un pouvoir psychique qui échange les changements de sa Défense et de sa Défense Spéciale avec celles de la cible."
   },
   "punishment": {
-    "name": "Punition"
+    "name": "Punition",
+    "effect": "Plus la cible a utilisé d’augmentations de stats et plus cette capacité est puissante à hauteur de 20 par augmentation."
   },
   "lastResort": {
     "name": "Dernier Recours",
@@ -1546,10 +1568,12 @@
     "effect": "Un voile d’eau recouvre le lanceur et régénère ses PV à chaque tour."
   },
   "magnetRise": {
-    "name": "Vol Magnétik"
+    "name": "Vol Magnétik",
+    "effect": "Le lanceur utilise l’électricité pour générer un champ magnétique et léviter durant 5 tours."
   },
   "flareBlitz": {
-    "name": "Boutefeu"
+    "name": "Boutefeu",
+    "effect": "Le lanceur s’embrase avant de charger la cible. A 10 % de chances de la bruler. Si elle est gelée, elle sera dégelée. Le choc blesse aussi gravement le lanceur."
   },
   "forcePalm": {
     "name": "Forte-Paume"
