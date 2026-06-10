@@ -1,15 +1,17 @@
 {
+  "pokemonInfo": "Pokémon Info",
   "status": "Status",
   "powerAccuracyCategory": "Moc\nCelność\nKategoria",
   "type": "Typ",
   "unknownTrainer": "Nieznany",
-  "idNo": "Nr ID{{idNo}}",
-  "nature": "usposobienie",
+  "ot": "PW",
+  "idNo": "Nr ID: {{idNo}}",
+  "nature": "z natury",
   "expPoints": "PD",
   "lv": "P.",
   "nextLv": "Następny Poziom za",
   "cancel": "Wróć",
-  "memoString": "{{natureFragment}} usposobienie,\n{{metFragment}}",
+  "memoString": "{{natureFragment}} z natury,\n{{metFragment}}",
   "metFragment": {
     "normal": "spotkany na P. {{level}},\n{{biome}}, Fala {{wave}}.",
     "apparently": "podobno napotkany na P. {{level}}\n{{biome}}"
@@ -40,5 +42,6 @@
     "sassy": "{{nature}}",
     "careful": "{{nature}}",
     "quirky": "{{nature}}"
-  }
+  },
+  "friendship": "Przyjaźń"
 }

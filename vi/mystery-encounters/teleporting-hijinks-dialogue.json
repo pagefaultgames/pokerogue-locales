@@ -1,0 +1,27 @@
+{
+  "intro": "Đó là một cỗ máy kỳ lạ, kêu vo vo ồn ào…",
+  "title": "Cỗ Máy Dịch Chuyển",
+  "description": "Trên máy có một tấm biển ghi:\n“Để sử dụng, hãy bỏ tiền vào rồi bước vào trong buồng.”\n\nCó lẽ nó có thể đưa bạn đến một nơi nào đó…",
+  "query": "Ngươi định sẽ làm gì đây?",
+  "option": {
+    "1": {
+      "label": "Cho Tiền Vào",
+      "tooltip": "(-) Trả {{price, money}}\n(?) Dịch chuyển đến khu vực mới",
+      "selected": "Bạn bỏ tiền vào, và chiếc hộp tự động mở ra.\nBạn bước vào bên trong…"
+    },
+    "2": {
+      "label": "Một Pokémon giúp đỡ",
+      "tooltip": "(-) {{option2PrimaryName}} giúp\n(+) {{option2PrimaryName}} nhận ĐNK\n(?) Dịch chuyển đến khu vực sinh mới",
+      "disabledTooltip": "Bạn cần một Pokémon hệ Thép hoặc hệ Điện để chọn tùy chọn này.",
+      "selected": "Hệ của {{option2PrimaryName}} cho phép nó vượt qua tường phí của máy!$Cửa khoang mở ra, và bạn bước vào bên trong…"
+    },
+    "3": {
+      "label": "Kiểm Tra Quanh Máy",
+      "tooltip": "(-) Trận Đấu Pokémon",
+      "selected": "Bạn bị thu hút bởi những ánh đèn nhấp nháy và những âm thanh kỳ lạ phát ra từ cỗ máy…$Bạn thậm chí không nhận ra một con Pokémon hoang dã đang lẻn đến và phục kích bạn!"
+    }
+  },
+  "transport": "Cỗ máy rung lắc dữ dội, phát ra đủ loại tiếng động lạ!$Vừa mới bắt đầu, nó lại im bặt.",
+  "attacked": "Bạn bước vào một khu vực hoàn toàn mới và làm giật mình một Pokémon hoang dã!$Pokémon hoang dã tấn công!",
+  "bossEnraged": "{{enemyPokemon}} đối phương đã trở nên nổi giận!"
+}

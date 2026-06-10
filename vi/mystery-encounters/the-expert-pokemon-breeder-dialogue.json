@@ -1,0 +1,31 @@
+{
+  "intro": "Đó là một huấn luyện viên đang mang theo rất nhiều trứng Pokémon!",
+  "introDialogue": "Chào huấn luyện viên!$Có vẻ như một số Pokémon đồng hành của bạn đang cảm thấy hơi buồn.$Sao không cùng tôi đấu một trận để giúp chúng vui lên nhỉ?",
+  "title": "Chuyên Gia Nuôi Dưỡng Pokémon",
+  "description": "Bạn đã được thách đấu trong một trận chiến mà @[TOOLTIP_TITLE]{bạn chỉ được sử dụng một Pokémon duy nhất}. Trận đấu có thể khó khăn, nhưng chắc chắn sẽ giúp bạn thắt chặt thêm mối liên kết với Pokémon mà bạn chọn!\nNgười nuôi Pokémon cũng sẽ tặng bạn một vài quả @[TOOLTIP_TITLE]{Trứng Pokémon} nếu bạn thắng!",
+  "query": "Bạn sẽ chiến đấu với ai?",
+  "cleffa1Nickname": "Ace",
+  "cleffa2Nickname": "Clefablest",
+  "cleffa3Nickname": "{{speciesName}} vĩ đại",
+  "option": {
+    "1": {
+      "label": "{{pokemon1Name}}",
+      "tooltipBase": "(-) Trận chiến khó khăn\n(+) Tăng điểm tình bạn với {{pokemon1Name}}"
+    },
+    "2": {
+      "label": "{{pokemon2Name}}",
+      "tooltipBase": "(-) Trận chiến khó khăn\n(+) Tăng điểm tình bạn với {{pokemon2Name}}"
+    },
+    "3": {
+      "label": "{{pokemon3Name}}",
+      "tooltipBase": "(-) Trận chiến khó khăn\n(+) Tăng điểm tình bạn với {{pokemon3Name}}"
+    },
+    "selected": "Chúng ta cùng đấu thôi!"
+  },
+  "outro": "Hãy xem {{chosenPokemon}} của bạn hạnh phúc thế nào kìa!$Đây, bạn cũng có thể có những thứ này nữa.",
+  "outroFailed": "Thật đáng thất vọng…$Có vẻ như bạn vẫn còn một chặng đường dài để giành được sự tin tưởng của Pokémon!",
+  "gainedEggs": "@s{item_fanfare}Bạn nhận được {{numEggs}}!",
+  "eggsTooltip": "\n(+) Nhận {{eggs}}",
+  "numEggs_one": "{{count}} Trứng {{rarity}}",
+  "numEggs_other": "{{count}} Trứng {{rarity}}"
+}

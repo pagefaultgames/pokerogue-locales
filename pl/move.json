@@ -5,11 +5,21 @@
   "icePunch": {
     "name": "Lodowa Pięść"
   },
+  "thunderPunch": {
+    "name": "Burzowa Pięść"
+  },
+  "scratch": {
+    "name": "Drapnięcie"
+  },
   "cut": {
     "name": "Cięcie"
   },
   "gust": {
     "name": "Podmuch"
+  },
+  "stomp": {
+    "name": "Stąpnięcie",
+    "effect": "Użytkownik depta cel dużą stopą. Może to także wywołać u niego wzdrygnięcie."
   },
   "bite": {
     "name": "Ugryzienie"
@@ -18,10 +28,14 @@
     "name": "Ryk"
   },
   "sing": {
-    "name": "Śpiew"
+    "name": "Śpiew",
+    "effect": "Użytkownik odśpiewuje kojącą kołysankę, usypiając nią przeciwnika."
   },
   "acid": {
     "name": "Kwas"
+  },
+  "flamethrower": {
+    "name": "Miotacz Ognia"
   },
   "mist": {
     "name": "Mgła"
@@ -29,6 +43,9 @@
   "counter": {
     "name": "Kontra",
     "effect": "Atak, kontrujący wszystkie fizyczne ataki przeciwnika. Zadaje dwukrotność otrzymanych obrażeń."
+  },
+  "growth": {
+    "name": "Wzrost"
   },
   "rockThrow": {
     "name": "Rzut Kamieniem",
@@ -100,6 +117,9 @@
   "present": {
     "name": "Prezent"
   },
+  "batonPass": {
+    "name": "Sztafeta"
+  },
   "encore": {
     "name": "Bis"
   },
@@ -145,6 +165,10 @@
   "block": {
     "name": "Blok"
   },
+  "roost": {
+    "name": "Grzęda",
+    "effect": "Użytkownik przysiada na grzędzie i odpoczywa, dzięki czemu odnawia połowę swoich PŻ."
+  },
   "gravity": {
     "name": "Grawitacja"
   },
@@ -177,7 +201,8 @@
     "name": "Elektryfikacja"
   },
   "babyDollEyes": {
-    "name": "Maślane Oczy"
+    "name": "Maślane Oczy",
+    "effect": "Użytkownik robi maślane oczy, co obniża Atak przeciwnika. Ten atak zawsze uderza jako pierwszy."
   },
   "neverEndingNightmarePhysical": {
     "name": "Niekończący Się Koszmar"

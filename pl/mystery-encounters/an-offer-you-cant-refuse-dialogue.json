@@ -1,0 +1,22 @@
+{
+  "introDialogue": "Wyśmienity dzień nieprawdaż?$Nie mogę się nadziwić\njak twój {{strongestPokemon}} bosko wygląda. Zawsze chciałem mieć takiego Pokémona! Hojnie cię wynagrodzę.\nI dorzucę do tego ten stary bibelocik!",
+  "title": "Oferta nie do odrzucenia",
+  "query": "Co wybierasz?",
+  "option": {
+    "1": {
+      "label": "Przyjmij ofertę",
+      "tooltip": "(-) Utrata Pokémona {{strongestPokemon}}\n(+) Zdobądź a@[TOOLTIP_TITLE]{ {{itemName}}}\n(+) Zdobądź {{price, money}}",
+      "selected": "Wspaniale!@d{32} Podejdź {{strongestPokemon}}!$Czas zaprezentować cię wszystkim w Jacht Klubie!$Wszyscy będą mi zazdrościć!"
+    },
+    "2": {
+      "label": "Okradnij dzieciaka",
+      "tooltip": "(+) {{option2PrimaryName}} wymaga: {{moveOrAbility}}\n(+) Zdobądź {{price, money}}",
+      "tooltipDisabled": "Twoje Pokémony muszą posiadać pewne ataki lub zdolności by wybrać tę opcję",
+      "selected": "Mój Boże, okradają nas, {{liepardName}}!$Moi prawnicy już się tobą zajmą!"
+    },
+    "3": {
+      "label": "Odejdź",
+      "tooltip": "(-) Bez nagród"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "none": {
+    "name": "Không"
+  },
+  "poison": {
+    "name": "Nhiễm Độc",
+    "description": "bị trúng độc",
+    "obtain": "{{pokemonNameWithAffix}}\nđang bị trúng độc!",
+    "obtainSource": "{{pokemonNameWithAffix}}\nđang bị trúng độc bởi {{sourceText}}!",
+    "activation": "{{pokemonNameWithAffix}} bị thương\nbởi độc!",
+    "overlap": "{{pokemonNameWithAffix}} đang\nbị trúng độc rồi!",
+    "heal": "{{pokemonNameWithAffix}} đã\nđược cứu khỏi độc tố!"
+  },
+  "toxic": {
+    "name": "Độc Hại",
+    "description": "trúng độc",
+    "obtain": "{{pokemonNameWithAffix}}\nbị trúng độc rất nặng!",
+    "obtainSource": "{{pokemonNameWithAffix}}\nbị trúng độc rất nặng bởi {{sourceText}}!",
+    "activation": "{{pokemonNameWithAffix}} bị thương\nbởi độc!",
+    "overlap": "{{pokemonNameWithAffix}} đang\ntrúng độc rồi!",
+    "heal": "{{pokemonNameWithAffix}} được\ncứu khỏi độc tố!"
+  },
+  "paralysis": {
+    "name": "Tê Liệt",
+    "description": "tê liệt",
+    "obtain": "{{pokemonNameWithAffix}} bị tê liệt,\ncó khả năng nó không thể di chuyển!",
+    "obtainSource": "{{pokemonNameWithAffix}} bị tê liệt bởi {{sourceText}}!\ncó khả năng không thể di chuyển được!",
+    "activation": "{{pokemonNameWithAffix}} bị tê liệt!\nNó không thể di chuyển được!",
+    "overlap": "{{pokemonNameWithAffix}} đã\nbị tê liệt rồi!",
+    "heal": "{{pokemonNameWithAffix}} đã được\nhồi phục khỏi tê liệt!"
+  },
+  "sleep": {
+    "name": "Ngủ Say",
+    "description": "ngủ say",
+    "obtain": "{{pokemonNameWithAffix}}\nrơi vào mộng đẹp!",
+    "obtainSource": "{{pokemonNameWithAffix}}\nrơi vào giấc ngủ bởi {{sourceText}}!",
+    "activation": "{{pokemonNameWithAffix}} rơi vào giấc ngủ.",
+    "overlap": "{{pokemonNameWithAffix}} đã\nngủ mất rồi!",
+    "heal": "{{pokemonNameWithAffix}} thức tỉnh!"
+  },
+  "freeze": {
+    "name": "Đóng Băng",
+    "description": "đóng băng",
+    "obtain": "{{pokemonNameWithAffix}}\nbị đóng thành băng!",
+    "obtainSource": "{{pokemonNameWithAffix}}\nbị đóng băng bởi {{sourceText}}!",
+    "activation": "{{pokemonNameWithAffix}} bị\nđóng thành băng!",
+    "overlap": "{{pokemonNameWithAffix}} đang\nbị đóng băng rồi!",
+    "heal": "{{pokemonNameWithAffix}} đã\ntan băng!",
+    "healByMove": "{{pokemonNameWithAffix}}’s {{moveName}}\nlàm chảy tan băng!"
+  },
+  "burn": {
+    "name": "Bỏng",
+    "description": "bỏng",
+    "obtain": "{{pokemonNameWithAffix}}\nbị bỏng!",
+    "obtainSource": "{{pokemonNameWithAffix}}\nbị làm bỏng bởi {{sourceText}}!",
+    "activation": "{{pokemonNameWithAffix}} bị thương\nbởi bỏng!",
+    "overlap": "{{pokemonNameWithAffix}} đang\nbị bỏng rồi!",
+    "heal": "{{pokemonNameWithAffix}} đã\nđược cứu khỏi bỏng!"
+  }
+}
