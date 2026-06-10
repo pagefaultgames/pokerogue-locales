@@ -660,58 +660,72 @@
     "effect": "Une attaque désespérée, utilisée quand le lanceur n’a plus de PP. Le blesse aussi légèrement à hauteur de 1/3 de ses PV max."
   },
   "sketch": {
-    "name": "Gribouille"
+    "name": "Gribouille",
+    "effect": "Le lanceur apprend la dernière capacité utilisée par la cible. Gribouille disparait après utilisation."
   },
   "tripleKick": {
-    "name": "Triple Pied"
+    "name": "Triple Pied",
+    "effect": "Une série d’un à trois coups de pied distincts dont la puissance augmente de 10 à chaque fois que la capacité touche sa cible."
   },
   "thief": {
     "name": "Larcin",
     "effect": "Le lanceur attaque la cible et a 30% de chance de voler un de ses objets tenus."
   },
   "spiderWeb": {
-    "name": "Toile"
+    "name": "Toile",
+    "effect": "Le lanceur enserre la cible à l’aide d’une fine soie gluante pour l’empêcher de fuir le combat."
   },
   "mindReader": {
     "name": "Lire-Esprit",
     "effect": "Le lanceur analyse les mouvements de l’ennemi pour être sûr de toucher au coup suivant."
   },
   "nightmare": {
-    "name": "Cauchemar"
+    "name": "Cauchemar",
+    "effect": "Un cauchemar qui inflige des dégâts à chaque tour à la cible endormie à hauteur de 1/4 de ses PV max."
   },
   "flameWheel": {
-    "name": "Roue de Feu"
+    "name": "Roue de Feu",
+    "effect": "Le lanceur s’entoure de feu et charge la cible. A 10 % de chances de la bruler. Si elle est dégelée, elle sera dégelée."
   },
   "snore": {
-    "name": "Ronflement"
+    "name": "Ronflement",
+    "effect": "Une attaque qui ne fonctionne que si le lanceur est endormi. Le boucan a 30 % de chances de l’apeurer."
   },
   "curse": {
-    "name": "Malédiction"
+    "name": "Malédiction",
+    "effect": "Si le lanceur est de type Spectre, il sacrifie la moitié de ses PV totaux pour maudire la cible, lui infligeant des dégâts à hauteur de 1/4 des PV max à la fin de chaque tour. Sinon, le lanceur baisse sa Vitesse pour augmenter son Attaque et sa Défense."
   },
   "flail": {
-    "name": "Gigotage"
+    "name": "Gigotage",
+    "effect": "Le lanceur attaque en gigotant dans tous les sens. Plus ses PV sont bas, plus l’attaque est puissante. La puissance peut varier entre 20 et 200."
   },
   "conversion2": {
-    "name": "Conversion 2"
+    "name": "Conversion 2",
+    "effect": "Le lanceur change de type pour être résistant au type de la dernière attaque lancée par sa cible."
   },
   "aeroblast": {
-    "name": "Aéroblast"
+    "name": "Aéroblast",
+    "effect": "Le lanceur projette une tornade sur la cible pour infliger des dégâts. Taux de critique supérieur d’un cran."
   },
   "cottonSpore": {
-    "name": "Spore Coton"
+    "name": "Spore Coton",
+    "effect": "Le lanceur libère des spores cotonneuses qui collent à la cible et baissent beaucoup sa Vitesse."
   },
   "reversal": {
-    "name": "Contre"
+    "name": "Contre",
+    "effect": "Le lanceur ne retient plus ses coups. Plus ses PV sont bas, plus la puissance de cette capacité augmente. La puissance peut varier entre 20 et 200."
   },
   "spite": {
     "name": "Dépit",
     "effect": "Le lanceur exprime son ressentiment en retirant 4 PP à la dernière capacité utilisée par la cible."
   },
   "powderSnow": {
-    "name": "Poudreuse"
+    "name": "Poudreuse",
+    "effect": "Le lanceur projette de la neige poudreuse qui peut aussi geler la cible. A 10 % de chances de la geler."
   },
   "protect": {
-    "name": "Abri"
+    "name": "Abri",
+    "effect": "Le lanceur se protège de toutes les attaques. À chaque utilisation consécutive, les chances de réussite tombent à 1/3 de ce qu’elles étaient à l’utilisation précédente."
   },
   "machPunch": {
     "name": "Mach Punch",
@@ -730,184 +744,232 @@
     "effect": "Le lanceur envoie un bisou si mignon et désarmant qu’il plonge la cible dans la confusion."
   },
   "bellyDrum": {
-    "name": "Cognobidon"
+    "name": "Cognobidon",
+    "effect": "Le lanceur perd la moitié de ses PV max et augmente son Attaque jusqu’au 6ᵉ cran. La capacité échoue s’il ne reste pas assez de PV au lanceur."
   },
   "sludgeBomb": {
-    "name": "Bombe Beurk"
+    "name": "Bombe Beurk",
+    "effect": "Des détritus toxiques sont projetés sur la cible. A 30 % de chances de l’empoisonner."
   },
   "mudSlap": {
     "name": "Coud’Boue",
     "effect": "Le lanceur envoie de la boue au visage de la cible pour infliger des dégâts et baisser sa Précision."
   },
   "octazooka": {
-    "name": "Octazooka"
+    "name": "Octazooka",
+    "effect": "Le lanceur attaque en projetant de l’encre au visage de la cible. A 50 % de chances de baisser sa Précision."
   },
   "spikes": {
-    "name": "Picots"
+    "name": "Picots",
+    "effect": "Les Pokémon entrant sur le terrain subissent des dégâts équivalents à 1/8 de leurs PV max, et plus si 2 ou 3 effets de Picots sont actifs en même temps. Cela n’affecte pas les Pokémon de type Vol ou dotés du talent Lévitation, entre autres."
   },
   "zapCannon": {
-    "name": "Élecanon"
+    "name": "Élecanon",
+    "effect": "Un boulet de canon électrifié qui inflige des dégâts à la cible et la paralyse."
   },
   "foresight": {
     "name": "Clairvoyance",
     "effect": "Permet de toucher un Pokémon Spectre avec n’importe quelle capacité ou de toucher un ennemi insaisissable."
   },
   "destinyBond": {
-    "name": "Lien du Destin"
+    "name": "Lien du Destin",
+    "effect": "Si un assaillant porte un coup fatal au lanceur après qu’il a activé cette capacité, ils sont tous les deux mis K.O. La capacité échoue si elle est immédiatement réutilisée. Les Pokémon Boss y sont immunisés."
   },
   "perishSong": {
-    "name": "Requiem"
+    "name": "Requiem",
+    "effect": "Tout Pokémon qui entend ce requiem est K.O. dans 3 tours à moins qu’il ne soit remplacé. Les Pokémon Boss y sont immunisés."
   },
   "icyWind": {
     "name": "Vent Glace",
     "effect": "Une bourrasque de vent froid blesse la cible et réduit sa Vitesse."
   },
   "detect": {
-    "name": "Détection"
+    "name": "Détection",
+    "effect": "Le lanceur se protège de toutes les attaques. À chaque utilisation consécutive, les chances de réussite tombent à 1/3 de ce qu’elles étaient à l’utilisation précédente."
   },
   "boneRush": {
-    "name": "Charge Os"
+    "name": "Charge Os",
+    "effect": "Le lanceur frappe la cible avec un os de 2 à 5 fois d’affilée."
   },
   "lockOn": {
-    "name": "Verrouillage"
+    "name": "Verrouillage",
+    "effect": "Le lanceur verrouille la cible pour ne pas la rater au tour suivant."
   },
   "outrage": {
-    "name": "Colère"
+    "name": "Colère",
+    "effect": "Le lanceur enrage et attaque pendant 2 ou 3 tours avant de devenir confus."
   },
   "sandstorm": {
-    "name": "Tempête de Sable"
+    "name": "Tempête de Sable",
+    "effect": "Une tempête de sable blesse tous les Pokémon pendant 5 tours à hauteur de 1/16 des PV max, sauf ceux de type Roche, Sol ou Acier. Augmente de 50 % la Défense Spéciale des Pokémon Roche."
   },
   "gigaDrain": {
-    "name": "Giga-Sangsue"
+    "name": "Giga-Sangsue",
+    "effect": "Une attaque qui absorbe les nutriments et convertit la moitié des dégâts infligés en PV pour le lanceur."
   },
   "endure": {
-    "name": "Ténacité"
+    "name": "Ténacité",
+    "effect": "Le lanceur résiste aux attaques avec 1 PV. À chaque utilisation consécutive, les chances de réussite tombent à 1/3 de ce qu’elles étaient à l’utilisation précédente."
   },
   "charm": {
     "name": "Charme",
     "effect": "Le lanceur fait les yeux doux pour berner la cible et beaucoup réduire son Attaque."
   },
   "rollout": {
-    "name": "Roulade"
+    "name": "Roulade",
+    "effect": "Un rocher roule sur la cible pendant 5 tours. L’attaque double sa puissance à chaque coup. Retrouve sa puissance initiale après 5 tours ou si elle est interrompue."
   },
   "falseSwipe": {
     "name": "Faux-Chage",
     "effect": "Le lanceur retient ses coups pour que la cible garde au moins 1 PV et ne tombe pas K.O."
   },
   "swagger": {
-    "name": "Vantardise"
+    "name": "Vantardise",
+    "effect": "Fait enrager la cible et la plonge dans la confusion, mais augmente beaucoup son Attaque."
   },
   "milkDrink": {
-    "name": "Lait à Boire"
+    "name": "Lait à Boire",
+    "effect": "Le lanceur récupère jusqu’à la moitié de ses PV max."
   },
   "spark": {
-    "name": "Étincelle"
+    "name": "Étincelle",
+    "effect": "Le lanceur envoie une charge électrique sur la cible. A 30 % de chances de la paralyser."
   },
   "furyCutter": {
-    "name": "Taillade"
+    "name": "Taillade",
+    "effect": "Un coup de faux ou de griffe. Sa puissance double quand elle touche plusieurs fois d’affilée jusqu’à un maximum de 160. Retrouve sa puissance initiale si elle est interrompue ou qu’une autre capacité est utilisée."
   },
   "steelWing": {
-    "name": "Ailes d’Acier"
+    "name": "Ailes d’Acier",
+    "effect": "Le lanceur frappe la cible avec des ailes d’acier. A 10 % de chances d’augmenter sa Défense."
   },
   "meanLook": {
-    "name": "Regard Noir"
+    "name": "Regard Noir",
+    "effect": "Le lanceur pétrifie la cible en lui lançant un regard noir qui la rend incapable de quitter le terrain."
   },
   "attract": {
-    "name": "Attraction"
+    "name": "Attraction",
+    "effect": "Si la cible est du sexe opposé au lanceur, elle tombe amoureuse et a 50 % de risque rechigner à attaquer."
   },
   "sleepTalk": {
-    "name": "Blabla Dodo"
+    "name": "Blabla Dodo",
+    "effect": "Le lanceur utilise une de ses capacités au hasard. Il ne peut utiliser cette capacité que quand il dort."
   },
   "healBell": {
-    "name": "Glas de Soin"
+    "name": "Glas de Soin",
+    "effect": "Carillon apaisant qui soigne les altérations de statut de tous les Pokémon de l’équipe."
   },
   "return": {
-    "name": "Retour"
+    "name": "Retour",
+    "effect": "Plus le Pokémon apprécie son Dresseur, plus la puissance de cette attaque furieuse augmente. La puissance peut varier entre 1 et 102."
   },
   "present": {
-    "name": "Cadeau"
+    "name": "Cadeau",
+    "effect": "Le lanceur attaque en offrant un cadeau piégé à la cible d’une puissance de 40, 80 ou 120, mais le cadeau peut parfois restaurer 1/4 des PV max de celle-ci à la place."
   },
   "frustration": {
-    "name": "Frustration"
+    "name": "Frustration",
+    "effect": "Moins le Pokémon aime son Dresseur, plus cette attaque est puissante. La puissance peut varier entre 1 et 102."
   },
   "safeguard": {
-    "name": "Rune Protect"
+    "name": "Rune Protect",
+    "effect": "Crée un champ protecteur qui empêche toutes les altérations de statut pendant 5 tours."
   },
   "painSplit": {
-    "name": "Balance"
+    "name": "Balance",
+    "effect": "Le lanceur ajoute ses PV à ceux de sa cible et les répartit équitablement. Les Pokémon Boss y sont immunisés."
   },
   "sacredFire": {
-    "name": "Feu Sacré"
+    "name": "Feu Sacré",
+    "effect": "Le lanceur génère un feu mystique d’une intensité redoutable pour attaquer la cible. A 50 % de chances de la bruler. La dégèlera si elle est gelée."
   },
   "magnitude": {
-    "name": "Ampleur"
+    "name": "Ampleur",
+    "effect": "Provoque un tremblement de terre d’intensité variable qui affecte tous les Pokémon alentour. La puissance peut être aléatoirement de 10, 30, 50, 70, 90, 110 ou 150. La puissance de cette capacité est multipliée par 2 sur les cibles sous la terre. Quand un champ herbu est actif, la puissance de cette capacité est réduite de moitié."
   },
   "dynamicPunch": {
-    "name": "Dynamo-Poing"
+    "name": "Dynamo-Poing",
+    "effect": "Le lanceur rassemble ses forces et envoie un coup de poing à la cible, ce qui la rend confuse à coup sûr."
   },
   "megahorn": {
     "name": "Mégacorne",
     "effect": "Le lanceur inflige un grand coup de corne à la cible."
   },
   "dragonBreath": {
-    "name": "Draco-Souffle"
+    "name": "Draco-Souffle",
+    "effect": "Le lanceur souffle fort sur la cible pour lui infliger des dégâts. A 30 % de chances de la paralyser."
   },
   "batonPass": {
-    "name": "Relais"
+    "name": "Relais",
+    "effect": "Le lanceur échange sa place et tout changement de stats avec un Pokémon de l’équipe. Tout changement de stat, clone et autres sont transmis à ce Pokémon."
   },
   "encore": {
-    "name": "Encore"
+    "name": "Encore",
+    "effect": "Le lanceur oblige la cible à répéter la dernière capacité utilisée durant 3 tours."
   },
   "pursuit": {
     "name": "Poursuite",
     "effect": "Une attaque qui inflige deux fois plus de dégâts à un ennemi qui s’apprête à être remplacé."
   },
   "rapidSpin": {
-    "name": "Tour Rapide"
+    "name": "Tour Rapide",
+    "effect": "Le lanceur attaque en tournant sur lui-même. Sa Vitesse augmente également. Il se libère également des effets de capacités comme Étreinte, Ligotage ou Vampigraine."
   },
   "sweetScent": {
-    "name": "Doux Parfum"
+    "name": "Doux Parfum",
+    "effect": "Un doux parfum qui réduit beaucoup l’Esquive de la cible."
   },
   "ironTail": {
-    "name": "Queue de Fer"
+    "name": "Queue de Fer",
+    "effect": "Le lanceur attaque la cible avec une queue de fer. A 30 % de baisser la Défense de la cible."
   },
   "metalClaw": {
-    "name": "Griffe Acier"
+    "name": "Griffe Acier",
+    "effect": "Attaque avec des griffes d’acier. Peut aussi augmenter l’Attaque du lanceur."
   },
   "vitalThrow": {
     "name": "Corps Perdu",
     "effect": "Le lanceur porte son coup en dernier. En échange, cette capacité n’échoue jamais."
   },
   "morningSun": {
-    "name": "Aurore"
+    "name": "Aurore",
+    "effect": "Un soin qui restaure au lanceur récupère la moitié de ses PV max. Si le soleil brille, il récupère 2/3 de ses PV max. Si n’importe quelle autre condition météo est active, il ne récupère que 1/4 de ses PV max."
   },
   "synthesis": {
-    "name": "Synthèse"
+    "name": "Synthèse",
+    "effect": "Le lanceur récupère la moitié de ses PV max en produisant des nutriments par photosynthèse. Si le soleil brille, il récupère 2/3 de ses PV max. Si n’importe quelle autre condition météo est active, il ne récupère que 1/4 de ses PV max."
   },
   "moonlight": {
-    "name": "Rayon Lune"
+    "name": "Rayon Lune",
+    "effect": "Un soin qui restaure au lanceur la moitié de ses PV max. Si le soleil brille, il récupère 2/3 de ses PV max. Si n’importe quelle autre condition météo est active, il ne récupère que 1/4 de ses PV max."
   },
   "hiddenPower": {
     "name": "Puissance Cachée",
     "effect": "Attaque dont le type dépend du Pokémon qui l’utilise."
   },
   "crossChop": {
-    "name": "Coup Croix"
+    "name": "Coup Croix",
+    "effect": "Le lanceur délivre un coup double en croisant les avant-bras. Taux de critique supérieur d’un cran.\n"
   },
   "twister": {
-    "name": "Ouragan"
+    "name": "Ouragan",
+    "effect": "Le lanceur déclenche un terrible ouragan sur la cible. A 20 % de chances de l’apeurer. Dégâts doublés si la cible est en Vol, Rebond ou Chute Libre."
   },
   "rainDance": {
-    "name": "Danse Pluie"
+    "name": "Danse Pluie",
+    "effect": "Invoque de fortes pluies qui durent cinq tours, augmentant de 50 % puissance des capacités de type Eau et baissant de 50 % celle des capacités de type Feu."
   },
   "sunnyDay": {
-    "name": "Zénith"
+    "name": "Zénith",
+    "effect": "Fait briller le soleil pendant cinq tours, augmentant de 50 % la puissance des capacités de type Feu et baissant de 50 % celle des capacités de type Eau."
   },
   "crunch": {
-    "name": "Mâchouille"
+    "name": "Mâchouille",
+    "effect": "Le lanceur mord la cible de ses crocs pointus. A 20 % de chances de baisser la Défense de la cible."
   },
   "mirrorCoat": {
-    "name": "Voile Miroir"
+    "name": "Voile Miroir",
+    "effect": "Une riposte qui contre n’importe quelle capacité spéciale en infligeant le double des dégâts subis."
   },
   "psychUp": {
     "name": "Boost",
@@ -918,22 +980,27 @@
     "effect": "Le lanceur charge à une vitesse renversante. Frappe en priorité."
   },
   "ancientPower": {
-    "name": "Pouvoir Antique"
+    "name": "Pouvoir Antique",
+    "effect": "Une attaque préhistorique. A 10 % de chances d’augmenter toutes les stats du lanceur d’un seul coup."
   },
   "shadowBall": {
-    "name": "Ball’Ombre"
+    "effect": "Le lanceur projette une grande ombre sur la cible. A 20 % de chances de baisser la Défense Spéciale de la cible."
   },
   "futureSight": {
-    "name": "Prescience"
+    "name": "Prescience",
+    "effect": "De l’énergie psychique vient frapper la cible 2 tours après l’utilisation de cette capacité."
   },
   "rockSmash": {
-    "name": "Éclate-Roc"
+    "name": "Éclate-Roc",
+    "effect": "Le lanceur porte un coup de poing à la cible. A 50 % de chances de baisser sa Défense."
   },
   "whirlpool": {
-    "name": "Siphon"
+    "name": "Siphon",
+    "effect": "Le lanceur piège la cible dans une trombe d’eau pendant 4 à 5 tours et lui inflige des dégâts à hauteur de 1/8 des PV max à chaque tour. La puissance de cette capacité est multipliée par 2 sur les adversaires sous l’eau."
   },
   "beatUp": {
-    "name": "Baston"
+    "name": "Baston",
+    "effect": "Le lanceur appelle tous les Pokémon de son équipe à attaquer. Plus ils sont nombreux, plus il y a d’attaques. La puissance de cette capacité est calculée en fonction de l’Attaque des Pokémon de l’équipe du lanceur."
   },
   "fakeOut": {
     "name": "Bluff"
