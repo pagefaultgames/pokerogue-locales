@@ -160,26 +160,32 @@
     "effect": "Angriff mit Giftstachel. Das Ziel wird mit einer Chance von 30% vergiftet."
   },
   "twineedle": {
-    "name": "Duonadel"
+    "name": "Duonadel",
+    "effect": "Stacheln treffen das Ziel zweimal. Das Ziel wird mit einer Chance von 20% vergiftet."
   },
   "pinMissile": {
-    "name": "Nadelrakete"
+    "name": "Nadelrakete",
+    "effect": "Spitze Nadeln treffen das Ziel zwei- bis fünfmal hintereinander."
   },
   "leer": {
-    "name": "Silberblick"
+    "name": "Silberblick",
+    "effect": "Gegnerischer Verteidigungs-Wert wird durch angsteinflößenden Blick gesenkt."
   },
   "bite": {
-    "name": "Biss"
+    "name": "Biss",
+    "effect": "Beißt zu und lässt das Ziel mit einer Chance von 30% zurückschrecken."
   },
   "growl": {
     "name": "Heuler",
     "effect": "Der Anwender nimmt das Ziel für sich ein und senkt dessen Angriffs-Wert."
   },
   "roar": {
-    "name": "Brüller"
+    "name": "Brüller",
+    "effect": "Der Anwender agiert zuletzt und stößt ein gewaltiges Brüllen aus. Das Ziel wird verscheucht und ein anderes Pokémon hervorgeholt. In freier Wildbahn beendet dies den Kampf gegen ein einzelnes Pokémon."
   },
   "sing": {
-    "name": "Gesang"
+    "name": "Gesang",
+    "effect": "Ein Lied, dass das Ziel in tiefen Schlaf versetzt."
   },
   "supersonic": {
     "name": "Superschall",
@@ -190,19 +196,24 @@
     "effect": "Das Ziel wird von einer Schockwelle getroffen, die stets 20 KP Schaden anrichtet."
   },
   "disable": {
-    "name": "Aussetzer"
+    "name": "Aussetzer",
+    "effect": "Die zuletzt eingesetzte Attacke des Zieles wird für 4 Runden blockiert."
   },
   "acid": {
-    "name": "Säure"
+    "name": "Säure",
+    "effect": "Versprüht ätzende Flüssigkeit, die mit einer Chance von 10% die Spezial-Verteidigung der Gegner in der Nähe des Anwenders senkt."
   },
   "ember": {
-    "name": "Glut"
+    "name": "Glut",
+    "effect": "Schwache Feuer-Attacke, durch die das Ziel mit einer Chance von 10% Verbrennungen erleidet."
   },
   "flamethrower": {
-    "name": "Flammenwurf"
+    "name": "Flammenwurf",
+    "effect": "Starke Feuer-Attacke, durch die das Ziel mit einer Chance von 10% Verbrennungen erleidet."
   },
   "mist": {
-    "name": "Weißnebel"
+    "name": "Weißnebel",
+    "effect": "Anwender schützt das Team mit einem Nebel. Verhindert Statussenkungen für fünf Runden."
   },
   "waterGun": {
     "name": "Aquaknarre",
@@ -213,42 +224,52 @@
     "effect": "Spritzt eine Menge Wasser mit Hochdruck auf das Ziel."
   },
   "surf": {
-    "name": "Surfer"
+    "name": "Surfer",
+    "effect": "Eine Welle bricht über alle Pokémon in der Nähe des Anwenders herein. Die Stärke dieser Attacke verdoppelt sich gegen Ziele, die durch Taucher untergetaucht sind."
   },
   "iceBeam": {
-    "name": "Eisstrahl"
+    "name": "Eisstrahl",
+    "effect": "Das Ziel wird von einem Eisstrahl getroffen und friert mit einer Chance von 10% ein."
   },
   "blizzard": {
-    "name": "Blizzard"
+    "name": "Blizzard",
+    "effect": "Ein Schneesturm wütet, der das Ziel mit einer Chance von 10% einfrieren kann. Trifft bei Schnee oder Hagel immer."
   },
   "psybeam": {
-    "name": "Psystrahl"
+    "name": "Psystrahl",
+    "effect": "Feuert einen Strahl ab, der das Ziel mit einer Chance von 10% verwirren kann."
   },
   "bubbleBeam": {
-    "name": "Blubbstrahl"
+    "name": "Blubbstrahl",
+    "effect": "Versprüht Blasen, die mit einer Chance von 10% den Initiative-Wert des Zieles senken."
   },
   "auroraBeam": {
-    "name": "Aurorastrahl"
+    "name": "Aurorastrahl",
+    "effect": "Regenbogenfarbener Strahl, der mit einer Chance von 10% den Angriffs-Wert des Zieles senkt."
   },
   "hyperBeam": {
     "name": "Hyperstrahl",
     "effect": "Starke Attacke, die den Anwender zwingt, eine Runde auszusetzen."
   },
   "peck": {
-    "name": "Pikser"
+    "name": "Pikser",
+    "effect": "Greift das Ziel mit dem Schnabel oder Horn an."
   },
   "drillPeck": {
     "name": "Bohrschnabel",
     "effect": "Korkenzieherangriff, bei dem der Schnabel als Bohrer dient."
   },
   "submission": {
-    "name": "Überroller"
+    "name": "Überroller",
+    "effect": "Der Anwender packt das Ziel und stürzt sich rücksichtslos zu Boden. Er erleidet dabei ¼ des durch diese Attacke verursachten Schadens."
   },
   "lowKick": {
-    "name": "Fußkick"
+    "name": "Fußkick",
+    "effect": "Ein Tritt, der das Ziel umwirft. Je schwerer das Ziel ist, desto mehr Schaden fügt ihm die Attacke zu. (Zwischen 20 und 120)"
   },
   "counter": {
-    "name": "Konter"
+    "name": "Konter",
+    "effect": "Kontert physische Treffer und fügt dem Ziel das Doppelte des Schadens zu, den der Anwender erlitten hat."
   },
   "seismicToss": {
     "name": "Geowurf",
@@ -259,22 +280,28 @@
     "effect": "Das Ziel wird extrem stark getroffen. Macht Verschieben von Felsen möglich."
   },
   "absorb": {
-    "name": "Absorber"
+    "name": "Absorber",
+    "effect": "Attacke, die die Hälfte des Schadens absorbiert."
   },
   "megaDrain": {
-    "name": "Megasauger"
+    "name": "Megasauger",
+    "effect": "Attacke, die die Hälfte des Schadens absorbiert."
   },
   "leechSeed": {
-    "name": "Egelsamen"
+    "name": "Egelsamen",
+    "effect": "Ziel wird bepflanzt und verliert jede Runde ¹⁄₁₆ seiner maximalen KP, die ein Pokémon aus dem Team des Anwenders heilen."
   },
   "growth": {
-    "name": "Wachstum"
+    "name": "Wachstum",
+    "effect": "Der Körper wächst. Dadurch steigen Angriff und Spezial-Angriff. Bei starkem Sonnenlicht werden diese Werte stattdessen drastisch erhöht."
   },
   "razorLeaf": {
-    "name": "Rasierblatt"
+    "name": "Rasierblatt",
+    "effect": "Trifft das Ziel mit Blättern. Die Volltrefferquote dieser Attacke wird um eine Stufe erhöht."
   },
   "solarBeam": {
-    "name": "Solarstrahl"
+    "name": "Solarstrahl",
+    "effect": "Absorbiert Licht in Runde 1. In Runde 2 erfolgt der Angriff. Bei starkem Sonnenlicht kann der Anwender sofort angreifen. Bei jeder anderen Wetterlage wird die Stärke dieser Attacke halbiert."
   },
   "poisonPowder": {
     "name": "Giftpuder",
@@ -285,93 +312,116 @@
     "effect": "Verstreut lähmenden Puder."
   },
   "sleepPowder": {
-    "name": "Schlafpuder"
+    "name": "Schlafpuder",
+    "effect": "Verstreut Schlafpuder, der das Ziel eventuell in Schlaf versetzt."
   },
   "petalDance": {
-    "name": "Blättertanz"
+    "name": "Blättertanz",
+    "effect": "Angriff mit Blütenblättern für zwei bis drei Runden. Angreifer wird verwirrt."
   },
   "stringShot": {
-    "name": "Fadenschuss"
+    "name": "Fadenschuss",
+    "effect": "Umwickelt Ziele in der Nähe mit Fäden aus dem Mund und senkt den Initiative-Wert."
   },
   "dragonRage": {
     "name": "Drachenwut",
     "effect": "Stößt eine wutgeladene Schockwelle aus, die stets 40 KP Schaden anrichtet."
   },
   "fireSpin": {
-    "name": "Feuerwirbel"
+    "name": "Feuerwirbel",
+    "effect": "Das Ziel wird für vier bis fünf Runden in einem Feuerkreis gefangen. Das Ziel erleidet am Ende jedes Zuges Schaden in Höhe von ⅛ seiner maximalen KP."
   },
   "thunderShock": {
-    "name": "Donnerschock"
+    "name": "Donnerschock",
+    "effect": "Eine Elektro-Attacke, die das Ziel mit einer Chance von 10% paralysiert."
   },
   "thunderbolt": {
-    "name": "Donnerblitz"
+    "name": "Donnerblitz",
+    "effect": "Eine starke Elektro-Attacke, die das Ziel mit einer Chance von 10% paralysiert."
   },
   "thunderWave": {
     "name": "Donnerwelle",
     "effect": "Ein schwacher Stromstoß, der das Ziel paralysiert."
   },
   "thunder": {
-    "name": "Donner"
+    "name": "Donner",
+    "effect": "Eine verheerende Elektro-Attacke, die das Ziel mit einer Chance von 30% paralysiert. Trifft bei Regen immer. Diese Attacke kann auch ein Ziel treffen, das sich durch Fliegen, Sprungfeder oder Himmelsfeger in der Luft befindet."
   },
   "rockThrow": {
-    "name": "Steinwurf"
+    "name": "Steinwurf",
+    "effect": "Das Ziel wird mit einem kleinen Stein beworfen."
   },
   "earthquake": {
-    "name": "Erdbeben"
+    "name": "Erdbeben",
+    "effect": "Ein mächtiges Beben, das die anderen Pokémon in der Nähe des Anwenders trifft. Die Stärke dieser Attacke verdoppelt sich gegen Ziele, die sich durch Schaufler unter der Erde befinden, und halbiert sich, solange Grasfeld aktiv ist."
   },
   "fissure": {
-    "name": "Geofissur"
+    "name": "Geofissur",
+    "effect": "Das Ziel wird in eine Erdspalte geworfen. Trifft die Attacke, führt sie beim Ziel sofort zum K.O. Die Genauigkeit dieser Attacke ist auf 30 % festgelegt. Boss-Pokémon sind resistent gegen diese Attacke."
   },
   "dig": {
-    "name": "Schaufler"
+    "name": "Schaufler",
+    "effect": "In Runde 1 gräbt sich der Anwender ein und in Runde 2 greift er an."
   },
   "toxic": {
-    "name": "Toxin"
+    "name": "Toxin",
+    "effect": "Eine Attacke, die das Ziel schwer vergiftet. Das Ziel erleidet am Ende jeder Runde zunehmenden Giftschaden: zunächst ¹⁄₁₆ der maximalen KP des Pokémon, dann ²⁄₁₆ und so weiter. Ist der Anwender vom Typ Gift, trifft diese Attacke immer."
   },
   "confusion": {
-    "name": "Konfusion"
+    "name": "Konfusion",
+    "effect": "Das Ziel wird von schwacher telekinetischer Energie getroffen und mit einer Chance von 10% verwirrt."
   },
   "psychic": {
-    "name": "Psychokinese"
+    "name": "Psychokinese",
+    "effect": "Starke Psycho-Attacke, die mit einer Chance von 10% die Spezial-Verteidigung des Zieles senkt."
   },
   "hypnosis": {
-    "name": "Hypnose"
+    "name": "Hypnose",
+    "effect": "Hypnose-Attacke, die das Ziel in Schlaf versetzt."
   },
   "meditate": {
-    "name": "Meditation"
+    "name": "Meditation",
+    "effect": "Anwender aktiviert Kräfte, die tief in seinem Inneren schlummern, und steigert so seinen Angriffs-Wert."
   },
   "agility": {
-    "name": "Agilität"
+    "name": "Agilität",
+    "effect": "Entspannt den Körper, um den Initiative-Wert stark zu steigern."
   },
   "quickAttack": {
-    "name": "Ruckzuckhieb"
+    "name": "Ruckzuckhieb",
+    "effect": "Sehr schneller Angriff mit Erstschlaggarantie."
   },
   "rage": {
     "name": "Raserei",
     "effect": "Erhöht Angriff des Anwenders, wenn dieser getroffen wird, solange die Attacke aktiviert ist."
   },
   "teleport": {
-    "name": "Teleport"
+    "name": "Teleport",
+    "effect": "Der Anwender tauscht den Platz mit einem anderen Team-Mitglied, sofern vorhanden. Setzen wilde Pokémon die Attacke ein, ergreifen diese die Flucht."
   },
   "nightShade": {
     "name": "Nachtnebel",
     "effect": "Das Ziel sieht eine Illusion. Richtet Schaden gemäß dem Level des Anwenders an."
   },
   "mimic": {
-    "name": "Mimikry"
+    "name": "Mimikry",
+    "effect": "Kopiert die zuvor ausgeführte Attacke des Zieles. Kann im Kampf bis zur Auswechslung verwendet werden."
   },
   "screech": {
     "name": "Kreideschrei",
     "effect": "Stößt einen Schrei aus, um die Verteidigung des Zieles stark zu senken."
   },
   "doubleTeam": {
-    "name": "Doppelteam"
+    "name": "Doppelteam",
+    "effect": "Erzeugt durch schnelle Bewegungen Ebenbilder, um den Fluchtwert zu erhöhen."
   },
   "recover": {
-    "name": "Genesung"
+    "name": "Genesung",
+    "effect": "Eine Selbstheilung. KP des Anwenders werden um ½ des maximalen Wertes aufgefüllt."
   },
   "harden": {
-    "name": "Härtner"
+    "name": "Härtner",
+    "effect": "Stärkt die Muskulatur und erhöht den Verteidigungs-Wert."
   },
   "minimize": {
     "name": "Komprimator",
@@ -382,40 +432,48 @@
     "effect": "Senkt Genauigkeit des Zieles mit Rauch, Tinte oder Ähnlichem."
   },
   "confuseRay": {
-    "name": "Konfusstrahl"
+    "name": "Konfusstrahl",
+    "effect": "Ein fieser Strahl, der das Ziel verwirrt."
   },
   "withdraw": {
-    "name": "Panzerschutz"
+    "name": "Panzerschutz",
+    "effect": "Rückzug in den harten Panzer. Erhöht den Verteidigungs-Wert."
   },
   "defenseCurl": {
-    "name": "Einigler"
+    "name": "Einigler",
+    "effect": "Verbirgt Schwächen durch Einrollen und hebt gleichzeitig den Verteidigungs-Wert. Dies verdoppelt auch die Stärke von Walzer und Eisball."
   },
   "barrier": {
     "name": "Barriere",
     "effect": "Erzeugt eine Barriere, die den Verteidigungs-Wert stark erhöht."
   },
   "lightScreen": {
-    "name": "Lichtschild"
+    "name": "Lichtschild",
+    "effect": "Erzeugt eine Lichtwand und senkt den Schaden durch Spezial-Angriffe für fünf Runden."
   },
   "haze": {
     "name": "Dunkelnebel",
     "effect": "Erzeugt einen dunklen Nebel. Alle Veränderungen der Statuswerte der Kampfteilnehmer werden annulliert."
   },
   "reflect": {
-    "name": "Reflektor"
+    "name": "Reflektor",
+    "effect": "Eine mysteriöse Wand, die fünf Runden den Schaden von physischen gegnerischen Treffern reduziert."
   },
   "focusEnergy": {
-    "name": "Energiefokus"
+    "name": "Energiefokus",
+    "effect": "Anwender atmet ein und bündelt Kraft. Die Volltrefferquote steigt dadurch um 2 Stufen."
   },
   "bide": {
-    "name": "Geduld"
+    "name": "Geduld",
+    "effect": "Erträgt zwei Runden Angriffe und schlägt dann mit dem doppelten Wert des erlittenen Schadens zurück."
   },
   "metronome": {
     "name": "Metronom",
     "effect": "Bewegt Finger, um das Gehirn zu stimulieren. Wählt zufällig eine Attacke aus."
   },
   "mirrorMove": {
-    "name": "Spiegeltrick"
+    "name": "Spiegeltrick",
+    "effect": "Kopiert die letzte Attacke des Zieles und greift es an. Diese Attacke schlägt fehl, wenn noch keine andere Attacke eingesetzt wurde oder wenn die zuletzt eingesetzte Attacke nicht kopiert werden kann."
   },
   "selfDestruct": {
     "name": "Finale",
@@ -426,25 +484,32 @@
     "effect": "Ein großes Ei wird auf das Ziel abgefeuert, um ihm zu schaden."
   },
   "lick": {
-    "name": "Schlecker"
+    "name": "Schlecker",
+    "effect": "Leck-Attacke mit langer Zunge. Das Ziel wird mit einer Chance von 30% paralysiert."
   },
   "smog": {
-    "name": "Smog"
+    "name": "Smog",
+    "effect": "Angriff mit Gas. Das Ziel kann mit einer Chance von 30% vergiftet werden."
   },
   "sludge": {
-    "name": "Schlammbad"
+    "name": "Schlammbad",
+    "effect": "Wirft Schlamm auf das Ziel. Dieses wird eventuell vergiftet."
   },
   "boneClub": {
-    "name": "Knochenkeule"
+    "name": "Knochenkeule",
+    "effect": "Schlägt das Ziel mit einer Keule und lässt es mit einer Chance von 10% zurückschrecken."
   },
   "fireBlast": {
-    "name": "Feuersturm"
+    "name": "Feuersturm",
+    "effect": "Feuersbrunst, die das Ziel versengt und ihm mit einer Chance von 10% eine Verbrennung zufügt."
   },
   "waterfall": {
-    "name": "Kaskade"
+    "name": "Kaskade",
+    "effect": "Eine mächtige Attacke, durch die das Ziel mit einer Chance von 20% zurückschreckt."
   },
   "clamp": {
-    "name": "Schnapper"
+    "name": "Schnapper",
+    "effect": "Fängt und quetscht das Ziel durch die harte Schale des Anwenders. Über vier bis fünf Runden hinweg erleidet das Ziel am Ende jeder Runde Schaden in Höhe von ⅛ seiner maximalen KP."
   },
   "swift": {
     "name": "Sternschauer",
@@ -455,54 +520,68 @@
     "effect": "Der Anwender erhöht in Runde 1 seine Verteidigung und greift in Runde 2 an."
   },
   "spikeCannon": {
-    "name": "Dornkanone"
+    "name": "Dornkanone",
+    "effect": "Spitze Nadeln treffen das Ziel zwei- bis fünfmal hintereinander."
   },
   "constrict": {
-    "name": "Umklammerung"
+    "name": "Umklammerung",
+    "effect": "Angriff mit langen Tentakeln oder Ranken. Senkt mit einer Chance von 10% den Initiative-Wert."
   },
   "amnesia": {
-    "name": "Amnesie"
+    "name": "Amnesie",
+    "effect": "Gedächtnisverlust, der die Spezial-Verteidigung stark erhöht."
   },
   "kinesis": {
     "name": "Psykraft",
     "effect": "Lenkt Ziel durch Verbiegen eines Löffels ab. Senkt dessen Genauigkeit."
   },
   "softBoiled": {
-    "name": "Weichei"
+    "name": "Weichei",
+    "effect": "KP des Anwenders werden um ½ der maximalen KP aufgefüllt."
   },
   "highJumpKick": {
-    "name": "Turmkick"
+    "name": "Turmkick",
+    "effect": "Sprungtritt mit Knie. Bei Misserfolg schadet er sich selbst und nimmt ½ seiner maximalen KP schaden."
   },
   "glare": {
-    "name": "Schlangenblick"
+    "name": "Schlangenblick",
+    "effect": "Schüchtert Ziel mit dem Muster auf seinem Bauch ein, sodass dieses paralysiert wird."
   },
   "dreamEater": {
-    "name": "Traumfresser"
+    "name": "Traumfresser",
+    "effect": "Attacke gegen schlafendes Ziel. Die Hälfte des zugefügten Schadens wird dem Anwender gutgeschrieben."
   },
   "poisonGas": {
-    "name": "Giftwolke"
+    "name": "Giftwolke",
+    "effect": "Hüllt Ziele in der Umgebung in Gas ein, das sie eventuell vergiftet."
   },
   "barrage": {
-    "name": "Stakkato"
+    "name": "Stakkato",
+    "effect": "Wirft zwei- bis fünfmal pro Runde Gegenstände auf das Ziel."
   },
   "leechLife": {
-    "name": "Blutsauger"
+    "name": "Blutsauger",
+    "effect": "Die Hälfte des zugefügten Schadens wird dem Anwender gutgeschrieben."
   },
   "lovelyKiss": {
-    "name": "Todeskuss"
+    "name": "Todeskuss",
+    "effect": "Anwender zwingt dem Ziel einen Kuss auf, der Schlaf verursacht."
   },
   "skyAttack": {
-    "name": "Himmelsfeger"
+    "name": "Himmelsfeger",
+    "effect": "Anwender greift in der zweiten Runde mit um einer Stufe erhöhten Volltrefferquote an. Ziel schreckt mit einer Chance von 30% zurück."
   },
   "transform": {
-    "name": "Wandler"
+    "name": "Wandler",
+    "effect": "Anwender verwandelt sich in ein Abbild des Zieles und kann so auf die gleichen Attacken zugreifen. Zudem werden alle Statuswerte des Ziels mit Ausnahme der KP kopiert. Kopierte Attacken verfügen jeweils über 5 AP."
   },
   "bubble": {
     "name": "Blubber",
     "effect": "Angriff mit Blasen. Initiative-Wert des Zieles wird eventuell gesenkt."
   },
   "dizzyPunch": {
-    "name": "Irrschlag"
+    "name": "Irrschlag",
+    "effect": "Rhythmische Schläge, die das Ziel mit einer Chance von 20% verwirren können."
   },
   "spore": {
     "name": "Pilzspore",
@@ -513,27 +592,32 @@
     "effect": "Erzeugt helles Licht, das die Genauigkeit des Zieles senkt."
   },
   "psywave": {
-    "name": "Psywelle"
+    "name": "Psywelle",
+    "effect": "Das Ziel wird mit einer eigenartigen Psi-Welle angegriffen. Der Schaden dieses Angriffs variiert und liegt zwischen 50 % und 150 % des Levels des Anwenders."
   },
   "splash": {
     "name": "Platscher",
     "effect": "Nur ein Platscher, der überhaupt nichts bewirkt."
   },
   "acidArmor": {
-    "name": "Säurepanzer"
+    "name": "Säurepanzer",
+    "effect": "Verflüssigt Körperzellen des Anwenders. Erhöht den Verteidigungs-Wert stark."
   },
   "crabhammer": {
-    "name": "Krabbhammer"
+    "name": "Krabbhammer",
+    "effect": "Schlägt mit Schere zu. Die Volltrefferquote dieser Attacke wird um eine Stufe erhöht."
   },
   "explosion": {
     "name": "Explosion",
     "effect": "Anwender explodiert, richtet bei allen Pokémon in seiner Umgebung großen Schaden an und wird selbst kampfunfähig."
   },
   "furySwipes": {
-    "name": "Kratzfurie"
+    "name": "Kratzfurie",
+    "effect": "Beharkt das Ziel zwei- bis fünfmal mit scharfen Klauen oder Sicheln."
   },
   "bonemerang": {
-    "name": "Knochmerang"
+    "name": "Knochmerang",
+    "effect": "Ein Bumerang aus Knochen, der zweimal trifft."
   },
   "rest": {
     "name": "Erholung"
