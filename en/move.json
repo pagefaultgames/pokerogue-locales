@@ -21,7 +21,7 @@
   },
   "payDay": {
     "name": "Pay Day",
-    "effect": "Coins are hurled at the target to inflict damage. If the target is successfully struck, you will earn money after the battle."
+    "effect": "Coins are hurled at the target to inflict damage. If a target is successfully struck, you will earn money after the battle."
   },
   "firePunch": {
     "name": "Fire Punch",
@@ -125,7 +125,7 @@
   },
   "hornDrill": {
     "name": "Horn Drill",
-    "effect": "The user stabs the target with a horn that rotates like a drill, fainting them instantly if this attack hits. The accuracy of this move is fixed at 30%. Boss Pokémon are resistant to this move."
+    "effect": "The user stabs the target with a horn that rotates like a drill. The target faints instantly if this attack hits. The accuracy of this move is fixed at 30%. Boss Pokémon are resistant to this move."
   },
   "tackle": {
     "name": "Tackle",
@@ -357,7 +357,7 @@
   },
   "fissure": {
     "name": "Fissure",
-    "effect": "The user opens up a fissure in the ground and drops the target in, fainting them instantly if this attack hits. The accuracy of this move is fixed at 30%. Boss Pokémon are resistant to this move."
+    "effect": "The user opens up a fissure in the ground and drops the target in. The target faints instantly if this attack hits. The accuracy of this move is fixed at 30%. Boss Pokémon are resistant to this move."
   },
   "dig": {
     "name": "Dig",
@@ -509,7 +509,7 @@
   },
   "clamp": {
     "name": "Clamp",
-    "effect": "The target is clamped and squeezed by the user’s very thick and sturdy shell that inflicts damage for 4-5 turns."
+    "effect": "The target is clamped and squeezed by the user’s very thick and sturdy shell. For 4-5 turns, the target takes damage equal to ⅛ of its max HP at the end of every turn."
   },
   "swift": {
     "name": "Swift",
@@ -2181,7 +2181,7 @@
   },
   "technoBlast": {
     "name": "Techno Blast",
-    "effect": "The user attacks by firing a beam of light at the target. If used by a Genesect, the move’s type changes depending on the Drive the user holds."
+    "effect": "The user attacks by firing a beam of light at the target. When used by Genesect, this move’s type changes depending on the Drive being held."
   },
   "relicSong": {
     "name": "Relic Song",
@@ -2373,7 +2373,7 @@
   },
   "waterShuriken": {
     "name": "Water Shuriken",
-    "effect": "The user hits the target with throwing stars 2-5 times in a row. This move always goes first. If used by an Ash-Greninja, this move gains more power and the target is always hit 3 times in a row."
+    "effect": "The user hits the target with throwing stars 2-5 times in a row. This move always goes first. When used by Ash-Greninja, this move’s power is increased to 20 and will always strike 3 times in a row."
   },
   "mysticalFire": {
     "name": "Mystical Fire",
@@ -3129,7 +3129,7 @@
   },
   "auraWheel": {
     "name": "Aura Wheel",
-    "effect": "The user attacks and boosts its Speed with the energy stored in its cheeks. If used by a Morpeko, this move’s type changes depending on the user’s form."
+    "effect": "The user attacks and boosts its Speed with the energy stored in its cheeks. When used by Morpeko, this move’s type changes depending on its form."
   },
   "breakingSwipe": {
     "name": "Breaking Swipe",
@@ -3209,7 +3209,7 @@
   },
   "grassyGlide": {
     "name": "Grassy Glide",
-    "effect": "Gliding on the ground, the user attacks the target. If the user is under the effect of Grassy Terrain, this move’s priority becomes +1."
+    "effect": "Gliding on the ground, the user attacks the target. If the user is under the effect of Grassy Terrain, this move always goes first."
   },
   "risingVoltage": {
     "name": "Rising Voltage",
@@ -3621,7 +3621,7 @@
   },
   "ragingBull": {
     "name": "Raging Bull",
-    "effect": "The user performs a tackle like a raging bull. It can also break barriers, such as Light Screen and Reflect. If used by a Tauros, this move’s type changes depending on its form."
+    "effect": "The user performs a tackle like a raging bull. It can also break barriers, such as Light Screen and Reflect. When used by Tauros, this move’s type changes depending on its form."
   },
   "makeItRain": {
     "name": "Make It Rain",
@@ -3745,7 +3745,7 @@
   },
   "ivyCudgel": {
     "name": "Ivy Cudgel",
-    "effect": "The user strikes with an ivy-wrapped cudgel, this move’s critical-hit ratio is boosted by 1 stage. If used by Ogerpon, this move’s type changes depending on the mask worn."
+    "effect": "The user strikes with an ivy-wrapped cudgel, this move’s critical-hit ratio is boosted by 1 stage. When used by Ogerpon, this move’s type changes depending on the mask worn."
   },
   "electroShot": {
     "name": "Electro Shot",
@@ -3769,7 +3769,7 @@
   },
   "mightyCleave": {
     "name": "Mighty Cleave",
-    "effect": "The user wields the energy that has accumulated atop its head to cleave the target. This move hits even if the target protects itself."
+    "effect": "The user wields the light that has accumulated through its blades to cleave the target. This move hits even if the target protects itself."
   },
   "tachyonCutter": {
     "name": "Tachyon Cutter",
