@@ -1740,7 +1740,7 @@
   },
   "lavaPlume": {
     "name": "Ébullilave",
-    "effect": "Des flammes s’abattent sur tous les Pokémon autour du lanceur. A 10 % de chances de les bruler."
+    "effect": "Des flammes s’abattent sur tous les Pokémon autour du lanceur. A 30 % de chances de les bruler."
   },
   "leafStorm": {
     "name": "Tempête Verte",
@@ -2083,78 +2083,100 @@
     "effect": "Après son attaque, le lanceur revient à toute vitesse et change de place avec un Pokémon de l’équipe prêt au combat."
   },
   "struggleBug": {
-    "name": "Survinsecte"
+    "name": "Survinsecte",
+    "effect": "Le lanceur frappe en se débattant de toutes ses forces, et baisse l’Attaque Spéciale de la cible."
   },
   "bulldoze": {
     "name": "Piétisol",
     "effect": "Le lanceur piétine le sol et inflige des dégâts à tous les Pokémon autour de lui. Baisse aussi leur Vitesse."
   },
   "frostBreath": {
-    "name": "Souffle Glacé"
+    "name": "Souffle Glacé",
+    "effect": "Un souffle froid blesse la cible. L’effet est toujours critique."
   },
   "dragonTail": {
-    "name": "Draco-Queue"
+    "name": "Draco-Queue",
+    "effect": "Un coup puissant qui blesse la cible et l’envoie au loin. Lors d’un combat contre un Pokémon sauvage seul, met fin au combat."
   },
   "workUp": {
-    "name": "Rengorgement"
+    "name": "Rengorgement",
+    "effect": "Le lanceur se rengorge et augmente son Attaque et son Attaque Spéciale."
   },
   "electroweb": {
-    "name": "Toile Élek"
+    "name": "Toile Élek",
+    "effect": "Le lanceur attaque la cible en l’attrapant dans un filet électrique. Baisse aussi la Vitesse de la cible."
   },
   "wildCharge": {
-    "name": "Éclair Fou"
+    "name": "Éclair Fou",
+    "effect": "Une charge électrique violente qui blesse aussi légèrement le lanceur à hauteur de 1/4 des dégâts infligés."
   },
   "drillRun": {
-    "name": "Tunnelier"
+    "name": "Tunnelier",
+    "effect": "Le lanceur tourne sur lui-même comme une perceuse et se jette sur la cible. Taux de critique supérieur d’un cran."
   },
   "dualChop": {
     "name": "Double Baffe",
     "effect": "Le lanceur frappe l’ennemi deux fois d’affilée avec les parties les plus robustes de son corps."
   },
   "heartStamp": {
-    "name": "Crève-Cœur"
+    "name": "Crève-Cœur",
+    "effect": "Déconcentre la cible avec des mouvements mignons avant de le frapper violemment. A 20 % de chances l’apeurer."
   },
   "hornLeech": {
-    "name": "Encornebois"
+    "name": "Encornebois",
+    "effect": "Un coup de cornes qui draine l’énergie de la cible. La capacité convertit la moitié des dégâts infligés en PV pour le lanceur."
   },
   "sacredSword": {
-    "name": "Lame Sainte"
+    "name": "Lame Sainte",
+    "effect": "Un violent coup d’épée qui lacère la cible et lui inflige des dégâts en ignorant ses changements de stats."
   },
   "razorShell": {
-    "name": "Coqui-Lame"
+    "name": "Coqui-Lame",
+    "effect": "Un coquillage aiguisé lacère la cible. A 50 % de chances de baisser sa Défense."
   },
   "heatCrash": {
-    "name": "Tacle Feu"
+    "name": "Tacle Feu",
+    "effect": "Le lanceur projette son corps enflammé contre la cible. Plus il pèse lourd par rapport à l’adversaire, plus cette capacité est puissante. La puissance peut varier entre 40 et 120. Si l’adversaire est lilliputien, la capacité n’échoue jamais et sa puissance est multipliée par 2."
   },
   "leafTornado": {
-    "name": "Phytomixeur"
+    "name": "Phytomixeur",
+    "effect": "La cible est pris dans un tourbillon de feuilles acérées. A 50 % de chances de baisser sa Précision."
   },
   "steamroller": {
-    "name": "Bulldoboule"
+    "name": "Bulldoboule",
+    "effect": "Le lanceur se roule en boule et écrase sa cible. A 30 % de chances de l’apeurer."
   },
   "cottonGuard": {
-    "name": "Cotogarde"
+    "name": "Cotogarde",
+    "effect": "Le lanceur se protège en s’emmitouflant dans du coton. Sa Défense augmente énormément."
   },
   "nightDaze": {
-    "name": "Explonuit"
+    "name": "Explonuit",
+    "effect": "Le lanceur attaque avec une onde de choc ténébreuse. A 40 % de baisser la Précisons de la cible."
   },
   "psystrike": {
-    "name": "Frappe Psy"
+    "name": "Frappe Psy",
+    "effect": "Le lanceur matérialise des ondes mystérieuses qu’il projette sur la cible, ce qui inflige des dégâts physiques à celle-ci."
   },
   "tailSlap": {
-    "name": "Plumo-Queue"
+    "name": "Plumo-Queue",
+    "effect": "Le lanceur frappe la cible de 2 à 5 fois d’affilée avec sa queue robuste."
   },
   "hurricane": {
-    "name": "Vent Violent"
+    "name": "Vent Violent",
+    "effect": "Le lanceur déclenche une tempête de vents violents qui s’abat sur la cible. A 10 % de chances de la rendre confuse et 30 % de chances de la paralyser. Frappe aussi si elle est en Vol, Rebond ou Chute Libre. N’échoue jamais quand il pleut."
   },
   "headCharge": {
-    "name": "Peignée"
+    "name": "Peignée",
+    "effect": "Le lanceur donne un coup avec sa tête couronnée d’une fière crinière. Blesse aussi légèrement à hauteur de 1/4 des dégâts infligés."
   },
   "gearGrind": {
-    "name": "Lancécrou"
+    "name": "Lancécrou",
+    "effect": "Le lanceur jette deux écrous d’acier qui frappent la cible 2 fois d’affilée."
   },
   "searingShot": {
-    "name": "Incendie"
+    "name": "Incendie",
+    "effect": "Des flammes s’abattent sur tous les Pokémon autour du lanceur. A 30 % de chances de les bruler."
   },
   "technoBlast": {
     "name": "Techno-Buster"
