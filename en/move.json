@@ -321,7 +321,7 @@
   },
   "stringShot": {
     "name": "String Shot",
-    "effect": "The user blows silk from its mouth that binds opposing Pokémon and harshly lowers their Speed stats."
+    "effect": "The user blows silk from its mouth that binds opposing Pokémon and harshly lowers their Speed stat."
   },
   "dragonRage": {
     "name": "Dragon Rage",
@@ -365,7 +365,7 @@
   },
   "toxic": {
     "name": "Toxic",
-    "effect": "A move that leaves the target badly poisoned and never misses if the user is a Poison type. The target takes increasing poison damage at the end of every turn, starting at ¹⁄₁₆ of the Pokémon’s max HP, then ²⁄₁₆ and so on."
+    "effect": "A move that leaves the target badly poisoned. The target takes increasing poison damage at the end of every turn, starting at ¹⁄₁₆ of the Pokémon’s max HP, then ²⁄₁₆ and so on. If the user is a Poison-type, this move will never miss."
   },
   "confusion": {
     "name": "Confusion",
@@ -505,7 +505,7 @@
   },
   "waterfall": {
     "name": "Waterfall",
-    "effect": "The user attacks by charging at targets with incredible momentum. This move has a 20% chance of making the target flinch."
+    "effect": "The user attacks by charging at the target with incredible momentum. This move has a 20% chance of making the target flinch."
   },
   "clamp": {
     "name": "Clamp",
@@ -665,7 +665,7 @@
   },
   "tripleKick": {
     "name": "Triple Kick",
-    "effect": "A consecutive three-kick attack that becomes more powerful with each hit - This move damages with a power of 10, then with a power of 20, then with a power of 30. The attack ends if the user misses."
+    "effect": "A consecutive three-kick attack that increases in power by 10 with each successive hit. When one kick misses, the move ends."
   },
   "thief": {
     "name": "Thief",
@@ -681,11 +681,11 @@
   },
   "nightmare": {
     "name": "Nightmare",
-    "effect": "A sleeping target sees a nightmare that inflicts damage equal to ¼ of its max HP at the end of every turn. Fails if the target is not asleep."
+    "effect": "A sleeping target sees a nightmare that inflicts damage equal to ¼ of its max HP at the end of every turn. This fails if the target is not asleep."
   },
   "flameWheel": {
     "name": "Flame Wheel",
-    "effect": "The user attacks by cloaking itself in fire and charging at the target. This move has a 10% chance of burning the target, and cures the user if they are frozen."
+    "effect": "The user attacks by cloaking itself in fire and charging at the target. This move has a 10% chance of burning the target, and thaws out the user if it is frozen."
   },
   "snore": {
     "name": "Snore",
@@ -761,7 +761,7 @@
   },
   "spikes": {
     "name": "Spikes",
-    "effect": "The user lays a trap of spikes at the feet of the opposing team, damaging opposing Pokémon that switch into battle equal to ⅛ of their max HP. This damage increases with multiple layers of Spikes, up to a max of 3. Flying types or Pokemon with Levitate are unaffected."
+    "effect": "The user lays a trap of spikes at the feet of the opposing team, damaging opposing Pokémon that switch into battle equal to ⅛ of their max HP. This damage increases with multiple layers of Spikes, up to a max of 3. Flying types or Pokémon with Levitate are unaffected."
   },
   "zapCannon": {
     "name": "Zap Cannon",
@@ -881,11 +881,11 @@
   },
   "sacredFire": {
     "name": "Sacred Fire",
-    "effect": "The target is razed with a mystical fire of great intensity. This move has a 50% chance of burning the target."
+    "effect": "The target is razed with a mystical fire of great intensity. This move has a 50% chance of burning the target and will thaw out the user if frozen."
   },
   "magnitude": {
     "name": "Magnitude",
-    "effect": "The user attacks everything around it with a ground-shaking quake. Its power varies, 5% chance for 10 and 150 power, 10% chance for 30 and 110 power, 20% chance for 50 and 90 power, and 30% chance for 70 power. This move’s power is doubled against targets underground from Dig, and halved while Grassy Terrain is active."
+    "effect": "The user attacks everything around it with a ground-shaking quake. Its power varies based on the magnitude of the quake, with possibility of being 10, 30, 50, 70, 90, 110, or 150 power. This move’s power is doubled against targets underground from Dig, and halved while Grassy Terrain is active."
   },
   "dynamicPunch": {
     "name": "Dynamic Punch",
@@ -981,7 +981,7 @@
   },
   "ancientPower": {
     "name": "Ancient Power",
-    "effect": "The user attacks with a prehistoric power. This move has a 10% chance of boosting the user’s Attack, Defense, Sp. Atk, Sp. Def, and Speed stats."
+    "effect": "The user attacks with a prehistoric power. This has a 10% chance of boosting the user’s Attack, Defense, Sp. Atk, Sp. Def, and Speed stats all at once."
   },
   "shadowBall": {
     "name": "Shadow Ball",
@@ -1049,11 +1049,11 @@
   },
   "facade": {
     "name": "Facade",
-    "effect": " This move’s power is doubled if the user is poisoned, badly poisoned, burned, or paralyzed. Although this move is a physical move, the damage it deals is not halved when the user is burned."
+    "effect": "This move’s power is doubled if the user is poisoned, badly poisoned, burned, or paralyzed. Although this move is a physical move, the damage it deals is not halved when the user is burned."
   },
   "focusPunch": {
     "name": "Focus Punch",
-    "effect": "The user focuses its mind before going last and launching a punch. This move fails if the user is hit before using the move."
+    "effect": "The user goes last to focus its mind before launching a punch. This move fails if the user is hit before using the move."
   },
   "smellingSalts": {
     "name": "Smelling Salts",
@@ -1113,7 +1113,7 @@
   },
   "revenge": {
     "name": "Revenge",
-    "effect": "The user goes last, the power of this move is doubled if the target has inflicted damage on the user in the same turn."
+    "effect": "The user goes last. The power of this move is doubled if the target has inflicted damage on the user in the same turn."
   },
   "brickBreak": {
     "name": "Brick Break",
@@ -1125,11 +1125,11 @@
   },
   "knockOff": {
     "name": "Knock Off",
-    "effect": "The user slaps down a target’s held item, removing the item. This move power is boosted by 50% if the target has a held item."
+    "effect": "The user slaps down a target’s held item, removing the item. This move’s power is boosted by 50% if the target has a held item."
   },
   "endeavor": {
     "name": "Endeavor",
-    "effect": "The user inflicts damage by cutting down the target’s HP to roughly equal the user’s HP, and fails if the target’s HP is the same as or lower than the user’s. Boss Pokémon are immune to this move."
+    "effect": "The user inflicts damage by cutting down the target’s HP to roughly equal the user’s HP. This fails if the target’s HP is the same as or lower than the user’s. Boss Pokémon are immune to this move."
   },
   "eruption": {
     "name": "Eruption",
@@ -1269,7 +1269,7 @@
   },
   "silverWind": {
     "name": "Silver Wind",
-    "effect": "The target is attacked with powdery scales blown by the wind. This move has a 10% chance of boosting the user’s Attack, Defense, Sp. Atk, Sp. Def, and Speed stats."
+    "effect": "The target is attacked with powdery scales blown by the wind. This also has a 10% chance of boosting the user’s Attack, Defense, Sp. Atk, Sp. Def, and Speed stats all at once."
   },
   "metalSound": {
     "name": "Metal Sound",
@@ -1573,7 +1573,7 @@
   },
   "flareBlitz": {
     "name": "Flare Blitz",
-    "effect": "The user cloaks itself in fire and charges the target to inflict damage. The user takes ⅓ of the damage dealt by this move. This also has a 10% chance of burning the target, and cures the user if they are frozen."
+    "effect": "The user cloaks itself in fire and charges the target to inflict damage. The user takes ⅓ of the damage dealt by this move. This also has a 10% chance of burning the target, and thaws out the user if they are frozen."
   },
   "forcePalm": {
     "name": "Force Palm",
@@ -1673,7 +1673,7 @@
   },
   "avalanche": {
     "name": "Avalanche",
-    "effect": "The user goes last, the power of this move is doubled if the target has inflicted damage on the user in the same turn."
+    "effect": "The user goes last. The power of this move is doubled if the target has inflicted damage on the user in the same turn."
   },
   "iceShard": {
     "name": "Ice Shard",
@@ -1861,7 +1861,7 @@
   },
   "ominousWind": {
     "name": "Ominous Wind",
-    "effect": "The user attacks with a gust of horrible wind that makes the target’s skin crawl. This move has a 10% chance of boosting the user’s Attack, Defense, Sp. Atk, Sp. Def, and Speed stats."
+    "effect": "The user attacks with a gust of horrible wind that makes the target’s skin crawl. This has a 10% chance of boosting the user’s Attack, Defense, Sp. Atk, Sp. Def, and Speed stats all at once."
   },
   "shadowForce": {
     "name": "Shadow Force",
@@ -1965,7 +1965,7 @@
   },
   "foulPlay": {
     "name": "Foul Play",
-    "effect": "The user turns the target’s strength against it. The damage dealt by this move is calculated using the target’s Attack stat instead of the user’s Attack stat."
+    "effect": "The user turns the target’s strength against it. The damage dealt by this move is determined using the target’s Attack stat instead of the user’s Attack stat."
   },
   "simpleBeam": {
     "name": "Simple Beam",
@@ -2009,7 +2009,7 @@
   },
   "scald": {
     "name": "Scald",
-    "effect": "The user attacks by shooting boiling hot water at the target. This move has a 30% chance of burning the target."
+    "effect": "The user attacks by shooting boiling hot water at the target. This move has a 30% chance of burning the target and will thaw out a frozen user or target."
   },
   "shellSmash": {
     "name": "Shell Smash",
@@ -2185,7 +2185,7 @@
   },
   "relicSong": {
     "name": "Relic Song",
-    "effect": "The user sings an ancient song and attacks by appealing to the hearts of the listening opposing Pokémon. This move has a 10% chance of putting the target to sleep. If used by a Meloetta, it will cause it to swap between its Aria and Pirouette formes."
+    "effect": "The user sings an ancient song and attacks by appealing to the hearts of the listening opposing Pokémon. This move has a 10% chance of putting the target to sleep. If used by Meloetta, it will cause it to swap between its Aria and Pirouette Formes."
   },
   "secretSword": {
     "name": "Secret Sword",
@@ -2229,7 +2229,7 @@
   },
   "fusionFlare": {
     "name": "Fusion Flare",
-    "effect": "The user brings down a giant flame. This move’s power is doubled if used after Fusion Bolt."
+    "effect": "The user brings down a giant flame. This move’s power is doubled if used after Fusion Bolt. This thaws out the user if frozen."
   },
   "fusionBolt": {
     "name": "Fusion Bolt",
@@ -2365,7 +2365,7 @@
   },
   "steamEruption": {
     "name": "Steam Eruption",
-    "effect": "The user attacks by immersing targets in superheated steam. This move has a 30% chance of burning the target. Cures the user and target of being frozen."
+    "effect": "The user attacks by immersing targets in superheated steam. This move has a 30% chance of burning the target and will thaw out the user or target if either are frozen."
   },
   "hyperspaceHole": {
     "name": "Hyperspace Hole",
@@ -2477,7 +2477,7 @@
   },
   "dragonAscent": {
     "name": "Dragon Ascent",
-    "effect": "The user attacks the target by dropping out of the sky at high speed. This also lowers the user’s Defense and Sp. Def stats."
+    "effect": "After soaring upward, the user attacks the target by dropping out of the sky at high speed. This also lowers the user’s Defense and Sp. Def stats."
   },
   "hyperspaceFury": {
     "name": "Hyperspace Fury",
@@ -2673,7 +2673,7 @@
   },
   "solarBlade": {
     "name": "Solar Blade",
-    "effect": "The user gathers light on the first turn, then fills a blade with the light’s energy and attacks on the next turn."
+    "effect": "The user gathers light on the first turn, then fills a blade with the light’s energy and attacks on the next turn. In harsh sunlight, the user can attack immediately. This move’s power is halved in any other weather condition."
   },
   "leafage": {
     "name": "Leafage",
@@ -2705,7 +2705,7 @@
   },
   "anchorShot": {
     "name": "Anchor Shot",
-    "effect": "The user entangles the target with an anchor chain while attacking. The target becomes unable to flee or switched out of battle."
+    "effect": "The user entangles the target with its anchor chain while attacking. The target becomes unable to flee or switched out of battle."
   },
   "psychicTerrain": {
     "name": "Psychic Terrain",
@@ -2725,7 +2725,7 @@
   },
   "burnUp": {
     "name": "Burn Up",
-    "effect": "To inflict massive damage, the user burns itself out and loses the Fire type. This move fails unless it is used by a Fire type, and cures the user if they are frozen."
+    "effect": "To inflict massive damage, the user burns itself out and loses the Fire type. This move fails unless it is used by a Fire type, and thaws out the user if frozen."
   },
   "speedSwap": {
     "name": "Speed Swap",
@@ -2817,7 +2817,7 @@
   },
   "fleurCannon": {
     "name": "Fleur Cannon",
-    "effect": " The user attacks by unleashing a strong beam. The recoil from this move harshly lowers the user’s Sp. Atk stat."
+    "effect": "The user attacks by unleashing a strong beam. The recoil from this move harshly lowers the user’s Sp. Atk stat."
   },
   "psychicFangs": {
     "name": "Psychic Fangs",
@@ -3101,7 +3101,7 @@
   },
   "bodyPress": {
     "name": "Body Press",
-    "effect": "The user attacks by slamming its body into the target. The damage dealt by this move is calculated using the user’s Defense stat instead of its Attack stat."
+    "effect": "The user attacks by slamming its body into the target. The damage dealt by this move is determined using the user’s Defense stat instead of its Attack stat."
   },
   "decorate": {
     "name": "Decorate",
@@ -3117,7 +3117,7 @@
   },
   "pyroBall": {
     "name": "Pyro Ball",
-    "effect": "The user attacks by igniting a small stone and launching it as a fiery ball at the target. This move has a 10% chance of burning the target."
+    "effect": "The user attacks by igniting a small stone and launching it as a fiery ball at the target. This move has a 10% chance of burning the target and thaws out the user if frozen."
   },
   "behemothBlade": {
     "name": "Behemoth Blade",
@@ -3249,7 +3249,7 @@
   },
   "tripleAxel": {
     "name": "Triple Axel",
-    "effect": "The user kicks 3 times in a row — first with a power of 20, then with a power of 40, then with a power of 60. The attack ends if the user misses."
+    "effect": "A consecutive three-kick attack that increases in power by 20 with each successive hit. When one kick misses, the move ends."
   },
   "dualWingbeat": {
     "name": "Dual Wingbeat",
@@ -3257,7 +3257,7 @@
   },
   "scorchingSands": {
     "name": "Scorching Sands",
-    "effect": "The user throws scorching sand at the target to attack. This move has a 30% chance of burning the target."
+    "effect": "The user throws scorching sand at the target to attack. This move has a 30% chance of burning the target, and will thaw out the user or target if either are frozen."
   },
   "jungleHealing": {
     "name": "Jungle Healing",
@@ -3317,7 +3317,7 @@
   },
   "stoneAxe": {
     "name": "Stone Axe",
-    "effect": "The user attacks by swinging its stone axes at targets. Stone splinters left behind by this attack float around the target, damaging opposing Pokémon that switch into battle equal to ⅛ of their max HP. The stone splinters’ damage will differ depending on the Pokémon’s type matchup with the Rock type." 
+    "effect": "The user swings its stone axes at the target. Stone splinters left behind by this attack float around the target, damaging opposing Pokémon that switch into battle equal to ⅛ of their max HP. The stone splinters’ damage will differ depending on the Pokémon’s type matchup with the Rock type." 
   },
   "springtideStorm": {
     "name": "Springtide Storm",
@@ -3553,7 +3553,7 @@
   },
   "orderUp": {
     "name": "Order Up",
-    "effect": "The user attacks with elegant poise. If used by a Dondozo with a Tatsugiri in its mouth, this move boosts the user’s Attack if the Tatsugiri’s form is Curly, Defense if Droopy, or Speed if Stretchy."
+    "effect": "The user attacks with elegant poise. If the user has a Tatsugiri in its mouth, this move boosts the user’s stats based on the Tatsugiri's form: Attack for Curly Tatsugiri, Defense for Droopy, or Speed for Stretchy."
   },
   "jetPunch": {
     "name": "Jet Punch",
@@ -3737,7 +3737,7 @@
   },
   "matchaGotcha": {
     "name": "Matcha Gotcha",
-    "effect": "The user fires a blast of tea that it mixed. The user’s HP is restored by ½ of the damage dealt by this move, and has a 20% chance of burning targets."
+    "effect": "The user fires a blast of tea that it mixed. The user’s HP is restored by ½ of the damage dealt by this move, and has a 20% chance of burning targets. This also thaws out the user or targets if frozen."
   },
   "syrupBomb": {
     "name": "Syrup Bomb",
