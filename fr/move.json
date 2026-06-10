@@ -1004,110 +1004,136 @@
     "effect": "Le lanceur appelle tous les Pokémon de son équipe à attaquer. Plus ils sont nombreux, plus il y a d’attaques. La puissance de cette capacité est calculée en fonction de l’Attaque des Pokémon de l’équipe du lanceur."
   },
   "fakeOut": {
-    "name": "Bluff"
+    "name": "Bluff",
+    "effect": "Le lanceur frappe en priorité et apeure la cible. La capacité ne fonctionne que si elle est utilisée immédiatement en entrant au combat."
   },
   "uproar": {
-    "name": "Brouhaha"
+    "name": "Brouhaha",
+    "effect": "Le lanceur attaque en rugissant durant 3 tours. Pendant ce temps, aucun Pokémon ne peut s’endormir."
   },
   "stockpile": {
-    "name": "Stockage"
+    "name": "Stockage",
+    "effect": "Le lanceur emmagasine de l’énergie et augmente sa Défense et sa Défense Spéciale. Augmente le niveau de Stockage du lanceur de 1 niveau, jusqu’à un maximum de 3 niveaux."
   },
   "spitUp": {
-    "name": "Relâche"
+    "name": "Relâche",
+    "effect": "Libère dans une attaque l’énergie précédemment emmagasinée avec Stockage. La puissance augmente en fonction du nombre de fois où Stockage a été utilisée. La puissance peut varier entre 100 et 300."
   },
   "swallow": {
-    "name": "Avale"
+    "name": "Avale",
+    "effect": "Le lanceur absorbe l’énergie emmagasinée avec Stockage pour restaurer ses PV. Niveau 1 : 1/4 de ses PV max ; Niveau 2 : la moitié de ses PV max ; Niveau 3 : tous ses PV. La capacité échoue si le lanceur n’a aucun niveau de Stockage."
   },
   "heatWave": {
-    "name": "Canicule"
+    "name": "Canicule",
+    "effect": "Le lanceur provoque une vague de chaleur. A 10 % de chances de le bruler."
   },
   "hail": {
-    "name": "Grêle"
+    "name": "Grêle",
+    "effect": "Invoque une tempête de grêle qui dure 5 tours. Blesse tous les Pokémon à hauteur de 1/8 de leurs PV max, sauf ceux de type Glace."
   },
   "torment": {
     "name": "Tourmente",
     "effect": "Le lanceur irrite la cible pour l’empêcher d’utiliser la même capacité deux fois de suite."
   },
   "flatter": {
-    "name": "Flatterie"
+    "name": "Flatterie",
+    "effect": "Rend la cible confuse, mais augmente son Attaque Spéciale."
   },
   "willOWisp": {
     "name": "Feu Follet",
     "effect": "Le lanceur projette des flammes maléfiques à la cible pour lui infliger une brulure."
   },
   "memento": {
-    "name": "Souvenir"
+    "name": "Souvenir",
+    "effect": "Le lanceur est mis K.O., mais l’Attaque et l’Attaque Spéciale de la cible baissent beaucoup."
   },
   "facade": {
-    "name": "Façade"
+    "name": "Façade",
+    "effect": "Une capacité dont la puissance double lorsque le lanceur est empoisonné, paralysé ou brulé. De plus, lorsque le lanceur est brulé, les dégâts qu’il inflige à l’aide de cette capacité physique ne sont pas réduits de moitié."
   },
   "focusPunch": {
-    "name": "Mitra-Poing"
+    "name": "Mitra-Poing",
+    "effect": "Le lanceur se concentre avant d’attaquer. Échoue s’il est touché avant d’avoir frappé."
   },
   "smellingSalts": {
     "name": "Stimulant",
     "effect": "Cette attaque est doublement efficace sur les Pokémon paralysés, mais elle soigne leur paralysie."
   },
   "followMe": {
-    "name": "Par Ici"
+    "name": "Par Ici",
+    "effect": "Le lanceur attire l’attention des cibles présentes pour les forcer à n’attaquer que le lanceur."
   },
   "naturePower": {
-    "name": "Force Nature"
+    "name": "Force Nature",
+    "effect": "Une attaque qui tire sa force de la nature. Son type varie selon le terrain."
   },
   "charge": {
-    "name": "Chargeur"
+    "name": "Chargeur",
+    "effect": "Le lanceur se charge en électricité, ce qui augmente la puissance de la prochaine capacité Électrik qu’il utilisera. Sa Défense Spéciale augmente également."
   },
   "taunt": {
-    "name": "Provoc"
+    "name": "Provoc",
+    "effect": "Le lanceur provoque la cible, ce qui oblige celle-ci à n’utiliser que des capacités qui infligent des dégâts pendant 3 tours."
   },
   "helpingHand": {
-    "name": "Coup d’Main"
+    "name": "Coup d’Main",
+    "effect": "Le lanceur donne un coup de main à son allié, qui voit la puissance de ses capacités multipliée par 1,5 lors du tour d’utilisation de cette capacité."
   },
   "trick": {
-    "name": "Tour de Magie"
+    "name": "Tour de Magie",
+    "effect": "Le lanceur prend la cible au dépourvu et l’oblige à échanger son objet contre le sien."
   },
   "rolePlay": {
     "name": "Imitation",
     "effect": "Imite la cible et copie son talent."
   },
   "wish": {
-    "name": "Vœu"
+    "name": "Vœu",
+    "effect": "Un vœu qui permet au lanceur ou au Pokémon entrant sur le terrain au tour suivant de récupérer la moitié des PV max du lanceur."
   },
   "assist": {
     "name": "Assistance",
     "effect": "Le lanceur se dépêche d’utiliser une capacité au hasard parmi celles des Pokémon de l’équipe."
   },
   "ingrain": {
-    "name": "Racines"
+    "name": "Racines",
+    "effect": "Le lanceur plante ses racines et récupère des PV à chaque tour. Une fois enraciné, il ne peut plus fuir."
   },
   "superpower": {
-    "name": "Surpuissance"
+    "name": "Surpuissance",
+    "effect": "Une attaque puissante, mais qui baisse l’Attaque et la Défense du lanceur."
   },
   "magicCoat": {
-    "name": "Reflet Magik"
+    "name": "Reflet Magik",
+    "effect": "Une barrière qui renvoie les capacités comme Vampigraine et celles affectant le statut et les stats."
   },
   "recycle": {
     "name": "Recyclage",
     "effect": "Recycle un objet tenu à usage unique déjà utilisé lors du combat pour pouvoir l’utiliser à nouveau."
   },
   "revenge": {
-    "name": "Vendetta"
+    "name": "Vendetta",
+    "effect": "Une attaque deux fois plus puissante si le lanceur a été blessé par l’ennemi durant ce tour."
   },
   "brickBreak": {
-    "name": "Casse-Brique"
+    "name": "Casse-Brique",
+    "effect": "Le lanceur attaque avec le tranchant de la main. Permet aussi de briser les barrières comme Mur Lumière, Protection et Voile Aurore."
   },
   "yawn": {
     "name": "Bâillement",
     "effect": "Le lanceur fait bâiller la cible, qui s’endort au tour suivant."
   },
   "knockOff": {
-    "name": "Sabotage"
+    "name": "Sabotage",
+    "effect": "Si l’adversaire tient un objet, la puissance de cette capacité est multipliée par 1,5. L’adversaire perd son objet."
   },
   "endeavor": {
-    "name": "Effort"
+    "name": "Effort",
+    "effect": "Une attaque qui réduit les PV de la cible au niveau des PV du lanceur. Échoue si l’adversaire a moins ou autant de PV que le lanceur. Les Pokémon Boss y sont immunisés."
   },
   "eruption": {
-    "name": "Éruption"
+    "name": "Éruption",
+    "effect": "Le lanceur laisse exploser sa colère. Plus ses PV sont bas, moins l’attaque est puissante. La puissance peut varier entre 1 et 150."
   },
   "skillSwap": {
     "name": "Échange",
@@ -1130,44 +1156,56 @@
     "effect": "Lorsqu’une capacité de soin ou de changement de stats est utilisée, le lanceur vole ses effets."
   },
   "secretPower": {
-    "name": "Force Cachée"
+    "name": "Force Cachée",
+    "effect": "Les effets de cette attaque varient en fonction du biome ou du terrain."
   },
   "dive": {
-    "name": "Plongée"
+    "name": "Plongée",
+    "effect": "Le lanceur plonge sous l’eau au premier tour et frappe au second."
   },
   "armThrust": {
-    "name": "Cogne"
+    "name": "Cogne",
+    "effect": "Un déluge de coups adressés avec la paume qui frappe de 2 à 5 fois d’affilée."
   },
   "camouflage": {
-    "name": "Camouflage"
+    "name": "Camouflage",
+    "effect": "Modifie le type du lanceur en fonction du biome ou du terrain."
   },
   "tailGlow": {
-    "name": "Lumi-Queue"
+    "name": "Lumi-Queue",
+    "effect": "Le lanceur regarde un flash lumineux fixement. Augmente énormément son Attaque Spéciale."
   },
   "lusterPurge": {
-    "name": "Lumi-Éclat"
+    "name": "Lumi-Éclat",
+    "effect": "Le lanceur libère un éclair lumineux. A 50 % de chances de baisse la Défense Spéciale de la cible."
   },
   "mistBall": {
-    "name": "Ball’Brume"
+    "name": "Ball’Brume",
+    "effect": "Une bulle de brume inflige des dégâts à la cible. A 50 % de chances de baisser son Attaque Spéciale."
   },
   "featherDance": {
     "name": "Danse Plumes",
     "effect": "Une montagne de plumes ensevelit la cible et réduit beaucoup son Attaque."
   },
   "teeterDance": {
-    "name": "Danse Folle"
+    "name": "Danse Folle",
+    "effect": "Danse qui rend confus tous les Pokémon autour du lanceur."
   },
   "blazeKick": {
-    "name": "Pied Bruleur"
+    "name": "Pied Bruleur",
+    "effect": "Le lanceur envoie un coup de pied. Taux de critique supérieur d’un cran. A 10 % de chances de la bruler."
   },
   "mudSport": {
-    "name": "Lance-Boue"
+    "name": "Lance-Boue",
+    "effect": "Asperge les alentours de boue. Affaiblit les capacités Électrik pendant 5 tours."
   },
   "iceBall": {
-    "name": "Ball’Glace"
+    "name": "Ball’Glace",
+    "effect": "Frappe l’ennemi pendant 5 tours. L’attaque double de puissance à chaque coup. Retrouve sa puissance initiale après 5 tours ou si elle est interrompue."
   },
   "needleArm": {
-    "name": "Poing Dard"
+    "name": "Poing Dard",
+    "effect": "Le lanceur attaque en fouettant la cible de ses bras épineux. A 30 % de chances de l’apeurer."
   },
   "slackOff": {
     "name": "Paresse"
