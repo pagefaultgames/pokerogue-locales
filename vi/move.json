@@ -2,14 +2,41 @@
   "pound": {
     "effect": "Mục tiêu bị tấn công vật lý bằng đuôi dài, chân trước hoặc những bộ phận tương tự."
   },
+  "karateChop": {
+    "effect": "Mục tiêu bị tấn công bằng một nhát chém sắc bén. Chiêu thức có tỉ lệ chí mạng tăng thêm 1 bậc."
+  },
+  "doubleSlap": {
+    "effect": "Mục tiêu bị tát liên tục, qua lại, từ 2-5 lần liên tiếp."
+  },
+  "cometPunch": {
+    "effect": "Mục tiêu sẽ bị trúng một loạt cú đấm liên tiếp từ 2-5 lần."
+  },
   "megaPunch": {
     "effect": "Mục tiêu bị trúng một cú đấm đầy sức mạnh."
+  },
+  "payDay": {
+    "effect": "Tiền xu ném thẳng về phía đối phương gây sát thương. Nếu chiêu thức trúng đích, bạn sẽ nhận thê tiền sau trận đấu."
+  },
+  "firePunch": {
+    "effect": "Mục tiêu bị đấm bằng nắm đấm lửa. Chiêu thức có 10% khiến mục tiêu bị bỏng."
+  },
+  "icePunch": {
+    "effect": "Mục tiêu bị đấm bằng nắm đấm băng giá. Chiêu thức có 10% khiến mục tiêu bị đóng băng."
+  },
+  "thunderPunch": {
+    "effect": "Mục tiêu bị đấm bằng nắm đấm tích điện. Chiêu thức có 10% khiến mục tiêu bị tê liệt."
   },
   "scratch": {
     "effect": "Những chiếc móng vuốt cứng, nhọn và sắc bén cào cấu mục tiêu để gây sát thương."
   },
   "viseGrip": {
     "effect": "Mục tiêu bị kẹp và siết chặt từ hai phía để gây sát thương."
+  },
+  "guillotine": {
+    "effect": "Một nhát cắt hung tàn bằng cặp càng quá cỡ. Mục tiêu ngay lập tức mất khả năng chiến đấu. Tỉ lệ chuẩn xác luôn ở 30%. Vô hiệu với Boss."
+  },
+  "razorWind": {
+    "effect": "Pokémon tích tụ những lưỡi dao gió để tấn công vào lượt kế tiếp. Chiêu thức có tỉ lệ chí mạng tăng thêm 1 bậc."
   },
   "wingAttack": {
     "effect": "Mục tiêu bị tấn công bằng đôi cánh lớn, oai vệ dang rộng để gây sát thương."
@@ -116,7 +143,6 @@
   "flash": {
     "effect": "Pokémon lóe lên một luồng ánh sáng chói lọi làm giảm độ chuẩn của mục tiêu."
   },
-  "psywave": {},
   "splash": {
     "effect": "Vùng vẫy bất lực và văng nước tứ tung, hoàn toàn không làm được gì…"
   },
@@ -252,11 +278,9 @@
   "mudShot": {
     "effect": "Pokémon tấn công bằng cách ném một cục bùn vào mục tiêu. Chiêu này cũng làm giảm chỉ số Tốc độ của mục tiêu."
   },
-  "poisonTail": {},
   "covet": {
     "effect": "Pokémon tiếp cận mục tiêu một cách đáng yêu, sau đó cố gắng trộm đồ từ mục tiêu. Chiêu thức này có 30% cơ hội lấy trộm một trong những vật phẩm đang giữ của mục tiêu."
   },
-  "voltTackle": {},
   "magicalLeaf": {
     "effect": "Pokémon rải những chiếc lá kỳ lạ đuổi theo mục tiêu. Đòn tấn công này không bao giờ trượt."
   },
@@ -275,7 +299,6 @@
   "acupressure": {
     "effect": "Pokémon ấn mạnh vào các huyệt đạo, tăng mạnh một chỉ số bất kỳ của bản thân hoặc đồng đội."
   },
-  "metalBurst": {},
   "uTurn": {
     "effect": "Sau khi thực hiện đòn tấn công, Pokémon lao nhanh về để đổi chỗ với một Pokémon đang chờ sẵn trong đội hình."
   },
@@ -435,7 +458,6 @@
   "babyDollEyes": {
     "effect": "Pokémon nhìn chằm chằm vào mục tiêu bằng đôi mắt búp bê, điều này làm giảm chỉ số Tấn công của mục tiêu. Chiêu thức này luôn được thực hiện trước."
   },
-  "nuzzle": {},
   "holdBack": {
     "effect": "Pokémon kiềm chế khi tấn công, và mục tiêu chỉ còn lại ít nhất 1 HP."
   },
@@ -565,7 +587,6 @@
   "spotlight": {
     "effect": "Pokémon chiếu đèn pha vào mục tiêu để chỉ mục tiêu đó bị tấn công trong lượt chơi."
   },
-  "toxicThread": {},
   "laserFocus": {
     "effect": "Pokémon tập trung cao độ. Đòn tấn công ở lượt tiếp theo luôn gây ra sát thương chí mạng."
   },
@@ -689,7 +710,6 @@
   "behemothBash": {
     "effect": "Thân thể Pokémon trở thành một tấm khiên vững chắc và lao vào mục tiêu một cách dữ dội."
   },
-  "auraWheel": {},
   "breakingSwipe": {
     "effect": "Pokémon vung chiếc đuôi cứng cáp của nó một cách dữ dội và tấn công Pokémon đối phương. Điều này cũng làm giảm chỉ số Tấn công của chúng."
   },
@@ -762,15 +782,12 @@
   "gMaxGoldRush": {
     "effect": "Một đòn tấn công hệ Thường mà Meowth Gigantamax sử dụng. Chiêu thức này gây trạng thái rối loạn cho đối thủ và cũng giúp kiếm thêm tiền."
   },
-  "gMaxChiStrike": {},
   "gMaxTerror": {
     "effect": "Một đòn tấn công hệ Ma mà Gigantamax Gengar sử dụng. Pokémon này giẫm lên bóng của Pokémon đối phương để ngăn chúng trốn thoát."
   },
-  "gMaxResonance": {},
   "gMaxCuddle": {
     "effect": "Một đòn tấn công hệ Thường mà Eevee Gigantamax sử dụng. Chiêu thức này làm cho đối thủ bị mê hoặc."
   },
-  "gMaxReplenish": {},
   "gMaxMalodor": {
     "effect": "Một đòn tấn công hệ Độc mà Gigantamax Garbodor sử dụng. Chiêu thức này gây độc cho đối thủ."
   },
@@ -789,7 +806,6 @@
   "gMaxSmite": {
     "effect": "Một đòn tấn công hệ Tiên mà Gigantamax Hatterene sử dụng. Chiêu thức này gây trạng thái bối rối cho đối thủ."
   },
-  "gMaxSteelsurge": {},
   "gMaxMeltdown": {
     "effect": "Một đòn tấn công hệ Thép mà Gigantamax Melmetal sử dụng. Chiêu thức này khiến đối thủ không thể sử dụng cùng một chiêu thức hai lần liên tiếp."
   },
