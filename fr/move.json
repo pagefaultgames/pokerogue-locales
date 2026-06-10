@@ -1792,7 +1792,7 @@
   },
   "judgment": {
     "name": "Jugement",
-    "effect": "Le lanceur libère une myriade de rayons de lumière. Le type varie selon la plaque, du module que tient le lanceur, s’il a le talent Multi-Type ou Système Alpha."
+    "effect": "Le lanceur libère une myriade de rayons de lumière. Le type varie selon la plaque ou de la ROM que tient le lanceur, s’il a le talent Multi-Type ou Système Alpha."
   },
   "bugBite": {
     "name": "Piqure",
@@ -2631,38 +2631,48 @@
     "effect": "Pikachu utilise la Force Z pour concentrer toute son électricité avant de se jeter à toute vitesse sur l’adversaire."
   },
   "shoreUp": {
-    "name": "Amass’Sable"
+    "name": "Amass’Sable",
+    "effect": "Le lanceur récupère jusqu’à la moitié de ses PV max. Durant une tempête de sable, il en récupère 2/3."
   },
   "firstImpression": {
-    "name": "Escarmouche"
+    "name": "Escarmouche",
+    "effect": "Une capacité très puissante, mais qui ne fonctionne que lorsque le lanceur entre au combat."
   },
   "banefulBunker": {
-    "name": "Blockhaus"
+    "name": "Blockhaus",
+    "effect": "Le lanceur se protège de toutes les capacités adverses lors du tour d’utilisation de cette capacité. Empoisonne l’adversaire si celui-ci utilise une capacité à contact sur le lanceur. À chaque utilisation consécutive, les chances de réussite tombent à 1/3 de ce qu’elles étaient à l’utilisation précédente."
   },
   "spiritShackle": {
-    "name": "Tisse Ombre"
+    "name": "Tisse Ombre",
+    "effect": "Une attaque qui coud la cible à son ombre, ce qui l’empêche de s’enfuir."
   },
   "darkestLariat": {
-    "name": "Dark Lariat"
+    "name": "Dark Lariat",
+    "effect": "Le lanceur étend les bras et frappe l’adversaire en tournant violemment. Il inflige des dégâts et ignore les changements de stats de la cible."
   },
   "sparklingAria": {
-    "name": "Aria de l’Écume"
+    "name": "Aria de l’Écume",
+    "effect": "Le lanceur émet plusieurs bulles en chantant. Soigne les brulures des Pokémon touchés par ces bulles."
   },
   "iceHammer": {
-    "name": "Marteau de Glace"
+    "name": "Marteau de Glace",
+    "effect": "Le lanceur donne un puissant coup de poing à la cible, ce qui réduit la Vitesse du lanceur."
   },
   "floralHealing": {
-    "name": "Soin Floral"
+    "name": "Soin Floral",
+    "effect": "Rend la moitié de ses PV max à la cible, 2/3 sur un champ herbu."
   },
   "highHorsepower": {
     "name": "Cavalerie Lourde",
     "effect": "Le lanceur attaque violemment en utilisant tout son poids."
   },
   "strengthSap": {
-    "name": "Vole-Force"
+    "name": "Vole-Force",
+    "effect": "Rend au lanceur une quantité de PV équivalente à la stat d’Attaque de la cible, puis baisse celle-ci."
   },
   "solarBlade": {
-    "name": "Lame Solaire"
+    "name": "Lame Solaire",
+    "effect": "Le lanceur charge la capacité pendant 1 tour et attaque au tour suivant. Si le soleil brille, le lanceur peut attaquer au tour d’utilisation de la capacité sans avoir à la charger. Si n’importe quelle autre condition météo est active, la puissance de cette capacité est réduite de moitié."
   },
   "leafage": {
     "name": "Feuillage",
@@ -2673,26 +2683,32 @@
     "effect": "Met un Pokémon sous le feu des projecteurs et force tout le monde à le viser."
   },
   "toxicThread": {
-    "name": "Fil Toxique"
+    "name": "Fil Toxique",
+    "effect": "Tisse un fil imprégné de venin. Empoisonne la cible et baisse sa Vitesse."
   },
   "laserFocus": {
     "name": "Affilage",
     "effect": "Le lanceur se concentre pour être sûr de porter un coup critique au tour suivant."
   },
   "gearUp": {
-    "name": "Engrenage"
+    "name": "Engrenage",
+    "effect": "Change de réglage pour augmenter l’Attaque et l’Attaque Spéciale des alliés ayant les talents Plus ou Moins."
   },
   "throatChop": {
-    "name": "Exécu-Son"
+    "name": "Exécu-Son",
+    "effect": "Inflige une douleur tellement violente à la cible qu’elle ne peut plus utiliser de capacités de sons pendant 2 tours."
   },
   "pollenPuff": {
-    "name": "Boule Pollen"
+    "name": "Boule Pollen",
+    "effect": "Sur un ennemi, le lanceur envoie une boule explosive qui fait des dégâts. Sur un allié, il envoie du bon pollen nutritif qui fait récupérer la moitié de ses PV max."
   },
   "anchorShot": {
-    "name": "Ancrage"
+    "name": "Ancrage",
+    "effect": "Le lanceur jette son ancre sur la cible pour l’attaquer. Une fois accrochée, elle l’empêche de quitter le terrain."
   },
   "psychicTerrain": {
-    "name": "Champ Psychique"
+    "name": "Champ Psychique",
+    "effect": "Pendant 5 tours, les Pokémon au sol ne peuvent plus subir d’attaques prioritaires et la puissance des capacités de type Psy augmente."
   },
   "lunge": {
     "name": "Furie-Bond",
@@ -2703,10 +2719,12 @@
     "effect": "Frappe la cible avec un fouet incandescent et baisse sa Défense."
   },
   "powerTrip": {
-    "name": "Arrogance"
+    "name": "Arrogance",
+    "effect": "Ivre de puissance, le lanceur attaque de toutes ses forces. La puissance de cette capacité augmente de 20 pour chaque cran d’augmentation que contiennent les stats du lanceur."
   },
   "burnUp": {
-    "name": "Flamme Ultime"
+    "name": "Flamme Ultime",
+    "effect": "Le Pokémon se consume et les flammes de son corps infligent des dégâts élevés à la cible. À l’utilisation, soigne le gel du lanceur. Le lanceur perd le type Feu. S’il n’est pas de type Feu, cette capacité échoue."
   },
   "speedSwap": {
     "name": "Permuvitesse",
@@ -2717,36 +2735,44 @@
     "effect": "Le lanceur transperce la cible avec sa corne effilée. N’échoue jamais."
   },
   "purify": {
-    "name": "Purification"
+    "name": "Purification",
+    "effect": "Le lanceur soigne les altérations de statut de la cible, ce qui lui permet de regagner des PV."
   },
   "revelationDance": {
-    "name": "Danse Éveil"
+    "name": "Danse Éveil",
+    "effect": "Le lanceur attaque en dansant avec enthousiasme. Le type de la capacité est le même que celui du lanceur."
   },
   "coreEnforcer": {
-    "name": "Sanction Suprême"
+    "name": "Sanction Suprême",
+    "effect": "La cible subit des dégâts et, si elle a déjà agi pendant ce tour, elle perd aussi son talent et en élimine les effets."
   },
   "tropKick": {
     "name": "Botte Sucrette",
     "effect": "Un coup de pied chaud comme les tropiques qui inflige des dégâts à la cible et baisse son Attaque."
   },
   "instruct": {
-    "name": "Sommation"
+    "name": "Sommation",
+    "effect": "Force la cible à lancer immédiatement la dernière capacité qu’elle a utilisée."
   },
   "beakBlast": {
-    "name": "Bec-Canon"
+    "name": "Bec-Canon",
+    "effect": "Le lanceur fait chauffer son bec avant d’attaquer. S’il subit une attaque directe pendant la montée en température, l’attaquant sera brulé."
   },
   "clangingScales": {
-    "name": "Vibrécaille"
+    "name": "Vibrécaille",
+    "effect": "Le lanceur déclenche un vacarme en frottant ses écailles les unes contre les autres pour attaquer. Baisse la Défense du lanceur."
   },
   "dragonHammer": {
-    "name": "Draco-Marteau"
+    "name": "Draco-Marteau",
+    "effect": "Le lanceur utilise son corps comme un véritable marteau pour écraser la cible."
   },
   "brutalSwing": {
     "name": "Centrifugifle",
     "effect": "Le lanceur pivote pour prendre de l’élan et infliger des dégâts."
   },
   "auroraVeil": {
-    "name": "Voile Aurore"
+    "name": "Voile Aurore",
+    "effect": "Réduit les dégâts causés par les capacités physiques et spéciales durant 5 tours. Ne peut être utilisée que lorsqu’il neige."
   },
   "sinisterArrowRaid": {
     "name": "Fureur des Plumes Spectrales",
@@ -2789,23 +2815,28 @@
     "effect": "Pose une carapace piégée. Si l’adversaire utilise une capacité physique, la carapace explose et lui inflige des dégâts."
   },
   "fleurCannon": {
-    "name": "Canon Floral"
+    "name": "Canon Floral",
+    "effect": "Envoie un rayon laser dévastateur. Baisse beaucoup l’Attaque Spéciale du lanceur."
   },
   "psychicFangs": {
-    "name": "Psycho-Croc"
+    "name": "Psycho-Croc",
+    "effect": "Le lanceur mord la cible avec ses pouvoirs psychiques. Brise aussi les barrières comme Mur Lumière, Protection et Voile Aurore."
   },
   "stompingTantrum": {
-    "name": "Trépignement"
+    "name": "Trépignement",
+    "effect": "Le lanceur attaque en utilisant sa frustration. S’il a utilisé une capacité qui a échoué au tour précédent, la puissance de Trépignement est doublée."
   },
   "shadowBone": {
-    "name": "Os Ombre"
+    "name": "Os Ombre",
+    "effect": "Le lanceur frappe avec un os possédé par l’âme d’un défunt. A 20 % de chances de baisser la Défense de la cible."
   },
   "accelerock": {
     "name": "Vif Roc",
     "effect": "Le lanceur charge la cible à toute vitesse. Frappe en priorité."
   },
   "liquidation": {
-    "name": "Aqua-Brèche"
+    "name": "Aqua-Brèche",
+    "effect": "Le lanceur utilise la force de l’eau pour attaquer. A 20 % de chances de baisser la Défense de la cible."
   },
   "prismaticLaser": {
     "name": "Laser Prisme",
@@ -2824,29 +2855,36 @@
     "effect": "Le lanceur attaque avec un rayon de lumière mystérieux. Ignore le talent de la cible."
   },
   "tearfulLook": {
-    "name": "Larme à l’Œil"
+    "name": "Larme à l’Œil",
+    "effect": "Le lanceur regarde la cible avec des yeux remplis de larmes. Celle-ci perd toute combativité et voit son Attaque et son Attaque Spéciale baisser."
   },
   "zingZap": {
-    "name": "Électrikipik"
+    "name": "Électrikipik",
+    "effect": "Le lanceur fonce sur la cible et lui envoie un puissant choc électrique. A 30 % de chances de l’apeurer."
   },
   "naturesMadness": {
-    "name": "Ire de la Nature"
+    "name": "Ire de la Nature",
+    "effect": "Le lanceur déchaîne toute la colère de la nature pour baisser les PV de la cible de moitié."
   },
   "multiAttack": {
-    "name": "Coup Varia-Type"
+    "name": "Coup Varia-Type",
+    "effect": "Le Pokémon s’entoure d’une puissante énergie avant de foncer sur sa cible. Le type varie selon la plaque, du module que tient le lanceur, s’il a le talent Multi-Type ou Système Alpha."
   },
   "tenMillionVoltThunderbolt": {
-    "name": "Giga-Tonnerre"
+    "name": "Giga-Tonnerre",
+    "effect": "Le Pikachu à casquette utilise la Force Z pour augmenter sa puissance électrique avant de la déchaîner sur la cible. Taux de critique élevé."
   },
   "mindBlown": {
-    "name": "Caboche-Kaboum"
+    "name": "Caboche-Kaboum",
+    "effect": "Le lanceur fait exploser sa tête pour attaquer toutes les cibles autour de lui. Il subit aussi des dégâts à hauteur de la moitié de ses PV max."
   },
   "plasmaFists": {
     "name": "Plasma Punch",
     "effect": "Le lanceur attaque en projetant de l’électricité avec ses poings. Convertit les capacités de type Normal en type Électrik."
   },
   "photonGeyser": {
-    "name": "Photo-Geyser"
+    "name": "Photo-Geyser",
+    "effect": "Le lanceur fait jaillir un pilier de lumière. Compare l’Attaque et l’Attaque Spéciale, et utilise celle qui infligera le plus de dégâts."
   },
   "lightThatBurnsTheSky": {
     "name": "Apocalypsis Luminis",
@@ -2877,166 +2915,208 @@
     "effect": "Une attaque électrique rapide comme l’éclair qui inflige un coup critique à coup sûr. Frappe en priorité."
   },
   "splishySplash": {
-    "name": "Pika-Splash"
+    "name": "Pika-Splash",
+    "effect": "Le lanceur frappe la cible avec une vague géante chargée d’électricité. A 20 % de chances de la paralyser."
   },
   "floatyFall": {
-    "name": "Pika-Piqué"
+    "name": "Pika-Piqué",
+    "effect": "Le lanceur prend de la hauteur avant de fondre sur son adversaire. A 30 % de chances de l’apeurer."
   },
   "pikaPapow": {
-    "name": "Pika-Fracas"
+    "name": "Pika-Fracas",
+    "effect": "Une attaque électrique dont la puissance est proportionnelle à l’amour que Pikachu vous porte. La puissance peut varier entre 1 et 102. Touche à coup sûr."
   },
   "bouncyBubble": {
-    "name": "Évo-Thalasso"
+    "name": "Évo-Thalasso",
+    "effect": "Le lanceur frappe l’adversaire avec des bulles d’eau qu’il absorbe ensuite pour récupérer un nombre de PV égal aux dégâts infligés à l’ennemi."
   },
   "buzzyBuzz": {
-    "name": "Évo-Dynamo"
+    "name": "Évo-Dynamo",
+    "effect": "Une attaque qui foudroie et paralyse l’adversaire."
   },
   "sizzlySlide": {
-    "name": "Évo-Flambo"
+    "name": "Évo-Flambo",
+    "effect": "Le lanceur s’embrase et percute violemment l’adversaire. Brule aussi l’ennemi."
   },
   "glitzyGlow": {
-    "name": "Évo-Psycho"
+    "name": "Évo-Psycho",
+    "effect": "Le lanceur submerge l’adversaire sous un flot d’ondes psychiques et crée un mur fabuleux qui réduit les dégâts causés par les attaques spéciales de l’ennemi."
   },
   "baddyBad": {
-    "name": "Évo-Ténébro"
+    "name": "Évo-Ténébro",
+    "effect": "Le lanceur fait appel à son côté sombre pour attaquer l’adversaire et créer un mur fabuleux qui réduit de moité les dégâts causés par les attaques physiques de l’ennemi. 1/3 en cas de combat double."
   },
   "sappySeed": {
-    "name": "Évo-Écolo"
+    "name": "Évo-Écolo",
+    "effect": "Une liane géante surgit du sol et bombarde l’adversaire de graines qui lui dérobent 1/16 des PV à chaque tour. Ces PV sont ensuite absorbés par le lanceur."
   },
   "freezyFrost": {
     "name": "Évo-Congélo",
     "effect": "Le lanceur frappe l’adversaire avec un cristal de buée noire gelée. Annule les changements de stats de tous les Pokémon au combat."
   },
   "sparklySwirl": {
-    "name": "Évo-Fabulo"
+    "name": "Évo-Fabulo",
+    "effect": "Une attaque qui enserre l’adversaire dans un tourbillon de senteurs oppressantes. Guérit toutes les altérations de statut de l’équipe."
   },
   "veeveeVolley": {
-    "name": "Évo-Chardasso"
+    "name": "Évo-Chardasso",
+    "effect": "Le lanceur lance une attaque dès lors qu’un signe apparait sur le terrain. Les dégâts infligés sont proportionnels à l’affection de votre Pokémon. La puissance peut varier entre 1 et 102."
   },
   "doubleIronBash": {
-    "name": "Écrous d’Poing"
+    "name": "Écrous d’Poing",
+    "effect": "Le lanceur fait pivoter l’écrou de sa poitrine deux fois d’affilée pour frapper la cible avec ses bras. Chaque coup a 30 % de chances de l’apeurer."
   },
   "maxGuard": {
-    "name": "Gardomax"
+    "name": "Gardomax",
+    "effect": "Le lanceur se protège de toutes les attaques. À chaque utilisation consécutive, les chances de réussite tombent à 1/3 de ce qu’elles étaient à l’utilisation précédente."
   },
   "dynamaxCannon": {
-    "name": "Canon Dynamax"
+    "name": "Canon Dynamax",
+    "effect": "Le lanceur attaque en libérant l’énergie concentrée dans son noyau. Inflige jusqu’à deux fois plus de dégâts si l’adversaire a un niveau très élevé."
   },
   "snipeShot": {
-    "name": "Tir de Précision"
+    "name": "Tir de Précision",
+    "effect": "Le lanceur parvient toujours à viser la cible voulue, en ignorant l’effet des talents et des capacités capables de détourner les attaques. Taux de critique supérieur d’un cran."
   },
   "jawLock": {
     "name": "Croque Fort",
     "effect": "Le lanceur et sa cible ne peuvent plus être échangés jusqu’à ce que l’un d’entre eux tombe K.O. L’effet est annulé si l’un des deux Pokémon quitte le terrain."
   },
   "stuffCheeks": {
-    "name": "Garde-à-Joues"
+    "name": "Garde-à-Joues",
+    "effect": "Le lanceur mange la Baie qu’il tient, ce qui augmente beaucoup sa Défense."
   },
   "noRetreat": {
-    "name": "Ultime Bastion"
+    "name": "Ultime Bastion",
+    "effect": "Le lanceur voit toutes ses stats augmenter, mais en contrepartie, il ne peut plus quitter le terrain."
   },
   "tarShot": {
-    "name": "Goudronnage"
+    "name": "Goudronnage",
+    "effect": "Le lanceur recouvre sa cible de goudron liquide pour baisser sa Vitesse et la rendre vulnérable au feu. Les capacités de type Feu utilisé sur la cible ont un effet doublé."
   },
   "magicPowder": {
-    "name": "Poudre Magique"
+    "name": "Poudre Magique",
+    "effect": "Le lanceur recouvre sa cible d’une poudre magique qui change son type en Psy."
   },
   "dragonDarts": {
-    "name": "Draco-Flèches"
+    "name": "Draco-Flèches",
+    "effect": "Le lanceur attaque en propulsant deux flèches. S’il y a deux cibles, chacune d’entre elles est frappée une fois."
   },
   "teatime": {
-    "name": "Thérémonie"
+    "name": "Thérémonie",
+    "effect": "Le lanceur invite tous les Pokémon sur le terrain à prendre le gouter autour d’une tasse de thé. Ceux qui tiennent une Baie la mangent."
   },
   "octolock": {
-    "name": "Octoprise"
+    "name": "Octoprise",
+    "effect": "Empêche l’ennemi de fuir ou de quitter le terrain. Baisse la Défense et la Défense Spécial de l’ennemi chaque tour."
   },
   "boltBeak": {
-    "name": "Prise de Bec"
+    "name": "Prise de Bec",
+    "effect": "Le lanceur transperce sa cible avec son bec chargé d’électricité. Si cette attaque est lancée avant que la cible n’attaque, elle infligera deux fois plus de dégâts."
   },
   "fishiousRend": {
-    "name": "Branchicrok"
+    "name": "Branchicrok",
+    "effect": "Le lanceur mord sa cible avec ses solides branchies. Si cette capacité est lancée avant que la cible n’attaque, elle infligera deux fois plus de dégâts."
   },
   "courtChange": {
     "name": "Change-Côté",
     "effect": "Une force mystérieuse intervertit les effets affectant chaque côté du terrain."
   },
   "maxFlare": {
-    "name": "Pyromax"
+    "name": "Pyromax",
+    "effect": "Une attaque de type Feu que seuls les Pokémon Dynamax peuvent utiliser. Fait briller le soleil pendant 5 tours."
   },
   "maxFlutterby": {
     "name": "Insectomax",
     "effect": "Une attaque de type Insecte que seuls les Pokémon Dynamax peuvent utiliser. Baisse l’Attaque Spéciale de la cible."
   },
   "maxLightning": {
-    "name": "Fulguromax"
+    "name": "Fulguromax",
+    "effect": "Une attaque de type Électrik que seuls les Pokémon Dynamax peuvent utiliser. Crée un champ électrifié qui dure 5 tours."
   },
   "maxStrike": {
     "name": "Normalomax",
     "effect": "Une attaque de type Normal que seuls les Pokémon Dynamax peuvent utiliser. Baisse la Vitesse de la cible."
   },
   "maxKnuckle": {
-    "name": "Pugilomax"
+    "name": "Pugilomax",
+    "effect": "Une attaque de type Combat que seuls les Pokémon Dynamax peuvent utiliser. Augmente l’Attaque des alliés."
   },
   "maxPhantasm": {
     "name": "Spectromax",
     "effect": "Une attaque de type Spectre que seuls les Pokémon Dynamax peuvent utiliser. Baisse la Défense de la cible."
   },
   "maxHailstorm": {
-    "name": "Cryomax"
+    "name": "Cryomax",
+    "effect": "Une attaque de type Glace que seuls les Pokémon Dynamax peuvent utiliser. Invoque une tempête de neige qui dure 5 tours."
   },
   "maxOoze": {
-    "name": "Toxinomax"
+    "name": "Toxinomax",
+    "effect": "Une attaque de type Poison que seuls les Pokémon Dynamax peuvent utiliser. Augmente l’Attaque Spéciale des alliés."
   },
   "maxGeyser": {
-    "name": "Hydromax"
+    "name": "Hydromax",
+    "effect": "Une attaque de type Eau que seuls les Pokémon Dynamax peuvent utiliser. Invoque de fortes pluies qui durent 5 tours."
   },
   "maxAirstream": {
-    "name": "Aéromax"
+    "name": "Aéromax",
+    "effect": "Une attaque de type Vol que seuls les Pokémon Dynamax peuvent utiliser. Augmente la Vitesse des alliés."
   },
   "maxStarfall": {
-    "name": "Enchantomax"
+    "name": "Enchantomax",
+    "effect": "Une attaque de type Fée que seuls les Pokémon Dynamax peuvent utiliser. Crée un champ brumeux qui dure 5 tours."
   },
   "maxWyrmwind": {
     "name": "Dracomax",
     "effect": "Une attaque de type Dragon que seuls les Pokémon Dynamax peuvent utiliser. Baisse l’Attaque de la cible."
   },
   "maxMindstorm": {
-    "name": "Psychomax"
+    "name": "Psychomax",
+    "effect": "Une attaque de type Psy que seuls les Pokémon Dynamax peuvent utiliser. Crée un champ psychique qui dure 5 tours."
   },
   "maxRockfall": {
-    "name": "Lithomax"
+    "name": "Lithomax",
+    "effect": "Une attaque de type Roche que seuls les Pokémon Dynamax peuvent utiliser. Invoque une tempête de sable qui dure 5 tours."
   },
   "maxQuake": {
-    "name": "Sismomax"
+    "name": "Sismomax",
+    "effect": "Une attaque de type Sol que seuls les Pokémon Dynamax peuvent utiliser. Augmente la Défense Spéciale des alliés."
   },
   "maxDarkness": {
     "name": "Sinistromax",
     "effect": "Une attaque de type Ténèbres que seuls les Pokémon Dynamax peuvent utiliser. Baisse la Défense Spéciale de la cible."
   },
   "maxOvergrowth": {
-    "name": "Phytomax"
+    "name": "Phytomax",
+    "effect": "Une attaque de type Plante que seuls les Pokémon Dynamax peuvent utiliser. Crée un champ herbu qui dure 5 tours."
   },
   "maxSteelspike": {
-    "name": "Métallomax"
+    "name": "Métallomax",
+    "effect": "Une attaque de type Acier que seuls les Pokémon Dynamax peuvent utiliser. Augmente la Défense des alliés."
   },
   "clangorousSoul": {
-    "name": "Dracacophonie"
+    "name": "Dracacophonie",
+    "effect": "Le lanceur perd 1/3 de ses PV max pour augmenter son Attaque, sa Défense, son Attaque Spéciale, sa Défense Spéciale et sa Vitesse. Cette capacité échoue s’il ne reste pas assez de PV au lanceur."
   },
   "bodyPress": {
-    "name": "Big Splash"
+    "name": "Big Splash",
+    "effect": "Le lanceur utilise son corps pour attaquer sa cible. Les dégâts sont calculés en fonction de la valeur de la Défense du lanceur, au lieu de celle de son Attaque."
   },
   "decorate": {
-    "name": "Nappage"
+    "name": "Nappage",
+    "effect": "Le lanceur augmente beaucoup l’Attaque et l’Attaque Spéciale de la cible en la nappant de glaçage."
   },
   "drumBeating": {
     "name": "Tambour Battant",
     "effect": "Le lanceur bat son tambour pour en diriger les racines sur la cible, l’attaquer, et baisser sa Vitesse."
   },
   "snapTrap": {
-    "name": "Troquenard"
+    "name": "Troquenard",
+    "effect": "Le lanceur attrape sa cible dans un piège et lui inflige des dégâts à hauteur de 1/8 de ses PV max à la fin de chaque tour pendant 4 ou 5 tours."
   },
   "pyroBall": {
-    "name": "Ballon Brulant"
+    "name": "Ballon Brulant",
+    "effect": "Le lanceur attaque avec un ballon fait à partir d’un caillou enflammé. A 10 % de chances de la bruler la cible."
   },
   "behemothBlade": {
     "name": "Gladius Maximus",
@@ -3047,7 +3127,8 @@
     "effect": "Le lanceur se transforme en un immense bouclier et charge sa cible."
   },
   "auraWheel": {
-    "name": "Roue Libre"
+    "name": "Roue Libre",
+    "effect": "Le lanceur libère l’énergie stockée dans ses joues pour attaquer et augmenter sa Vitesse. Si elle est utilisée par Morpeko, cette capacité change sa forme."
   },
   "breakingSwipe": {
     "name": "Abattage",
@@ -3058,68 +3139,84 @@
     "effect": "Le lanceur attaque sa cible en la piquant avec une branche pointue."
   },
   "overdrive": {
-    "name": "Overdrive"
+    "name": "Overdrive",
+    "effect": "Le lanceur gratte ses cordes de guitare ou de basse pour créer de violentes vibrations sonores qui blessent la cible."
   },
   "appleAcid": {
     "name": "Acide Malique",
     "effect": "Le lanceur projette un liquide corrosif créé à partir d’une pomme acide sur la cible, ce qui baisse la Défense Spéciale de celle-ci."
   },
   "gravApple": {
-    "name": "Force G"
+    "name": "Force G",
+    "effect": "Le lanceur fait tomber une pomme de très haut sur la cible. Baisse la Défense de la cible. Sa puissance est augmentée de 50 % sous l’effet de la gravité."
   },
   "spiritBreak": {
     "name": "Choc Émotionnel",
     "effect": "Le lanceur attaque la cible avec une telle force que celle-ci peut s’en retrouver profondément troublée et voir son Attaque Spéciale baisser."
   },
   "strangeSteam": {
-    "name": "Vapeur Féérique"
+    "name": "Vapeur Féérique",
+    "effect": "Le lanceur émet de la vapeur pour attaquer sa cible. A 20 % de chances de l’apeurer."
   },
   "lifeDew": {
-    "name": "Fontaine de Vie"
+    "name": "Fontaine de Vie",
+    "effect": "Le lanceur projette une eau mystérieuse sur le terrain pour restaurer 1/6 de ses PV max et de ceux de ses alliés au combat."
   },
   "obstruct": {
-    "name": "Blocage"
+    "name": "Blocage",
+    "effect": "Protège le lanceur des attaques de contact. Baisse la Défense de 2 crans si l’ennemi a tenté une attaque de contact. À chaque utilisation consécutive, les chances de réussite tombent à 1/3 de ce qu’elles étaient à l’utilisation précédente."
   },
   "falseSurrender": {
     "name": "Fourbette",
     "effect": "Le lanceur fait semblant de se prosterner et utilise ses cheveux pour transpercer sa cible. N’échoue jamais."
   },
   "meteorAssault": {
-    "name": "Joute Astrale"
+    "name": "Joute Astrale",
+    "effect": "Le lanceur attaque la cible avec son poireau. Toutefois, cette action le fait vaciller et il doit se reposer au tour suivant."
   },
   "eternabeam": {
     "name": "Laser Infinimax",
     "effect": "Inflige de gros dégâts mais oblige le lanceur à se reposer pendant un tour."
   },
   "steelBeam": {
-    "name": "Métalaser"
+    "name": "Métalaser",
+    "effect": "Le lanceur concentre du métal issu de tout son corps en un rayon qu’il projette violemment sur sa cible. Le lanceur subit des dégâts équivalents à la moitié de ses PV max après avoir attaqué."
   },
   "expandingForce": {
-    "name": "Vaste Pouvoir"
+    "name": "Vaste Pouvoir",
+    "effect": "Le lanceur attaque la cible avec ses pouvoirs psychiques. Si le lanceur est affecté par un champ psychique, la capacité touche tous les adversaires et sa puissance est multipliée par 1,5."
   },
   "steelRoller": {
-    "name": "Métalliroue"
+    "name": "Métalliroue",
+    "effect": "Une attaque qui inflige des dégâts et fait disparaitre le champ actif, mais qui échoue s’il n’y en a pas à ce moment."
   },
   "scaleShot": {
-    "name": "Rafale Écailles"
+    "name": "Rafale Écailles",
+    "effect": "Le lanceur projette des écailles sur la cible de 2 à 5 fois d’affilée. Augmente la Vitesse, mais diminue la Défense."
   },
   "meteorBeam": {
-    "name": "Laser Météore"
+    "name": "Laser Météore",
+    "effect": "Le lanceur concentre l’énergie cosmique au premier tour, ce qui augmente son Attaque Spéciale, et frappe au second."
   },
   "shellSideArm": {
-    "name": "Kokiyarme"
+    "name": "Kokiyarme",
+    "effect": "Une attaque physique ou spéciale, en fonction de ce qui inflige le plus de dégâts à la cible. A 20 % de chances de l’empoisonner."
   },
   "mistyExplosion": {
-    "name": "Explo-Brume"
+    "name": "Explo-Brume",
+    "effect": "Le lanceur frappe tous les Pokémon autour de lui en explosant, ce qui le met K.O. La puissance de cette attaque multipliée par 1,5 si un champ brumeux est actif."
   },
   "grassyGlide": {
-    "name": "Gliss’Herbe"
+    "name": "Gliss’Herbe",
+    "effect": "Le lanceur attaque la cible en glissant sur le terrain. Frappe toujours en priorité si un champ herbu est actif."
   },
   "risingVoltage": {
-    "name": "Monte-Tension"
+    "name": "Monte-Tension",
+    "effect": "Des éclairs surgissent du sol et frappent la cible. La puissance de cette attaque est doublée si la cible est sur un champ électrifié."
   },
   "terrainPulse": {
-    "name": "Champlification"
+    "name": "Champlification",
+    "effect": "Une attaque qui utilise la force des champs pour projeter une aura. Son type et sa puissance varient selon le champ actif."
   },
   "skitterSmack": {
     "name": "Ravage Rampant",
@@ -3130,13 +3227,16 @@
     "effect": "Le lanceur attaque sa cible avec toute sa jalousie. Cette capacité brule tout Pokémon dont les stats ont augmenté pendant ce tour."
   },
   "lashOut": {
-    "name": "Cent Rancunes"
+    "name": "Cent Rancunes",
+    "effect": "Le lanceur frappe la cible avec toute sa rancune. Si les stats du lanceur ont diminué pendant ce tour, la puissance de cette attaque est doublée."
   },
   "poltergeist": {
-    "name": "Esprit Frappeur"
+    "name": "Esprit Frappeur",
+    "effect": "Le lanceur manipule un objet tenu par la cible pour l’attaquer. Cette capacité échoue si celle-ci ne tient rien."
   },
   "corrosiveGas": {
-    "name": "Gaz Corrosif"
+    "name": "Gaz Corrosif",
+    "effect": "Un gaz corrosif qui enveloppe tous les Pokémon alentour et qui dissout les objets qu’ils tiennent."
   },
   "coaching": {
     "name": "Coaching",
@@ -3147,34 +3247,44 @@
     "effect": "Après son attaque, le lanceur revient à toute vitesse et change de place avec un Pokémon de l’équipe prêt à combattre."
   },
   "tripleAxel": {
-    "name": "Triple Axel"
+    "name": "Triple Axel",
+    "effect": "Une série d’un à trois coups de pied distincts dont la puissance augmente à chaque fois que la capacité touche sa cible. Premier coup : puissance de 20 ; Deuxième coup : puissance de 40 ; Troisième coup : puissance de 60. Si un des coups rate la cible, l’attaque s’arrête."
   },
   "dualWingbeat": {
-    "name": "Double Volée"
+    "name": "Double Volée",
+    "effect": "Le lanceur frappe la cible avec ses ailes 2 fois d’affilée."
   },
   "scorchingSands": {
-    "name": "Sable Ardent"
+    "name": "Sable Ardent",
+    "effect": "Le lanceur projette du sable chauffé à blanc sur la cible, ce qui peut aussi la bruler. A 30 % de chances de bruler l’adversaire. Soigne le gel de l’adversaire."
   },
   "jungleHealing": {
-    "name": "Selve Salvatrice"
+    "name": "Selve Salvatrice",
+    "effect": "Le lanceur fait appel au pouvoir de la jungle pour restaurer 1/6 de ses PV max et soigner les altérations d’état de ses alliés et de lui-même."
   },
   "wickedBlow": {
-    "name": "Poing Obscur"
+    "name": "Poing Obscur",
+    "effect": "Le lanceur assène un coup puissant à la cible. Cette technique inflige toujours un coup critique."
   },
   "surgingStrikes": {
-    "name": "Torrent de Coups"
+    "name": "Torrent de Coups",
+    "effect": "Le lanceur assène 3 coups fluides à la cible. Cette technique inflige toujours un coup critique."
   },
   "thunderCage": {
-    "name": "Voltageôle"
+    "name": "Voltageôle",
+    "effect": "Le lanceur frappe la cible, et le piège dans une prison électrique qui dure de 4 à 5 tours infligeant des dégâts à hauteur de 1/8 de ses PV max."
   },
   "dragonEnergy": {
-    "name": "Draco-Énergie"
+    "name": "Draco-Énergie",
+    "effect": "Le lanceur utilise son énergie vitale pour attaquer la cible. Moins il a de PV, moins l’attaque est puissante. La puissance peut varier entre 1 et 150."
   },
   "freezingGlare": {
-    "name": "Regard Glaçant"
+    "name": "Regard Glaçant",
+    "effect": "Les yeux du lanceur tirent des rayons psychiques qui attaquent la cible. A 30 % de chances de la geler."
   },
   "fieryWrath": {
-    "name": "Fureur Ardente"
+    "name": "Fureur Ardente",
+    "effect": "Le lanceur canalise sa colère et la transforme en émanation brulante, avec laquelle il attaque la cible. A 30 % de chances de l’apeurer."
   },
   "thunderousKick": {
     "name": "Coup Fulgurant",
@@ -3189,10 +3299,12 @@
     "effect": "Le lanceur attaque la cible avec une multitude de petits spectres."
   },
   "eerieSpell": {
-    "name": "Sort Sinistre"
+    "name": "Sort Sinistre",
+    "effect": "Le lanceur attaque avec de puissants pouvoirs psychiques et retire 3 PP de la dernière capacité utilisée par la cible."
   },
   "direClaw": {
-    "name": "Griffes Funestes"
+    "name": "Griffes Funestes",
+    "effect": "Le lanceur attaque avec des griffes destructrices en visant les points faibles. A 30 % de chances d’empoisonner, de paralyser ou d’endormir la cible."
   },
   "psyshieldBash": {
     "name": "Sprint Bouclier",
@@ -3203,26 +3315,32 @@
     "effect": "Le lanceur échange son Attaque avec sa Défense."
   },
   "stoneAxe": {
-    "name": "Hache de Pierre"
+    "name": "Hache de Pierre",
+    "effect": "Le lanceur attaque le point faible de sa cible avec sa hache de pierre. Les débris de pierre se mettent alors à flotter autour de la cible. Les Pokémon adverse entrant sur le terrain subissent des dégâts équivalents à 1/8 de leurs PV max. Les dégâts peuvent varier en fonction de l’affinité des Pokémon avec le type Roche."
   },
   "springtideStorm": {
-    "name": "Typhon Passionné"
+    "name": "Typhon Passionné",
+    "effect": "Le lanceur déclenche un violent typhon de haine et d’amour qui s’abat sur la cible. A 30 % de chances de baisser son Attaque."
   },
   "mysticalPower": {
     "name": "Force Mystique",
     "effect": "Le lanceur attaque en libérant un pouvoir mystique. Cela augmente également son Attaque Spéciale."
   },
   "ragingFury": {
-    "name": "Grand Courroux"
+    "name": "Grand Courroux",
+    "effect": "Le lanceur se déchaine et attaque en projetant de violentes flammes pendant 2 ou 3 tours. Il devient ensuite confus."
   },
   "waveCrash": {
-    "name": "Aquatacle"
+    "name": "Aquatacle",
+    "effect": "Le lanceur se recouvre entièrement d’eau avant de charger sa cible. Le lanceur subit 1/3 des dégâts infligés."
   },
   "chloroblast": {
-    "name": "Herblast"
+    "name": "Herblast",
+    "effect": "Le lanceur tire un concentré de sa propre chlorophylle sur la cible, ce qui le blesse également au hauteur de 1/2 de ses PV max."
   },
   "mountainGale": {
-    "name": "Bise Glaciaire"
+    "name": "Bise Glaciaire",
+    "effect": "Le lanceur envoie un bloc de glace de la taille d’un iceberg sur la cible. A 30 % de chances de l’apeurer."
   },
   "victoryDance": {
     "name": "Danse Victoire",
@@ -3233,10 +3351,12 @@
     "effect": "Le lanceur charge la cible de toutes ses forces, ce qui baisse la Défense et la Défense Spéciale du lanceur."
   },
   "barbBarrage": {
-    "name": "Multitoxik"
+    "name": "Multitoxik",
+    "effect": "Une multitude de pointes toxiques frappent la cible. A 50 % de chances de l’empoisonner. La puissance est doublée si celle-ci est déjà empoisonnée."
   },
   "esperWing": {
-    "name": "Ailes Psycho"
+    "name": "Ailes Psycho",
+    "effect": "Le lanceur entaille la cible avec ses ailes renforcées par une émanation psychique. Taux de critique supérieur d’un cran. Cela augmente la Vitesse du lanceur."
   },
   "bitterMalice": {
     "name": "Cœur de Rancœur",
@@ -3247,32 +3367,40 @@
     "effect": "Rend la peau du lanceur dure comme un mur de fer, ce qui augmente beaucoup sa Défense."
   },
   "tripleArrows": {
-    "name": "Triple Flèche"
+    "name": "Triple Flèche",
+    "effect": "Le lanceur donne un coup de pied et tire 3 flèches simultanément. A 50 % de chances de baisser la Défense de l’adversaire. A 30 % de chances d’apeurer l’adversaire. Cette capacité a un taux de critiques augmenté de 1 cran."
   },
   "infernalParade": {
-    "name": "Cortège Funèbre"
+    "name": "Cortège Funèbre",
+    "effect": "Une multitude de boules de feu frappent la cible. A 30 % de chances de bruler l’adversaire. Si l’adversaire souffre d’une altération de statut, la puissance de cette capacité est multipliée par 2."
   },
   "ceaselessEdge": {
-    "name": "Vagues à Lames"
+    "name": "Vagues à Lames",
+    "effect": "Des lames de coquillages entaillent la cible en visant ses points faibles. Les débris de coquillage se répandent sous la forme de picots aux pieds de la cible. Les Pokémon entrant sur le terrain subissent des dégâts équivalents à 1/8 de leurs PV max, et plus si 2 ou 3 effets de picots sont actifs en même temps."
   },
   "bleakwindStorm": {
-    "name": "Typhon Hivernal"
+    "name": "Typhon Hivernal",
+    "effect": "Le lanceur déclenche un typhon froid et brutal qui fait trembler le cœur et le corps de la cible. A 30 % de chances de baisser sa Vitesse. N’échoue jamais quand il pleut."
   },
   "wildboltStorm": {
-    "name": "Typhon Fulgurant"
+    "name": "Typhon Fulgurant",
+    "effect": "Le lanceur déclenche un violent typhon orageux dont les rafales et la foudre frappent la cible. A 20 % de chances de la paralyser. N’échoue jamais quand il pleut."
   },
   "sandsearStorm": {
-    "name": "Typhon Pyrosable"
+    "name": "Typhon Pyrosable",
+    "effect": "Le lanceur déclenche un violent typhon mêlé à du sable ardent qui s’abat sur la cible. A 20 % de chances de la bruler. N’échoue jamais quand il pleut."
   },
   "lunarBlessing": {
-    "name": "Prière Lunaire"
+    "name": "Prière Lunaire",
+    "effect": "Le lanceur adresse une prière à la lune pour restaurer 1/6 de ses PV max et soigner ses altérations de statut ainsi que celles de ses alliés."
   },
   "takeHeart": {
     "name": "Extravaillance",
     "effect": "Le lanceur fait preuve de bravoure pour soigner ses altérations de statut et augmenter sa puissance offensive et défensive."
   },
   "gMaxWildfire": {
-    "name": "Fournaise G-Max"
+    "name": "Fournaise G-Max",
+    "effect": "Une attaque de type Feu que seul un Dracaufeu Gigamax peut utiliser. Pendant 4 tours, la cible continue de subir des dégâts à hauteur de 1/6 de ses PV max."
   },
   "gMaxBefuddle": {
     "name": "Illusion G-Max",
@@ -3287,50 +3415,58 @@
     "effect": "Une attaque de type Normal que seul un Miaouss Gigamax peut utiliser. Rend la cible confuse et permet d’obtenir de l’argent à la fin du combat."
   },
   "gMaxChiStrike": {
-    "name": "Frappe G-Max"
+    "name": "Frappe G-Max",
+    "effect": "Une attaque de type Combat que seul un Mackogneur Gigamax peut utiliser. Augmente le taux de critiques du lanceur et de ses alliés de 1 cran."
   },
   "gMaxTerror": {
     "name": "Hantise G-Max",
     "effect": "Une attaque de type Spectre que seul un Ectoplasma Gigamax peut utiliser. Empêche les Pokémon ennemis de quitter le combat."
   },
   "gMaxResonance": {
-    "name": "Résonance G-Max"
+    "name": "Résonance G-Max",
+    "effect": "Une attaque de type Glace que seul un Lokhlass Gigamax peut utiliser. Réduit de moitié les dégâts causés par des capacités pendant 5 tours."
   },
   "gMaxCuddle": {
     "name": "Câlin G-Max",
     "effect": "Une attaque de type Normal que seul un Évoli Gigamax peut utiliser. Rend la cible amoureuse."
   },
   "gMaxReplenish": {
-    "name": "Récolte G-Max"
+    "name": "Récolte G-Max",
+    "effect": "Une attaque de type Normal que seul un Ronflex Gigamax peut utiliser. A 50 % de chances de restaurer une Baie tenue qui a déjà été mangée par le lanceur ou un allié."
   },
   "gMaxMalodor": {
     "name": "Pestilence G-Max",
     "effect": "Une attaque de type Poison que seul un Miasmax Gigamax peut utiliser. Empoisonne la cible."
   },
   "gMaxStonesurge": {
-    "name": "Récif G-Max"
+    "name": "Récif G-Max",
+    "effect": "Une attaque de type Eau que seul un Torgamord Gigamax peut utiliser. Disperse des pierres aiguisées sur le terrain qui blessent à hauteur de 1/8 des PV max de tout adversaire entrant au combat. Les dégâts reçus diffèrent en fonction de l’affinité du Pokémon au type Roche."
   },
   "gMaxWindRage": {
-    "name": "Rafale G-Max"
+    "name": "Rafale G-Max",
+    "effect": "Une attaque de type Vol que seul un Corvaillus Gigamax peut utiliser. Permet de briser les barrières comme Mur Lumière, Protection, Voile Aurore ou Rune Protect, ainsi que les pièges sur le terrain. Disperse aussi la brume."
   },
   "gMaxStunShock": {
     "name": "Choc G-Max",
     "effect": "Une attaque de type Électrik que seul un Salarsen Gigamax peut utiliser. Empoisonne ou paralyse la cible."
   },
   "gMaxFinale": {
-    "name": "Cure G-Max"
+    "name": "Cure G-Max",
+    "effect": "Une attaque de type Fée que seul un Charmilly Gigamax peut utiliser. Restaure 1/6 des PV max du lanceur et de ses alliés."
   },
   "gMaxDepletion": {
-    "name": "Usure G-Max"
+    "name": "Usure G-Max",
+    "effect": "Une attaque de type Dragon que seul un Duralugon Gigamax peut utiliser. Baisse de 2 PP de la dernière capacité utilisée par la cible."
   },
   "gMaxGravitas": {
-    "name": "Ondes G-Max"
+    "name": "Ondes G-Max",
+    "effect": "Une attaque de type Psy que seul un Astronelle Gigamax peut utiliser. Pendant 5 tours, les Pokémon Vol ou qui ont Lévitation deviennent sensibles aux capacités Sol, et les capacités volantes deviennent inutilisables. Augmente de 67 % la Précision des capacités."
   },
   "gMaxVolcalith": {
     "name": "Téphra G-Max"
   },
   "gMaxSandblast": {
-    "name": "Enlisement G-Max"
+    "effect": "Une attaque de type Sol que seul un Dunaconda Gigamax peut utiliser. Emprisonne la cible dans une tempête de sable qui dure de 4 à 5 tours."
   },
   "gMaxSnooze": {
     "name": "Torpeur G-Max",
@@ -3349,7 +3485,8 @@
     "effect": "Une attaque de type Fée que seul un Sorcilence Gigamax peut utiliser. Rend la cible confuse."
   },
   "gMaxSteelsurge": {
-    "name": "Percée G-Max"
+    "name": "Percée G-Max",
+    "effect": "Une attaque de type Acier que seul un Pachyradjah Gigamax peut utiliser. Disperse des pics aiguisés sur le terrain qui blessent à hauteur de 1/8 des PV max de tout adversaire entrant au combat. Les dégâts reçus diffèrent en fonction de l’affinité du Pokémon au type Acier."
   },
   "gMaxMeltdown": {
     "name": "Fonte G-Max",
@@ -3360,13 +3497,16 @@
     "effect": "Une attaque de type Eau que seul un Krabboss Gigamax peut utiliser. Réduit beaucoup la Vitesse de la cible."
   },
   "gMaxCentiferno": {
-    "name": "Combustion G-Max"
+    "name": "Combustion G-Max",
+    "effect": "Une attaque de type Feu que seul un Scolocendre Gigamax peut utiliser. Emprisonne la cible dans un tourbillon de flammes qui dure de 4 à 5 tours qui subit des dégâts à hauteur de 1/8 de ses PV max."
   },
   "gMaxVineLash": {
-    "name": "Fouet G-Max"
+    "name": "Fouet G-Max",
+    "effect": "Une attaque de type Plante que seul un Florizarre Gigamax peut utiliser. Pendant 4 tours, la cible continue de subir des dégâts à hauteur de 1/6 de ses PV max."
   },
   "gMaxCannonade": {
-    "name": "Canonnade G-Max"
+    "name": "Canonnade G-Max",
+    "effect": "Une attaque de type Eau que seul un Tortank Gigamax peut utiliser. Pendant 4 tours, la cible continue de subir des dégâts à hauteur de 1/6 de ses PV max."
   },
   "gMaxDrumSolo": {
     "name": "Percussion G-Max",
@@ -3381,30 +3521,36 @@
     "effect": "Une attaque de type Eau que seul un Lézargus Gigamax peut utiliser. Ignore le talent de la cible."
   },
   "gMaxOneBlow": {
-    "name": "Coup Final G-Max"
+    "name": "Coup Final G-Max",
+    "effect": "Une attaque de type Ténèbres que seul un Shifours Gigamax peut utiliser. Annule les effets de capacités telles qu’Abri ou Détection."
   },
   "gMaxRapidFlow": {
-    "name": "Multicoup G-Max"
+    "name": "Multicoup G-Max",
+    "effect": "Une attaque de type Eau que seul un Shifours Gigamax peut utiliser. Annule les effets de capacités telles qu’Abri ou Détection."
   },
   "teraBlast": {
     "name": "Téra Explosion",
     "effect": "Si le lanceur est téracristallisé, il libère l’énergie de son type Téracristal. La capacité utilise l’Attaque ou l’Atq Spé., selon ce qui infligera le plus de dégâts."
   },
   "silkTrap": {
-    "name": "Piège de Fil"
+    "name": "Piège de Fil",
+    "effect": "Le lanceur déploie un piège de fil pour se protéger contre les attaques, et si un assaillant utilise une attaque directe contre lui, la Vitesse de l’assaillant baisse. À chaque utilisation consécutive, les chances de réussite tombent à 1/3 de ce qu’elles étaient à l’utilisation précédente."
   },
   "axeKick": {
-    "name": "Talon-Marteau"
+    "name": "Talon-Marteau",
+    "effect": "Le lanceur donne un coup de talon descendant à la cible. A 30 % de chances de rendre la rendre confuse. Si cette capacité rate sa cible ou échoue, le lanceur subit des dégâts équivalents à la moitié de ses PV max."
   },
   "lastRespects": {
-    "name": "Hommage Posthume"
+    "name": "Hommage Posthume",
+    "effect": "Le lanceur attaque pour venger ses alliés. La puissance de cette capacité augmente de 50 à chaque fois qu’un Pokémon de l’équipe est mis K.O."
   },
   "luminaCrash": {
     "name": "Lumino-Impact",
     "effect": "Le lanceur attaque en émettant une étrange lumière qui ébranle l’esprit de la cible. Cela baisse beaucoup la Défense Spéciale de la cible."
   },
   "orderUp": {
-    "name": "Plat du Jour"
+    "name": "Plat du Jour",
+    "effect": "Le lanceur attaque avec adresse et élégance. S’il a un Nigirigon dans la gueule, une de ses stats augmente en fonction de la forme de celui-ci : Attaque avec la forme Courbée ; Défense avec la forme Affalée ; Vitesse avec la forme Raide."
   },
   "jetPunch": {
     "name": "Poing Sonique",
@@ -3419,7 +3565,8 @@
     "effect": "Le lanceur met tout son poids sur ses pattes et effectue de violentes rotations, ce qui inflige des dégâts à la cible, mais baisse beaucoup la Vitesse du lanceur."
   },
   "populationBomb": {
-    "name": "Prolifération"
+    "name": "Prolifération",
+    "effect": "Le lanceur et ses congénères prolifèrent en masse et attaquent ensemble. Le lanceur attaque de 1 à 10 fois d’affilée. Si un des coups rate la cible, l’attaque s’arrête."
   },
   "iceSpinner": {
     "name": "Cryo-Pirouette",
@@ -3434,20 +3581,24 @@
     "effect": "Dans un élan de compassion, le lanceur adresse une prière afin de ranimer un Pokémon de l’équipe K.O. en lui rendant la moitié de ses PV."
   },
   "saltCure": {
-    "name": "Salaison"
+    "name": "Salaison",
+    "effect": "Le lanceur couvre la cible de sel, ce qui lui inflige des dégâts à hauteur de 1/16 de ses PV max à chaque tour. Si la cible est de type Acier ou Eau, ses dégâts sont de 1/8 de ses PV max."
   },
   "tripleDive": {
-    "name": "Triple Plongeon"
+    "name": "Triple Plongeon",
+    "effect": "Le lanceur effectue des plongeons parfaitement cadencés pour éclabousser la cible et lui infliger des dégâts 3 fois d’affilée."
   },
   "mortalSpin": {
-    "name": "Toupie Éclat"
+    "name": "Toupie Éclat",
+    "effect": "Le lanceur attaque en tournant sur lui-même et empoisonne la cible. Il se libère également des effets de capacités comme Étreinte, Ligotage ou Vampigraine."
   },
   "doodle": {
     "name": "Décalquage",
     "effect": "Le lanceur capture l’essence de la cible et la décalque. Le talent du lanceur et de ses alliés devient alors identique à celui de la cible."
   },
   "filletAway": {
-    "name": "Décharnement"
+    "name": "Décharnement",
+    "effect": "Le lanceur sacrifie la moitié de ses PV max pour beaucoup augmenter son Attaque, son Attaque Spéciale, et sa Vitesse. Échoue s’il ne lui reste pas assez de PV."
   },
   "kowtowCleave": {
     "name": "Génusection",
@@ -3466,38 +3617,48 @@
     "effect": "Le lanceur se joue de la cible et lui inflige des dégâts avec ses pas de danse gracieux et légers. Cette capacité augmente la Vitesse du lanceur."
   },
   "ragingBull": {
-    "name": "Taurogne"
+    "name": "Taurogne",
+    "effect": "Le lanceur charge la cible comme un taureau enragé. Le type de cette capacité change en fonction de la forme du lanceur. Annule les effets de Mur Lumière, Protection et Voile Aurore sur le côté adverse."
   },
   "makeItRain": {
-    "name": "Ruée d’Or"
+    "name": "Ruée d’Or",
+    "effect": "Le lanceur attaque en lançant de nombreuses pièces, ce qui baisse son Attaque Spéciale. Permet d’obtenir plus d’argent à la fin du combat."
   },
   "psyblade": {
-    "name": "Lame Psychique"
+    "name": "Lame Psychique",
+    "effect": "Le lanceur lacère la cible à l’aide d’une lame intangible, S’il se trouve dans un champ électrifié, la puissance de cette capacité augmente de 50 % au lieu de baisser."
   },
   "hydroSteam": {
-    "name": "Hydrovapeur"
+    "name": "Hydrovapeur",
+    "effect": "Le lanceur asperge la cible avec un puissant jet d’eau bouillante, Quand le soleil brille, la puissance de cette capacité augmente de 50 % au lieu de baisser."
   },
   "ruination": {
-    "name": "Cataclysme"
+    "name": "Cataclysme",
+    "effect": "Le lanceur déclenche un cataclysme qui baisse les PV de la cible de moitié."
   },
   "collisionCourse": {
-    "name": "Nitro Crash"
+    "name": "Nitro Crash",
+    "effect": "Le lanceur s’écrase sur la cible dans une explosion antique. Si la capacité est super efficace, sa puissance augmente de 33 %."
   },
   "electroDrift": {
-    "name": "Turbo Volt"
+    "name": "Turbo Volt",
+    "effect": "Le lanceur fonce sur la cible en la perforant d’électricité futuriste. Si la capacité est super efficace, sa puissance augmente de 33 %."
   },
   "shedTail": {
-    "name": "Queulonage"
+    "name": "Queulonage",
+    "effect": "Le lanceur crée un clone en sacrifiant la moitié de ses PV, puis il revient et échange sa place avec un Pokémon de l’équipe prêt à combattre."
   },
   "chillyReception": {
-    "name": "Neigeux de Mots"
+    "name": "Neigeux de Mots",
+    "effect": "Le lanceur fait un si mauvais jeu de mots qu’il jette un froid et échange sa place avec un Pokémon de l’équipe prêt à combattre. La neige tombe pendant 5 tours."
   },
   "tidyUp": {
     "name": "Grand Nettoyage",
     "effect": "Le lanceur fait le ménage sur le terrain, ce qui annule les effets de Picots, Piège de Roc, Toile Gluante, Pics Toxik, et Clonage. Augmente l’Attaque et la Vitesse du lanceur."
   },
   "snowscape": {
-    "name": "Chute de Neige"
+    "name": "Chute de Neige",
+    "effect": "Le lanceur invoque une tempête de neige qui dure 5 tours, ce qui augmente la Défense des Pokémon de type Glace."
   },
   "pounce": {
     "name": "Bond",
@@ -3520,84 +3681,104 @@
     "effect": "Le lanceur projette d’étranges rayons lumineux avec ses yeux et inflige des dégâts deux fois d’affilée."
   },
   "rageFist": {
-    "name": "Poing de Colère"
+    "name": "Poing de Colère",
+    "effect": "Le lanceur transforme sa colère en énergie pour attaquer. Plus il a subi d’attaques, plus la puissance de cette capacité augmente. Sa puissant augmente de 50 jusqu’à 6 fois."
   },
   "armorCannon": {
-    "name": "Canon Blindé"
+    "name": "Canon Blindé",
+    "effect": "Le lanceur tire un boulet de canon ardent provenant de sa propre armure sur la cible. Cela baisse la Défense et la Défense Spéciale du lanceur."
   },
   "bitterBlade": {
-    "name": "Lame en Peine"
+    "name": "Lame en Peine",
+    "effect": "Le lanceur concentre son amertume du monde des vivants dans la pointe de ses épées et tranche la cible. La moitié des dégâts infligés sont convertis en PV pour le lanceur."
   },
   "doubleShock": {
-    "name": "Double Décharge"
+    "name": "Double Décharge",
+    "effect": "Le lanceur libère toute l’électricité contenue dans son corps pour infliger des dégâts élevés à la cible. Le lanceur perd le type Électrik."
   },
   "gigatonHammer": {
     "name": "Marteau Mastoc",
     "effect": "Le lanceur met tout son corps à contribution pour attaquer la cible avec un immense marteau. Cette capacité ne peut pas être utilisée deux fois d’affilée."
   },
   "comeuppance": {
-    "name": "Vindicte"
+    "name": "Vindicte",
+    "effect": "Si le lanceur subit des dégâts infligés par une capacité de l’adversaire, il riposte et lui inflige 1,5 fois les dégâts qu’il a subis."
   },
   "aquaCutter": {
-    "name": "Tranch’Aqua"
+    "name": "Tranch’Aqua",
+    "effect": "Le lanceur projette de l’eau pressurisée qui entaille la cible comme une lame. Taux de critique supérieur d’un cran."
   },
   "blazingTorque": {
-    "name": "Crash Brulant"
+    "name": "Crash Brulant",
+    "effect": "Le lanceur fonce sur sa cible, moteur en tête. A 30 % de chances de la bruler."
   },
   "wickedTorque": {
-    "name": "Crash Obscur"
+    "name": "Crash Obscur",
+    "effect": "Le lanceur fonce sur sa cible, moteur en tête. A 10 % de chances de l’endormir."
   },
   "noxiousTorque": {
-    "name": "Crash Toxique"
+    "name": "Crash Toxique",
+    "effect": "Le lanceur fonce sur sa cible, moteur en tête. A 30 % de chances de l’empoisonner."
   },
   "combatTorque": {
-    "name": "Crash Musclé"
+    "name": "Crash Musclé",
+    "effect": "Le lanceur fonce sur sa cible, moteur en tête. A 30 % de chances de la paralyser."
   },
   "magicalTorque": {
-    "name": "Crash Magique"
+    "name": "Crash Magique",
+    "effect": "Le lanceur fonce sur sa cible, moteur en tête. A 30 % de chances de la rendre confuse."
   },
   "bloodMoon": {
     "name": "Lune Rouge",
     "effect": "Le lanceur concentre toute son énergie dans la lune rouge sang sur son front et la projette sur la cible. Cette capacité ne peut pas être utilisée deux fois d’affilée."
   },
   "matchaGotcha": {
-    "name": "Mortier Matcha"
+    "name": "Mortier Matcha",
+    "effect": "Le lanceur remue son thé et en bombarde la cible. Le lanceur récupère des PV équivalents à la moitié des dégâts infligés par cette capacité aux adversaires. A 20 % de chances de bruler les adversaires."
   },
   "syrupBomb": {
-    "name": "Bombe au Sirop"
+    "name": "Bombe au Sirop",
+    "effect": "Le lanceur jette une bombe qui recouvre la cible de sirop gluant et fait progressivement baisser la Vitesse de la cible pendant 3 tours."
   },
   "ivyCudgel": {
-    "name": "Massue Liane"
+    "name": "Massue Liane",
+    "effect": "Le lanceur frappe la cible à l’aide d’une massue entourée d’une liane. Le type de cette capacité varie en fonction du masque que porte le lanceur. Taux de critique supérieur d’un cran."
   },
   "electroShot": {
     "name": "Fulgurayon",
     "effect": "Le lanceur absorbe de l’électricité au premier tour, ce qui augmente son Attaque Spéciale, et envoie une puissante décharge au second. S’il pleut, il l’envoie au premier tour."
   },
   "teraStarstorm": {
-    "name": "Pluie Térastrale"
+    "name": "Pluie Térastrale",
+    "effect": "Le lanceur bombarde la cible afin de l’éliminer grâce au pouvoir des cristaux. Si le lanceur est Terapagos sous sa Forme Stellaire, la capacité touche tous les ennemis. Cette capacité utilise la stat la plus élevée entre l’Attaque ou l’Attaque Spéciale quand le lanceur est téracristallisé."
   },
   "fickleBeam": {
-    "name": "Laser Hasard"
+    "name": "Laser Hasard",
+    "effect": "Le lanceur attaque en tirant un rayon lumineux. Il y a 30 % de chances que toutes les têtes agissent ensemble, ce qui double la puissance de la capacité."
   },
   "burningBulwark": {
-    "name": "Rempart Brulant"
+    "name": "Rempart Brulant",
+    "effect": "Le lanceur se protège contre les attaques grâce à son pelage incandescent, et si un assaillant utilise une attaque directe contre lui, il le brule."
   },
   "thunderclap": {
     "name": "Vif Éclair",
     "effect": "Permet au lanceur d’attaquer la cible en priorité avec une décharge électrique. Échoue si la cible ne prépare pas une attaque."
   },
   "mightyCleave": {
-    "name": "Lame Puissante"
+    "name": "Lame Puissante",
+    "effect": "Le lanceur pourfend la cible avec la lumière accumulée sur sa tête. Cette attaque passe outre les protections."
   },
   "tachyonCutter": {
     "name": "Lame Tachyonique",
     "effect": "Le lanceur concentre des particules élémentaires pour créer une lame qui inflige des dégâts à la cible deux fois d’affilée. N’échoue jamais."
   },
   "hardPress": {
-    "name": "Pression Extrême"
+    "name": "Pression Extrême",
+    "effect": "Le lanceur écrase la cible avec ses bras ou ses pinces. Plus il reste de PV à la cible, plus la puissance de la capacité augmente. La puissance peut varier entre 1 et 100."
   },
   "dragonCheer": {
-    "name": "Cri Draconique"
+    "name": "Cri Draconique",
+    "effect": "Le lanceur galvanise ses alliés avec un encouragement draconique. Augmente le taux de critiques des alliés de 1 cran. S’ils sont de type Dragon, leur taux de critiques augmente de 2 crans."
   },
   "alluringVoice": {
     "name": "Voix Envoutante",
@@ -3608,17 +3789,20 @@
     "effect": "Le lanceur utilise la force de son dépit pour attaquer. S’il a utilisé une capacité qui a échoué au tour précédent, la puissance d’Indignition est doublée."
   },
   "supercellSlam": {
-    "name": "Volt Assaut"
+    "name": "Volt Assaut",
+    "effect": "Le lanceur se charge en électricité et fond sur la cible. Si cette capacité rate sa cible ou échoue, le lanceur subit des dégâts équivalents à la moitié de ses PV max. Si l’adversaire est lilliputien, la capacité n’échoue jamais et sa puissance est multipliée par 2."
   },
   "psychicNoise": {
-    "name": "Dissonance Psy"
+    "name": "Dissonance Psy",
+    "effect": "Le lanceur attaque avec des ondes sonores dissonantes. Cela empêche la cible de récupérer des PV à l’aide de capacités, talents ou objets tenus pendant 2 tours."
   },
   "upperHand": {
     "name": "Prio-Parade",
     "effect": "Le lanceur réagit instinctivement au moindre mouvement et donne un coup de paume qui apeure la cible. Échoue si cette dernière n’a pas utilisé une attaque prioritaire."
   },
   "malignantChain": {
-    "name": "Chaine Malsaine"
+    "name": "Chaine Malsaine",
+    "effect": "Le lanceur ligote la cible avec une chaine faite de poison et lui injecte un venin corrosif. A 50 % de chances de l’empoisonner gravement."
   },
   "nihilLight": {
     "name": "Lux Nihilum",
