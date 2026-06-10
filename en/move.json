@@ -45,7 +45,7 @@
   },
   "guillotine": {
     "name": "Guillotine",
-    "effect": "A vicious, tearing attack with big pincers. The target faints instantly if this attack hits. The accuracy of this move is fixed at 30%. Boss Pokémon are resistant to this move."
+    "effect": "A vicious, tearing attack with big pincers that knocks out the target instantly. The accuracy of this move is fixed at 30%. Boss Pokémon instead take severe damage."
   },
   "razorWind": {
     "name": "Razor Wind",
@@ -125,7 +125,7 @@
   },
   "hornDrill": {
     "name": "Horn Drill",
-    "effect": "The user stabs the target with a horn that rotates like a drill. The target faints instantly if this attack hits. The accuracy of this move is fixed at 30%. Boss Pokémon are resistant to this move."
+    "effect": "The user stabs the target with a horn that rotates like a drill, knocking them out instantly. The accuracy of this move is fixed at 30%. Boss Pokémon instead take severe damage."
   },
   "tackle": {
     "name": "Tackle",
@@ -289,7 +289,7 @@
   },
   "leechSeed": {
     "name": "Leech Seed",
-    "effect": "A seed is planted on the target. The Pokémon steals ¹⁄₁₆ of the target’s max HP at the end of every turn."
+    "effect": "A seed is planted on the target. At the end of every turn, Pokémon in the spot this move was used from absorb ⅛ of the target’s max HP."
   },
   "growth": {
     "name": "Growth",
@@ -357,7 +357,7 @@
   },
   "fissure": {
     "name": "Fissure",
-    "effect": "The user opens up a fissure in the ground and drops the target in. The target faints instantly if this attack hits. The accuracy of this move is fixed at 30%. Boss Pokémon are resistant to this move."
+    "effect": "The user opens up a fissure in the ground and drops the target in, knocking them out instantly. The accuracy of this move is fixed at 30%. Boss Pokémon instead take severe damage."
   },
   "dig": {
     "name": "Dig",
@@ -1313,7 +1313,7 @@
   },
   "sheerCold": {
     "name": "Sheer Cold",
-    "effect": "The target is attacked with a blast of absolute-zero cold. The target faints instantly if this attack hits. The accuracy of this move is fixed at 30% when used by Ice-types, and at 20% when used by any other Pokémon. Boss Pokémon are resistant to this move, and it does not affect Ice types."
+    "effect": "The target is attacked with a blast of absolute-zero cold, knocking them out instantly. The accuracy of this move is fixed at 30% when used by Ice-types, and at 20% when used by any other Pokémon. This move does not affect Ice types. Boss Pokémon instead take severe damage."
   },
   "muddyWater": {
     "name": "Muddy Water",
@@ -2282,7 +2282,7 @@
   },
   "forestsCurse": {
     "name": "Forest’s Curse",
-    "effect": " The user places the curse of the forest on targets. This adds the Grass type to the target’s type."
+    "effect": "The user places the curse of the forest on targets. This adds the Grass type to the target’s type."
   },
   "petalBlizzard": {
     "name": "Petal Blizzard",
@@ -2350,7 +2350,7 @@
   },
   "kingsShield": {
     "name": "King’s Shield",
-    "effect": "The user takes a defensive stance while it protects itself from damage. Any attackers that use contact moves against the user during this turn will have their Attack stats lowered. With each consecutive use, this move’s chance of success becomes 1/3 of what it was before."
+    "effect": "The user takes a defensive stance while it protects itself from damage. Any attackers that use contact moves against the user during this turn will have their Attack stats lowered. With each consecutive use, this move’s chance of success becomes ⅓ of what it was before."
   },
   "playNice": {
     "name": "Play Nice",
@@ -2874,11 +2874,11 @@
   },
   "tenMillionVoltThunderbolt": {
     "name": "10,000,000 Volt Thunderbolt",
-    "effect": "The user, Pikachu wearing a cap, powers up a jolt of electricity using its Z-Power and unleashes it. This move has a heightened chance of landing a critical hit."
+    "effect": "The user, Pikachu wearing a cap, powers up a jolt of electricity using its Z-Power and unleashes it. This move’s critical-hit ratio is boosted by 2 stages."
   },
   "mindBlown": {
     "name": "Mind Blown",
-    "effect": "The user attacks everything around it by causing its own head to explode. After attacking, the user takes damage equal to 1/2 of its max HP."
+    "effect": "The user attacks everything around it by causing its own head to explode. After attacking, the user takes damage equal to ½ of its max HP."
   },
   "plasmaFists": {
     "name": "Plasma Fists",
@@ -3183,7 +3183,7 @@
   },
   "steelBeam": {
     "name": "Steel Beam",
-    "effect": "The user fires a beam of steel that it collected from its entire body. After attacking, the user takes damage equal to 1/2 of its max HP."
+    "effect": "The user fires a beam of steel that it collected from its entire body. After attacking, the user takes damage equal to ½ of its max HP."
   },
   "expandingForce": {
     "name": "Expanding Force",
@@ -3339,7 +3339,7 @@
   },
   "chloroblast": {
     "name": "Chloroblast",
-    "effect": "The user launches its amassed chlorophyll to inflict damage on the target. After attacking, the user takes damage equal to 1/2 of its max HP."
+    "effect": "The user launches its amassed chlorophyll to inflict damage on the target. After attacking, the user takes damage equal to ½ of its max HP."
   },
   "mountainGale": {
     "name": "Mountain Gale",
@@ -3555,7 +3555,7 @@
   },
   "orderUp": {
     "name": "Order Up",
-    "effect": "The user attacks with elegant poise. If the user has a Tatsugiri in its mouth, this move boosts the user’s stats based on the Tatsugiri's form: Attack for Curly Tatsugiri, Defense for Droopy, or Speed for Stretchy."
+    "effect": "The user attacks with elegant poise. If the user has a Tatsugiri in its mouth, this move boosts the user’s stats based on the Tatsugiri’s form: Attack for Curly Tatsugiri, Defense for Droopy, or Speed for Stretchy."
   },
   "jetPunch": {
     "name": "Jet Punch",
