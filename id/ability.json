@@ -1,6 +1,7 @@
 {
   "stench": {
-    "name": "Bau Tidak Enak"
+    "name": "Bau Tidak Enak",
+    "description": "Dengan mengeluarkan bau busuk saat Pokémon memberikan kerusakan dengan Jurusnya, ada kemungkinan 10% target akan tersentak. Efek ini tidak bertambah dengan Jurus atau item yang memiliki peluang untuk membuat lawan tersentak."
   },
   "drizzle": {
     "name": "Menurunkan Hujan"
@@ -24,16 +25,20 @@
     "description": "Menjadi kebal terhadap kondisi lumpuh karena tubuhnya yang lentur."
   },
   "sandVeil": {
-    "name": "Persembunyian Pasir"
+    "name": "Persembunyian Pasir",
+    "description": "Meningkatkan kemampuan menghindar Pokémon sebesar 25% dalam badai pasir. Pokémon tidak menerima kerusakan dari badai pasir jika seharusnya menerima kerusakan."
   },
   "static": {
-    "name": "Listrik Statis"
+    "name": "Listrik Statis",
+    "description": "Pokémon ini bermuatan listrik statis, dan ketika Pokémon ini terkena serangan kontak, penyerang memiliki peluang 30% untuk lumpuh."
   },
   "voltAbsorb": {
-    "name": "Menyimpan Listrik"
+    "name": "Menyimpan Listrik",
+    "description": "Jurus tipe listrik tidak berpengaruh pada Pokémon ini. Sebaliknya, serangan tersebut memulihkan ¼ dari HP maksimalnya."
   },
   "waterAbsorb": {
-    "name": "Menyimpan Air"
+    "name": "Menyimpan Air",
+    "description": "Jurrs tipe air tidak berpengaruh pada Pokémon ini. Sebaliknya, serangan tersebut memulihkan ¼ dari HP maksimalnya."
   },
   "oblivious": {
     "name": "Tidak Sensitif"
@@ -43,7 +48,8 @@
     "description": "Menghilangkan segala efek cuaca."
   },
   "compoundEyes": {
-    "name": "Mata Majemuk"
+    "name": "Mata Majemuk",
+    "description": "Mata majemuk Pokémon tersebut meningkatkan akurasi Jurus sebesar 30%."
   },
   "insomnia": {
     "name": "Imsomnia"
@@ -113,7 +119,8 @@
     "name": "Renang Gesit"
   },
   "chlorophyll": {
-    "name": "Klorofil"
+    "name": "Klorofil",
+    "description": "Menggandakan statistik Kecepatan Pokémon di bawah sinar matahari yang terik."
   },
   "illuminate": {
     "name": "Jamur"
@@ -304,7 +311,8 @@
     "description": "Meningkatkan Serangan atau Serangan Khusus Pokémon ini disesuaikan dengan Statistik terendah dari Pertahanan atau Pertahanan Khusus Pokémon lawan."
   },
   "ironFist": {
-    "name": "Tinju Besi"
+    "name": "Tinju Besi",
+    "description": "Meningkatkan kekuatan serangan pukulan Pokémon sebesar 20%."
   },
   "poisonHeal": {
     "name": "Penyembuhan Racun"
@@ -396,7 +404,8 @@
     "name": "Batu Keras"
   },
   "snowWarning": {
-    "name": "Menurunkan Salju"
+    "name": "Menurunkan Salju",
+    "description": "Memunculkan salju selama 5 giliran saat Pokémon memasuki pertarungan."
   },
   "honeyGather": {
     "name": "Mengumpulkan Madu"
@@ -660,7 +669,8 @@
     "name": "Tubuh Cemerlang"
   },
   "soulHeart": {
-    "name": "Soul-Heart"
+    "name": "Soul-Heart",
+    "description": "Meningkatkan statistik Serangan Khusus. Pokémon setiap kali Pokémon lain pingsan."
   },
   "tanglingHair": {
     "name": "Rambut Berombak"
@@ -736,6 +746,9 @@
   },
   "screenCleaner": {
     "name": "Bebas Halangan"
+  },
+  "perishBody": {
+    "description": "Saat Pokémon terkena serangan kontak, Pokémon dan penyerang akan pingsan setelah tiga giliran kecuali mereka berganti Pokémon keluar dari pertarungan."
   },
   "wanderingSpirit": {
     "name": "Arwah Gentayangan"

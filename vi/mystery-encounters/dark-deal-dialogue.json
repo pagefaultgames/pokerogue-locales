@@ -1,0 +1,22 @@
+{
+  "intro": "Một người đàn ông kỳ lạ trong chiếc áo khoác rách rưới.\nchặn đường của bạn…",
+  "speaker": "Kẻ Đáng Nghi",
+  "introDialogue": "Này, nhóc!$Ta đang nghiên cứu một thiết bị mới\nđể khơi dậy sức mạnh tiềm ẩn của Pokémon!$Nó hoàn toàn tái cấu trúc các nguyên tử của Pokémon.\nở cấp độ phân tử thành một dạng mạnh mẽ hơn nhiều.$Hehe…@d{64} Tôi chỉ cần một số sac-@d{32}\nỪm, đối tượng thử nghiệm, để chứng minh nó hoạt động.",
+  "title": "Thỏa Thuận Mờ Ám",
+  "description": "Kẻ đáng ngờ kia giơ tay lên hắn cầm vài quả Poké Ball.\n“Ta sẽ đền đáp xứng đáng cho ngươi! Ngươi có thể lấy những quả Poké Ball mạnh mẽ này làm vật trả công, tất cả những gì ta cần là một Pokémon từ đội của ngươi! Hehe…”",
+  "query": "Ngươi định sẽ làm gì đây?",
+  "option": {
+    "1": {
+      "label": "Đồng Ý",
+      "tooltip": "(+) 5 Rogue Balls\n(?) Cường hoá một Pokémon ngẫu nhiên",
+      "selectedDialogue": "Để coi nào, con {{pokeName}} kia cũng được đó!$Nhớ rằng, ta không chịu trách nhiệm nếu có bất cứ điều gì xấu xảy ra đâu!@d{32} Hehe…",
+      "selectedMessage": "Người đàn ông đưa cho bạn 5 Rogue Balls.${{pokeName}} nhảy vào cỗ máy kỳ lạ…$Đèn nhấp nháy và tiếng động lạ lùng\nbắt đầu phát ra từ máy!$…@d{96} Có thứ gì đó xuất hiện từ thiết bị,\nnó đang nổi cơn cuồng nộ!"
+    },
+    "2": {
+      "label": "Từ Chối",
+      "tooltip": "(-) Không có phần thưởng",
+      "selected": "Không định giúp đỡ một người như ta sao?\nHừ!"
+    }
+  },
+  "outro": "Sau cuộc chạm trán đầy nguy hiểm,\nBạn lấy lại bình tĩnh và rời đi."
+}

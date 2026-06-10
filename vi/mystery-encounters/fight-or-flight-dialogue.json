@@ -1,0 +1,25 @@
+{
+  "intro": "Vật gì đó sáng bóng đang lấp lánh\nở trên mặt đất gần con Pokémon đó!",
+  "title": "Chiến đấu hoặc Bỏ chạy",
+  "description": "Có vẻ như có một Pokémon mạnh đang canh giữ một vật phẩm trên mặt đất. Chiến đấu là cách tiếp cận đơn giản nhất, nhưng nó trông rất mạnh. Có lẽ bạn có thể đánh cắp vật phẩm đó nếu bạn có Pokémon phù hợp.",
+  "query": "Ngươi định sẽ làm gì đây?",
+  "option": {
+    "1": {
+      "label": "Quyết Chiến Với Pokémon",
+      "tooltip": "(-) Trận đấu khó khăn\n(+) Vật phẩm mới",
+      "selected": "Bạn dũng cảm tiến lại gần Pokémon\nđó mà không hề sợ hãi.",
+      "statBoost": "Sức mạnh tiềm tàng của {{enemyPokemon}} đã tăng cường một trong các chỉ số của nó!"
+    },
+    "2": {
+      "label": "Trộm Lấy Vật Phẩm",
+      "disabledTooltip": "Pokémon của ngươi cần phải biết một số chiêu thức nhất định mới chọn được điều này.",
+      "tooltip": "(+) {{option2PrimaryName}} dùng {{option2PrimaryMove}}",
+      "selected": ".@d{32}.@d{32}.@d{32}$ {{option2PrimaryName}} của bạn giúp bạn và sử dụng {{option2PrimaryMove}}!$Bạn đã thó được món đồ rồi!"
+    },
+    "3": {
+      "label": "Rời đi",
+      "tooltip": "(-) Không có phần thưởng",
+      "selected": "Bạn rời đi, để lại con Pokémon mạnh mẽ kia cùng với chiến lợi phẩm của nó và tiếp tục cuộc hành trình."
+    }
+  }
+}

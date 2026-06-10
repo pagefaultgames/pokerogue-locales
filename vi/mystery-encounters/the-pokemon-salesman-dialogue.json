@@ -1,0 +1,23 @@
+{
+  "intro": "Một ông lão vui vẻ tiến lại gần bạn.",
+  "speaker": "Quý Ông",
+  "introDialogue": "Chào bạn! Tôi có một ưu đãi tuyệt vời dành riêng cho bạn đây!",
+  "title": "Người Bán Pokémon Hiếm",
+  "description": "“{{purchasePokemon}} này cực kỳ độc đáo và@[TOOLTIP_TITLE]{sở hữu một khả năng hiếm thấy ở loài của nó}! Tôi sẽ bán cho bạn con {{purchasePokemon}} tuyệt vời này với giá chỉ {{price, money}}!”\n\n“Bạn nghĩ sao?”",
+  "descriptionShiny": "“{{purchasePokemon}} này cực kỳ độc đáo và@[TOOLTIP_TITLE]{sở hữu một biến thể hiếm thấy ở loài của nó}! Tôi sẽ bán cho bạn con {{purchasePokemon}} tuyệt vời này với giá chỉ {{price, money}}!”\n\n“Bạn nghĩ sao?”",
+  "query": "Ngươi định sẽ làm gì đây?",
+  "option": {
+    "1": {
+      "label": "Đồng Ý",
+      "tooltip": "(-) Trả {{price, money}}\n(+) Nhận 1 {{purchasePokemon}} với đặc tính ẩn",
+      "tooltipShiny": "(-) Trả {{price, money}}\n(+) Nhận 1 {{purchasePokemon}} toả sáng",
+      "selectedMessage": "Bạn đã trả một khoản tiền cắt cổ và mua được {{purchasePokemon}}.",
+      "selectedDialogue": "Lựa chọn tuyệt vời!$Tôi thấy bạn có con mắt kinh doanh rất tinh tường.$Ồ, đúng rồi… @d{64} Không chấp nhận trả lại hàng, hiểu chưa?"
+    },
+    "2": {
+      "label": "Từ Chối",
+      "tooltip": "(-) Không có phần thưởng",
+      "selected": "Không?@d{32} Bạn nói không à?$Tôi chỉ làm điều này để giúp bạn thôi!"
+    }
+  }
+}

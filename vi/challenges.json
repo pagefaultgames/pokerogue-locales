@@ -1,0 +1,117 @@
+{
+  "title": "Điều Chỉnh Thử Thách",
+  "illegalEvolution": "{{pokemon}} đã biến đổi thành một Pokémon không hợp lệ cho thử thách này!",
+  "noneSelected": "Chưa chọn",
+  "freshStart": {
+    "name": "KĐ Mới",
+    "desc": {
+      "0": "Mô phỏng thử thách sử dụng các Pokemon khởi đầu mới nhận được khi chưa mở khóa bất kỳ tính năng nào.",
+      "1": "Cậu chỉ có thể sử dụng các Pokémon khởi đầu nguyên bản mà không có bất kỳ mở khóa nào, giống như khi vừa mới bắt đầu chơi PokéRogue lần đầu tiên vậy.",
+      "2": "Cậu có thể sử dụng bất kỳ Pokémon khởi đầu nào của mình mà không có bất kỳ mở khóa nào, giống như khi vừa mới nhận được chúng lần đầu tiên vậy."
+    },
+    "value": {
+      "0": "Tắt",
+      "1": "Cài Lại",
+      "2": "Chỉ Starters"
+    }
+  },
+  "hardcore": {
+    "name": "Chế độ Khó",
+    "desc": "Cậu không thể hồi sinh những Pokémon đã bị ngất nữa.",
+    "value": {
+      "0": "Tắt",
+      "1": "Bật"
+    }
+  },
+  "limitedCatch": {
+    "name": "Giới hạn Bắt Pokémon",
+    "desc": "Cậu chỉ có thể thêm Pokémon đầu tiên gặp được ở mỗi hệ sinh thái vào đội hình hiện tại của mình.",
+    "value": {
+      "0": "Tắt",
+      "1": "Bật"
+    }
+  },
+  "limitedSupport": {
+    "name": "Hỗ trợ Giới hạn",
+    "desc": {
+      "0": "Loại bỏ một số hoặc tất cả các lựa chọn hồi máu miễn phí cho đội hình của cậu.",
+      "1": "Loại bỏ tính năng tự động hồi máu ở cuối mỗi hệ sinh thái.\nThay vào đó, cậu sẽ nhận được menu phần thưởng tiêu chuẩn như ở cuối mỗi đợt.",
+      "2": "Loại bỏ Cửa hàng trong menu phần thưởng ở cuối mỗi đợt.",
+      "3": "Loại bỏ Cửa hàng trong menu phần thưởng ở cuối mỗi đợt.\n​Loại bỏ tính năng tự động hồi máu ở cuối mỗi hệ sinh thái.\nThay vào đó, cậu sẽ nhận được menu phần thưởng tiêu chuẩn như ở cuối mỗi đợt."
+    },
+    "value": {
+      "0": "Tắt",
+      "1": "Không hồi máu",
+      "2": "Không Cửa Hàng",
+      "3": "Cả hai"
+    }
+  },
+  "singleGeneration": {
+    "name": "Đồng Thế Hệ",
+    "desc": "Cậu chỉ có thể sử dụng các Pokémon thuộc Thế hệ {{gen}}.",
+    "descDefault": "Cậu chỉ có thể sử dụng các Pokémon thuộc thế hệ đã chọn.",
+    "gen": {
+      "1": "1",
+      "2": "2",
+      "3": "3",
+      "4": "4",
+      "5": "5",
+      "6": "6",
+      "7": "7",
+      "8": "8",
+      "9": "9"
+    }
+  },
+  "singleType": {
+    "name": "Đơn Hệ",
+    "desc": "Cậu chỉ có thể sử dụng các Pokémon có hệ {{type}}.",
+    "descDefault": "Cậu chỉ có thể sử dụng các Pokémon thuộc hệ đã chọn."
+  },
+  "inverseBattle": {
+    "name": "Trận chiến Đảo ngược",
+    "shortName": "Đảo Ngược",
+    "desc": "Hiệu quả khắc chế hệ bị đảo ngược hoàn toàn và không có hệ nào miễn nhiễm với hệ khác.\n​Vô hiệu hóa thành tựu của các thử thách khác (Ngoại trừ Đảo ngược Chỉ số).",
+    "value": {
+      "0": "Tắt",
+      "1": "Bật"
+    }
+  },
+  "flipStat": {
+    "name": "Đảo ngược Chỉ số",
+    "shortName": "Đảo ngược",
+    "desc": "Các chỉ số bị đảo ngược như sau:\n-​Máu với Tốc độ\n-​Tấn công với P.thủ Đ.b.\n​-Phòng thủ với T.công Đ.b.\n​Vô hiệu hóa thành tựu của các thử thách khác (Ngoại trừ Trận chiến Đảo ngược).",
+    "value": {
+      "0": "Tắt",
+      "1": "Bật"
+    }
+  },
+  "metronome": {
+    "name": "Chế độ Metronome",
+    "desc": "Cậu chỉ có thể sử dụng chiêu thức Metronome! Hãy thử xem bản thân có thể đi bao xa hoàn toàn dựa vào vận may.\nĐây là chế độ CHỈ CHƠI CHO VUI và không trao tặng bất kỳ thành tựu nào.\n​Vô hiệu hóa tất cả các thành tựu khác.",
+    "value": {
+      "0": "Tắt",
+      "1": "Bật"
+    }
+  },
+  "passives": {
+    "name": "​Kích hoạt Nội tại",
+    "desc": {
+      "0": "Bắt buộc một số hoặc tất cả Pokémon phải kích hoạt nội tại của chúng.",
+      "1": "Pokémon của các Huấn luyện viên sẽ được kích hoạt nội tại.\nKhông ảnh hưởng đến các Pokémon khởi đầu mà cậu đã chọn.",
+      "2": "Tất cả Pokémon, bao gồm cả của cậu, sẽ được kích hoạt nội tại trong suốt lượt chơi này.\n​Vô hiệu hóa thành tựu của các thử thách khác."
+    },
+    "value": {
+      "0": "Tắt",
+      "1": "Nhà Huấn Luyện",
+      "2": "Tất Cả"
+    }
+  },
+  "movesetRandomizer": {
+    "name": "Ngẫu nhiên hóa Chiêu thức",
+    "desc": "Ngẫu nhiên hóa bộ chiêu thức học được khi lên cấp của mỗi loài Pokémon. Pokémon khởi đầu sẽ bắt đầu với các chiêu thức cơ bản phù hợp với hệ của chúng.\n​Vô hiệu hóa thành tựu của các thử thách khác.",
+    "value": {
+      "0": "Tắt",
+      "1": "Bật"
+    }
+  }
+}

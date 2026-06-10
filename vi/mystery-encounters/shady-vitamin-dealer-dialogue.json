@@ -1,0 +1,27 @@
+{
+  "intro": "Một người đàn ông mặc áo khoác tối màu tiến lại gần bạn.",
+  "speaker": "Người Bán Hàng Gian Xảo",
+  "introDialogue": ".@d{16}.@d{16}.@d{16}$Tôi luôn có hàng chỉ cần bạn có tiền.$Nhưng nhớ đảm bảo Pokémon của bạn phải đủ sức chịu đựng nhé.",
+  "title": "Người Bán Vitamin",
+  "description": "Người đàn ông mở áo khoác ra và để lộ một số loại vitamin Pokémon. Những con số mà ông ta đưa ra nghe có vẻ rất hời. Thậm chí quá hời…\nÔng ta đưa ra hai gói sản phẩm để bạn lựa chọn.",
+  "query": "Bạn sẽ chọn gói hàng nào?",
+  "invalidSelection": "Pokémon này không thể nhận thêm bất kỳ thứ gì!",
+  "option": {
+    "1": {
+      "label": "Ưu Đãi Giá Rẻ",
+      "tooltip": "(-) Trả {{option1Money, money}}\n(-) Tác dụng phụ?\n(+) Pokémon được chọn nhận thêm 2 loại vitamin ngẫu nhiên"
+    },
+    "2": {
+      "label": "Món Hàng Giá Cao",
+      "tooltip": "(-) Trả {{option2Money, money}}\n(+) Pokémon được chọn nhận thêm 2 loại vitamin ngẫu nhiên."
+    },
+    "3": {
+      "label": "Rời đi",
+      "tooltip": "(-) Không có phần thưởng",
+      "selected": "Hầy, không ngờ cậu lại là kẻ hèn nhát."
+    },
+    "selected": "Người đàn ông đưa cho bạn hai chai nhỏ rồi nhanh chóng biến mất.${{selectedPokemon}} đã tăng cường {{boost1}} và {{boost2}}!"
+  },
+  "cheapSideEffects": "Nhưng thuốc có một số tác dụng phụ!${{selectedPokemon}} bị thương và tính cách của nó thay đổi thành {{newNature}}!",
+  "noBadEffects": "Có vẻ như thuốc không gây ra tác dụng phụ nào!"
+}
