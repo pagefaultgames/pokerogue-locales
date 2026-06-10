@@ -1979,7 +1979,8 @@
     "effect": "S’il est le premier à agir, le lanceur permet à sa cible d’utiliser une capacité juste après lui."
   },
   "round": {
-    "name": "Chant Canon"
+    "name": "Chant Canon",
+    "effect": "Le lanceur attaque la cible en chantant. Si plusieurs Pokémon utilisent cette capacité lors du même tour, ils l’utilisent l’un après l’autre, immédiatement après le premier. La puissance de chaque capacité Chant Canon utilisée après la première fois est multipliée par 2."
   },
   "echoedVoice": {
     "name": "Écho",
@@ -2030,7 +2031,8 @@
     "effect": "Le lanceur fait tourner ses engrenages. Cela augmente son Attaque et augmente beaucoup sa Vitesse."
   },
   "circleThrow": {
-    "name": "Projection"
+    "name": "Projection",
+    "effect": "Le lanceur fait une projection sur un Pokémon ennemi et le remplace par un autre. Lors d’un combat contre un Pokémon sauvage seul, cela met fin au combat."
   },
   "incinerate": {
     "name": "Calcination",
@@ -2041,32 +2043,40 @@
     "effect": "Retient la cible de force, l’obligeant à agir en dernier."
   },
   "acrobatics": {
-    "name": "Acrobatie"
+    "name": "Acrobatie",
+    "effect": "Le lanceur frappe la cible avec agilité. S’il ne tient pas d’objet, l’attaque inflige davantage de dégâts. La puissance peut varier entre 55 et 110."
   },
   "reflectType": {
-    "name": "Copie-Type"
+    "name": "Copie-Type",
+    "effect": "Le lanceur adopte le même type que la cible."
   },
   "retaliate": {
-    "name": "Vengeance"
+    "name": "Vengeance",
+    "effect": "Le lanceur venge un allié K.O. Si un Pokémon de l’équipe a été mis K.O. au tour d’avant, la puissance augmente."
   },
   "finalGambit": {
-    "name": "Tout ou Rien"
+    "name": "Tout ou Rien",
+    "effect": "Une attaque très risquée. Le lanceur perd tous ses PV restants et inflige autant de dégâts à la cible."
   },
   "bestow": {
-    "name": "Passe-Cadeau"
+    "name": "Passe-Cadeau",
+    "effect": "Le lanceur donne un objet qu’il tient à la cible."
   },
   "inferno": {
     "name": "Feu d’Enfer",
     "effect": "La cible est entourée d’un torrent de flammes ardentes qui la brulent."
   },
   "waterPledge": {
-    "name": "Aire d’Eau"
+    "name": "Aire d’Eau",
+    "effect": "Une masse d’eau s’abat sur la cible. Si cette capacité est utilisée en même temps qu’Aire de Feu, la puissance passe à 150 et un arc-en-ciel apparait pendant 4 tours."
   },
   "firePledge": {
-    "name": "Aire de Feu"
+    "name": "Aire de Feu",
+    "effect": "Une masse de feu s’abat sur la cible. Si cette capacité est utilisée en même temps qu’Aire d’Herbe, la puissance passe à 150 et une mer de feu apparait pendant 4 tours."
   },
   "grassPledge": {
-    "name": "Aire d’Herbe"
+    "name": "Aire d’Herbe",
+    "effect": "Une masse végétale s’abat sur la cible. Si cette capacité est utilisée en même temps qu’Aire d’Eau, la puissance passe à 150 et un marécage apparait pendant 4 tours."
   },
   "voltSwitch": {
     "name": "Change Éclair",
