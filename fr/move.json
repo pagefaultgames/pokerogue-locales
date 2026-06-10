@@ -77,7 +77,7 @@
   },
   "bind": {
     "name": "Étreinte",
-    "effect": "Le lanceur ligote la cible avec son corps allongé ou ses tentacules pour la compresser durant 4 à 5 tours. Inflige des dégâts à hauteur de 1/8 des PV totaux de la cible à la fin de chaque tour."
+    "effect": "Le lanceur ligote la cible avec son corps allongé ou ses tentacules pour la compresser durant 4 à 5 tours. Inflige des dégâts à hauteur de 1/8 des PV max de la cible à la fin de chaque tour."
   },
   "slam": {
     "name": "Souplesse",
@@ -101,7 +101,7 @@
   },
   "jumpKick": {
     "name": "Pied Sauté",
-    "effect": "Le lanceur s’envole pour décocher un coup de pied sauté. S’il échoue, le lanceur se blesse à hauteur de la moitié de ses PV totaux."
+    "effect": "Le lanceur s’envole pour décocher un coup de pied sauté. S’il échoue, le lanceur se blesse à hauteur de la moitié de ses PV max."
   },
   "rollingKick": {
     "name": "Mawashi Geri",
@@ -137,7 +137,7 @@
   },
   "wrap": {
     "name": "Ligotage",
-    "effect": "Le lanceur ligote la cible avec son corps allongé ou ses tentacules pour la compresser durant 4 à 5 tours. Inflige au lanceur des dégâts à hauteur de 1/8 de ses PV totaux à la fin de chaque tour."
+    "effect": "Le lanceur ligote la cible avec son corps allongé ou ses tentacules pour la compresser durant 4 à 5 tours. Inflige au lanceur des dégâts à hauteur de 1/8 de ses PV max à la fin de chaque tour."
   },
   "takeDown": {
     "name": "Bélier",
@@ -289,7 +289,7 @@
   },
   "leechSeed": {
     "name": "Vampigraine",
-    "effect": "Une graine est semée sur la cible. À chaque tour, elle lui dérobe 1/16 de ses PV totaux que le lanceur récupère."
+    "effect": "Une graine est semée sur la cible. À chaque tour, elle lui dérobe 1/16 de ses PV max que le lanceur récupère."
   },
   "growth": {
     "name": "Croissance",
@@ -329,7 +329,7 @@
   },
   "fireSpin": {
     "name": "Danse Flammes",
-    "effect": "Un tourbillon de flammes emprisonne la cible pendant 4 à 5 tours. Lui inflige des dégâts à hauteur de 1/8 de ses PV totaux à la fin de chaque tour."
+    "effect": "Un tourbillon de flammes emprisonne la cible pendant 4 à 5 tours. Lui inflige des dégâts à hauteur de 1/8 de ses PV max à la fin de chaque tour."
   },
   "thunderShock": {
     "name": "Éclair",
@@ -509,7 +509,7 @@
   },
   "clamp": {
     "name": "Claquoir",
-    "effect": "Le lanceur piège la cible dans sa dure coquille et l’écrase pendant 4 à 5 tours. Inflige des dégâts à hauteur de 1/8 des PV totaux de la cible à la fin de chaque tour."
+    "effect": "Le lanceur piège la cible dans sa dure coquille et l’écrase pendant 4 à 5 tours. Inflige des dégâts à hauteur de 1/8 des PV max de la cible à la fin de chaque tour."
   },
   "swift": {
     "name": "Météores",
@@ -693,7 +693,7 @@
   },
   "curse": {
     "name": "Malédiction",
-    "effect": "Si le lanceur est de type Spectre, il sacrifie la moitié de ses PV totaux pour maudire la cible, lui infligeant des dégâts à hauteur de 1/4 des PV max à la fin de chaque tour. Sinon, le lanceur baisse sa Vitesse pour augmenter son Attaque et sa Défense."
+    "effect": "Si le lanceur est de type Spectre, il sacrifie la moitié de ses PV max pour maudire la cible, lui infligeant des dégâts à hauteur de 1/4 des PV max à la fin de chaque tour. Sinon, le lanceur baisse sa Vitesse pour augmenter son Attaque et sa Défense."
   },
   "flail": {
     "name": "Gigotage",
