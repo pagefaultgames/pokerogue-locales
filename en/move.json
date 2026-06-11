@@ -45,7 +45,7 @@
   },
   "guillotine": {
     "name": "Guillotine",
-    "effect": "A vicious, tearing attack with big pincers. The target faints instantly if this attack hits. The accuracy of this move is fixed at 30%. Boss Pokémon are resistant to this move."
+    "effect": "A vicious, tearing attack with big pincers. The target faints instantly if this attack hits, unless it is a Boss Pokémon. The accuracy of this move is fixed at 30%."
   },
   "razorWind": {
     "name": "Razor Wind",
@@ -125,7 +125,7 @@
   },
   "hornDrill": {
     "name": "Horn Drill",
-    "effect": "The user stabs the target with a horn that rotates like a drill. The target faints instantly if this attack hits. The accuracy of this move is fixed at 30%. Boss Pokémon are resistant to this move."
+    "effect": "The user stabs the target with a horn that rotates like a drill. The target faints instantly if this attack hits, unless it is a Boss Pokémon. The accuracy of this move is fixed at 30%."
   },
   "tackle": {
     "name": "Tackle",
@@ -289,11 +289,11 @@
   },
   "leechSeed": {
     "name": "Leech Seed",
-    "effect": "A seed is planted on the target. The Pokémon steals ¹⁄₁₆ of the target’s max HP at the end of every turn."
+    "effect": "A seed is planted on the target. At the end of every turn, Pokémon in the spot this move was used from absorb ⅛ of the target’s max HP."
   },
   "growth": {
     "name": "Growth",
-    "effect": "The user’s body grows all at once, boosting its Attack and Sp. Atk stat. In harsh sunlight, these stats will be boosted sharply instead."
+    "effect": "The user’s body grows all at once, boosting its Attack and Sp. Atk stats. In harsh sunlight, these stats will be boosted sharply instead."
   },
   "razorLeaf": {
     "name": "Razor Leaf",
@@ -357,7 +357,7 @@
   },
   "fissure": {
     "name": "Fissure",
-    "effect": "The user opens up a fissure in the ground and drops the target in. The target faints instantly if this attack hits. The accuracy of this move is fixed at 30%. Boss Pokémon are resistant to this move."
+    "effect": "The user opens up a fissure in the ground and drops the target in. The target faints instantly if this attack hits, unless it is a Boss Pokémon. The accuracy of this move is fixed at 30%."
   },
   "dig": {
     "name": "Dig",
@@ -397,7 +397,7 @@
   },
   "teleport": {
     "name": "Teleport",
-    "effect": "The user goes last and switches places with a party Pokémon in waiting, if any. If a wild Pokémon uses this move, it flees."
+    "effect": "The user moves last and switches places with a party Pokémon in waiting, if any. If a wild Pokémon uses this move, it flees."
   },
   "nightShade": {
     "name": "Night Shade",
@@ -433,7 +433,7 @@
   },
   "confuseRay": {
     "name": "Confuse Ray",
-    "effect": "The target is exposed to a sinister ray that causes confusion."
+    "effect": "The user shines a sinister ray at the target, leaving it confused."
   },
   "withdraw": {
     "name": "Withdraw",
@@ -461,7 +461,7 @@
   },
   "focusEnergy": {
     "name": "Focus Energy",
-    "effect": "The user takes a deep breath and focuses, gaining a 2-stage Critical-Hit Ratio Boost to its future attacks."
+    "effect": "The user takes a deep breath and focuses, gaining a 2-stage critical-hit ratio boost to its future attacks."
   },
   "bide": {
     "name": "Bide",
@@ -493,7 +493,7 @@
   },
   "sludge": {
     "name": "Sludge",
-    "effect": "The user hurls unsanitary sludge at the target to inflict damage. This may also poison the target."
+    "effect": "The user hurls unsanitary sludge at the target to inflict damage. This move has a 30% chance of poisoning the target."
   },
   "boneClub": {
     "name": "Bone Club",
@@ -545,7 +545,7 @@
   },
   "glare": {
     "name": "Glare",
-    "effect": "The user intimidates the target with a frightful glare that will leave them paralyzed."
+    "effect": "The user intimidates the target with a frightful glare that will leave it paralyzed."
   },
   "dreamEater": {
     "name": "Dream Eater",
@@ -569,7 +569,7 @@
   },
   "skyAttack": {
     "name": "Sky Attack",
-    "effect": "The user attacks with a powered-up dive the turn after using this move. This move’s critical-hit ratio is boosted by 1 stage, and has a 30% chance of making the target flinch."
+    "effect": "The user attacks with a powered-up dive the turn after using this move. This move’s critical-hit ratio is boosted by 1 stage, and it has a 30% chance of making the target flinch."
   },
   "transform": {
     "name": "Transform",
@@ -577,7 +577,7 @@
   },
   "bubble": {
     "name": "Bubble",
-    "effect": "A spray of countless bubbles is jetted at the opposing Pokémon. This may also lower their Speed stat."
+    "effect": "A spray of countless bubbles is jetted at the opposing Pokémon. This move has a 10% chance of lowering their Speed stats."
   },
   "dizzyPunch": {
     "name": "Dizzy Punch",
@@ -761,7 +761,7 @@
   },
   "spikes": {
     "name": "Spikes",
-    "effect": "The user lays a trap of spikes at the feet of the opposing team, damaging opposing Pokémon that switch into battle equal to ⅛ of their max HP. This damage increases with multiple layers of Spikes, up to a max of 3. Flying types or Pokémon with Levitate are unaffected."
+    "effect": "The user lays a trap of spikes at the feet of the opposing team, damaging opposing Pokémon that switch into battle for damage equal to ⅛ of their max HP. This damage increases with multiple layers of Spikes, up to a max of 3. Flying types or Pokémon with Levitate are unaffected."
   },
   "zapCannon": {
     "name": "Zap Cannon",
@@ -841,7 +841,7 @@
   },
   "steelWing": {
     "name": "Steel Wing",
-    "effect": "The target is hit with wings of steel. This move has a 10% chance to boost the user’s Defense stat."
+    "effect": "The target is hit with wings of steel. This move has a 10% chance of boosting the user’s Defense stat."
   },
   "meanLook": {
     "name": "Mean Look",
@@ -865,7 +865,7 @@
   },
   "present": {
     "name": "Present",
-    "effect": "The user attacks by giving the target a gift with a hidden trap, randomly damaging for 40, 80, or 120 power. The gift restores ¼ of the target’s max HP sometimes, however."
+    "effect": "The user attacks by giving the target a gift with a hidden trap, randomly dealing damage with 40, 80, or 120 power. The gift restores ¼ of the target’s max HP sometimes, however."
   },
   "frustration": {
     "name": "Frustration",
@@ -885,7 +885,7 @@
   },
   "magnitude": {
     "name": "Magnitude",
-    "effect": "The user attacks everything around it with a ground-shaking quake. Its power varies based on the magnitude of the quake, with possibility of being 10, 30, 50, 70, 90, 110, or 150 power. This move’s power is doubled against targets underground from Dig, and halved while Grassy Terrain is active."
+    "effect": "The user attacks everything around it with a ground-shaking quake. Its power varies based on the magnitude of the quake, with the possibility of being 10, 30, 50, 70, 90, 110, or 150 power. This move’s power is doubled against targets underground from Dig, and halved while Grassy Terrain is active."
   },
   "dynamicPunch": {
     "name": "Dynamic Punch",
@@ -925,7 +925,7 @@
   },
   "metalClaw": {
     "name": "Metal Claw",
-    "effect": "The target is raked with steel claws. This may also boost the user’s Attack stat."
+    "effect": "The target is raked with steel claws. This move has a 10% chance of boosting the user’s Attack stat."
   },
   "vitalThrow": {
     "name": "Vital Throw",
@@ -1053,7 +1053,7 @@
   },
   "focusPunch": {
     "name": "Focus Punch",
-    "effect": "The user goes last to focus its mind before launching a punch. This move fails if the user is hit before using the move."
+    "effect": "The user moves last to focus its mind before launching a punch. This move fails if the user is hit before using the move."
   },
   "smellingSalts": {
     "name": "Smelling Salts",
@@ -1089,7 +1089,7 @@
   },
   "wish": {
     "name": "Wish",
-    "effect": "At the end of next turn after this move is used, the user’s or its replacement’s HP will be restored by ½ of the Pokémon who used this move’s max HP."
+    "effect": "One turn after this move is used, the user’s or its replacement’s HP is restored by ½ the user’s max HP"
   },
   "assist": {
     "name": "Assist",
@@ -1113,7 +1113,7 @@
   },
   "revenge": {
     "name": "Revenge",
-    "effect": "The user goes last. The power of this move is doubled if the target has inflicted damage on the user in the same turn."
+    "effect": "The user moves last. The power of this move is doubled if the target has inflicted damage on the user in the same turn."
   },
   "brickBreak": {
     "name": "Brick Break",
@@ -1177,11 +1177,11 @@
   },
   "lusterPurge": {
     "name": "Luster Purge",
-    "effect": "The user lets loose a damaging burst of light. This move has a 50% chance to lower the target’s Sp. Def stat"
+    "effect": "The user lets loose a damaging burst of light. This move has a 50% chance of lowering the target’s Sp. Def stat."
   },
   "mistBall": {
     "name": "Mist Ball",
-    "effect": "The user attacks with a ball packed with mist-like down. This move has a 50% chance to lower the target’s Sp. Atk stat."
+    "effect": "The user attacks with a ball packed with mist-like down. This move has a 50% chance of lowering the target’s Sp. Atk stat."
   },
   "featherDance": {
     "name": "Feather Dance",
@@ -1233,7 +1233,7 @@
   },
   "meteorMash": {
     "name": "Meteor Mash",
-    "effect": "The target is hit with a hard punch fired like a meteor. This move has a 20% chance to boost the user’s Attack stat."
+    "effect": "The target is hit with a hard punch fired like a meteor. This move has a 20% chance of boosting the user’s Attack stat."
   },
   "astonish": {
     "name": "Astonish",
@@ -1313,7 +1313,7 @@
   },
   "sheerCold": {
     "name": "Sheer Cold",
-    "effect": "The target is attacked with a blast of absolute-zero cold. The target faints instantly if this attack hits. The accuracy of this move is fixed at 30% when used by Ice-types, and at 20% when used by any other Pokémon. Boss Pokémon are resistant to this move, and it does not affect Ice types."
+    "effect": "The target is attacked with a blast of absolute-zero cold. The target faints instantly if this attack hits, unless it is a Boss Pokémon. This move does not affect Ice types. The accuracy of this move is fixed at 30%. If used by Pokémon other than Ice types, the accuracy of this move is 20%."
   },
   "muddyWater": {
     "name": "Muddy Water",
@@ -1673,7 +1673,7 @@
   },
   "avalanche": {
     "name": "Avalanche",
-    "effect": "The user goes last. The power of this move is doubled if the target has inflicted damage on the user in the same turn."
+    "effect": "The user moves last. The power of this move is doubled if the target has inflicted damage on the user in the same turn."
   },
   "iceShard": {
     "name": "Ice Shard",
@@ -2282,7 +2282,7 @@
   },
   "forestsCurse": {
     "name": "Forest’s Curse",
-    "effect": " The user places the curse of the forest on targets. This adds the Grass type to the target’s type."
+    "effect": "The user places the curse of the forest on targets. This adds the Grass type to the target’s type."
   },
   "petalBlizzard": {
     "name": "Petal Blizzard",
@@ -2330,7 +2330,7 @@
   },
   "playRough": {
     "name": "Play Rough",
-    "effect": "The user attacks by playing rough with the target. This move has a 10% chance to lower the target’s Attack stat."
+    "effect": "The user attacks by playing rough with the target. This move has a 10% chance of lowering the target’s Attack stat."
   },
   "fairyWind": {
     "name": "Fairy Wind",
@@ -2338,7 +2338,7 @@
   },
   "moonblast": {
     "name": "Moonblast",
-    "effect": "Borrowing the power of the moon, the user attacks the target. This move has 10% chance to lower the target’s Sp. Atk stat."
+    "effect": "Borrowing the power of the moon, the user attacks the target. This move has 10% chance of lowering the target’s Sp. Atk stat."
   },
   "boomburst": {
     "name": "Boomburst",
@@ -2350,7 +2350,7 @@
   },
   "kingsShield": {
     "name": "King’s Shield",
-    "effect": "The user takes a defensive stance while it protects itself from damage. Any attackers that use contact moves against the user during this turn will have their Attack stats lowered. With each consecutive use, this move’s chance of success becomes 1/3 of what it was before."
+    "effect": "The user takes a defensive stance while it protects itself from damage. Any attackers that use contact moves against the user during this turn will have their Attack stats lowered. With each consecutive use, this move’s chance of success becomes ⅓ of what it was before."
   },
   "playNice": {
     "name": "Play Nice",
@@ -2758,7 +2758,7 @@
   },
   "beakBlast": {
     "name": "Beak Blast",
-    "effect": "The user first heats up its beak, and then goes last to attack the target. Making direct contact with the user while it’s heating up its beak results in a burn."
+    "effect": "The user first heats up its beak, and then it waits before attacking the target. Making direct contact with the user while it’s heating up its beak results in a burn."
   },
   "clangingScales": {
     "name": "Clanging Scales",
@@ -2874,11 +2874,11 @@
   },
   "tenMillionVoltThunderbolt": {
     "name": "10,000,000 Volt Thunderbolt",
-    "effect": "The user, Pikachu wearing a cap, powers up a jolt of electricity using its Z-Power and unleashes it. This move has a heightened chance of landing a critical hit."
+    "effect": "The user, Pikachu wearing a cap, powers up a jolt of electricity using its Z-Power and unleashes it. This move’s critical-hit ratio is boosted by 2 stages."
   },
   "mindBlown": {
     "name": "Mind Blown",
-    "effect": "The user attacks everything around it by causing its own head to explode. After attacking, the user takes damage equal to 1/2 of its max HP."
+    "effect": "The user attacks everything around it by causing its own head to explode. After attacking, the user takes damage equal to ½ of its max HP."
   },
   "plasmaFists": {
     "name": "Plasma Fists",
@@ -3183,7 +3183,7 @@
   },
   "steelBeam": {
     "name": "Steel Beam",
-    "effect": "The user fires a beam of steel that it collected from its entire body. After attacking, the user takes damage equal to 1/2 of its max HP."
+    "effect": "The user fires a beam of steel that it collected from its entire body. After attacking, the user takes damage equal to ½ of its max HP."
   },
   "expandingForce": {
     "name": "Expanding Force",
@@ -3339,7 +3339,7 @@
   },
   "chloroblast": {
     "name": "Chloroblast",
-    "effect": "The user launches its amassed chlorophyll to inflict damage on the target. After attacking, the user takes damage equal to 1/2 of its max HP."
+    "effect": "The user launches its amassed chlorophyll to inflict damage on the target. After attacking, the user takes damage equal to ½ of its max HP."
   },
   "mountainGale": {
     "name": "Mountain Gale",
@@ -3359,7 +3359,7 @@
   },
   "esperWing": {
     "name": "Esper Wing",
-    "effect": "The user slashes the target with aura-enriched wings, boosting its Speed stat. This move’s Critical-hit ratio is also boosted by 1 stage."
+    "effect": "The user slashes the target with aura-enriched wings, boosting its Speed stat. This move’s critical-hit ratio is also boosted by 1 stage."
   },
   "bitterMalice": {
     "name": "Bitter Malice",
@@ -3371,7 +3371,7 @@
   },
   "tripleArrows": {
     "name": "Triple Arrows",
-    "effect": "The user kicks, then fires three arrows. This move has a 50% chance of lowering the target’s Defense stat and has a 30% chance of making the target flinch. This move’s Critical-hit ratio is also boosted by 1 stage." 
+    "effect": "The user kicks, then fires three arrows. This move has a 50% chance of lowering the target’s Defense stat and has a 30% chance of making the target flinch. This move’s critical-hit ratio is also boosted by 1 stage." 
   },
   "infernalParade": {
     "name": "Infernal Parade",
@@ -3463,7 +3463,7 @@
   },
   "gMaxGravitas": {
     "name": "G-Max Gravitas",
-    "effect": "A Psychic-type attack that Gigantamax Orbeetle use. This move changes gravity for 5 turns, boosting the accuracy of moves by 67% and grounding Flying types or Pokemon with Levitate."
+    "effect": "A Psychic-type attack that Gigantamax Orbeetle use. This move changes gravity for 5 turns, boosting the accuracy of moves by 67% and grounding Flying types or Pokémon with Levitate."
   },
   "gMaxVolcalith": {
     "name": "G-Max Volcalith",
@@ -3555,7 +3555,7 @@
   },
   "orderUp": {
     "name": "Order Up",
-    "effect": "The user attacks with elegant poise. If the user has a Tatsugiri in its mouth, this move boosts the user’s stats based on the Tatsugiri's form: Attack for Curly Tatsugiri, Defense for Droopy, or Speed for Stretchy."
+    "effect": "The user attacks with elegant poise. If the user has a Tatsugiri in its mouth, this move boosts the user’s stats based on the Tatsugiri’s form: Attack for Curly Tatsugiri, Defense for Droopy, or Speed for Stretchy."
   },
   "jetPunch": {
     "name": "Jet Punch",
@@ -3744,7 +3744,7 @@
   },
   "syrupBomb": {
     "name": "Syrup Bomb",
-    "effect": "The user sets off an explosion of sticky candy syrup, which coats the target and causes the target’s Speed stat to drop each turn for 3 turns."
+    "effect": "The user sets off an explosion of sticky candy syrup, which coats the target and causes the target’s Speed stat to drop at the end of every turn for 3 turns."
   },
   "ivyCudgel": {
     "name": "Ivy Cudgel",
