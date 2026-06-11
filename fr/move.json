@@ -45,7 +45,7 @@
   },
   "guillotine": {
     "name": "Guillotine",
-    "effect": "Des pinces lacèrent violemment la cible, la mettant K.O. sur le coup si elle est touchée, sauf si c’est un Pokémon Boss. La Précision est fixée à 30 %."
+    "effect": "Des pinces lacèrent violemment la cible, la mettant K.O. sur le coup si elle est touchée, sauf si c’est un Pokémon Boss. Sa Précision reste fixe à 30 %."
   },
   "razorWind": {
     "name": "Coupe-Vent",
@@ -89,7 +89,7 @@
   },
   "stomp": {
     "name": "Écrasement",
-    "effect": "Écrase la cible avec un énorme pied. A 30 % de l’apeurer. Si ce dernier est lilliputien, sa puissance est multipliée par 2."
+    "effect": "Écrase la cible avec un énorme pied. A 30 % de chances de l’apeurer. Si la cible a utilisé Lilliput, l'attaque inflige le double de dégâts et touche à coup sûr."
   },
   "doubleKick": {
     "name": "Double Pied",
@@ -449,7 +449,7 @@
   },
   "lightScreen": {
     "name": "Mur Lumière",
-    "effect": "Crée un fabuleux mur de lumière qui réduit les dégâts causés par les capacités spéciales pendant 5 tours."
+    "effect": "Crée un fabuleux mur de lumière qui réduit de moitié les dégâts subis par les capacités spéciales pendant 5 tours."
   },
   "haze": {
     "name": "Buée Noire",
@@ -457,7 +457,7 @@
   },
   "reflect": {
     "name": "Protection",
-    "effect": "Crée un fabuleux mur de lumière qui réduit les dégâts causés par les capacités physiques pendant 5 tours."
+    "effect": "Crée un fabuleux mur de lumière qui réduit de moitié les dégâts subis par les capacités physiques pendant 5 tours."
   },
   "focusEnergy": {
     "name": "Puissance",
@@ -2773,7 +2773,7 @@
   },
   "auroraVeil": {
     "name": "Voile Aurore",
-    "effect": "Réduit les dégâts causés par les capacités physiques et spéciales durant 5 tours. Ne peut être utilisée que lorsqu’il neige."
+    "effect": "Réduit de moitié les dégâts subis par les capacités physiques et spéciales durant 5 tours. Ne peut être utilisée que lorsqu’il neige ou grêle."
   },
   "sinisterArrowRaid": {
     "name": "Fureur des Plumes Spectrales",
@@ -2825,7 +2825,7 @@
   },
   "stompingTantrum": {
     "name": "Trépignement",
-    "effect": "Le lanceur attaque en utilisant sa frustration. S’il a utilisé une capacité qui a échoué au tour précédent, la puissance de Trépignement est doublée."
+    "effect": "Le lanceur attaque en utilisant sa frustration. La puissance de cette capacité est multipliée par 2 si le lanceur n'a pas pu agir, ou si sa capacité a raté sa cible ou échoué au tour précédent."
   },
   "shadowBone": {
     "name": "Os Ombre",
@@ -2941,11 +2941,11 @@
   },
   "glitzyGlow": {
     "name": "Évo-Psycho",
-    "effect": "Le lanceur submerge l’adversaire sous un flot d’ondes psychiques et crée un mur fabuleux qui réduit les dégâts causés par les attaques spéciales de l’ennemi."
+    "effect": "Le lanceur submerge l’adversaire sous un flot d’ondes psychiques et crée un mur fabuleux qui réduit les dégâts causés par les attaques spéciales de l’ennemi. En Combat Duo, ces capacités infligent 2/3 de leur dégâts à la place."
   },
   "baddyBad": {
     "name": "Évo-Ténébro",
-    "effect": "Le lanceur fait appel à son côté sombre pour attaquer l’adversaire et créer un mur fabuleux qui réduit de moité les dégâts causés par les attaques physiques de l’ennemi. 1/3 en cas de combat double."
+    "effect": "Le lanceur fait appel à son côté sombre pour attaquer l’adversaire et créer un mur fabuleux qui réduit de moité les dégâts causés par les attaques physiques de l’ennemi. En Combat Duo, ces capacités infligent 2/3 de leur dégâts à la place."
   },
   "sappySeed": {
     "name": "Évo-Écolo",
