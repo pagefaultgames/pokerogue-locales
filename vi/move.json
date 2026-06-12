@@ -74,14 +74,71 @@
   "megaKick": {
     "effect": "Mục tiêu sẽ hứng chịu một cú đá ngập tràn uy lực từ sức mạnh cơ bắp cuồn cuộn."
   },
+  "jumpKick": {
+    "effect": "Pokémon nhảy lên thật cao rồi tung ra một cú đá. Nếu chiêu thức này trượt hoặc thất bại, Pokémon sẽ chịu sát thương bằng ½ HP tối đa của mình."
+  },
+  "rollingKick": {
+    "effect": "Pokémon tung ra một cú đá xoay vòng nhanh như chớp. Chiêu thức này có 30% cơ hội khiến mục tiêu bị giật mình."
+  },
+  "sandAttack": {
+    "effect": "Cát được hất vào mặt mục tiêu, làm giảm độ chính xác của mục tiêu."
+  },
+  "headbutt": {
+    "effect": "Pokémon nhô đầu ra và tấn công bằng cách lao thẳng vào mục tiêu. Chiêu thức này có 30% cơ hội khiến mục tiêu bị giật mình."
+  },
   "hornAttack": {
     "effect": "Mục tiêu gánh chịu sát thương từ đòn đâm bởi chiếc sừng sắc nhọn."
+  },
+  "furyAttack": {
+    "effect": "Pokémon tấn công bằng cách đâm vào mục tiêu bằng sừng, mỏ hoặc bộ phận tương tự. Chiêu thức này đánh trúng từ 2 đến 5 lần liên tiếp."
+  },
+  "hornDrill": {
+    "effect": "Pokémon đâm vào mục tiêu bằng một chiếc sừng xoay tròn như mũi khoan. Mục tiêu sẽ ngất xỉu ngay lập tức nếu đòn tấn công này trúng đích, trừ khi đó là Pokémon Boss. Độ chính xác của chiêu thức này được cố định ở mức 30%."
   },
   "tackle": {
     "effect": "Đòn tấn công vật lý mà Pokémon lao mình và đập mạnh toàn thân vào mục tiêu."
   },
+  "bodySlam": {
+    "effect": "Pokémon tấn công bằng cách thả toàn bộ trọng lượng cơ thể đè lên mục tiêu. Chiêu thức này có 30% cơ hội làm mục tiêu bị tê liệt. Nếu mục tiêu đã sử dụng chiêu thức Minimize, sức mạnh của chiêu thức này sẽ tăng gấp đôi và chắc chắn sẽ trúng đích."
+  },
+  "wrap": {
+    "effect": "​Một cơ thể dài, dây leo hoặc bộ phận tương tự được sử dụng để quấn và siết chặt mục tiêu. Trong 4-5 lượt, mục tiêu sẽ chịu sát thương bằng ⅛ HP tối đa của mình vào cuối mỗi lượt."
+  },
+  "takeDown": {
+    "effect": "Một đòn tấn công lao sầm cả người một cách liều lĩnh vào mục tiêu. Pokémon sẽ chịu sát thương phản chấn bằng ¼ lượng sát thương đã gây ra từ chiêu thức này."
+  },
+  "thrash": {
+    "effect": "Pokémon nổi điên và tấn công trong 2-3 lượt. Sau đó, Pokémon sẽ bị rối loạn."
+  },
+  "doubleEdge": {
+    "effect": "Một cú lao người liều mạng, bất chấp hiểm nguy khi Pokémon lao thẳng vào mục tiêu. Pokémon sẽ chịu sát thương phản chấn bằng ⅓ lượng sát thương đã gây ra từ chiêu thức này."
+  },
+  "tailWhip": {
+    "effect": "Pokémon vẫy đuôi một cách dễ thương, khiến Pokémon đối phương bớt cảnh giác hơn. Điều này làm giảm chỉ số Phòng thủ của chúng."
+  },
+  "poisonSting": {
+    "effect": "Pokémon đâm vào mục tiêu bằng một chiếc ngòi độc để gây sát thương. Chiêu thức này có 30% cơ hội làm mục tiêu bị nhiễm độc."
+  },
+  "twineedle": {
+    "effect": "Pokémon gây sát thương lên mục tiêu hai lần liên tiếp bằng cách đâm vào nó bằng hai chiếc gai. Mỗi đòn đánh trúng có 20% cơ hội làm mục tiêu bị nhiễm độc."
+  },
+  "pinMissile": {
+    "effect": "Pokémon tấn công bằng cách bắn những chiếc gai sắc nhọn vào mục tiêu. Chiêu thức này đánh trúng từ 2-5 lần liên tiếp."
+  },
+  "leer": {
+    "effect": "Pokémon lườm một cái thật đáng sợ vào các Pokémon đối phương, làm giảm chỉ số Phòng thủ của chúng."
+  },
+  "bite": {
+    "effect": "Mục tiêu bị cắn bằng những chiếc răng nanh sắc nhọn một cách tàn nhẫn. Chiêu thức này có 30% cơ hội khiến mục tiêu bị giật mình."
+  },
   "growl": {
     "effect": "Tiếng gầm gừ nũng nịu làm xao nhãng đối thủ, khiến chỉ số Tấn công của chúng bị hạ thấp."
+  },
+  "roar": {
+    "effect": "Pokémon hành động cuối lượt và tung ra một tiếng gầm dũng mãnh. Mục tiêu sẽ bị hoảng sợ bỏ chạy, và một Pokémon khác sẽ bị kéo ra trận. Trong tự nhiên, điều này sẽ kết thúc trận đấu với một Pokémon đơn lẻ."
+  },
+  "sing": {
+    "effect": "Một bài hát ru êm dịu được hát bằng một giọng ca tuyệt đẹp giúp đưa mục tiêu vào giấc ngủ."
   },
   "supersonic": {
     "effect": "Pokémon phát ra các sóng âm kỳ dị khiến mục tiêu rơi vào trạng thái rối loạn."
@@ -89,11 +146,38 @@
   "sonicBoom": {
     "effect": "Một đòn sóng xung kích hủy diệt luôn gây ra 20 điểm sát thương vào sinh lực mục tiêu."
   },
+  "disable": {
+    "effect": "Trong 4 lượt, mục tiêu sẽ không thể sử dụng bất kỳ chiêu thức nào mà nó vừa dùng ở lượt gần nhất."
+  },
+  "acid": {
+    "effect": "Các Pokémon đối phương bị tấn công bởi một tia acid mạnh. Chiêu thức này có 10% cơ hội làm giảm chỉ số Phòng thủ Đặc biệt của chúng."
+  },
+  "ember": {
+    "effect": "Mục tiêu bị tấn công bằng những ngọn lửa nhỏ. Chiêu thức này có 10% cơ hội làm mục tiêu bị bỏng."
+  },
+  "flamethrower": {
+    "effect": "Mục tiêu bị thiêu rụi bằng một luồng lửa cực kỳ mãnh liệt. Chiêu thức này có 10% cơ hội làm mục tiêu bị bỏng."
+  },
+  "mist": {
+    "effect": "Pokémon bao phủ bản thân và đồng đội trong một màn sương trắng, giúp ngăn chặn mọi chỉ số bị giảm trong vòng 5 lượt."
+  },
   "waterGun": {
     "effect": "Tia nước với áp lực cực mạnh nã thẳng vào mục tiêu."
   },
   "hydroPump": {
     "effect": "Khối nước khổng lồ phóng ra dưới áp suất cực đại nã thẳng vào mục tiêu."
+  },
+  "surf": {
+    "effect": "Pokémon tấn công tất cả mọi thứ xung quanh bằng cách nhấn chìm không gian xung quanh trong một làn sóng khổng lồ. Sức mạnh của chiêu thức này sẽ tăng gấp đôi đối với những mục tiêu đang lặn dưới nước bằng chiêu Dive."
+  },
+  "iceBeam": {
+    "effect": "Mục tiêu bị tấn công bằng một luồng năng lượng lạnh giá như băng. Chiêu thức này có 10% cơ hội làm mục tiêu bị đóng băng."
+  },
+  "blizzard": {
+    "effect": "Một trận bão tuyết gầm rú được triệu hồi để tấn công các Pokémon đối phương. Chiêu thức này có 10% cơ hội làm mục tiêu bị đóng băng, và luôn trúng đích trong điều kiện thời tiết tuyết rơi hoặc mưa đá."
+  },
+  "psybeam": {
+    "effect": "Mục tiêu bị tấn công bằng một tia sáng kỳ lạ. Chiêu thức này có 10% cơ hội làm mục tiêu bị rối loạn."
   },
   "hyperBeam": {
     "effect": "Luồng năng lượng cuồng bạo oanh tạc mục tiêu dữ dộ. Bản thân sẽ bị bất động ở lượt kế tiếp."
