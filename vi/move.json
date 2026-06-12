@@ -1055,6 +1055,18 @@
   "waterPulse": {
     "effect": "Pokémon tấn công mục tiêu bằng một luồng sóng nước xung kích. Chiêu thức này có 20% tỷ lệ khiến mục tiêu bị rối loạn."
   },
+  "doomDesire": {
+    "effect": "2 lượt sau khi chiêu thức này được sử dụng, một luồng ánh sáng tập trung sẽ bùng nổ tấn công mục tiêu."
+  },
+  "psychoBoost": {
+    "effect": "Pokémon tấn công mục tiêu với tất cả sức mạnh của mình. Phản lực từ chiêu thức này làm giảm mạnh chỉ số Tấn công Đặc biệt của bản thân."
+  },
+  "roost": {
+    "effect": "Pokémon đáp xuống và nghỉ ngơi, hồi phục  lại ½ lượng HP tối đa. Nếu bản thân Pokémon thuộc hệ Bay, nó sẽ mất đi hệ Bay trong lượt đó."
+  },
+  "gravity": {
+    "effect": "Tăng độ chính xác của các chiêu thức thêm 67% và kéo các Pokémon như hệ Bay hoặc có đặc tính Levitate chạm đất trong vòng 5 lượt. Các chiêu thức liên quan đến bay lượn sẽ không thể sử dụng được."
+  },
   "miracleEye": {
     "effect": "Chiêu thức này cho phép một mục tiêu hệ Bóng tối bị trúng các đòn tấn công hệ Tâm linh. Nó cũng cho phép đánh trúng một mục tiêu đang né tránh."
   },
@@ -1181,6 +1193,9 @@
   "darkPulse": {
     "effect": "Pokémon giải phóng một luồng hào quang khủng khiếp chứa đựng tà ý. Chiêu thức này có 20% tỷ lệ khiến mục tiêu bị giật mình."
   },
+  "nightSlash": {
+    "effect": "Pokémon chém mục tiêu ngay khi cơ hội vừa xuất hiện. Chiêu thức này được tăng 1 bậc tỷ lệ chí mạng."
+  },
   "aquaTail": {
     "effect": "Pokémon tấn công bằng cách quất chiếc đuôi của mình như thể nó là một ngọn sóng dữ dội trong một cơn bão lớn."
   },
@@ -1259,20 +1274,137 @@
   "mudBomb": {
     "effect": "Pokémon phóng quả cầu bùn nén chặt để tấn công. Chiêu thức này có 30% tỷ lệ làm giảm độ chuẩn của mục tiêu."
   },
+  "psychoCut": {
+    "effect": "Pokémon chém vào mục tiêu bằng những lưỡi dao được tạo ra từ năng lượng ngoại cảm. Chiêu thức này được tăng 1 bậc tỷ lệ chí mạng."
+  },
+  "zenHeadbutt": {
+    "effect": "Pokémon tập trung ý chí vào đầu của mình rồi tấn công mục tiêu. Chiêu thức này có 20% tỷ lệ khiến mục tiêu bị giật mình."
+  },
+  "mirrorShot": {
+    "effect": "Pokémon giải phóng một luồng sáng năng lượng từ cơ thể được đánh bóng của mình vào mục tiêu. Chiêu thức này có 30% tỷ lệ làm giảm độ chính xác của mục tiêu."
+  },
+  "flashCannon": {
+    "effect": "Pokémon tập hợp tất cả năng lượng ánh sáng của mình rồi giải phóng tất cả cùng một lúc. Chiêu thức này có 10% tỷ lệ làm giảm chỉ số Phòng thủ Đặc biệt  của mục tiêu."
+  },
+  "rockClimb": {
+    "effect": "Pokémon tấn công mục tiêu bằng cách lao mạnh vào chúng với một lực cực lớn. Chiêu thức này có 20% tỷ lệ khiến mục tiêu bị giật mình."
+  },
+  "defog": {
+    "effect": "Một cơn gió mạnh thổi bay các hàng rào bảo vệ của mục tiêu như Light Screen, Reflect, Aurora Veil hay Safeguard, cũng như dọn sạch mọi cạm bẫy entry hazards hoặc trường đấu terrain trên sân. Chiêu thức này cũng làm giảm độ né tránh của mục tiêu và có thể làm tan sương mù dày đặc."
+  },
+  "trickRoom": {
+    "effect": "Pokémon ra chiêu sau cùng và tạo ra một khu vực kỳ quái, nơi các Pokémon có tốc độ chậm hơn sẽ được quyền tấn công trước trong vòng 5 lượt."
+  },
+  "dracoMeteor": {
+    "effect": "Các sao băng được triệu hồi từ trên trời giáng xuống mục tiêu. Phản lực từ chiêu thức này làm giảm mạnh chỉ số Sp. Atk của Pokémon sử dụng."
+  },
+  "discharge": {
+    "effect": "Pokémon tấn công tất cả mục tiêu xung quanh bằng cách giải phóng một luồng tia lửa điện. Chiêu thức này có 30% tỷ lệ làm tê liệt mục tiêu."
+  },
+  "lavaPlume": {
+    "effect": "Pokémon thiêu rụi tất cả xung quanh trong một trận bão lửa đỏ rực. Chiêu thức này có 30% tỷ lệ làm bỏng mục tiêu."
+  },
+  "leafStorm": {
+    "effect": "Pokémon tạo ra một cơn bão lá xung quanh mục tiêu. Phản lực từ chiêu thức này làm giảm mạnh chỉ số Sp. Atk của Pokémon sử dụng."
+  },
+  "powerWhip": {
+    "effect": "Pokémon quật mạnh các dây leo, tua cuốn hoặc những thứ tương tự để rọi vào mục tiêu."
+  },
   "rockWrecker": {
     "effect": "Pokémon phóng một tảng đá khổng lồ vào mục tiêu để tấn công. Pokémon không thể di chuyển trong lượt tiếp theo."
+  },
+  "crossPoison": {
+    "effect": "Một đòn chém bằng lưỡi dao độc có 10% tỷ lệ làm nhiễm độc mục tiêu. Chiêu thức này được tăng 1 bậc tỷ lệ chí mạng."
+  },
+  "gunkShot": {
+    "effect": "Pokémon bắn rác rưởi bẩn thỉu vào mục tiêu để tấn công. Chiêu thức này có 30% tỷ lệ làm nhiễm độc mục tiêu."
+  },
+  "ironHead": {
+    "effect": "Pokémon húc mạnh vào mục tiêu bằng chiếc đầu cứng như thép của mình. Chiêu thức này có 20% tỷ lệ khiến mục tiêu bị giật mình."
   },
   "magnetBomb": {
     "effect": "Pokémon phóng ra những quả bom thép bám chặt vào mục tiêu. Đòn tấn công này không bao giờ trượt."
   },
+  "stoneEdge": {
+    "effect": "Pokémon đâm mạnh vào mục tiêu bằng những phiến đá nhọn hoắt. Chiêu thức này được tăng 1 bậc tỷ lệ chí mạng."
+  },
   "captivate": {
     "effect": "Nếu bất kỳ Pokémon đối phương nào có giới tính đối lập với Pokémon, nó sẽ bị mê hoặc, khiến chỉ số T.công Đ.b. của nó bị giảm mạnh."
+  },
+  "stealthRock": {
+    "effect": "Pokémon giăng một bẫy đá bay lơ lửng, gây sát thương cho đối phương khi hoán đổi vào trận đấu tương đương ⅛ lượng HP tối đa của chúng. Sát thương này sẽ thay đổi tùy thuộc vào tính chất hệ của Pokémon đó đối với hệ Đá."
+  },
+  "grassKnot": {
+    "effect": "Pokémon bẫy mục tiêu bằng cỏ và làm nó vấp ngã. Mục tiêu càng nặng, uy lực của chiêu thức càng lớn (dao động trong khoảng từ 20 đến 120)."
+  },
+  "chatter": {
+    "effect": "Pokémon tấn công mục tiêu bằng những sóng âm thanh từ tiếng líu lo đét tai. Chiêu thức này cũng làm mục tiêu bị hỗn loạn."
+  },
+  "judgment": {
+    "effect": "Pokémon bắn ra vô số tia sáng vào mục tiêu. Hệ của chiêu thức này sẽ thay đổi tùy thuộc vào loại Plate hoặc Memory Disc mà Pokémon đang nắm giữ, nếu nó sở hữu đặc tính Multitype hoặc RKS System."
+  },
+  "bugBite": {
+    "effect": "Pokémon tấn công bằng cách cắn vào mục tiêu. Nếu mục tiêu đang cầm một quả Berry, Pokémon sẽ ăn luôn quả đó và nhận hiệu ứng từ nó."
+  },
+  "chargeBeam": {
+    "effect": "Pokémon tấn công mục tiêu bằng một luồng điện tích. Dòng điện dư thừa có 70% tỷ lệ làm tăng chỉ số Sp. Atk của Pokémon sử dụng."
+  },
+  "woodHammer": {
+    "effect": "Pokémon lao mạnh cơ thể rắn rỏi của mình vào mục tiêu để tấn công. Pokémon sử dụng phải chịu lượng sát thương phản hồi bằng ⅓ lượng sát thương đã gây ra."
+  },
+  "aquaJet": {
+    "effect": "Pokémon lao thẳng vào mục tiêu với tốc độ chóng mặt để gây sát thương. Chiêu thức này luôn luôn được ưu tiên tấn công trước."
+  },
+  "attackOrder": {
+    "effect": "Pokémon kêu gọi đàn em của mình đến để nện liên tiếp vào mục tiêu. Chiêu thức này được tăng 1 bậc tỷ lệ chí mạng."
+  },
+  "defendOrder": {
+    "effect": "Pokémon kêu gọi đàn em của mình đến để che chắn cho cơ thể, giúp tăng chỉ số Defense và Sp. Def của bản thân."
+  },
+  "healOrder": {
+    "effect": "Pokémon kêu gọi đàn em của mình đến để chữa lành, giúp hồi phục ½ lượng HP tối đa của bản thân."
+  },
+  "headSmash": {
+    "effect": "Pokémon tấn công mục tiêu bằng một cú húc đầu đầy nguy hiểm với toàn bộ sức mạnh. Pokémon sử dụng phải chịu lượng sát thương phản hồi bằng ½ lượng sát thương đã gây ra."
+  },
+  "doubleHit": {
+    "effect": "Pokémon đập mạnh vào mục tiêu bằng đuôi hoặc bộ phận tương tự. Mục tiêu sẽ bị đánh trúng hai lần liên tiếp."
   },
   "roarOfTime": {
     "effect": "Pokémon bắn một luồng năng lượng cực mạnh vào mục tiêu, làm biến dạng cả thời gian. Pokémon sẽ không thể di chuyển trong lượt kế tiếp."
   },
+  "spacialRend": {
+    "effect": "Pokémon xé toạc mục tiêu cùng với khoảng không gian xung quanh nó. Chiêu thức này được tăng 1 bậc tỷ lệ chí mạng."
+  },
+  "lunarDance": {
+    "effect": "Pokémon sử dụng sẽ bị ngất. Đổi lại, Pokémon ra trận thay thế vị trí của nó sẽ được hồi phục toàn bộ HP, PP và chữa sạch mọi trạng thái bất lợi."
+  },
+  "crushGrip": {
+    "effect": "Pokémon nghiền nát mục tiêu với một lực cực lớn. Mục tiêu càng còn nhiều HP, uy lực của chiêu thức càng lớn, (dao động trong khoảng từ 1 đến 120)."
+  },
+  "magmaStorm": {
+    "effect": "Pokémon giam cầm mục tiêu bên trong một cơn bão lửa dữ dội. Trong vòng 4 đến 5 lượt, mục tiêu sẽ phải chịu lượng sát thương bằng ⅛ lượng HP tối đa vào cuối mỗi lượt."
+  },
+  "darkVoid": {
+    "effect": "Các Pokémon đối phương bị kéo vào một thế giới bóng tối hoàn toàn, khiến chúng rơi vào trạng thái ngủ"
+  },
+  "seedFlare": {
+    "effect": "Pokémon phát ra một làn sóng xung kích từ cơ thể để tấn công mục tiêu. Chiêu thức này có 40% tỷ lệ giảm mạnh chỉ số Sp. Def của mục tiêu."
+  },
+  "ominousWind": {
+    "effect": "Pokémon tấn công bằng một luồng gió kinh hoàng khiến mục tiêu phải nổi da gà. Chiêu thức này có 10% tỷ lệ tăng đồng thời tất cả các chỉ số Attack, Defense, Sp. Atk, Sp. Def, và Speed của Pokémon sử dụng lên 1 bậc."
+  },
+  "shadowForce": {
+    "effect": "Pokémon biến mất trong lượt đầu tiên, sau đó tấn công vào lượt kế tiếp. Chiêu thức này có thể đánh trúng mục tiêu đang sử dụng các chiêu phòng thủ như Protect hoặc Detect, đồng thời xóa bỏ hiệu ứng bảo vệ của những chiêu thức đó."
+  },
   "honeClaws": {
     "effect": "Pokémon mài sắc vuốt của mình để tăng chỉ số tấn công và độ chuẩn."
+  },
+  "wideGuard": {
+    "effect": "Trong lượt chiêu thức này được sử dụng, Pokémon sẽ bảo vệ đồng đội bên phía của mình khỏi các chiêu thức tấn công trúng tất cả đồng minh."
+  },
+  "guardSplit": {
+    "effect": "Pokémon sử dụng sức mạnh tâm linh của mình để cộng các chỉ số Phòng thủ và Phòng thủ Đặc biệt của bản thân vào chỉ số của mục tiêu, sau đó chia đôi tổng số đó để cả hai cùng chia sẻ."
   },
   "quiverDance": {
     "effect": "Pokémon nhẹ nhàng thực hiện một điệu nhảy huyền bí, đẹp mắt. Điệu nhảy này giúp tăng các chỉ số T.công Đ.b., P.thủ Đ.b. và Tốc độ của Pokémon."
