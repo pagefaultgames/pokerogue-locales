@@ -273,7 +273,7 @@
     "effect": "Pokémon ẩn mình sâu vào lòng đất ngay lượt đầu tiên, sau đó bất ngờ nhô lên tấn công mục tiêu ở lượt kế tiếp."
   },
   "toxic": {
-    "effect": "Pokémon tiêm kịch độc khiến mục tiêu bị nhiễm độc nặng. Kẻ địch sẽ chịu sát thương độc tăng tiến vào cuối mỗi lượt, bắt đầu từ ¹⁄₁₆ lượng HP tối đa, sau đó tăng lên ²⁄₁₆, cứ thế dồn dập. Nếu người dùng mang hệ Poison, chiêu thức này sẽ bách phát bách trúng."
+    "effect": "Pokémon tiêm kịch độc khiến mục tiêu bị nhiễm độc nặng. Đối phương sẽ chịu sát thương độc tăng tiến vào cuối mỗi lượt, bắt đầu từ ¹⁄₁₆ lượng HP tối đa, sau đó tăng lên ²⁄₁₆, cứ thế nặng dần. Nếu bản thân mang hệ Độc, chiêu thức này sẽ bách phát bách trúng."
   },
   "confusion": {
     "effect": "Pokémon tấn công mục tiêu bằng một luồng thần lực siêu nhiên yếu ớt, gây sát thương. Chiêu thức này có 10% tỷ lệ khiến kẻ địch rơi vào trạng thái rối loạn."
@@ -816,7 +816,7 @@
     "effect": "Pokémon bắt chước mục tiêu hoàn toàn, sao chép Đặc tính của mục tiêu."
   },
   "wish": {
-    "effect": "Một lượt sau khi chiêu thức này được sử dụng, Pokémon của bản thân hoặc Pokémon ra sân thay thế sẽ được hồi phục một lượng HP bằng ½ HP tối đa của người dùng."
+    "effect": "Một lượt sau khi chiêu thức này được sử dụng, Pokémon của bản thân hoặc Pokémon ra sân thay thế sẽ được hồi phục một lượng HP bằng ½ HP tối đa của Pokémon tung chiêu."
   },
   "assist": {
     "effect": "Pokémon vội vã và ngẫu nhiên sử dụng một chiêu thức trong số các chiêu thức mà Pokémon đồng đội đã biết."
@@ -1581,7 +1581,7 @@
     "effect": "Pokémon bẫy đối phương vào lưới điện để gây sát thương. Việc này cũng hạ chỉ số Tốc độ của chúng."
   },
   "wildCharge": {
-    "effect": "Pokémon bao phủ bản thân trong dòng điện rồi lao sầm vào mục tiêu. Người dùng chịu phản sát thương bằng một phần tư lượng sát thương gây ra."
+    "effect": "Pokémon bao phủ bản thân trong dòng điện rồi lao sầm vào mục tiêu. Bản thân phải chịu phản phệ bằng ¼ lượng sát thương gây ra."
   },
   "drillRun": {
     "effect": "Pokémon đâm mạnh vào mục tiêu trong khi xoay cơ thể như mũi khoan. Tỷ lệ chí mạng của chiêu này được tăng thêm 1 bậc."
@@ -1593,7 +1593,7 @@
     "effect": "Pokémon tung một cú đánh hiểm ác sau khi hành động dễ thương làm mục tiêu bớt cảnh giác. Chiêu này có 30% cơ hội khiến mục tiêu giật mình."
   },
   "hornLeech": {
-    "effect": "Pokémon hút năng lượng của mục tiêu bằng cặp sừng của mình. HP của người dùng được hồi phục bằng ½ lượng sát thương gây ra từ chiêu này."
+    "effect": "Pokémon hút năng lượng của mục tiêu bằng cặp sừng của mình. HP của bản thân được hồi phục bằng ½ lượng sát thương gây ra từ chiêu này."
   },
   "sacredSword": {
     "effect": "Pokémon tấn công bằng cách chém bằng một thanh kiếm. Chiêu này bỏ qua các thay đổi chỉ số của mục tiêu khi gây sát thương."
@@ -1602,7 +1602,7 @@
     "effect": "Pokémon cắt mục tiêu bằng những chiếc vỏ sắc nhọn để gây sát thương. Chiêu này có 50% cơ hội hạ chỉ số Phòng thủ của đối phương."
   },
   "heatCrash": {
-    "effect": "Pokémon lao sầm vào mục tiêu bằng cơ thể bọc trong lửa. Cân nặng của người dùng càng vượt trội hơn đối phương thì uy lực chiêu thức càng lớn (dao động giữa 40 và 120). Nếu mục tiêu đã dùng Minimize, uy lực chiêu này sẽ tăng gấp đôi và chắc chắn đánh trúng."
+    "effect": "Pokémon lao sầm vào mục tiêu bằng cơ thể bọc trong lửa. Cân nặng của bản thân càng vượt trội hơn đối phương thì uy lực chiêu thức càng lớn (dao động giữa 40 và 120). Nếu mục tiêu đã dùng Minimize, uy lực chiêu này sẽ tăng gấp đôi và chắc chắn đánh trúng."
   },
   "leafTornado": {
     "effect": "Pokémon tấn công mục tiêu bằng cách vây hãm chúng trong những chiếc lá sắc nhọn. Chiêu này có 50% cơ hội hạ độ chính xác của đối phương."
@@ -2292,7 +2292,7 @@
     "effect": "Đây là một đòn tấn công hệ Độc được sử dụng bởi Pokémon Dynamax. Chiêu thức này giúp tăng chỉ số T.công Đ.b. của các Pokémon đồng minh."
   },
   "maxGeyser": {
-    "effect": "Đây là một đòn tấn công hệ Nước được sử dụng bởi Pokémon Dynamax. Pokémon người dùng gọi ra một trận mưa lớn kéo dài trong vòng 5 lượt."
+    "effect": "Đây là một đòn tấn công hệ Nước được sử dụng bởi Pokémon Dynamax. Pokémon sẽ gọi ra một trận mưa lớn kéo dài trong vòng 5 lượt."
   },
   "maxAirstream": {
     "effect": "Đây là một đòn tấn công hệ Bay được sử dụng bởi Pokémon Dynamax. Chiêu thức này giúp tăng chỉ số Tốc độ của các Pokémon đồng minh."
@@ -2307,7 +2307,7 @@
     "effect": "Đây là một đòn tấn công hệ Tâm Linh mà Pokémon Dynamax sử dụng. Pokémon biến mặt đất thành Psychic Terrain trong 5 lượt."
   },
   "maxRockfall": {
-    "effect": "Đây là một đòn tấn công hệ Đá được sử dụng bởi Pokémon Dynamax. Pokémon người dùng gọi ra một trận bão cát kéo dài trong vòng 5 lượt."
+    "effect": "Đây là một đòn tấn công hệ Đá được sử dụng bởi Pokémon Dynamax. Pokémon sẽ gọi ra một trận bão cát kéo dài trong vòng 5 lượt."
   },
   "maxQuake": {
     "effect": "Đây là một đòn tấn công hệ Đất được sử dụng bởi Pokémon Dynamax. Chiêu thức này giúp tăng chỉ số P.thủ Đ.b. của các Pokémon đồng minh."
@@ -2325,7 +2325,7 @@
     "effect": "Pokémon hy sinh ⅓ HP tối đa để cường hóa chỉ số Tấn Công, Phòng Thủ, T.công Đ.b., P.thủ Đ.b. và Tốc Độ. Chiêu thức này sẽ thất bại nếu Pokémon không đủ lượng HP cần thiết."
   },
   "bodyPress": {
-    "effect": "Pokémon tấn công bằng cách tông toàn bộ cơ thể vào mục tiêu. Sát thương gây ra bởi chiêu thức này được tính toán dựa trên chỉ số Phòng thủ thay vì chỉ số Tấn công của Pokémon người dùng."
+    "effect": "Pokémon tấn công bằng cách tông toàn bộ cơ thể vào mục tiêu. Sát thương gây ra bởi chiêu thức này được tính toán dựa trên chỉ số Phòng thủ thay vì chỉ số Tấn công của bản thân."
   },
   "decorate": {
     "effect": "Pokémon tăng mạnh chỉ số Tấn công và T.công Đ.b. của mục tiêu bằng cách trang trí cho mục tiêu đó."
@@ -2337,7 +2337,7 @@
     "effect": "Pokémon bẫy mục tiêu vào một chiếc bẫy kẹp. Trong vòng 4–5 lượt, mục tiêu sẽ phải chịu sát thương tương đương với ⅛ lượng HP tối đa của mình vào cuối mỗi lượt."
   },
   "pyroBall": {
-    "effect": "Pokémon tấn công bằng cách làm bốc cháy một viên đá nhỏ rồi sút nó đi như một quả bóng lửa vào mục tiêu. Chiêu thức này có 10% tỷ lệ gây bỏng cho mục tiêu và sẽ làm tan băng cho Pokémon người dùng nếu đang bị đóng băng."
+    "effect": "Pokémon tấn công bằng cách làm bốc cháy một viên đá nhỏ rồi sút nó đi như một quả bóng lửa vào mục tiêu. Chiêu thức này có 10% tỷ lệ gây bỏng cho mục tiêu và sẽ làm tan băng cho bản thân nếu đang bị đóng băng."
   },
   "behemothBlade": {
     "effect": "Pokémon sử dụng toàn bộ cơ thể để điều khiển một thanh kiếm lớn, mạnh mẽ và chém vào mục tiêu trong một đòn tấn công dữ dội."
@@ -2385,7 +2385,7 @@
     "effect": "Đây là đòn tấn công mạnh nhất của Eternatus ở dạng nguyên bản. Pokémon không thể di chuyển ở lượt tiếp theo."
   },
   "steelBeam": {
-    "effect": "Pokémon bắn ra một chùm tia thép được tích tụ từ toàn bộ cơ thể của mình. Sau khi tấn công, Pokémon người dùng sẽ phải chịu sát thương tương đương với ½ lượng HP tối đa của bản thân."
+    "effect": "Pokémon bắn ra một chùm tia thép được tích tụ từ toàn bộ cơ thể của mình. Sau khi tấn công, Pokémon sẽ phải chịu sát thương tương đương với ½ lượng HP tối đa của mình."
   },
   "expandingForce": {
     "effect": "Pokémon đả kích mục tiêu bằng sức mạnh tâm linh. Nếu Pokémon đang chịu ảnh hưởng của Psychic Terrain, uy lực của chiêu thức sẽ được tăng thêm 50% và phạm vi tấn công mở rộng ra toàn bộ đối thủ."
