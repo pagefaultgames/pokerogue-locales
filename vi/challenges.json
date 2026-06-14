@@ -6,18 +6,18 @@
     "name": "KĐ Mới",
     "desc": {
       "0": "Mô phỏng thử thách sử dụng các Pokemon khởi đầu mới nhận được khi chưa mở khóa bất kỳ tính năng nào.",
-      "1": "Cậu chỉ có thể sử dụng các Pokémon khởi đầu nguyên bản mà không có bất kỳ mở khóa nào, giống như khi vừa mới bắt đầu chơi PokéRogue lần đầu tiên vậy.",
-      "2": "Cậu có thể sử dụng bất kỳ Pokémon khởi đầu nào của mình mà không có bất kỳ mở khóa nào, giống như khi vừa mới nhận được chúng lần đầu tiên vậy."
+      "1": "Bạn chỉ có thể sử dụng các Pokémon khởi đầu nguyên bản mà không có bất kỳ mở khóa nào, giống như khi vừa mới bắt đầu chơi PokéRogue lần đầu tiên vậy.",
+      "2": "Bạn có thể sử dụng bất kỳ Pokémon khởi đầu nào của mình mà không có bất kỳ mở khóa nào, giống như khi vừa mới nhận được chúng lần đầu tiên vậy."
     },
     "value": {
       "0": "Tắt",
       "1": "Cài Lại",
-      "2": "Chỉ Starters"
+      "2": "Chỉ Starter"
     }
   },
   "hardcore": {
     "name": "Chế độ Khó",
-    "desc": "Cậu không thể hồi sinh những Pokémon đã bị ngất nữa.",
+    "desc": "Bạn không thể hồi sinh những Pokémon đã ngất nữa.",
     "value": {
       "0": "Tắt",
       "1": "Bật"
@@ -25,7 +25,7 @@
   },
   "limitedCatch": {
     "name": "Giới hạn Bắt Pokémon",
-    "desc": "Cậu chỉ có thể thêm Pokémon đầu tiên gặp được ở mỗi hệ sinh thái vào đội hình hiện tại của mình.",
+    "desc": "Bạn chỉ có thể chiêu mộ Pokémon đầu tiên gặp được ở mỗi vùng vào đội hình hiện tại của mình.",
     "value": {
       "0": "Tắt",
       "1": "Bật"
@@ -34,10 +34,10 @@
   "limitedSupport": {
     "name": "Hỗ trợ Giới hạn",
     "desc": {
-      "0": "Loại bỏ một số hoặc tất cả các lựa chọn hồi máu miễn phí cho đội hình của cậu.",
-      "1": "Loại bỏ tính năng tự động hồi máu ở cuối mỗi hệ sinh thái.\nThay vào đó, cậu sẽ nhận được menu phần thưởng tiêu chuẩn như ở cuối mỗi đợt.",
+      "0": "Loại bỏ một số hoặc tất cả các lựa chọn hồi phục miễn phí cho đội hình của bạn.",
+      "1": "Loại bỏ tính năng tự động hồi phục ở cuối mỗi vùng.\nThay vào đó, bạn sẽ nhận được menu phần thưởng tiêu chuẩn như ở cuối mỗi đợt.",
       "2": "Loại bỏ Cửa hàng trong menu phần thưởng ở cuối mỗi đợt.",
-      "3": "Loại bỏ Cửa hàng trong menu phần thưởng ở cuối mỗi đợt.\n​Loại bỏ tính năng tự động hồi máu ở cuối mỗi hệ sinh thái.\nThay vào đó, cậu sẽ nhận được menu phần thưởng tiêu chuẩn như ở cuối mỗi đợt."
+      "3": "Loại bỏ Cửa hàng trong menu phần thưởng ở cuối mỗi đợt.\n​Loại bỏ tính năng tự động hồi phục ở cuối mỗi vùng.\nThay vào đó, bạn sẽ nhận được menu phần thưởng tiêu chuẩn như ở cuối mỗi đợt."
     },
     "value": {
       "0": "Tắt",
@@ -47,9 +47,9 @@
     }
   },
   "singleGeneration": {
-    "name": "Đồng Thế Hệ",
-    "desc": "Cậu chỉ có thể sử dụng các Pokémon thuộc Thế hệ {{gen}}.",
-    "descDefault": "Cậu chỉ có thể sử dụng các Pokémon thuộc thế hệ đã chọn.",
+    "name": "Đơn Thế Hệ",
+    "desc": "Bạn chỉ có thể sử dụng các Pokémon thuộc Thế hệ {{gen}}.",
+    "descDefault": "Bạn chỉ có thể sử dụng các Pokémon thuộc thế hệ đã chọn.",
     "gen": {
       "1": "1",
       "2": "2",
@@ -64,8 +64,8 @@
   },
   "singleType": {
     "name": "Đơn Hệ",
-    "desc": "Cậu chỉ có thể sử dụng các Pokémon có hệ {{type}}.",
-    "descDefault": "Cậu chỉ có thể sử dụng các Pokémon thuộc hệ đã chọn."
+    "desc": "Bạn chỉ có thể sử dụng các Pokémon có hệ {{type}}.",
+    "descDefault": "Bạn chỉ có thể sử dụng các Pokémon thuộc hệ đã chọn."
   },
   "inverseBattle": {
     "name": "Trận chiến Đảo ngược",
@@ -87,7 +87,7 @@
   },
   "metronome": {
     "name": "Chế độ Metronome",
-    "desc": "Cậu chỉ có thể sử dụng chiêu thức Metronome! Hãy thử xem bản thân có thể đi bao xa hoàn toàn dựa vào vận may.\nĐây là chế độ CHỈ CHƠI CHO VUI và không trao tặng bất kỳ thành tựu nào.\n​Vô hiệu hóa tất cả các thành tựu khác.",
+    "desc": "Bạn chỉ có thể sử dụng chiêu thức Metronome! Hãy thử xem bản thân có thể đi bao xa khi dựa hoàn toàn vào may mắn.\nĐây chỉ là chế độ CHƠI CHO VUI và không trao tặng bất kỳ thành tựu nào.\n​Vô hiệu hóa tất cả các thành tựu khác.",
     "value": {
       "0": "Tắt",
       "1": "Bật"
@@ -97,8 +97,8 @@
     "name": "​Kích hoạt Nội tại",
     "desc": {
       "0": "Bắt buộc một số hoặc tất cả Pokémon phải kích hoạt nội tại của chúng.",
-      "1": "Pokémon của các Huấn luyện viên sẽ được kích hoạt nội tại.\nKhông ảnh hưởng đến các Pokémon khởi đầu mà cậu đã chọn.",
-      "2": "Tất cả Pokémon, bao gồm cả của cậu, sẽ được kích hoạt nội tại trong suốt lượt chơi này.\n​Vô hiệu hóa thành tựu của các thử thách khác."
+      "1": "Pokémon của các Huấn luyện viên sẽ được kích hoạt nội tại.\nKhông ảnh hưởng đến các Pokémon khởi đầu mà bạn đã chọn.",
+      "2": "Tất cả Pokémon, bao gồm cả của bạn, sẽ được kích hoạt nội tại trong suốt trận này.\n​Vô hiệu hóa thành tựu của các thử thách khác."
     },
     "value": {
       "0": "Tắt",
