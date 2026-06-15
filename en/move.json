@@ -685,7 +685,7 @@
   },
   "flameWheel": {
     "name": "Flame Wheel",
-    "effect": "The user attacks by cloaking itself in fire and charging at the target. This move has a 10% chance of burning the target, and thaws out the user if it is frozen."
+    "effect": "The user attacks by cloaking itself in fire and charging at the target. This move has a 10% chance of burning the target and thaws out the user if it is frozen."
   },
   "snore": {
     "name": "Snore",
@@ -881,7 +881,7 @@
   },
   "sacredFire": {
     "name": "Sacred Fire",
-    "effect": "The target is razed with a mystical fire of great intensity. This move has a 50% chance of burning the target and will thaw out the user if frozen."
+    "effect": "The target is razed with a mystical fire of great intensity. This move has a 50% chance of burning the target and thaws out the user if it is frozen."
   },
   "magnitude": {
     "name": "Magnitude",
@@ -1017,11 +1017,11 @@
   },
   "spitUp": {
     "name": "Spit Up",
-    "effect": "The levels stored using the move Stockpile is released at once in an attack. The more power is stored, the greater the move’s power (ranging between 100 and 300)."
+    "effect": "The levels stored using the move Stockpile are released at once in an attack. The more power is stored, the greater the move’s power (ranging between 100 and 300)."
   },
   "swallow": {
     "name": "Swallow",
-    "effect": "The levels stored using the move Stockpile is absorbed by the user to restore its HP. Level 1: ¼ of the user’s max HP is restored. Level 2: ½ of the user’s max HP is restored. Level 3: The user’s HP is fully restored."
+    "effect": "The levels stored using the move Stockpile are absorbed by the user to restore its HP. Level 1: ¼ of the user’s max HP is restored. Level 2: ½ of the user’s max HP is restored. Level 3: The user’s HP is fully restored."
   },
   "heatWave": {
     "name": "Heat Wave",
@@ -1573,7 +1573,7 @@
   },
   "flareBlitz": {
     "name": "Flare Blitz",
-    "effect": "The user cloaks itself in fire and charges the target to inflict damage. The user takes ⅓ of the damage dealt by this move. This also has a 10% chance of burning the target, and thaws out the user if they are frozen."
+    "effect": "The user cloaks itself in fire and charges the target to inflict damage. The user takes ⅓ of the damage dealt by this move. This also has a 10% chance of burning the target and thaws out the user if it is frozen."
   },
   "forcePalm": {
     "name": "Force Palm",
@@ -1921,7 +1921,7 @@
   },
   "flameBurst": {
     "name": "Flame Burst",
-    "effect": "The user attacks the target with a bursting flame. The bursting flame damages Pokémon next to the target equal to ¹⁄₁₆ of their max HP as well."
+    "effect": "The user attacks the target with a bursting flame. Pokémon next to the target also take damage equal to ¹⁄₁₆ of their max HP."
   },
   "sludgeWave": {
     "name": "Sludge Wave",
@@ -2009,7 +2009,7 @@
   },
   "scald": {
     "name": "Scald",
-    "effect": "The user attacks by shooting boiling hot water at the target. This move has a 30% chance of burning the target and will thaw out a frozen user or target."
+    "effect": "The user attacks by shooting boiling hot water at the target. This move has a 30% chance of burning the target and will thaw out the user or target if one is frozen."
   },
   "shellSmash": {
     "name": "Shell Smash",
@@ -2230,7 +2230,7 @@
   },
   "fusionFlare": {
     "name": "Fusion Flare",
-    "effect": "The user brings down a giant flame. This move’s power is doubled if used after Fusion Bolt. This thaws out the user if frozen."
+    "effect": "The user brings down a giant flame. This move’s power is doubled if used after Fusion Bolt. The user is thawed out if it is frozen."
   },
   "fusionBolt": {
     "name": "Fusion Bolt",
@@ -2366,7 +2366,7 @@
   },
   "steamEruption": {
     "name": "Steam Eruption",
-    "effect": "The user attacks by immersing targets in superheated steam. This move has a 30% chance of burning the target and will thaw out the user or target if either are frozen."
+    "effect": "The user attacks by immersing targets in superheated steam. This move has a 30% chance of burning the target and will thaw out the user or target if one is frozen."
   },
   "hyperspaceHole": {
     "name": "Hyperspace Hole",
@@ -2726,7 +2726,7 @@
   },
   "burnUp": {
     "name": "Burn Up",
-    "effect": "To inflict massive damage, the user burns itself out and loses the Fire type. This move fails unless it is used by a Fire type, and thaws out the user if frozen."
+    "effect": "To inflict massive damage, the user burns itself out and loses the Fire type. The user is thawed out if it is frozen. This move fails unless it is used by a Fire type."
   },
   "speedSwap": {
     "name": "Speed Swap",
@@ -3118,7 +3118,7 @@
   },
   "pyroBall": {
     "name": "Pyro Ball",
-    "effect": "The user attacks by igniting a small stone and launching it as a fiery ball at the target. This move has a 10% chance of burning the target and thaws out the user if frozen."
+    "effect": "The user attacks by igniting a small stone and launching it as a fiery ball at the target. This move has a 10% chance of burning the target and thaws out the user if it is frozen."
   },
   "behemothBlade": {
     "name": "Behemoth Blade",
@@ -3259,7 +3259,7 @@
   },
   "scorchingSands": {
     "name": "Scorching Sands",
-    "effect": "The user throws scorching sand at the target to attack. This move has a 30% chance of burning the target, and will thaw out the user or target if either are frozen."
+    "effect": "The user throws scorching sand at the target to attack. This move has a 30% chance of burning the target and will thaw out the user or target if one is frozen."
   },
   "jungleHealing": {
     "name": "Jungle Healing",
@@ -3275,7 +3275,7 @@
   },
   "thunderCage": {
     "name": "Thunder Cage",
-    "effect": "The user traps the target inside a cage of sparking electricity that inflicts damage equal to ⅛ of their max HP for 4-5 turns."
+    "effect": "The user traps the target inside a cage of sparking electricity. For 4-5 turns, the target takes damage equal to ⅛ of its max HP at the end of every turn."
   },
   "dragonEnergy": {
     "name": "Dragon Energy",
@@ -3419,7 +3419,7 @@
   },
   "gMaxChiStrike": {
     "name": "G-Max Chi Strike",
-    "effect": "A Fighting-type attack that Gigantamax Machamp use. This move pumps up the user and its allies, boosting the critical-hit ratios of moves by 1 stage."
+    "effect": "A Fighting-type attack that Gigantamax Machamp use. This move pumps up the user and its allies, boosting the critical-hit ratio of moves by 1 stage."
   },
   "gMaxTerror": {
     "name": "G-Max Terror",
@@ -3740,7 +3740,7 @@
   },
   "matchaGotcha": {
     "name": "Matcha Gotcha",
-    "effect": "The user fires a blast of tea that it mixed. The user’s HP is restored by ½ of the damage dealt by this move, and has a 20% chance of burning targets. This also thaws out the user or targets if frozen."
+    "effect": "The user fires a blast of tea that it mixed. The user’s HP is restored by ½ of the damage dealt by this move, and has a 20% chance of burning targets. This will also thaw out a frozen user or target."
   },
   "syrupBomb": {
     "name": "Syrup Bomb",
