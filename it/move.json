@@ -568,16 +568,20 @@
     "effect": "Con una faccia paurosa, chi la usa prova a baciare il bersaglio. Se entra a segno, il bersaglio si addormenta."
   },
   "skyAttack": {
-    "name": "Aeroattacco"
+    "name": "Aeroattacco",
+    "effect": "Chi la usa attacca con un tuffo potenziato il turno dopo aver usato questa mossa. La chance di critico di questa mossa è aumentata di 1 livello, e ha un 30% di chance di far tentennare il bersaglio."
   },
   "transform": {
-    "name": "Trasformazione"
+    "name": "Trasformazione",
+    "effect": "Chi la usa si trasforma in una copia del bersaglio, fino ad avere anche il suo stesso moveset. Copia anche tutte le statistiche del bersaglio tranne i suoi HP. Le mosse copiate hanno 5 PP ciascuna."
   },
   "bubble": {
-    "name": "Bolla"
+    "name": "Bolla",
+    "effect": "Uno spray di bolle infinite viene usato contro il Pokémon avversario. Questa mossa ha un 10% di chance di ridurre la sua statistica di Difesa."
   },
   "dizzyPunch": {
-    "name": "Stordipugno"
+    "name": "Stordipugno",
+    "effect": "Il bersaglio viene colpito con pugni lanciati ritmicamente. Questa mossa ha un 20% di chance di confondere il bersaglio."
   },
   "spore": {
     "name": "Spora",
@@ -588,36 +592,44 @@
     "effect": "Il Pokémon usa un lampo di luce contro il nemico riducendone la precisione. Può essere usata per illuminare luoghi oscuri."
   },
   "psywave": {
-    "name": "Psiconda"
+    "name": "Psiconda",
+    "effect": "Il bersaglio viene attaccato con uno strano raggio psichico. Questa mossa varia nel danno, passando dal 50% al 150% del livello di chi la usa."
   },
   "splash": {
     "name": "Splash",
     "effect": "Chi la usa sguazza nell’acqua, senza ottenere alcun effetto."
   },
   "acidArmor": {
-    "name": "Scudo Acido"
+    "name": "Scudo Acido",
+    "effect": "Chi la usa altera la sua struttura cellulare per auto-liquefarsi, aumentando drasticamente la sua statistica di Difesa."
   },
   "crabhammer": {
-    "name": "Martellata"
+    "name": "Martellata",
+    "effect": "Il bersaglio viene martellato con una grande pinza. La chance di critico di questa mossa è aumentata di 1 livello."
   },
   "explosion": {
     "name": "Esplosione",
     "effect": "Chi la usa esplode per infliggere danni agli altri Pokémon attorno, ma va KO."
   },
   "furySwipes": {
-    "name": "Sfuriate"
+    "name": "Sfuriate",
+    "effect": "Chi la usa attacca rastrellando il bersaglio con artigli, falci, o cose simili. Questa mossa colpisce 2-5 volte di fila."
   },
   "bonemerang": {
-    "name": "Ossomerang"
+    "name": "Ossomerang",
+    "effect": "Chi la usa lancia l'osso che ha con sé. L'osso ruota intorno per danneggiare il bersaglio due volte—ancora e ancora."
   },
   "rest": {
-    "name": "Riposo"
+    "name": "Riposo",
+    "effect": "Chi la usa si addormenta per 2 turni. Ciò fa recuperare a chi la usa degli HP e lo cura da qualsiasi condizione di stato. Questa mossa fallisce se gli HP di chi la usa sono pieni."
   },
   "rockSlide": {
-    "name": "Frana"
+    "name": "Frana",
+    "effect": "Grandi massi vengono lanciati al Pokémon avversario per infliggergli danno. Questa mossa ha un 30% di chance di far tentennare il bersaglio."
   },
   "hyperFang": {
-    "name": "Iperzanna"
+    "name": "Iperzanna",
+    "effect": "Chi la usa morde fortemente il bersaglio con le sue zanne frontali affilate. Questa mossa ha un 10% di chance di far tentennare il bersaglio."
   },
   "sharpen": {
     "name": "Affilatore",
@@ -628,73 +640,92 @@
     "effect": "Il tipo di chi la usa muta in quello di una sua mossa a caso."
   },
   "triAttack": {
-    "name": "Tripletta"
+    "name": "Tripletta",
+    "effect": "Chi la usa attacca con tre simultanei raggi. Questa mossa ha un 20% di chance di bruciare, congelare o paralizzare il bersaglio."
   },
   "superFang": {
-    "name": "Superzanna"
+    "name": "Superzanna",
+    "effect": "Chi la usa morde fortemente il bersaglio con le sue zanne frontali affilate. Ciò infligge danno al bersaglio pari a 1/2 dei suoi HP rimasti."
   },
   "slash": {
-    "name": "Lacerazione"
+    "name": "Lacerazione",
+    "effect": "Il bersaglio viene attaccato con un taglio di artigli, falci, o cose simili. La chance di critico di questa mossa è aumentata di 1 livello."
   },
   "substitute": {
-    "name": "Sostituto"
+    "name": "Sostituto",
+    "effect": "Chi la usa crea un sostituto di se stesso perdendo 1/4 dei suoi HP rimanenti. Il sostituto serve come esca di chi la usa, e sparirà quando prende danno pari all'ammontare degli HP persi da colui che lo ha creato."
   },
   "struggle": {
-    "name": "Scontro"
+    "name": "Scontro",
+    "effect": "Questo attacco viene usato disperatamente solo se chi la usa non ha più PP. Chi la usa perde 1/3 dei suoi HP rimanenti."
   },
   "sketch": {
-    "name": "Schizzo"
+    "name": "Schizzo",
+    "effect": "Questa mossa permette a chi la usa di imparare per sempre l'ultima mossa usata dal bersaglio. Una volta imparata, Schizzo sparisce."
   },
   "tripleKick": {
-    "name": "Triplocalcio"
+    "name": "Triplocalcio",
+    "effect": "Tre attacchi consecutivi che aumentano in potenza di 10 con ogni attacco consecutivo. Quando un calcio manca il bersaglio, la mossa finisce."
   },
   "thief": {
     "name": "Furto",
     "effect": "L’utilizzatore attacca e contemporaneamente cerca di rubare lo strumento tenuto dal nemico. Questa mossa ha il 30% di probabilità di rubare uno degli stumenti tenuti dal bersaglio."
   },
   "spiderWeb": {
-    "name": "Ragnatela"
+    "name": "Ragnatela",
+    "effect": "Chi la usa intrappola il bersaglio con della seta sottile e appiccicosa in modo tale che non fugge o viene cambiato in battaglia."
   },
   "mindReader": {
     "name": "Leggimente",
     "effect": "Il Pokémon percepisce i movimenti del nemico con la mente per garantire il successo della mossa successiva."
   },
   "nightmare": {
-    "name": "Incubo"
+    "name": "Incubo",
+    "effect": "Un bersaglio che sta dormendo vede un incubo che infligge danno pari a 1/4 dei suoi HP massimi alla fine di ogni turno. Ciò fallisce se il bersaglio non sta dormendo."
   },
   "flameWheel": {
-    "name": "Ruotafuoco"
+    "name": "Ruotafuoco",
+    "effect": "Chi la usa attacca avvolgendosi in fiamme e caricando contro il bersaglio. Questa mossa ha un 10% di chance di bruciare il bersaglio, e scongela chi la usa se è congelato."
   },
   "snore": {
-    "name": "Russare"
+    "name": "Russare",
+    "effect": "Se chi la usa sta dormendo, attacca con un aspro rumore. Questa mossa ha un 30% di chance di far tentennare il bersaglio."
   },
   "curse": {
-    "name": "Maledizione"
+    "name": "Maledizione",
+    "effect": "Chi la usa aumenta le sue statistiche di Attacco e Difesa in cambio di ridurre la propria statistica di Velocità. Quando i tipi Spettro usano questa mossa, chi la usa perde 1/2 dei suoi HP massimi per infliggere una maledizione al bersaglio, infliggendogli danno pari a 1/4 dei suoi HP massimi alla fine di goni turno."
   },
   "flail": {
-    "name": "Flagello"
+    "name": "Flagello",
+    "effect": "Chi la usa si agita a caso per attaccare. Minori sono gli HP chi la usa ha, più grande è la potenza della mossa (variando tra 20 e 200)."
   },
   "conversion2": {
-    "name": "Conversione2"
+    "name": "Conversione2",
+    "effect": "Chi la usa cambia il suo tipo per diventare resistente al tipo della mossa che il bersaglio ha usato per ultimo."
   },
   "aeroblast": {
-    "name": "Aerocolpo"
+    "name": "Aerocolpo",
+    "effect": "Un vortice di aria viene lanciato al bersaglio per infliggergli danno. La chance di critico di questa mossa è aumentata di 1 livello."
   },
   "cottonSpore": {
-    "name": "Cottonspora"
+    "name": "Cottonspora",
+    "effect": "Chi la usa rilascia spore simili a cotone che si attaccano al Pokémon avversario. Ciò riduce drasticamente la loro statistica di Velocità."
   },
   "reversal": {
-    "name": "Contropiede"
+    "name": "Contropiede",
+    "effect": "Un attacco a piena potenza che diventa sempre più forte con meno HP chi la usa ha (passando tra 20 e 200)."
   },
   "spite": {
     "name": "Dispetto",
     "effect": "Chi la usa sfoga la propria rabbia sull’ultima mossa usata dal bersaglio e le sottrae quattro PP."
   },
   "powderSnow": {
-    "name": "Polneve"
+    "name": "Polneve",
+    "effect": "Chi la usa attacca i Pokémon avversari con una raffica agghiacciante di neve farinosa. Questa mossa ha un 10% di chance di congelare i bersagli."
   },
   "protect": {
-    "name": "Protezione"
+    "name": "Protezione",
+    "effect": "Questa mossa permette a chi la usa di proteggersi da tutti gli attacchi. Ad ogni uso consecutivo, la chance di successo di questa mossa diventa 1/2 di com'era prima."
   },
   "machPunch": {
     "name": "Pugnorapido",
@@ -713,17 +744,20 @@
     "effect": "Chi la usa bacia il nemico con una dolcezza angelica, confondendolo."
   },
   "bellyDrum": {
-    "name": "Panciamburo"
+    "name": "Panciamburo",
+    "effect": "Chi la usa perde 1/2 dei suoi HP massimi per massimizzare la sua statistica di Attacco. Questa mossa fallisce se chi la usa non ha abbastanza HP rimasti."
   },
   "sludgeBomb": {
-    "name": "Fangobomba"
+    "name": "Fangobomba",
+    "effect": "Chi la usa lancia del fango sporco al bersaglio per infliggergli danno. Questa mossa ha un 30% di chance di avvelenare il bersaglio."
   },
   "mudSlap": {
     "name": "Fangosberla",
     "effect": "Chi la usa butta fango in faccia al nemico per arrecargli danni e ridurne la precisione."
   },
   "octazooka": {
-    "name": "Octazooka"
+    "name": "Octazooka",
+    "effect": "Chi la usa attacca spruzzando inchiostro alla faccia del bersaglio. Questa mossa ha un 50% di chance di ridurre l'accuratezza del bersaglio."
   },
   "spikes": {
     "name": "Punte"
