@@ -50,7 +50,7 @@
       "description": "Tăng gấp bốn lần khả năng xảy ra trận chiến đôi, tối đa lên đến {{battleCount}} trận chiến."
     },
     "TempStatStageBoosterModifierType": {
-      "description": "Tăng chỉ số {{stat}} của tất cả thành viên trong nhóm lên {{amount}} trong tối đa 5 trận chiến.",
+      "description": "Tăng chỉ số {{stat}} của tất cả thành viên trong tổ đội lên {{amount}} trong tối đa 5 trận chiến.",
       "extra": {
         "stage": "1 bậc",
         "percentage": "20%"
@@ -172,10 +172,10 @@
       "name": "Thuốc Hồi Đầy Đủ"
     },
     "REVIVE": {
-      "name": "Kẹo Hồi Sinh"
+      "name": "Đá Hồi Sinh"
     },
     "MAX_REVIVE": {
-      "name": "Kẹo Hồi Sinh Max"
+      "name": "Đá Hồi Sinh Max"
     },
     "FULL_HEAL": {
       "name": "Thuốc Chữa Hiệu Ứng"
@@ -184,7 +184,7 @@
       "name": "Tro Thánh"
     },
     "REVIVER_SEED": {
-      "name": "Hạt Hồi Sinh",
+      "name": "Hạt Mầmt Táit Sinh",
       "description": "Hồi sinh Pokémon giữ vật phẩm với 1/2 HP khi bị bất tỉnh do trúng đòn trực diện."
     },
     "WHITE_HERB": {
@@ -310,7 +310,7 @@
     },
     "HEALING_CHARM": {
       "name": "Bùa Hồi Máu",
-      "description": "Tăng hiệu quả của các chiêu thức và vật phẩm hồi phục HP lên 10% (không bao gồm Kẹo Hồi Sinh)."
+      "description": "Tăng hiệu quả của các chiêu thức và vật phẩm hồi phục HP lên 10% (không bao gồm Đá Hồi Sinh)."
     },
     "CANDY_JAR": {
       "name": "Lọ Kẹo",
