@@ -77,7 +77,7 @@
   },
   "ownTempo": {
     "name": "Own Tempo",
-    "description": "The Pokémon sticks to its own tempo, preventing it from becoming confused and or being affected by Intimidate."
+    "description": "The Pokémon sticks to its own tempo, preventing it from becoming confused. It is also unaffected by Intimidate."
   },
   "suctionCups": {
     "name": "Suction Cups",
@@ -417,7 +417,7 @@
   },
   "superLuck": {
     "name": "Super Luck",
-    "description": "The Pokémon is so lucky that the critical-hit ratios of its moves are boosted by one stage."
+    "description": "The Pokémon is so lucky that its moves have their critical-hit ratio boosted by 1 stage."
   },
   "aftermath": {
     "name": "Aftermath",
@@ -545,11 +545,11 @@
   },
   "toxicBoost": {
     "name": "Toxic Boost",
-    "description": "When the Pokémon is poisoned or badly poisoned, the power of its physical moves are boosted by 50%."
+    "description": "When the Pokémon is poisoned or badly poisoned, the power of its physical moves is boosted by 50%."
   },
   "flareBoost": {
     "name": "Flare Boost",
-    "description": "When the Pokémon is burned, the power of its special moves are boosted by 50%."
+    "description": "When the Pokémon is burned, the power of its special moves is boosted by 50%."
   },
   "harvest": {
     "name": "Harvest",
@@ -637,7 +637,7 @@
   },
   "ironBarbs": {
     "name": "Iron Barbs",
-    "description": "When the Pokémon is hit by a contact move, its iron barbs damages the attacker equal to ⅛ of their max HP."
+    "description": "The Pokémon’s iron barbs damage attackers that hit it with contact moves for ⅛ of their max HP."
   },
   "zenMode": {
     "name": "Zen Mode",
@@ -961,7 +961,7 @@
   },
   "gulpMissile": {
     "name": "Gulp Missile",
-    "description": "When the Pokémon uses Surf or Dive, it catches prey in its mouth. Taking damage causes the Pokémon to spit its prey at the attacker, dealing ¼ of the their max HP. Depending on the caught prey, it will also lower the opponent’s Defense stat or inflict paralysis."
+    "description": "When the Pokémon uses Surf or Dive, it returns with prey. If the Pokémon is hit by a move, it spits out its prey at the attacker, dealing damage equal to ¼ of the attacker’s max HP. This also lowers the attacker’s Defense stat or paralyzes it, depending on the caught prey."
   },
   "stalwart": {
     "name": "Stalwart",
@@ -1033,7 +1033,7 @@
   },
   "quickDraw": {
     "name": "Quick Draw",
-    "description": "The Pokémon’s moves have a 30% chance of going first among moves of the same priority"
+    "description": "The Pokémon’s moves have a 30% chance of going first among moves of the same priority."
   },
   "unseenFist": {
     "name": "Unseen Fist",
