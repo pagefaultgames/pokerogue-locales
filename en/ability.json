@@ -17,7 +17,7 @@
   },
   "sturdy": {
     "name": "Sturdy",
-    "description": "If the Pokémon has full HP and takes a single hit that would knock it out, it will endure the hit with 1 HP. The Pokémon is also unaffected by one-hit KO moves."
+    "description": "If the Pokémon has full HP and takes damage from a move that would knock it out in one hit, it will endure the hit with 1 HP. The Pokémon is also immune to one-hit KO moves."
   },
   "damp": {
     "name": "Damp",
@@ -57,7 +57,7 @@
   },
   "insomnia": {
     "name": "Insomnia",
-    "description": "The Pokémon’s insomnia prevents it from becoming drowsy or falling asleep."
+    "description": "The Pokémon’s insomnia prevents it from becoming drowsy or being put to sleep."
   },
   "colorChange": {
     "name": "Color Change",
@@ -93,7 +93,7 @@
   },
   "roughSkin": {
     "name": "Rough Skin",
-    "description": "The Pokémon’s rough skin damages attackers that hit it with contact moves for ⅛ of their maximum HP."
+    "description": "The Pokémon’s rough skin damages attackers that hit it with contact moves for ⅛ of their max HP."
   },
   "wonderGuard": {
     "name": "Wonder Guard",
@@ -181,7 +181,7 @@
   },
   "pressure": {
     "name": "Pressure",
-    "description": "Puts opposing Pokémon under pressure, causing them to expend 1 more PP than usual when using moves against it."
+    "description": "Puts opposing Pokémon under pressure, causing them to expend 1 more PP when using moves against it."
   },
   "thickFat": {
     "name": "Thick Fat",
@@ -885,11 +885,11 @@
   },
   "receiver": {
     "name": "Receiver",
-    "description": "The Pokémon changes its Ability to match that of a defeated ally."
+    "description": "The Pokémon changes its Ability to match that of a defeated ally in a Double Battle."
   },
   "powerOfAlchemy": {
     "name": "Power of Alchemy",
-    "description": "The Pokémon changes its Ability to match that of a defeated ally."
+    "description": "The Pokémon changes its Ability to match that of a defeated ally in a Double Battle."
   },
   "beastBoost": {
     "name": "Beast Boost",
