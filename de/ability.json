@@ -180,10 +180,12 @@
     "description": "Das Pokémon erzeugt bei Kampfantritt für 5 Runden einen Sandsturm."
   },
   "pressure": {
-    "name": "Erzwinger"
+    "name": "Erzwinger",
+    "description": "Das Pokémon zwingt Gegner dazu, beim Einsatz von Attacken 1 AP zusätzlich zu verbrauchen."
   },
   "thickFat": {
-    "name": "Speckschicht"
+    "name": "Speckschicht",
+    "description": "Das Pokémon wird von einer dicken Fettschicht geschützt, was den durch Feuer- und Eis-Attacken erlittenen Schaden halbiert."
   },
   "earlyBird": {
     "name": "Frühwecker",
@@ -198,7 +200,8 @@
     "description": "Die Flucht vor wilden Pokémon gelingt immer."
   },
   "keenEye": {
-    "name": "Adlerauge"
+    "name": "Adlerauge",
+    "description": "Die scharfen Augen des Pokémon ignorieren Veränderungen am Ausweichwert des Ziels und verhindern, dass seine eigene Genauigkeit gesenkt wird."
   },
   "hyperCutter": {
     "name": "Scherenmacht",
@@ -317,7 +320,8 @@
     "description": "Dank seines eisernen Willens steigt die Initiative des Pokémon, wann immer es zurückschreckt."
   },
   "snowCloak": {
-    "name": "Schneemantel"
+    "name": "Schneemantel",
+    "description": "Bei Schnee oder Hagelsturm steigt der Ausweichwert des Pokémon um 25%. Das Pokémon nimmt keinen Schaden von Hagelstürmen."
   },
   "gluttony": {
     "name": "Völlerei",
@@ -452,7 +456,8 @@
     "description": "Das Pokémon zieht Wasser-Attacken an, erleidet dadurch aber keinen Schaden. Stattdessen steigt sein Spezial-Angriff."
   },
   "iceBody": {
-    "name": "Eishaut"
+    "name": "Eishaut",
+    "description": "Bei Schnee oder Hagel regeneriert das Pokémon nach und nach ¹⁄₁₆ der maximalen KP. Erleidet keinen Schaden durch Hagel."
   },
   "solidRock": {
     "name": "Felskern",
@@ -479,7 +484,8 @@
     "description": "Das Pokémon passt seinen Typ dem der getragenen Tafel an."
   },
   "flowerGift": {
-    "name": "Pflanzengabe"
+    "name": "Pflanzengabe",
+    "description": "Bei Sonnenschein steigen der Angriff und die Spezial-Verteidigung auf der Mitstreiterseite um 50%."
   },
   "badDreams": {
     "name": "Alptraum",
@@ -514,7 +520,8 @@
     "description": "Das Pokémon blockiert mit 30% Chance die Attacke, mit der ein Angreifer es getroffen hat."
   },
   "healer": {
-    "name": "Heilherz"
+    "name": "Heilherz",
+    "description": "Das Pokémon befreit Mitstreiter mit 50% Chance von Statusproblemen."
   },
   "friendGuard": {
     "name": "Freundeshut",
@@ -549,7 +556,8 @@
     "description": "Das Pokémon hat eine 50% Chance, nach dem Verzehr einer Beere eine weitere Beere zu erzeugen. Scheint die Sonne erhöht sich diese Chance auf 100 %."
   },
   "telepathy": {
-    "name": "Telepathie"
+    "name": "Telepathie",
+    "description": "Das Pokémon erkennt die Angriffe von Mitstreitern und weicht ihnen aus."
   },
   "moody": {
     "name": "Gefühlswippe",
@@ -572,7 +580,8 @@
     "description": "Die Verteidigung des Pokémon kann nicht gesenkt werden."
   },
   "sandRush": {
-    "name": "Sandscharrer"
+    "name": "Sandscharrer",
+    "description": "In Sandstürmen verdoppelt sich die Initiative des Pokémon. Das Pokémon nimmt in Sandstürmen keinen Schaden."
   },
   "wonderSkin": {
     "name": "Wunderhaut",
@@ -623,7 +632,8 @@
     "description": "Die Fähigkeit ermöglicht dem Pokémon einen Erstschlag mit Status-Attacken. Unlicht-Pokémon sind immun gegen diese Attacken."
   },
   "sandForce": {
-    "name": "Sandgewalt"
+    "name": "Sandgewalt",
+    "description": "In Sandstürmen steigt die Stärke von Gesteins-, Boden- und Stahl-Attacken des Pokémon um 30%. Das Pokémon nimmt in Sandstürmen keinen Schaden."
   },
   "ironBarbs": {
     "name": "Eisenstachel",
@@ -634,7 +644,8 @@
     "description": "Fallen die KP des Pokémon auf die Hälfte des Maximalwerts oder weniger, wechselt es seine Form."
   },
   "victoryStar": {
-    "name": "Triumphstern"
+    "name": "Triumphstern",
+    "description": "Die Genauigkeit der Pokémon auf der Mitstreiterseite steigt um 10%."
   },
   "turboblaze": {
     "name": "Turbobrand",
@@ -649,7 +660,8 @@
     "description": "Die Pokémon auf der Mitstreiterseite sind vor Effekten geschützt, die den Einsatz von Attacken verhindern."
   },
   "flowerVeil": {
-    "name": "Blütenhülle"
+    "name": "Blütenhülle",
+    "description": "Mitstreiter des Pokémon, die dem Typ Pflanze angehören, sind vor dem Senken ihrer Statuswerte sowie vor Statusproblemen geschützt."
   },
   "cheekPouch": {
     "name": "Backentaschen",
@@ -684,7 +696,8 @@
     "description": "Normal-Attacken des Pokémon nehmen den Typ Eis an und ihre Stärke steigt um 20%."
   },
   "sweetVeil": {
-    "name": "Zuckerhülle"
+    "name": "Zuckerhülle",
+    "description": "Die Pokémon auf der Mitstreiterseite können nicht in Schlaf versetzt werden."
   },
   "stanceChange": {
     "name": "Taktikwechsel",
@@ -723,7 +736,8 @@
     "description": "Normal-Attacken des Pokémon nehmen den Typ Flug an und ihre Stärke steigt 20%."
   },
   "parentalBond": {
-    "name": "Familienbande"
+    "name": "Familienbande",
+    "description": "Das Pokémon greift zweimal an, wobei der zweite Treffer 25% des üblichen Schadens verursacht. Serien-Attacken und Attacken, die mehrere Pokémon treffen, werden ignoriert."
   },
   "darkAura": {
     "name": "Dunkelaura",
@@ -790,7 +804,8 @@
     "description": "Fallen die KP des Pokémon durch einen Angriff auf die Hälfte des Maximalwerts oder weniger, steigt sein Spezial-Angriff."
   },
   "slushRush": {
-    "name": "Schneescharrer"
+    "name": "Schneescharrer",
+    "description": "Verdoppelt die Initiative des Pokémon bei Schnee oder Hagelsturm. Das Pokémon erleidet keinen Schaden durch Hagel."
   },
   "longReach": {
     "name": "Langstrecke",
@@ -801,7 +816,8 @@
     "description": "Alle Geräusch-Attacken des Pokémon nehmen den Typ Wasser an."
   },
   "triage": {
-    "name": "Heilwandel"
+    "name": "Heilwandel",
+    "description": "Die Fähigkeit erhöht die Priorität von Attacken, welche die KP des Anwenders direkt regenerieren, um 3."
   },
   "galvanize": {
     "name": "Elektrohaut",
@@ -836,7 +852,8 @@
     "description": "Das Pokémon befindet sich ununterbrochen im Halbschlaf und wacht nie vollständig auf. Es kann jedoch im Schlaf angreifen. Es wird so behandelt, als würde es unter einem Statusproblem leiden."
   },
   "queenlyMajesty": {
-    "name": "Majestät"
+    "name": "Majestät",
+    "description": "Das Pokémon schüchtert Gegner ein und hindert sie so daran, Erstschlag-Attacken gegen die Mitstreiterseite einzusetzen."
   },
   "innardsOut": {
     "name": "Magenkrempler",
@@ -847,14 +864,16 @@
     "description": "Das Pokémon kann direkt im Anschluss an die Tanz-Attacke eines anderen Pokémon dieselbe Attacke ebenfalls einsetzen."
   },
   "battery": {
-    "name": "Batterie"
+    "name": "Batterie",
+    "description": "Die Stärke der Spezial-Attacken der Mitstreiter des Pokémon steigt um 30%."
   },
   "fluffy": {
     "name": "Flauschigkeit",
     "description": "Halbiert den Schaden, den es durch direkte Attacken nimmt, aber verdoppelt dafür den durch Feuer-Attacken erlittenen Schaden."
   },
   "dazzling": {
-    "name": "Buntkörper"
+    "name": "Buntkörper",
+    "description": "Das Pokémon überrascht Gegner und hindert sie so daran, Erstschlag-Attacken gegen die Mitstreiterseite einzusetzen."
   },
   "soulHeart": {
     "name": "Seelenherz",
@@ -865,10 +884,12 @@
     "description": "Senkt bei Berührung im Zuge eines Angriffs die Initiative des Angreifers."
   },
   "receiver": {
-    "name": "Receiver"
+    "name": "Receiver",
+    "description": "Wird einer seiner Mitstreiter besiegt, erhält es dessen Fähigkeit."
   },
   "powerOfAlchemy": {
-    "name": "Chemiekraft"
+    "name": "Chemiekraft",
+    "description": "Wird einer seiner Mitstreiter besiegt, erhält es dessen Fähigkeit."
   },
   "beastBoost": {
     "name": "Bestien-Boost",
@@ -971,7 +992,8 @@
     "description": "Der Eisblock um seinen Kopf blockt einen physischen Angriff ab, was jedoch einen Formwechsel bewirkt. Durch Schnee wird der Eisblock wiederhergestellt."
   },
   "powerSpot": {
-    "name": "Kraftquelle"
+    "name": "Kraftquelle",
+    "description": "Das Pokémon erhöht bei direkt benachbarten Pokémon die Stärke von Attacken um 30%."
   },
   "mimicry": {
     "name": "Mimese",
@@ -982,7 +1004,8 @@
     "description": "Hebt bei Kampfantritt die Wirkung von Lichtschild, Reflektor und Auroraschleier auf Mitstreiter- und Gegnerseite auf."
   },
   "steelySpirit": {
-    "name": "Stählerner Wille"
+    "name": "Stählerner Wille",
+    "description": "Die Stärke von Stahl-Angriffen auf der Mitstreiterseite steigt um 50%."
   },
   "perishBody": {
     "name": "Unheilskörper",
@@ -1001,7 +1024,8 @@
     "description": "Solange das Pokémon am Kampf beteiligt ist, werden die Fähigkeiten aller anderen Pokémon unterdrückt oder aufgehoben."
   },
   "pastelVeil": {
-    "name": "Pastellhülle"
+    "name": "Pastellhülle",
+    "description": "Die Pokémon auf der Mitstreiterseite sind vor Vergiftung geschützt."
   },
   "hungerSwitch": {
     "name": "Heißhunger",
@@ -1148,14 +1172,16 @@
     "description": "Bei Kampfantritt steigen der Angriff und Spezial-Angriff des Pokémon um 10% für jedes bis dahin besiegte Team-Mitglied."
   },
   "costar": {
-    "name": "Synchronauftritt"
+    "name": "Synchronauftritt",
+    "description": "Das Pokémon kopiert bei Kampfantritt die Statusveränderungen eines Mitstreiters."
   },
   "toxicDebris": {
     "name": "Giftbelag",
     "description": "Erleidet das Pokémon Schaden durch eine physische Attacke, verstreut es giftige Stacheln auf der gegnerischen Seite."
   },
   "armorTail": {
-    "name": "Schweifrüstung"
+    "name": "Schweifrüstung",
+    "description": "Der rätselhafte Schweif, der den Kopf des Pokémon umhüllt, hindert Gegner daran, Erstschlag-Attacken gegen die Mitstreiterseite einzusetzen."
   },
   "earthEater": {
     "name": "Bodenschmaus",
@@ -1221,9 +1247,17 @@
     "name": "Drachenschicht",
     "description": "Normal-Attacken des Pokémon nehmen den Typ Drache an und ihre Stärke wird um 20 % erhöht."
   },
+  "eelevate": {
+    "name": "Emporwindung",
+    "description": "Das Pokémon gilt als nicht auf dem Boden befindlich und Boden-Attacken sowie die Zustände Stachler, Giftspitzen und Klebenetz haben keine Wirkung auf es. Der höchste Statuswert des Pokémon wird um 1 Stufe erhöht, wenn es ein anderes Pokémon mit einem Angriff besiegt."
+  },
   "megaSol": {
     "name": "Mega-Solarladung",
     "description": "Das Pokémon kann Attacken wie bei Sonnenschein einsetzen, auch wenn nicht das Wetter Sonnenschein herrscht."
+  },
+  "fireMane": {
+    "name": "Flammenmähne",
+    "description": "Die Stärke von Feuer-Attacken des Pokémon wird um 50 % erhöht."
   },
   "spicySpray": {
     "name": "Chilispritzer",
