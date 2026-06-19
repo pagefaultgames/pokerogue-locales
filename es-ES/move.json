@@ -484,25 +484,32 @@
     "effect": "Arroja un huevo enorme al objetivo con gran fuerza."
   },
   "lick": {
-    "name": "Lengüetazo"
+    "name": "Lengüetazo",
+    "effect": "Una lengua ataca al objetivo. Tiene una probabilidad del 30% de envenenar al objetivo."
   },
   "smog": {
-    "name": "Polución"
+    "name": "Polución",
+    "effect": "Lanza un ataque con gases tóxicos. Tiene una probabilidad del 30% de envenenar al objetivo."
   },
   "sludge": {
-    "name": "Residuos"
+    "name": "Residuos",
+    "effect": "Arroja residuos al objetivo. Tiene una probabilidad del 30% de envenenar al objetivo."
   },
   "boneClub": {
-    "name": "Hueso Palo"
+    "name": "Hueso Palo",
+    "effect": "Aporrea con un hueso. Tiene una probabilidad del 10% de hacer retroceder al objetivo."
   },
   "fireBlast": {
-    "name": "Llamarada"
+    "name": "Llamarada",
+    "effect": "Llama intensa que chamusca lo que encuentre. Tiene una probabilidad del 10% de quemar al objetivo."
   },
   "waterfall": {
-    "name": "Cascada"
+    "name": "Cascada",
+    "effect": "Embiste con un gran impulso. Tiene una probabilidad del 20% de hacer retroceder al objetivo."
   },
   "clamp": {
-    "name": "Tenaza"
+    "name": "Tenaza",
+    "effect": "Atrapa y atenaza con fuerza con su concha. Durnate 4-5 turnos, el objetivo recibe un daño equivalente a ⅛ de sus PS máximos al final de cada turno."
   },
   "swift": {
     "name": "Meteoros",
@@ -513,53 +520,68 @@
     "effect": "El usuario se prepara y sube su defensa en el primer turno y en el segundo arremete con un cabezazo."
   },
   "spikeCannon": {
-    "name": "Clavo Cañón"
+    "name": "Clavo Cañón",
+    "effect": "Lanza finas púas que hieren de 2-5 veces."
   },
   "constrict": {
-    "name": "Restricción"
+    "name": "Restricción",
+    "effect": "Ataca con largos tentáculos o zarcillos. Tiene una probabilidad del 10% de reducir en 1 nivel la velocidad del objetivo."
   },
   "amnesia": {
-    "name": "Amnesia"
+    "name": "Amnesia",
+    "effect": "El usuario olvida sus preocupaciones y aumenta en 2 niveles la defensa especial."
   },
   "kinesis": {
     "name": "Kinético",
     "effect": "Dobla una cuchara para distraer al objetivo y reducir su precisión."
   },
   "softBoiled": {
-    "name": "Ovocuración"
+    "name": "Ovocuración",
+    "effect": "Restaura la mitad de los PS máximos del usuario."
   },
   "highJumpKick": {
-    "name": "Patada Salto Alta"
+    "name": "Patada Salto Alta",
+    "effect": "El usuario salta muy alto y da un rodillazo. El usuario recibe daño equivalente a la mitad de sus PS máximos\nsi falla."
   },
   "glare": {
-    "name": "Deslumbrar"
+    "name": "Deslumbrar",
+    "effect": "Intimida y asusta al objetivo con la mirada para dejarlo paralizado."
   },
   "dreamEater": {
-    "name": "Comesueños"
+    "name": "Comesueños",
+    "effect": "Restaura al usuario ½ del daño causado a un objetivo dormido."
   },
   "poisonGas": {
-    "name": "Gas Venenoso"
+    "name": "Gas Venenoso",
+    "effect": "Lanza una nube de gas tóxico al objetivo. Produce envenenamiento."
   },
   "barrage": {
-    "name": "Bombardeo"
+    "name": "Bombardeo",
+    "effect": "Arroja esferas al objetivo entre 2-5 veces seguidas."
   },
   "leechLife": {
-    "name": "Chupavidas"
+    "name": "Chupavidas",
+    "effect": "Restaura al usuario ½ del daño causado al objetivo."
   },
   "lovelyKiss": {
-    "name": "Beso Amoroso"
+    "name": "Beso Amoroso",
+    "effect": "Intimida al objetivo con una cara que asusta y le da un beso que lo deja dormido."
   },
   "skyAttack": {
-    "name": "Ataque Aéreo"
+    "name": "Ataque Aéreo",
+    "effect": "El usuario carga en el primer turno y desciende en picado en el siguiente. Tiene una probabilidad del 30 % de amedrentar al objetivo. Aumenta 1 nivel la probabilidad de asestar golpes críticos del usuario durante este ataque."
   },
   "transform": {
-    "name": "Transformación"
+    "name": "Transformación",
+    "effect": "El usuario se transforma en una copia del objetivo, con los mismos movimientos. Copia todos los valores de las características del objetivo a excepción de los PS. Los movimientos copiados tienen 5 PP."
   },
   "bubble": {
-    "name": "Burbuja"
+    "name": "Burbuja",
+    "effect": "Lanza burbujas a los contrincantes. Tiene una probabilidad del 10% de reducir en 1 nivel la velocidad del objetivo."
   },
   "dizzyPunch": {
-    "name": "Puño Mareo"
+    "name": "Puño Mareo",
+    "effect": "Ataca con rítmicos puñetazos. Tiene una probabilidad del 20 % de confundir al objetivo."
   },
   "spore": {
     "name": "Espora",
@@ -570,36 +592,44 @@
     "effect": "Luz cegadora que baja la precisión del objetivo."
   },
   "psywave": {
-    "name": "Psicoonda"
+    "name": "Psicoonda",
+    "effect": "Ataque con una onda de energía de intensidad variable. Causa un daño entre 50% y 150% del nivel del usuario."
   },
   "splash": {
     "name": "Salpicadura",
     "effect": "No tiene ningún efecto. Solo salpica."
   },
   "acidArmor": {
-    "name": "Armadura Ácida"
+    "name": "Armadura Ácida",
+    "effect": "Transforma la estructura celular para hacerse líquido y aumenta en 2 niveles la defensa."
   },
   "crabhammer": {
-    "name": "Martillazo"
+    "name": "Martillazo",
+    "effect": "Golpea con fuerza con una pinza enorme. Aumenta 1 nivel la probabilidad de asestar golpes críticos del usuario durante este ataque."
   },
   "explosion": {
     "name": "Explosión",
     "effect": "El usuario causa una grandísima explosión y hiere a los Pokémon adyacentes. El usuario se debilita de inmediato."
   },
   "furySwipes": {
-    "name": "Golpes Furia"
+    "name": "Golpes Furia",
+    "effect": "Araña rápidamente 2-5 veces."
   },
   "bonemerang": {
-    "name": "Huesomerang"
+    "name": "Huesomerang",
+    "effect": "Lanza un hueso a modo de bumerán que golpea dos veces."
   },
   "rest": {
-    "name": "Descanso"
+    "name": "Descanso",
+    "effect": "Restaura todos los PS y cura todos los problemas de estado del usuario, que se duerme los 2 turnos siguientes."
   },
   "rockSlide": {
-    "name": "Avalancha"
+    "name": "Avalancha",
+    "effect": "Lanza grandes pedruscos. Tiene una probabilidad del 30% de amedrentar al objetivo."
   },
   "hyperFang": {
-    "name": "Hipercolmillo"
+    "name": "Hipercolmillo",
+    "effect": "Aporrea con agudos colmillos. Tiene una probabilidad del 10% de hacer retroceder al objetivo."
   },
   "sharpen": {
     "name": "Afilar",
@@ -610,63 +640,80 @@
     "effect": "Cambia el tipo del usuario por el del primer movimiento en su lista."
   },
   "triAttack": {
-    "name": "Triataque"
+    "name": "Triataque",
+    "effect": "Ataque con tres rayos de luz. Tiene una probabilidad del 20% de paralizar, quemar o congelar al objetivo."
   },
   "superFang": {
-    "name": "Superdiente"
+    "name": "Superdiente",
+    "effect": "Asesta una dentellada con sus afilados incisivos que inflige daño igual a la mitad de los PS del objetivo."
   },
   "slash": {
-    "name": "Cuchillada"
+    "name": "Cuchillada",
+    "effect": "Ataca con cuchillas o con pinzas. Aumenta 1 nivel la probabilidad de asestar golpes críticos del usuario durante este ataque."
   },
   "substitute": {
-    "name": "Sustituto"
+    "name": "Sustituto",
+    "effect": "El usuario sacrifica 1/4 de sus PS máximos para crear un sustituto. El sustituto recibirá los movimientos dirigidos al usuario en su lugar y desaparecerá cuando haya recibido la cantidad de daño equivalente a los PS sacrificados para crearlo."
   },
   "struggle": {
-    "name": "Forcejeo"
+    "name": "Forcejeo",
+    "effect": "Solo se usa como último recurso al acabarse los PP. El usuario pierde ¼ de sus PS máximos."
   },
   "sketch": {
-    "name": "Esquema"
+    "name": "Esquema",
+    "effect": "Aprende de forma permanente el último movimiento utilizado por el objetivo. Es de un solo uso."
   },
   "tripleKick": {
-    "name": "Triple Patada"
+    "name": "Triple Patada",
+    "effect": "Propina hasta tres patadas seguidas. Cada patada aumenta en 10 su poder, pero si una falla el movimiento se detiene."
   },
   "thief": {
     "name": "Ladrón",
     "effect": "El usuario ataca e intenta robar al objetivo simultáneamente. Este movimiento tiene un 30% de robarle uno de los objetos al objetivo."
   },
   "spiderWeb": {
-    "name": "Telaraña"
+    "name": "Telaraña",
+    "effect": "Enreda al objetivo para evitar que abandone el combate o sea cambiado."
   },
   "mindReader": {
     "name": "Telépata",
     "effect": "El usuario adivina los movimientos del objetivo para hacer que su siguiente ataque no falle."
   },
   "nightmare": {
-    "name": "Pesadilla"
+    "name": "Pesadilla",
+    "effect": "El objetivo dormido sufre una pesadilla que le hace perder ¼ de sus PS máximos cada turno. Falla si el objetivo no está dormido."
   },
   "flameWheel": {
-    "name": "Rueda Fuego"
+    "name": "Rueda Fuego",
+    "effect": "Ataca envuelto en fuego. Tiene una probabilidad del 10 % de quemar al objetivo y descongela al usuario si está congelado."
   },
   "snore": {
-    "name": "Ronquido"
+    "name": "Ronquido",
+    "effect": "Fuerte ronquido que solo puede usarse dormido. Tiene una probabilidad del 30 % de hacer retroceder al objetivo."
   },
   "curse": {
-    "name": "Maldición"
+    "name": "Maldición",
+    "effect": "Reduce 1 nivel la Velocidad del usuario y aumenta 1 nivel su Ataque y su Defensa. Si el usuario es de tipo Fantasma, sacrifica la mitad de los PS máximos del usuario para provocar una maldición en el objetivo, dañándolo por ¼ de sus PS máximos al final de cada turno."
   },
   "flail": {
-    "name": "Azote"
+    "name": "Azote",
+    "effect": "Ataca de forma frenética. Cuantos menos PS tenga el usuario, mayor será su poder (oscilando entre 20 y 200)."
   },
   "conversion2": {
-    "name": "Conversión 2"
+    "name": "Conversión 2",
+    "effect": "El usuario cambia de tipo para hacerse resistente al último tipo de movimiento usado por el objetivo."
   },
   "aeroblast": {
-    "name": "Aerochorro"
+    "name": "Aerochorro",
+    "effect": "Lanza un chorro de aire. Aumenta 1 nivel la probabilidad de asestar golpes críticos del usuario durante este ataque."
   },
   "cottonSpore": {
-    "name": "Esporagodón"
+    "name": "Esporagodón",
+    "effect": "Adhiere esporas a los rivales para reducir en 2 niveles su velocidad."
   },
   "reversal": {
-    "name": "Inversión"
+    "name": "Inversión",
+    "effect": "Ataque desesperado que aumenta de poder cuantos menos PS tenga el usuario (oscilando entre 20 y 200)."
   },
   "spite": {
     "name": "Rencor",
