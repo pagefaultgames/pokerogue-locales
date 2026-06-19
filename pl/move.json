@@ -1,15 +1,24 @@
 {
+  "megaPunch": {
+    "name": "Mega Pięść"
+  },
   "firePunch": {
-    "name": "Ognista Pięść"
+    "name": "Ognista Pięść",
+    "effect": "Przeciwnik zostaje trafiony ognistą pięścią. Atak ma 10% szansy poparzyć cel."
   },
   "icePunch": {
-    "name": "Lodowa Pięść"
+    "name": "Lodowa Pięść",
+    "effect": "Przeciwnik zostaje trafiony pięścią zimną jak lód. Atak ma 10% szansy zamrozić cel."
   },
   "thunderPunch": {
-    "name": "Burzowa Pięść"
+    "name": "Burzowa Pięść",
+    "effect": "Przeciwnik zostaje trafiony elektryczną pięścią. Atak ma 10% szansy sparaliżować cel."
   },
   "scratch": {
     "name": "Drapnięcie"
+  },
+  "guillotine": {
+    "name": "Egzekucja"
   },
   "cut": {
     "name": "Cięcie"
@@ -20,6 +29,16 @@
   "stomp": {
     "name": "Stąpnięcie"
   },
+  "megaKick": {
+    "name": "Mega Kop"
+  },
+  "jumpKick": {
+    "name": "Kop z Wyskoku",
+    "effect": "Pokémon wyskakuje w powietrze i wymierza przeciwnikowi kopnięcie. Jeśli atak nie trafi, użytkownik traci ½ maksymalanego życia."
+  },
+  "furyAttack": {
+    "name": "Napad Furii"
+  },
   "bite": {
     "name": "Ugryzienie"
   },
@@ -29,6 +48,10 @@
   "sing": {
     "name": "Śpiew"
   },
+  "supersonic": {
+    "name": "Ultradźwięk",
+    "effect": "Pokémon wytwarza dziwne fale dźwiękowe, które mylą przeciwnika."
+  },
   "acid": {
     "name": "Kwas"
   },
@@ -36,13 +59,33 @@
     "name": "Miotacz Ognia"
   },
   "mist": {
-    "name": "Mgła"
+    "name": "Mgła",
+    "effect": "Pokémon otacza siebie i swoich sojuszników gęstą mgłą, która zapobiega obniżaniu ich statystyk przez 5 tur."
+  },
+  "peck": {
+    "name": "Dziobnięcie"
   },
   "counter": {
     "name": "Kontra"
   },
   "growth": {
     "name": "Wzrost"
+  },
+  "poisonPowder": {
+    "name": "Trujący Pył"
+  },
+  "sleepPowder": {
+    "name": "Pył Nasenny"
+  },
+  "dragonRage": {
+    "name": "Smocza Furia",
+    "effect": "Cel zostaje trafiony falą czystej złości. Atak zawsze zadaje 40 obrażeń."
+  },
+  "thunderbolt": {
+    "name": "Błyskawica"
+  },
+  "thunder": {
+    "name": "Burza"
   },
   "rockThrow": {
     "name": "Rzut Kamieniem"
@@ -54,7 +97,8 @@
     "name": "Hipnoza"
   },
   "meditate": {
-    "name": "Medytacja"
+    "name": "Medytacja",
+    "effect": "Pokemon medytując budzi ukrytą w głębi swojego ciała moc i zwiększa swój Atak."
   },
   "smokescreen": {
     "name": "Zasłona Dymna"
