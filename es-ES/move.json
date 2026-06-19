@@ -697,7 +697,7 @@
   },
   "flail": {
     "name": "Azote",
-    "effect": "Ataca de forma frenética. Cuantos menos PS tenga el usuario, mayor será su poder (oscilando entre 20 y 200)."
+    "effect": "Ataca de forma frenética. Tiene mayor potencia cuantos menos PS tenga el usuario, con un rango entre 20 y 200."
   },
   "conversion2": {
     "name": "Conversión 2",
@@ -713,17 +713,19 @@
   },
   "reversal": {
     "name": "Inversión",
-    "effect": "Ataque desesperado que aumenta de poder cuantos menos PS tenga el usuario (oscilando entre 20 y 200)."
+    "effect": "Ataque desesperado que tiene mayor potencia cuantos menos PS tenga el usuario, con un rango entre 20 y 200."
   },
   "spite": {
     "name": "Rencor",
     "effect": "Da rienda suelta a su rencor para reducir 4 PP del último movimiento usado por el objetivo."
   },
   "powderSnow": {
-    "name": "Nieve Polvo"
+    "name": "Nieve Polvo",
+    "effect": "Lanza una gélida ráfaga de nieve en polvo. Tiene una probabilidad del 10 % de congelar a los objetivos."
   },
   "protect": {
-    "name": "Protección"
+    "name": "Protección",
+    "effect": "Protege al usuario de los movimientos de los demás Pokémon durante ese turno. Con cada uso consecutivo, la probabilidad de éxito del movimiento se reduce a ⅓ con respecto a la probabilidad anterior."
   },
   "machPunch": {
     "name": "Ultrapuño",
@@ -742,52 +744,64 @@
     "effect": "Da un beso con tal dulzura que causa confusión."
   },
   "bellyDrum": {
-    "name": "Tambor"
+    "name": "Tambor",
+    "effect": "Sacrifica la mitad de los PS máximos del usuario para aumentar hasta el sexto nivel su Ataque. Falla si el usuario no tiene suficientes PS."
   },
   "sludgeBomb": {
-    "name": "Bomba Lodo"
+    "name": "Bomba Lodo",
+    "effect": "Arroja residuos al objetivo. Tiene una probabilidad del 30% de envenenar al objetivo."
   },
   "mudSlap": {
     "name": "Bofetón Lodo",
     "effect": "Echa lodo en la cara del objetivo para infligirle daño y reducir su precisión."
   },
   "octazooka": {
-    "name": "Pulpocañón"
+    "name": "Pulpocañón",
+    "effect": "Dispara tinta a la cara. Tiene una probabilidad del 50% de reducir la precisión del objetivo."
   },
   "spikes": {
-    "name": "Púas"
+    "name": "Púas",
+    "effect": "Esparce púas alrededor del equipo rival que hieren en ⅛ de sus PS máximos a los Pokémon rivales que entran en combate. El daño aumenta por cada capa de Púas, hasta un total de 3. Pokémon de tipo Volador y con Levitación no se ven afectados."
   },
   "zapCannon": {
-    "name": "Electrocañón"
+    "name": "Electrocañón",
+    "effect": "Dispara una descarga eléctrica que causa daño y siempre causa parálisis."
   },
   "foresight": {
     "name": "Profecía",
     "effect": "Permite atacar con cualquier movimiento a objetivos de tipo Fantasma y golpear a Pokémon evasivos."
   },
   "destinyBond": {
-    "name": "Mismo Destino"
+    "name": "Mismo Destino",
+    "effect": "Si el usuario se debilita por un ataque rival antes de usar otro movimiento, el Pokémon rival se debilitará también. Puede fallar si se usa repetidamente. Pokémon Jefe son inmunes a este movimiento."
   },
   "perishSong": {
-    "name": "Canto Mortal"
+    "name": "Canto Mortal",
+    "effect": "Si un Pokémon escucha este canto y no es cambiado por otro en 3 turnos, acaba debilitándose. Pokémon Jefe son inmunes a este movimiento."
   },
   "icyWind": {
     "name": "Viento Hielo",
     "effect": "Ataque con aire helado que reduce la velocidad del objetivo."
   },
   "detect": {
-    "name": "Detección"
+    "name": "Detección",
+    "effect": "Protege al usuario de los movimientos de los demás Pokémon durante ese turno. Con cada uso consecutivo, la probabilidad de éxito del movimiento se reduce a ⅓ con respecto a la probabilidad anterior."
   },
   "boneRush": {
-    "name": "Ataque Óseo"
+    "name": "Ataque Óseo",
+    "effect": "Hueso en ristre, aporrea al objetivo 2-5 veces seguidas."
   },
   "lockOn": {
-    "name": "Fijar Blanco"
+    "name": "Fijar Blanco",
+    "effect": "Fija el blanco para que el siguiente ataque no falle."
   },
   "outrage": {
-    "name": "Enfado"
+    "name": "Enfado",
+    "effect": "El usuario ataca enfurecido durante 2-3 turnos y, después, se queda confuso."
   },
   "sandstorm": {
-    "name": "Tormenta de Arena"
+    "name": "Tormenta de Arena",
+    "effect": "Tormenta de arena que dura 5 turnos y hiere por ¹⁄₁₆ de sus PS máximos a todos, excepto a los de tipo Roca, Tierra y Acero. También aumenta un 50% la defensa especial de los de tipo Roca."
   },
   "gigaDrain": {
     "name": "Gigadrenado"
