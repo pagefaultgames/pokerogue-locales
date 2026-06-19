@@ -260,13 +260,16 @@
     "effect": "Picotazo giratorio y perforador muy potente."
   },
   "submission": {
-    "name": "Sumisión"
+    "name": "Sumisión",
+    "effect": "El usuario se lanza al suelo con el oponente en brazos. El usuario recibe daño igual al ¼ del daño infligido."
   },
   "lowKick": {
-    "name": "Patada Baja"
+    "name": "Patada Baja",
+    "effect": "Patada baja que derriba al objetivo. Su potencia aumenta con el peso del objetivo (oscila desde 20 a 120)."
   },
   "counter": {
-    "name": "Contraataque"
+    "name": "Contraataque",
+    "effect": "Un contraataque que responde a cualquier movimiento físico, inflige el doble del daño recibido."
   },
   "seismicToss": {
     "name": "Sísmico",
@@ -277,22 +280,28 @@
     "effect": "Ataca al objetivo golpeándolo con todas sus fuerzas."
   },
   "absorb": {
-    "name": "Absorber"
+    "name": "Absorber",
+    "effect": "Un ataque que absorbe nutrientes. Quien lo usa recupera ½ de los PS del daño que produce."
   },
   "megaDrain": {
-    "name": "Megaagotar"
+    "name": "Megaagotar",
+    "effect": "Un ataque que absorbe nutrientes. Quien lo usa recupera ½ de los PS del daño que produce."
   },
   "leechSeed": {
-    "name": "Drenadoras"
+    "name": "Drenadoras",
+    "effect": "Planta semillas en el objetivo. Al final de cada turno, el usuario o cualquier Pokémon que ocupe su lugar en el combate absorbe ⅛ de los PS máximos del objetivo."
   },
   "growth": {
-    "name": "Desarrollo"
+    "name": "Desarrollo",
+    "effect": "Hace que su cuerpo crezca a marchas forzadas con lo que aumenta en 1 nivel su ataque y ataque especial, o 2 niveles cuando hace sol."
   },
   "razorLeaf": {
-    "name": "Hoja Afilada"
+    "name": "Hoja Afilada",
+    "effect": "Corta con hojas afiladas. Aumenta 1 nivel la probabilidad de asestar golpes críticos del usuario durante este ataque."
   },
   "solarBeam": {
-    "name": "Rayo Solar"
+    "name": "Rayo Solar",
+    "effect": "El usuario absorbe luz en el primer turno y en el segundo lanza un potente rayo de energía. Si hace sol, ataca inmediatamente. Si hay otro tiempo atmosférico activo, la potencia del movimiento se ve reducida a la mitad."
   },
   "poisonPowder": {
     "name": "Polvo Veneno",
@@ -303,93 +312,116 @@
     "effect": "Esparce polvo que paraliza al objetivo."
   },
   "sleepPowder": {
-    "name": "Somnífero"
+    "name": "Somnífero",
+    "effect": "Esparce polvo que duerme al objetivo."
   },
   "petalDance": {
-    "name": "Danza Pétalo"
+    "name": "Danza Pétalo",
+    "effect": "Ataca al objetivo lanzando pétalos de 2-3 turnos y, al finalizar, el usuario se queda confuso."
   },
   "stringShot": {
-    "name": "Disparo Demora"
+    "name": "Disparo Demora",
+    "effect": "Lanza seda a los rivales y reduce en 2 niveles su velocidad."
   },
   "dragonRage": {
     "name": "Furia Dragón",
     "effect": "Ráfaga de furiosas ondas de choque que quitan 40 PS."
   },
   "fireSpin": {
-    "name": "Giro Fuego"
+    "name": "Giro Fuego",
+    "effect": "Un aro de fuego que atrapa al objetivo. Durante 4-5 turnos, el objetivo recibe un daño equivalente a ⅛ de sus PS máximos al final de cada turno."
   },
   "thunderShock": {
-    "name": "Impactrueno"
+    "name": "Impactrueno",
+    "effect": "Ataque eléctrico con una descarga eléctrica. Tiene una probabilidad del 10 % de paralizar al objetivo."
   },
   "thunderbolt": {
-    "name": "Rayo"
+    "name": "Rayo",
+    "effect": "Ataque eléctrico con una potente descarga eléctrica. Tiene una probabilidad del 10 % de paralizar al objetivo."
   },
   "thunderWave": {
     "name": "Onda Trueno",
     "effect": "Una ligera descarga que paraliza al objetivo."
   },
   "thunder": {
-    "name": "Trueno"
+    "name": "Trueno",
+    "effect": "Un poderoso rayo cae sobre el objetivo .Tiene una probabilidad del 30 % de paralizar al objetivo y nunca falla cuando llueve. Puede golpear a objetivos en el aire mediante Vuelo, Bote o Caída Libre."
   },
   "rockThrow": {
-    "name": "Lanzarrocas"
+    "name": "Lanzarrocas",
+    "effect": "Tira una pequeña roca al objetivo."
   },
   "earthquake": {
-    "name": "Terremoto"
+    "name": "Terremoto",
+    "effect": "Un terremoto que afecta a los Pokémon adyacentes. Su potencia se duplica contra objetivos bajo tierra mediante Excavar, pero se reduce a la mitad cuando hay un Campo de Hierba activo en el terreno de combate."
   },
   "fissure": {
-    "name": "Fisura"
+    "name": "Fisura",
+    "effect": "Abre una grieta en el suelo y mete al objetivo en ella. Debilita al objetivo instantáneamente, a menos que sea un Pokémon Jefe. Tiene una precisión fija del 30%."
   },
   "dig": {
-    "name": "Excavar"
+    "name": "Excavar",
+    "effect": "El usuario cava durante el primer turno y ataca en el segundo."
   },
   "toxic": {
-    "name": "Tóxico"
+    "name": "Tóxico",
+    "effect": "Envenena gravemente al objetivo. El objetivo recibe daño cada vez mayor al final de cada turno, empezando por ¹⁄₁₆ de los PS máximos del Pokémon, luego ²⁄₁₆ y así sucesivamente. Nunca falla si el usuario es de tipo Veneno."
   },
   "confusion": {
-    "name": "Confusión"
+    "name": "Confusión",
+    "effect": "Débil ataque telequinético que tiene una probabilidad del 10 % de causar confusión."
   },
   "psychic": {
-    "name": "Psíquico"
+    "name": "Psíquico",
+    "effect": "Fuerte ataque telequinético que tiene una probabilidad del 10 % de reducir un nivel la Defensa Especial del objetivo."
   },
   "hypnosis": {
-    "name": "Hipnosis"
+    "name": "Hipnosis",
+    "effect": "Ataque hipnótico que hace dormir profundamente al objetivo."
   },
   "meditate": {
-    "name": "Meditación"
+    "name": "Meditación",
+    "effect": "El usuario reposa y medita para aumentar 1 nivel el ataque del usuario."
   },
   "agility": {
-    "name": "Agilidad"
+    "name": "Agilidad",
+    "effect": "Relaja el cuerpo para ganar mucha velocidad. Aumenta 2 niveles la Velocidad del usuario."
   },
   "quickAttack": {
-    "name": "Ataque Rápido"
+    "name": "Ataque Rápido",
+    "effect": "Ataque de una rapidez espeluznante. Este movimiento tiene prioridad alta."
   },
   "rage": {
     "name": "Furia",
     "effect": "Al usarse, aumenta el ataque del usuario cada vez que es golpeado."
   },
   "teleport": {
-    "name": "Teletransporte"
+    "name": "Teletransporte",
+    "effect": "El usuario se mueve en último lugar y se cambia por otro Pokémon del equipo, si lo hay. Si un Pokémon salvaje usa este movimiento, huye del combate."
   },
   "nightShade": {
     "name": "Tinieblas",
     "effect": "Produce un espejismo ante el objetivo, que pierde tantos PS como nivel tenga el usuario."
   },
   "mimic": {
-    "name": "Mimético"
+    "name": "Mimético",
+    "effect": "Copia el último movimiento usado por el objetivo, puede utilizarlo hasta que deje el combate."
   },
   "screech": {
     "name": "Chirrido",
     "effect": "Alarido agudo que reduce mucho la defensa del objetivo."
   },
   "doubleTeam": {
-    "name": "Doble Equipo"
+    "name": "Doble Equipo",
+    "effect": "Crea copias de sí mismo para aumentar 1 nivel la evasión del usuario."
   },
   "recover": {
-    "name": "Recuperación"
+    "name": "Recuperación",
+    "effect": "Restaura la mitad de los PS máximos del usuario."
   },
   "harden": {
-    "name": "Fortaleza"
+    "name": "Fortaleza",
+    "effect": "Tensa la musculatura del usuario para aumentar 1 nivel la defensa."
   },
   "minimize": {
     "name": "Reducción",
@@ -400,40 +432,48 @@
     "effect": "Reduce la precisión del objetivo con una nube de humo o tinta."
   },
   "confuseRay": {
-    "name": "Rayo Confuso"
+    "name": "Rayo Confuso",
+    "effect": "Rayo siniestro que confunde al objetivo."
   },
   "withdraw": {
-    "name": "Refugio"
+    "name": "Refugio",
+    "effect": "El usuario se resguarda en su coraza, por lo que le aumenta 1 nivel la defensa."
   },
   "defenseCurl": {
-    "name": "Rizo defensa"
+    "name": "Rizo defensa",
+    "effect": "Se enrosca para ocultar sus puntos débiles y aumentar 1 nivel la defensa. También duplica el poder de Desenrollas y Bola Hielo."
   },
   "barrier": {
     "name": "Barrera",
     "effect": "Crea una barrera que aumenta mucho la defensa."
   },
   "lightScreen": {
-    "name": "Pantalla de Luz"
+    "name": "Pantalla de Luz",
+    "effect": "Pared de luz que reduce durante 5 turnos el daño producido por los ataques especiales a la mitad."
   },
   "haze": {
     "name": "Niebla",
     "effect": "Neblina oscura que elimina los cambios en las características de todos los Pokémon en combate."
   },
   "reflect": {
-    "name": "Reflejo"
+    "name": "Reflejo",
+    "effect": "Pared de luz que reduce durante 5 turnos el daño producido por los ataques físicos a la mitad."
   },
   "focusEnergy": {
-    "name": "Foco Energía"
+    "name": "Foco Energía",
+    "effect": "Concentra energía para aumentar en 2 niveles las posibilidades de asestar un golpe crítico."
   },
   "bide": {
-    "name": "Venganza"
+    "name": "Venganza",
+    "effect": "Espera 2 turnos para atacar con el doble de potencia del daño recibido."
   },
   "metronome": {
     "name": "Metrónomo",
     "effect": "Mueve un dedo y estimula su cerebro para usar al azar casi cualquier movimiento."
   },
   "mirrorMove": {
-    "name": "Espejo"
+    "name": "Espejo",
+    "effect": "Ataca al objetivo con el último movimiento que este haya usado. El movimiento falla si no se ha usado otro movimiento aún o si ese movimiento no se puede copiar."
   },
   "selfDestruct": {
     "name": "Autodestrucción",

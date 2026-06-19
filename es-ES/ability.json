@@ -1,9 +1,11 @@
 {
   "stench": {
-    "name": "Hedor"
+    "name": "Hedor",
+    "description": "Tiene un 10% de posibilidad de amedrentar a un Pokémon al atacarlo debido al mal olor que emana. Este efecto no se acumula con objetos o movimientos que puedan amedrentar."
   },
   "drizzle": {
-    "name": "Llovizna"
+    "name": "Llovizna",
+    "description": "Hace que llueva durante 5 turnos al entrar en combate."
   },
   "speedBoost": {
     "name": "Impulso",
@@ -18,17 +20,20 @@
     "description": "El Pokémon no puede debilitarse de un solo golpe cuando tiene los PS al máximo. También evita los movimientos fulminantes."
   },
   "damp": {
-    "name": "Humedad"
+    "name": "Humedad",
+    "description": "Aumenta la humedad del entorno y evita que se puedan utilizar movimientos explosivos, tales como Autodestrucción, o el daño de Detonación."
   },
   "limber": {
     "name": "Flexibilidad",
     "description": "Evita ser paralizado gracias a la flexibilidad de su cuerpo."
   },
   "sandVeil": {
-    "name": "Velo Arena"
+    "name": "Velo Arena",
+    "description": "Aumenta la evasión durante las tormentas de arena un 25%. También evita el daño de las tormentas de arena."
   },
   "static": {
-    "name": "Elec. Estática"
+    "name": "Elec. Estática",
+    "description": "La electricidad estática que lo envuelve puede paralizar al Pokémon que lo ataque con un movimiento de contacto con un 30% de posibilidad."
   },
   "voltAbsorb": {
     "name": "Absorbe Elec",
@@ -39,17 +44,20 @@
     "description": "Si lo alcanza un movimiento de tipo Agua, recupera ¼ de sus PS máximos en vez de sufrir daño."
   },
   "oblivious": {
-    "name": "Despiste"
+    "name": "Despiste",
+    "description": "Su indiferencia evita que sea provocado, caiga presa del enamoramiento o sufra los efectos de Intimidación."
   },
   "cloudNine": {
     "name": "Aclimatación",
     "description": "Anula todos los efectos del tiempo atmosférico."
   },
   "compoundEyes": {
-    "name": "Ojo Compuesto"
+    "name": "Ojo Compuesto",
+    "description": "Aumenta la precisión de sus movimientos un 30%."
   },
   "insomnia": {
-    "name": "Insomnio"
+    "name": "Insomnio",
+    "description": "Su resistencia al sueño le impide quedarse dormido."
   },
   "colorChange": {
     "name": "Cambio Color",
@@ -64,10 +72,12 @@
     "description": "Si lo alcanza algún movimiento de tipo Fuego, potencia sus propios movimientos de dicho tipo en un 50%."
   },
   "shieldDust": {
-    "name": "Polvo Escudo"
+    "name": "Polvo Escudo",
+    "description": "El polvo de escamas que lo envuelve lo protege de los efectos secundarios de los ataques recibidos."
   },
   "ownTempo": {
-    "name": "Ritmo Propio"
+    "name": "Ritmo Propio",
+    "description": "Como le gusta hacer las cosas a su manera, no le afecta la confusión ni sufre los efectos de Intimidación."
   },
   "suctionCups": {
     "name": "Ventosas",
@@ -82,7 +92,8 @@
     "description": "Pisa la sombra del rival para impedir que huya o lo cambien por otro."
   },
   "roughSkin": {
-    "name": "Piel Tosca"
+    "name": "Piel Tosca",
+    "description": "Hiere con su piel áspera al Pokémon que lo ataque con un movimiento de contacto, dañándolo ⅛ de sus PS máximos."
   },
   "wonderGuard": {
     "name": "Superguarda",
@@ -141,7 +152,8 @@
     "description": "30% de posibilidad de envenenar al Pokémon que lo ataque con un movimiento de contacto."
   },
   "innerFocus": {
-    "name": "Fuerza Mental"
+    "name": "Fuerza Mental",
+    "description": "Gracias a su profunda concentración, no se amedrenta ante los ataques de otros Pokémon ni sufre los efectos de Intimidación."
   },
   "magmaArmor": {
     "name": "Escudo Magma",
@@ -164,13 +176,16 @@
     "description": "Recupera ¹⁄₁₆ de sus PS máximos de forma gradual cuando llueve."
   },
   "sandStream": {
-    "name": "Chorro Arena"
+    "name": "Chorro Arena",
+    "description": "Crea una tormenta de arena durante 5 turnos al entrar en combate."
   },
   "pressure": {
-    "name": "Presión"
+    "name": "Presión",
+    "description": "Presiona al rival de tal manera que este consume 1 PP más al usar sus movimientos."
   },
   "thickFat": {
-    "name": "Sebo"
+    "name": "Sebo",
+    "description": "Gracias a la gruesa capa de grasa que lo protege, reduce a la mitad el daño que recibe de ataques de tipo Fuego o Hielo."
   },
   "earlyBird": {
     "name": "Madrugar",
@@ -185,7 +200,8 @@
     "description": "Puede escapar de cualquier Pokémon salvaje."
   },
   "keenEye": {
-    "name": "Vista Lince"
+    "name": "Vista Lince",
+    "description": "Su aguda vista evita que su Precisión se reduzca e ignora los cambios en la Evasión del objetivo."
   },
   "hyperCutter": {
     "name": "Corte Fuerte",
@@ -304,7 +320,8 @@
     "description": "Cada vez que se amedrenta, aumenta su Velocidad debido a su voluntad inquebrantable."
   },
   "snowCloak": {
-    "name": "Manto Níveo"
+    "name": "Manto Níveo",
+    "description": "Aumenta su Evasión cuando nieva o graniza un 25%. También evita el daño del granizo."
   },
   "gluttony": {
     "name": "Gula",
@@ -439,7 +456,8 @@
     "description": "Atrae y neutraliza los movimientos de tipo Agua, que además le aumentan el Ataque Especial."
   },
   "iceBody": {
-    "name": "Gélido"
+    "name": "Gélido",
+    "description": "Recupera ¹⁄₁₆ de sus PS máximos de forma gradual cuando nieva o graniza. Este Pokémon no recibe daño del granizo."
   },
   "solidRock": {
     "name": "Roca Sólida",
@@ -466,7 +484,8 @@
     "description": "Cambia su tipo al de la tabla que lleve."
   },
   "flowerGift": {
-    "name": "Don Floral"
+    "name": "Don Floral",
+    "description": "Si hace sol, aumenta su ataque y su defensa Especial un 50%, así como los de sus aliados."
   },
   "badDreams": {
     "name": "Mal Sueño",
@@ -501,7 +520,8 @@
     "description": "30% de posibilidad de anular el movimiento recién usado en su contra."
   },
   "healer": {
-    "name": "Alma Cura"
+    "name": "Alma Cura",
+    "description": "50% de posibilidad de curar los problemas de estado de un aliado al final del turno."
   },
   "friendGuard": {
     "name": "Compiescolta",
@@ -536,7 +556,8 @@
     "description": "50% de posibilidad de regenerar una baya tras usarla. Incrementa a 100% de posibilidad cuando haga sol."
   },
   "telepathy": {
-    "name": "Telepatía"
+    "name": "Telepatía",
+    "description": "Elude los ataques de los aliados durante el combate."
   },
   "moody": {
     "name": "Veleta",
@@ -559,7 +580,8 @@
     "description": "Impide que otros Pokémon le reduzcan la defensa."
   },
   "sandRush": {
-    "name": "Ímpetu Arena"
+    "name": "Ímpetu Arena",
+    "description": "Duplica su velocidad durante las tormentas de arena. También evita el daño de las tormentas de arena."
   },
   "wonderSkin": {
     "name": "Piel Milagro",
@@ -610,7 +632,8 @@
     "description": "Sus movimientos de estado tienen prioridad alta. Los Pokémon de tipo Siniestro son inmunes a estos movimientos."
   },
   "sandForce": {
-    "name": "Poder Arena"
+    "name": "Poder Arena",
+    "description": "Potencia un 30% los movimientos de tipo Tierra, Acero y Roca durante las tormentas de arena. También evita el daño de las tormentas de arena."
   },
   "ironBarbs": {
     "name": "Punta Acero",
@@ -621,7 +644,8 @@
     "description": "Cambia a Forma Zen si sus PS se ven reducidos a la mitad o menos."
   },
   "victoryStar": {
-    "name": "Tinovictoria"
+    "name": "Tinovictoria",
+    "description": "Aumenta un 10% su precisión y la de sus aliados."
   },
   "turboblaze": {
     "name": "Turbollama",
@@ -636,7 +660,8 @@
     "description": "Se protege a sí mismo y a sus aliados de efectos que impiden usar movimientos."
   },
   "flowerVeil": {
-    "name": "Velo Flor"
+    "name": "Velo Flor",
+    "description": "Evita que los Pokémon de tipo Planta de tu bando sufran problemas de estado o que les reduzcan sus características."
   },
   "cheekPouch": {
     "name": "Carrillo",
@@ -671,7 +696,8 @@
     "description": "Convierte los movimientos de tipo Normal en tipo Hielo y aumenta un 20% su potencia."
   },
   "sweetVeil": {
-    "name": "Velo Dulce"
+    "name": "Velo Dulce",
+    "description": "No cae dormido y evita también que sus aliados se duerman."
   },
   "stanceChange": {
     "name": "Cambio Táctico",
@@ -710,7 +736,8 @@
     "description": "Convierte los movimientos de tipo Normal en tipo Volador y aumenta un 20% su potencia."
   },
   "parentalBond": {
-    "name": "Amor Filial"
+    "name": "Amor Filial",
+    "description": "Une fuerzas con su cría y ataca dos veces. El segundo golpe hace ¼ del daño habitual. No afecta a movimientos que golpeen al objetivo varias veces seguidas o que golpeen a varios Pokémon."
   },
   "darkAura": {
     "name": "Aura Oscura",
@@ -777,7 +804,8 @@
     "description": "Aumenta su ataque especial si sus PS se ven reducidos a la mitad debido a algún ataque."
   },
   "slushRush": {
-    "name": "Quitanieves"
+    "name": "Quitanieves",
+    "description": "Duplica su velocidad cuando nieva o graniza. También evita el daño del granizo."
   },
   "longReach": {
     "name": "Remoto",
@@ -788,7 +816,8 @@
     "description": "Hace que todos sus movimientos que usan sonido pasen a ser de tipo Agua."
   },
   "triage": {
-    "name": "Primer Auxilio"
+    "name": "Primer Auxilio",
+    "description": "Da 3 niveles de prioridad a los movimientos que restauran PS."
   },
   "galvanize": {
     "name": "Piel Eléctrica",
@@ -823,7 +852,8 @@
     "description": "No despierta jamás de su profundo letargo e incluso ataca dormido. Se considera como afectado por problema de estado."
   },
   "queenlyMajesty": {
-    "name": "Regia Presencia"
+    "name": "Regia Presencia",
+    "description": "Intimida al rival y le impide usar movimientos con prioridad contra él y sus aliados."
   },
   "innardsOut": {
     "name": "Revés",
@@ -834,14 +864,16 @@
     "description": "Puede copiar inmediatamente cualquier movimiento de baile que haya usado otro Pokémon presente en el combate."
   },
   "battery": {
-    "name": "Batería"
+    "name": "Batería",
+    "description": "Potencia en 30% los ataques especiales de los aliados."
   },
   "fluffy": {
     "name": "Peluche",
     "description": "Reduce a la mitad el daño recibido por los movimientos de contacto, pero duplica el que le infligen los de tipo Fuego."
   },
   "dazzling": {
-    "name": "Cuerpo Vívido"
+    "name": "Cuerpo Vívido",
+    "description": "Desconcierta al rival y le impide usar movimientos con prioridad contra él y sus aliados."
   },
   "soulHeart": {
     "name": "Coránima",
@@ -852,10 +884,12 @@
     "description": "Reduce la velocidad del Pokémon que lo ataque con un movimiento de contacto."
   },
   "receiver": {
-    "name": "Receptor"
+    "name": "Receptor",
+    "description": "Adquiere la habilidad de un aliado debilitado en un Combate Doble."
   },
   "powerOfAlchemy": {
-    "name": "Reacción Química"
+    "name": "Reacción Química",
+    "description": "Reacciona copiando la habilidad de un aliado debilitado en un Combate Doble."
   },
   "beastBoost": {
     "name": "Ultraimpulso",
@@ -958,7 +992,8 @@
     "description": "Absorbe el daño de un ataque físico con el hielo de la cabeza, tras lo cual cambia de forma. El hielo se regenerará la próxima vez que nieve o granice."
   },
   "powerSpot": {
-    "name": "Fuente Energía"
+    "name": "Fuente Energía",
+    "description": "Potencia un 30% los movimientos de los Pokémon adyacentes."
   },
   "mimicry": {
     "name": "Mimetismo",
@@ -969,7 +1004,8 @@
     "description": "Anula los efectos de Pantalla de Luz, Reflejo y Velo Aurora tanto de rivales como de aliados al entrar en combate."
   },
   "steelySpirit": {
-    "name": "Alma Acerada"
+    "name": "Alma Acerada",
+    "description": "Potencia un 50% los movimientos de tipo Acero del Pokémon y sus aliados."
   },
   "perishBody": {
     "name": "Cuerpo Mortal",
@@ -988,7 +1024,8 @@
     "description": "Anula los efectos de las habilidades de los demás Pokémon presentes mientras esté en el terreno de combate."
   },
   "pastelVeil": {
-    "name": "Velo Pastel"
+    "name": "Velo Pastel",
+    "description": "Previene a sí mismo y a sus aliados del envenenamiento."
   },
   "hungerSwitch": {
     "name": "Mutapetito",
@@ -1135,14 +1172,16 @@
     "description": "Al entrar en combate, su ataque y su ataque especial aumentan un 10% por cada miembro del equipo que haya sido derrotado hasta el momento."
   },
   "costar": {
-    "name": "Unísono"
+    "name": "Unísono",
+    "description": "Al entrar en combate, copia los cambios en las características de su aliado."
   },
   "toxicDebris": {
     "name": "Capa Tóxica",
     "description": "Al recibir daño de un ataque físico, lanza una trampa de púas tóxicas a los pies del rival."
   },
   "armorTail": {
-    "name": "Cola Armadura"
+    "name": "Cola Armadura",
+    "description": "La extraña cola que le envuelve la cabeza impide al rival usar movimientos con prioridad contra él y sus aliados."
   },
   "earthEater": {
     "name": "Geofagia",
@@ -1209,14 +1248,16 @@
     "description": "Convierte los movimientos de tipo Normal del Pokémon en movimientos de tipo Dragón y aumenta un 20 % su potencia."
   },
   "eelevate": {
-    "name": "Impulso Anguila"
+    "name": "Impulso Anguila",
+    "description": "Hace que el Pokémon flote y deje de estar en contacto con el suelo, lo que impide que le afecten los movimientos de tipo Tierra y las Púas, Púas tóxicas y Red Viscosa. Aumenta 1 nivel la característica más alta del Pokémon cuando debilita a un objetivo con un ataque."
   },
   "megaSol": {
     "name": "Megasolar",
     "description": "El Pokémon puede usar movimientos con los mismos resultados que si hiciese sol, aunque realmente ese no sea el tiempo atmosférico actual."
   },
   "fireMane": {
-    "name": "Crin de Fuego"
+    "name": "Crin de Fuego",
+    "description": "Aumenta un 50 % la potencia de los movimientos de tipo Fuego del Pokémon."
   },
   "spicySpray": {
     "name": "Salpicante",
