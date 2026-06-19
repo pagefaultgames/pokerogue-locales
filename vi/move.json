@@ -81,7 +81,7 @@
     "effect": "Pokémon tung ra một cú đá xoay vòng nhanh như chớp. Chiêu thức này có 30% cơ hội khiến mục tiêu bị giật mình."
   },
   "sandAttack": {
-    "effect": "Cát được hất vào mặt mục tiêu, làm giảm độ chính xác của mục tiêu."
+    "effect": "Cát được hất vào mặt mục tiêu, làm giảm độ chuẩn của mục tiêu."
   },
   "headbutt": {
     "effect": "Pokémon nhô đầu ra và tấn công bằng cách lao thẳng vào mục tiêu. Chiêu thức này có 30% cơ hội khiến mục tiêu bị giật mình."
@@ -93,7 +93,7 @@
     "effect": "Pokémon tấn công bằng cách đâm vào mục tiêu bằng sừng, mỏ hoặc bộ phận tương tự. Chiêu thức này đánh trúng từ 2 đến 5 lần liên tiếp."
   },
   "hornDrill": {
-    "effect": "Pokémon đâm vào mục tiêu bằng một chiếc sừng xoay tròn như mũi khoan. Mục tiêu sẽ ngất xỉu ngay lập tức nếu đòn tấn công này trúng đích, trừ khi đó là Pokémon Boss. Độ chính xác của chiêu thức này được cố định ở mức 30%."
+    "effect": "Pokémon đâm vào mục tiêu bằng một chiếc sừng xoay tròn như mũi khoan. Mục tiêu sẽ ngất xỉu ngay lập tức nếu đòn tấn công này trúng đích, trừ khi đó là Boss. Độ chuẩn của chiêu thức này được cố định ở mức 30%."
   },
   "tackle": {
     "effect": "Đòn tấn công vật lý mà Pokémon lao mình và đập mạnh toàn thân vào mục tiêu."
@@ -267,7 +267,7 @@
     "effect": "Pokémon tạo ra một trận động đất dữ dội, càn quét tất cả Pokémon xung quanh. Uy lực sẽ tăng gấp đôi nếu mục tiêu đang ẩn mình dưới lòng đất bằng Dig, nhưng bị giảm một nửa nếu Grassy Terrain đang kích hoạt."
   },
   "fissure": {
-    "effect": "Pokémon xé toạc mặt đất tạo thành một vực sâu thăm thẳm rồi thả rìu mục tiêu lọt thỏm xuống dưới. Kẻ địch sẽ lập tức gục ngã nếu dính đòn, ngoại trừ Boss Pokémon. Độ chính xác của chiêu thức này được cố định ở mức 30%."
+    "effect": "Pokémon xé toạc mặt đất tạo thành một vực sâu thăm thẳm rồi thả rìu mục tiêu lọt thỏm xuống dưới. Kẻ địch sẽ lập tức gục ngã nếu dính đòn, trừ khi đó là Boss. Độ chuẩn của chiêu thức này được cố định ở mức 30%."
   },
   "dig": {
     "effect": "Pokémon ẩn mình sâu vào lòng đất ngay lượt đầu tiên, sau đó bất ngờ nhô lên tấn công mục tiêu ở lượt kế tiếp."
@@ -567,7 +567,7 @@
     "effect": "Ném bùn vào mặt mục tiêu để gây sát thương và giảm độ chuẩn của chúng."
   },
   "octazooka": {
-    "effect": "Pokémon tấn công bằng cách phun mực vào mặt mục tiêu. Chiêu thức này có 50% cơ hội làm giảm độ chính xác của mục tiêu."
+    "effect": "Pokémon tấn công bằng cách phun mực vào mặt mục tiêu. Chiêu thức này có 50% cơ hội làm giảm độ chuẩn của mục tiêu."
   },
   "spikes": {
     "effect": "Pokémon giăng một bẫy chông dưới chân đội đối phương, gây sát thương cho Pokémon đối phương đổi vào trận chiến bằng ⅛ lượng HP tối đa của chúng. Sát thương này tăng lên khi có nhiều lớp Chông, tối đa là 3 lớp. Các hệ Bay hoặc Pokémon có đặc tính Levitate không bị ảnh hưởng."
@@ -666,7 +666,7 @@
     "effect": "Pokémon tấn công mọi thứ xung quanh bằng một trận địa chấn. Sức mạnh thay đổi tùy theo cường độ động đất, có thể là 10, 30, 50, 70, 90, 110, hoặc 150. Sức mạnh chiêu này tăng đôi với mục tiêu dưới lòng đất do Dig, và giảm một nửa khi Grassy Terrain đang kích hoạt."
   },
   "dynamicPunch": {
-    "effect": "Pokémon tấn công bằng cách đấm mục tiêu với toàn bộ sức mạnh tập trung. Chiêu này cũng làm mục tiêu bị bối rối."
+    "effect": "Dồn toàn sức vào một cú đấm giáng thẳng tới mục tiêu. Chiêu thức này cũng sẽ khiến mục tiêu rối loạn."
   },
   "megahorn": {
     "effect": "Sử dụng cặp sừng cứng uy dũng lao thẳng vào mục tiêu với sức mạnh không khoan nhượng."
@@ -984,10 +984,10 @@
     "effect": "Pokémon giam cầm mục tiêu bên trong một trận bão cát dữ dội. Trong vòng 4 đến 5 lượt, mục tiêu sẽ phải chịu sát thương bằng ⅛ lượng HP tối đa của mình vào cuối mỗi lượt."
   },
   "sheerCold": {
-    "effect": "Mục tiêu bị tấn công bằng một luồng khí lạnh tuyệt đối. Mục tiêu sẽ ngất xỉu ngay lập tức nếu đòn tấn công này đánh trúng, trừ khi đó là Pokémon Boss. Chiêu thức này không có tác dụng với hệ Băng. Độ chính xác của chiêu thức này được cố định ở mức 30%. Nếu được sử dụng bởi Pokémon không phải hệ Băng, độ chính xác của chiêu thức sẽ là 20%."
+    "effect": "Mục tiêu bị tấn công bằng một luồng khí lạnh tuyệt đối. Mục tiêu sẽ ngất xỉu ngay lập tức nếu đòn tấn công này đánh trúng, trừ khi đó là Boss. Chiêu thức này không có tác dụng với hệ Băng. Độ chuẩn của chiêu thức này được cố định ở mức 30%. Nếu được sử dụng bởi Pokémon không phải hệ Băng, độ chuẩn của chiêu thức sẽ là 20%."
   },
   "muddyWater": {
-    "effect": "Pokémon tấn công bằng cách bắn nước bùn vào các Pokémon đối phương. Chiêu thức này có 30% tỷ lệ làm giảm độ chính xác của chúng."
+    "effect": "Pokémon tấn công bằng cách bắn nước bùn vào các Pokémon đối phương. Chiêu thức này có 30% tỷ lệ làm giảm độ chuẩn của chúng."
   },
   "bulletSeed": {
     "effect": "Pokémon tấn công bằng cách bắn mạnh những hạt cây vào mục tiêu. Chiêu thức này đánh trúng từ 2 đến 5 lần liên tiếp."
@@ -1065,7 +1065,7 @@
     "effect": "Pokémon đáp xuống và nghỉ ngơi, hồi phục  lại ½ lượng HP tối đa. Nếu bản thân Pokémon thuộc hệ Bay, nó sẽ mất đi hệ Bay trong lượt đó."
   },
   "gravity": {
-    "effect": "Tăng độ chính xác của các chiêu thức thêm 67% và kéo các Pokémon như hệ Bay hoặc có đặc tính Levitate chạm đất trong vòng 5 lượt. Các chiêu thức liên quan đến bay lượn sẽ không thể sử dụng được."
+    "effect": "Tăng độ chuẩn của các chiêu thức thêm 67% và kéo các Pokémon như hệ Bay hoặc có đặc tính Levitate chạm đất trong vòng 5 lượt. Các chiêu thức liên quan đến bay lượn sẽ không thể sử dụng được."
   },
   "miracleEye": {
     "effect": "Chiêu thức này cho phép một mục tiêu hệ Bóng tối bị trúng các đòn tấn công hệ Tâm linh. Nó cũng cho phép đánh trúng một mục tiêu đang né tránh."
@@ -1284,7 +1284,7 @@
     "effect": "Pokémon tập trung ý chí vào đầu của mình rồi tấn công mục tiêu. Chiêu thức này có 20% tỷ lệ khiến mục tiêu bị giật mình."
   },
   "mirrorShot": {
-    "effect": "Pokémon giải phóng một luồng sáng năng lượng từ cơ thể được đánh bóng của mình vào mục tiêu. Chiêu thức này có 30% tỷ lệ làm giảm độ chính xác của mục tiêu."
+    "effect": "Pokémon giải phóng một luồng sáng năng lượng từ cơ thể được đánh bóng của mình vào mục tiêu. Chiêu thức này có 30% tỷ lệ làm giảm độ chuẩn của mục tiêu."
   },
   "flashCannon": {
     "effect": "Pokémon tập hợp tất cả năng lượng ánh sáng của mình rồi giải phóng tất cả cùng một lúc. Chiêu thức này có 10% tỷ lệ làm giảm chỉ số P.thủ Đ.b. của mục tiêu."
@@ -1605,7 +1605,7 @@
     "effect": "Pokémon lao sầm vào mục tiêu bằng cơ thể bọc trong lửa. Cân nặng của bản thân càng vượt trội hơn đối phương thì uy lực chiêu thức càng lớn (dao động giữa 40 và 120). Nếu mục tiêu đã dùng Minimize, uy lực chiêu này sẽ tăng gấp đôi và chắc chắn đánh trúng."
   },
   "leafTornado": {
-    "effect": "Pokémon tấn công mục tiêu bằng cách vây hãm chúng trong những chiếc lá sắc nhọn. Chiêu này có 50% cơ hội hạ độ chính xác của đối phương."
+    "effect": "Pokémon tấn công mục tiêu bằng cách vây hãm chúng trong những chiếc lá sắc nhọn. Chiêu này có 50% cơ hội hạ độ chuẩn của đối phương."
   },
   "steamroller": {
     "effect": "Pokémon đè bẹp mục tiêu bằng cách lăn qua chúng với cơ thể cuộn tròn. Chiêu này có 30% cơ hội khiến mục tiêu giật mình."
@@ -1614,7 +1614,7 @@
     "effect": "Pokémon tự bảo vệ bản thân bằng cách quấn quanh cơ thể một lớp bông mềm mại, giúp tăng tối đa chỉ số Phòng thủ của bản thân."
   },
   "nightDaze": {
-    "effect": "Pokémon phóng một làn sóng xung kích đen kịt vào mục tiêu để gây sát thương. Chiêu thức này có 40% tỷ lệ làm giảm độ chính xác của mục tiêu."
+    "effect": "Pokémon phóng một làn sóng xung kích đen kịt vào mục tiêu để gây sát thương. Chiêu thức này có 40% tỷ lệ làm giảm độ chuẩn của mục tiêu."
   },
   "psystrike": {
     "effect": "Pokémon hiện thực hóa một làn sóng tâm linh kỳ lạ để tấn công mục tiêu. Chiêu thức này gây ra sát thương vật lý."
@@ -2613,7 +2613,7 @@
     "effect": "Một đòn tấn công hệ Cỏ mà Gigantamax Appletun sử dụng. Chiêu thức này giúp chữa lành các trạng thái bất lợi cho đồng minh."
   },
   "gMaxSmite": {
-    "effect": "Một đòn tấn công hệ Tiên mà Gigantamax Hatterene sử dụng. Chiêu thức này gây trạng thái bối rối cho đối thủ."
+    "effect": "Một đòn tấn công hệ Tiên mà Hatterene Gigantamax sử dụng. Chiêu thức này gây trạng thái rối loạn cho đối thủ."
   },
   "gMaxSteelsurge": {
     "effect": "Chiêu thức hệ Thép được Copperajah Gigantamax sử dụng. Chiêu thức này rải những mũi thép sắc nhọn xung quanh sân đấu, gây sát thương lên những Pokémon đối phương vừa thay vào trận bằng ⅛ HP tối đa của chúng. Sát thương này sẽ thay đổi tùy thuộc vào sự tương khắc hệ của Pokémon đó với hệ Thép."
