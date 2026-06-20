@@ -5,17 +5,26 @@
   "poison": {
     "name": "Zatrucie",
     "description": "zatrucie",
-    "obtain": "Pokémon {{pokemonNameWithAffix}} \nzostał otruty!"
+    "obtain": "Pokémon {{pokemonNameWithAffix}} \nzostał otruty!",
+    "obtainSource": "Pokémon {{pokemonNameWithAffix}}\nzostał otruty przez {{sourceText}}!"
   },
   "toxic": {
     "description": "zatrucie"
   },
   "paralysis": {
     "name": "Paraliż",
-    "description": "paraliż"
+    "description": "paraliż",
+    "obtain": "Pokémon {{pokemonNameWithAffix}} został sparaliżowany.\nMoże nie być w stanie się ruszyć!",
+    "obtainSource": "Pokémon {{pokemonNameWithAffix}} został sparaliżowany przez {{sourceText}}!\nMoże nie być w stanie się ruszyć!",
+    "activation": "Pokémon {{pokemonNameWithAffix}} jest sparaliżowany!\nNie może się ruszyć!",
+    "overlap": "Pokémon {{pokemonNameWithAffix}}\njuż jest sparaliżowany!"
   },
   "sleep": {
-    "obtain": "{{pokemonNameWithAffix}}\nzasnął!"
+    "name": "Sen",
+    "description": "sen",
+    "obtain": "Pokémon {{pokemonNameWithAffix}}\nzasnął!",
+    "obtainSource": "Pokémon {{pokemonNameWithAffix}}\nzostał uśpiony przez {{sourceText}}!",
+    "heal": "Pokémon {{pokemonNameWithAffix}} się zbudził!"
   },
   "freeze": {
     "name": "Zamrożenie",
