@@ -1128,10 +1128,12 @@
     "effect": "Chi la usa schiaffeggia via un oggetto tenuto dal bersaglio, rimuovendolo. La potenza di questa mossa è aumentata del 50% se il bersaglio ha un oggetto tenuto."
   },
   "endeavor": {
-    "name": "Rimonta"
+    "name": "Rimonta",
+    "effect": "Chi la usa infligge danno riducendo gli HP del bersaglio all'incirca agli HP di chi la usa. Questa mossa fallisce se gli HP del bersaglio sono gli stessi o meno di chi usa la mossa. I Pokémon Boss sono immuni a questa mossa."
   },
   "eruption": {
-    "name": "Eruzione"
+    "name": "Eruzione",
+    "effect": "Chi la usa attacca il Pokémon avversario con una furia esplosiva. Minori sono gli HP rimasti a chi la usa, minore sarà la potenza della mossa (variabile tra 1 e 150)."
   },
   "skillSwap": {
     "name": "Baratto",
@@ -1154,56 +1156,72 @@
     "effect": "Chi la usa ruba e utilizza la mossa curativa o modifica-statistiche che il bersaglio stava per usare."
   },
   "secretPower": {
-    "name": "Forzasegreta"
+    "name": "Forzasegreta",
+    "effect": "Gli effetti aggiuntivi della mossa dipendono dal bioma o campo dove viene usata."
   },
   "dive": {
-    "name": "Sub"
+    "name": "Sub",
+    "effect": "Chi la usa si immerge il primo turno, poi riemerge e attacca il turno successivo."
   },
   "armThrust": {
-    "name": "Sberletese"
+    "name": "Sberletese",
+    "effect": "Chi la usa attacca il bersaglio con sberle tese a palmi aperti. Questa mossa colpisce 2-5 volte di fila."
   },
   "camouflage": {
-    "name": "Camuffamento"
+    "name": "Camuffamento",
+    "effect": "Il tipo di chi la usa cambia in base al bioma o campo dove questa mossa viene usata."
   },
   "tailGlow": {
-    "name": "Codadiluce"
+    "name": "Codadiluce",
+    "effect": "Chi la usa spara luci abbaglianti mentre concentra la sua mente, aumentando drasticamente la sua statistica di Attacco Speciale."
   },
   "lusterPurge": {
-    "name": "Abbagliante"
+    "name": "Abbagliante",
+    "effect": "Chi la usa libera un'esplosione dannosa di luce. Questa mossa ha un 50% di chance di ridurre la statistica di Difesa Speciale del bersaglio."
   },
   "mistBall": {
-    "name": "Foschisfera"
+    "name": "Foschisfera",
+    "effect": "Chi la usa attacca con una palla ricoperta di qualcosa simile alla nebbia. Questa mossa ha un 50% di chance di ridurre la statistica di Attacco Speciale del bersaglio."
   },
   "featherDance": {
     "name": "Danzadipiume",
     "effect": "Chi la usa copre il nemico con un manto di piume che riduce di molto il suo Attacco."
   },
   "teeterDance": {
-    "name": "Strampadanza"
+    "name": "Strampadanza",
+    "effect": "Chi la usa fa una danza traballante che confonde qualsiasi Pokémon intorno a se."
   },
   "blazeKick": {
-    "name": "Calciardente"
+    "name": "Calciardente",
+    "effect": "Chi la usa attacca con un calcio che ha un 10% di chance di bruciare il bersaglio. La chance di critico di questa mossa è aumentata di 1 livello."
   },
   "mudSport": {
-    "name": "Fangata"
+    "name": "Fangata",
+    "effect": "Chi la usa calcia del fango nel campo di battaglia. Ciò indebolizza le mosse di tipo Elettro per 5 turni."
   },
   "iceBall": {
-    "name": "Palla Gelo"
+    "name": "Palla Gelo",
+    "effect": "Chi la usa ruota sopra il bersaglio per 5 turni. Questo attacco raddoppia in potenza ogni volta che colpisce, e si resetta dopo che 5 turni sono passati o se la mossa si è interrotta."
   },
   "needleArm": {
-    "name": "Pugnospine"
+    "name": "Pugnospine",
+    "effect": "Chi la usa attacca agitando le use braccia spinose selvaggiamente. Questa mossa ha un 30% di chance di far tentennare il bersaglio."
   },
   "slackOff": {
-    "name": "Pigro"
+    "name": "Pigro",
+    "effect": "Chi la usa si rilassa, recuperando 1/2 dei suoi HP massimi."
   },
   "hyperVoice": {
-    "name": "Granvoce"
+    "name": "Granvoce",
+    "effect": "Chi la usa attacca rilasciando un grido risonante, orribilmente forte."
   },
   "poisonFang": {
-    "name": "Velenodenti"
+    "name": "Velenodenti",
+    "effect": "Chi la usa morde il bersaglio con zanne velenose. Questa mossa ha un 50% di chance di avvelenare pesantemente il bersaglio."
   },
   "crushClaw": {
-    "name": "Tritartigli"
+    "name": "Tritartigli",
+    "effect": "Chi la usa taglia il bersaglio con artigli forti e affilati. Questa mossa ha un 50% di chance di abbassare la statistica di Difesa del bersaglio."
   },
   "blastBurn": {
     "name": "Incendio",
@@ -1214,36 +1232,44 @@
     "effect": "Colpisce il nemico con un potente getto d’acqua. Chi la usa salta il turno successivo."
   },
   "meteorMash": {
-    "name": "Meteorpugno"
+    "name": "Meteorpugno",
+    "effect": "Il bersaglio viene colpito con un forte pugno sparato come una meteora. Questa mossa ha un 20% di chance di aumentare la statistica di Attacco di chi la usa."
   },
   "astonish": {
-    "name": "Sgomento"
+    "name": "Sgomento",
+    "effect": "Chi la usa attacca il bersaglio urlando in maniera sorprendente. Questa mossa ha un 30% di chance di far tentennare il bersaglio."
   },
   "weatherBall": {
-    "name": "Palla Clima"
+    "name": "Palla Clima",
+    "effect": "Il tipo e la potenza di questa mossa cambiano in base al clima di quando la mossa viene utilizzata."
   },
   "aromatherapy": {
     "name": "Aromaterapia",
     "effect": "Chi la usa rilascia un dolce profumo che cura tutti problemi di stato propri e degli alleati."
   },
   "fakeTears": {
-    "name": "Falselacrime"
+    "name": "Falselacrime",
+    "effect": "Chi la usa finge di urlare per imbarazzare il bersaglio. Ciò riduce drasticamente la statistica di Difesa Speciale del bersaglio."
   },
   "airCutter": {
-    "name": "Aerasoio"
+    "name": "Aerasoio",
+    "effect": "Chi la usa lancia del vento tagliente per tagliare i Pokémon avversari. La chance di critico di questa mossa è aumentata di 1 livello."
   },
   "overheat": {
-    "name": "Vampata"
+    "name": "Vampata",
+    "effect": "Chi la usa attacca il bersaglio con tutta la sua volontà. Il rinculo da questa mossa riduce drasticamente la statistica di Attacco Speciale di chi la usa."
   },
   "odorSleuth": {
     "name": "Segugio",
     "effect": "Chi la usa rende i Pokémon di tipo Spettro vulnerabili a qualsiasi tipo di mossa e può, inoltre, colpire i nemici sfuggenti."
   },
   "rockTomb": {
-    "name": "Rocciotomba"
+    "name": "Rocciotomba",
+    "effect": "Chi la usa lancia dei massi al bersaglio per infliggergli danno. Ciò riduce ance la statistica di Velocità del bersaglio riducendogli i suoi movimenti."
   },
   "silverWind": {
-    "name": "Ventargenteo"
+    "name": "Ventargenteo",
+    "effect": "Chi la usa attacca con scaglie poderose soffiate dal vento. Ciò ha anche un 10% di chance di aumentare le statistiche di Attacco, Difesa, Attacco Speciale, Difesa Speciale e Velocità tutte in una volta di chi la usa."
   },
   "metalSound": {
     "name": "Ferrostrido",
@@ -1254,51 +1280,64 @@
     "effect": "Una dolce melodia culla il bersaglio e lo costringe ad addormentarsi."
   },
   "tickle": {
-    "name": "Solletico"
+    "name": "Solletico",
+    "effect": "Chi la usa solletica il bersaglio fino a farlo ridere, riducendogli le sue statistiche di Attacco e Difesa."
   },
   "cosmicPower": {
-    "name": "Cosmoforza"
+    "name": "Cosmoforza",
+    "effect": "Chi la usa assorbe un potere mistico dallo spazio per aumentare le statistiche di Difesa e Difesa Speciale."
   },
   "waterSpout": {
-    "name": "Zampillo"
+    "name": "Zampillo",
+    "effect": "Chi la usa sputa fuori acqua per infliggere danno ai Pokémon avversari. Minori sono gli HP chi la usa ha, minore sarà la potenza della mossa (variabile tra 1 e 150)."
   },
   "signalBeam": {
-    "name": "Segnoraggio"
+    "name": "Segnoraggio",
+    "effect": "Chi la usa attacca con un sinistro raggio di luce. Questa mossa ha un 10% di chance di confondere il bersaglio."
   },
   "shadowPunch": {
     "name": "Pugnodombra",
     "effect": "Il nemico riceve un pugno proveniente dalle tenebre. Questa mossa è infallibile."
   },
   "extrasensory": {
-    "name": "Extrasenso"
+    "name": "Extrasenso",
+    "effect": "Chi la usa attacca con un potere strano, invisibile. Questa mossa ha un 10% di chance di far tentennare il bersaglio."
   },
   "skyUppercut": {
-    "name": "Stramontante"
+    "name": "Stramontante",
+    "effect": "Chi la usa attacca il bersaglio con un montante lanciato verso l'aria con forza. Questa mossa può colpire anche un bersaglio che si trova in aria a causa di Volo, Rimbalzo, o Cadutalibera."
   },
   "sandTomb": {
-    "name": "Sabbiotomba"
+    "name": "Sabbiotomba",
+    "effect": "Chi la usa intrappola il bersaglio dentro una furiosa tempesta di sabbia. Per 4-5 turni, il bersaglio prende danno pari a 1/8 dei suoi HP massimi alla fine di ogni turno."
   },
   "sheerCold": {
-    "name": "Purogelo"
+    "name": "Purogelo",
+    "effect": "Il bersaglio viene attaccato con un raggio freddo con zero assoluto. Il bersaglio perde tutti i suoi HP se la mossa colpisce, tranne se è un Pokémon Boss. Questa mossa non ha effetto sui tipi Ghiaccio. L'accuratezza di questa mossa è fissa a 30%. Se viene usata da un Pokémon diversa da un tipo Ghiaccio, la sua accuratezza di base si riduce al 20%."
   },
   "muddyWater": {
-    "name": "Fanghiglia"
+    "name": "Fanghiglia",
+    "effect": "Chi la usa attacca sparando della fanghiglia ai Pokémon avversari. Questa mossa ha un 30% di chance di ridurre la loro accuratezza."
   },
   "bulletSeed": {
-    "name": "Semitraglia"
+    "name": "Semitraglia",
+    "effect": "Chi la usa attacca sparando fortemente dei semi al bersaglio. Questa mossa colpisce 2-5 volte di fila."
   },
   "aerialAce": {
     "name": "Aeroassalto",
     "effect": "Chi la usa attacca il nemico a grande velocità. Questa mossa è infallibile."
   },
   "icicleSpear": {
-    "name": "Gelolancia"
+    "name": "Gelolancia",
+    "effect": "Chi la usa attacca usando delle lance affilate contro il bersaglio. Questa mossa colpisce 2-5 volte di fila."
   },
   "ironDefense": {
-    "name": "Ferroscudo"
+    "name": "Ferroscudo",
+    "effect": "Chi la usa rafforza la superfice del proprio corpo come se fosse fatto di ferro, aumentando drasticamente la sua statistica di Difesa."
   },
   "block": {
-    "name": "Blocco"
+    "name": "Blocco",
+    "effect": "Chi la usa sbarra la strada al bersaglio aprendo le braccia al massimo per impedire al bersaglio di fuggire o scambiarsi in battaglia."
   },
   "howl": {
     "name": "Gridodilotta"
