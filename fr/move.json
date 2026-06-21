@@ -448,14 +448,16 @@
     "effect": "Le lanceur érige un mur solide qui augmente beaucoup sa Défense."
   },
   "lightScreen": {
-    "name": "Mur Lumière"
+    "name": "Mur Lumière",
+    "effect": "Crée un fabuleux mur de lumière qui réduit de moitié les dégâts subis par les capacités spéciales pendant 5 tours. En Combat Duo, les dégâts sont réduits de 1/3 de leur dégâts à la place."
   },
   "haze": {
     "name": "Buée Noire",
     "effect": "Crée un brouillard qui annule les changements de stats de tous les Pokémon au combat."
   },
   "reflect": {
-    "name": "Protection"
+    "name": "Protection",
+    "effect": "Crée un fabuleux mur de lumière qui réduit de moitié les dégâts subis par les capacités physiques pendant 5 tours. En Combat Duo, les dégâts sont réduits de 1/3 de leur dégâts à la place."
   },
   "focusEnergy": {
     "name": "Puissance",
@@ -1554,7 +1556,8 @@
     "effect": "Permet au lanceur de frapper en priorité. Échoue si la cible ne prépare pas une attaque."
   },
   "toxicSpikes": {
-    "name": "Pics Toxik"
+    "name": "Pics Toxik",
+    "effect": "Le lanceur éparpille des pics autour de la cible. Quand cet état est actif, les Pokémon entrant sur le terrain sont empoisonnés. Si 2 effets de Pics Toxik sont actifs en même temps, ils sont gravement empoisonnés. Cela n’affecte pas les Pokémon de type Vol ou dotés du talent Lévitation, entre autres. Si un Pokémon adverse de type Poison arrive en combat, les pics sont neutralisé et disparaissent."
   },
   "heartSwap": {
     "name": "Permucœur",
@@ -2769,7 +2772,8 @@
     "effect": "Le lanceur pivote pour prendre de l’élan et infliger des dégâts."
   },
   "auroraVeil": {
-    "name": "Voile Aurore"
+    "name": "Voile Aurore",
+    "effect": "Réduit de moitié les dégâts subis par les capacités physiques et spéciales durant 5 tours. En Combat Duo, les dégâts sont réduits de 1/3 de leur dégâts à la place. Ne peut être utilisée que lorsqu’il neige ou grêle."
   },
   "sinisterArrowRaid": {
     "name": "Fureur des Plumes Spectrales",
@@ -2844,10 +2848,12 @@
     "effect": "Le lanceur plonge dans l’ombre de la cible, vole ses augmentations de stats et l’attaque."
   },
   "sunsteelStrike": {
-    "name": "Choc Météore"
+    "name": "Choc Météore",
+    "effect": "Le lanceur fonce sur la cible à la vitesse d’une météorite. Ignore le talent de l’ennemi, avec quelques exceptions."
   },
   "moongeistBeam": {
-    "name": "Rayon Spectral"
+    "name": "Rayon Spectral",
+    "effect": "Le lanceur attaque avec un rayon de lumière mystérieux. Ignore le talent de la cible, avec quelques exceptions."
   },
   "tearfulLook": {
     "name": "Larme à l’Œil",
@@ -2878,16 +2884,20 @@
     "effect": "Le lanceur attaque en projetant de l’électricité avec ses poings. Convertit les capacités de type Normal en type Électrik."
   },
   "photonGeyser": {
-    "name": "Photo-Geyser"
+    "name": "Photo-Geyser",
+    "effect": "Le lanceur fait jaillir un pilier de lumière. Compare l’Attaque et l’Attaque Spéciale, et utilise celle qui infligera le plus de dégâts. Ignore le talent de la cible, avec quelques exceptions."
   },
   "lightThatBurnsTheSky": {
-    "name": "Apocalypsis Luminis"
+    "name": "Apocalypsis Luminis",
+    "effect": "Compare l’Attaque et l’Attaque Spéciale, et utilise celle qui infligera le plus de dégâts. Ignore le talent de la cible, avec quelques exceptions."
   },
   "searingSunrazeSmash": {
-    "name": "Hélio-Choc Dévastateur"
+    "name": "Hélio-Choc Dévastateur",
+    "effect": "Baigné dans la Force Z, Solgaleo attaque en déchainant toute sa puissance. Ignore le talent de la cible, avec quelques exceptions."
   },
   "menacingMoonrazeMaelstrom": {
-    "name": "Rayons Séléno-Explosifs"
+    "name": "Rayons Séléno-Explosifs",
+    "effect": "Baigné dans la Force Z, Lunala attaque en déchainant toute sa puissance. Ignore le talent de la cible, avec quelques exceptions."
   },
   "letsSnuggleForever": {
     "name": "Patati-Patattrape",
@@ -2978,7 +2988,8 @@
     "effect": "Le lanceur mange la Baie qu’il tient, ce qui augmente beaucoup sa Défense."
   },
   "noRetreat": {
-    "name": "Ultime Bastion"
+    "name": "Ultime Bastion",
+    "effect": "Le lanceur voit toutes ses stats augmenter, mais en contrepartie, il ne peut plus quitter le terrain. Ne peut être utilisé qu'une fois par fois où le Pokémon est envoyé au combat."
   },
   "tarShot": {
     "name": "Goudronnage",
@@ -3149,7 +3160,8 @@
     "effect": "Le lanceur émet de la vapeur pour attaquer sa cible. A 20 % de chances de l’apeurer."
   },
   "lifeDew": {
-    "name": "Fontaine de Vie"
+    "name": "Fontaine de Vie",
+    "effect": "Le lanceur projette une eau mystérieuse sur le terrain pour restaurer 1/4 de ses PV max et de ceux de ses alliés au combat."
   },
   "obstruct": {
     "name": "Blocage",
@@ -3248,7 +3260,8 @@
     "effect": "Le lanceur projette du sable chauffé à blanc sur la cible, ce qui peut aussi la bruler. À l’utilisation, soigne le gel du lanceur.  A 30 % de chances de bruler l’adversaire. Soigne le gel de l’adversaire."
   },
   "jungleHealing": {
-    "name": "Selve Salvatrice"
+    "name": "Selve Salvatrice",
+    "effect": "Le lanceur fait appel au pouvoir de la jungle pour restaurer 1/4 de ses PV max et soigner les altérations d’état de ses alliés et de lui-même."
   },
   "wickedBlow": {
     "name": "Poing Obscur",
@@ -3363,7 +3376,8 @@
     "effect": "Une multitude de boules de feu frappent la cible. A 30 % de chances de bruler l’adversaire. Si l’adversaire souffre d’une altération de statut, la puissance de cette capacité est multipliée par 2."
   },
   "ceaselessEdge": {
-    "name": "Vagues à Lames"
+    "name": "Vagues à Lames",
+    "effect": "Des lames de coquillages entaillent la cible en visant ses points faibles. Les débris de coquillage se répandent sous la forme de picots aux pieds de la cible. Les Pokémon entrant sur le terrain subissent des dégâts équivalents à 1/8 de leurs PV max, et plus si 2 ou 3 effets de picots sont actifs en même temps. Cela n’affecte pas les Pokémon de type Vol ou dotés du talent Lévitation, entre autres."
   },
   "bleakwindStorm": {
     "name": "Typhon Hivernal",
@@ -3378,7 +3392,8 @@
     "effect": "Le lanceur déclenche un violent typhon mêlé à du sable ardent qui s’abat sur la cible. A 20 % de chances de la bruler. N’échoue jamais quand il pleut."
   },
   "lunarBlessing": {
-    "name": "Prière Lunaire"
+    "name": "Prière Lunaire",
+    "effect": "Le lanceur adresse une prière à la lune pour restaurer 1/4 de ses PV max et soigner ses altérations de statut ainsi que celles de ses alliés."
   },
   "takeHeart": {
     "name": "Extravaillance",
@@ -3497,13 +3512,16 @@
     "effect": "Une attaque de type Eau que seul un Tortank Gigamax peut utiliser. Pendant 4 tours, la cible continue de subir des dégâts à hauteur de 1/6 de ses PV max."
   },
   "gMaxDrumSolo": {
-    "name": "Percussion G-Max"
+    "name": "Percussion G-Max",
+    "effect": "Une attaque de type Plante que seul un Gorythmic Gigamax peut utiliser. Ignore le talent de la cible, avec quelques exceptions."
   },
   "gMaxFireball": {
-    "name": "Pyroball G-Max"
+    "name": "Pyroball G-Max",
+    "effect": "Une attaque de type Feu que seul un Pyrobut Gigamax peut utiliser. Ignore le talent de la cible, avec quelques exceptions."
   },
   "gMaxHydrosnipe": {
-    "name": "Gâchette G-Max"
+    "name": "Gâchette G-Max",
+    "effect": "Une attaque de type Eau que seul un Lézargus Gigamax peut utiliser. Ignore le talent de la cible, avec quelques exceptions."
   },
   "gMaxOneBlow": {
     "name": "Coup Final G-Max",
