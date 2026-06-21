@@ -2480,7 +2480,8 @@
     "effect": "El usuario se precipita desde el cielo a una velocidad de vértigo para atacar al objetivo, pero hace que bajen 1 nivel la Defensa y la Defensa Especial del usuario."
   },
   "hyperspaceFury": {
-    "name": "Cerco Dimensión"
+    "name": "Cerco Dimensión",
+    "effect": "Ataca al objetivo con una ráfaga de golpes que reduce 1 nivel la Defensa del usuario. Puede golpear a objetivos que hayan usado movimientos como Protección o Detección y elimina sus efectos."
   },
   "breakneckBlitzPhysical": {
     "name": "Carrera Arrolladora",
@@ -2631,38 +2632,48 @@
     "effect": "Pikachu emplea el Poder Z para acumular una gran cantidad de electricidad en su cuerpo y arremeter contra el objetivo."
   },
   "shoreUp": {
-    "name": "Recogearena"
+    "name": "Recogearena",
+    "effect": "Restaura la mitad de los PS máximos del usuario. Durante las tormentas de arena, restaura ⅔ de sus PS máximos."
   },
   "firstImpression": {
-    "name": "Escaramuza"
+    "name": "Escaramuza",
+    "effect": "Movimiento de gran potencia que falla si no es el primer movimiento que el usuario utiliza tras entrar en combate."
   },
   "banefulBunker": {
-    "name": "Búnker"
+    "name": "Búnker",
+    "effect": "Protege al usuario de los movimientos de los demás Pokémon durante ese turno. Envenena al Pokémon que ataque al usuario con un movimiento de contacto. Con cada uso consecutivo, la probabilidad de éxito del movimiento se reduce a ⅓ con respecto a la probabilidad anterior."
   },
   "spiritShackle": {
-    "name": "Puntada Sombría"
+    "name": "Puntada Sombría",
+    "effect": "Ataca al oponente y, al mismo tiempo, fija su sombra al terreno para impedir su huida o ser cambiado."
   },
   "darkestLariat": {
-    "name": "Lariat Oscuro"
+    "name": "Lariat Oscuro",
+    "effect": "Gira sobre sí mismo y golpea al oponente con ambos brazos. Ignora los cambios en las características del objetivo."
   },
   "sparklingAria": {
-    "name": "Aria Burbuja"
+    "name": "Aria Burbuja",
+    "effect": "Libera burbujas al cantar. Este movimiento cura las quemaduras de los Pokémon que reciban daño."
   },
   "iceHammer": {
-    "name": "Martillo Hielo"
+    "name": "Martillo Hielo",
+    "effect": "El terrible puño golpea al contrincante, pero baja 1 nivel la velocidad del usuario."
   },
   "floralHealing": {
-    "name": "Cura Floral"
+    "name": "Cura Floral",
+    "effect": "Restaura la mitad de los PS máximos del objetivo. Con Campo de Hierba, recupera ⅔ de los PS máximos del objetivo."
   },
   "highHorsepower": {
     "name": "Fuerza Equina",
     "effect": "Asesta un golpe devastador usando todo su cuerpo."
   },
   "strengthSap": {
-    "name": "Absorbefuerza"
+    "name": "Absorbefuerza",
+    "effect": "El usuario recupera una cantidad de PS equivalente al valor del Ataque del objetivo. Despues, este movimiento reduce 1 nivel el Ataque del objetivo."
   },
   "solarBlade": {
-    "name": "Cuchilla Solar"
+    "name": "Cuchilla Solar",
+    "effect": "El usuario absorbe energía lumínica en el primer turno y en el segundo la concentra en forma de cuchilla con la que ataca al rival. Si hace sol, ataca inmediatamente. Si hay otro tiempo atmosférico activo, la potencia del movimiento se ve reducida a la mitad."
   },
   "leafage": {
     "name": "Follaje",
@@ -2673,26 +2684,32 @@
     "effect": "Convierte a uno de los Pokémon que están combatiendo en el foco de atención, de modo que todos los ataques se dirijan hacia él."
   },
   "toxicThread": {
-    "name": "Hilo Venenoso"
+    "name": "Hilo Venenoso",
+    "effect": "Ataca al objetivo con hilillos venenosos que reducen 2 niveles su velocidad y lo envenenan."
   },
   "laserFocus": {
     "name": "Aguzar",
     "effect": "El usuario se concentra para que el siguiente ataque propine un golpe crítico."
   },
   "gearUp": {
-    "name": "Piñón Auxiliar"
+    "name": "Piñón Auxiliar",
+    "effect": "Cambia de marcha y logra aumentar 1 nivel el Ataque y el Ataque Especial de los Pokémon aliados que cuenten con las habilidades Más y Menos."
   },
   "throatChop": {
-    "name": "Golpe Mordaza"
+    "name": "Golpe Mordaza",
+    "effect": "Inflige al rival un dolor tan abrumador que le impide utilizar durante 2 turnos movimientos de sonido."
   },
   "pollenPuff": {
-    "name": "Bola de Polen"
+    "name": "Bola de Polen",
+    "effect": "Ataca al objetivo con una bola explosiva. Si se usa contra un aliado, restaura la mitad de sus PS máximos en vez de infligirle daño."
   },
   "anchorShot": {
-    "name": "Anclaje"
+    "name": "Anclaje",
+    "effect": "Ataca lanzando un ancla al objetivo, que queda atrapado y no puede huir ni ser cambiado por otro."
   },
   "psychicTerrain": {
-    "name": "Campo Psíquico"
+    "name": "Campo Psíquico",
+    "effect": "Durante 5 turnos, se potencian un 30% los movimientos de tipo Psíquico y los Pokémon que están en el suelo quedan protegidos contra movimientos con prioridad."
   },
   "lunge": {
     "name": "Plancha",
@@ -2703,10 +2720,12 @@
     "effect": "Golpea al objetivo con un látigo incandescente y reduce su defensa."
   },
   "powerTrip": {
-    "name": "Chulería"
+    "name": "Chulería",
+    "effect": "Ataca al oponente presumiendo de su fuerza. Aumenta en 20 su potencia por cada nivel de incremento en las características del usuario."
   },
   "burnUp": {
-    "name": "Llama Final"
+    "name": "Llama Final",
+    "effect": "Utiliza hasta el último resquicio de llamas de su cuerpo para infligir un grave daño al objetivo. El usuario deja de ser de tipo Fuego y se libra de la congelación. Este movimiento falla si el usuario no es de tipo Fuego."
   },
   "speedSwap": {
     "name": "Cambiavelocidad",
@@ -2717,36 +2736,44 @@
     "effect": "El usuario ensarta al objetivo con su afilada cornamenta. No falla nunca."
   },
   "purify": {
-    "name": "Purificación"
+    "name": "Purificación",
+    "effect": "Cura los problemas de estado del Pokémon objetivo y a cambio recupera la mitad de sus PS máximos propios."
   },
   "revelationDance": {
-    "name": "Danza Despertar"
+    "name": "Danza Despertar",
+    "effect": "Ataque que consiste en un baile muy enérgico. El tipo de este ataque se corresponde con el tipo primario del Pokémon que lo ejecuta."
   },
   "coreEnforcer": {
-    "name": "Núcleo Castigo"
+    "name": "Núcleo Castigo",
+    "effect": "Inflige daño al rival, y si este ya ha hecho uso de algún movimiento, elimina el efecto de sus habilidades."
   },
   "tropKick": {
     "name": "Patada Tropical",
     "effect": "Lanza una patada con la fuerza del trópico que golpea al objetivo y reduce su ataque."
   },
   "instruct": {
-    "name": "Mandato"
+    "name": "Mandato",
+    "effect": "Fuerza al objetivo a repetir inmediatamente su último movimiento."
   },
   "beakBlast": {
-    "name": "Pico Cañón"
+    "name": "Pico Cañón",
+    "effect": "Primero aumenta la temperatura de su pico y luego ejecuta un ataque. Si el usuario es alcanzado por un movimiento de contacto antes de golpear con este movimiento, quema al atacante."
   },
   "clangingScales": {
-    "name": "Fragor Escamas"
+    "name": "Fragor Escamas",
+    "effect": "Frota todas las escamas de su cuerpo para crear un fuerte sonido con el que ataca. Cuando el ataque termina, reduce 1 nivel la Defensa del usuario."
   },
   "dragonHammer": {
-    "name": "Martillo Dragón"
+    "name": "Martillo Dragón",
+    "effect": "Usa el cuerpo como un martillo para abalanzarse sobre su rival y causarle daño."
   },
   "brutalSwing": {
     "name": "Giro Vil",
     "effect": "Hace pivotar su cuerpo para causar daño a los Pokémon adyacentes."
   },
   "auroraVeil": {
-    "name": "Velo Aurora"
+    "name": "Velo Aurora",
+    "effect": "Reduce a la mitad el daño de los ataques físicos y especiales durante 5 turnos. Solo puede usarse cuando está nevando o granizando."
   },
   "sinisterArrowRaid": {
     "name": "Aluvión de Flechas Sombrías",
@@ -2789,23 +2816,28 @@
     "effect": "El caparazón del Pokémon se convierte en una trampa. Si lo alcanza un ataque físico, la trampa estalla y los rivales sufren daño."
   },
   "fleurCannon": {
-    "name": "Cañón Floral"
+    "name": "Cañón Floral",
+    "effect": "El usuario emite un potente rayo, pero reduce 2 niveles el Ataque Especial de quien lo usa."
   },
   "psychicFangs": {
-    "name": "Psicocolmillo"
+    "name": "Psicocolmillo",
+    "effect": "Ataca a sus rivales con colmillos psíquicos que además destruyen barreras como Pantalla de Luz, Reflejo o Velo Aurora en el lado del objetivo antes de infligir daño."
   },
   "stompingTantrum": {
-    "name": "Pataleta"
+    "name": "Pataleta",
+    "effect": "Usa la frustración como revulsivo para atacar. Su potencia se duplica si el usuario no pudo actuar o falló su movimiento en el turno anterior."
   },
   "shadowBone": {
-    "name": "Hueso Sombrío"
+    "name": "Hueso Sombrío",
+    "effect": "Ataca golpeando con un hueso poseído por un espíritu. Tiene una probabilidad del 20 % de reducir 1 nivel la Defensa del objetivo."
   },
   "accelerock": {
     "name": "Roca Veloz",
     "effect": "El usuario se lanza contra el objetivo a gran velocidad. Este movimiento tiene prioridad alta."
   },
   "liquidation": {
-    "name": "Hidroariete"
+    "name": "Hidroariete",
+    "effect": "Ataca golpeando gracias a la fuerza del agua. Tiene una probabilidad del 20 % de reducir un nivel la Defensa del objetivo."
   },
   "prismaticLaser": {
     "name": "Láser Prisma",
@@ -2824,29 +2856,36 @@
     "effect": "Ataca con un rayo misterioso que ignora la habilidad del objetivo."
   },
   "tearfulLook": {
-    "name": "Ojos Llorosos"
+    "name": "Ojos Llorosos",
+    "effect": "Mira al objetivo con ojos llorosos para hacerle perder su espíritu combativo y reduce 1 nivel su Ataque y Ataque Especial."
   },
   "zingZap": {
-    "name": "Electropunzada"
+    "name": "Electropunzada",
+    "effect": "Se lanza contra el objetivo y le suelta una potente descarga eléctrica. Tiene una probabilidad del 30 % de amedrentar al objetivo."
   },
   "naturesMadness": {
-    "name": "Furia Natural"
+    "name": "Furia Natural",
+    "effect": "Golpea al objetivo con la furia de la naturaleza. Inflige daño igual a la mitad de los PS restantes del objetivo."
   },
   "multiAttack": {
-    "name": "Multiataque"
+    "name": "Multiataque",
+    "effect": "El Pokémon se rodea de una potente energía con la que golpea al rival. El tipo del movimiento depende del Disco o Tabla que lleva el usuario, siempre que tenga las habilidades Sistema Alfa o Multitipo."
   },
   "tenMillionVoltThunderbolt": {
-    "name": "Gigarrayo Fulminante"
+    "name": "Gigarrayo Fulminante",
+    "effect": "Los Pikachu con gorra acumulan una carga eléctrica descomunal gracias al Poder Z y la lanzan contra el objetivo. Aumenta 2 niveles la probabilidad de asestar golpes críticos del usuario durante este ataque."
   },
   "mindBlown": {
-    "name": "Cabeza Sorpresa"
+    "name": "Cabeza Sorpresa",
+    "effect": "El usuario hace explotar su cabeza para atacar a los Pokémon adyacentes. El usuario recibe daño igual a la mitad de sus PS máximos."
   },
   "plasmaFists": {
     "name": "Puños Plasma",
     "effect": "El usuario ataca con puños cargados de electricidad. Convierte los movimientos de tipo Normal en movimientos de tipo Eléctrico."
   },
   "photonGeyser": {
-    "name": "Géiser Fotónico"
+    "name": "Géiser Fotónico",
+    "effect": "El usuario ataca con una gran columna de luz. Compara sus valores de Ataque y Ataque especial para infligir daño con el más alto de los dos. También ignora las habilidades del objetivo."
   },
   "lightThatBurnsTheSky": {
     "name": "Fotodestrucción Apocalíptica",
@@ -2877,166 +2916,208 @@
     "effect": "Ataque eléctrico a la velocidad del rayo. Este movimiento tiene prioridad alta y propina golpes críticos."
   },
   "splishySplash": {
-    "name": "Salpikasurf"
+    "name": "Salpikasurf",
+    "effect": "Golpea al adversario con una ola gigante electrificada. Tiene una probabilidad del 20% de paralizar a los objetivos."
   },
   "floatyFall": {
-    "name": "Pikapicado"
+    "name": "Pikapicado",
+    "effect": "El usuario se suspende en el aire para, a continuación, abalanzarse súbitamente sobre el rival. Tiene una probabilidad del 30 % de amedrentar al objetivo."
   },
   "pikaPapow": {
-    "name": "Pikatormenta"
+    "name": "Pikatormenta",
+    "effect": "Lanza una descarga eléctrica que resulta más potente cuanto mayor es el cariño que siente Pikachu hacia su Entrenador, con un rango entre 1 y 102. Nunca falla."
   },
   "bouncyBubble": {
-    "name": "Vapodrenaje"
+    "name": "Vapodrenaje",
+    "effect": "Ataca lanzando proyectiles de agua y recupera una cantidad de PS equivalente al 100% del daño causado."
   },
   "buzzyBuzz": {
-    "name": "Joltioparálisis"
+    "name": "Joltioparálisis",
+    "effect": "Lanza una potente descarga eléctrica sobre el rival y lo deja paralizado."
   },
   "sizzlySlide": {
-    "name": "Flarembestida"
+    "name": "Flarembestida",
+    "effect": "Tras envolver su cuerpo en llamas, el usuario arrolla con fuerza al rival y le provoca quemaduras."
   },
   "glitzyGlow": {
-    "name": "Espeaura"
+    "name": "Espeaura",
+    "effect": "Envuelve al rival con ondas psíquicas. Alza un extraño muro que debilita a la mitad los ataques especiales del adversario. En combates dobles, la reducción es de ⅓."
   },
   "baddyBad": {
-    "name": "Umbreozona"
+    "name": "Umbreozona",
+    "effect": "Lanza un ataque haciendo gala de su faceta más umbría. Alza un extraño muro que debilita a la mitad los ataques especiales del adversario. En combates dobles, la reducción es de ⅓."
   },
   "sappySeed": {
-    "name": "Leafitobombas"
+    "name": "Leafitobombas",
+    "effect": "Hace brotar un tallo gigante que bombardea al rival con unas semillas. Drena ¹⁄₁₆ de los PS máximos del objetivo al final de cada turno."
   },
   "freezyFrost": {
     "name": "Glaceoprisma",
     "effect": "Ataca al rival con negros cristales de niebla congelada. Revierte los cambios en las características de todos los Pokémon presentes."
   },
   "sparklySwirl": {
-    "name": "Sylveotornado"
+    "name": "Sylveotornado",
+    "effect": "Ataca al rival envolviéndolo en un remolino de aroma asfixiante. Cura a todo el equipo de cualquier problema de estado."
   },
   "veeveeVolley": {
-    "name": "Eevimpacto"
+    "name": "Eevimpacto",
+    "effect": "Un placaje que resulta más potente cuanto mayor es el cariño que siente Eevee hacia su Entrenador, con un rango entre 1 y 102. Nunca falla."
   },
   "doubleIronBash": {
-    "name": "Ferropuño Doble"
+    "name": "Ferropuño Doble",
+    "effect": "Usando la tuerca del pecho como eje, gira sobre sí mismo y golpea con los brazos dos veces seguidas. Cada golpe tiene una probabilidad del 30% de amedrentar al objetivo."
   },
   "maxGuard": {
-    "name": "Maxibarrera"
+    "name": "Maxibarrera",
+    "effect": "Protege al usuario de los movimientos de los demás Pokémon durante ese turno. Con cada uso consecutivo, la probabilidad de éxito del movimiento se reduce a ⅓ con respecto a la probabilidad anterior."
   },
   "dynamaxCannon": {
-    "name": "Cañón Dinamax"
+    "name": "Cañón Dinamax",
+    "effect": "El usuario ataca emitiendo un rayo desde su núcleo. Inflinge hasta el doble de daño si el objetivo tiene más niveles de lo normal."
   },
   "snipeShot": {
-    "name": "Disparo Certero"
+    "name": "Disparo Certero",
+    "effect": "Permite atacar al objetivo seleccionado ignorando las habilidades o movimientos que permiten a un Pokémon centrar la atención sobre sí. Aumenta 1 nivel la probabilidad de asestar golpes críticos del usuario durante este ataque."
   },
   "jawLock": {
     "name": "Presa Maxilar",
     "effect": "Impide que tanto el atacante como el defensor puedan huir o ser cambiados por otros hasta que uno de ellos se debilite o abandone el terreno de combate."
   },
   "stuffCheeks": {
-    "name": "Atiborramiento"
+    "name": "Atiborramiento",
+    "effect": "El usuario consume una baya que lleve, lo que aumenta 2 niveles su Defensa. Este movimiento no se puede usar si el usuario no lleva una baya."
   },
   "noRetreat": {
-    "name": "Bastión Final"
+    "name": "Bastión Final",
+    "effect": "Aumenta un nivel el Ataque, la Defensa, el Ataque Especial, la Defensa Especial y la Velocidad del usuario, pero ya no puede huir ni ser cambiado por otro. Puede usarse una vez tras entrar en combate y fallará si se usa una segunda vez."
   },
   "tarShot": {
-    "name": "Alquitranazo"
+    "name": "Alquitranazo",
+    "effect": "Cubre al objetivo de un alquitrán pegajoso que reduce su velocidad. Duplica la debilidad a los movimientos de tipo Fuego del objetivo."
   },
   "magicPowder": {
-    "name": "Polvo Mágico"
+    "name": "Polvo Mágico",
+    "effect": "Cubre al objetivo con unos polvos mágicos que le hacen adquirir el tipo Psíquico."
   },
   "dragonDarts": {
-    "name": "Dracoflechas"
+    "name": "Dracoflechas",
+    "effect": "El usuario ataca propulsando proyectiles como escamas u otros Pokémon. En caso de haber 2 adversarios, cada proyectil golpea a su propio objetivo por separado."
   },
   "teatime": {
-    "name": "Hora del Té"
+    "name": "Hora del Té",
+    "effect": "El usuario invita a tomar el té a todos los presentes en el terreno de combate, lo que hace que ingieran una baya que lleven equipadas."
   },
   "octolock": {
-    "name": "Octopresa"
+    "name": "Octopresa",
+    "effect": "Retiene al objetivo e impide que pueda huir o ser cambiado por otro, a la vez que reduce 1 nivel su Defensa y su Defensa Especial cada turno."
   },
   "boltBeak": {
-    "name": "Electropico"
+    "name": "Electropico",
+    "effect": "El usuario ensarta al objetivo con su pico cargado de electricidad. Si ataca antes que el objetivo, la potencia del movimiento se duplica."
   },
   "fishiousRend": {
-    "name": "Branquibocado"
+    "name": "Branquibocado",
+    "effect": "El usuario agarra al objetivo con sus duras branquias. Si ataca antes que el objetivo, la potencia del movimiento se duplica."
   },
   "courtChange": {
     "name": "Cambio de Cancha",
     "effect": "Extraño poder que intercambia los efectos en el terreno de combate de ambos bandos."
   },
   "maxFlare": {
-    "name": "Maxignición"
+    "name": "Maxignición",
+    "effect": "Ataque de tipo Fuego ejecutado por un Pokémon Dinamax. Hace que se intensifique el efecto del sol durante 5 turnos."
   },
   "maxFlutterby": {
     "name": "Maxinsecto",
     "effect": "Ataque de tipo Bicho ejecutado por un Pokémon Dinamax. Reduce el ataque especial del objetivo."
   },
   "maxLightning": {
-    "name": "Maxitormenta"
+    "name": "Maxitormenta",
+    "effect": "Ataque de tipo Eléctrico ejecutado por un Pokémon Dinamax. Crea un campo eléctrico durante 5 turnos."
   },
   "maxStrike": {
     "name": "Maxiataque",
     "effect": "Ataque de tipo Normal ejecutado por un Pokémon Dinamax. Reduce la velocidad del objetivo."
   },
   "maxKnuckle": {
-    "name": "Maxipuño"
+    "name": "Maxipuño",
+    "effect": "Ataque de tipo Lucha ejecutado por un Pokémon Dinamax. Aumenta 1 nivel el Ataque de tu bando."
   },
   "maxPhantasm": {
     "name": "Maxiespectro",
     "effect": "Ataque de tipo Fantasma ejecutado por un Pokémon Dinamax. Reduce la defensa del objetivo."
   },
   "maxHailstorm": {
-    "name": "Maxihelada"
+    "name": "Maxihelada",
+    "effect": "Ataque de tipo Hielo ejecutado por un Pokémon Dinamax. Crea una tormenta de granizo que dura 5 turnos."
   },
   "maxOoze": {
-    "name": "Maxiácido"
+    "name": "Maxiácido",
+    "effect": "Ataque de tipo Veneno ejecutado por un Pokémon Dinamax. Aumenta 1 nivel el Ataque Especial de tu bando."
   },
   "maxGeyser": {
-    "name": "Maxichorro"
+    "name": "Maxichorro",
+    "effect": "Ataque de tipo Agua ejecutado por un Pokémon Dinamax. Desata un aguacero que dura 5 turnos."
   },
   "maxAirstream": {
-    "name": "Maxiciclón"
+    "name": "Maxiciclón",
+    "effect": "Ataque de tipo Volador ejecutado por un Pokémon Dinamax. Aumenta 1 nivel la velocidad de tu bando."
   },
   "maxStarfall": {
-    "name": "Maxiestela"
+    "name": "Maxiestela",
+    "effect": "Ataque de tipo Hada ejecutado por un Pokémon Dinamax. Crea un campo de niebla durante 5 turnos."
   },
   "maxWyrmwind": {
     "name": "Maxidraco",
     "effect": "Ataque de tipo Dragón ejecutado por un Pokémon Dinamax. Reduce el ataque del objetivo."
   },
   "maxMindstorm": {
-    "name": "Maxionda"
+    "name": "Maxionda",
+    "effect": "Ataque de tipo Psíquico ejecutado por un Pokémon Dinamax. Crea un campo psíquico durante 5 turnos."
   },
   "maxRockfall": {
-    "name": "Maxilito"
+    "name": "Maxilito",
+    "effect": "Ataque de tipo Roca ejecutado por un Pokémon Dinamax. Levanta una tormenta de arena que dura 5 turnos."
   },
   "maxQuake": {
-    "name": "Maxitemblor"
+    "name": "Maxitemblor",
+    "effect": "Ataque de tipo Tierra ejecutado por un Pokémon Dinamax. Aumenta 1 nivel la Defensa Especial de tu bando."
   },
   "maxDarkness": {
     "name": "Maxisombra",
     "effect": "Ataque de tipo Siniestro ejecutado por un Pokémon Dinamax. Reduce la defensa especial del objetivo."
   },
   "maxOvergrowth": {
-    "name": "Maxiflora"
+    "name": "Maxiflora",
+    "effect": "Ataque de tipo Planta ejecutado por un Pokémon Dinamax. Crea un campo de hierba durante 5 turnos."
   },
   "maxSteelspike": {
-    "name": "Maximetal"
+    "name": "Maximetal",
+    "effect": "Ataque de tipo Acero ejecutado por un Pokémon Dinamax. Aumenta 1 nivel la Defensa de tu bando."
   },
   "clangorousSoul": {
-    "name": "Estruendo Escama"
+    "name": "Estruendo Escama",
+    "effect": "Sacrifica ⅓ de los PS máximos del usuario para aumentar un nivel su Ataque, su Defensa, su Ataque Especial, su Defensa Especial y su Velocidad. Falla si el usuario no tiene suficientes PS."
   },
   "bodyPress": {
-    "name": "Plancha Corporal"
+    "name": "Plancha Corporal",
+    "effect": "El usuario usa el cuerpo para lanzar su ataque. El daño que inflige se calcula con el valor de la Defensa del usuario en vez del de su Ataque."
   },
   "decorate": {
-    "name": "Decoración"
+    "name": "Decoración",
+    "effect": "Aumenta 2 niveles el Ataque y el Ataque Especial del objetivo al decorarlo."
   },
   "drumBeating": {
     "name": "Batería Asalto",
     "effect": "El usuario controla un tocón mediante la percusión y al atacar reduce la velocidad del objetivo."
   },
   "snapTrap": {
-    "name": "Cepo"
+    "name": "Cepo",
+    "effect": "Cepo que atrapa al objetivo. Durante 4-5 turnos, el objetivo recibe un daño equivalente a ⅛ de sus PS máximos al final de cada turno."
   },
   "pyroBall": {
-    "name": "Balón Ígneo"
+    "name": "Balón Ígneo",
+    "effect": "El usuario prende una pequeña piedra para crear una bola de fuego con la que ataca al objetivo. Tiene una probabilidad del 10 % de quemar al objetivo y descongela al usuario si está congelado."
   },
   "behemothBlade": {
     "name": "Tajo Supremo",
@@ -3047,7 +3128,8 @@
     "effect": "El usuario se convierte en un escudo gigante para golpear con vigor al objetivo."
   },
   "auraWheel": {
-    "name": "Rueda Aural"
+    "name": "Rueda Aural",
+    "effect": "La energía que acumula en las mejillas le sirve para atacar y aumentar 1 nivel su Velocidad. Si es utilizado por Morpeko, su tipo varía según la forma que adopte."
   },
   "breakingSwipe": {
     "name": "Vasto Impacto",
@@ -3058,68 +3140,84 @@
     "effect": "Ataca pinchando al objetivo con una rama afilada."
   },
   "overdrive": {
-    "name": "Amplificador"
+    "name": "Amplificador",
+    "effect": "El usuario genera enormes vibraciones de intensa reverberación con las que ataca al objetivo."
   },
   "appleAcid": {
     "name": "Ácido Málico",
     "effect": "Ataca al objetivo con el fluido corrosivo que desprende una manzana ácida, lo que también reduce la defensa especial de este."
   },
   "gravApple": {
-    "name": "Fuerza G"
+    "name": "Fuerza G",
+    "effect": "El usuario ataca haciendo caer una manzana desde gran altura. Reduce un nivel la Defensa del objetivo. Aumenta un 50 % su potencia si el campo está afectado por Gravedad."
   },
   "spiritBreak": {
     "name": "Choque Anímico",
     "effect": "El usuario ataca al objetivo con tal ímpetu que acaba minando su moral y, en consecuencia, reduce su ataque especial."
   },
   "strangeSteam": {
-    "name": "Cautivapor"
+    "name": "Cautivapor",
+    "effect": "Desprende un humo con el que ataca al objetivo. Tiene una probabilidad del 20% de confundir al objetivo."
   },
   "lifeDew": {
-    "name": "Gota Vital"
+    "name": "Gota Vital",
+    "effect": "Vierte un agua misteriosa y balsámica que restaura ¼ de los PS máximos del usuario y sus aliados."
   },
   "obstruct": {
-    "name": "Obstrucción"
+    "name": "Obstrucción",
+    "effect": "Frena todos los ataques. Reduce 2 niveles la Defensa del Pokémon que golpee al usuario con un movimiento de contacto. Con cada uso consecutivo, la probabilidad de éxito del movimiento se reduce a ⅓ con respecto a la probabilidad anterior."
   },
   "falseSurrender": {
     "name": "Irreverencia",
     "effect": "El usuario finge hacer una reverencia y aprovecha la ocasión para ensartar al objetivo con su cabello alborotado. No falla nunca."
   },
   "meteorAssault": {
-    "name": "Asalto Estelar"
+    "name": "Asalto Estelar",
+    "effect": "El usuario agita violentamente su grueso puerro para atacar, pero el mareo que le provocan las sacudidas le obliga a descansar en el siguiente turno."
   },
   "eternabeam": {
     "name": "Rayo Infinito",
     "effect": "Este es el mayor ataque de Eternatus una vez adquirida su forma original. No puede moverse en el turno siguiente."
   },
   "steelBeam": {
-    "name": "Metaláser"
+    "name": "Metaláser",
+    "effect": "Utiliza el acero de su cuerpo para disparar un potente rayo. El usuario recibe daño equivalente a la mitad de sus PS máximos tras atacar."
   },
   "expandingForce": {
-    "name": "Vasta Fuerza"
+    "name": "Vasta Fuerza",
+    "effect": "El usuario ataca al objetivo con sus poderes psíquicos. Cuando se está en contacto con un Campo Psíquico, aumenta un 50% su potencia y ataca a todos los rivales."
   },
   "steelRoller": {
-    "name": "Allanador Férreo"
+    "name": "Allanador Férreo",
+    "effect": "El usuario lanza su ataque y destruye el Campo activo en el terreno de combate. Falla si no hay ninguno."
   },
   "scaleShot": {
-    "name": "Ráfaga Escamas"
+    "name": "Ráfaga Escamas",
+    "effect": "Lanza escamas al objetivo 2-5 veces seguidas. Aumenta 1 nivel la Velocidad del usuario, pero reduce 1 nivel su Defensa."
   },
   "meteorBeam": {
-    "name": "Rayo Meteórico"
+    "name": "Rayo Meteórico",
+    "effect": "El usuario dedica el primer turno a aumentar 1 nivel su Ataque Especial acumulando energía cósmica y lanza su ofensiva contra el objetivo en el segundo."
   },
   "shellSideArm": {
-    "name": "Moluscañón"
+    "name": "Moluscañón",
+    "effect": "Tiene una probabilidad del 20 % de envenenar al objetivo. Se convierte en un ataque físico si de ese modo va a infligir más daño."
   },
   "mistyExplosion": {
-    "name": "Bruma Explosiva"
+    "name": "Bruma Explosiva",
+    "effect": "El usuario ataca a todos a su alrededor, pero se debilita de inmediato. Aumenta un 50 % su potencia si el usuario está en contacto con un Campo de Niebla."
   },
   "grassyGlide": {
-    "name": "Fitoimpulso"
+    "name": "Fitoimpulso",
+    "effect": "Ataca al objetivo deslizándose sobre el terreno de combate. Aumenta un nivel su prioridad si el usuario está en contacto con un Campo de Hierba."
   },
   "risingVoltage": {
-    "name": "Alto Voltaje"
+    "name": "Alto Voltaje",
+    "effect": "Ataca con una descarga eléctrica que surge del terreno de combate. Su potencia se duplica si el objetivo está en contacto con un Campo Eléctrico."
   },
   "terrainPulse": {
-    "name": "Pulso de Campo"
+    "name": "Pulso de Campo",
+    "effect": "El usuario ataca aprovechando la energía del Campo activo. Su potencia se duplica si el usuario está en contacto con un Campo. Su tipo varía según el Campo que esté activo."
   },
   "skitterSmack": {
     "name": "Golpe Rastrero",
@@ -3130,13 +3228,16 @@
     "effect": "Ataca al objetivo con la energía generada por la envidia y causa quemaduras a los Pokémon cuyas características hayan aumentado en ese turno."
   },
   "lashOut": {
-    "name": "Desahogo"
+    "name": "Desahogo",
+    "effect": "Ataca al rival presa de la rabia. Su potencia se duplica si las características del usuario se han reducido en ese turno."
   },
   "poltergeist": {
-    "name": "Poltergeist"
+    "name": "Poltergeist",
+    "effect": "El usuario ataca utilizando un objeto que lleva el rival. Falla si el objetivo no lleva un objeto."
   },
   "corrosiveGas": {
-    "name": "Gas Corrosivo"
+    "name": "Gas Corrosivo",
+    "effect": "El usuario libera un gas cáustico que envuelve a todos los que se encuentren alrededor y derrite por completo los objetos que lleven equipados hasta el final del combate."
   },
   "coaching": {
     "name": "Motivación",
@@ -3147,34 +3248,44 @@
     "effect": "Tras atacar, el usuario da paso a toda prisa a otro Pokémon del equipo."
   },
   "tripleAxel": {
-    "name": "Triple Axel"
+    "name": "Triple Axel",
+    "effect": "Propina hasta tres patadas seguidas. La potencia de cada golpe aumenta en 20. Se detiene si algún golpe falla."
   },
   "dualWingbeat": {
-    "name": "Ala Bis"
+    "name": "Ala Bis",
+    "effect": "Ataca al adversario golpeándolo dos veces con las alas."
   },
   "scorchingSands": {
-    "name": "Arenas Ardientes"
+    "name": "Arenas Ardientes",
+    "effect": "Ataca al objetivo arrojándole arena a temperaturas muy elevadas. Tiene una probabilidad del 30 % de quemar al objetivo. Elimina la congelación del usuario y el objetivo."
   },
   "jungleHealing": {
-    "name": "Cura Selvática"
+    "name": "Cura Selvática",
+    "effect": "Al entrar en plena armonía con la selva, el usuario cura problemas de estado y restaura ¼ de los PS máximos del usuario y sus aliados."
   },
   "wickedBlow": {
-    "name": "Golpe Oscuro"
+    "name": "Golpe Oscuro",
+    "effect": "Golpe devastador que requiere un absoluto dominio de las artes siniestras. Siempre asesta un golpe crítico."
   },
   "surgingStrikes": {
-    "name": "Azote Torrencial"
+    "name": "Azote Torrencial",
+    "effect": "El usuario, dominador absoluto del líquido elemento, golpea hasta 3 veces con movimientos fluidos. Siempre asesta un golpe crítico."
   },
   "thunderCage": {
-    "name": "Electrojaula"
+    "name": "Electrojaula",
+    "effect": "El objetivo queda atrapado en una jaula electrificada. Durante 4-5 turnos, el objetivo recibe un daño equivalente a ⅛ de sus PS máximos al final de cada turno."
   },
   "dragonEnergy": {
-    "name": "Dracoenergía"
+    "name": "Dracoenergía",
+    "effect": "El usuario convierte su fuerza vital en una energía con la que ataca al objetivo. Tiene menor potencia cuantos menos PS tenga el usuario, con un rango entre 1 y 150."
   },
   "freezingGlare": {
-    "name": "Mirada Heladora"
+    "name": "Mirada Heladora",
+    "effect": "A través de sus ojos emite poderes psíquicos con los que ataca al objetivo. Tiene una probabilidad del 10 % de congelar al objetivo."
   },
   "fieryWrath": {
-    "name": "Furia Candente"
+    "name": "Furia Candente",
+    "effect": "El usuario convierte su ira en un aura flamígera para lanzar su ataque. Tiene una probabilidad del 30% de amedrentar al objetivo."
   },
   "thunderousKick": {
     "name": "Patada Relámpago",
@@ -3189,10 +3300,12 @@
     "effect": "El usuario ataca al objetivo lanzándole una ingente cantidad de pequeños fantasmas."
   },
   "eerieSpell": {
-    "name": "Conjuro Funesto"
+    "name": "Conjuro Funesto",
+    "effect": "El usuario ataca con un poder psíquico de inmensa potencia y reduce 3 PP del último movimiento usado por el objetivo."
   },
   "direClaw": {
-    "name": "Garra Nociva"
+    "name": "Garra Nociva",
+    "effect": "Ataca al objetivo con unas garras letales que tienen una probabilidad del 30 % de envenenar, paralizar o dormir al objetivo."
   },
   "psyshieldBash": {
     "name": "Asalto Barrera",
@@ -3203,26 +3316,32 @@
     "effect": "Intercambia su ataque por su defensa."
   },
   "stoneAxe": {
-    "name": "Hachazo Pétreo"
+    "name": "Hachazo Pétreo",
+    "effect": "Ataca con un hacha de piedra y, al hacerlo, se desprenden fragmentos que rodean al objetivo. Estos fragmentos dañan por ⅛ de sus PS máximos a los objetivos que entran en combate. Este daño varía en función de las debilidades o resistencias del Pokémon al tipo Roca."
   },
   "springtideStorm": {
-    "name": "Ciclón Primavera"
+    "name": "Ciclón Primavera",
+    "effect": "Desata una tormenta de amor y odio con la que envuelve y ataca al objetivo. Tiene una probabilidad del 30% de reducir el Ataque de los Pokémon objetivos."
   },
   "mysticalPower": {
     "name": "Poder Místico",
     "effect": "Ataca desatando un misterioso poder, que también aumenta su ataque especial."
   },
   "ragingFury": {
-    "name": "Erupción de Ira"
+    "name": "Erupción de Ira",
+    "effect": "El usuario ataca con unas violentas llamas 2-3 turnos seguidos y, después, se queda confuso."
   },
   "waveCrash": {
-    "name": "Envite Acuático"
+    "name": "Envite Acuático",
+    "effect": "El usuario se envuelve en agua y embiste contra el objetivo. El usuario recibe ⅓ del daño que inflige."
   },
   "chloroblast": {
-    "name": "Clorofiláser"
+    "name": "Clorofiláser",
+    "effect": "El usuario concentra clorofila y la dispara en forma de rayo. El usuario pierde el 50% de sus PS máximos tras usarlo."
   },
   "mountainGale": {
-    "name": "Viento Carámbano"
+    "name": "Viento Carámbano",
+    "effect": "Ataca con unos carámbanos grandes como icebergs. Tiene una probabilidad del 30% de amedrentar al objetivo."
   },
   "victoryDance": {
     "name": "Danza Triunfal",
@@ -3233,10 +3352,12 @@
     "effect": "El usuario arremete con todas sus fuerzas, pero se reducen su defensa y su defensa especial."
   },
   "barbBarrage": {
-    "name": "Mil Púas Tóxicas"
+    "name": "Mil Púas Tóxicas",
+    "effect": "Dispara un sinfín de púas tóxicas. Tiene una probabilidad del 50 % de envenenar al objetivo. Su potencia se duplica si el objetivo ya está envenenado o gravemente envenenado."
   },
   "esperWing": {
-    "name": "Ala Aural"
+    "name": "Ala Aural",
+    "effect": "Corta con unas alas imbuidas de aura que aumentan 1 nivel la Velocidad del usuario. Aumenta 1 nivel la probabilidad de asestar golpes críticos del usuario durante este ataque."
   },
   "bitterMalice": {
     "name": "Rencor Reprimido",
@@ -3247,25 +3368,32 @@
     "effect": "La piel del usuario se vuelve dura como un escudo de acero, lo que aumenta mucho su defensa."
   },
   "tripleArrows": {
-    "name": "Triple Flecha"
+    "name": "Triple Flecha",
+    "effect": "Propina un talonazo y lanza tres flechas. Tiene una probabilidad del 50 % de reducir un nivel la Defensa del objetivo y una probabilidad del 30 % de amedrentarlo. Aumenta 1 nivel la probabilidad de asestar golpes críticos del usuario durante este ataque."
   },
   "infernalParade": {
-    "name": "Marcha Espectral"
+    "name": "Marcha Espectral",
+    "effect": "Lanza innumerables bolas de fuego al objetivo. Tiene una probabilidad del 30 % de quemar al objetivo. Su potencia se duplica si el objetivo sufre un problema de estado."
   },
   "ceaselessEdge": {
-    "name": "Tajo Metralla"
+    "name": "Tajo Metralla",
+    "effect": "Ataca con una espada de conchas y, al hacerlo, coloca una capa de Púas sobre el campo rival, hasta un máximo de 3 capas."
   },
   "bleakwindStorm": {
-    "name": "Vendaval Gélido"
+    "name": "Vendaval Gélido",
+    "effect": "Ataca con un viento muy frío que estremece el cuerpo y la mente. Tiene un 30% de probabilidad de reducir 1 nivel la Velocidad del objetivo."
   },
   "wildboltStorm": {
-    "name": "Electormenta"
+    "name": "Electormenta",
+    "effect": "Invoca una tormenta eléctrica que ataca al objetivo con fuertes vientos y relámpagos. Tiene un 20% de probabilidad de paralizar al objetivo."
   },
   "sandsearStorm": {
-    "name": "Simún de Arena"
+    "name": "Simún de Arena",
+    "effect": "Ataca al objetivo envolviéndolo en unas arenas tórridas y un fuerte vendaval. Tiene un 20% de probabilidad de quemar al objetivo."
   },
   "lunarBlessing": {
-    "name": "Plegaria Lunar"
+    "name": "Plegaria Lunar",
+    "effect": "Dedica una oración a la luna creciente que restaura ¼ de los PS máximos del usuario y sus aliados y cura sus problemas de estado."
   },
   "takeHeart": {
     "name": "Bálsamo Osado",
@@ -3391,20 +3519,24 @@
     "effect": "Si el usuario se ha teracristalizado, ataca con la energía de su teratipo. Compara sus valores de ataque y ataque especial para infligir daño con el más alto de los dos."
   },
   "silkTrap": {
-    "name": "Telatrampa"
+    "name": "Telatrampa",
+    "effect": "Tiende una trampa sedosa que protege al usuario de los ataques. Reduce 1 nivel la Velocidad del Pokémon que golpee al usuario con un movimiento de contacto. Con cada uso consecutivo, la probabilidad de éxito del movimiento se reduce a ⅓ con respecto a la probabilidad anterior."
   },
   "axeKick": {
-    "name": "Patada Hacha"
+    "name": "Patada Hacha",
+    "effect": "Lanza una patada al aire para, acto seguido, golpear con el talón. Tiene una probabilidad del 30 % de confundir al objetivo. El usuario recibe daño equivalente a la mitad de sus PS máximos si falla."
   },
   "lastRespects": {
-    "name": "Homenaje Póstumo"
+    "name": "Homenaje Póstumo",
+    "effect": "Ataca para vengar a sus compañeros caídos y aplacar su desazón. Aumenta en 50 su potencia cada vez que se debilita un Pokémon del equipo del usuario."
   },
   "luminaCrash": {
     "name": "Fotocolisión",
     "effect": "Ataca proyectando una extraña luz que afecta a la mente. Reduce mucho la defensa especial del objetivo."
   },
   "orderUp": {
-    "name": "Oído Cocina"
+    "name": "Oído Cocina",
+    "effect": "Ataca con porte gallardo. Si lleva un Tatsugiri en la boca, aumenta 1 nivel una de sus características en función de la forma de este último. Ataque si es Forma Curvada, Defensa si es Forma Lánguida, Velocidad si es Forma Recta."
   },
   "jetPunch": {
     "name": "Puño Jet",
@@ -3419,7 +3551,8 @@
     "effect": "Inflige daño al objetivo ejerciendo presión sobre sus extremidades y girando violentamente sobre sí. Reduce mucho la velocidad del usuario."
   },
   "populationBomb": {
-    "name": "Proliferación"
+    "name": "Proliferación",
+    "effect": "Los congéneres del usuario se agrupan y ejecutan un ataque conjunto que golpea al objetivo 1-10 veces seguidas. Se detiene si falla."
   },
   "iceSpinner": {
     "name": "Pirueta Helada",
@@ -3434,20 +3567,24 @@
     "effect": "Pronuncia una benévola oración que revive a un Pokémon del equipo que se haya debilitado y restaura la mitad de sus PS máximos."
   },
   "saltCure": {
-    "name": "Salazón"
+    "name": "Salazón",
+    "effect": "Deja en salazón al objetivo. Inflige daño igual a ¹⁄₁₆ de los PS máximos del objetivo al final de cada turno. Pokémon de tipo Acero y tipo Agua en cambio reciben ⅛ de sus PS máximos."
   },
   "tripleDive": {
-    "name": "Triple Inmersión"
+    "name": "Triple Inmersión",
+    "effect": "Ejecuta una inmersión triple en perfecta sincronía que golpea al objetivo con salpicaduras de agua 3 veces seguidas."
   },
   "mortalSpin": {
-    "name": "Giro Mortífero"
+    "name": "Giro Mortífero",
+    "effect": "Ataque giratorio que envenena al objetivo y elimina los efectos de movimientos que apresen temporalmente como Atadura y Drenadoras del usuario, así como las trampas del campo de combate propio."
   },
   "doodle": {
     "name": "Decalcomanía",
     "effect": "Calca la esencia misma del objetivo para atribuir su habilidad a sí mismo y a sus aliados."
   },
   "filletAway": {
-    "name": "Deslome"
+    "name": "Deslome",
+    "effect": "Aumenta 2 niveles el Ataque, el Ataque Especial y la Velocidad del usuario a costa de la mitad de sus PS."
   },
   "kowtowCleave": {
     "name": "Genufendiente",
@@ -3466,38 +3603,48 @@
     "effect": "Juguetea con el objetivo mientras ejecuta una elegante y fluida danza y le inflige daño. Aumenta la velocidad del usuario."
   },
   "ragingBull": {
-    "name": "Furia Taurina"
+    "name": "Furia Taurina",
+    "effect": "Embiste con tremenda fiereza. Si es usado por Tauros, su tipo varía según su forma. Es capaz de destruir barreras como Pantalla de Luz y Reflejo."
   },
   "makeItRain": {
-    "name": "Fiebre Dorada"
+    "name": "Fiebre Dorada",
+    "effect": "El usuario ataca arrojando una generosa cantidad de monedas, pero su Ataque Especial se ve reducido en 2 niveles. Si golpea a un objetivo, recupera esas monedas en forma de ganancias."
   },
   "psyblade": {
-    "name": "Psicohojas"
+    "name": "Psicohojas",
+    "effect": "El usuario rebana al objetivo con una espada inmaterial. Cuando se usa en conjunción con un campo eléctrico, la potencia del movimiento aumenta un 50 %."
   },
   "hydroSteam": {
-    "name": "Hidrovapor"
+    "name": "Hidrovapor",
+    "effect": "Vierte agua hirviendo sobre el objetivo. Cuando hace sol, la potencia del movimiento aumenta un 50 % en lugar de reducirse."
   },
   "ruination": {
-    "name": "Calamidad"
+    "name": "Calamidad",
+    "effect": "Provoca una catástrofe devastadora que reduce a la mitad los PS restantes del objetivo."
   },
   "collisionCourse": {
-    "name": "Nitrochoque"
+    "name": "Nitrochoque",
+    "effect": "El usuario choca contra el suelo mientras se transforma y provoca una explosión primigenia. La potencia del movimiento aumenta un 33% si el ataque es supereficaz."
   },
   "electroDrift": {
-    "name": "Electroderrape"
+    "name": "Electroderrape",
+    "effect": "Se abalanza sobre el objetivo mientras se transforma y lo atraviesa con electricidad futurista. La potencia del movimiento aumenta un 33% si el ataque es supereficaz."
   },
   "shedTail": {
-    "name": "Autotomía"
+    "name": "Autotomía",
+    "effect": "El usuario sacrifica la mitad de sus PS máximos para crear un sustituto y se cambia por otro Pokémon del equipo. El sustituto recibirá los movimientos dirigidos al Pokémon en su lugar y desaparecerá cuando haya recibido una cantidad de daño equivalente a 1/4 de los PS máximos del usuario."
   },
   "chillyReception": {
-    "name": "Fría Acogida"
+    "name": "Fría Acogida",
+    "effect": "El usuario se cambia por otro Pokémon del equipo, pero antes cuenta un chiste que tiene una acogida tan fría que hace que nieve durante 5 turnos."
   },
   "tidyUp": {
     "name": "Limpieza General",
     "effect": "Efectúa una limpieza a fondo que anula los efectos de Púas, Trampa Rocas, Red Viscosa, Púas Tóxicas y Sustituto. Aumenta el ataque y la velocidad del usuario."
   },
   "snowscape": {
-    "name": "Paisaje Nevado"
+    "name": "Paisaje Nevado",
+    "effect": "Desata una nevada que dura 5 turnos y aumenta un 50% la defensa de los Pokémon de tipo Hielo."
   },
   "pounce": {
     "name": "Brinco",
@@ -3520,84 +3667,104 @@
     "effect": "Ataca emitiendo dos misteriosos haces lumínicos por los ojos que infligen daño dos veces seguidas."
   },
   "rageFist": {
-    "name": "Puño Furia"
+    "name": "Puño Furia",
+    "effect": "Convierte su rabia en energía para atacar. Aumenta en 50 su potencia cada vez que el usuario recibe daño de un movimiento, hasta un máximo de 350. La potencia vuelve a su valor original cuando el usuario se retira del combate."
   },
   "armorCannon": {
-    "name": "Cañón Armadura"
+    "name": "Cañón Armadura",
+    "effect": "Se deshace de su armadura y arroja las partes al objetivo cuales proyectiles ardientes. Reduce 1 nivel la Defensa y la Defensa Especial del usuario."
   },
   "bitterBlade": {
-    "name": "Espada Lamento"
+    "name": "Espada Lamento",
+    "effect": "Imbuye la punta de su espada con su desazón por el mundo y asesta una estocada llena de rencor. El usuario recupera la mitad de los PS del daño que produce."
   },
   "doubleShock": {
-    "name": "Electropalmas"
+    "name": "Electropalmas",
+    "effect": "Libera toda la electricidad de su cuerpo para lanzar un ataque devastador. Tras ejecutar el movimiento, el usuario deja de ser de tipo Eléctrico. Este movimiento falla si el usuario no es de tipo Eléctrico."
   },
   "gigatonHammer": {
     "name": "Martillo Colosal",
     "effect": "El usuario se ayuda de su propio peso corporal para propinar un golpe con un enorme martillo. Este movimiento no puede usarse dos veces seguidas."
   },
   "comeuppance": {
-    "name": "Resarcimiento"
+    "name": "Resarcimiento",
+    "effect": "Si el usuario ha recibido daño de un ataque en ese turno, le devuelve al rival el 150 % del daño infligido."
   },
   "aquaCutter": {
-    "name": "Tajo Acuático"
+    "name": "Tajo Acuático",
+    "effect": "Expele agua a presión con la que corta al objetivo como si de una hoja se tratara. Aumenta 1 nivel la probabilidad de asestar golpes críticos del usuario durante este ataque."
   },
   "blazingTorque": {
-    "name": "Pirochoque"
+    "name": "Pirochoque",
+    "effect": "El usuario acelera ardientemente contra el objetivo. Tiene una probabilidad del 30% de quemar al objetivo."
   },
   "wickedTorque": {
-    "name": "Ominochoque"
+    "name": "Ominochoque",
+    "effect": "El usuario acelera contra el objetivo mala intención. Tiene una probabilidad del 10% de dormir al objetivo."
   },
   "noxiousTorque": {
-    "name": "Ponzochoque"
+    "name": "Ponzochoque",
+    "effect": "El usuario acelera con una punta venenosa. Tiene una probabilidad del 30% de envenenar al objetivo."
   },
   "combatTorque": {
-    "name": "Pugnachoque"
+    "name": "Pugnachoque",
+    "effect": "El usuario acelera con gran fuerza contra el objetivo. Tiene una probabilidad del 30% de paralizar al objetivo."
   },
   "magicalTorque": {
-    "name": "Feerichoque"
+    "name": "Feerichoque",
+    "effect": "El usuario acelera con fuerza feérica contra el objetivo. Tiene una probabilidad del 30% de confundir al objetivo."
   },
   "bloodMoon": {
     "name": "Luna Roja",
     "effect": "Ataca canalizando toda su fuerza y proyectándola a través de una luna llena de color rojo intenso. Este movimiento no puede usarse dos veces seguidas."
   },
   "matchaGotcha": {
-    "name": "Cañón Batidor"
+    "name": "Cañón Batidor",
+    "effect": "Rocía al objetivo con té recién batido y recupera la mitad de los PS del daño que produce. Este movimiento tiene una probabilidad del 20 % de quemar al objetivo y descongela al usuario o al objetivo si estuvieran congelados."
   },
   "syrupBomb": {
-    "name": "Bomba Caramelo"
+    "name": "Bomba Caramelo",
+    "effect": "Impregna al objetivo con una explosión de su viscoso néctar y lo carameliza, lo que hace que su velocidad se reduzca 1 nivel al final del turno durante 3 turnos."
   },
   "ivyCudgel": {
-    "name": "Garrote Liana"
+    "name": "Garrote Liana",
+    "effect": "Golpea con un garrote que forma enrollando su liana. Si es usado por Ogerpon, el tipo del movimiento varía según la máscara que lleve puesta. Aumenta 1 nivel la probabilidad de asestar golpes críticos del usuario durante este ataque."
   },
   "electroShot": {
     "name": "Electrorrayo",
     "effect": "Acumula electricidad y aumenta su ataque especial en el primer turno y dispara una descarga de alto voltaje en el segundo. Si llueve, puede atacar en el primer turno."
   },
   "teraStarstorm": {
-    "name": "Teraclúster"
+    "name": "Teraclúster",
+    "effect": "Ataca al objetivo irradiando el poder de sus cristales. Si Terapagos usa este movimiento en su Forma Astral, inflige daño a todos los rivales. Si el usuario está terastalizado, compara el ataque y ataque especial del usuario y provoca daño en función de la característica cuyo valor sea más alto."
   },
   "fickleBeam": {
-    "name": "Láser Veleidoso"
+    "name": "Láser Veleidoso",
+    "effect": "Ataca disparando un haz de luz. Tiene una probabilidad del 30 % de que el resto de sus cabezas se unen al ataque y su potencia se duplique."
   },
   "burningBulwark": {
-    "name": "Llama Protectora"
+    "name": "Llama Protectora",
+    "effect": "Emplea una ardiente parte de su cuerpo para protegerse de los ataques y causarle quemaduras al atacante si este usa un movimiento de contacto."
   },
   "thunderclap": {
     "name": "Relámpago Súbito",
     "effect": "Invoca un rayo que cae sobre el objetivo antes de que este pueda realizar cualquier acción. Falla si el objetivo no está preparando ningún ataque."
   },
   "mightyCleave": {
-    "name": "Filo Potente"
+    "name": "Filo Potente",
+    "effect": "Rebana al objetivo con la luz que ha acumulado en sus cuchillas. Permite acertar aunque el objetivo esté protegiéndose."
   },
   "tachyonCutter": {
     "name": "Tajo Taquión",
     "effect": "Lanza una ráfaga de cuchillas formadas por partículas contra el objetivo y le inflige daño dos veces seguidas. No falla nunca."
   },
   "hardPress": {
-    "name": "Prensa Metálica"
+    "name": "Prensa Metálica",
+    "effect": "Oprime con los brazos o las pinzas. Tiene mayor potencia cuantos más PS tenga el objetivo, con un rango entre 1 y 100."
   },
   "dragonCheer": {
-    "name": "Bramido Dragón"
+    "name": "Bramido Dragón",
+    "effect": "Bramido de dragón que sube la moral de los aliados y aumenta 1 nivel sus probabilidades de asestar un golpe crítico. Si son de tipo Dragón les aumenta 2 niveles la probabilidad de asestar un golpe crítico."
   },
   "alluringVoice": {
     "name": "Canto Encantador",
@@ -3608,17 +3775,20 @@
     "effect": "Arremete contra el objetivo tras dejarse llevar por la ira. Su potencia se duplica si el movimiento del usuario falló en el turno anterior."
   },
   "supercellSlam": {
-    "name": "Plancha Voltaica"
+    "name": "Plancha Voltaica",
+    "effect": "El usuario electrifica su cuerpo y salta en plancha sobre el objetivo. El usuario recibe daño equivalente a la mitad de sus PS máximos si falla. Su potencia se duplica y nunca falla contra objetivos que hayan usado Reducción."
   },
   "psychicNoise": {
-    "name": "Psicorruido"
+    "name": "Psicorruido",
+    "effect": "Ataca emitiendo una onda sonora desagradable que impide al objetivo usar movimientos, habilidades y objetos equipados que recuperan PS durante 2 turnos."
   },
   "upperHand": {
     "name": "Palma Rauda",
     "effect": "Se anticipa al objetivo golpeándolo rápidamente con la palma y lo amedrenta. Falla si el objetivo no está preparando un movimiento de prioridad alta."
   },
   "malignantChain": {
-    "name": "Cadena Virulenta"
+    "name": "Cadena Virulenta",
+    "effect": "Apresa al objetivo con una cadena hecha de ponzoña que le inocula toxinas para minarle las fuerzas. Tiene una probabilidad del 50 % de envenenar gravemente al objetivo."
   },
   "nihilLight": {
     "name": "Luz Devastadora",
