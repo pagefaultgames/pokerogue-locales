@@ -449,7 +449,7 @@
   },
   "lightScreen": {
     "name": "Light Screen",
-    "effect": "A wondrous wall of light is put up to halve the damage taken from special moves for 5 turns."
+    "effect": "A wondrous wall of light is put up to halve the damage taken from special moves for 5 turns. In Double Battles, this damage is reduced by ⅓ instead."
   },
   "haze": {
     "name": "Haze",
@@ -457,7 +457,7 @@
   },
   "reflect": {
     "name": "Reflect",
-    "effect": "A wondrous wall of light is put up to halve the damage taken from physical moves for 5 turns."
+    "effect": "A wondrous wall of light is put up to halve the damage taken from physical moves for 5 turns. In Double Battles, this damage is reduced by ⅓ instead."
   },
   "focusEnergy": {
     "name": "Focus Energy",
@@ -1557,7 +1557,7 @@
   },
   "toxicSpikes": {
     "name": "Toxic Spikes",
-    "effect": "The user lays a trap of poison spikes at the feet of the opposing team. The spikes will poison opposing Pokémon that switch into battle."
+    "effect": "The user lays a trap of poison spikes at the feet of the opposing team. One layer will poison opposing Pokémon that switch into battle, while a second layer will badly poison them instead. Flying types or Pokémon with Levitate are unaffected. Poison-types that lands on these spikes will absorb and remove them from the field."
   },
   "heartSwap": {
     "name": "Heart Swap",
@@ -2773,7 +2773,7 @@
   },
   "auroraVeil": {
     "name": "Aurora Veil",
-    "effect": "This move halves the damage taken from physical and special moves for 5 turns. This can be used only under hail or when it is snowing."
+    "effect": "This move halves the damage taken from physical and special moves for 5 turns. In Double Battles, this damage is reduced by ⅓ instead. This can be used only under hail or when it is snowing."
   },
   "sinisterArrowRaid": {
     "name": "Sinister Arrow Raid",
@@ -2849,11 +2849,11 @@
   },
   "sunsteelStrike": {
     "name": "Sunsteel Strike",
-    "effect": "The user slams into the target with the force of a meteor. This move can be used on the target regardless of its Abilities."
+    "effect": "The user slams into the target with the force of a meteor. This move can ignore a target’s ability (with certain exceptions)."
   },
   "moongeistBeam": {
     "name": "Moongeist Beam",
-    "effect": "The user emits a sinister ray to attack the target. This move can be used on the target regardless of its Abilities."
+    "effect": "The user emits a sinister ray to attack the target. This move can ignore a target’s ability (with certain exceptions)."
   },
   "tearfulLook": {
     "name": "Tearful Look",
@@ -2885,19 +2885,19 @@
   },
   "photonGeyser": {
     "name": "Photon Geyser",
-    "effect": "The user attacks the target with a pillar of light. This move inflicts damage using the Attack or Sp. Atk stat—whichever is higher for the user."
+    "effect": "The user attacks the target with a pillar of light. This move inflicts damage using the Attack or Sp. Atk stat—whichever is higher for the user. This move can ignore the effect of the target’s Ability (with certain exceptions)."
   },
   "lightThatBurnsTheSky": {
     "name": "Light That Burns the Sky",
-    "effect": "This attack inflicts Attack or Sp. Atk damage—whichever stat is higher for the user, Necrozma. This move ignores the target’s Ability."
+    "effect": "This attack inflicts Attack or Sp. Atk damage—whichever stat is higher for the user, Necrozma. This move can ignore the effect of the target’s Ability (with certain exceptions)."
   },
   "searingSunrazeSmash": {
     "name": "Searing Sunraze Smash",
-    "effect": "After obtaining Z-Power, the user, Solgaleo, attacks the target with full force. This move can ignore the effect of the target’s Ability."
+    "effect": "After obtaining Z-Power, the user, Solgaleo, attacks the target with full force. This move can ignore the effect of the target’s Ability (with certain exceptions)."
   },
   "menacingMoonrazeMaelstrom": {
     "name": "Menacing Moonraze Maelstrom",
-    "effect": "After obtaining Z-Power, the user, Lunala, attacks the target with full force. This move can ignore the effect of the target’s Ability."
+    "effect": "After obtaining Z-Power, the user, Lunala, attacks the target with full force. This move can ignore the effect of the target’s Ability (with certain exceptions)."
   },
   "letsSnuggleForever": {
     "name": "Let’s Snuggle Forever",
@@ -2989,7 +2989,7 @@
   },
   "noRetreat": {
     "name": "No Retreat",
-    "effect": "The user puts everything on the line and boosts its Attack, Defense, Sp. Atk, Sp. Def, and Speed stats. In exchange, the user loses the ability to flee or be switched out of battle."
+    "effect": "The user puts everything on the line and boosts its Attack, Defense, Sp. Atk, Sp. Def, and Speed stats. In exchange, the user loses the ability to flee or be switched out of battle. Can only be used once per time the user enters battle."
   },
   "tarShot": {
     "name": "Tar Shot",
@@ -3161,7 +3161,7 @@
   },
   "lifeDew": {
     "name": "Life Dew",
-    "effect": "The user scatters mysterious water around and restores ⅙ of the user and its ally Pokémon’s max HP."
+    "effect": "The user scatters mysterious water around and restores ¼ of the user and its ally Pokémon’s max HP."
   },
   "obstruct": {
     "name": "Obstruct",
@@ -3261,7 +3261,7 @@
   },
   "jungleHealing": {
     "name": "Jungle Healing",
-    "effect": "The user becomes one with the jungle, restoring ⅙ of the user and its ally Pokémon’s max HP while curing status conditions."
+    "effect": "The user becomes one with the jungle, restoring ¼ of the user and its ally Pokémon’s max HP while curing status conditions."
   },
   "wickedBlow": {
     "name": "Wicked Blow",
@@ -3377,7 +3377,7 @@
   },
   "ceaselessEdge": {
     "name": "Ceaseless Edge",
-    "effect": "The user slashes its sharpened blade at the target. Splinters left behind by this attack remain scattered under the target as spikes, up to a max of 3 layers."
+    "effect": "The user slashes a sharpened blade at the target, leaving splinters under the target as spikes. Pokémon that switch into battle take damage equal to ⅛ of their max HP. Up to three layers can be set, with each layer increasing the damage taken. Flying types or Pokémon with Levitate are unaffected by these spikes."
   },
   "bleakwindStorm": {
     "name": "Bleakwind Storm",
@@ -3393,7 +3393,7 @@
   },
   "lunarBlessing": {
     "name": "Lunar Blessing",
-    "effect": "The user receives a blessing from the crescent moon, restoring ⅙ of the user and its ally Pokémon’s max HP while curing status conditions."
+    "effect": "The user receives a blessing from the crescent moon, restoring ¼ of the user and its ally Pokémon’s max HP while curing status conditions."
   },
   "takeHeart": {
     "name": "Take Heart",
@@ -3513,15 +3513,15 @@
   },
   "gMaxDrumSolo": {
     "name": "G-Max Drum Solo",
-    "effect": "A Grass-type attack that Gigantamax Rillaboom use. This move can be used on the target regardless of its Abilities."
+    "effect": "A Grass-type attack that Gigantamax Rillaboom use. This move can ignore the effect of the target’s Ability (with certain exceptions)."
   },
   "gMaxFireball": {
     "name": "G-Max Fireball",
-    "effect": "A Fire-type attack that Gigantamax Cinderace use. This move can be used on the target regardless of its Abilities."
+    "effect": "A Fire-type attack that Gigantamax Cinderace use. This move can ignore the effect of the target’s Ability (with certain exceptions).."
   },
   "gMaxHydrosnipe": {
     "name": "G-Max Hydrosnipe",
-    "effect": "A Water-type attack that Gigantamax Inteleon use. This move can be used on the target regardless of its Abilities."
+    "effect": "A Water-type attack that Gigantamax Inteleon use. This move can ignore the effect of the target’s Ability (with certain exceptions)."
   },
   "gMaxOneBlow": {
     "name": "G-Max One Blow",
