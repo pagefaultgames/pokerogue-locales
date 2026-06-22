@@ -335,8 +335,14 @@
   "barrier": {
     "effect": "Dựng lên một bức tường kiên cố để tăng mạnh chỉ số Phòng thủ."
   },
+  "lightScreen": {
+    "effect": "Một quang tường kỳ ảo được dựng lên để giảm một nửa sát thương từ các chiêu thức đặc biệt trong 5 lượt. Trong các trận Đấu Đôi, sát thương này chỉ giảm đi ⅓."
+  },
   "haze": {
     "effect": "Tạo màn sương mù xóa bỏ mọi thay đổi chỉ số của tất cả Pokémon trong phạm vi."
+  },
+  "reflect": {
+    "effect": "Một quang tường kỳ ảo được dựng lên để giảm một nửa sát thương từ các chiêu thức vật lý trong 5 lượt. Trong các trận Đấu Đôi, sát thương này chỉ giảm đi ⅓."
   },
   "focusEnergy": {
     "effect": "Pokémon hít một hơi thật sâu và tập trung cao độ, giúp gia tăng mạnh mẽ tỷ lệ bạo kích lên 2 bậc cho các đòn tấn công tiếp theo."
@@ -1159,6 +1165,9 @@
   },
   "suckerPunch": {
     "effect": "Chiêu thức này cho phép Pokémon tấn công trước. Chiêu thức sẽ thất bại nếu mục tiêu không chuẩn bị tung ra một đòn tấn công."
+  },
+  "toxicSpikes": {
+    "effect": "Pokémon rải gai độc dưới chân đội hình đối thủ. Chỉ một lớp thì sẽ khiến Pokémon đối phương trúng độc khi ra sân, lớp thứ hai sẽ gây kịch độc. Pokémon hệ Bay hoặc có đặc tính Levitate sẽ không bị ảnh hưởng. Pokémon hệ Độc giẫm phải sẽ hấp thụ và loại bỏ chúng khỏi sân."
   },
   "heartSwap": {
     "effect": "Pokémon sử dụng năng lực tâm linh của mình để hoán đổi các thay đổi chỉ số với mục tiêu."
@@ -2069,6 +2078,9 @@
   "brutalSwing": {
     "effect": "Pokémon vung vẩy thân mình một cách dữ dội để gây sát thương cho mọi thứ xung quanh."
   },
+  "auroraVeil": {
+    "effect": "Chiêu thức giảm một nửa sát thương từ các đòn vật lý lẫn đặc biệt trong 5 lượt. Trong các trận Đấu Đôi, sát thương này chỉ giảm đi ⅓. Chỉ sử dụng được chiêu thức dưới trời tuyết hoặc mưa đá."
+  },
   "sinisterArrowRaid": {
     "effect": "Pokémon Decidueye tạo ra vô số mũi tên bằng sức mạnh Z của mình và bắn trúng mục tiêu với toàn bộ lực."
   },
@@ -2123,6 +2135,12 @@
   "spectralThief": {
     "effect": "Pokémon ẩn nấp trong bóng của mục tiêu, đánh cắp các chỉ số tăng cường của mục tiêu, rồi tấn công."
   },
+  "sunsteelStrike": {
+    "effect": "Pokémon lao thẳng vào mục tiêu với uy lực của một thiên thạch. Chiêu thức này bỏ qua mọi đặc tính của mục tiêu (trừ một số ngoại lệ)."
+  },
+  "moongeistBeam": {
+    "effect": "Pokémon phóng ra một tia ác niệm để tấn công mục tiêu. Chiêu thức này bỏ qua mọi đặc tính của mục tiêu (trừ một số ngoại lệ)."
+  },
   "tearfulLook": {
     "effect": "Pokémon khóc hờn đẫm lệ để làm mất ý chí chiến đấu của mục tiêu. Chiêu thức này làm suy giảm chỉ số Tấn Công và T.công Đ.b. của đối thủ."
   },
@@ -2143,6 +2161,18 @@
   },
   "plasmaFists": {
     "effect": "Pokémon tấn công bằng nắm đấm tích điện. Chiêu thức này biến các chiêu thức hệ Thường thành chiêu thức hệ Điện."
+  },
+  "photonGeyser": {
+    "effect": "Pokémon triệu gọi một cột sáng huy hoàng giáng xuống mục tiêu. Chiêu thức sẽ tự động chọn chỉ số cao nhất giữa Tấn công và T.công Đ.b. của Pokémon để gây sát thương tối đa. Chiêu thức này bỏ qua mọi đặc tính của mục tiêu (trừ một số ngoại lệ)."
+  },
+  "lightThatBurnsTheSky": {
+    "effect": "Chiêu thức sẽ tự động chọn chỉ số cao nhất giữa Tấn công và T.công Đ.b. của Necrozma để gây sát thương tối đa. Chiêu thức này bỏ qua mọi đặc tính của mục tiêu (trừ một số ngoại lệ)."
+  },
+  "searingSunrazeSmash": {
+    "effect": "Sau khi giải phóng Z-Power, Solgaleo dốc toàn lực giáng đòn hủy diệt lên mục tiêu. Chiêu thức này bỏ qua mọi đặc tính của mục tiêu (trừ một số ngoại lệ)."
+  },
+  "menacingMoonrazeMaelstrom": {
+    "effect": "Sau khi giải phóng Z-Power, Lunala dốc toàn lực giáng đòn hủy diệt lên mục tiêu. Chiêu thức này bỏ qua mọi đặc tính của mục tiêu (trừ một số ngoại lệ)."
   },
   "letsSnuggleForever": {
     "effect": "Sau khi có được Z-Power, Pokémon Mimikyu, tung cú đấm toàn lực vào mục tiêu."
@@ -2209,6 +2239,9 @@
   },
   "stuffCheeks": {
     "effect": "Pokémon ăn quả Berry đang cầm trên người, sau đó tăng mạnh chỉ số Phòng thủ của bản thân."
+  },
+  "noRetreat": {
+    "effect": "Pokémon dốc toàn lực mà đặt cược tất cả, gia tăng chỉ số Tấn công, Phòng thủ, T.công Đ.b., P.thủ Đ.b. và Tốc độ. Đổi lại, bản thân sẽ mất khả năng tháo chạy hoặc rút lui. Chỉ có thể dùng một lần duy nhất trong mỗi lượt tham chiến."
   },
   "tarShot": {
     "effect": "Pokémon đổ một lớp hắc ín kết dính lên mục tiêu, làm giảm chỉ số Tốc độ của mục tiêu. Các chiêu thức hệ Lửa khi sử dụng lên mục tiêu này sẽ được nhân đôi hiệu quả."
@@ -2336,6 +2369,9 @@
   "strangeSteam": {
     "effect": "Pokémon tấn công mục tiêu bằng cách tỏa ra một làn hơi nước kỳ lạ. Chiêu thức này có 20% tỷ lệ làm mục tiêu rơi vào trạng thái rối loạn."
   },
+  "lifeDew": {
+    "effect": "Pokémon rải những giọt sương kỳ bí xung quanh, hồi phục ¼ lượng HP tối đa cho bản thân và đồng đội trên sân."
+  },
   "obstruct": {
     "effect": "Pokémon thiết lập lá chắn bảo vệ bản thân khỏi mọi đòn tấn công trong lượt này. Mọi kẻ tấn công sử dụng đòn đánh tiếp xúc lên Pokémon sẽ bị giảm mạnh chỉ số Phòng Thủ. Mỗi lần sử dụng liên tiếp, xác suất thành công của chiêu thức sẽ giảm xuống còn ⅓ so với lần trước."
   },
@@ -2407,6 +2443,9 @@
   },
   "scorchingSands": {
     "effect": "Pokémon tấn công bằng cách ném cát nóng bỏng vào mục tiêu. Chiêu thức này có 30% tỷ lệ gây bỏng cho mục tiêu, đồng thời sẽ làm tan băng cho Pokémon hoặc mục tiêu nếu một trong hai đang bị đóng băng."
+  },
+  "jungleHealing": {
+    "effect": "Pokémon hòa làm một với cánh rừng, hồi phục ¼ HP tối đa cho bản thân và đồng đội, đồng thời thanh tẩy mọi trạng thái bất lợi."
   },
   "wickedBlow": {
     "effect": "Pokémon tấn công mục tiêu bằng một cú đánh khốc liệt. Chiêu thức này luôn luôn đánh trúng vào điểm yếu của đối thủ."
@@ -2492,6 +2531,9 @@
   "infernalParade": {
     "effect": "Pokémon tấn công bằng vô số quả cầu lửa. Chiêu thức này có 30% cơ hội làm mục tiêu bị bỏng. Sức mạnh của chiêu thức này sẽ tăng gấp đôi nếu mục tiêu đang chịu một trạng thái bất lợi."
   },
+  "ceaselessEdge": {
+    "effect": "Pokémon vung lưỡi kiếm sắc lẹm chém vào mục tiêu, để lại những mảnh vỡ gai nhọn hoắt dưới chân đối thủ. Phe đối địch mỗi lần đổi Pokémon tham chiến sẽ chịu sát thương bằng ⅛ HP tối đa. Có thể tích lũy tối đa ba lớp, mỗi lớp sẽ gia tăng lượng sát thương nhận phải. Pokémon hệ Bay hoặc có đặc tính Levitate không bị ảnh hưởng."
+  },
   "bleakwindStorm": {
     "effect": "Pokémon tấn công bằng những cơn gió lạnh thấu xương đến mức khiến cả thể xác lẫn tinh thần phải run rẩy. Chiêu thức này có 30% cơ hội làm giảm chỉ số Tốc độ của Pokémon đối phương, và luôn đánh trúng khi trời mưa."
   },
@@ -2500,6 +2542,9 @@
   },
   "sandsearStorm": {
     "effect": "Pokémon tấn công bằng cách quấn chặt Pokémon đối phương trong những cơn gió dữ dội và cát nóng thiêu đốt. Chiêu thức này có 20% cơ hội làm các mục tiêu bị bỏng, và luôn đánh trúng khi trời mưa."
+  },
+  "lunarBlessing": {
+    "effect": "Pokémon đón nhận phúc lành từ trăng khuyết, hồi phục ¼ HP tối đa cho bản thân và đồng đội, đồng thời thanh tẩy mọi trạng thái bất lợi."
   },
   "takeHeart": {
     "effect": "Pokémon sẽ vực dậy tinh thần, chữa khỏi các trạng thái bất lợi của bản thân và tăng chỉ số T.công Đ.b. và P.thủ Đ.b.."
@@ -2587,6 +2632,15 @@
   },
   "gMaxCannonade": {
     "effect": "Chiêu thức hệ Nước được Blastoise Gigantamax sử dụng. Trong 4 lượt, chiêu thức này liên tục gây sát thương lên các đối thủ không thuộc hệ Nước bằng ⅙ HP tối đa của chúng vào cuối mỗi lượt."
+  },
+  "gMaxDrumSolo": {
+    "effect": "Một đòn tấn công hệ Cỏ mà Rillaboom Gigantamax sử dụng. Chiêu thức này bỏ qua mọi đặc tính của mục tiêu (trừ một số ngoại lệ)."
+  },
+  "gMaxFireball": {
+    "effect": "Một đòn tấn công hệ Lửa mà Cinderace Gigantamax sử dụng. Chiêu thức này bỏ qua mọi đặc tính của mục tiêu (trừ một số ngoại lệ)."
+  },
+  "gMaxHydrosnipe": {
+    "effect": "Một đòn tấn công hệ Nước mà Inteleon Gigantamax sử dụng. Chiêu thức này bỏ qua mọi đặc tính của mục tiêu (trừ một số ngoại lệ)."
   },
   "gMaxOneBlow": {
     "effect": "Chiêu thức hệ Bóng Tối được Urshifu Gigantamax sử dụng. Chiêu thức đơn kích này có thể đánh trúng mục tiêu ngay cả khi chúng đang sử dụng các chiêu phòng thủ như Protect hoặc Detect."
