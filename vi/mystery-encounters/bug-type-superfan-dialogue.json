@@ -1,0 +1,40 @@
+{
+  "intro": "Một nhà luyện kỳ lạ với đủ loại phụ kiện hệ Côn Trùng đang chặn đường bạn!",
+  "introDialogue": "Này, nhà huấn luyện! Tôi đang thực hiện nhiệm vụ tìm kiếm loài Pokémon hệ Côn Trùng hiếm nhất trên đời đấy!$Chắc bạn cũng mê Pokémon hệ Côn Trùng lắm đúng không?$Ai mà chẳng mê Pokémon hệ Côn Trùng cơ chứ!",
+  "title": "Siêu Hâm Mộ Hệ Côn Trùng",
+  "speaker": "Siêu Hâm Mộ Hệ Côn Trùng",
+  "description": "Nhà huấn luyện đó cứ luyên thuyên mãi, chẳng thèm đợi câu trả lời…\n​Có vẻ như cách duy nhất để thoát khỏi tình huống này là phải thu hút được sự chú ý của nhà huấn luyện đó!",
+  "query": "Ngươi định sẽ làm gì đây?",
+  "option": {
+    "1": {
+      "label": "Ngỏ Lời Thách Đấu",
+      "tooltip": "(-) Trận đấu cam go\n(+) Dạy Pokémon bất kỳ một Chiêu Thức hệ Côn Trùng",
+      "selected": "Một lời thách đấu hử?\nNhững chú bọ của tôi đã quá sẵn sàng để tiếp đón bạn rồi!"
+    },
+    "2": {
+      "label": "Khoe Pokémon Hệ Côn Trùng Của Bạn",
+      "tooltip": "(+) Nhận được một Vật phẩm Quà tặng",
+      "disabledTooltip": "Bạn cần có ít nhất 1 Pokémon hệ Côn Trùng trong đội hình để chọn phương án này.",
+      "selected": "Bạn cho nhà huấn luyện đó xem tất cả các Pokémon hệ Côn Trùng của mình...",
+      "selected0To1": "Hả? Bạn chỉ có vỏn vẹn {{numBugTypes}} con thôi à…$Tưởng thế nào, hóa ra tôi đang phí lời với một người như bạn rồi…",
+      "selected2To3": "Này, bạn có tới {{numBugTypes}} con cơ à!\nKhông tồi chút nào.$Cầm lấy cái này đi, nó có thể giúp ích cho bạn trên hành trình bắt thêm nhiều Pokémon nữa đấy!",
+      "selected4To5": "Cái gì? Bạn sở hữu tận {{numBugTypes}} con luôn á?\nTuyệt vời!$Dù bạn chưa hoàn toàn đạt đến đẳng cấp của tôi, nhưng tôi đã nhìn thấy hình bóng của chính mình trong bạn đấy!$Cầm lấy cái này đi, người học trò nhỏ của tôi!",
+      "selected6": "Ồ! {{numBugTypes}} con luôn á!$Chắc chắn bạn cũng phải cuồng hệ Côn Trùng gần bằng tôi rồi!$Cầm lấy cái này đi, xem như đây là minh chứng cho tình bạn giữa những người đồng điệu chúng ta!"
+    },
+    "3": {
+      "label": "Tặng một Vật phẩm Hệ Côn Trùng",
+      "tooltip": "(-) Tặng cho nhà huấn luyện một {{requiredBugItems}}\n(+) Nhận được một Vật phẩm Quà tặng",
+      "disabledTooltip": "Bạn cần phải có một {{requiredBugItems}} mới có thể chọn phương án này.",
+      "selectPrompt": "Chọn một vật phẩm để tặng.",
+      "invalidSelection": "Pokémon này không mang loại vật phẩm đó.",
+      "selected": "Bạn trao cho nhà huấn luyện một {{selectedItem}}.",
+      "selectedDialogue": "Oa! Một {{selectedItem}} dành cho tôi sao?\nNhóc cũng không tồi chút nào đâu!$Để tỏ lòng biết ơn,\ntôi muốn tặng nhóc món quà đặc biệt này!$Nó là báu vật được truyền lại qua bao thế hệ trong gia đình tôi, và giờ tôi muốn nó thuộc về nhóc!"
+    }
+  },
+  "battleWon": "Kiến thức và kỹ năng của bạn thật hoàn hảo khi khai thác chính xác các điểm yếu của chúng tôi!$Để đáp lại bài học quý giá này...$Xin phép cho tôi được dạy một Tuyệt kỹ hệ Côn Trùng cho một trong các Pokémon của bạn!",
+  "teachMovePrompt": "Chọn một tuyệt kỹ để dạy cho Pokémon.",
+  "confirmNoTeach": "Bạn chắc là không muốn học một trong những tuyệt kỹ tuyệt vời này sao?",
+  "outro": "Tôi nhìn thấy một tương lai rạng rỡ cùng những Pokémon hệ Côn Trùng tuyệt vời đang chờ đón bạn!\nHẹn ngày con đường của chúng ta lại giao nhau!$Chuồn lẹ đây!",
+  "numBugTypes_one": "{{count}} Hệ Côn Trùng",
+  "numBugTypes_other": "{{count}} hệ Côn Trùng"
+}

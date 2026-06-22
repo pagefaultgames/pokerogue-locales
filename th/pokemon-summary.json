@@ -4,7 +4,8 @@
   "powerAccuracyCategory": "พลัง\nความแม่นยำ\nประเภท",
   "type": "ประเภท",
   "unknownTrainer": "ไม่ทราบ",
-  "idNo": "รหัสไอดี",
+  "ot": "เจ้าของ",
+  "idNo": "รหัสไอดี{{idNo}}",
   "nature": "นิสัย",
   "expPoints": "แต้ม EXP",
   "lv": "Lv.",
@@ -12,7 +13,8 @@
   "cancel": "ยกเลิก",
   "memoString": "นิสัย {{natureFragment}}\n{{metFragment}}",
   "metFragment": {
-    "normal": "เจอตอนเลเวล {{level}}\nที่ {{biome}} ด่าน {{wave}}"
+    "normal": "เจอตอนเลเวล {{level}}\nที่ {{biome}} ด่าน {{wave}}",
+    "apparently": "เจอครั้งแรกเมื่อเลเวล {{level}}\nที่{{biome}}."
   },
   "natureFragment": {
     "hardy": "{{nature}}",

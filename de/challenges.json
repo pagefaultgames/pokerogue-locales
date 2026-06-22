@@ -70,7 +70,7 @@
   "inverseBattle": {
     "name": "Umkehrkampf",
     "shortName": "Umkehrkampf",
-    "desc": "Die Typen-Effektivität wird umgekehrt, und kein Typ ist gegen einen anderen Typ immun.\nDeaktiviert die Erfolge anderer Herausforderungen.",
+    "desc": "Die Typen-Effektivität wird umgekehrt, und kein Typ ist gegen einen anderen Typ immun.\nDeaktiviert die Erfolge anderer Herausforderungen. (außer Statuswert-Flip)",
     "value": {
       "0": "Aus",
       "1": "An"
@@ -79,7 +79,7 @@
   "flipStat": {
     "name": "Statuswert-Flip",
     "shortName": "Umkehren",
-    "desc": "Die Werte werden neu gemischt. KP und Init tauschen.\nAngriff wird zu Sp.-Vert.\nVert. wird zu Sp.-Ang.\nSp.-Vert. wird zu Angriff.\nSp.-Ang. wird zu Vert.\nDeaktiviert die Erfolge anderer Herausforderungen.",
+    "desc": "Die Werte werden neu gemischt. KP und Init tauschen.\nAngriff wird zu Sp.-Vert.\nVert. wird zu Sp.-Ang.\nSp.-Vert. wird zu Angriff.\nSp.-Ang. wird zu Vert.\nDeaktiviert die Erfolge anderer Herausforderungen. (außer Umkehrkampf)",
     "value": {
       "0": "Aus",
       "1": "An"
@@ -104,6 +104,14 @@
       "0": "Aus",
       "1": "Trainer",
       "2": "Alle"
+    }
+  },
+  "movesetRandomizer": {
+    "name": "Moveset Randomizer",
+    "desc": "Die Attacken jedes Pokémons beim Levelaufstieg werden zufällig generiert. Starter-Pokémon beginnen mit Basisattacken, die ihrem Typ entsprechen.",
+    "value": {
+      "0": "Aus",
+      "1": "An"
     }
   }
 }

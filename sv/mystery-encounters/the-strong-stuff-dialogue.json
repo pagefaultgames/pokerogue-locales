@@ -1,0 +1,21 @@
+{
+  "intro": "Det är en enorm {{shuckleName}} och vad som ser ut att vara ett stort lager av… saft?",
+  "title": "Magiska dunder",
+  "description": "{{shuckleName}} som står i din väg ser formidabel ut. Saften bredvid den utstrålar dessutom någon sorts kraft.\n\n{{shuckleName}} sträcker ut sina tentakler mot dig. Det verkar som att den vill göra något…",
+  "query": "Hur gör du?",
+  "option": {
+    "1": {
+      "label": "Närma dig {{shuckleName}}",
+      "tooltip": "(?) Något hemskt eller otroligt kan hända",
+      "selected": "Du tuppar av.",
+      "selected2": "@f{150}När du vaknar är {{shuckleName}} borta\noch saftlagret helt tömt.${{highBstPokemon1}} och {{highBstPokemon2}}\nkänner en fruktansvärd letargi!$Deras basförmågor har sänkts med {{reductionValue}}!$Dina kvarvarande Pokémon känner däremot otrolig vitalitet!\nDeras basförmågor har ökat med {{increaseValue}}!"
+    },
+    "2": {
+      "label": "Strid mot {{shuckleName}}",
+      "tooltip": "(-) Tuff strid\n(+) Speciella belöningar",
+      "selected": "I raseri dricker {{shuckleName}} lite av sin saft och anfaller!",
+      "statBoost": "{{shuckleName}}s juice ökar dess förmågor!"
+    }
+  },
+  "outro": "Vilket bisarrt händelseförlopp..."
+}

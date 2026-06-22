@@ -1,0 +1,33 @@
+{
+  "intro": "Bạn đã bắt gặp một số\ncông cụ và vật tư đào tạo.",
+  "title": "Buổi Huấn Luyện",
+  "description": "Những vật phẩm này trông có vẻ có thể dùng để huấn luyện một thành viên trong nhóm của bạn! Có một vài bài luyện tập bạn có thể dùng huấn luyện Pokémon của mình, bằng cách... @[TOOLTIP_TITLE]{bạn sẽ chiến đấu và đánh bại nó bằng cả đội của mình}.",
+  "query": "Bạn nên tập luyện như thế nào?",
+  "invalidSelection": "Pokémon này không thể chiến đấu!",
+  "option": {
+    "1": {
+      "label": "Huấn Luyện Nhẹ",
+      "tooltip": "(-) Trận chiến nhẹ nhàng với Pokémon được chọn\n(+) Cải thiện vĩnh viễn 2 chỉ số IV ngẫu nhiên của Pokémon được chọn",
+      "finished": "{{selectedPokemon}} trở lại, cảm thấy\nmệt mỏi nhưng thành công!$Chỉ số IV {{stat1}} và {{stat2}} đã được cải thiện!"
+    },
+    "2": {
+      "label": "Huấn Luyện Vừa",
+      "tooltip": "(-) Trận chiến vừa phải với Pokémon đã chọn\n(+) Thay đổi vĩnh viễn tính cách của Pokémon đã chọn",
+      "selectPrompt": "Chọn một tính cách mới\nđể huấn luyện Pokémon của bạn.",
+      "finished": "{{selectedPokemon}} trở lại, cảm thấy mệt mỏi nhưng mãn nguyện!$Tính cách của nó đã thay đổi thành {{nature}}!"
+    },
+    "3": {
+      "label": "Huấn Luyện Nặng",
+      "tooltip": "(-) Trận chiến khốc liệt với Pokémon được chọn\n(+) Thay đổi vĩnh viễn đặc tính của Pokémon được chọn",
+      "selectPrompt": "Chọn một đặc tính mới\nđể huấn luyện Pokémon của bạn.",
+      "finished": "{{selectedPokemon}} trở lại, cảm thấy\nmệt mỏi nhưng mãn nguyện!$Đặc tính của nó đã được thay đổi thành {{ability}}!"
+    },
+    "4": {
+      "label": "Rời đi",
+      "tooltip": "(-) Không có phần thưởng",
+      "selected": "Bạn không có thời gian để huấn luyện.\nĐã đến lúc phải tiếp tục cuộc hành trình rồi."
+    },
+    "selected": "{{selectedPokemon}} di chuyển qua sàn đấu\nđấu để đối mặt với bạn…"
+  },
+  "outro": "Buổi huấn luyện đó đã thành công tốt đẹp!"
+}

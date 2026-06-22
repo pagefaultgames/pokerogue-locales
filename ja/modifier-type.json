@@ -15,49 +15,49 @@
       }
     },
     "PokemonHpRestoreModifierType": {
-      "description": "ポケモン 一匹の {{restorePoints}}HP、または {{restorePercent}}% のどちらか 高い方を 回復する",
+      "description": "ポケモン 一匹の {{restorePoints}}ＨＰ、または {{restorePercent}}% のどちらか 高い方を 回復する",
       "extra": {
-        "fully": "ポケモン 1匹の HPを すべて 回復する",
-        "fullyWithStatus": "ポケモン 1匹の HPと 状態異常を すべて 回復する"
+        "fully": "ポケモン １匹の ＨＰを すべて 回復する",
+        "fullyWithStatus": "ポケモン １匹の ＨＰと 状態異常を すべて 回復する"
       }
     },
     "PokemonReviveModifierType": {
-      "description": "ひんしに なった ポケモン 1匹を 元気にした上で HPを {{restorePercent}}% 回復する"
+      "description": "ひんしに なった ポケモン １匹を 元気にした上で ＨＰを {{restorePercent}}% 回復する"
     },
     "PokemonStatusHealModifierType": {
-      "description": "ポケモン 1匹の 状態の 異常を すべて 回復する"
+      "description": "ポケモン １匹の 状態の 異常を すべて 回復する"
     },
     "PokemonPpRestoreModifierType": {
-      "description": "ポケモンが 覚えている 技のうち 1つの PPを 10だけ 回復する",
+      "description": "ポケモンが 覚えている 技のうち １つの PPを １０だけ 回復する",
       "extra": {
-        "fully": "ポケモンが 覚えている 技のうち 1つの PPを すべて 回復する"
+        "fully": "ポケモンが 覚えている 技のうち １つの PPを すべて 回復する"
       }
     },
     "PokemonAllMovePpRestoreModifierType": {
-      "description": "ポケモンが 覚えている 4つの 技の PPを {{restorePoints}}ずつ 回復する",
+      "description": "ポケモンが 覚えている ４つの 技の PPを {{restorePoints}}ずつ 回復する",
       "extra": {
-        "fully": "ポケモンが 覚えている 4つの 技の PPを すべて 回復する"
+        "fully": "ポケモンが 覚えている ４つの 技の PPを すべて 回復する"
       }
     },
     "PokemonPpUpModifierType": {
-      "description": "ポケモンが 覚えている 技のうち 1つの PPの 最大値を 5ごとに {{upPoints}}ポイントずつ 上げる (最大3)"
+      "description": "ポケモンが 覚えている 技のうち １つの PPの 最大値を ５ごとに {{upPoints}}ポイントずつ 上げる (最大３)"
     },
     "PokemonNatureChangeModifierType": {
       "name": "{{natureName}}ミント",
       "description": "ポケモンの 性格を {{natureName}}に 変える\n(あとで この性格を スターター 画面でも 選べる)"
     },
     "DoubleBattleChanceBoosterModifierType": {
-      "description": "バトル{{battleCount}}回の 間 ダブルバトルに なる 確率を 4倍に する"
+      "description": "バトル{{battleCount}}回の 間 ダブルバトルに なる 確率を ４倍に する"
     },
     "TempStatStageBoosterModifierType": {
       "description": "全員の 手持ちポケモンの {{stat}}を 最大５回の バトルの間に {{amount}} 上げる",
       "extra": {
-        "stage": "1段階",
-        "percentage": "20%"
+        "stage": "１段階",
+        "percentage": "２０%"
       }
     },
     "AttackTypeBoosterModifierType": {
-      "description": "ポケモンの {{moveType}}タイプの 技の 威力を 20% 上げる"
+      "description": "ポケモンの {{moveType}}タイプの 技の 威力を ２０% 上げる"
     },
     "PokemonLevelIncrementModifierType": {
       "description": "ポケモンの レベルを {{levels}} 上げる"
@@ -66,17 +66,17 @@
       "description": "手持ちポケモンの 全員のレベルを {{levels}} 上げる"
     },
     "BaseStatBoosterModifierType": {
-      "description": "{{stat}}の 基礎ポイントを 10% あげる。個体値が 高けば高いほど 飲める 限界が 上がる。"
+      "description": "{{stat}}の 基礎ポイントを １０% あげる。個体値が 高けば高いほど 飲める 限界が 上がる。"
     },
     "PokemonBaseStatFlatModifierType": {
       "name": "もりのヨウカン",
       "description": "持たせると 基本能力が {{statValue}} 上がる。 謎の 夢の あとに 見つけた お菓子。"
     },
     "AllPokemonFullHpRestoreModifierType": {
-      "description": "手持ちポケモン 全員の HPを すべて 回復する"
+      "description": "手持ちポケモン 全員の ＨＰを すべて 回復する"
     },
     "AllPokemonFullReviveModifierType": {
-      "description": "ひんしに なってしまった ポケモン 全員の HPを すべて 回復する"
+      "description": "ひんしに なってしまった ポケモン 全員の ＨＰを すべて 回復する"
     },
     "MoneyRewardModifierType": {
       "description": "{{moneyMultiplier}}額の 円を 与える（{{moneyAmount}}円）",
@@ -93,13 +93,13 @@
       "description": "持っているポケモンの もらう経験値を {{boostPercent}}% 増やす"
     },
     "PokemonFriendshipBoosterModifierType": {
-      "description": "持たせると なかよし度の 収穫が 50%で 上がる"
+      "description": "持たせると なかよし度の 収穫が ５０%で 上がる"
     },
     "PokemonMoveAccuracyBoosterModifierType": {
       "description": "技の 命中率を {{accuracyAmount}}で 増やす"
     },
     "PokemonMultiHitModifierType": {
-      "description": "持たせると 攻撃技の ダメージの 25%が もう一回の 攻撃で 出す"
+      "description": "持たせると 攻撃技の ダメージの ２５%が もう一回の 攻撃で 出す"
     },
     "TmModifierType": {
       "name": "わざマシン{{moveId}}\n{{moveName}}",
@@ -116,7 +116,7 @@
       "description": "ある特定の ポケモンを フォームチェンジさせる"
     },
     "FusePokemonModifierType": {
-      "description": "2匹の ポケモンを 吸収合体する (特性が 移行し、 基本能力と タイプを 分け、 覚える 技を 共有する)"
+      "description": "２匹の ポケモンを 吸収合体する (特性が 移行し、 基本能力と タイプを 分け、 覚える 技を 共有する)"
     },
     "TerastallizeModifierType": {
       "name": "テラピース{{teraType}}",
@@ -132,7 +132,7 @@
       "description": "攻撃技に {{chancePercent}}%の 確率で {{statusEffect}}を 与える"
     },
     "EnemyEndureChanceModifierType": {
-      "description": "ひんしに なりそうな 技を 受けても {{chancePercent}}%の 確率で HPを 1だけ 残して 耐える"
+      "description": "ひんしに なりそうな 技を 受けても {{chancePercent}}%の 確率で ＨＰを １だけ 残して 耐える"
     },
     "RARE_CANDY": {
       "name": "ふしぎなアメ"
@@ -185,11 +185,11 @@
     },
     "REVIVER_SEED": {
       "name": "ふっかつのタネ",
-      "description": "持たせると 直接攻撃から ひんしに なれば 復活して HPを 50% 回復する"
+      "description": "持たせると 直接攻撃から ひんしに なれば 復活して ＨＰを ５０% 回復する"
     },
     "WHITE_HERB": {
       "name": "しろいハーブ",
-      "description": "持たせた ポケモンの 能力が 下がったとき 1度だけ 元の状態に 戻す"
+      "description": "持たせた ポケモンの 能力が 下がったとき １度だけ 元の状態に 戻す"
     },
     "ETHER": {
       "name": "ピーピーエイド"
@@ -220,11 +220,11 @@
     },
     "MEMORY_MUSHROOM": {
       "name": "きおくのキノコ",
-      "description": "1匹の ポケモンの 忘れた技を 1つ 覚えさせる"
+      "description": "１匹の ポケモンの 忘れた技を １つ 覚えさせる"
     },
     "EXP_SHARE": {
       "name": "がくしゅうそうち",
-      "description": "バトルに 参加していない ポケモンが 1匹の 参加した ポケモンの 経験値を 20% もらう"
+      "description": "バトルに 参加していない ポケモンが １匹の 参加した ポケモンの 経験値を ２０% もらう"
     },
     "EXP_BALANCE": {
       "name": "バランスそうち",
@@ -232,7 +232,7 @@
     },
     "OVAL_CHARM": {
       "name": "まるいおまもり",
-      "description": "バトルに 複数の ポケモンが 参加すると 経験値が 参加した ポケモンずつ 10% 増える"
+      "description": "バトルに 複数の ポケモンが 参加すると 経験値が 参加した ポケモンずつ １０% 増える"
     },
     "EXP_CHARM": {
       "name": "けいけんおまもり"
@@ -254,7 +254,7 @@
     },
     "SCOPE_LENS": {
       "name": "ピントレンズ",
-      "description": "弱点が 見える レンズ。 持たせた ポケモンの技が 急所に 当たりやすくなる。"
+      "description": "弱点が 見える レンズ。 持たせた ポケモンの技が 急所アップ＋１に なる。"
     },
     "DIRE_HIT": {
       "name": "クリティカット",
@@ -264,7 +264,7 @@
     },
     "LEEK": {
       "name": "ながねぎ",
-      "description": "とても長くて 硬いクキ。 カモネギに 持たせると 技が 急所に 当たりやすくなる。"
+      "description": "とても長くて 硬いクキ。 カモネギに 持たせると 技が 急所アップ＋２に なる。"
     },
     "EVIOLITE": {
       "name": "しんかのきせき",
@@ -272,7 +272,7 @@
     },
     "SOUL_DEW": {
       "name": "こころのしずく",
-      "description": "持たせると ポケモンの 性格が 能力に与える 影響は 10% 増える （合算）"
+      "description": "持たせると ポケモンの 性格が 能力に与える 影響は １０% 増える （合算）"
     },
     "NUGGET": {
       "name": "きんのたま"
@@ -285,15 +285,15 @@
     },
     "AMULET_COIN": {
       "name": "おまもりこばん",
-      "description": "もらえる お金が 20% 増える"
+      "description": "もらえる お金が ２０% 増える"
     },
     "GOLDEN_PUNCH": {
       "name": "ゴールドパンチ",
-      "description": "持たせると 与える 直接なダメージの 50%が お金として もらえる"
+      "description": "持たせると 与える 直接なダメージの ５０%が お金として もらえる"
     },
     "COIN_CASE": {
       "name": "コインケース",
-      "description": "10回の バトルごとに 持ち金の 10%を 利子として 受け取れる"
+      "description": "１０回の バトルごとに 持ち金の １０%を 利子として 受け取れる"
     },
     "LOCK_CAPSULE": {
       "name": "ロックカプセル",
@@ -310,35 +310,35 @@
     },
     "HEALING_CHARM": {
       "name": "かいふくおまもり",
-      "description": "回復する 技や アイテムの 効果を 10% あげる （復活アイテムは除く）"
+      "description": "回復する 技や アイテムの 効果を １０% あげる （復活アイテムは除く）"
     },
     "CANDY_JAR": {
       "name": "アメボトル",
-      "description": "ふしぎなアメや ふかしぎなアメで あげるレベルを 1 増える"
+      "description": "ふしぎなアメや ふかしぎなアメで あげるレベルを １ 増える"
     },
     "BERRY_POUCH": {
       "name": "きのみぶくろ",
-      "description": "使ったきのみは 無くならない 30%の 可能性を 加える"
+      "description": "使ったきのみは 無くならない ３０%の 可能性を 加える"
     },
     "FOCUS_BAND": {
       "name": "きあいのハチマキ",
-      "description": "持たせると ひんしに なりそうな 技を 受けても 10%の 可能性で HPを 1だけ 残して 耐える"
+      "description": "持たせると ひんしに なりそうな 技を 受けても １０%の 可能性で ＨＰを １だけ 残して 耐える"
     },
     "QUICK_CLAW": {
       "name": "せんせいのツメ",
-      "description": "持たせると 10%の可能性で 相手より 先に 行動できる （優先技のあと）"
+      "description": "持たせると １０%の可能性で 相手より 先に 行動できる （優先技のあと）"
     },
     "KINGS_ROCK": {
       "name": "おうじゃのしるし",
-      "description": "持たせると 攻撃して ダメージを 与えたときに 10%の 可能性で 相手を ひるませる"
+      "description": "持たせると 攻撃して ダメージを 与えたときに １０%の 可能性で 相手を ひるませる"
     },
     "LEFTOVERS": {
       "name": "たべのこし",
-      "description": "持たせると 毎ターン 最大HPの 1/16を 回復する"
+      "description": "持たせると 毎ターン 最大ＨＰの １/１６を 回復する"
     },
     "SHELL_BELL": {
       "name": "かいがらのすず",
-      "description": "持たせると 相手に 与えたダメージの 1/8をHPとして 回復する."
+      "description": "持たせると 相手に 与えたダメージの １/８をＨＰとして 回復する."
     },
     "TOXIC_ORB": {
       "name": "どくどくだま",
@@ -396,15 +396,15 @@
     },
     "ENEMY_DAMAGE_BOOSTER": {
       "name": "ダメージトークン",
-      "description": "ダメージを 5% 増やす"
+      "description": "ダメージを ５% 増やす"
     },
     "ENEMY_DAMAGE_REDUCTION": {
       "name": "ぼうごトークン",
-      "description": "受けたダメージを 2.5% さげる"
+      "description": "受けたダメージを ２.５% さげる"
     },
     "ENEMY_HEAL": {
       "name": "かいふくトークン",
-      "description": "毎ターン 最大HPの 2%を 回復する"
+      "description": "毎ターン 最大ＨＰの ２%を 回復する"
     },
     "ENEMY_ATTACK_POISON_CHANCE": {
       "name": "どくトークン"
@@ -417,14 +417,14 @@
     },
     "ENEMY_STATUS_EFFECT_HEAL_CHANCE": {
       "name": "なんでもなおしトークン",
-      "description": "毎ターン 状態異常を 治せる 2.5%の可能性を 加える"
+      "description": "毎ターン 状態異常を 治せる ２.５%の可能性を 加える"
     },
     "ENEMY_ENDURE_CHANCE": {
       "name": "こらえるトークン"
     },
     "ENEMY_FUSED_CHANCE": {
       "name": "がったいトークン",
-      "description": "野生ポケモンは 吸収合体している 1%の可能性を 加える"
+      "description": "野生ポケモンは 吸収合体している １%の可能性を 加える"
     },
     "MYSTERY_ENCOUNTER_SHUCKLE_JUICE_GOOD": {
       "name": "あまいツボツボジュース",
@@ -440,7 +440,7 @@
     },
     "MYSTERY_ENCOUNTER_MACHO_BRACE": {
       "name": "きょうせいギプス",
-      "description": "持たせると 相手を 倒すとき もう1つの ギプスを もらう。 ギプス当たり 能力が 少し 上がる。 最多で さらに 上がる。"
+      "description": "持たせると 相手を 倒すとき もう１つの ギプスを もらう。 ギプス当たり 能力が 少し 上がる。 最多で さらに 上がる。"
     },
     "MYSTERY_ENCOUNTER_OLD_GATEAU": {
       "name": "もりのヨウカン",
@@ -575,8 +575,8 @@
     "BLASTOISINITE": "カメックスナイト",
     "BLAZIKENITE": "バシャーモナイト",
     "CAMERUPTITE": "バクーダナイト",
-    "CHARIZARDITE_X": "リザードナイトX",
-    "CHARIZARDITE_Y": "リザードナイトY",
+    "CHARIZARDITE_X": "リザードナイトＸ",
+    "CHARIZARDITE_Y": "リザードナイトＹ",
     "DIANCITE": "ディアンシナイト",
     "GALLADITE": "エルレイドナイト",
     "GARCHOMPITE": "ガブリアスナイト",
@@ -595,8 +595,8 @@
     "MAWILITE": "クチートナイト",
     "MEDICHAMITE": "チャーレムナイト",
     "METAGROSSITE": "メタグロスナイト",
-    "MEWTWONITE_X": "ミュウツナイトX",
-    "MEWTWONITE_Y": "ミュウツナイトY",
+    "MEWTWONITE_X": "ミュウツナイトＸ",
+    "MEWTWONITE_Y": "ミュウツナイトＹ",
     "PIDGEOTITE": "ピジョットナイト",
     "PINSIRITE": "カイロスナイト",
     "RAYQUAZITE": "レックウザナイト",
@@ -639,13 +639,13 @@
     "HEATRANITE": "ヒードラナイト",
     "DARKRANITE": "ダークライナイト",
     "ZERAORITE": "ゼラオラナイト",
-    "RAICHUNITE_X": "ライチュウナイトX",
-    "RAICHUNITE_Y": "ライチュウナイトY",
+    "RAICHUNITE_X": "ライチュウナイトＸ",
+    "RAICHUNITE_Y": "ライチュウナイトＹ",
     "CHIMECHITE": "チリーンナイト",
-    "ABSOLITE_Z": "アブソルナイトZ",
+    "ABSOLITE_Z": "アブソルナイトＺ",
     "STARAPTITE": "ムクホークナイト",
-    "GARCHOMPITE_Z": "ガブリアスナイトZ",
-    "LUCARIONITE_Z": "ルカリオナイトZ",
+    "GARCHOMPITE_Z": "ガブリアスナイトＺ",
+    "LUCARIONITE_Z": "ルカリオナイトＺ",
     "GOLURKITE": "ゴルーグナイト",
     "MEOWSTICITE": "ニャオニクスナイト",
     "CRABOMINITE": "ケケンカニナイト",
@@ -657,9 +657,9 @@
     "GLIMMORANITE": "キラフロルナイト",
     "BLUE_ORB": "あいいろのたま",
     "RED_ORB": "べにいろのたま",
-    "SHARP_METEORITE": "シャープなうんせき",
-    "HARD_METEORITE": "かたいうんせき",
-    "SMOOTH_METEORITE": "やわらかいうんせき",
+    "SHARP_METEORITE": "するどいいんせき",
+    "HARD_METEORITE": "かたいいんせき",
+    "SMOOTH_METEORITE": "なめらかないんせき",
     "ADAMANT_CRYSTAL": "だいこんごうだま",
     "LUSTROUS_GLOBE": "だいしらたま",
     "GRISEOUS_CORE": "だいはっきんだま",
@@ -682,7 +682,7 @@
     "BURN_DRIVE": "ブレイズカセット",
     "CHILL_DRIVE": "フリーズカセット",
     "DOUSE_DRIVE": "アクアカセット",
-    "ULTRANECROZIUM_Z": "ウルトラネクロZ",
+    "ULTRANECROZIUM_Z": "ウルトラネクロＺ",
     "FIST_PLATE": "こぶしのプレート",
     "SKY_PLATE": "あおぞらプレート",
     "TOXIC_PLATE": "もうどくプレート",

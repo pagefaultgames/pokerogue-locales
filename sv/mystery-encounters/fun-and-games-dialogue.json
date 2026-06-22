@@ -1,0 +1,31 @@
+{
+  "introDialogue": "Stig fram, mina damer och herrar! Prova lyckan\npå vår sprillans nya {{wobbuffetName}}buffare!",
+  "speaker": "Cirkusvärd",
+  "title": "Cirkusen är i stan!",
+  "description": "Du stötte på en kringresande cirkus med prisspel! Du har @[TOOLTIP_TITLE]{3 omgångar} på dig att få {{wobbuffetName}} så nära @[TOOLTIP_TITLE]{1 HP} som möjligt @[TOOLTIP_TITLE]{utan att den svimmar} så att den kan avfyra ett stort Motanfall i ett försök att ringa klockan.¶\nOBS: Var försiktig! Om du golvar {{wobbuffetName}} måste du betala läkarkostnaderna!",
+  "query": "Vill du spela?",
+  "invalidSelection": "Denna pokémon kan inte spela!",
+  "option": {
+    "1": {
+      "label": "Speldags!",
+      "tooltip": "(-) Betala {{option1Money, money}}\n(+) Testa {{wobbuffetName}}buffaren",
+      "selected": "Lycka till nu!"
+    },
+    "2": {
+      "label": "Gå din väg",
+      "tooltip": "(-) Ingen belöning",
+      "selected": "Du skyndar dig iväg med en viss känsla av ånger."
+    }
+  },
+  "ko": "Åh nej! {{wobbuffetName}} svimmade!$Du förlorade,\noch du måste betala återupplivningen…",
+  "chargingContinue": "Wobbuffet laddar upp sin motattack!",
+  "turnRemaining3": "3 omgångar kvar!",
+  "turnRemaining2": "2 omgångar kvar!",
+  "turnRemaining1": "1 omgång kvar!",
+  "endGame": "Där var tiden slut!${{wobbuffetName}} svingar armarna för motattacken och@d{16}.@d{16}.@d{16}.",
+  "bestResult": "{{wobbuffetName}} hamrar knappen så hårt att\nklockan flyger av toppen!$Du vann förstapriset!",
+  "greatResult": "{{wobbuffetName}} hamrar knappen och träffar nästan klockan!$Sååå nära! Du vann andrapriset!",
+  "goodResult": "{{wobbuffetName}} hamrar knappen och hamnar halvvägs upp på mätaren!$Du vann tredjepriset!",
+  "badResult": "{{wobbuffetName}} snuddar vid knappen och inget händer…$Nedrans! Du vann ingenting!",
+  "outro": "Kul med ett lattjo litet spel!"
+}

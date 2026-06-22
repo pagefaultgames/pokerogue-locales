@@ -1,0 +1,3566 @@
+{
+  "youngster": {
+    "encounter": {
+      "1": "Này, muốn đấu không?",
+      "2": "Cậu cũng là nhà huấn luyện tân binh sao?",
+      "2_female": "Cậu cũng là người mới phải không?",
+      "3": "Này, mình chưa gặp nhau bao giờ. Đấu không?",
+      "4": "Tôi lạc rồi, tôi cũng đang tìm Pokémon quanh đây.\nChờ chút! Cậu nhìn cũng yếu! Thế nào muốn đấu không!",
+      "4_female": "Tôi lạc rồi, tôi cũng đang tìm Pokémon quanh đây.\nChờ chút! Cậu nhìn cũng yếu! Thế nào muốn đấu không!",
+      "5": "Mình gặp nhau bao giờ chưa nhỉ? Tui cũng không nhớ nữa. Dù sao thì cũng rất vui khi gặp cậu!",
+      "6": "Được rồi! CHIẾN NÀO!",
+      "7": "Nào tới đây! Tôi sẽ thể hiện hết sức mạnh của mình!",
+      "8": "Ha Ha… Tôi sẽ cho cậu thấy sức mạnh của nhữ người bạn của tôi!",
+      "9": "Không cần giới thiệu gì đâu. Mình đấu luôn nhé!",
+      "9_female": "Không cần giới thiệu gì đâu. Mình đấu luôn nhé!",
+      "10": "Đừng có mất đề phòng, không là thua đứa trẻ con đó nha.",
+      "11": "Tôi chăm sóc Pokémon của mình rất tốt. Cậu không được làm đau chúng!",
+      "12": "Đi cũng xa rồi đấy nhỉ! Nhưng trận đấu này sẽ không dễ đâu.",
+      "12_female": "Đi cũng xa rồi đấy nhỉ! Nhưng trận đấu này sẽ không dễ đâu.",
+      "13": "Nơi những trận đấu kéo dài mãi mãi. Chào mừng đến PokéRouge!",
+      "13_female": "Nơi những trận đấu kéo dài mãi mãi. Chào mừng đến PokéRouge!"
+    },
+    "victory": {
+      "1": "Wow cậu khoẻ quá!",
+      "1_female": "Wow cậu manh thật đó!",
+      "2": "Thật sự không có cơ hội thắng sao?",
+      "3": "Lần sau khi tôi lớn hơn sẽ thắng đó!",
+      "4": "Ugh. Mình hết Pokémon rồi.",
+      "5": "Không… KHÔNG THỂ NÀO! Mình lại thua nữa sao…",
+      "5_female": "Không… KHÔNG THỂ NÀO! Mình lại thua nữa sao…",
+      "6": "Không! Mình thua rồi!",
+      "7": "Whoa! Cậu cừ quá! Thật bất ngờ!",
+      "8": "Sao có thể… Nhưng… Nhưng mình và Pokémon đã mạnh lắm rồi…",
+      "9": "Lần sau tớ sẽ mạnh hơn! Khi đó mong có thể gặp được cậu!",
+      "10": "Chán quá! Trẻ con mà cũng không nương tay sao! Không công bằng chút nào hết!",
+      "11": "Pokémon của cậu mạnh quá! Cậu có muốn trao đổi không?",
+      "12": "Trận đấu thật mãn nhãn, nhưng có vẻ tớ còn phải cố hơn rồi!",
+      "13": "Haha! Đây rồi! Đúng rồi! Cậu đã quen với thế giới này rồi đúng không!"
+    }
+  },
+  "lass": {
+    "encounter": {
+      "1": "Mình đấu một trận nha?",
+      "2": "Cậu cũng là người mới phải không? Mình đấu nhé!",
+      "2_female": "Cậu cũng là người mới phải không? Mình đấu nha!",
+      "3": "Mình chưa gặp nhau bao giờ. Vậy đấu một trận để làm quen nhé!",
+      "4": "Mình cùng đấu một trận thật vui nha!",
+      "5": "Chúng ta cùng nhau thể hiện cách huấn luyện Pokémon nhé!",
+      "6": "Đây sẽ là một trận đấu nghiêm túc đó! Cậu đã sẵn sàng chưa?",
+      "6_female": "Đây sẽ là một trận đấu nghiêm túc đó! Cậu đã sẵn sàng chưa?",
+      "7": "Ai cũng trẻ trung nông nổi một lần mà. Và chúng ta chúng ta chỉ có một lần đấu này thôi. Hãy cố lên nhé!",
+      "8": "Nhẹ nhàng với con gái thôi nha! Nhưng mà tôi thì vẫn tung hết sức đó!",
+      "9": "Trường học chán chết đi được! Đấu Pokémon vui hơn nhiều."
+    },
+    "victory": {
+      "1": "Thật tuyệt quá đi! Có vẻ như tớ còn nhiều thứ để học hỏi rồi.",
+      "2": "Thua như này cũng không áp đảo quá ha…",
+      "2_female": "Thua như này cũng không áp đảo quá ha…",
+      "3": "Mình mong chúng ta có thể gặp lại nhau trong tương lai.",
+      "4": "Trận đấu vui lắm! Cậu thật sự rất giỏi đó!",
+      "5": "Cậu đã dạy tớ một bài học rất quan trọng! Ngầu thật đó!",
+      "6": "Thật luôn sao, mình thua rồi. Nhưng mà cậu đấu rất ngầu đó.",
+      "6_female": "Thật luôn sao, mình thua rồi. Nhưng mà cậu đấu rất ngầu đó.",
+      "7": "Nhưng kí ức này thật nhàm chán. Thôi thì quên đi vậy…",
+      "8": "Này đã nó là nhẹ tay thôi mà! Không biết nhường con gái gì hết à.",
+      "8_female": "Này đã nó là nhẹ tay thôi mà! Không biết nhường con gái gì hết trơn á.",
+      "9": "Đến cả đấu Pokémon cũng chán rồi… Không biết còn gì để làm nữa không…"
+    }
+  },
+  "breeder": {
+    "encounter": {
+      "1": "Pokémon ngoan ngoãn, Pokémon kiêu ngạo… Chúng thật sự rất đặc biệt không ai giống ai.",
+      "2": "Mặc dù bắt đầu hơi khó khăn nhưng tôi đã nuôi nhữ ng Pokémon này khá tốt.",
+      "3": "Hừm, cậu có kỷ luật nghiêm khắc Pokémon không? Yêu chiều quá cũng không tốt đâu."
+    },
+    "victory": {
+      "1": "Điều quan trọng khi nuôi dưỡng và huấn luyện là chú ý đến tính cách của Pokémon.",
+      "2": "Khác với tôi, Pokémon thực sự có rất nhiều khả năng.",
+      "3": "Khen thưởng nhiều quá sẽ làm Pokémon và con người trở nên tự đại đó."
+    },
+    "defeat": {
+      "1": "Chúng ta không nên tức giận với Pokémon, kể cả khi thua cuộc.",
+      "2": "Phải không? Pokémon khá là tuyệt nhỉ? Tôi thì thấy mình phù hợp để chăm sóc chúng.",
+      "3": "Bạn dù có yêu quý Pokémon của mình đến đâu, thì vẫn phải dạy dỗ chúng hẳn hoi khi chúng hư."
+    }
+  },
+  "breederFemale": {
+    "encounter": {
+      "1": "Pokémon sẽ không phản bội bạn. Chúng sẽ yêu quý bạn như cách bạn yêu quý chúng.",
+      "2": "Để tôi chỉ bạn cách huấn luyện Pokémon nhé!",
+      "3": "Tôi đã nuôi dạy những Pokémon này bằng phương pháp đặc biệt."
+    },
+    "victory": {
+      "1": "Ugh.. Mọi thứ sao lại như vậy. Mình cho Pokémon uống nhầm sữa rồi sao?",
+      "2": "Sao chuyện này có thể xảy ra chứ… Cậu cho Pokémon ăn gì vậy?",
+      "3": "Nếu tôi thua, tôi chỉ cần nói là tôi đang giết thời gian thôi. Không có làm hại cái tôi gì đâu."
+    },
+    "defeat": {
+      "1": "Vậy là Pokémon của tôi đã chấp nhận tình yêu của tôi rồi.",
+      "2": "Cách để huấn luyện Pokémon tốt là bắt một Pokémon tốt.",
+      "3": "Pokémon mạnh hay yếu đều do người nuôi dạy cả."
+    }
+  },
+  "fisherman": {
+    "encounter": {
+      "1": "Ấy! Nhóc làm chú mất con cá rồi!\nGiờ sao đây!?",
+      "2": "Đi đi! Cậu đang làm Pokémon sợ đấy!",
+      "3": "Hãy xem bạn có thể giành được chiến thắng không nhé!"
+    },
+    "victory": {
+      "1": "Thôi kệ đi.",
+      "2": "Lần tới, tôi sẽ tận hưởng trọn vẹn chiến thắng!",
+      "3": "Có lẽ lần này tôi đã đánh giá thấp dòng chảy rồi."
+    }
+  },
+  "fishermanFemale": {
+    "encounter": {
+      "1": "Wow! Mình câu được con cá to quá!",
+      "2": "Dây câu đã sẵn sàng, chuẩn bị gặt hái thành công!",
+      "3": "Đến lúc nổi sóng lên rồi!"
+    },
+    "victory": {
+      "1": "Tôi sẽ trở lại với một chiêu thức mạnh mẽ hơn.",
+      "2": "Lần sau tôi sẽ giành chiến thắng.",
+      "3": "Tôi sẽ mài sắc lưỡi câu để chuẩn bị cho màn trở lại!"
+    }
+  },
+  "swimmer": {
+    "encounter": {
+      "1": "Tới lúc bắt đầu rồi!",
+      "2": "Mình cùng đạp sóng tới chiến thắng nào!",
+      "3": "Sẵn sàng tạo một ấn tượng bùng nổ nào!"
+    },
+    "victory": {
+      "1": "Ướt nhẹp trong thất bại!",
+      "2": "Cơn sóng thua cuộc đánh qua!",
+      "3": "Về bờ thôi vậy."
+    }
+  },
+  "backpacker": {
+    "encounter": {
+      "1": "Chuẩn bị đồ đạc, bắt đầu thôi!",
+      "2": "Để xem bạn có theo kịp không nhé!",
+      "3": "Sẵn sàng chưa nào!",
+      "4": "Tôi đã dành 20 năm để tìm kiếm bản thân… Nhưng tôi đang ở đâu?"
+    },
+    "victory": {
+      "1": "Lần này thì vấp ngã rồi!",
+      "2": "Ồ, tôi nghĩ mình bị lạc rồi.",
+      "3": "Đường cụt!",
+      "4": "Chờ một chút! Này! Nhóc không biết tôi là ai sao?"
+    }
+  },
+  "aceTrainer": {
+    "encounter": {
+      "1": "Trông bạn khá tự tin.",
+      "1_female": "Trông bạn khá tự tin.",
+      "2": "Pokémon của bạn… Cho tôi xem chúng nhé…",
+      "3": "Vì tôi là một huấn luyện viên hàng đầu, mọi người nghĩ tôi rất khỏe.",
+      "4": "Bạn có biết những điều kiện cần thiết để trở thành một Huấn luyện viên xuất sắc là gì không?"
+    },
+    "victory": {
+      "1": "Đúng vậy… Bạn có những Pokémon tốt đấy…",
+      "2": "Cái gì?! Nhưng tôi là một thiên tài chiến đấu mà!",
+      "3": "Dĩ nhiên, bạn là nhân vật chính mà!",
+      "3_female": "Dĩ nhiên, bạn là nhân vật chính mà!",
+      "4": "OK! OK! Cậu đạt chuẩn làm nhà huấn luyện hàng đầu đó!",
+      "4_female": "OK! OK! Cậu đạt chuẩn làm nhà huấn luyện hàng đầu đó!"
+    },
+    "defeat": {
+      "1": "Tôi đang dốc toàn bộ tâm huyết vào các trận chiến Pokémon!",
+      "2": " Mọi thứ đều nằm trong dự đoán của tôi… Chẳng có gì đáng ngạc nhiên cả…",
+      "3": "Tôi từng nghĩ mình sẽ lớn lên thành một người yếu ớt, trông như dễ vỡ nếu bị bóp mạnh.",
+      "4": "Dĩ nhiên tôi mạnh mẽ và không bao giờ thua cuộc. Điều quan trọng là tôi phải thắng một cách lịch thiệp."
+    }
+  },
+  "parasolLady": {
+    "encounter": {
+      "1": "Đã đến lúc tỏa sáng trên chiến trường với vẻ thanh lịch và phong thái tự tin!"
+    },
+    "victory": {
+      "1": "Vẻ thanh lịch của tôi vẫn không hề tàn phai!"
+    }
+  },
+  "twins": {
+    "encounter": {
+      "1": "Hãy chuẩn bị tinh thần, vì khi bọn em hợp tác, rắc rối sẽ nhân đôi!",
+      "1_female": "Hãy chuẩn bị tinh thần, vì khi bọn em hợp tác, rắc rối sẽ nhân đôi!",
+      "2": "Hai trái tim, một chiến lược – hãy xem liệu bạn có thể theo kịp sức mạnh song sinh của chúng tôi không!",
+      "3": "Hy vọng các bạn đã sẵn sàng cho gấp đôi rắc rối, vì trận chiến này sẽ rất nóng bỏng đây!",
+      "3_female": "Hy vọng các bạn đã sẵn sàng cho gấp đôi rắc rối, vì trận chiến này sẽ rất nóng bỏng đây!"
+    },
+    "victory": {
+      "1": "Bọn em có thể đã thua vòng này, nhưng tình bạn của em vẫn không thể phá vỡ!",
+      "2": "Tinh thần song sinh của tụi em sẽ không lụi tàn lâu đâu.",
+      "3": "Bọn em sẽ trở lại mạnh mẽ hơn với tư cách là một bộ đôi ăn ý!"
+    },
+    "defeat": {
+      "1": "Sức mạnh song sinh là tối thượng!",
+      "2": "Hai trái tim, một chiến thắng!",
+      "3": "Nụ cười càng rạng rỡ, điệu nhảy ăn mừng càng thêm trọn vẹn!"
+    }
+  },
+  "cyclist": {
+    "encounter": {
+      "1": "Hãy chuẩn bị hít bụi của tôi đi!",
+      "2": "Chuẩn bị sẵn sàng! Tôi sắp bỏ lại bạn ở đó rồi!",
+      "3": "Tăng tốc hết cỡ, xem bạn có theo kịp không!"
+    },
+    "victory": {
+      "1": "Nan hoa có thể ngừng chuyển động, nhưng quyết tâm vẫn tiếp tục đạp.",
+      "2": "Bị vượt mặt mất rồi!",
+      "3": "Con đường dẫn đến chiến thắng còn đầy rẫy những khúc quanh co, thử thách chưa được khám phá."
+    }
+  },
+  "blackBelt": {
+    "encounter": {
+      "1": "Tôi khen ngợi sự dũng cảm của bạn khi dám thách thức tôi! Vì tôi mới là người có cú đá mạnh nhất!",
+      "2": "Ồ, tôi hiểu rồi. Cậu muốn bị xé thành từng mảnh hay thích đóng vai bao cát hơn?",
+      "2_female": "Ồ, tôi hiểu rồi. Cậu muốn bị xé thành từng mảnh hay thích đóng vai bao cát hơn?"
+    },
+    "victory": {
+      "1": "Ủa vậy hả… Pokémon mới là bên hệ giác đấu mà ta. Cú đá ngút trời của tui coi bộ chẳng ăn thua gì rồi.",
+      "2": "Hầy… Đằng nào thì cũng thua, tui thà bị đánh cho tơi tả, bầm dập luôn từ đầu cho rồi."
+    }
+  },
+  "battleGirl": {
+    "encounter": {
+      "1": "Hông cần phải cố gắng gây ấn tượng với tui đâu nè. Cứ thua tui thoải mái đi, hông sao hết trơn á."
+    },
+    "victory": {
+      "1": "Híc… Nói lời chia tay lúc nào cũng khó á, nhưng mà tụi mình sắp hết thời gian mất tiêu rồi…"
+    }
+  },
+  "hiker": {
+    "encounter": {
+      "1": "Ái chà… Cái bụng bia tuổi trung niên của tui coi bộ cũng vững chãi, uy nghiêm y chang mấy ngọn núi tui hay leo vậy á nha!",
+      "2": "Cái dáng người \"đô con\" này là tui được thừa hưởng từ ba mẹ á… Nhìn tui giờ hông khác gì một dãy núi di động luôn nè…"
+    },
+    "victory": {
+      "1": "Ít nhất thì về khoản chỉ số BMI là tui quyết hông chịu thua ai đâu nha!",
+      "2": "Hầy, vẫn chưa đủ… Chẳng bao giờ là đủ hết á. Lỗi tôi khi cholesterol vẫn chưa đủ cao…"
+    }
+  },
+  "ranger": {
+    "encounter": {
+      "1": "Khi tui được bao bọc bởi thiên nhiên, hầu hết những thứ khác đều không còn quan trọng nữa.",
+      "2": "Khi tôi sống mà thiếu đi thiên nhiên trong cuộc sống, đôi khi tôi chợt cảm thấy một cơn hoảng loạn sắp sửa ập đến."
+    },
+    "victory": {
+      "1": "Dù tôi thắng hay thua thì điều đó cũng chẳng có nghĩa lý gì đối với sự bao la của tự nhiên cả…",
+      "2": "Những điều thế này thực sự khá là nhỏ nhặt nếu so với cảm giác ngột ngạt của cuộc sống nơi thành thị."
+    },
+    "defeat": {
+      "1": "Tôi đã thắng trận chiến này. Nhưng chiến thắng cũng chẳng là gì nếu so với sự bao la của tự nhiên…",
+      "2": "Tôi chắc là cảm giác của bạn vẫn chưa đến mức quá tồi tệ nếu đem nó so sánh với những trận hoảng loạn, lo âu của tôi đâu…"
+    }
+  },
+  "scientist": {
+    "encounter": {
+      "1": "Nghiên cứu của tôi sẽ dẫn dắt thế giới này đến hòa bình và niềm vui."
+    },
+    "victory": {
+      "1": "Tôi là một thiên tài… Tôi không nên và không thể nào thua trước một kẻ như bạn được…"
+    }
+  },
+  "schoolKid": {
+    "encounter": {
+      "1": "…Hi hi. Tôi hoàn toàn tự tin vào những tính toán và phân tích của mình mà.",
+      "2": "Tôi đang tích lũy nhiều kinh nghiệm nhất có thể, bởi vì tôi muốn trở thành một Chủ Hội Quán vào một ngày nào đó."
+    },
+    "victory": {
+      "1": "Ohhh… Tính toán và phân tích có lẽ cũng chẳng thể nào đấu lại được với sự ngẫu nhiên (vận may) đâu…",
+      "2": "Tôi đoán là ngay cả những trải nghiệm khó khăn, thử thách cũng đều có mục đích riêng của chúng cả."
+    }
+  },
+  "artist": {
+    "encounter": {
+      "1": "Tôi đã từng một thời rất nổi tiếng, nhưng giờ đây tôi đã hoàn toàn hết thời rồi."
+    },
+    "victory": {
+      "1": "Thời thế thay đổi, các giá trị cũng thay đổi theo. Tôi đã nhận ra điều đó quá muộn màng."
+    }
+  },
+  "guitarist": {
+    "encounter": {
+      "1": "Hãy chuẩn bị tinh thần để cảm nhận giai điệu của sự thất bại đi, vì tôi sẽ gảy nên khúc nhạc chiến thắng của riêng mình đây!"
+    },
+    "victory": {
+      "1": "Tạm thời bị dập tắt, nhưng giai điệu kiên cường của tôi vẫn sẽ tiếp tục ngân vang."
+    }
+  },
+  "worker": {
+    "encounter": {
+      "1": "Bạn phải mạo hiểm cả mạng sống của mình khi làm một công nhân, nhưng điều đó thực sự mang lại rất nhiều cảm giác thỏa mãn và trọn vẹn."
+    },
+    "victory": {
+      "1": "Có một tinh thần phiêu lưu đầy kiêu hãnh khi chúng ta xây dựng nên những tòa nhà và những cây cầu có thể trường tồn suốt 100 năm, bạn có nghĩ vậy không?"
+    }
+  },
+  "workerFemale": {
+    "encounter": {
+      "1": "Mọi người luôn hiểu lầm về tôi, điều đó thực sự khiến tôi bận lòng. Tôi thuần khiết và đơn thuần hơn nhiều so với những gì họ nghĩ."
+    },
+    "victory": {
+      "1": "Tôi thực sự không muốn da mình bị cháy nắng chút nào, vì vậy tôi muốn ở trong bóng râm suốt thời gian làm việc."
+    },
+    "defeat": {
+      "1": "Cơ thể và tâm trí của tôi không phải lúc nào cũng đồng điệu với nhau đâu."
+    }
+  },
+  "workerDouble": {
+    "encounter": {
+      "1": "Tôi sẽ cho bạn thấy chúng tôi có thể đánh bại bạn. Chúng tôi đã rèn luyện chăm chỉ ngoài thực địa suốt thời gian qua rồi!"
+    },
+    "victory": {
+      "1": "Thật kỳ lạ… Làm sao có thể như vậy được… Lẽ ra tôi không thể bị đánh bại về sức mạnh cơ bắp như thế chứ."
+    }
+  },
+  "snowWorker": {
+    "encounter": {
+      "1": "Khi trời lạnh, hãy mặc thật nhiều quần áo vào! Chỉ có con người mới có thể nghĩ ra một điều thông minh đến như thế!"
+    },
+    "victory": {
+      "1": "Việc chúng ta đấu tranh vô vọng đến phút cuối cùng cũng cho thấy con người thông minh và khéo léo đến nhường nào!"
+    },
+    "defeat": {
+      "1": "Tôi sẽ mách cho bạn một điều rất thông minh này. Nếu bạn dùng một chiêu thức hệ Lửa lên một Pokémon đang bị đóng băng cứng đờ, lớp băng đó sẽ tan chảy ra đấy!"
+    }
+  },
+  "snowWorkerDouble": {
+    "encounter": {
+      "1": "…S-sẵn sàng để b-bắt đầu trận đấu chưa?"
+    },
+    "victory": {
+      "1": "…T-tôi đang r-run bần bật lên đây này!"
+    },
+    "defeat": {
+      "1": "…B-bạn biết gì kh-không?\n…N-nơi này lạnh thật đấy."
+    }
+  },
+  "hexManiac": {
+    "encounter": {
+      "1": "Bình thường tôi chỉ nghe nhạc cổ điển thôi, nhưng nếu tôi thua, có lẽ tôi sẽ thử đổi gió sang một chút nhạc thế hệ mới xem sao!",
+      "2": "Tôi lại càng trở nên mạnh mẽ hơn sau mỗi giọt nước mắt lăn dài."
+    },
+    "victory": {
+      "1": "…Là kỷ nguyên Bảo Bình đang bắt đầu gõ cửa đó sao?",
+      "2": "Giờ thì tôi có thể trở nên mạnh mẽ hơn nữa rồi. Tôi lớn lên cùng với từng mối hận thù."
+    },
+    "defeat": {
+      "1": "Nhạc thế hệ mới chỉ đơn giản là để chỉ các nhà soạn nhạc cổ điển của thế kỷ hai mươi thôi, đúng không?",
+      "2": "Đừng mãi chìm đắm trong nỗi buồn hay sự thất vọng. Bạn hoàn toàn có thể biến những mối hận thù thành động lực để thúc đẩy bản thân bước tiếp.",
+      "2_female": "Đừng mãi chìm đắm trong nỗi buồn hay sự thất vọng. Bạn hoàn toàn có thể biến những mối hận thù thành động lực để thúc đẩy bản thân bước tiếp."
+    }
+  },
+  "psychic": {
+    "encounter": {
+      "1": "Chào bạn! Tôi đang tập trung hết sức đây!"
+    },
+    "victory": {
+      "1": "èeeeeeee!"
+    }
+  },
+  "officer": {
+    "encounter": {
+      "1": "Hãy chuẩn bị tinh thần đi, bởi vì công lý chuẩn bị được thực thi rồi đấy!",
+      "2": "Sẵn sàng bảo vệ luật pháp và thực thi công lý ngay trên chiến trường!"
+    },
+    "victory": {
+      "1": "Sức nặng của công lý chưa bao giờ nặng nề đến thế này…",
+      "2": "Bóng tối của thất bại vẫn đang bao trùm khắp đồn cảnh sát."
+    }
+  },
+  "beauty": {
+    "encounter": {
+      "1": "Trận chiến cuối cùng trong cuộc đời tôi… Đó chính là cách mà tôi muốn chúng ta nhìn nhận về trận đấu này…"
+    },
+    "victory": {
+      "1": "Thật là vui… Hẹn một ngày nào đó, chúng ta lại cùng nhau có thêm một trận chiến cuối cùng nữa nhé…"
+    }
+  },
+  "baker": {
+    "encounter": {
+      "1": "Hy vọng là ngươi đã sẵn sàng để nếm mùi thất bại!",
+      "1_female": "Hy vọng là ngươi đã sẵn sàng để nếm mùi thất bại!"
+    },
+    "victory": {
+      "1": "Ta sẽ nhào nặn nên một màn lội ngược dòng ngoạn mục!"
+    }
+  },
+  "biker": {
+    "encounter": {
+      "1": "Đã đến lúc tăng ga và bỏ xa ngươi lại phía sau trong làn cát bụi rồi!"
+    },
+    "victory": {
+      "1": "Ta sẽ lên dây cót và chuẩn bị thật kỹ lưỡng cho chặng đua tiếp theo."
+    }
+  },
+  "firebreather": {
+    "encounter": {
+      "1": "Ngọn lửa của tao sẽ thiêu rụi mày hoàn toàn luôn!",
+      "2": "Linh hồn tao đang rực cháy đây. Tao sẽ cho mày thấy nó thiêu đốt dữ dội đến mức nào!",
+      "3": "Mại vô mại vô, bước tới đây coi thử coi!"
+    },
+    "victory": {
+      "1": "Tao bị thiêu rụi thành tro bụi luôn rồi…",
+      "2": "má ơi! quá nóng!",
+      "3": "Ui da! Tao làm phỏng mất cái chóp mũi luôn rồi!"
+    }
+  },
+  "sailor": {
+    "encounter": {
+      "1": "Ê cu, thua trận này là bị bắt đi trên ván nhảy xuống biển cho cá mập xơi luôn đó nha!",
+      "2": "Nhào vô luôn đi! Niềm kiêu hãnh của một thủy thủ như tao đang bị đe dọa rồi đó!",
+      "3": "Ủa ê chào đằng ấy nha! Nhìn mặt mày xanh lè, bộ bị say sóng rồi hả?",
+      "3_female": "Ủa ê chào đằng ấy nha! Nhìn mặt mày xanh lè, bộ bị say sóng rồi hả?"
+    },
+    "victory": {
+      "1": "Ái chà chà! Thua một đứa con nít luôn!",
+      "2": "Tinh thần của mày đã nhấn chìm tao!",
+      "3": "Tao nghĩ chính tao mới là người bị say sóng."
+    }
+  },
+  "clerk": {
+    "encounter": {
+      "1": "Tao vừa bị sếp mắng và tao đã mất sạch động lực. Tao sẽ trút giận lên cậu đấy!",
+      "2": "Tao hiện tại đang ở cấp bậc thấp nhất, nhưng một ngày nào đó tao nhất định sẽ lên tới đỉnh cao!",
+      "3": "Tao sinh ra là để làm việc. Đó chính là số mệnh của tao."
+    },
+    "victory": {
+      "1": "Trời ơi! Chẳng lẽ tao ở đây cũng vô dụng luôn sao?",
+      "2": "Mày làm việc tỏa sáng như một ngôi sao vậy! Tao sẽ không thua đâu, tao nhất định sẽ không thua!",
+      "3": "Thực ra thì, chiến đấu cũng là công việc của tao."
+    }
+  },
+  "clerkFemale": {
+    "encounter": {
+      "1": "Tao có một tham vọng! Tao sẽ tiếp quản toàn bộ công ty!",
+      "2": "Người ta nói rằng một công ty có những nhân viên năng nổ, tràn đầy sức sống chính là một công ty tốt!",
+      "3": "Tao được đối xử như một thần tượng ở văn phòng. Mọi người ai cũng nuông chiều tôi."
+    },
+    "victory": {
+      "1": "Tao đã bị ám ảnh bởi giải thưởng vàng, cùng với tham vọng lấp lánh của tao!",
+      "2": "Ôi, nhìn giờ kìa! Tao phải quay lại làm việc đây!",
+      "3": "Mọi người đều làm việc cho tao cả rồi, nên tao chẳng có việc gì để làm nữa."
+    }
+  },
+  "hooligans": {
+    "encounter": {
+      "1": "Nào, nào! Chúng ta sẽ chăm sóc ngươi thật \"chu đáo\"!",
+      "2": "Này, này! Một kẻ xấu xa lại đi bắt tay với một kẻ tồi tệ khác kìa!"
+    },
+    "victory": {
+      "1": "Hửm? Ngươi đang bảo là tình huynh đệ giữa những gã tồi bọn ta không đủ khăng khít đấy à?",
+      "2": "Cái gì? Thái độ bặm trợn, gai góc của bọn ta vẫn chưa đủ đô để dọa ngươi sao?"
+    }
+  },
+  "musician": {
+    "encounter": {
+      "1": "Hãy ngân vang dữ dội nào! Khúc độc hành trận mạc của ta!\nHãy chiến đấu ngoan cường nào! Các Pokémon của ta!",
+      "2": "Hãy lắng nghe khúc nhạc chiến đấu từ các Pokémon của ta!",
+      "3": "Buổi hòa nhạc trực tiếp của ta mở cửa cho tất cả mọi người, và ngươi chắc chắn sẽ phải tham dự!",
+      "4": "Ta đang sở hữu một cây guitar chẳng hề phát ra lấy một tiếng động đây!"
+    },
+    "victory": {
+      "1": "Hửm… Ta đoán là gảy dây thay vì gõ nhịp thì có lẽ sẽ tốt hơn rồi…",
+      "2": "Hửm, xem ra nhịp điệu giữa ta và các Pokémon đã bị lệch nhau mất rồi.",
+      "3": "Ta đang chiến thắng vang dội giống như cái cách mà cây guitar của ta gầm vang vậy!"
+    }
+  },
+  "pilot": {
+    "encounter": {
+      "1": "Pokémon của ta còn mạnh mẽ hơn cả những cơn cuồng phong. Nó chính là niềm tự hào và kiêu hãnh của ta!",
+      "2": "Phi đội chiến đấu đã sẵn sàng cất cánh!",
+      "3": "Ta cá là ngươi đã không hề nhận ra ta! Cho dù mọi thứ có ở xa đến đâu đi chăng nữa, đôi mắt của một Phi công vẫn có thể nhìn thấu tất cả!",
+      "4": "Ta đã thức dậy từ sáng sớm tinh mơ để huấn luyện các Pokémon của mình rồi, hy vọng là ngươi cũng đã chuẩn bị tinh thần kỹ càng khi đến đây!",
+      "4_female": "Ta đã thức dậy từ sáng sớm tinh mơ để huấn luyện các Pokémon của mình rồi, hy vọng là ngươi cũng đã chuẩn bị tinh thần kỹ càng khi đến đây!"
+    },
+    "victory": {
+      "1": "Ta cảm thấy một áp lực cực kỳ dữ dội tỏa ra từ ngươi và Pokémon của ngươi!",
+      "2": "Thật không may… Chúng ta buộc phải hạ cánh khẩn cấp rồi.",
+      "3": "Xem ra ta nên thức dậy sớm hơn nữa để huấn luyện mới phải!",
+      "4": "Xem ra hôm nay gió đã không đứng về phía ta rồi!"
+    }
+  },
+  "pokefan": {
+    "encounter": {
+      "1": "Ta yêu các Pokémon của mình hơn bất cứ thứ gì trên đời!",
+      "2": "Trận chiến của chúng ta sẽ chỉ càng làm cho mối liên kết giữa ta và Pokémon thêm bền chặt mà thôi!",
+      "3": "Ta nghĩ ta là một người hâm mộ Poke, vì thế ta chính là một người hâm mộ Poke. Sức mạnh thuộc về các người hâm mộ Poke!"
+    },
+    "victory": {
+      "1": "Ngươi có thể đã đánh bại ta trong trận đấu, nhưng tình yêu của ta dành cho Pokémon thì không ai có thể sánh bằng!",
+      "2": "Ngươi hãy nhớ lấy điều này! Ta là một người hâm mộ Poke chân chính đấy!",
+      "3": "Ta không giỏi chiến đấu cho lắm, nhưng đây là một trong những nghĩa vụ của một hâm mộ Poke."
+    }
+  },
+  "pokefanFemale": {
+    "encounter": {
+      "1": "Ta yêu các Pokémon của mình hơn bất cứ thứ gì trên đời!",
+      "2": "Ahahaha! Ta sẽ đi bất cứ nơi đâu để khoe những Pokémon tuyệt vời của mình!",
+      "3": "Bạn có muốn chơi với chú Pokémon xinh xắn đáng yêu của tôi không?"
+    },
+    "victory": {
+      "1": "Thắng bại là chuyện thường tình, nhưng tình yêu tôi dành cho Pokémon thì không ai bằng!",
+      "2": "Ôi trời, thế này đơn giản là không được rồi.",
+      "3": "Tôi không giỏi chiến đấu, nhưng đây là một trong những nhiệm vụ của một người hâm mộ Pokémon…"
+    }
+  },
+  "rich": {
+    "encounter": {
+      "1": "Ở tuổi già này, tôi đã có rất nhiều trải nghiệm phong phú với Pokémon của mình.$Hãy để tôi chia sẻ kho tàng trải nghiệm đó với bạn.",
+      "2": "Hãy cùng bước vào trận đấu Pokémon với sự lịch lãm của những quý ông nào!",
+      "2_female": "Hãy cùng bước vào trận đấu Pokémon với sự lịch lãm của những quý bà nào!",
+      "3": "Với Pokémon của mình, tôi đã đi đến khắp bốn phương trời.$Bạn có thể nói rằng tôi có chút tự tin vào năng lực của bản thân đấy."
+    },
+    "victory": {
+      "1": "Haha! Làm tốt lắm, nhà huấn luyện trẻ tuổi!",
+      "1_female": "Haha! Làm tốt lắm, nhà huấn luyện trẻ tuổi!",
+      "2": "Cái gì? Đã kết thúc rồi sao? Thôi, vậy cũng được.$Những người giàu có như tôi thường không hay chiến đấu.",
+      "3": "Ah, chơi hay lắm"
+    }
+  },
+  "richFemale": {
+    "encounter": {
+      "1": "Ở tuổi già này, tôi đã có rất nhiều trải nghiệm phong phú với Pokémon của mình.$Hãy để tôi chia sẻ kho tàng trải nghiệm đó với bạn.",
+      "2": "Ồ? Một nhà huấn luyện đáng yêu. Bạn có muốn gặp những Pokémon niềm tự hào của tôi không?",
+      "2_female": "Ồ? Một nhà huấn luyện đáng yêu.$Bạn có muốn gặp những Pokémon niềm tự hào của tôi không?",
+      "3": "Nhà huấn luyện trẻ tuổi, bạn có thể dành cho tôi vinh hạnh được chiến đấu cùng bạn không?",
+      "3_female": "Nhà huấn luyện trẻ tuổi, bạn có thể dành cho tôi vinh hạnh được chiến đấu cùng bạn không?"
+    },
+    "victory": {
+      "1": "Ồ, trận đấu đó thực sự hoàn hảo!",
+      "2": "Ôi trời… Trận đấu đó hoàn toàn không giống với khi tôi chiến đấu cùng bạn bè của mình chút nào.",
+      "3": "quá trẻ tuổi, vậy mà lại mạnh mẽ đến thế!\nThật là xuất chúng làm sao!"
+    }
+  },
+  "richKid": {
+    "encounter": {
+      "1": "Pokémon của bạn không đời nào có thể sánh được với vẻ rực rỡ của Pokémon của tôi đâu!",
+      "2": "Bạn thực sự nghĩ Pokémon của bạn có thể đối đầu với những Pokémon TUYỆT VỜI của tôi sao?",
+      "3": "Người ta nói rằng người giàu thì chẳng cần phải tranh đấu vì bất cứ điều gì, nhưng tôi lại CỰC KỲ YÊU THÍCH một trận chiến hay đấy!"
+    },
+    "victory": {
+      "1": "Hửm? Nhưng tôi đã chi rất nhiều tiền để làm cho chúng trở nên lộng lẫy nhất có thể rồi mà…",
+      "2": "Dù tôi có thua, tôi cũng không hề nản lòng đâu! Hừm!",
+      "3": "Hừm! Tôi sẽ đi mua sắm thả ga để vực dậy tâm trạng của mình mới được!",
+      "4": "Dù cho có thua trận đấu, tôi cũng sẽ không đánh mất đi sự tao nhã của mình."
+    }
+  },
+  "richKidFemale": {
+    "encounter": {
+      "1": "Tôi vừa mới tỉa tót lại bộ lông cho Pokémon của mình xong đấy. Bạn liệu hồn mà đừng có làm chúng bù xù lên nhé!",
+      "2": "Chúng ta hẳn là đã có duyên mới gặp được nhau.\nTôi có thể xin bạn một trận đấu được không?",
+      "3": "Nói cho mà biết, tôi chưa từng để thua bất kỳ ai trong bất cứ việc gì đâu."
+    },
+    "victory": {
+      "1": "Ôi không, những Pokémon đáng thương yêu dấu của tôi!",
+      "2": "Ôi trời đất ơi.\nĐây quả là một trải nghiệm hoàn toàn mới mẻ đối với tôi.",
+      "3": "Hừm! Tôi sẽ đi mua sắm thả ga để vực dậy tâm trạng của mình mới được!",
+      "4": "Dù cho có thua trận đấu, tôi cũng sẽ không đánh mất đi sự tao nhã của mình."
+    }
+  },
+  "veteran": {
+    "encounter": {
+      "1": "Tôi sẽ không thua một đứa nhóc chẳng biết gì về chiến đấu như bạn đâu.",
+      "2": "Tôi có thể nhìn thấy sự tuyệt vọng trong ánh mắt của bạn rồi đấy. Lên luôn đi nào!"
+    },
+    "victory": {
+      "1": "Cái gì? Đứa nhóc này học hỏi nhanh đến vậy sao? Ha ha ha… Tôi hoàn toàn không ngờ tới đấy!",
+      "2": "Tôi đã đánh giá thấp bạn chỉ là một đứa nhóc sao? Hay đây mới chính là năng lực thực sự của bạn?"
+    }
+  },
+  "veteranFemale": {
+    "encounter": {
+      "1": "Tôi sẽ cho bạn nếm mùi những Pokémon được huấn luyện bài bản của một Cựu binh.",
+      "2": "Ồ, nhóc vẫn chỉ là một đứa trẻ thôi mà. Ai cho phép nhóc đến nơi này thế hả?"
+    },
+    "victory": {
+      "1": "Bạn đã tặng cho tôi một thất bại cay đắng. Thế nhưng, thất bại cũng là một phần của cuộc sống mà thôi.",
+      "2": "Cứ tưởng nhóc chỉ là một đứa trẻ thôi chứ. Hi hi… Nhóc cứng cựa đấy."
+    }
+  },
+  "roughneck": {
+    "encounter": {
+      "1": "Này, cái thằng kia! Đừng có giỡn mặt với tao, không là tao sẽ hủy diệt Pokémon của mày luôn đấy!",
+      "2": "Tao tuy tệ và ngốc nghếch thật đấy, nhưng tao cực kỳ nghiêm túc với Pokémon.",
+      "3": "Tao thực sự có thể bung xõa hết mình trong các trận đấu Pokémon mà chẳng sợ bị ai mắng mỏ cả."
+    },
+    "victory": {
+      "1": "Sao tao lại có thể thua bởi một chiêu thức yếu ớt, sến sẩm như thế được chứ?Ịt Ẹ, tức nổ dái!",
+      "2": "Hy vọng mày sẽ tìm thấy một điều gì đó khiến bản thân có thể thực sự nghiêm túc vì nó.",
+      "3": "Mày cũng khoái một trận chiến lớn đúng không? Từ giờ mày là chiến hữu của tao!"
+    }
+  },
+  "richDouble": {
+    "encounter": {
+      "1": "Hôm qua là tiệc tùng, hôm nay là chiến trận. Bọn ta giàu có. Bọn ta ta luôn biết cách tận hưởng niềm vui!",
+      "2": "Mày là đối thủ của bọn tao đấy à? Nhìn mày có vẻ hơi đói bụng rồi đấy nha."
+    },
+    "victory": {
+      "1": "Bọn tq chẳng cần phải thắng đâu, bởi vì chúng ta ngập trong tiền rồi.",
+      "2": "Mày sự là một người bình thường đấy à? Mày ăn cái gì mà lớn thế?"
+    }
+  },
+  "aromaLady": {
+    "encounter": {
+      "1": "Ngửi thấy mấy mùi hương ngọt ngào này làm tôi buồn ngủ quá đi mất…",
+      "2": "Bạn chuẩn bị thua tới nơi rồi đấy, nhưng bù lại thì bạn sẽ được tận hưởng một mùi hương tuyệt vời cho mà xem!",
+      "3": "Giờ thì cái mùi hương này có thể là gì được nhỉ?"
+    },
+    "victory": {
+      "1": "Yass…Ồ, thật à? Tôi thua rồi sao?",
+      "2": "AAAGHHH,tôi tức chết đi được!",
+      "3": "Sụt sịt… Khụt khịt… Mũi tôi bị nghẹt cứng lại rồi…"
+    }
+  },
+  "birdKeeper": {
+    "encounter": {
+      "1": "Bay lên, bay lên, bay lên nào! Chúng ta sẽ thống trị trận chiến này!!",
+      "2": "Gió đang thổi về phía tôi rồi! (thời tới cản không kịp!)",
+      "3": "Các Pokémon chim của tôi đang muốn lao vào khô máu đây này!"
+    },
+    "victory": {
+      "1": "Chúng ta sắp đâm sầm vào nhau tới nơi rồi!!",
+      "2": "Mệt lử rồi, chắc tôi bay về nhà đây",
+      "3": "Combo chim chiến thế mà lại thua được á?"
+    }
+  },
+  "birdKeeperFemale": {
+    "encounter": {
+      "1": "Tôi đã cưỡi Pokémon chim của mình đến tận đây đấy!",
+      "2": "Gió đang thổi về phía tôi rồi! (thời tới cản không kịp!)",
+      "3": "Mấy chú Pokémon chim của tôi đang muốn lao vào chiến luôn rồi đây!"
+    },
+    "victory": {
+      "1": "Toang rồi! Mấy chú chim của tôi không bay nổi để chở tôi về nữa rồi!",
+      "2": "Mệt lử rồi, chắc tôi bay về nhà đây.",
+      "3": "Bộ combo chim của tôi mà lại thua á?"
+    }
+  },
+  "bugCatcher": {
+    "encounter": {
+      "1": "Ngày nào tôi cũng dậy thật sớm để nuôi đám Pokémon của mình từ lúc chúng còn là kén đấy!",
+      "2": "Tôi sẽ tóm gọn bạn bằng chiếc lưới của mình!",
+      "3": "Đạo của một kẻ săn bọ! Hãy mở to mắt ra mà chứng kiến đây!"
+    },
+    "victory": {
+      "1": "Nếu bạn không thích pokemon Bọ,thì nghĩa là bạn làm tôi quạo đấy!",
+      "2": "Này! Đừng có mà chạy trốn!",
+      "3": "Tất cả hãy quỳ gối trước các Người Bắt Bọ đi!"
+    }
+  },
+  "camper": {
+    "encounter": {
+      "1": "Pokémon của tôi đã được huấn luyện ở sâu trong rừng già đấy",
+      "2": "Tôi biết mình chẳng có cửa thắng đâu, nhưng thôi được rồi, chiến thì chiến!",
+      "3": "Chàng Huấn Luyện Dã Ngoại không biết mệt mỏi đã sẵn sàng nghênh chiến rồi đây!"
+    },
+    "victory": {
+      "1": "Tôi sẽ trở lại khu rừng.",
+      "2": "Tôi biết là mình sẽ thua mà. Tôi xin lỗi vì chuyện này.",
+      "3": "Tôi ước gì mình có thể trở thành tín đồ của bạn."
+    }
+  },
+  "camperFemale": {
+    "encounter": {
+      "1": "Tôi sẽ chiến đấu với bạn như thể đang đi dã ngoại vậy!",
+      "2": "Tôi sẽ dạy cho bạn biết thế nào là niềm vui khi chiến đấu.",
+      "3": "Thắng hay thua thì chúng ta cũng đừng để bụng nhé."
+    },
+    "victory": {
+      "1": "Cứ giả vờ như đây là một buổi dã ngoại thì không giúp tôi thắng được đâu.",
+      "2": "Ôi trời, thật là truyền cảm hứng! Bạn là người tuyệt vời nhất!",
+      "3": "Ôi, cậu đấy à! Đừng bao giờ quên điều này nhé!"
+    }
+  },
+  "collector": {
+    "encounter": {
+      "1": "Bây giờ chỉ cần kiên nhẫn thôi. Tôi sẽ cho bạn xem bộ sưu tập cá nhân của tôi!",
+      "2": "Tôi đã nhận được vài mẹo từ những người bạn trên mạng về cách tốt nhất để nuôi dưỡng băng đảng của mình.",
+      "3": "Hãy để tôi kiểm tra năng lực của bạn với tư cách là một nhà sưu tập.",
+      "3_female": "Hãy để tôi kiểm tra năng lực của bạn với tư cách là một nhà sưu tập."
+    },
+    "victory": {
+      "1": "Á á á… Pokémon… Pokémon của tôi…",
+      "2": "Chán thật đấy! Mấy đứa bạn trên mạng làm tôi thất vọng quá!",
+      "3": "Đó quả là một bộ sưu tập ấn tượng. Tôi sẵn lòng giải thoát bạn khỏi đống đó đấy."
+    }
+  },
+  "dragonTamer": {
+    "encounter": {
+      "1": "Phu ha ha ha! Thử thách tiếp theo của bạn chính là tôi!",
+      "2": "Đi thôi nào! Hãy đối mặt với đội hình Pokémon đã được huấn luyện bài bản của tôi đây!",
+      "3": "Hãy nhìn xem! Hãy cảm nhận nó! Sức mạnh tối thượng… Chắc là vậy!"
+    },
+    "victory": {
+      "1": "Phu ha ha ha! Hãy để chúng ta gặp lại nhau nhé!",
+      "2": "Ôi không! Thật kinh khủng! Bạn đã làm gì với Pokémon của tôi thế này?!",
+      "3": "Danh hiệu tối thượng… chắc thế! Ta phong tặng nó cho ngươi!"
+    }
+  },
+  "fairyTaleGirl": {
+    "encounter": {
+      "1": "Những đứa con cưng đáng yêu của ta thầm thì đủ loại bí mật cho ta nghe đấy.",
+      "2": "Ta có thể nghe thấy tiếng nói của một nàng tiên… Nàng bảo ta không được sẩy chân trước ngươi…",
+      "2_female": "Ta có thể nghe thấy tiếng nói của một chàng tiên. Chàng bảo ta không được sẩy chân trước ngươi…",
+      "3": "Những bé Pokémon đáng iu dễ ghét của ta sẽ xé xác ngươi ra thành từng mảnh, nhé cưng?"
+    },
+    "victory": {
+      "1": "Tại sao những đứa con cưng của ta lại không nói gì cả? Tại sao trông chúng có vẻ đang bực bội như vậy?",
+      "2": "Tiên nữ ơi… Tôi sợ lắm… Cứu với… Cứu tôi với…",
+      "3": "Ôi xời phiền phức quá! Ngươi đừng bao giờ quay lại đây nữa! Nếu còn vác mặt đến, tụi này sẽ xử đẹp ngươi luôn, nghe chưa hả?",
+      "3_female": "Ôi xời phiền phức quá! Ngươi đừng bao giờ quay lại đây nữa! Nếu còn vác mặt đến, tụi này sẽ xử đẹp ngươi luôn, nghe chưa hả?"
+    }
+  },
+  "interviewers": {
+    "encounter": {
+      "1": "Ồ! Ngay tại một nơi như thế này, chúng ta lại vừa phát hiện ra một Nhà huấn luyện trông có vẻ rất đáng gờm!$Được rồi, máy quay chạy! Bắt đầu buổi phỏng vấn nào.",
+      "1_female": "Ồ! Ngay tại một nơi như thế này, chúng ta lại vừa phát hiện ra một Nhà huấn luyện trông có vẻ rất đáng gờm!$Được rồi, máy quay chạy! Bắt đầu buổi phỏng vấn nào.",
+      "2": "Cậu đang được lên hình trực tiếp đấy, nhưng cứ cố gắng tự nhiên vào nhé, được chứ?",
+      "2_female": "Cậu đang được lên hình trực tiếp đấy, nhưng cứ cố gắng tự nhiên vào nhé, được chứ?"
+    },
+    "victory": {
+      "1": "Đôi mắt của tôi đã không nhìn lầm! Tôi thực sự đã phát hiện ra một Nhà huấn luyện vô cùng kinh ngạc!",
+      "1_female": "Đôi mắt của tôi đã không nhìn lầm! Tôi thực sự đã phát hiện ra một Nhà huấn luyện vô cùng kinh ngạc!",
+      "2": "Máy quay chính là nhân chứng cho chúng ta! Nó đã ghi lại thất bại này rồi…"
+    }
+  },
+  "mysteriousSisters": {
+    "encounter": {
+      "1": "…Cút xa ra.",
+      "2": "Ối! Ngươi là ai đấy?! Ngươi muốn chiến đấu chứ gì?! Một trận đấu hả?!\nỒ, ra là ngươi! Nếu ngươi đã muốn đấu một trận, tụi này sẽ không từ chối đâu!"
+    },
+    "victory": {
+      "1": "…Vĩnh biệt",
+      "2": "Ááááá á!\nNày, vui phết đấy chứ!"
+    }
+  },
+  "ruinManiac": {
+    "encounter": {
+      "1": "Khám phá di tích không phải chỉ toàn chuyện vui vẻ hay trò chơi đâu nhé!",
+      "2": "Những người bạn đồng hành này đã cùng ta bôn ba khắp thế giới đấy!",
+      "3": "Vực dậy tinh thần lên nào."
+    },
+    "victory": {
+      "1": "Nguy hiểm luôn rình rập ở khắp mọi nơi trong các tàn tích!",
+      "2": "Có lẽ đã đến lúc chúng ta lại phải lên đường rồi…",
+      "3": "Cậu cũng đỉnh lắm đấy."
+    }
+  },
+  "scubaDiver": {
+    "encounter": {
+      "1": "Ạc-ộc-ộc! Ộc! Ạc-ộc!\n(Mục tiêu đã lọt vào tầm ngắm! Tôi sẽ hạ gục chúng!)",
+      "2": "Ộc-ộc! Ạc-ộc-ộc!\n(Này! Ngươi nghĩ ngươi là ai thế hả?!)",
+      "3": "*Ủm… ủm-bùm… ủm…*\n(Này, thế cậu đã từng nghe nói về **tuyết đại dương** chưa đấy?)"
+    },
+    "victory": {
+      "1": "Ộc ộc",
+      "2": "Ộc,ộc! Ộc,ộc!",
+      "3": "Ủm…."
+    }
+  },
+  "scubaDiverFemale": {
+    "encounter": {
+      "1": "Ủm… ủm-bùm… ủm…\n(Này, cậu đã từng nghe nói về tuyết đại dương chưa?)",
+      "2": "*Ạc-ộc-ộc! Ộc! Ạc-ộc!*\n(Mục tiêu đã lọt vào tầm ngắm! Tôi sẽ hạ gục chúng!)",
+      "3": "*Ộc-ộc! Ạc-ộc-ộc!*\n(Này! Ngươi nghĩ ngươi là ai thế hả?!)"
+    },
+    "victory": {
+      "1": "Ủm…",
+      "2": "Ộc!",
+      "3": "Ộc,ộc! Ộc,ộc!"
+    }
+  },
+  "snowAceTrainer": {
+    "encounter": {
+      "1": "Tôi không chịu được lạnh, nhưng tôi khá là cừ đấy.",
+      "2": "Cậu chẳng cừ chút nào cả. Tốt nhất là để tôi dạy cho cậu vậy.",
+      "3": "Những Pokémon át chủ bài của tôi đã sẵn sàng xuất kích rồi đây!"
+    },
+    "victory": {
+      "1": "Ră-răng đánh bò cạp… Ưm… Tôi buồn ngủ quá rồi…",
+      "2": "Cậu có kỹ năng tốt đấy. Cậu cũng đã cố gắng rất nhiều rồi. Tuyệt vời lắm!",
+      "3": "Tôi thích cái khiếu mà cậu thể hiện đấy!"
+    }
+  },
+  "snowAceTrainerFemale": {
+    "encounter": {
+      "1": "Cậu có thấy cái áo khoác này dễ thương không? Có điều nó làm tôi hơi khó cử động chút xíu.",
+      "2": "Tuyết thật tuyệt vời! Mọi thứ đều trở nên trắng xóa.",
+      "3": "Tôi cần phải nghiêm túc với cậu!"
+    },
+    "victory": {
+      "1": "Tôi cảm thấy như bị ngập đầu trong tuyết…",
+      "2": "Tôi cảm thấy tầm nhìn đang mờ dần đi…",
+      "3": "Được rồi… Khá là đáng chú ý đấy…"
+    }
+  },
+  "youngCouple": {
+    "encounter": {
+      "1": "Khi chúng ta ở bên nhau, lòng dũng cảm của tôi như được tăng lên gấp trăm lần!\nChúng ta là một cặp đôi tuyệt vời đấy! Cậu cũng nên chuẩn bị tinh thần đi là vừa!",
+      "2": "Hơi ngượng ngùng một chút, nhưng chúng tôi sẽ cho cậu thấy sức mạnh của tình yêu cuồng nhiệt này!"
+    },
+    "victory": {
+      "1": "Đến cả khi cùng nhau chiến đấu mà chúng tôi còn chẳng thể thắng nổi…\nMạnh quá đi mất!",
+      "2": "Hử…\nKhông thể nào!"
+    }
+  },
+  "archer": {
+    "encounter": {
+      "1": "Trước khi đi xa hơn, hãy cho ta thấy ngươi có tư cách gì để đối đầu với Đội Hoả Tiễn bọn ta trước!",
+      "2": "Tôi nhận được báo cáo rằng kỹ năng của ngươi không phải dạng vừa đâu. Hãy xem chúng có đúng là sự thật hay không.",
+      "3": "Ta là Archer, một trong những Thủ lĩnh của Đội Hoả Tiễn. Và ta chưa bao giờ có ý định nương tay với bất kỳ kẻ thù nào của tổ chức."
+    },
+    "victory": {
+      "1": "Thật là một sai lầm ngớ ngẩn!",
+      "2": "Với kỹ năng hiện tại của mình, rốt cuộc tôi đã không đủ sức gánh vác nhiệm vụ này rồi.",
+      "3": "X-Xin lỗi ngài, Giovanni… Để cho một huấn luyện viên tầm thường đánh bại được tôi sao…",
+      "3_female": "X-Xin lỗi ngài, Giovanni… Để cho một huấn luyện viên tầm thường đánh bại được tôi sao…"
+    }
+  },
+  "ariana": {
+    "encounter": {
+      "1": "Khoan lại đó đã!\nChúng ta không thể để một kẻ nào đó chạy rông ngoài vòng pháp luật được.$Cậu thấy đấy, điều đó sẽ làm tổn hại đến lòng kiêu hãnh của Đội Hỏa Tiễn chúng ta.\n",
+      "2": "Tôi chẳng biết hay thèm quan tâm những gì mình đang làm là đúng hay sai nữa…$Tôi chỉ đặt trọn niềm tin vào ngài Giovanni và làm theo những gì được bảo thôi.",
+      "3": "Chuyến hành trình của ngươi kết thúc tại đây rồi. Ta sẽ hạ gục ngươi!"
+    },
+    "victory": {
+      "1": "Xí, ngươi thực sự rất mạnh đấy. Thật là đáng tiếc.$Nếu ngươi chịu gia nhập Đội Hỏa Tiễn, ngươi đã có thể trở thành một Thủ lĩnh rồi.",
+      "1_female": "Xí, ngươi thực sự rất mạnh đấy. Thật là đáng tiếc.$Nếu ngươi chịu gia nhập Đội Hỏa Tiễn, ngươi đã có thể trở thành một Thủ lĩnh rồi.",
+      "2": "… Tôi hoàn toàn sụp đổ rồi…",
+      "3": "Áááááá! Chuyện này không thể nào xảy ra được! Tôi đã chiến đấu hết sức bình sinh rồi, vậy mà vẫn thua sao…"
+    }
+  },
+  "proton": {
+    "encounter": {
+      "1": "Ngươi muốn cái gì? Nếu ngươi dám phá hỏng công chuyện của bọn ta, thì đừng mong nhận được sự khoan hồng nào!",
+      "2": "Có cái gì ở đây thế này? Ta thường bị gắn mác là kẻ đáng sợ và tàn nhẫn nhất trong Đội Hỏa Tiễn đấy…$Ta cực kỳ nghiêm túc cảnh báo ngươi không được can thiệp vào công chuyện của bọn ta!",
+      "3": "Ta là Proton, một Thủ lĩnh của Đội Hỏa Tiễn. Ta ở đây để đặt dấu chấm hết cho sự can thiệp của ngươi!"
+    },
+    "victory": {
+      "1": "Pháo đài sụp đổ rồi!",
+      "2": "Có thể lần này ngươi đã thắng… Nhưng tất cả những gì ngươi vừa làm chỉ khiến cho cơn thịnh nộ của Đội Hỏa Tiễn thêm sục sôi mà thôi…",
+      "3": "Ta đã bị đánh bại… Nhưng ta sẽ không bao giờ quên chuyện này đâu!"
+    }
+  },
+  "petrel": {
+    "encounter": {
+      "1": "Muhahaha, bọn ta đã chờ ngươi mãi đấy. Ta á? Ngươi không biết ta là ai sao? Chính là ta, Giovanni đây.Ngài Giovanni uy nghiêm, oai phong lẫm liệt đây! Oà há há há! …Hả? Giọng ta nghe chẳng giống Giovanni tí nào á?Nhìn ta cũng không giống Giovanni luôn sao? Sao lại thế được? Ta đã phải nỗ lực hết mình để bắt chước ngài ấy rồi mà!",
+      "2": "Ta là Petrel, một Thủ lĩnh của Đội Hỏa Tiễn. Ta sẽ không cho phép ngươi can thiệp vào các kế hoạch của bọn ta đâu!",
+      "3": "Thủ lĩnh Đội Hỏa Tiễn Petrel sẽ tự tay giải quyết kẻ đột nhập này!"
+    },
+    "victory": {
+      "1": "Được rồi, được rồi. Tôi sẽ nói cho ngươi biết ông ta đang ở đâu.",
+      "2": "Tôi… Tôi đã chẳng thể làm được gì cả… Ngài Giovanni, xin hãy tha thứ cho tôi…",
+      "3": "Không, mình không thể để chuyện này làm ảnh hưởng đến bản thân được. Mình phải đi thông báo cho những người khác ngay lập tức…"
+    }
+  },
+  "tabitha": {
+    "encounter": {
+      "1": "Hehehe! Vậy là ngươi đã cất công dẫn xác đến tận đây rồi sao! Nhưng tiếc là ngươi đã quá muộn rồi!",
+      "2": "Hehehe… Ngươi đã mò tới tận đây rồi cơ à? Bọn ta quả thực đã đánh giá thấp ngươi rồi!$Nhưng mọi chuyện kết thúc ở đây thôi! Ta ở một đẳng cấp hoàn toàn khác so với lũ lâu la mà ngươi chạm trán từ đầu đến giờ.$Ta không có rảnh để câu giờ đâu. Ta sẽ nghiền nát ngươi ra thành cám!",
+      "3": "Ta sẽ cho ngươi nếm trải một chút mùi vị của sự đau đớn! Khôn hồn thì chịu trói chấp nhận số phận đi!"
+    },
+    "victory": {
+      "1": "Hehehe! Ngươi có thể đã đánh bại được ta, nhưng ngươi không có cửa đấu lại ông trùm đâu!$Nếu bây giờ ngươi biết điều mà biến đi thì sẽ không phải chịu một trận đòn nhừ tử đâu!",
+      "2": "Hehehe… Vậy là cả ta cũng thua rồi sao…",
+      "3": "Ái chà! Sao chuyện này có thể xảy ra được cơ chứ? Một Thủ lĩnh như ta mà lại để thua trước một kẻ huấn luyện vô danh tiểu tốt thế này sao…",
+      "3_female": "Ái chà! Sao chuyện này có thể xảy ra được cơ chứ? Một Thủ lĩnh như ta mà lại để thua trước một kẻ huấn luyện vô danh tiểu tốt thế này sao…"
+    }
+  },
+  "courtney": {
+    "encounter": {
+      "1": "Đừng. Có. Ngáng. Đường. Ta.",
+      "2": "Ngươi… …Ta muốn… phân tích thử xem sao. Ahahaha.",
+      "3": "… Vậy thì… Xóa bỏ thôi…"
+    },
+    "victory": {
+      "1": "Hah hah… Uhn…hah hah…",
+      "2": "Đúng như dự đoán. Ngoài dự kiến. Là ngươi. Đã khóa… mục tiêu. Tiến hành… thí nghiệm. Ngươi. Mãi mãi. Aha…",
+      "3": "Thật ngoài dự kiến. …Ta biết ngay mà. Ngươi… quả là thú vị! …Haha."
+    }
+  },
+  "shelly": {
+    "encounter": {
+      "1": "Ahahahaha! Ngươi dám xía mũi vào chuyện của Đội Aqua sao?$Ngươi đúng là điếc không sợ súng, hay chỉ là kẻ vô tri ngốc nghếch, hay là cả hai đây?$Nhìn ngươi vừa đáng yêu lại vừa dễ ghét làm sao! Để ta tiễn ngươi một đoạn nhé!",
+      "2": "Cái gì đây? Đứa nhóc nứt mắt từ đâu chui ra thế này?",
+      "3": "Bình tĩnh lại đi. Kiên nhẫn chút nào. Ta sẽ nghiền nát ngươi ngay bây giờ đây.",
+      "3_female": "Bình tĩnh lại đi. Kiên nhẫn chút nào. Ta sẽ nghiền nát ngươi ngay bây giờ đây."
+    },
+    "victory": {
+      "1": "Ahahahaha! Không ngờ chúng ta lại bị can thiệp giữa chừng thế này! Hết cách rồi.$Chúng ta buộc phải rút lui thôi. Nhưng đây chưa phải là kết thúc của Đội Aqua đâu!$Chúng ta vẫn còn những kế hoạch khác! Khôn hồn thì nhớ lấy đấy!",
+      "2": "Áaaa?! Có phải ta đã quá nhẹ tay với ngươi rồi không hả?!",
+      "3": "Ừm. Đừng nói với ta là ngươi lại vừa lên tay ngay trong trận chiến đấy nhé?$Một nhóc tì có tương lai tươi sáng đấy… Nhưng ta và Pokémon của mình chẳng còn chút sức lực nào để đấu tiếp nữa rồi…$Đi tiếp đi… Hãy đi để rồi bị Archie hủy diệt.",
+      "3_female": "Ừm. Đừng nói với ta là ngươi lại vừa lên tay ngay trong trận chiến đấy nhé?$Một nhóc tì có tương lai tươi sáng đấy… Nhưng ta và Pokémon của mình chẳng còn chút sức lực nào để đấu tiếp nữa rồi…$Đi tiếp đi… Hãy đi để rồi bị Archie hủy diệt."
+    }
+  },
+  "matt": {
+    "encounter": {
+      "1": "Được rồi, trong lúc chờ vị Thủ lĩnh của chúng ta có thời gian tiếp ngươi, ta sẽ là đối thủ của ngươi!",
+      "2": "Hôôô-haaa! Hết mình luôn nào! Ta đang rực cháy lên rồi đây! Xem nào! Xem nàooo! Xem nàooo! Chiến một trận ra trò cho đến khi chẳng còn gì để mất mới thôi!",
+      "3": "Hôôô haaa! Ta sẽ đập tan xác ngươi ra!"
+    },
+    "victory": {
+      "1": "Muwuhahaha! Trận chiến đó vui đấy chứ, mặc dù ta là kẻ thua cuộc!",
+      "2": "Cảm nhận được rồi! Ta hoàn toàn cảm nhận được rồi! Sức mạnh đang tỏa ra từ ngươi đó!$Nữa đi! Ta vẫn muốn đấu tiếp! Nhưng xem ra chúng ta hết thời gian mất rồi…",
+      "2_female": "Cảm nhận được rồi! Ta hoàn toàn cảm nhận được rồi! Sức mạnh đang tỏa ra từ ngươi đó! Nữa đi!$Ta vẫn muốn đấu tiếp! Nhưng xem ra chúng ta hết thời gian mất rồi…",
+      "3": "Ồ hố! Trận thua này đúng là khiến ta có thể tự hào đấy!",
+      "3_female": "Ồ hố! Trận thua này đúng là khiến ta có thể tự hào đấy!"
+    }
+  },
+  "mars": {
+    "encounter": {
+      "1": "Ta là Mars, một trong những Tổng chỉ huy cấp cao của Đội Galactic.",
+      "2": "Tầm nhìn về tương lai của Đội Galactic là không thể lay chuyển. Mọi sự chống đối sẽ bị nghiền nát không thương tiếc!",
+      "3": "Đang cảm thấy lo lắng sao? Đúng thế, ngươi nên biết sợ đi là vừa!",
+      "3_female": "Đang cảm thấy lo lắng sao? Đúng thế, ngươi nên biết sợ đi là vừa!"
+    },
+    "victory": {
+      "1": "Chuyện này không thể xảy ra được! Sao ta lại có thể thua được cơ chứ?!",
+      "2": "Ngươi cũng có chút bản lĩnh đấy, ta thừa nhận điều đó.",
+      "3": "Bị đánh bại rồi sao… Đây đúng là một sai lầm đắt giá."
+    }
+  },
+  "jupiter": {
+    "encounter": {
+      "1": "Jupiter, Tổng chỉ huy của Đội Galactic, rất hân hạnh được tiếp đón ngươi.",
+      "2": "Sự kháng cự là vô ích. Đội Galactic sẽ là kẻ chiến thắng cuối cùng!",
+      "3": "Ngươi đang run rẩy kìa… Đã biết sợ rồi sao?"
+    },
+    "victory": {
+      "1": "Không thể nào… Ta mà lại thua sao?!",
+      "2": "Ấn tượng đấy, ngươi cũng có gan dạ đó!",
+      "3": "Thua thảm hại thế này… Đúng là một nỗi nhục nhã mà."
+    }
+  },
+  "saturn": {
+    "encounter": {
+      "1": "Ta là Saturn, Tổng chỉ huy của Đội Galactic.",
+      "2": "Sứ mệnh của chúng ta là tuyệt đối. Bất kỳ sự cản trở nào đều sẽ bị xóa sổ!",
+      "3": "Có phải đó là nỗi sợ hãi mà ta đang nhìn thấy trong đôi mắt ngươi không?"
+    },
+    "victory": {
+      "1": "Không thể nào… Ta mà lại bị đánh bại bởi ngươi sao?!",
+      "2": "Ngươi đã chứng minh được mình là một đối thủ xứng tầm đấy.",
+      "2_female": "Ngươi đã chứng minh được mình là một đối thủ xứng tầm đấy.",
+      "3": "Thất bại cay đắng thế này… Chuyện này thật không thể chấp nhận được!"
+    }
+  },
+  "zinzolin": {
+    "encounter": {
+      "1": "Ngươi có thể sẽ trở thành một mối đe dọa đối với Đội Plasma, vì vậy bọn ta sẽ tiêu diệt ngươi ngay tại đây và vào lúc này!",
+      "1_female": "Ngươi có thể sẽ trở thành một mối đe dọa đối với Đội Plasma, vì vậy bọn ta sẽ tiêu diệt ngươi ngay tại đây và vào lúc này!",
+      "2": "Ngươi dường như không đủ khôn ngoan để biết khi nào nên dừng lại thì phải. Việc ta chấm dứt chuyện này ngay bây giờ chính là một hành động ban ơn dành cho ngươi đấy!",
+      "3": "Ngươi đúng là một Nhà huấn luyện ấn tượng mới có thể đi xa được đến mức này. Nhưng mọi chuyện sẽ kết thúc tại đây thôi.",
+      "3_female": "Ngươi đúng là một Nhà huấn luyện ấn tượng mới có thể đi xa được đến mức này. Nhưng mọi chuyện sẽ kết thúc tại đây thôi."
+    },
+    "victory": {
+      "1": "Ngài Ghetsis… Tôi đã phụ sự kỳ vọng của ngài…",
+      "2": "Thật là một sự lạnh giá cay đắng. Ta đang run rẩy. Ta đang phải chịu đựng. Tuy nhiên, chúng ta mới là những kẻ sẽ đứng trên đỉnh vinh quang.",
+      "3": "Hừm. Ngươi là một Nhà huấn luyện thông minh hơn ta tưởng đấy, nhưng vẫn chưa đủ thông minh đâu.",
+      "3_female": "Hừm. Ngươi là một Nhà huấn luyện thông minh hơn ta tưởng đấy, nhưng vẫn chưa đủ thông minh đâu."
+    }
+  },
+  "colress": {
+    "encounter": {
+      "1": "Với tư cách là một nhà nghiên cứu, tôi luôn tìm kiếm sự thật và cách mọi thứ nên diễn ra.$Sức mạnh tiềm ẩn của Pokémon…$Cách tốt nhất để khơi dậy nó là gì?$Nếu có thể, tôi muốn đó là sự tin rằng giữa đó là mối liên kết giữa Trainer và Pokémon.",
+      "2": "Đội Plasma nói rằng chúng ta nên nhận ra tiềm năng của Pokémon và giải phóng chúng khỏi con người. Tôi không đồng ý.$Ngược lại, chính con người mới là người nên khai phá tiềm năng tiềm ẩn trong Pokémon!$Vậy thì, tôi sẽ kiểm tra xem cậu xem khả năng của nhóc đến đâu.",
+      "2_female": "Đội Plasma nói rằng chúng ta nên nhận ra tiềm năng của Pokémon và giải phóng chúng khỏi con người. Tôi không đồng ý.$Ngược lại, chính con người mới là người nên khai phá tiềm năng tiềm ẩn trong Pokémon!$Vậy thì, tôi sẽ kiểm tra xem cậu xem khả năng của nhóc đến đâu.",
+      "3": "Điều tôi mong muốn là phát huy tối đa tiềm năng của Pokémon!$Nếu tôi có thể làm được điều đó, tôi không quan tâm phải trả giá thế nào!$Cho dù điều đó có nghĩa là sức mạnh phải được phát huy thông qua tình cảm giữa các Pokémon với các nhà huấn luyện, vậy thì cứ như thế đi!$Nếu điều đó có nghĩa là bạn phải sử dụng một phương pháp tàn nhẫn, giống như của Đội Plasma, và buộc tất cả sức mạnh của Pokémon phải được bộc lộ…$Vậy thì cứ như thế đi! Và vâng, nếu cả thế giới bị hủy diệt vì điều đó, thì tôi cũng không hối hận…$Nào giờ cho tôi biết liệu nhóc có câu trả lời tôi muốn hay không! Nếu đã sẵn sàng, hãy đến đây!"
+    },
+    "victory": {
+      "1": "Tuyệt vời! Tôi đã học được rất nhiều điều từ trận chiến này!",
+      "2": "Tuyệt vời! Bạn đúng là một nhà huấn luyện giỏi!",
+      "2_female": "Tuyệt vời! Bạn đúng là một huấn luyện viên giỏi!",
+      "3": "Vậy đây chính là ý nghĩa của việc khai phá sức mạnh tiềm ẩn trong Pokémon của sao!"
+    }
+  },
+  "xerosic": {
+    "encounter": {
+      "1": "Ha ha ha! tôi rất vui vì đã gặp nhóc. Nào, huấn luyện viên nhỏ! Hãy cho tôi xem cậu có gì nào!",
+      "1_female": "Ha ha ha! tôi rất vui vì đã gặp nhóc. Nào, huấn luyện viên nhỏ! Hãy cho tôi xem cô có gì nào!",
+      "2": "Hừm… Nhóc mạnh mẽ hơn vẻ ngoài của mình đấy. Tôi tự hỏi nhóc đang chứa đựng bao nhiêu năng lượng trong mình nhỉ.",
+      "2_female": "Hừm… Nhóc mạnh mẽ hơn vẻ ngoài của mình đấy. Tôi tự hỏi nhóc đang chứa đựng bao nhiêu năng lượng trong mình nhỉ.",
+      "3": "Tôi đã đợi nhóc đó! Tôi cần tìm hiểu một chút! Nào, chúng ta bắt đầu thôi!"
+    },
+    "victory": {
+      "1": "À, khá khỏe đấy. Ồ vâng—thực sự rất khỏe.",
+      "1_female": "À, khá khỏe đấy. Ồ vâng—thực sự rất khỏe.",
+      "2": "Ding-ding-ding! Nhóc làm được rồi! Người chiến thắng sẽ được hưởng phần thưởng!",
+      "2_female": "Ding-ding-ding! Nhóc làm được rồi! Người chiến thắng sẽ được hưởng phần thưởng!",
+      "3": "Tuyệt vời! Thật đáng kinh ngạc! Nhóc có kỹ năng và lòng dũng cảm phi thường!"
+    }
+  },
+  "bryony": {
+    "encounter": {
+      "1": "Tôi là Bryony, và tôi rất hân hạnh được thi đấu. Hãy cho tôi thấy khả năng của cậu đi.",
+      "2": "Ấn tượng thật… Bạn mạnh mẽ hơn vẻ bề ngoài. Hãy cho chúng tôi thấy năng lượng thực sự của bạn.",
+      "2_female": "Ấn tượng thật… Bạn mạnh mẽ hơn vẻ bề ngoài. Hãy cho chúng tôi thấy năng lượng thực sự của bạn.",
+      "3": "Tôi đã đoán trước được sự xuất hiện của bạn. Đã đến lúc làm một bài kiểm tra nhỏ. Chúng ta bắt đầu nhé?",
+      "3_female": "Tôi đã đoán trước được sự xuất hiện của bạn. Đã đến lúc làm một bài kiểm tra nhỏ. Chúng ta bắt đầu nhé?"
+    },
+    "victory": {
+      "1": "Bạn khá mạnh đấy. Ồ vâng—thực sự rất mạnh.",
+      "1_female": "Bạn khá mạnh đấy. Ồ vâng—thực sự rất mạnh.",
+      "2": "Keng-keng-keng! Bạn làm tốt lắm. Chiến thắng thuộc về bạn.",
+      "3": "Tuyệt vời! Thật đáng kinh ngạc! Kỹ năng và lòng dũng cảm của bạn rất đáng khen ngợi."
+    }
+  },
+  "aliana": {
+    "encounter": {
+      "1": "Rất tiếc cho bạn, tôi đã được giao một nhiệm vụ đơn giản là loại bỏ bạn.",
+      "2": "Thôi nào, Nhà huấn luyện nhỏ tuổi! Để xem bạn có những gì nào!",
+      "2_female": "Thôi nào, Nhà huấn luyện nhỏ tuổi! Để xem bạn có những gì nào!"
+    },
+    "victory": {
+      "1": "Bạn thực sự là một Nhà huấn luyện thú vị đấy. Bạn có năng lực hơn hẳn những tên lính lác vô dụng của chúng tôi.",
+      "1_female": "Bạn thực sự là một Nhà huấn luyện thú vị đấy. Bạn có năng lực hơn hẳn những tên lính lác vô dụng của chúng tôi.",
+      "2": "Ah ha ha! Chà, tôi thực sự không ngờ bạn lại thú vị đến vậy đấy!",
+      "2_female": "Ah ha ha! Chà, tôi thực sự không ngờ bạn lại thú vị đến vậy đấy!"
+    }
+  },
+  "celosia": {
+    "encounter": {
+      "1": "Chỉ với khoản đóng góp ₽5.000.000 đô-la, bạn có thể trở thành một thành viên của Đội Flare. Chẳng cần phải suy nghĩ nhiều!",
+      "2": "Nếu chúng ta muốn biến những điều ước của chính mình thành hiện thực ngày hôm nay, chúng ta trong Đội Flare phải hy sinh một thứ gì đó quý giá."
+    },
+    "victory": {
+      "1": "Thật thảm hại! Đúng là một màn thể hiện đáng xấu hổ từ một quản trị viên!",
+      "2": "Thật thảm hại! Thật đáng xấu hổ! Chúng ta bị đánh bại rồi!"
+    }
+  },
+  "mable": {
+    "encounter": {
+      "1": "Hừm… Nhóc mạnh mẽ hơn vẻ ngoài của mình đấy. Tôi tự hỏi nhóc đang chứa đựng bao nhiêu năng lượng trong mình nhỉ.",
+      "1_female": "Hừm… Nhóc mạnh mẽ hơn vẻ ngoài của mình đấy. Tôi tự hỏi nhóc đang chứa đựng bao nhiêu năng lượng trong mình nhỉ.",
+      "2": "Nhóc không được thông minh lắm nhỉ? Bất kể ai có nhiều Pokémon nhất và nhiều năng lượng nhất sẽ là người chiến thắng!"
+    },
+    "victory": {
+      "1": "Không chỉ mạnh… mà là QUÁ mạnh! Thực sự không phải dạng vừa đâu…",
+      "1_female": "Không chỉ mạnh… mà là QUÁ mạnh! Thực sự không phải dạng vừa đâu…",
+      "2": "Ồ, bạn mạnh thật đấy! Bạn và Pokémon của bạn chắc chắn không phải dạng vừa đâu!",
+      "2_female": "Ồ, bạn mạnh thật đấy! Bạn và Pokémon của bạn chắc chắn không phải dạng vừa đâu!"
+    }
+  },
+  "rocketGrunt": {
+    "encounter": {
+      "1": "Chuẩn bị đón nhận rắc rối đi!",
+      "2": "Chúng tôi đang thực hiện một phi vụ lớn ở đây! Biến đi, nhóc!",
+      "2_female": "Chúng tôi đang thực hiện một phi vụ lớn ở đây! Biến đi, nhóc!",
+      "3": "Giao Pokémon của ngươi ra đây, hoặc đối mặt với cơn thịnh nộ của Đội Hỏa Tiễn!",
+      "4": "Ngươi sắp sửa nếm trải nỗi khiếp sợ thực sự của Đội Hỏa Tiễn rồi!",
+      "5": "Nhóc kia! Ta đây chính là một thành viên chính hiệu của Đội Hỏa Tiễn đây!",
+      "5_female": "Nhóc kia! Ta đây chính là một thành viên chính hiệu của Đội Hỏa Tiễn đây!"
+    },
+    "victory": {
+      "1": "Đội Hỏa Tiễn lại bay mất xác rồi kìa!",
+      "2": "Ôi không! Tôi làm rơi Chìa khóa Thang máy  mất rồi!",
+      "3": "Tôi tiêu tùng rồi!",
+      "4": "Đồng bọn của ta sẽ không để yên chuyện này đâu!",
+      "5": "Ngươi nói cái gì cơ? Đội Hỏa Tiễn bái bai bai bai rồi á? Tan tành xí quách như ngươi nói thật rồi á hả?"
+    }
+  },
+  "magmaGrunt": {
+    "encounter": {
+      "1": "Nếu ngươi cản đường Đội Magma, thì đừng mong nhận được bất kỳ sự khoan hồng nào!",
+      "2": "Tốt nhất là ngươi đừng có can thiệp vào kế hoạch của chúng ta! Chúng ta đang biến thế giới này thành một nơi tốt đẹp hơn đấy!",
+      "3": "Ngươi đang cản đường đấy! Đội Magma không có thời gian rảnh để tiếp mấy đứa nhóc như ngươi đâu!",
+      "4": "Hy vọng nhóc có mang theo kẹo dẻo, vì ở đây sắp sửa nóng lên rồi đấy!",
+      "5": "Chúng ta sẽ sử dụng sức mạnh của một ngọn núi lửa! Nó sẽ cực kỳ… bùng nổ đấy! Hiểu không hả? Hé hé!"
+    },
+    "victory": {
+      "1": "Hả? Ta thua rồi sao?!",
+      "2": "Không thể tin được là ta lại thua! Ta thậm chí còn nhịn cả bữa trưa vì vụ này đấy!",
+      "3": "Không đời nào! Ngươi chỉ là một đứa con nít thôi mà!",
+      "3_female": "Không đời nào! Ngươi chỉ là một đứa con nít thôi mà!",
+      "4": "Urrrgh… Đáng lẽ ra ta phải chui tọt vào căn cứ của chúng ta ngay từ đầu mới phải…",
+      "5": "Ngươi đánh bại ta rồi… Ngươi nghĩ liệu đại ca có trừ lương của ta vì chuyện này không hả?"
+    }
+  },
+  "aquaGrunt": {
+    "encounter": {
+      "1": "Không một ai dám ngáng đường Đội Aqua mà nhận được sự khoan hồng đâu, ngay cả con nít như ngươi cũng vậy!",
+      "2": "Grrr… Nhà ngươi cũng gan dạ lắm mới dám xía vào chuyện của Đội Aqua đấy!",
+      "3": "Nhóc sắp sửa ướt sũng rồi đấy! Và không chỉ là từ mấy con Pokémon hệ Nước của ta đâu!",
+      "4": "Chúng ta, Đội Aqua, tồn tại vì lợi ích của tất cả mọi người!",
+      "5": "Hãy chuẩn bị tinh thần để bị cuốn trôi bởi những đợt sóng thủy triều từ… ờ, Pokémon của ta đi! Phải, chính là Pokémon của ta đấy!"
+    },
+    "victory": {
+      "1": "Ngươi đang giỡn mặt với ta đấy à!",
+      "2": "Arrgh, ta không ngờ là lại bị quấy rầy bởi một đứa nhóc thích bao đồng như ngươi đấy!",
+      "3": "Thua rồi sao?! Thôi tiêu, kiểu này chắc ta phải tự bơi sải về lại căn cứ rồi…",
+      "4": "Trời ạ, đúng là một thảm họa mà… Kiểu này chắc chắn đại ca sẽ nổi lôi đình cho xem…",
+      "5": "Ngươi đánh bại ta rồi… Ngươi nghĩ liệu đại ca có bắt ta đi trên ván gỗ rồi nhảy xuống biển phạt tội vì chuyện này không hả?"
+    }
+  },
+  "galacticGrunt": {
+    "encounter": {
+      "1": "Đừng có mà dại dột đụng vào Đội Galactic!",
+      "2": "Hãy chứng kiến sức mạnh công nghệ của chúng ta và cả tương lai mà chúng ta hứa hẹn mở ra!",
+      "3": "Nhân danh Đội Galactic, ta sẽ quét sạch bất kỳ kẻ nào dám cản đường chúng ta!",
+      "4": "Hãy chuẩn bị tinh thần để nếm mùi thất bại đi!",
+      "5": "Hy vọng ngươi đã chuẩn bị tinh thần để hứng chịu một trận đòn nhừ tử mang tầm vũ trụ rồi đấy!",
+      "5_female": "Hy vọng ngươi đã chuẩn bị tinh thần để hứng chịu một trận đòn nhừ tử mang tầm vũ trụ rồi đấy!"
+    },
+    "victory": {
+      "1": "Hệ thống ngừng hoạt động…",
+      "2": "Sự thụt lùi này chẳng có ý nghĩa gì trong một kế hoạch lớn lao.",
+      "3": "Kế hoạch của chúng ta còn lớn lao hơn cả thất bại này.",
+      "4": "Làm sao có thể như vậy được?!",
+      "5": "Ghi chú cho bản thân: phải luyện tập đấu Pokémon, CÀNG SỚM CÀNG TỐT."
+    }
+  },
+  "plasmaGrunt": {
+    "encounter": {
+      "1": "Chúng ta sẽ không dung thứ cho những kẻ có tư tưởng khác biệt!",
+      "2": "Nếu ta thắng ngươi, hãy giải phóng Pokémon của ngươi mau!",
+      "3": "Nếu ngươi dám ngáng đường Đội Plasma, ta sẽ xử lý ngươi!",
+      "4": "Đội Plasma sẽ giải phóng Pokémon khỏi những kẻ ích kỷ như ngươi!",
+      "5": "Kiểu tóc của chúng ta ở một đẳng cấp khác biệt… nhưng còn kỹ năng chiến đấu? Ngươi sẽ sớm biết rõ thôi."
+    },
+    "victory": {
+      "1": "Plasmaaaaaaa!",
+      "2": "Làm sao ta có thể thua được chứ…",
+      "3": "…Thật là một con Pokémon yếu đuối, ta sẽ phải đi cướp những con tốt hơn thôi!",
+      "4": "Những kế hoạch vĩ đại luôn bị cản trở.",
+      "5": "Thế này thật tệ… Tệtệtệtệtệtệtệtệ! Tệ cho Đội Plasma! Hay gọi tắt là Plas tệ!"
+    }
+  },
+  "flareGrunt": {
+    "encounter": {
+      "1": "Pokémon của ngươi chẳng thể nào sánh được với sự thanh lịch của Đội Flare.",
+      "2": "Hy vọng ngươi có mang theo kính râm, vì hào quang sắp tới sẽ chói lòa lắm đấy!",
+      "2_female": "Hy vọng ngươi có mang theo kính râm, vì hào quang sắp tới sẽ chói lòa lắm đấy!",
+      "3": "Đội Flare sẽ thanh tẩy thế giới khỏi sự bất toàn!",
+      "4": "Hãy chuẩn bị đối mặt với sự rực rỡ chói lòa của Đội Flare đi!",
+      "5": "Thời trang mới là điều tối quan trọng đối với chúng ta!"
+    },
+    "victory": {
+      "1": "Tương lai của ta có vẻ không được tươi sáng rồi…",
+      "2": "Có lẽ chiến đấu không đơn giản như ta nghĩ. Phải về vạch lại kế hoạch từ đầu thôi.",
+      "3": "Ááá?! Ta thua rồi sao?!",
+      "4": "Dù có thất bại, sự thanh lịch của Đội Flare vẫn tỏa sáng rạng ngời!",
+      "5": "Ngươi có thể đã đánh bại ta, nhưng một khi ta thua, ta vẫn phải thua một cách thật phong cách"
+    }
+  },
+  "aetherGrunt": {
+    "encounter": {
+      "1": "Ta sẽ chiến đấu với tất cả những gì mình có để quét sạch các ngươi!",
+      "2": "Ta không cần biết ngươi là một đứa con nít hay là cái thá gì. Ta sẽ đá bay xác ngươi nếu ngươi dám đe dọa chúng ta!",
+      "2_female": "Ta không cần biết ngươi là một đứa con nít hay là cái thá gì. Ta sẽ đá bay xác ngươi nếu ngươi dám đe dọa chúng ta!",
+      "3": "Ta đã được lệnh phải đuổi cổ tất cả các Huấn luyện viên, bất kể họ có là ai đi chăng nữa!",
+      "4": "Ta sẽ cho ngươi thấy sức mạnh của Thiên đường Aether!",
+      "5": "Bây giờ khi ngươi đã biết được sự thật về bóng tối nơi trái tim của Thiên đường Aether, chúng ta buộc phải khiến ngươi \"biến mất\" một cách thật êm đẹp thôi!"
+    },
+    "victory": {
+      "1": "Hmph! Ngươi xem ra cũng có chút bản lĩnh đấy.",
+      "2": "Thế này là sao? Thế này là có ý gì hả?!",
+      "3": "Này! Bạn mạnh đến nỗi tôi chẳng có cách nào đuổi bạn đi được nữa rồi!",
+      "4": "Hửm… Xem ra có vẻ như ta đã thua mất rồi.",
+      "5": "Đây là ấn tượng của tôi về bạn này: Ái dàaaa!"
+    }
+  },
+  "faba": {
+    "encounter": {
+      "1": "Ta, Trưởng chi nhánh Faba, sẽ cho ngươi thấy sự khắc nghiệt của thế giới thực tại!",
+      "2": "Người đàn ông được mệnh danh là phòng tuyến cuối cùng của Thiên đường Aether mà lại phải đi chiến đấu với một đứa con nít thôi sao?",
+      "2_female": "Người đàn ông được mệnh danh là phòng tuyến cuối cùng của Thiên đường Aether mà lại phải đi chiến đấu với một đứa con nít thôi sao?",
+      "3": "Ta, Trưởng chi nhánh Faba, sẽ cho ngươi thấy sự khắc nghiệt của thế giới thực tại!"
+    },
+    "victory": {
+      "1": "Dồ ái mồ!",
+      "2": "Th-th-thế này là sao chứ?! Làm sao mà một đứa con nít như ngươi lại có thể…",
+      "2_female": "Th-th-thế này là sao chứ?! Làm sao mà một đứa con nít như ngươi lại có thể…",
+      "3": "Chính vì vậy… Chính vì vậy mà ta không thể nào thích nổi tụi con nít."
+    }
+  },
+  "skullGrunt": {
+    "encounter": {
+      "1": "Chúng tôi không xấu—chúng tôi chỉ cứng rắn thôi!",
+      "2": "Muốn nếm mùi chút không? Bọn tao chào hỏi kiểu vậy đó! Rất vui được biết tụi mày, lũ oắt con!",
+      "2_female": "Muốn nếm mùi chút không? Bọn tao chào hỏi kiểu vậy đó! Rất vui được biết tụi mày, lũ oắt con!",
+      "3": "Chúng tôi chỉ là một lũ con trai con gái có niềm đam mê mãnh liệt với Pokémon của người khác thôi!",
+      "4": "Sao mày cứ phải cố tỏ ra cứng rắn khi tụi tao đã cứng như xương sẵn rồi hả, ông bạn?",
+      "4_female": "Sao mày cứ phải cố tỏ ra cứng rắn khi tụi tao đã cứng như xương sẵn rồi hả, ông bạn?",
+      "5": "Đội Skull đại diện! Tiền nhà chẳng thể trả! Vui chơi thì có thừa, nhưng tuổi trẻ đã hoang phí!",
+      "5_female": "Đội Skull đại diện! Tiền nhà chẳng thể trả! Vui chơi thì có thừa, nhưng tuổi trẻ đã hoang phí!"
+    },
+    "victory": {
+      "1": "Hả? Đã kết thúc rồi sao?",
+      "2": "Đã đến lúc chúng ta chuồn lẹ rồi, yo! Phải chào tạm biệt tất cả tụi mày thôi, yo!",
+      "3": "Bọn tao thèm vào mấy con Pokémon cùi bắp của mày, yo!",
+      "4": "Cá-cái gì cơ-?! Đứa nhóc này mạnh quá sức tưởng tượng—không còn nghi ngờ gì nữa luôn, yo!",
+      "5": "Thế là sao hả, yo?! Bọn tao còn thấp kém hơn cả một con Pokémon nữa á?! Đã sẵn đang khủng hoảng lòng tự trọng rồi mà, nản vãi ông bạn ơi!"
+    }
+  },
+  "plumeria": {
+    "encounter": {
+      "1": "…Hừm. Nhìn mày chẳng có gì đặc biệt đối với tao cả, yo.",
+      "1_female": "…Hừm. Nhìn mày chẳng có gì đặc biệt đối với tao cả, yo.",
+      "2": "Mấy đứa nhóc tụi mày làm tốn quá nhiều thời gian của lũ Đàn em ngu ngốc kia rồi đó…",
+      "3": "Đụng vào bất kỳ ai trong Đội Skull đi, rồi tao sẽ cho mày thấy một khi tao nghiêm túc thì sẽ như thế nào."
+    },
+    "victory": {
+      "1": "Hừm! Mày cũng mạnh đấy. Tao công nhận điều đó.",
+      "1_female": "Hừm! Mày cũng mạnh đấy. Tao công nhận điều đó.",
+      "2": "Hừm. Xem ra mày cũng khá cứng cựa đấy. Giờ thì tao đã hiểu tại sao lũ Đàn em của tao lại phí hoài nhiều thời gian để đấu với mấy đứa nhóc như mày rồi.",
+      "3": "Hừm! Xem ra tao đành phải ngậm ngùi nhận cái trận thua này vậy."
+    }
+  },
+  "macroGrunt": {
+    "encounter": {
+      "1": "Xem ra đây là đường cùng của mày rồi!",
+      "2": "Mày là một nhà luyện đúng không? Nhưng tao e là điều đó không cho mày cái quyền xen vào công chuyện của bọn tao đâu.",
+      "2_female": "Mày là một nhà luyện đúng không? Nhưng tao e là điều đó không cho mày cái quyền xen vào công chuyện của bọn tao đâu.",
+      "3": "Tao đến từ Công ty Bảo hiểm Macro Cosmos đây! Mày đã mua bảo hiểm nhân thọ chưa hả?",
+      "4": "Tìm thấy mày rồi! Trong trường hợp này, đã đến lúc cho một trận đấu Pokémon rồi!",
+      "4_female": "Tìm thấy mày rồi! Đã vậy thì, lên đồ làm một trận đấu Pokémon thôi nào!",
+      "5": "Bị cô Oleana mắng nhiếc còn đáng sợ hơn gấp vạn lần những gì mày có thể làm đấy!"
+    },
+    "victory": {
+      "1": "Tao chẳng còn lựa chọn nào khác ngoài việc phải rút lui trong tôn nghiêm cả.",
+      "2": "Phải giao ra tiền tiêu vặt của mình sao… Thua trận này nghĩa là tao lại lâm vào cảnh nợ nần chồng chất rồi…",
+      "3": "Không một ai có thể đánh bại được Macro Cosmos khi nói về mức độ tận tụy với công việc của bọn tao đâu!",
+      "4": "Tao thậm chí còn thay đổi cả đội hình Pokémon rồi cơ mà…",
+      "5": "Đánh không lại rồi… Giờ chỉ còn cách vắt chân lên cổ mà chạy thôi!"
+    }
+  },
+  "oleana": {
+    "encounter": {
+      "1": "Tao sẽ không để bất cứ ai xen vào kế hoạch của ngài Rose đâu!",
+      "2": "Xem ra mày đã vượt qua được tất cả đám nhân viên đặc biệt mà tao ra lệnh chặn đường rồi. Quả đúng như tao kỳ vọng.",
+      "3": "Vì ngài Chủ tịch! Tao nhất định không thể thua!"
+    },
+    "victory": {
+      "1": "*phù* Cuối cùng thì mình cũng không thể thắng được… Oleana… cô đúng là một người đàn bà hết thuốc chữa mà.",
+      "2": "Aaaaa! Thật không thể bào chữa được nữa rồi… Mình đã nghĩ cái quái gì vậy không biết… Bất kỳ nhà huấn luyện nào đã đi được đến tận đây thì đều không phải là dạng vừa rồi…",
+      "2_female": "Aaaaa! Thật không thể bào chữa được nữa rồi… Mình đã nghĩ cái quái gì vậy không biết… Bất kỳ nhà huấn luyện nào đã đi được đến tận đây thì đều không phải là dạng vừa rồi…",
+      "3": "*Haizzz* Ta thực sự là một Oleana mệt mỏi lắm rồi đấy…"
+    }
+  },
+  "starGrunt": {
+    "encounter": {
+      "1": "Bọn tao là Đội Star đây, nhóc con. Bọn tao tỏa sáng rực rỡ đến mức khiến mày nhìn vào là phải nổ đom đóm mắt luôn đấy!",
+      "1_female": "Bọn tao là Đội Star đây, nhóc con. Bọn tao tỏa sáng rực rỡ đến mức khiến mày nhìn vào là phải nổ đom đóm mắt luôn đấy!",
+      "2": "Bọn tao sẽ lao vào mày với toàn bộ công lực đấy — Hasta la vistaaar! ☆",
+      "3": "Nếu mày không biến lẹ đi cho khuất mắt, tao sẽ buộc phải ra tay để tự vệ đấy. Có hiểu chưa hả?",
+      "4": "Xin lỗi nhé, nhưng nếu mày không biết điều mà quay đầu lại ngay tại đây hả amigo, bọn tao sẽ buộc phải sút mày về nơi sản xuất đấy!",
+      "4_female": "Xin lỗi nhé, nhưng nếu mày không biết điều mà quay đầu lại ngay tại đây hả amigo, bọn tao sẽ buộc phải sút mày về nơi sản xuất đấy!",
+      "5": "Ôi tuyệt vời ông mặt trời chưa kìa. Lại thêm một đứa ất ơ nào ở đâu chui ra định tới phá hỏng ngày hôm nay của tao nữa rồi đấy.",
+      "5_female": "tuyệt vời ông mặt trời chưa kìa. Lại thêm một đứa ất ơ nào ở đâu chui ra định tới phá hỏng ngày hôm nay của tao nữa rồi đấy."
+    },
+    "victory": {
+      "1": "Sao người phải hoa mắt chóng mặt (nhìn thấy sao sa) lại là TÔI thế này?!",
+      "2": "Cậu đáng sợ thật đấy, nhóc con. Nếu cậu mà gia nhập Đội Star, chắc chắn cậu sẽ leo lên dẫn đầu nhóm trong nháy mắt cho mà xem!",
+      "2_female": "Cậu đáng sợ thật đấy, nhóc con. Nếu cậu mà gia nhập Đội Star, chắc chắn cậu sẽ leo lên dẫn đầu nhóm trong nháy mắt cho mà xem!",
+      "3": "Tôi đã tự vệ hết sức rồi… Nhưng thế vẫn là chưa đủ!",
+      "4": "H-hasta la vistar… ☆",
+      "5": "Biết thế này thì còn lâu tôi mới nhận mấy cái việc vặt của lính mới Đội Star… Đúng là một cực hình mà…"
+    }
+  },
+  "giacomo": {
+    "encounter": {
+      "1": "Cậu chẳng chịu suy nghĩ thấu đáo gì cả đúng không? Tuyên chiến với Đội Star là một nước đi cực kỳ sai lầm đấy.",
+      "2": "Tôi sẽ tấu lên một khúc cầu hồn tiễn biệt thật ngầu khi cậu thảm bại và tan tành mây khói. Bữa tiệc chính thức bắắắt đầuuuu nào! ☆"
+    },
+    "victory": {
+      "1": "Xem như xong phim rồi…",
+      "2": "Cậu vừa biến giai điệu của tôi thành một khúc ca bi ai mất rồi…"
+    }
+  },
+  "mela": {
+    "encounter": {
+      "1": "Hóa ra cậu chính là tên ngốc dám kiếm chuyện với Đội Star… Chuẩn bị tinh thần ăn hành đi là vừa.",
+      "1_female": "Hóa ra cậu chính là tên ngốc dám kiếm chuyện với Đội Star… Chuẩn bị tinh thần ăn hành đi là vừa.",
+      "2": "Được rồiiiii, NHÀO VÔ ĐI! Tôi sẽ thổi bay tất cả mọi thứ lên tận trời xanh luôn!"
+    },
+    "victory": {
+      "1": "Hộc… Chẳng lẽ mọi chuyện thực sự phải kết thúc thế này sao? Phiền phức thật mà…",
+      "2": "Tôi đã dốc hết vốn liếng, cháy hết mình rồi… để rồi giờ đây chỉ còn là đống tro tàn tắt lịm…"
+    }
+  },
+  "atticus": {
+    "encounter": {
+      "1": "Gan to bằng trời mới dám nhe nanh múa vuốt với Đội Star. Nhào vô đây, tên ác nhân hèn hạ kia!",
+      "1_female": "Gan to bằng trời mới dám nhe nanh múa vuốt với Đội Star. Nhào vô đây, tên ác nhân hèn hạ kia!",
+      "2": "Hãy coi chừng—ta sẽ không nương tay với nhà ngươi đâu! Thủ thế đi!",
+      "2_female": "Hãy coi chừng—ta sẽ không nương tay với nhà ngươi đâu! Thủ thế đi!"
+    },
+    "victory": {
+      "1": "Xin lỗi mọi người, tớ đã thua rồi…",
+      "2": "Ngài đã hoàn toàn đánh bại ta. Nhưng chiến thắng của ngài rực rỡ đến mức chẳng thể để lại chút cay đắng nào trong lòng ta cả."
+    }
+  },
+  "ortega": {
+    "encounter": {
+      "1": "Tôi hứa là sẽ nương tay chút đỉnh rồi, nên lát nữa có bị trận đấu này đánh cho khóc nhè chạy về mách mẹ thì đừng có mà đổ lỗi cho tôi đấy nhé!",
+      "2": "Tôi nhất định sẽ gạt bay cái vẻ mặt đắc ý đó của cậu cho xem! Chuẩn bị đo ván đi là vừa!",
+      "2_female": "Tôi nhất định sẽ gạt bay cái vẻ mặt đắc ý đó của cậu cho xem! Chuẩn bị đo ván đi là vừa!"
+    },
+    "victory": {
+      "1": "Hự…! Sao mình lại có thể THUA được cơ chứ! Cái quái gì thế nàyyy!",
+      "2": "Áááááá cái quái gì thế! Sức mạnh của cậu đúng kiểu KHÔNG. HỀ. CÔNG. BẰNG. chút nào luôn á!"
+    }
+  },
+  "eri": {
+    "encounter": {
+      "1": "Bất kể nhà ngươi là ai cũng mặc kệ. Đứa nào dám ho he lật đổ Đội Star, ta sẽ chôn sống đứa đó!",
+      "2": "Ăn miếng trả miếng — tôi hứa chắc chắn đấy! Để rồi xem ai mới là người trụ lại đến cuối cùng!"
+    },
+    "victory": {
+      "1": "Tôi xin lỗi, xin lỗi mọi người nhiều lắm…",
+      "2": "Tôi đã cố gắng hết sức mình rồi, nhưng vẫn không đủ… Bản thân tôi… vẫn chưa đủ tốt…"
+    }
+  },
+  "rocketBossGiovanni1": {
+    "encounter": {
+      "1": "Chà! Ta phải công nhận rằng, ta rất ấn tượng khi ngươi có thể đặt chân được đến tận nơi này đấy!"
+    },
+    "victory": {
+      "1": "CÁI GÌ?! Chuyện này không thể nào là thật được!"
+    },
+    "defeat": {
+      "1": "Hãy nhớ kỹ lời ta. Đến cả việc tự đo lường sức mạnh của bản thân mà cũng không làm nổi, chứng tỏ ngươi vẫn chỉ là một đứa trẻ con mà thôi.",
+      "1_female": "Hãy nhớ kỹ lời ta. Đến cả việc tự đo lường sức mạnh của bản thân mà cũng không làm nổi, chứng tỏ ngươi vẫn chỉ là một đứa trẻ con mà thôi."
+    }
+  },
+  "rocketBossGiovanni2": {
+    "encounter": {
+      "1": "Những chiến hữu cũ đang cần đến tôi… Liệu cậu có định cản đường tôi không?"
+    },
+    "victory": {
+      "1": "Sao có thể như vậy được…? Giấc mơ trân quý bấy lâu nay của Đội Hỏa Tiễn… chẳng lẽ rốt cuộc cũng chỉ là một bong bóng ảo ảnh thôi sao…"
+    },
+    "defeat": {
+      "1": "Đội Hỏa Tiễn rồi sẽ được tái sinh một lần nữa, và ta sẽ là kẻ thống trị thế giới này!"
+    }
+  },
+  "magmaBossMaxie1": {
+    "encounter": {
+      "1": "Ta sẽ chôn cất ngươi bằng chính đôi tay này. Hy vọng ngươi biết trân trọng vinh hạnh đó!"
+    },
+    "victory": {
+      "1": "Hự… Ngươi… cũng khá bản lĩnh đấy…\nTa thua, nhưng cũng chỉ kém một chút nữa thôi…"
+    },
+    "defeat": {
+      "1": "Đội Magma chắc chắn sẽ chiến thắng!"
+    }
+  },
+  "magmaBossMaxie2": {
+    "encounter": {
+      "1": "Ngươi chính là chướng ngại vật cuối cùng còn sót lại giữa ta và mục tiêu của mình. Hãy chuẩn bị tinh thần hứng chịu đòn tấn công tối thượng của ta đi! Phư ha ha ha!"
+    },
+    "victory": {
+      "1": "Chuyện… Chuyện này không thể nào… Ư hự…"
+    },
+    "defeat": {
+      "1": "Và giờ đây… ta sẽ cải tạo hành tinh này trở thành một vùng đất lý tưởng dành cho nhân loại."
+    }
+  },
+  "aquaBossArchie1": {
+    "encounter": {
+      "1": "Ta là thủ lĩnh của Đội Aqua, vậy nên ta e rằng đây chính là đường cùng của ngươi rồi."
+    },
+    "victory": {
+      "1": "Hẹn gặp lại ở đâu đó nhé. Ta nhất định sẽ ghi nhớ gương mặt này."
+    },
+    "defeat": {
+      "1": "Tuyệt vời! Đội của ta sẽ không nương tay nữa đâu!"
+    }
+  },
+  "aquaBossArchie2": {
+    "encounter": {
+      "1": "Ta đã chờ đợi ngày này từ rất lâu rồi.\nĐây chính là sức mạnh thực sự của đội ta!"
+    },
+    "victory": {
+      "1": "Đúng như ta đã nghĩ…"
+    },
+    "defeat": {
+      "1": "Ta sẽ trả lại mọi thứ trên thế giới này về trạng thái nguyên thủy, thuần khiết nhất của nó!!"
+    }
+  },
+  "galacticBossCyrus1": {
+    "encounter": {
+      "1": "Ngươi bị ép buộc phải đến đây bởi thứ tình cảm trống rỗng, vô nghĩa như vậy sao.$Ta sẽ khiến ngươi phải hối hận vì đã lắng nghe con tim mình!",
+      "1_female": "Ngươi bị ép buộc phải đến đây bởi thứ tình cảm trống rỗng, vô nghĩa như vậy sao.$Ta sẽ khiến ngươi phải hối hận vì đã lắng nghe con tim mình!"
+    },
+    "victory": {
+      "1": "Thật thú vị. Và cũng khá là tò mò đấy."
+    },
+    "defeat": {
+      "1": "Ta sẽ kiến tạo nên thế giới mới của riêng ta…"
+    }
+  },
+  "galacticBossCyrus2": {
+    "encounter": {
+      "1": "Vậy là chúng ta lại gặp nhau rồi. Có vẻ như số phận của đôi ta đã vô tình đan chặt vào nhau.$​Nhưng ngay tại đây, ngay lúc này, ta sẽ chính tay chặt đứt sợi dây liên kết đó!"
+    },
+    "victory": {
+      "1": "Làm sao có thể?! Làm sao có thể như vậy được?! KHÔNG THỂ NÀO?!"
+    },
+    "defeat": {
+      "1": "Vĩnh biệt."
+    }
+  },
+  "plasmaBossGhetsis1": {
+    "encounter": {
+      "1": "Ta sẽ không cho phép bất kỳ ai ngăn cản ta! Bất kể kẻ đó là ai hay định giở trò gì đi chăng nữa!"
+    },
+    "victory": {
+      "1": "Làm sao có thể như vậy được?! Ta chính là kẻ sáng lập ra Đội Plasma! Ta là một sự hoàn hảo tuyệt đối!"
+    },
+    "defeat": {
+      "1": "Ta là kẻ thống trị hoàn hảo của một thế giới mới hoàn hảo! Ha ha ha!"
+    }
+  },
+  "plasmaBossGhetsis2": {
+    "encounter": {
+      "1": "Đến đây nào! Ta muốn được nhìn thấy khuôn mặt của ngươi ngay vào cái khoảnh khắc mà ngươi đánh mất đi tất cả hy vọng!"
+    },
+    "victory": {
+      "1": "Những tính toán của ta… Không! Những kế hoạch cẩn mật của ta! Thế giới này đáng lẽ phải thuộc về ta!"
+    },
+    "defeat": {
+      "1": "Kyurem! Sử dụng Absofusion!"
+    }
+  },
+  "flareBossLysandre1": {
+    "encounter": {
+      "1": "Ngươi muốn ngăn cản ta sao? Hãy chứng minh điều đó bằng một trận đấu đi."
+    },
+    "victory": {
+      "1": "Ngươi đến đây để ngăn cản ta. Nhưng ta yêu cầu ngươi hãy chờ đã."
+    },
+    "defeat": {
+      "1": "Pokémon… Sẽ không còn tồn tại nữa."
+    }
+  },
+  "flareBossLysandre2": {
+    "encounter": {
+      "1": "Tương lai mà ngươi mong muốn, hay tương lai mà ta khát khao… Hãy xem thử tương lai nào xứng đáng hơn, được chứ?"
+    },
+    "victory": {
+      "1": "Waaaa!"
+    },
+    "defeat": {
+      "1": "Những kẻ ngu muội không có tầm nhìn sẽ tiếp tục làm ô uế thế giới xinh đẹp này."
+    }
+  },
+  "aetherBossLusamine1": {
+    "encounter": {
+      "1": "Ngươi sẽ làm quái thú đáng yêu của ta giật mình đấy! Xem ra ta cần phải khiến ngươi im miệng trước đã."
+    },
+    "victory": {
+      "1": "Làm sao… làm sao ngươi có thể tồi tệ đến mức như vậy được chứ!"
+    },
+    "defeat": {
+      "1": "Hmmm…"
+    }
+  },
+  "aetherBossLusamine2": {
+    "encounter": {
+      "1": "Tại sao ngươi cứ phải tiếp tục quấy rầy ta làm gì?! Ta đã phát ngán ngươi rồi. Phát ngán tận xương tủy rồi!$Quá đủ cho những lời nói vô ích này rồi.. Với sức mạnh của Nihilego, ta sẽ cho ngươi thấy ngươi đã sai lầm thế nào khi đến đây!"
+    },
+    "victory": {
+      "1": "À húuuuuuuu!!!"
+    },
+    "defeat": {
+      "1": "Tất cả những gì ta muốn chỉ là quái thú quý giá của ta! Ta không quan tâm đến bất kỳ ai trong số các ngươi nữa!"
+    }
+  },
+  "skullBossGuzma1": {
+    "encounter": {
+      "1": "Kẻ thủ lĩnh bị căm ghét, kẻ sẽ đánh gục ngươi, đánh gục ngươi liên tiếp và không bao giờ nương tay…$Đúng vậy. Guzma đại ca đã ở đây rồi!"
+    },
+    "victory": {
+      "1": "Tch. Ta nhất định sẽ đánh gục ngươi vào một ngày nào đó thôi!"
+    },
+    "defeat": {
+      "1": "Và ngươi đã lặn lội đường xa đến tận đây chỉ vì chuyện đó thôi sao, hả?",
+      "1_female": "Và ngươi đã lặn lội đường xa đến tận đây chỉ vì chuyện đó thôi sao, hả?"
+    }
+  },
+  "skullBossGuzma2": {
+    "encounter": {
+      "1": "Không quan trọng đối thủ là ai, ta đều sẽ đánh gục tất cả bọn chúng!$Đó mới chính là phong cách của Guzma đại ca này!"
+    },
+    "victory": {
+      "1": "Guzma!!! Ngươi bị cái quái gì thế hả?!"
+    },
+    "defeat": {
+      "1": "Tất cả các người đều là lũ ngu ngốc!",
+      "1_female": "Tất cả các người đều là lũ ngu ngốc!"
+    }
+  },
+  "macroBossRose1": {
+    "encounter": {
+      "1": "Ta phải cung cấp nguồn năng lượng vô hạn để đảm bảo sự thịnh vượng vĩnh cửu cho tất cả mọi người…$Đó là mục đích, là nghĩa vụ, và là định mệnh của ta!"
+    },
+    "victory": {
+      "1": "Ngươi vẫn chưa hiểu sao, nhà luyện…$Chúng ta… Không, chính ta mới là người sẽ thay đổi tiến trình của lịch sử!"
+    },
+    "defeat": {
+      "1": "Ngươi vẫn chẳng hiểu một chút gì cả!"
+    }
+  },
+  "macroBossRose2": {
+    "encounter": {
+      "1": "Ta cam kết sẽ giải quyết vấn đề năng lượng ở vùng Galar—và dĩ nhiên, trên toàn thế giới nữa.$Kinh nghiệm và những thành tựu đã làm nên thành công của Macro Cosmos chính là minh chứng cho thấy phương pháp của ta luôn hiệu quả.$Ta không có ý định thay đổi quyết định của mình, ngay cả khi ta thất bại."
+    },
+    "victory": {
+      "1": "Ta đã quên mất các trận đấu Pokémon tuyệt vời đến nhường nào! Đã lâu lắm rồi ta mới lại thi đấu một trận ra trò như vậy…$Thật là một trận đấu mãn nhãn, ta chấp nhận thất bại trong trận chiến này."
+    },
+    "defeat": {
+      "1": "Ta đoán rằng những gì ta đang làm có vẻ thật tồi tệ trong mắt ngươi. Ta cũng không mong ngươi có thể thấu hiểu được.$Nhưng ta buộc phải cung cấp nguồn năng lượng vô hạn cho vùng Galar để đảm bảo một sự thịnh vượng vĩnh cửu."
+    }
+  },
+  "starBossPenny1": {
+    "encounter": {
+      "1": "Ta là đại ca của Đội Star. Tên ta là Cassiopeia.$Bây giờ, hãy cúi đầu trước sức mạnh áp đảo của người sáng lập Đội Star đi nào!"
+    },
+    "victory": {
+      "1": "… … .."
+    },
+    "defeat": {
+      "1": "Heh…"
+    }
+  },
+  "starBossPenny2": {
+    "encounter": {
+      "1": "Ta sẽ không nương tay trong trận chiến này đâu! Ta sẽ sống đúng với quy tắc của Đội Star! Sức mạnh Veevee của ta sẽ nghiền nát ngươi thành tro bụi vũ trụ!"
+    },
+    "victory": {
+      "1": "…Mọi chuyện kết thúc thật rồi."
+    },
+    "defeat": {
+      "1": "Ta hoàn toàn không thể bắt lỗi được kỹ năng chiến đấu của ngươi… Nhìn cái cách mà các đại ca khác gục ngã dưới tay ngươi là đủ hiểu rồi."
+    }
+  },
+  "statTrainerBuck": {
+    "encounter": {
+      "1": "…Ta nói cho ngươi biết trước luôn đấy. Ta cực kỳ đáng gờm đấy nhé. Mau tỏ ra bất ngờ đi nào!",
+      "2": "Ta có thể cảm nhận được các Pokémon của mình đang run rẩy ở bên trong Poké Ball!"
+    },
+    "victory": {
+      "1": "Hihihi!\nNóng bỏng quá đi nha!",
+      "2": "Hihihi!\nNóng bỏng quá đi nha!"
+    },
+    "defeat": {
+      "1": "Ồ! Có vẻ như ngươi đã hoàn toàn kiệt sức rồi nhỉ.",
+      "2": "Ồ! Có vẻ như ngươi đã hoàn toàn kiệt sức rồi nhỉ."
+    }
+  },
+  "statTrainerCheryl": {
+    "encounter": {
+      "1": "Các Pokémon của ta đang ngứa ngáy chân tay muốn làm một trận lắm rồi đây.",
+      "2": "Ta phải cảnh báo trước cho ngươi nhé, các Pokémon của ta có thể khá là ngổ ngáo và nghịch ngợm đấy.",
+      "2_female": "Ta phải cảnh báo trước cho ngươi nhé, các Pokémon của ta có thể khá là ngổ ngáo và nghịch ngợm đấy."
+    },
+    "victory": {
+      "1": "Cân bằng giữa tấn công và phòng thủ… Điều đó thật chẳng dễ dàng chút nào.",
+      "2": "Cân bằng giữa tấn công và phòng thủ… Điều đó thật chẳng dễ dàng chút nào."
+    },
+    "defeat": {
+      "1": "Pokémon của ngươi có cần chữa trị hay hồi phục gì không đấy?",
+      "2": "Pokémon của ngươi có cần chữa trị hay hồi phục gì không đấy?"
+    }
+  },
+  "statTrainerMarley": {
+    "encounter": {
+      "1": "… Được rồi.\nTa sẽ cố gắng hết sức.",
+      "2": "… Được rồi.\nTa… sẽ không thua đâu…!"
+    },
+    "victory": {
+      "1": "…Ỏooooo",
+      "2": "…Ỏoooo."
+    },
+    "defeat": {
+      "1": "… Tạm biệt.",
+      "2": "… Tạm biệt."
+    }
+  },
+  "statTrainerMira": {
+    "encounter": {
+      "1": "Ngươi sẽ phải kinh ngạc bởi Mira cho mà xem!",
+      "1_female": "Ngươi sẽ phải kinh ngạc bởi Mira cho mà xem!",
+      "2": "Mira sẽ cho ngươi thấy rằng Mira không còn bị lạc đường nữa đâu!"
+    },
+    "victory": {
+      "1": "Mira tự hỏi liệu mình có thể đi được bao xa ở vùng đất này đây.",
+      "2": "Mira tự hỏi liệu mình có thể đi được bao xa ở vùng đất này đây."
+    },
+    "defeat": {
+      "1": "Mira biết là cô ấy sẽ thắng mà!",
+      "2": "Mira biết là cô ấy sẽ thắng mà!"
+    }
+  },
+  "statTrainerRiley": {
+    "encounter": {
+      "1": "Chiến đấu chính là cách chào hỏi của chúng ta!",
+      "2": "Chúng ta sẽ dốc hết toàn lực để hạ gục các Pokémon của ngươi."
+    },
+    "victory": {
+      "1": "Đôi khi chúng ta chiến đấu, và có lúc lại chung một đội…$Thật tuyệt vời khi các Nhà luyện  có thể tương tác với nhau như vậy.",
+      "2": "Đôi khi chúng ta chiến đấu, và có lúc lại chung một đội…$Thật tuyệt vời khi các Nhà luyện có thể tương tác với nhau như vậy."
+    },
+    "defeat": {
+      "1": "Ngươi đã có một màn trình diễn khá ấn tượng đấy.\nChúc may mắn hơn vào lần sau nhé.",
+      "2": "Ngươi đã có một màn trình diễn khá ấn tượng đấy.\nChúc may mắn hơn vào lần sau nhé."
+    }
+  },
+  "winstratesVictor": {
+    "encounter": {
+      "1": "Tinh thần phải thế chứ! Ta thích ngươi rồi đấy!"
+    },
+    "victory": {
+      "1": "A-ha! Ngươi mạnh hơn ta tưởng đấy!"
+    }
+  },
+  "winstratesVictoria": {
+    "encounter": {
+      "1": "Trời đất ơi! Cháu còn trẻ tuổi quá nhỉ?$Nhưng cháu hẳn phải là một nhà luyện cừ khôi lắm mới đánh bại được chồng ta đấy.$Giờ thì có lẽ đã đến lượt ta chiến đấu rồi!",
+      "1_female": "Trời đất ơi! Cháu còn trẻ tuổi quá nhỉ?$Nhưng cháu hẳn phải là một nhà luyện cừ khôi lắm mới đánh bại được chồng ta đấy.$Giờ thì có lẽ đã đến lượt ta chiến đấu rồi!"
+    },
+    "victory": {
+      "1": "Uwah! Rốt cuộc thì ngươi mạnh đến nhường nào vậy chứ?!"
+    }
+  },
+  "winstratesVivi": {
+    "encounter": {
+      "1": "Bạn mạnh hơn cả mẹ cơ à? Oa! Nhưng tôi cũng mạnh lắm đấy nhé!$Thật đấy! Không nói dối đâu!"
+    },
+    "victory": {
+      "1": "Hả? Mình thực sự thua rồi sao?\nHức hức… Bà ơiiiii!"
+    }
+  },
+  "winstratesVicky": {
+    "encounter": {
+      "1": "Sao ngươi dám làm đứa cháu gái bảo bối của ta khóc hả! Ta thấy mình cần phải dạy cho ngươi một bài học rồi.$Chuẩn bị nếm mùi thất bại cay đắng đi!"
+    },
+    "victory": {
+      "1": "Oa! Mạnh quá! Cháu gái ta không hề nói dối chút nào."
+    }
+  },
+  "winstratesVito": {
+    "encounter": {
+      "1": "Cả gia đình tôi đã cùng nhau luyện tập, từng người một luôn đấy!$Tôi sẽ không thua bất kỳ ai đâu!"
+    },
+    "victory": {
+      "1": "Tôi đã từng giỏi hơn tất cả mọi người trong gia đình mình.\nTôi chưa bao giờ thất bại trước đây cả…"
+    }
+  },
+  "alternatePlayerM": {
+    "encounter": {
+      "1": "…"
+    },
+    "victory": {
+      "1": "…"
+    }
+  },
+  "alternatePlayerF": {
+    "encounter": {
+      "1": "…"
+    },
+    "victory": {
+      "1": "…"
+    }
+  },
+  "brock": {
+    "encounter": {
+      "1": "Sự am hiểu chuyên sâu của tôi về Pokémon hệ Đá sẽ hạ gục bạn! Nhào vô đây nào!",
+      "2": "Ý chí cứng như đá của tôi sẽ áp đảo bạn!",
+      "3": "Hãy để tôi cho bạn thấy sức mạnh thực sự của Pokémon của tôi!"
+    },
+    "victory": {
+      "1": "Sức mạnh Pokémon của bạn đã vượt qua hàng phòng thủ cứng như đá của tôi rồi!",
+      "2": "Thế giới này thật bao la! Tôi rất vui vì đã có cơ hội được chiến đấu với bạn.",
+      "3": "Có lẽ tôi nên quay lại theo đuổi ước mơ trở thành một Nhà chăn nuôi Pokémon thì hơn…"
+    },
+    "defeat": {
+      "1": "Tấn công tốt nhất chính là phòng thủ tốt!\nĐó mới là phong cách làm việc của tôi!",
+      "2": "Lần tới hãy đến để chơi các loại đá cùng tôi để học cách chiến đấu với chúng tốt hơn nhé!",
+      "3": "Ha, bao nhiêu công sức bôn ba qua các vùng đất cuối cùng cũng đã được đền đáp xứng đáng rồi!"
+    }
+  },
+  "misty": {
+    "encounter": {
+      "1": "Chính sách của tôi là tổng tấn công tổng lực với Pokémon hệ Nước!",
+      "1_female": "Chính sách của tôi là tổng tấn công tổng lực với Pokémon hệ Nước!",
+      "2": "Chào bạn hiền, tôi sẽ cho bạn thấy sức mạnh từ những Pokémon thuộc hệ Sông nước của tôi!",
+      "3": "Ước mơ của tôi là lên đường ngao du và thách đấu với những nhà huấn luyện mạnh mẽ…\nLiệu bạn có đủ sức làm một đối thủ xứng tầm cho tôi không đây?"
+    },
+    "victory": {
+      "1": "Bạn thực sự rất mạnh đấy… Tôi thừa nhận là bạn có kỹ năng thực sự…",
+      "2": "Hừừừ… Bạn biết là mình vừa mới ăn may thôi, đúng không hả?",
+      "3": "Wow, bạn đỉnh quá đi mất! Tôi không thể tin được là mình lại bị bạn đánh bại đấy!"
+    },
+    "defeat": {
+      "1": "Misty vĩ đại đã khiến bạn phải quá sức rồi sao?",
+      "2": "Hy vọng bạn đã được chiêm ngưỡng những kỹ thuật bơi lội đầy thanh lịch của Pokémon của tôi!",
+      "3": "Pokémon của bạn hoàn toàn không phải là đối thủ của niềm tự hào và kiêu hãnh của tôi rồi!"
+    }
+  },
+  "ltSurge": {
+    "encounter": {
+      "1": "Pokémon hệ Điện của tôi đã cứu mạng tôi trong chiến tranh đấy! Để tôi cho bạn thấy bằng cách nào nhé!",
+      "1_female": "Pokémon hệ Điện của tôi đã cứu mạng tôi trong suốt cuộc chiến đấy! Để tôi cho bạn thấy bằng cách nào nhé!",
+      "2": "Nghiêm! Tôi sẽ giật điện cho bạn phải đầu hàng mới thôi!",
+      "3": "Tôi sẽ giật bạn tơi tả giống hệt như cách tôi vẫn làm với mọi kẻ thù trên chiến trường vậy!"
+    },
+    "victory": {
+      "1": "Oài! Biệt đội của nhóc đúng là hàng thật giá thật rồi đấy!",
+      "2": "Aaargh, bạn mạnh thật đấy! Đến cả những trò ranh ma hệ Điện của tôi cũng phải chịu thua trước bạn rồi.",
+      "2_female": "Aaargh, nhóc mạnh thật đấy! Đến cả những trò ranh ma hệ Điện của ta cũng phải chịu thua trước nhóc rồi.",
+      "3": "Đó hoàn toàn là một trận thua gây chấn động!"
+    },
+    "defeat": {
+      "1": "Ồ dê! Khi nói về Pokémon hệ Điện, ta đây chính là số một thế giới!",
+      "2": "Haha! Đó đúng là một trận chiến đầy điện kịch tính đó, nhóc ạ!",
+      "3": "Một trận đấu Pokémon chính là chiến trường, và ta đã cho nhóc thấy thế nào là cận chiến thực sự rồi đấy!"
+    }
+  },
+  "erika": {
+    "encounter": {
+      "1": "A, thời tiết ở đây thật là dễ chịu…\nỒ, một trận đấu sao? Được thôi, vậy thì lên nào.",
+      "2": "Kỹ năng chiến đấu Pokémon của tôi cũng không hề thua kém gì tài cắm hoa của tôi đâu nhé.",
+      "3": "Ôi, hy vọng là hương thơm dễ chịu từ Pokémon của tôi sẽ không lại làm tôi ngủ gật lần nữa…",
+      "4": "Ngắm nhìn những bông hoa trong vườn thật là thư thái biết bao."
+    },
+    "victory": {
+      "1": "Ôi! Tôi xin chấp nhận thua cuộc.",
+      "2": "Trận đấu vừa rồi thực sự vô cùng thú vị và tao nhã đấy.",
+      "3": "A, có vẻ như tôi đã thua rồi…",
+      "4": "Ôi trời đất ơi…"
+    },
+    "defeat": {
+      "1": "Tôi đã sợ rằng mình sẽ ngủ gật mất…",
+      "2": "Ôi trời, có vẻ như các Pokémon hệ Cỏ của tôi đã áp đảo bạn mất rồi.",
+      "2_female": "Ôi trời, có vẻ như các Pokémon hệ Cỏ của tôi đã áp đảo bạn mất rồi.",
+      "3": "Trận đấu vừa rồi thực sự là một trải nghiệm vô cùng thư thái.",
+      "4": "Ồ… Chỉ có vậy thôi sao?"
+    }
+  },
+  "janine": {
+    "encounter": {
+      "1": "Tôi đang trên con đường làm chủ nghệ thuật của các đòn tấn công hệ Độc.\nTôi sẽ thách đấu với ngươi ngày hôm nay!",
+      "2": "Cha luôn tin tưởng rằng ta có thể tự lập và vững vàng chiến đấu.\nTa sẽ chứng minh cho người thấy người đã đúng!",
+      "3": "Kỹ thuật ninja của ta chỉ đứng sau mỗi Cha ta mà thôi!\nNgươi có đuổi kịp được tốc độ của ta không?"
+    },
+    "victory": {
+      "1": "Dù là bây giờ, ta vẫn cần phải rèn luyện thêm nữa… Ta hiểu rồi.",
+      "2": "Kỹ thuật chiến đấu của bạn đã hoàn toàn vượt trội hơn của ta rồi.",
+      "3": "Ta sẽ thực sự dốc hết sức mình để rèn luyện và nâng cao kỹ nghệ của bản thân."
+    },
+    "defeat": {
+      "1": "Phư phư phư… chất độc đã rút cạn toàn bộ sức mạnh chiến đấu của ngươi rồi.",
+      "2": "Ha! Ngươi hoàn toàn không có cửa chống lại kỹ năng ninja thượng thừa của ta đâu!",
+      "3": "Niềm tin của Cha dành cho ta đã chứng minh là không hề đặt sai chỗ."
+    }
+  },
+  "sabrina": {
+    "encounter": {
+      "1": "Thông qua năng lực ngoại cảm của mình, ta đã nhìn thấy trước viễn cảnh ngươi đặt chân đến đây!",
+      "2": "Ta không thích việc tranh đấu, nhưng nếu ngươi đã ước muốn, ta sẽ cho ngươi thấy sức mạnh thực sự của mình!",
+      "3": "Ta có thể cảm nhận được một tham vọng lớn lao bên trong ngươi. Để ta xem liệu điều đó có phải là vô căn cứ hay không."
+    },
+    "victory": {
+      "1": "Sức mạnh của ngươi… Nó đã vượt xa những gì mà ta có thể tiên tri trước được…",
+      "2": "Thất bại trong việc tiên tri chính xác sức mạnh của ngươi.",
+      "3": "Ngay cả với năng lực ngoại cảm vô hạn của mình, ta cũng không thể cảm nhận được một ai khác mạnh mẽ như ngươi."
+    },
+    "defeat": {
+      "1": "Chiến thắng này… Nó chính xác là những gì ta đã thấy trước trong các viễn cảnh của mình!",
+      "2": "Có lẽ là một kẻ khác mà ta đã cảm nhận được một khát khao mãnh liệt ở bên trong…",
+      "3": "Hãy mài giũa các khả năng của ngươi trước khi liều lĩnh lao vào trận chiến.\nNgươi không bao giờ biết trước tương lai có thể nắm giữ điều gì nếu ngươi làm vậy…"
+    }
+  },
+  "blaine": {
+    "encounter": {
+      "1": "Hơ! Hy vọng ngươi có mang theo Thuốc Trị Bỏng!",
+      "2": "Pokémon hệ lửa rực cháy của ta sẽ thiêu rụi mọi kẻ thách thức!",
+      "3": "Chuẩn bị tinh thần để chơi với lửa đi!"
+    },
+    "victory": {
+      "1": "Ta đã bị thiêu rụi chẳng còn lại gì! Đến cả tro bụi cũng không sống sót!",
+      "2": "Chẳng lẽ ta chưa nhen ngọn lửa lên đủ cao sao?",
+      "3": "Ta đã bị thiêu rụi hoàn toàn rồi… Nhưng chính điều này lại làm động lực tiến bộ của ta bùng cháy dữ dội hơn!"
+    },
+    "defeat": {
+      "1": "Ngọn lửa địa ngục cuồng nộ của ta không thể bị dập tắt!",
+      "2": "Những Pokémon của ta đã được tiếp thêm sức mạnh từ hơi nóng của chiến thắng này!",
+      "3": "Hah! Niềm đam mê của ta bùng cháy rực rỡ hơn của ngươi nhiều!"
+    }
+  },
+  "giovanni": {
+    "encounter": {
+      "1": "Ta, thủ lĩnh của Đội Hỏa Tiễn, sẽ khiến ngươi phải nếm trải một thế giới đầy đau đớn!",
+      "2": "Việc huấn luyện của ta ở đây sẽ đóng vai trò sống còn trước khi ta phải đối mặt với những cộng sự cũ của mình một lần nữa.",
+      "3": "Ta không nghĩ ngươi đã chuẩn bị sẵn sàng cho mức độ thất bại mà ngươi sắp sửa phải nếm trải đâu!",
+      "3_female": "Ta không nghĩ ngươi đã chuẩn bị sẵn sàng cho mức độ thất bại mà ngươi sắp sửa phải nếm trải đâu!"
+    },
+    "victory": {
+      "1": "CÁI GÌ! Ta mà thua ư?! Ta không có điều gì muốn nói với ngươi cả!",
+      "2": "Hmph… Ngươi sẽ không bao giờ có thể hiểu được những gì ta hy vọng đạt được đâu.",
+      "3": "Thất bại này chỉ đơn thuần là hoãn lại điều tất yếu mà thôi.\nTa sẽ vực dậy Đội Hỏa Tiễn từ đống tro tàn vào thời điểm thích hợp."
+    },
+    "defeat": {
+      "1": "Không thể tự đo lường được sức mạnh của chính mình chứng tỏ ngươi vẫn chỉ là một đứa trẻ mà thôi.",
+      "1_female": "Không thể tự đo lường được sức mạnh của chính mình chứng tỏ ngươi vẫn chỉ là một đứa trẻ mà thôi.",
+      "2": "Đừng cố can thiệp vào chuyện của ta một lần nào nữa.",
+      "3": "Ta hy vọng ngươi hiểu được việc thách thức ta là ngu ngốc đến nhường nào."
+    }
+  },
+  "roxanne": {
+    "encounter": {
+      "1": "Liệu ngươi có thể vui lòng thể hiện cách mà ngươi chiến đấu hay không?",
+      "2": "Ngươi có thể học hỏi được nhiều điều bằng cách chiến đấu với nhiều nhà huấn luyện.",
+      "3": "Ồ, ngươi đã bắt gặp ta đang lập chiến lược rồi.\nNgươi có muốn chiến đấu không?"
+    },
+    "victory": {
+      "1": "Ồ, ta dường như đã thua rồi.\nTa hiểu rồi.",
+      "2": "Có vẻ như ta vẫn còn quá nhiều điều phải học hỏi khi nói đến trận chiến.",
+      "3": "Ta sẽ ghi nhớ sâu sắc những gì mình đã học được ở đây ngày hôm nay."
+    },
+    "defeat": {
+      "1": "Ta đã học được nhiều điều từ trận chiến của chúng ta.\nTa hy vọng ngươi cũng vậy.",
+      "2": "Ta mong đợi được chiến đấu với ngươi một lần nữa.\nTa hy vọng ngươi sẽ sử dụng những gì ngươi đã học được ở đây.",
+      "3": "Ta đã chiến thắng nhờ vào tất cả những gì ta đã học được."
+    }
+  },
+  "brawly": {
+    "encounter": {
+      "1": "Ồ, một kẻ thách đấu sao!\nĐể xem ngươi có thể làm được những gì nào!",
+      "1_female": "Ồ, một kẻ thách đấu sao!\nĐể xem ngươi có thể làm được những gì nào!",
+      "2": "Ồ, trông ngươi có vẻ là một kẻ tạo nên sóng gió lớn đấy.\nChiến đấu nào!",
+      "3": "Đã đến lúc tạo ra một cơn bão rồi!\nLên thôi nào!"
+    },
+    "victory": {
+      "1": "Ồ oa, ngươi đã đánh bại ta hoàn toàn rồi!",
+      "2": "Ngươi đã lướt trên làn sóng của ta và đánh sập ta luôn rồi!",
+      "3": "Ta có cảm giác như mình đang bị lạc trong Hang Granite vậy!"
+    },
+    "defeat": {
+      "1": "Haha, ta đã lướt trên ngọn sóng lớn!\nLúc nào đó hãy đến thách đấu ta lần nữa nhé.",
+      "2": "Hãy lướt sóng cùng ta một lần nữa vào lúc khác nhé!",
+      "3": "Giống như những đợt thủy triều lên rồi lại xuống, ta hy vọng ngươi sẽ quay lại thách đấu ta lần nữa."
+    }
+  },
+  "wattson": {
+    "encounter": {
+      "1": "Đến lúc bị điện giật rồi đây!\nOa ha ha ha ha!",
+      "2": "Ta sẽ làm cho những tia lửa điện bắn tung tóe!\nOa ha ha ha ha!",
+      "3": "Ta hy vọng ngươi có mang theo Thuốc giải tê liệt đấy!\nOa ha ha ha ha!"
+    },
+    "victory": {
+      "1": "Xem ra ta đã hết sạch điện rồi!\nOa ha ha ha ha!",
+      "2": "Ngươi đã hoàn toàn triệt tiêu dòng điện của ta rồi! \nOa ha ha ha ha!",
+      "3": "Cảm ơn vì trận đấu đầy kịch tính nhé!\nOa ha ha ha ha!"
+    },
+    "defeat": {
+      "1": "Hãy nạp lại năng lượng cho pin của ngươi rồi lúc nào đó lại đến thách đấu ta nhé!\nOa ha ha ha ha!",
+      "1_female": "Hãy nạp lại năng lượng cho pin của ngươi rồi lúc nào đó lại đến thách đấu ta nhé!\nOa ha ha ha ha!",
+      "2": "Ta hy vọng ngươi thấy trận chiến của chúng ta thật kịch tính và đầy kích thích!\nOa ha ha ha ha!",
+      "3": "Ngươi không bất ngờ khi ta thắng sao?\nOa ha ha ha ha!"
+    }
+  },
+  "flannery": {
+    "encounter": {
+      "1": "Rất vui được gặp ngươi! Khoan, không phải…\nTa sẽ nghiền nát ngươi!",
+      "2": "Ta mới làm Thủ lĩnh chưa lâu đâu, nhưng ta sẽ cho ngươi ngắm gà khỏa thân cho mà xem!",
+      "3": "Đến lúc thể hiện những chiêu thức mà ông nội đã truyền dạy cho ta rồi! Đấu thôi!"
+    },
+    "victory": {
+      "1": "Ngươi làm ta nhớ đến ông nội của ta…\nBảo sao ta lại thua cơ chứ.",
+      "2": "Ta có đang cố gắng quá sức không nhỉ?\nTa nên thư giãn thôi, không thể để đầu óc quá nóng nảy được.",
+      "3": "Thất bại không thể dập tắt được ý chí của ta đâu.\nĐến lúc thắp lại ngọn lửa tập luyện rồi!"
+    },
+    "defeat": {
+      "1": "Ta hy vọng mình đã làm cho ông nội tự hào…\nLúc nào đó chúng ta lại đấu tiếp nhé.\n",
+      "2": "Ta… Ta không thể tin là mình đã thắng!\nLàm mọi thứ theo cách của riêng ta đã có hiệu quả rồi!",
+      "3": "Chúng ta hãy sớm giao lưu lại những chiêu thức rực lửa này nhé!"
+    }
+  },
+  "norman": {
+    "encounter": {
+      "1": "Ta khá bất ngờ khi ngươi có thể đặt chân đến được đây đấy.\nChiến đấu thôi nào!",
+      "2": "Ta sẽ làm mọi thứ trong quyền hạn của một Thủ lĩnh Nhà thi đấu để giành chiến thắng.\nLên nào!",
+      "3": "Tốt nhất là ngươi nên dốc hết sức mình đi.\nĐến lúc chiến đấu rồi!"
+    },
+    "victory": {
+      "1": "Ta đã thua ngươi rồi sao…?\nNhưng mà, luật vẫn là luật.",
+      "2": "Liệu rời khỏi Olivine có phải là một sai lầm không nhỉ…?",
+      "3": "Ta không thể tin được vào mắt mình nữa.\nĐó quả là một trận đấu tuyệt vời!"
+    },
+    "defeat": {
+      "1": "Chúng ta đều đã cố gắng hết sức rồi.\nHy vọng chúng ta có thể sớm tái đấu nhé.",
+      "2": "Có lẽ ngươi nên thử thách đứa con của ta xem sao.\nBiết đâu ngươi lại học hỏi được điều gì đó đấy!",
+      "3": "Cảm ơn vì trận đấu tuyệt vời này.\nChúc ngươi may mắn hơn vào lần sau nhé!"
+    }
+  },
+  "winona": {
+    "encounter": {
+      "1": "Ta đã sải cánh trên bầu trời để tìm kiếm con mồi…\nVà ngươi chính là mục tiêu của ta!",
+      "2": "Dù trận đấu có diễn ra như thế nào đi chăng nữa, ta và các Pokémon Hệ Bay của mình vẫn sẽ chiến thắng một cách đầy lịch lãm. Chiến đấu nào!",
+      "3": "Hy vọng ngươi không phải là một kẻ sợ độ cao.\nCùng bay lên nào!"
+    },
+    "victory": {
+      "1": "Ngươi là Nhà huấn luyện đầu tiên mà ta từng gặp sở hữu sự lịch lãm còn vượt trội hơn cả ta đấy.\nTrận đấu xuất sắc lắm!",
+      "1_female": "Ngươi là Nhà huấn luyện đầu tiên mà ta từng gặp sở hữu sự lịch lãm còn vượt trội hơn cả ta đấy.\nTrận đấu xuất sắc lắm!",
+      "2": "Ôi không, các Pokémon Hệ Bay của ta đã bị rơi rụng hết rồi!\nĐược rồi, ta chấp nhận trận thua này.",
+      "3": "Dù cho ta có gục ngã, các Pokémon của ta vẫn sẽ tiếp tục sải cánh bay cao!"
+    },
+    "defeat": {
+      "1": "Các Pokémon Hệ Bay và ta sẽ mãi mãi khiêu vũ một cách đầy lịch lãm!",
+      "2": "Hy vọng ngươi đã tận hưởng buổi biểu diễn của chúng ta.\nĐiệu nhảy lịch lãm của chúng ta đến đây là kết thúc rồi.",
+      "3": "Ngươi sẽ lại đến xem bài biên đạo đầy lịch lãm của chúng ta chứ?"
+    }
+  },
+  "tate": {
+    "encounter": {
+      "1": "Hehehe…\nNgươi có bất ngờ không khi thấy ta xuất hiện mà không đi cùng chị gái mình?",
+      "1_female": "Hehehe…\nNgươi có bất ngờ không khi thấy ta xuất hiện mà không đi cùng chị gái mình?",
+      "2": "Ta có thể đọc được những gì ngươi đang nghĩ trong đầu đấy…\nNgươi đang muốn chiến đấu đúng không nào!",
+      "3": "Làm sao ngươi có thể đánh bại được một kẻ…\nBiết rõ từng đường đi nước bước của ngươi chứ?"
+    },
+    "victory": {
+      "1": "Không còn cách nào khác rồi…\nTa nhớ Liza quá…",
+      "2": "Mối liên kết giữa ngươi và các Pokémon của mình quả thực còn mạnh mẽ hơn cả ta đấy.",
+      "3": "Nếu ta ở cùng với Liza, chúng ta chắc chắn đã giành chiến thắng rồi.\nChúng ta thậm chí có thể thần giao cách cảm, hiểu thấu suy nghĩ của nhau cơ mà!"
+    },
+    "defeat": {
+      "1": "Ta và các Pokémon của mình mới là những kẻ thượng đẳng!",
+      "2": "Nếu ngay cả ta mà ngươi còn không đánh bại được, thì ngươi sẽ chẳng bao giờ có cửa thắng nổi Liza đâu!",
+      "3": "Tất cả đều là nhờ quá trình luyện tập nghiêm khắc của ta với Liza đấy.\nTa có thể hòa mình làm một với các Pokémon."
+    }
+  },
+  "liza": {
+    "encounter": {
+      "1": "Phư phư phư\nNgươi có bất ngờ không khi thấy ta xuất hiện mà không có em trai đi cùng?\n",
+      "1_female": "Phư Phư Phư…\nNgươi có bất ngờ không khi thấy ta xuất hiện mà không có em trai đi cùng?\n",
+      "2": "Ta có thể thấu thị được những gì ngươi khao khát…\nNgươi đang muốn chiến đấu, có đúng không nào?",
+      "3": "Làm sao ngươi có thể đánh bại được một kẻ…\nĐã hòa làm một với Pokémon của chính mình cơ chứ?"
+    },
+    "victory": {
+      "1": "Không còn cách nào khác rồi…\nTa nhớ Tate quá…",
+      "2": "Mối liên kết giữa ngươi và các Pokémon của mình…\nNó còn mạnh mẽ hơn cả của ta rồi.",
+      "3": "Nếu ta ở cùng với Tate, chúng ta chắc chắn đã giành chiến thắng rồi.\nChúng ta thậm chí có thể nói nốt câu của nhau cơ mà!"
+    },
+    "defeat": {
+      "1": "Ta và các Pokémon của mình mới là những kẻ chiến thắng!",
+      "2": "Nếu ngay cả ta mà ngươi còn không đánh bại được, thì ngươi sẽ chẳng bao giờ có cửa thắng nổi Tate đâu!",
+      "3": "Tất cả đều là nhờ quá trình luyện tập nghiêm khắc của ta với Tate đấy.\nTa có thể đồng bộ hóa bản thân với các Pokémon của chính mình."
+    }
+  },
+  "juan": {
+    "encounter": {
+      "1": "Đây không phải lúc để e dè.\nĐến lúc ra hết sức rồi đó!",
+      "2": "Hahaha, bạn sẽ được chứng kiến tài năng nghệ thuật của tôi với các Pokémon hệ Nước!",
+      "3": "Một cơn bão đang đến gần!\nBạn có thể thử thách tôi không?",
+      "4": "Hãy chuẩn bị tinh thần để chứng kiến nghệ thuật đỉnh cao của chúng ta đi!\nMột ảo ảnh vĩ đại của nước được điêu khắc bởi chính ta và các Pokémon của mình!"
+    },
+    "victory": {
+      "1": "Ngươi hoàn toàn có thể là một thiên tài đủ sức để đối đầu với Wallace đấy!",
+      "2": "Trong lúc ngươi điên cuồng luyện tập thì ta lại chỉ tập trung vào sự thanh lịch.\nVậy nên việc ngươi đánh bại được ta cũng là lẽ tự nhiên thôi.",
+      "3": "Ahahaha!\nĐược rồi, lần này ngươi đã thắng.",
+      "4": "Từ ngươi, ta cảm nhận được vầng hào quang rực rỡ của một kỹ năng tuyệt đỉnh, thứ sẽ vượt qua và chinh phục tất cả mọi trở ngại!"
+    },
+    "defeat": {
+      "1": "Ta và các Pokémon của mình đã cùng nhau điêu khắc nên một ảo ảnh vĩ đại của Nước, và giờ đây, chúng ta chính là những kẻ chiến thắng!",
+      "2": "Ahahaha, ta đã thắng, và ngươi đã thua.",
+      "3": "Ta có nên cho ngươi mượn bộ trang phục của ta không nhỉ? Nó có khi lại giúp ngươi chiến đấu tốt hơn đấy! Ahahaha, ta đùa chút thôi!",
+      "4": "Ta là người chiến thắng! Điều đó có nghĩa là, ngươi đã thua cuộc rồi.",
+      "4_female": "Ta là người chiến thắng! Điều đó có nghĩa là, ngươi đã thua cuộc rồi."
+    }
+  },
+  "crasherWake": {
+    "encounter": {
+      "1": "Rầm! Rầm! Tránh đường nào!\nCrasher Wake… đã… xuất… hiện… ở… đââây!",
+      "2": "Rầm! Rầm! Crasher Wake đây!",
+      "3": "Ta chính là cơn sóng thần sức mạnh sẽ cuốn phăng ngươi đi!"
+    },
+    "victory": {
+      "1": "Điều đó làm ta phải nở nụ cười đấy!\nGuhahaha! Một trận đấu ra trò!",
+      "2": "Húuuu! Vậy là kết thúc rồi sao!\nBiết nói thế nào bây giờ nhỉ…\nTa muốn nữa! Ta muốn chiến đấu nhiều hơn nữa cơ!",
+      "3": "CÁI GÌ!?"
+    },
+    "defeat": {
+      "1": "Yeeeeah! Đúng chính xác là như vậy đấy!",
+      "2": "Ta đã thắng, nhưng ta vẫn muốn nữa! Ta muốn chiến đấu nhiều hơn nữa cơ!",
+      "3": "Hẹn gặp lại nhé!"
+    }
+  },
+  "falkner": {
+    "encounter": {
+      "1": "Tôi sẽ cho bạn thấy sức mạnh thực sự của loài Pokémon  chim vĩ đại!",
+      "2": "Gió ơi, hãy ở lại bên ta!",
+      "3": "Bố ơi! Con hy vọng từ trên cao bố đang dõi theo trận đấu của con!"
+    },
+    "victory": {
+      "1": "Tôi hiểu rồi… Tôi sẽ rút lui một cách lịch sự.",
+      "2": "Thua là thua. Bạn thực sự rất mạnh.",
+      "2_female": "Thua là thua. Bạn thực sự rất mạnh.",
+      "3": "…Thôi xong! Ừ, tôi thua rồi."
+    },
+    "defeat": {
+      "1": "Bố ơi! Con đã chiến thắng cùng với Pokémon loài chim yêu thích của bố rồi…",
+      "2": "Pokémon loài chim là tuyệt nhất mà lị!",
+      "3": "Cảm giác như con đang theo kịp bố rồi vậy!"
+    }
+  },
+  "nessa": {
+    "encounter": {
+      "1": "Cho dù cái đầu thông thái của ngươi có đang vạch ra mưu đồ gì đi chăng nữa, ta và cộng sự của mình chắc chắn cũng sẽ đập tan nó thôi.",
+      "1_female": "Cho dù cái đầu thông thái của ngươi có đang vạch ra mưu đồ gì đi chăng nữa, ta và cộng sự của mình chắc chắn cũng sẽ đập tan nó thôi.",
+      "2": "Tôi không đến đây để tán gẫu. Tôi đến đây để chiến thắng!",
+      "3": "Đây là một món quà nhỏ từ Pokémon của tôi… Tôi hy vọng bạn có thể nhận nó!",
+      "3_female": "Đây là một món quà nhỏ từ Pokémon của tôi… Tôi hy vọng bạn có thể nhận nó!"
+    },
+    "victory": {
+      "1": "Bạn và Pokémon của bạn quả thực là quá mạnh rồi…",
+      "2": "Làm sao…? Làm sao chuyện này có thể xảy ra được chứ?!",
+      "3": "Tôi hoàn toàn bị cuốn trôi luôn rồi!"
+    },
+    "defeat": {
+      "1": "Làn sóng dữ dội lại ập đến rồi!",
+      "2": "Đã đến lúc lướt trên làn sóng chiến thắng rồi!",
+      "3": "E hé hé!"
+    }
+  },
+  "melony": {
+    "encounter": {
+      "1": "Tôi sẽ không nương tay đâu!",
+      "1_female": "Tôi sẽ không nương tay đâu!",
+      "2": "Được rồi, tôi nghĩ chúng ta nên bắt đầu thôi.",
+      "3": "Ta sẽ đóng băng cứng ngắc ngươi luôn!"
+    },
+    "victory": {
+      "1": "Bạn… Bạn cũng khá cừ đấy nhỉ?",
+      "1_female": "Bạn… Bạn cũng khá cừ đấy nhỉ?",
+      "2": "Nếu cậu có gặp Gordie ở quanh đây, nhớ cho nó một trận ra trò giùm tôi nhé?",
+      "3": "Tôi nghĩ bạn đang hiểu cụm từ \"phá băng\" theo một nghĩa hơi bị quá đen rồi đấy…"
+    },
+    "defeat": {
+      "1": "Giờ thì bạn đã thấy những trận chiến có thể khốc liệt đến mức nào chưa?",
+      "2": "Hì hì! Trông có vẻ như tôi lại giành chiến thắng nữa rồi!",
+      "3": "Bạn đang nương tay đấy à?"
+    }
+  },
+  "marlon": {
+    "encounter": {
+      "1": "Trông bạn mạnh mẽ đấy! Lên luôn nào! Chúng ta bắt đầu thôi!",
+      "2": "Tôi mạnh mẽ như đại dương bao la vậy. Bạn chắc chắn sẽ bị cuốn trôi mất thôi, thề luôn.",
+      "2_female": "Tôi mạnh mẽ như đại dương bao la vậy. Bạn chắc chắn sẽ bị cuốn trôi mất thôi, thề luôn.",
+      "3": "Ồ hô, hóa ra đối thủ của tôi là bạn à! Bất ngờ ngoài sức tưởng tượng luôn đấy."
+    },
+    "victory": {
+      "1": "Bạn hoàn toàn làm chủ cuộc chơi rồi đấy! Bạn đang huấn luyện được mấy nhóc Pokémon siêu đỉnh luôn. Đúng chuẩn một Nhà huấn luyện thứ thiệt rồi!",
+      "1_female": "Bạn hoàn toàn làm chủ cuộc chơi rồi đấy! Bạn đang huấn luyện được mấy nhóc Pokémon siêu đỉnh luôn. Đúng chuẩn một Nhà huấn luyện thứ thiệt rồi!",
+      "2": "Bạn không chỉ trông mạnh mẽ thôi đâu, mà bạn mạnh thật sự luôn ấy! Trời ạ, chính tôi mới là người bị cuốn trôi đi mất rồi!",
+      "3": "Bạn mạnh mẽ như một ngọn sóng cuồng nhiệt luôn ấy!"
+    },
+    "defeat": {
+      "1": "Ngươi cũng mạnh đấy, nhưng chưa đủ để lay chuyển được biển cả đâu, nhớ chưa!",
+      "2": "Hihi! Xem ra ta lại ra trận và chiến thắng nữa rồi!",
+      "3": "Chiến thắng thật là ngọt ngào ngọt ngào làm sao!"
+    }
+  },
+  "shauntal": {
+    "encounter": {
+      "1": "Xin lỗi nhé. Bạn là một nhà thách đấu, đúng không?$Tôi là Shauntal, thành viên Tứ Thiên Vương chuyên sử dụng Pokémon hệ Ma, và tôi sẽ là đối thủ của bạn.",
+      "1_female": "Xin lỗi nhé. Bạn là một nhà thách đấu, đúng không?$Tôi là Shauntal, thành viên Tứ Thiên Vương chuyên sử dụng Pokémon hệ Ma, và tôi sẽ là đối thủ của bạn.",
+      "2": "Tôi cực kỳ thích viết về các Nhà huấn luyện đặt chân đến đây và những Pokémon mà họ huấn luyện.\n​Liệu tôi có thể lấy bạn và Pokémon của bạn làm đề tài được không?",
+      "3": "Mỗi một người làm việc cùng Pokémon đều có một câu chuyện để kể.\n​Câu chuyện nào sắp sửa được kể ra đây?"
+    },
+    "victory": {
+      "1": "Chà. Tôi sững sờ cả người rồi!",
+      "2": "-xin lỗi nhé! Đầu tiên, tôi phải gửi lời xin lỗi đến các Pokémon của mình…$Tôi thực sự rất tiếc vì các bạn đã phải có một trải nghiệm tồi tệ chỉ vì tôi!",
+      "3": "Dù có là như vậy đi chăng nữa, tôi vẫn là một thành viên của Tứ Thiên Vương!",
+      "3_female": "Dù có là như vậy đi chăng nữa, tôi vẫn là một thành viên của Tứ Thiên Vương!"
+    },
+    "defeat": {
+      "1": "È hé.",
+      "2": "Điều đó đã cho tôi một chất liệu tuyệt vời cho cuốn tiểu thuyết tiếp theo của mình!",
+      "3": "Và như vậy, một câu chuyện nữa lại khép lại…"
+    }
+  },
+  "marshal": {
+    "encounter": {
+      "1": "Người cố vấn của tôi, Alder, nhìn thấy tiềm năng của bạn với tư cách là một Nhà huấn luyện và đang dành sự quan tâm đến bạn.$Ý định của tôi là thử thách bạn--để đưa bạn đến giới hạn sức mạnh của mình. Kiai!",
+      "1_female": "Người cố vấn của tôi, Alder, nhìn thấy tiềm năng của bạn với tư cách là một Nhà huấn luyện và đang dành sự quan tâm đến bạn.$Ý định của tôi là thử thách bạn--để đưa bạn đến giới hạn sức mạnh của mình. Kiai!",
+      "2": "Chiến thắng, một chiến thắng quyết định, chính là mục tiêu của tôi! Nhà thách đấu kia, tôi tới đây!",
+      "2_female": "Chiến thắng, một chiến thắng quyết định, chính là mục tiêu của tôi! Nhà thách đấu kia, tôi tới đây!",
+      "3": "Trong chính bản thân mình, tôi tìm cách phát triển sức mạnh của một đấu sĩ và đập tan mọi sự yếu đuối trong tôi!$Chiến thắng bằng sức mạnh từ niềm tin của chính mình!"
+    },
+    "victory": {
+      "1": "Phù! Làm tốt lắm!",
+      "2": "Khi các trận chiến của bạn tiếp diễn, hãy hướng tới những tầm cao hơn nữa!",
+      "3": "Sức mạnh mà bạn và Pokémon của bạn thể hiện đã để lại ấn tượng sâu sắc trong tôi…"
+    },
+    "defeat": {
+      "1": "Hmm.",
+      "2": "Đó quả là một trận chiến tuyệt vời.",
+      "3": "Haaah! Haaah! Haiyaaaah!"
+    }
+  },
+  "cheren": {
+    "encounter": {
+      "1": "Bạn làm tôi nhớ đến một người bạn cũ. Điều đó khiến tôi thấy vô cùng hào hứng với trận đấu Pokémon này!",
+      "2": "Các trận đấu Pokémon sẽ chẳng có ý nghĩa gì nếu bạn không suy nghĩ xem tại sao mình lại chiến đấu.$Hay nói đúng hơn, điều đó sẽ khiến việc chiến đấu cùng với Pokémon trở nên vô nghĩa.",
+      "3": "Tên tôi là Cheren! Tôi là một Chủ Hội Quán và cũng là một giáo viên! Rất vui được gặp bạn.",
+      "3_female": "Tên tôi là Cheren! Tôi là một Chủ Hội Quán và cũng là một giáo viên! Rất vui được gặp bạn."
+    },
+    "victory": {
+      "1": "Cảm ơn bạn! Tôi đã nhận ra điều bản thân mình còn thiếu sót.",
+      "2": "Cảm ơn bạn! Tôi cảm thấy như mình đã nhìn thấy một chút con đường dẫn tới những lý tưởng của bản thân.",
+      "3": "Hừm… Thật là nan giải."
+    },
+    "defeat": {
+      "1": "Với tư cách là một Chủ Hội Quán, tôi đặt mục tiêu trở thành một bức tường vững chãi để bạn vượt qua.",
+      "2": "Được rồi!",
+      "3": "Tôi có được vị trí như ngày hôm nay là nhờ có các Pokémon luôn ở bên cạnh.$Có lẽ chúng ta cần suy nghĩ về lý do tại sao Pokémon lại giúp đỡ chúng ta, không phải dưới góc độ giữa Pokémon và Nhà huấn luyện, mà là mối quan hệ giữa các sinh vật sống với nhau."
+    }
+  },
+  "chili": {
+    "encounter": {
+      "1": "Yeeeeooow! Đến lúc chơi với LỬA rồi!! Tôi là người mạnh nhất trong số các anh em chúng tôi!",
+      "1_female": "Yeeeeooow! Đến lúc chơi với LỬA rồi!! Tôi là người mạnh nhất trong số các anh em chúng tôi!",
+      "2": "Ta-da! Chili rực lửa thuộc hệ Lửa--chính là tôi đây--sẽ là đối thủ của bạn!",
+      "2_female": "Ta-da! Chili rực lửa thuộc hệ Lửa--chính là tôi đây--sẽ là đối thủ của bạn!",
+      "3": "Tôi sẽ cho bạn thấy tôi và những Pokémon hệ Lửa rực cháy của mình có thể làm được những gì!",
+      "3_female": "Tôi sẽ cho bạn thấy tôi và những Pokémon hệ Lửa rực cháy của mình có thể làm được những gì!"
+    },
+    "victory": {
+      "1": "Bạn thắng tôi rồi. Tôi… kiệt… sức… rồi…",
+      "1_female": "Bạn thắng tôi rồi. Tôi… kiệt… sức… rồi…",
+      "2": "Ồ hô! Bạn đang rực cháy đấy!",
+      "2_female": "Ồ hô! Bạn đang rực cháy đấy!",
+      "3": "Augh! Bạn hạ gục tôi rồi!"
+    },
+    "defeat": {
+      "1": "Tôi đang rực cháy đây! Chơi với tôi là bạn sẽ bị bỏng đấy!",
+      "1_female": "Tôi đang rực cháy đây! Chơi với tôi là bạn sẽ bị bỏng đấy!",
+      "2": "Khi chơi với lửa, chắc chắn bạn sẽ bị bỏng thôi!",
+      "3": "Ý tôi là, thôi nào, đối thủ của bạn là tôi cơ mà! Bạn làm gì có cơ hội!",
+      "3_female": "Ý tôi là, thôi nào, đối thủ của bạn là tôi cơ mà! Bạn làm gì có cơ hội!"
+    }
+  },
+  "cilan": {
+    "encounter": {
+      "1": "Không có ý gì đâu… Đừng để bụng nhé… Tôi và các Pokémon hệ Cỏ của mình sẽ…$Ứm… Chúng tôi sẽ chiến đấu dù có chuyện gì xảy ra đi nữa.",
+      "1_female": "Không có ý gì đâu… Đừng để bụng nhé… Tôi và các Pokémon hệ Cỏ của mình sẽ…$Ứm… Chúng tôi sẽ chiến đấu dù có chuyện gì xảy ra đi nữa.",
+      "2": "Vậy nên, ừm, nếu bạn thấy thoải mái với tôi, tôi sẽ, ừm, dồn hết sức mình để trở thành, ờ, bạn biết đấy, đối thủ của bạn.",
+      "2_female": "Vậy nên, ừm, nếu bạn thấy thoải mái với tôi, tôi sẽ, ừm, dồn hết sức mình để trở thành, ờ, bạn biết đấy, đối thủ của bạn.",
+      "3": "OK… Vậy nên, ừm, tôi là Cilan, tôi thích Pokémon hệ Cỏ.",
+      "3_female": "OK… Vậy nên, ừm, tôi là Cilan, tôi thích Pokémon hệ Cỏ."
+    },
+    "victory": {
+      "1": "Ờ… Thế là kết thúc rồi sao?",
+      "1_female": "Ờ… Thế là kết thúc rồi sao?",
+      "2": "…Thật là bất ngờ. Bạn mạnh thật đấy, đúng không?$Tôi đoán là các anh trai của tôi cũng sẽ không thể đánh bại bạn được đâu…",
+      "2_female": "…Thật là bất ngờ. Bạn mạnh thật đấy, đúng không?$Tôi đoán là các anh trai của tôi cũng sẽ không thể đánh bại bạn được đâu…",
+      "3": "…Hửm. Có vẻ như thời điểm của tôi, ừm, không đúng lúc rồi?"
+    },
+    "defeat": {
+      "1": "Hử? Tôi thắng rồi sao?",
+      "1_female": "Hử? Tôi thắng rồi sao?",
+      "2": "Tôi đoán là…$Tôi cho rằng mình đã thắng, bởi vì tôi đã luôn cạnh tranh cùng các anh trai của mình là Chili và Cress, và tất cả chúng tôi đều đã có thể trở nên mạnh mẽ hơn.",
+      "2_female": "Tôi đoán là…$Tôi cho rằng mình đã thắng, bởi vì tôi đã luôn cạnh tranh cùng các anh trai của mình là Chili và Cress, và tất cả chúng tôi đều đã có thể trở nên mạnh mẽ hơn.",
+      "3": "Nó… nó quả là một trải nghiệm khá là hồi hộp…",
+      "3_female": "Nó… nó quả là một trải nghiệm khá là hồi hộp…"
+    }
+  },
+  "roark": {
+    "encounter": {
+      "1": "Tôi cần thấy được tiềm năng của bạn với tư cách là một Nhà huấn luyện.$Và, tôi sẽ cần thấy được sự kiên cường của những Pokémon chiến đấu cùng bạn!",
+      "1_female": "Tôi cần thấy được tiềm năng của bạn với tư cách là một Nhà huấn luyện.$Và, tôi sẽ cần thấy được sự kiên cường của những Pokémon chiến đấu cùng bạn!",
+      "2": "Tới luôn đây! Đây là những Pokémon bùng nổ của tôi, niềm tự hào và kiêu hãnh của tôi!",
+      "3": "Pokémon hệ Đá đơn giản là tuyệt vời nhất!",
+      "4": "Mỗi ngày, tôi đều làm cho các Pokémon của mình mạnh mẽ hơn bằng việc đào Hóa thạch không ngừng nghỉ.$Tôi có thể cho bạn thấy tôi đã giúp chúng kiên cường thế nào trong một trận chiến được không?",
+      "4_female": "Mỗi ngày, tôi đều làm cho các Pokémon của mình mạnh mẽ hơn bằng việc đào Hóa thạch không ngừng nghỉ.$Tôi có thể cho bạn thấy tôi đã giúp chúng kiên cường thế nào trong một trận chiến được không?"
+    },
+    "victory": {
+      "1": "C-cái gì? Không thể nào như thế được! Các Pokémon lực lưỡng của tôi!",
+      "2": "…Chúng tôi đã mất kiểm soát ở đó. Lần tới tôi muốn thử thách bạn trong một cuộc đua đào Hóa thạch dưới lòng đất.",
+      "2_female": "…Chúng tôi đã mất kiểm soát ở đó. Lần tới tôi muốn thử thách bạn trong một cuộc đua đào Hóa thạch dưới lòng đất.",
+      "3": "Với kỹ năng như của bạn, việc bạn giành chiến thắng là điều hoàn toàn tự nhiên thôi.",
+      "4": "C-cái gì?! Không thể nào! Thậm chí như vậy vẫn chưa đủ sao?"
+    },
+    "defeat": {
+      "1": "Xem kìa? Tôi tự hào về phong cách chiến đấu bùng nổ của mình lắm đấy!",
+      "2": "Cảm ơn nhé! Trận chiến này đã tiếp thêm sự tự tin cho tôi rằng mình có thể đánh bại được bố của mình đấy!",
+      "3": "Xem kìa! Đây chính là những Pokémon bùng nổ của tôi, niềm tự hào và kiêu hãnh của tôi!",
+      "4": "Tôi biết là tôi sẽ thắng mà!"
+    }
+  },
+  "morty": {
+    "encounter": {
+      "1": "Chỉ cần thêm một chút nữa thôi, tôi đã có thể nhìn thấy một tương lai nơi mình được gặp gỡ các Pokémon huyền thoại.$Bạn sẽ là người giúp tôi chạm tới cấp độ đó!",
+      "2": "Người ta nói rằng, một Pokémon mang sắc màu cầu vồng sẽ hạ thế để xuất hiện trước một Nhà huấn luyện thực sự mạnh mẽ.$Tôi đã tin vào câu chuyện đó, nên tôi mới âm thầm rèn luyện ở đây suốt cả cuộc đời này.$Nhờ vậy, giờ đây tôi đã có thể nhìn thấy những điều mà người khác không thể nhìn thấy.$Tôi thấy được hình bóng của người sẽ khiến Pokémon đó xuất hiện.$Và tôi tin rằng người đó chính là tôi! Bạn sẽ là người giúp tôi chạm tới cấp độ đó!",
+      "3": "Dù bạn có chọn tin hay không, thì sức mạnh huyền bí vẫn thực sự tồn tại.",
+      "4": "Bạn có thể chứng kiến thành quả từ quá trình rèn luyện của tôi.",
+      "5": "Bạn phải hòa làm một linh hồn với linh hồn của Pokémon. Bạn có thể làm được điều này không?",
+      "6": "Này, bạn có muốn trở thành một phần trong quá trình rèn luyện của tôi không?"
+    },
+    "victory": {
+      "1": "Tôi vẫn chưa đủ tốt…",
+      "2": "Ra là vậy… Hành trình của bạn đã đưa bạn đến những nơi xa xôi, và bạn đã được chứng kiến nhiều điều hơn tôi rất nhiều.$Tôi thực sự ghen tị với bạn vì điều đó…",
+      "2_female": "Ra là vậy… Hành trình của bạn đã đưa bạn đến những nơi xa xôi, và bạn đã được chứng kiến nhiều điều hơn tôi rất nhiều.$Tôi thực sự ghen tị với bạn vì điều đó…",
+      "3": "Làm sao mà chuyện này có thể xảy ra được chứ…",
+      "4": "Tôi không nghĩ là tiềm năng của chúng ta lại khác biệt đến thế.$Nhưng có vẻ như bạn đang sở hữu một điều gì đó vượt trội hơn thế nữa… Thôi thì đành vậy.",
+      "5": "Có lẽ tôi cần phải rèn luyện nhiều hơn nữa rồi.",
+      "6": "Thật là đáng tiếc làm sao."
+    },
+    "defeat": {
+      "1": "Tôi lại… tiến thêm được một bước nữa rồi.",
+      "2": "Phư phư phư…",
+      "3": "C-cái gì cơ?! Không thể nào! Ngay cả như thế mà vẫn chưa đủ sao?",
+      "4": "Tôi cảm giác như mình vừa mới đập tan một tảng đá vô cùng cứng đầu vậy!",
+      "5": "Ahahahah!",
+      "6": "Tôi biết là tôi sẽ thắng mà!"
+    }
+  },
+  "crispin": {
+    "encounter": {
+      "1": "Tôi muốn chiến thắng, vì vậy đó chính xác là những gì tôi sẽ làm!",
+      "1_female": "Tôi muốn chiến thắng, vì vậy đó chính xác là những gì tôi sẽ làm!",
+      "2": "Tôi chiến đấu đơn giản vì tôi muốn chiến đấu thôi! Và bạn biết gì không? Đáng lẽ ra mọi chuyện luôn phải như thế!"
+    },
+    "victory": {
+      "1": "Tôi muốn chiến thắng… nhưng tôi đã thua mất rồi!",
+      "2": "​Thua… là vì mình không thể thắng được!"
+    },
+    "defeat": {
+      "1": "Này, đợi chút đã. Mình vừa mới thắng sao? Hình như mình vừa thắng thật rồi! Phải nói là cực kỳ mãn nguyện luôn!",
+      "2": "Wooo! Thật là tuyệt vời!"
+    }
+  },
+  "amarys": {
+    "encounter": {
+      "1": "Tôi muốn trở thành người giúp đỡ một người nào đó. Chính vì thế, tôi không được phép thua.$… Trận chiến của chúng ta bắt đầu từ bây giờ"
+    },
+    "victory": {
+      "1": "Tôi… vẫn chưa đủ tốt, tôi hiểu rồi."
+    },
+    "defeat": {
+      "1": "Chiến thắng thuộc về tôi. Bạn đã chiến đấu rất tốt."
+    }
+  },
+  "lacey": {
+    "encounter": {
+      "1": "Tôi sẽ đối đầu với bạn bằng đội hình quen thuộc của mình với tư cách là một thành viên của Tứ Thiên Vương"
+    },
+    "victory": {
+      "1": "Đó quả là một trận chiến tuyệt vời!"
+    },
+    "defeat": {
+      "1": "Hãy dành cho các Pokémon của bạn một tràng pháo tay thật lớn vì những nỗ lực của chúng nào!"
+    }
+  },
+  "drayton": {
+    "encounter": {
+      "1": "Ta không đời nào chịu nằm im chịu trận rồi bỏ lỡ mất cuộc vui này đâu. Nên ngươi lo mà dè chừng đấy!"
+    },
+    "victory": {
+      "1": "Thế mới đúng ý ta chứ!"
+    },
+    "defeat": {
+      "1": "Hắc hắc! Đừng để tâm đến ta, chỉ là ta đang gom thêm một trận thắng về đây thôi.$Ta hiểu nếu ngươi có bực dọc, nhưng đừng có mà nổi điên lên như tên Kieran đấy nhé, được chứ?",
+      "1_female": "Hắc hắc! Đừng để tâm đến ta, chỉ là ta đang gom thêm một trận thắng về đây thôi.$Ta hiểu nếu ngươi có bực dọc, nhưng đừng có mà nổi điên lên như tên Kieran đấy nhé, được chứ?"
+    }
+  },
+  "ramos": {
+    "encounter": {
+      "1": "Ngươi có tận hưởng cái sân chơi ngoài vườn mà ta đã tạo ra từ tất cả những loài cây kiên cường này không hả?$Sức mạnh của chúng chính là minh chứng cho sức mạnh của ta với tư cách là một người làm vườn và một Chủ Hội Quán!$Ngươi chắc chắn là mình đã sẵn sàng để đối mặt với tất cả những điều đó rồi chứ?",
+      "1_female": "Ngươi có tận hưởng cái sân chơi ngoài vườn mà ta đã tạo ra từ tất cả những loài cây kiên cường này không hả?$Sức mạnh của chúng chính là minh chứng cho sức mạnh của ta với tư cách là một người làm vườn và một Chủ Hội Quán!$Ngươi chắc chắn là mình đã sẵn sàng để đối mặt với tất cả những điều đó rồi chứ?"
+    },
+    "victory": {
+      "1": "Ngươi tin tưởng vào Pokémon của mình… Và chúng cũng tin tưởng vào ngươi nữa…$Đó là một trận chiến tuyệt vời đấy, nhóc con."
+    },
+    "defeat": {
+      "1": "Hohoho… Đúng vậy. Những ngọn cỏ nhỏ bé mỏng manh rồi cũng sẽ đâm xuyên qua cả bê tông mà thôi."
+    }
+  },
+  "viola": {
+    "encounter": {
+      "1": "Dù là những giọt nước mắt thất vọng sau một trận thua, hay niềm vui nở rộ khi giành chiến thắng…$Chúng đều là những chủ đề tuyệt vời cho ống kính của ta! Tuyệt diệu! Điều này sẽ vô cùng tuyệt diệu đây!$Giờ thì nhào vô nào!",
+      "2": "Ống kính của ta luôn tập trung vào chiến thắng—ta sẽ không để bất cứ điều gì phá hỏng cú bấm máy này!"
+    },
+    "victory": {
+      "1": "Ngươi và Pokémon của mình đã cho ta thấy một chiều sâu trường ảnh hoàn toàn mới! Tuyệt diệu! Thật sự quá tuyệt diệu!",
+      "2": "Thế giới ngươi nhìn qua ống kính, và thế giới ngươi nhìn khi có Pokémon bên cạnh…$Cùng một thế giới nhưng lại có thể trông hoàn toàn khác biệt tùy thuộc vào góc nhìn của ngươi."
+    },
+    "defeat": {
+      "1": "Bức ảnh ghi lại khoảnh khắc chiến thắng của ta chắc chắn sẽ là một tác phẩm xuất sắc nhất, rõ ràng là vậy rồi!",
+      "2": "Tuyệt vời! Ta đã chụp được một vài bức ảnh vô cùng xuất sắc rồi!"
+    }
+  },
+  "candice": {
+    "encounter": {
+      "1": "Ngươi muốn khiêu chiến với Candice sao? Được thôi! Ta vẫn luôn chờ đợi một ai đó thực sự mạnh mẽ đây!$Nhưng ta phải nói trước cho ngươi biết, ta mạnh là vì ta biết cách tập trung cao độ đấy.",
+      "1_female": "Ngươi muốn khiêu chiến với Candice sao? Được thôi! Ta vẫn luôn chờ đợi một ai đó thực sự mạnh mẽ đây!$Nhưng ta phải nói trước cho ngươi biết, ta mạnh là vì ta biết cách tập trung cao độ đấy.",
+      "2": "Pokémon, thời trang, hay sự lãng mạn… Tất cả đều nằm ở sự tập trung!$Ta sẽ cho ngươi thấy chính xác ý của ta là gì. Chuẩn bị tinh thần nếm mùi thất bại đi!"
+    },
+    "victory": {
+      "1": "Ta phải thừa nhận là ta đã có cảm tình với ngươi rồi đấy! Thậm chí ta còn có chút ngưỡng mộ ngươi nữa cơ.",
+      "2": "Oa! Ngươi đỉnh thật đấy! Ngươi đã giành được sự tôn trọng từ ta rồi!$Ta nghĩ chính sự tập trung và ý chí của ngươi đã hoàn toàn đánh gục bọn ta.",
+      "2_female": "Oa! Ngươi đỉnh thật đấy! Ngươi đã giành được sự tôn trọng từ ta rồi! $Ta nghĩ chính sự tập trung và ý chí của ngươi đã hoàn toàn đánh gục bọn ta."
+    },
+    "defeat": {
+      "1": "Ta đã cảm nhận được ý chí chiến thắng của ngươi, nhưng ta sẽ không thua đâu!",
+      "2": "Thấy chưa? Sự tập trung của Candice đấy! Sự tập trung của Pokémon của ta cũng tuyệt vời không kém đâu!"
+    }
+  },
+  "gardenia": {
+    "encounter": {
+      "1": "Ngươi đang toát ra một hào quang chiến thắng đấy. Dù sao thì, trận này sẽ vui lắm đây. Khai chiến nào!"
+    },
+    "victory": {
+      "1": "Tuyệt vời! Ngươi thực sự rất cừ đấy, đúng không?",
+      "1_female": "Tuyệt vời! Ngươi thực sự rất cừ đấy, đúng không?"
+    },
+    "defeat": {
+      "1": "Đúng vậy! Ta và Pokémon của mình hoàn toàn ổn và vô cùng xuất sắc!"
+    }
+  },
+  "aaron": {
+    "encounter": {
+      "1": " Được rồi! Để tôi đấu với bạn nhé!"
+    },
+    "victory": {
+      "1": "Thi đấu Pokémon thật sự sâu sắc và phức tạp…"
+    },
+    "defeat": {
+      "1": "Chiến thắng một thành viên của Tứ Thiên Vương không phải là điều dễ dàng đạt được đâu."
+    }
+  },
+  "cress": {
+    "encounter": {
+      "1": "Chính xác là như vậy! Đối thủ mà ngươi phải đối mặt trong trận chiến này chính là ta và những Pokémon hệ Nước đáng kính của ta!"
+    },
+    "victory": {
+      "1": "Thua sao? Ta á? Ta không thể tin được chuyện này lại xảy ra."
+    },
+    "defeat": {
+      "1": "Đây là kết quả tất yếu một khi ta đã là đối thủ của ngươi."
+    }
+  },
+  "allister": {
+    "encounter": {
+      "1": "T-tôi là Allister.\nT-tới đây… Tôi lên đây…"
+    },
+    "victory": {
+      "1": "Tôi gần như đã đánh rơi cả chiếc mặt nạ của mình vì sốc đấy… Thật là…$Oa. Giờ thì tôi đã được tận mắt chứng kiến bản lĩnh thật sự của bạn rồi.",
+      "1_female": "Tôi gần như đã đánh rơi cả chiếc mặt nạ của mình vì sốc đấy… Thật là…$Oa. Giờ thì tôi đã được tận mắt chứng kiến bản lĩnh thật sự của bạn rồi."
+    },
+    "defeat": {
+      "1": "Th-thật là xuất sắc!"
+    }
+  },
+  "clay": {
+    "encounter": {
+      "1": "Hừm! Để ta phải chờ hơi bị lâu rồi đấy, nhóc con! Được rồi, đến lúc xem ngươi có thể làm được trò trống gì nào!",
+      "1_female": "Hừm! Để ta phải chờ hơi bị lâu rồi đấy, nhóc con! Được rồi, đến lúc xem ngươi có thể làm được trò trống gì nào!"
+    },
+    "victory": {
+      "1": "Chao ôi… Cảm giác thật tuyệt khi đã dốc hết toàn lực mà vẫn bị đánh bại!"
+    },
+    "defeat": {
+      "1": "Cái quan trọng nhất chính là cách mà ngươi đối mặt với thất bại. $Chính vì thế, những kẻ biết biến thất bại thành động lực để trở nên mạnh mẽ hơn mới thực sự là những đối thủ đáng gờm."
+    }
+  },
+  "kofu": {
+    "encounter": {
+      "1": "Ta sẽ chiêu đãi ngươi một \"bữa tiệc toàn món\" Pokémon hệ Nước luôn! Nhưng mà đừng có dại mà thử ăn tụi nó đấy nhé!"
+    },
+    "victory": {
+      "1": "Cá nhảy Veluza ơi! Ngươi năng nổ hoạt bát ghê chưa kìa! Mà nếu để ta tự nhận xét thì có khi là hơi QUÁ mức năng nổ rồi đấy!",
+      "1_female": "Cá nhảy Veluza ơi! Ngươi năng nổ hoạt bát ghê chưa kìa! Mà nếu để ta tự nhận xét thì có khi là hơi QUÁ mức năng nổ rồi đấy!"
+    },
+    "defeat": {
+      "1": "Nhớ quay lại đây tìm ta lần nữa đấy, nghe rõ chưa hả nhóc?"
+    }
+  },
+  "tulip": {
+    "encounter": {
+      "1": "Hãy để ta dùng tài nghệ của mình giúp cho những chú Pokémon bé bỏng, dễ thương của ngươi trở nên lộng lẫy và xinh đẹp hơn nữa nào!"
+    },
+    "victory": {
+      "1": "Sức mạnh của ngươi mang một phép màu kỳ diệu, một thứ ánh sáng rực rỡ mà chẳng có dòng nước nào có thể cuốn trôi đi được!"
+    },
+    "defeat": {
+      "1": "Biết sao không, trong ngành của ta, mấy kẻ thiếu tài năng ở mặt này hay mặt khác thường sẽ nhanh chóng biến mất tăm mất tích—chẳng bao giờ còn được ai nghe danh tới nữa đâu."
+    }
+  },
+  "sidney": {
+    "encounter": {
+      "1": "Ta thích cái ánh nhìn mà ngươi đang dành cho ta rồi đấy. Xem ra ngươi sẽ mang đến cho ta một trận đấu ra trò đây.$Tuyệt lắm! Trông khí thế đấy! Được rồi!$Ngươi và ta, hãy cùng nhau tận hưởng một trận chiến đỉnh cao mà chỉ có thể được trình diễn ngay tại nơi này thôi nào!"
+    },
+    "victory": {
+      "1": "Chà, ngươi thấy thế nào hả? Ta thua rồi! Cơ mà vui ghê gớm, nên là chẳng sao cả!"
+    },
+    "defeat": {
+      "1": "Đừng để bụng chuyện vừa rồi nhé, được chứ?"
+    }
+  },
+  "phoebe": {
+    "encounter": {
+      "1": "Trong lúc rèn luyện, ta đã thấu suốt và đạt đến khả năng giao cảm được với các Pokémon hệ Ma.$Đúng vậy, sợi dây liên kết giữa ta và các Pokémon của mình vô cùng bền chặt.$Thế nên, nhào vô đi, để xem ngươi có đủ sức gây ra dù chỉ một chút tổn thương lên Pokémon của ta hay không nào!"
+    },
+    "victory": {
+      "1": "Ôi, hỏng bét rồi. Ta đi tong và thua mất tiêu rồi."
+    },
+    "defeat": {
+      "1": "Ta cũng rất mong chờ được so tài với ngươi một lần nữa vào một ngày không xa đấy!"
+    }
+  },
+  "glacia": {
+    "encounter": {
+      "1": "Nãy giờ những gì ta chứng kiến chỉ toàn là mấy lời thách thức đến từ lũ Huấn luyện viên yếu ớt cùng đám Pokémon của chúng thôi.$Còn ngươi thì sao đây? Sẽ chẳng có gì khiến ta thỏa mãn hơn việc được tung hết toàn bộ sức mạnh để chiến một trận ra trò với ngươi đâu!"
+    },
+    "victory": {
+      "1": "Ngươi và Pokémon của mình… Ngọn lửa tinh thần của các ngươi rực cháy nóng bỏng làm sao!$Cái nóng rực thiêu rụi mọi thứ ấy đã hoàn toàn áp đảo ta.$Chẳng có gì ngạc nhiên khi những kỹ năng băng giá của ta lại thất bại trong việc làm tổn thương các ngươi cả."
+    },
+    "defeat": {
+      "1": "Thực sự là một trận chiến rực lửa và đầy đam mê đấy!"
+    }
+  },
+  "drake": {
+    "encounter": {
+      "1": "Để chúng ta có thể chiến đấu cùng các Pokémon với tư cách là những cộng sự, ngươi có biết điều đó đòi hỏi những gì không?$Ngươi có biết thứ gì là cần thiết không?$Nếu ngươi không biết, thì ngươi sẽ chẳng bao giờ có thể chiến thắng được ta đâu!"
+    },
+    "victory": {
+      "1": "Tuyệt vời ông mặt trời, phải nói là như thế đấy!"
+    },
+    "defeat": {
+      "1": "Ta đã dốc hết toàn bộ sức lực cho trận chiến đó rồi!"
+    }
+  },
+  "wallace": {
+    "encounter": {
+      "1": "Có điều gì đó rất đặc biệt ở ngươi… Một sự khác biệt rõ rệt trong thần thái.$Ta nghĩ mình có thể cảm nhận được điều đó từ ngươi đấy. Giờ thì, hãy cho ta thấy đi.$Hãy cho ta thấy sức mạnh mà ngươi đang nắm giữ cùng với Pokémon của mình nào.$Và để đáp lại, ta cùng các Pokémon của mình cũng sẽ trình diễn cho ngươi chiêm ngưỡng một màn ảo thuật của nước đầy mê hoặc!"
+    },
+    "victory": {
+      "1": "Bravo! Giờ thì ta đã hoàn toàn nhận ra sự chân chính và vẻ ngoài tráng lệ của ngươi với tư cách là một Huấn luyện viên Pokémon rồi.$Ta cảm thấy vô cùng hạnh phúc khi được gặp gỡ ngươi cùng các Pokémon của ngươi.$Ngươi đã chứng minh được bản thân hoàn toàn xứng đáng rồi đấy.",
+      "1_female": "Bravo! Giờ thì ta đã hoàn toàn nhận ra sự chân chính và vẻ ngoài tráng lệ của ngươi với tư cách là một Huấn luyện viên Pokémon rồi.$Ta cảm thấy vô cùng hạnh phúc khi được gặp gỡ ngươi cùng các Pokémon của ngươi.$Ngươi đã chứng minh được bản thân hoàn toàn xứng đáng rồi đấy."
+    },
+    "defeat": {
+      "1": "Một màn ảo thuật thật vĩ đại!"
+    }
+  },
+  "lorelei": {
+    "encounter": {
+      "1": "Khi nói đến Pokémon hệ Băng thì chẳng một ai có thể đánh bại được ta đâu!$Những chiêu thức đóng băng sở hữu sức mạnh vô cùng khủng khiếp!$Pokémon của ngươi sẽ chỉ còn nước nằm im chịu trận một khi bị đóng băng cứng ngắc mà thôi! Ha ha ha! Ngươi đã sẵn sàng chưa hả?",
+      "1_female": "Khi nói đến Pokémon hệ Băng thì chẳng một ai có thể đánh bại được ta đâu!$Những chiêu thức đóng băng sở hữu sức mạnh vô cùng khủng khiếp!$Pokémon của ngươi sẽ chỉ còn nước nằm im chịu trận một khi bị đóng băng cứng ngắc mà thôi! Ha ha ha! Ngươi đã sẵn sàng chưa hả?"
+    },
+    "victory": {
+      "1": "Sao ngươi dám hả!"
+    },
+    "defeat": {
+      "1": "Chẳng có gì ngươi có thể làm được một khi đã bị đóng băng đâu!",
+      "1_female": "Chẳng có gì ngươi có thể làm được một khi đã bị đóng băng đâu!"
+    }
+  },
+  "will": {
+    "encounter": {
+      "1": "Ta đã chu du và huấn luyện khắp mọi nơi trên thế giới, khiến cho các Pokémon hệ Ngoại cảm của mình trở nên vô cùng mạnh mẽ.$Ta sẽ chỉ ngày một tiến bộ hơn mà thôi! Thua cuộc không bao giờ là một lựa chọn của ta cả!"
+    },
+    "victory": {
+      "1": "Ta… Ta không thể… tin được chuyện này…"
+    },
+    "defeat": {
+      "1": "Suýt chút nữa là tiêu rồi. Ta tự hỏi rốt cuộc ngươi còn thiếu sót điều gì nhỉ?"
+    }
+  },
+  "malva": {
+    "encounter": {
+      "1": "Ta cảm giác như trái tim mình sắp sửa nổ tung thành ngọn lửa vậy.$Ta đang bừng bừng bốc hỏa bởi lòng căm thù dành cho ngươi đây, đồ nhóc con ạ!",
+      "1_female": "Ta cảm giác như trái tim mình sắp sửa nổ tung thành ngọn lửa vậy.$Ta đang bừng bừng bốc hỏa bởi lòng căm thù dành cho ngươi đây, đồ nhóc con ạ!"
+    },
+    "victory": {
+      "1": "Tin tức gì thế này… Vậy là một kẻ thách đấu mới đã đánh bại Malva rồi sao!",
+      "1_female": "Tin tức gì thế này… Vậy là một kẻ thách đấu mới đã đánh bại Malva rồi sao!"
+    },
+    "defeat": {
+      "1": "Ta vô cùng thích thú! Phải, thật là thích thú khi có thể giẫm nát ngươi dưới gót chân của mình."
+    }
+  },
+  "hala": {
+    "encounter": {
+      "1": "Lão già Hala ta ở đây là để khiến ngươi phải thét lên đấy!",
+      "1_female": "Lão già Hala ta ở đây là để khiến ngươi phải thét lên đấy!"
+    },
+    "victory": {
+      "1": "Ta có thể cảm nhận được sức mạnh mà ngươi đã tích lũy được trên suốt cuộc hành trình của mình đấy."
+    },
+    "defeat": {
+      "1": "Haha! Thật là một trận chiến vô cùng sảng khoái và thú vị làm sao!"
+    }
+  },
+  "molayne": {
+    "encounter": {
+      "1": "Ta đã nhường lại vị trí Thủ lĩnh cho người em họ Sophocles của mình, nhưng ta hoàn toàn tự tin vào năng lực của bản thân.$Sức mạnh của ta tựa như một vụ nổ siêu tân tinh vậy!"
+    },
+    "victory": {
+      "1": "Ta chắc chắn đã tìm thấy một Nhà huấn luyện vô cùng thú vị để đối đầu rồi đấy!",
+      "1_female": "Ta chắc chắn đã tìm thấy một Nhà huấn luyện vô cùng thú vị để đối đầu rồi đấy!"
+    },
+    "defeat": {
+      "1": "Ahaha. Thật là một trận chiến thú vị làm sao."
+    }
+  },
+  "rika": {
+    "encounter": {
+      "1": "Ta định bảo là sẽ nương tay với ngươi đấy, nhưng mà… như vậy là nói dối rồi! Đỡ này!"
+    },
+    "victory": {
+      "1": "Không tồi đâu, nhóc con ạ.",
+      "1_female": "Không tồi đâu, nhóc con ạ."
+    },
+    "defeat": {
+      "1": "Nahahaha! Nhóc thực sự là một người vô cùng đặc biệt đấy, nhóc con ạ!",
+      "1_female": "Nahahaha! Nhóc thực sự là một người vô cùng đặc biệt đấy, nhóc con ạ!"
+    }
+  },
+  "bruno": {
+    "encounter": {
+      "1": "Bọn ta sẽ nghiền nát ngươi bằng sức mạnh vượt trội này! Hoo hah!"
+    },
+    "victory": {
+      "1": "Tại sao chứ? Làm sao ta có thể thua được cơ chứ?"
+    },
+    "defeat": {
+      "1": "Ngươi có thể thách thức ta bao nhiêu tùy thích, nhưng kết quả sẽ chẳng bao giờ thay đổi đâu!"
+    }
+  },
+  "bugsy": {
+    "encounter": {
+      "1": "Ta là Bugsy! Khi nhắc đến Pokémon hệ Bọ thì ta chưa bao giờ nếm mùi thất bại đâu đấy!"
+    },
+    "victory": {
+      "1": "Oà, tuyệt vời thật đấy! Ngươi đúng là một chuyên gia về Pokémon rồi! Nghiên cứu của ta vẫn chưa hoàn thành xong nữa.$Được rồi, ngươi thắng.",
+      "1_female": "Oà, tuyệt vời thật đấy! Ngươi đúng là một chuyên gia về Pokémon rồi! Nghiên cứu của ta vẫn chưa hoàn thành xong nữa.$Được rồi, ngươi thắng."
+    },
+    "defeat": {
+      "1": "Cảm ơn nhé! Nhờ có trận chiến của chúng ta mà ta cũng đã có thể tiến thêm một bước dài trong nghiên cứu của mình rồi đấy!"
+    }
+  },
+  "koga": {
+    "encounter": {
+      "1": "Fwahahahaha! Pokémon không chỉ đơn thuần là dùng sức mạnh cơ bắp thôi đâu—ngươi sẽ sớm được tận mắt chứng kiến điều đó thôi!"
+    },
+    "victory": {
+      "1": "Ah! Ngươi đã chứng minh được giá trị của bản thân rồi đấy!"
+    },
+    "defeat": {
+      "1": "Ngươi đã biết sợ hãi trước những bí kỹ của ninja chưa hả?"
+    }
+  },
+  "bertha": {
+    "encounter": {
+      "1": "Chà, vậy thì ngươi có thể cho bà già này thấy xem ngươi đã học hỏi được những gì rồi không nào?"
+    },
+    "victory": {
+      "1": "Chà! Đứa trẻ thân mến, ta phải thừa nhận rằng điều đó thật sự vô cùng ấn tượng.$Các Pokémon của con đã đặt trọn niềm tin vào con và chiến đấu hết mình để giành lấy chiến thắng này.$Dù cho bản thân là người thua cuộc, ta lại thấy mình đang nở một nụ cười thật ngốc nghếch đây này!"
+    },
+    "defeat": {
+      "1": "Hahahahah! Xem ra bà già này mới là người giành chiến thắng rồi!"
+    }
+  },
+  "lenora": {
+    "encounter": {
+      "1": "Vậy thì, hỡi kẻ thách thức, ta sẽ nghiên cứu xem ngươi chiến đấu ra sao cùng với những Pokémon mà ngươi đã nuôi nấng bằng tất cả tình yêu thương của mình nhé!",
+      "1_female": "Vậy thì, hỡi kẻ thách thức, ta sẽ nghiên cứu cách ngươi chiến đấu cùng với những Pokémon mà ngươi đã nuôi nấng bằng tất cả tình yêu thương của mình nhé!"
+    },
+    "victory": {
+      "1": "Giả thuyết của ta về ngươi hoàn toàn chính xác rồi. Ngươi không chỉ đơn thuần là có tài năng đâu… Ngươi còn có cả ý chí và động lực nữa! Ta ngả mũ bái phục ngươi đấy!",
+      "1_female": "Giả thuyết của ta về ngươi hoàn toàn chính xác rồi. Ngươi không chỉ đơn thuần là có tài năng đâu…$Ngươi còn có cả ý chí và động lực nữa! Ta ngả mũ bái phục ngươi đấy!"
+    },
+    "defeat": {
+      "1": "Ah ha ha! Nếu ngươi có thất bại thì cũng hãy nhớ phân tích kỹ lý do tại sao, rồi đem những kinh nghiệm đó áp dụng vào trận chiến tiếp theo nhé!"
+    }
+  },
+  "siebold": {
+    "encounter": {
+      "1": "Chừng nào ta còn sống, ta sẽ vẫn tiếp tục tiến về phía trước để tìm kiếm nền ẩm thực tối thượng… và cả những đối thủ mạnh nhất trong các trận chiến!"
+    },
+    "victory": {
+      "1": "Ta sẽ lưu giữ mãi ký ức về ngươi cùng các Pokémon của ngươi sâu tận trong trái tim này."
+    },
+    "defeat": {
+      "1": "Trận chiến Pokémon của chúng ta giống như một món ăn nuôi dưỡng tâm hồn ta vậy. Nó sẽ là nguồn động lực giúp ta tiếp tục vững bước.$Đó chính là cách mà ta sẽ thể hiện sự tôn kính đối với ngươi vì đã chiến đấu hết mình!",
+      "1_female": "Trận chiến Pokémon của chúng ta giống như một món ăn nuôi dưỡng tâm hồn ta vậy. Nó sẽ là nguồn động lực giúp ta tiếp tục vững bước.$Đó chính là cách mà ta sẽ thể hiện sự tôn kính đối với ngươi vì đã chiến đấu hết mình!"
+    }
+  },
+  "roxie": {
+    "encounter": {
+      "1": "Hãy chuẩn bị tinh thần đi! Ta sẽ đánh cho ngươi tỉnh ra mới thôi!"
+    },
+    "victory": {
+      "1": "Thật hoang dại! Lý do của ngươi thậm chí còn \"độc hại\" hơn cả ta rồi đấy!"
+    },
+    "defeat": {
+      "1": "Nào, thôi nào! Nghiêm túc chút đi chứ! Ngươi phải tung hết sức mình ra hơn nữa xem nào!",
+      "1_female": "Nào, thôi nào! Nghiêm túc chút đi chứ! Ngươi phải tung hết sức mình ra hơn nữa xem nào!"
+    }
+  },
+  "olivia": {
+    "encounter": {
+      "1": "Không cần phải giới thiệu dông dài ở đây nữa. Đến lúc chiến đấu với ta rồi, Olivia!"
+    },
+    "victory": {
+      "1": "Thật sự rất đáng yêu… Cả ngươi và những Pokémon của ngươi nữa…"
+    },
+    "defeat": {
+      "1": "Mmm-hmm."
+    }
+  },
+  "poppy": {
+    "encounter": {
+      "1": "Ồồồ! Ngươi có muốn làm một trận quyết đấu Pokémon với ta không hả?"
+    },
+    "victory": {
+      "1": "Uagh?! Mmmuuuggghhh…"
+    },
+    "defeat": {
+      "1": "Yaaay! Tôi làm được rồi! Tôi đã \"đánh cẳng\" được bạn rồi! Bạn có thể đến để… Để… Một trận phục thù?$Đến để phục thù bất cứ lúc nào bạn muốn nhé!"
+    }
+  },
+  "agatha": {
+    "encounter": {
+      "1": "Pokémon là để chiến đấu! Ta sẽ cho ngươi thấy cách một Nhà huấn luyện thực thụ chiến đấu là như thế nào!"
+    },
+    "victory": {
+      "1": "Ôi chu du đất trời ơi! Nhóc quả là một đứa trẻ vô cùng đặc biệt đấy!"
+    },
+    "defeat": {
+      "1": "Bahaha. Trận chiến thực thụ thì phải như thế chứ!"
+    }
+  },
+  "flint": {
+    "encounter": {
+      "1": "Hy vọng là ngươi đã khởi động kỹ rồi, vì cú nổ Big Bang chuẩn bị xuất kích đây!",
+      "1_female": "Hy vọng là ngươi đã khởi động kỹ rồi, vì cú nổ Big Bang chuẩn bị xuất kích đây!"
+    },
+    "victory": {
+      "1": "Thật không thể tin nổi! Những chiêu thức của ngươi nóng bỏng đến mức khiến chiêu của ta trông cứ như nguội lạnh vậy!"
+    },
+    "defeat": {
+      "1": "Hả? Chỉ vậy thôi sao? Tôi nghĩ bạn cần thêm chút nhiệt huyết nữa."
+    }
+  },
+  "grimsley": {
+    "encounter": {
+      "1": "Người thắng cuộc sẽ nhận được tất cả, và người thua cuộc sẽ chẳng còn gì."
+    },
+    "victory": {
+      "1": "Khi thua cuộc, người ta mất tất cả… Điều tiếp theo tôi tìm kiếm cũng chính là chiến thắng của mình!"
+    },
+    "defeat": {
+      "1": "Trong chiến đấu sẽ phải có kẻ thắng người thua."
+    }
+  },
+  "caitlin": {
+    "encounter": {
+      "1": "Chính tôi xuất hiện như bông hoa nở. Còn bạn, người đã chờ đợi…$Bạn trông giống như một Huấn luyện viên Pokémon với sức mạnh được tôi luyện và lòng tốt sâu sắc.$Điều tôi tìm kiếm ở đối thủ của mình là sức mạnh tuyệt vời.$Hãy cho tôi thấy nó đi.",
+      "1_female": "Chính tôi xuất hiện như bông hoa nở. Còn bạn, người đã chờ đợi…$Bạn trông giống như một Huấn luyện viên Pokémon với sức mạnh được tôi luyện và lòng tốt sâu sắc.$Điều tôi tìm kiếm ở đối thủ của mình là sức mạnh tuyệt vời.$Hãy cho tôi thấy nó đi."
+    },
+    "victory": {
+      "1": "Tôi và Pokémon của mình đã học được rất nhiều điều! Tôi xin gửi lời cảm ơn đến bạn."
+    },
+    "defeat": {
+      "1": "Tôi mong muốn giành chiến thắng một cách thanh lịch và duyên dáng."
+    }
+  },
+  "diantha": {
+    "encounter": {
+      "1": "Đối đầu với bạn và Pokémon của bạn, tất cả đều tràn đầy hy vọng về tương lai…$Thành thật mà nói, điều đó tiếp thêm cho tôi nguồn năng lượng cần thiết để tiếp tục đối mặt với mỗi ngày mới! Thật đấy!"
+    },
+    "victory": {
+      "1": "Chứng kiến tinh thần cao thượng của bạn và các Pokémon của bạn trong trận chiến thực sự đã chạm đến trái tim tôi…",
+      "1_female": "Chứng kiến tinh thần cao thượng của bạn và các Pokémon của bạn trong trận chiến thực sự đã chạm đến trái tim tôi…"
+    },
+    "defeat": {
+      "1": "Ồ, tuyệt vời! Bạn thấy thế nào? Đội của tôi khá tuyệt phải không?"
+    }
+  },
+  "wikstrom": {
+    "encounter": {
+      "1": "Chào mừng, người thách đấu trẻ tuổi! Ta chính là lưỡi kiếm thép tôi luyện lừng danh, Công tước Wikstrom!$Hãy bắt đầu trận chiến nào! En garde!",
+      "1_female": "Chào mừng, người thách đấu trẻ tuổi! Ta chính là lưỡi kiếm thép tôi luyện lừng danh, Công tước Wikstrom!$Hãy bắt đầu trận chiến nào! En garde!"
+    },
+    "victory": {
+      "1": "Tuyệt vời! Niềm tin mà bạn dành cho chú Pokémon đáng kính của mình còn vượt xa cả niềm tin của tôi!",
+      "1_female": "Tuyệt vời! Niềm tin mà bạn dành cho chú Pokémon đáng kính của mình còn vượt xa cả niềm tin của tôi!"
+    },
+    "defeat": {
+      "1": "Phép màu gì thế này? Tim tôi đập thình thịch trong lồng ngực!$Chiến thắng trước một đối thủ đáng gờm như vậy khiến tâm hồn tôi như được chắp cánh bay cao!",
+      "1_female": "Phép màu gì thế này? Tim tôi đập thình thịch trong lồng ngực!$Chiến thắng trước một đối thủ đáng gờm như vậy khiến tâm hồn tôi như được chắp cánh bay cao!"
+    }
+  },
+  "acerola": {
+    "encounter": {
+      "1": "Đấu Pokémon thật là vui! Nào lên đi, tôi chắc có thể thắng bạn đó!"
+    },
+    "victory": {
+      "1": "Tôi… tôi không nói nên lời! Bạn làm thế nào vậy?!"
+    },
+    "defeat": {
+      "1": "Ehaha! Một chiến thắng tuyệt vời!"
+    }
+  },
+  "larryElite": {
+    "encounter": {
+      "1": "Chào… Tôi là Larry. Tôi cũng là một thành viên của Tứ Thiên Vương… Thật không may."
+    },
+    "victory": {
+      "1": "Chà, chúng ta mất hết động lực luôn rồi…"
+    },
+    "defeat": {
+      "1": "Đến lúc họp lại với sếp rồi."
+    }
+  },
+  "lance": {
+    "encounter": {
+      "1": "Tôi đã chờ bạn rất lâu. Hãy cho phép tôi kiểm tra kỹ năng chiến đấu của bạn nhé.",
+      "2": "Tôi biết bạn sẽ đi được đến đây. Vậy chúng ta bắt đầu thôi nhé."
+    },
+    "victory": {
+      "1": "Bạn đã thuyết phục được tôi. Bạn thật tuyệt vời!",
+      "1_female": "Bạn đã thuyết phục được tôi. Bạn thật tuyệt vời!",
+      "2": "Tôi không ngờ rằng có một huấn luyện viên khác lại có thể đánh bại tôi… Tôi rất ngạc nhiên.",
+      "2_female": "Tôi không ngờ rằng có một huấn luyện viên khác lại có thể đánh bại tôi… Tôi rất ngạc nhiên."
+    },
+    "defeat": {
+      "1": "Suýt nữa thì cậu thắng rồi. Muốn thử lại không?",
+      "2": "Bạn không yếu đâu. Đừng để thất bại này làm bạn phiền lòng.",
+      "2_female": "Bạn không yếu đâu. Đừng để thất bại này làm bạn phiền lòng."
+    }
+  },
+  "karen": {
+    "encounter": {
+      "1": "Chị là Karen. Em có muốn đấu tay đôi với Pokémon hệ Bóng tối của chị không?",
+      "2": "Chị không giống với những người phụ nữ khác mà em đã từng gặp đâu.",
+      "3": "Em đã tập hộp một đội tuyệt vời. Trận chiến của chúng ta hứa hẹn sẽ rất hấp dẫn đây."
+    },
+    "victory": {
+      "1": "Không! Chị không thể thắng ư. Sao em lại mạnh đến thế?",
+      "2": "Dù thất bại nhưng chị sẽ không đi chệch khỏi con đường mình đã chọn.",
+      "3": "Nhà vô địch rất mong được gặp em đó."
+    },
+    "defeat": {
+      "1": "Đúng như điều chị dự đoán.",
+      "2": "Chà, cũng khá là thú vị đấy.",
+      "3": "Hãy đến thăm chị bất cứ lúc nào."
+    }
+  },
+  "milo": {
+    "encounter": {
+      "1": "Có vẻ như bạn hiểu rất rõ về Pokémon.$Trận chiến này sẽ rất gay cấn đây!$Mình phải dùng Dynamax cho Pokémon của mình nếu muốn thắng!"
+    },
+    "victory": {
+      "1": "Sức mạnh của Cỏ cũng đã héo tàn… Thật là một đối thủ đáng gờm!",
+      "1_female": "Sức mạnh của Cỏ cũng đã héo tàn… Thật là một đối thủ đáng gờm!"
+    },
+    "defeat": {
+      "1": "Điều này chắc chắn đã làm bạn kinh ngạc và sửng sốt đúng không."
+    }
+  },
+  "lucian": {
+    "encounter": {
+      "1": "Xin chờ một chút. Cuốn sách tôi đang đọc gần đến cao trào gay cấn rồi…$Người hùng đã có được một thanh kiếm thần bí và sắp phải đối mặt với thử thách cuối cùng…À, thôi kệ đi.$Vì cậu đã đến tận đây rồi, tôi sẽ gác chuyện đó lại và đấu với cậu. $Để xem cậu có đạt được vinh quang như người hùng trong cuốn sách của tôi không nhé!"
+    },
+    "victory": {
+      "1": "Tôi hiểu rồi… Có vẻ như cậu đã chiếu tướng tôi rồi."
+    },
+    "defeat": {
+      "1": "Tôi cần giữ gìn danh tiếng của mình."
+    }
+  },
+  "drasna": {
+    "encounter": {
+      "1": "Bạn hẳn là một Huấn luyện viên mạnh mẽ. Vâng, thực sự rất mạnh…$Đó là tin tuyệt vời! Đối đầu với những đối thủ như bạn và đội của bạn sẽ giúp Pokémon của tôi phát triển nhanh như thổi!",
+      "1_female": "Cháu hẳn là một Huấn luyện viên mạnh mẽ. Vâng, thực sự rất mạnh…$Đó là tin tuyệt vời! Đối đầu với những đối thủ như cháu sẽ giúp Pokémon của bà phát triển nhanh như thổi!"
+    },
+    "victory": {
+      "1": "Ôi trời. Trận chiến diễn ra nhanh thật… Bà hy vọng cháu sẽ quay lại lần nữa!"
+    },
+    "defeat": {
+      "1": "Sao lại có thể chứ?"
+    }
+  },
+  "kahili": {
+    "encounter": {
+      "1": "Vậy đấy, bạn đây rồi… Sao chúng ta không thử xem hôm nay gió đông sẽ thuận chiều ai, bạn… hay tôi?"
+    },
+    "victory": {
+      "1": "Là một thành viên của Tứ Thiên Vương, tôi cảm thấy rất khó chịu, nhưng có vẻ như sức mạnh của bạn là thật."
+    },
+    "defeat": {
+      "1": "Tuyệt vời!"
+    }
+  },
+  "hassel": {
+    "encounter": {
+      "1": "Hãy chuẩn bị để trải nghiệm trực tiếp cảm giác hơi thở rực lửa của trận chiến khốc liệt đi!",
+      "1_female": "Hãy chuẩn bị để trải nghiệm trực tiếp cảm giác hơi thở rực lửa của trận chiến khốc liệt đi!"
+    },
+    "victory": {
+      "1": "Con rồng hùng mạnh nào rồi cũng gục ngã!"
+    },
+    "defeat": {
+      "1": "Lần này vận may mỉm cười với tôi, nhưng…$Xét theo diễn biến trận đấu, ai biết được lần sau tôi có còn may mắn như vậy nữa không.",
+      "1_female": "Lần này vận may mỉm cười với tôi, nhưng…$Xét theo diễn biến trận đấu, ai biết được lần sau tôi có còn may mắn như vậy nữa không."
+    }
+  },
+  "blue": {
+    "encounter": {
+      "1": "Bạn hẳn phải rất giỏi mới có thể tiến xa đến vậy.",
+      "1_female": " Bạn hẳn phải rất giỏi mới có thể tiến xa đến vậy."
+    },
+    "victory": {
+      "1": "Tôi chỉ thua anh ta thôi, và giờ lại thua cả cậu nữa sao… Anh ta à? Cậu ấy thật sự rất mạnh…"
+    },
+    "defeat": {
+      "1": "Thấy chưa? Chính sức mạnh của tôi đã đưa tôi đến đây."
+    }
+  },
+  "piers": {
+    "encounter": {
+      "1": "Hãy sẵn sàng cho một màn mosh pit cùng tôi và nhóm của tôi! Spikemuth, đã đến lúc khuấy động lên rồi!"
+    },
+    "victory": {
+      "1": "Tôi và đồng đội đã cố gắng hết sức. Hẹn gặp lại nhau để tranh tài vào lúc khác nhé…"
+    },
+    "defeat": {
+      "1": "Cổ họng tôi đã khản đặc vì la hét rồi… Nhưng đó quả là một trận chiến gay cấn!"
+    }
+  },
+  "red": {
+    "encounter": {
+      "1": "…!"
+    },
+    "victory": {
+      "1": "…?"
+    },
+    "defeat": {
+      "1": "…!"
+    }
+  },
+  "jasmine": {
+    "encounter": {
+      "1": "Ồ… Pokémon của bạn thật ấn tượng. Tôi nghĩ mình sẽ có thể chiến hết sức đấy."
+    },
+    "victory": {
+      "1": "Bạn thật sự rất mạnh mẽ. Tôi cũng phải cố gắng hơn nữa rồi."
+    },
+    "defeat": {
+      "1": "Tôi chưa bao giờ nghĩ mình sẽ thắng."
+    }
+  },
+  "lanceChampion": {
+    "encounter": {
+      "1": "Tôi vẫn là nhà vô địch. Tôi sẽ không kiềm chế lại gì nữa đâu."
+    },
+    "victory": {
+      "1": "Đây là hào quang của một nhà vô địch mới sao.",
+      "1_female": "Đây là hào quang của một nhà vô địch mới sao."
+    },
+    "defeat": {
+      "1": "Tôi đã bảo vệ thành công chức vô địch của mình."
+    }
+  },
+  "steven": {
+    "encounter": {
+      "1": "Hãy nói cho tôi… Nhưng gì cậu đã thấy trong cuộc hành thì với Pokémon của mình?$Cảm nhận của cậu khi gặp biết bao nhà huấn luyện khác nhau ngoài kia?$Du hành tại mảnh đất này… Nó có đánh thức điều gì trong cậu không?$Hãy tới đây và cho tôi thấy câu trả lời của cậu đi.$Tất nhiên Pokémon của tôi và tôi cũng sẽ cho cậu thấy câu trả lời của mình!",
+      "1_female": "Hãy nói cho tôi… Nhưng gì cậu đã thấy trong cuộc hành thì với Pokémon của mình?$Cảm nhận của cậu khi gặp biết bao nhà huấn luyện khác nhau ngoài kia?$Du hành tại mảnh đất này… Nó có đánh thức điều gì trong cậu không?$Hãy tới đây và cho tôi thấy câu trả lời của cậu đi.$Tất nhiên Pokémon của tôi và tôi cũng sẽ cho cậu thấy câu trả lời của mình!"
+    },
+    "victory": {
+      "1": "Vậy cuối cùng, nhà vô địch cũng phải khụy gối thua cuộc..."
+    },
+    "defeat": {
+      "1": "Trận chiến thật đáng giá! Cảm ơn bạn!"
+    }
+  },
+  "cynthia": {
+    "encounter": {
+      "1": "Tôi, Cynthia, chấp nhận lời thách đấu của cậu! Rất mong cậu đã sẵn sàng bởi tôi sẽ không nương tay đâu!"
+    },
+    "victory": {
+      "1": "Trận đấu dù có vui đến đâu, thì cũng phải kết thúc thôi..."
+    },
+    "defeat": {
+      "1": "Dù thua cuộc, đừng bao giờ đánh mất tình yêu dành cho Pokémon."
+    }
+  },
+  "iris": {
+    "encounter": {
+      "1": "Bạn biết không? Tôi thực sự rất mong chờ những trận đấu tuyệt vời với các Huấn luyện viên mạnh mẽ!$Ý tôi là, thôi nào! Những huấn luyện viên đến được đây đều là những người khao khát chiến thắng bằng cả trái tim và cơ thể!$Và họ đang chiến đấu bên cạnh những Pokémon đã trải qua vô số trận chiến khó khăn!$Nếu tôi chiến đấu với những người như vậy, tôi không chỉ mạnh hơn mà Pokémon của tôi cũng vậy!$Và chúng ta sẽ hiểu nhau hơn nữa! Được rồi! Hãy chuẩn bị tinh thần nhé!$Tôi là Iris, nhà vô địch vùng Unova, và tôi sẽ đánh bại bạn!",
+      "1_female": "Bạn biết không? Tôi thực sự rất mong chờ những trận đấu tuyệt vời với các Huấn luyện viên mạnh mẽ!$Ý tôi là, thôi nào! Những huấn luyện viên đến được đây đều là những người khao khát chiến thắng bằng cả trái tim và cơ thể!$Và họ đang chiến đấu bên cạnh những Pokémon đã trải qua vô số trận chiến khó khăn!$Nếu tôi chiến đấu với những người như vậy, tôi không chỉ mạnh hơn mà Pokémon của tôi cũng vậy!$Và chúng ta sẽ hiểu nhau hơn nữa! Được rồi! Hãy chuẩn bị tinh thần nhé!$Tôi là Iris, nhà vô địch vùng Unova, và tôi sẽ đánh bại bạn!"
+    },
+    "victory": {
+      "1": "Ôi trời… Tôi đã cố gắng hết sức rồi, nhưng chúng ta vẫn thua sao…"
+    },
+    "defeat": {
+      "1": "Hoan hô! Chúng ta thắng rồi!"
+    }
+  },
+  "kukui": {
+    "encounter": {
+      "1": "Ồ yeah chúc mừng, giờ bạn đã là Nhà vô địch giải đâu Pokémon rồi đấy!$Sẽ thật tuyệt nếu mọi chuyện đơn giản như vậy!$Nhưng sự thật là, bạn còn phải đấu với thêm một người nữa nếu muốn giành được danh hiệu đó.$Và dĩ nhiên, người huấn luyện đó chính là tôi. Tuyệt vời! Một trận chiến bùng nổ cuối cùng cho thử thách của bạn$Hãy cùng nhau tạo nên một trận chiến xứng tầm với khoảnh khắc này nào!",
+      "1_female": "Ồ yeah chúc mừng, giờ bạn đã là Nhà vô địch giải đâu Pokémon rồi đấy!$Sẽ thật tuyệt nếu mọi chuyện đơn giản như vậy!$Nhưng sự thật là, bạn còn phải đấu với thêm một người nữa nếu muốn giành được danh hiệu đó.$Và dĩ nhiên, người huấn luyện đó chính là tôi. Tuyệt vời! Một trận chiến bùng nổ cuối cùng cho thử thách của bạn$Hãy cùng nhau tạo nên một trận chiến xứng tầm với khoảnh khắc này nào!"
+    },
+    "victory": {
+      "1": "Tôi đã cố gắng hết sức nhưng vẫn không thắng… Nhưng cảm giác thật tuyệt vời!"
+    },
+    "defeat": {
+      "1": "Tôi rất vui vì có cơ hội được đối đầu với bạn và đội của bạn ở đây."
+    }
+  },
+  "hau": {
+    "encounter": {
+      "1": "Tôi tự hỏi liệu một Huấn luyện viên có chiến đấu khác nhau tùy thuộc vào việc họ đến từ vùng khí hậu ấm áp hay lạnh giá không nhỉ. Hãy cùng thực nghiệm nhé!"
+    },
+    "victory": {
+      "1": "Tuyệt vời! Tôi nghĩ giờ tôi đã hiểu được phong cách của bạn hơn một chút rồi!"
+    },
+    "defeat": {
+      "1": "Trời ơi, trận chiến đó thật là gay cấn!"
+    }
+  },
+  "geeta": {
+    "encounter": {
+      "1": "Cô đã quyết định thử sức mình thêm một lần nữa.$Nào… Hãy cho cô thấy thành quả của quá trình huấn luyện của em đi."
+    },
+    "victory": {
+      "1": "Cô sẽ rất háo hức chờ đợi tin tức về tất cả những thành tựu của em đó!"
+    },
+    "defeat": {
+      "1": "Sao vậy? Em vẫn chưa thua đâu, phải không?"
+    }
+  },
+  "nemona": {
+    "encounter": {
+      "1": "Tuyệt vời! Mình hào hứng quá! Đến lúc chúng ta xả hơi rồi!"
+    },
+    "victory": {
+      "1": "Thật đáng tiếc, nhưng tôi vẫn rất vui! Lần sau tôi sẽ chắc chắn thắng cậu!"
+    },
+    "defeat": {
+      "1": "Quả là một trận chiến tuyệt vời! Cậu đã rất cừ đó."
+    }
+  },
+  "leon": {
+    "encounter": {
+      "1": "Chúng ta sẽ có một khoảng thời gian tuyệt vời trong trận đấu này đây!"
+    },
+    "victory": {
+      "1": "Thời gian tôi giữ chức vô địch đã kết thúc…$Nhưng đó quả là một khoảng thời gian tuyệt vời!$Cảm ơn vì trận chiến tuyệt vời nhất mà tôi từng trải qua!"
+    },
+    "defeat": {
+      "1": "Quả là một trận đấu tuyệt vời!"
+    }
+  },
+  "mustard": {
+    "encounter": {
+      "1": "Đã lâu rồi ta mới lại hào hứng đến thế! Ta có thể cảm nhận được máu mình đang sôi sục và tim đập thình thịch vì hồi hộp!$Ta không thể cưỡng lại được một trận đấu với đối thủ xứng tầm - cho dù ta có già đến đâu đi nữa!$Nào… Chúng ta bắt đầu thôi! Đây là thời khắc ta chờ đợi nhất đấy!"
+    },
+    "victory": {
+      "1": "Fuhaha! Ta đã dốc hết sức mình, vậy mà nhóc vẫn đánh bại được ta!$Có vẻ như ta sẽ phải tự học lại toàn bộ chương trình đào tạo của mình rồi!"
+    },
+    "defeat": {
+      "1": "Hì hì hì! Hình như ta thắng rồi! Nhóc cũng đã chiến đấu rất kiên cường đấy.$Chúng ta cùng làm lại nhé!",
+      "1_female": "Hì hì hì! Hình như ta thắng rồi! Nhóc cũng đã chiến đấu rất kiên cường đấy.$Chúng ta cùng làm lại nhé!"
+    }
+  },
+  "whitney": {
+    "encounter": {
+      "1": "Này! Bạn không thấy Pokémon dễ thương quá trời luôn sao?"
+    },
+    "victory": {
+      "1": "Ôi trời! Ôi trời! Bạn thật là độc ác quá à!",
+      "1_female": "Ôi trời! Ôi trời! Bạn thật là độc ác quá à!"
+    },
+    "defeat": {
+      "1": "Vậy là xong!"
+    }
+  },
+  "chuck": {
+    "encounter": {
+      "1": "Hừ! Ngươi muốn thách thức ta à? Ngươi dũng cảm hay chỉ là ngu dốt thôi?",
+      "1_female": "Hừ! Ngươi muốn thách thức ta à? Ngươi dũng cảm hay chỉ là ngu dốt thôi?"
+    },
+    "victory": {
+      "1": "Bạn rất khỏe! Bạn có thể nhận tôi làm đệ tử được không?",
+      "1_female": "Bạn rất khỏe! Bạn có thể nhận tôi làm đệ tử được không?"
+    },
+    "defeat": {
+      "1": "Đấy. Ngươi đã nhận ra ta mạnh hơn ngươi nhiều đến bao nhiêu không?"
+    }
+  },
+  "katy": {
+    "encounter": {
+      "1": "Đừng bao giờ lơ là cảnh giác, nếu không bạn sẽ bị đánh gục đấy!",
+      "1_female": "Đừng bao giờ lơ là cảnh giác, nếu không bạn sẽ bị đánh gục đấy!"
+    },
+    "victory": {
+      "1": "Tất cả những chú Pokémon nhỏ bé đáng yêu của tôi đều gục ngã như lá rụng rồi!"
+    },
+    "defeat": {
+      "1": "Ăn đi nào, Vivillon bé nhỏ đáng yêu của ta!"
+    }
+  },
+  "pryce": {
+    "encounter": {
+      "1": "Tuổi trẻ thôi chưa đủ để đảm bảo chiến thắng! Kinh nghiệm mới là yếu tố quan trọng."
+    },
+    "victory": {
+      "1": "Tuyệt vời! Hoàn hảo! Cố gắng đừng quên cảm giác này nhé."
+    },
+    "defeat": {
+      "1": "Đúng như tôi đã hình dung rồi."
+    }
+  },
+  "clair": {
+    "encounter": {
+      "1": "Ngươi có biết ta là ai không? Mà ngươi vẫn dám thách thức ta sao?"
+    },
+    "victory": {
+      "1": "Ta tự hỏi với trình độ kỹ năng của ngươi, có thể tiến xa đến đâu. Điều này chắc chắn sẽ rất thú vị đây."
+    },
+    "defeat": {
+      "1": "Vậy là xong."
+    }
+  },
+  "maylene": {
+    "encounter": {
+      "1": "Ta đến đây để thách đấu ngươi, và ta sẽ không nương tay đâu.$Hãy chuẩn bị tinh thần đi!",
+      "1_female": "Ta đến đây để thách đấu ngươi, và ta sẽ không nương tay đâu.$Hãy chuẩn bị tinh thần đi!"
+    },
+    "victory": {
+      "1": "Tôi thừa nhận thất bại…"
+    },
+    "defeat": {
+      "1": "Tuyệt vời!"
+    }
+  },
+  "fantina": {
+    "encounter": {
+      "1": "Ngươi sẽ thách đấu ta, phải không? Nhưng ta sẽ thắng. Đó là điều mà Trưởng Hội Quán Hearthome thường làm, phải chứ?"
+    },
+    "victory": {
+      "1": "Bạn thật sự rất mạnh mẽ. Tôi biết tại sao mình lại thua rồi."
+    },
+    "defeat": {
+      "1": "Tôi vô cùng, vô cùng hạnh phúc!"
+    }
+  },
+  "byron": {
+    "encounter": {
+      "1": "Huấn luyện viên! Cậu còn trẻ, giống như con trai tôi, Roark vậy.$Với ngày càng nhiều Huấn luyện viên trẻ đảm nhận vai trò lãnh đạo, tương lai của Pokémon sẽ tươi sáng hơn bao giờ hết!$Vậy nên, với tư cách là một bức tường dành cho giới trẻ, tôi xin nhận lời thách thức của các bạn!",
+      "1_female": "Huấn luyện viên! Cậu còn trẻ, giống như con trai tôi, Roark vậy.$Với ngày càng nhiều Huấn luyện viên trẻ đảm nhận vai trò lãnh đạo, tương lai của Pokémon sẽ tươi sáng hơn bao giờ hết!$Vậy nên, với tư cách là một bức tường dành cho giới trẻ, tôi xin nhận lời thách thức của các bạn!"
+    },
+    "victory": {
+      "1": "Hừm! Pokémon mạnh mẽ của ta đã bị đánh bại!"
+    },
+    "defeat": {
+      "1": "Gwahahaha! Cậu thấy những chú Pokémon mạnh mẽ của ta thế nào?!"
+    }
+  },
+  "olympia": {
+    "encounter": {
+      "1": "Một phong tục cổ xưa quyết định vận mệnh của mỗi người. Cuộc chiến bắt đầu!"
+    },
+    "victory": {
+      "1": "Hãy tự tạo con đường riêng cho mình. Đừng để bất cứ điều gì cản trở bạn. Số phận của bạn, tương lai của bạn."
+    },
+    "defeat": {
+      "1": "Con đường của chúng ta giờ đã rõ ràng."
+    }
+  },
+  "volkner": {
+    "encounter": {
+      "1": "Vì bạn đã đi xa đến thế này, chắc hẳn bạn rất mạnh…$Tôi hy vọng bạn chính là Huấn luyện viên sẽ giúp tôi nhớ lại cảm giác thú vị khi chiến đấu!",
+      "1_female": "Vì bạn đã đi xa đến thế này, chắc hẳn bạn rất mạnh…$Tôi hy vọng bạn chính là Huấn luyện viên sẽ giúp tôi nhớ lại cảm giác thú vị khi chiến đấu!"
+    },
+    "victory": {
+      "1": "Bạn đã đánh bại tôi rồi…$Lòng quyết tâm và tinh thần chiến đấu cao thượng của Pokémon…$Tôi thậm chí còn cảm thấy hồi hộp trong suốt trận đấu. Đó là một trận đấu rất hay."
+    },
+    "defeat": {
+      "1": "Chẳng có gì đáng ngạc nhiên cả…$Đó không phải là điều tôi muốn!"
+    }
+  },
+  "burgh": {
+    "encounter": {
+      "1": "Ừm… Nếu thắng trận này, tôi cảm thấy mình có thể vẽ được một bức tranh khác biệt hoàn toàn so với trước đây.$Được rồi! Tôi có thể nghe thấy tiếng nói của nàng thơ chiến đấu trong mình rất rõ ràng. Bắt tay vào việc thôi!",
+      "2": "Dĩ nhiên, tôi rất tự hào về tất cả các Pokémon của mình!$Giờ thì… Chúng ta cùng bắt đầu thôi!"
+    },
+    "victory": {
+      "1": "Mọi chuyện đã kết thúc ư? Nàng thơ của tôi đã bỏ rơi tôi rồi sao?",
+      "2": "Ừm… Xong rồi! Bạn thật tuyệt vời!"
+    },
+    "defeat": {
+      "1": "Wow… Nó đẹp một cách kỳ lạ, phải không…",
+      "2": "Đôi khi tôi nghe người ta nói rằng một chiến thắng nào đó thật xấu xí. $Tôi nghĩ nếu bạn đã cố gắng hết sức, thì bất kỳ chiến thắng nào cũng đều tuyệt vời."
+    }
+  },
+  "elesa": {
+    "encounter": {
+      "1": "C’est fini! Khi tôi cảm thấy lâng lâng bởi một luồng điện chạy khắp cơ thể!$Tôi muốn cảm nhận cảm giác đó, vì vậy giờ đây những Pokémon yêu quý của tôi sẽ khiến bạn chóng mặt!"
+    },
+    "victory": {
+      "1": "Tôi định làm cho bạn chóng mặt, nhưng thay vào đó, bạn lại làm tôi bất ngờ."
+    },
+    "defeat": {
+      "1": "Có vẻ như trận đấu này chưa thực sự thỏa mãn… Lần sau bạn sẽ cố gắng hết sức chứ?"
+    }
+  },
+  "skyla": {
+    "encounter": {
+      "1": "Cuối cùng cũng đến lúc quyết đấu rồi! Điều đó có nghĩa là trận chiến Pokémon sẽ quyết định ai là người đứng đầu, đúng không?$Tôi thích ở trên đỉnh cao! Bởi vì từ trên cao bạn có thể nhìn thấy mọi thứ trải dài vô tận!$Cậu thì sao muốn cùng tôi bay lên tận trời cao không?"
+    },
+    "victory": {
+      "1": "Việc trở thành đối thủ của cậu trong trận chiến này là một nguồn sức mạnh mới đối với tôi. Cảm ơn bạn!"
+    },
+    "defeat": {
+      "1": "Dù thắng hay thua, bạn luôn có được điều gì đó từ một trận chiến, phải không?"
+    }
+  },
+  "brycen": {
+    "encounter": {
+      "1": "Sức mạnh cũng nằm ở việc ở bên cạnh những người khác và các Pokémon.$Nhận được sự hỗ trợ của họ sẽ giúp bạn mạnh mẽ hơn. Tôi sẽ cho bạn thấy sức mạnh này!"
+    },
+    "victory": {
+      "1": "Sự kết hợp tuyệt vời giữa bạn và Pokémon của bạn! Một tình bạn đẹp đẽ biết bao!"
+    },
+    "defeat": {
+      "1": "Những điều kiện khắc nghiệt thực sự thử thách và rèn luyện bạn!"
+    }
+  },
+  "drayden": {
+    "encounter": {
+      "1": "Điều ta muốn tìm là một Huấn luyện viên trẻ có thể cho ta thấy một tương lai tươi sáng.$Hãy cùng chiến đấu hết mình: kỹ năng của ngươi, kinh nghiệm của ta và tình yêu mà chúng ta đã dành để nuôi dưỡng Pokémon của mình!"
+    },
+    "victory": {
+      "1": "Cảm giác mãnh liệt ập đến sau mỗi thất bại… Tôi không biết phải diễn tả nó như thế nào."
+    },
+    "defeat": {
+      "1": "Hừ! Ta biết khả năng của ngươi còn hơn thế mà!"
+    }
+  },
+  "grant": {
+    "encounter": {
+      "1": "Ta chỉ mong ước một điều duy nhất.$Đó là bằng cách vượt qua nhau, chúng ta sẽ tìm ra con đường dẫn đến những tầm cao hơn nữa."
+    },
+    "victory": {
+      "1": "Bạn là một bức tường mà tôi không thể vượt qua!"
+    },
+    "defeat": {
+      "1": "Đừng bỏ cuộc.$Thực ra chỉ có vậy thôi.$Những bài học quan trọng nhất trong cuộc sống rất đơn giản."
+    }
+  },
+  "korrina": {
+    "encounter": {
+      "1": "Đã đến lúc Korrina xuất hiện rồi!"
+    },
+    "victory": {
+      "1": "Chính bản thân bạn mới là yếu tố giúp Pokémon của bạn tiến hóa!"
+    },
+    "defeat": {
+      "1": "Một trận chiến vô cùng kịch tính!"
+    }
+  },
+  "clemont": {
+    "encounter": {
+      "1": "Ồ! Tôi rất vui vì chúng ta đã có dịp gặp nhau!"
+    },
+    "victory": {
+      "1": "Niềm đam mê chiến đấu của bạn truyền cảm hứng cho tôi!"
+    },
+    "defeat": {
+      "1": "Có vẻ như cỗ máy tập luyện giúp tôi mạnh mẽ hơn, Mach 2 thực sự hiệu quả!"
+    }
+  },
+  "valerie": {
+    "encounter": {
+      "1": "Ồ, hóa ra là một huấn luyện viên trẻ… Thật vui khi được gặp bạn ở đây.$Vậy tôi tin bạn xứng đáng được tham gia một trận chiến, như một phần thưởng cho những nỗ lực của mình.$Pokémon hệ Tiên có thể trông yếu ớt như cơn gió và mỏng manh như đóa hoa, nhưng thực chất lại rất mạnh mẽ.",
+      "1_female": "Ồ, hóa ra là một huấn luyện viên trẻ… Thật vui khi được gặp bạn ở đây.$Vậy tôi tin bạn xứng đáng được tham gia một trận chiến, như một phần thưởng cho những nỗ lực của mình.$Pokémon hệ Tiên có thể trông yếu ớt như cơn gió và mỏng manh như đóa hoa, nhưng thực chất lại rất mạnh mẽ."
+    },
+    "victory": {
+      "1": "Tôi hy vọng ngày mai bạn sẽ tìm thấy những điều đáng để mỉm cười…"
+    },
+    "defeat": {
+      "1": "Ôi trời, thật đáng tiếc…"
+    }
+  },
+  "wulfric": {
+    "encounter": {
+      "1": "Bạn biết không? Chúng ta đều nói nhiều về những bài học rút ra từ những trận đấu, những mối quan hệ và tất cả những thứ đó…$Nhưng thực ra, tôi chỉ làm vậy vì nó vui thôi.$Ai quan tâm đến những màn phô trương đó chứ? Hãy bắt đầu trận chiến thôi!"
+    },
+    "victory": {
+      "1": "Xuất sắc! Tôi cứng rắn như tảng băng, nhưng bạn đã đánh tan tôi hoàn toàn!"
+    },
+    "defeat": {
+      "1": "Đụng độ với tôi thì đây là hậu quả!"
+    }
+  },
+  "kabu": {
+    "encounter": {
+      "1": "Mỗi Huấn luyện viên và Pokémon đều luyện tập chăm chỉ để theo đuổi chiến thắng.$Nhưng điều đó cũng có nghĩa là đối thủ của bạn cũng đang nỗ lực hết mình để giành chiến thắng.$Cuối cùng, trận đấu được quyết định bởi bên nào có thể phát huy sức mạnh thực sự của mình."
+    },
+    "victory": {
+      "1": "Tôi rất vui vì hôm nay mình có thể đấu với bạn!"
+    },
+    "defeat": {
+      "1": "Thật là một cách tuyệt vời để tôi cảm nhận được sự trưởng thành của chính mình!"
+    }
+  },
+  "bea": {
+    "encounter": {
+      "1": "Bạn có một tinh thần kiên cường, không hề nao núng dù bị tấn công thế nào đi nữa không?$Tôi nghĩ mình sẽ thử xem sao, nhỉ?"
+    },
+    "victory": {
+      "1": "Tôi cảm nhận được tinh thần chiến đấu của các Pokémon của bạn khi bạn dẫn chúng ra trận."
+    },
+    "defeat": {
+      "1": "Đó là trận đấu tuyệt vời nhất mà tất cả mọi người mong đợi."
+    }
+  },
+  "opal": {
+    "encounter": {
+      "1": "Để tôi xem bạn và Pokémon đồng hành của bạn cư xử như thế nào nhé!"
+    },
+    "victory": {
+      "1": "Pokémon màu hồng của bạn vẫn chưa hoàn hảo, nhưng bạn là một Huấn luyện viên xuất sắc với những Pokémon tuyệt vời.",
+      "1_female": "Pokémon màu hồng của bạn vẫn chưa hoàn hảo, nhưng bạn là một Huấn luyện viên xuất sắc với những Pokémon tuyệt vời."
+    },
+    "defeat": {
+      "1": "Tôi đoán là bạn chịu thiệt thòi rồi."
+    }
+  },
+  "bede": {
+    "encounter": {
+      "1": "Tôi thấy tôi cần chứng minh một cách chắc chắn rằng bạn thật thảm hại và tôi mạnh mẽ đến mức nào.",
+      "1_female": "Tôi thấy tôi cần chứng minh một cách chắc chắn rằng bạn thật thảm hại và tôi mạnh mẽ đến mức nào."
+    },
+    "victory": {
+      "1": "Tôi hiểu rồi… Vậy thì tốt thôi. Dù sao thì tôi cũng không cố gắng thắng hay gì cả."
+    },
+    "defeat": {
+      "1": "Tôi thấy cậu cũng không quá tồi đâu."
+    }
+  },
+  "gordie": {
+    "encounter": {
+      "1": "Vậy thì, hãy giải quyết chuyện này cho xong luôn nào."
+    },
+    "victory": {
+      "1": "Tôi chỉ muốn chui xuống một cái hố… Mà thôi, chắc là rơi từ trên cao xuống thì đúng hơn."
+    },
+    "defeat": {
+      "1": "Hãy chiến đấu như mọi khi, chiến thắng sẽ đến!"
+    }
+  },
+  "marnie": {
+    "encounter": {
+      "1": "Thật ra, sau tất cả… tôi chỉ muốn trở thành nhà vô địch vì chính bản thân mình!$Vì vậy đừng để bụng khi tôi đánh bại cậu nhé!"
+    },
+    "victory": {
+      "1": "Được rồi, tôi thua rồi… Nhưng tôi đã được chứng kiến rất nhiều điểm tốt của bạn và Pokémon của bạn!"
+    },
+    "defeat": {
+      "1": "Hy vọng cậu thích chiến thuật chiến đấu của chúng tôi."
+    }
+  },
+  "raihan": {
+    "encounter": {
+      "1": "Tôi sẽ đánh bại nhà vô địch, giành chiến thắng toàn bộ giải đấu và chứng minh cho cả thế giới thấy Raihan vĩ đại thực sự mạnh mẽ đến mức nào!"
+    },
+    "victory": {
+      "1": "Tôi trông vẫn đẹp trai thế này ngay cả khi thua cuộc.$Đúng là một lời nguyền.$Chắc là đến lúc chụp thêm một bức selfie nữa rồi!"
+    },
+    "defeat": {
+      "1": "Hãy chụp một tấm ảnh selfie để lưu giữ kỷ niệm nào."
+    }
+  },
+  "brassius": {
+    "encounter": {
+      "1": "Tôi thấy bạn đã sẵn sàng rồi? Hãy bắt đầu tác phẩm nghệ thuật hợp tác của chúng ta thôi!",
+      "1_female": "Tôi thấy bạn đã sẵn sàng rồi? Hãy bắt đầu tác phẩm nghệ thuật hợp tác của chúng ta thôi!"
+    },
+    "victory": {
+      "1": "Ahhh…vant-garde!"
+    },
+    "defeat": {
+      "1": "Tôi sẽ bắt đầu sáng tác tác phẩm mới ngay lập tức!"
+    }
+  },
+  "iono": {
+    "encounter": {
+      "1": "Cảm giác của cậu thế nào về trận chiến này?$…$Hãy bắt đầu buổi biểu diễn thôi nào! Người thách đấu của chúng ta mạnh đến mức nào đây? $Tớ không biết nữa! Vậy hãy cùng nhau tìm câu trả lời nào!",
+      "1_female": "Cảm giác của cậu thế nào về trận chiến này?$…$Hãy bắt đầu buổi biểu diễn thôi nào! Người thách đấu của chúng ta mạnh đến mức nào đây? $Tớ không biết nữa! Vậy hãy cùng nhau tìm câu trả lời nào!"
+    },
+    "victory": {
+      "1": "Cậu thật hào nhoáng và tỏa sáng rực rỡ y như một cú điện 10,000,000 Vôn vậy, bạn hiền ơi!",
+      "1_female": "Cậu thật hào nhoáng và tỏa sáng rực rỡ y như một cú điện 10,000,000 Vôn vậy, bạn hiền ơi!"
+    },
+    "defeat": {
+      "1": "Cặp mắt của cậu sẽ chỉ nhìn TỚ thôi!"
+    }
+  },
+  "larry": {
+    "encounter": {
+      "1": "Nói đi cũng phải nói lại, đơn giản chính là sức mạnh tối thượng."
+    },
+    "victory": {
+      "1": "Một suất thất bại, nhỉ?"
+    },
+    "defeat": {
+      "1": "Hôm nay thế là đủ rồi."
+    }
+  },
+  "ryme": {
+    "encounter": {
+      "1": "Đến đây nào, cưng! Hãy làm ta rung chuyển đến tận xương tủy đi!"
+    },
+    "victory": {
+      "1": "Bạn thật ngầu đấy, bạn hiền ạ — bạn làm lay động cả TÂM HỒN tôi!",
+      "1_female": "Bạn thật ngầu đấy, bạn hiền ạ — bạn làm lay động cả TÂM HỒN tôi!"
+    },
+    "defeat": {
+      "1": "Gặp lại sau nhé, cưng!"
+    }
+  },
+  "grusha": {
+    "encounter": {
+      "1": "Tất cả những gì ta cần làm là đảm bảo sức mạnh của Pokémon của ta làm ngươi lạnh đến tận xương tủy!"
+    },
+    "victory": {
+      "1": "Sự nhiệt huyết bỏng cháy của ngươi… nói thật thì, ta cũng có chút thích nó đấy."
+    },
+    "defeat": {
+      "1": "Mọi chuyện đã không nóng lên đối với ngươi."
+    }
+  },
+  "bedeElite": {
+    "encounter": {
+      "1": "Chúng ta đã đối mặt với quá nhiều thứ để mà bỏ cuộc vào lúc này! Chúng ta không có lựa chọn nào khác ngoài việc phải chiến thắng!",
+      "2": "Đã đến lúc chứng minh cho mọi người thấy ta ở một đẳng cấp cao hơn phần còn lại rồi."
+    },
+    "victory": {
+      "1": "Ta đã không thể giành chiến thắng, nhưng ít nhất ta cũng đã có thể cho mọi người thấy hệ Tiên tuyệt vời đến nhường nào.",
+      "2": "Nếu không phải vì ngươi, thì ta đã có thể chứng minh mà không chút hoài nghi rằng ta là kẻ giỏi nhất…"
+    },
+    "defeat": {
+      "1": "Bây giờ thì, với tư cách là Chủ Hội Quán, ta sẽ thực hiện nghĩa vụ của mình và dọn dẹp sân vận đấu.",
+      "2": "Ta đoán thắng thì vẫn là thắng thôi."
+    }
+  },
+  "marnieElite": {
+    "encounter": {
+      "1": "Ngươi đã đi được đến tận đây rồi cơ à? Để xem ngươi có chịu nổi các Pokémon của ta không nhé!",
+      "1_female": "Ngươi đã đi được đến tận đây rồi cơ à? Để xem ngươi có chịu nổi các Pokémon của ta không nhé!",
+      "2": "Ta sẽ tung ra cú đánh tốt nhất của mình, nhưng đừng nghĩ ta sẽ nương tay với ngươi!"
+    },
+    "victory": {
+      "1": "Ta không thể tin được là mình đã thua… Nhưng ngươi hoàn toàn xứng đáng với chiến thắng đó. Làm tốt lắm!",
+      "2": "Có vẻ như ta vẫn còn nhiều điều phải học hỏi lắm. Nhưng dù sao thì đây cũng là một trận đấu tuyệt vời!"
+    },
+    "defeat": {
+      "1": "Ngươi đã chiến đấu rất ngoan cường đấy, nhưng ta là kẻ nắm lợi thế rồi! Chúc may mắn lần sau nhé!",
+      "2": "Có vẻ như quá trình rèn luyện của ta đã được đền đáp xứng đáng rồi. Cảm ơn vì trận đấu nhé!"
+    }
+  },
+  "nessaElite": {
+    "encounter": {
+      "1": "Thủy triều đang quay sang ủng hộ ta rồi. Đã sẵn sàng để bị cuốn phôi pha chưa nào?",
+      "1_female": "Thủy triều đang quay sang ủng hộ ta rồi. Đã sẵn sàng để bị cuốn phôi pha chưa nào?",
+      "2": "Hãy cùng tạo nên những làn sóng dữ dội với trận chiến này nào! Ta hy vọng là ngươi đã chuẩn bị tinh thần rồi đấy!",
+      "2_female": "Hãy cùng tạo nên những làn sóng dữ dội với trận chiến này nào! Ta hy vọng là ngươi đã chuẩn bị tinh thần rồi đấy!"
+    },
+    "victory": {
+      "1": "Ngươi đã lèo lái qua những vùng nước đó một cách hoàn hảo… Làm tốt lắm!",
+      "2": "Có vẻ như những dòng hải lưu của ta đã chẳng là gì đối với ngươi rồi. Làm tốt lắm!"
+    },
+    "defeat": {
+      "1": "Nước luôn tìm thấy lối đi cho riêng mình. Thật là một trận chiến sảng khoái làm sao!",
+      "2": "Ngươi đã chiến đấu rất tốt, nhưng sức mạnh của đại dương là không thể cản phá!"
+    }
+  },
+  "beaElite": {
+    "encounter": {
+      "1": "Hãy chuẩn bị tinh thần đi! Tinh thần võ sĩ của ta đang bốc cháy rực rỡ đây!",
+      "2": "Để xem ngươi có đuổi kịp tốc độ tấn công dồn dập này của ta không nhé!"
+    },
+    "victory": {
+      "1": "Sức mạnh của ngươi… Thật sự rất ấn tượng. Ngươi hoàn toàn xứng đáng với chiến thắng này.",
+      "2": "Ta chưa bao giờ cảm nhận được một trận đấu có nhiệt độ kinh khủng như thế này trước đây. Làm tốt đến mức kinh ngạc đấy!"
+    },
+    "defeat": {
+      "1": "Lại thêm một chiến thắng nữa nhờ vào chế độ tập luyện cực kỳ khắc nghiệt của ta! Làm tốt lắm!",
+      "2": "Ngươi quả thực có sức mạnh đấy, nhưng ta là kẻ đã tập luyện chăm chỉ hơn. Một trận chiến tuyệt vời!"
+    }
+  },
+  "allisterElite": {
+    "encounter": {
+      "1": "Bóng tối đang buông xuống rồi… Ngươi đã sẵn sàng để đối mặt với nỗi sợ hãi lớn nhất của mình chưa?",
+      "1_female": "Bóng tối đang buông xuống rồi… Ngươi đã sẵn sàng để đối mặt với nỗi sợ hãi lớn nhất của mình chưa?",
+      "2": "Để xem ngươi có đủ bản lĩnh để chống chọi lại thế lực bóng tối mà ta đang thao túng hay không."
+    },
+    "victory": {
+      "1": "Ngươi đã xua tan được bóng tối rồi… Ít nhất là vào lúc này. Làm tốt lắm.",
+      "2": "Ánh sáng của ngươi đã đâm xuyên qua màn đêm tăm tối của ta rồi. Làm tốt lắm."
+    },
+    "defeat": {
+      "1": "Bóng tối đã lên tiếng rồi… Sức mạnh của ngươi vẫn chưa đủ đâu.",
+      "2": "Bóng tối đã chiến thắng… Có lẽ lần sau ngươi mới có cơ hội nhìn thấy ánh sáng."
+    }
+  },
+  "raihanElite": {
+    "encounter": {
+      "1": "Cơn bão đang nổi lên rồi! Để xem ngươi có đủ bản lĩnh để chống chọi qua trận chiến này không nhé!",
+      "2": "Hãy chuẩn bị tinh thần để đối mặt với trung tâm của cơn bão đi!"
+    },
+    "victory": {
+      "1": "Ngươi đã chế ngự được cơn bão rồi… Một chiến tích thật sự ngoài sức tưởng tượng!",
+      "2": "Ngươi đã nương theo chiều gió một cách hoàn hảo… Một trận chiến tuyệt vời!"
+    },
+    "defeat": {
+      "1": "Lại một cơn bão nữa được vượt qua, và lại một chiến thắng nữa được khẳng định! Ngươi đã chiến đấu rất cừ!",
+      "2": "Ngươi đã bị cuốn phăng vào cơn bão của ta rồi! May mắn hơn vào lần sau nhé!",
+      "2_female": "Ngươi đã bị cuốn phăng vào cơn bão của ta rồi! May mắn hơn vào lần sau nhé!"
+    }
+  },
+  "alder": {
+    "encounter": {
+      "1": "Hãy chuẩn bị tinh thần cho một trận đấu với Huấn luyện viên mạnh nhất vùng Unova đi!"
+    },
+    "victory": {
+      "1": "Làm tốt lắm! Ngươi đúng là một thiên tài vô song, không ai có thể sánh bằng."
+    },
+    "defeat": {
+      "1": "Một luồng gió mới thổi qua tim tôi…$Thật là một nỗ lực phi thường!"
+    }
+  },
+  "kieran": {
+    "encounter": {
+      "1": "Nhờ vào sự chăm chỉ, tôi ngày càng trở nên mạnh mẽ hơn!$Tôi không thua cuộc."
+    },
+    "victory": {
+      "1": "Tôi không thể tin được…$Thật là một trận chiến vui vẻ và thót tim!"
+    },
+    "defeat": {
+      "1": "Chà chà, thật là một trận chiến tuyệt vời!$Đã đến lúc bạn phải luyện tập chăm chỉ hơn nữa rồi."
+    }
+  },
+  "rival": {
+    "encounter": {
+      "1": "@c{smile}Này, tớ đang tìm cậu đấy!$Tớ biết cậu rất nôn nóng muốn lên đường nhưng ít nhất cũng phải chào một tiếng chứ…$@c{smile_eclosed}Vậy là cậu thực sự theo đuổi ước mơ của mình rồi sao?\nTớ suýt nữa là không tin được đấy.$@c{serious_smile_fists}Đã đến đây rồi, hay là làm một trận đấu đi?\nDù sao thì tớ cũng muốn đảm bảo rằng cậu đã sẵn sàng.$@c{serious_mopen_fists}Đừng nương tay nhé, tớ muốn cậu tung ra hết những gì mình có đấy!"
+    },
+    "victory": {
+      "1": "@c{shock}Oa… Cậu đánh bại tớ hoàn toàn rồi.\nCậu thực sự là người mới bắt đầu sao?$@c{smile}Có lẽ chỉ là một chút may mắn nhưng…\nBiết đâu cậu lại có thể đi đến tận cùng thì sao.$Nhân tiện, giáo sư nhờ tớ đưa cho cậu những món đồ này. Trông chúng khá là ngầu đấy.$@c{serious_smile_fists}Chúc cậu may mắn trên hành trình nhé!"
+    }
+  },
+  "rivalFemale": {
+    "encounter": {
+      "1": "@c{smile_wave}Cậu đây rồi! Tớ đã tìm cậu khắp nơi đấy!$@c{angry_mopen}Cậu quên chào tạm biệt người bạn thân nhất của mình rồi sao?$@c{smile_ehalf}Cậu chuẩn bị đi theo đuổi ước mơ của mình hả?\nNgày đó thực sự là ngày hôm nay rồi nhỉ…$@c{smile}Dù sao thì tớ cũng sẽ tha thứ cho việc cậu quên tớ, nhưng với một điều kiện. @c{smile_wave_wink}Cậu phải đấu với tớ một trận!$@c{angry_mopen}Hãy tung hết sức mình đi! Cậu đâu muốn chuyến phiêu lưu của mình kết thúc trước khi nó kịp bắt đầu, đúng không?"
+    },
+    "victory": {
+      "1": "@c{shock}Cậu vừa mới bắt đầu mà đã mạnh thế này rồi sao?!@d{96}\n@c{angry}Cậu hoàn toàn gian lận đúng không?$@c{smile_wave_wink}Đùa chút thôi!@d{64} @c{smile_eclosed}Tớ đã thua tâm phục khẩu phục rồi… Tớ có cảm giác cậu sẽ làm rất tốt ngoài thế giới bao la kia đấy.$@c{smile}Nhân tiện, giáo sư muốn tớ đưa cho cậu vài món đồ.\nHy vọng chúng sẽ giúp ích cho cậu!$@c{smile_wave}Hãy luôn cố gắng hết sức như mọi khi nhé!\nTớ tin tưởng ở cậu!"
+    }
+  },
+  "rival2": {
+    "encounter": {
+      "1": "@c{smile}Này, cậu cũng ở đây à?\n@c{smile_eclosed}Vẫn giữ được thành tích bất bại cơ à…?$@c{serious_mopen_fists}Tớ biết trông có vẻ giống như tớ đi theo đuôi cậu đến đây, nhưng hầu như không phải vậy đâu nhé.$@c{serious_smile_fists}Thành thật mà nói thì, tớ đã ngứa ngáy muốn tái đấu kể từ khi cậu đánh bại tớ ở quê nhà rồi.$Tớ cũng đã tự mình luyện tập rất nhiều nên lần này chắc chắn tớ sẽ cự lại được cậu cho xem.$@c{serious_mopen_fists}Đừng nương tay nhé, cứ như lần trước ấy!\nLên nào!"
+    },
+    "victory": {
+      "1": "@c{neutral_eclosed}Ồ. Tớ đoán là tớ đã quá tự tin rồi.$@c{smile}Dù vậy cũng không sao. Tớ đã nghĩ là chuyện này có thể xảy ra mà.\n@c{serious_mopen_fists}Điều đó chỉ có nghĩa là tớ cần phải cố gắng hơn nữa cho lần tới thôi!$@c{smile}Ồ, không phải là cậu thực sự cần giúp đỡ đâu, nhưng tớ có dư một món cho mỗi loại này quanh đây và nghĩ là$có thể cậu sẽ muốn chúng.$@c{serious_smile_fists}Tuy nhiên thì đừng trông mong có thêm lần sau nữa nhé!$Dù sao thì tớ cũng không thể cứ tiếp tục trao lợi thế cho đối thủ của mình được."
+    }
+  },
+  "rival2Female": {
+    "encounter": {
+      "1": "@c{smile_wave}Ồ, thật khéo gặp cậu ở đây. Trông có vẻ cậu vẫn bất bại nhỉ. @c{angry_mopen}Hửm… Không tồi đâu!$@c{angry_mopen}Tớ biết cậu đang nghĩ gì mà, và không, tớ không có bám đuôi cậu đâu nhé.$@c{smile_eclosed}Tớ chỉ tình cờ ở quanh khu vực này thôi.$@c{smile_ehalf}Tớ rất mừng cho cậu nhưng tớ chỉ muốn cho cậu biết rằng đôi khi thua một trận cũng không sao đâu.$@c{smile}Chúng ta học hỏi từ những sai lầm của mình, thường là nhiều hơn so với việc cứ tiếp tục thành công đấy.$@c{angry_mopen}Dù thế nào đi nữa, tớ cũng đã luyện tập rất chăm\nchỉ cho trận tái đấu của chúng ta rồi,$nên tốt nhất là cậu hãy tung hết sức mình đi nhé!"
+    },
+    "victory": {
+      "1": "​@c{neutral}Tớ… không nghĩ là mình lại thua lần này đâu đấy…$@c{smile}Mà thôi kệ vậy. Điều đó chỉ có nghĩa là tớ sẽ phải luyện tập chăm chỉ hơn nữa cho lần tới thôi!$@c{smile_wave}Tớ cũng mang cho cậu thêm hai món này nữa nè!\n@c{smile_wave_wink}Không cần phải cảm ơn tớ đâu nha~.$@c{angry_mopen}Nhưng đây là lần cuối cùng đấy nhé!$Cậu sẽ không nhận được thêm bất kỳ món quà miễn phí nào từ tớ sau lần này nữa đâu!"
+    },
+    "defeat": {
+      "1": "Đôi khi thua một trận cũng không sao đâu…"
+    }
+  },
+  "rival3": {
+    "encounter": {
+      "1": "@c{smile}Này, xem ai đây nè! Cũng lâu rồi không gặp nhỉ.\n@c{neutral}Cậu… vẫn bất bại sao? Hửm.$@c{neutral_eclosed}Mọi thứ có chút… lạ lẫm.\nỞ quê nhà không còn như trước nữa khi thiếu cậu.$@c{serious}Tớ biết như vậy là ích kỷ, nhưng tớ cần phải nói ra nỗi lòng này.$@c{neutral_eclosed}Tớ nghĩ cậu đang gánh vác quá sức mình ở đây rồi đấy.$@c{serious}Chưa từng thua một lần nào là điều không thực tế đâu. Đôi khi chúng ta cần phải thất bại để trưởng thành hơn.$@c{neutral_eclosed}Cậu đã có một chuỗi thành tích tuyệt vời rồi,\nnhưng vẫn còn rất nhiều điều ở phía trước,$và mọi thứ sẽ chỉ càng ngày càng khó khăn hơn thôi.$@c{neutral}Cậu đã chuẩn bị sẵn sàng cho điều đó chưa?$@c{serious_mopen_fists}Nếu rồi thì hãy chứng minh cho tớ thấy đi."
+    },
+    "victory": {
+      "1": "@c{angry_mhalf}Thật là vô lý…\nTớ hầu như chẳng bao giờ ngừng luyện tập cả…$Sao khoảng cách giữa chúng ta vẫn còn xa đến vậy chứ?"
+    }
+  },
+  "rival3Female": {
+    "encounter": {
+      "1": "@c{smile_wave}Lâu rồi không gặp! Vẫn chưa thua trận nào cơ à.\n@c{angry}Cậu bắt đầu làm tớ phát cáu rồi đấy nhé. @c{smile_wave_wink}Đùa chút thôi!$@c{smile_ehalf}Nhưng mà thật sự thì, đến giờ cậu vẫn chưa nhớ nhà sao? Hay là… nhớ tớ không?$Ý… ý tớ là, mọi người thực sự rất nhớ cậu đấy.$@c{smile_eclosed}Tớ ủng hộ cậu hết mình vì ước mơ và mọi thứ, nhưng thực tế là cậu sẽ thua sớm hay muộn thôi.$@c{smile}And khi cậu thất bại, tớ sẽ luôn ở bên cạnh cậu như mọi khi.$@c{angry_mopen}Giờ thì, hãy để tớ cho cậu thấy tớ đã trở nên mạnh mẽ như thế nào nhé!"
+    },
+    "victory": {
+      "1": "@c{shock}Sau tất cả những cố gắng đó… vẫn là chưa đủ sao…?$Cứ đà này thì cậu sẽ chẳng bao giờ quay trở về nữa mất…"
+    },
+    "defeat": {
+      "1": "Cậu đã cố gắng hết sức rồi, giờ thì chúng mình về nhà thôi"
+    }
+  },
+  "rival4": {
+    "encounter": {
+      "1": "@c{neutral}Này.Tớ sẽ không vòng vo hay khách sáo với cậu đâu.\n@c{neutral_eclosed}Tớ ở đây là để chiến thắng, đơn giản và rõ ràng là vậy.$@c{serious_mhalf_fists}Tớ đã học được cách tối đa hóa tiềm năng của mình bằng việc dành toàn bộ thời gian vào luyện tập.$@c{smile}Cậu sẽ có thêm rất nhiều thời gian khi cắt bỏ đi những giấc ngủ và các cuộc giao tiếp xã hội không cần thiết.$@c{serious_mopen_fists}Không gì trong số đó còn quan trọng nữa, ít nhất là cho đến khi tớ thắng.$@c{neutral_eclosed}Tớ thậm chí đã đạt đến mức không còn nếm mùi thất bại nữa rồi.$@c{smile_eclosed}Tớ đoán là triết lý của cậu suy cho cùng cũng không sai chút nào.$@c{angry_mhalf}Thất bại chỉ dành cho kẻ yếu, và tớ thì không còn yếu đuối nữa rồi.$@c{serious_mopen_fists}Chuẩn bị tinh thần đi."
+    },
+    "victory": {
+      "1": "@c{neutral}Cái gì…@d{64} Cậu là cái thứ gì vậy chứ?"
+    }
+  },
+  "rival4Female": {
+    "encounter": {
+      "1": "@c{neutral}Tớ đây mà!\nCậu không phải lại quên mất tớ rồi đấy chứ… đúng không?$@c{smile}Cậu nên tự hào về quãng đường mà mình đã đi được.\nChúc mừng nhé!$Nhưng có vẻ như đây là điểm cuối trong hành trình của cậu rồi.$@c{smile_eclosed}Cậu đã đánh thức một thứ gì đó bên trong tớ mà tớ chưa từng biết là nó tồn tại.$Dường như tất cả những gì tớ làm bây giờ chỉ là luyện tập thôi.$@c{smile_ehalf}Giờ tớ thậm chí còn chẳng buồn ăn hay ngủ, tớ chỉ huấn luyện Pokémon của mình suốt cả ngày, và cứ mỗi lần như thế lại càng mạnh hơn.$@c{neutral}Thực ra, tớ… suýt chút nữa là không còn nhận ra chính mình nữa rồi.$Và giờ đây, cuối cùng tớ cũng đã đạt đến phong độ đỉnh cao nhất.$Tớ không nghĩ là có ai có thể đánh bại được tớ vào lúc này đâu.$Và cậu biết gì không?\nTất cả đều là nhờ có cậu đấy.$@c{smile_ehalf}Tớ cũng không biết là nên cảm ơn hay nên ghét cậu nữa đây.$@c{angry_mopen}Chuẩn bị tinh thần đi."
+    },
+    "victory": {
+      "1": "@c{neutral}Cái gì…@d{64} Cậu là cái thứ gì vậy chứ?"
+    },
+    "defeat": {
+      "1": "$@c{smile}Cậu nên tự hào về quãng đường mà mình đã đi được."
+    }
+  },
+  "rival5": {
+    "encounter": {
+      "1": "@c{neutral}…"
+    },
+    "victory": {
+      "1": "@c{neutral}…"
+    }
+  },
+  "rival5Female": {
+    "encounter": {
+      "1": "@c{neutral}…"
+    },
+    "victory": {
+      "1": "@c{neutral}…"
+    },
+    "defeat": {
+      "1": "$@c{smile_ehalf}…"
+    }
+  },
+  "rival6": {
+    "encounter": {
+      "1": "@c{smile_eclosed}Chúng ta lại gặp nhau rồi.$@c{neutral}Tớ đã có một chút thời gian để suy ngẫm về tất cả chuyện này.$Có một lý do khiến mọi thứ trông thật kỳ lạ.$@c{neutral_eclosed}Ước mơ của cậu, động lực đánh bại cậu của tớ…\nTất cả đều là một phần của một điều gì đó vĩ đại hơn.$@c{serious}Chuyện này không phải vì tớ, cũng chẳng phải vì cậu…$Đây là câu chuyện của thế giới này, @c{serious_mhalf_fists}và mục đích của tớ là đẩy cậu tới những giới hạn của bản thân.$@c{neutral_eclosed}Tớ có hoàn thành được mục đích đó hay\nkhông thì tớ không chắc,$nhưng tớ đã làm mọi thứ trong quyền hạn của mình rồi.$@c{neutral}Nơi chúng ta đặt chân đến này thật đáng sợ…$Thế nhưng chẳng hiểu sao tớ lại thấy không hề nao núng, cứ như thể tớ đã từng ở đây trước đây rồi vậy.$@c{serious_mhalf_fists}Cậu cũng cảm thấy như thế, đúng không?$@c{serious}…và giống như có thứ gì đó ở nơi này đang trò chuyện với tớ.$Đây là tất cả những gì mà thế giới này đã biết từ rất lâu rồi.$Những khoảng thời gian chúng ta trân trọng bên nhau tưởng chừng như vừa mới đây thôi hóa ra chẳng$là gì ngoài một ký ức xa xăm.$@c{neutral_eclosed}Ai mà biết được liệu ngay từ đầu chúng có từng thực sự tồn tại hay không chứ.$@c{serious_mopen_fists}Cậu cần phải tiếp tục tiến lên phía trước, bởi vì nếu cậu không làm vậy, chuyện này sẽ chẳng bao giờ kết thúc đâu.$Cậu là người duy nhất có thể làm được điều này thôi.$@c{serious_smile_fists}Tớ cũng chẳng rõ những điều này có nghĩa là gì nữa, tớ chỉ biết rằng nó là sự thật.$@c{serious_mopen_fists}Nếu cậu không thể đánh bại tớ ngay tại đây và vào lúc này, cậu sẽ chẳng có lấy một cơ hội nào đâu."
+    },
+    "victory": {
+      "1": "@c{smile_eclosed}Có vẻ như nhiệm vụ của tớ ở đây đã hoàn thành rồi.$Tớ muốn cậu hứa với tớ một điều này thôi.$@c{smile}Sau khi cậu chữa lành cho thế giới này, làm ơn hãy quay trở về nhà nhé."
+    }
+  },
+  "rival6Female": {
+    "encounter": {
+      "1": "@c{smile_ehalf}Vậy là cuối cùng lại chỉ còn hai chúng ta rồi.$@c{smile_eclosed}Cậu biết không, tớ cứ nghĩ đi nghĩ lại mãi trong đầu…$@c{smile_ehalf}Có điều gì đó ẩn sau tất cả chuyện này, lý do vì sao bây giờ mọi thứ trông thật kỳ lạ…$@c{smile}Cậu có ước mơ của cậu, và tớ cũng có tham vọng này bên trong mình…$Tớ chỉ là không thể ngăn bản thân cảm thấy rằng có\nmột mục đích vĩ đại hơn cho tất cả những điều này,$cho những gì chúng ta đang làm, tớ và cậu.$@c{smile_eclosed}Tớ nghĩ nhiệm vụ của tớ là phải đẩy cậu… tới những giới hạn của bản thân.$@c{smile_ehalf}Tớ không chắc liệu mình có đang làm tốt việc đó hay không, nhưng tớ đã cố gắng hết sức cho đến tận bây giờ rồi$.Có điều gì đó ở nơi kỳ lạ và đáng sợ này…$Mọi thứ dường như đều trở nên thật rõ ràng…$Đây… là tất cả những gì mà thế giới này đã biết từ rất lâu rồi.$@c{smile_eclosed}Cứ như thể tớ suýt chút nữa là không còn nhớ nổi những ký ức mà chúng ta từng trân trọng bên nhau.$@c{smile_ehalf}Liệu chúng có từng thực sự tồn tại không?\nGiờ đây chúng cảm giác thật xa xăm…$@c{angry_mopen}Cậu cần phải tiếp tục tiến lên phía trước, bởi vì nếu cậu không làm vậy, chuyện này sẽ chẳng bao giờ kết thúc đâu.$Cậu là người duy nhất có thể làm được điều này thôi.$@c{smile_ehalf}Tớ… không biết tất cả những điều này có nghĩa là gì… nhưng tớ cảm nhận được đó là sự thật.$@c{neutral}Nếu cậu không thể đánh bại tớ ngay tại đây và vào lúc này, cậu sẽ chẳng có lấy một cơ hội nào đâu."
+    },
+    "victory": {
+      "1": "@c{smile_ehalf}Tớ… tớ nghĩ mình đã hoàn thành mục đích của mình rồi…$@c{smile_eclosed}Hứa với tớ nhé… Sau khi cậu chữa lành cho thế giới này… Làm ơn… hãy trở về nhà bình an.$@c{smile_ehalf}… Cảm ơn cậu."
+    }
+  }
+}

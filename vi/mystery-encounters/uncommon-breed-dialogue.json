@@ -1,0 +1,26 @@
+{
+  "intro": "Đó không phải là một Pokémon tầm thường đâu!",
+  "title": "Giống loài hiếm gặp",
+  "description": "Tên {{enemyPokemon}} đó trông đặc biệt hơn hẳn những đồng loại của nó đấy. @[TOOLTIP_TITLE]{Có lẽ nó biết một chiêu thức đặc biệt chăng?} Ngươi hoàn toàn có thể chiến đấu và thu phục nó ngay lập tức, nhưng biết đâu cũng có cách để kết bạn với nó đấy.",
+  "query": "Ngươi định sẽ làm gì đây?",
+  "option": {
+    "1": {
+      "label": "Quyết chiến với Pokémon",
+      "tooltip": "(-) Trận đấu cam go\n(+) Đối thủ mạnh mẽ, có thể thu phục",
+      "selected": "Ngươi thản nhiên tiến lại gần {{enemyPokemon}} mà không một chút sợ hãi.",
+      "statBoost": "Năng lực thăng hoa của {{enemyPokemon}} giúp tăng mạnh các chỉ số của nó!"
+    },
+    "2": {
+      "label": "Cho nó ăn chút gì",
+      "disabledTooltip": "Bạn cần có 4 quả Berry để tiếp cận lựa chọn này.",
+      "tooltip": "(-) Tặng 4 Quả Berry\n(+) {{enemyPokemon}} Mang Hảo Cảm",
+      "selected": "Ngươi ném những quả Berry về phía\n{{enemyPokemon}}!$Nó ăn một cách vô cùng ngon lành!${{enemyPokemon}} muốn gia nhập đội ngũ của ngươi rồi kìa!"
+    },
+    "3": {
+      "label": "Kết giao bạn hữu",
+      "disabledTooltip": "Pokémon của ngươi cần phải biết một số chiêu thức nhất định mới chọn được điều này.",
+      "tooltip": "(+) {{option3PrimaryName}} sử dụng {{option3PrimaryMove}}\n(+) {{enemyPokemon}} đã có cảm tình với ngươi",
+      "selected": "{{option3PrimaryName}} của ngươi sử dụng {{option3PrimaryMove}} để mê hoặc {{enemyPokemon}}!${{enemyPokemon}} đang rất muốn gia nhập đội ngũ của ngươi rồi kìa!"
+    }
+  }
+}

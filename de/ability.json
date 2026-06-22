@@ -5,7 +5,7 @@
   },
   "drizzle": {
     "name": "Niesel",
-    "description": "Ruft bei Kampfantritt Regen herbei."
+    "description": "Das Pokémon erzeugt bei Kampfantritt für 5 Runden Regen."
   },
   "speedBoost": {
     "name": "Temposchub",
@@ -29,7 +29,7 @@
   },
   "sandVeil": {
     "name": "Sandschleier",
-    "description": "In Sandstürmen steigt der Ausweichwert des Pokémon um 20%. Das Pokémon nimmt in Sandstürmen keinen Schaden."
+    "description": "In Sandstürmen steigt der Ausweichwert des Pokémon um 25%. Das Pokémon nimmt in Sandstürmen keinen Schaden."
   },
   "static": {
     "name": "Statik",
@@ -177,11 +177,11 @@
   },
   "sandStream": {
     "name": "Sandsturm",
-    "description": "Erzeugt bei Kampfantritt Sandstürme."
+    "description": "Das Pokémon erzeugt bei Kampfantritt für 5 Runden einen Sandsturm."
   },
   "pressure": {
     "name": "Erzwinger",
-    "description": "Das Pokémon zwingt Gegner dazu, beim Einsatz von Attacken mehr AP zu verbrauchen."
+    "description": "Das Pokémon zwingt Gegner dazu, beim Einsatz von Attacken 1 AP zusätzlich zu verbrauchen."
   },
   "thickFat": {
     "name": "Speckschicht",
@@ -201,7 +201,7 @@
   },
   "keenEye": {
     "name": "Adlerauge",
-    "description": "Dank seines scharfen Blicks kann die Genauigkeit des Pokémon nicht gesenkt werden."
+    "description": "Die scharfen Augen des Pokémon ignorieren Veränderungen am Ausweichwert des Ziels und verhindern, dass seine eigene Genauigkeit gesenkt wird."
   },
   "hyperCutter": {
     "name": "Scherenmacht",
@@ -321,7 +321,7 @@
   },
   "snowCloak": {
     "name": "Schneemantel",
-    "description": "Bei Schnee oder Hagelsturm steigt der Ausweichwert des Pokémon um 20%. Das Pokémon nimmt keinen Schaden von Hagelstürmen."
+    "description": "Bei Schnee oder Hagelsturm steigt der Ausweichwert des Pokémon um 25%. Das Pokémon nimmt keinen Schaden von Hagelstürmen."
   },
   "gluttony": {
     "name": "Völlerei",
@@ -521,7 +521,7 @@
   },
   "healer": {
     "name": "Heilherz",
-    "description": "Das Pokémon befreit Mitstreiter mit 30% Chance von Statusproblemen."
+    "description": "Das Pokémon befreit Mitstreiter mit 50% Chance von Statusproblemen."
   },
   "friendGuard": {
     "name": "Freundeshut",
@@ -581,7 +581,7 @@
   },
   "sandRush": {
     "name": "Sandscharrer",
-    "description": "In Sandstürmen steigt die Initiative des Pokémon. Das Pokémon nimmt in Sandstürmen keinen Schaden."
+    "description": "In Sandstürmen verdoppelt sich die Initiative des Pokémon. Das Pokémon nimmt in Sandstürmen keinen Schaden."
   },
   "wonderSkin": {
     "name": "Wunderhaut",
@@ -817,7 +817,7 @@
   },
   "triage": {
     "name": "Heilwandel",
-    "description": "Die Fähigkeit ermöglicht dem Pokémon einen Erstschlag mit Attacken, welche die KP des Anwenders direkt regenerieren."
+    "description": "Die Fähigkeit erhöht die Priorität von Attacken, welche die KP des Anwenders direkt regenerieren, um 3."
   },
   "galvanize": {
     "name": "Elektrohaut",
@@ -889,7 +889,7 @@
   },
   "powerOfAlchemy": {
     "name": "Chemiekraft",
-    "description": "Wechselt seine Fähigkeit zu der eines kampfunfähig gewordenen Mitstreiters."
+    "description": "Wird einer seiner Mitstreiter besiegt, erhält es dessen Fähigkeit."
   },
   "beastBoost": {
     "name": "Bestien-Boost",
@@ -1238,5 +1238,29 @@
   "poisonPuppeteer": {
     "name": "Giftpuppenspiel",
     "description": "Wenn das Pokémon ein Ziel mit einer Attacke vergiftet, so wird dieses auch verwirrt."
+  },
+  "piercingDrill": {
+    "name": "Stichbohrer",
+    "description": "Setzt das Pokémon eine Kontaktattacke ein, trifft sie auch Ziele, die sich selbst schützen, und fügt ihnen ¼ des eigentlichen Schadens zu. Alle anderen Effekte werden trotzdem ausgelöst."
+  },
+  "dragonize": {
+    "name": "Drachenschicht",
+    "description": "Normal-Attacken des Pokémon nehmen den Typ Drache an und ihre Stärke wird um 20 % erhöht."
+  },
+  "eelevate": {
+    "name": "Emporwindung",
+    "description": "Das Pokémon gilt als nicht auf dem Boden befindlich und Boden-Attacken sowie die Zustände Stachler, Giftspitzen und Klebenetz haben keine Wirkung auf es. Der höchste Statuswert des Pokémon wird um 1 Stufe erhöht, wenn es ein anderes Pokémon mit einem Angriff besiegt."
+  },
+  "megaSol": {
+    "name": "Mega-Solarladung",
+    "description": "Das Pokémon kann Attacken wie bei Sonnenschein einsetzen, auch wenn nicht das Wetter Sonnenschein herrscht."
+  },
+  "fireMane": {
+    "name": "Flammenmähne",
+    "description": "Die Stärke von Feuer-Attacken des Pokémon wird um 50 % erhöht."
+  },
+  "spicySpray": {
+    "name": "Chilispritzer",
+    "description": "Erleidet das Pokémon durch eine Attacke Schaden, erleidet der Angreifer Verbrennungen."
   }
 }

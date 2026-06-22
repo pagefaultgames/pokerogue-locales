@@ -1,0 +1,31 @@
+{
+  "intro": "Det är en lärare och några skolbarn!",
+  "speaker": "Läraren",
+  "introDialogue": "Hallå där! Skulle du kunna vara så snäll och avvara en minut åt mina elever?$Jag lär dem om pokémontekniker\noch det skulle vara perfekt om vi fick en demonstation.$Kan du visa upp en av dina pokémons tekniker?",
+  "title": "Skolutflykten",
+  "description": "En lärare ber om en teknikdemonstration av en pokémon. Beroende på tekniken du väljer kan du få något användbart som tack!",
+  "query": "Vilken sorts teknik vill du visa upp?",
+  "option": {
+    "1": {
+      "label": "En fysisk teknik",
+      "tooltip": "(+) Fysiskt föremål som belöning"
+    },
+    "2": {
+      "label": "En speciell teknik",
+      "tooltip": "(+) Speciellt föremål som belöning"
+    },
+    "3": {
+      "label": "En inverkansteknik",
+      "tooltip": "(+) Inverkansföremål som belöning"
+    },
+    "selected": "{{pokeName}} demonstrerar tekniken {{move}} felfritt!"
+  },
+  "secondOptionPrompt": "Välj tekniken som din pokémon ska utföra.",
+  "incorrect": "…$Det där var inte en {{moveCategory}}teknik!\nJag är ledsen, men jag kan inte ge dig något.$Kom nu barn, vi får hitta en bättre uppvisning någon annanstans.",
+  "incorrectExp": "Verkar som om du lärde dig en värdefull läxa?$Dina pokémon vann lite erfarenhet också.",
+  "correct": "Tack så mycket att du tog dig tiden att hjälpa till! Jag hoppas att du får användning av de här föremålen!",
+  "correctExp": "{{pokeName}} vann också värdefull erfarenhet!",
+  "status": "inverkans",
+  "physical": "fysisk",
+  "special": "speciell"
+}

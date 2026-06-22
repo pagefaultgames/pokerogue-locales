@@ -22,18 +22,26 @@ They will be able to provide you with further information.
 - pt-BR - Portuguese (Brazil)
 - zh-Hans - Chinese (Simplified)
 - zh-Hant - Chinese (Traditional)
+- sv - Swedish
+- th - Thai *(Mostly low percenage, needs help)*
 - ca - Catalan *(Still at very low percentage, needs help)*
 - ru - Russian *(Still at low percentage, needs help)*
+- vi - Vietnamese *(Still at low percentage, needs help)*
+- pl - Polish *(Still at low percentage, needs help)*
+- th - Thai *(Still at low percentage, needs help)*
 - tl - Tagalog *(Still at very low percentage, needs help)*
 - tr - Turkish *(Still at very low percentage, needs help)*
-- ro - Romanian *(Still at very low percentage, needs help)*
+- uk - Ukrainian *(Mostly low percenage, needs help)*
 
 ### Pending
 
 - he - Hebrew *(Note: The game needs first to have a minimum compatibility with right-to-left languages before being implemented. Any help on this regard would be very welcomed.)*
-- nb-NO - Norwegian Bokmål - Initiated but nothing started yet
+- nb-NO - Norwegian Bokmål - Initiated but nothing started yet, no translator available anymore
+- ro - Romanian - Initiated but nothing started yet, no translator available anymore
 
 ### Indefinitely pending
 
 - hi - Hindi *(No translator available, most of the translations comes from Pokémon GO)*
 - th - Thai *(No translator available, most of the translations comes from an old abandoned PR)*
+- ro - Romanian *(No translator available, needs help)*
+- tl - Tagalog *(No translator available, needs help)*

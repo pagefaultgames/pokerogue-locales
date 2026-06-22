@@ -1,0 +1,28 @@
+{
+  "intro": "Efter att ha drivit runt planlöst på havet har du inte tagit dig någonstans.",
+  "title": "Försmäktar på denna ö",
+  "description": "Havet är särskilt oroligt häromrking och du börjar få slut på energi.\n\nDet här är illa. Finns det någon väg ut ur den här situationen?",
+  "query": "Hur gör du?",
+  "option": {
+    "1": {
+      "label": "{{option1PrimaryName}} kan hjälpa",
+      "labelDisabled": "Kan inte {{option1RequiredMove}}",
+      "tooltip": "(+) {{option1PrimaryName}} räddar dig\n(+) {{option1PrimaryName}} vinner lite Erf.",
+      "tooltipDisabled": "Du har inga pokémon som kan tekniken {{option1RequiredMove}}.",
+      "selected": "{{option1PrimaryName}} simmar före och leder dig tillbaka på rätt kurs. ${{option1PrimaryName}} verkar ha vuxit sig starkare i denna kritiska stund!"
+    },
+    "2": {
+      "label": "{{option2PrimaryName}} kan hjälpa",
+      "labelDisabled": "Kan inte {{option2RequiredMove}}",
+      "tooltip": "(+) {{option1PrimaryName}} räddar dig\n(+) {{option1PrimaryName}} vinner lite Erf.",
+      "tooltipDisabled": "Du har inga pokémon som kan tekniken {{option2RequiredMove}}.",
+      "selected": "{{option2PrimaryName}} flyger före och leder dig tillbaka på rätt kurs. ${{option2PrimaryName}} verkar ha vuxit sig starkare i denna kritiska stund!"
+    },
+    "3": {
+      "label": "Fortsätt driv runt",
+      "tooltip": "(-) Varje pokémon tappar {{damagePercentage}} % av max. HP",
+      "selected": "Du flyter omkring och styr runt utan riktning, tills du till slut får syn på ett bekant landmärke.$\nDu och dina pokémon är utmattade efter upplevelsen."
+    }
+  },
+  "outro": "Du är på rätt kurs igen."
+}

@@ -1,0 +1,34 @@
+{
+  "intro": "Đấy là…@d{64} một Chú Hề à?",
+  "speaker": "Chú Hề",
+  "introDialogue": "Tên hề vụng về kia, hãy chuẩn bị cho một trận chiến tuyệt vời đi!$Ngươi sẽ bị tay nghệ sĩ đường phố hung hăng này đánh bại đấy!",
+  "title": "Chúa Hề Đùa Nghịch",
+  "description": "Bạn thấy có điều gì đó không ổn. Tên hề dường như rất muốn khiêu khích bạn vào một cuộc chiến, nhưng mục đích là gì?\n\nTên {{blacephalonName}} này đặc biệt kỳ lạ, giống như nó có @[TOOLTIP_TITLE]{hệ và đặc tính lạ vậy.}",
+  "query": "Ngươi định sẽ làm gì đây?",
+  "option": {
+    "1": {
+      "label": "Đấu nhau với Hề",
+      "tooltip": "(-) Trận đấu kì quặc\n(?) Ảnh hưởng đến đặc tính của 1 Pokémon",
+      "selected": "Những chú Pokémon đáng thương của bạn sắp sửa có một màn trình diễn thảm hại!",
+      "applyAbilityDialogue": "Một màn trình diễn ngoạn mục!$Sự tinh ranh của bạn xứng đáng với một kỹ năng đặc biệt như chiến lợi phẩm!",
+      "applyAbilityMessage": "Tên hề đang đề nghị hoán đổi vĩnh viễn đặc tính của một trong những Pokémon của bạn thành {{ability}}!",
+      "abilityPrompt": "Bạn có muốn dạy cho một Pokémon đặc tính {{ability}} vĩnh viễn không?",
+      "abilityGained": "@s{level_up_fanfare}{{chosenPokemon}} nhận được đặc tính {{ability}}!"
+    },
+    "2": {
+      "label": "Tránh bị khiêu khích.",
+      "tooltip": "(?) Ảnh hưởng đến vật phẩm của 1 Pokémon",
+      "selected": "Kẻ trốn tránh đáng khinh, ngươi lại từ chối một cuộc đấu tay đôi thú vị sao?$Hãy cảm nhận cơn thịnh nộ của ta đi!",
+      "selected2": "Chúa Hề {{blacephalonName}} dùng Trick!$Tất cả vật phẩm của {{switchPokemon}}’s bị hoán đổi ngẫu nhiên!",
+      "selected3": "Hỡi kẻ ngốc bối rối, hãy rơi vào cái bẫy lừa đảo hoàn hảo của ta đi!"
+    },
+    "3": {
+      "label": "Đáp trả lại",
+      "tooltip": "(?) Ảnh hưởng đến hệ của Pokemon",
+      "selected": "Kẻ trốn tránh đáng khinh, ngươi lại từ chối một cuộc đấu tay đôi thú vị sao?$Hãy cảm nhận cơn thịnh nộ của ta đi!",
+      "selected2": "Chúa Hề {{blacephalonName}} dùng một chiêu thức lạ!\nTất cả hệ của toàn đội bị hoán đổi ngẫu nhiên!",
+      "selected3": "Hỡi kẻ ngốc bối rối, hãy rơi vào cái bẫy lừa đảo hoàn hảo của ta đi!"
+    }
+  },
+  "outro": "Chú hề và đồng bọn\nbiến mất trong làn khói."
+}

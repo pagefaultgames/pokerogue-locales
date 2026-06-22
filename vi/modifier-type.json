@@ -1,0 +1,722 @@
+{
+  "ModifierType": {
+    "AddPokeballModifierType": {
+      "name": "{{modifierCount}}× {{pokeballName}}",
+      "description": "Nhận {{pokeballName}} ×{{modifierCount}} (Túi đồ: {{pokeballAmount}}) \nTỉ lệ thu phục: {{catchRate}}"
+    },
+    "AddVoucherModifierType": {
+      "name": "{{modifierCount}}× {{voucherTypeName}}",
+      "description": "Nhận {{voucherTypeName}} ×{{modifierCount}}."
+    },
+    "PokemonHeldItemModifierType": {
+      "extra": {
+        "inoperable": "{{pokemonName}} không thể\ncầm vật phẩm!",
+        "tooMany": "{{pokemonName}} có quá nhiều\nvật phẩm này rồi!"
+      }
+    },
+    "PokemonHpRestoreModifierType": {
+      "description": "Hồi lại {{restorePoints}} HP hoặc {{restorePercent}}% HP cho 1 Pokémon, tùy tỉ lệ nào cao hơn.",
+      "extra": {
+        "fully": "Hồi phục hoàn toàn HP cho một Pokémon.",
+        "fullyWithStatus": "Hồi phục hoàn toàn HP cho một Pokémon và chữa khỏi mọi trạng thái bất lợi."
+      }
+    },
+    "PokemonReviveModifierType": {
+      "description": "Hồi sinh một Pokémon và phục hồi {{restorePercent}}% HP."
+    },
+    "PokemonStatusHealModifierType": {
+      "description": "Chữa lành mọi trạng thái bất lợi cho một Pokémon."
+    },
+    "PokemonPpRestoreModifierType": {
+      "description": "Khôi phục {{restorePoints}} NL cho một chiêu thức của Pokémon.",
+      "extra": {
+        "fully": "Khôi phục toàn bộ điểm NL cho một chiêu thức của Pokémon."
+      }
+    },
+    "PokemonAllMovePpRestoreModifierType": {
+      "description": "Khôi phục {{restorePoints}} điểm NL cho tất cả các chiêu thức của một Pokémon.",
+      "extra": {
+        "fully": "Khôi phục toàn bộ điểm NL cho tất cả các chiêu thức của một Pokémon."
+      }
+    },
+    "PokemonPpUpModifierType": {
+      "description": "Tăng vĩnh viễn điểm NL cho một chiêu thức của Pokémon lên {{upPoints}} cho mỗi 5 điểm NL tối đa (tối đa 3)."
+    },
+    "PokemonNatureChangeModifierType": {
+      "name": "Bạc Hà {{natureName}}",
+      "description": "Thay đổi tính cách của Pokémon thành {{natureName}} và mở khóa vĩnh viễn tính cách đó cho Pokémon khởi đầu."
+    },
+    "DoubleBattleChanceBoosterModifierType": {
+      "description": "Tăng gấp bốn lần khả năng xảy ra trận chiến đôi, tối đa lên đến {{battleCount}} trận chiến."
+    },
+    "TempStatStageBoosterModifierType": {
+      "description": "Tăng chỉ số {{stat}} của tất cả thành viên trong tổ đội lên {{amount}} trong tối đa 5 trận chiến.",
+      "extra": {
+        "stage": "1 bậc",
+        "percentage": "20%"
+      }
+    },
+    "AttackTypeBoosterModifierType": {
+      "description": "Tăng sức mạnh của các chiêu thức thuộc hệ {{moveType}} của Pokémon lên 20%."
+    },
+    "PokemonLevelIncrementModifierType": {
+      "description": "Tăng cấp độ của Pokémon lên {{levels}}."
+    },
+    "AllPokemonLevelIncrementModifierType": {
+      "description": "Tăng cấp độ của tất cả thành viên trong đội lên {{levels}}."
+    },
+    "BaseStatBoosterModifierType": {
+      "description": "Tăng chỉ số cơ bản {{stat}} của người giữ lên 10%. Chỉ số IV càng cao, giới hạn cộng dồn càng lớn."
+    },
+    "PokemonBaseStatFlatModifierType": {
+      "name": "Bánh Gato",
+      "description": "Tăng chỉ số cơ bản {{stats}} của người sở hữu lên {{statValue}}. Được tìm thấy sau một giấc mơ kỳ lạ."
+    },
+    "AllPokemonFullHpRestoreModifierType": {
+      "description": "Hồi phục 100% HP cho tất cả Pokémon."
+    },
+    "AllPokemonFullReviveModifierType": {
+      "description": "Hồi sinh tất cả Pokémon bị bất tỉnh, phục hồi hoàn toàn HP."
+    },
+    "MoneyRewardModifierType": {
+      "description": "Cho một khoản tiền {{moneyMultiplier}} (₽{{moneyAmount}}).",
+      "extra": {
+        "small": "nhỏ",
+        "moderate": "trung",
+        "large": "lớn"
+      }
+    },
+    "ExpBoosterModifierType": {
+      "description": "Tăng lượng điểm kinh nghiệm nhận được lên {{boostPercent}}%."
+    },
+    "PokemonExpBoosterModifierType": {
+      "description": "Tăng điểm kinh nghiệm (EXP) mà Pokémon sở hữu nhận được lên {{boostPercent}}%."
+    },
+    "PokemonFriendshipBoosterModifierType": {
+      "description": "Tăng điểm tình bạn nhận lên 50%."
+    },
+    "PokemonMoveAccuracyBoosterModifierType": {
+      "description": "Tăng độ chuẩn của chiêu thức lên {{accuracyAmount}}."
+    },
+    "PokemonMultiHitModifierType": {
+      "description": "Chuyển đổi 25% sát thương từ các đòn tấn công của người sở hữu thành một đòn đánh bổ sung."
+    },
+    "TmModifierType": {
+      "name": "TM{{moveId}} - {{moveName}}",
+      "description": "Dạy chiêu thức {{moveName}} cho một Pokémon."
+    },
+    "TmModifierTypeWithInfo": {
+      "name": "TM{{moveId}} - {{moveName}}",
+      "description": "Dạy chiêu thức {{moveName}} cho Pokémon.\n(Giữ phím C hoặc Shift để xem thêm thông tin)"
+    },
+    "EvolutionItemModifierType": {
+      "description": "Khiến một số Pokémon tiến hóa."
+    },
+    "FormChangeItemModifierType": {
+      "description": "Khiến một số Pokémon thay đổi hình dạng."
+    },
+    "FusePokemonModifierType": {
+      "description": "Kết hợp hai Pokémon. (chuyển giao đặc tính, chia sẻ chỉ số cơ bản và hệ, dùng chung bộ chiêu thức)"
+    },
+    "TerastallizeModifierType": {
+      "name": "Mảnh Tera {{teraType}}",
+      "description": "Thay đổi hệ Tera của Pokémon thành {{teraType}}."
+    },
+    "ContactHeldItemTransferChanceModifierType": {
+      "description": "Khi tấn công, có {{chancePercent}}% khả năng vật phẩm mà đối phương đang giữ sẽ bị đánh cắp."
+    },
+    "TurnHeldItemTransferModifierType": {
+      "description": "Mỗi lượt, người giữ vật phẩm sẽ nhận được một vật phẩm từ đối thủ."
+    },
+    "EnemyAttackStatusEffectChanceModifierType": {
+      "description": "Tăng {{chancePercent}}% cơ hội gây hiệu ứng {{statusEffect}} bằng các đòn tấn công."
+    },
+    "EnemyEndureChanceModifierType": {
+      "description": "Tăng {{chancePercent}}% khả năng chịu đòn để lại 1 HP."
+    },
+    "RARE_CANDY": {
+      "name": "Kẹo Hiếm"
+    },
+    "RARER_CANDY": {
+      "name": "Kẹo Siêu Hiếm"
+    },
+    "MEGA_BRACELET": {
+      "name": "Vòng Mega",
+      "description": "Có thể tìm thấy Đá Mega."
+    },
+    "DYNAMAX_BAND": {
+      "name": "Vòng Dynamax",
+      "description": "Có thể tìm thấy Nấm Max."
+    },
+    "TERA_ORB": {
+      "name": "Cầu Tera",
+      "description": "Cho phép Pokémon sử dụng Terastallize. Thời gian hồi chậm. Và từ giờ, bạn sẽ có thể nhận được mảnh Tera."
+    },
+    "MAP": {
+      "name": "Bản Đồ",
+      "description": "Cho phép bạn lựa chọn điểm đến tại giao lộ."
+    },
+    "POTION": {
+      "name": "Thuốc Hồi Phục"
+    },
+    "SUPER_POTION": {
+      "name": "Siêu Thuốc Hồi Phục"
+    },
+    "HYPER_POTION": {
+      "name": "Thuốc Hồi Phục Lớn"
+    },
+    "MAX_POTION": {
+      "name": "Thuốc Hồi Phục Max"
+    },
+    "FULL_RESTORE": {
+      "name": "Thuốc Hồi Đầy Đủ"
+    },
+    "REVIVE": {
+      "name": "Đá Hồi Sinh"
+    },
+    "MAX_REVIVE": {
+      "name": "Đá Hồi Sinh Max"
+    },
+    "FULL_HEAL": {
+      "name": "Thuốc Chữa Hiệu Ứng"
+    },
+    "SACRED_ASH": {
+      "name": "Tro Thánh"
+    },
+    "REVIVER_SEED": {
+      "name": "Hạt Mầmt Táit Sinh",
+      "description": "Hồi sinh Pokémon giữ vật phẩm với 1/2 HP khi bị bất tỉnh do trúng đòn trực diện."
+    },
+    "WHITE_HERB": {
+      "name": "Cỏ Bạch Lang",
+      "description": "Một vật phẩm dành cho Pokémon. Nó sẽ khôi phục bất kỳ chỉ số nào bị giảm trong trận chiến."
+    },
+    "ETHER": {
+      "name": "Thuốc Dung Môi"
+    },
+    "MAX_ETHER": {
+      "name": "Thuốc Dung Môi Max"
+    },
+    "ELIXIR": {
+      "name": "Tinh Dược"
+    },
+    "MAX_ELIXIR": {
+      "name": "Tinh Dược Max"
+    },
+    "PP_UP": {
+      "name": "Nước Tăng Lực"
+    },
+    "PP_MAX": {
+      "name": "Nước Tăng Lực Max"
+    },
+    "LURE": {
+      "name": "Bình Mồi"
+    },
+    "SUPER_LURE": {
+      "name": "Bình Mồi Lớn"
+    },
+    "MAX_LURE": {
+      "name": "Bình Mồi Max"
+    },
+    "MEMORY_MUSHROOM": {
+      "name": "Nấm Trí Tuệ",
+      "description": "Nhớ lại chiêu thức đã bị lãng quên của một Pokémon."
+    },
+    "EXP_SHARE": {
+      "name": "Máy Chia ĐKN",
+      "description": "Những Pokémon không tham gia chiến đấu sẽ nhận được 20% số điểm ĐKN của Pokémon tham gia."
+    },
+    "EXP_BALANCE": {
+      "name": "Máy Cân ĐKN",
+      "description": "Tính ĐKN nhận được từ các trận chiến dành cho các Pokémon trong đội có cấp độ thấp hơn."
+    },
+    "OVAL_CHARM": {
+      "name": "Dây Chuyền Bầu Dục",
+      "description": "Khi nhiều Pokémon tham gia vào một trận chiến, mỗi Pokémon sẽ nhận được thêm 10% tổng số điểm kinh nghiệm."
+    },
+    "EXP_CHARM": {
+      "name": "Bùa ĐKN"
+    },
+    "SUPER_EXP_CHARM": {
+      "name": "Siêu Bùa ĐKN"
+    },
+    "GOLDEN_EXP_CHARM": {
+      "name": "Bùa ĐKN Vàng"
+    },
+    "LUCKY_EGG": {
+      "name": "Trứng May Mắn"
+    },
+    "GOLDEN_EGG": {
+      "name": "Trứng Vàng"
+    },
+    "SOOTHE_BELL": {
+      "name": "Chuông Xoa Dịu"
+    },
+    "SCOPE_LENS": {
+      "name": "Ống Kính Ngắm",
+      "description": "Đây là một loại ống kính dùng để dò tìm điểm yếu. Nó giúp tăng tỷ lệ chí mạng của Pokémon."
+    },
+    "DIRE_HIT": {
+      "name": "Thuốc Đòn Đánh",
+      "extra": {
+        "raises": "Tỉ Lệ Chí Mạng"
+      }
+    },
+    "LEEK": {
+      "name": "Hành Lá",
+      "description": "Cuống hành lá dài và cứng này giúp tăng tỷ lệ chí mạng cho các chiêu thức của Farfetch’d."
+    },
+    "EVIOLITE": {
+      "name": "Đá Tiến Trưởng",
+      "description": "Viên đá bí ẩn này sẽ tăng chỉ số Phòng thủ và P.thủ Đ.b. khi được giữ bởi một Pokémon vẫn còn khả năng tiến hóa."
+    },
+    "SOUL_DEW": {
+      "name": "Sương U Linh",
+      "description": "Tăng ảnh hưởng của tính cách Pokémon lên chỉ số của nó thêm 10% (cộng dồn)."
+    },
+    "NUGGET": {
+      "name": "Vàng"
+    },
+    "BIG_NUGGET": {
+      "name": "Vàng Viên"
+    },
+    "RELIC_GOLD": {
+      "name": "Vàng Cổ"
+    },
+    "AMULET_COIN": {
+      "name": "Bùa Xu Vàng",
+      "description": "Tăng phần thưởng tiền lên 20%."
+    },
+    "GOLDEN_PUNCH": {
+      "name": "Găng Tay Vàng",
+      "description": "Cho 50% sát thương trực tiếp gây ra thành tiền."
+    },
+    "COIN_CASE": {
+      "name": "Túi Đầu Tư",
+      "description": "Sau mỗi 10 trận chiến, bạn sẽ nhận được 10% tiền lãi."
+    },
+    "LOCK_CAPSULE": {
+      "name": "Viên Nang Khoá",
+      "description": "Cho phép bạn khóa độ hiếm của vật phẩm khi quay lại vật phẩm."
+    },
+    "GRIP_CLAW": {
+      "name": "Móng Vuốt Kẹp"
+    },
+    "WIDE_LENS": {
+      "name": "Ống Kính Góc Rộng"
+    },
+    "MULTI_LENS": {
+      "name": "Ống Kính Đa Năng"
+    },
+    "HEALING_CHARM": {
+      "name": "Bùa Hồi Máu",
+      "description": "Tăng hiệu quả của các chiêu thức và vật phẩm hồi phục HP lên 10% (không bao gồm Đá Hồi Sinh)."
+    },
+    "CANDY_JAR": {
+      "name": "Lọ Kẹo",
+      "description": "Tăng số cấp độ được thêm vào bởi vật phẩm Kẹo Hiếm lên 1."
+    },
+    "BERRY_POUCH": {
+      "name": "Túi Berry",
+      "description": "Tăng 30% khả năng Berry đã sử dụng sẽ không bị tiêu thụ."
+    },
+    "FOCUS_BAND": {
+      "name": "Băng Đeo Tập Trung",
+      "description": "Tăng 10% cơ hội sống sót với 1 HP sau khi bị thương đủ để bất tỉnh."
+    },
+    "QUICK_CLAW": {
+      "name": "Móng Tăng Tốc",
+      "description": "Tăng 10% cơ hội di chuyển trước bất kể tốc độ (sau chiêu thức ưu tiên)."
+    },
+    "KINGS_ROCK": {
+      "name": "Đá Vương Quyền",
+      "description": "Tăng 10% khả năng đòn tấn công sẽ khiến đối thủ giật mình."
+    },
+    "LEFTOVERS": {
+      "name": "Lõi Táo Thừa",
+      "description": "Hồi phục 1/16 lượng HP tối đa của Pokémon mỗi lượt."
+    },
+    "SHELL_BELL": {
+      "name": "Ốc Chuông Gió",
+      "description": "Hồi phục 1/8 lượng sát thương mà Pokémon gây ra."
+    },
+    "TOXIC_ORB": {
+      "name": "Cầu Độc Hại",
+      "description": "Đó là một quả cầu kỳ dị, khi chạm vào sẽ tỏa ra chất độc và sẽ gây độc nặng cho Pokémon trong trận chiến."
+    },
+    "FLAME_ORB": {
+      "name": "Cầu Lửa Bỏng",
+      "description": "Đó là một quả cầu kỳ lạ, khi chạm vào sẽ tỏa nhiệt và gây bỏng cho Pokémon trong trận chiến."
+    },
+    "MYSTICAL_ROCK": {
+      "name": "Đá Nhiễu Loạn",
+      "description": "Tăng thêm 2 lượt hiệu lực cho địa hình và thời tiết do chiêu thức hoặc đặc tính của Pokémon sở hữu gây ra."
+    },
+    "EVOLUTION_TRACKER_GIMMIGHOUL": {
+      "name": "Kho Báu",
+      "description": "Pokémon này rất thích kho báu! Hãy tiếp tục thu thập kho báu và điều gì đó bất ngờ có thể xảy ra!"
+    },
+    "EVOLUTION_TRACKER_PRIMEAPE": {
+      "description": "Primeape tiến hóa khi cơn thịnh nộ của nó vượt quá giới hạn của hình thể vật lý!\nHãy tích tụ cơn thịnh nộ của nó bằng cách sử dụng chiêu thức Rage Fist!"
+    },
+    "EVOLUTION_TRACKER_STANTLER": {
+      "description": "Stantler tiến hóa để thích nghi với môi trường khắc nghiệt. Hãy tăng cường khả năng phòng thủ của nó bằng cách sử dụng chiêu thức Psyshield Bash!"
+    },
+    "BATON": {
+      "name": "Gậy Chuyền Sức",
+      "description": "Cho phép truyền hiệu ứng khi đổi Pokémon, đồng thời cũng bỏ qua các bẫy."
+    },
+    "SHINY_CHARM": {
+      "name": "Bùa Toả Sáng",
+      "description": "Tăng đáng kể khả năng bắt gặp Pokémon hoang dã ở dạng Toả Sáng."
+    },
+    "ABILITY_CHARM": {
+      "name": "Bùa Đặc Tính",
+      "description": "Tăng đáng kể khả năng Pokémon hoang dã sở hữu đặc tính ẩn."
+    },
+    "CATCHING_CHARM": {
+      "name": "Bùa Thu Phục",
+      "description": "Tăng khả năng thu phục được Pokémon."
+    },
+    "IV_SCANNER": {
+      "name": "Máy Quét IV",
+      "description": "Cho phép quét chỉ số IV của Pokémon hoang dã."
+    },
+    "DNA_SPLICERS": {
+      "name": "Máy Cắt DNA"
+    },
+    "MINI_BLACK_HOLE": {
+      "name": "Hố Đen Mini"
+    },
+    "GOLDEN_POKEBALL": {
+      "name": "Poké Ball Vàng",
+      "description": "Thêm 1 tùy chọn vật phẩm bổ sung vào cuối mỗi trận chiến."
+    },
+    "ENEMY_DAMAGE_BOOSTER": {
+      "name": "Thẻ Sát Thương",
+      "description": "Tăng sát thương thêm 5%."
+    },
+    "ENEMY_DAMAGE_REDUCTION": {
+      "name": "Thẻ Bảo Hộ",
+      "description": "Giảm sát thương nhận vào 2,5%."
+    },
+    "ENEMY_HEAL": {
+      "name": "Thẻ Phục Hồi",
+      "description": "Hồi phục 2% lượng máu tối đa mỗi lượt."
+    },
+    "ENEMY_ATTACK_POISON_CHANCE": {
+      "name": "Thẻ Độc Tố"
+    },
+    "ENEMY_ATTACK_PARALYZE_CHANCE": {
+      "name": "Thẻ Tê Liệt"
+    },
+    "ENEMY_ATTACK_BURN_CHANCE": {
+      "name": "Thẻ Bỏng Da"
+    },
+    "ENEMY_STATUS_EFFECT_HEAL_CHANCE": {
+      "name": "Thẻ Chữa Trị",
+      "description": "Tăng 2,5% cơ hội mỗi lượt để chữa lành một trạng thái bất lợi."
+    },
+    "ENEMY_ENDURE_CHANCE": {
+      "name": "Thẻ Chịu Đựng"
+    },
+    "ENEMY_FUSED_CHANCE": {
+      "name": "Thẻ Hợp Nhất",
+      "description": "Tăng 1% khả năng Pokémon hoang dã sẽ là dạng hợp thể."
+    },
+    "MYSTERY_ENCOUNTER_SHUCKLE_JUICE_GOOD": {
+      "name": "Nước Hoa Quả Shuckle",
+      "description": "Tăng tất cả các chỉ số cơ bản của Pokémon cầm nó. Bạn đã được Shuckle ban phước."
+    },
+    "MYSTERY_ENCOUNTER_SHUCKLE_JUICE_BAD": {
+      "name": "Nước Shuckle Hỏng",
+      "description": "Giảm tất cả các chỉ số cơ bản của Pokémon sở hữu. Bạn đã bị Shuckle nguyền rủa."
+    },
+    "MYSTERY_ENCOUNTER_BLACK_SLUDGE": {
+      "name": "Bùn Đen",
+      "description": "Mùi hôi thối nồng nặc đến mức làm các cửa hàng chỉ bán cho bạn những mặt hàng với giá cao hơn bình thường."
+    },
+    "MYSTERY_ENCOUNTER_MACHO_BRACE": {
+      "name": "Vòng Chiến Binh",
+      "description": "Hạ đối thủ giúp Pokémon sở hữu nhận một điểm cộng dồn. Mỗi điểm tăng nhẹ chỉ số. Đạt tối đa sẽ nhận thêm chỉ số."
+    },
+    "MYSTERY_ENCOUNTER_OLD_GATEAU": {
+      "name": "Bánh Gato",
+      "description": "Tăng một số chỉ số của Pokémon sở hữu."
+    },
+    "MYSTERY_ENCOUNTER_GOLDEN_BUG_NET": {
+      "name": "Vợt Bọ Hoàng Kim",
+      "description": "Mang lại may mắn cho người sở hữu, giúp họ tìm thấy Pokémon hệ Côn trùng thường xuyên hơn. Có trọng lượng khá lạ."
+    }
+  },
+  "SpeciesBoosterItem": {
+    "LIGHT_BALL": {
+      "name": "Bóng Ánh Sáng",
+      "description": "Đó là một quả cầu bí ẩn giúp tăng chỉ số Tấn công và T.công Đ.b. của Pikachu."
+    },
+    "THICK_CLUB": {
+      "name": "Chày Xương",
+      "description": "Loại xương cứng không rõ nguồn gốc này giúp tăng chỉ số Tấn công của Cubone hoặc Marowak."
+    },
+    "METAL_POWDER": {
+      "name": "Vụn Sắt",
+      "description": "Loại bột kỳ lạ này cực kỳ mịn nhưng lại cứng, giúp tăng chỉ số Phòng thủ của Ditto."
+    },
+    "QUICK_POWDER": {
+      "name": "Bột Tăng Tốc",
+      "description": "Loại bột kỳ lạ này cực kỳ mịn nhưng lại cứng, giúp tăng chỉ số Tốc độ của Ditto."
+    },
+    "DEEP_SEA_SCALE": {
+      "name": "Vảy Sâu Hải",
+      "description": "Vảy này tỏa sáng với màu hồng nhạt và giúp tăng chỉ số P.thủ Đ.b. của Clamperl."
+    },
+    "DEEP_SEA_TOOTH": {
+      "name": "Xỉ Sâu Hải",
+      "description": "Chiếc răng nanh này sáng lấp lánh ánh bạc và giúp tăng chỉ số T.công Đ.b. của Clamperl."
+    }
+  },
+  "TempStatStageBoosterItem": {
+    "x_attack": "X Tấn Công",
+    "x_defense": "X Phòng Thủ",
+    "x_sp_atk": "X T.Công Đ.B",
+    "x_sp_def": "X P.Thủ Đ.B",
+    "x_speed": "X Tốc Độ",
+    "x_accuracy": "X Chuẩn Xác"
+  },
+  "AttackTypeBoosterItem": {
+    "silk_scarf": "Khăn Lụa",
+    "black_belt": "Đai Đen",
+    "sharp_beak": "Mỏ Sắc",
+    "poison_barb": "Gai Độc",
+    "soft_sand": "Cát Mịn",
+    "hard_stone": "Đá Cứng",
+    "silver_powder": "Bột Bạc",
+    "spell_tag": "Bùa Chú",
+    "metal_coat": "Bọc Sắt",
+    "charcoal": "Than Củi",
+    "mystic_water": "Nước Diệu Kì",
+    "miracle_seed": "Hạt Thần",
+    "magnet": "Nam Châm",
+    "twisted_spoon": "Thìa Uốn",
+    "never_melt_ice": "Băng Vĩnh Cửu",
+    "dragon_fang": "Nanh Rồng",
+    "black_glasses": "Kính Râm",
+    "fairy_feather": "Lông Tiên"
+  },
+  "BaseStatBoosterItem": {
+    "hp_up": "Tăng HP",
+    "protein": "Đạm",
+    "iron": "Sắt",
+    "calcium": "Canxi",
+    "zinc": "Kẽm",
+    "carbos": "Đường"
+  },
+  "EvolutionItem": {
+    "NONE": "Không",
+    "LINKING_CORD": "Cáp Trao Đổi",
+    "SUN_STONE": "Thái Dương Thạch",
+    "MOON_STONE": "Nguyệt Quang Thạch",
+    "LEAF_STONE": "Thảo Thạch",
+    "FIRE_STONE": "Hoả Thạch",
+    "WATER_STONE": "Thủy Thạch",
+    "THUNDER_STONE": "Lôi Thạch",
+    "ICE_STONE": "Băng Thạch",
+    "DUSK_STONE": "Hôn Vãn Thạch",
+    "DAWN_STONE": "Triều Minh Thạch",
+    "SHINY_STONE": "Huy Quang Thạch",
+    "CRACKED_POT": "Ấm Nứt",
+    "SWEET_APPLE": "Táo Ngọt",
+    "TART_APPLE": "Táo Chua",
+    "STRAWBERRY_SWEET": "Kẹo Dâu",
+    "UNREMARKABLE_TEACUP": "Cốc Trà Thường",
+    "UPGRADE": "Nâng Cấp",
+    "DUBIOUS_DISC": "Đĩa Kì Bí",
+    "DRAGON_SCALE": "Vảy Rồng",
+    "PRISM_SCALE": "Vảy Lăng Kính",
+    "RAZOR_CLAW": "Vuốt Sắc Nhọn",
+    "RAZOR_FANG": "Nanh Sắc Nhọn",
+    "OVAL_STONE": "Đá Bầu Dục",
+    "REAPER_CLOTH": "Vải Tử Thần",
+    "ELECTIRIZER": "Ắc Quy Điện",
+    "MAGMARIZER": "Lõi Mắc Ma",
+    "PROTECTOR": "Áo Bảo Hộ",
+    "SACHET": "Túi Thơm",
+    "WHIPPED_DREAM": "Mộng Kem Tươi",
+    "LEADERS_CREST": "Huy Hiệu Chỉ Huy",
+    "SUN_FLUTE": "Sáo Ánh Dương",
+    "MOON_FLUTE": "Sáo Nguyệt Quang",
+    "CHIPPED_POT": "Ấm Nứt",
+    "BLACK_AUGURITE": "Mảnh Đá Đen",
+    "GALARICA_CUFF": "Vòng Tay Galarica",
+    "GALARICA_WREATH": "Vòng Hoa Galarica",
+    "PEAT_BLOCK": "Khối Bùn Khô",
+    "AUSPICIOUS_ARMOR": "Giáp Bí Ẩn",
+    "MALICIOUS_ARMOR": "Giáp Tà Ác",
+    "MASTERPIECE_TEACUP": "Cốc Trà Tuyệt Hảo",
+    "METAL_ALLOY": "Sắt Hợp Kim",
+    "SCROLL_OF_DARKNESS": "Cuộn Giấy Bóng Đêm",
+    "SCROLL_OF_WATERS": "Cuộn Giấy Thủy Triều",
+    "SYRUPY_APPLE": "Táo Siro"
+  },
+  "FormChangeItem": {
+    "NONE": "Không",
+    "ABOMASITE": "Abomasite",
+    "ABSOLITE": "Absolite",
+    "AERODACTYLITE": "Aerodactylite",
+    "AGGRONITE": "Aggronite",
+    "ALAKAZITE": "Alakazite",
+    "ALTARIANITE": "Altarianite",
+    "AMPHAROSITE": "Ampharosite",
+    "AUDINITE": "Audinite",
+    "BANETTITE": "Banettite",
+    "BEEDRILLITE": "Beedrillite",
+    "BLASTOISINITE": "Blastoisinite",
+    "BLAZIKENITE": "Blazikenite",
+    "CAMERUPTITE": "Cameruptite",
+    "CHARIZARDITE_X": "Charizardite X",
+    "CHARIZARDITE_Y": "Charizardite Y",
+    "DIANCITE": "Diancite",
+    "GALLADITE": "Galladite",
+    "GARCHOMPITE": "Garchompite",
+    "GARDEVOIRITE": "Gardevoirite",
+    "GENGARITE": "Gengarite",
+    "GLALITITE": "Glalitite",
+    "GYARADOSITE": "Gyaradosite",
+    "HERACRONITE": "Heracronite",
+    "HOUNDOOMINITE": "Houndoominite",
+    "KANGASKHANITE": "Kangaskhanite",
+    "LATIASITE": "Latiasite",
+    "LATIOSITE": "Latiosite",
+    "LOPUNNITE": "Lopunnite",
+    "LUCARIONITE": "Lucarionite",
+    "MANECTITE": "Manectite",
+    "MAWILITE": "Mawilite",
+    "MEDICHAMITE": "Medichamite",
+    "METAGROSSITE": "Metagrossite",
+    "MEWTWONITE_X": "Mewtwonite X",
+    "MEWTWONITE_Y": "Mewtwonite Y",
+    "PIDGEOTITE": "Pidgeotite",
+    "PINSIRITE": "Pinsirite",
+    "RAYQUAZITE": "Rayquazite",
+    "SABLENITE": "Sablenite",
+    "SALAMENCITE": "Salamencite",
+    "SCEPTILITE": "Sceptilite",
+    "SCIZORITE": "Scizorite",
+    "SHARPEDONITE": "Sharpedonite",
+    "SLOWBRONITE": "Slowbronite",
+    "STEELIXITE": "Steelixite",
+    "SWAMPERTITE": "Swampertite",
+    "TYRANITARITE": "Tyranitarite",
+    "VENUSAURITE": "Venusaurite",
+    "CLEFABLITE": "Clefablite",
+    "VICTREEBELITE": "Victreebelite",
+    "STARMINITE": "Starminite",
+    "DRAGONINITE": "Dragoninite",
+    "MEGANIUMITE": "Meganiumite",
+    "FERALIGITE": "Feraligite",
+    "SKARMORITE": "Skarmorite",
+    "FROSLASSITE": "Froslassite",
+    "EMBOARITE": "Emboarite",
+    "EXCADRITE": "Excadrite",
+    "SCOLIPITE": "Scolipite",
+    "SCRAFTINITE": "Scraftinite",
+    "EELEKTROSSITE": "Eelektrossite",
+    "CHANDELURITE": "Chandelurite",
+    "CHESNAUGHTITE": "Chesnaughtite",
+    "DELPHOXITE": "Delphoxite",
+    "GRENINJITE": "Greninjite",
+    "PYROARITE": "Pyroarite",
+    "FLOETTITE": "Floettite",
+    "MALAMARITE": "Malamarite",
+    "BARBARACITE": "Barbaracite",
+    "DRAGALGITE": "Dragalgite",
+    "HAWLUCHANITE": "Hawluchanite",
+    "ZYGARDITE": "Zygardite",
+    "DRAMPANITE": "Drampanite",
+    "FALINKSITE": "Falinksite",
+    "HEATRANITE": "Heatranite",
+    "DARKRANITE": "Darkranite",
+    "ZERAORITE": "Zeraorite",
+    "RAICHUNITE_X": "Raichunite X",
+    "RAICHUNITE_Y": "Raichunite Y",
+    "CHIMECHITE": "Chimechite",
+    "ABSOLITE_Z": "Absolite Z",
+    "STARAPTITE": "Staraptite",
+    "GARCHOMPITE_Z": "Garchompite Z",
+    "LUCARIONITE_Z": "Lucarionite Z",
+    "GOLURKITE": "Golurkite",
+    "MEOWSTICITE": "Meowsticite",
+    "CRABOMINITE": "Crabominite",
+    "GOLISOPITE": "Golisopite",
+    "MAGEARNITE": "Magearnite",
+    "SCOVILLAINITE": "Scovillainite",
+    "BAXCALIBRITE": "Baxcalibrite",
+    "TATSUGIRINITE": "Tatsugirinite",
+    "GLIMMORANITE": "Glimmoranite",
+    "BLUE_ORB": "Thủy Lam Cầu",
+    "RED_ORB": "Thổ Hồng Cầu",
+    "SHARP_METEORITE": "Thiên Thạch Sắc Nhọn",
+    "HARD_METEORITE": "Thiên Thạch Cứng Cáp",
+    "SMOOTH_METEORITE": "Thiên Thạch Mềm Mại",
+    "ADAMANT_CRYSTAL": "Đá Bất Khuất",
+    "LUSTROUS_GLOBE": "Cầu Huỳnh Quang",
+    "GRISEOUS_CORE": "Lõi Xám Đục",
+    "REVEAL_GLASS": "Gương Phản Chiếu",
+    "GRACIDEA": "Hoa Thanh Nhã",
+    "MAX_MUSHROOMS": "Nấm Max",
+    "DARK_STONE": "Hắc Thạch",
+    "LIGHT_STONE": "Quang Thạch",
+    "PRISON_BOTTLE": "Lọ Phong Ấn",
+    "N_LUNARIZER": "Máy Nguyệt Ấn",
+    "N_SOLARIZER": "Máy Quang Ấn",
+    "RUSTED_SWORD": "Kiếm Rỉ Sét",
+    "RUSTED_SHIELD": "Khiên Rỉ Sét",
+    "ICY_REINS_OF_UNITY": "Dây Cưỡi Băng Giá",
+    "SHADOW_REINS_OF_UNITY": "Dây Cưỡi Bóng Đêm",
+    "WELLSPRING_MASK": "Mặt Nạ Thủy Tinh",
+    "HEARTHFLAME_MASK": "Mặt Nạ Hoả Tinh",
+    "CORNERSTONE_MASK": "Mặt Nạ Sơn Tinh",
+    "SHOCK_DRIVE": "Đĩa Điện",
+    "BURN_DRIVE": "Đĩa Lửa",
+    "CHILL_DRIVE": "Đĩa Băng",
+    "DOUSE_DRIVE": "Đĩa Thủy",
+    "ULTRANECROZIUM_Z": "Ultranecrozium Z",
+    "FIST_PLATE": "Bản Nắm Đấm",
+    "SKY_PLATE": "Bản Nắm Đấm",
+    "TOXIC_PLATE": "Bản Độc Hại",
+    "EARTH_PLATE": "Bản Địa Chất",
+    "STONE_PLATE": "Bản Sỏi Đá",
+    "INSECT_PLATE": "Bản Côn Trùng",
+    "SPOOKY_PLATE": "Bản Hù Doạ",
+    "IRON_PLATE": "Bản Sắt Thép",
+    "FLAME_PLATE": "Bản Bùng Lửa",
+    "SPLASH_PLATE": "Bản Té Nước",
+    "MEADOW_PLATE": "Bản Đồng Cỏ",
+    "ZAP_PLATE": "Bản Tê Liệt",
+    "MIND_PLATE": "Bản Tâm Trí",
+    "ICICLE_PLATE": "Bản Lạnh Lẽo",
+    "DRACO_PLATE": "Bản Long Vương",
+    "DREAD_PLATE": "Bản Sợ Hãi",
+    "PIXIE_PLATE": "Bản Đáng Yêu",
+    "BLANK_PLATE": "Bản Trống",
+    "LEGEND_PLATE": "Bản Huyền Thoại",
+    "FIGHTING_MEMORY": "Kí Ức Giác Đấu",
+    "FLYING_MEMORY": "Kí Ức Bay",
+    "POISON_MEMORY": "Kí Ức Độc",
+    "GROUND_MEMORY": "Kí Ức Đất",
+    "ROCK_MEMORY": "Kí Ức Đá",
+    "BUG_MEMORY": "Kí Ức Côn Trùng",
+    "GHOST_MEMORY": "Kí Ức Ma",
+    "STEEL_MEMORY": "Kí Ức Thép",
+    "FIRE_MEMORY": "Kí Ức Lửa",
+    "WATER_MEMORY": "Kí Ức Nước",
+    "GRASS_MEMORY": "Kí Ức Cỏ",
+    "ELECTRIC_MEMORY": "Kí Ức Điện",
+    "PSYCHIC_MEMORY": "Kí Ức Tâm Linh",
+    "ICE_MEMORY": "Kí Ức Băng",
+    "DRAGON_MEMORY": "Kí Ức Rồng",
+    "DARK_MEMORY": "Kí Ức Bóng Tối",
+    "FAIRY_MEMORY": "Kí Ức Tiên",
+    "NORMAL_MEMORY": "Kí Ức Thường"
+  }
+}

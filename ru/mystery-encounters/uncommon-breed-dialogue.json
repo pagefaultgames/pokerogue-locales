@@ -1,0 +1,26 @@
+{
+  "intro": "Это не простой Покемон!",
+  "title": "Редкий Порода",
+  "description": "Этот {{enemyPokemon}} не такой как остальные. @[TOOLTIP_TITLE]{Может он знает особенный приём?} Сразишься и поймаешь, или попытаешься подружиться?",
+  "query": "Что ты сделаешь?",
+  "option": {
+    "1": {
+      "label": "Сразиться с Покемоном",
+      "tooltip": "(-) Тяжёлая Битва\n(+) Возможность поймать сильного Покемона",
+      "selected": "Ты уверенно идёшь к\n{{enemyPokemon}}.",
+      "statBoost": "Таланты {{enemyPokemon}} усиливают характеристики!"
+    },
+    "2": {
+      "label": "Дать Еду",
+      "disabledTooltip": "Тебе нужно 4 ягоды, чтобы выбрать это.",
+      "tooltip": "(-) Дать 4 Ягоды\n(+) {{enemyPokemon}} полюбит тебя",
+      "selected": "Ты кидаешь ягоды для {{enemyPokemon}}!$Он(а) счастливо съедает их!${{enemyPokemon}} хочет присоединиться к тебе!"
+    },
+    "3": {
+      "label": "Подружиться",
+      "disabledTooltip": "Твой Покемон должен знать нужный приём для этого.",
+      "tooltip": "(+) {{option3PrimaryName}} использует {{option3PrimaryMove}}\n(+) {{enemyPokemon}} Полюбит Тебя",
+      "selected": "{{option3PrimaryName}} использует {{option3PrimaryMove}} чтобы очаровать {{enemyPokemon}}!${{enemyPokemon}} хочет присоединиться к тебе!"
+    }
+  }
+}

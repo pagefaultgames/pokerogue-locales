@@ -1,0 +1,22 @@
+{
+  "intro": "En skum man i en trasig rock står i din väg…",
+  "speaker": "Skum typ",
+  "introDialogue": "Hörru! Jag har arbetat på en ny uppfinning som får fram en pokémons latenta kraft!$Den omstrukturerar en pokémons atomer på molekylär nivå till en mycket mäktigare form.$Hehe…@d{64} Jag behöver bara några offe—@d{32}Ehhh, försöksobjekt, för att bevisa att den fungerar...",
+  "title": "Oetiskt värre",
+  "description": "Den oroväckande mannen håller upp några bollar.\n”Det blir värt mödan! Du får dessa starka bollar som betalning. Allt jag behöver är en pokémon från ditt lag... Hehehe…”",
+  "query": "Hur gör du?",
+  "option": {
+    "1": {
+      "label": "Godta",
+      "tooltip": "(+) 5 Roguebollar\n(?) Uppgradera en slumpmässig pokémon",
+      "selectedDialogue": "Nu ska vi se... Din {{pokeName}} duger väl!$Ha vänligen i åtanke att jag inte hålls ansvarig för oförutsedda händelser!@d{32} Hehehe…",
+      "selectedMessage": "Mannen räcker dig 5 Roguebollar.${{pokeName}} hoppar in i den skumma maskinen…$Blinkande ljus och konstiga ljud börjar strömma ur den!$…@d{96} Plöstligt träder någonting ut ur maskinen, rasande och utom kontroll!"
+    },
+    "2": {
+      "label": "Avböj",
+      "tooltip": "(-) Ingen belöning",
+      "selected": "Ska du inte hjälpa en stackars medmänniska?\nBah!"
+    }
+  },
+  "outro": "Efter den omskakande upplevelsen \nsamlar du dig och ger dig av."
+}

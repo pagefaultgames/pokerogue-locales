@@ -24,7 +24,7 @@
     }
   },
   "limitedCatch": {
-    "name": "Fångstgräns",
+    "name": "Fångstbegränsning",
     "desc": "Du kan endast lägga till den första pokémon du möter i ett biom i ditt aktuella lag.",
     "value": {
       "0": "Av",
@@ -43,7 +43,7 @@
       "0": "Av",
       "1": "Helning av",
       "2": "Butik av",
-      "3": "Både och"
+      "3": "Båda av"
     }
   },
   "singleGeneration": {
@@ -104,6 +104,14 @@
       "0": "Av",
       "1": "Tränares",
       "2": "Alla"
+    }
+  },
+  "movesetRandomizer": {
+    "name": "Slumpad teknikordning",
+    "desc": "Ordningen i vilken var pokémon lär sig sina tekniker vid nivåökningen slumpas. Startare börjar med bastekniker som matchar deras typ.\n\nAndra utmaningsprestationer avaktiveras.",
+    "value": {
+      "0": "Av",
+      "1": "På"
     }
   }
 }
