@@ -448,14 +448,16 @@
     "effect": "Crea una barrera que aumenta mucho la defensa."
   },
   "lightScreen": {
-    "name": "Pantalla de Luz"
+    "name": "Pantalla de Luz",
+    "effect": "Pared de luz que reduce durante 5 turnos el daño producido por los ataques especiales a la mitad. En Combates Dobles, en cambio, el daño se ve reducido en ⅓."
   },
   "haze": {
     "name": "Niebla",
     "effect": "Neblina oscura que elimina los cambios en las características de todos los Pokémon en combate."
   },
   "reflect": {
-    "name": "Reflejo"
+    "name": "Reflejo",
+    "effect": "Pared de luz que reduce durante 5 turnos el daño producido por los ataques físicos a la mitad. En Combates Dobles, en cambio, el daño se ve reducido en ⅓."
   },
   "focusEnergy": {
     "name": "Foco Energía",
@@ -1554,7 +1556,8 @@
     "effect": "Permite atacar con prioridad. Falla si el objetivo no está preparando ningún ataque."
   },
   "toxicSpikes": {
-    "name": "Púas Tóxicas"
+    "name": "Púas Tóxicas",
+    "effect": "Lanza una trampa de púas tóxicas a los pies del lado oponente. Una capa de estas púas envenena a los Pokémon que entren en combate, mientras que dos capas lo envenenan gravemente. Pokémon de tipo Volador y Pokémon con Levitación no se even afectados. Los Pokémon de tipo Veneno absorben las púas y las eliminan del campo de batalla."
   },
   "heartSwap": {
     "name": "Cambiaalmas",
@@ -2769,7 +2772,8 @@
     "effect": "Hace pivotar su cuerpo para causar daño a los Pokémon adyacentes."
   },
   "auroraVeil": {
-    "name": "Velo Aurora"
+    "name": "Velo Aurora",
+    "effect": "Reduce a la mitad el daño de los ataques físicos y especiales durante 5 turnos. En Combates Dobles, en cambio, el daño se ve reducido en ⅓. Solo puede usarse cuando está nevando o granizando."
   },
   "sinisterArrowRaid": {
     "name": "Aluvión de Flechas Sombrías",
@@ -2844,10 +2848,12 @@
     "effect": "El usuario se esconde en la sombra del objetivo y lo ataca tras robarle las mejoras en sus características."
   },
   "sunsteelStrike": {
-    "name": "Meteoimpacto"
+    "name": "Meteoimpacto",
+    "effect": "Ataca al objetivo con la potencia de un meteoro, ignorando su habilidad (salvo excepciones)."
   },
   "moongeistBeam": {
-    "name": "Rayo Umbrío"
+    "name": "Rayo Umbrío",
+    "effect": "Ataca con un rayo misterioso que ignora la habilidad del objetivo (salvo excepciones)."
   },
   "tearfulLook": {
     "name": "Ojos Llorosos",
@@ -2878,16 +2884,20 @@
     "effect": "El usuario ataca con puños cargados de electricidad. Convierte los movimientos de tipo Normal en movimientos de tipo Eléctrico."
   },
   "photonGeyser": {
-    "name": "Géiser Fotónico"
+    "name": "Géiser Fotónico",
+    "effect": "El usuario ataca con una gran columna de luz. Compara sus valores de Ataque y Ataque especial para infligir daño con el más alto de los dos. También ignora las habilidades del objetivo (salvo excepciones)."
   },
   "lightThatBurnsTheSky": {
-    "name": "Fotodestrucción Apocalíptica"
+    "name": "Fotodestrucción Apocalíptica",
+    "effect": "Necrozma escoge la característica que tenga el valor más alto entre el ataque y el ataque especial para infligir daño, ignorando la habilidad del objetivo (salvo excepciones)."
   },
   "searingSunrazeSmash": {
-    "name": "Embestida Solar"
+    "name": "Embestida Solar",
+    "effect": "Solgaleo ataca con toda su fuerza tras imbuirse del Poder Z. Este movimiento ignora la habilidad del objetivo (salvo excepciones)."
   },
   "menacingMoonrazeMaelstrom": {
-    "name": "Deflagración Lunar"
+    "name": "Deflagración Lunar",
+    "effect": "Lunala ataca con toda su fuerza tras imbuirse del Poder Z. Este movimiento ignora la habilidad del objetivo (salvo excepciones)."
   },
   "letsSnuggleForever": {
     "name": "Somanta Amistosa",
@@ -2978,7 +2988,8 @@
     "effect": "El usuario consume una baya que lleve, lo que aumenta 2 niveles su Defensa. Este movimiento no se puede usar si el usuario no lleva una baya."
   },
   "noRetreat": {
-    "name": "Bastión Final"
+    "name": "Bastión Final",
+    "effect": "Aumenta un nivel el Ataque, la Defensa, el Ataque Especial, la Defensa Especial y la Velocidad del usuario, pero ya no puede huir ni ser cambiado por otro. Puede usarse una vez tras entrar en combate y fallará si se usa una segunda vez."
   },
   "tarShot": {
     "name": "Alquitranazo",
@@ -3149,7 +3160,8 @@
     "effect": "Desprende un humo con el que ataca al objetivo. Tiene una probabilidad del 20% de confundir al objetivo."
   },
   "lifeDew": {
-    "name": "Gota Vital"
+    "name": "Gota Vital",
+    "effect": "Vierte un agua misteriosa y balsámica que restaura ¼ de los PS máximos del usuario y sus aliados."
   },
   "obstruct": {
     "name": "Obstrucción",
@@ -3248,7 +3260,8 @@
     "effect": "Ataca al objetivo arrojándole arena a temperaturas muy elevadas. Tiene una probabilidad del 30 % de quemar al objetivo. Elimina la congelación del usuario y el objetivo."
   },
   "jungleHealing": {
-    "name": "Cura Selvática"
+    "name": "Cura Selvática",
+    "effect": "Al entrar en plena armonía con la selva, el usuario cura problemas de estado y restaura ¼ de los PS máximos del usuario y sus aliados."
   },
   "wickedBlow": {
     "name": "Golpe Oscuro",
@@ -3363,7 +3376,8 @@
     "effect": "Lanza innumerables bolas de fuego al objetivo. Tiene una probabilidad del 30 % de quemar al objetivo. Su potencia se duplica si el objetivo sufre un problema de estado."
   },
   "ceaselessEdge": {
-    "name": "Tajo Metralla"
+    "name": "Tajo Metralla",
+    "effect": "Ataca con una espada de conchas y, al hacerlo, coloca una capa de Púas sobre el campo rival, hasta un máximo de 3 capas. Las púas dañan de ⅛ por cada capa de púas a cada objetivo que entre en combate. Los Pokémon de tipo Volador y los Pokémon con Levitación no se ven afectados por estas púas."
   },
   "bleakwindStorm": {
     "name": "Vendaval Gélido",
@@ -3378,7 +3392,8 @@
     "effect": "Ataca al objetivo envolviéndolo en unas arenas tórridas y un fuerte vendaval. Tiene un 20% de probabilidad de quemar al objetivo."
   },
   "lunarBlessing": {
-    "name": "Plegaria Lunar"
+    "name": "Plegaria Lunar",
+    "effect": "Dedica una oración a la luna creciente que restaura ¼ de los PS máximos del usuario y sus aliados y cura sus problemas de estado."
   },
   "takeHeart": {
     "name": "Bálsamo Osado",
