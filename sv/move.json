@@ -5,7 +5,7 @@
   },
   "karateChop": {
     "name": "Karatehugg",
-    "effect": "Motståndaren anfalls med ett handshugg, med 1 stegs högre chans för kritisk träff."
+    "effect": "Motståndaren anfalls med ett handshugg. Chansen för kritisk träff är +1."
   },
   "doubleSlap": {
     "name": "Örfilar",
@@ -48,7 +48,7 @@
   },
   "razorWind": {
     "name": "Sickelvind",
-    "effect": "Utföraren laddar först upp och anfaller sedan med vindsicklor omgången efter. Chansen för kritiska träff är 1 steg högre."
+    "effect": "Utföraren laddar först upp och anfaller sedan med vindsicklor omgången efter. Chansen för kritisk träff är +1."
   },
   "swordsDance": {
     "name": "Svärdsdans",
@@ -2786,7 +2786,8 @@
     "effect": "Utföraren krockar huvudstupa in i motståndaren. Detta sänker också utförarens försvars- och sp. fsv-förmåga."
   },
   "barbBarrage": {
-    "name": "Tusen nålar"
+    "name": "Tusen nålar",
+    "effect": "Utföraren avfyrar tusentals giftiga nålar in i motståndaren. Detta har 20 % chans att förgifta motståndaren. Teknikens kraft fördubblas om motståndaren redan är förgiftad."
   },
   "esperWing": {
     "name": "Auravinge"
@@ -3098,7 +3099,8 @@
     "name": "Malismotor"
   },
   "noxiousTorque": {
-    "name": "Morbidmotor"
+    "name": "Morbidmotor",
+    "effect": "Utföraren varvar upp sin miljöfarliga motor och kör in i motståndaren. Detta har 30 % chans att förgifta motståndaren."
   },
   "combatTorque": {
     "name": "Mörbultemotor",
@@ -3169,7 +3171,8 @@
     "effect": "Utföraren reagerar på rörelse och slår till med handflatan, vilket får motståndaren att rygga tillbaka. Detta misslyckas om motståndaren inte förbereder ett prioritetsteknik."
   },
   "malignantChain": {
-    "name": "Malign kedja"
+    "name": "Malign kedja",
+    "effect": "Utföraren binder motståndaren med en giftig, frätande kedja för skada den. Detta har 50 % chans att svårt förgifta motståndaren."
   },
   "nihilLight": {
     "name": "Lux Nihilum",
