@@ -8,7 +8,8 @@
     "effect": "Motståndaren anfalls med ett handshugg, med 1 stegs högre chans för kritisk träff."
   },
   "doubleSlap": {
-    "name": "Örfilar"
+    "name": "Örfilar",
+    "effect": "Motståndaren örfilas 2-5 gånger i rad."
   },
   "cometPunch": {
     "name": "Nävrusch",
@@ -31,7 +32,8 @@
     "effect": "Motståndaren slås med en frusen knytnäve, med 10 % chans för nedfrysning."
   },
   "thunderPunch": {
-    "name": "Blixtnäve"
+    "name": "Blixtnäve",
+    "effect": "Motståndaren slås med en elladdad knytnäve. Detta har 10 % chans att förlama motståndaren."
   },
   "scratch": {
     "name": "Rispa",
@@ -136,10 +138,12 @@
     "name": "Svansvift"
   },
   "poisonSting": {
-    "name": "Giftstick"
+    "name": "Giftstick",
+    "effect": "Utföraren sticker motståndaren med en gifttagg. Detta har 30 % chans att förgifta motståndaren."
   },
   "twineedle": {
-    "name": "Dubbelnål"
+    "name": "Dubbelnål",
+    "effect": "Utföraren sticker motståndaren 2 gånger i rad med två vassa nålar. Detta har 20 % chans att förgifta motståndaren."
   },
   "pinMissile": {
     "name": "Missilnålar"
@@ -280,10 +284,12 @@
     "name": "Eldvirvel"
   },
   "thunderShock": {
-    "name": "Åskstöt"
+    "name": "Åskstöt",
+    "effect": "En elektrisk stöt slår ner på motståndaren och skadar den. Detta har 10 % chans att förlama motståndaren."
   },
   "thunderbolt": {
-    "name": "Åskboll"
+    "name": "Åskboll",
+    "effect": "En stark elektrisk stöt slår ner på motståndaren och skadar den. Detta har 10 % chans att förlama motståndaren."
   },
   "thunderWave": {
     "name": "Åskvåg",
@@ -406,13 +412,16 @@
     "effect": "Ett stort ägg kastas på motståndaren med maximal styrka."
   },
   "lick": {
-    "name": "Slick"
+    "name": "Slick",
+    "effect": "Motståndaren slickas med en lång tunga och tar skada. Detta har 30 % chans att förlama motståndaren."
   },
   "smog": {
-    "name": "Smog"
+    "name": "Smog",
+    "effect": "Avfallsgaser avfyrar mot motståndaren för att skada den. Detta har 30 % chans att förgifta motståndaren."
   },
   "sludge": {
-    "name": "Slamskott"
+    "name": "Slamskott",
+    "effect": "Osanitärt slam slungas på motståndaren. Detta har 30 % chans att förgifta motståndaren."
   },
   "boneClub": {
     "name": "Knotklubba"
@@ -620,7 +629,8 @@
     "name": "Magtrumma"
   },
   "sludgeBomb": {
-    "name": "Kläggbomb"
+    "name": "Kläggbomb",
+    "effect": "En stor massa av slam och klägg slungas på motståndaren. Detta har 30 % chans att förgifta motståndaren."
   },
   "mudSlap": {
     "name": "Gyttjeskast",
@@ -688,7 +698,8 @@
     "name": "Mellanmjölk"
   },
   "spark": {
-    "name": "Gnista"
+    "name": "Gnista",
+    "effect": "Utföraren laddar upp med el och tacklar motståndaren. Detta har 30 % chans att förlama motståndaren."
   },
   "furyCutter": {
     "name": "Insekvensskärare"
@@ -737,7 +748,8 @@
     "effect": "Med sitt tuffa och imponerande horn rammar utföraren in i motståndaren utan uppehåll."
   },
   "dragonBreath": {
-    "name": "Drakens anda"
+    "name": "Drakens anda",
+    "effect": "Utföraren andas in mäktig vindil som skadar motståndaren. Detta har 30 % chans att förlama motståndaren."
   },
   "batonPass": {
     "name": "Stafettpinne"
@@ -995,7 +1007,8 @@
     "name": "Kakofoni"
   },
   "poisonFang": {
-    "name": "Giftiga huggtänder"
+    "name": "Giftiga huggtänder",
+    "effect": "Utföraren biter motståndaren med giftiga huggtänder. Detta har 50 % chans att svårt förgifta motståndaren."
   },
   "crushClaw": {
     "name": "Krossande klor"
@@ -1109,21 +1122,24 @@
     "name": "Megabulk"
   },
   "bounce": {
-    "name": "Studs"
+    "name": "Studs",
+    "effect": "Utföraren studsar högt upp i luften för att falla ner på motståndaren följande omgång. Detta har 30 % chans att förlama motståndaren."
   },
   "mudShot": {
     "name": "Lerskott",
     "effect": "Utföraren kastar en klump lera på motståndaren. Detta sänker också motståndarens snabbhet."
   },
   "poisonTail": {
-    "name": "Giftig svans"
+    "name": "Giftig svans",
+    "effect": "Utföraren skadar motståndaren med sin svans. Detta har 10 % chans att förgifta motståndaren. Chans för kritisk träff är +1."
   },
   "covet": {
     "name": "Efterfikande",
     "effect": "Utföraren närmar sig motståndaren på ett gulligt sätt, fikande efter dess föremål, och attackerar med 30 % chans att stjäla ett buret föremål."
   },
   "voltTackle": {
-    "name": "Volttackling"
+    "name": "Volttackling",
+    "effect": "Utföraren elektrifierar sig själv och springer rakt in i motståndaren. Utföraren tar själv ⅓ av skadan skedd. Detta har 10 % chans att förlama motståndaren."
   },
   "magicalLeaf": {
     "name": "Magiska löv",
@@ -1293,7 +1309,8 @@
     "name": "Brisant eldkrasch"
   },
   "forcePalm": {
-    "name": "Fājin-stöt"
+    "name": "Fājin-stöt",
+    "effect": "Utföraren skickar en chockvåg genom motståndarens kropp med inre kroppsenergi. Detta har 30 % chans att förlama motståndaren."
   },
   "auraSphere": {
     "name": "Aurapulsering"
@@ -1302,7 +1319,8 @@
     "name": "Stenpolering"
   },
   "poisonJab": {
-    "name": "Gifthugg"
+    "name": "Gifthugg",
+    "effect": "Motståndaren huggs med en gifttäckt tentakel, arm eller dylikt. Detta har 30 % chans att förgifta motståndaren."
   },
   "darkPulse": {
     "name": "Mörkerpulsering"
@@ -1437,7 +1455,8 @@
     "effect": "Utföraren kastar en enorm stenblock mot motståndaren för att attackera. Utföraren kan inte röra sig i följande omgång."
   },
   "crossPoison": {
-    "name": "Giftigt korssvep"
+    "name": "Giftigt korssvep",
+    "effect": "En skärande attack med en giftig kling som kan förgifta motståndaren. Detta har 10 % chans att förgifta motståndaren."
   },
   "gunkShot": {
     "name": "Avfallskanon"
@@ -1784,7 +1803,8 @@
     "name": "Glaciation"
   },
   "boltStrike": {
-    "name": "Blixtangrepp"
+    "name": "Blixtangrepp",
+    "effect": "Utföraren skapar ett massiv mängd av el runt sig och hoppar på motståndaren. Detta har 20 % chans att förlama motståndaren."
   },
   "blueFlare": {
     "name": "Blå låga"
@@ -1793,7 +1813,8 @@
     "name": "Lågornas dans"
   },
   "freezeShock": {
-    "name": "Frostvolt"
+    "name": "Frostvolt",
+    "effect": "Utföraren laddar först upp för att träffa motståndaren med elladdad is följande omgång. Detta har 30 % chans att förlama motståndaren."
   },
   "iceBurn": {
     "name": "Hypotermisk köld"
@@ -3078,7 +3099,8 @@
     "name": "Morbidmotor"
   },
   "combatTorque": {
-    "name": "Mörbultemotor"
+    "name": "Mörbultemotor",
+    "effect": "Utföraren varvar upp sin motor och kör, med stor kraft, rakt in i motståndaren. Detta har 30 % chans att förlama motståndaren."
   },
   "magicalTorque": {
     "name": "Mysteriemotor"
