@@ -10,7 +10,7 @@
     },
     "PokemonHeldItemModifierType": {
       "extra": {
-        "inoperable": "{{pokemonName}} không thể\ncầm vật phẩm!",
+        "inoperable": "{{pokemonName}} không thể\ncầm vật phẩm này!",
         "tooMany": "{{pokemonName}} có quá nhiều\nvật phẩm này rồi!"
       }
     },
@@ -66,11 +66,11 @@
       "description": "Tăng cấp độ của tất cả thành viên trong đội lên {{levels}}."
     },
     "BaseStatBoosterModifierType": {
-      "description": "Tăng chỉ số cơ bản {{stat}} của người giữ lên 10%. Chỉ số IV càng cao, giới hạn cộng dồn càng lớn."
+      "description": "Tăng chỉ số {{stat}} cơ bản của Pokémon sở hữu lên 10%. Chỉ số IV càng cao, giới hạn cộng dồn càng lớn."
     },
     "PokemonBaseStatFlatModifierType": {
       "name": "Bánh Gato",
-      "description": "Tăng chỉ số cơ bản {{stats}} của người sở hữu lên {{statValue}}. Được tìm thấy sau một giấc mơ kỳ lạ."
+      "description": "Tăng chỉ số {{stats}} cơ bản của Pokémon sở hữu lên {{statValue}}. Được tìm thấy sau một giấc mơ kỳ lạ."
     },
     "AllPokemonFullHpRestoreModifierType": {
       "description": "Hồi phục 100% HP cho tất cả Pokémon."
@@ -79,27 +79,27 @@
       "description": "Hồi sinh tất cả Pokémon bị bất tỉnh, phục hồi hoàn toàn HP."
     },
     "MoneyRewardModifierType": {
-      "description": "Cho một khoản tiền {{moneyMultiplier}} (₽{{moneyAmount}}).",
+      "description": "Nhận một khoản tiền {{moneyMultiplier}} (₽{{moneyAmount}}).",
       "extra": {
         "small": "nhỏ",
-        "moderate": "trung",
+        "moderate": "kha khá",
         "large": "lớn"
       }
     },
     "ExpBoosterModifierType": {
-      "description": "Tăng lượng điểm kinh nghiệm nhận được lên {{boostPercent}}%."
+      "description": "Tăng lượng Điểm Kinh Nghiệm nhận được lên {{boostPercent}}%."
     },
     "PokemonExpBoosterModifierType": {
-      "description": "Tăng điểm kinh nghiệm (EXP) mà Pokémon sở hữu nhận được lên {{boostPercent}}%."
+      "description": "Tăng lượng Điểm Kinh Nghiệm mà Pokémon sở hữu nhận được lên {{boostPercent}}%."
     },
     "PokemonFriendshipBoosterModifierType": {
-      "description": "Tăng điểm tình bạn nhận lên 50%."
+      "description": "Tăng điểm tình bạn nhận được lên 50%."
     },
     "PokemonMoveAccuracyBoosterModifierType": {
       "description": "Tăng độ chuẩn của chiêu thức lên {{accuracyAmount}}."
     },
     "PokemonMultiHitModifierType": {
-      "description": "Chuyển đổi 25% sát thương từ các đòn tấn công của người sở hữu thành một đòn đánh bổ sung."
+      "description": "Chuyển đổi 25% sát thương từ các đòn tấn công của Pokémon sở hữu thành một đòn đánh bổ sung."
     },
     "TmModifierType": {
       "name": "TM{{moveId}} - {{moveName}}",
@@ -110,13 +110,13 @@
       "description": "Dạy chiêu thức {{moveName}} cho Pokémon.\n(Giữ phím C hoặc Shift để xem thêm thông tin)"
     },
     "EvolutionItemModifierType": {
-      "description": "Khiến một số Pokémon tiến hóa."
+      "description": "Khiến Pokémon nào đó tiến hóa."
     },
     "FormChangeItemModifierType": {
-      "description": "Khiến một số Pokémon thay đổi hình dạng."
+      "description": "Khiến Pokémon nào đó thay đổi hình thái."
     },
     "FusePokemonModifierType": {
-      "description": "Kết hợp hai Pokémon. (chuyển giao đặc tính, chia sẻ chỉ số cơ bản và hệ, dùng chung bộ chiêu thức)"
+      "description": "Dung hợp hai Pokémon. (chuyển giao Đặc Tính, chia sẻ chỉ số cơ bản và hệ, dùng chung bộ chiêu thức)"
     },
     "TerastallizeModifierType": {
       "name": "Mảnh Tera {{teraType}}",
@@ -126,7 +126,7 @@
       "description": "Khi tấn công, có {{chancePercent}}% khả năng vật phẩm mà đối phương đang giữ sẽ bị đánh cắp."
     },
     "TurnHeldItemTransferModifierType": {
-      "description": "Mỗi lượt, người giữ vật phẩm sẽ nhận được một vật phẩm từ đối thủ."
+      "description": "Mỗi lượt, Pokémon giữ vật phẩm sẽ nhận được một vật phẩm từ đối thủ."
     },
     "EnemyAttackStatusEffectChanceModifierType": {
       "description": "Tăng {{chancePercent}}% cơ hội gây hiệu ứng {{statusEffect}} bằng các đòn tấn công."
@@ -142,11 +142,11 @@
     },
     "MEGA_BRACELET": {
       "name": "Vòng Mega",
-      "description": "Có thể tìm thấy Đá Mega."
+      "description": "Cơ hội sở hữu Đá Mega sẽ mở ra."
     },
     "DYNAMAX_BAND": {
       "name": "Vòng Dynamax",
-      "description": "Có thể tìm thấy Nấm Max."
+      "description": "Cơ hội sở hữu Nấm Max sẽ mở ra."
     },
     "TERA_ORB": {
       "name": "Cầu Tera",
@@ -184,7 +184,7 @@
       "name": "Tro Thánh"
     },
     "REVIVER_SEED": {
-      "name": "Hạt Mầmt Táit Sinh",
+      "name": "Hạt Mầm Tái Sinh",
       "description": "Hồi sinh Pokémon giữ vật phẩm với 1/2 HP khi bị bất tỉnh do trúng đòn trực diện."
     },
     "WHITE_HERB": {
@@ -224,7 +224,7 @@
     },
     "EXP_SHARE": {
       "name": "Máy Chia ĐKN",
-      "description": "Những Pokémon không tham gia chiến đấu sẽ nhận được 20% số điểm ĐKN của Pokémon tham gia."
+      "description": "Những Pokémon không tham gia chiến đấu sẽ nhận được 20% số điểm ĐKN của Pokémon đang tham chiến."
     },
     "EXP_BALANCE": {
       "name": "Máy Cân ĐKN",
@@ -232,7 +232,7 @@
     },
     "OVAL_CHARM": {
       "name": "Dây Chuyền Bầu Dục",
-      "description": "Khi nhiều Pokémon tham gia vào một trận chiến, mỗi Pokémon sẽ nhận được thêm 10% tổng số điểm kinh nghiệm."
+      "description": "Khi nhiều Pokémon tham gia vào một trận chiến, mỗi Pokémon sẽ nhận được thêm 10% tổng số ĐKN."
     },
     "EXP_CHARM": {
       "name": "Bùa ĐKN"
@@ -285,7 +285,7 @@
     },
     "AMULET_COIN": {
       "name": "Bùa Xu Vàng",
-      "description": "Tăng phần thưởng tiền lên 20%."
+      "description": "Tăng tiền thưởng lên 20%."
     },
     "GOLDEN_PUNCH": {
       "name": "Găng Tay Vàng",
@@ -314,7 +314,7 @@
     },
     "CANDY_JAR": {
       "name": "Lọ Kẹo",
-      "description": "Tăng số cấp độ được thêm vào bởi vật phẩm Kẹo Hiếm lên 1."
+      "description": "Tăng số cấp được tăng bởi Kẹo Hiếm lên 1."
     },
     "BERRY_POUCH": {
       "name": "Túi Berry",
@@ -341,11 +341,11 @@
       "description": "Hồi phục 1/8 lượng sát thương mà Pokémon gây ra."
     },
     "TOXIC_ORB": {
-      "name": "Cầu Độc Hại",
+      "name": "Độc Cầu",
       "description": "Đó là một quả cầu kỳ dị, khi chạm vào sẽ tỏa ra chất độc và sẽ gây độc nặng cho Pokémon trong trận chiến."
     },
     "FLAME_ORB": {
-      "name": "Cầu Lửa Bỏng",
+      "name": "Hoả Cầu",
       "description": "Đó là một quả cầu kỳ lạ, khi chạm vào sẽ tỏa nhiệt và gây bỏng cho Pokémon trong trận chiến."
     },
     "MYSTICAL_ROCK": {
@@ -422,7 +422,7 @@
     },
     "ENEMY_FUSED_CHANCE": {
       "name": "Thẻ Hợp Nhất",
-      "description": "Tăng 1% khả năng Pokémon hoang dã sẽ là dạng hợp thể."
+      "description": "Tạo 1% khả năng Pokémon hoang dã sẽ là dạng hợp thể."
     },
     "MYSTERY_ENCOUNTER_SHUCKLE_JUICE_GOOD": {
       "name": "Nước Hoa Quả Shuckle",
