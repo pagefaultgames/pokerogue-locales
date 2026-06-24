@@ -448,14 +448,16 @@
     "effect": "Innalza una barriera resistente che aumenta molto la Difesa."
   },
   "lightScreen": {
-    "name": "Schermoluce"
+    "name": "Schermoluce",
+    "effect": "Un meraviglioso muro di luce viene messo per ridurre i danni presi dalle mosse speciali per 5 turni. Nelle Doppie Battaglie, il danno viene invece ridotto di 1/3."
   },
   "haze": {
     "name": "Nube",
     "effect": "Chi la usa crea una nube nera che annulla ogni modifica delle statistiche di tutti i Pokémon in campo."
   },
   "reflect": {
-    "name": "Riflesso"
+    "name": "Riflesso",
+    "effect": "Un meraviglioso muro di luce viene messo per ridurre i danni presi dalle mosse fisiche per 5 turni. Nelle Doppie Battaglie, il danno viene invece ridotto di 1/3."
   },
   "focusEnergy": {
     "name": "Focalenergia",
@@ -1350,62 +1352,76 @@
     "effect": "Un groviglio di radici colpisce il nemico. Chi la usa salta il turno successivo."
   },
   "bulkUp": {
-    "name": "Granfisico"
+    "name": "Granfisico",
+    "effect": "Chi la usa flette i propri muscoli per gonfiare il proprio corpo, aumentando le sue statistiche di Attacco e Difesa. "
   },
   "bounce": {
-    "name": "Rimbalzo"
+    "name": "Rimbalzo",
+    "effect": "Chi la usa rimbalza verso l'alto il primo turno, poi cade sopra il bersaglio il turno successivo. Questa mossa ha un 30% di chance di paralizzare il bersaglio."
   },
   "mudShot": {
     "name": "Colpodifango",
     "effect": "Chi la usa attacca lanciando fango sul nemico. Riduce anche la Velocità."
   },
   "poisonTail": {
-    "name": "Velenocoda"
+    "name": "Velenocoda",
+    "effect": "Chi la usa colpisce il bersaglio con la sua coda. La chance di critico di questa mossa è aumentata di 1 livello e ha un 10% di chance di avvelenare il bersaglio."
   },
   "covet": {
     "name": "Supplica",
     "effect": "L’utilizzatore si avvicina al bersaglio sorridendo, poi cerca di rubargli uno strumento. Questa mossa ha il 30% di probabilità di rubare uno degli strumenti tenuti dal bersaglio."
   },
   "voltTackle": {
-    "name": "Locomovolt"
+    "name": "Locomovolt",
+    "effect": "Chi la usa si elettrifica per caricarsi contro il bersaglio per infliggere danno. Chi la usa prende 1/3 del danno inflitto da questa mossa. Ciò ha anche un 10% di chance di paralizzare il bersaglio."
   },
   "magicalLeaf": {
     "name": "Fogliamagica",
     "effect": "Chi la usa sparpaglia strane foglie che inseguono il bersaglio. Questa mossa è infallibile."
   },
   "waterSport": {
-    "name": "Docciascudo"
+    "name": "Docciascudo",
+    "effect": "Chi la usa bagna il campo di battaglia di acqua. Ciò indebolisce le mosse di tipo Fuoco per 5 turni."
   },
   "calmMind": {
-    "name": "Calmamente"
+    "name": "Calmamente",
+    "effect": "Chi la usa in silenzio concentra la sua mente e calma i suo spirito per aumentare le sue statistiche di Attacco Speciale e Difesa Speciale."
   },
   "leafBlade": {
-    "name": "Fendifoglia"
+    "name": "Fendifoglia",
+    "effect": "Chi la usa ha in mano una foglia affilata come una spada e taglia il bersaglio per infliggere danno. La chance di critico di questa mossa viene aumentata di 1 livello."
   },
   "dragonDance": {
-    "name": "Dragodanza"
+    "name": "Dragodanza",
+    "effect": "Chi la usa performa vigorosamente una danza mistica, potente, che aumenta le statistiche di Attacco e Difesa."
   },
   "rockBlast": {
-    "name": "Cadutamassi"
+    "name": "Cadutamassi",
+    "effect": "Chi la usa attacca lanciando rocce dure al bersaglio. Questa mossa colpisce 2-5 volte di fila."
   },
   "shockWave": {
     "name": "Ondashock",
     "effect": "Chi la usa colpisce il nemico con una scossa di elettricità. È impossibile eludere questa mossa."
   },
   "waterPulse": {
-    "name": "Idropulsar"
+    "name": "Idropulsar",
+    "effect": "Chi la usa attacca il bersaglio con un'esplosione pulsante di acqua. Questa mossa ha un 20% di chance di confondere il bersaglio."
   },
   "doomDesire": {
-    "name": "Desiderio Fatale"
+    "name": "Desiderio Fatale",
+    "effect": "2 turni dopo che questa mossa è stata usata, un fascio concentrato di luci viene sparato contro il bersaglio. "
   },
   "psychoBoost": {
-    "name": "Psicoslancio"
+    "name": "Psicoslancio",
+    "effect": "Chi la usa attacca il bersaglio con tutta la sua volontà. Il rinculo da questa mossa riduce drasticamente la statistica di Attacco Speciale di chi la usa. "
   },
   "roost": {
-    "name": "Trespolo"
+    "name": "Trespolo",
+    "effect": "Chi la usa atterra e riposa il proprio corpo, recuperando 1/2 dei propri HP massimi. Se chi la usa è di tipo Volante, andrà a perdere il tipo Volante per quel turno."
   },
   "gravity": {
-    "name": "Gravità"
+    "name": "Gravità",
+    "effect": "Aumenta l'accuratezza delle mosse del 67% e forza a terra i Pokémon come i tipi Volante o quelli con l'Abilità Levitazione per 5 turni. Le mosse che riguardano il volo non si possono usare."
   },
   "miracleEye": {
     "name": "Miracolvista",
@@ -1416,65 +1432,80 @@
     "effect": "Un attacco che infligge doppi danni se il nemico è Addormentato. Inoltre, lo sveglierà dal sonno."
   },
   "hammerArm": {
-    "name": "Martelpugno"
+    "name": "Martelpugno",
+    "effect": "Chi la usa agita il suo pugno forte, pesante al bersaglio per infliggere danno. Questa mossa riduce anche la statistica di Velocità di chi la usa."
   },
   "gyroBall": {
-    "name": "Vortexpalla"
+    "name": "Vortexpalla",
+    "effect": "Chi la usa attacca il bersaglio con un giro estremamente rapido. Più lento è chi la usa rispetto al bersaglio, maggiore sarà la potenza della mossa (variabile tra 1 e 150)."
   },
   "healingWish": {
     "name": "Curardore",
     "effect": "Chi la usa va KO, ma il Pokémon che lo sostituisce recupera tutti i PS e risolve i problemi di stato."
   },
   "brine": {
-    "name": "Acquadisale"
+    "name": "Acquadisale",
+    "effect": "La potenza di questa mossa raddoppia se gli HP del bersaglio sono la metà o di meno."
   },
   "naturalGift": {
-    "name": "Dononaturale"
+    "name": "Dononaturale",
+    "effect": "Chi la usa pesca la forza per attaccare usando una Bacca che tiene con se. La Bacca determina il tipo e la potenza della mossa."
   },
   "feint": {
-    "name": "Fintoattacco"
+    "name": "Fintoattacco",
+    "effect": "Questa mossa può colpire un bersaglio che sta usando una mossa come Protezione o Individua e rimuove i loro effetti."
   },
   "pluck": {
-    "name": "Spennata"
+    "name": "Spennata",
+    "effect": "Chi la usa attacca beccando il bersaglio. Se il bersaglio ha con se una Bacca, chi la usa la mangia e guadanga i suoi effetti."
   },
   "tailwind": {
-    "name": "Ventoincoda"
+    "name": "Ventoincoda",
+    "effect": "Chi la usa evoca un turbine turbolento che raddoppia la statistica di Velocitò di se stesso e dei suoi alleati per 4 turni."
   },
   "acupressure": {
     "name": "Acupressione",
     "effect": "Chi la usa esercita pressione su alcuni punti nevralgici e aumenta di molto una statistica a caso."
   },
   "metalBurst": {
-    "name": "Metalscoppio"
+    "name": "Metalscoppio",
+    "effect": "Chi la usa si vendica per infliggere 1.5x del danno che ha preso da una mossa dell'avversario durante il turno che è stata usata."
   },
   "uTurn": {
     "name": "Retromarcia",
     "effect": "Dopo aver selezionato questo attacco, chi la usa colpisce il nemico per poi essere sostituito con un altro Pokémon della squadra."
   },
   "closeCombat": {
-    "name": "Zuffa"
+    "name": "Zuffa",
+    "effect": "Chi la usa combatte il bersaglio da vicino, infliggendogli danno senza badare a se stesso. Ciò abbassa anche le statistiche di Difesa e Difesa Speciale di chi la usa."
   },
   "payback": {
-    "name": "Rivincita"
+    "name": "Rivincita",
+    "effect": "Chi la usa accumula potenza, poi attacca. La potenza di questa mossa raddoppia se chi la usa si muove dopo il bersaglio."
   },
   "assurance": {
-    "name": "Garanzia"
+    "name": "Garanzia",
+    "effect": "La potenza di questa mossa raddoppia se il bersaglio ha già preso danno in quello stesso turno."
   },
   "embargo": {
-    "name": "Divieto"
+    "name": "Divieto",
+    "effect": "Questa mossa evita che il bersaglio usa gli oggetti che tiene con se per 5 turni."
   },
   "fling": {
-    "name": "Lancio"
+    "name": "Lancio",
+    "effect": "Chi la usa lancia uno degli oggetti che tiene con se al bersaglio per attaccare. La potenza e gli effetti di questa mossa dipendono dall'oggetto."
   },
   "psychoShift": {
     "name": "Psicotrasfer",
     "effect": "Con la forza psichica e la suggestione, chi la usa può trasferire i suoi problemi di stato al Pokémon colpito."
   },
   "trumpCard": {
-    "name": "Asso"
+    "name": "Asso",
+    "effect": "La potenza di questa mossa inizia con 40 e aumenta ogni volta che i PP rimanenti diminuiscono: 50 a 4 PP, 60 a 3 PP, 80 a 2 PP e 200 a 1 PP. Questa mossa non manca mai il bersaglio."
   },
   "healBlock": {
-    "name": "Anticura"
+    "name": "Anticura",
+    "effect": "Per 5 turni, chi la usa evita che il team avversario usi qualsiasi mossa, Abilità, o oggetto tenuto con se che recuperi HP."
   },
   "wringOut": {
     "name": "Strizzata"

@@ -1,9 +1,11 @@
 {
   "stench": {
-    "name": "Stench"
+    "name": "Stench",
+    "description": "Ao liberar um odor desagradável ao atacar, há 10% de chance de que os alvos atingidos pelos golpes do Pokémon recuem. Esse efeito não se acumula com golpes ou itens que tenham chance de causar recuo."
   },
   "drizzle": {
-    "name": "Drizzle"
+    "name": "Drizzle",
+    "description": "O Pokémon faz chover por 5 turnos ao entrar em batalha."
   },
   "speedBoost": {
     "name": "Speed Boost",
@@ -18,17 +20,20 @@
     "description": "O Pokémon não pode ser derrotado com um único golpe enquanto os seus PS estiverem cheios. Movimentos que causam nocaute com um único golpe também não conseguirão derrotá-lo."
   },
   "damp": {
-    "name": "Damp"
+    "name": "Damp",
+    "description": "O Pokémon neutraliza o ambiente ao seu redor, impedindo que todos os Pokémon usem movimentos explosivos, como “Self-Destruct”, ou causem dano com “Aftermath”."
   },
   "limber": {
     "name": "Limber",
     "description": "O corpo ágil do Pokémon impede que ele seja paralisado."
   },
   "sandVeil": {
-    "name": "Sand Veil"
+    "name": "Sand Veil",
+    "description": "Aumenta a evasão do Pokémon em 25% durante uma tempestade de areia. Além disso, o Pokémon não sofre dano causado por tempestades de areia."
   },
   "static": {
-    "name": "Static"
+    "name": "Static",
+    "description": "O Pokémon está carregado de eletricidade estática e tem 30% de chance de paralisar os atacantes que o atingirem com um movimento de contato."
   },
   "voltAbsorb": {
     "name": "Volt Absorb",
@@ -39,17 +44,20 @@
     "description": "Se for atingido por um movimento do tipo Água, o Pokémon recupera ¼ dos seus PS máximos em vez de sofrer danos."
   },
   "oblivious": {
-    "name": "Oblivious"
+    "name": "Oblivious",
+    "description": "O Pokémon é indiferente, o que o impede de se deixar levar pela paixão, cair em provocações ou ser afetado pela habilidade Intimidate."
   },
   "cloudNine": {
     "name": "Cloud Nine",
     "description": "Anula todos os efeitos climáticos na batalha."
   },
   "compoundEyes": {
-    "name": "Compound Eyes"
+    "name": "Compound Eyes",
+    "description": "Os olhos compostos do Pokémon aumentam sua precisão em 30%."
   },
   "insomnia": {
-    "name": "Insomnia"
+    "name": "Insomnia",
+    "description": "A insônia do Pokémon impede que ele fique sonolento ou seja adormecido."
   },
   "colorChange": {
     "name": "Color Change",
@@ -64,10 +72,12 @@
     "description": "Se atingido por um movimento do tipo Fogo, o Pokémon absorve as chamas e as utiliza para aumentar em 50% o poder dos seus próprios movimentos do tipo Fogo."
   },
   "shieldDust": {
-    "name": "Shield Dust"
+    "name": "Shield Dust",
+    "description": "A poeira protetora protege o Pokémon dos efeitos adicionais dos movimentos."
   },
   "ownTempo": {
-    "name": "Own Tempo"
+    "name": "Own Tempo",
+    "description": "O Pokémon mantém seu próprio ritmo, o que impede que ele fique confuso. Além disso, ele não é afetado pela habilidade Intimidate."
   },
   "suctionCups": {
     "name": "Suction Cups",
@@ -82,7 +92,8 @@
     "description": "O Pokémon pisa nas sombras dos Pokémon adversários para impedir que eles fujam ou sejam trocados."
   },
   "roughSkin": {
-    "name": "Rough Skin"
+    "name": "Rough Skin",
+    "description": "A pele áspera do Pokémon causa dano aos atacantes que o atingirem com golpes de contato, correspondente a ⅛ de seus PS máximos."
   },
   "wonderGuard": {
     "name": "Wonder Guard",
@@ -98,7 +109,7 @@
   },
   "synchronize": {
     "name": "Synchronize",
-    "description": "Passa sua mudança de estado para o Pokémon que a infligiu. Se esse Pokémon for seu líder na batalha, os Pokémon selvagens adversários compartilharão sua natureza."
+    "description": "Se o Pokémon sofrer queimadura, paralisia, envenenamento ou envenenamento grave devido a um movimento ou habilidade de outro Pokémon, ele também ficará sujeito à mesma condição de status. Se esse Pokémon for o seu primeiro a entrar na batalha, os Pokémon selvagens adversários terão a mesma natureza que ele."
   },
   "clearBody": {
     "name": "Clear Body",
@@ -141,7 +152,8 @@
     "description": "O contato com o Pokémon tem 30% de chance de envenenar o atacante."
   },
   "innerFocus": {
-    "name": "Inner Focus"
+    "name": "Inner Focus",
+    "description": "A concentração intensa do Pokémon impede que ele recue ou seja afetado pela habilidade Intimidate."
   },
   "magmaArmor": {
     "name": "Magma Armor",
@@ -164,13 +176,16 @@
     "description": "O Pokémon recupera gradualmente ¹⁄₁₆ dos seus PS máximos no final de cada turno em que chove."
   },
   "sandStream": {
-    "name": "Sand Stream"
+    "name": "Sand Stream",
+    "description": "O Pokémon provoca uma tempestade de areia que dura 5 turnos ao entrar em uma batalha."
   },
   "pressure": {
-    "name": "Pressure"
+    "name": "Pressure",
+    "description": "Coloca os Pokémon adversários sob pressão, fazendo com que gastem 1 PP a mais ao usarem movimentos contra ele."
   },
   "thickFat": {
-    "name": "Thick Fat"
+    "name": "Thick Fat",
+    "description": "O Pokémon é protegido por uma camada espessa de gordura, que reduz pela metade o dano recebido de ataques dos tipos Fogo e Gelo."
   },
   "earlyBird": {
     "name": "Early Bird",
@@ -185,7 +200,8 @@
     "description": "Torna a fuga de encontros com Pokémon selvagem garantida."
   },
   "keenEye": {
-    "name": "Keen Eye"
+    "name": "Keen Eye",
+    "description": "A visão aguçada do Pokémon ignora as alterações na evasão dos alvos e impede que sua precisão seja reduzida."
   },
   "hyperCutter": {
     "name": "Hyper Cutter",
@@ -229,11 +245,11 @@
   },
   "guts": {
     "name": "Guts",
-    "description": "É tão corajoso que ter uma mudança de estado aumenta o atributo de Ataque do Pokémon em 50%."
+    "description": "Esse Pokémon é tão corajoso que, quando está sob o efeito de uma condição de status, seu atributo de Ataque aumenta em 50%. Estar queimado não reduz pela metade o dano causado pelos ataques físicos do Pokémon."
   },
   "marvelScale": {
     "name": "Marvel Scale",
-    "description": "As maravilhosas escamas do Pokémon aumentam seu atributo de Defesa em 50% se ele estiver sob uma mudança de estado."
+    "description": "Quando o Pokémon está sob o efeito de uma condição de status, suas escamas maravilhosas aumentam seu atributo de Defesa em 50%."
   },
   "liquidOoze": {
     "name": "Liquid Ooze",
@@ -304,7 +320,8 @@
     "description": "A determinação do Pokémon aumenta o seu atributo de Velocidade sempre que ele hesita."
   },
   "snowCloak": {
-    "name": "Snow Cloak"
+    "name": "Snow Cloak",
+    "description": "Aumenta a evasão do Pokémon em 25% na neve ou no granizo. Além disso, o Pokémon não sofre dano algum causado pelo granizo."
   },
   "gluttony": {
     "name": "Gluttony",
@@ -360,7 +377,7 @@
   },
   "quickFeet": {
     "name": "Quick Feet",
-    "description": "Aumenta o atributo de Velocidade em 50% se o Pokémon tiver uma mudança de estado."
+    "description": "Quando o Pokémon tem uma condição de status, seu atributo Velocidade é aumentado em 50%. Estar paralisado não reduz o atributo Velocidade do Pokémon."
   },
   "normalize": {
     "name": "Normalize",
@@ -388,7 +405,7 @@
   },
   "leafGuard": {
     "name": "Leaf Guard",
-    "description": "Evita condições de status sob luz solar intensa."
+    "description": "O Pokémon fica imune a condições de status sob luz solar intensa."
   },
   "klutz": {
     "name": "Klutz",
@@ -439,7 +456,8 @@
     "description": "O Pokémon absorve todos os movimentos do tipo Água. Em vez de sofrer danos com eles, o seu atributo de Ataque Especial é aumentado."
   },
   "iceBody": {
-    "name": "Ice Body"
+    "name": "Ice Body",
+    "description": "O Pokémon tem ¹⁄₁₆ de seus PS máximos restaurados no final de cada turno em condições de neve ou granizo. Além disso, o Pokémon não sofre dano causado pelo granizo. "
   },
   "solidRock": {
     "name": "Solid Rock",
@@ -466,7 +484,8 @@
     "description": "Altera o tipo do Pokémon para corresponder à placa que ele possui."
   },
   "flowerGift": {
-    "name": "Flower Gift"
+    "name": "Flower Gift",
+    "description": "Aumenta em 50% os atributos de Ataque e Def. Esp. do Pokémon e de seus aliados sob luz solar intensa."
   },
   "badDreams": {
     "name": "Bad Dreams",
@@ -501,7 +520,8 @@
     "description": "O Pokémon tem 30% de chance de desativar um movimento que lhe causou dano."
   },
   "healer": {
-    "name": "Healer"
+    "name": "Healer",
+    "description": "O Pokémon tem 50% de chance de curar as condições de status de seus aliados no final de cada turno."
   },
   "friendGuard": {
     "name": "Friend Guard",
@@ -536,7 +556,8 @@
     "description": "O Pokémon tem 50% de chance de criar outra Fruta depois que uma é usada. Essa chance aumenta para 100% sob luz solar intensa."
   },
   "telepathy": {
-    "name": "Telepathy"
+    "name": "Telepathy",
+    "description": "O Pokémon antecipa e se esquiva dos ataques de seus aliados."
   },
   "moody": {
     "name": "Moody",
@@ -559,7 +580,8 @@
     "description": "Impede que o atributo de Defesa do Pokémon seja reduzido."
   },
   "sandRush": {
-    "name": "Sand Rush"
+    "name": "Sand Rush",
+    "description": "Duplica o atributo Velocidade do Pokémon durante uma tempestade de areia. Além disso, o Pokémon não sofre dano causado por tempestades de areia."
   },
   "wonderSkin": {
     "name": "Wonder Skin",
@@ -610,7 +632,8 @@
     "description": "Dá prioridade aos movimentos de status do Pokémon. Os Pokémon do tipo Sombrio são imunes a esses movimentos."
   },
   "sandForce": {
-    "name": "Sand Force"
+    "name": "Sand Force",
+    "description": "Aumenta em 30% a potência dos ataques dos tipos Pedra, Terra e Aço do Pokémon durante uma tempestade de areia. Além disso, o Pokémon não sofre dano causado por tempestades de areia."
   },
   "ironBarbs": {
     "name": "Iron Barbs",
@@ -621,7 +644,8 @@
     "description": "O Pokémon muda para o Zen Mode quando seus PS caem para metade ou menos."
   },
   "victoryStar": {
-    "name": "Victory Star"
+    "name": "Victory Star",
+    "description": "A precisão do Pokémon e de seus aliados aumenta em 10%."
   },
   "turboblaze": {
     "name": "Turboblaze",
@@ -636,7 +660,8 @@
     "description": "Protege o Pokémon e seus aliados próximos a ele em batalha contra efeitos que impedem o uso de movimentos."
   },
   "flowerVeil": {
-    "name": "Flower Veil"
+    "name": "Flower Veil",
+    "description": "Se o Pokémon ou seus aliados forem do tipo Planta, eles são imunes a condições de status e não podem ter seus atributos reduzidos."
   },
   "cheekPouch": {
     "name": "Cheek Pouch",
@@ -671,7 +696,8 @@
     "description": "Os movimentos do tipo Normal tornam-se movimentos do tipo Gelo. O poder desses movimentos é aumentado em 20%."
   },
   "sweetVeil": {
-    "name": "Sweet Veil"
+    "name": "Sweet Veil",
+    "description": "O Pokémon e seus aliados não podem ficar sonolentos nem serem adormecidos."
   },
   "stanceChange": {
     "name": "Stance Change",
@@ -710,7 +736,8 @@
     "description": "Os movimentos do tipo Normal tornam-se movimentos do tipo Voador. O poder desses movimentos é aumentado em 20%."
   },
   "parentalBond": {
-    "name": "Parental Bond"
+    "name": "Parental Bond",
+    "description": "Quando o Pokémon ataca, seu companheiro dá continuidade com um segundo golpe com ¼ da potência do primeiro ataque. Isso não ocorre no caso de movimentos com múltiplos golpes ou movimentos que têm como alvo vários Pokémon."
   },
   "darkAura": {
     "name": "Dark Aura",
@@ -777,7 +804,8 @@
     "description": "Aumenta o atributo de Ataque Especial do Pokémon quando ele recebe um golpe que faz com que seus PS caiam para metade ou menos."
   },
   "slushRush": {
-    "name": "Slush Rush"
+    "name": "Slush Rush",
+    "description": "Duplica a Velocidade do Pokémon na neve ou no granizo. Além disso, o Pokémon não sofre dano algum causado pelo granizo."
   },
   "longReach": {
     "name": "Long Reach",
@@ -788,7 +816,8 @@
     "description": "Os movimentos baseados em som tornam-se movimentos do tipo Água."
   },
   "triage": {
-    "name": "Triage"
+    "name": "Triage",
+    "description": "Aumenta a prioridade dos movimentos de cura do Pokémon em 3 níveis."
   },
   "galvanize": {
     "name": "Galvanize",
@@ -823,7 +852,8 @@
     "description": "O Pokémon está sempre sonolento e pode atacar enquanto está dormindo. Ele é considerado sob os efeitos de uma condição de status."
   },
   "queenlyMajesty": {
-    "name": "Queenly Majesty"
+    "name": "Queenly Majesty",
+    "description": "A majestade do Pokémon intimida os adversários e os impede de usar movimentos prioritários contra ele ou seus aliados."
   },
   "innardsOut": {
     "name": "Innards Out",
@@ -834,14 +864,16 @@
     "description": "Sempre que um movimento de dança é usado em batalha, o Pokémon copia o usuário para executar imediatamente esse movimento de dança."
   },
   "battery": {
-    "name": "Battery"
+    "name": "Battery",
+    "description": "Aumenta o poder dos golpes especiais usados pelos aliados em 30%."
   },
   "fluffy": {
     "name": "Fluffy",
     "description": "Corta pela metade o dano recebido de movimentos que fazem contato direto, porém, dobra o dano dos ataques do tipo Fogo."
   },
   "dazzling": {
-    "name": "Dazzling"
+    "name": "Dazzling",
+    "description": "O Pokémon ofusca seus oponentes, impedindo-os de usar movimentos prioritários contra ele ou seus aliados."
   },
   "soulHeart": {
     "name": "Soul-Heart",
@@ -852,10 +884,12 @@
     "description": "O contato com o Pokémon reduz o atributo de Velocidade do atacante."
   },
   "receiver": {
-    "name": "Receiver"
+    "name": "Receiver",
+    "description": "O Pokémon altera sua Habilidade para que ela seja igual à de um aliado derrotado em uma Batalha Dupla."
   },
   "powerOfAlchemy": {
-    "name": "Power of Alchemy"
+    "name": "Power of Alchemy",
+    "description": "O Pokémon altera sua Habilidade para que ela seja igual à de um aliado derrotado em uma Batalha Dupla."
   },
   "beastBoost": {
     "name": "Beast Boost",
@@ -958,7 +992,8 @@
     "description": "A cabeça de gelo do Pokémon pode receber um ataque físico como substituto, mas o ataque também altera a aparência do Pokémon. O gelo será restaurado quando começar a nevar ou cair granizo."
   },
   "powerSpot": {
-    "name": "Power Spot"
+    "name": "Power Spot",
+    "description": "O simples fato de estar ao lado do Pokémon aumenta o poder dos ataques de seus aliados em 30%."
   },
   "mimicry": {
     "name": "Mimicry",
@@ -969,7 +1004,8 @@
     "description": "Quando o Pokémon entra em batalha os efeitos de Tela de Luz, Refletir e Véu Aurora são anulados, tanto para Pokémon aliados quanto para oponentes."
   },
   "steelySpirit": {
-    "name": "Steely Spirit"
+    "name": "Steely Spirit",
+    "description": "Aumenta em 50% a potência dos golpes do tipo Aço usados pelo Pokémon e por seus aliados."
   },
   "perishBody": {
     "name": "Perish Body",
@@ -988,7 +1024,8 @@
     "description": "Enquanto o Pokémon estiver na batalha, os efeitos de todas as outras habilidades dos Pokémon serão anulados ou não serão ativados."
   },
   "pastelVeil": {
-    "name": "Pastel Veil"
+    "name": "Pastel Veil",
+    "description": "O Pokémon e seus aliados estão protegidos contra envenenamento ou envenenamento grave."
   },
   "hungerSwitch": {
     "name": "Hunger Switch",
@@ -1048,7 +1085,7 @@
   },
   "purifyingSalt": {
     "name": "Purifying Salt",
-    "description": "O sal puro do Pokémon protege-o de condições de status e reduz para metade os danos sofridos por movimentos do tipo Fantasma."
+    "description": "O sal puro do Pokémon o protege de condições de status e reduz pela metade o dano recebido de ataques do tipo Fantasma."
   },
   "wellBakedBody": {
     "name": "Well-Baked Body",
@@ -1135,14 +1172,16 @@
     "description": "Quando o Pokémon entra em uma batalha, seus atributos de Ataque e Ata. Esp. recebem um aumento de 10% para cada um de seus aliados que já foram derrotados."
   },
   "costar": {
-    "name": "Costar"
+    "name": "Costar",
+    "description": "Quando o Pokémon entra em uma batalha, ele copia as alterações nos atributos de seu aliado."
   },
   "toxicDebris": {
     "name": "Toxic Debris",
     "description": "Espalha espinhos venenosos aos pés da equipe adversária quando o Pokémon sofre dano de movimentos físicos."
   },
   "armorTail": {
-    "name": "Armor Tail"
+    "name": "Armor Tail",
+    "description": "A cauda misteriosa que cobre a cabeça do Pokémon impede que os adversários usem movimentos prioritários contra ele ou seus aliados."
   },
   "earthEater": {
     "name": "Earth Eater",
@@ -1208,9 +1247,17 @@
     "name": "Dragonize",
     "description": "Os ataques do tipo Normal do Pokémon passam a ser do tipo Dragão, e seu poder aumenta em 20%."
   },
+  "eelevate": {
+    "name": "Eelevate",
+    "description": "O Pokémon flutua acima do solo, tornando-se imune a movimentos do tipo Terra, bem como a Spikes, Toxic Spikes e Sticky Web. Quando o Pokémon derrota um alvo com um ataque, seu atributo mais alto recebe um aumento de 1 nível."
+  },
   "megaSol": {
     "name": "Mega Sol",
     "description": "Mesmo quando a luz do sol ainda não está forte, o Pokémon pode usar seus ataques como se o tempo estivesse sob sol forte."
+  },
+  "fireMane": {
+    "name": "Fire Mane",
+    "description": "Aumenta a potência dos ataques do tipo Fogo do Pokémon em 50%."
   },
   "spicySpray": {
     "name": "Spicy Spray",

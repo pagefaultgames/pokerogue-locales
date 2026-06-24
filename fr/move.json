@@ -449,7 +449,7 @@
   },
   "lightScreen": {
     "name": "Mur Lumière",
-    "effect": "Crée un fabuleux mur de lumière qui réduit de moitié les dégâts subis par les capacités spéciales pendant 5 tours. En Combat Duo, les dégâts sont réduits de 1/3 de leur dégâts à la place."
+    "effect": "Crée un fabuleux mur de lumière qui réduit de moitié les dégâts subis par les capacités spéciales pendant 5 tours. En Combat Duo, ces capacités infligent 2/3 de leur dégâts à la place."
   },
   "haze": {
     "name": "Buée Noire",
@@ -457,7 +457,7 @@
   },
   "reflect": {
     "name": "Protection",
-    "effect": "Crée un fabuleux mur de lumière qui réduit de moitié les dégâts subis par les capacités physiques pendant 5 tours. En Combat Duo, les dégâts sont réduits de 1/3 de leur dégâts à la place."
+    "effect": "Crée un fabuleux mur de lumière qui réduit de moitié les dégâts subis par les capacités physiques pendant 5 tours. En Combat Duo, ces capacités infligent 2/3 de leur dégâts à la place."
   },
   "focusEnergy": {
     "name": "Puissance",
@@ -981,7 +981,7 @@
   },
   "ancientPower": {
     "name": "Pouvoir Antique",
-    "effect": "Une attaque préhistorique. A 10 % de chances d’augmenter toutes les stats du lanceur d’un seul coup."
+    "effect": "Une attaque préhistorique. Le lanceur a 10 % de chances d’augmenter son Attaque, sa Défense, son Attaque Spéciale, sa Défense Spéciale et sa Vitesse de 1 cran."
   },
   "shadowBall": {
     "name": "Ball’Ombre",
@@ -1269,7 +1269,7 @@
   },
   "silverWind": {
     "name": "Vent Argenté",
-    "effect": "Le lanceur génère un vent qui projette des écailles poudreuses sur la cible. A 10 % de chances d’augmenter toutes les stats du lanceur d’un seul coup."
+    "effect": "Le lanceur génère un vent qui projette des écailles poudreuses sur la cible. Le lanceur a 10 % de chances d’augmenter son Attaque, sa Défense, son Attaque Spéciale, sa Défense Spéciale et sa Vitesse de 1 cran."
   },
   "metalSound": {
     "name": "Strido-Son",
@@ -1405,7 +1405,7 @@
   },
   "waterPulse": {
     "name": "Vibraqua",
-    "effect": "Le lanceur projette une aura aquatique sur la cible. A 120 % de chances de la rendre confuse."
+    "effect": "Le lanceur projette une aura aquatique sur la cible. A 20 % de chances de la rendre confuse."
   },
   "doomDesire": {
     "name": "Vœu Destructeur",
@@ -1557,7 +1557,7 @@
   },
   "toxicSpikes": {
     "name": "Pics Toxik",
-    "effect": "Le lanceur éparpille des pics autour de la cible. Quand cet état est actif, les Pokémon entrant sur le terrain sont empoisonnés. Si 2 effets de Pics Toxik sont actifs en même temps, ils sont gravement empoisonnés. Cela n’affecte pas les Pokémon de type Vol ou dotés du talent Lévitation, entre autres. Si un Pokémon adverse de type Poison arrive en combat, les pics sont neutralisé et disparaissent."
+    "effect": "Le lanceur éparpille des pics autour de la cible. Quand cet état est actif, les Pokémon entrant sur le terrain sont empoisonnés. Si 2 effets de Pics Toxik sont actifs en même temps, ils sont gravement empoisonnés. Cela n’affecte pas les Pokémon de type Vol ou dotés du talent Lévitation, entre autres. Si un Pokémon adverse de type Poison arrive en combat et fait contact avec ces pics, ils sont neutralisés et disparaissent."
   },
   "heartSwap": {
     "name": "Permucœur",
@@ -1713,7 +1713,7 @@
   },
   "mirrorShot": {
     "name": "Miroi-Tir",
-    "effect": "Le corps poli du lanceur libère un éclair d’énergie. A 30 % de chances d’apeurer la cible."
+    "effect": "Le corps poli du lanceur libère un éclair d’énergie. A 30 % de chances de baisser la Précision de la cible."
   },
   "flashCannon": {
     "name": "Luminocanon",
@@ -1861,7 +1861,7 @@
   },
   "ominousWind": {
     "name": "Vent Mauvais",
-    "effect": "Le lanceur crée une violente bourrasque. A 10 % de chances d’augmenter toutes les stats du lanceur d’un seul coup."
+    "effect": "Le lanceur crée une violente bourrasque. Le lanceur a 10 % de chances d’augmenter son Attaque, sa Défense, son Attaque Spéciale, sa Défense Spéciale et sa Vitesse de 1 cran."
   },
   "shadowForce": {
     "name": "Revenant",
@@ -2329,7 +2329,7 @@
   },
   "playRough": {
     "name": "Câlinerie",
-    "effect": "Le lanceur attaque la cible en lui faisant des câlineries. A 10 % de chances de baisser son Attaque Spéciale."
+    "effect": "Le lanceur attaque la cible en lui faisant des câlineries. A 10 % de chances de baisser son Attaque."
   },
   "fairyWind": {
     "name": "Vent Féérique",
@@ -2773,7 +2773,7 @@
   },
   "auroraVeil": {
     "name": "Voile Aurore",
-    "effect": "Réduit de moitié les dégâts subis par les capacités physiques et spéciales durant 5 tours. En Combat Duo, les dégâts sont réduits de 1/3 de leur dégâts à la place. Ne peut être utilisée que lorsqu’il neige ou grêle."
+    "effect": "Réduit de moitié les dégâts subis par les capacités physiques et spéciales durant 5 tours. En Combat Duo, ces capacités infligent 2/3 de leur dégâts à la place. Ne peut être utilisée que lorsqu’il neige ou grêle."
   },
   "sinisterArrowRaid": {
     "name": "Fureur des Plumes Spectrales",
@@ -2989,7 +2989,7 @@
   },
   "noRetreat": {
     "name": "Ultime Bastion",
-    "effect": "Le lanceur voit toutes ses stats augmenter, mais en contrepartie, il ne peut plus quitter le terrain. Ne peut être utilisé qu'une fois par fois où le Pokémon est envoyé au combat."
+    "effect": "Augmente l'Attaque, la Défense, l'Attaque Spéciale, la Défense Spéciale et la Vitesse du lanceur de 1 cran. Il ne peut plus fuir. Cette capacité ne peut être utilisée qu'une fois par arrivée du Pokémon sur le terrain."
   },
   "tarShot": {
     "name": "Goudronnage",
@@ -3317,7 +3317,7 @@
   },
   "stoneAxe": {
     "name": "Hache de Pierre",
-    "effect": "Le lanceur attaque le point faible de sa cible avec sa hache de pierre. Les débris de pierre se mettent alors à flotter autour de la cible. Les Pokémon adverse entrant sur le terrain subissent des dégâts équivalents à 1/8 de leurs PV max. Les dégâts peuvent varier en fonction de l’affinité des Pokémon avec le type Roche."
+    "effect": "Le lanceur attaque le point faible de sa cible avec sa hache de pierre. Les débris de pierre se mettent alors à flotter autour de la cible. Les Pokémon adverses entrant sur le terrain subissent des dégâts équivalents à 1/8 de leurs PV max. Les dégâts peuvent varier en fonction de l’affinité des Pokémon avec le type Roche."
   },
   "springtideStorm": {
     "name": "Typhon Passionné",
