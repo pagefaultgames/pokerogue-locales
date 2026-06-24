@@ -44,7 +44,8 @@
     "effect": "Motståndaren nyps och kläms på båda sidor."
   },
   "guillotine": {
-    "name": "Giljotin"
+    "name": "Giljotin",
+    "effect": "En våldsam, huggande kloattack. Motståndaren (om det inte är en Boss) svimmar genast vid träff; en stjärnsmäll. Teknikens träffsäkerhet är oföränderligt 30 %."
   },
   "razorWind": {
     "name": "Sickelvind",
@@ -67,13 +68,16 @@
     "effect": "Stora, praktfulla vingar svingas mot motståndaren för att skada den."
   },
   "whirlwind": {
-    "name": "Bortblåst"
+    "name": "Bortblåst",
+    "effect": "Motståndaren blåses bort av en stark kuling och en lagmedlem tvingas ut i strid. I en vild singelstrid avslutas striden när den blåses bort. Tekniken utförs alltid sist."
   },
   "fly": {
-    "name": "Flyg"
+    "name": "Flyg",
+    "effect": "Utföraren flyger först upp i skyn, och dyker ner på motståndaren omgången efter."
   },
   "bind": {
-    "name": "Hårdbinding"
+    "name": "Hårdbinding",
+    "effect": "Motståndaren binds och kläms hårt av långa kroppsdelar eller tentakler. Under 4-5 omgångar tar den ⅛ av sin max. HP i skada varje omgångslut."
   },
   "slam": {
     "name": "Storsmäll",
@@ -100,7 +104,8 @@
     "name": "Rundspark"
   },
   "sandAttack": {
-    "name": "Slängsand"
+    "name": "Slängsand",
+    "effect": "Sand slängs i motståndarens ögon för att sänka dess träffsäkerhet."
   },
   "headbutt": {
     "name": "Skallning"
@@ -123,7 +128,8 @@
     "name": "Storsmäll"
   },
   "wrap": {
-    "name": "Invirande"
+    "name": "Invirande",
+    "effect": "Långa kroppsdelar, rankor eller dylikt virar in och klämmer motståndaren. Under 4-5 omgångar tar den ⅛ av sin max. HP i skada varje omgångslut."
   },
   "takeDown": {
     "name": "Helkroppstackling"
@@ -176,7 +182,8 @@
     "name": "Spärr"
   },
   "acid": {
-    "name": "Syra"
+    "name": "Syra",
+    "effect": "Motståndarna sprejas med frätande syra och tar skada. Detta har 10 % chans att sänka deras sp. fsv-förmåga."
   },
   "ember": {
     "name": "Glöd"
@@ -208,7 +215,8 @@
     "name": "Psykostråle"
   },
   "bubbleBeam": {
-    "name": "Bubbelstråle"
+    "name": "Bubbelstråle",
+    "effect": "En kraftig stråle av bubblor sprutas på motståndaren. Detta har 10 % chans att sänka motståndarens snabbhet."
   },
   "auroraBeam": {
     "name": "Polarskensstråle"
@@ -282,7 +290,8 @@
     "effect": "Denna attack träffar motståndaren med en chockvåg av ren ilska. Denna attack orsakar alltid 40 HP i skada."
   },
   "fireSpin": {
-    "name": "Eldvirvel"
+    "name": "Eldvirvel",
+    "effect": "Motståndaren fångas i en våldsam virvel av eld. Under 4-5 omgångar tar den ⅛ av sin max. HP i skada varje omgångslut."
   },
   "thunderShock": {
     "name": "Åskstöt",
@@ -435,7 +444,8 @@
     "name": "Vattenfallsrusch"
   },
   "clamp": {
-    "name": "Skalkläm"
+    "name": "Skalkläm",
+    "effect": "Motståndaren kläms av ett tjockt, hårt skal. Under 4-5 omgångar tar den ⅛ av sin max. HP i skada varje omgångslut."
   },
   "swift": {
     "name": "Stjärnskott",
@@ -449,7 +459,8 @@
     "name": "Spikkanon"
   },
   "constrict": {
-    "name": "Insnörande"
+    "name": "Insnörande",
+    "effect": "Motståndaren snöras in med tentakler, rankor eller dylikt. Detta har 10 % chans att sänka motståndarens snabbhet."
   },
   "amnesia": {
     "name": "Amnesi"
@@ -490,7 +501,8 @@
     "name": "Transformation"
   },
   "bubble": {
-    "name": "Bubblor"
+    "name": "Bubblor",
+    "effect": "Motståndarna sprutas med bubblor. Detta har 10 % chans att sänka deras snabbhet."
   },
   "dizzyPunch": {
     "name": "Virrnäve"
@@ -587,7 +599,8 @@
     "name": "Snark"
   },
   "curse": {
-    "name": "Demonisk makt"
+    "name": "Demonisk makt",
+    "effect": "Utföraren sänker sin snabbhet men ökar attack- och försvarsförmåga. En spöktypsutförare offrar däremot ½ av sin max. HP för att lägga en förbannelse på motståndaren som orsakar ¼ av dess max. HP i skada varje omgångslut."
   },
   "flail": {
     "name": "Flaxande"
@@ -836,7 +849,8 @@
     "name": "Stenkrossare"
   },
   "whirlpool": {
-    "name": "Virvelström"
+    "name": "Virvelström",
+    "effect": "Motståndaren fångas i en våldsam strömvirvel. Under 4-5 omgångar tar den ⅛ av sin max. HP i skada varje omgångslut. Teknikens kraft fördubblas mot motståndare under vatten genom Dyk."
   },
   "beatUp": {
     "name": "Gängattack"
@@ -1093,13 +1107,15 @@
     "name": "Flygande näve"
   },
   "sandTomb": {
-    "name": "Virvelsandfälla"
+    "name": "Virvelsandfälla",
+    "effect": "Motståndaren fångas i en våldsam sandvirvel. Under 4-5 omgångar tar den ⅛ av sin max. HP i skada varje omgångslut."
   },
   "sheerCold": {
     "name": "Noll Kelvin"
   },
   "muddyWater": {
-    "name": "Lervatten"
+    "name": "Lervatten",
+    "effect": "Utföraren attackerar genom att skjuta lerigt vatten på motståndarna. Detta har 30 % chans att sänka deras träffsäkerhet."
   },
   "bulletSeed": {
     "name": "Kulsprutefrön"
@@ -1547,7 +1563,8 @@
     "name": "Krossgrepp"
   },
   "magmaStorm": {
-    "name": "Magmastorm"
+    "name": "Magmastorm",
+    "effect": "Motståndaren fångas i en malström av eld. Under 4-5 omgångar tar den ⅛ av sin max. HP i skada varje omgångslut."
   },
   "darkVoid": {
     "name": "Mörkt tomrum"
@@ -2024,7 +2041,8 @@
     "effect": "Utföraren attackerar försiktigt så att motståndaren har kvar minst 1 HP."
   },
   "infestation": {
-    "name": "Infestation"
+    "name": "Infestation",
+    "effect": "Motståndaren plågas av skadedjur. Under 4-5 omgångar tar den ⅛ av sin max. HP i skada varje omgångslut. Motståndaren kan inte fly eller bytas av under denna tid."
   },
   "powerUpPunch": {
     "name": "Peppnäve"
@@ -2509,7 +2527,8 @@
     "name": "Sista bastion"
   },
   "tarShot": {
-    "name": "Tjärskott"
+    "name": "Tjärskott",
+    "effect": "Utföraren häller klibbig tjära över motståndaren, vilket sänker motståndarens snabbhet. Eldtyptekniker blir dubbelt så starka mot motståndaren."
   },
   "magicPowder": {
     "name": "Trolleripulver"
@@ -2833,7 +2852,8 @@
     "name": "Skärvig snäckkatana"
   },
   "bleakwindStorm": {
-    "name": "Kulenvindens storm"
+    "name": "Kulenvindens storm",
+    "effect": "Utföraren blåser vindar på motståndarna, kalla nog att både kropp och själ att darra. Detta har 30 % chans att sänka deras snabbhet. Missar aldrig i regn."
   },
   "wildboltStorm": {
     "name": "Kornblixtens storm"
@@ -2966,7 +2986,8 @@
     "effect": "Om utföraren har Terastalliserats frigör den energi av sin Teratyp. Denna teknik orsakar attack- eller sp.atk-skada, beroende på vilken som är högst hos utföraren."
   },
   "silkTrap": {
-    "name": "Silkesfälla"
+    "name": "Silkesfälla",
+    "effect": "Utföraren snurrar en silkesfälla som skyddar den helt mot skada och sänker snabbheten hos anfallare som gör direkt kontakt. Efter varje utförelse blir chansen att lyckas med tekniken ⅓ av chansen innan."
   },
   "axeKick": {
     "name": "Yxspark"
