@@ -61,7 +61,7 @@
   },
   "gust": {
     "name": "Vindpust",
-    "effect": "En vindpust piskas upp och skadar motståndaren. Den träffar, med dubbel kraft, en motståndare som är i luften genom Flyg, Studs eller Fritt fall."
+    "effect": "En vindpust piskas upp och skadar motståndaren. Den träffar, med dubbel kraft, en motståndare som är i skyn p.g.a. Flyg, Studs eller Fritt fall."
   },
   "wingAttack": {
     "name": "Vingsving",
@@ -101,14 +101,16 @@
     "name": "Hoppspark"
   },
   "rollingKick": {
-    "name": "Rundspark"
+    "name": "Rundspark",
+    "effect": "Utföraren skadar motståndaren med snabb roterande spark. Detta har 30 % chans att få den att rygga tillbaka."
   },
   "sandAttack": {
     "name": "Slängsand",
     "effect": "Sand slängs i motståndarens ögon för att sänka dess träffsäkerhet."
   },
   "headbutt": {
-    "name": "Skallning"
+    "name": "Skallning",
+    "effect": "Utföraren rusar mot motståndaren och skallar den. Detta har 30 % chans att få den att rygga tillbaka."
   },
   "hornAttack": {
     "name": "Hornattack",
@@ -132,13 +134,15 @@
     "effect": "Långa kroppsdelar, rankor eller dylikt virar in och klämmer motståndaren. Under 4-5 omgångar tar den ⅛ av sin max. HP i skada varje omgångslut."
   },
   "takeDown": {
-    "name": "Helkroppstackling"
+    "name": "Helkroppstackling",
+    "effect": "En vårdslös helkroppsattack. Utföraren tar ¼ av skadan som tekniken orsakat."
   },
   "thrash": {
     "name": "Bärsärkargång"
   },
   "doubleEdge": {
-    "name": "Tveeggad tackling"
+    "name": "Tveeggad tackling",
+    "effect": "En vårdslös, livsfarlig tackling. Utföraren tar själv ⅓ av skadan som tekniken orsakat."
   },
   "tailWhip": {
     "name": "Svansvift"
@@ -158,7 +162,8 @@
     "name": "Bläng"
   },
   "bite": {
-    "name": "Bett"
+    "name": "Bett",
+    "effect": "Motståndaren bits våldsamt med vassa huggtänder. Detta har 30 % chans att få den att rygga tillbaka."
   },
   "growl": {
     "name": "Morr",
@@ -203,7 +208,8 @@
     "effect": "Motståndaren träffas av en enorm mängd vatten som skjuts ut under stort tryck."
   },
   "surf": {
-    "name": "Surfning"
+    "name": "Surfning",
+    "effect": "Motståndaren översvämmar alla runt omkring sig med en jättevåg. Teknikens kraft fördubblas mot pokémon som är under vatten p.g.a. Dyk."
   },
   "iceBeam": {
     "name": "Isstråle"
@@ -233,7 +239,8 @@
     "effect": "En korkskruvande attack som träffar motståndaren med en vass näbb som agerar som en borr."
   },
   "submission": {
-    "name": "Helvetesgrepp"
+    "name": "Helvetesgrepp",
+    "effect": "Utföraren griper tag i motståndaren och dyker vårdslöst mot marken. Utföraren tar själv ¼ av skadan som tekniken orsakat."
   },
   "lowKick": {
     "name": "Fällande lågspark"
@@ -250,10 +257,12 @@
     "effect": "Motståndaren träffas av ett rundslag med maximal kraft."
   },
   "absorb": {
-    "name": "Absorbera"
+    "name": "Absorbera",
+    "effect": "En näringsuppsugande attack. Utförarens HP återställs med ½ av skadan som motståndaren tagit."
   },
   "megaDrain": {
-    "name": "Mega-absorption"
+    "name": "Mega-absorption",
+    "effect": "En näringsuppsugande attack. Utförarens HP återställs med ½ av skadan som motståndaren tagit."
   },
   "leechSeed": {
     "name": "Parasitfrö"
@@ -307,7 +316,7 @@
   },
   "thunder": {
     "name": "Blixt",
-    "effect": "En kraftig blixt skadar motståndaren, med 30 % chans för förlamning. Den träffar alltid i regn. Den kan dessutom träffa en motståndare som är i luften genom Flyg, Studs eller Fritt fall."
+    "effect": "En kraftig blixt skadar motståndaren, med 30 % chans för förlamning. Den träffar alltid i regn. Den kan även träffa en motståndare som är i skyn p.g.a. Flyg, Studs eller Fritt fall."
   },
   "rockThrow": {
     "name": "Stenkast"
@@ -435,13 +444,15 @@
     "effect": "Osanitärt slam slungas på motståndaren. Detta har 30 % chans att förgifta motståndaren."
   },
   "boneClub": {
-    "name": "Knotklubba"
+    "name": "Knotklubba",
+    "effect": "Utföraren klubbar motståndaren med en benknota. Detta har 10 % chans att få den att rygga tillbaka."
   },
   "fireBlast": {
     "name": "Eldsvåda"
   },
   "waterfall": {
-    "name": "Vattenfallsrusch"
+    "name": "Vattenfallsrusch",
+    "effect": "Utföraren simmar raskt upp för ett vattenfall mot motståndaren och slår in i den. Detta har 20 % chans att få den att rygga tillbaka."
   },
   "clamp": {
     "name": "Skalkläm",
@@ -543,10 +554,12 @@
     "name": "Tupplur"
   },
   "rockSlide": {
-    "name": "Stenras"
+    "name": "Stenras",
+    "effect": "Stora rullstenar rasar ner på motståndarna. Detta har 30 % chans att få dem att rygga tillbaka."
   },
   "hyperFang": {
-    "name": "Dödligt bett"
+    "name": "Dödligt bett",
+    "effect": "Utföraren biter motståndaren hårt med vassa framtänder. Detta har 10 % chans att få den att rygga tillbaka."
   },
   "sharpen": {
     "name": "Vässning",
@@ -596,7 +609,8 @@
     "name": "Eldhjul"
   },
   "snore": {
-    "name": "Snark"
+    "name": "Snark",
+    "effect": "Kan endast utföras om utföraren sover. 30 % chans att få motståndaren att rygga tillbaka."
   },
   "curse": {
     "name": "Demonisk makt",
@@ -814,7 +828,8 @@
     "effect": "Utföraren anfaller med dubbla hugg med korsade armar. Chansen för kritisk träff är +1."
   },
   "twister": {
-    "name": "Drakvind"
+    "name": "Drakvind",
+    "effect": "Utföraren piskar upp en våldsam tornado som skadar motståndarna. Detta har 20 % chans att få dem att rygga tillbaka."
   },
   "rainDance": {
     "name": "Regnritual"
@@ -850,7 +865,7 @@
   },
   "whirlpool": {
     "name": "Virvelström",
-    "effect": "Motståndaren fångas i en våldsam strömvirvel. Under 4-5 omgångar tar den ⅛ av sin max. HP i skada varje omgångslut. Teknikens kraft fördubblas mot motståndare under vatten genom Dyk."
+    "effect": "Motståndaren fångas i en våldsam strömvirvel. Under 4-5 omgångar tar den ⅛ av sin max. HP i skada varje omgångslut. Teknikens kraft fördubblas mot motståndare som är under vatten p.g.a. Dyk."
   },
   "beatUp": {
     "name": "Gängattack"
@@ -1104,7 +1119,8 @@
     "name": "Övernaturlig kraft"
   },
   "skyUppercut": {
-    "name": "Flygande näve"
+    "name": "Flygande näve",
+    "effect": "Utföraren svingar näven underifrån så kraftigt att den t.o.m. kan träffa en motståndare som är i skyn p.g.a. Flyg, Studs eller Fritt fall."
   },
   "sandTomb": {
     "name": "Virvelsandfälla",
@@ -1613,7 +1629,8 @@
     "name": "Magisk zon"
   },
   "smackDown": {
-    "name": "Skyhögt stenkast"
+    "name": "Skyhögt stenkast",
+    "effect": "Utföraren kastar en sten eller projektil på motståndaren. Den kan även träffa en motståndare som är i skyn p.g.a. Flyg, Studs eller Fritt fall; den faller då till marken."
   },
   "stormThrow": {
     "name": "Yama-Arashi-kast"
@@ -1772,7 +1789,8 @@
     "name": "Elnät"
   },
   "wildCharge": {
-    "name": "Vildvolt"
+    "name": "Vildvolt",
+    "effect": "Utföraren höljer sig i el och slår in i motståndaren. Utföraren tar själv ¼ av teknikens skada."
   },
   "drillRun": {
     "name": "Skövlingsborr",
@@ -1816,10 +1834,12 @@
     "name": "Svansdask"
   },
   "hurricane": {
-    "name": "Orkan"
+    "name": "Orkan",
+    "effect": "Utföraren sveper in motståndaren i en våldsam vind. 30 % chans att förvirra motståndaren. Missar aldrig i regn. Den kan även träffa en motståndare som är i skyn p.g.a. Flyg, Studs eller Fritt fall."
   },
   "headCharge": {
-    "name": "Hårdhårsskalle"
+    "name": "Hårdhårsskalle",
+    "effect": "Utföraren rusar med sitt tjockhåriga huvud före mot motståndaren och skadar den. Utföraren tar själv ¼ av teknikens skada."
   },
   "gearGrind": {
     "name": "Kugghjulsmalare"
@@ -2051,7 +2071,8 @@
     "name": "Ragnaröksvingar"
   },
   "thousandArrows": {
-    "name": "Tusenpilar"
+    "name": "Tusenpilar",
+    "effect": "Utföraren genererar från sin interna energi otaliga pilar som regnar ner på motståndarna. De kan även träffa motståndare som är i skyn p.g.a. Flyg, Studs eller Fritt fall; de faller då till marken."
   },
   "thousandWaves": {
     "name": "Tusenvågor"
@@ -2961,7 +2982,8 @@
     "effect": "En vattentypattack som en G-maxad Kingler utför. Den sänker skarpt motståndarnas snabbhet."
   },
   "gMaxCentiferno": {
-    "name": "G-maxad grymbrand"
+    "name": "G-maxad grymbrand",
+    "effect": "En eldtypattack som en G-maxad Centiskorch Motståndarna fångas i lågor. Under 4-5 omgångar tar de ⅛ av sina max. HP i skada varje omgångslut."
   },
   "gMaxVineLash": {
     "name": "G-maxad gräspiska"
