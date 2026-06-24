@@ -204,10 +204,12 @@
     "effect": "Motståndarna sprejas med frätande syra och tar skada. Detta har 10 % chans att sänka deras sp. fsv-förmåga."
   },
   "ember": {
-    "name": "Glöd"
+    "name": "Glöd",
+    "effect": "Motståndaren attackeras med små lågor. 10 % chans att orsaka motståndaren en brännskada."
   },
   "flamethrower": {
-    "name": "Eldkastare"
+    "name": "Eldkastare",
+    "effect": "Motståndaren bränns av en intensiv eld. 10 % chans att orsaka motståndaren en brännskada."
   },
   "mist": {
     "name": "Vitt dis"
@@ -463,7 +465,8 @@
     "effect": "Utföraren klubbar motståndaren med en benknota. Detta har 10 % chans att få den att rygga tillbaka."
   },
   "fireBlast": {
-    "name": "Eldsvåda"
+    "name": "Eldsvåda",
+    "effect": "Motståndaren slukas av en intensivt explosiv brand. 10 % chans att orsaka motståndaren en brännskada."
   },
   "waterfall": {
     "name": "Vattenfallsrusch",
@@ -636,7 +639,8 @@
     "name": "Mardrömmar"
   },
   "flameWheel": {
-    "name": "Eldhjul"
+    "name": "Eldhjul",
+    "effect": "Utföraren täcker sig i eld och snurrar mot moståndaren. 10 % chans att orsaka motståndaren en brännskada. Utföraren tinar om den är nerfrusen."
   },
   "snore": {
     "name": "Snark",
@@ -801,7 +805,8 @@
     "name": "Delad sorg"
   },
   "sacredFire": {
-    "name": "Helgad eld"
+    "name": "Helgad eld",
+    "effect": "Motståndaren bränns med en intensiv, mystisk eld. 50 % chans att orsaka motståndaren en brännskada. Utföraren tinar om den är nerfrusen."
   },
   "magnitude": {
     "name": "Magnitud"
@@ -1748,7 +1753,8 @@
     "name": "Positionsbyte"
   },
   "scald": {
-    "name": "Skållvatten"
+    "name": "Skållvatten",
+    "effect": "Utföraren skjuter kokande hett vatten på motståndaren. 30 % chans att orsaka motståndaren en brännskada. Tinar en nerfrusen motståndare. Utföraren tinar om den är nerfrusen."
   },
   "shellSmash": {
     "name": "Skalurbrytning"
@@ -1905,7 +1911,8 @@
     "effect": "Utföraren skapar ett massiv mängd av el runt sig och hoppar på motståndaren. Detta har 20 % chans att förlama motståndaren."
   },
   "blueFlare": {
-    "name": "Blå låga"
+    "name": "Blå låga",
+    "effect": "Utföraren omsluter motståndaren med en intensiv, men vacker, blå låga. 20 % chans att orsaka motståndaren en brännskada."
   },
   "fieryDance": {
     "name": "Lågornas dans"
@@ -1915,7 +1922,8 @@
     "effect": "Utföraren laddar först upp för att träffa motståndaren med elladdad is följande omgång. Detta har 30 % chans att förlama motståndaren."
   },
   "iceBurn": {
-    "name": "Hypotermisk köld"
+    "name": "Hypotermisk köld",
+    "effect": "Utföraren omger sig först med en ultrakall isvind, och skickar den på motståndaren följande omgång. 30 % chans att orsaka motståndaren en brännskada."
   },
   "snarl": {
     "name": "Utskällning"
@@ -2693,7 +2701,8 @@
     "effect": "Motståndaren fångas i en smärtsam fälla. Under 4-5 omgångar tar den ⅛ av sin max. HP i skada varje omgångslut."
   },
   "pyroBall": {
-    "name": "Flamboll"
+    "name": "Flamboll",
+    "effect": "Utföraren tuttar eld på en liten sten och sparkar den på motståndaren. 10 % chans att orsaka motståndaren en brännskada. Utföraren tinar om den är nerfrusen."
   },
   "behemothBlade": {
     "name": "Vidundersvärja",
@@ -2913,7 +2922,8 @@
     "effect": "Utföraren sparkar och avfyrar tre pilar på en motståndare, med 50 % chans att sänka dess försvarsförmåga och 30 % chans att få den att rygga tillbaka. Chansen för kritisk träff är +1."
   },
   "infernalParade": {
-    "name": "Helvetesparad"
+    "name": "Helvetesparad",
+    "effect": "Utföraren attackerar med otaliga eldiga andar. 30 % chans att orsaka motståndaren en brännskada. Kraften fördubblas om motståndaren har tillståndspåverkan."
   },
   "ceaselessEdge": {
     "name": "Skärvig snäckkatana"
@@ -3209,7 +3219,8 @@
     "effect": "Utföraren sprutar en ström av vatten med så högt tryck att den skär motståndaren. Chansen för kritisk träff är +1."
   },
   "blazingTorque": {
-    "name": "Magmamotor"
+    "name": "Magmamotor",
+    "effect": "Utföraren varvar upp sin flammande motor och kör rakt in i motståndaren. 30 % chans att orsaka motståndaren en brännskada."
   },
   "wickedTorque": {
     "name": "Malismotor"
@@ -3230,7 +3241,8 @@
     "effect": "Utföraren släpper lös den råa makten av sin fullmånessjäl, röd som blod. Tekniken kan inte utföras två gånger i rad."
   },
   "matchaGotcha": {
-    "name": "Matchaklatsch"
+    "name": "Matchaklatsch",
+    "effect": "Utföraren skjuter nybryggt grönt te på motståndarna. Utförarens HP återställs med ½ av skadan som orsakas. 30 % chans att orsaka motståndarna brännskador. Tinar nerfrusna utförare eller motståndare."
   },
   "syrupBomb": {
     "name": "Sirapsbomb"
