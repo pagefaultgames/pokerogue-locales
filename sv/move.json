@@ -100,7 +100,8 @@
     "effect": "Motståndaren får sig en redig rakspark."
   },
   "jumpKick": {
-    "name": "Hoppspark"
+    "name": "Hoppspark",
+    "effect": "Utföraren hoppar högt och riktar en spark mot motståndaren. Om denna teknik missar eller misslyckas tar utföraren ½ av sin max. HP i skada."
   },
   "rollingKick": {
     "name": "Rundspark",
@@ -119,10 +120,12 @@
     "effect": "Motståndaren sticks med ett vasst horn för att orsaka skada."
   },
   "furyAttack": {
-    "name": "Hackattack"
+    "name": "Hackattack",
+    "effect": "Motståndaren hackas med näbb eller horn 2-5 gånger i rad."
   },
   "hornDrill": {
-    "name": "Hornborr"
+    "name": "Hornborr",
+    "effect": "Utföraren borrar motståndaren med ett roterande horn. Motståndaren (om det inte är en Boss) svimmar genast vid träff; en stjärnsmäll. Teknikens träffsäkerhet är oföränderligt 30 %."
   },
   "tackle": {
     "name": "Tackling",
@@ -141,14 +144,16 @@
     "effect": "En vårdslös helkroppsattack. Utföraren tar ¼ av skadan som tekniken orsakat."
   },
   "thrash": {
-    "name": "Bärsärkargång"
+    "name": "Bärsärkargång",
+    "effect": "Utföraren härjar och attackerar i 2-3 omgångar. Utföraren blir sedan förvirrad."
   },
   "doubleEdge": {
     "name": "Tveeggad tackling",
     "effect": "En vårdslös, livsfarlig tackling. Utföraren tar själv ⅓ av skadan som tekniken orsakat."
   },
   "tailWhip": {
-    "name": "Svansvift"
+    "name": "Svansvift",
+    "effect": "Utföraren viftar gulligt på svansen, vilket gör motståndarna mindre försiktiga och sänker deras försvarsförmåga."
   },
   "poisonSting": {
     "name": "Giftstick",
@@ -159,10 +164,12 @@
     "effect": "Utföraren sticker motståndaren 2 gånger i rad med två vassa nålar. Detta har 20 % chans att förgifta motståndaren."
   },
   "pinMissile": {
-    "name": "Missilnålar"
+    "name": "Missilnålar",
+    "effect": "Vassa spikar skjuts mot motståndaren i snabb följd. De träffar 2-5 i rad."
   },
   "leer": {
-    "name": "Bläng"
+    "name": "Bläng",
+    "effect": "Utföraren blänger argsint mot motståndarna, vilket sänker deras försvarsförmåga."
   },
   "bite": {
     "name": "Bett",
@@ -173,10 +180,12 @@
     "effect": "Utföraren morrar på ett älskvärt sätt, vilket gör motståndarna mindre försiktiga. Detta sänker deras attackförmåga."
   },
   "roar": {
-    "name": "Ryt"
+    "name": "Ryt",
+    "effect": "Motståndaren skräms bort, och en annan pokémon tvingas ut i strid. I det vilda avslutar detta en singelstrid."
   },
   "sing": {
-    "name": "Vaggvisa"
+    "name": "Vaggvisa",
+    "effect": "En lugnande vaggvisa sjungs med en vacker röst som söver motståndaren."
   },
   "supersonic": {
     "name": "Ultraljud",
@@ -187,7 +196,8 @@
     "effect": "Motståndaren träffas av en destruktiv chockvåg som alltid orsakar 20 HP i skada."
   },
   "disable": {
-    "name": "Spärr"
+    "name": "Spärr",
+    "effect": "Spärrar motståndaren från att utföra dess senast utförda teknik i 4 omgångar."
   },
   "acid": {
     "name": "Syra",
@@ -322,13 +332,15 @@
     "effect": "En kraftig blixt skadar motståndaren, med 30 % chans för förlamning. Den träffar alltid i regn. Den kan även träffa en motståndare som är i skyn p.g.a. Flyg, Studs eller Fritt fall."
   },
   "rockThrow": {
-    "name": "Stenkast"
+    "name": "Stenkast",
+    "effect": "Utföraren plockar upp och kastar en liten sten på motståndaren."
   },
   "earthquake": {
     "name": "Jordbävning"
   },
   "fissure": {
-    "name": "Jordklyvare"
+    "name": "Jordklyvare",
+    "effect": "Utföraren klyver marken itu under motståndarens fötter. Motståndaren (om det inte är en Boss) svimmar genast vid träff; en stjärnsmäll. Teknikens träffsäkerhet är oföränderligt 30 %."
   },
   "dig": {
     "name": "Grävning"
@@ -487,7 +499,8 @@
     "name": "Ägglägg"
   },
   "highJumpKick": {
-    "name": "Flygande knäspark"
+    "name": "Flygande knäspark",
+    "effect": "Utföraren hoppsparkar en motståndare med knäet före. Om denna teknik missar eller misslyckas tar utföraren ½ av sin max. HP i skada."
   },
   "glare": {
     "name": "Medusablick"
@@ -507,7 +520,8 @@
     "effect": "Utföraren dricker motståndarens blod. Utförarens HP återställs med ½ av skadan som motståndaren tagit."
   },
   "lovelyKiss": {
-    "name": "Demonkyss"
+    "name": "Demonkyss",
+    "effect": "Utföraren försöker kyssa motståndaren med ett demoniskt ansiktsuttryck. Om den lyckas så somnar motståndaren."
   },
   "skyAttack": {
     "name": "Gudafågel",
@@ -532,14 +546,16 @@
     "effect": "Utföraren bländar med ett starkt ljus som sänker motståndarens träffsäkerhet."
   },
   "psywave": {
-    "name": "Psykovåg"
+    "name": "Psykovåg",
+    "effect": "Motståndaren attackeras med en underlig psykisk våg. Attackens skada varierar: mellan 50 - 150 % av utförarens nivå."
   },
   "splash": {
     "name": "Sprattel",
     "effect": "Utföraren sprattlar och småhoppar runt utan någon som helst effekt."
   },
   "acidArmor": {
-    "name": "Förvätskning"
+    "name": "Förvätskning",
+    "effect": "Utföraren ändrar sin cellstruktur för att bli flytande, vilket skarpt ökar dess försvarsförmåga."
   },
   "crabhammer": {
     "name": "Krabbhammare",
@@ -550,13 +566,16 @@
     "effect": "Utföraren skadar alla runt omkring sig genom att orsaka en våldsam explosion. Utföraren svimmar när den använder denna teknik."
   },
   "furySwipes": {
-    "name": "Vilda svep"
+    "name": "Vilda svep",
+    "effect": "Motståndaren rivs snabbt med vassa klor eller klingor 2-5 gånger i rad."
   },
   "bonemerang": {
-    "name": "Benerang"
+    "name": "Benerang",
+    "effect": "Utföraren kastar ett ben som sedan snurrar tillbaka och träffar motståndaren igen. Den träffar totalt 2 gånger i rad."
   },
   "rest": {
-    "name": "Tupplur"
+    "name": "Tupplur",
+    "effect": "Utföraren sover i 2 omgångar. Detta återställer utförarens HP helt och läker all tillståndspåverkan. Misslyckas vid fulla HP."
   },
   "rockSlide": {
     "name": "Stenras",
@@ -575,26 +594,32 @@
     "effect": "Utföraren ändrar sin typ så att den blir samma typ som den första tekniken på sin tekniklista."
   },
   "triAttack": {
-    "name": "Triad"
+    "name": "Triad",
+    "effect": "Utföraren skjuter tre strålar samtidigt. 20 % chans att antingen bränna, förlama eller frysa ner motståndaren."
   },
   "superFang": {
-    "name": "Halvdödligt bett"
+    "name": "Halvdödligt bett",
+    "effect": "Utföraren biter motståndaren hårt med sina vassa framtänder. Detta halverar motståndarens resterande HP."
   },
   "slash": {
     "name": "Skärande svep",
     "effect": "Motståndaren skärs av svepande klor eller blad. Chansen för kritisk träff är +1."
   },
   "substitute": {
-    "name": "Bulvan"
+    "name": "Bulvan",
+    "effect": "Utföraren skapar en bulvan för sig själv genom att offra ¼ av sin max. HP. Bulvanen tar motståndarnas attacker. Den försvinner när den tagit skada som är lika med HP:n som offrades."
   },
   "struggle": {
-    "name": "Desperation"
+    "name": "Desperation",
+    "effect": "Denna attack utförs endast i desperation om utföraren inte har KP kvar. Utföraren tappar en ⅓ av sin max. HP."
   },
   "sketch": {
-    "name": "Skiss"
+    "name": "Skiss",
+    "effect": "Denna teknik lär permanent utföraren den teknik som motståndaren senast utfört. När Skiss har utförts försvinner den."
   },
   "tripleKick": {
-    "name": "Trippelspark"
+    "name": "Trippelspark",
+    "effect": "En attack med tre sparkar som blir ökar 10 i kraft för varje lyckad träff. Vid miss avslutas attacken."
   },
   "thief": {
     "name": "Rån",
@@ -688,10 +713,12 @@
     "effect": "Gör så att spöktyppokémon kan träffas av normal- och slagsmålstypattacker. Mycket undvikande motståndare kan även träffas utan risk för miss."
   },
   "destinyBond": {
-    "name": "Ödesband"
+    "name": "Ödesband",
+    "effect": "Om utföraren svimmar efter att ha utfört denna teknik svimmar även motståndaren som golvade utföraren. Teknikens misslyckas om den används i följd. Bosspokémon är immuna mot denna teknik."
   },
   "perishSong": {
-    "name": "Undergångssång"
+    "name": "Undergångssång",
+    "effect": "Alla pokémon som hör denna sång svimmar efter 3 omgångar om de inte byts av. Bosspokémon är immuna mot denna teknik."
   },
   "icyWind": {
     "name": "Isande vind",
@@ -1133,7 +1160,8 @@
     "effect": "Motståndaren fångas i en våldsam sandvirvel. Under 4-5 omgångar tar den ⅛ av sin max. HP i skada varje omgångslut."
   },
   "sheerCold": {
-    "name": "Noll Kelvin"
+    "name": "Noll Kelvin",
+    "effect": "Motståndaren utsätts för den absoluta nollpunkten av kyla. Motståndaren (om det inte är en Boss) svimmar genast vid träff; en stjärnsmäll. Teknikens träffsäkerhet för istypsutförare är oföränderligt 30 % (20 % för andra typer). "
   },
   "muddyWater": {
     "name": "Lervatten",
@@ -3031,7 +3059,8 @@
     "effect": "Utföraren snurrar en silkesfälla som skyddar den helt mot skada och sänker snabbheten hos anfallare som gör direkt kontakt. Efter varje utförelse blir chansen att lyckas med tekniken ⅓ av chansen innan."
   },
   "axeKick": {
-    "name": "Yxspark"
+    "name": "Yxspark",
+    "effect": "Utföraren sparkar upp i luften och slår ner hälen på motståndaren. 30 % chans att förvirra motståndaren. Om denna teknik missar eller misslyckas tar utföraren ½ av sin max. HP i skada."
   },
   "lastRespects": {
     "name": "Postumt hedrande"
