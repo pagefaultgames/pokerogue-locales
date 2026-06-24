@@ -29,7 +29,7 @@
   },
   "icePunch": {
     "name": "Isnäve",
-    "effect": "Motståndaren slås med en frusen knytnäve, med 10 % chans för nedfrysning."
+    "effect": "Motståndaren slås med en frusen knytnäve, med 10 % chans att frysa ner motståndaren."
   },
   "thunderPunch": {
     "name": "Blixtnäve",
@@ -212,7 +212,8 @@
     "effect": "Motståndaren bränns av en intensiv eld. 10 % chans att orsaka motståndaren en brännskada."
   },
   "mist": {
-    "name": "Vitt dis"
+    "name": "Vitt dis",
+    "effect": "Utföraren döljer sig själv och den vid sin sida med vitt dis som förhindrar att deras förmågor sänks under 5 omgångar."
   },
   "waterGun": {
     "name": "Vattenpistol",
@@ -227,27 +228,32 @@
     "effect": "Motståndaren översvämmar alla runt omkring sig med en jättevåg. Teknikens kraft fördubblas mot pokémon som är under vatten p.g.a. Dyk."
   },
   "iceBeam": {
-    "name": "Isstråle"
+    "name": "Isstråle",
+    "effect": "Motståndaren träffas av en iskall energistråle. 10 % chans att frysa ner motståndaren."
   },
   "blizzard": {
-    "name": "Snöstorm"
+    "name": "Snöstorm",
+    "effect": "En våldsam snöstorm framkallas för att anfalla motståndarna. 10 % chans att frysa ner motståndarna. Missar aldrig i snö eller hagel."
   },
   "psybeam": {
-    "name": "Psykostråle"
+    "name": "Psykostråle",
+    "effect": "Motståndaren attackeras med en underlig stråle. 10 % chans att förvirra motståndaren."
   },
   "bubbleBeam": {
     "name": "Bubbelstråle",
     "effect": "En kraftig stråle av bubblor sprutas på motståndaren. Detta har 10 % chans att sänka motståndarens snabbhet."
   },
   "auroraBeam": {
-    "name": "Polarskensstråle"
+    "name": "Polarskensstråle",
+    "effect": "Motståndaren träffas av en regnbågsfärgad stråle. 10 % chans att sänka motståndarens attackförmåga."
   },
   "hyperBeam": {
     "name": "Hyperstråle",
     "effect": "Utföraren skjuter motståndaren med en extremt kraftig stråle. Utföraren kan sedan inte röra sig i följande omgång."
   },
   "peck": {
-    "name": "Hacka"
+    "name": "Hacka",
+    "effect": "Motståndaren pickas med en vass näbb eller ett horn."
   },
   "drillPeck": {
     "name": "Hackborr",
@@ -258,10 +264,12 @@
     "effect": "Utföraren griper tag i motståndaren och dyker vårdslöst mot marken. Utföraren tar själv ¼ av skadan som tekniken orsakat."
   },
   "lowKick": {
-    "name": "Fällande lågspark"
+    "name": "Fällande lågspark",
+    "effect": "En kraftfull spark som fäller motståndaren. Ju tyngre motståndaren är, desto mer kraft har tekniken; kraftomfånget är 20-120."
   },
   "counter": {
-    "name": "Motanfall"
+    "name": "Motanfall",
+    "effect": "En motattack. En fysisk attack kontras med dubbelt så mycket skada på motståndaren."
   },
   "seismicToss": {
     "name": "Gravitationskast",
@@ -351,10 +359,12 @@
     "name": "Toxin"
   },
   "confusion": {
-    "name": "Tankeförvillning"
+    "name": "Tankeförvillning",
+    "effect": "Motståndaren skadas med en svag telekinetisk kraft. 10 % chans att förvirra motståndaren."
   },
   "psychic": {
-    "name": "Psykokinesi"
+    "name": "Psykokinesi",
+    "effect": "Motståndaren skadas med stark psykokinetisk kraft. 10 % chans att sänka motståndarens sp. fsv-förmåga."
   },
   "hypnosis": {
     "name": "Hypnos"
@@ -538,7 +548,8 @@
     "effect": "Motståndarna sprutas med bubblor. Detta har 10 % chans att sänka deras snabbhet."
   },
   "dizzyPunch": {
-    "name": "Virrnäve"
+    "name": "Virrnäve",
+    "effect": "Motståndaren slås med rytmiska knytnävsslag. 20 % chans att förvirra motståndaren."
   },
   "spore": {
     "name": "Sömnsporer",
@@ -671,7 +682,8 @@
     "effect": "Utföraren riktar sin illvilja mot den teknik som senast använts av motståndaren, vilket tar bort 4 KP från den."
   },
   "powderSnow": {
-    "name": "Pudersnö"
+    "name": "Pudersnö",
+    "effect": "Utföraren med en kylig pudersnövind. 10 % chans att frysa ner motståndaren."
   },
   "protect": {
     "name": "Skyddsköld"
@@ -704,7 +716,8 @@
     "effect": "Utföraren kastar lera i motståndarens ansikte för att orsaka skada och sänka dess träffsäkerhet."
   },
   "octazooka": {
-    "name": "Bläckazooka"
+    "name": "Bläckazooka",
+    "effect": "Utföraren skjuter bläck in i motståndarens ögon. 50 % chans att sänka dess träffsäkerhet."
   },
   "spikes": {
     "name": "Fotanglar"
@@ -839,7 +852,8 @@
     "name": "Söt doft"
   },
   "ironTail": {
-    "name": "Järnsvans"
+    "name": "Järnsvans",
+    "effect": "Motståndaren smälls med en stålhård svans. 30 % chans att sänka motståndarens försvarsförmåga."
   },
   "metalClaw": {
     "name": "Metallklo"
@@ -876,7 +890,8 @@
     "name": "Solskensdag"
   },
   "crunch": {
-    "name": "Knaprande"
+    "name": "Knaprande",
+    "effect": "Utföraren knaprar motståndaren med vassa tänder. 20 % chans att sänka motståndarens försvarsförmåga."
   },
   "mirrorCoat": {
     "name": "Spegelstraff"
@@ -893,13 +908,15 @@
     "name": "Urkraft"
   },
   "shadowBall": {
-    "name": "Skuggboll"
+    "name": "Skuggboll",
+    "effect": "Utföraren kastar en skuggig klump på motståndaren. 20 % chans att sänka motståndarens sp. fsv-förmåga."
   },
   "futureSight": {
     "name": "Framtidssyn"
   },
   "rockSmash": {
-    "name": "Stenkrossare"
+    "name": "Stenkrossare",
+    "effect": "Ett stenkrossande slag. 50 % chans att sänka motståndarens försvarsförmåga."
   },
   "whirlpool": {
     "name": "Virvelström",
@@ -1050,10 +1067,12 @@
     "name": "Eldflugeglöd"
   },
   "lusterPurge": {
-    "name": "Renande lyster"
+    "name": "Renande lyster",
+    "effect": "Utföraren släpper lös ett skadligt, bländande ljussken. 50 % chans att sänka motståndarens sp.fsv-förmåga."
   },
   "mistBall": {
-    "name": "Mistmoln"
+    "name": "Mistmoln",
+    "effect": "En mistliknande virvel omsluter och skadar motståndaren. 50 % chans att sänka motståndarens sp. atk-förmåga."
   },
   "featherDance": {
     "name": "Fjäderdans",
@@ -1086,7 +1105,8 @@
     "effect": "Utföraren biter motståndaren med giftiga huggtänder. Detta har 50 % chans att svårt förgifta motståndaren."
   },
   "crushClaw": {
-    "name": "Krossande klor"
+    "name": "Krossande klor",
+    "effect": "Utföraren river motståndaren med hårda, vassa klor. 50 % chans att sänka motståndarens försvarsförmåga."
   },
   "blastBurn": {
     "name": "Infernobrisad",
@@ -1147,7 +1167,8 @@
     "name": "Fontänattack"
   },
   "signalBeam": {
-    "name": "Signalstråle"
+    "name": "Signalstråle",
+    "effect": "Motståndaren träffas av en olycksbådande ljusstråle. 10 % chans att förvirra motståndaren."
   },
   "shadowPunch": {
     "name": "Skuggnäve",
@@ -1248,7 +1269,8 @@
     "effect": "Utföraren träffar motståndaren med en snabb elektrisk stöt. Denna attack missar aldrig."
   },
   "waterPulse": {
-    "name": "Vattenpulsering"
+    "name": "Vattenpulsering",
+    "effect": "Utföraren skjuter motståndaren med en pulserande vattenstråle. 20 % chans att förvirra motståndaren."
   },
   "doomDesire": {
     "name": "Ödesdiger önskan"
@@ -1427,7 +1449,8 @@
     "name": "X-sax"
   },
   "bugBuzz": {
-    "name": "Supersurr"
+    "name": "Supersurr",
+    "effect": "Utföraren skapar en skadlig ljudvåg genom vibration. 10 % chans att sänka motståndarens sp. fsv-förmåga."
   },
   "dragonPulse": {
     "name": "Drakpulsering",
@@ -1449,17 +1472,20 @@
     "effect": "Utföraren virvlar med sina nävar för att skicka en våg av rent vakuum mot motståndaren. Denna teknik går alltid först."
   },
   "focusBlast": {
-    "name": "Kampandans kula"
+    "name": "Kampandans kula",
+    "effect": "Utföraren ökar sin kamplust och frigör sin energi i form av en kula. 10 % chans att sänka motståndarens sp. fsv-förmåga."
   },
   "energyBall": {
-    "name": "Ekosfär"
+    "name": "Ekosfär",
+    "effect": "Utföraren avfyrar naturens kraft på motståndaren. 10 % chans att sänka motståndarens sp. fsv-förmåga."
   },
   "braveBird": {
     "name": "Djärv störtdykning",
     "effect": "Utföraren fäller in sina vingar och störtdyker ner på motståndaren. Utföraren tar själv ⅓ av skadan som tekniken orsakat."
   },
   "earthPower": {
-    "name": "Geofysiskt tryck"
+    "name": "Geofysiskt tryck",
+    "effect": "Utföraren får jorden under motståndaren att brista med starkt tryck. 10 % chans att sänka motståndarens sp. fsv-förmåga."
   },
   "switcheroo": {
     "name": "Bytt-e-bytt"
@@ -1490,7 +1516,8 @@
     "name": "Blixtbett"
   },
   "iceFang": {
-    "name": "Frysbett"
+    "name": "Frysbett",
+    "effect": "Utföraren biter med isiga huggtänder. 10 % chans att frysa ner motståndaren. 10 % chans att få motståndaren att rygga tillbaka."
   },
   "fireFang": {
     "name": "Eldbett"
@@ -1500,7 +1527,8 @@
     "effect": "Utföraren utvidgar sin skugga och attackerar motståndaren bakifrån. Denna teknik går alltid först."
   },
   "mudBomb": {
-    "name": "Lerbomb"
+    "name": "Lerbomb",
+    "effect": "Utföraren avfyrar en hårt packad lerboll. 20 % chans att sänka motståndarens träffsäkerhet."
   },
   "psychoCut": {
     "name": "Sylvasst psyksvep",
@@ -1510,13 +1538,16 @@
     "name": "Zenskalle"
   },
   "mirrorShot": {
-    "name": "Spegelskott"
+    "name": "Spegelskott",
+    "effect": "Utföraren släpper lös gnistrande energi från sin polerade kropp på motståndaren. 30 % chans att sänka motståndarens träffsäkerhet."
   },
   "flashCannon": {
-    "name": "Briljanskanon"
+    "name": "Briljanskanon",
+    "effect": "Utföraren samlar all ljusenergi inom sig och släpper ut den på en gång. 10 % chans att sänka motståndarens sp. fsv-förmåga."
   },
   "rockClimb": {
-    "name": "Klippklättrare"
+    "name": "Klippklättrare",
+    "effect": "Utföraren klättrar blixtsnabbt upp mot motståndaren och slår in i den med otrolig kraft. 20 % chans att förvirra motståndaren."
   },
   "defog": {
     "name": "Klarblåst"
@@ -1630,7 +1661,8 @@
     "name": "Mörkt tomrum"
   },
   "seedFlare": {
-    "name": "Grönskegloria"
+    "name": "Grönskegloria",
+    "effect": "Utföraren avger en våg av ljus från sin kropp för att attackera en motståndare. 40 % chans att skarpt sänka motståndarens sp. fsv-förmåga."
   },
   "ominousWind": {
     "name": "Vedervärdig vind"
@@ -1856,14 +1888,16 @@
     "name": "Helgat svärd"
   },
   "razorShell": {
-    "name": "Snäcksvärd"
+    "name": "Snäcksvärd",
+    "effect": "Utförare skär motståndaren med en vass snäcka. 50 % chans att sänka motståndarens försvarsförmåga."
   },
   "heatCrash": {
     "name": "Eldbollskrossare",
     "effect": "Utföraren kraschar in i motståndaren med sin flammande kropp. Ju tyngre utföraren är i jämförelse med motståndaren, desto större blir teknikens kraft; kraftomfånget är 40-120. Om motståndaren har utfört Krympning fördubblas teknikens kraft och den missar aldrig."
   },
   "leafTornado": {
-    "name": "Bladorkan"
+    "name": "Bladorkan",
+    "effect": "Utföraren slungar en orkan av löv på motståndaren. 50 % chans att sänka motståndarens träffsäkerhet."
   },
   "steamroller": {
     "name": "Ångvältmosare"
@@ -1872,7 +1906,8 @@
     "name": "Bomullsrustning"
   },
   "nightDaze": {
-    "name": "Kvällsmäll"
+    "name": "Kvällsmäll",
+    "effect": "Utföraren skjuter en kolsvart chockvåg på motståndaren. 40 % chans att sänka motståndarens träffsäkerhet."
   },
   "psystrike": {
     "name": "Psykrossare"
@@ -1932,10 +1967,12 @@
     "name": "Isspetsare"
   },
   "vCreate": {
-    "name": "V-brännare"
+    "name": "V-brännare",
+    "effect": "Med en het låga i pannan kastar sig utföraren mot sin motståndare. Detta sänker utförarens försvars- och sp. fsv-förmåga samt snabbhet."
   },
   "fusionFlare": {
-    "name": "Fusionflamma"
+    "name": "Fusionflamma",
+    "effect": "Utföraren kastar ner en gigantisk låga på motståndaren. Kraften fördubblas när den utförs samtidigt som Fusionblixt. Utföraren tinar om den är nerfrusen."
   },
   "fusionBolt": {
     "name": "Fusionblixt"
@@ -1984,7 +2021,8 @@
     "name": "Blombladsstorm"
   },
   "freezeDry": {
-    "name": "Frystork"
+    "name": "Frystork",
+    "effect": "Utföraren kyler blixtsnabbt ner motståndaren. Tekniken är även supereffektiv mot vattentyper."
   },
   "disarmingVoice": {
     "name": "Ömkligt läte",
@@ -2017,13 +2055,15 @@
     "name": "Elektrifiering"
   },
   "playRough": {
-    "name": "Skojbråk"
+    "name": "Skojbråk",
+    "effect": "Utföraren bankar på motståndaren \"på skoj\". 10 % chans att sänka motståndarens attackförmåga."
   },
   "fairyWind": {
     "name": "Trolsk vind"
   },
   "moonblast": {
-    "name": "Månknall"
+    "name": "Månknall",
+    "effect": "Utföraren skickar ner månens kraft på en motståndare. 10 % chans att sänka motståndarens sp. atk-förmåga."
   },
   "boomburst": {
     "name": "Ultraknall"
@@ -2464,14 +2504,16 @@
     "name": "Stampande utbrott"
   },
   "shadowBone": {
-    "name": "Själad knota"
+    "name": "Själad knota",
+    "effect": "Utföraren slår motståndaren med ett ben som innehåller en själ. 20 % chans att sänka motståndarens försvarsförmåga."
   },
   "accelerock": {
     "name": "Snabbsten",
     "effect": "Utföraren smäller in i motståndaren med hög hastighet. Denna teknik går alltid först."
   },
   "liquidation": {
-    "name": "Akvakvaddare"
+    "name": "Akvakvaddare",
+    "effect": "Utföraren krockar in i motståndaren, framdriven av en stark ström. 20 % chans att sänka motståndarens försvarsförmåga."
   },
   "prismaticLaser": {
     "name": "Prismalaser",
@@ -2738,7 +2780,8 @@
     "effect": "Utföraren attackerar motståndaren med så mycket kraft att den knäcker dess mod. Detta sänker också motståndarens sp. atk-förmåga."
   },
   "strangeSteam": {
-    "name": "Mystisk ånga"
+    "name": "Mystisk ånga",
+    "effect": "Utföraren avger ånga på motståndaren. 20 % chans att förvirra motståndaren."
   },
   "lifeDew": {
     "name": "Livsdagg"
@@ -2820,7 +2863,8 @@
     "name": "Dubbla vingslag"
   },
   "scorchingSands": {
-    "name": "Ökensand"
+    "name": "Ökensand",
+    "effect": "Utföraren kastar glödhet sand på motståndaren. 30 % chans att orsaka motståndaren en brännskada. Tinar nerfrusna utförare eller motståndare."
   },
   "jungleHealing": {
     "name": "Djungelhelning"
@@ -2839,7 +2883,8 @@
     "name": "Drakenergi"
   },
   "freezingGlare": {
-    "name": "Iskall blick"
+    "name": "Iskall blick",
+    "effect": "Utföraren skjuter psykisk kraft från sina ögon på motståndaren. 10 % chans att frysa ner motståndaren."
   },
   "fieryWrath": {
     "name": "Hetlevrad vrede"
@@ -2874,7 +2919,8 @@
     "name": "Stenyxa"
   },
   "springtideStorm": {
-    "name": "Sol-och-vårens storm"
+    "name": "Sol-och-vårens storm",
+    "effect": "Utföraren sveper in motståndarna i starka vindar som svämmar över av kärlek och hat. 30 % chans att sänka motståndarnas attackförmåga."
   },
   "mysticalPower": {
     "name": "Mystisk kraft",
@@ -3234,7 +3280,8 @@
     "effect": "Utföraren varvar upp sin motor och kör, med stor kraft, rakt in i motståndaren. Detta har 30 % chans att förlama motståndaren."
   },
   "magicalTorque": {
-    "name": "Mysteriemotor"
+    "name": "Mysteriemotor",
+    "effect": "Utföraren varvar upp sin mystiska motor och kör rakt in i motståndaren. 20 % chans att förvirra motståndaren."
   },
   "bloodMoon": {
     "name": "Blodmåne",
