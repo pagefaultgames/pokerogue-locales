@@ -662,7 +662,8 @@
     "effect": "Utföraren sänker sin snabbhet men ökar attack- och försvarsförmåga. En spöktypsutförare offrar däremot ½ av sin max. HP för att lägga en förbannelse på motståndaren som orsakar ¼ av dess max. HP i skada varje omgångslut."
   },
   "flail": {
-    "name": "Flaxande"
+    "name": "Flaxande",
+    "effect": "Användaren flaxar vilt runt sig för att attackera. Ju mindre HP utföraren har, desto kraftfullare blir tekniken. Kraftomfånget är 20-200."
   },
   "conversion2": {
     "name": "Konvertering 2.0"
@@ -675,7 +676,8 @@
     "name": "Bomullssporer"
   },
   "reversal": {
-    "name": "Revanschstöt"
+    "name": "Revanschstöt",
+    "effect": "En satsig attack som blir kraftfullare ju mindre HP utföraren har. Kraftomfånget är 20-200."
   },
   "spite": {
     "name": "Illvilja",
@@ -803,13 +805,15 @@
     "name": "Helande bjällra"
   },
   "return": {
-    "name": "Gengäldning"
+    "name": "Gengäldning",
+    "effect": "Denna attack blir kraftfullare ju mer utföraren tycker om sin tränare. Kraftomfånget är 1-102."
   },
   "present": {
     "name": "Present"
   },
   "frustration": {
-    "name": "Förskjuten ilska"
+    "name": "Förskjuten ilska",
+    "effect": "Denna attack blir kraftfullare ju mindre utföraren tycker om sin tränare. Kraftomfånget är 1-102."
   },
   "safeguard": {
     "name": "Mystisk sköld"
@@ -935,7 +939,8 @@
     "name": "Lagring"
   },
   "spitUp": {
-    "name": "Uppspottning"
+    "name": "Uppspottning",
+    "effect": "Det som lagrats med tekniken Lagring frigörs omedelbart i en attack. Ju mer kraft som lagrats, desto större blir teknikens kraft. Kraftomfånget är 100-300."
   },
   "swallow": {
     "name": "Sväljning"
@@ -1029,7 +1034,8 @@
     "name": "Jämlik-hets"
   },
   "eruption": {
-    "name": "Eruption"
+    "name": "Eruption",
+    "effect": "Utföraren attackerar motståndarna med explosiv ilska. Ju lägre utförarens HP är, desto lägre kraft har tekniken. Kraftomfånget är 1-150."
   },
   "skillSwap": {
     "name": "Personlighetsbyte",
@@ -1164,7 +1170,8 @@
     "name": "Kosmokraft"
   },
   "waterSpout": {
-    "name": "Fontänattack"
+    "name": "Fontänattack",
+    "effect": "Utföraren sprutar vatten på motståndarna. Ju mindre HP utföraren har, desto lägre kraft har tekniken. Kraftomfånget är 1-150."
   },
   "signalBeam": {
     "name": "Signalstråle",
@@ -1296,7 +1303,8 @@
     "name": "Hammarnäve"
   },
   "gyroBall": {
-    "name": "Gyroklot"
+    "name": "Gyroklot",
+    "effect": "Utföraren roterar snabbt och tacklar motståndaren. Ju långsammare utföraren är jämfört med motståndaren, desto större blir teknikens kraft. Kraftomfånget är 1-150."
   },
   "healingWish": {
     "name": "Uppoffringsönskan",
@@ -1354,7 +1362,8 @@
     "name": "Läkstopp"
   },
   "wringOut": {
-    "name": "Urvridning"
+    "name": "Urvridning",
+    "effect": "Utföraren vrider ur motståndaren som en trasa. Ju mer HP motståndaren har, desto större blir attackens kraft. Kraftomfånget är 1-120."
   },
   "powerTrick": {
     "name": "Krafttrick",
@@ -1601,7 +1610,8 @@
     "name": "Svävande stenar"
   },
   "grassKnot": {
-    "name": "Grässnara"
+    "name": "Grässnara",
+    "effect": "Utföraren snärjer motståndaren med gräs och får den att ramla. Ju tyngre motståndaren är, desto större blir teknikens kraft. Kraftomfånget är 20-120."
   },
   "chatter": {
     "name": "Tjatter"
@@ -1651,7 +1661,8 @@
     "name": "Månskärvans dans"
   },
   "crushGrip": {
-    "name": "Krossgrepp"
+    "name": "Krossgrepp",
+    "effect": "Motståndaren krossas med rejäl styrka. Ju mer HP motståndaren har kvar, desto större blir kraften av denna teknik. Kraftomfånget är 1-120."
   },
   "magmaStorm": {
     "name": "Magmastorm",
@@ -1730,7 +1741,8 @@
     "effect": "Med en underlig ljudvåg skadar utföraren alla pokémon med samma typ som sig själv på stridsfältet."
   },
   "electroBall": {
-    "name": "Elektrosfär"
+    "name": "Elektrosfär",
+    "effect": "Utföraren kastar ett elklot på motståndaren. Ju högre utförarens snabbhet är än motståndarens, desto större blir teknikens kraft. Kraftomfånget är 40-150."
   },
   "soak": {
     "name": "Genomdränkning"
@@ -1816,7 +1828,8 @@
     "effect": "Utföraren håller tillbaka motståndaren och gör så att dess teknik utförs sist."
   },
   "acrobatics": {
-    "name": "Akrobatik"
+    "name": "Akrobatik",
+    "effect": "Utföraren slår till, agilt och smidigt. Ju färre föremål utföraren bär, desto större skada orsakas: omfånget är 55-110."
   },
   "reflectType": {
     "name": "Typspegling"
@@ -2587,7 +2600,8 @@
     "name": "Flaxflaxfall"
   },
   "pikaPapow": {
-    "name": "Pikachock"
+    "name": "Pikachock",
+    "effect": "Ju mer Pikachu älskar sin tränare, desto större kraft har tekniken. Kraftomfånget är 1-102. Tekniken missar aldrig."
   },
   "bouncyBubble": {
     "name": "Botande bubbla"
@@ -2615,7 +2629,8 @@
     "name": "Sanerande skimmer"
   },
   "veeveeVolley": {
-    "name": "Veeveevåld"
+    "name": "Veeveevåld",
+    "effect": "Ju mer Eevee älskar sin tränare, desto större kraft har tekniken. Kraftomfånget är 1-102. Den missar aldrig."
   },
   "doubleIronBash": {
     "name": "Dubbelpansarnäve"
@@ -2880,7 +2895,8 @@
     "effect": "Motståndaren fångas i en bur av sprakande el. Under 4-5 omgångar tar den ⅛ av sin max. HP i skada varje omgångslut."
   },
   "dragonEnergy": {
-    "name": "Drakenergi"
+    "name": "Drakenergi",
+    "effect": "Utföraren omvandlar sin livskraft till styrka och attackerar motståndarna. Ju mindre utförarens HP har kvar, desto lägre kraft har tekniken. Kraftomfånget är 1-150."
   },
   "freezingGlare": {
     "name": "Iskall blick",
@@ -3323,7 +3339,8 @@
     "effect": "Utföraren avfyrar partikelblad mot motståndaren 2 gånger i rad. Denna attack missar aldrig."
   },
   "hardPress": {
-    "name": "Hårdpressare"
+    "name": "Hårdpressare",
+    "effect": "Motståndaren mosas med en arm, en klo eller dylikt. Ju mer HP motståndaren har kvar, desto högre blir teknikens kraft. Kraftomfånget är 1-100."
   },
   "dragonCheer": {
     "name": "Drakens stridsrop"
