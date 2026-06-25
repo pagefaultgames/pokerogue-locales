@@ -364,7 +364,8 @@
     "effect": "Utföraren gräver sig först under jorden, för att sedan anfalla motståndaren följande omgång."
   },
   "toxic": {
-    "name": "Toxin"
+    "name": "Toxin",
+    "effect": "Toxin som svårt förgiftar motståndaren. Moståndaren tar mer skada för varje omgångsslut; först ¹⁄₁₆ av dess max. HP, sedan ²⁄₁₆ , o.s.v. Gifttypsutförare missar aldrig med denna teknik."
   },
   "confusion": {
     "name": "Tankeförvillning",
@@ -375,44 +376,52 @@
     "effect": "Motståndaren skadas med stark psykokinetisk kraft. 10 % chans att sänka motståndarens sp. fsv-förmåga."
   },
   "hypnosis": {
-    "name": "Hypnos"
+    "name": "Hypnos",
+    "effect": "Utföraren använder hypnotisk kraft för att söva motståndaren."
   },
   "meditate": {
-    "name": "Meditation"
+    "name": "Meditation",
+    "effect": "Utföraren mediterar och väcker kraften djupt inom sig för att öka sin attackförmåga."
   },
   "agility": {
     "name": "Spänstighet",
     "effect": "Utföraren gör sin kropp spänstig för att kunna röra sig snabbare. Detta ökar skarpt dess snabbhet."
   },
   "quickAttack": {
-    "name": "Snabbslag"
+    "name": "Snabbslag",
+    "effect": "Utföraren kastar sig mot motståndaren med en hastighet som nästan gör den osynlig. Denna teknik går alltid först."
   },
   "rage": {
     "name": "Raserianfall",
     "effect": "Så länge denna teknik är i användning ökar raseriets kraft utförarens attackförmåga varje gång utföraren träffas av en attack i strid."
   },
   "teleport": {
-    "name": "Teleportering"
+    "name": "Teleportering",
+    "effect": "Utföraren byter plats med en lagmedlem (om det finns en). Om en vild pokémon utför denna teknik så flyr den."
   },
   "nightShade": {
     "name": "Nattvålnad",
     "effect": "Utföraren får motståndaren att se en skrämmande hägring. Den orsakar skada som motsvarar utförarens nivå."
   },
   "mimic": {
-    "name": "Härmning"
+    "name": "Härmning",
+    "effect": "Utföraren kopierar motståndarens senast utförda teknik. Tekniken kan utföras tills utföraren av Härmning lämnar striden."
   },
   "screech": {
     "name": "Skri",
     "effect": "Ett öronbedövande skri sänker skarpt motståndarens försvarsförmåga."
   },
   "doubleTeam": {
-    "name": "Skenbilder"
+    "name": "Skenbilder",
+    "effect": "Utföraren skapar illusoriska skenbilder av sig själv för att öka sitt undvikande."
   },
   "recover": {
-    "name": "Regeneration"
+    "name": "Regeneration",
+    "effect": "Genom att regenerera sina egna celler återställer utföraren ½ av sin max. HP."
   },
   "harden": {
-    "name": "Hårdnad"
+    "name": "Hårdnad",
+    "effect": "Utföraren stelnar hela sin kropp för att öka sin försvarsförmåga."
   },
   "minimize": {
     "name": "Krympning",
@@ -423,45 +432,52 @@
     "effect": "Utföraren släpper ut ett förmörkande moln av rök eller bläck. Detta sänker motståndarens träffsäkerhet."
   },
   "confuseRay": {
-    "name": "Bisarrt ljus"
+    "name": "Bisarrt ljus",
+    "effect": "Motståndaren utsätts för ett egendomligt ljus som förvirrar den."
   },
   "withdraw": {
-    "name": "Skalgömme"
+    "name": "Skalgömme",
+    "effect": "Utföraren drar tillbaka sin kropp in i sitt hårda skal, vilket ökar dess försvarsförmåga."
   },
   "defenseCurl": {
-    "name": "Ihoprullning"
+    "name": "Ihoprullning",
+    "effect": "Utföraren rullar ihop sig för att dölja svaga punkter, vilket ökar dess försvarsförmåga. Detta ökar också kraften av Bumlingsrull och Isklot."
   },
   "barrier": {
     "name": "Barriär",
     "effect": "Utföraren skapar en tålig barriär som skarpt ökar försvarsförmågan hos utföraren."
   },
   "lightScreen": {
-    "name": "Specialskärm"
+    "name": "Specialskärm",
+    "effect": "En förunderlig skärm av ljus som halverar skadan av speciella attacker i 5 omgångar. I dubbelstrider blir istället skadan ⅓ mindre."
   },
   "haze": {
     "name": "Töcken",
     "effect": "Utföraren skapar ett tjock dimtäcke som eliminerar alla förmågeändringar hos alla pokémon i strid."
   },
   "reflect": {
-    "name": "Fysioskydd"
+    "name": "Fysioskydd",
+    "effect": "En bastant barriär av ljus som halverar skadan av fysiska attacker i 5 omgångar. I dubbelstrider blir istället skadan ⅓ mindre."
   },
   "focusEnergy": {
     "name": "Energifokus",
     "effect": "Utföraren tar ett djupt andetag och fokuserar så att dess chans för kritisk träff blir +2."
   },
   "bide": {
-    "name": "Uthärdande"
+    "name": "Uthärdande",
+    "effect": "Utföraren uthärdar attacker under 2 omgångar för att sedan orsaka dubbelt så mycket skada som den tog."
   },
   "metronome": {
     "name": "Fingervift",
     "effect": "Utföraren viftar på fingret, vilket stimulerar dess hjärna och låter den slumpmässigt utföra nästan vilken teknik som helst."
   },
   "mirrorMove": {
-    "name": "Tillbakakaka"
+    "name": "Tillbakakaka",
+    "effect": "Utföraren motanfaller en motståndare med samma teknik som motståndaren senast utfört. Detta misslyckas om en teknik inte utförts eller om den senaste tekniken inte kan kopieras."
   },
   "selfDestruct": {
     "name": "Självsprängning",
-    "effect": "Utföraren sprängs och skadar alla andra på fältet. Utföraren svimmar när den använder tekniken."
+    "effect": "Utföraren sprängs och skadar alla andra på fältet. Utföraren svimmar när den utför tekniken."
   },
   "eggBomb": {
     "name": "Äggsplosion",
@@ -504,38 +520,44 @@
     "effect": "Utföraren drar först in sitt huvud för att öka sin försvarsförmåga för att sedan snabbt skalla motståndare följande omgång."
   },
   "spikeCannon": {
-    "name": "Spikkanon"
+    "name": "Spikkanon",
+    "effect": "Vassa spikar skjuts mot motståndaren i snabb följd. De träffar 2-5 i rad."
   },
   "constrict": {
     "name": "Insnörande",
     "effect": "Motståndaren snöras in med tentakler, rankor eller dylikt. Detta har 10 % chans att sänka motståndarens snabbhet."
   },
   "amnesia": {
-    "name": "Amnesi"
+    "name": "Amnesi",
+    "effect": "Utföraren tömmer sin hjärna temporärt för att glömma alla bekymmer. Detta ökar dess sp. fsv-förmåga skarpt."
   },
   "kinesis": {
     "name": "Skedböjning",
     "effect": "Utföraren böjer en sked med sin hjärnkraft för att distrahera en motståndare. Detta sänker motståndarens träffsäkerhet."
   },
   "softBoiled": {
-    "name": "Ägglägg"
+    "name": "Ägglägg",
+    "effect": "Utföraren värper ett stort ägg som återhämtar ½ av dess max. HP."
   },
   "highJumpKick": {
     "name": "Flygande knäspark",
     "effect": "Utföraren hoppsparkar en motståndare med knäet före. Om denna teknik missar eller misslyckas tar utföraren ½ av sin max. HP i skada."
   },
   "glare": {
-    "name": "Medusablick"
+    "name": "Medusablick",
+    "effect": "Utföraren skrämmer motståndaren med en skräckinjagande blick som förlamar den."
   },
   "dreamEater": {
     "name": "Drömslukare",
     "effect": "Utföraren äter en sovande motståndares drömmar. Utförarens HP återställs med ½ av skadan som motståndaren tagit."
   },
   "poisonGas": {
-    "name": "Giftgas"
+    "name": "Giftgas",
+    "effect": "Ett moln av giftig gas sprejas i motståndarnas ansikten. Detta förgiftar de som träffas."
   },
   "barrage": {
-    "name": "Kanonad"
+    "name": "Kanonad",
+    "effect": "Runda objekt avfyras mot motståndaren 2-5 gånger i rad"
   },
   "leechLife": {
     "name": "Blodsugare",
@@ -550,7 +572,8 @@
     "effect": "Utföraren laddar upp första omgången för dyka på motståndaren följade omgång. Detta har 30 % chans att få motståndaren att rygga tillbaka. Chansen för kritisk träff är +1."
   },
   "transform": {
-    "name": "Transformation"
+    "name": "Transformation",
+    "effect": "Utföraren transformeras till en kopia av motståndaren med samma tekniklista. Motståndarens förmågevärden (förutom HP) kopieras också. De kopierade teknikerna har 5 KP var."
   },
   "bubble": {
     "name": "Bubblor",
@@ -649,14 +672,16 @@
     "effect": "Utföraren attackerar och försöker råna motståndaren med 30 % chans att stjäla ett av motståndarens burna föremål."
   },
   "spiderWeb": {
-    "name": "Spindelväv"
+    "name": "Spindelväv",
+    "effect": "Utföraren snärjer motståndaren med tunt och segt silke så att den inte kan fly eller bytas av från striden."
   },
   "mindReader": {
     "name": "Tankeläsning",
     "effect": "Utföraren läser av en motståndares rörelser med sitt sinne för att säkerställa att nästa attack inte missar motståndaren."
   },
   "nightmare": {
-    "name": "Mardrömmar"
+    "name": "Mardrömmar",
+    "effect": "En sovande motståndare får mardrömmar som orsakar ¼ av dess max. HP i skada varje omgångsslut. Detta misslyckas om den inte sover."
   },
   "flameWheel": {
     "name": "Eldhjul",
@@ -672,17 +697,19 @@
   },
   "flail": {
     "name": "Flaxande",
-    "effect": "Användaren flaxar vilt runt sig för att attackera. Ju mindre HP utföraren har, desto kraftfullare blir tekniken. Kraftomfånget är 20-200."
+    "effect": "Utföraren flaxar vilt runt sig för att attackera. Ju mindre HP utföraren har, desto kraftfullare blir tekniken. Kraftomfånget är 20-200."
   },
   "conversion2": {
-    "name": "Konvertering 2.0"
+    "name": "Konvertering 2.0",
+    "effect": "Utföraren ändrar sin typ för att göra sig resistent mot typen av den teknik som motståndaren senast utfört."
   },
   "aeroblast": {
     "name": "Trombstöt",
     "effect": "En stor tromb skjuts mot motståndaren och skadar den. Chansen för kritisk träff är +1."
   },
   "cottonSpore": {
-    "name": "Bomullssporer"
+    "name": "Bomullssporer",
+    "effect": "Bomullsliknande sporer klamrar sig fast på motståndarna och sänker deras snabbhet skarpt."
   },
   "reversal": {
     "name": "Revanschstöt",
@@ -690,14 +717,15 @@
   },
   "spite": {
     "name": "Illvilja",
-    "effect": "Utföraren riktar sin illvilja mot den teknik som senast använts av motståndaren, vilket tar bort 4 KP från den."
+    "effect": "Utföraren riktar sin illvilja mot den teknik som senast utförts av motståndaren, vilket tar bort 4 KP från den."
   },
   "powderSnow": {
     "name": "Pudersnö",
     "effect": "Utföraren med en kylig pudersnövind. 10 % chans att frysa ner motståndaren."
   },
   "protect": {
-    "name": "Skyddsköld"
+    "name": "Skyddsköld",
+    "effect": "Denna teknik skyddar motståndaren mot alla attacker. Efter varje kontinuerligt utförande blir chansen att lyckas med tekniken bara ⅓ av chansen innan."
   },
   "machPunch": {
     "name": "Machnäve",
@@ -742,7 +770,7 @@
   },
   "destinyBond": {
     "name": "Ödesband",
-    "effect": "Om utföraren svimmar efter att ha utfört denna teknik svimmar även motståndaren som golvade utföraren. Teknikens misslyckas om den används i följd. Bosspokémon är immuna mot denna teknik."
+    "effect": "Om utföraren svimmar efter att ha utfört denna teknik svimmar även motståndaren som golvade utföraren. Tekniken misslyckas om den utförs i följd. Bosspokémon är immuna mot denna teknik."
   },
   "perishSong": {
     "name": "Undergångssång",
@@ -753,7 +781,8 @@
     "effect": "Utföraren attackerar båda motståndarna med en kylig vindpust. Detta sänker också motståndarnas snabbhet."
   },
   "detect": {
-    "name": "Parering"
+    "name": "Parering",
+    "effect": "Denna teknik skyddar motståndaren mot alla attacker. Efter varje kontinuerligt utförande blir chansen att lyckas med tekniken bara ⅓ av chansen innan."
   },
   "boneRush": {
     "name": "Benknotrusch"
@@ -772,7 +801,8 @@
     "effect": "En näringsuppsugande attack. Utförarens HP återställs med ½ av skadan som motståndaren tagit."
   },
   "endure": {
-    "name": "Uthärdande"
+    "name": "Uthärdande",
+    "effect": "Under omgången uthärdar utföraren alla attacker; den kommer alltid ha minst 1 HP kvar. Efter varje kontinuerligt utförande blir chansen att lyckas med tekniken bara ⅓ av chansen innan."
   },
   "charm": {
     "name": "Charm",
@@ -1060,7 +1090,7 @@
   },
   "grudge": {
     "name": "Efterdyning",
-    "effect": "Om utföraren svimmar utarmas all KP från tekniken som besegrade den."
+    "effect": "Om utföraren svimmar utarmas alla KP från tekniken som golvade den."
   },
   "snatch": {
     "name": "Usurpation",
@@ -1787,7 +1817,8 @@
     "name": "Kanonsång"
   },
   "echoedVoice": {
-    "name": "Ekande röst"
+    "name": "Ekande röst",
+    "effect": "Utföraren attackerar motståndaren med en ekande röst. Teknikens kraft ökar med 40 varje omgång den utförs i följd, av vem som helst i strid (Maxkraft: 200)."
   },
   "chipAway": {
     "name": "Avnötning"
@@ -1803,7 +1834,8 @@
     "effect": "Utföraren skyddar sig själv och den vid sin sida från prioritetstekniker."
   },
   "allySwitch": {
-    "name": "Positionsbyte"
+    "name": "Positionsbyte",
+    "effect": "Utföraren teleporterar och byter plats med den vid sin sida i strid. Efter varje kontinuerligt utförande blir chansen att lyckas med tekniken bara ⅓ av chansen innan."
   },
   "scald": {
     "name": "Skållvatten",
@@ -2018,7 +2050,8 @@
     "name": "Klibbnät"
   },
   "fellStinger": {
-    "name": "Grymgadd"
+    "name": "Grymgadd",
+    "effect": "När utföraren golvar en motståndare med denna teknik ökas utförarens attackförmåga drastiskt."
   },
   "phantomForce": {
     "name": "Fantompassage"
@@ -2094,7 +2127,8 @@
     "name": "Älvring"
   },
   "kingsShield": {
-    "name": "Kungasköld"
+    "name": "Kungasköld",
+    "effect": "Utföraren skyddar sig mot skada från alla attacker under 1 omgång. Attackförmågan sänks hos de som gör fysisk kontakt med utföraren. Efter varje kontinuerligt utförande blir chansen att lyckas med tekniken bara ⅓ av chansen innan."
   },
   "playNice": {
     "name": "Kamratlighet",
@@ -2120,7 +2154,8 @@
     "name": "Mystikflamma"
   },
   "spikyShield": {
-    "name": "Tornsköld"
+    "name": "Tornsköld",
+    "effect": "Utföraren skyddar sig mot skada från alla attacker under 1 omgång. De som gör fysisk kontakt med utföraren tar ⅛ av deras max. HP i skada. Efter varje fortlöpande utförande blir chansen att lyckas med tekniken bara ⅓ av chansen innan."
   },
   "aromaticMist": {
     "name": "Arommoln"
@@ -2365,7 +2400,8 @@
     "name": "På-fluga"
   },
   "banefulBunker": {
-    "name": "Virulent värn"
+    "name": "Virulent värn",
+    "effect": "Utföraren skyddar sig mot skada från alla attacker under 1 omgång. De som gör fysisk kontakt med utföraren förgiftas. Efter varje fortlöpande utförande blir chansen att lyckas med tekniken bara ⅓ av chansen innan."
   },
   "spiritShackle": {
     "name": "Skuggstygn"
@@ -2645,7 +2681,8 @@
     "name": "Dubbelpansarnäve"
   },
   "maxGuard": {
-    "name": "Maxgard"
+    "name": "Maxgard",
+    "effect": "Utföraren skyddar sig mot skada från alla attacker under 1 omgång. Efter varje fortlöpande utförande blir chansen att lyckas med tekniken bara ⅓ av chansen innan."
   },
   "dynamaxCannon": {
     "name": "Dynamaxkanon"
@@ -2811,7 +2848,8 @@
     "name": "Livsdagg"
   },
   "obstruct": {
-    "name": "Blockad"
+    "name": "Blockad",
+    "effect": "Utföraren skyddar sig mot skada från alla attacker under 1 omgång. Försvarsförmågan sänks skarpt hos de som gör fysisk kontakt med utföraren. Efter varje fortlöpande utförande blir chansen att lyckas med tekniken bara ⅓ av chansen innan."
   },
   "falseSurrender": {
     "name": "Låtsasuppgivelse",
@@ -2881,7 +2919,8 @@
     "effect": "Efter att ha utfört attacken skyndar sig utföraren tillbaka för att byta plats med en avbytare."
   },
   "tripleAxel": {
-    "name": "Trippelaxel"
+    "name": "Trippelaxel",
+    "effect": "Tre isiga sparkar som ökar i kraft med 20 vid varje lyckad träff. Attacken avslutas vid miss."
   },
   "dualWingbeat": {
     "name": "Dubbla vingslag"
@@ -3137,7 +3176,7 @@
   },
   "silkTrap": {
     "name": "Silkesfälla",
-    "effect": "Utföraren snurrar en silkesfälla som skyddar den helt mot skada och sänker snabbheten hos anfallare som gör direkt kontakt. Efter varje utförelse blir chansen att lyckas med tekniken ⅓ av chansen innan."
+    "effect": "En silkesfälla som skyddar utföraren mot skada från alla attacker under 1 omgång. Snabbheten sänks hos de som gör fysisk kontakt med utföraren. Efter varje fortlöpande utförande blir chansen att lyckas med tekniken bara ⅓ av chansen innan."
   },
   "axeKick": {
     "name": "Yxspark",
