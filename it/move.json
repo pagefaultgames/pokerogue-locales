@@ -1508,7 +1508,8 @@
     "effect": "Per 5 turni, chi la usa evita che il team avversario usi qualsiasi mossa, Abilità, o oggetto tenuto con se che recuperi HP."
   },
   "wringOut": {
-    "name": "Strizzata"
+    "name": "Strizzata",
+    "effect": "Chi la usa torce il bersaglio. Maggiori sono gli HP che ha il bersaglio, maggiore è la potenza della mossa (variabile tra 1 e 120)."
   },
   "powerTrick": {
     "name": "Ingannoforza",
@@ -1519,13 +1520,16 @@
     "effect": "Chi la usa lancia acidi gastrici sul nemico. Il fluido annulla l’abilità del nemico."
   },
   "luckyChant": {
-    "name": "Fortuncanto"
+    "name": "Fortuncanto",
+    "effect": "Chi la usa lancia un incantesimo verso il cielo, impedendo ai Pokémon avversari di lanciare colpi critici per 5 turni."
   },
   "meFirst": {
-    "name": "Precedenza"
+    "name": "Precedenza",
+    "effect": "Chi la usa si mette di fronte al bersaglio per copiare e usare la mossa che il bersaglio intendeva usare, aumentando il suo potere del 50%. La mossa fallisce se non viene usata per prima."
   },
   "copycat": {
-    "name": "Copione"
+    "name": "Copione",
+    "effect": "Chi la usa copia la mossa che era stata usata per ultima. Questa mossa fallisce se nessun altra mossa non era stata ancora usata, o se l'ultima mossa usata non può essere copiata."
   },
   "powerSwap": {
     "name": "Barattoforza",
@@ -1536,7 +1540,8 @@
     "effect": "Chi la usa sfrutta la sua forza psichica per scambiare le modifiche a Difesa e a Difesa Speciale con il bersaglio."
   },
   "punishment": {
-    "name": "Punizione"
+    "name": "Punizione",
+    "effect": "La potenza di questa mossa aumenta del 20% per ogni livello che le statistiche del bersaglio che sono aumentate."
   },
   "lastResort": {
     "name": "Ultimascelta",
