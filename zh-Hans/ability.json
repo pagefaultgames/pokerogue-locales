@@ -5,7 +5,7 @@
   },
   "drizzle": {
     "name": "降雨",
-    "description": "这只宝可梦出场时，会在5回合内\n将天气变为下雨。"
+    "description": "这只宝可梦出场时，会将天气变为\n下雨，持续5回合。"
   },
   "speedBoost": {
     "name": "加速",
@@ -32,46 +32,52 @@
     "description": "这只宝可梦在沙暴天气中闪避率提\n升25%，并且不会被沙暴天气伤害。"
   },
   "static": {
-    "name": "静电"
+    "name": "静电",
+    "description": "这只宝可梦身上带有静电，使用接\n触类招式攻击它的宝可梦会有３０%\n的机率麻痹。"
   },
   "voltAbsorb": {
     "name": "蓄电",
-    "description": "受到电属性的招式攻击时，不会受\n到伤害，而是会回复１/４最大生命。"
+    "description": "电属性招式对这只宝可梦无效，而\n是会回复¼最大HP。"
   },
   "waterAbsorb": {
     "name": "储水",
-    "description": "受到水属性的招式攻击时，不会受\n到伤害，而是会回复１/４最大生命。"
+    "description": "水属性招式对这只宝可梦无效，而\n是会回复¼最大HP。"
   },
   "oblivious": {
-    "name": "迟钝"
+    "name": "迟钝",
+    "description": "这只宝可梦感觉迟钝，不会变为着\n迷和挑衅状态，也不受威吓影响。"
   },
   "cloudNine": {
     "name": "无关天气",
     "description": "任何天气的影响都会消失。"
   },
   "compoundEyes": {
-    "name": "复眼"
+    "name": "复眼",
+    "description": "这只宝可梦的复眼令它的招式命中率\n提高30%。"
   },
   "insomnia": {
-    "name": "不眠"
+    "name": "不眠",
+    "description": "这只宝可梦有着睡不着的体质，所以\n不会陷入睡眠状态。"
   },
   "colorChange": {
     "name": "变色",
-    "description": "自己的属性会变为从对手处所受招\n式的属性。"
+    "description": "这只宝可梦的属性会变为从对手处\n所受伤害招式的属性。"
   },
   "immunity": {
     "name": "免疫",
-    "description": "因为体内拥有免疫能力，\n不会变为中毒状态。"
+    "description": "这只宝可梦因为体内拥有免疫能力，\n所以不会变为中毒状态。"
   },
   "flashFire": {
     "name": "引火",
     "description": "受到火属性的招式攻击时，这只宝\n可梦会吸收火焰，此后使用火属性\n攻击招式时，攻击和特攻提高５０%。"
   },
   "shieldDust": {
-    "name": "鳞粉"
+    "name": "鳞粉",
+    "description": "这只宝可梦被鳞粉守护着，不会受\n到招式的追加效果影响。"
   },
   "ownTempo": {
-    "name": "我行我素"
+    "name": "我行我素",
+    "description": "这只宝可梦我行我素，不会变为混\n乱状态，也不受威吓影响。"
   },
   "suctionCups": {
     "name": "吸盘",
@@ -79,22 +85,23 @@
   },
   "intimidate": {
     "name": "威吓",
-    "description": "出场时威吓对手，\n让其退缩，\n降低对手的攻击。"
+    "description": "这只宝可梦出场时威吓对手，使它\n们的攻击下降1级。"
   },
   "shadowTag": {
     "name": "踩影",
-    "description": "踩住对手的影子\n使其无法逃走或替换。"
+    "description": "这只宝可梦能踩住对方的影子，使\n对方不持有踩影特性的非幽灵属性\n宝可梦无法替换或逃走。"
   },
   "roughSkin": {
-    "name": "粗糙皮肤"
+    "name": "粗糙皮肤",
+    "description": "这只宝可梦有着粗糙的皮肤，使用\n接触类招式攻击它的宝可梦会损失\n最大体力的⅛。"
   },
   "wonderGuard": {
     "name": "神奇守护",
-    "description": "不可思议的力量，只有效果绝佳的\n招式才能击中。"
+    "description": "这只宝可梦拥有不可思议的力量，\n只有效果绝佳的招式才能击中。"
   },
   "levitate": {
     "name": "飘浮",
-    "description": "从地面浮起，从而不会受到地面属\n性招式的攻击。"
+    "description": "这只宝可梦从地面浮起，从而不会\n受到地面属性招式的攻击，也不会\n受毒菱、撒菱、黏黏网的影响。"
   },
   "effectSpore": {
     "name": "孢子",
@@ -102,19 +109,19 @@
   },
   "synchronize": {
     "name": "同步",
-    "description": "将自己的特殊状态传染给对手。\n当该特性的宝可梦在首位时，\n出现的野生宝可梦的性格与\n它相同。"
+    "description": "其他宝可梦对这只宝可梦造成灼伤、\n中毒、剧毒、麻痹时，自身对那只\n宝可梦造成相同的异常状态。如果\n这只宝可梦在你的队首，野生的\n对手宝可梦的性格会与它相同。"
   },
   "clearBody": {
     "name": "恒净之躯",
-    "description": "不会因为对手的招式或特性而被降\n低能力。"
+    "description": "这只宝可梦不会因为对手的招式\n或特性而被降低能力。"
   },
   "naturalCure": {
     "name": "自然回复",
-    "description": "回到同行队伍后，\n异常状态就会被治愈。"
+    "description": "这只宝可梦回到同行队伍后，\n异常状态就会被治愈。"
   },
   "lightningRod": {
     "name": "避雷针",
-    "description": "将电属性的招式吸引到自己身上，\n不会受到伤害，而是会提高特攻。"
+    "description": "这只宝可梦能吸引电属性的招式，\n那些招式对它无效，而是会提高\n1级特攻。"
   },
   "sereneGrace": {
     "name": "天恩",
@@ -126,7 +133,7 @@
   },
   "chlorophyll": {
     "name": "叶绿素",
-    "description": "大晴天或大日照天气时，这只宝可\n梦的速度能力翻倍。"
+    "description": "大晴天或大日照天气时，这只宝可梦\n的速度翻倍。"
   },
   "illuminate": {
     "name": "发光",
@@ -145,7 +152,8 @@
     "description": "使用接触类招式攻击这只宝可梦时\n会有３０%的机率变为中毒状态。"
   },
   "innerFocus": {
-    "name": "精神力"
+    "name": "精神力",
+    "description": "这只宝可梦拥有经过锻炼的精神，\n不会变为畏缩状态，也不受威吓影\n响。"
   },
   "magmaArmor": {
     "name": "熔岩铠甲",
@@ -168,13 +176,16 @@
     "description": "这只宝可梦在下雨天气时每回合结\n束回复¹⁄₁₆体力。"
   },
   "sandStream": {
-    "name": "扬沙"
+    "name": "扬沙",
+    "description": "这只宝可梦出场时，会将天气变为\n沙暴，持续5回合。"
   },
   "pressure": {
-    "name": "压迫感"
+    "name": "压迫感",
+    "description": "这只宝可梦会给予对手压迫感，\n使他们使用招式攻击它时多\n消耗1点PP。"
   },
   "thickFat": {
-    "name": "厚脂肪"
+    "name": "厚脂肪",
+    "description": "这只宝可梦被厚厚的脂肪保护着，\n受火属性和冰属性的招式伤害减半。"
   },
   "earlyBird": {
     "name": "早起",
@@ -189,7 +200,8 @@
     "description": "一定能从野生宝可梦那儿逃走。"
   },
   "keenEye": {
-    "name": "锐利目光"
+    "name": "锐利目光",
+    "description": "这只宝可梦的命中率不会被对方\n降低，并无视目标闪避率的提升。"
   },
   "hyperCutter": {
     "name": "怪力钳",
@@ -265,7 +277,7 @@
   },
   "drought": {
     "name": "日照",
-    "description": "出场时，会将天气变为晴朗。"
+    "description": "这只宝可梦出场时，会将天气变为\n大晴天，持续5回合。"
   },
   "arenaTrap": {
     "name": "沙穴",
@@ -308,11 +320,12 @@
     "description": "每次畏缩时，不屈之心就会燃起，\n速度也会提高。"
   },
   "snowCloak": {
-    "name": "雪隐"
+    "name": "雪隐",
+    "description": "下雪或冰雹天气时，这只宝可梦的\n闪避率提高25%，且不会受到冰雹\n的伤害。"
   },
   "gluttony": {
     "name": "贪吃鬼",
-    "description": "原本ＨＰ在１/４时才会吃树果，\n在ＨＰ还有一半时就会把它吃掉。"
+    "description": "原本ＨＰ在１/４以下时才会吃的树果，\n这只宝可梦在½以下时就会吃。"
   },
   "angerPoint": {
     "name": "愤怒穴位",
@@ -320,7 +333,7 @@
   },
   "unburden": {
     "name": "轻装",
-    "description": "失去所持有的道具时，速度会翻倍。"
+    "description": "消耗或失去所持有的道具时，\n这只宝可梦的速度会翻倍。"
   },
   "heatproof": {
     "name": "耐热",
@@ -332,7 +345,7 @@
   },
   "drySkin": {
     "name": "干燥皮肤",
-    "description": "下雨天气时，ＨＰ会回复１/８。\n受到水属性的招式时，ＨＰ会回复１/４。\n晴朗天气时，每回合损失１/８ＨＰ。\n受到火属性的招式时，受到的伤害增加２５%。"
+    "description": "水属性招式对这只宝可梦无效，而\n是会回复¼最大ＨＰ，下雨天气时，\n每回合回复１/８最大ＨＰ。但受到\n火属性的招式的伤害增加２５%，\n大晴天时，每回合损失⅛最大ＨＰ。"
   },
   "download": {
     "name": "下载",
@@ -340,11 +353,11 @@
   },
   "ironFist": {
     "name": "铁拳",
-    "description": "使用拳类招式的威力会提高２０%。"
+    "description": "这只宝可梦使用的拳类招式的威力\n会提高２０%。"
   },
   "poisonHeal": {
     "name": "毒疗",
-    "description": "变为中毒状态时，ＨＰ不会减少，\n反而会增加１/８。"
+    "description": "这只宝可梦在中毒和剧毒状态下，\nＨＰ不会减少，而是每回合回复\n１/８最大ＨＰ。"
   },
   "adaptability": {
     "name": "适应力",
@@ -443,7 +456,8 @@
     "description": "将水属性的招式引到自己身上，\n不会受到伤害，而是会提高特攻。"
   },
   "iceBody": {
-    "name": "冰冻之躯"
+    "name": "冰冻之躯",
+    "description": "下雪或冰雹天气时，这只宝可梦\n每回合回复１/１６最大ＨＰ，且不会\n受到冰雹的伤害。"
   },
   "solidRock": {
     "name": "坚硬岩石",
@@ -451,7 +465,7 @@
   },
   "snowWarning": {
     "name": "降雪",
-    "description": "出场时，会将天气变为下雪。"
+    "description": "这只宝可梦出场时，会将天气变为\n下雪，持续5回合。"
   },
   "honeyGather": {
     "name": "采蜜",
@@ -470,7 +484,8 @@
     "description": "自己的属性会根据\n持有的石板而改变"
   },
   "flowerGift": {
-    "name": "花之礼"
+    "name": "花之礼",
+    "description": "大晴天天气时，这只宝可梦与\n其同伴的攻击和特防提高５０%。"
   },
   "badDreams": {
     "name": "梦魇",
@@ -505,7 +520,8 @@
     "description": "受到攻击时，有时会把对手的招式禁用。"
   },
   "healer": {
-    "name": "治愈之心"
+    "name": "治愈之心",
+    "description": "回合结束时，这只宝可梦有５０%\n的概率治愈同伴的状态异常。"
   },
   "friendGuard": {
     "name": "友情防守",
@@ -540,7 +556,8 @@
     "description": "有５０%几率重新制作使用掉的树果。\n晴朗天气下，概率为１００%。"
   },
   "telepathy": {
-    "name": "心灵感应"
+    "name": "心灵感应",
+    "description": "这只宝可梦能预测并躲避同伴的\n攻击。"
   },
   "moody": {
     "name": "心情不定",
@@ -563,7 +580,8 @@
     "description": "不会受到防御降低的效果。"
   },
   "sandRush": {
-    "name": "拨沙"
+    "name": "拨沙",
+    "description": "沙暴天气时，这只宝可梦的速度\n翻倍，且不会受到沙暴的伤害。"
   },
   "wonderSkin": {
     "name": "奇迹皮肤",
@@ -611,10 +629,11 @@
   },
   "prankster": {
     "name": "恶作剧之心",
-    "description": "可以率先使出变化招式。暗属性宝可梦免疫其招式。"
+    "description": "这只宝可梦使用的变化招式\n优先度+１，但对恶属性宝可梦\n无效。"
   },
   "sandForce": {
-    "name": "沙之力"
+    "name": "沙之力",
+    "description": "沙暴天气时，这只宝可梦的岩石、\n地面和钢属性招式的威力提高３０%，\n且不会受到沙暴的伤害。"
   },
   "ironBarbs": {
     "name": "铁刺",
@@ -625,7 +644,8 @@
     "description": "ＨＰ变为一半以下时，会变为达摩模式。"
   },
   "victoryStar": {
-    "name": "胜利之星"
+    "name": "胜利之星",
+    "description": "这只宝可梦与其同伴的命中率\n提高１０%。"
   },
   "turboblaze": {
     "name": "涡轮火焰",
@@ -640,7 +660,8 @@
     "description": "保护自己和相邻同伴不受定身法影响。"
   },
   "flowerVeil": {
-    "name": "花幕"
+    "name": "花幕",
+    "description": "若这只宝可梦与其同伴为草属性，\n它们不会变为异常状态，能力也\n不会降低。"
   },
   "cheekPouch": {
     "name": "颊囊",
@@ -675,7 +696,8 @@
     "description": "一般属性的招式会变为冰属性。威\n力会提高２０%。"
   },
   "sweetVeil": {
-    "name": "甜幕"
+    "name": "甜幕",
+    "description": "这只宝可梦与其同伴不会变为\n睡眠状态。"
   },
   "stanceChange": {
     "name": "战斗切换",
@@ -714,7 +736,8 @@
     "description": "一般属性的招式会变为飞行属性。\n威力会提高２０%。"
   },
   "parentalBond": {
-    "name": "亲子爱"
+    "name": "亲子爱",
+    "description": "这只宝可梦攻击时，其亲属会跟着\n发动攻击，伤害为第一次攻击的１/４。\n使用连续招式和攻击多个宝可梦时\n不会生效。"
   },
   "darkAura": {
     "name": "暗黑气场",
@@ -781,7 +804,8 @@
     "description": "因对手的攻击\nＨＰ变为一半时，\n特攻会提高。"
   },
   "slushRush": {
-    "name": "拨雪"
+    "name": "拨雪",
+    "description": "下雪或冰雹天气时，这只宝可梦的\n速度翻倍，且不会受到冰雹的伤害。"
   },
   "longReach": {
     "name": "远隔",
@@ -792,7 +816,8 @@
     "description": "所有的声音招式\n都变为水属性。"
   },
   "triage": {
-    "name": "先行治疗"
+    "name": "先行治疗",
+    "description": "这只宝可梦使用的回复招式\n优先度+3。"
   },
   "galvanize": {
     "name": "电气皮肤",
@@ -827,25 +852,28 @@
     "description": "总是半梦半醒的状态，绝对不会醒\n来。可以就这么睡着进行攻击。\n宝可梦也被视为处于特殊状态中。"
   },
   "queenlyMajesty": {
-    "name": "女王的威严"
+    "name": "女王的威严",
+    "description": "这只宝可梦的威严会给对手压力，\n使其对我方使用的先制招式无效。"
   },
   "innardsOut": {
     "name": "飞出的内在物",
-    "description": "被对手打倒的时候，\n会给予对手相当于\nＨＰ剩余量的伤害。"
+    "description": "这只宝可梦被对手打倒时，给对手\n带来与自身被最后一击之前同等ＨＰ\n的伤害。"
   },
   "dancer": {
     "name": "舞者",
     "description": "有谁使出跳舞招式时，\n自己也能就这么接着使出跳舞招式。"
   },
   "battery": {
-    "name": "蓄电池"
+    "name": "蓄电池",
+    "description": "提高我方的特殊招式３０%的威力。"
   },
   "fluffy": {
     "name": "毛茸茸",
     "description": "会将对手所给予的接触类招式的伤\n害减半，但火属性招式的伤害会变\n为２倍。"
   },
   "dazzling": {
-    "name": "鲜艳之躯"
+    "name": "鲜艳之躯",
+    "description": "这只宝可梦会让对手吓一跳，\n使其对我方使用的先制招式无效。"
   },
   "soulHeart": {
     "name": "魂心",
@@ -856,10 +884,12 @@
     "description": "对于用攻击接触到自己的对手，会\n降低其速度。"
   },
   "receiver": {
-    "name": "接球手"
+    "name": "接球手",
+    "description": "在双打对战中，当同伴被打倒，\n这只宝可梦的特性变成与该同伴相同。"
   },
   "powerOfAlchemy": {
-    "name": "化学之力"
+    "name": "化学之力",
+    "description": "在双打对战中，当同伴被打倒，\n这只宝可梦的特性变成与该同伴相同。"
   },
   "beastBoost": {
     "name": "异兽提升",
@@ -871,19 +901,19 @@
   },
   "electricSurge": {
     "name": "电气制造者",
-    "description": "出场时，会布下电气场地。"
+    "description": "这只宝可梦出场时，会布下\n电气场地，持续５回合。"
   },
   "psychicSurge": {
     "name": "精神制造者",
-    "description": "出场时，会布下精神场地。"
+    "description": "这只宝可梦出场时，会布下\n精神场地，持续5回合。"
   },
   "mistySurge": {
     "name": "薄雾制造者",
-    "description": "出场时，会布下薄雾场地。"
+    "description": "这只宝可梦出场时，会布下\n薄雾场地，持续５回合。"
   },
   "grassySurge": {
     "name": "青草制造者",
-    "description": "出场时，会布下青草场地。"
+    "description": "这只宝可梦出场时，会布下\n青草场地，持续５回合。"
   },
   "fullMetalBody": {
     "name": "金属防护",
@@ -962,7 +992,8 @@
     "description": "头部的冰会代替自己承受物理攻击\n，但是样子会改变。下雪时，冰会\n恢复原状。"
   },
   "powerSpot": {
-    "name": "能量点"
+    "name": "能量点",
+    "description": "这只宝可梦相邻位置的同伴招式的\n威力提高３０%。"
   },
   "mimicry": {
     "name": "拟态",
@@ -973,7 +1004,8 @@
     "description": "出场时，敌方和我方的光墙、反射\n壁和极光幕的效果会消失。"
   },
   "steelySpirit": {
-    "name": "钢之意志"
+    "name": "钢之意志",
+    "description": "这只宝可梦与其同伴的钢属性招式\n威力提高５０%。"
   },
   "perishBody": {
     "name": "灭亡之躯",
@@ -992,7 +1024,8 @@
     "description": "特性为化学变化气体的宝可梦在场时，\n场上所有宝可梦的\n特性效果都会消失或者无法生效。"
   },
   "pastelVeil": {
-    "name": "粉彩护幕"
+    "name": "粉彩护幕",
+    "description": "这只宝可梦与其同伴不会变为中毒\n和剧毒状态。"
   },
   "hungerSwitch": {
     "name": "饱了又饿",
@@ -1116,11 +1149,11 @@
   },
   "orichalcumPulse": {
     "name": "绯红脉动",
-    "description": "出场时，会将天气变为晴朗。日照\n强烈时，会通过古代的脉动升高３３%攻\n击。"
+    "description": "这只宝可梦出场时，会将天气变为\n大晴天，持续５回合。天气为\n大晴天时，攻击提高３３%。"
   },
   "hadronEngine": {
     "name": "强子引擎",
-    "description": "出场时，会布下电气场地。处于电\n气场地时，会通过未来的机关升高\n３３%特攻。"
+    "description": "这只宝可梦出场时，会布下\n电气场地，持续５回合。场地为\n电气场地时，特攻提高３３%。"
   },
   "opportunist": {
     "name": "跟风",
@@ -1139,14 +1172,16 @@
     "description": "出场时，攻击和特攻会按照目前被\n打倒的同伴数量逐渐提升１０%，被打倒\n越多，提升越多。"
   },
   "costar": {
-    "name": "同台共演"
+    "name": "同台共演",
+    "description": "这只宝可梦出场时，会复制同伴的\n能力变化。"
   },
   "toxicDebris": {
     "name": "毒满地",
     "description": "受到物理招式的伤害时，会在对手\n脚下散布毒菱。"
   },
   "armorTail": {
-    "name": "尾甲"
+    "name": "尾甲",
+    "description": "这只宝可梦包裹头部的神秘尾巴使\n对手对我方使用的先制招式无效。"
   },
   "earthEater": {
     "name": "食土",
