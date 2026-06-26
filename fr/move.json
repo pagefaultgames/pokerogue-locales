@@ -109,7 +109,7 @@
   },
   "sandAttack": {
     "name": "Jet de Sable",
-    "effect": "Lance du sable au visage de la cible pour baisser sa Précision."
+    "effect": "Lance du sable au visage de la cible pour baisser sa Précision de 1 cran."
   },
   "headbutt": {
     "name": "Coup d’Boule",
@@ -153,7 +153,7 @@
   },
   "tailWhip": {
     "name": "Mimi-Queue",
-    "effect": "Le lanceur remue son adorable queue pour tromper la vigilance de la cible et baisser sa Défense."
+    "effect": "Le lanceur remue son adorable queue pour tromper la vigilance des cibles adverses et baisser leur Défense de 1 cran."
   },
   "poisonSting": {
     "name": "Dard-Venin",
@@ -169,7 +169,7 @@
   },
   "leer": {
     "name": "Groz’Yeux",
-    "effect": "Le lanceur fait les gros yeux à la cible pour l’intimider et baisser sa Défense."
+    "effect": "Le lanceur fait les gros yeux aux cibles adverses pour les intimider et baisser leur Défense de 1 cran."
   },
   "bite": {
     "name": "Morsure",
@@ -177,7 +177,7 @@
   },
   "growl": {
     "name": "Rugissement",
-    "effect": "Le lanceur pousse un cri tout mimi pour tromper la vigilance de la cible et baisser son Attaque."
+    "effect": "Le lanceur pousse un cri tout mimi pour tromper la vigilance des cibles adverses et baisser leur Attaque de 1 cran."
   },
   "roar": {
     "name": "Hurlement",
@@ -201,7 +201,7 @@
   },
   "acid": {
     "name": "Acide",
-    "effect": "Le lanceur attaque la cible avec un jet d’acide corrosif. A 10 % de chances de baisser sa Défense Spéciale."
+    "effect": "Le lanceur attaque les cibles adverses avec un jet d’acide corrosif. A 10 % de chances de baisser leur Défense Spéciale de 1 cran."
   },
   "ember": {
     "name": "Flammèche",
@@ -245,7 +245,7 @@
   },
   "auroraBeam": {
     "name": "Onde Boréale",
-    "effect": "Le lanceur envoie un rayon arc-en-ciel sur la cible. A 10 % de chances de baisser son Attaque."
+    "effect": "Le lanceur envoie un rayon arc-en-ciel sur la cible. A 10 % de chances de baisser son Attaque de 1 cran."
   },
   "hyperBeam": {
     "name": "Ultralaser",
@@ -429,7 +429,7 @@
   },
   "smokescreen": {
     "name": "Brouillard",
-    "effect": "Le lanceur disperse un nuage d’encre ou de fumée qui réduit la Précision de la cible."
+    "effect": "Le lanceur disperse un nuage d’encre ou de fumée qui réduit la Précision de la cible de 1 cran."
   },
   "confuseRay": {
     "name": "Onde Folie",
@@ -533,7 +533,7 @@
   },
   "kinesis": {
     "name": "Télékinésie",
-    "effect": "Le lanceur distrait l’ennemi en pliant une cuiller, ce qui baisse sa Précision."
+    "effect": "Le lanceur distrait l’ennemi en pliant une cuiller, ce qui baisse sa Précision de 1 cran."
   },
   "softBoiled": {
     "name": "E-Coque",
@@ -589,7 +589,7 @@
   },
   "flash": {
     "name": "Flash",
-    "effect": "Explosion lumineuse qui fait baisser la Précision de la cible."
+    "effect": "Explosion lumineuse qui fait baisser la Précision de la cible de 1 cran."
   },
   "psywave": {
     "name": "Vague Psy",
@@ -753,11 +753,11 @@
   },
   "mudSlap": {
     "name": "Coud’Boue",
-    "effect": "Le lanceur envoie de la boue au visage de la cible pour infliger des dégâts et baisser sa Précision."
+    "effect": "Le lanceur envoie de la boue au visage de la cible pour infliger des dégâts et baisser sa Précision de 1 cran."
   },
   "octazooka": {
     "name": "Octazooka",
-    "effect": "Le lanceur attaque en projetant de l’encre au visage de la cible. A 50 % de chances de baisser sa Précision."
+    "effect": "Le lanceur attaque en projetant de l’encre au visage de la cible. A 50 % de chances de baisser sa Précision de 1 cran."
   },
   "spikes": {
     "name": "Picots",
@@ -921,7 +921,7 @@
   },
   "ironTail": {
     "name": "Queue de Fer",
-    "effect": "Le lanceur attaque la cible avec une queue de fer. A 30 % de baisser la Défense de la cible."
+    "effect": "Le lanceur attaque la cible avec une queue de fer. A 30 % de chances de baisser la Défense de la cible de 1 cran."
   },
   "metalClaw": {
     "name": "Griffe Acier",
@@ -965,7 +965,7 @@
   },
   "crunch": {
     "name": "Mâchouille",
-    "effect": "Le lanceur mord la cible de ses crocs pointus. A 20 % de chances de baisser la Défense de la cible."
+    "effect": "Le lanceur mord la cible de ses crocs pointus. A 20 % de chances de baisser la Défense de la cible de 1 cran."
   },
   "mirrorCoat": {
     "name": "Voile Miroir",
@@ -993,7 +993,7 @@
   },
   "rockSmash": {
     "name": "Éclate-Roc",
-    "effect": "Le lanceur porte un coup de poing à la cible. A 50 % de chances de baisser sa Défense."
+    "effect": "Le lanceur porte un coup de poing à la cible. A 50 % de chances de baisser sa Défense de 1 cran."
   },
   "whirlpool": {
     "name": "Siphon",
@@ -1013,7 +1013,7 @@
   },
   "stockpile": {
     "name": "Stockage",
-    "effect": "Le lanceur emmagasine de l’énergie et augmente sa Défense et sa Défense Spéciale. Augmente le niveau de Stockage du lanceur de 1 niveau, jusqu’à un maximum de 3 niveaux."
+    "effect": "Le lanceur emmagasine de l’énergie et augmente sa Défense et sa Défense Spéciale de 1 cran. Augmente le niveau de Stockage du lanceur de 1 niveau, jusqu’à un maximum de 3 niveaux."
   },
   "spitUp": {
     "name": "Relâche",
@@ -1173,7 +1173,7 @@
   },
   "tailGlow": {
     "name": "Lumi-Queue",
-    "effect": "Le lanceur regarde un flash lumineux fixement. Augmente énormément son Attaque Spéciale."
+    "effect": "Le lanceur regarde un flash lumineux fixement. Augmente son Attaque Spéciale de 3 crans."
   },
   "lusterPurge": {
     "name": "Lumi-Éclat",
@@ -1221,7 +1221,7 @@
   },
   "crushClaw": {
     "name": "Éclate Griffe",
-    "effect": "Le lanceur lacère la cible avec des griffes solides et aiguisées. A 50 % de chances de baisser sa Défense."
+    "effect": "Le lanceur lacère la cible avec des griffes solides et aiguisées. A 50 % de chances de baisser sa Défense de 1 cran."
   },
   "blastBurn": {
     "name": "Rafale Feu",
@@ -1281,7 +1281,7 @@
   },
   "tickle": {
     "name": "Chatouille",
-    "effect": "Le lanceur chatouille la cible, ce qui baisse son Attaque et sa Défense."
+    "effect": "Le lanceur chatouille la cible, ce qui baisse son Attaque et sa Défense de 1 cran."
   },
   "cosmicPower": {
     "name": "Force Cosmique",
@@ -1317,7 +1317,7 @@
   },
   "muddyWater": {
     "name": "Ocroupi",
-    "effect": "Le lanceur attaque en projetant de l’eau boueuse. A 30 % de chances de baisser la Précision de la cible.\n"
+    "effect": "Le lanceur attaque en projetant de l’eau boueuse. A 30 % de chances de baisser la Précision des cibles adverses.\n"
   },
   "bulletSeed": {
     "name": "Balle Graine",
@@ -1341,7 +1341,7 @@
   },
   "howl": {
     "name": "Grondement",
-    "effect": "Le lanceur pousse un grand cri d’encouragement, ce qui augmente son Attaque et celle de ses alliés."
+    "effect": "Le lanceur pousse un grand cri d’encouragement, ce qui augmente son Attaque et celle de ses alliés de 1 cran."
   },
   "dragonClaw": {
     "name": "Draco-Griffe",
@@ -1353,7 +1353,7 @@
   },
   "bulkUp": {
     "name": "Gonflette",
-    "effect": "Le lanceur tend ses muscles pour se gonfler, ce qui booste son Attaque et sa Défense."
+    "effect": "Le lanceur tend ses muscles pour se gonfler, ce qui booste son Attaque et sa Défense de 1 cran."
   },
   "bounce": {
     "name": "Rebond",
@@ -1385,7 +1385,7 @@
   },
   "calmMind": {
     "name": "Plénitude",
-    "effect": "Le lanceur se concentre et fait le vide dans son esprit pour augmenter son Attaque Spéciale et sa Défense Spéciale."
+    "effect": "Le lanceur se concentre et fait le vide dans son esprit pour augmenter son Attaque Spéciale et sa Défense Spéciale de 1 cran."
   },
   "leafBlade": {
     "name": "Lame Feuille",
@@ -1393,7 +1393,7 @@
   },
   "dragonDance": {
     "name": "Danse Draco",
-    "effect": "Une danse mystique dont le rythme effréné augmente l’Attaque et la Vitesse du lanceur."
+    "effect": "Une danse mystique dont le rythme effréné augmente l’Attaque et la Vitesse du lanceur de 1 cran."
   },
   "rockBlast": {
     "name": "Boule Roc",
@@ -1701,7 +1701,7 @@
   },
   "mudBomb": {
     "name": "Boue-Bombe",
-    "effect": "Le lanceur attaque à l’aide d’une boule de boue solidifiée. A 30 % de chances de baisser la Précision de la cible."
+    "effect": "Le lanceur attaque à l’aide d’une boule de boue solidifiée. A 30 % de chances de baisser la Précision de la cible de 1 cran."
   },
   "psychoCut": {
     "name": "Coupe Psycho",
@@ -1713,7 +1713,7 @@
   },
   "mirrorShot": {
     "name": "Miroi-Tir",
-    "effect": "Le corps poli du lanceur libère un éclair d’énergie. A 30 % de chances de baisser la Précision de la cible."
+    "effect": "Le corps poli du lanceur libère un éclair d’énergie. A 30 % de chances de baisser la Précision de la cible de 1 cran."
   },
   "flashCannon": {
     "name": "Luminocanon",
@@ -2133,7 +2133,7 @@
   },
   "razorShell": {
     "name": "Coqui-Lame",
-    "effect": "Un coquillage aiguisé lacère la cible. A 50 % de chances de baisser sa Défense."
+    "effect": "Un coquillage aiguisé lacère la cible. A 50 % de chances de baisser sa Défense de 1 cran."
   },
   "heatCrash": {
     "name": "Tacle Feu",
@@ -2141,7 +2141,7 @@
   },
   "leafTornado": {
     "name": "Phytomixeur",
-    "effect": "La cible est pris dans un tourbillon de feuilles acérées. A 50 % de chances de baisser sa Précision."
+    "effect": "La cible est pris dans un tourbillon de feuilles acérées. A 50 % de chances de baisser sa Précision de 1 cran."
   },
   "steamroller": {
     "name": "Bulldoboule",
@@ -2149,11 +2149,11 @@
   },
   "cottonGuard": {
     "name": "Cotogarde",
-    "effect": "Le lanceur se protège en s’emmitouflant dans du coton. Sa Défense augmente énormément."
+    "effect": "Le lanceur se protège en s’emmitouflant dans du coton. Sa Défense augmente de 3 crans."
   },
   "nightDaze": {
     "name": "Explonuit",
-    "effect": "Le lanceur attaque avec une onde de choc ténébreuse. A 40 % de chances de baisser la Précision de la cible."
+    "effect": "Le lanceur attaque avec une onde de choc ténébreuse. A 40 % de chances de baisser la Précision de la cible de 1 cran."
   },
   "psystrike": {
     "name": "Frappe Psy",
@@ -2257,7 +2257,7 @@
   },
   "fellStinger": {
     "name": "Dard Mortel",
-    "effect": "Le lanceur augmente énormément son Attaque si une cible est mise K.O. par cette capacité."
+    "effect": "Le lanceur augmente son Attaque de 3 crans si une cible est mise K.O. par cette capacité."
   },
   "phantomForce": {
     "name": "Hantise",
@@ -2269,7 +2269,7 @@
   },
   "nobleRoar": {
     "name": "Râle Mâle",
-    "effect": "Le lanceur pousse un rugissement qui intimide la cible et diminue l’Attaque et l’Attaque Spéciale de celle-ci."
+    "effect": "Le lanceur pousse un rugissement qui intimide la cible et diminue de 1 cran l’Attaque et l’Attaque Spéciale de celle-ci."
   },
   "ionDeluge": {
     "name": "Déluge Plasmique",
@@ -2297,7 +2297,7 @@
   },
   "partingShot": {
     "name": "Dernier Mot",
-    "effect": "Le lanceur menace la cible dans une ultime tirade avant de changer de place avec un autre Pokémon. Réduit l’Attaque et l’Attaque Spéciale de la cible."
+    "effect": "Le lanceur menace la cible dans une ultime tirade avant de changer de place avec un autre Pokémon. Réduit l’Attaque et l’Attaque Spéciale de la cible de 1 cran."
   },
   "topsyTurvy": {
     "name": "Renversement",
@@ -2329,7 +2329,7 @@
   },
   "playRough": {
     "name": "Câlinerie",
-    "effect": "Le lanceur attaque la cible en lui faisant des câlineries. A 10 % de chances de baisser son Attaque."
+    "effect": "Le lanceur attaque la cible en lui faisant des câlineries. A 10 % de chances de baisser son Attaque de 1 cran."
   },
   "fairyWind": {
     "name": "Vent Féérique",
@@ -2353,7 +2353,7 @@
   },
   "playNice": {
     "name": "Camaraderie",
-    "effect": "La cible se lie d’amitié avec le lanceur et perd sa combativité, ce qui diminue son Attaque."
+    "effect": "La cible se lie d’amitié avec le lanceur et perd sa combativité, ce qui diminue son Attaque de 1 cran."
   },
   "confide": {
     "name": "Confidence",
@@ -2393,7 +2393,7 @@
   },
   "venomDrench": {
     "name": "Piège de Venin",
-    "effect": "Sécrète un liquide empoisonné. Diminue l’Attaque, l’Attaque Spéciale et la Vitesse de l’ennemi empoisonné."
+    "effect": "Sécrète un liquide empoisonné sur le camp adverse. Diminue de 1 cran l’Attaque, l’Attaque Spéciale et la Vitesse de tout ennemi empoisonné."
   },
   "powder": {
     "name": "Nuée de Poudre",
@@ -2429,7 +2429,7 @@
   },
   "babyDollEyes": {
     "name": "Regard Touchant",
-    "effect": "Le lanceur fixe la cible d’un air très attendrissant qui la touche et diminue son Attaque. Agit en priorité."
+    "effect": "Le lanceur fixe la cible d’un air très attendrissant qui la touche et diminue son Attaque de 1 cran. Agit en priorité."
   },
   "nuzzle": {
     "name": "Frotte-Frimousse",
@@ -2669,7 +2669,7 @@
   },
   "strengthSap": {
     "name": "Vole-Force",
-    "effect": "Rend au lanceur une quantité de PV équivalente à la stat d’Attaque de la cible, puis baisse celle-ci."
+    "effect": "Rend au lanceur une quantité de PV équivalente à la stat d’Attaque de la cible, puis baisse celle-ci de 1 cran."
   },
   "solarBlade": {
     "name": "Lame Solaire",
@@ -2713,11 +2713,11 @@
   },
   "lunge": {
     "name": "Furie-Bond",
-    "effect": "Le lanceur se jette sur la cible de toutes ses forces pour lui infliger des dégâts et baisser son Attaque."
+    "effect": "Le lanceur se jette sur la cible de toutes ses forces pour lui infliger des dégâts et baisser son Attaque de 1 cran."
   },
   "fireLash": {
     "name": "Fouet de Feu",
-    "effect": "Frappe la cible avec un fouet incandescent et baisse sa Défense."
+    "effect": "Frappe la cible avec un fouet incandescent et baisse sa Défense de 1 cran."
   },
   "powerTrip": {
     "name": "Arrogance",
@@ -2749,7 +2749,7 @@
   },
   "tropKick": {
     "name": "Botte Sucrette",
-    "effect": "Un coup de pied chaud comme les tropiques qui inflige des dégâts à la cible et baisse son Attaque."
+    "effect": "Un coup de pied chaud comme les tropiques qui inflige des dégâts à la cible et baisse son Attaque de 1 cran."
   },
   "instruct": {
     "name": "Sommation",
@@ -2829,7 +2829,7 @@
   },
   "shadowBone": {
     "name": "Os Ombre",
-    "effect": "Le lanceur frappe avec un os possédé par l’âme d’un défunt. A 20 % de chances de baisser la Défense de la cible."
+    "effect": "Le lanceur frappe avec un os possédé par l’âme d’un défunt. A 20 % de chances de baisser la Défense de la cible de 1 cran."
   },
   "accelerock": {
     "name": "Vif Roc",
@@ -2837,7 +2837,7 @@
   },
   "liquidation": {
     "name": "Aqua-Brèche",
-    "effect": "Le lanceur utilise la force de l’eau pour attaquer. A 20 % de chances de baisser la Défense de la cible."
+    "effect": "Le lanceur utilise la force de l’eau pour attaquer. A 20 % de chances de baisser la Défense de la cible de 1 cran."
   },
   "prismaticLaser": {
     "name": "Laser Prisme",
@@ -2857,7 +2857,7 @@
   },
   "tearfulLook": {
     "name": "Larme à l’Œil",
-    "effect": "Le lanceur regarde la cible avec des yeux remplis de larmes. Celle-ci perd toute combativité et voit son Attaque et son Attaque Spéciale baisser."
+    "effect": "Le lanceur regarde la cible avec des yeux remplis de larmes. Celle-ci perd toute combativité et voit son Attaque et son Attaque Spéciale baisser de 1 cran."
   },
   "zingZap": {
     "name": "Électrikipik",
@@ -3009,7 +3009,7 @@
   },
   "octolock": {
     "name": "Octoprise",
-    "effect": "Empêche l’ennemi de fuir ou de quitter le terrain. Baisse la Défense et la Défense Spécial de l’ennemi chaque tour."
+    "effect": "Empêche l’ennemi de fuir ou de quitter le terrain. Baisse de 1 cran la Défense et la Défense Spécial de l’ennemi chaque tour."
   },
   "boltBeak": {
     "name": "Prise de Bec",
@@ -3045,7 +3045,7 @@
   },
   "maxPhantasm": {
     "name": "Spectromax",
-    "effect": "Une attaque de type Spectre que seuls les Pokémon Dynamax peuvent utiliser. Baisse la Défense de la cible."
+    "effect": "Une attaque de type Spectre que seuls les Pokémon Dynamax peuvent utiliser. Baisse la Défense de la cible de 1 cran."
   },
   "maxHailstorm": {
     "name": "Cryomax",
@@ -3069,7 +3069,7 @@
   },
   "maxWyrmwind": {
     "name": "Dracomax",
-    "effect": "Une attaque de type Dragon que seuls les Pokémon Dynamax peuvent utiliser. Baisse l’Attaque de la cible."
+    "effect": "Une attaque de type Dragon que seuls les Pokémon Dynamax peuvent utiliser. Baisse l’Attaque de la cible de 1 cran."
   },
   "maxMindstorm": {
     "name": "Psychomax",
@@ -3097,7 +3097,7 @@
   },
   "clangorousSoul": {
     "name": "Dracacophonie",
-    "effect": "Le lanceur perd 1/3 de ses PV max pour augmenter son Attaque, sa Défense, son Attaque Spéciale, sa Défense Spéciale et sa Vitesse. Cette capacité échoue s’il ne reste pas assez de PV au lanceur."
+    "effect": "Le lanceur perd 1/3 de ses PV max pour augmenter son Attaque, sa Défense, son Attaque Spéciale, sa Défense Spéciale et sa Vitesse de 1 cran. Cette capacité échoue s’il ne reste pas assez de PV au lanceur."
   },
   "bodyPress": {
     "name": "Big Splash",
@@ -3133,7 +3133,7 @@
   },
   "breakingSwipe": {
     "name": "Abattage",
-    "effect": "Le lanceur balaie violemment le camp adverse avec son immense queue. Baisse l’Attaque de la cible."
+    "effect": "Le lanceur balaie violemment le camp adverse avec son immense queue. Baisse l’Attaque des cibles adverses de 1 cran."
   },
   "branchPoke": {
     "name": "Tapotige",
@@ -3149,7 +3149,7 @@
   },
   "gravApple": {
     "name": "Force G",
-    "effect": "Le lanceur fait tomber une pomme de très haut sur la cible. Baisse la Défense de la cible. Sa puissance est augmentée de 50 % sous l’effet de la gravité."
+    "effect": "Le lanceur fait tomber une pomme de très haut sur la cible. Baisse la Défense de la cible de 1 cran. Sa puissance est augmentée de 50 % sous l’effet de la gravité."
   },
   "spiritBreak": {
     "name": "Choc Émotionnel",
@@ -3289,7 +3289,7 @@
   },
   "thunderousKick": {
     "name": "Coup Fulgurant",
-    "effect": "Le lanceur assène un coup de pied à la cible à la vitesse de l’éclair. Baisse aussi la Défense de la cible."
+    "effect": "Le lanceur assène un coup de pied à la cible à la vitesse de l’éclair. Baisse aussi la Défense de la cible de 1 cran."
   },
   "glacialLance": {
     "name": "Lance de Glace",
@@ -3321,7 +3321,7 @@
   },
   "springtideStorm": {
     "name": "Typhon Passionné",
-    "effect": "Le lanceur déclenche un violent typhon de haine et d’amour qui s’abat sur la cible. A 30 % de chances de baisser son Attaque."
+    "effect": "Le lanceur déclenche un violent typhon de haine et d’amour qui s’abat sur les cibles adverses. A 30 % de chances de baisser leur Attaque de 1 cran."
   },
   "mysticalPower": {
     "name": "Force Mystique",
@@ -3361,7 +3361,7 @@
   },
   "bitterMalice": {
     "name": "Cœur de Rancœur",
-    "effect": "Une rancœur glaciale frappe la cible et baisse son Attaque."
+    "effect": "Une rancœur glaciale frappe la cible. Baisse son Attaque de 1 cran."
   },
   "shelter": {
     "name": "Mur Fumigène",
@@ -3369,7 +3369,7 @@
   },
   "tripleArrows": {
     "name": "Triple Flèche",
-    "effect": "Le lanceur donne un coup de pied et tire 3 flèches simultanément. A 50 % de chances de baisser la Défense de l’adversaire. A 30 % de chances d’apeurer l’adversaire. Cette capacité a un taux de critiques augmenté de 1 cran."
+    "effect": "Le lanceur donne un coup de pied et tire 3 flèches simultanément. A 50 % de chances de baisser la Défense de l’adversaire de 1 cran. A 30 % de chances d’apeurer l’adversaire. Cette capacité a un taux de critiques augmenté de 1 cran."
   },
   "infernalParade": {
     "name": "Cortège Funèbre",
@@ -3381,15 +3381,15 @@
   },
   "bleakwindStorm": {
     "name": "Typhon Hivernal",
-    "effect": "Le lanceur déclenche un typhon froid et brutal qui fait trembler le cœur et le corps de la cible. A 30 % de chances de baisser sa Vitesse. N’échoue jamais quand il pleut."
+    "effect": "Le lanceur déclenche un typhon froid et brutal qui fait trembler le cœur et le corps des cibles adverses. A 30 % de chances de baisser leur Vitesse de 1 cran. N’échoue jamais quand il pleut."
   },
   "wildboltStorm": {
     "name": "Typhon Fulgurant",
-    "effect": "Le lanceur déclenche un violent typhon orageux dont les rafales et la foudre frappent la cible. A 20 % de chances de la paralyser. N’échoue jamais quand il pleut."
+    "effect": "Le lanceur déclenche un violent typhon orageux dont les rafales et la foudre frappent les cibles adverses. A 20 % de chances de les paralyser. N’échoue jamais quand il pleut."
   },
   "sandsearStorm": {
     "name": "Typhon Pyrosable",
-    "effect": "Le lanceur déclenche un violent typhon mêlé à du sable ardent qui s’abat sur la cible. A 20 % de chances de la bruler. N’échoue jamais quand il pleut."
+    "effect": "Le lanceur déclenche un violent typhon mêlé à du sable ardent qui s’abat sur les cibles adverses. A 20 % de chances de les bruler. N’échoue jamais quand il pleut."
   },
   "lunarBlessing": {
     "name": "Prière Lunaire",
@@ -3673,7 +3673,7 @@
   },
   "chillingWater": {
     "name": "Douche Froide",
-    "effect": "Le lanceur attaque la cible en l’arrosant d’une eau si froide qu’elle détériore son esprit combatif. Baisse l’Attaque de la cible."
+    "effect": "Le lanceur attaque la cible en l’arrosant d’une eau si froide qu’elle détériore son esprit combatif. Baisse l’Attaque de la cible de 1 cran."
   },
   "hyperDrill": {
     "name": "Hyperceuse",
