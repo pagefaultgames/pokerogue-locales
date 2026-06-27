@@ -40,7 +40,8 @@
     "name": "Napad Furii"
   },
   "bite": {
-    "name": "Ugryzienie"
+    "name": "Ugryzienie",
+    "effect": "Przeciwnik zostaje ugryziony ostrymi jak brzytwa zębami. Atak ma 30% szansy spowodować wzdrygnięcie."
   },
   "roar": {
     "name": "Ryk"
@@ -62,20 +63,34 @@
     "name": "Mgła",
     "effect": "Pokémon otacza siebie i swoich sojuszników gęstą mgłą, która zapobiega obniżaniu ich statystyk przez 5 tur."
   },
+  "hydroPump": {
+    "name": "Pompa Wodna"
+  },
+  "blizzard": {
+    "name": "Śnieżyca"
+  },
   "peck": {
     "name": "Dziobnięcie"
   },
+  "drillPeck": {
+    "name": "Dziobowkręt"
+  },
   "counter": {
     "name": "Kontra"
+  },
+  "strength": {
+    "name": "Siła"
   },
   "growth": {
     "name": "Wzrost"
   },
   "poisonPowder": {
-    "name": "Trujący Pył"
+    "name": "Trujący Pył",
+    "effect": "Pokémon rozsypuje chmurę trującego pyłu, by zatruć przeciwnika."
   },
   "sleepPowder": {
-    "name": "Pył Nasenny"
+    "name": "Pył Nasenny",
+    "effect": "Pokémon rozsypuje chmurę pyłu nasennego, by uśpić przeciwnika."
   },
   "dragonRage": {
     "name": "Smocza Furia",
@@ -88,7 +103,8 @@
     "name": "Burza"
   },
   "rockThrow": {
-    "name": "Rzut Kamieniem"
+    "name": "Rzut Kamieniem",
+    "effect": "Użytkownik podnosi i rzuca małym kamieniem w celu zadania obrażeń."
   },
   "earthquake": {
     "name": "Trzęsienie ziemi"
@@ -100,17 +116,27 @@
     "name": "Medytacja",
     "effect": "Pokemon medytując budzi ukrytą w głębi swojego ciała moc i zwiększa swój Atak."
   },
+  "teleport": {
+    "name": "Teleportacja"
+  },
   "smokescreen": {
     "name": "Zasłona Dymna"
   },
   "barrier": {
     "name": "Bariera"
   },
+  "reflect": {
+    "name": "Odbicie"
+  },
   "metronome": {
-    "name": "Metronom"
+    "name": "Metronom",
+    "effect": "Użytkownik kiwa palcem i pobudza swój mózg do użycia losowego ataku."
   },
   "selfDestruct": {
     "name": "Autodestrukcja"
+  },
+  "eggBomb": {
+    "name": "Bomba-Jajo"
   },
   "smog": {
     "name": "Smog"
@@ -121,8 +147,15 @@
   "amnesia": {
     "name": "Amnezja"
   },
+  "softBoiled": {
+    "name": "Jajko na Miękko",
+    "effect": "Odnawia połowę maksymalnego życia użytkownika."
+  },
   "dreamEater": {
     "name": "Pożeranie Snów"
+  },
+  "poisonGas": {
+    "name": "Trujący Gaz"
   },
   "transform": {
     "name": "Transformacja"
@@ -131,10 +164,17 @@
     "name": "Bąbelki"
   },
   "flash": {
-    "name": "Błysk"
+    "name": "Błysk",
+    "effect": "Użytkownik błyska jasnym światłem, co obniża celność przeciwnika."
+  },
+  "crabhammer": {
+    "name": "Krabi Młot"
   },
   "explosion": {
     "name": "Eksplozja"
+  },
+  "bonemerang": {
+    "name": "Kościomerang"
   },
   "rest": {
     "name": "Odpoczynek"
@@ -143,7 +183,11 @@
     "name": "Szkic"
   },
   "thief": {
-    "name": "Kradzież"
+    "name": "Kradzież",
+    "effect": "Użytkownik atakuje i jednocześnie próbuje okraść cel. Atak ma 30% szansy ukraść przedmiot trzymany przez przeciwnika."
+  },
+  "spiderWeb": {
+    "name": "Pajęczyna"
   },
   "nightmare": {
     "name": "Koszmary"
@@ -151,8 +195,18 @@
   "curse": {
     "name": "Klątwa"
   },
+  "octazooka": {
+    "name": "Ośmiozooka"
+  },
+  "icyWind": {
+    "name": "Zawieja"
+  },
   "charm": {
     "name": "Urok"
+  },
+  "spark": {
+    "name": "Iskra",
+    "effect": "Użytkownik atakuje przeciwnika naelektryzowanym uderzeniem. Atak ma 30% szansy sparaliżować cel."
   },
   "present": {
     "name": "Prezent"
