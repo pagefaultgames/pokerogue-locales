@@ -1420,7 +1420,8 @@
     "effect": "Utföraren landar och vilar sin kropp, vilket återställer ½ av dess max. HP. Utföraren tappar typen Flygande tills följande omgång."
   },
   "gravity": {
-    "name": "Tyngdkraftsökning"
+    "name": "Tyngdkraftsökning",
+    "effect": "Under 5 omgångar ökar teknikers träffsäkerhet med 67 %, och flygandetyper samt de med särdraget Levitation dras till marken; de kan träffas av jordtyptekniker. Tekniker med flygning (t.ex. Flyg) kan inte utföras."
   },
   "miracleEye": {
     "name": "Mirakelögon",
@@ -1443,26 +1444,32 @@
     "effect": "Utföraren svimmar. I gengäld får dess avbytare all HP återställd och all tillståndspåverkan läks."
   },
   "brine": {
-    "name": "Saltvatten"
+    "name": "Saltvatten",
+    "effect": "Attacken har dubbel kraft om motståndarens HP är hälften eller lägre."
   },
   "naturalGift": {
-    "name": "Naturens gåva"
+    "name": "Naturens gåva",
+    "effect": "Utföraren äta ett buret bär, inhämtar dess kraft och slår till. Bäret avgör teknikens typ och kraft."
   },
   "feint": {
-    "name": "Fint"
+    "name": "Fint",
+    "effect": "Denna attack kan träffa en motståndare som utför en teknik som Skyddsköld eller Parering. Effekterna av tekniken tas bort."
   },
   "pluck": {
-    "name": "Pick-o-plock"
+    "name": "Pick-o-plock",
+    "effect": "Utföraren pickar på motståndaren. Om motståndaren bär på ett bär äter utföraren det och får dess effekt."
   },
   "tailwind": {
-    "name": "Medvind"
+    "name": "Medvind",
+    "effect": "Utföraren piskar upp en turbulent vind som ökar snabbhet hos utföraren och den vid dess sida i 4 omgångar."
   },
   "acupressure": {
     "name": "Akupressur",
     "effect": "Utföraren applicerar tryck på en kroppspunkt, vilket skarpt ökar en förmåga hos den eller den vid dess sida."
   },
   "metalBurst": {
-    "name": "Metallknall"
+    "name": "Metallknall",
+    "effect": "Utföraren hämnas genom att orsaka 1,5x skadan den tog från en motståndares teknik under omgången som denna teknik utförs."
   },
   "uTurn": {
     "name": "Sländevändning",
@@ -1477,20 +1484,24 @@
     "effect": "Utföraren lagrar kraft och anfaller efteråt. Om tekniken utförs efter motståndarens fördubblas kraften."
   },
   "assurance": {
-    "name": "Saltisårsmäll"
+    "name": "Saltisårsmäll",
+    "effect": "Om motståndaren redan har tagit skada under samma omgång fördubblas denna tekniks kraft."
   },
   "embargo": {
-    "name": "Beslag"
+    "name": "Föremålsförbud",
+    "effect": "Motståndaren hindras från att använda sina burna föremål i 5 omgångar."
   },
   "fling": {
-    "name": "Redskapskast"
+    "name": "Föremålskast",
+    "effect": "Utföraren kastar ett buret föremål på motståndaren. Teknikens kraft och effekt beror på föremålet."
   },
   "psychoShift": {
     "name": "Psykoskifte",
     "effect": "Genom att använda psykisk suggestionskraft överför utföraren sin tillståndspåverkan till motståndaren."
   },
   "trumpCard": {
-    "name": "Trumf"
+    "name": "Trumf",
+    "effect": "Teknikens kraft börjar som 40, men ökar i takt med att KP:n sjunker: 50 vid 4 KP, 60 vid 3 KP, 80 vid 2 KP samt 200 vid 1 KP. Tekniken missar aldrig."
   },
   "healBlock": {
     "name": "Läkstopp"
