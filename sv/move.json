@@ -1180,8 +1180,8 @@
     "effect": "Utföraren släpper lös ett skadligt, bländande ljussken. 50 % chans att sänka motståndarens sp.fsv-förmåga."
   },
   "mistBall": {
-    "name": "Mistmoln",
-    "effect": "En mistliknande virvel omsluter och skadar motståndaren. 50 % chans att sänka motståndarens sp. atk-förmåga."
+    "name": "Dismoln",
+    "effect": "En disig virvel omsluter och skadar motståndaren. 50 % chans att sänka motståndarens sp. atk-förmåga."
   },
   "featherDance": {
     "name": "Fjäderdans",
@@ -1240,28 +1240,32 @@
     "effect": "Utföraren attackerar motståndaren medan den skriker på ett läskigt sätt. 30 % chans att få motståndaren att rygga tillbaka."
   },
   "weatherBall": {
-    "name": "Väderboll"
+    "name": "Väderboll",
+    "effect": "Denna attackteknik varierar i kraft och typ beroende på vädret när tekniken utförs."
   },
   "aromatherapy": {
     "name": "Aromaterapi",
     "effect": "Utföraren släpper ut en lugnande doft som botar all tillståndspåverkan hos alla lagmedlemmar."
   },
   "fakeTears": {
-    "name": "Krokodiltårar"
+    "name": "Krokodiltårar",
+    "effect": "Utföraren låtsas gråta för att göra motståndaren illa till mods. Detta sänker dess sp. fsv-förmåga skarpt."
   },
   "airCutter": {
     "name": "Skärande vind",
     "effect": "Utföraren skjuter en sylvass vindil som skär motståndarna. Chansen för kritisk träff är +1."
   },
   "overheat": {
-    "name": "Överhettning"
+    "name": "Överhettning",
+    "effect": "Utföraren attackerar motståndaren med full brinnade kraft. Attackens rekyl sänker utförarens sp. atk-förmåga skarpt."
   },
   "odorSleuth": {
     "name": "Detektivnos",
     "effect": "Gör så att spöktyppokémon kan träffas av normal- och slagsmålstypattacker. Mycket undvikande motståndare kan även träffas utan risk för miss."
   },
   "rockTomb": {
-    "name": "Bumlingbur"
+    "name": "Bumlingbur",
+    "effect": "Stenbumlingar som hindrar rörelse kastas på motståndaren. Detta sänker motståndarens snabbhet."
   },
   "silverWind": {
     "name": "Silverfjällmoln",
@@ -1276,7 +1280,8 @@
     "effect": "Utföraren visslar en vacker melodi som får motståndaren att somna."
   },
   "tickle": {
-    "name": "Kittling"
+    "name": "Kittling",
+    "effect": "Utföraren kittlar motståndaren så att den skrattar, vilket sänker dess attack- och försvarsförmåga."
   },
   "cosmicPower": {
     "name": "Kosmokraft",
@@ -1295,7 +1300,8 @@
     "effect": "Utföraren slänger ett knytnävsslag från skuggorna. Denna attack missar aldrig."
   },
   "extrasensory": {
-    "name": "Övernaturlig kraft"
+    "name": "Övernaturlig kraft",
+    "effect": "Utföraren anfaller med en udda, osynlig kraft. 10 % chans att få motståndaren att rygga tillbaka."
   },
   "skyUppercut": {
     "name": "Flygande näve",
@@ -1314,28 +1320,32 @@
     "effect": "Utföraren attackerar genom att skjuta lerigt vatten på motståndarna. Detta har 30 % chans att sänka deras träffsäkerhet."
   },
   "bulletSeed": {
-    "name": "Kulsprutefrön"
+    "name": "Kulsprutefrön",
+    "effect": "Utföraren skjuter blixtsnabba frön på motståndaren 2-5 gånger i rad."
   },
   "aerialAce": {
     "name": "Svalsvep",
     "effect": "Utföraren flyger snabbt som en svala mot motståndaren och skär till innan den hinner reagera. Attacken träffar alltid."
   },
   "icicleSpear": {
-    "name": "Istappspjut"
+    "name": "Istappspjut",
+    "effect": "Utföraren skjuter vassa istappar mot motståndaren 2-5 gånger i rad."
   },
   "ironDefense": {
     "name": "Järnpansar",
     "effect": "Utföraren härdar sin kroppsyta så att den blir hård som järn, vilket skarpt ökar dess försvarsförmåga."
   },
   "block": {
-    "name": "Bro bro breja"
+    "name": "Bro bro breja",
+    "effect": "Utföraren blockerar motståndarens väg med armarna utsträckta för att förhindra att den flyr eller byts av."
   },
   "howl": {
     "name": "Yl",
     "effect": "Utföraren ylar högt för att egga sig själv och den vid sin sida. Detta ökar deras attackförmåga."
   },
   "dragonClaw": {
-    "name": "Drakklo"
+    "name": "Drakklo",
+    "effect": "Utföraren hugger i motståndaren med starka klor."
   },
   "frenzyPlant": {
     "name": "Frenesifura",
@@ -1370,7 +1380,8 @@
     "effect": "Utföraren sprider underliga löv som jagar motståndaren. Denna attack missar aldrig."
   },
   "waterSport": {
-    "name": "Blötläggning"
+    "name": "Blötläggning",
+    "effect": "Utföraren dränker slagfältet med vatten. Detta försvagar eldtyptekniker i 5 omgångar."
   },
   "calmMind": {
     "name": "Sinnesro",
@@ -1385,7 +1396,8 @@
     "effect": "Utföraren utför med vigör en mystisk, kraftfull dans som ökar dess attackförmåga och snabbhet."
   },
   "rockBlast": {
-    "name": "Stenslunga"
+    "name": "Stenslunga",
+    "effect": "Utföraren slungar hårda stenar mot motståndaren. 2-5 stenar avfyras i rad."
   },
   "shockWave": {
     "name": "Direkt elström",
@@ -1396,13 +1408,16 @@
     "effect": "Utföraren skjuter motståndaren med en pulserande vattenstråle. 20 % chans att förvirra motståndaren."
   },
   "doomDesire": {
-    "name": "Ödesdiger önskan"
+    "name": "Ödesdiger önskan",
+    "effect": "2 omgångar efter att denna teknik har utförts skickas koncentrerat, skadligt ljus ner på motståndaren."
   },
   "psychoBoost": {
-    "name": "Psykoknall"
+    "name": "Psykoknall",
+    "effect": "Utföraren attackerar motståndaren med full psykisk kraft. Attackens rekyl sänker utförarens sp. atk-förmåga skarpt."
   },
   "roost": {
-    "name": "Vingvila"
+    "name": "Vingvila",
+    "effect": "Utföraren landar och vilar sin kropp, vilket återställer ½ av dess max. HP. Utföraren tappar typen Flygande tills följande omgång."
   },
   "gravity": {
     "name": "Tyngdkraftsökning"
@@ -1416,7 +1431,8 @@
     "effect": "Denna tekniks kraft fördubblas på en sovande motståndare. Detta väcker dock även motståndaren."
   },
   "hammerArm": {
-    "name": "Hammarnäve"
+    "name": "Hammarnäve",
+    "effect": "Utföraren svingar sin starka, tunga knytnäve på motståndaren. Detta sänker även utförarens snabbhet."
   },
   "gyroBall": {
     "name": "Gyroklot",
@@ -1453,10 +1469,12 @@
     "effect": "Efter att ha utfört attacken skyndar sig utföraren tillbaka för att byta plats med en avbytare."
   },
   "closeCombat": {
-    "name": "Närkamp"
+    "name": "Närkamp",
+    "effect": "Utföraren går in i närkamp med motståndaren utan att skydda sig själv. Detta sänker utförarens försvars- och sp. fsv-förmåga."
   },
   "payback": {
-    "name": "Öga för öga"
+    "name": "Öga för öga",
+    "effect": "Utföraren lagrar kraft och anfaller efteråt. Om tekniken utförs efter motståndarens fördubblas kraften."
   },
   "assurance": {
     "name": "Saltisårsmäll"
@@ -1679,7 +1697,8 @@
     "effect": "Utföraren klättrar blixtsnabbt upp mot motståndaren och slår in i den med otrolig kraft. 20 % chans att förvirra motståndaren."
   },
   "defog": {
-    "name": "Klarblåst"
+    "name": "Klarblåst",
+    "effect": "En stark vind blåser bort motståndarens skydd som Fysioskärm, Specialskärm, Polarskärm eller Mystiskt värn samt alla inbytesfällor, terränger och dimma. Den sänker även motståndarens undvikande."
   },
   "trickRoom": {
     "name": "Lurig zon"
@@ -2200,8 +2219,8 @@
     "effect": "Utföraren gör hela stridsfältet grönt i 5 omgångar. Alla pokémon på marken återfår ¹⁄₁₆ av deras max.  HP varje omgångsslut och deras grästyptekniker ökar i kraft med 30 %."
   },
   "mistyTerrain": {
-    "name": "Dimmterräng",
-    "effect": "En Dimmterräng som varar i 5 omgångar. Dimman immuniserar alla pokémon på marken mot tillståndspåverkan (inkl. förvirring) och halverar skadan av draktyptekniker."
+    "name": "Mistterräng",
+    "effect": "En Mistterräng som varar i 5 omgångar. Misten immuniserar alla pokémon på marken mot tillståndspåverkan (inkl. förvirring) och halverar skadan av draktyptekniker."
   },
   "electrify": {
     "name": "Elektrifiering"
@@ -2660,7 +2679,8 @@
     "name": "Canon de Fleur"
   },
   "psychicFangs": {
-    "name": "Psykbett"
+    "name": "Psykbett",
+    "effect": "Utföraren biter motståndaren med psykisk kraft. Detta kan krossa skyddsskärmar, t.ex. Fysioskärm."
   },
   "stompingTantrum": {
     "name": "Stampande utbrott"
@@ -2986,7 +3006,7 @@
     "effect": "Denna teknik orsakar fysisk eller speciell skada, beroende på vilken som är mest effektiv. Detta har 20 % chans att förgifta motståndaren."
   },
   "mistyExplosion": {
-    "name": "Dimmexplosion"
+    "name": "Mistexplosion"
   },
   "grassyGlide": {
     "name": "Gräsglidare"
@@ -3200,7 +3220,8 @@
     "name": "G-maxad grusström"
   },
   "gMaxWindRage": {
-    "name": "G-maxad grovstorm"
+    "name": "G-maxad grovstorm",
+    "effect": "En flygandetypattack som en G-maxad Corviknight utför. Den tar bort motståndarens skyddsskärmar (t.ex. Fysioskärm, Mystiskt värn) samt alla inbytesfällor (t.ex. Fotanglar), terränger och dimma. Den sänker även motståndarens undvikande."
   },
   "gMaxStunShock": {
     "name": "G-maxad giftchock",
