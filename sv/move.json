@@ -1504,7 +1504,8 @@
     "effect": "Teknikens kraft börjar som 40, men ökar i takt med att KP:n sjunker: 50 vid 4 KP, 60 vid 3 KP, 80 vid 2 KP samt 200 vid 1 KP. Tekniken missar aldrig."
   },
   "healBlock": {
-    "name": "Läkstopp"
+    "name": "Läkstopp",
+    "effect": "I 5 omgångar hindras motståndarna från att återställa HP med tekniker, särdrag eller burna föremål."
   },
   "wringOut": {
     "name": "Urvridning",
@@ -1519,14 +1520,16 @@
     "effect": "Utföraren stöter upp frätande magsaft på motståndaren. Saften eliminerar effekten av motståndarens särdrag."
   },
   "luckyChant": {
-    "name": "Lyckobesvärjelse"
+    "name": "Lyckobesvärjelse",
+    "effect": "Utföraren rabblar en besvärjelse, vilket hindrar motståndarna från att orsaka kritiska träffar under 5 omgångar."
   },
   "meFirst": {
     "name": "Första tjing",
     "effect": "Utföraren får första tjing och utför motståndarens avsedda teknik mot den med 50 % mer kraft. Denna teknik misslyckas om den inte utförs först."
   },
   "copycat": {
-    "name": "Härmapa"
+    "name": "Härmapa",
+    "effect": "Utföraren härmar tekniken som används senast utförts. Tekniken misslyckas om inget annan teknik har utförts än, eller om den senaste tekniken inte kan kopieras."
   },
   "powerSwap": {
     "name": "Maktskifte",
@@ -1553,7 +1556,8 @@
     "effect": "Denna teknik gör det möjligt för utföraren att attackera först. Denna teknik misslyckas om motståndaren inte förbereder en attack."
   },
   "toxicSpikes": {
-    "name": "Giftanglar"
+    "name": "Giftanglar",
+    "effect": "Utföraren sprider giftiga fotanglar runt motståndarnas fötter. 1 lager förgiftar motståndare om byts in i strid; 2 lager orsakar svår förgiftning. Flygandetyper och de med Levitation påverkas ej. Gifttyper som landar på fotanglarna tar upp dem och slänger bort dem från stridsfältet."
   },
   "heartSwap": {
     "name": "Energiöverföring",
@@ -1564,7 +1568,8 @@
     "effect": "Utföraren täcks av en sfär gjord av vatten. Den återställer lite HP varje omgång."
   },
   "magnetRise": {
-    "name": "Magnetsvävning"
+    "name": "Magnetsvävning",
+    "effect": "Utföraren svävar med hjälp av elektriskt genererad magnetism i 5 omgångar."
   },
   "flareBlitz": {
     "name": "Brisant eldkrasch",
@@ -1575,7 +1580,8 @@
     "effect": "Utföraren skickar en chockvåg genom motståndarens kropp med inre kroppsenergi. Detta har 30 % chans att förlama motståndaren."
   },
   "auraSphere": {
-    "name": "Aurapulsering"
+    "name": "Aurapulsering",
+    "effect": "Utföraren släpper lös en explosion av aurakraft från djupet av sin kropp mot motståndaren. Denna attack missar aldrig."
   },
   "rockPolish": {
     "name": "Stenpolering",
@@ -1586,7 +1592,8 @@
     "effect": "Motståndaren huggs med en gifttäckt tentakel, arm eller dylikt. Detta har 30 % chans att förgifta motståndaren."
   },
   "darkPulse": {
-    "name": "Mörkerpulsering"
+    "name": "Mörkerpulsering",
+    "effect": "Utföraren släpper lös en hemsk aura genomsyrad med mörka tankar. 20 % chans att få motståndaren att rygga tillbaka."
   },
   "nightSlash": {
     "name": "Skugghugg",
@@ -1600,7 +1607,8 @@
     "name": "Fröbomb"
   },
   "airSlash": {
-    "name": "Luftklinga"
+    "name": "Luftklinga",
+    "effect": "Utföraren skär med en sylvass klinga av luft som skapar en skåra i självaste skyn. 30 % chans att få motståndaren att rygga tillbaka."
   },
   "xScissor": {
     "name": "X-sax"
@@ -1671,14 +1679,16 @@
     "effect": "Utföraren anfaller med klor skapade utav skugga. Chansen för kritisk träff är +1."
   },
   "thunderFang": {
-    "name": "Blixtbett"
+    "name": "Blixtbett",
+    "effect": "Utföraren biter med elektrifierade tänder. 10 % chans att få motståndaren att rygga tillbaka; 10 % chans att förlama den."
   },
   "iceFang": {
     "name": "Frysbett",
     "effect": "Utföraren biter med isiga huggtänder. 10 % chans att frysa ner motståndaren. 10 % chans att få motståndaren att rygga tillbaka."
   },
   "fireFang": {
-    "name": "Eldbett"
+    "name": "Eldbett",
+    "effect": "Utföraren biter med flammande huggtänder. 10 % chans att få motståndaren att rygga tillbaka; 10 % chans att orsaka brännskada."
   },
   "shadowSneak": {
     "name": "Skuggsmygare",
@@ -1693,7 +1703,8 @@
     "effect": "Utföraren skär motståndaren med blad skapade genom mental kraft. Chansen för kritisk träff är +1."
   },
   "zenHeadbutt": {
-    "name": "Zenskalle"
+    "name": "Zenskalle",
+    "effect": "Utföraren fokuserar sin viljestyrka och skallar motståndaren. 20 % chans att få motståndaren att rygga tillbaka."
   },
   "mirrorShot": {
     "name": "Spegelskott",
@@ -1742,7 +1753,8 @@
     "effect": "Utföraren avfyrar vidrigt avfall mot motståndaren. Detta har 30 % chans att förgifta motståndaren."
   },
   "ironHead": {
-    "name": "Järnskalle"
+    "name": "Järnskalle",
+    "effect": "Utföraren skallar motståndaren med sitt stålhårda huvud. 20 % chans att få motståndaren att rygga tillbaka."
   },
   "magnetBomb": {
     "name": "Magnetbomber",
@@ -2054,7 +2066,8 @@
     "effect": "Utföraren slår motståndaren med brutala hugg. Motståndaren träffas två gånger i rad."
   },
   "heartStamp": {
-    "name": "Hjärtklapp"
+    "name": "Hjärtklapp",
+    "effect": "Utföraren spelar gullig mot motståndaren för att kunna oväntat slå till den. 30 % chans att få motståndaren att rygga tillbaka."
   },
   "hornLeech": {
     "name": "Parasitväxthorn"
@@ -2075,7 +2088,8 @@
     "effect": "Utföraren slungar en orkan av löv på motståndaren. 50 % chans att sänka motståndarens träffsäkerhet."
   },
   "steamroller": {
-    "name": "Ångvältmosare"
+    "name": "Ångvältmosare",
+    "effect": "Utföraren rullar över motståndaren som en ångvält. 30 % chans att få motståndaren att rygga tillbaka."
   },
   "cottonGuard": {
     "name": "Bomullsrustning",
@@ -2141,7 +2155,8 @@
     "name": "Utskällning"
   },
   "icicleCrash": {
-    "name": "Isspetsare"
+    "name": "Isspetsare",
+    "effect": "Utföraren släpper stora, spetsiga istappar på motståndaren. 30 % chans att få motståndaren att rygga tillbaka."
   },
   "vCreate": {
     "name": "V-brännare",
@@ -2726,7 +2741,8 @@
     "name": "Tåriga ögon"
   },
   "zingZap": {
-    "name": "Elektripik"
+    "name": "Elektripik",
+    "effect": "Utföraren kraschar in i motståndaren och utlöser en kraftig elstöt. 30 % chans att få motståndaren att rygga tillbaka."
   },
   "naturesMadness": {
     "name": "Naturens vrede"
@@ -2777,7 +2793,8 @@
     "name": "Pladaskplask"
   },
   "floatyFall": {
-    "name": "Flaxflaxfall"
+    "name": "Flaxflaxfall",
+    "effect": "Utföraren svävar upp i luften och dyker hastigt ner för att attackera motståndaren. 30 % chans att få motståndaren att rygga tillbaka."
   },
   "pikaPapow": {
     "name": "Pikachock",
