@@ -1964,10 +1964,12 @@
     "effect": "Chi la usa attacca sputando saliva che dovrebbe sciogliere il bersaglio. Inoltre, ciò aumenta drasticamente la statistica di Difesa Speciale del bersaglio."
   },
   "foulPlay": {
-    "name": "Ripicca"
+    "name": "Ripicca",
+    "effect": "Chi la usa utilizza la forza del bersaglio contro di esso. Il danno inflitto da questa mossa viene determinata dalla statistica di Attacco del bersaglio e non quella di chi la usa."
   },
   "simpleBeam": {
-    "name": "Ondisinvolta"
+    "name": "Ondisinvolta",
+    "effect": "Cbi la usa emette un misteriosa onda psichica che cambia l'Abilità del bersaglio in Disinvoltura."
   },
   "entrainment": {
     "name": "Saltamicizia",
@@ -1978,48 +1980,60 @@
     "effect": "Chi la usa aiuta un bersaglio più lento permettendogli di agire subito dopo."
   },
   "round": {
-    "name": "Coro"
+    "name": "Coro",
+    "effect": "Chi la usa attacca il bersaglio con una canzone. Se gli altri usano questa mossa, agiranno subito dopo chi la usa per primo, e la potenza del loro Coro sarà raddoppiato."
   },
   "echoedVoice": {
-    "name": "Echeggiavoce"
+    "name": "Echeggiavoce",
+    "effect": "Chi la usa attacca il bersaglio con una voce echeggiante. La potenza di questa mossa aumenta di 40 ogni volta che questa mossa viene usata consecutivamente da qualsiasi Pokémon fino a un massimo di 200."
   },
   "chipAway": {
-    "name": "Insidia"
+    "name": "Insidia",
+    "effect": "Alla ricerca di un'apertura, chi la usa attacca con consistenza. Questa mossa ignora i cambiamenti alle statistiche del bersaglio quando infligge danno."
   },
   "clearSmog": {
-    "name": "Pulifumo"
+    "name": "Pulifumo",
+    "effect": "Chi la usa attacca il bersaglio lanciandogli un grumo di fango speciale. Tutti i cambiamenti alle statistiche sono eliminate."
   },
   "storedPower": {
-    "name": "Veicolaforza"
+    "name": "Veicolaforza",
+    "effect": "Chi la usa attacca il bersaglio con della forza accumulata. La potenza di questa mossa viene aumentata di 20 per ogni livello che le statistiche di chi la usa vengono aumentate."
   },
   "quickGuard": {
     "name": "Anticipo",
     "effect": "Chi la usa protegge tutta la squadra dalle mosse dei nemici che fanno colpire per primi. Se usata in successione può fallire."
   },
   "allySwitch": {
-    "name": "Cambiaposto"
+    "name": "Cambiaposto",
+    "effect": "Chi la usa si teletrasporta usando una strana forza e si scambia con uno dei suoi alleati. Con ogni uso consecutivo, la chance di successo di questa mossa diventa di 1/3 di com'era prima."
   },
   "scald": {
-    "name": "Idrovampata"
+    "name": "Idrovampata",
+    "effect": "Chi la usa attacca sparando acqua bollente al bersaglio. Questa mossa ha un 30% di chance di bruciare il bersaglio e lo scongelerà se chi la usa o il bersaglio erano congelati."
   },
   "shellSmash": {
-    "name": "Gettaguscio"
+    "name": "Gettaguscio",
+    "effect": "Chi la usa rompe il proprio guscio, abbassando le sue statistiche di Difesa e Difesa Speciale ma aumentando drasticamente quelle di Attacco, Attacco Speciale e Velocità."
   },
   "healPulse": {
-    "name": "Curapulsar"
+    "name": "Curapulsar",
+    "effect": "Chi la use emette un impulso curativo che restaura 1/2 dei PS massimi del bersaglio."
   },
   "hex": {
-    "name": "Sciagura"
+    "name": "Sciagura",
+    "effect": "Chi la usa attacca con intensità implacabile. La potenza di questa mossa viene raddoppiata se il bersaglio ha una condizione di stato."
   },
   "skyDrop": {
     "name": "Cadutalibera",
     "effect": "Porta il bersaglio in cielo e lo scaglia a terra al turno successivo. Il bersaglio catturato non può muoversi."
   },
   "shiftGear": {
-    "name": "Cambiomarcia"
+    "name": "Cambiomarcia",
+    "effect": "Chi la usa fa ruotare i propri ingranaggi, aumentando la sua statistica di Attacco e aumentando drasticamente quella della Velocità."
   },
   "circleThrow": {
-    "name": "Ribaltiro"
+    "name": "Ribaltiro",
+    "effect": "Chi la usa attacca per ultimo. In cambio, il bersaglio viene lanciato via e un Pokémon differente viene fatto entrare. Nel mondo selvatico, ciò pone fine alla battaglia contro un singolo Pokémon."
   },
   "incinerate": {
     "name": "Bruciatutto",
@@ -2030,155 +2044,200 @@
     "effect": "Chi la usa trattiene il bersaglio, costringendolo ad agire per ultimo."
   },
   "acrobatics": {
-    "name": "Acrobazia"
+    "name": "Acrobazia",
+    "effect": "Chi la usa colpisce agilmente il bersaglio. Minore è il numeri di oggetti che tiene con se, maggiore è il danno che infligge (variabile tra 55 e 110)."
   },
   "reflectType": {
-    "name": "Riflettipo"
+    "name": "Riflettipo",
+    "effect": "Chi la usa riflette il tipo del bersaglio per diventare dello stesso tipo del bersaglio."
   },
   "retaliate": {
-    "name": "Nemesi"
+    "name": "Nemesi",
+    "effect": "Chi la usa si vendica per un alleato caduto. La potenza di questa mossa viene raddoppiata se un alleato ha perso tutte le sue energie il turno precedente."
   },
   "finalGambit": {
-    "name": "Azzardo"
+    "name": "Azzardo",
+    "effect": "Chi la usa rischia tutto per attaccare il bersaglio. Chi la usa perde tutte le sue energie ma infligge danno pari ai PS rimanenti al momento in cui questa mossa è stata usata."
   },
   "bestow": {
-    "name": "Cediregalo"
+    "name": "Cediregalo",
+    "effect": "Chi la usa trasferisce un oggetto che tiene con se al bersaglio."
   },
   "inferno": {
     "name": "Marchiatura",
     "effect": "Il bersaglio viene avvolto da intense fiammate che causano scottature."
   },
   "waterPledge": {
-    "name": "Acquapatto"
+    "name": "Acquapatto",
+    "effect": "Una colonna d'acqua attacca il bersaglio. Se viene usata insieme a Fiammapatto o Erbapatto, le mosse si combineranno con una potenza base di 150 ed evocherà un arcobaleno o una vasta palude, a ripetizione, per 4 turni."
   },
   "firePledge": {
-    "name": "Fiammapatto"
+    "name": "Fiammapatto",
+    "effect": "Una colonna di fuoco attacca il bersaglio. Se viene usata insieme a Acquapatto o Erbapatto, le mosse si combineranno con una potenza base di 150 ed evocherà un arcobaleno o un vasto mare di fuoco, a ripetizione, per 4 turni."
   },
   "grassPledge": {
-    "name": "Erbapatto"
+    "name": "Erbapatto",
+    "effect": "Una colonna di erba attacca il bersaglio. Se viene usata insieme a Acquapatto o Fiammapatto, le mosse si combineranno con una potenza base di 150 ed evocherà una vasta palude o un vasto mare di fuoco, a ripetizione, per 4 turni."
   },
   "voltSwitch": {
     "name": "Invertivolt",
     "effect": "Chi usa questa mossa fa marcia indietro per farsi sostituire dopo aver sferrato l’attacco."
   },
   "struggleBug": {
-    "name": "Entomoblocco"
+    "name": "Entomoblocco",
+    "effect": "Chi la usa attacca lottando contro Pokémon avversari. Ciò abbassa anche la loro statistica di Attacco Speciale."
   },
   "bulldoze": {
     "name": "Battiterra",
     "effect": "Chi la usa calpesta il terreno e scatena un terremoto che danneggia tutti i Pokémon nei paraggi e ne riduce anche la Velocità."
   },
   "frostBreath": {
-    "name": "Alitogelido"
+    "name": "Alitogelido",
+    "effect": "Chi la usa attacca soffiando il loro alito gelido al bersaglio. Questa mossa garantisce di infliggere un colpo critico."
   },
   "dragonTail": {
-    "name": "Codadrago"
+    "name": "Codadrago",
+    "effect": "Chi la usa si muove per ultimo. In cambio, il bersaglio viene sbalzato via e un Pokèmon differente viene fatto entrare in campo. In mondo selvatico, ciò pone alla battaglia contro un singolo Pokémon."
   },
   "workUp": {
-    "name": "Cuordileone"
+    "name": "Cuordileone",
+    "effect": "Chi la usa viene fatto scaldare, e le sue statistiche di Attacco e Attacco Speciale vengono aumentate."
   },
   "electroweb": {
-    "name": "Elettrotela"
+    "name": "Elettrotela",
+    "effect": "Chi la usa cattura il Pokémon avversario in una rete elettrica per infliggere danno. Ciò gli abbassa anche la statistica di Velocità."
   },
   "wildCharge": {
-    "name": "Sprizzalampo"
+    "name": "Sprizzalampo",
+    "effect": "Chi la usa si ricopre di elettricità e si scontra contro il suo bersaglio. Chi la usa subisce 1/4 del danno inflitto da questa mossa."
   },
   "drillRun": {
-    "name": "Giravvita"
+    "name": "Giravvita",
+    "effect": "Chi la usa si scontra contro il bersaglio mentre ruota il proprio corpo come un trapano. La chance di critico di questa mossa è aumentata di 1 livello."
   },
   "dualChop": {
     "name": "Doppiocolpo",
     "effect": "Chi la usa attacca due volte il bersaglio con dei colpi estremamente forti."
   },
   "heartStamp": {
-    "name": "Cuorestampo"
+    "name": "Cuorestampo",
+    "effect": "Chi la usa rilascia un colpo vizioso dopo che il suo atto carino fa abbassare la guardia al bersaglio. Questa mossa ha un 30% di chance di far tentennare il bersaglio."
   },
   "hornLeech": {
-    "name": "Legnicorno"
+    "name": "Legnicorno",
+    "effect": "Chi la usa assorbe l'energia del bersaglio con le sue corna. I PS di chi la usa vengono restaurate di 1/2 del danno inflitto da questa mossa."
   },
   "sacredSword": {
-    "name": "Spadasolenne"
+    "name": "Spadasolenne",
+    "effect": "Chi la usa attacca tagliando con una spada. Questa mossa ignora i cambi alle statistiche del bersaglio quando infligge danno."
   },
   "razorShell": {
-    "name": "Conchilama"
+    "name": "Conchilama",
+    "effect": "Chi la usa attacca il bersaglio con conchiglie taglienti per infliggere danno. Questa mossa ha un 50% di chance di ridurre la statistica di Difesa del bersaglio."
   },
   "heatCrash": {
-    "name": "Marchiafuoco"
+    "name": "Marchiafuoco",
+    "effect": "Chi la usa si scontra contro il bersaglio col suo corpo ricoperto di fiamme. Maggiore è il peso di chi la usa rispetto al bersaglio, maggiore è la potenza della mossa (variabile tra 40 e 120). Se il bersaglio ha usato Minimizzazione, la potenza di questa mossa viene raddoppiata ed è assicurato che colpisce."
   },
   "leafTornado": {
-    "name": "Vorticerba"
+    "name": "Vorticerba",
+    "effect": "Chi la usa attacca il suo bersaglio circondandolo con le sue foglie taglienti. Questa mossa ha un 50% di chance di ridurre l'accuratezza del bersaglio."
   },
   "steamroller": {
-    "name": "Rulloduro"
+    "name": "Rulloduro",
+    "effect": "Chi la usa schiaccia il suo bersaglio rotolando sopra di esso col suo corpo a rotola. Questa mossa ha un 30% di chance di far tentennare il bersaglio."
   },
   "cottonGuard": {
-    "name": "Cotonscudo"
+    "name": "Cotonscudo",
+    "effect": "Chi la usa si protegge ricoprendo il proprio corpo con del soffice cotone, aumentando drasticamente la sua statistica di Difesa."
   },
   "nightDaze": {
-    "name": "Urtoscuro"
+    "name": "Urtoscuro",
+    "effect": "Chi la usa rilascia un'onda d'urto nero scuro al bersaglio per infliggere danno. Questa mossa ha un 40% di chance di ridurre l'accuratezza del bersaglio."
   },
   "psystrike": {
-    "name": "Psicobotta"
+    "name": "Psicobotta",
+    "effect": "Chi la usa materializza una strana onda psichica per attaccare il bersaglio. Questa mossa infligga danno fisico."
   },
   "tailSlap": {
-    "name": "Spazzasberla"
+    "name": "Spazzasberla",
+    "effect": "Chi la usa attacca il bersaglio con la sua coda dura. Questa mossa colpisce 2-5 volte di fila."
   },
   "hurricane": {
-    "name": "Tifone"
+    "name": "Tifone",
+    "effect": "Chi la usa attacca avvolgendo il bersaglio con del vento furioso. Questa mossa ha un 30% di chance di confondere il bersaglio, e non lo manca mai sotto la pioggia. Questa mossa può anche colpire i Pokémon che si trovano in aria a causa di Volo, Rimbalzo o Cadutalibera."
   },
   "headCharge": {
-    "name": "Ricciolata"
+    "name": "Ricciolata",
+    "effect": "Chi la usa carica la sua testa contro il bersaglio, usando il suo pelo per la guardia. Chi la usa subisce 1/4 del danno inflitto con questa mossa."
   },
   "gearGrind": {
-    "name": "Ingracolpo"
+    "name": "Ingracolpo",
+    "effect": "Chi la usa attacca usando ingranaggi d'acciaio al bersaglio due volte di fila."
   },
   "searingShot": {
-    "name": "Sparafuoco"
+    "name": "Sparafuoco",
+    "effect": "Chi la usa infiamma qualunque cosa intorno a se in un inferno di fiamme scarlatte. Questa mossa ha un 30% di chance di bruciare i bersagli."
   },
   "technoBlast": {
-    "name": "Tecnobotto"
+    "name": "Tecnobotto",
+    "effect": "Chi la usa attacca sparando un raggio di luce al bersaglio. Se usato da Genesect, il tipo di questa mossa cambia in base al Modulo che tiene con se."
   },
   "relicSong": {
-    "name": "Cantoantico"
+    "name": "Cantoantico",
+    "effect": "Chi la usa canta una canzone antica e attacca chiedendo aiuto ai cuori del Pokémon avversario che ascolta. Questa mossa ha un 10% di chance di far addormentare il bersaglio. Se usata da Meloetta, quest'ultima si scambierà tra le forme Canto e Danza."
   },
   "secretSword": {
-    "name": "Spadamistica"
+    "name": "Spadamistica",
+    "effect": "Chi la usa attacca squarciando i bersagli con una spada lunga. Lo strano potere presente nella spada fa danno fisico al bersaglio. Se un Keldeo conosce questa mossa, si trasformerà nella forma Risoluta."
   },
   "glaciate": {
-    "name": "Gelamondo"
+    "name": "Gelamondo",
+    "effect": "Chi la usa attacca soffiando aria ghiacciata ai Pokémon avversari. Ciò gli abbassa anche la statistica di Velocità."
   },
   "boltStrike": {
-    "name": "Lucesiluro"
+    "name": "Lucesiluro",
+    "effect": "Chi la usa si circonda con una grande quantità di elettricità e carica contro il bersaglio. Questa mossa ha un 20% di chance di paralizzare il bersaglio."
   },
   "blueFlare": {
-    "name": "Fuocoblu"
+    "name": "Fuocoblu",
+    "effect": "Chi la usa attacca ricoprendo il bersaglio in fiamme blu intense ma belle. Questa mossa ha un 20% di chance di bruciare il bersaglio."
   },
   "fieryDance": {
-    "name": "Voldifuoco"
+    "name": "Voldifuoco",
+    "effect": "Circondato da fiamme, chi la usa danza e attacca il bersaglio. Questa mossa ha un 50% di chance di aumentare la statistica di Attacco Speciale di chi la usa."
   },
   "freezeShock": {
-    "name": "Elettrogelo"
+    "name": "Elettrogelo",
+    "effect": "Il turno dopo l'utilizzo di questa mossa, chi la usa attacca il bersaglio con ghiaccio elettricamente caricato per infliggere danno. Questa mossa ha un 30% di chance di paralizzare il bersaglio."
   },
   "iceBurn": {
-    "name": "Vampagelida"
+    "name": "Vampagelida",
+    "effect": "Il turno dopo l'utilizzo di questa mossa, chi la usa circonda il bersaglio con un vento ultragelato, ghiacciato per infliggere danno. Questa mossa ha un 30% di chance di bruciare il bersaglio."
   },
   "snarl": {
-    "name": "Urlorabbia"
+    "name": "Urlorabbia",
+    "effect": "Chi la usa urla con rabbia ai bersagli, riducendo la statistica di Attacco Speciale dei Pokémon avversari."
   },
   "icicleCrash": {
-    "name": "Scagliagelo"
+    "name": "Scagliagelo",
+    "effect": "Chi la usa attacca scagliando grandi ghiaccioli al bersaglio. Questa mossa ha un 30% di chance di far tentennare il bersaglio."
   },
   "vCreate": {
-    "name": "Generatore V"
+    "name": "Generatore V",
+    "effect": "Chi la usa emette una fiamma calda dalla fronte e si lancia contro il bersaglio per infliggere danno. Ciò riduce anche le statistiche di Difesa, Difesa Speciale e Velocità di chi la usa."
   },
   "fusionFlare": {
-    "name": "Incrofiamma"
+    "name": "Incrofiamma",
+    "effect": "Chi la usa fa cadere giù una gigantesca fiamma. La potenza di questa mossa viene raddoppiata se usata dopo Incrotuono. Chi la usa viene scongelato se è congelato."
   },
   "fusionBolt": {
-    "name": "Incrotuono"
+    "name": "Incrotuono",
+    "effect": "Chi la usa fa cadere giù una gigantesc fulmine. La potenza di questa mossa viene raddoppiata se usata dopo Incrofiamma."
   },
   "flyingPress": {
-    "name": "Schiacciatuffo"
+    "name": "Schiacciatuffo",
+    "effect": "Chi la usa si abissa sul bersaglio dal cielo. Questa mossa è sia di tipo Volante sia di tipo Lotta allo stesso tempo. Se il bersaglio ha usato Minimizzazione, la potenza di questa mossa raddoppia ed è garantito di colpire."
   },
   "matBlock": {
     "name": "Ribaltappeto",
@@ -2189,10 +2248,12 @@
     "effect": "Chi la usa attacca il bersaglio con un rutto potente. Per utilizzare questa mossa, il Pokémon deve mangiare la bacca che possiede."
   },
   "rototiller": {
-    "name": "Aracampo"
+    "name": "Aracampo",
+    "effect": "Lavorando il terreno, chi la usa permette alle piante di crescere più velocemente. Ciò aumenta le statistiche di Attacco e Attacco Speciale dei Pokémon di tipo Erba a terra in battaglia."
   },
   "stickyWeb": {
-    "name": "Rete Vischiosa"
+    "name": "Rete Vischiosa",
+    "effect": "Chi la usa agita una rete vischiosa al team avversario. I Pokémon che si scambiano in battaglia avranno ridotto la loro statistica di Velocità. I Pokémon come i tipi Volante o quelli con l'Abilità Levitazione non ne subiranno gli effetti."
   },
   "fellStinger": {
     "name": "Pungiglione"
