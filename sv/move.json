@@ -69,7 +69,7 @@
   },
   "whirlwind": {
     "name": "Bortblåst",
-    "effect": "Motståndaren blåses bort av en stark kuling och en lagmedlem tvingas ut i strid. I en vild singelstrid avslutas striden när den blåses bort. Tekniken utförs alltid sist."
+    "effect": "Denna teknik utförs alltid sist. Motståndaren blåses bort av en stark kuling och en lagmedlem tvingas ut i strid. I en vild singelstrid avslutas striden."
   },
   "fly": {
     "name": "Flyg",
@@ -929,7 +929,7 @@
   },
   "vitalThrow": {
     "name": "Kontrakast",
-    "effect": "Utföraren attackerar alltid sist. I gengäld missar aldrig denna teknik."
+    "effect": "Denna teknik utförs alltid sist, men den missar aldrig."
   },
   "morningSun": {
     "name": "Morgonsol",
@@ -1113,7 +1113,7 @@
   },
   "revenge": {
     "name": "Hämnd",
-    "effect": "Tekniken utförs sist. Teknikens kraft fördubblas om utföraren har skadats av motståndaren i samma omgång."
+    "effect": "Denna teknik utförs sist. Teknikens kraft fördubblas om utföraren har skadats av motståndaren i samma omgång."
   },
   "brickBreak": {
     "name": "Tegelkrossare",
@@ -1656,7 +1656,8 @@
     "effect": "Utföraren får jorden under motståndaren att brista med starkt tryck. 10 % chans att sänka motståndarens sp. fsv-förmåga."
   },
   "switcheroo": {
-    "name": "Bytt-e-bytt"
+    "name": "Bytt-e-bytt",
+    "effect": "Utföraren byter ett av sina burna föremål med ett av motståndarens innan den ens hinner märka."
   },
   "gigaImpact": {
     "name": "Gigakollision",
@@ -1671,7 +1672,8 @@
     "effect": "Utföraren slår motståndaren med tuffa knytnävar lika snabba som en kulspruta. Denna teknik går alltid först."
   },
   "avalanche": {
-    "name": "Lavin"
+    "name": "Lavin",
+    "effect": "Denna teknik utförs sist. Teknikens kraft fördubblas om utföraren har skadats av motståndaren i samma omgång."
   },
   "iceShard": {
     "name": "Isskärva",
@@ -1726,19 +1728,24 @@
     "effect": "En stark vind blåser bort motståndarens skydd som Fysioskärm, Specialskärm, Polarskärm eller Mystiskt värn samt alla inbytesfällor, terränger och dimma. Den sänker även motståndarens undvikande."
   },
   "trickRoom": {
-    "name": "Lurig zon"
+    "name": "Lurig zon",
+    "effect": "Denna teknik utförs sist. Utföraren skapar en bisarr omgivning där långsammare pokémon utför sin teknik först i 5 omgångar."
   },
   "dracoMeteor": {
-    "name": "Draconidmeteor"
+    "name": "Draconidmeteor",
+    "effect": "Kometer kallas ner från himlen på motståndaren. Attackens rekyl sänker utförarens sp. atk-förmåga skarpt."
   },
   "discharge": {
-    "name": "Urladdning"
+    "name": "Urladdning",
+    "effect": "Utföraren träffar alla runt om sig med en elektrisk urladdning. 30 % chans att förlama de runt om."
   },
   "lavaPlume": {
-    "name": "Pyroklast"
+    "name": "Pyroklast",
+    "effect": "Utföraren sätter eld på alla runt omkring med scharlakansröda lågor. 30 % chans att orsaka brännskada."
   },
   "leafStorm": {
-    "name": "Lövstorm"
+    "name": "Lövstorm",
+    "effect": "Utföraren piskar upp en lövstorm runt motståndaren. Attackens rekyl sänker utförarens sp.atk-förmåga skarpt."
   },
   "powerWhip": {
     "name": "Mäktig piska"
@@ -1929,7 +1936,8 @@
     "effect": "Utföraren gör en svepande spark mot motståndarens ben, vilket även sänker motståndarens snabbhet."
   },
   "acidSpray": {
-    "name": "Syrabomb"
+    "name": "Syrabomb",
+    "effect": "Utföraren spottar ut en vätska som fräter motståndaren. Detta sänker motståndarens sp. fsv-förmåga skarpt."
   },
   "foulPlay": {
     "name": "Fult spel"
@@ -2037,7 +2045,8 @@
     "effect": "Efter att ha utfört attacken skyndar sig utföraren tillbaka för att byta plats med en avbytare."
   },
   "struggleBug": {
-    "name": "Småkrypskytt"
+    "name": "Småkrypskytt",
+    "effect": "Utföraren avfyrar insektsljus på motståndarna. Detta sänker sp. atk-förmågan hos de som träffas. "
   },
   "bulldoze": {
     "name": "Jordstamp",
@@ -2054,7 +2063,8 @@
     "effect": "Utföraren piggar upp sig själv. Detta ökar dess attack- och sp. atk-förmåga."
   },
   "electroweb": {
-    "name": "Elnät"
+    "name": "Elnät",
+    "effect": "Utföraren fångar motståndarna i ett elektriskt nät. Detta sänker deras snabbhet."
   },
   "wildCharge": {
     "name": "Vildvolt",
@@ -2132,7 +2142,8 @@
     "name": "Enigmatisk egg"
   },
   "glaciate": {
-    "name": "Glaciation"
+    "name": "Glaciation",
+    "effect": "Utföraren blåser iskall luft på motståndarna. Detta sänker deras snabbhet."
   },
   "boltStrike": {
     "name": "Blixtangrepp",
@@ -2155,7 +2166,8 @@
     "effect": "Utföraren omger sig först med en ultrakall isvind, och skickar den på motståndaren följande omgång. 30 % chans att orsaka motståndaren en brännskada."
   },
   "snarl": {
-    "name": "Utskällning"
+    "name": "Utskällning",
+    "effect": "Utföraren skäller ut motståndarna, vilket sänker deras sp. atk-förmåga."
   },
   "icicleCrash": {
     "name": "Isspetsare",
@@ -2226,7 +2238,8 @@
     "effect": "Ett ömkligt läte påverkar motståndarna emotionellt och skadar dem. Tekniken missar aldrig."
   },
   "partingShot": {
-    "name": "Sista känga"
+    "name": "Sista känga",
+    "effect": "Med en sista spydig kommentar sänker utföraren en motståndares attack- och sp. atk-förmåga. En lagmedlem byter sedan av utföraren."
   },
   "topsyTurvy": {
     "name": "Opp-och-ner",
@@ -2705,7 +2718,8 @@
     "effect": "Utföraren skapar en skalfälla. Om utföraren träffas av en fysisk teknik kommer fällan att explodera och orsaka skada på motståndarna."
   },
   "fleurCannon": {
-    "name": "Canon de Fleur"
+    "name": "Canon de Fleur",
+    "effect": "Utföraren släpper lös en stark energistråle. Attackens rekyl sänker utförarens sp. atk-förmåga skarpt."
   },
   "psychicFangs": {
     "name": "Psykbett",
