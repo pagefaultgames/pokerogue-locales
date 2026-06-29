@@ -1788,13 +1788,16 @@
     "effect": "Utföraren snärjer motståndaren med gräs och får den att ramla. Ju tyngre motståndaren är, desto större blir teknikens kraft. Kraftomfånget är 20-120."
   },
   "chatter": {
-    "name": "Tjatter"
+    "name": "Tjatter",
+    "effect": "Utföraren attackerar motståndaren med ljudvågor av öronbedövande tjatter. Detta förvirrar motståndaren."
   },
   "judgment": {
-    "name": "Domens ljus"
+    "name": "Domens ljus",
+    "effect": "Utföraren avfyrar otaliga ljusskott mot motståndaren. Denna tekniks typ ändras beroende på vilken typ av platta eller minnesdisk utföraren bär, om den har särdraget Omnityp eller AR-system."
   },
   "bugBite": {
-    "name": "Insektbett"
+    "name": "Insektbett",
+    "effect": "Utföraren biter motståndaren. Om motståndaren bär på bär, äter utföraren ett av dem på slump och får dess effekt."
   },
   "chargeBeam": {
     "name": "Laddningstråle",
@@ -1805,7 +1808,8 @@
     "effect": "Utföraren slår sin robusta kropp mot motståndaren. Utföraren tar själv ⅓ av skadan som tekniken orsakat."
   },
   "aquaJet": {
-    "name": "Akvajet"
+    "name": "Akvajet",
+    "effect": "Utföraren kastar sig mot motståndaren med en hastighet som nästan gör den osynlig. Denna teknik går alltid först."
   },
   "attackOrder": {
     "name": "Anfallsorder",
@@ -1816,14 +1820,16 @@
     "effect": "Utföraren beordrar sina undersåtar att skydda den, vilket ökar dess försvars- och sp. fsv-förmåga."
   },
   "healOrder": {
-    "name": "Läkningsorder"
+    "name": "Läkningsorder",
+    "effect": "Utföraren beordrar sina undersåtar att läka den, vilket återställer ½ av dess max. HP."
   },
   "headSmash": {
     "name": "Tokskallning",
     "effect": "Utföraren attackerar motståndaren med en riskabel, kraftfull skallning. Utföraren tar själv ½ av skadan som tekniken orsakat."
   },
   "doubleHit": {
-    "name": "Dubbelsmocka"
+    "name": "Dubbelsmocka",
+    "effect": "Utföraren smäller till motståndaren. Motståndaren träffas 2 gånger i rad."
   },
   "roarOfTime": {
     "name": "Tidsvrål",
@@ -1834,7 +1840,8 @@
     "effect": "Utföraren river hål i den fysiska rymden runt den för att skada motståndaren. Chansen för kritisk träff är +1."
   },
   "lunarDance": {
-    "name": "Månskärvans dans"
+    "name": "Månskärvans dans",
+    "effect": "Utföraren svimmar. I gengäld får avbytaren som tar dess plats sitt tillstånd läkt samt fulla HP och KP."
   },
   "crushGrip": {
     "name": "Krossgrepp",
@@ -1845,7 +1852,8 @@
     "effect": "Motståndaren fångas i en malström av eld. Under 4-5 omgångar tar den ⅛ av sin max. HP i skada varje omgångslut."
   },
   "darkVoid": {
-    "name": "Mörkt tomrum"
+    "name": "Mörkt tomrum",
+    "effect": "Motståndarna dras in i en värld av totalt mörker som får dem att somna."
   },
   "seedFlare": {
     "name": "Grönskegloria",
@@ -1856,55 +1864,68 @@
     "effect": "Utföraren skadar motståndaren med en motbjudande vindpust. 10 % chans att öka utförarens attack-, försvar-, sp.atk- och sp.fsv-förmåga samt snabbhet på en gång."
   },
   "shadowForce": {
-    "name": "Skuggrikepassage"
+    "name": "Skuggrikepassage",
+    "effect": "Utföraren försvinner först, och skadar sedan motståndaren följande omgång. Denna teknik träffar motståndare som använder skyddteknik (t.ex. Parering) samt tar bort effekterna av skyddstekniken."
   },
   "honeClaws": {
     "name": "Klovässning",
     "effect": "Utföraren vässar sina klor för att öka sin attackförmåga och träffsäkerhet."
   },
   "wideGuard": {
-    "name": "Bred sköld"
+    "name": "Bred sköld",
+    "effect": "Utföraren och den vid sin sida skyddas under 1 omgång från attacker som träffar hela utförarsidan."
   },
   "guardSplit": {
-    "name": "Försvarsutjämning"
+    "name": "Försvarsutjämning",
+    "effect": "Medelvärdet av utförarens försvarsförmåga plus motståndarens försvarsförmåga beräknas, likaså för sp. fsv. Medelvärdena blir båda sidors nya försvar- och sp. fsv-värden."
   },
   "powerSplit": {
-    "name": "Attackutjämning"
+    "name": "Attackutjämning",
+    "effect": "Medelvärdet av utförarens attackförmåga plus motståndarens attackförmåga beräknas, likaså för sp. atk. Medelvärdena blir båda sidors nya attack- och sp. atk-värden."
   },
   "wonderRoom": {
-    "name": "Underlig zon"
+    "name": "Underlig zon",
+    "effect": "Utföraren skapar en bisarr omgivning där pokémons försvarsvärde och sp. fsv-värde byter plats i 5 omgångar."
   },
   "psyshock": {
-    "name": "Psychock"
+    "name": "Psychock",
+    "effect": "Utföraren materialiserar en psykisk våg mot motståndaren. Denna attack orsakar fysisk skada."
   },
   "venoshock": {
-    "name": "Toxisk chock"
+    "name": "Toxisk chock",
+    "effect": "Utföraren dränker motståndaren i en speciell giftig vätska. Denna tekniks kraft fördubblas om motståndaren har förgiftats eller svårt förgiftats."
   },
   "autotomize": {
     "name": "Autotomi",
     "effect": "Utföraren tappar en kroppsdel för att bli lättare och skarpt öka sin snabbhet."
   },
   "ragePowder": {
-    "name": "Irritationspulver"
+    "name": "Irritationspulver",
+    "effect": "Utföraren sprider ett irriterande pulver som drar uppmärksamhet. Motståndarna siktar sedan tekniker endast mot utföraren tills den svimmar eller byts av."
   },
   "telekinesis": {
-    "name": "Telekinetiskt lyft"
+    "name": "Telekinetiskt lyft",
+    "effect": "Utföraren får motståndaren att sväva med psykisk kraft i 3 omgångar. Alla tekniker (förutom stjärnsmällar) kommer att lyckas träffa motståndaren, men den blir immun mot jordtyptekniker."
   },
   "magicRoom": {
-    "name": "Magisk zon"
+    "name": "Magisk zon",
+    "effect": "Utföraren skapar ett bisarr zon där pokémons burna föremål förlorar sina effekter i 5 omgångar."
   },
   "smackDown": {
     "name": "Skyhögt stenkast",
     "effect": "Utföraren kastar en sten eller projektil på motståndaren. Den kan även träffa en motståndare som är i skyn p.g.a. Flyg, Studs eller Fritt fall; den faller då till marken."
   },
   "stormThrow": {
-    "name": "Yama-Arashi-kast"
+    "name": "Yama-Arashi-kast",
+    "effect": "Utföraren slänger motståndaren hårt ner på marken. Denna attack resulterar alltid i en kritisk träff."
   },
   "flameBurst": {
-    "name": "Sprakande flamma"
+    "name": "Sprakande flamma",
+    "effect": "Utföraren attackerar motståndaren med en exploderande låga. Den vid motståndarens sida tar ¹⁄₁₆ av sin max. HP i skada."
   },
   "sludgeWave": {
-    "name": "Slamvåg"
+    "name": "Slamvåg",
+    "effect": "Utföraren dränker alla runt omkring sig i en massiv våg av slam. 10 % chans att förgifta de som träffas."
   },
   "quiverDance": {
     "name": "Hagafjärilns dans",
@@ -2769,7 +2790,8 @@
     "name": "Naturens vrede"
   },
   "multiAttack": {
-    "name": "Omnitypsoffensiv"
+    "name": "Omnitypsoffensiv",
+    "effect": "Utföraren höljer sig i kraftig energi och tacklar in i motståndaren. Denna tekniks typ ändras beroende på vilken typ av platta eller minnesdisk utföraren bär, om den har särdraget Omnityp eller AR-system."
   },
   "tenMillionVoltThunderbolt": {
     "name": "10 000 000 Voltsblixt",
@@ -3314,7 +3336,8 @@
     "effect": "En fetypattack som en G-maxad Hatterene utför. Den förvirrar motståndare."
   },
   "gMaxSteelsurge": {
-    "name": "G-maxad galvanisering"
+    "name": "G-maxad galvanisering",
+    "effect": "En ståltypattack som en G-maxad Copperajah utför. Den sprider vassa taggar runt motståndarlaget. Vid inbyte tar motståndare ⅛ av deras max. HP i skada. Skadan ändras beroende på effektiviteten av typen Stål gentemot inbytarens typ(er)."
   },
   "gMaxMeltdown": {
     "name": "G-maxat gjutjärn",
