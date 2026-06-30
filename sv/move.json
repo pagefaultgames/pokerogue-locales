@@ -1421,7 +1421,7 @@
   },
   "gravity": {
     "name": "Tyngdkraftsökning",
-    "effect": "Under 5 omgångar ökar teknikers träffsäkerhet med 67 %, och flygandetyper samt de med särdraget Levitation dras till marken; de kan träffas av jordtyptekniker. Tekniker med flygning (t.ex. Flyg) kan inte utföras."
+    "effect": "Under 5 omgångar ökar teknikers träffsäkerhet med 67 %, och flygandetyper samt de med särdraget Levitation dras till marken; de kan därmed träffas av jordtyptekniker. Tekniker med flygning (t.ex. Flyg) kan inte utföras."
   },
   "miracleEye": {
     "name": "Mirakelögon",
@@ -2972,7 +2972,8 @@
     "effect": "Utföraren skyddar sig mot skada från alla attacker under 1 omgång. Efter varje fortlöpande utförande blir chansen att lyckas med tekniken bara ⅓ av chansen innan."
   },
   "dynamaxCannon": {
-    "name": "Dynamaxkanon"
+    "name": "Dynamaxkanon",
+    "effect": "Utföraren avfyrar en kondenserad energistråle från dess kärna och skadar motståndaren. Detta gör dubbelt så mycket skada om motståndarens nivå är för hög."
   },
   "snipeShot": {
     "name": "Prickskytte",
@@ -2983,105 +2984,128 @@
     "effect": "Denna teknik förhindrar att utföraren och motståndaren från att bytas av förrän någon av dem svimmar. Effekten försvinner om någon av dem lämnar fältet."
   },
   "stuffCheeks": {
-    "name": "Glufs"
+    "name": "Fulla kindpåsar",
+    "effect": "Utföraren äter ett buret bär och ökar sin försvarsförmåga skarpt."
   },
   "noRetreat": {
-    "name": "Sista bastion"
+    "name": "Sista bastion",
+    "effect": "Utföraren stålsätter sig för en sista offensiv. Den ökar sin attack-, försvar-, sp.atk- och sp-fsv-förmåga samt snabbhet, men förhindras från att bytas av eller fly. Tekniken kan endast utföras en gång per inbyte."
   },
   "tarShot": {
     "name": "Tjärskott",
     "effect": "Utföraren häller klibbig tjära över motståndaren, vilket sänker motståndarens snabbhet. Eldtyptekniker blir dubbelt så starka mot motståndaren."
   },
   "magicPowder": {
-    "name": "Trolleripulver"
+    "name": "Trolleripulver",
+    "effect": "Utföraren sprider ett moln av magiskt pulver som ändrar motståndaren till enbart typen Psykisk."
   },
   "dragonDarts": {
-    "name": "Drakpilar"
+    "name": "Drakpilar",
+    "effect": "Utföraren anfaller 2 gånger med drakoniska pilar. Om det finns 2 motståndare träffas de 1 gång var."
   },
   "teatime": {
-    "name": "Fika"
+    "name": "Fika",
+    "effect": "Utföraren tar och fikar med alla pokémon på stridsfältet. Alla äter ett bär om de bär på ett eller fler."
   },
   "octolock": {
-    "name": "Åttarmsgrepp"
+    "name": "Åttarmsgrepp",
+    "effect": "Utföraren förhindrar motståndaren från att fly. Denna teknik sänker också motståndarens försvars- och sp. fsv-förmåga varje omgång."
   },
   "boltBeak": {
-    "name": "Spännäbb"
+    "name": "Spännäbb",
+    "effect": "Utföraren pickar motståndaren med sin elektrifierade näbb. Om utföraren attackerar innan motståndaren agerar fördubblas kraften av denna teknik."
   },
   "fishiousRend": {
-    "name": "Brankialbett"
+    "name": "Brankialbett",
+    "effect": "Utföraren sliter i motståndaren med dess hårda gälar. Om utföraren attackerar innan motståndaren agerar fördubblas kraften av denna teknik."
   },
   "courtChange": {
     "name": "Planhalvsbyte",
     "effect": "Med sin mystiska kraft byter utföraren runt effekterna på vardera sidan av stridsfältet."
   },
   "maxFlare": {
-    "name": "Maxpyro"
+    "name": "Maxpyro",
+    "effect": "Detta är en eldtypattack som dynamaxpokémon utför. Solen blir stark i 5 omgångar."
   },
   "maxFlutterby": {
     "name": "Maximago",
     "effect": "Detta är en insekttypattack som dynamaxpokémon utför. Den sänker motståndarens sp. atk-förmåga."
   },
   "maxLightning": {
-    "name": "Maxelectro"
+    "name": "Maxelectro",
+    "effect": "Detta är en eltypattack som dynamaxpokémon utför. Den skapar en Elterräng i 5 omgångar."
   },
   "maxStrike": {
     "name": "Maxagresso",
     "effect": "Detta är en normaltypattack som dynamaxpokémon utför. Den sänker motståndarens snabbhet."
   },
   "maxKnuckle": {
-    "name": "Maxiboxi"
+    "name": "Maxiboxi",
+    "effect": "Detta är en slagsmålstypattack som dynamaxpokémon utför. Detta ökar attackförmågan hos utföraren och den vid dess sida."
   },
   "maxPhantasm": {
     "name": "Maxafantasm",
     "effect": "Detta är en spöktypattack som dynamaxpokémon utför. Den sänker motståndarens försvarsförmåga."
   },
   "maxHailstorm": {
-    "name": "Maxiglacia"
+    "name": "Maxiglacia",
+    "effect": "Detta är en istypattack som dynamaxpokémon utför. Den får det att hagla i 5 omgångar."
   },
   "maxOoze": {
-    "name": "Maxitoxin"
+    "name": "Maxitoxin",
+    "effect": "Detta är en gifttypattack som dynamaxpokémon utför. Den ökar sp. atk-förmågan hos den vid utförarens sida."
   },
   "maxGeyser": {
     "name": "Maxiakva",
     "effect": "Detta är en vattentypsattack som dynamaxpokémon utför. Ett regn faller i 5 omgångar."
   },
   "maxAirstream": {
-    "name": "Maxivindi"
+    "name": "Maxivindi",
+    "effect": "Detta är en flygandetypattack som dynamaxpokémon utför. Den ökar snabbheten hos den vid utförarens sida."
   },
   "maxStarfall": {
-    "name": "Maxastella"
+    "name": "Maxastella",
+    "effect": "Detta är en fetypattack som dynamaxpokémon utför. En Mistterräng skapas i 5 omgångar."
   },
   "maxWyrmwind": {
     "name": "Maxormr",
     "effect": "Detta är en draktypattack som dynamaxpokémon utför. Den sänker motståndarens attackförmåga."
   },
   "maxMindstorm": {
-    "name": "Maxisinne"
+    "name": "Maxisinne",
+    "effect": "Detta är en psyktypattack som dynamaxpokémon utför. En Psykoterräng skapas i 5 omgångar."
   },
   "maxRockfall": {
-    "name": "Maxiklippa"
+    "name": "Maxiklippa",
+    "effect": "Detta är en stentypattack som dynamaxpokémon utför. En sandstorm frammanas, den varar i 5 omgångar."
   },
   "maxQuake": {
-    "name": "Maxiterra"
+    "name": "Maxiterra",
+    "effect": "Detta är en jordtypattack som dynamaxpokémon utför. Den ökar försvarsförmågan hos den vid utförarens sida."
   },
   "maxDarkness": {
     "name": "Maxidunkel",
     "effect": "Detta är en mörktypattack som dynamaxpokémon utför. Detta sänker motståndarens sp. fsv-förmåga."
   },
   "maxOvergrowth": {
-    "name": "Maxaväx"
+    "name": "Maxaväx",
+    "effect": "Detta är en grästypattack som dynamaxpokémon utför. En Grästerräng skapas i 5 omgångar."
   },
   "maxSteelspike": {
-    "name": "Maxametall"
+    "name": "Maxametall",
+    "effect": "Detta är en ståltypsattack som dynamaxpokémon utför. Den ökar försvarsförmågan hos den vid utförarens sida."
   },
   "clangorousSoul": {
-    "name": "Själklingare"
+    "name": "Själklingare",
+    "effect": "Utföraren ökar sin attack-, försvar-, sp.atk- och sp-fsv-förmåga samt snabbhet i utbyte mot ⅓ av sin max. HP. Tekniken misslyckas om utföraren har för lite HP."
   },
   "bodyPress": {
-    "name": "Kroppspressare"
+    "name": "Kroppspressare",
+    "effect": "Utföraren pressar motståndaren med hela sin kroppsvikt. Skadan beror på utförarens försvarsförmågevärde istället för attackförmågan."
   },
   "decorate": {
-    "name": "Dekoration"
+    "name": "Dekoration",
+    "effect": "Utföraren ökar en pokémons attack- och sp.atk-förmåga skarpt genom att dekorera den."
   },
   "drumBeating": {
     "name": "Trumslag",
@@ -3104,7 +3128,8 @@
     "effect": "Utförarens kropp blir en robust sköld och slår hårt in i motståndaren."
   },
   "auraWheel": {
-    "name": "Aurahjul"
+    "name": "Aurahjul",
+    "effect": "Utföraren anfaller, samt ökar sin snabbhet, med energin som lagras i dess kinder. Om den utförs av Morpeko ändras typen av denna teknik beroende på Morpekos form."
   },
   "breakingSwipe": {
     "name": "Svepkrossare",
@@ -3115,14 +3140,16 @@
     "effect": "Utföraren attackerar motståndaren genom att peta till den med en vass gren."
   },
   "overdrive": {
-    "name": "Gigadecibel"
+    "name": "Gigadecibel",
+    "effect": "Utföraren attackerar motståndarna genom att strumma en gitarr eller basgitarr, vilket orsakar ett enormt eko och starka vibrationer."
   },
   "appleAcid": {
     "name": "Äppelsyra",
     "effect": "Utföraren attackerar motståndaren med en syra gjord av sura äpplen. Detta sänker också motståndarens sp. fsv-förmåga."
   },
   "gravApple": {
-    "name": "Tyngdkraftigt äpple"
+    "name": "Tyngdkraftigt äpple",
+    "effect": "Utföraren släpper ett äpple från en hög höjd på motståndaren. Detta sänker motståndarens försvarsförmåga. Teknikens kraft blir 50 % starkare efter Tyngdkraftsökning"
   },
   "spiritBreak": {
     "name": "Själknäckare",
@@ -3133,7 +3160,8 @@
     "effect": "Utföraren avger ånga på motståndaren. 20 % chans att förvirra motståndaren."
   },
   "lifeDew": {
-    "name": "Livsdagg"
+    "name": "Livsdagg",
+    "effect": "Utföraren sprider mystiskt vatten omkring sig som återställer ¼ av max. HP:n hos sig själv och den vid sin sida."
   },
   "obstruct": {
     "name": "Blockad",
@@ -3144,42 +3172,52 @@
     "effect": "Utföraren låtsas böja huvudet, men hugger sedan motståndaren med sitt rufsiga hår. Denna attack missar aldrig."
   },
   "meteorAssault": {
-    "name": "Stjärnstormning"
+    "name": "Stjärnstormning",
+    "effect": "Utföraren attackerar våldsamt och vilt med ett tjockt vapen. Utföraren kan inte röra sig under nästa omgång."
   },
   "eternabeam": {
     "name": "Eternalster",
     "effect": "Detta är Eternatus kraftfullaste attack i dess ursprungliga form. Utföraren kan inte röra sig följande omgång."
   },
   "steelBeam": {
-    "name": "Stålestråle"
+    "name": "Stålestråle",
+    "effect": "Utföraren avfyrar en stråle av stål som den samlat från hela sin kropp. Utföraren tar själv ½ av sin max. HP i skada."
   },
   "expandingForce": {
-    "name": "Expansiv energi"
+    "name": "Expansiv energi",
+    "effect": "Utföraren attackerar motståndaren med sin psykiska kraft. På en Psykoterräng ökas denna tekniks kraft med 50 % samt skadar båda motståndare i strid."
   },
   "steelRoller": {
-    "name": "Järnkavel"
+    "name": "Järnkavel",
+    "effect": "Utföraren attackerar och förstör terrängen samtidigt. Tekniken misslyckas om marken inte har blivit en terräng."
   },
   "scaleShot": {
-    "name": "Skottfjäll"
+    "name": "Skottfjäll",
+    "effect": "Utföraren skjuter fjäll 2-5 gånger i rad på en motståndare. Denna teknik ökar utförarens snabbhet men sänker dess försvarsförmåga."
   },
   "meteorBeam": {
-    "name": "Meteorenergi"
+    "name": "Meteorenergi",
+    "effect": "I denna tvåomgångsattack samlar utföraren först rymdkraft och ökar sin sp. atk-förmåga, för att sedan skjuta motståndaren följande omgång."
   },
   "shellSideArm": {
     "name": "Musselpuffra",
     "effect": "Denna teknik orsakar fysisk eller speciell skada, beroende på vilken som är mest effektiv. Detta har 20 % chans att förgifta motståndaren."
   },
   "mistyExplosion": {
-    "name": "Mistexplosion"
+    "name": "Mistexplosion",
+    "effect": "Utföraren skadar alla runt omkring sig. Den svimmar sedan. Denna tekniks kraft ökar med 50 % på en Mistterräng."
   },
   "grassyGlide": {
-    "name": "Gräsglidare"
+    "name": "Gräsglidare",
+    "effect": "Utföraren glider på marken och attackerar motståndaren. Denna teknik sker alltid först på en Grästerräng."
   },
   "risingVoltage": {
-    "name": "Stigande spänning"
+    "name": "Stigande spänning",
+    "effect": "Utföraren attackerar med elektrisk spänning som stiger från marken. Denna tekniks kraft fördubblas när motståndaren är på en elterräng."
   },
   "terrainPulse": {
-    "name": "Terrängpulsering"
+    "name": "Terrängpulsering",
+    "effect": "Utföraren använder terrängens kraft för att attackera. Denna tekniks typ och kraft beror på den aktiva terrängen när den utförs."
   },
   "skitterSmack": {
     "name": "Krypande klatsch",
@@ -3190,13 +3228,16 @@
     "effect": "Utföraren attackerar utav stark avundsjuka. Alla moståndare som har ökat sina förmågor under omgången får en brännskada."
   },
   "lashOut": {
-    "name": "Ilskeutbrott"
+    "name": "Ilskeutbrott",
+    "effect": "Utföraren tar ut sin ilska på motståndaren. Om utförarens förmåga sänktes under samma omgång fördubblas kraften av denna teknik."
   },
   "poltergeist": {
-    "name": "Poltergeist"
+    "name": "Poltergeist",
+    "effect": "Utföraren kontrollerar ett av motståndarens burna föremål och anfaller med den. Detta misslyckas om motståndaren inte bär ett föremål."
   },
   "corrosiveGas": {
-    "name": "Korrosionsgas"
+    "name": "Korrosionsgas",
+    "effect": "Utföraren sprider en gas med hög surhetsgrad runt omkring sig som fräter burna föremål. Andra pokémon kan inte använda sina burna föremål under resten av striden.  "
   },
   "coaching": {
     "name": "Coachning",
@@ -3211,20 +3252,24 @@
     "effect": "Tre isiga sparkar som ökar i kraft med 20 vid varje lyckad träff. Attacken avslutas vid miss."
   },
   "dualWingbeat": {
-    "name": "Dubbla vingslag"
+    "name": "Dubbla vingslag",
+    "effect": "Utföraren slår motståndaren med sina vingar. Motståndaren träffas 2 gånger i rad."
   },
   "scorchingSands": {
     "name": "Ökensand",
     "effect": "Utföraren kastar glödhet sand på motståndaren. 30 % chans att orsaka motståndaren en brännskada. Tinar nerfrusna utförare eller motståndare."
   },
   "jungleHealing": {
-    "name": "Djungelhelning"
+    "name": "Djungelhelning",
+    "effect": "Utföraren blir ett med djungeln. Det läker all tillståndspåverkan hos utföraren och den vid dess sida samt återställer ¼ av deras max. HP."
   },
   "wickedBlow": {
-    "name": "Mörkrets nävslag"
+    "name": "Mörkrets nävslag",
+    "effect": "Utföraren, som bemästrat den mörka skolan, boxar till motståndaren med ett våldsamt slag. Denna attack orsakar alltid en kritisk träff."
   },
   "surgingStrikes": {
-    "name": "Nävkaskad"
+    "name": "Nävkaskad",
+    "effect": "Utföraren, som bemästrat vattnets skola, slår motståndaren med flödande rörelser 3 gånger i rad. Denna attack orsakar alltid en kritisk träff."
   },
   "thunderCage": {
     "name": "Blixtbur",
@@ -3255,10 +3300,12 @@
     "effect": "Utföraren attackerar genom att skicka en fruktansvärd mängd små spöken på motståndarna."
   },
   "eerieSpell": {
-    "name": "Kuslig trollformel"
+    "name": "Kuslig trollformel",
+    "effect": "Utföraren attackerar med enorm psykisk kraft. Detta tar också bort 3 KP från motståndarens senast utförda teknik."
   },
   "direClaw": {
-    "name": "Katastrofklor"
+    "name": "Katastrofklor",
+    "effect": "Utföraren hugger motståndaren med förödande klor. 30 % chans att antingen förgifta, förlama eller söva motståndaren."
   },
   "psyshieldBash": {
     "name": "Psykosköldstöt",
@@ -3281,14 +3328,16 @@
     "effect": "Utföraren avger en mystisk kraft och skadar en motståndare. Detta ökar också utförarens sp. atk-förmåga."
   },
   "ragingFury": {
-    "name": "Glödhett raseri"
+    "name": "Glödhett raseri",
+    "effect": "Utföraren härjar runt och spyr ut lågor i 2-3 omgångar. Utföraren blir sedan förvirrad."
   },
   "waveCrash": {
     "name": "Vågkrasch",
     "effect": "Utföraren höljer sig i vatten och kraschar in i motståndaren. Utföraren tar själv ⅓ av skadan som tekniken orsakat."
   },
   "chloroblast": {
-    "name": "Kloroplastråle"
+    "name": "Kloroplastråle",
+    "effect": "Utföraren avfyrar ansamlat klorofyll för att orsaka skada på motståndaren. Detta orsakar också utföraren ½ av sin max. HP i skada."
   },
   "mountainGale": {
     "name": "Isbergskalvning",
@@ -3327,27 +3376,32 @@
     "effect": "Utföraren attackerar med otaliga eldiga andar. 30 % chans att orsaka motståndaren en brännskada. Kraften fördubblas om motståndaren har tillståndspåverkan."
   },
   "ceaselessEdge": {
-    "name": "Skärvig snäckkatana"
+    "name": "Skärvig snäckkatana",
+    "effect": "Utföraren skär motståndaren med en katana gjord av snäckor. Snäckskärvor sprids på marken efter attacken och agerar som fotanglar; de orsakar pokémon ⅛ av deras max. HP i skada när de skickas ut i strid. Skadan ökar med fler lager av Fotanglar (max 3 lager). Flygandetyper och de med särdraget Levitation påverkas inte."
   },
   "bleakwindStorm": {
     "name": "Kulenvindens storm",
     "effect": "Utföraren blåser vindar på motståndarna, kalla nog att både kropp och själ att darra. Detta har 30 % chans att sänka deras snabbhet. Missar aldrig i regn."
   },
   "wildboltStorm": {
-    "name": "Kornblixtens storm"
+    "name": "Kornblixtens storm",
+    "effect": "Utföraren frammanar en åskfylld storm och anfaller brutalt med blixtar and vind. 20 % chans att förlama motståndarna. Missar aldrig i regn."
   },
   "sandsearStorm": {
-    "name": "Brandsandens storm"
+    "name": "Brandsandens storm",
+    "effect": "Utföraren sveper in motståndarna i hårda vindar med brännande het sand. 20 % chans att orsaka brännskador på motståndarna. Missar aldrig i regn."
   },
   "lunarBlessing": {
-    "name": "Månskärans bön"
+    "name": "Månskärans bön",
+    "effect": "Utföraren ges en välsignelse från månen. Detta läker all tillståndspåverkan hos utföraren och den vid dess sida samt återställer ¼ av deras max. HP."
   },
   "takeHeart": {
     "name": "Heroiskt kurage",
     "effect": "Utföraren stålsätter sitt hjärta, botar sin tillståndspåverkan och ökar både sp.atk- och sp.fsv-förmåga."
   },
   "gMaxWildfire": {
-    "name": "G-maxad glödhetta"
+    "name": "G-maxad glödhetta",
+    "effect": "En eldtypattack som en G-maxad Charizard utför. Den fortsätter skada motståndare (som inte är eldtyp) i 4 omgångar. De tar ⅙ av deras max. HP i skada per omgångsslut."
   },
   "gMaxBefuddle": {
     "name": "G-maxad glamor",
@@ -3370,14 +3424,16 @@
     "effect": "En spöktypattack som en G-maxad Gengar utför. Den kramar fast motståndaren för att hindra den från att fly."
   },
   "gMaxResonance": {
-    "name": "G-maxat glissando"
+    "name": "G-maxat glissando",
+    "effect": "En istypattack som G-maxad Lapras utför. Skadan från fysiska och speciella tekniker halveras under 5 omgångar."
   },
   "gMaxCuddle": {
     "name": "G-maxat gosigos",
     "effect": "En normaltypattack som en G-maxad Eevee utför. Den gör motståndaren kär."
   },
   "gMaxReplenish": {
-    "name": "G-maxad gröda"
+    "name": "G-maxad gröda",
+    "effect": "En normaltypattack som en G-maxad Snorlax utför. 50 % för utföraren och den vid dess sida att få tillbaka bär som de har ätit. "
   },
   "gMaxMalodor": {
     "name": "G-maxad geggamoja",
@@ -3396,16 +3452,20 @@
     "effect": "En eltypattack som en G-maxad Toxtricity använder. Den förgifter eller förlamar motståndarna."
   },
   "gMaxFinale": {
-    "name": "G-maxat gott slut"
+    "name": "G-maxat gott slut",
+    "effect": "En fetypattack som en G-maxad Alcremie utför. Den återställer ⅙ av max. HP:n hos utföraren och den vid dess sida."
   },
   "gMaxDepletion": {
-    "name": "G-maxad grymhet"
+    "name": "G-maxad grymhet",
+    "effect": "En draktypattack som en G-maxad Duraludon utför. Den tar bort 2 KP från den av motståndaren senast utförda tekniken."
   },
   "gMaxGravitas": {
-    "name": "G-maxad gravitation"
+    "name": "G-maxad gravitation",
+    "effect": "En attack av psyktypteknik som en G-maxad Orbeetle utför. Under 5 omgångar ökas teknikers träffsäkerhet med 67 %, och flygandetyper samt de med särdraget Levitation dras till marken; de kan därmed träffas av jordtyptekniker. Tekniker med flygning (t.ex. Flyg) kan inte utföras."
   },
   "gMaxVolcalith": {
-    "name": "G-maxad geotermi"
+    "name": "G-maxad geotermi",
+    "effect": "En stentypattack som en G-maxad Coalossal utför. Den fortsätter skada motståndare (som inte är stentyp) i 4 omgångar. De tar ⅙ av deras max. HP i skada per omgångsslut."
   },
   "gMaxSandblast": {
     "name": "G-maxad granitgruva",
@@ -3444,25 +3504,32 @@
     "effect": "En eldtypattack som en G-maxad Centiskorch Motståndarna fångas i lågor. Under 4-5 omgångar tar de ⅛ av sina max. HP i skada varje omgångslut."
   },
   "gMaxVineLash": {
-    "name": "G-maxad gräspiska"
+    "name": "G-maxad gräspiska",
+    "effect": "En grästypattack som en G-maxad Venusaur utför. Den fortsätter skada motståndare (som inte är grästyp) i 4 omgångar. De tar ⅙ av deras max. HP i skada per omgångsslut."
   },
   "gMaxCannonade": {
-    "name": "G-maxad gevärsvall"
+    "name": "G-maxad gevärsvall",
+    "effect": "En vattentypattack som en G-maxad Blastoise utför. Den fortsätter skada motståndare (som inte är vattentyp) i 4 omgångar. De tar ⅙ av deras max. HP i skada per omgångsslut."
   },
   "gMaxDrumSolo": {
-    "name": "G-maxad grästrumma"
+    "name": "G-maxad grästrumma",
+    "effect": "En grästypattack som en G-maxad Rillaboom utför. Den kan utföras på motståndaren oavsett dess särdrag (med vissa undantag)."
   },
   "gMaxFireball": {
-    "name": "G-maxad gnistboll"
+    "name": "G-maxad gnistboll",
+    "effect": "En eldtypattack som en G-maxad Cinderace utför. Den kan utföras på motståndaren oavsett dess särdrag (med vissa undantag)."
   },
   "gMaxHydrosnipe": {
-    "name": "G-maxad grovkaliber"
+    "name": "G-maxad grovkaliber",
+    "effect": "En vattentypattack som en G-maxad Inteleon utför. Den kan utföras på motståndaren oavsett dess särdrag (med vissa undantag)."
   },
   "gMaxOneBlow": {
-    "name": "G-maxad gråsop"
+    "name": "G-maxad gråsop",
+    "effect": "En mörktypattack som en G-maxad Urshifu utför. Den träffar även motståndare som använt en skyddsteknik som t.ex. Parering."
   },
   "gMaxRapidFlow": {
-    "name": "G-maxad garddränkare"
+    "name": "G-maxad garddränkare",
+    "effect": "En vattentypattack som en G-maxad Urshifu utför. Den träffar även motståndare som använt en skyddsteknik som t.ex. Parering."
   },
   "teraBlast": {
     "name": "Teraexplosion",
@@ -3477,14 +3544,16 @@
     "effect": "Utföraren sparkar upp i luften och slår ner hälen på motståndaren. 30 % chans att förvirra motståndaren. Om denna teknik missar eller misslyckas tar utföraren ½ av sin max. HP i skada."
   },
   "lastRespects": {
-    "name": "Postumt hedrande"
+    "name": "Postumt hedrande",
+    "effect": "Utföraren hämnas sina stupade lagmedlemmar. Teknikens kraft ökar med 50 för varje avsvimmad pokémon i utförarens laget."
   },
   "luminaCrash": {
     "name": "Luminakrasch",
     "effect": "Utföraren släpper lös ett säreget ljus som påverkar sinnet. Den sänker också motståndarens sp.fsv-förmåga skarpt."
   },
   "orderUp": {
-    "name": "Dagens rättvisa"
+    "name": "Dagens rättvisa",
+    "effect": "Utföraren anfaller med elegant stil. Om utföraren har en Tatsugiri i munnen ökar denna teknik en av utförarens förmågor baserat på Tatsugirins form: Böjlig = Attack; Hängig = Försvar; Spänstig = Snabbhet."
   },
   "jetPunch": {
     "name": "Jetnäve",
@@ -3499,7 +3568,8 @@
     "effect": "Utföraren sladdar ursinnigt genom att anstränga benen, vilket orsakar skada på motståndaren. Detta sänker också utförarens snabbhet skarpt."
   },
   "populationBomb": {
-    "name": "Överbedolkning"
+    "name": "Överbedolkning",
+    "effect": "Utförarens släkt samlas i en hjord och skär motståndaren med klor, vassa som dolkar, 1-10 gånger i rad. Attacken avslutas om utföraren missar."
   },
   "iceSpinner": {
     "name": "Ispiruett",
@@ -3514,20 +3584,24 @@
     "effect": "Utföraren ger en kärleksfull välsignelse, återupplivar en avsvimmad lagmedlem och återställer hälften av dess max. HP."
   },
   "saltCure": {
-    "name": "Torrsaltning"
+    "name": "Torrsaltning",
+    "effect": "Utförarens torrsaltar motståndaren, vilket orsakar motståndaren ¹⁄₁₆ av dess max. HP i skada varje omgång. Stål- och vattentyper tar istället ⅛ av deras max. HP."
   },
   "tripleDive": {
-    "name": "Trippeldyk"
+    "name": "Trippeldyk",
+    "effect": "Utföraren utför perfekt tajmade trippeldyk och träffar motståndaren med vattenstänk 3 gånger i rad."
   },
   "mortalSpin": {
-    "name": "Mortal saltomortal"
+    "name": "Mortal saltomortal",
+    "effect": "Utföraren gör en snurrande volt som eliminerar ihållande tekniker som Hårdbinding, Invirande och Parasitfrö samt inbytesfällor (som t.ex. Fotanglar). Motståndarna förgiftas också."
   },
   "doodle": {
     "name": "Avbildning",
     "effect": "Utföraren fångar essensen av en pokémon med ett porträtt. Utföraren och den vid dess sida får därmed samma särdrag som den avbildade."
   },
   "filletAway": {
-    "name": "Kött från benen"
+    "name": "Kött från benen",
+    "effect": "Utföraren filéar bort sitt kött på benen för att skarpt öka attack- och sp.atk-förmåga samt snabbhet. Detta orsakar utföraren ½ av sin max. HP i skada. Detta misslyckas om utföraren har för lite HP."
   },
   "kowtowCleave": {
     "name": "Knäfallskniv",
@@ -3546,38 +3620,48 @@
     "effect": "Utföraren leker med motståndaren och attackerar den med lätta och flytande danssteg. Detta ökar även utförarens snabbhet."
   },
   "ragingBull": {
-    "name": "Tjurigt språng"
+    "name": "Tjurigt språng",
+    "effect": "Utföraren tacklar motståndaren som en rasande tjur. Den krossar även skärmar, t.ex. Fysioskärm och Specialskärm. När tekniken utförs av Tauros ändras teknikens typ efter Tauros form."
   },
   "makeItRain": {
-    "name": "Guldregn"
+    "name": "Guldregn",
+    "effect": "Utföraren kastar en massa mynt på motståndarna. Detta sänker också utförarens sp. atk-förmåga skarpt. Vid lyckad träff vinns pengar efter striden."
   },
   "psyblade": {
-    "name": "Psyklinga"
+    "name": "Psyklinga",
+    "effect": "Utföraren skär i motståndaren med ett överjordisk klinga. Teknikens kraft ökar med 50 % om utföraren är på en Elterräng."
   },
   "hydroSteam": {
-    "name": "Överhettad ånga"
+    "name": "Överhettad ånga",
+    "effect": "Utföraren skjuter kokhett vatten på motståndaren. Teknikens kraft sjunker inte i starkt solljus; den ökar istället med 50 %."
   },
   "ruination": {
-    "name": "Katastrof"
+    "name": "Katastrof",
+    "effect": "Utföraren orsakar en förödande katastrof. Motståndaren tar ½ av sin resterande HP i skada."
   },
   "collisionCourse": {
-    "name": "Kollisionskurs"
+    "name": "Kollisionskurs",
+    "effect": "Utföraren rusar fram och kraschar till marken, vilket orsakar en massiv förhistorisk explosion. Teknikens kraft ökar med 33 % om det blir en supereffektiv träff."
   },
   "electroDrift": {
-    "name": "Autoeldrift"
+    "name": "Autoeldrift",
+    "effect": "Utföraren genomborrar en motståndare blixtsnabbt med futuristisk elektricitet. Teknikens kraft ökar med 33 % om det blir en supereffektiv träff."
   },
   "shedTail": {
-    "name": "Tappad svans"
+    "name": "Tappad svans",
+    "effect": "Utföraren skapar en bulvan för sig själv med ½ av sin max. HP innan den byter plats med avbytare."
   },
   "chillyReception": {
-    "name": "Kylig stämning"
+    "name": "Kylig stämning",
+    "effect": "Utföraren berättar ett skämt så töntigt att det blir iskallt stel stämning. Utföraren byts av och det börjar snöa i 5 omgångar."
   },
   "tidyUp": {
     "name": "Ordning och reda",
     "effect": "Utföraren städar fältet och tar bort effekterna av Fotanglar, Svävande stenar, Klibbnät, Giftanglar och Bulvan. Attackförmåga och snabbhet ökar."
   },
   "snowscape": {
-    "name": "Snölandskap"
+    "name": "Snölandskap",
+    "effect": "Utföraren frammanar en snöstorm som varar i 5 omgångar. Den ökar försvarsförmågan hos istyper."
   },
   "pounce": {
     "name": "Språng",
@@ -3600,23 +3684,28 @@
     "effect": "Utföraren skjuter två mystiska strålar från sina ögon för att orsaka skada. Motståndaren träffas 2 gånger i rad."
   },
   "rageFist": {
-    "name": "Aggnäve"
+    "name": "Aggnäve",
+    "effect": "Utföraren omvandlar sin ilska till stridsenergi. Teknikens kraft ökar med 50 varje gång som utföraren tar skada från en teknik (maxkraft: 350). Om utföraren byts av återställs kraften."
   },
   "armorCannon": {
-    "name": "Rustningskanon"
+    "name": "Rustningskanon",
+    "effect": "Utföraren skjuter iväg delar av sin rustning som flammande projektiler. Detta sänker utförarens försvars- och sp.fsv-förmåga."
   },
   "bitterBlade": {
-    "name": "Grämelsens glav"
+    "name": "Grämelsens glav",
+    "effect": "Utföraren fokuserar bittra känslor gentemot de levandes värld in i en skärande attack. Utförarens HP återställs med ½ av skadan som orsakas av tekniken."
   },
   "doubleShock": {
-    "name": "Fullvoltchock"
+    "name": "Fullvoltchock",
+    "effect": "Utföraren urladdar all el från sin kropp för att orsaka stor skada. Efter att ha använt denna teknik kommer utföraren inte längre att vara eltyp. Tekniken misslyckas om utföraren inte är eltyp."
   },
   "gigatonHammer": {
     "name": "Gigatonhammare",
     "effect": "Utföraren svingar hela sin kropp för att attackera med sin enorma hammare. Tekniken kan inte utföras två gånger i rad."
   },
   "comeuppance": {
-    "name": "Vendetta"
+    "name": "Vendetta",
+    "effect": "Utföraren orsakar motståndaren 1.5x skadan som motståndaren orsakat utföraren med en teknik under samma omgång."
   },
   "aquaCutter": {
     "name": "Skärande ström",
@@ -3627,7 +3716,8 @@
     "effect": "Utföraren varvar upp sin flammande motor och kör rakt in i motståndaren. 30 % chans att orsaka motståndaren en brännskada."
   },
   "wickedTorque": {
-    "name": "Malismotor"
+    "name": "Malismotor",
+    "effect": "Utföraren varvar upp sin motor och kör in i motståndaren med ont uppsåt. 10 % chans att söva motståndaren."
   },
   "noxiousTorque": {
     "name": "Morbidmotor",
@@ -3650,7 +3740,8 @@
     "effect": "Utföraren skjuter nybryggt grönt te på motståndarna. Utförarens HP återställs med ½ av skadan som orsakas. 30 % chans att orsaka motståndarna brännskador. Tinar nerfrusna utförare eller motståndare."
   },
   "syrupBomb": {
-    "name": "Sirapsbomb"
+    "name": "Sirapsbomb",
+    "effect": "Utföraren skapar en explosion av klibbig sirap som täcker motståndaren och gör att dess snabbhet sjunker varje omgångsslut i 3 omgångar."
   },
   "ivyCudgel": {
     "name": "Murgrönepåk",
@@ -3661,20 +3752,24 @@
     "effect": "Utföraren samlar el på första omgången, vilket ökar dess sp.atk-förmåga, för att sedan avfyra ett högspänningsskott följande omgång. Skottet avfyras omedelbart i regn."
   },
   "teraStarstorm": {
-    "name": "Terastjärnstorm"
+    "name": "Terastjärnstorm",
+    "effect": "Med kraften från sina kristaller bombarderar utföraren motståndaren. När den utförs av Terapagos i stellärform skadar tekniken alla motståndare. Tekniken orsakar skada med antingen attack- eller sp.atk-förmågan, beroende på vilken som är högre hos utföraren när den är terastalliserad."
   },
   "fickleBeam": {
-    "name": "Irregulaser"
+    "name": "Irregulaser",
+    "effect": "Utföraren skjuter en laser på motståndaren. Det finns 30 % chans att alla utförarens huvuden skjuter lasrar samtidigt, vilket fördubblar teknikens kraft."
   },
   "burningBulwark": {
-    "name": "Brinnande bålverk"
+    "name": "Brinnande bålverk",
+    "effect": "Utförarens intensivt heta päls skyddar den från attacker. Den orsakar även brännskador hos alla anfallare som kommer i direkt kontakt."
   },
   "thunderclap": {
     "name": "Åskvigg",
     "effect": "Tekniken låter utföraren attackera först med en elektrisk stöt. Denna teknik misslyckas om motståndaren inte förbereder en attack."
   },
   "mightyCleave": {
-    "name": "Mäktig klinga"
+    "name": "Mäktig klinga",
+    "effect": "Utföraren svingar ljuset som den samlat på huvudet för att skära motståndaren. Denna vassa teknik träffar även om motståndaren skyddar sig sig med t.ex. Parering."
   },
   "tachyonCutter": {
     "name": "Takyonsnitt",
@@ -3685,7 +3780,8 @@
     "effect": "Motståndaren mosas med en arm, en klo eller dylikt. Ju mer HP motståndaren har kvar, desto högre blir teknikens kraft. Kraftomfånget är 1-100."
   },
   "dragonCheer": {
-    "name": "Drakens stridsrop"
+    "name": "Drakens stridsrop",
+    "effect": "Utföraren släpper ut ett moralhöjande drakoniskt rop som gör så att lagmedlemmen vid sin sida i strid orsakar kritiska träffar oftare. Draktypers chans för kritisk träff blir +2. Andra typers chans för kritisk träff blir +1."
   },
   "alluringVoice": {
     "name": "Hänförande röst",
@@ -3700,7 +3796,8 @@
     "effect": "Utföraren elektrifierar sin kropp och hoppar på motståndaren. Om denna teknik missar eller misslyckas tar utföraren ½ av sin max. HP i skada. Om motståndaren har utfört Krympning fördubblas teknikens kraft och den missar aldrig."
   },
   "psychicNoise": {
-    "name": "Pyskoljud"
+    "name": "Pyskoljud",
+    "effect": "Utföraren bombar motståndaren med otrevliga ljudvågor. Under 2 omgångar hindras motståndaren från att återhämta HP med tekniker, särdrag eller burna föremål."
   },
   "upperHand": {
     "name": "Överhand",
