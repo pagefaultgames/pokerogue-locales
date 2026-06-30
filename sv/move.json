@@ -1944,7 +1944,8 @@
     "effect": "Utföraren kastar ett elklot på motståndaren. Ju högre utförarens snabbhet är än motståndarens, desto större blir teknikens kraft. Kraftomfånget är 40-150."
   },
   "soak": {
-    "name": "Genomdränkning"
+    "name": "Genomdränkning",
+    "effect": "Utföraren genomdränker motståndaren. Motståndarens typ blir endast Vatten."
   },
   "flameCharge": {
     "name": "Nitrorusch",
@@ -1963,10 +1964,12 @@
     "effect": "Utföraren spottar ut en vätska som fräter motståndaren. Detta sänker motståndarens sp. fsv-förmåga skarpt."
   },
   "foulPlay": {
-    "name": "Fult spel"
+    "name": "Fult spel",
+    "effect": "Utföraren använder motståndarens kraft mot den själv. Skadan som orsakas beror på motståndarens attackförmåga, istället för utförarens attackförmåga."
   },
   "simpleBeam": {
-    "name": "Enfaldstråle"
+    "name": "Enfaldstråle",
+    "effect": "En mystisk psykisk våg förändrar motståndarens särdrag till Enfaldig."
   },
   "entrainment": {
     "name": "Säregen pardans",
@@ -1977,17 +1980,20 @@
     "effect": "Utföraren hjälper en annan pokémon och får den att utföra sin teknik direkt efter utföraren."
   },
   "round": {
-    "name": "Kanonsång"
+    "name": "Kanonsång",
+    "effect": "Utföraren sjunger högt mot motståndaren. Andra i striden kan börja sjunga samma teknik: de utför då tekniken genast efter utföraren och kraften fördubblas."
   },
   "echoedVoice": {
     "name": "Ekande röst",
     "effect": "Utföraren attackerar motståndaren med en ekande röst. Teknikens kraft ökar med 40 varje omgång den utförs i följd, av vem som helst i strid (Maxkraft: 200)."
   },
   "chipAway": {
-    "name": "Avnötning"
+    "name": "Avnötning",
+    "effect": "Utföraren letar efter en öppning i motståndarens gard och nöter av den. Teknikens skada påverkas inte av motståndarens förmågeändringar."
   },
   "clearSmog": {
-    "name": "Neutralsmog"
+    "name": "Neutralsmog",
+    "effect": "Utföraren skadar motståndare med ett solitt moln av vit smog. Alla förmågeändringar nollställs."
   },
   "storedPower": {
     "name": "Ansamlad kraft",
@@ -2010,10 +2016,12 @@
     "effect": "Utföraren bryter sig ur sitt skal, vilket sänker dess försvars- och sp. fsv-förmåga men ökar dess attack- och sp. atk-förmåga samt snabbhet skarpt."
   },
   "healPulse": {
-    "name": "Helande pulsering"
+    "name": "Helande pulsering",
+    "effect": "Utföraren skjuter en helande pulsvåg mot någon i strid, vilket återställer ½ av dess max. HP."
   },
   "hex": {
-    "name": "Tredje olyckan"
+    "name": "Tredje olyckan",
+    "effect": "Denna grymma attack orsakar dubbel skada på motståndare som redan har tillståndspåverkan."
   },
   "skyDrop": {
     "name": "Fritt fall",
@@ -2024,7 +2032,8 @@
     "effect": "Utföraren roterar sina kugghjul, vilket ökar dess attackförmåga. Dess snabbhet ökar också skarpt."
   },
   "circleThrow": {
-    "name": "Cirkelkast"
+    "name": "Cirkelkast",
+    "effect": "Denna teknik utförs sist. Motståndaren kastas iväg och en annan pokémon tvingas ut. I en vild singelstrid avslutas striden."
   },
   "incinerate": {
     "name": "Uppbränning",
@@ -2039,29 +2048,36 @@
     "effect": "Utföraren slår till, agilt och smidigt. Ju färre föremål utföraren bär, desto större skada orsakas: omfånget är 55-110."
   },
   "reflectType": {
-    "name": "Typspegling"
+    "name": "Typspegling",
+    "effect": "Utföraren blir samma typ(er) som motståndaren."
   },
   "retaliate": {
-    "name": "Vedergällning"
+    "name": "Vedergällning",
+    "effect": "Utföraren hämnas en besegrad lagmedlem. Om en lagmedlem har svimmat i föregående omgång fördubblas denna tekniks kraft."
   },
   "finalGambit": {
-    "name": "Livsuppoffring"
+    "name": "Livsuppoffring",
+    "effect": "Utföraren riskerar allt och anfaller en motståndare. Utföraren svimmar men orsakar skada lika med HP:n den hade kvar när den utförde tekniken."
   },
   "bestow": {
-    "name": "Gåva"
+    "name": "Gåva",
+    "effect": "Utföraren skickar ett av sina burna föremål till en annan pokémon."
   },
   "inferno": {
     "name": "Skärseld",
     "effect": "Utföraren bränner motståndaren i en intensiv eld. Detta orskar en brännskada på motståndaren."
   },
   "waterPledge": {
-    "name": "Vattenlöfte"
+    "name": "Vattenlöfte",
+    "effect": "En vattenattack mot en motståndare. Om den utförs samtidigt som Eld- eller Gräslöfte blir kraften 150 och stridsfältet förändras i 4 omgångar. Med eld, en regnbåge: 2x chans för bonuseffekterna av utförarlagets tekniker. Med gräs, ett träsk: motståndarnas snabbhet blir 25 %."
   },
   "firePledge": {
-    "name": "Eldlöfte"
+    "name": "Eldlöfte",
+    "effect": "En eldattack mot en motståndare. Om den utförs samtidigt som Vatten- eller Gräslöfte blir kraften 150 och stridsfältet förändras i 4 omgångar; med vatten, en regnbåge: 2x chans för bonuseffekterna av utförarlagets tekniker. Med gräs, ett eldhav: moståndarna tar ⅛ av max. HP i skada per omgångsslut."
   },
   "grassPledge": {
-    "name": "Gräslöfte"
+    "name": "Gräslöfte",
+    "effect": "En gräsattack mot en motståndare. Om den utförs samtidigt som Eld- eller Vattenlöfte blir kraften 150 och stridsfältet förändras i 4 omgångar. Med eld, ett eldhav: motståndarna tar ⅛ av max. HP i skada per omgångsslut. Med vatten, ett träsk: motståndarnas snabbhet blir 25 %."
   },
   "voltSwitch": {
     "name": "Strömbytare",
