@@ -2708,7 +2708,8 @@
     "effect": "Chi la usa ingarbuglia il bersaglio con una catena ancorata mentre attacca. Il bersaglio non potrà fuggire, né scambiarsi in battaglia."
   },
   "psychicTerrain": {
-    "name": "Campo Psichico"
+    "name": "Campo Psichico",
+    "effect": "Questa mossa protegge i Pokémon nel terreno dalle mosse con priorità e potenzia le mosse di tipo Psichico per 5 turni."
   },
   "lunge": {
     "name": "Assalto",
@@ -2719,10 +2720,12 @@
     "effect": "Colpisce il bersaglio con una frusta infuocata e ne riduce la Difesa."
   },
   "powerTrip": {
-    "name": "Tracotanza"
+    "name": "Tracotanza",
+    "effect": "Chi la usa vanta della propria forza e attacca il bersaglio. La potenza di questa mossa viene aumentata di 20 per ogni livello che le statistiche di chi la usa vengono aumentate."
   },
   "burnUp": {
-    "name": "Ultima Fiamma"
+    "name": "Ultima Fiamma",
+    "effect": "Per infliggere un danno gigantesco, chi la usa si brucia dalla stanchezza e perde il tipo Fuoco. Chi la usa si scongela se è congelato. Questa mossa fallisce se non viene usata da un tipo Fuoco."
   },
   "speedSwap": {
     "name": "Velociscambio",
@@ -2733,36 +2736,44 @@
     "effect": "Chi la usa colpisce il bersaglio con un corno appuntito. Questa mossa va sempre a segno."
   },
   "purify": {
-    "name": "Purificazione"
+    "name": "Purificazione",
+    "effect": "Chi la usa cura la condizione di stato del bersaglio. Se la mossa entra a segno, recupera anche i PS di chi la usa."
   },
   "revelationDance": {
-    "name": "Mutadanza"
+    "name": "Mutadanza",
+    "effect": "Chi la usa attacca il bersaglio danzando con tutto se stesso. Questa mossa diventa dello stesso tipo di quello principale di chi la usa."
   },
   "coreEnforcer": {
-    "name": "Nucleocastigo"
+    "name": "Nucleocastigo",
+    "effect": "Chi la usa attacca sparando un potente raggio che si muove attraverso il campo di battaglia. Se il Pokémon che subisce danno a causa di questa mossa ha già usato una mossa a sua volta, questa mossa elimina gli effetti dell'Abilità di quel Pokémon."
   },
   "tropKick": {
     "name": "Tropicalcio",
     "effect": "Chi la usa colpisce il bersaglio con un potente calcio sfruttando una tecnica originaria dei paesi tropicali e ne riduce l’Attacco."
   },
   "instruct": {
-    "name": "Imposizione"
+    "name": "Imposizione",
+    "effect": "Chi la usa invita il bersaglio a usare di nuovo la mossa usata per ultima dal bersaglio."
   },
   "beakBlast": {
-    "name": "Cannonbecco"
+    "name": "Cannonbecco",
+    "effect": "Chi la usa prima riscalda il suo becco, e poi aspetta prima di attaccare il bersaglio. Se entri a contatto diretto con chi la usa mentre sta scaldando il suo becco l'attaccante verrà bruciato."
   },
   "clangingScales": {
-    "name": "Clamorsquame"
+    "name": "Clamorsquame",
+    "effect": "Chi la usa ruba le scaglie di tutto il suo corpo, fa un grande rumore e attacca il Pokémon avversario. La statistica di Difesa di chi la usa viene poi ridotto dopo l'attacco."
   },
   "dragonHammer": {
-    "name": "Marteldrago"
+    "name": "Marteldrago",
+    "effect": "Chi la usa sostiene il suo corpo come un martello per attaccare il bersaglio per infliggere danno."
   },
   "brutalSwing": {
     "name": "Vorticolpo",
     "effect": "Chi la usa infligge danni intorno a sé facendo ruotare una parte del suo corpo."
   },
   "auroraVeil": {
-    "name": "Velaurora"
+    "name": "Velaurora",
+    "effect": "Questa mossa dimezza il danno preso da mosse fisiche e speciali per 5 turni. Nelle Battaglie Doppie, questo danno si riduce invece di 1/3. Ciò può essere anche usata solo sotto grandine o neve."
   },
   "sinisterArrowRaid": {
     "name": "Dardoassalto Spettrale",
@@ -2805,23 +2816,28 @@
     "effect": "Il guscio del Pokémon diventa una trappola. Se un nemico lo colpisce con una mossa fisica, innesca un’esplosione e subisce dei danni."
   },
   "fleurCannon": {
-    "name": "Cannonfiore"
+    "name": "Cannonfiore",
+    "effect": "Chi la usa attacca rilasciando un forte raggio. Il danno di recoil da questa mossa riduce drasticamente la statistica di Attacco Speciale di chi la usa."
   },
   "psychicFangs": {
-    "name": "Psicozanna"
+    "name": "Psicozanna",
+    "effect": "Chi la usa attacca mordendo il bersaglio usando una forza psichica. Questa mossa può anche rompere barriere come Schermoluce, Riflesso, e Veloaurora."
   },
   "stompingTantrum": {
-    "name": "Battipiedi"
+    "name": "Battipiedi",
+    "effect": "Guidato dalla frustrazione, chi la usa attacca il bersaglio. La potenza di questa mossa viene raddoppiata se chi la usa non poteva muoversi, o se la mossa manca il bersaglio o fallisce il turno precedente."
   },
   "shadowBone": {
-    "name": "Ossotetro"
+    "name": "Ossotetro",
+    "effect": "Chi la usa attacca il bersaglio colpendolo con un osso dove uno spirito è presente. Questa mossa ha un 20% di chance di ridurre la statistica di Difesa del bersaglio."
   },
   "accelerock": {
     "name": "Rocciarapida",
     "effect": "Chi la usa attacca il bersaglio colpendolo a tutta velocità. Questa mossa ha priorità alta."
   },
   "liquidation": {
-    "name": "Idrobreccia"
+    "name": "Idrobreccia",
+    "effect": "Chi la usa si scontra contro il bersaglio con un getto d'acqua a piena forza. Questa mossa ha un 20% di chance di ridurre la statistica di Difesa del bersaglio."
   },
   "prismaticLaser": {
     "name": "Prismalaser",
@@ -2832,19 +2848,24 @@
     "effect": "Chi la usa ruba gli aumenti delle statistiche del bersaglio, poi si nasconde nella sua ombra e lo attacca."
   },
   "sunsteelStrike": {
-    "name": "Astrocarica"
+    "name": "Astrocarica",
+    "effect": "Chi la usa si scontra contro il bersaglio con la forza di un meteorite. Questa mossa può ignorare l'abilità del bersaglio (con certe eccezioni)."
   },
   "moongeistBeam": {
-    "name": "Raggio d’Ombra"
+    "name": "Raggio d’Ombra",
+    "effect": "Chi la usa emette un raggio sinistro per attaccare il bersaglio. Questa mossa può ignorare l'abilità del bersaglio (con certe eccezioni)."
   },
   "tearfulLook": {
-    "name": "Occhionilucidi"
+    "name": "Occhionilucidi",
+    "effect": "Chi la usa si mette a piangere per far perdere lo spirito combattivo al bersaglio. Ciò riduce le statistiche di Attacco e Attacco Speciale del bersaglio."
   },
   "zingZap": {
-    "name": "Elettropizzico"
+    "name": "Elettropizzico",
+    "effect": "Chi la usa si scontra contro il bersaglio, facendo entrare un potente elettro-shock. Questa mossa ha un 30% di chance di far tentennare il bersaglio."
   },
   "naturesMadness": {
-    "name": "Ira della Natura"
+    "name": "Ira della Natura",
+    "effect": "Chi la usa colpisce il bersaglio con la piena furia della natura. Ciò infligge danno al bersaglio pari a 1/2 dei suoi PS rimasti."
   },
   "multiAttack": {
     "name": "Multiattacco"
