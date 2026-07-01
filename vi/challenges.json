@@ -1,11 +1,11 @@
 {
   "title": "Điều Chỉnh Thử Thách",
-  "illegalEvolution": "{{pokemon}} đã biến đổi thành một Pokémon không hợp lệ cho thử thách này!",
-  "noneSelected": "Chưa chọn",
+  "illegalEvolution": "{{pokemon}} đã trở thành một Pokémon\nkhông hợp lệ cho thử thách này!",
+  "noneSelected": "Chưa Chọn",
   "freshStart": {
     "name": "Tái Khởi",
     "desc": {
-      "0": "Mô phỏng thử thách sử dụng các Pokemon khởi đầu mới nhận được khi chưa mở khóa bất kỳ tính năng nào.",
+      "0": "Mô phỏng thử thách khi sử dụng các Pokémon khởi đầu mà chưa có bất kỳ nâng cấp nào.",
       "1": "Bạn chỉ có thể sử dụng các Pokémon khởi đầu nguyên bản mà không có bất kỳ mở khóa nào, giống như khi vừa mới bắt đầu chơi PokéRogue lần đầu tiên vậy.",
       "2": "Bạn có thể sử dụng bất kỳ Pokémon khởi đầu nào của mình mà không có bất kỳ mở khóa nào, giống như khi vừa mới nhận được chúng lần đầu tiên vậy."
     },
@@ -32,18 +32,18 @@
     }
   },
   "limitedSupport": {
-    "name": "Hỗ trợ Giới hạn",
+    "name": "Giới hạn Hỗ Trợ",
     "desc": {
       "0": "Loại bỏ một số hoặc tất cả các lựa chọn hồi phục miễn phí cho đội hình của bạn.",
       "1": "Loại bỏ tính năng tự động hồi phục ở cuối mỗi vùng.\nThay vào đó, bạn sẽ nhận được menu phần thưởng tiêu chuẩn như ở cuối mỗi ải.",
       "2": "Loại bỏ Cửa hàng trong menu phần thưởng ở cuối mỗi ải.",
-      "3": "Loại bỏ Cửa hàng trong menu phần thưởng ở cuối mỗi ải.\n​Loại bỏ tính năng tự động hồi phục ở cuối mỗi vùng.\nThay vào đó, bạn sẽ nhận được menu phần thưởng tiêu chuẩn như ở cuối mỗi ải."
+      "3": "Loại bỏ Cửa hàng trong menu phần thưởng ở cuối mỗi ải.\n\n​Loại bỏ tính năng tự động hồi phục ở cuối mỗi vùng.\nThay vào đó, bạn sẽ nhận được menu phần thưởng tiêu chuẩn như ở cuối mỗi ải."
     },
     "value": {
       "0": "Tắt",
       "1": "Không Hồi Phục",
       "2": "Không Cửa Hàng",
-      "3": "Cả hai"
+      "3": "Cả Hai"
     }
   },
   "singleGeneration": {
@@ -70,7 +70,7 @@
   "inverseBattle": {
     "name": "Trận chiến Đảo ngược",
     "shortName": "Đảo Ngược",
-    "desc": "Hiệu quả khắc chế hệ bị đảo ngược hoàn toàn và không có hệ nào miễn nhiễm với hệ khác.\n​Vô hiệu hóa thành tựu của các thử thách khác (Ngoại trừ Đảo ngược Chỉ số).",
+    "desc": "Hiệu quả khắc chế hệ bị đảo ngược hoàn toàn và không có hệ nào miễn nhiễm với hệ khác.\n\n​Vô hiệu hóa thành tựu của các thử thách khác (Trừ Đảo ngược Chỉ số).",
     "value": {
       "0": "Tắt",
       "1": "Bật"
@@ -79,7 +79,7 @@
   "flipStat": {
     "name": "Đảo ngược Chỉ số",
     "shortName": "Đảo Chỉ Số",
-    "desc": "Các chỉ số bị đảo ngược như sau:\n-​Máu với Tốc độ\n-​Tấn công với P.thủ Đ.b.\n​-Phòng thủ với T.công Đ.b.\n​Vô hiệu hóa thành tựu của các thử thách khác (Ngoại trừ Trận chiến Đảo ngược).",
+    "desc": "Các chỉ số bị đảo ngược:\n-​ Máu với Tốc độ\n-​ Tấn công với P.thủ Đ.b.\n​- Phòng thủ với T.công Đ.b.\n​Vô hiệu hóa thành tựu của các thử thách khác (Trừ Trận chiến Đảo ngược).",
     "value": {
       "0": "Tắt",
       "1": "Bật"
@@ -87,7 +87,7 @@
   },
   "metronome": {
     "name": "Chế độ Metronome",
-    "desc": "Bạn chỉ có thể sử dụng chiêu thức Metronome! Hãy thử xem bản thân có thể đi bao xa khi dựa hoàn toàn vào may mắn.\nĐây chỉ là chế độ CHƠI CHO VUI và không trao tặng bất kỳ thành tựu nào.\n​Vô hiệu hóa tất cả các thành tựu khác.",
+    "desc": "Bạn chỉ có thể sử dụng chiêu thức Metronome! Hãy thử xem bản thân có thể đi bao xa khi dựa hoàn toàn vào may mắn.\nĐây chỉ là chế độ CHƠI CHO VUI và không trao tặng bất kỳ thành tựu nào.\n\n​Vô hiệu hóa tất cả các thành tựu khác.",
     "value": {
       "0": "Tắt",
       "1": "Bật"
@@ -97,7 +97,7 @@
     "name": "​Kích hoạt Nội tại",
     "desc": {
       "0": "Bắt buộc một số hoặc tất cả Pokémon phải kích hoạt nội tại của chúng.",
-      "1": "Pokémon của các Huấn luyện viên sẽ được kích hoạt nội tại.\nKhông ảnh hưởng đến các Pokémon khởi đầu mà bạn đã chọn.",
+      "1": "Pokémon của các Nhà huấn luyện sẽ được kích hoạt nội tại.\nKhông ảnh hưởng đến các Pokémon khởi đầu mà bạn đã chọn.",
       "2": "Tất cả Pokémon, bao gồm cả của bạn, sẽ được kích hoạt nội tại trong suốt trận này.\n​Vô hiệu hóa thành tựu của các thử thách khác."
     },
     "value": {
@@ -108,7 +108,7 @@
   },
   "movesetRandomizer": {
     "name": "Ngẫu nhiên hóa Chiêu thức",
-    "desc": "Ngẫu nhiên hóa bộ chiêu thức học được khi lên cấp của mỗi loài Pokémon. Pokémon khởi đầu sẽ bắt đầu với các chiêu thức cơ bản phù hợp với hệ của chúng.\n​Vô hiệu hóa thành tựu của các thử thách khác.",
+    "desc": "Ngẫu nhiên hóa bộ chiêu thức học được khi lên cấp của mỗi loài Pokémon. Pokémon khởi đầu sẽ bắt đầu với các chiêu thức cơ bản phù hợp với hệ của chúng.\n\n​Vô hiệu hóa thành tựu của các thử thách khác.",
     "value": {
       "0": "Tắt",
       "1": "Bật"
