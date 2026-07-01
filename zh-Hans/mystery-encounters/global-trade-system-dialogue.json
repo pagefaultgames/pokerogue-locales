@@ -27,6 +27,6 @@
   },
   "pokemonTradeSelected": "{{tradedPokemon}}将发送给{{tradeTrainerName}}。",
   "pokemonTradeGoodbye": "再见，{{tradedPokemon}}！",
-  "itemTradeSelected": "{{chosenItem}}将发送给{{tradeTrainerName}}.$.@d{64}.@d{64}.@d{64}\\n@s{level_up_fanfare}交易成功！$你从{{tradeTrainerName}}那得到了{{itemName}}！",
+  "itemTradeSelected": "{{chosenItem}}将发送给{{tradeTrainerName}}.$.@d{64}.@d{64}.@d{64}@s{level_up_fanfare}\n交易成功！$你从{{tradeTrainerName}}那得到了{{itemName}}！",
   "tradeReceived": "@s{evolution_fanfare}{{tradeTrainerName}}已发送{{received}}！"
 }
