@@ -1,11 +1,11 @@
 {
   "stench": {
     "name": "Tanfo",
-    "description": "Il cattivo odore emesso dal Pokémon ha 10% di probabilità di far tentennare i nemici quando attacca. Questo effetto non si somma a mosse od oggetti che possono far tentennare."
+    "description": "Rilasciando un tanfo mentre attacca, c'è un 10% di chance che i bersagli che subiscono danno dalle mosse del Pokémon tentenneranno. Ciò non si accumula con mosse od oggetti che hanno già una chance di far tentennare."
   },
   "drizzle": {
     "name": "Piovischio",
-    "description": "Quando il Pokémon entra in campo, attira la pioggia."
+    "description": "Il Pokémon causa pioggia che dura 5 turni da quando entra in battaglia."
   },
   "speedBoost": {
     "name": "Acceleratore",
@@ -21,7 +21,7 @@
   },
   "damp": {
     "name": "Umidità",
-    "description": "Il Pokémon aumenta l’umidità circostante, prevenendo l’uso di mosse esplosive come Autodistruzione e il danno inflitto dall’abilità Scoppio."
+    "description": "Il Pokémon inumidisce ciò che lo circonda, impedendo a tutti i Pokémon di usare mosse esplosione come Auto-Distruzione e infliggere danno con Scoppio."
   },
   "limber": {
     "name": "Scioltezza",
@@ -29,11 +29,11 @@
   },
   "sandVeil": {
     "name": "Sabbiavelo",
-    "description": "L’elusione aumenta del 20% durante le tempeste di sabbia. Il Pokémon non subisce danni dalla tempesta."
+    "description": "Aumenta l'evasione del Pokémon del 25% sotto tempesta di sabbia. Inoltre il Pokémon non subisce danno sotto tempesta di sabbia."
   },
   "static": {
     "name": "Statico",
-    "description": "Il Pokémon si ricopre di elettricità statica e ha 30% di probabilità di causare paralisi a chi è entrato in contatto con lui."
+    "description": "Il Pokémon si carica di elettricità statica e ha un 30% di chance di paralizzare gli attaccanti che lo colpiscono con una mossa a contatto."
   },
   "voltAbsorb": {
     "name": "Assorbivolt",
@@ -45,7 +45,7 @@
   },
   "oblivious": {
     "name": "Indifferenza",
-    "description": "L’imperturbabilità del Pokémon lo protegge da infatuazioni, provocazioni e dall’effetto di Prepotenza."
+    "description": "Il Pokémon è inconsapevole, impedendo che venga infatuato, che venga schernito, o che subisca Prepotenza."
   },
   "cloudNine": {
     "name": "Antimeteo",
@@ -53,11 +53,11 @@
   },
   "compoundEyes": {
     "name": "Insettocchi",
-    "description": "La precisione del Pokémon aumenta del 30% grazie ai suoi occhi composti."
+    "description": "Gli occhi da insetto del Pokémon aumentano la sua accuratezza del 30%."
   },
   "insomnia": {
     "name": "Insonnia",
-    "description": "Il Pokémon soffre d’insonnia e non può addormentarsi."
+    "description": "L'insonnia del Pokémon evita che sia sonnolento e che vada a dormire."
   },
   "colorChange": {
     "name": "Cambiacolore",
@@ -73,11 +73,11 @@
   },
   "shieldDust": {
     "name": "Polvoscudo",
-    "description": "Il Pokémon è protetto da uno strato di scaglie che annulla gli effetti aggiuntivi delle mosse subite."
+    "description": "Uno scudo di polvere protettivo che protegge il Pokémon da effetti aggiuntivi delle mosse."
   },
   "ownTempo": {
     "name": "Mente Locale",
-    "description": "Il Pokémon affronta la vita al proprio ritmo e per questo non può essere confuso o subire l’effetto di Prepotenza."
+    "description": "Il Pokémon mantiene il proprio ritmo, evitando che venga confuso. Inoltre non può subire Prepotenza."
   },
   "suctionCups": {
     "name": "Ventose",
@@ -93,7 +93,7 @@
   },
   "roughSkin": {
     "name": "Cartavetro",
-    "description": "Quando il Pokémon subisce un attacco, grazie alla sua pelle ruvida infligge a sua volta danni al Pokémon con cui è entrato in contatto."
+    "description": "La pelledura del Pokémon infligge danno agli attaccanti che lo colpiscono con mosse a contatto per 1/8 dei suoi PS massimi."
   },
   "wonderGuard": {
     "name": "Magidifesa",
@@ -153,7 +153,7 @@
   },
   "innerFocus": {
     "name": "Forza Interiore",
-    "description": "La capacità di concentrazione del Pokémon evita che tentenni per gli attacchi subiti e lo protegge dall’effetto di Prepotenza."
+    "description": "L'intensa concentrazione del Pokémon evita che venga fatto tentennare o che subisca Prepotenza."
   },
   "magmaArmor": {
     "name": "Magmascudo",
@@ -177,15 +177,15 @@
   },
   "sandStream": {
     "name": "Sabbiafiume",
-    "description": "Quando il Pokémon entra in campo, scatena una tempesta di sabbia."
+    "description": "Il Pokémon evoca una tempesta di sabbia per 5 turni quando entra in battaglia."
   },
   "pressure": {
     "name": "Pressione",
-    "description": "Il Pokémon mette pressione agli avversari, facendogli consumare un PP in più quando usano le loro mosse."
+    "description": "Mette sotto pressione i Pokémon avversari, obbligandoli a spendere 1 PP in più quando usa una mossa contro di essa."
   },
   "thickFat": {
     "name": "Grassospesso",
-    "description": "Il Pokémon è protetto da uno spesso strato di grasso che dimezza il danno causato da mosse di tipo Fuoco e Ghiaccio."
+    "description": "Il Pokémon viene protetto da un grosso strato di grasso, che dimezza il danno preso dalle mosse di tipo Fuoco e Ghiaccio."
   },
   "earlyBird": {
     "name": "Sveglialampo",
@@ -201,7 +201,7 @@
   },
   "keenEye": {
     "name": "Sguardofermo",
-    "description": "La vista acuta del Pokémon impedisce che la sua precisione diminuisca, e ignora aumenti all’evasione del bersaglio."
+    "description": "Gli occhi fermi del Pokémon i cambiamenti all'evasione del bersaglio ed evita che ci sia una riduzione dell'accuratezza."
   },
   "hyperCutter": {
     "name": "Ipertaglio",
@@ -321,7 +321,7 @@
   },
   "snowCloak": {
     "name": "Mantelneve",
-    "description": "L’elusione aumenta del 20% quando nevica o grandina. Il Pokémon non subisce danni dalla grandine."
+    "description": "Aumenta l'evasione del Pokémon del 25% sotto neve o grandine. Inoltre il Pokémon non prende danno sotto grandine."
   },
   "gluttony": {
     "name": "Voracità",
@@ -457,7 +457,7 @@
   },
   "iceBody": {
     "name": "Corpogelo",
-    "description": "Il Pokémon recupera ¹⁄₁₆ dei suoi PS massimi alla fine di ogni turno quando nevica o grandina, e non subisce danni dalla grandine."
+    "description": "Il Pokémon recupera 1/16 dei suoi PS massimi alla fine di ogni turno sotto neve o grandine. Inoltre il Pokémon non subisce danno sotto grandine."
   },
   "solidRock": {
     "name": "Solidroccia",
@@ -485,7 +485,7 @@
   },
   "flowerGift": {
     "name": "Regalfiore",
-    "description": "Se la luce del sole è intensa, aumenta l’Attacco e la Difesa Speciale del Pokémon e dei suoi alleati del 50%."
+    "description": "Aumenta le statistiche di Attacco e Difesa Speciale del Pokémon e dei suoi alleati del 50% sotto sole cocente."
   },
   "badDreams": {
     "name": "Sogniamari",
@@ -521,7 +521,7 @@
   },
   "healer": {
     "name": "Curacuore",
-    "description": "Ha 30% di probabilità di curare i problemi di stato degli alleati alla fine di ogni turno."
+    "description": "Il Pokémon ha un 50% di chance di curare le condizioni di stato dei suoi alleati alla fine di ogni turno."
   },
   "friendGuard": {
     "name": "Amicoscudo",
@@ -557,7 +557,7 @@
   },
   "telepathy": {
     "name": "Telepatia",
-    "description": "Il Pokémon prevede ed evita gli attacchi degli alleati al suo fianco nella lotta."
+    "description": "Il Pokémon anticipa ed evade gli attacchi dei suoi alleati."
   },
   "moody": {
     "name": "Altalena",
@@ -581,7 +581,7 @@
   },
   "sandRush": {
     "name": "Remasabbia",
-    "description": "Se c’è una tempesta di sabbia, la Velocità raddoppia. Il Pokémon non subisce danni dalle tempeste di sabbia."
+    "description": "Raddoppia la statistica di Velocità del Pokémon in una tempesta di sabbia. Inoltre il Pokémon non prende danno in una tempesta di sabbia."
   },
   "wonderSkin": {
     "name": "Splendicute",
@@ -633,7 +633,7 @@
   },
   "sandForce": {
     "name": "Silicoforza",
-    "description": "Potenzia le mosse di tipo Roccia, Terra e Acciaio del 30% durante le tempeste di sabbia. Il Pokémon non subisce danni dalle tempeste di sabbia."
+    "description": "Aumenta la potenza delle mosse di tipo Roccia, Terra e Acciaio del Pokémon del 30% sotto tempesta di sabbia. Inoltre il Pokémon non prende danno sotto tempesta di sabbia."
   },
   "ironBarbs": {
     "name": "Spineferrate",
@@ -645,7 +645,7 @@
   },
   "victoryStar": {
     "name": "Vittorstella",
-    "description": "Aumenta la precisione degli alleati al suo fianco in lotta del 10%."
+    "description": "Il Pokémon e i suoi alleati aumentano la loro accuratezza del 10%."
   },
   "turboblaze": {
     "name": "Piroturbina",
@@ -661,7 +661,7 @@
   },
   "flowerVeil": {
     "name": "Fiorvelo",
-    "description": "Se il Pokémon o gli alleati al suo fianco sono di tipo Erba, diventano immuni alla diminuzione delle statistiche e ai problemi di stato."
+    "description": "Se il Pokémon o un suo alleato sono di tipo Erba, sono immuni alle condizioni di stato e non possono ricevere una riduzione alle statistiche."
   },
   "cheekPouch": {
     "name": "Guancegonfie",
@@ -697,7 +697,7 @@
   },
   "sweetVeil": {
     "name": "Dolcevelo",
-    "description": "Rende il Pokémon e gli alleati al suo fianco immuni al sonno."
+    "description": "Il Pokémon e i suoi alleati non possono diventare sonnolenti e addormentarsi."
   },
   "stanceChange": {
     "name": "Accendilotta",
@@ -737,7 +737,7 @@
   },
   "parentalBond": {
     "name": "Amorefiliale",
-    "description": "Il Pokémon attacca due volte, e il secondo attacco infligge 25% del danno normale. Non ha effetto sulle mosse multicolpo e sulle mosse che bersagliano più Pokémon."
+    "description": "Quando il Pokémon attacca, i suoi parenti si aggiungono per un attacco successivo con un 1/4 della potenza del primo attacco. Ciò non accade per mosse multicolpo o che colpiscono Pokémon multipli."
   },
   "darkAura": {
     "name": "Auratetra",
@@ -805,7 +805,7 @@
   },
   "slushRush": {
     "name": "Spalaneve",
-    "description": "Se grandina, la Velocità aumenta. Il Pokémon non subisce danni dalla grandine."
+    "description": "Raddoppia la statistica di Velocità del Pokémon sotto neve o grandine. Inoltre il Pokémon non subisce danno sotto grandine."
   },
   "longReach": {
     "name": "Distacco",
@@ -817,7 +817,7 @@
   },
   "triage": {
     "name": "Primacura",
-    "description": "Le mosse che ripristinano i PS del Pokémon acquistano priorità alta."
+    "description": "Aumenta la priorità delle mosse curative del Pokémon di 3 livelli."
   },
   "galvanize": {
     "name": "Pellelettro",
@@ -853,7 +853,7 @@
   },
   "queenlyMajesty": {
     "name": "Regalità",
-    "description": "L’aura di regalità del Pokémon impedisce al nemico di attaccare lui o gli alleati al suo fianco con mosse che hanno priorità alta."
+    "description": "La maestosità del Pokémon mette sotto pressione gli avversari e gli impedisce di usare mosse con priorità contro il Pokémon e i suoi alleati."
   },
   "innardsOut": {
     "name": "Espellinterno",
@@ -865,7 +865,7 @@
   },
   "battery": {
     "name": "Batteria",
-    "description": "Aumenta l’attacco speciale degli alleati al suo fianco del 30% quando usano mosse speciali."
+    "description": "Potenzia le mosse speciali usate dagli alleati del 30%."
   },
   "fluffy": {
     "name": "Morbidone",
@@ -873,7 +873,7 @@
   },
   "dazzling": {
     "name": "Corposgargiante",
-    "description": "Il Pokémon sbalordisce il nemico e non gli permette di attaccare lui o gli alleati al suo fianco con mosse che hanno priorità alta."
+    "description": "Il Pokémon abbaglia i suoi avversari, impedendogli di usare mosse di priorità contro il Pokémon e i suoi alleati."
   },
   "soulHeart": {
     "name": "Cuoreanima",
@@ -885,11 +885,11 @@
   },
   "receiver": {
     "name": "Ricezione",
-    "description": "Il Pokémon acquisisce l’abilità di un alleato andato KO."
+    "description": "Il Pokémon cambia la sua Abilità per combaciare con quella di un suo alleato sconfitto in una Doppia Battaglia."
   },
   "powerOfAlchemy": {
     "name": "Forza Chimica",
-    "description": "Il Pokémon trasforma la propria abilità in quella di un alleato andato KO."
+    "description": "Il Pokémon cambia la sua Abilità per combaciare con quella di un suo alleato sconfitto in una Doppia Battaglia."
   },
   "beastBoost": {
     "name": "Ultraboost",
@@ -993,7 +993,7 @@
   },
   "powerSpot": {
     "name": "Fonte Energetica",
-    "description": "Gli alleati al suo fianco infliggono 30% di danni in più."
+    "description": "Il solo fatto di essere accanto al Pokémon potenzia le mosse del suo alleato del 30%."
   },
   "mimicry": {
     "name": "Mimetismo",
@@ -1005,7 +1005,7 @@
   },
   "steelySpirit": {
     "name": "Spiritoferreo",
-    "description": "Potenzia gli attacchi di tipo Acciaio del Pokémon e degli alleati al suo fianco del 50%."
+    "description": "Aumenta la potenza delle mosse di tipo Acciaio usato dal Pokémon e dei suoi alleati del 50%."
   },
   "perishBody": {
     "name": "Ultimotocco",
@@ -1025,7 +1025,7 @@
   },
   "pastelVeil": {
     "name": "Pastelvelo",
-    "description": "Protegge il Pokémon e gli alleati al suo fianco dai problemi di stato causati dal veleno."
+    "description": "Il Pokémon e i suoi alleati vengono protetti dall'essere avvelenati normalmente o pesantemente."
   },
   "hungerSwitch": {
     "name": "Pancialterna",
@@ -1173,7 +1173,7 @@
   },
   "costar": {
     "name": "Coprotagonismo",
-    "description": "Quando il Pokémon entra in campo, copia le modifiche alle statistiche dell’alleato."
+    "description": "Quando il Pokémon entra in battaglia, copia i cambi alle statistiche di un alleato."
   },
   "toxicDebris": {
     "name": "Mantossina",
@@ -1181,7 +1181,7 @@
   },
   "armorTail": {
     "name": "Codarmatura",
-    "description": "La misteriosa coda che avvolge la testa del Pokémon impedisce agli avversari di usare mosse che hanno priorità alta contro di lui o i suoi alleati."
+    "description": "Una coda misteriosa che copre la testa del Pokémon impedisce gli avversari dall'usare mosse di priorità contro il Pokémon o i suoi alleati."
   },
   "earthEater": {
     "name": "Mangiaterra",

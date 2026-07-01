@@ -1,7 +1,7 @@
 {
   "intro": "是GTS系统的交互面板！",
-  "title": "全球交换系统（GTS）",
-  "description": "啊，GTS！科学的奇迹，\n你可以与世界各地的任何人联系，\n并与他们交换宝可梦！\n今天你的交换运会如何呢？",
+  "title": "全球交换系统（ＧＴＳ）",
+  "description": "啊，ＧＴＳ！科学的奇迹，\n你可以与世界各地的任何人联系，\n并与他们交换宝可梦！\n今天你的交换运会如何呢？",
   "query": "你要怎么做？",
   "option": {
     "1": {
@@ -27,6 +27,6 @@
   },
   "pokemonTradeSelected": "{{tradedPokemon}}将发送给{{tradeTrainerName}}。",
   "pokemonTradeGoodbye": "再见，{{tradedPokemon}}！",
-  "itemTradeSelected": "{{chosenItem}}将发送给{{tradeTrainerName}}.$.@d{64}.@d{64}.@d{64}\\n@s{level_up_fanfare}交易成功！$你从{{tradeTrainerName}}那得到了{{itemName}}！",
+  "itemTradeSelected": "{{chosenItem}}将发送给{{tradeTrainerName}}.$.@d{64}.@d{64}.@d{64}@s{level_up_fanfare}\n交易成功！$你从{{tradeTrainerName}}那得到了{{itemName}}！",
   "tradeReceived": "@s{evolution_fanfare}{{tradeTrainerName}}已发送{{received}}！"
 }

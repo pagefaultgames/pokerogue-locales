@@ -29,7 +29,7 @@
   },
   "sandVeil": {
     "name": "Voile Sable",
-    "description": "Lors des tempêtes de sable, l’Esquive du Pokémon est multipliée par 1,25. Ne prend également aucun dégâts des tempêtes de sable."
+    "description": "Lors des tempêtes de sable, l’Esquive du Pokémon est multipliée par 1,25. Ne prend également aucun dégât des tempêtes de sable."
   },
   "static": {
     "name": "Statik",
@@ -349,7 +349,7 @@
   },
   "download": {
     "name": "Télécharge",
-    "description": "Le Pokémon compare la Défense et la Défense Spéciale de l’adversaire et, en fonction de la stat la plus basse, il augmente sa propre Attaque ou Attaque Spéciale."
+    "description": "Le Pokémon compare la Défense et la Défense Spéciale de l’adversaire et, en fonction de la stat la plus basse, il augmente sa propre Attaque ou Attaque Spéciale de 1 cran."
   },
   "ironFist": {
     "name": "Poing de Fer",
@@ -473,7 +473,7 @@
   },
   "frisk": {
     "name": "Fouille",
-    "description": "Quand le Pokémon arrive sur le terrain, il peut identifier l’objet que tient l’adversaire."
+    "description": "Quand le Pokémon arrive sur le terrain, il peut identifier le talent de l’adversaire."
   },
   "reckless": {
     "name": "Téméraire",
@@ -489,7 +489,7 @@
   },
   "badDreams": {
     "name": "Mauvais Rêve",
-    "description": "Les ennemis endormis perdent 12,5% de leur PV totaux à chaque tour."
+    "description": "Les ennemis endormis perdent 12,5% de leur PV max à chaque tour."
   },
   "pickpocket": {
     "name": "Pickpocket",
@@ -617,7 +617,7 @@
   },
   "rattled": {
     "name": "Phobique",
-    "description": "Si le Pokémon est touché par le talent Intimidation ou une attaque de type Ténèbres, Spectre ou Insecte, sa phobie se révèle et sa Vitesse augmente."
+    "description": "Si le Pokémon est touché par le talent Intimidation ou une attaque de type Ténèbres, Spectre ou Insecte, sa phobie se révèle et sa Vitesse augmente de 1 cran."
   },
   "magicBounce": {
     "name": "Miroir Magik",
@@ -637,7 +637,7 @@
   },
   "ironBarbs": {
     "name": "Épine de Fer",
-    "description": "Lorsque le Pokémon subit une attaque directe, l’attaquant se blesse et perd 12,5% de ses PV totaux."
+    "description": "Lorsque le Pokémon subit une attaque directe, l’attaquant se blesse et perd 12,5% de ses PV max."
   },
   "zenMode": {
     "name": "Mode Transe",
@@ -829,7 +829,7 @@
   },
   "schooling": {
     "name": "Banc",
-    "description": "Le Pokémon se rassemble avec ses congénères quand il atteint le N. 20. Quand il ne lui reste que 25% de ses PV totaux ou moins, le banc se disperse."
+    "description": "Le Pokémon se rassemble avec ses congénères quand il atteint le N. 20. Quand il ne lui reste que 25% de ses PV max ou moins, le banc se disperse."
   },
   "disguise": {
     "name": "Fantômasque",
@@ -877,11 +877,11 @@
   },
   "soulHeart": {
     "name": "Animacœur",
-    "description": "Augmente l’Attaque Spéciale du Pokémon lorsqu’un autre Pokémon est mis K.O."
+    "description": "Augmente l’Attaque Spéciale du Pokémon de 1 cran lorsqu’un autre Pokémon est mis K.O."
   },
   "tanglingHair": {
     "name": "Mèche Rebelle",
-    "description": "Baisse la Vitesse de l’attaquant lorsque le Pokémon subit une attaque directe."
+    "description": "Baisse la Vitesse de l’attaquant de 1 cran lorsque le Pokémon subit une attaque directe."
   },
   "receiver": {
     "name": "Receveur",
@@ -933,11 +933,11 @@
   },
   "intrepidSword": {
     "name": "Lame Indomptable",
-    "description": "Augmente l’Attaque du Pokémon quand il entre au combat."
+    "description": "Augmente l’Attaque du Pokémon de 1 cran quand il entre au combat."
   },
   "dauntlessShield": {
     "name": "Égide Inflexible",
-    "description": "Augmente la Défense du Pokémon quand il entre au combat."
+    "description": "Augmente la Défense du Pokémon de 1 cran quand il entre au combat."
   },
   "libero": {
     "name": "Libéro",
@@ -949,7 +949,7 @@
   },
   "cottonDown": {
     "name": "Effilochage",
-    "description": "Quand le Pokémon est touché par une attaque, il dissémine des aigrettes qui diminuent la Vitesse de tout le monde, sauf la sienne."
+    "description": "Quand le Pokémon est touché par une attaque, il dissémine des aigrettes qui diminuent la Vitesse de tout le monde de 1 cran, sauf la sienne."
   },
   "propellerTail": {
     "name": "Propulseur",
@@ -961,7 +961,7 @@
   },
   "gulpMissile": {
     "name": "Dégobage",
-    "description": "Quand le Pokémon utilise Surf ou Plongée, il revient avec une proie. Lorsqu’il subit des dégâts par la suite, il attaque en recrachant sa proie et fait perdre à la cible 25% de ses PV totaux. Peut également baisser sa Défense ou la paralyser en fonction de la proie recrachée."
+    "description": "Quand le Pokémon utilise Surf ou Plongée, il revient avec une proie. Lorsqu’il subit des dégâts par la suite, il attaque en recrachant sa proie et fait perdre à la cible 25% de ses PV max. Peut également baisser sa Défense ou la paralyser en fonction de la proie recrachée."
   },
   "stalwart": {
     "name": "Nerfs d’Acier",
@@ -1037,7 +1037,7 @@
   },
   "unseenFist": {
     "name": "Poing Invisible",
-    "description": "Quand le Pokémon utilise une capacité à contact, il ignore les effets de protection des adversaires et inflige 1/4 des dégâts que la capacité aurait normalement infligés. Les autres effets des adversaires se déclenchent toujours."
+    "description": "Quand le Pokémon utilise une capacité à contact, il ignore les effets de protection des adversaires et inflige 1/4 des dégâts que la capacité aurait normalement infligés."
   },
   "curiousMedicine": {
     "name": "Breuvage Suspect",
@@ -1053,11 +1053,11 @@
   },
   "chillingNeigh": {
     "name": "Blanche Ruade",
-    "description": "Quand le Pokémon met un ennemi K.O., il émet un hennissement glaçant, ce qui augmente son Attaque."
+    "description": "Quand le Pokémon met un ennemi K.O., il émet un hennissement glaçant, ce qui augmente son Attaque de 1 cran."
   },
   "grimNeigh": {
     "name": "Sombre Ruade",
-    "description": "Quand le Pokémon met un ennemi K.O., il émet un hennissement terrifiant qui augmente son Attaque Spéciale."
+    "description": "Quand le Pokémon met un ennemi K.O., il émet un hennissement terrifiant qui augmente son Attaque Spéciale de 1 cran."
   },
   "asOneGlastrier": {
     "name": "Osmose Équine",
@@ -1077,11 +1077,11 @@
   },
   "thermalExchange": {
     "name": "Thermodynamique",
-    "description": "Lorsque le Pokémon est touché par une capacité de type Feu, son Attaque augmente. Il ne peut pas être brulé."
+    "description": "Lorsque le Pokémon est touché par une capacité de type Feu, son Attaque augmente de 1 cran. Il ne peut pas être brulé."
   },
   "angerShell": {
     "name": "Courroupace",
-    "description": "Le Pokémon enrage s’il a moins de la moitié de ses PV après avoir subi une attaque. Sa Déf. et sa Déf. Spé. baissent, et son Atq., son Atq. Spé. et sa Vit. augmentent."
+    "description": "Le Pokémon enrage s’il a moins de la moitié de ses PV après avoir subi une attaque. Sa Défense et sa Défense Spéciale baissent de 1 cran, et son Attaque, son Attaque Spéciale et sa Vitesse augmentent de 1 cran."
   },
   "purifyingSalt": {
     "name": "Sel Purificateur",
@@ -1089,7 +1089,7 @@
   },
   "wellBakedBody": {
     "name": "Bien Cuit",
-    "description": "Si le Pokémon est touché par une capacité de type Feu, il ne subit aucun dégât et sa Défense augmente beaucoup."
+    "description": "Si le Pokémon est touché par une capacité de type Feu, il ne subit aucun dégât et sa Défense augmente de 2 crans."
   },
   "windRider": {
     "name": "Aéroporté",
@@ -1117,7 +1117,7 @@
   },
   "electromorphosis": {
     "name": "Grecharge",
-    "description": "Quand le Pokémon subit des dégâts d’une capacité, il obtient un boost Électrik."
+    "description": "Quand le Pokémon subit des dégâts d’une capacité, la puissance de sa prochaine attaque Électrik est doublée."
   },
   "protosynthesis": {
     "name": "Paléosynthèse",
@@ -1209,19 +1209,19 @@
   },
   "embodyAspectTeal": {
     "name": "Force Mémorielle",
-    "description": "Le Pokémon fait briller le Masque Turquoise en puisant dans ses souvenirs, ce qui augmente sa Vitesse."
+    "description": "Le Pokémon fait briller le Masque Turquoise en puisant dans ses souvenirs, ce qui augmente sa Vitesse de 1 cran."
   },
   "embodyAspectWellspring": {
     "name": "Force Mémorielle",
-    "description": "Le Pokémon fait briller le Masque du Puits en puisant dans ses souvenirs, ce qui augmente sa Défense Spéciale."
+    "description": "Le Pokémon fait briller le Masque du Puits en puisant dans ses souvenirs, ce qui augmente sa Défense Spéciale de 1 cran."
   },
   "embodyAspectHearthflame": {
     "name": "Force Mémorielle",
-    "description": "Le Pokémon fait briller le Masque du Fourneau en puisant dans ses souvenirs, ce qui augmente son Attaque."
+    "description": "Le Pokémon fait briller le Masque du Fourneau en puisant dans ses souvenirs, ce qui augmente son Attaque de 1 cran."
   },
   "embodyAspectCornerstone": {
     "name": "Force Mémorielle",
-    "description": "Le Pokémon fait briller le Masque de la Pierre en puisant dans ses souvenirs, ce qui augmente sa Défense."
+    "description": "Le Pokémon fait briller le Masque de la Pierre en puisant dans ses souvenirs, ce qui augmente sa Défense de 1 cran."
   },
   "teraShift": {
     "name": "Téramorphose",
@@ -1241,7 +1241,7 @@
   },
   "piercingDrill": {
     "name": "Transperceuse",
-    "description": "Quand le Pokémon utilise une capacité à contact, il ignore les effets de protection des adversaires et inflige 1/4 des dégâts que la capacité aurait normalement infligés. Les autres effets des adversaires se déclenchent toujours."
+    "description": "Quand le Pokémon utilise une capacité à contact, il ignore les effets de protection des adversaires et inflige 1/4 des dégâts que la capacité aurait normalement infligés."
   },
   "dragonize": {
     "name": "Peau Draconique",

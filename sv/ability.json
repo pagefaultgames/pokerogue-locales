@@ -413,7 +413,7 @@
   },
   "moldBreaker": {
     "name": "Utanför ramarna",
-    "description": "Denna pokémon kan utföra tekniker på motståndaren utan att hindras av dess särdrag."
+    "description": "Denna pokémon kan utföra tekniker utan att hindras av motståndarens särdrag (med vissa undantag)."
   },
   "superLuck": {
     "name": "Lyckost",
@@ -480,7 +480,7 @@
     "description": "Denna pokémons tekniker med bakslag är 20 % starkare än vanligt."
   },
   "multitype": {
-    "name": "Multityp",
+    "name": "Omnityp",
     "description": "Denna pokémons typ ändras efter vilken sorts platta den bär."
   },
   "flowerGift": {
@@ -609,7 +609,7 @@
   },
   "moxie": {
     "name": "Överlägsen",
-    "description": "När denna pokémon får en motståndare att svimma känner den sig överlägsen, vilket ökar dess attackförmåga."
+    "description": "När denna pokémon golvar en motståndare känner den sig överlägsen, vilket ökar dess attackförmåga."
   },
   "justified": {
     "name": "Ädelmod",
@@ -649,11 +649,11 @@
   },
   "turboblaze": {
     "name": "Turbobrand",
-    "description": "Denna pokémon kan utföra tekniker på motståndaren utan att hindras av dess särdrag."
+    "description": "Denna pokémon kan utföra tekniker utan att hindras av motståndarens särdrag (med vissa undantag)."
   },
   "teravolt": {
     "name": "Teravolt",
-    "description": "Denna pokémon kan utföra tekniker på motståndaren utan att hindras av dess särdrag."
+    "description": "Denna pokémon kan utföra tekniker utan att hindras av motståndarens särdrag (med vissa undantag)."
   },
   "aromaVeil": {
     "name": "Aromhölje",
@@ -769,11 +769,11 @@
   },
   "wimpOut": {
     "name": "Fegis",
-    "description": "Denna pokémon fegar ur när dess HP sänks till 50% eller lägre och byter av sig själv."
+    "description": "Denna pokémon fegar ur och byter av sig själv när dess HP sänks till ½ eller lägre."
   },
   "emergencyExit": {
     "name": "Krisförebyggande",
-    "description": "Denna pokémon märker av fara när dess HP sänks till 50% eller lägre och byter då av sig själv."
+    "description": "Denna pokémon märker av fara och byter av sig själv när dess HP sänks till ½ eller lägre."
   },
   "waterCompaction": {
     "name": "Vattenkompaktering",
@@ -837,7 +837,7 @@
   },
   "battleBond": {
     "name": "Supersynergi",
-    "description": "En gång per inbyte ökas denna pokémons attackförmåga, sp. atk-förmåga och snabbhet när den besegrar en motståndare. Om Greninja har detta särdrag förvandlas den till istället till Ash-Greninja när den besegrar en moståndare."
+    "description": "En gång per inbyte ökas denna pokémons attackförmåga, sp. atk-förmåga och snabbhet när den golvar en motståndare. Om Greninja har detta särdrag förvandlas den till istället till Ash-Greninja när den golvar en moståndare."
   },
   "powerConstruct": {
     "name": "Cellsvärm",
@@ -908,11 +908,11 @@
     "description": "Denna pokémon skapar en Pyskoterräng när den skickas in i strid."
   },
   "mistySurge": {
-    "name": "Dimmgenerering",
+    "name": "Mistgenerering",
     "description": "Denna pokémon skapar en Dimmterräng när den skickas in i strid."
   },
   "grassySurge": {
-    "name": "Växtgenerering",
+    "name": "Gräsgenerering",
     "description": "Denna pokémon skapar en Grästerräng när den skickas in i strid."
   },
   "fullMetalBody": {
@@ -928,7 +928,7 @@
     "description": "Supereffektiva attacker mot denna pokémon sänks i kraft med 25%. Denna effekt kan inte ignoreras av andra tekniker eller särdrag."
   },
   "neuroforce": {
-    "name": "Cerebrokraft",
+    "name": "Cerebralmakt",
     "description": "Denna pokémons supereffektiva tekniker ökar i kraft med 25%"
   },
   "intrepidSword": {
@@ -957,7 +957,7 @@
   },
   "mirrorArmor": {
     "name": "Spegelrustning",
-    "description": "Denna pokémon reflekterar tillbaka endast de förmågesänkande effekterna som den träffas av."
+    "description": "Denna pokémon studsar tillbaka de förmågesänkande effekterna den träffas av på motståndaren som orsakade dem."
   },
   "gulpMissile": {
     "name": "Glupskott",
@@ -1053,11 +1053,11 @@
   },
   "chillingNeigh": {
     "name": "Isande gnägg",
-    "description": "När denna pokémon besegrar en motståndare yttrar den ett isande gnägg som ökar dess attackförmåga."
+    "description": "När denna pokémon golvar en motståndare yttrar den ett isande gnägg som ökar dess attackförmåga."
   },
   "grimNeigh": {
     "name": "Grymt gnägg",
-    "description": "När denna pokémon besegrar en motståndare yttrar den ett grymt gnägg som ökar dess sp. atk-förmåga."
+    "description": "När denna pokémon golvar en motståndare yttrar den ett grymt gnägg som ökar dess sp. atk-förmåga."
   },
   "asOneGlastrier": {
     "name": "Enade",
@@ -1249,7 +1249,7 @@
   },
   "eelevate": {
     "name": "Ålflight",
-    "description": "Denna pokémon svävar, så den är immun mot jordtyptekniker samt Fotanglar, Giftanglar och Klibbnät. När den besegrar en motståndare med en attack ökas den starkaste förmåga med 1 steg."
+    "description": "Denna pokémon svävar, så den är immun mot jordtyptekniker samt Fotanglar, Giftanglar och Klibbnät. När den golvar en motståndare med en attack ökas den starkaste förmåga med 1 steg."
   },
   "megaSol": {
     "name": "Supersolär",
