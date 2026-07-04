@@ -6,7 +6,7 @@
     "name": "Nhiễm Độc",
     "description": "bị trúng độc",
     "obtain": "{{pokemonNameWithAffix}}\nđang bị trúng độc!",
-    "obtainSource": "{{pokemonNameWithAffix}}\nđang bị trúng độc bởi {{sourceText}}!",
+    "obtainSource": "{{pokemonNameWithAffix}}\nbị hạ độc bởi {{sourceText}}!",
     "activation": "{{pokemonNameWithAffix}} bị thương\nbởi độc!",
     "overlap": "{{pokemonNameWithAffix}} đang\nbị trúng độc rồi!",
     "heal": "{{pokemonNameWithAffix}} đã\nđược cứu khỏi độc tố!"
@@ -24,7 +24,7 @@
     "name": "Tê Liệt",
     "description": "tê liệt",
     "obtain": "{{pokemonNameWithAffix}} bị tê liệt,\ncó khả năng nó không thể di chuyển!",
-    "obtainSource": "{{pokemonNameWithAffix}} bị tê liệt bởi {{sourceText}}!\ncó khả năng không thể di chuyển được!",
+    "obtainSource": "{{pokemonNameWithAffix}} bị tê liệt bởi {{sourceText}}!\nCó khả năng sẽ không di chuyển được!",
     "activation": "{{pokemonNameWithAffix}} bị tê liệt!\nNó không thể di chuyển được!",
     "overlap": "{{pokemonNameWithAffix}} đã\nbị tê liệt rồi!",
     "heal": "{{pokemonNameWithAffix}} đã được\nhồi phục khỏi tê liệt!"
@@ -46,7 +46,7 @@
     "activation": "{{pokemonNameWithAffix}} bị\nđóng thành băng!",
     "overlap": "{{pokemonNameWithAffix}} đang\nbị đóng băng rồi!",
     "heal": "{{pokemonNameWithAffix}} đã\ntan băng!",
-    "healByMove": "{{pokemonNameWithAffix}}’s {{moveName}}\nlàm chảy tan băng!"
+    "healByMove": "{{moveName}} của {{pokemonNameWithAffix}}\nđã làm rã băng!"
   },
   "burn": {
     "name": "Bỏng",
