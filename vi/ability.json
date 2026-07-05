@@ -75,7 +75,7 @@
     "description": "Sức mạnh bí ẩn của nó chỉ cho phép các chiêu thức siêu hiệu quả tấn công Pokémon."
   },
   "levitate": {
-    "description": "Pokémon này bay lơ lửng trên không, giúp nó miễn nhiễm với các chiêu thức hệ Đất, cũng như Gai Nhọn, Gai Độc và Mạng Nhện Dính."
+    "description": "Pokémon này bay lơ lửng trên không, giúp nó miễn nhiễm với các chiêu thức hệ Đất, cũng như Gai Nhọn, Gai Độc và Tơ Dính."
   },
   "effectSpore": {
     "description": "Khi Pokémon bị trúng đòn tấn công tiếp xúc, kẻ tấn công có 30% khả năng bị nhiễm độc, tê liệt hoặc ngủ gục."
@@ -105,7 +105,7 @@
     "description": "Bằng cách chiếu sáng môi trường xung quanh, Pokémon này bỏ qua những thay đổi về khả năng né tránh của mục tiêu và độ chuẩn của nó không thể bị giảm. Nếu Pokémon này đứng đầu trong đội hình, nó sẽ làm tăng khả năng xảy ra các trận đấu đôi."
   },
   "trace": {
-    "description": "Khi Pokémon này vào trận, nó sẽ sao chép Đặc Tính của đối phương."
+    "description": "Khi Pokémon này vào trận, nó sẽ sao chép Đặc tính của đối phương."
   },
   "hugePower": {
     "description": "Tăng gấp đôi sức mạnh các chiêu thức vật lý của Pokémon."
@@ -171,7 +171,7 @@
     "description": "Chỉ số T.công Đ.b. của Pokémon được tăng 50% nếu có đồng minh sở hữu Đặc tính Plus hoặc Minus cùng tham chiến."
   },
   "minus": {
-    "description": "Chỉ số T.công Đ.b. của Pokémon được tăng 50% nếu có đồng minh sở hữu Khả năng Cộng hoặc Trừ tham gia trận chiến."
+    "description": "Chỉ số T.công Đ.b. của Pokémon được tăng 50% nếu có đồng đội sở hữu Đặc tính Plus hoặc Minus tham chiến."
   },
   "forecast": {
     "description": "Pokémon này biến đổi theo thời tiết để thay đổi hệ thành Nước, Lửa hoặc Băng."
@@ -627,7 +627,7 @@
     "description": "Mỗi trận chiến, lớp màn bao phủ Pokémon có thể bảo vệ nó khỏi một đòn tấn công với cái giá là mất đi ⅛ lượng HP tối đa."
   },
   "battleBond": {
-    "description": "Mỗi lần đổi Pokémon và hạ gục mục tiêu, chỉ số Tấn công, T.công Đ.b. và Tốc độ của nó sẽ được tăng lên. Nếu Greninja có khả năng này, nó sẽ biến hình thành Satoshi-Greninja mỗi khi hạ gục mục tiêu."
+    "description": "Mỗi lần đổi Pokémon và hạ gục mục tiêu, chỉ số Tấn công, T.công Đ.b. và Tốc độ của nó sẽ được tăng lên. Nếu Greninja có đặc tính này, nó sẽ biến hình thành Satoshi-Greninja mỗi khi hạ gục mục tiêu."
   },
   "powerConstruct": {
     "description": "Các tế bào tập hợp lại để hỗ trợ Pokémon khi HP của nó giảm xuống còn ½ hoặc thấp hơn, khiến nó biến đổi thành Dạng Hoàn Chỉnh."
@@ -663,10 +663,10 @@
     "description": "Khi Pokémon bị trúng đòn tấn công tiếp xúc, chỉ số Tốc độ của kẻ tấn công sẽ bị giảm."
   },
   "receiver": {
-    "description": "Pokémon này sẽ thay đổi khả năng của mình để phù hợp với khả năng của đồng minh bị đánh bại trong trận đấu đôi."
+    "description": "Pokémon này sẽ thay đổi Đặc tính của bản thân thành Đặc tính của đồng đội đã gục ngã trong một trận đấu đôi."
   },
   "powerOfAlchemy": {
-    "description": "Pokémon này sẽ thay đổi khả năng của mình để phù hợp với khả năng của đồng minh bị đánh bại trong trận đấu đôi."
+    "description": "Pokémon này sẽ thay đổi Đặc tính của bản thân thành Đặc tính của đồng đội đã gục ngã trong một trận đấu đôi."
   },
   "beastBoost": {
     "description": "Tăng chỉ số mạnh nhất của Pokémon mỗi khi nó hạ gục mục tiêu."
@@ -882,7 +882,7 @@
     "description": "Khi Pokémon tham chiến, nó sẽ sao chép toàn bộ thay đổi chỉ số của đồng đội."
   },
   "toxicDebris": {
-    "description": "Rải đinh độc dưới chân đội đối phương khi Pokémon nhận sát thương từ các chiêu thức vật lý."
+    "description": "Văng gai độc rơi xuống chân đội đối phương khi Pokémon nhận sát thương từ các chiêu thức vật lý."
   },
   "armorTail": {
     "description": "Chiếc đuôi kỳ bí che phủ đầu của Pokémon khiến đối thủ không thể sử dụng các chiêu thức có độ ưu tiên nhắm vào Pokémon này hoặc đồng đội của nó."
@@ -936,7 +936,7 @@
     "description": "Các chiêu thức hệ Thường của Pokémon này sẽ trở thành các chiêu thức hệ Rồng và sức mạnh của chúng được tăng thêm 20%."
   },
   "eelevate": {
-    "description": "Pokémon này lơ lửng trên không, giúp nó miễn nhiễm với các chiêu thức hệ Đất, cũng như Gai Nhọn, Gai Độc và Mạng Nhện Dính. Đồng thời, mỗi lần Pokémon hạ gục một đối thủ, chỉ số cao nhất của bản thân sẽ được gia tăng 1 bậc."
+    "description": "Pokémon này lơ lửng trên không, giúp nó miễn nhiễm với các chiêu thức hệ Đất, cũng như Gai Nhọn, Gai Độc và Tơ Dính. Đồng thời, mỗi lần Pokémon hạ gục một đối thủ, chỉ số cao nhất của bản thân sẽ được gia tăng 1 bậc."
   },
   "megaSol": {
     "description": "Dù trời có không nắng gắt thì Pokémon vẫn có thể vận dụng hiệu quả được sức mạnh của các chiêu thức phụ thuộc vào nắng gắt như thể trạng thái thời tiết này đang ở trên sân."
