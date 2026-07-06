@@ -693,7 +693,7 @@
   },
   "curse": {
     "name": "Curse",
-    "effect": "The user boosts its Attack and Defense stats in exchange for lowering its Speed stat. When Ghost types use this move, the user loses ½ of its max HP to inflict a curse on the target, damaging it for ¼ of their max HP at the end of every turn."
+    "effect": "The user boosts its Attack and Defense stats in exchange for lowering its Speed stat. If the user is a Ghost type, it instead loses ½ of its max HP to inflict a curse on the target. A Pokémon inflicted by the curse loses ¼ of its max HP at the end of every turn."
   },
   "flail": {
     "name": "Flail",
@@ -1517,7 +1517,7 @@
   },
   "gastroAcid": {
     "name": "Gastro Acid",
-    "effect": "The user hurls up its stomach acids on the target. The fluid eliminates the effect of the target’s Ability."
+    "effect": "The user hurls up its stomach acids on the target. The fluid eliminates the effect of the target’s Ability and Passive."
   },
   "luckyChant": {
     "name": "Lucky Chant",
@@ -2949,7 +2949,7 @@
   },
   "sappySeed": {
     "name": "Sappy Seed",
-    "effect": "The user grows a gigantic stalk that scatters seeds to attack the target. The Pokémon steals ¹⁄₁₆ of the target’s max HP at the end of every turn."
+    "effect": "The user grows a gigantic stalk that scatters seeds to attack the target. At the end of every turn, ⅛ of the target’s max HP gets absorbed by the user or any Pokémon that takes its place in battle."
   },
   "freezyFrost": {
     "name": "Freezy Frost",
@@ -3285,7 +3285,7 @@
   },
   "fieryWrath": {
     "name": "Fiery Wrath",
-    "effect": "The user transforms its wrath into a fire-like aura to attack. This move has a 30% chance of making targets flinch."
+    "effect": "The user transforms its wrath into a fire-like aura to attack. This move has a 20% chance of making targets flinch."
   },
   "thunderousKick": {
     "name": "Thunderous Kick",
