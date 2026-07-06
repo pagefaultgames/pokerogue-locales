@@ -1,15 +1,24 @@
 {
+  "megaPunch": {
+    "name": "Mega Pięść"
+  },
   "firePunch": {
-    "name": "Ognista Pięść"
+    "name": "Ognista Pięść",
+    "effect": "Przeciwnik zostaje trafiony ognistą pięścią. Atak ma 10% szansy poparzyć cel."
   },
   "icePunch": {
-    "name": "Lodowa Pięść"
+    "name": "Lodowa Pięść",
+    "effect": "Przeciwnik zostaje trafiony pięścią zimną jak lód. Atak ma 10% szansy zamrozić cel."
   },
   "thunderPunch": {
-    "name": "Burzowa Pięść"
+    "name": "Burzowa Pięść",
+    "effect": "Przeciwnik zostaje trafiony elektryczną pięścią. Atak ma 10% szansy sparaliżować cel."
   },
   "scratch": {
     "name": "Drapnięcie"
+  },
+  "guillotine": {
+    "name": "Egzekucja"
   },
   "cut": {
     "name": "Cięcie"
@@ -18,18 +27,31 @@
     "name": "Podmuch"
   },
   "stomp": {
-    "name": "Stąpnięcie",
-    "effect": "Użytkownik depta cel dużą stopą. Może to także wywołać u niego wzdrygnięcie."
+    "name": "Stąpnięcie"
+  },
+  "megaKick": {
+    "name": "Mega Kop"
+  },
+  "jumpKick": {
+    "name": "Kop z Wyskoku",
+    "effect": "Pokémon wyskakuje w powietrze i wymierza przeciwnikowi kopnięcie. Jeśli atak nie trafi, użytkownik traci ½ maksymalanego życia."
+  },
+  "furyAttack": {
+    "name": "Napad Furii"
   },
   "bite": {
-    "name": "Ugryzienie"
+    "name": "Ugryzienie",
+    "effect": "Przeciwnik zostaje ugryziony ostrymi jak brzytwa zębami. Atak ma 30% szansy spowodować wzdrygnięcie."
   },
   "roar": {
     "name": "Ryk"
   },
   "sing": {
-    "name": "Śpiew",
-    "effect": "Użytkownik odśpiewuje kojącą kołysankę, usypiając nią przeciwnika."
+    "name": "Śpiew"
+  },
+  "supersonic": {
+    "name": "Ultradźwięk",
+    "effect": "Pokémon wytwarza dziwne fale dźwiękowe, które mylą przeciwnika."
   },
   "acid": {
     "name": "Kwas"
@@ -38,18 +60,51 @@
     "name": "Miotacz Ognia"
   },
   "mist": {
-    "name": "Mgła"
+    "name": "Mgła",
+    "effect": "Pokémon otacza siebie i swoich sojuszników gęstą mgłą, która zapobiega obniżaniu ich statystyk przez 5 tur."
+  },
+  "hydroPump": {
+    "name": "Pompa Wodna"
+  },
+  "blizzard": {
+    "name": "Śnieżyca"
+  },
+  "peck": {
+    "name": "Dziobnięcie"
+  },
+  "drillPeck": {
+    "name": "Dziobowkręt"
   },
   "counter": {
-    "name": "Kontra",
-    "effect": "Atak, kontrujący wszystkie fizyczne ataki przeciwnika. Zadaje dwukrotność otrzymanych obrażeń."
+    "name": "Kontra"
+  },
+  "strength": {
+    "name": "Siła"
   },
   "growth": {
     "name": "Wzrost"
   },
+  "poisonPowder": {
+    "name": "Trujący Pył",
+    "effect": "Pokémon rozsypuje chmurę trującego pyłu, by zatruć przeciwnika."
+  },
+  "sleepPowder": {
+    "name": "Pył Nasenny",
+    "effect": "Pokémon rozsypuje chmurę pyłu nasennego, by uśpić przeciwnika."
+  },
+  "dragonRage": {
+    "name": "Smocza Furia",
+    "effect": "Cel zostaje trafiony falą czystej złości. Atak zawsze zadaje 40 obrażeń."
+  },
+  "thunderbolt": {
+    "name": "Błyskawica"
+  },
+  "thunder": {
+    "name": "Burza"
+  },
   "rockThrow": {
     "name": "Rzut Kamieniem",
-    "effect": "Użytkownik podnosi kamień z ziemi i rzuca nim w przeciwnika."
+    "effect": "Użytkownik podnosi i rzuca małym kamieniem w celu zadania obrażeń."
   },
   "earthquake": {
     "name": "Trzęsienie ziemi"
@@ -58,7 +113,11 @@
     "name": "Hipnoza"
   },
   "meditate": {
-    "name": "Medytacja"
+    "name": "Medytacja",
+    "effect": "Pokemon medytując budzi ukrytą w głębi swojego ciała moc i zwiększa swój Atak."
+  },
+  "teleport": {
+    "name": "Teleportacja"
   },
   "smokescreen": {
     "name": "Zasłona Dymna"
@@ -66,11 +125,18 @@
   "barrier": {
     "name": "Bariera"
   },
+  "reflect": {
+    "name": "Odbicie"
+  },
   "metronome": {
-    "name": "Metronom"
+    "name": "Metronom",
+    "effect": "Użytkownik kiwa palcem i pobudza swój mózg do użycia losowego ataku."
   },
   "selfDestruct": {
     "name": "Autodestrukcja"
+  },
+  "eggBomb": {
+    "name": "Bomba-Jajo"
   },
   "smog": {
     "name": "Smog"
@@ -81,8 +147,15 @@
   "amnesia": {
     "name": "Amnezja"
   },
+  "softBoiled": {
+    "name": "Jajko na Miękko",
+    "effect": "Odnawia połowę maksymalnego życia użytkownika."
+  },
   "dreamEater": {
     "name": "Pożeranie Snów"
+  },
+  "poisonGas": {
+    "name": "Trujący Gaz"
   },
   "transform": {
     "name": "Transformacja"
@@ -91,10 +164,17 @@
     "name": "Bąbelki"
   },
   "flash": {
-    "name": "Błysk"
+    "name": "Błysk",
+    "effect": "Użytkownik błyska jasnym światłem, co obniża celność przeciwnika."
+  },
+  "crabhammer": {
+    "name": "Krabi Młot"
   },
   "explosion": {
     "name": "Eksplozja"
+  },
+  "bonemerang": {
+    "name": "Kościomerang"
   },
   "rest": {
     "name": "Odpoczynek"
@@ -103,7 +183,11 @@
     "name": "Szkic"
   },
   "thief": {
-    "name": "Kradzież"
+    "name": "Kradzież",
+    "effect": "Użytkownik atakuje i jednocześnie próbuje okraść cel. Atak ma 30% szansy ukraść przedmiot trzymany przez przeciwnika."
+  },
+  "spiderWeb": {
+    "name": "Pajęczyna"
   },
   "nightmare": {
     "name": "Koszmary"
@@ -111,8 +195,18 @@
   "curse": {
     "name": "Klątwa"
   },
+  "octazooka": {
+    "name": "Ośmiozooka"
+  },
+  "icyWind": {
+    "name": "Zawieja"
+  },
   "charm": {
     "name": "Urok"
+  },
+  "spark": {
+    "name": "Iskra",
+    "effect": "Użytkownik atakuje przeciwnika naelektryzowanym uderzeniem. Atak ma 30% szansy sparaliżować cel."
   },
   "present": {
     "name": "Prezent"
@@ -166,8 +260,7 @@
     "name": "Blok"
   },
   "roost": {
-    "name": "Grzęda",
-    "effect": "Użytkownik przysiada na grzędzie i odpoczywa, dzięki czemu odnawia połowę swoich PŻ."
+    "name": "Grzęda"
   },
   "gravity": {
     "name": "Grawitacja"
@@ -185,8 +278,7 @@
     "name": "Kara"
   },
   "telekinesis": {
-    "name": "Telekineza",
-    "effect": "Użytkownik podnosi cel siłą umysłu, przez co staje się on łatwiejszy do trafienia przez trzy tury."
+    "name": "Telekineza"
   },
   "inferno": {
     "name": "Inferno"
@@ -208,8 +300,7 @@
     "name": "Niekończący Się Koszmar"
   },
   "firstImpression": {
-    "name": "Pierwsze Wrażenie",
-    "effect": "Mimo wielkiej mocy, atak ten działa tylko podczas pierwszej tury na polu bitwy użytkownika."
+    "name": "Pierwsze Wrażenie"
   },
   "oceanicOperetta": {
     "name": "Oceaniczna Operetka"

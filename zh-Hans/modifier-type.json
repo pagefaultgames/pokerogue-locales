@@ -1,12 +1,12 @@
 {
   "ModifierType": {
     "AddPokeballModifierType": {
-      "name": "{{modifierCount}}x {{pokeballName}}",
+      "name": "{{modifierCount}}× {{pokeballName}}",
       "description": "获得 {{pokeballName}}x {{modifierCount}} (已有：{{pokeballAmount}}) \n捕捉倍率：{{catchRate}}。"
     },
     "AddVoucherModifierType": {
       "name": "{{modifierCount}}x {{voucherTypeName}}",
-      "description": "获得 {{voucherTypeName}} x{{modifierCount}}。"
+      "description": "获得 {{voucherTypeName}} ×{{modifierCount}}。"
     },
     "PokemonHeldItemModifierType": {
       "extra": {
@@ -15,32 +15,32 @@
       }
     },
     "PokemonHpRestoreModifierType": {
-      "description": "为一只宝可梦回复{{restorePoints}}HP或{{restorePercent}}%HP，取较大值。",
+      "description": "为一只宝可梦回复{{restorePoints}}ＨＰ或{{restorePercent}}%ＨＰ，取较大值。",
       "extra": {
-        "fully": "为一只宝可梦回复全部HP。",
-        "fullyWithStatus": "为一只宝可梦回复全部HP并消除所有负面\n状态。"
+        "fully": "为一只宝可梦回复全部ＨＰ。",
+        "fullyWithStatus": "为一只宝可梦回复全部ＨＰ并消除所有负面\n状态。"
       }
     },
     "PokemonReviveModifierType": {
-      "description": "复活一只宝可梦并回复 {{restorePercent}}% HP。"
+      "description": "复活一只宝可梦并回复 {{restorePercent}}% ＨＰ。"
     },
     "PokemonStatusHealModifierType": {
       "description": "为一只宝可梦消除所有负面状态。"
     },
     "PokemonPpRestoreModifierType": {
-      "description": "为一只宝可梦的一个招式回复 {{restorePoints}} PP。",
+      "description": "为一只宝可梦的一个招式回复 {{restorePoints}} ＰＰ。",
       "extra": {
-        "fully": "完全回复一只宝可梦一个招式的PP。"
+        "fully": "完全回复一只宝可梦一个招式的ＰＰ。"
       }
     },
     "PokemonAllMovePpRestoreModifierType": {
-      "description": "为一只宝可梦的所有招式回复 {{restorePoints}} PP。",
+      "description": "为一只宝可梦的所有招式回复 {{restorePoints}} ＰＰ。",
       "extra": {
-        "fully": "为一只宝可梦的所有招式回复所有PP。"
+        "fully": "为一只宝可梦的所有招式回复所有ＰＰ。"
       }
     },
     "PokemonPpUpModifierType": {
-      "description": "选择一只宝可梦的一个招式使用\n使其PP最大值提升基础的20％ (最多3次)。"
+      "description": "选择一只宝可梦的一个招式使用\n使其ＰＰ最大值提升基础的２０％ (最多３次)。"
     },
     "PokemonNatureChangeModifierType": {
       "name": "{{natureName}}薄荷",
@@ -50,14 +50,14 @@
       "description": "遭遇双打概率提升四倍，持续{{battleCount}}场战斗。"
     },
     "TempStatStageBoosterModifierType": {
-      "description": "提升全队的{{stat}}{{amount}}，持续5场战斗。",
+      "description": "提升全队的{{stat}}{{amount}}，持续５场战斗。",
       "extra": {
-        "stage": "1阶",
-        "percentage": "20%"
+        "stage": "１阶",
+        "percentage": "２０%"
       }
     },
     "AttackTypeBoosterModifierType": {
-      "description": "一只宝可梦的{{moveType}}系招式威力提升20%。"
+      "description": "一只宝可梦的{{moveType}}系招式威力提升２０%。"
     },
     "PokemonLevelIncrementModifierType": {
       "description": "使一只宝可梦的等级提升{{levels}}级。"
@@ -66,17 +66,17 @@
       "description": "使所有宝可梦的等级提升{{levels}}级。"
     },
     "BaseStatBoosterModifierType": {
-      "description": "增加10%持有者的{{stat}}，\n个体值越高堆叠上限越高。"
+      "description": "增加１０%持有者的{{stat}}，\n个体值越高堆叠上限越高。"
     },
     "PokemonBaseStatFlatModifierType": {
       "name": "森之羊羹",
       "description": "增加持有者{{stats}}的基础属性{{statValue}}，来自于一场怪梦。"
     },
     "AllPokemonFullHpRestoreModifierType": {
-      "description": "所有宝可梦完全回复HP。"
+      "description": "所有宝可梦完全回复ＨＰ。"
     },
     "AllPokemonFullReviveModifierType": {
-      "description": "复活所有濒死的宝可梦，\n并完全回复HP。"
+      "description": "复活所有濒死的宝可梦，\n并完全回复ＨＰ。"
     },
     "MoneyRewardModifierType": {
       "description": "获得{{moneyMultiplier}}金钱(₽{{moneyAmount}})。",
@@ -93,13 +93,13 @@
       "description": "持有者经验值获取量增加{{boostPercent}}%。"
     },
     "PokemonFriendshipBoosterModifierType": {
-      "description": "亲密度获取量增加50%。"
+      "description": "亲密度获取量增加５０%。"
     },
     "PokemonMoveAccuracyBoosterModifierType": {
       "description": "招式命中率增加{{accuracyAmount}}。"
     },
     "PokemonMultiHitModifierType": {
-      "description": "将持有者本次伤害的25%转化为一次独立的攻击。"
+      "description": "将持有者本次伤害的２５%转化为一次独立的攻击。"
     },
     "TmModifierType": {
       "name": "招式学习器\n{{moveId}} - {{moveName}}",
@@ -141,8 +141,8 @@
       "name": "超神奇糖果"
     },
     "MEGA_BRACELET": {
-      "name": "MEGA手镯",
-      "description": "能让携带着MEGA石战斗的宝可梦\n进行MEGA进化。"
+      "name": "超級手鐲",
+      "description": "能讓攜帶着超級石戰鬥的寶可夢進行\n超級進化。"
     },
     "DYNAMAX_BAND": {
       "name": "极巨腕带",
@@ -185,29 +185,29 @@
     },
     "REVIVER_SEED": {
       "name": "复活种子",
-      "description": "受到技能攻击伤害濒死时，\n恢复该宝可梦的HP至1/2。"
+      "description": "受到技能攻击伤害濒死时，\n恢复该宝可梦的ＨＰ至１/２。"
     },
     "WHITE_HERB": {
       "name": "白色香草",
       "description": "当携带它的宝可梦能力降低时，\n仅能回到之前的状态１次。"
     },
     "ETHER": {
-      "name": "PP单项小补剂"
+      "name": "ＰＰ单项小补剂"
     },
     "MAX_ETHER": {
-      "name": "PP单项全补剂"
+      "name": "ＰＰ单项全补剂"
     },
     "ELIXIR": {
-      "name": "PP多项小补剂"
+      "name": "ＰＰ多项小补剂"
     },
     "MAX_ELIXIR": {
-      "name": "PP多项全补剂"
+      "name": "ＰＰ多项全补剂"
     },
     "PP_UP": {
-      "name": "PP提升剂"
+      "name": "ＰＰ提升剂"
     },
     "PP_MAX": {
-      "name": "PP极限提升剂"
+      "name": "ＰＰ极限提升剂"
     },
     "LURE": {
       "name": "引虫香水"
@@ -224,7 +224,7 @@
     },
     "EXP_SHARE": {
       "name": "学习装置",
-      "description": "未参加对战的宝可梦获得20%的经验值。"
+      "description": "未参加对战的宝可梦获得２０%的经验值。"
     },
     "EXP_BALANCE": {
       "name": "均衡型学习装置",
@@ -232,7 +232,7 @@
     },
     "OVAL_CHARM": {
       "name": "圆形护符",
-      "description": "当多只宝可梦参与战斗，分别获得总经验值\n10%的额外经验值。"
+      "description": "当多只宝可梦参与战斗，分别获得总经验值\n１０%的额外经验值。"
     },
     "EXP_CHARM": {
       "name": "经验护符"
@@ -272,7 +272,7 @@
     },
     "SOUL_DEW": {
       "name": "心之水滴",
-      "description": "增加10%宝可梦性格对数值的影响 (加算)。"
+      "description": "增加１０%宝可梦性格对数值的影响 (加算)。"
     },
     "NUGGET": {
       "name": "金珠"
@@ -285,15 +285,15 @@
     },
     "AMULET_COIN": {
       "name": "护符金币",
-      "description": "获得的金钱增加20%。"
+      "description": "获得的金钱增加２０%。"
     },
     "GOLDEN_PUNCH": {
       "name": "黄金拳头",
-      "description": "将50%造成的伤害转换为金钱。"
+      "description": "将５０%造成的伤害转换为金钱。"
     },
     "COIN_CASE": {
       "name": "代币盒",
-      "description": "每10场战斗, 获得自己金钱10%的利息。"
+      "description": "每１０场战斗, 获得自己金钱１０%的利息。"
     },
     "LOCK_CAPSULE": {
       "name": "上锁的容器",
@@ -310,35 +310,35 @@
     },
     "HEALING_CHARM": {
       "name": "治愈护符",
-      "description": "HP回复量增加10% (不含复活)。"
+      "description": "ＨＰ回复量增加１０% (不含复活)。"
     },
     "CANDY_JAR": {
       "name": "糖果罐",
-      "description": "神奇糖果提供的升级额外增加1级。"
+      "description": "神奇糖果提供的升级额外增加１级。"
     },
     "BERRY_POUCH": {
       "name": "树果袋",
-      "description": "使用树果时增加30%的几率不会消耗树果。"
+      "description": "使用树果时增加３０%的几率不会消耗树果。"
     },
     "FOCUS_BAND": {
       "name": "气势头带",
-      "description": "携带该道具的宝可梦增加10%几率在受到攻击\n而将陷入濒死状态时，保留1点HP不陷入濒死状态。"
+      "description": "携带该道具的宝可梦增加１０%几率在受到攻击\n而将陷入濒死状态时，保留１点ＨＰ不陷入濒死状态。"
     },
     "QUICK_CLAW": {
       "name": "先制之爪",
-      "description": "增加10%的几率无视速度优先使出招式\n(先制技能优先)。"
+      "description": "增加１０%的几率无视速度优先使出招式\n(先制技能优先)。"
     },
     "KINGS_ROCK": {
       "name": "王者之证",
-      "description": "使用任意原本不会造成畏缩状态的攻击，\n增加10%几率使目标陷入畏缩状态。"
+      "description": "使用任意原本不会造成畏缩状态的攻击，\n增加１０%几率使目标陷入畏缩状态。"
     },
     "LEFTOVERS": {
       "name": "吃剩的东西",
-      "description": "携带后，在每个回合结束时恢复\n最大HP的1/16。"
+      "description": "携带后，在每个回合结束时恢复\n最大ＨＰ的１/１６。"
     },
     "SHELL_BELL": {
       "name": "贝壳之铃",
-      "description": "携带后，在攻击对方成功造成伤害时，\n携带者的HP会恢复其所造成伤害的1/8。"
+      "description": "携带后，在攻击对方成功造成伤害时，\n携带者的ＨＰ会恢复其所造成伤害的１/８。"
     },
     "TOXIC_ORB": {
       "name": "剧毒宝珠",
@@ -350,7 +350,7 @@
     },
     "MYSTICAL_ROCK": {
       "name": "神秘石块",
-      "description": "每堆叠一次，可将招式或能力造成的\n地形和天气的持续时间延长 2 回合。"
+      "description": "每堆叠一次，可将招式或能力造成的\n地形和天气的持续时间延长 ２ 回合。"
     },
     "EVOLUTION_TRACKER_GIMMIGHOUL": {
       "name": "宝藏金币",
@@ -396,15 +396,15 @@
     },
     "ENEMY_DAMAGE_BOOSTER": {
       "name": "伤害硬币",
-      "description": "造成5%额外伤害（乘算）。"
+      "description": "造成５%额外伤害（乘算）。"
     },
     "ENEMY_DAMAGE_REDUCTION": {
       "name": "防御硬币",
-      "description": "受到2.5%更少伤害（乘算）。"
+      "description": "受到２.５%更少伤害（乘算）。"
     },
     "ENEMY_HEAL": {
       "name": "回复硬币",
-      "description": "每回合回复2%最大HP。"
+      "description": "每回合回复２%最大ＨＰ。"
     },
     "ENEMY_ATTACK_POISON_CHANCE": {
       "name": "剧毒硬币"
@@ -417,14 +417,14 @@
     },
     "ENEMY_STATUS_EFFECT_HEAL_CHANCE": {
       "name": "万灵药硬币",
-      "description": "增加2.5%每回合治愈异常状态的概率。"
+      "description": "增加２.５%每回合治愈异常状态的概率。"
     },
     "ENEMY_ENDURE_CHANCE": {
       "name": "忍受硬币"
     },
     "ENEMY_FUSED_CHANCE": {
       "name": "融合硬币",
-      "description": "增加1%野生融合宝可梦出现概率。"
+      "description": "增加１%野生融合宝可梦出现概率。"
     },
     "MYSTERY_ENCOUNTER_SHUCKLE_JUICE_GOOD": {
       "name": "甜壶壶果汁",
@@ -506,7 +506,7 @@
     "fairy_feather": "妖精之羽"
   },
   "BaseStatBoosterItem": {
-    "hp_up": "HP增强剂",
+    "hp_up": "ＨＰ增强剂",
     "protein": "攻击增强剂",
     "iron": "防御增强剂",
     "calcium": "特攻增强剂",
@@ -642,10 +642,10 @@
     "RAICHUNITE_X": "雷丘进化石Ｘ",
     "RAICHUNITE_Y": "雷丘进化石Ｙ",
     "CHIMECHITE": "风铃铃进化石",
-    "ABSOLITE_Z": "阿勃梭鲁进化石Z",
+    "ABSOLITE_Z": "阿勃梭鲁进化石Ｚ",
     "STARAPTITE": "姆克鹰进化石",
-    "GARCHOMPITE_Z": "烈咬陆鲨进化石Z",
-    "LUCARIONITE_Z": "路卡利欧进化石Z",
+    "GARCHOMPITE_Z": "烈咬陆鲨进化石Ｚ",
+    "LUCARIONITE_Z": "路卡利欧进化石Ｚ",
     "GOLURKITE": "泥偶巨人进化石",
     "MEOWSTICITE": "超能妙喵进化石",
     "CRABOMINITE": "好胜毛蟹进化石",
@@ -682,7 +682,7 @@
     "BURN_DRIVE": "火焰卡带",
     "CHILL_DRIVE": "冰冻卡带",
     "DOUSE_DRIVE": "水流卡带",
-    "ULTRANECROZIUM_Z": "究极奈克洛Z",
+    "ULTRANECROZIUM_Z": "究极奈克洛Ｚ",
     "FIST_PLATE": "拳头石板",
     "SKY_PLATE": "蓝天石板",
     "TOXIC_PLATE": "剧毒石板",

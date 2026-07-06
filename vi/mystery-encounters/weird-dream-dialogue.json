@@ -1,28 +1,28 @@
 {
-  "intro": "Một người phụ nữ bí ẩn bao phủ trong bóng tối chắn đường ngươi.$Có điều gì đó ở cô ta khiến người ta phải rùng mình…",
-  "speaker": "Phụ nữ",
+  "intro": "Một người phụ nữ bí ẩn phủ thân trong bóng tối chắn đường bạn.$Có điều gì đó ở cô ta khiến người ta phải rùng mình…",
+  "speaker": "Người Phụ Nữ",
   "introDialogue": "Ta đã thấy tương lai và cả quá khứ của các ngươi…$Hỡi đứa trẻ kia, ngươi có nhìn thấy chúng không?",
   "title": "???",
-  "description": "Lời nói của người phụ nữ vang vọng trong đầu ngươi. Đó không chỉ là một giọng nói đơn lẻ, mà là vô số tiếng nói đồng thanh từ mọi dòng thời gian và thực tại. Ngươi bắt đầu cảm thấy chóng mặt, và câu hỏi ấy cứ quẩn quanh mãi trong tâm trí…\n​@[TOOLTIP_TITLE]{“Ta đã thấy tương lai và cả quá khứ của các ngươi… Hỡi đứa trẻ kia, ngươi có nhìn thấy chúng không?”}",
-  "query": "Ngươi định sẽ làm gì đây?",
+  "description": "Lời nói của người phụ nữ vang vọng trong đầu bạn. Đó không chỉ là một giọng nói đơn lẻ, mà là vô số tiếng nói đồng thanh từ mọi dòng thời gian và thực tại. Bạn bắt đầu cảm thấy chóng mặt, và câu hỏi ấy cứ quẩn quanh mãi trong tâm trí…\n​@[TOOLTIP_TITLE]{“Ta đã thấy tương lai và cả quá khứ của các ngươi… Hỡi đứa trẻ kia, ngươi có nhìn thấy chúng không?”}",
+  "query": "Bạn sẽ làm gì đây?",
   "option": {
     "1": {
-      "label": "“Ta nhìn thấy chúng”",
-      "tooltip": "@[SUMMARY_GREEN]{(?) Ảnh hưởng đến Pokémon của ngươi}",
-      "selected": "Bàn tay cô ta vươn ra chạm vào ngươi,\nvà mọi thứ bỗng chốc tối sầm lại.$Sau đó…@d{64}\nNgươi nhìn thấy tất cả mọi thứ.$Mọi dòng thời gian, mọi bản thể khác nhau của chính ngươi, cả quá khứ lẫn tương lai.$Tất cả những gì đã tạo nên ngươi,\nvà tất cả những gì cậu sẽ trở thành…@d{64}",
-      "cutscene": "Ngươi thấy Pokémon của ngươi,@d{32} hội tụ từ\nmọi thực tại để trở thành một thứ gì đó hoàn toàn mới…@d{64}",
-      "dreamComplete": "Khi ngươi tỉnh lại, người phụ nữ ấy — đó là một người phụ nữ hay một hồn ma? — đã biến mất…$.@d{32}.@d{32}.@d{32}$Đội hình Pokémon của ngươi đã thay đổi…\nHay đó vẫn là đội hình mà ngươi luôn có từ trước đến nay?"
+      "label": "“Tôi thấy chúng”",
+      "tooltip": "@[SUMMARY_GREEN]{(?) Ảnh hưởng đến Pokémon của bạn}",
+      "selected": "Bàn tay cô ta vươn ra chạm vào bạn,\nvà mọi thứ bỗng chốc tối sầm lại.$Sau đó…@d{64}\nBạn nhìn thấy tất cả mọi thứ.$Mọi dòng thời gian, mọi bản thể khác nhau của chính mình, cả quá khứ lẫn tương lai.$Tất cả những gì đã tạo nên bạn,\nvà tất cả những gì bạn sẽ trở thành…@d{64}",
+      "cutscene": "Bạn thấy Pokémon của bạn,@d{32} hội tụ từ\nmọi thực tại để trở thành một thứ gì đó hoàn toàn mới…@d{64}",
+      "dreamComplete": "Khi bạn tỉnh lại, người phụ nữ ấy — chẳng ai dám chắc là người hay ma — đã biến mất…$.@d{32}.@d{32}.@d{32}$Đội hình Pokémon của bạn đã thay đổi…\nHay đó vẫn là đội hình của bạn thuở ban đầu?"
     },
     "2": {
-      "label": "“Hãy cho ta thấy chúng”",
-      "tooltip": "(-) Trận chiến gian khổ\n(+) Phần thưởng lớn",
-      "selected": "Ngươi cảm thấy tâm trí mình đang chìm dần vào một giấc mơ lạnh lẽo.",
-      "selected2": "@f{150}Khi ngươi tỉnh lại, ngươi phải đối mặt với một nhân vật vừa kỳ lạ lại vừa quen thuộc…"
+      "label": "“Cho tôi thấy chúng”",
+      "tooltip": "(-) Trận đấu cam go\n(+) Phần Thưởng lớn",
+      "selected": "Bạn cảm thấy tâm trí mình đang chìm dần vào một giấc mơ lạnh lẽo.",
+      "selected2": "@f{150}Khi bạn tỉnh lại, bạn phải đối mặt với một bóng hình vừa kỳ lạ lại vừa thân quen…"
     },
     "3": {
       "label": "Nhanh chóng rời đi",
-      "tooltip": "(-) Ảnh hưởng đến Pokémon của ngươi",
-      "selected": "Ngươi dứt tâm trí mình ra khỏi một sự kìm kẹp đến tê dại, rồi vội vã rời đi.$Khi cuối cùng cũng dừng lại để định thần, ngươi kiểm tra các Pokémon trong đội hình của mình.$Vì một lý do nào đó, cấp độ của tất cả bọn chúng đều đã bị giảm xuống!"
+      "tooltip": "(-) Ảnh hưởng đến Pokémon của bạn",
+      "selected": "Bạn dứt tâm trí mình ra khỏi một sự kìm kẹp đến tê dại, rồi vội vã rời đi.$Khi cuối cùng cũng dừng lại để định thần, bạn kiểm tra các Pokémon trong đội hình của mình.$Vì một lý do nào đó, cấp độ của tất cả chúng đều đã bị giảm xuống!"
     }
   }
 }

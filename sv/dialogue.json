@@ -279,7 +279,7 @@
       "1": "Jag brukade vara avantgarde, à la mode, men nu är jag helt passé…"
     },
     "victory": {
-      "1": "Tiderna ändras, det gör även folkets värderingar. C'est la vie…"
+      "1": "Tiderna ändras, det gör även folkets värderingar. C’est la vie…"
     }
   },
   "guitarist": {
@@ -311,7 +311,7 @@
   },
   "workerDouble": {
     "encounter": {
-      "1": "Jag ska visa att vi kan bryta dig! Vi får redigt med arbetsplatsförlagd träning, f'ståru!"
+      "1": "Jag ska visa att vi kan bryta dig! Vi får redigt med arbetsplatsförlagd träning, f’ståru!"
     },
     "victory": {
       "1": "Hur sjutton kunde hände det här hända en muskelknutte som mig…?"
@@ -411,10 +411,10 @@
   },
   "sailor": {
     "encounter": {
-      "1": "Hörru, landkrabban! Torskar du blir'e plankan!",
+      "1": "Hörru, landkrabban! Torskar du blir’e plankan!",
       "2": "Kom an! Min sjömansheder står på spel!",
-      "3": "Ohoj! Er'u sjösjuk än?",
-      "3_female": "Ohoj! Er'u sjösjuk än?"
+      "3": "Ohoj! Er’u sjösjuk än?",
+      "3_female": "Ohoj! Er’u sjösjuk än?"
     },
     "victory": {
       "1": "Helt kölhalad!",
@@ -449,7 +449,7 @@
   "hooligans": {
     "encounter": {
       "1": "Hörru! Nu ska du få lära dig ett och annat!",
-      "2": "Tjenamors, din lilla satunge! Gänget e' här!"
+      "2": "Tjenamors, din lilla satunge! Gänget e’ här!"
     },
     "victory": {
       "1": "Vad i? Vad hände med vårt vapenbrödraskap!?",
@@ -584,9 +584,9 @@
   },
   "roughneck": {
     "encounter": {
-      "1": "Ey! Muckar'u?! Ska jag krossa dig och dina småkräk eller?!",
+      "1": "Ey! Muckar’u?! Ska jag krossa dig och dina småkräk eller?!",
       "2": "Jag är taskig, jag är korkad, men jag är jävlit bra med pokémon!",
-      "3": "Strider är najs, jag kan va' riktigt hårdhänt utan att få skäll…"
+      "3": "Strider är najs, jag kan va’ riktigt hårdhänt utan att få skäll…"
     },
     "victory": {
       "1": "Hur i helsike?! Gah, jag får tuppjuck!",
@@ -1816,7 +1816,71 @@
   "roxanne": {
     "encounter": {
       "1": "Kan du snälla visa upp hur du strider?",
-      "2": "Man lär sig mycket genom att strida med många olika tränare. "
+      "2": "Man lär sig mycket genom att strida med många olika tränare. ",
+      "3": "Oj, jag var mitt uppe i att planera min stridstrategi.\nVill du strida?"
+    },
+    "victory": {
+      "1": "Ojsan, jag förlorade visst.\nJag förstår.",
+      "2": "Jag har tydligen mycket kvar att lära mig om strider.",
+      "3": "Jag tänker anamma det jag lärt mig här idag."
+    },
+    "defeat": {
+      "1": "Jag har lärt mig mycket av den här striden,\nhoppas att du också har det.",
+      "2": "Jag ser fram emot att strida med dig igen.\nHoppas att du då visar vad du lärt här idag!",
+      "3": "Jag vann tack vare allt stridskunskap jag har inhämtat."
+    }
+  },
+  "brawly": {
+    "encounter": {
+      "1": "Checka, värsta utmanaren!\nFå se vad du kan!",
+      "1_female": "Checka, värsta utmanaren!\nFå se vad du kan!",
+      "2": "Du tror du är maffig, va!?\nVi slåss!",
+      "3": "Här kommer värsta stormen! \nNu kör vi!"
+    },
+    "victory": {
+      "1": "Offfff, är helt urlakad!",
+      "2": "Du surfa’ vågen och krascha’ helt in i mig!",
+      "3": "Känner mig fett vilse! Som när jag gick fel i Granitgrottan!"
+    },
+    "defeat": {
+      "1": "Hah! Jag surfa’ vågen in i mål!\nVi kör igen nån gång!",
+      "2": "Ey, kom surfa med mig igen!",
+      "3": "Precis som floden hoppas jag att du forsar tebax och utmanar mig igen!"
+    }
+  },
+  "wattson": {
+    "encounter": {
+      "1": "Bered dig på en chock! Wahahaha!",
+      "2": "Nu blire gnistor! Wahahahahaha!",
+      "3": "Wahahahaha! Bäst för dig att du har lommonbär!"
+    },
+    "victory": {
+      "1": "Helt urladdad! Wahahahahaha!",
+      "2": "Du jordade mig! Wahahaha! ",
+      "3": "Spänningen var olidlig! Wahahahaha!"
+    },
+    "defeat": {
+      "1": "Du får ladda upp tills du stöter på mig igen! Wahahahaha!",
+      "1_female": "Du får ladda upp tills du stöter på mig igen! Wahahahaha!",
+      "2": "Hoppas det var spännande för dig! Wahahahaha!",
+      "3": "Som en blixt från klar himmel! Wahahahaha!"
+    }
+  },
+  "flannery": {
+    "encounter": {
+      "1": "Trevligt att råkas! Vänta, nej...\nÖh, väl kämpat, men nu kommer du förlora!",
+      "2": "Jag har varit ledare i typ... fem min, men jag kommer steka dig!",
+      "3": "Nu ska du få se vad min farfar lärt mig! Dags att slåss!"
+    },
+    "victory": {
+      "1": "Du är seriöst bättre än min farfar... Klart att jag förlora.",
+      "2": "Jag anstränger mig lite för mycket, tror jag.... Måste chilla.",
+      "3": "Kommer inte dö ut bara för att jag förlora!\nJag får tända lågan på nytt..."
+    },
+    "defeat": {
+      "1": "Hoppas du är stolt, farfar...\nVi tar och strider igen nån annan gång!",
+      "2": "Kan inte fatta att jag vann!\nJag klarade det på mitt sätt!",
+      "3": "Du får visa dina brännheta tekniker snart igen!"
     }
   },
   "rival": {
@@ -1845,7 +1909,7 @@
   },
   "rival2Female": {
     "encounter": {
-      "1": "@c{smile_wave}Men lägg av, det är du! …Och du har inte förlorat än. @c{angry_mopen}Jahopp! Najs ju!$@c{angry_mopen}Och jag vet, det här ser fett skumt ut, men jag lovar att jag inte stalkar dig eller nåt!@c{smile_eclosed}Jag bara råka hänga här lite.$@c{smile_ehalf}Du, jag är glad för din skull, men bara så att du vet, det är okej att förlora också!$@c{smile}Man lär sig från sina misstag, ofta mer än om man bara lyckas, lyckas, lyckas, ju.$@c{angry_mopen}Hur som haver! Jag har tränat järnet för vår returmatch, så jag vill se dig satsa precis allt! Kom an, liksom!"
+      "1": "@c{smile_wave}Men lägg av, det är du! …Och du har inte förlorat än. @c{angry_mopen}Jahopp! Najs ju!$@c{angry_mopen}Jag vet, det här ser fett skumt ut, men jag lovar att jag inte stalkar dig eller nåt! @c{smile_eclosed}Jag bara råka hänga här lite.$@c{smile_ehalf}Du, jag är glad för din skull, men bara så att du vet, det är okej att förlora också!$@c{smile}Man lär sig från sina misstag, ofta mer än om man bara lyckas, lyckas, lyckas, ju.$@c{angry_mopen}Hur som haver! Jag har tränat järnet för vår returmatch, så jag vill se dig satsa precis allt! Kom an, liksom!"
     },
     "victory": {
       "1": "@c{neutral}Det var…inte… meningen att jag skulle förlora nu.$@c{smile}Jahopp! Jag får bara träna ännu mer tills nästa gång!$@c{smile_wave}Jag har också två till såna här till dig!\n@c{smile_wave_wink}Det var så jättelite så~!$@c{angry_mopen}Men de blir de sista, lugnt! Inga fler gratisleksaker från och med nu!"

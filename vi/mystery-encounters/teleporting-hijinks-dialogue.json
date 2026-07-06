@@ -2,7 +2,7 @@
   "intro": "Đó là một cỗ máy kỳ lạ, kêu vo vo ồn ào…",
   "title": "Cỗ Máy Dịch Chuyển",
   "description": "Trên máy có một tấm biển ghi:\n“Để sử dụng, hãy bỏ tiền vào rồi bước vào trong buồng.”\n\nCó lẽ nó có thể đưa bạn đến một nơi nào đó…",
-  "query": "Ngươi định sẽ làm gì đây?",
+  "query": "Bạn sẽ làm gì đây?",
   "option": {
     "1": {
       "label": "Cho Tiền Vào",
@@ -11,7 +11,7 @@
     },
     "2": {
       "label": "Một Pokémon giúp đỡ",
-      "tooltip": "(-) {{option2PrimaryName}} giúp\n(+) {{option2PrimaryName}} nhận ĐNK\n(?) Dịch chuyển đến khu vực sinh mới",
+      "tooltip": "(-) {{option2PrimaryName}} giúp\n(+) {{option2PrimaryName}} nhận ĐKN\n(?) Dịch chuyển đến khu vực mới",
       "disabledTooltip": "Bạn cần một Pokémon hệ Thép hoặc hệ Điện để chọn tùy chọn này.",
       "selected": "Hệ của {{option2PrimaryName}} cho phép nó vượt qua tường phí của máy!$Cửa khoang mở ra, và bạn bước vào bên trong…"
     },

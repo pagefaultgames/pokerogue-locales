@@ -1,6 +1,9 @@
 {
+  "intro": "Zatrzymuje cię chłopak, wyglądający na bogatego.",
+  "speaker": "Bogacz",
   "introDialogue": "Wyśmienity dzień nieprawdaż?$Nie mogę się nadziwić\njak twój {{strongestPokemon}} bosko wygląda. Zawsze chciałem mieć takiego Pokémona! Hojnie cię wynagrodzę.\nI dorzucę do tego ten stary bibelocik!",
   "title": "Oferta nie do odrzucenia",
+  "description": "Oferuje ci@[TOOLTIP_TITLE]{ {{itemName}}} i {{price, money}} w zamian za Pokémona {{strongestPokemon}}!\n\nTo wspaniała oferta, ale czy jesteś w stanie rozstać się z tak mocnym członkiem drużyny?",
   "query": "Co wybierasz?",
   "option": {
     "1": {
@@ -16,7 +19,8 @@
     },
     "3": {
       "label": "Odejdź",
-      "tooltip": "(-) Bez nagród"
+      "tooltip": "(-) Bez nagród",
+      "selected": "Co za okropny dzień…$No cóż, w takim razie wracajmy do Klubu, {{liepardName}}."
     }
   }
 }

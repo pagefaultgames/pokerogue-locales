@@ -5,7 +5,7 @@
   },
   "drizzle": {
     "name": "Llovizna",
-    "description": "Hace que llueva al entrar en combate."
+    "description": "Hace que llueva durante 5 turnos al entrar en combate."
   },
   "speedBoost": {
     "name": "Impulso",
@@ -29,11 +29,11 @@
   },
   "sandVeil": {
     "name": "Velo Arena",
-    "description": "Aumenta la evasión durante las tormentas de arena un 20%. También evita el daño de las tormentas de arena."
+    "description": "Aumenta la evasión durante las tormentas de arena un 25%. También evita el daño de las tormentas de arena."
   },
   "static": {
     "name": "Elec. Estática",
-    "description": "La electricidad estática que lo envuelve puede paralizar al Pokémon que lo ataque con un movimiento de\ncontacto con un 30% de posibilidad."
+    "description": "La electricidad estática que lo envuelve puede paralizar al Pokémon que lo ataque con un movimiento de contacto con un 30% de posibilidad."
   },
   "voltAbsorb": {
     "name": "Absorbe Elec",
@@ -177,11 +177,11 @@
   },
   "sandStream": {
     "name": "Chorro Arena",
-    "description": "Crea una tormenta de arena al entrar en combate."
+    "description": "Crea una tormenta de arena durante 5 turnos al entrar en combate."
   },
   "pressure": {
     "name": "Presión",
-    "description": "Presiona al rival de tal manera que este consume un PP más al usar sus movimientos."
+    "description": "Presiona al rival de tal manera que este consume 1 PP más al usar sus movimientos."
   },
   "thickFat": {
     "name": "Sebo",
@@ -321,7 +321,7 @@
   },
   "snowCloak": {
     "name": "Manto Níveo",
-    "description": "Aumenta su Evasión cuando nieva o graniza un 20%. También evita el daño del granizo."
+    "description": "Aumenta su Evasión cuando nieva o graniza un 25%. También evita el daño del granizo."
   },
   "gluttony": {
     "name": "Gula",
@@ -521,7 +521,7 @@
   },
   "healer": {
     "name": "Alma Cura",
-    "description": "30% de posibilidad de curar los problemas de estado de un aliado al final del turno."
+    "description": "50% de posibilidad de curar los problemas de estado de un aliado al final del turno."
   },
   "friendGuard": {
     "name": "Compiescolta",
@@ -737,7 +737,7 @@
   },
   "parentalBond": {
     "name": "Amor Filial",
-    "description": "Une fuerzas con su cría y ataca dos veces. El segundo golpe hace 25% del daño habitual. No afecta a movimientos que golpeen al objetivo varias veces o que golpeen a varios Pokémon."
+    "description": "Une fuerzas con su cría y ataca dos veces. El segundo golpe hace ¼ del daño habitual. No afecta a movimientos que golpeen al objetivo varias veces seguidas o que golpeen a varios Pokémon."
   },
   "darkAura": {
     "name": "Aura Oscura",
@@ -817,7 +817,7 @@
   },
   "triage": {
     "name": "Primer Auxilio",
-    "description": "Da prioridad a los movimientos que restauran PS."
+    "description": "Da 3 niveles de prioridad a los movimientos que restauran PS."
   },
   "galvanize": {
     "name": "Piel Eléctrica",
@@ -885,11 +885,11 @@
   },
   "receiver": {
     "name": "Receptor",
-    "description": "Adquiere la habilidad de un aliado debilitado."
+    "description": "Adquiere la habilidad de un aliado debilitado en un Combate Doble."
   },
   "powerOfAlchemy": {
     "name": "Reacción Química",
-    "description": "Reacciona copiando la habilidad de un aliado debilitado."
+    "description": "Reacciona copiando la habilidad de un aliado debilitado en un Combate Doble."
   },
   "beastBoost": {
     "name": "Ultraimpulso",
@@ -1247,9 +1247,17 @@
     "name": "Piel Dragontina",
     "description": "Convierte los movimientos de tipo Normal del Pokémon en movimientos de tipo Dragón y aumenta un 20 % su potencia."
   },
+  "eelevate": {
+    "name": "Impulso Anguila",
+    "description": "Hace que el Pokémon flote y deje de estar en contacto con el suelo, lo que impide que le afecten los movimientos de tipo Tierra y las Púas, Púas tóxicas y Red Viscosa. Aumenta 1 nivel la característica más alta del Pokémon cuando debilita a un objetivo con un ataque."
+  },
   "megaSol": {
     "name": "Megasolar",
     "description": "El Pokémon puede usar movimientos con los mismos resultados que si hiciese sol, aunque realmente ese no sea el tiempo atmosférico actual."
+  },
+  "fireMane": {
+    "name": "Crin de Fuego",
+    "description": "Aumenta un 50 % la potencia de los movimientos de tipo Fuego del Pokémon."
   },
   "spicySpray": {
     "name": "Salpicante",

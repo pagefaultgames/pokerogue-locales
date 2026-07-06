@@ -1,14 +1,14 @@
 {
   "intro": "Một con {{oricorioName}} đang khiêu vũ một mình mà không có bạn nhảy.",
   "title": "Bài Học Khiêu Vũ",
-  "description": "Pokémon {{oricorioName}} không có vẻ hung hăng, ngược lại, nó có vẻ chán nản.\n\nCó lẽ nó chỉ muốn tìm người để khiêu vũ cùng…",
-  "query": "Ngươi định sẽ làm gì đây?",
+  "description": "Con {{oricorioName}} không có vẻ hung hăng, ngược lại, nó có vẻ chán nản.\n\nCó lẽ nó chỉ muốn tìm bạn để khiêu vũ cùng…",
+  "query": "Bạn sẽ làm gì đây?",
   "option": {
     "1": {
       "label": "Chiến Đấu",
       "tooltip": "(-) Trận đấu cam go\n(+) Nhận Gậy Chuyền Sức",
       "selected": "Con {{oricorioName}} đang rất hoảng loạn và tìm cách tự vệ!",
-      "bossEnraged": "Do sợ hãi {{oricorioName}}’s tăng mạnh chỉ số của nó!"
+      "bossEnraged": "Sự sợ hãi của {{oricorioName}} vô tình gia tăng chỉ số của nó!"
     },
     "2": {
       "label": "Học Nhảy",
@@ -18,7 +18,7 @@
     "3": {
       "label": "Thể Hiện Kĩ Nghệ",
       "tooltip": "(-) Dạy {{oricorioName}} một chiêu thức vũ điệu\n(+) Con {{oricorioName}} Sẽ Thích Bạn",
-      "disabledTooltip": "Pokémon của bạn cần biết một chiêu thức nhảy múa để thể hiện tài năng của nó.",
+      "disabledTooltip": "Pokémon của bạn cần biết một chiêu thức nhảy múa để thể hiện tài năng.",
       "selectPrompt": "Chọn một chiêu thức nhảy múa để sử dụng.",
       "selected": "Con {{oricorioName}} những chiếc đồng hồ đầy say mê khi {{selectedPokemon}} thể hiện {{selectedMove}}!$Nó rất thích biểu diễn đó!$@s{level_up_fanfare} {{oricorioName}} muốn gia nhập tổ đội bạn!"
     }

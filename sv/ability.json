@@ -5,7 +5,7 @@
   },
   "drizzle": {
     "name": "Regnmakare",
-    "description": "Denna pokémon orsakar regn när den skickas ut i strid."
+    "description": "Denna pokémon orsakar regn under 5 omgångar när den skickas ut i strid."
   },
   "speedBoost": {
     "name": "Acceleration",
@@ -21,7 +21,7 @@
   },
   "damp": {
     "name": "Fuktig",
-    "description": "Genom att göra omgivningen fuktig förhindrar denna pokémon explosiva tekniker och särdrag som Självsprängning eller Sista smällen."
+    "description": "Genom att göra omgivningen fuktig förhindrar denna pokémon explosiva tekniker och särdrag som Självsprängning eller Sista smällen. "
   },
   "limber": {
     "name": "Smidig",
@@ -29,11 +29,11 @@
   },
   "sandVeil": {
     "name": "Sandskydd",
-    "description": "I en sandstorm förbättras denna pokémons undvikande med 20%. Den tar inte heller någon skada från sandstormen."
+    "description": "I en sandstorm ökas denna pokémons undvikande med 25 %. Den tar inte heller någon skada från sandstormen."
   },
   "static": {
     "name": "Elstötar",
-    "description": "Denna pokémon är laddad med statisk elektricitet; kontakt med den har en 30 % chans att orsaka förlamning."
+    "description": "Denna pokémon är laddad med statisk elektricitet; kontakt med den har en 30 % chans att orsaka förlamning. "
   },
   "voltAbsorb": {
     "name": "Ellagring",
@@ -53,11 +53,11 @@
   },
   "compoundEyes": {
     "name": "Fasettögon",
-    "description": "Denna pokémons fasettögon förbättrar dess undvikande med 30 %."
+    "description": "Denna pokémons fasettögon ökar dess undvikande med 30 %."
   },
   "insomnia": {
     "name": "Sömnlös",
-    "description": "Denna pokémon lider av sömnlöshet och kan därför inte somna."
+    "description": "Denna pokémon lider av sömnlöshet och kan därför inte bli dåsig eller somna."
   },
   "colorChange": {
     "name": "Färganpassning",
@@ -73,7 +73,7 @@
   },
   "shieldDust": {
     "name": "Skyddsfjäll",
-    "description": "Denna pokémons fjäll skyddar den från bonuseffekterna av teknikerna den träffas av."
+    "description": "Denna pokémons fjäll skyddar den mot bonuseffekterna av teknikerna den träffas av."
   },
   "ownTempo": {
     "name": "Lugn takt",
@@ -93,7 +93,7 @@
   },
   "roughSkin": {
     "name": "Hudtänder",
-    "description": "Denna pokémons hudtänder orskadar ⅛ av max. HP i skada på motståndare som vidrör dem."
+    "description": "Denna pokémons hudtänder orskadar ⅛ av max. HP i skada på motståndare som gör fysisk kontakt."
   },
   "wonderGuard": {
     "name": "Änglavakt",
@@ -153,7 +153,7 @@
   },
   "innerFocus": {
     "name": "Inre fokus",
-    "description": "Denna pokémons starka fokus stoppar den från att rygga tillbaka och bli påverkad av avskräckande pokémon."
+    "description": "Denna pokémons starka fokus stoppar den från att rygga tillbaka eller bli påverkad av avskräckande pokémon."
   },
   "magmaArmor": {
     "name": "Magmarustning",
@@ -177,15 +177,15 @@
   },
   "sandStream": {
     "name": "Sandstormare",
-    "description": "Denna pokémon frammanar en sandstorm när den skickas ut i strid."
+    "description": "Denna pokémon frammanar en sandstorm som varar i 5 omgångar när den skickas ut i strid."
   },
   "pressure": {
     "name": "Pressande",
-    "description": "Genom att sätta press tvingar denna pokémon sin motståndare att spendera en extra KP varje gång den utför en teknik."
+    "description": "Genom att sätta press tvingar denna pokémon sin motståndare att spendera 1 extra KP varje gång motståndaren utför en teknik på denna pokémon."
   },
   "thickFat": {
     "name": "Fettvävnad",
-    "description": "Denna pokémon skyddas av ett tjockt lager av fett, vilket halverar skada från eld- och istyptekniker."
+    "description": "Denna pokémon skyddas av ett tjockt lager av fett, vilket halverar skadan av eld- och istyptekniker."
   },
   "earlyBird": {
     "name": "Morgonpigg",
@@ -321,7 +321,7 @@
   },
   "snowCloak": {
     "name": "Göms i snö",
-    "description": "När det snöar eller haglar ökas denna pokémons förmåga att undvika med 20 %. Den tar inte heller skada av hagel."
+    "description": "När det snöar eller haglar ökas denna pokémons undvikande med 25 %. Den tar inte heller skada av hagel."
   },
   "gluttony": {
     "name": "Glupsk",
@@ -413,7 +413,7 @@
   },
   "moldBreaker": {
     "name": "Utanför ramarna",
-    "description": "Denna pokémon kan utföra tekniker på motståndaren utan att hindras av dess särdrag."
+    "description": "Denna pokémon kan utföra tekniker utan att hindras av motståndarens särdrag (med vissa undantag)."
   },
   "superLuck": {
     "name": "Lyckost",
@@ -457,7 +457,7 @@
   },
   "iceBody": {
     "name": "Is i magen",
-    "description": "Denna pokémon återhämtar ¹⁄₁₆ av dess max. HP per omgångsslut när det snöar eller haglar. Den tar inte heller skada från hagel."
+    "description": "Denna pokémon återhämtar ¹⁄₁₆ av dess max. HP per omgångsslut när det snöar eller haglar. Den tar inte heller skada från hagel. "
   },
   "solidRock": {
     "name": "Stenhård",
@@ -480,7 +480,7 @@
     "description": "Denna pokémons tekniker med bakslag är 20 % starkare än vanligt."
   },
   "multitype": {
-    "name": "Multityp",
+    "name": "Omnityp",
     "description": "Denna pokémons typ ändras efter vilken sorts platta den bär."
   },
   "flowerGift": {
@@ -521,7 +521,7 @@
   },
   "healer": {
     "name": "Helare",
-    "description": "Vid varje omgångslut kan, med 30% sannolikhet, all tillståndspåverkan läkas hos den vid denna pokémons sida."
+    "description": "Vid varje omgångslut kan, med 50 % sannolikhet, all tillståndspåverkan läkas hos den vid denna pokémons sida."
   },
   "friendGuard": {
     "name": "Beskyddande",
@@ -609,7 +609,7 @@
   },
   "moxie": {
     "name": "Överlägsen",
-    "description": "När denna pokémon får en motståndare att svimma känner den sig överlägsen, vilket ökar dess attackförmåga."
+    "description": "När denna pokémon golvar en motståndare känner den sig överlägsen, vilket ökar dess attackförmåga."
   },
   "justified": {
     "name": "Ädelmod",
@@ -649,11 +649,11 @@
   },
   "turboblaze": {
     "name": "Turbobrand",
-    "description": "Denna pokémon kan utföra tekniker på motståndaren utan att hindras av dess särdrag."
+    "description": "Denna pokémon kan utföra tekniker utan att hindras av motståndarens särdrag (med vissa undantag)."
   },
   "teravolt": {
     "name": "Teravolt",
-    "description": "Denna pokémon kan utföra tekniker på motståndaren utan att hindras av dess särdrag."
+    "description": "Denna pokémon kan utföra tekniker utan att hindras av motståndarens särdrag (med vissa undantag)."
   },
   "aromaVeil": {
     "name": "Aromhölje",
@@ -737,7 +737,7 @@
   },
   "parentalBond": {
     "name": "Anknytning",
-    "description": "Denna pokémon slår till två gånger med enslagstekniker, det andra slaget har 25% av teknikens vanliga kraft. Multislagstekniker och tekniker som träffar flera pokémon samtidigt påverkas inte av detta."
+    "description": "Denna pokémons enslagstekniker träffar 2 gånger, den andra träffen har ¼  av första träffens kraft. Multislagstekniker och tekniker som träffar flera pokémon samtidigt påverkas inte."
   },
   "darkAura": {
     "name": "Skuggaura",
@@ -769,11 +769,11 @@
   },
   "wimpOut": {
     "name": "Fegis",
-    "description": "Denna pokémon fegar ur när dess HP sänks till 50% eller lägre och byter av sig själv."
+    "description": "Denna pokémon fegar ur och byter av sig själv när dess HP sänks till ½ eller lägre."
   },
   "emergencyExit": {
     "name": "Krisförebyggande",
-    "description": "Denna pokémon märker av fara när dess HP sänks till 50% eller lägre och byter då av sig själv."
+    "description": "Denna pokémon märker av fara och byter av sig själv när dess HP sänks till ½ eller lägre."
   },
   "waterCompaction": {
     "name": "Vattenkompaktering",
@@ -805,7 +805,7 @@
   },
   "slushRush": {
     "name": "Slaskrask",
-    "description": "Denna pokémons snabbhet fördubblas när det snöar eller haglar. Den tar inte heller någon skada av hagel."
+    "description": "Denna pokémons snabbhet fördubblas i snö och hagel. Den tar inte heller någon skada av hagel."
   },
   "longReach": {
     "name": "Distansskytt",
@@ -817,7 +817,7 @@
   },
   "triage": {
     "name": "Förstavårdare",
-    "description": "Denna pokémons HP-återställande tekniker ges högre prioritet"
+    "description": "Denna pokémons HP-återställande tekniker har 3 stegs högre prioritet."
   },
   "galvanize": {
     "name": "Elektriserande",
@@ -837,7 +837,7 @@
   },
   "battleBond": {
     "name": "Supersynergi",
-    "description": "En gång per inbyte ökas denna pokémons attackförmåga, sp. atk-förmåga och snabbhet när den besegrar en motståndare. Om Greninja har detta särdrag förvandlas den till istället till Ash-Greninja när den besegrar en moståndare."
+    "description": "En gång per inbyte ökas denna pokémons attackförmåga, sp. atk-förmåga och snabbhet när den golvar en motståndare. Om Greninja har detta särdrag förvandlas den till istället till Ash-Greninja när den golvar en moståndare."
   },
   "powerConstruct": {
     "name": "Cellsvärm",
@@ -853,7 +853,7 @@
   },
   "queenlyMajesty": {
     "name": "Majestätisk",
-    "description": "Denna pokémons majestät sätter tryck på motståndare, vilket gör så att de inte kan utföra prioritetstekniker mot den eller de vid dess sida i strid."
+    "description": "Denna pokémons majestät skräckslår motståndare, vilket gör så att de inte kan utföra prioritetstekniker mot den eller de vid dess sida i strid."
   },
   "innardsOut": {
     "name": "Insidan utåt",
@@ -865,7 +865,7 @@
   },
   "battery": {
     "name": "Batteri",
-    "description": "De vid denna pokémons sida i strid får sp. atk-förmågan ökad med 30% när de använder speciella tekniker."
+    "description": "Speciella tekniker från de vid denna pokémons sida är 30 % kraftfullare."
   },
   "fluffy": {
     "name": "Fluffig",
@@ -873,7 +873,7 @@
   },
   "dazzling": {
     "name": "Prålig",
-    "description": "Denna pokémon prålar med sina starka färger, vilka gör så att motståndare inte kan utföra prioritetstekniker mot den och de vid dess sida i strid."
+    "description": "Denna pokémon prålar med sina starka färger, vilka gör så att motståndare inte kan utföra prioritetstekniker mot den och de vid dess sida i strid. "
   },
   "soulHeart": {
     "name": "Själhjärta",
@@ -885,11 +885,11 @@
   },
   "receiver": {
     "name": "Mottagare",
-    "description": "När denna pokémon är i strid och den vid sin sida svimmar, så tar denna pokémon genast emot särdraget av den avsvimmade."
+    "description": "När denna pokémon är i dubbelstrid och den vid sin sida svimmar, så tar denna pokémon genast över särdraget av den avsvimmade."
   },
   "powerOfAlchemy": {
     "name": "Alkemist",
-    "description": "När denna pokémon är i strid och den vid sin sida svimmar, så kopierar och anammar genast denna pokémon särdraget av den avsvimmade."
+    "description": "När denna pokémon är i dubbelstrid och den vid sin sida svimmar, så anammar denna pokémon genast särdraget av den avsvimmade."
   },
   "beastBoost": {
     "name": "Bestbemästrande",
@@ -908,11 +908,11 @@
     "description": "Denna pokémon skapar en Pyskoterräng när den skickas in i strid."
   },
   "mistySurge": {
-    "name": "Dimmgenerering",
+    "name": "Mistgenerering",
     "description": "Denna pokémon skapar en Dimmterräng när den skickas in i strid."
   },
   "grassySurge": {
-    "name": "Växtgenerering",
+    "name": "Gräsgenerering",
     "description": "Denna pokémon skapar en Grästerräng när den skickas in i strid."
   },
   "fullMetalBody": {
@@ -928,7 +928,7 @@
     "description": "Supereffektiva attacker mot denna pokémon sänks i kraft med 25%. Denna effekt kan inte ignoreras av andra tekniker eller särdrag."
   },
   "neuroforce": {
-    "name": "Cerebrokraft",
+    "name": "Cerebralmakt",
     "description": "Denna pokémons supereffektiva tekniker ökar i kraft med 25%"
   },
   "intrepidSword": {
@@ -957,7 +957,7 @@
   },
   "mirrorArmor": {
     "name": "Spegelrustning",
-    "description": "Denna pokémon reflekterar tillbaka endast de förmågesänkande effekterna som den träffas av."
+    "description": "Denna pokémon studsar tillbaka de förmågesänkande effekterna den träffas av på motståndaren som orsakade dem."
   },
   "gulpMissile": {
     "name": "Glupskott",
@@ -993,7 +993,7 @@
   },
   "powerSpot": {
     "name": "Leylinje",
-    "description": "De vid denna pokémons sida i strid orsakar 30% mer i skada."
+    "description": "Tekniker från de vid denna pokémons sida i strid är 30 % kraftfullare."
   },
   "mimicry": {
     "name": "Mimikry",
@@ -1001,11 +1001,11 @@
   },
   "screenCleaner": {
     "name": "Skärmfri",
-    "description": "När denna pokémon skickas ut i strid tar den bort effekterna av alla skyddande skärmar (Specialskärm, Fysiobarriär, Polarskärm) för alla på fältet."
+    "description": "När denna pokémon skickas ut i strid tar den bort effekterna av alla skyddande skärmar (Specialskärm, Fysioskärm, Polarskärm) för alla på fältet."
   },
   "steelySpirit": {
     "name": "Järnvilja",
-    "description": "Ståltyptekniker ökar i kraft med 50% för denna pokémon och de vid dess sida i strid."
+    "description": "Ståltyptekniker ökar i kraft med 50 % för denna pokémon och de vid dess sida i strid."
   },
   "perishBody": {
     "name": "Undergångssjäl",
@@ -1025,7 +1025,7 @@
   },
   "pastelVeil": {
     "name": "Pastellpansar",
-    "description": "Denna pokémon och de vid sin sida i strid är skyddade mot förgiftning."
+    "description": "Denna pokémon och de vid sin sida i strid kan inte förgiftas."
   },
   "hungerSwitch": {
     "name": "Hungritation",
@@ -1053,11 +1053,11 @@
   },
   "chillingNeigh": {
     "name": "Isande gnägg",
-    "description": "När denna pokémon besegrar en motståndare yttrar den ett isande gnägg som ökar dess attackförmåga."
+    "description": "När denna pokémon golvar en motståndare yttrar den ett isande gnägg som ökar dess attackförmåga."
   },
   "grimNeigh": {
     "name": "Grymt gnägg",
-    "description": "När denna pokémon besegrar en motståndare yttrar den ett grymt gnägg som ökar dess sp. atk-förmåga."
+    "description": "När denna pokémon golvar en motståndare yttrar den ett grymt gnägg som ökar dess sp. atk-förmåga."
   },
   "asOneGlastrier": {
     "name": "Enade",
@@ -1181,7 +1181,7 @@
   },
   "armorTail": {
     "name": "Pansarsvans",
-    "description": "Den konstiga svansen som bepansrar denna pokémons huvud gör så att motståndare inte kan utföra prioritetstekniker på den eller de vid dess sida i strid."
+    "description": "Den konstiga svansen runt denna pokémons huvud gör så att motståndare inte kan utföra prioritetstekniker på den eller de vid dess sida i strid."
   },
   "earthEater": {
     "name": "Geofagi",
@@ -1247,9 +1247,17 @@
     "name": "Drakonisk",
     "description": "Denna pokémons normaltyptekniker blir draktyptekniker och dess kraft ökas med 20%."
   },
+  "eelevate": {
+    "name": "Ålflight",
+    "description": "Denna pokémon svävar, så den är immun mot jordtyptekniker samt Fotanglar, Giftanglar och Klibbnät. När den golvar en motståndare med en attack ökas den starkaste förmåga med 1 steg."
+  },
   "megaSol": {
     "name": "Supersolär",
-    "description": "Även om solen inte skiner starkt kan denna pokémon utföra sina tekniker som om solen sken starkt."
+    "description": "Även utan starkt solsken kan denna pokémon utförar tekniker som om solen sken starkt."
+  },
+  "fireMane": {
+    "name": "Eldman",
+    "description": "Denna pokémons eldtypteknikers kraft ökas med 50 %."
   },
   "spicySpray": {
     "name": "Pikant",

@@ -1,8 +1,8 @@
 {
   "ModifierType": {
     "AddPokeballModifierType": {
-      "name": "{{modifierCount}}x {{pokeballName}}",
-      "description": "獲得 {{pokeballName}} x{{modifierCount}} (已有：{{pokeballAmount}}) \n捕捉倍率：{{catchRate}}。"
+      "name": "{{modifierCount}}× {{pokeballName}}",
+      "description": "獲得 {{pokeballName}} ×{{modifierCount}} (已有：{{pokeballAmount}}) \n捕捉倍率：{{catchRate}}。"
     },
     "AddVoucherModifierType": {
       "name": "{{modifierCount}}x {{voucherTypeName}}",
@@ -15,32 +15,32 @@
       }
     },
     "PokemonHpRestoreModifierType": {
-      "description": "爲一隻寶可夢恢復 {{restorePoints}} HP 或 {{restorePercent}}% HP，取最大值。",
+      "description": "爲一隻寶可夢恢復 {{restorePoints}} ＨＰ 或 {{restorePercent}}% ＨＰ，取最大值。",
       "extra": {
-        "fully": "爲一隻寶可夢恢復全部HP。",
-        "fullyWithStatus": "爲一隻寶可夢恢復全部HP並消除所有負面\n狀態。"
+        "fully": "爲一隻寶可夢恢復全部ＨＰ。",
+        "fullyWithStatus": "爲一隻寶可夢恢復全部ＨＰ並消除所有負面\n狀態。"
       }
     },
     "PokemonReviveModifierType": {
-      "description": "復活一隻寶可夢並恢復 {{restorePercent}}% HP。"
+      "description": "復活一隻寶可夢並恢復 {{restorePercent}}% ＨＰ。"
     },
     "PokemonStatusHealModifierType": {
       "description": "爲一隻寶可夢消除所有負面狀態。"
     },
     "PokemonPpRestoreModifierType": {
-      "description": "爲一隻寶可夢的一個招式恢復 {{restorePoints}} PP。",
+      "description": "爲一隻寶可夢的一個招式恢復 {{restorePoints}} ＰＰ。",
       "extra": {
-        "fully": "完全恢復一隻寶可夢一個招式的PP。"
+        "fully": "完全恢復一隻寶可夢一個招式的ＰＰ。"
       }
     },
     "PokemonAllMovePpRestoreModifierType": {
-      "description": "爲一隻寶可夢的所有招式恢復 {{restorePoints}} PP。",
+      "description": "爲一隻寶可夢的所有招式恢復 {{restorePoints}} ＰＰ。",
       "extra": {
-        "fully": "爲一隻寶可夢的所有招式恢復所有PP。"
+        "fully": "爲一隻寶可夢的所有招式恢復所有ＰＰ。"
       }
     },
     "PokemonPpUpModifierType": {
-      "description": "永久提升一個招式的PP，每5點最大PP增加{{upPoints}} (最多3點)。"
+      "description": "永久提升一個招式的ＰＰ，每５點最大ＰＰ增加{{upPoints}} (最多３點)。"
     },
     "PokemonNatureChangeModifierType": {
       "name": "{{natureName}}薄荷",
@@ -50,14 +50,14 @@
       "description": "遭遇雙打機率提升四倍，持續{{battleCount}}場戰鬥。"
     },
     "TempStatStageBoosterModifierType": {
-      "description": "提升全隊的{{stat}}{{amount}}級，持續5場戰鬥。",
+      "description": "提升全隊的{{stat}}{{amount}}級，持續５場戰鬥。",
       "extra": {
-        "stage": "1階",
-        "percentage": "20%"
+        "stage": "１階",
+        "percentage": "２０%"
       }
     },
     "AttackTypeBoosterModifierType": {
-      "description": "一隻寶可夢的{{moveType}}系招式威力提升20%。"
+      "description": "一隻寶可夢的{{moveType}}系招式威力提升２０%。"
     },
     "PokemonLevelIncrementModifierType": {
       "description": "使一只寶可夢的等級提升{{levels}}級。"
@@ -66,17 +66,17 @@
       "description": "使一只寶可夢的等級提升{{levels}}級。"
     },
     "BaseStatBoosterModifierType": {
-      "description": "增加持有者的{{stat}}10%，個體值越高堆疊\n上限越高。"
+      "description": "增加持有者的{{stat}}１０%，個體值越高堆疊\n上限越高。"
     },
     "PokemonBaseStatFlatModifierType": {
       "name": "森之羊羹",
       "description": "增加持有者{{stats}}的基礎屬性{{statValue}}，來自於一場怪夢。"
     },
     "AllPokemonFullHpRestoreModifierType": {
-      "description": "所有寶可夢完全恢復HP。"
+      "description": "所有寶可夢完全恢復ＨＰ。"
     },
     "AllPokemonFullReviveModifierType": {
-      "description": "復活所有瀕死寶可夢，完全恢復HP。"
+      "description": "復活所有瀕死寶可夢，完全恢復ＨＰ。"
     },
     "MoneyRewardModifierType": {
       "description": "獲得{{moneyMultiplier}}金錢 (₽{{moneyAmount}})。",
@@ -93,13 +93,13 @@
       "description": "持有者經驗值獲取量增加{{boostPercent}}%。"
     },
     "PokemonFriendshipBoosterModifierType": {
-      "description": "親密度獲取量增加50%。"
+      "description": "親密度獲取量增加５０%。"
     },
     "PokemonMoveAccuracyBoosterModifierType": {
       "description": "招式命中率增加{{accuracyAmount}}。"
     },
     "PokemonMultiHitModifierType": {
-      "description": "將持有者本次傷害的25%轉化為一次獨立的攻擊。"
+      "description": "將持有者本次傷害的２５%轉化為一次獨立的攻擊。"
     },
     "TmModifierType": {
       "name": "招式學習器 {{moveId}} - {{moveName}}",
@@ -185,29 +185,29 @@
     },
     "REVIVER_SEED": {
       "name": "復活種子",
-      "description": "受到技能攻擊傷害瀕死時，\n恢復該瀕死寶可夢的HP至1/2。"
+      "description": "受到技能攻擊傷害瀕死時，\n恢復該瀕死寶可夢的ＨＰ至１/２。"
     },
     "WHITE_HERB": {
       "name": "白色香草",
       "description": "當攜帶它的寶可夢能力降低時，\n僅能回到之前的狀態１次。"
     },
     "ETHER": {
-      "name": "PP單項小補劑"
+      "name": "ＰＰ單項小補劑"
     },
     "MAX_ETHER": {
-      "name": "PP單項全補劑"
+      "name": "ＰＰ單項全補劑"
     },
     "ELIXIR": {
-      "name": "PP多項小補劑"
+      "name": "ＰＰ多項小補劑"
     },
     "MAX_ELIXIR": {
-      "name": "PP多項全補劑"
+      "name": "ＰＰ多項全補劑"
     },
     "PP_UP": {
-      "name": "PP提升劑"
+      "name": "ＰＰ提升劑"
     },
     "PP_MAX": {
-      "name": "PP極限提升劑"
+      "name": "ＰＰ極限提升劑"
     },
     "LURE": {
       "name": "引蟲香水"
@@ -224,7 +224,7 @@
     },
     "EXP_SHARE": {
       "name": "學習裝置",
-      "description": "未參加對戰的寶可夢獲得20%的經驗值。"
+      "description": "未參加對戰的寶可夢獲得２０%的經驗值。"
     },
     "EXP_BALANCE": {
       "name": "均衡型學習裝置",
@@ -232,7 +232,7 @@
     },
     "OVAL_CHARM": {
       "name": "圓形護符",
-      "description": "當多隻寶可夢參與戰鬥，分別獲得總經驗值\n10%的額外經驗值。"
+      "description": "當多隻寶可夢參與戰鬥，分別獲得總經驗值\n１０%的額外經驗值。"
     },
     "EXP_CHARM": {
       "name": "經驗護符"
@@ -272,7 +272,7 @@
     },
     "SOUL_DEW": {
       "name": "心之水滴",
-      "description": "增加寶可夢性格影響10% (加算)。"
+      "description": "增加寶可夢性格影響１０% (加算)。"
     },
     "NUGGET": {
       "name": "金珠"
@@ -285,15 +285,15 @@
     },
     "AMULET_COIN": {
       "name": "護符金幣",
-      "description": "金錢獎勵增加20%。"
+      "description": "金錢獎勵增加２０%。"
     },
     "GOLDEN_PUNCH": {
       "name": "黃金拳頭",
-      "description": "將50%造成的傷害轉換爲金錢。"
+      "description": "將５０%造成的傷害轉換爲金錢。"
     },
     "COIN_CASE": {
       "name": "代幣盒",
-      "description": "每十場戰鬥, 獲得自己金錢10%的利息。"
+      "description": "每十場戰鬥, 獲得自己金錢１０%的利息。"
     },
     "LOCK_CAPSULE": {
       "name": "上鎖的容器",
@@ -310,35 +310,35 @@
     },
     "HEALING_CHARM": {
       "name": "治癒護符",
-      "description": "HP恢復量增加10% (不含復活)。"
+      "description": "ＨＰ恢復量增加１０% (不含復活)。"
     },
     "CANDY_JAR": {
       "name": "糖果罐",
-      "description": "神奇糖果提供的升級提升1級。"
+      "description": "神奇糖果提供的升級提升１級。"
     },
     "BERRY_POUCH": {
       "name": "樹果袋",
-      "description": "使用樹果時增加30%的幾率不會消耗樹果。"
+      "description": "使用樹果時增加３０%的幾率不會消耗樹果。"
     },
     "FOCUS_BAND": {
       "name": "氣勢頭帶",
-      "description": "攜帶該道具的寶可夢增加10%幾率在受到\n攻擊而將陷入瀕死狀態時，保留1點HP不陷入瀕死狀態。"
+      "description": "攜帶該道具的寶可夢增加１０%幾率在受到\n攻擊而將陷入瀕死狀態時，保留１點ＨＰ不陷入瀕死狀態。"
     },
     "QUICK_CLAW": {
       "name": "先制之爪",
-      "description": "增加10%的幾率無視速度優先使出招式\n(先制技能優先)。"
+      "description": "增加１０%的幾率無視速度優先使出招式\n(先制技能優先)。"
     },
     "KINGS_ROCK": {
       "name": "王者之證",
-      "description": "攜帶該道具的寶可夢使用任意原本不會造成\n畏縮狀態的攻擊招式並造成傷害時，增加\n10%幾率使目標陷入畏縮狀態。"
+      "description": "攜帶該道具的寶可夢使用任意原本不會造成\n畏縮狀態的攻擊招式並造成傷害時，增加\n１０%幾率使目標陷入畏縮狀態。"
     },
     "LEFTOVERS": {
       "name": "喫剩的東西",
-      "description": "攜帶該道具的寶可夢在每個回合結束時恢復\n最大HP的1/16。"
+      "description": "攜帶該道具的寶可夢在每個回合結束時恢復\n最大ＨＰ的１/１６。"
     },
     "SHELL_BELL": {
       "name": "貝殼之鈴",
-      "description": "攜帶該道具的寶可夢在攻擊對方成功造成傷\n害時，攜帶者的HP會恢復其所造成傷害\n的1/8。"
+      "description": "攜帶該道具的寶可夢在攻擊對方成功造成傷\n害時，攜帶者的ＨＰ會恢復其所造成傷害\n的１/８。"
     },
     "TOXIC_ORB": {
       "name": "劇毒寶珠",
@@ -350,7 +350,7 @@
     },
     "MYSTICAL_ROCK": {
       "name": "神秘之力",
-      "description": "每堆疊一次，可將招式或能力造成的\n地形和天氣的持續時間延長 2 回合。"
+      "description": "每堆疊一次，可將招式或能力造成的\n地形和天氣的持續時間延長 ２ 回合。"
     },
     "EVOLUTION_TRACKER_GIMMIGHOUL": {
       "name": "金子寶物",
@@ -396,15 +396,15 @@
     },
     "ENEMY_DAMAGE_BOOSTER": {
       "name": "傷害硬幣",
-      "description": "增加5%造成傷害。"
+      "description": "增加５%造成傷害。"
     },
     "ENEMY_DAMAGE_REDUCTION": {
       "name": "防禦硬幣",
-      "description": "減少2.5%承受傷害。"
+      "description": "減少２.５%承受傷害。"
     },
     "ENEMY_HEAL": {
       "name": "恢復硬幣",
-      "description": "每回合恢復2%最大HP。"
+      "description": "每回合恢復２%最大ＨＰ。"
     },
     "ENEMY_ATTACK_POISON_CHANCE": {
       "name": "劇毒硬幣"
@@ -417,14 +417,14 @@
     },
     "ENEMY_STATUS_EFFECT_HEAL_CHANCE": {
       "name": "萬靈藥硬幣",
-      "description": "增加2.5%每回合治癒異常狀態的概率。"
+      "description": "增加２.５%每回合治癒異常狀態的概率。"
     },
     "ENEMY_ENDURE_CHANCE": {
       "name": "忍受硬幣"
     },
     "ENEMY_FUSED_CHANCE": {
       "name": "融合硬幣",
-      "description": "增加1%野生融合寶可夢出現概率。"
+      "description": "增加１%野生融合寶可夢出現概率。"
     },
     "MYSTERY_ENCOUNTER_SHUCKLE_JUICE_GOOD": {
       "name": "甜壺壺果汁",
@@ -506,7 +506,7 @@
     "fairy_feather": "妖精之羽"
   },
   "BaseStatBoosterItem": {
-    "hp_up": "HP增強劑",
+    "hp_up": "ＨＰ增強劑",
     "protein": "攻擊增強劑",
     "iron": "防禦增強劑",
     "calcium": "特攻增強劑",
@@ -642,10 +642,10 @@
     "RAICHUNITE_X": "雷超進化石Ｘ",
     "RAICHUNITE_Y": "雷超進化石Ｙ",
     "CHIMECHITE": "風鈴鈴進化石",
-    "ABSOLITE_Z": "阿勃梭魯進化石Z",
+    "ABSOLITE_Z": "阿勃梭魯進化石Ｚ",
     "STARAPTITE": "姆克鷹進化石",
-    "GARCHOMPITE_Z": "烈咬陸鯊進化石Z",
-    "LUCARIONITE_Z": "路卡利歐進化石Z",
+    "GARCHOMPITE_Z": "烈咬陸鯊進化石Ｚ",
+    "LUCARIONITE_Z": "路卡利歐進化石Ｚ",
     "GOLURKITE": "泥偶巨人進化石",
     "MEOWSTICITE": "超能妙喵進化石",
     "CRABOMINITE": "好勝毛蟹進化石",
@@ -682,7 +682,7 @@
     "BURN_DRIVE": "火焰卡帶",
     "CHILL_DRIVE": "冰凍卡帶",
     "DOUSE_DRIVE": "水流卡帶",
-    "ULTRANECROZIUM_Z": "究極奈克洛Z",
+    "ULTRANECROZIUM_Z": "究極奈克洛Ｚ",
     "FIST_PLATE": "拳頭石板",
     "SKY_PLATE": "藍天石板",
     "TOXIC_PLATE": "劇毒石板",
