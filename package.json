@@ -8,7 +8,8 @@
     "check-locales-format:keys": "node ./.github/scripts/locales-format-checker/main.js -k -v",
     "check-locales-format:files": "node ./.github/scripts/locales-format-checker/main.js -f -v",
     "check-locales-format:missing": "node ./.github/scripts/locales-format-checker/main.js -m -v",
-    "edit-locales": "node ./.github/scripts/locales-cli-editor/main.js"
+    "edit-locales": "node ./.github/scripts/locales-cli-editor/main.js",
+    "generate-metrics": "node ./.github/scripts/metrics-exporter/main.js"
   },
   "optionalDependencies": {
     "@actions/core": "^1.11.1"
