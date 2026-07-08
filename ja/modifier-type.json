@@ -1,11 +1,11 @@
 {
   "ModifierType": {
     "AddPokeballModifierType": {
-      "name": "{{modifierCount}}×\n{{pokeballName}}",
+      "name": "{{modifierCount}}× {{pokeballName}}",
       "description": "{{pokeballName}}を {{modifierCount}}個 手に入れる (所有: {{pokeballAmount}})\n捕捉率：{{catchRate}}"
     },
     "AddVoucherModifierType": {
-      "name": "{{modifierCount}}×\n{{voucherTypeName}}",
+      "name": "{{modifierCount}}× {{voucherTypeName}}",
       "description": "{{voucherTypeName}}を {{modifierCount}}個 手に入れる"
     },
     "PokemonHeldItemModifierType": {
@@ -102,11 +102,11 @@
       "description": "持たせると 攻撃技の ダメージの ２５%が もう一回の 攻撃で 出す"
     },
     "TmModifierType": {
-      "name": "わざマシン{{moveId}}\n{{moveName}}",
+      "name": "わざマシン{{moveId}} {{moveName}}",
       "description": "ポケモンに {{moveName}}を 教える"
     },
     "TmModifierTypeWithInfo": {
-      "name": "わざマシン{{moveId}}\n{{moveName}}",
+      "name": "わざマシン{{moveId}} {{moveName}}",
       "description": "ポケモンに {{moveName}}を 教える\n(Cキー／Shiftキーを 押すと 技情報が 見える)"
     },
     "EvolutionItemModifierType": {
