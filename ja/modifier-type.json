@@ -2,7 +2,7 @@
   "ModifierType": {
     "AddPokeballModifierType": {
       "name": "{{modifierCount}}× {{pokeballName}}",
-      "description": "{{pokeballName}}を {{modifierCount}}個 手に入れる (所有: {{pokeballAmount}})\n捕捉率：{{catchRate}}"
+      "description": "{{pokeballName}}を {{modifierCount}}個 手に入れる （所有: {{pokeballAmount}}）\n捕捉率：{{catchRate}}"
     },
     "AddVoucherModifierType": {
       "name": "{{modifierCount}}× {{voucherTypeName}}",
@@ -40,11 +40,11 @@
       }
     },
     "PokemonPpUpModifierType": {
-      "description": "ポケモンが 覚えている 技のうち １つの PPの 最大値を ５ごとに {{upPoints}}ポイントずつ 上げる (最大３)"
+      "description": "ポケモンが 覚えている 技のうち １つの PPの 最大値を ５ごとに {{upPoints}}ポイントずつ 上げる （最大３）"
     },
     "PokemonNatureChangeModifierType": {
       "name": "{{natureName}}ミント",
-      "description": "ポケモンの 性格を {{natureName}}に 変える\n(あとで この性格を スターター 画面でも 選べる)"
+      "description": "ポケモンの 性格を {{natureName}}に 変える\n（あとで この性格を スターター 画面でも 選べる）"
     },
     "DoubleBattleChanceBoosterModifierType": {
       "description": "バトル{{battleCount}}回の 間 ダブルバトルに なる 確率を ４倍に する"
@@ -107,7 +107,7 @@
     },
     "TmModifierTypeWithInfo": {
       "name": "わざマシン{{moveId}} {{moveName}}",
-      "description": "ポケモンに {{moveName}}を 教える\n(Cキー／Shiftキーを 押すと 技情報が 見える)"
+      "description": "ポケモンに {{moveName}}を 教える\n（Cキー/Shiftキーを 押すと 技情報が 見える）"
     },
     "EvolutionItemModifierType": {
       "description": "ある特定の ポケモンを 進化させる"
@@ -116,7 +116,7 @@
       "description": "ある特定の ポケモンを フォームチェンジさせる"
     },
     "FusePokemonModifierType": {
-      "description": "２匹の ポケモンを 吸収合体する (特性が 移行し、 基本能力と タイプを 分け、 覚える 技を 共有する)"
+      "description": "２匹の ポケモンを 吸収合体する （特性が 移行し、 基本能力と タイプを 分け、 覚える 技を 共有する）"
     },
     "TerastallizeModifierType": {
       "name": "テラピース{{teraType}}",
