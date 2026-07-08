@@ -18,6 +18,7 @@ export const ignoreList = [
   ".vscode",
   "README.md",
   "data-metrics",
+  "registry.json",
   "dist",
   "README_TEMPLATE.md",
   "pnpm-lock.yaml",

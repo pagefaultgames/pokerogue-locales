@@ -179,6 +179,8 @@ const templatePath = path.join(rootDir, 'README_TEMPLATE.md');
 const finalReadmePath = path.join(rootDir, 'README.md');
 const jsonOutputPath = path.join(dataMetricsDir, 'metrics.json');
 
+const langConfig = JSON.parse(readFileSync(rootDir + "registry.json", "utf-8"));
+
 const cleanMetricsJson = {
   date: rawMetrics.date,
   average: rawMetrics.average,
@@ -210,18 +212,33 @@ function getBadgeColor(percent) {
 }
 
 function encodeShieldsString(text) {
-  return text
+  return encodeURIComponent(
+    text
     .replaceAll('-', '--') 
     .replaceAll('_', '__')
-    .replaceAll(' ', '_');
+    .replaceAll(' ', '_')
+  );
+}
+
+function getLangMetrics(langCode) {
+  return rawMetrics.languages[langCode];
 }
 
 let markdownContent = "\n";
-markdownContent += `Progress (${languagesCodes.length} languages): ![Progress global](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FVassiat%2Fpokerogue-locales%2Frefs%2Fheads%2Ftmp%2Fci%2Ftranslation-exporter%2Fdata-metrics%2Fmetrics.json&query=%24.average&label=localized&suffix=%25&color=brightgreen)`
+// dynamic error, "rate limited by upstream service"
+// markdownContent += `Progress (${languagesCodes.length} languages): ![Progress global](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FVassiat%2Fpokerogue-locales%2Frefs%2Fheads%2Ftmp%2Fci%2Ftranslation-exporter%2Fdata-metrics%2Fmetrics.json&query=%24.average&label=localized&suffix=%25&color=brightgreen)`
+markdownContent += `Progress (${languagesCodes.length} languages): ![Progress global](https://img.shields.io/badge/localized-${encodeShieldsString(rawMetrics.average.toString() + "%")}-brightgreen)`
 markdownContent += "\n";
 
-Object.keys(rawMetrics.languages).forEach(lang => {
-  const info = rawMetrics.languages[lang];
+Object.keys(rawMetrics.languages)
+  .sort((langA, langB) => {
+    const percentA = rawMetrics.languages[langA].average_percent;
+    const percentB = rawMetrics.languages[langB].average_percent;
+    
+    return percentB - percentA;
+  })
+  .forEach((lang, i, langArray) => {
+  const info = getLangMetrics(lang);
   const percent = info.average_percent;
   const percentString = `${percent}%`;
   
@@ -231,8 +248,20 @@ Object.keys(rawMetrics.languages).forEach(lang => {
   // Or dynamic target for external repository: `https://img.shields.io/badge/dynamic/json?url=${jsonUrlEncoded}&query=${queryPath}&label=${lang.toUpperCase()}&suffix=%25&color=${languageColor}`
   const badgeImg = `https://img.shields.io/badge/${encodeShieldsString(lang.toUpperCase())}-${encodeURIComponent(percentString)}-${languageColor}`;
 
-  markdownContent += `- #### ${lang.toUpperCase()}`;
+  markdownContent += `- #### ${langConfig[lang] ? langConfig[lang].label.toUpperCase() : lang.toUpperCase()}`;
   markdownContent += ` ![Progress ${lang}](${badgeImg})\n\n`;
+
+  if (!langConfig[lang]) {
+    console.log(`${lang} haven't label`);
+  } else if (lang !== lngSourceCode && langConfig[lang].note) {
+    markdownContent += `${langConfig[lang].note}`;
+  }
+
+  if (info.average_percent < 40) {
+    markdownContent += ` (Needs help)\n`;
+  } else {
+    markdownContent += `\n`;
+  }
 
   const { files, ...rest } = info.missing || {};
   const missingKeys = Object.keys(rest || {});
@@ -273,11 +302,13 @@ Object.keys(rawMetrics.languages).forEach(lang => {
 
     markdownContent += `</details>\n\n`;
   } else {
-    markdownContent += `ℹ️ *Up to date.*\n\n`;
+    markdownContent += `ℹ️ *Up to date.*\n`;
   }
   
-  markdownContent += `<br/><br/>\n\n`;
-  markdownContent += `---\n\n`;
+  if (i < langArray.length - 1) {
+    markdownContent += `<br/><br/>\n\n`;
+    markdownContent += `---\n\n`;
+  }
 });
 
 if (existsSync(templatePath)) {
