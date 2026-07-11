@@ -11,7 +11,7 @@
     "PokemonHeldItemModifierType": {
       "extra": {
         "inoperable": "{{pokemonName}} não pode\nsegurar esse item!",
-        "tooMany": "{{pokemonName}} tem muitos\nmuitos deste item!"
+        "tooMany": "{{pokemonName}} tem muitos\ndeste item!"
       }
     },
     "PokemonHpRestoreModifierType": {
@@ -90,7 +90,7 @@
       "description": "Aumenta o ganho de Pontos de Exp. em {{boostPercent}}%."
     },
     "PokemonExpBoosterModifierType": {
-      "description": "Aumenta o ganho de pontos de experiência de quem segura em {{boostPercent}}%."
+      "description": "Aumenta o ganho de Pontos de Exp. de quem segura em {{boostPercent}}%."
     },
     "PokemonFriendshipBoosterModifierType": {
       "description": "Aumenta o ganho de amizade em 50%."
@@ -228,11 +228,11 @@
     },
     "EXP_BALANCE": {
       "name": "Balanceador de Exp.",
-      "description": "Distribui pontos de experiência principalmente para os Pokémon mais fracos."
+      "description": "Distribui os Pontos de Exp. recebidos nas batalhas entre os membros da equipe de nível mais baixo."
     },
     "OVAL_CHARM": {
       "name": "Amuleto Oval",
-      "description": "Quando vários Pokémon participam de uma batalha, cada um recebe 10% extra de pontos de experiência."
+      "description": "Quando vários Pokémon participam de uma batalha, cada um recebe 10% a mais da Exp. total."
     },
     "EXP_CHARM": {
       "name": "Amuleto Exp."
@@ -454,7 +454,7 @@
   "SpeciesBoosterItem": {
     "LIGHT_BALL": {
       "name": "Bola de Luz",
-      "description": "Orbe intrigante que aumenta os atributos de Ataque e Ataque Esp. de Pikachu."
+      "description": "Orbe intrigante que aumenta os atributos de Ataque e Atq. Esp. de Pikachu."
     },
     "THICK_CLUB": {
       "name": "Osso Grosso",
@@ -474,13 +474,13 @@
     },
     "DEEP_SEA_TOOTH": {
       "name": "Dente Marinho",
-      "description": "Essa presa brilha com uma prata afiada e aumenta o Ata. Esp. do Clamperl."
+      "description": "Essa presa brilha com uma prata afiada e aumenta o Atq. Esp. do Clamperl."
     }
   },
   "TempStatStageBoosterItem": {
     "x_attack": "Ataque X",
     "x_defense": "Defesa X",
-    "x_sp_atk": "Ataque Esp. X",
+    "x_sp_atk": "Atq. Esp. X",
     "x_sp_def": "Defesa Esp. X",
     "x_speed": "Velocidade X",
     "x_accuracy": "Precisão X"
@@ -613,7 +613,7 @@
     "CLEFABLITE": "Clefablita",
     "VICTREEBELITE": "Victreebelita",
     "STARMINITE": "Starminita",
-    "DRAGONINITE": "Dragonitita",
+    "DRAGONINITE": "Dragoninita",
     "MEGANIUMITE": "Meganiumita",
     "FERALIGITE": "Feraligita",
     "SKARMORITE": "Skarmorita",
@@ -659,7 +659,7 @@
     "RED_ORB": "Orbe Vermelha",
     "SHARP_METEORITE": "Meteorito Afiado",
     "HARD_METEORITE": "Meteorito Duro",
-    "SMOOTH_METEORITE": " Meteorito Liso",
+    "SMOOTH_METEORITE": "Meteorito Liso",
     "ADAMANT_CRYSTAL": "Cristal Adamante",
     "LUSTROUS_GLOBE": "Globo Brilhante",
     "GRISEOUS_CORE": "Núcleo Platinado",
