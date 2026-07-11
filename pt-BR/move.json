@@ -353,7 +353,7 @@
   },
   "earthquake": {
     "name": "Earthquake",
-    "effect": "O usuário desencadeia um terremoto que atinge todos os Pokémon ao seu redor. O poder deste movimento é duplicado contra alvos subterrâneos por Dig e reduzido pela metade enquanto o Terreno de Grama estiver ativo."
+    "effect": "O usuário provoca um terremoto que atinge todos os Pokémon ao seu redor. O poder desse movimento é duplicado contra alvos que estejam no subsolo devido ao movimento Dig, e reduzido pela metade enquanto Terreno de Plantas estiver ativo."
   },
   "fissure": {
     "name": "Fissure",
@@ -885,7 +885,7 @@
   },
   "magnitude": {
     "name": "Magnitude",
-    "effect": "O usuário ataca tudo ao seu redor com um tremor que abala o solo. Seu poder varia de acordo com a magnitude do tremor, podendo ser 10, 30, 50, 70, 90, 110 ou 150 de poder. O poder deste movimento é duplicado contra alvos subterrâneos por Dig e reduzido pela metade enquanto o Terreno de Grama estiver ativo."
+    "effect": "O usuário ataca tudo ao seu redor com um tremor que sacode o solo. Sua potência varia de acordo com a magnitude do tremor, podendo ser de 10, 30, 50, 70, 90, 110 ou 150. A potência desse movimento é duplicada contra alvos subterrâneos que estejam sob o efeito do Dig, e reduzida pela metade enquanto Terreno de Plantas estiver ativo."
   },
   "dynamicPunch": {
     "name": "Dynamic Punch",
@@ -1169,7 +1169,7 @@
   },
   "camouflage": {
     "name": "Camouflage",
-    "effect": "O tipo do usuário muda dependendo do bioma ou terreno em que este movimento foi usado."
+    "effect": "O tipo do usuário é alterado dependendo do bioma ou do terreno em que esse movimento foi utilizado."
   },
   "tailGlow": {
     "name": "Tail Glow",
@@ -2241,7 +2241,7 @@
   },
   "matBlock": {
     "name": "Mat Block",
-    "effect": "Usando uma esteira elevada como escudo, o usuário protege a si mesmo e a seus aliados de golpes que causam dano. Isso não previne condições negativas."
+    "effect": "Usando uma esteira elevada como escudo, o usuário protege a si mesmo e a seus aliados de golpes que causam dano. Isso não previne movimentos de status."
   },
   "belch": {
     "name": "Belch",
@@ -2249,7 +2249,7 @@
   },
   "rototiller": {
     "name": "Rototiller",
-    "effect": "Arando o solo, o usuário facilita o crescimento das plantas. Isso aumenta os atributos de Ataque e Atq. Esp. de todos os Pokémon do tipo Grama que estejam no chão na batalha."
+    "effect": "Ao arar o solo, o usuário facilita o crescimento das plantas. Isso aumenta os atributos de Ataque e Atq. Esp. de todos os Pokémon do tipo Planta que estejam no solo durante a batalha."
   },
   "stickyWeb": {
     "name": "Sticky Web",
@@ -2281,7 +2281,7 @@
   },
   "forestsCurse": {
     "name": "Forest’s Curse",
-    "effect": "O usuário lança a maldição da floresta sobre os alvos. Isso adiciona o tipo Grama ao tipo do alvo."
+    "effect": "O usuário lança a maldição da floresta sobre os alvos. Isso adiciona o tipo Planta ao tipo do alvo."
   },
   "petalBlizzard": {
     "name": "Petal Blizzard",
@@ -2309,15 +2309,15 @@
   },
   "craftyShield": {
     "name": "Crafty Shield",
-    "effect": "O usuário protege a si mesmo e seus aliados de condições negativas com um misterioso poder. Isso não previne golpes que inflijam dano."
+    "effect": "O usuário protege a si mesmo e seus aliados de movimentos de status com um misterioso poder. Isso não previne golpes que inflijam dano."
   },
   "flowerShield": {
     "name": "Flower Shield",
-    "effect": "O usuário aumenta os atributos de Defesa de todos os Pokémon do tipo Grama na batalha com um poder misterioso."
+    "effect": "O usuário aumenta os atributos de Defesa de todos os Pokémon do tipo Planta na batalha com um poder misterioso."
   },
   "grassyTerrain": {
     "name": "Grassy Terrain",
-    "effect": "Transforma todo o campo em Terreno de Grama por 5 turnos. Pokémon que estejam no chão têm o poder de seus movimentos do tipo Grama aumentado em 30% e recuperam um dezesseis avos de seus PS máximos ao final de cada turno."
+    "effect": "Transforma todo o campo em Terreno de Plantas por 5 turnos. Pokémon no solo têm o poder de seus movimentos do tipo Planta aumentado em 30% e recuperam ¹⁄₁₆ de seus PS máximos ao final de cada turno."
   },
   "mistyTerrain": {
     "name": "Misty Terrain",
@@ -2661,7 +2661,7 @@
   },
   "floralHealing": {
     "name": "Floral Healing",
-    "effect": "O usuário restaura metade dos PS máximos do alvo. Quando o chão é Terreno de Grama, dois terços dos PS máximos do alvo são restaurados."
+    "effect": "O usuário restaura ½ dos PS máximos do alvo. Quando o solo é Terreno de Plantas, ⅔ dos PS máximos do alvo são restaurados."
   },
   "highHorsepower": {
     "name": "High Horsepower",
@@ -3089,7 +3089,7 @@
   },
   "maxOvergrowth": {
     "name": "Max Overgrowth",
-    "effect": "Este é um ataque do tipo Grama que os Pokémon Dynamax usam. O usuário transforma o chão em Terreno de Grama por 5 turnos."
+    "effect": "Este é um ataque do tipo Planta que os Pokémon Dynamax usam. O usuário cria um Terreno de Plantas por 5 turnos."
   },
   "maxSteelspike": {
     "name": "Max Steelspike",
@@ -3177,7 +3177,7 @@
   },
   "eternabeam": {
     "name": "Eternabeam",
-    "effect": "Este é o ataque mais poderoso de Eternatus em sua forma original. O usuário não pode se mover na próxima rodada."
+    "effect": "Este é o ataque mais poderoso de Eternatus em sua forma original. O usuário não pode se mover no próximo turno."
   },
   "steelBeam": {
     "name": "Steel Beam",
@@ -3209,7 +3209,7 @@
   },
   "grassyGlide": {
     "name": "Grassy Glide",
-    "effect": "Deslizando pelo chão, o usuário ataca o alvo. Se o usuário estiver sob o efeito do Terreno de Grama, este movimento sempre ocorre primeiro."
+    "effect": "Deslizando pelo chão, o usuário ataca o alvo. Se o usuário estiver sob o efeito do Terreno de Plantas, este movimento sempre ocorre primeiro."
   },
   "risingVoltage": {
     "name": "Rising Voltage",
@@ -3505,7 +3505,7 @@
   },
   "gMaxVineLash": {
     "name": "G-Max Vine Lash",
-    "effect": "Um ataque do tipo Grama que os Venusaur Gigantamax usam. Por 4 turnos, este movimento continua a causar dano aos oponentes que não sejam do tipo Grama igual a um sexto de seus PS máximos ao final de cada turno."
+    "effect": "Um ataque do tipo Planta que os Venusaur Gigantamax usam. Por 4 turnos, este movimento continua a causar dano aos oponentes que não sejam do tipo Planta igual a ⅙ de seus PS máximos ao final de cada turno."
   },
   "gMaxCannonade": {
     "name": "G-Max Cannonade",
@@ -3513,7 +3513,7 @@
   },
   "gMaxDrumSolo": {
     "name": "G-Max Drum Solo",
-    "effect": "Um ataque do tipo Grama que os Rillaboom Gigantamax usam. Este movimento pode ignorar o efeito da Habilidade do alvo (com certas exceções)."
+    "effect": "Um ataque do tipo Planta que Rillaboom Gigantamax usa. Este movimento pode ignorar o efeito da Habilidade do alvo (com certas exceções)."
   },
   "gMaxFireball": {
     "name": "G-Max Fireball",
