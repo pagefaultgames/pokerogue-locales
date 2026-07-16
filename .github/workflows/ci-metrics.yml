@@ -3,16 +3,34 @@ name: Generate and Deploy Metrics
 on:
   push:
     branches:
-      - main
-  workflow_dispatch:
+      - tmp/ci/translation-exporter
 
 permissions:
   contents: write
 
 jobs:
-  build-and-deploy:
+  check-changes:
     runs-on: ubuntu-latest
+    name: Test files affects metrics
+    outputs:
+      should_run: ${{ steps.filter.outputs.any_changed }}
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # 7.0.0
+        with:
+          # 0 for all history for all branches.
+          fetch-depth: 0
 
+      - name: Filter .metricsignore
+        id: filter
+        uses: tj-actions/changed-files@9426d40962ed5378910ee2e21d5f8c6fcbf2dd96 # v47.0.6
+        with:
+          files_ignore_from_source_file: .metricsignore
+
+  build-and-deploy:
+    needs: check-changes
+    if: needs.check-changes.outputs.should_run == 'true'
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
         uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # 7.0.0
