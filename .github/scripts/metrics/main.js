@@ -9,6 +9,7 @@ import {
 import path from "path";
 import { fileURLToPath } from 'url';
 import { getLanguageCodes } from "../locales-format-checker/get-files.js";
+import { COLORS } from "../locales-format-checker/constants.js";
 
 
 function findMissing(object) {
@@ -147,9 +148,9 @@ rawMetrics.languages[lngSourceCode] = {
 };
 
 for (const lngCode of languagesCodes) {
-  if (lngCode === lngSourceCode) continue
+  if (lngCode === lngSourceCode) continue;
 
-  console.info(`Collect \`${lngCode}\` metrics`);
+  console.info(`Collect ${COLORS.info}\`${lngCode}\`${COLORS.reset} metrics`);
 
   const currentNsPath = path.join(nsRelativePath, lngCode);
   const lng = getNameSpaces(currentNsPath);
@@ -200,7 +201,7 @@ if (!existsSync(dataMetricsDir)) {
 }
 
 writeFileSync(jsonOutputPath, JSON.stringify(cleanMetricsJson, null, 2), 'utf-8');
-console.log(`Metrics exported to: ${jsonOutputPath}`);
+console.log("Metrics exported to:", COLORS.file, jsonOutputPath, COLORS.reset);
 
 
 function getBadgeColor(percent) {
@@ -321,10 +322,10 @@ if (existsSync(templatePath)) {
     const finalReadmeContent = templateContent.replace(regex, replacementBlock);
     
     writeFileSync(finalReadmePath, finalReadmeContent, 'utf-8');
-    console.log("README.md successfully generated from template!");
+    console.log(COLORS.corrected, "README.md successfully generated from template!", COLORS.reset);
   } else {
-    console.error("Error: Could not find '<!-- METRICS:START -->' and '<!-- METRICS:END -->' comments in README_TEMPLATE.md");
+    console.error(COLORS.red, "Error: Could not find '<!-- METRICS:START -->' and '<!-- METRICS:END -->' comments in README_TEMPLATE.md", COLORS.reset);
   }
 } else {
-  console.error("Error: README_TEMPLATE.md not found in the root directory.");
+  console.error(COLORS.red, "Error: README_TEMPLATE.md not found in the root directory.", COLORS.reset);
 }

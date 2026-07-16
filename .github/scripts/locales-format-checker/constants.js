@@ -67,4 +67,5 @@ export const COLORS = {
   info: "\u001b[38;2;255;165;0m",
   file: "\u001b[38;2;128;128;128m",
   corrected: "\u001b[38;2;0;150;255m",
+  reset: "\u001b[0m",
 };
