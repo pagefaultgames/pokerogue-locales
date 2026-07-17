@@ -67,8 +67,8 @@ async function main() {
  * @returns {options}
  */
 function parseArgs(args) {
-  const optionArgs = args.filter(arg => arg.startsWith("-"));
-  const languageArgs = args.filter(arg => !arg.startsWith("-"));
+  const optionArgs = args.filter((arg) => arg.startsWith("-"));
+  const languageArgs = args.filter((arg) => !arg.startsWith("-"));
   /** @type {options} */
   const options = {
     checkKeys: false,

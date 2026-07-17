@@ -82,7 +82,7 @@ export function capitalizeFirstLetter(str) {
  */
 export function toTitleCase(str) {
   return splitWords(str)
-    .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
     .join(" ");
 }
 
@@ -114,7 +114,7 @@ export function toCamelCase(str) {
  */
 export function toPascalCase(str) {
   return splitWords(str)
-    .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
     .join("");
 }
 
@@ -129,7 +129,7 @@ export function toPascalCase(str) {
  */
 export function toKebabCase(str) {
   return splitWords(str)
-    .map(word => word.toLowerCase())
+    .map((word) => word.toLowerCase())
     .join("-");
 }
 
@@ -144,7 +144,7 @@ export function toKebabCase(str) {
  */
 export function toSnakeCase(str) {
   return splitWords(str)
-    .map(word => word.toLowerCase())
+    .map((word) => word.toLowerCase())
     .join("_");
 }
 
@@ -159,7 +159,7 @@ export function toSnakeCase(str) {
  */
 export function toUpperSnakeCase(str) {
   return splitWords(str)
-    .map(word => word.toUpperCase())
+    .map((word) => word.toUpperCase())
     .join("_");
 }
 
@@ -174,6 +174,6 @@ export function toUpperSnakeCase(str) {
  */
 export function toPascalSnakeCase(str) {
   return splitWords(str)
-    .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
     .join("_");
 }
