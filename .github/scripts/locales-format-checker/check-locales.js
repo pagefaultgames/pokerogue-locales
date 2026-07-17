@@ -20,7 +20,7 @@ import { getFiles, getKeys, getMainLanguageKeys, removeLanguageCode } from "./ge
  * @returns {Promise<incorrectKeys>} The incorrect keys found.
  */
 export async function checkLocaleKeys(options) {
-  return new Promise(resolve => {
+  return new Promise((resolve) => {
     /** @type {incorrectKeys} */
     let incorrectKeys = {};
 
@@ -68,7 +68,7 @@ function checkForIncorrectKeys(filePath, options) {
     printVerboseLog(`${COLORS.info}No keys found in ${filePath}`, options);
     return null;
   }
-  const entries = keys.map((key, index) => analyzeKey(key, index, options)).filter(e => e !== null);
+  const entries = keys.map((key, index) => analyzeKey(key, index, options)).filter((e) => e !== null);
 
   if (entries.length > 0) {
     incorrectKeys[filePath] = entries;
@@ -132,7 +132,7 @@ function processExtensions(key) {
  * @returns {Promise<incorrectFileNames>} The incorrect file names found.
  */
 export async function checkLocaleFileNames(options) {
-  return new Promise(resolve => {
+  return new Promise((resolve) => {
     /** @type {incorrectFileNames} */
     const incorrectFileNames = {};
 
@@ -201,7 +201,7 @@ function checkForIncorrectFileName(filePath, options) {
  * @returns {Promise<fileKeys>} The incorrect file names found.
  */
 export async function checkLocaleMissingKeys(options) {
-  return new Promise(resolve => {
+  return new Promise((resolve) => {
     /** @type {fileKeys} */
     const missingKeys = {};
 

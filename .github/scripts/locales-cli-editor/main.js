@@ -10,10 +10,10 @@
  * Usage: `node ./.github/scripts/locales-cli-editor/main.js`
  */
 
-import { input, select } from "@inquirer/prompts";
-import chalk from "chalk";
 import fs from "node:fs";
 import path, { resolve } from "node:path";
+import { input, select } from "@inquirer/prompts";
+import chalk from "chalk";
 
 //#region Constants
 
@@ -30,12 +30,12 @@ const LOCALES_PATH = path.join(LOCALES_DIR, LANG_CODE);
  */
 const SUPPORTED_LANGS = fs
   .readdirSync(LOCALES_DIR)
-  .filter(f => f !== "en" && fs.statSync(path.join(LOCALES_DIR, f)).isDirectory());
+  .filter((f) => f !== "en" && fs.statSync(path.join(LOCALES_DIR, f)).isDirectory());
 /**
  * The list of JSON files that can be edited
  * @type {readonly string[]}
  */
-const LOCALES_FILES = fs.readdirSync(LOCALES_PATH).filter(f => f.endsWith(".json"));
+const LOCALES_FILES = fs.readdirSync(LOCALES_PATH).filter((f) => f.endsWith(".json"));
 /**
  * The version of this script
  * @type {string}
@@ -87,7 +87,7 @@ function getKeyValue(filePath, key) {
     if (val && typeof val === "object" && part in val) {
       val = val[part];
     } else {
-      return undefined;
+      return;
     }
   }
   return typeof val === "string" ? val : undefined;
@@ -106,7 +106,9 @@ function setKeyValue(filePath, key, value) {
   let obj = data;
   for (let i = 0; i < parts.length - 1; i++) {
     obj = obj[parts[i]];
-    if (!obj) return false;
+    if (!obj) {
+      return false;
+    }
   }
   obj[parts[parts.length - 1]] = value;
   fs.writeFileSync(filePath, JSON.stringify(data, null, 2) + "\n", "utf8");
@@ -125,7 +127,9 @@ function deleteKey(filePath, key) {
   let obj = data;
   for (let i = 0; i < parts.length - 1; i++) {
     obj = obj[parts[i]];
-    if (!obj) return false;
+    if (!obj) {
+      return false;
+    }
   }
   delete obj[parts[parts.length - 1]];
   fs.writeFileSync(filePath, JSON.stringify(data, null, 2) + "\n", "utf8");
@@ -142,7 +146,7 @@ function deleteKey(filePath, key) {
  * @returns The string with special characters escaped
  */
 function escapeSpecialChars(str) {
-  return str.replace(/[\n\r\t]/g, c => {
+  return str.replace(/[\n\r\t]/g, (c) => {
     switch (c) {
       case "\n":
         return "\\n";
@@ -163,6 +167,7 @@ function escapeSpecialChars(str) {
  * @return The unescaped and postprocessed string
  */
 function unescapeSpecialCharsAndConvertQuotes(str) {
+  // biome-ignore format: the extra parentheses are unnecessary
   return str
     .replace(/(?<!\s)'(?=\S)/g, "’")
     // Replace double quotes that appear after a space (or the beginning of the string) with special left quote
@@ -170,7 +175,7 @@ function unescapeSpecialCharsAndConvertQuotes(str) {
     // Replace double quotes that appear after a non-space and are not followed by a non-dot with special right quote
     .replace(/(?<=\S)"/g, "”")
     // Unescape special escaped characters
-    .replace(/\\[nrt]/g, c => {
+    .replace(/\\[nrt]/g, (c) => {
       switch (c) {
         case "\\n":
           return "\n";
@@ -194,13 +199,12 @@ function unescapeSpecialCharsAndConvertQuotes(str) {
  */
 async function reword(fileChoice, keyChoice, keyValue) {
   const value = chalk.red(escapeSpecialChars(keyValue));
-  let newValue = unescapeSpecialCharsAndConvertQuotes(
+  const newValue = unescapeSpecialCharsAndConvertQuotes(
     await input({
       message: `"${keyChoice} current reads:\n\t${value}\nEnter new value for "${keyChoice}" (press TAB to edit the placeholder):\n`,
       default: keyValue,
-    })
-  )
-
+    }),
+  );
 
   if (newValue.trim().length === 0) {
     console.error(chalk.red.bold("✗  New value cannot be empty."));
@@ -258,7 +262,9 @@ async function main() {
     const allKeys = getAllKeysFromFile(filePath);
 
     if (allKeys.length === 0) {
-      console.error(chalk.red.bold("✗ Error: No keys found in file. This can happen if the file contains only nested objects."));
+      console.error(
+        chalk.red.bold("✗ Error: No keys found in file. This can happen if the file contains only nested objects."),
+      );
       return;
     }
 
