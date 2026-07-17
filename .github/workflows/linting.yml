@@ -1,0 +1,86 @@
+name: Linting
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  merge_group:
+    types: [checks_requested]
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions: {}
+
+jobs:
+  linting-path-filter:
+    name: Linting path filter
+    timeout-minutes: 5
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: read
+    outputs:
+      all: ${{ steps.filter.outputs.all }}
+
+    steps:
+      - name: Checkout GitHub repository
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # 7.0.0
+        with:
+          sparse-checkout: |
+            README.md
+          sparse-checkout-cone-mode: false
+
+      - uses: dorny/paths-filter@7b450fff21473bca461d4b92ce414b9d0420d706 # 4.0.2
+        id: filter
+        with:
+          filters: |
+            all:
+              - "package.json"
+              - "pnpm-lock.yaml"
+              - "tsconfig.json"
+              - "biome.jsonc"
+              - ".github/workflows/linting.yml"
+              - "**/*.mts"
+              - "**/*.js"
+
+  run-linters:
+    name: Run all linters
+    timeout-minutes: 10
+    runs-on: ubuntu-latest
+    needs: linting-path-filter
+    if: needs.linting-path-filter.outputs.all == 'true'
+
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # 7.0.0
+        with:
+          sparse-checkout: |
+            .github
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@0ebf47130e4866e96fce0953f49152a61190b271 # 6.0.9
+        with:
+          version: 10
+
+      - name: Set up Node.js
+        uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # 6.4.0
+        with:
+          node-version: 24
+          cache: "pnpm"
+
+      - name: Install dependencies
+        run: pnpm i
+        shell: bash
+
+      - name: Lint with Biome
+        run: pnpm biome:ci
+        if: ${{ !cancelled() }}
+
+      - name: Run Typecheck
+        run: pnpm typecheck
+        if: ${{ !cancelled() }}
