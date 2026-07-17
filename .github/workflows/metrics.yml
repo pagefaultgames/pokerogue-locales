@@ -3,7 +3,7 @@ name: Generate and Deploy Metrics
 on:
   push:
     branches:
-      - tmp/ci/translation-exporter
+      - main
 
 permissions:
   contents: write
