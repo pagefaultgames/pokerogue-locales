@@ -11,7 +11,7 @@ import { fileURLToPath } from 'url';
 import { COLORS, LOCALES_DIR, mainLanguage } from "../helpers/constants.js";
 import { checkContent, findMissing, getFiles, getBadgeColor, encodeShieldsString, removeKeysOnObject } from "./helpers.js";
 
-
+//#region Setup & Config
 const rawMetrics = {
   date: new Date().toISOString(),
   average: 0,
@@ -27,8 +27,9 @@ const dataMetricsDir = path.join(LOCALES_DIR, 'data-metrics');
 const templatePath = path.join(LOCALES_DIR, 'README_TEMPLATE.md');
 const finalReadmePath = path.join(LOCALES_DIR, 'README.md');
 const jsonOutputPath = path.join(dataMetricsDir, 'metrics.json');
+//#endregion
 
-
+//#region Collect & Calculate
 rawMetrics.languages[mainLanguage] = {
   average: Object.entries(lngSource)
     .map(checkContent)
@@ -58,11 +59,10 @@ for (const languageCode of languagesCodes) {
 }
 
 rawMetrics.average = parseFloat((rawMetrics.average / (languagesCodes.length - 1)).toFixed(2));
+//#endregion
 
-
-if (!existsSync(dataMetricsDir)) {
-  mkdirSync(dataMetricsDir, { recursive: true });
-}
+//#region Check Early Exit
+const forceHydrate = process.env.FORCE_HYDRATE === "true";
 
 const cleanMetricsJson = {
   ...rawMetrics,
@@ -72,10 +72,27 @@ const cleanMetricsJson = {
     })
 }
 
+if (!forceHydrate && existsSync(jsonOutputPath)) {
+  const existingMetrics = JSON.parse(readFileSync(jsonOutputPath, "utf-8"));
+  
+  const { date: oldDate, ...oldData } = existingMetrics;
+  const { date: newData, ...newDataObj } = cleanMetricsJson;
+
+  if (JSON.stringify(oldData) === JSON.stringify(newDataObj)) {
+    console.log("No changes in keys or design templates. Skipping hydration.");
+    process.exit(0);
+  }
+}
+
+if (!existsSync(dataMetricsDir)) {
+  mkdirSync(dataMetricsDir, { recursive: true });
+}
+
 writeFileSync(jsonOutputPath, JSON.stringify(cleanMetricsJson, null, 2), 'utf-8');
 console.log("Metrics exported to:", COLORS.file, jsonOutputPath, COLORS.reset);
+//#endregion
 
-
+//#region README Hydration
 let markdownContent = `Progress (${languagesCodes.length} languages): ![Progress global](https://img.shields.io/badge/localized-${encodeShieldsString(rawMetrics.average.toString() + "%")}-brightgreen)`
 markdownContent += "\n";
 
@@ -174,3 +191,4 @@ if (templatePath && existsSync(templatePath)) {
 } else {
   console.error(COLORS.red, "Error: README_TEMPLATE.md not found in the root directory.", COLORS.reset);
 }
+//#endregion

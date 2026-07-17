@@ -16,6 +16,7 @@ export const ignoreList = [
   ".gitignore",
   "node_modules",
   ".vscode",
+  ".metricswatch",
   "README.md",
   "data-metrics",
   "registry.json",
