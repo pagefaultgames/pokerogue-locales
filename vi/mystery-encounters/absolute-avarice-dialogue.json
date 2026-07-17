@@ -1,7 +1,7 @@
 {
   "intro": "Một con {{greedentName}} phục kích bạn\nvà cướp sạch Berry của cả đội!",
   "title": "Lòng Tham Vô Độ",
-  "description": "Con {{greedentName}} đã khiến bạn hoàn toàn bất ngờ, giờ đây toàn bộ Berry của bạn đã biến mất!\n​Con {{greedentName}} trông như thể sắp ăn sạch chúng thì bỗng khựng lại để nhìn ngươi đầy thích thú.",
+  "description": "Con {{greedentName}} đã khiến bạn hoàn toàn bất ngờ, giờ đây toàn bộ Berry của bạn đã biến mất!\n\n​Con {{greedentName}} trông như thể sắp ăn sạch chúng thì bỗng khựng lại nhìn bạn đầy thích thú.",
   "query": "Bạn sẽ làm gì đây?",
   "option": {
     "1": {
@@ -9,10 +9,10 @@
       "tooltip": "(-) Trận đấu cam go\n(+) Phần Thưởng từ đống Berry của nó",
       "selected": "Con {{greedentName}} nhét đầy thức ăn vào hai bên má\nvà chuẩn bị vào trận chiến!",
       "bossEnraged": "Tình yêu mãnh liệt dành cho đồ ăn đã khiến {{greedentName}} nổi trận lôi đình!",
-      "foodStash": "Trông có vẻ như {{greedentName}} đã canh giữ một kho lương thực khổng lồ!$@s{item_fanfare}Mỗi Pokémon trong đội hình của ngươi nhận được một {{foodReward}}!"
+      "foodStash": "Có vẻ như {{greedentName}} đã canh giữ một kho lương thực khổng lồ!$@s{item_fanfare}Mỗi Pokémon trong đội hình của bạn nhận được một {{foodReward}}!"
     },
     "2": {
-      "label": "Thương Lượng Với Nó",
+      "label": "Thương Lượng",
       "tooltip": "(+) Giành lại một vài Berry đã mất",
       "selected": "Lời cầu xin của bạn đã chạm đến lòng trắc ẩn của {{greedentName}}.$Nó không trả lại toàn bộ số Berry, nhưng vẫn ném về phía bạn một vài quả."
     },

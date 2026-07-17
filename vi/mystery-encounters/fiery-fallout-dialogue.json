@@ -1,24 +1,24 @@
 {
-  "intro": "Bạn sẽ gặp phải một cơn bão khói và tro bụi dữ dội!",
-  "title": "Vụ Nổ Dữ Dội",
+  "intro": "Bạn gặp phải một cơn bão giông mịt mù khói và tro bụi!",
+  "title": "Tàn Dư Lửa Hồng",
   "description": "Tro bụi và tàn lửa cuồn cuộn đã làm giảm tầm nhìn xuống gần như bằng không. Dường như… có một nguồn nào đó đang gây ra hiện tượng này. Nhưng điều gì có thể đứng sau một hiện tượng quy mô lớn như vậy?",
   "query": "Bạn sẽ làm gì đây?",
   "option": {
     "1": {
-      "label": "Tìm ra Nguyên Nhân",
-      "tooltip": "(?) Tìm ra Nguyên Nhân\n(-) Trận đấu cam go\n(+) Nhận 1 Vật Phẩm",
+      "label": "Tìm Nguyên Nhân",
+      "tooltip": "(?) Tìm ra nguyên nhân\n(-) Trận đấu cam go\n(+) Nhận 1 Vật Phẩm",
       "selected": "Bạn vượt qua cơn bão và bắt gặp hai con {{volcaronaName}} đang thực hiện điệu nhảy giao phối!$Chúng không thích việc bị gián đoạn và tấn công!"
     },
     "2": {
       "label": "Tìm Nơi Trú Ẩn",
-      "tooltip": "(-) Chịu ảnh hưởng của thời tiết\n(?) Ảnh hưởng đến đặc tính của một Pokémon.",
+      "tooltip": "(-) Chịu ảnh hưởng của thời tiết\n(?) Ảnh hưởng đến Đặc tính của 1 Pokémon",
       "selected": "Ảnh hưởng của thời tiết khiến Pokémon bị thương khi cố gắng tìm nơi trú ẩn!$Đội của bạn sẽ chịu sát thương bằng 20% HP tối đa!",
-      "targetBurned": "Pokemon {{burnedPokemon}} của bạn cũng bị bỏng!$Tuy nhiên, việc chịu đựng điều kiện khắc nghiệt đã thay đổi đặc tính của {{burnedPokemon}} thành {{abilityName}}!"
+      "targetBurned": "{{burnedPokemon}} của bạn cũng bị bỏng!$Tuy nhiên, việc chịu đựng điều kiện khắc nghiệt đã thay đổi đặc tính của {{burnedPokemon}} thành {{abilityName}}!"
     },
     "3": {
       "label": "Pokémon kháng lửa của bạn lao vào giúp đỡ",
-      "tooltip": "(+) Chấm dứt hiệu ứng\n(+) Nhận một vật phẩm",
-      "disabledTooltip": "Bạn cần một Pokémon hệ Lửa hoặc một đặc tính nhất định của Pokémon để đưa ra lựa chọn này.",
+      "tooltip": "(+) Chấm dứt tình cảnh khó khăn\n(+) Nhận 1 Vật Phẩm",
+      "disabledTooltip": "Bạn cần một Pokémon hệ Lửa hoặc một đặc tính nhất định của Pokémon mới có thể chọn phương án này.",
       "selected": "{{option3PrimaryName}} của bạn sẽ dẫn bạn đến nơi hai {{volcaronaName}} đang thực hiện điệu nhảy giao phối!$May mắn thay, Pokémon của bạn đã có thể làm dịu chúng, và chúng rời đi mà không gặp vấn đề gì."
     }
   },

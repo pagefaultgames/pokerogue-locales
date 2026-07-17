@@ -11,7 +11,7 @@
     "PokemonHeldItemModifierType": {
       "extra": {
         "inoperable": "{{pokemonName}} não pode\nsegurar esse item!",
-        "tooMany": "{{pokemonName}} tem muitos\nmuitos deste item!"
+        "tooMany": "{{pokemonName}} tem muitos\ndeste item!"
       }
     },
     "PokemonHpRestoreModifierType": {
@@ -87,10 +87,10 @@
       }
     },
     "ExpBoosterModifierType": {
-      "description": "Aumenta o ganho de pontos de experiência em {{boostPercent}}%."
+      "description": "Aumenta o ganho de Pontos de Exp. em {{boostPercent}}%."
     },
     "PokemonExpBoosterModifierType": {
-      "description": "Aumenta o ganho de pontos de experiência de quem segura em {{boostPercent}}%."
+      "description": "Aumenta o ganho de Pontos de Exp. de quem segura em {{boostPercent}}%."
     },
     "PokemonFriendshipBoosterModifierType": {
       "description": "Aumenta o ganho de amizade em 50%."
@@ -172,10 +172,10 @@
       "name": "Restaurador"
     },
     "REVIVE": {
-      "name": "Reanimador"
+      "name": "Reviver"
     },
     "MAX_REVIVE": {
-      "name": "Reanimador Máximo"
+      "name": "Máximo Reviver"
     },
     "FULL_HEAL": {
       "name": "Cura Total"
@@ -184,7 +184,7 @@
       "name": "Cinza Sagrada"
     },
     "REVIVER_SEED": {
-      "name": "Semente Reanimadora",
+      "name": "Semente Reviver",
       "description": "Após desmaiar por um ataque direto, reanima com 50% de PS."
     },
     "WHITE_HERB": {
@@ -224,15 +224,15 @@
     },
     "EXP_SHARE": {
       "name": "Compart. Exp.",
-      "description": "Distribui pontos de experiência para todos os membros da equipe."
+      "description": "Não participantes recebem 20% dos Pontos de Exp. de um único participante."
     },
     "EXP_BALANCE": {
       "name": "Balanceador de Exp.",
-      "description": "Distribui pontos de experiência principalmente para os Pokémon mais fracos."
+      "description": "Distribui os Pontos de Exp. recebidos nas batalhas entre os membros da equipe de nível mais baixo."
     },
     "OVAL_CHARM": {
       "name": "Amuleto Oval",
-      "description": "Quando vários Pokémon participam de uma batalha, cada um recebe 10% extra de pontos de experiência."
+      "description": "Quando vários Pokémon participam de uma batalha, cada um recebe 10% a mais da Exp. total."
     },
     "EXP_CHARM": {
       "name": "Amuleto Exp."
@@ -310,11 +310,11 @@
     },
     "HEALING_CHARM": {
       "name": "Amuleto de Cura",
-      "description": "Aumenta a eficácia dos movimentos e itens que restauram PS em 10% (exceto Reanimador)."
+      "description": "Aumenta a eficácia dos movimentos e itens que restauram PS em 10% (exceto Reviver)."
     },
     "CANDY_JAR": {
       "name": "Pote de Doces",
-      "description": "Aumenta o número de níveis adicionados pelo Doce Raro em 1."
+      "description": "Aumenta em 1 o número de níveis concedidos por Doces Raros."
     },
     "BERRY_POUCH": {
       "name": "Bolsa de Frutas",
@@ -417,7 +417,7 @@
     },
     "ENEMY_STATUS_EFFECT_HEAL_CHANCE": {
       "name": "Token de Cura Total",
-      "description": "Adiciona uma chance de 2.5% a cada turno de curar uma condição de status."
+      "description": "Adiciona uma chance de 2,5% a cada turno de curar uma condição de status."
     },
     "ENEMY_ENDURE_CHANCE": {
       "name": "Token de Persistência"
@@ -439,8 +439,8 @@
       "description": "O fedor é tão forte que as lojas só venderão itens com um grande aumento de custo."
     },
     "MYSTERY_ENCOUNTER_MACHO_BRACE": {
-      "name": "Pulseira Macho",
-      "description": "Derrotar um Pokémon concede a quem segura uma pilha de Pulseira Macho. Cada pilha aumenta ligeiramente os atributos, com um bônus extra no máximo de pilhas."
+      "name": "Colete Macho",
+      "description": "Derrotar um Pokémon concede ao usuário um desse item. Cada um aumenta um pouco os atributos. Bônus ao atingir o número máximo."
     },
     "MYSTERY_ENCOUNTER_OLD_GATEAU": {
       "name": "Doce Antigo",
@@ -454,7 +454,7 @@
   "SpeciesBoosterItem": {
     "LIGHT_BALL": {
       "name": "Bola de Luz",
-      "description": "Orbe intrigante que aumenta os atributos de Ataque e Ataque Esp. de Pikachu."
+      "description": "Orbe intrigante que aumenta os atributos de Ataque e Atq. Esp. de Pikachu."
     },
     "THICK_CLUB": {
       "name": "Osso Grosso",
@@ -474,14 +474,14 @@
     },
     "DEEP_SEA_TOOTH": {
       "name": "Dente Marinho",
-      "description": "Essa presa brilha com uma prata afiada e aumenta o Ata. Esp. do Clamperl."
+      "description": "Essa presa brilha com uma prata afiada e aumenta o Atq. Esp. do Clamperl."
     }
   },
   "TempStatStageBoosterItem": {
     "x_attack": "Ataque X",
     "x_defense": "Defesa X",
-    "x_sp_atk": "Ataque Esp. X",
-    "x_sp_def": "Defesa Esp. X",
+    "x_sp_atk": "Atq. Esp. X",
+    "x_sp_def": "Def. Esp. X",
     "x_speed": "Velocidade X",
     "x_accuracy": "Precisão X"
   },
@@ -514,7 +514,7 @@
     "carbos": "Carboidrato"
   },
   "EvolutionItem": {
-    "NONE": "None",
+    "NONE": "Nenhum",
     "LINKING_CORD": "Cabo de Conexão",
     "SUN_STONE": "Pedra do Sol",
     "MOON_STONE": "Pedra da Lua",
@@ -561,7 +561,7 @@
     "SYRUPY_APPLE": "Xarope de Maçã"
   },
   "FormChangeItem": {
-    "NONE": "None",
+    "NONE": "Nenhum",
     "ABOMASITE": "Abomasita",
     "ABSOLITE": "Absolita",
     "AERODACTYLITE": "Aerodactylita",
@@ -613,7 +613,7 @@
     "CLEFABLITE": "Clefablita",
     "VICTREEBELITE": "Victreebelita",
     "STARMINITE": "Starminita",
-    "DRAGONINITE": "Dragonitita",
+    "DRAGONINITE": "Dragoninita",
     "MEGANIUMITE": "Meganiumita",
     "FERALIGITE": "Feraligita",
     "SKARMORITE": "Skarmorita",
@@ -659,7 +659,7 @@
     "RED_ORB": "Orbe Vermelha",
     "SHARP_METEORITE": "Meteorito Afiado",
     "HARD_METEORITE": "Meteorito Duro",
-    "SMOOTH_METEORITE": " Meteorito Liso",
+    "SMOOTH_METEORITE": "Meteorito Liso",
     "ADAMANT_CRYSTAL": "Cristal Adamante",
     "LUSTROUS_GLOBE": "Globo Brilhante",
     "GRISEOUS_CORE": "Núcleo Platinado",

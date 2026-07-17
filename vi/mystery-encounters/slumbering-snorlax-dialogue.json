@@ -1,12 +1,12 @@
 {
-  "intro": "Khi bạn bước xuống một con đường hẹp, bạn thấy một cái bóng cao lớn chắn ngang đường đi.$Bạn đến gần hơn và thấy một {{snorlaxName}} đang ngủ say sưa. Có vẻ như không có cách nào khác.",
+  "intro": "Khi bạn bước xuống một con đường hẹp, bạn thấy một cái bóng cao lớn chắn ngang đường đi.$Bạn đến gần hơn và thấy một {{snorlaxName}} đang ngủ say sưa. Có vẻ không còn lối đi nào khác.",
   "title": "{{snorlaxName}} Say Mộng",
   "description": "Bạn có thể tấn công nó để cố gắng khiến nó di chuyển, hoặc đơn giản là chờ nó tỉnh dậy. Nhưng ai biết việc đó sẽ mất bao lâu…",
   "query": "Bạn sẽ làm gì đây?",
   "option": {
     "1": {
       "label": "Chiến Đấu",
-      "tooltip": "(-) Chiến đấu với {{snorlaxName}} đang ngủ\n(+) Phần thưởng đặc biệt",
+      "tooltip": "(-) Chiến đấu với {{snorlaxName}} đang ngủ\n(+) Phần Thưởng đặc biệt",
       "selected": "Bạn thản nhiên tiến lại gần Pokémon\nmà không mảy may sợ hãi."
     },
     "2": {
@@ -17,8 +17,8 @@
     },
     "3": {
       "label": "Trộm Đồ Của Nó",
-      "tooltip": "(+) {{option3PrimaryName}} dùng {{option3PrimaryMove}}\n(+) Phần thưởng đặc biệt",
-      "disabledTooltip": "Pokémon của bạn cần phải biết một số chiêu thức nhất định mới tiếp cận được lựa chọn này.",
+      "tooltip": "(+) {{option3PrimaryName}} dùng {{option3PrimaryMove}}\n(+) Phần Thưởng đặc biệt",
+      "disabledTooltip": "Pokémon của bạn cần phải biết một số chiêu thức nhất định mới có thể chọn phương án này.",
       "selected": "{{option3PrimaryName}} của bạn dùng {{option3PrimaryMove}}!$@s{item_fanfare}Nó trộm mất Lõi Táo Thừa khỏi tay {{snorlaxName}} đang say ngủ và bạn nhanh chóng rời đi!"
     }
   }

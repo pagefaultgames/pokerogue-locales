@@ -2,6 +2,12 @@
   "title": "Utmaningsinställningar",
   "illegalEvolution": "{{pokemon}} blev en ogiltig pokémon\nför denna utmaning!",
   "noneSelected": "Inga valda",
+  "category": {
+    "randomizer": "Slumpgenerator",
+    "challenge": "Utmaningsrond",
+    "nuzlocke": "Nuzlocke",
+    "misc": "Övrigt"
+  },
   "freshStart": {
     "name": "Nystart",
     "desc": {
@@ -87,7 +93,7 @@
   },
   "metronome": {
     "name": "Ute på fingervift",
-    "desc": "Du kan bara utföra Fingervift! Se hur långt du tar med ren tur. Denna \"utmaning\" är bara för skojs skull, den ger inte en prestation. Alla andra prestationer avaktiveras.",
+    "desc": "Du kan bara utföra Fingervift! Se hur långt du tar dig med ren tur. Denna \"utmaning\" är bara för skojs skull, den ger ingen prestation. Alla andra prestationer avaktiveras.",
     "value": {
       "0": "Av",
       "1": "På"
@@ -108,7 +114,7 @@
   },
   "movesetRandomizer": {
     "name": "Slumpad teknikordning",
-    "desc": "Ordningen i vilken var pokémon lär sig sina tekniker vid nivåökningen slumpas. Startare börjar med bastekniker som matchar deras typ.\n\nAndra utmaningsprestationer avaktiveras.",
+    "desc": "Ordningen i vilken varje pokémon lär sig tekniker vid nivåökningen slumpas. Startare börjar med bastekniker som matchar deras typ.\n\nAndra utmaningsprestationer avaktiveras.",
     "value": {
       "0": "Av",
       "1": "På"

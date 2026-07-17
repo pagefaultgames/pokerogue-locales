@@ -1,7 +1,13 @@
 {
   "title": "Desafios",
-  "illegalEvolution": "{{pokemon}} não pode ser escolhido\nnesse desafio!",
+  "illegalEvolution": "{{pokemon}} se transformou em um Pokémon\ninelegível para este desafio!",
   "noneSelected": "Nada Selecionado",
+  "category": {
+    "randomizer": "Randomizador",
+    "challenge": "Desafio",
+    "nuzlocke": "Nuzlocke",
+    "misc": "Outros"
+  },
   "freshStart": {
     "name": "Novo Começo",
     "desc": {
@@ -47,7 +53,7 @@
     }
   },
   "singleGeneration": {
-    "name": "Geração Única",
+    "name": "Monogeração",
     "desc": "Você só pode usar Pokémon da {{gen}} geração.",
     "descDefault": "Você só pode usar Pokémon de uma única geração.",
     "gen": {
@@ -70,16 +76,16 @@
   "inverseBattle": {
     "name": "Batalha Inversa",
     "shortName": "Inversa",
-    "desc": "Fraquezas e resistências de tipos são invertidas e nenhum tipo é imune a outro tipo.\nDesativa as conquistas de outros desafios.",
+    "desc": "Os confrontos entre tipos são invertidos e nenhum tipo é imune a outro.\n\nDesativa as conquistas de outros desafios (exceto Atributo Invertido).",
     "value": {
       "0": "Desligado",
       "1": "Ligado"
     }
   },
   "flipStat": {
-    "name": "Inverter Atr.",
-    "shortName": "Inversão",
-    "desc": "Atributos são embaralhados para que os PS e Vel. sejam trocados.\nAta. vira Def. Esp.\nDef. vira Ata. Esp.\nDef. Esp. vira Ata.\nAta. Esp. vira Def.\nDesativa as conquistas de outros desafios (exceto Inversão).",
+    "name": "Atr. Invertido",
+    "shortName": "Invertido",
+    "desc": "Atributos são embaralhados para que os PS e Vel. sejam trocados.\nAtq. vira Def. Esp.\nDef. vira Atq. Esp.\nDef. Esp. vira Atq.\nAtq. Esp. vira Def.\nDesativa as conquistas de outros desafios (exceto Batalha Inversa).",
     "value": {
       "0": "Desligado",
       "1": "Ligado"

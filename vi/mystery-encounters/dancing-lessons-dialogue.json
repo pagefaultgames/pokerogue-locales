@@ -1,6 +1,6 @@
 {
   "intro": "Một con {{oricorioName}} đang khiêu vũ một mình mà không có bạn nhảy.",
-  "title": "Bài Học Khiêu Vũ",
+  "title": "Tiết Học Khiêu Vũ",
   "description": "Con {{oricorioName}} không có vẻ hung hăng, ngược lại, nó có vẻ chán nản.\n\nCó lẽ nó chỉ muốn tìm bạn để khiêu vũ cùng…",
   "query": "Bạn sẽ làm gì đây?",
   "option": {
@@ -13,14 +13,14 @@
     "2": {
       "label": "Học Nhảy",
       "tooltip": "(+) Dạy 1 Pokémon chiêu Revelation Dance",
-      "selected": "Bạn quan sát {{oricorioName}} thật kỹ khi nó thực hiện điệu nhảy của mình…$@s{level_up_fanfare} {{selectedPokemon}} của bạn học hỏi điệu múa của {{oricorioName}}!"
+      "selected": "Bạn quan sát {{oricorioName}} thật kỹ khi nó thực hiện điệu nhảy của mình…$@s{level_up_fanfare}{{selectedPokemon}} của bạn học hỏi điệu múa của {{oricorioName}}!"
     },
     "3": {
       "label": "Thể Hiện Kĩ Nghệ",
-      "tooltip": "(-) Dạy {{oricorioName}} một chiêu thức vũ điệu\n(+) Con {{oricorioName}} Sẽ Thích Bạn",
+      "tooltip": "(-) Dạy {{oricorioName}} một chiêu thức vũ điệu\n(+) {{oricorioName}} Mang Hảo Cảm",
       "disabledTooltip": "Pokémon của bạn cần biết một chiêu thức nhảy múa để thể hiện tài năng.",
-      "selectPrompt": "Chọn một chiêu thức nhảy múa để sử dụng.",
-      "selected": "Con {{oricorioName}} những chiếc đồng hồ đầy say mê khi {{selectedPokemon}} thể hiện {{selectedMove}}!$Nó rất thích biểu diễn đó!$@s{level_up_fanfare} {{oricorioName}} muốn gia nhập tổ đội bạn!"
+      "selectPrompt": "Chọn một chiêu thức nhảy múa để phô diễn.",
+      "selected": "Con {{oricorioName}} quan sát đầy say mê khi {{selectedPokemon}} thể hiện {{selectedMove}}!$Nó rất thích màn trình diễn đó!$@s{level_up_fanfare} {{oricorioName}} muốn gia nhập tổ đội bạn!"
     }
   },
   "invalidSelection": "Pokémon này không biết chiêu thức nhảy múa nào!"
