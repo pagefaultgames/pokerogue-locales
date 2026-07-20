@@ -1,43 +1,171 @@
 {
   "stench": {
-    "name": "Odór"
+    "name": "Odór",
+    "description": "Podczas ataku Pokémon wydziela odór, który daje 10% szans na to, że trafione cele się cofną. Efekt nie kumuluje się z ruchami ani przedmiotami dającymi szansę na cofnięcie."
+  },
+  "drizzle": {
+    "name": "Mżawka",
+    "description": "Pokémon wywołuje deszcz na 5 tur, gdy wchodzi do walki."
+  },
+  "speedBoost": {
+    "name": "Przyspieszenie",
+    "description": "Zwiększa statystyke Szybkości Pokémona na koniec każdej tury."
   },
   "battleArmor": {
-    "name": "Zbroja Bitewna"
+    "name": "Zbroja Bitewna",
+    "description": "Twardy pancerz chroni pokémona przed trafieniami krytycznymi."
+  },
+  "sturdy": {
+    "name": "Wytrwałość",
+    "description": "Pokémon nie może zostać powalony jednym ciosem, dopóki jego HP jest pełne. Ruchy wywołujące Nokaut Jednym Ciosem również nie znokautują go."
   },
   "damp": {
-    "name": "Wilgoć"
+    "name": "Wilgoć",
+    "description": "Pokémon nawilża swoje otoczenie, uniemożliwiając wszystkim Pokémonom używanie wybuchowych ruchów, takich jak Samozniszczenie lub zadawanie obrażeń poprzez Pokłosie."
+  },
+  "limber": {
+    "name": "Gibkość",
+    "description": "Zwinne ciało Pokémona zapobiega jego paraliżowi."
+  },
+  "sandVeil": {
+    "name": "Ziemny Schron",
+    "description": "Wzmacnia unikliwość Pokémona o 25% podczas burzy piaskowej. Pokémon nie otrzymuje również obrażeń od burzy piaskowej."
+  },
+  "static": {
+    "name": "Statyczność",
+    "description": "Pokémon jest naładowany elektrycznością statyczną i ma 30% szans na sparaliżowanie atakującego, który wejdzie z nim w bezpośredni kontakt."
+  },
+  "voltAbsorb": {
+    "name": "Prądolubność",
+    "description": "Jeśli Pokémon zostanie trafiony ruchem typu Elektrycznego, jego HP zostanie przywrócone zamiast otrzymywać obrażenia."
+  },
+  "waterAbsorb": {
+    "name": "Wodolubność",
+    "description": "Jeśli Pokémon zostanie trafiony ruchem typu Wodnego, jego HP zostanie przywrócone zamiast otrzymywać obrażenia."
+  },
+  "oblivious": {
+    "name": "Niepamięć",
+    "description": "Pokémon jest niepomny, co chroni go przed zauroczeniem, prowokacją lub wpływem Zastraszenia."
+  },
+  "cloudNine": {
+    "name": "Siódme Niebo",
+    "description": "Eliminuje wpływ pogody."
+  },
+  "compoundEyes": {
+    "name": "Złożone Oczy",
+    "description": "Złożone oczy Pokémona wzmacniają jego celność o 30%."
   },
   "insomnia": {
-    "name": "Bezsenność"
+    "name": "Bezsenność",
+    "description": "Bezsenność Pokémona uniemożliwia mu zaśnięcie."
+  },
+  "colorChange": {
+    "name": "Zmiana Koloru",
+    "description": "Typ Pokémona staje się typem ruchu, który został na nim użyty."
   },
   "immunity": {
     "name": "Odporność",
     "description": "Układ odpornościowy tego Pokémona zapobiega zatruciu."
   },
+  "flashFire": {
+    "name": "Błysk Ognia",
+    "description": "Jeśli zostanie trafiony ruchem typu Ognistego, Pokémon pochłania płomienie i wykorzystuje je do wzmocnienia własnych ruchów typu Ognistego o 50%."
+  },
+  "shieldDust": {
+    "name": "Osłonka Pyłu",
+    "description": "Pył ochronny chroni Pokémona przed dodatkowymi efektami ruchów."
+  },
+  "ownTempo": {
+    "name": "Własne Tempo",
+    "description": "Pokémon trzyma się własnego tempa, zapobiegając oszołomieniu lub wpływowi Zastraszenia."
+  },
   "suctionCups": {
-    "name": "Przyssawki"
+    "name": "Przyssawki",
+    "description": "Ten Pokémon używa przyssawek do utrzymania się w miejscu. Chroni to go przed ruchami i przedmiotami, które zmusiłyby go do zamiany."
   },
   "intimidate": {
-    "name": "Onieśmielenie"
+    "name": "Onieśmielenie",
+    "description": "Kiedy Pokémon wchodzi do bitwy, zastrasza przeciwnego Pokémona i sprawia, że ten ​​kuli się, obniżając jego statystyki Ataku."
+  },
+  "shadowTag": {
+    "name": "Ogon Cienia",
+    "description": "Ten Pokémon stoi na cieniach przeciwnych Pokémonów, aby powstrzymać ich przed ucieczką lub zamianą."
+  },
+  "roughSkin": {
+    "name": "Twarda Skóra",
+    "description": "Szorstka skóra Pokémona zadaje obrażenia atakującym, którzy mają z nią bezpośredni kontakt."
+  },
+  "wonderGuard": {
+    "name": "Cudna Straż",
+    "description": "Ta tajemnicza moc pozwala uderzyć Pokémona tylko superefektywnymi ruchami."
   },
   "levitate": {
-    "name": "Lewitacja"
+    "name": "Lewitacja",
+    "description": "Unosząc się w powietrzu, Pokémon otrzymuje pełną niepodatność na wszystkie ruchy typu Ziemnego oraz na Kolce, Toksyczne Kolce i Kleistą Sieć."
+  },
+  "effectSpore": {
+    "name": "Efekt Pyłu",
+    "description": "Kontakt z Pokémonem daje 30% szans na wywołanie zatrucia, paraliżu lub uśpienie."
   },
   "synchronize": {
-    "name": "Synchronizacja"
+    "name": "Synchronizacja",
+    "description": "Jeśli Pokémon zostanie poparzony, sparaliżowany lub otruty przez innego Pokémona, ten Pokémon zostanie objęty tym samym stanem. Jeżeli ten Pokémon prowadzi drużynę do walki, dzikie przeciwne Pokémony będą dzielić jego naturę."
+  },
+  "clearBody": {
+    "name": "Czyste Ciało",
+    "description": "Powstrzymuje ruchy lub Zdolności innych Pokémonów do obniżania statystyk Pokémona."
+  },
+  "naturalCure": {
+    "name": "Lek z Natury",
+    "description": "Zmiany stanu Pokémona zostają wyleczone, gdy zostaje zamieniony."
   },
   "lightningRod": {
-    "name": "Piorunochron"
+    "name": "Piorunochron",
+    "description": "Pokémon przyciąga wszystkie ruchy typu Elektrycznego. Zamiast przyjmować od nich obrażenia, wzmacnia swoją statystykę Spec. Ataku."
+  },
+  "sereneGrace": {
+    "name": "Lekki Wdzięk",
+    "description": "Wzmacnia prawdopodobieństwo działania dodatkowych efektów, gdy Pokémon używa swoich ruchów. Nie dotyczy to przedmiotów."
+  },
+  "swiftSwim": {
+    "name": "Chyży Pływak",
+    "description": "Wzmacnia statystykę Szybkości Pokémona podczas deszczu."
   },
   "chlorophyll": {
-    "name": "Chlorofil"
+    "name": "Chlorofil",
+    "description": "Zwiększa statystkę Szybkości Pokémona przy mocnym nasłonecznieniu."
+  },
+  "illuminate": {
+    "name": "Iluminacja",
+    "description": "Oświetlając swoje otoczenie, Pokémon zapobiega obniżeniu swojej celności. Jeżeli ten Pokémon prowadzi drużynę do walki, zwiększa on prawdopodobieństwo walk podwójnych."
+  },
+  "trace": {
+    "name": "Odtwarzanie",
+    "description": "Kiedy staje do walki, Pokémon kopiuje Zdolność przeciwnego Pokémona."
   },
   "hugePower": {
-    "name": "Wielka Moc"
+    "name": "Wielka Moc",
+    "description": "Podwaja statystykę Ataku Pokémona."
+  },
+  "poisonPoint": {
+    "name": "Trujący Punkt",
+    "description": "Kontakt z Pokémonem ma 30% szans na otrucie atakującego."
+  },
+  "innerFocus": {
+    "name": "Skupienie",
+    "description": "Intensywne skupienie Pokémona zapobiega jego zachwianiu lub wpływowi Zastraszenia."
   },
   "magmaArmor": {
-    "name": "Magmowy Pancerz"
+    "name": "Magmowy Pancerz",
+    "description": "Powłoka gorącej magmy Pokémona zapobiega jego zamarznięciu."
+  },
+  "waterVeil": {
+    "name": "Wodna Kurtyna",
+    "description": "Wodna kurtyna Pokémona zapobiega jego poparzeniu."
+  },
+  "magnetPull": {
+    "name": "Magnesowanie",
+    "description": "Zapobiega ucieczce Pokémonów typu Stalowego, przyciągając je magnetyzmem."
   },
   "soundproof": {
     "name": "Dźwiękoszczelność",
