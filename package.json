@@ -1,20 +1,28 @@
 {
   "name": "pokerogue-locales",
   "version": "1.0.0",
-  "type": "module",
   "private": true,
+  "type": "module",
   "scripts": {
+    "biome": "biome check --write --changed --no-errors-on-unmatched --diagnostic-level=error --reporter=summary",
+    "biome:all": "biome check --write --no-errors-on-unmatched --diagnostic-level=error --reporter=summary",
+    "biome:ci": "biome ci --diagnostic-level=error --reporter=github --reporter=default --no-errors-on-unmatched",
+    "biome:staged": "biome check --write --staged --no-errors-on-unmatched --diagnostic-level=error --reporter=summary",
     "check-locales-format": "node ./.github/scripts/locales-format-checker/main.js",
-    "check-locales-format:keys": "node ./.github/scripts/locales-format-checker/main.js -k -v",
     "check-locales-format:files": "node ./.github/scripts/locales-format-checker/main.js -f -v",
+    "check-locales-format:keys": "node ./.github/scripts/locales-format-checker/main.js -k -v",
     "check-locales-format:missing": "node ./.github/scripts/locales-format-checker/main.js -m -v",
-    "edit-locales": "node ./.github/scripts/locales-cli-editor/main.js"
+    "edit-locales": "node ./.github/scripts/locales-cli-editor/main.js",
+    "typecheck": "tsc"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.1",
+    "@inquirer/prompts": "^8.5.2",
+    "@types/node": "^24.13.3",
+    "chalk": "^5.6.2",
+    "typescript": "^6.0.3"
   },
   "optionalDependencies": {
     "@actions/core": "^1.11.1"
-  },
-  "devDependencies": {
-    "@inquirer/prompts": "^8.1.0",
-    "chalk": "^5.4.1"
   }
 }

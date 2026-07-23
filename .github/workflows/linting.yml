@@ -1,11 +1,15 @@
-name: Validate locales files for correctness
+name: Linting
+
 on:
-  pull_request:
-    branches:
-      - main
   push:
     branches:
       - main
+  pull_request:
+    branches:
+      - main
+  merge_group:
+    types: [checks_requested]
+  workflow_dispatch:
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -14,8 +18,8 @@ concurrency:
 permissions: {}
 
 jobs:
-  validator-path-filter:
-    name: Locales validator path filter
+  linting-path-filter:
+    name: Linting path filter
     timeout-minutes: 5
     runs-on: ubuntu-latest
     permissions:
@@ -36,21 +40,27 @@ jobs:
         with:
           filters: |
             all:
-              - "**/*.json"
-              - "!package.json"
-              - "!tsconfig.json"
-          predicate-quantifier: "every"
+              - "package.json"
+              - "pnpm-lock.yaml"
+              - "tsconfig.json"
+              - "biome.jsonc"
+              - ".github/workflows/linting.yml"
+              - "**/*.mts"
+              - "**/*.js"
 
-  validate-locales-files:
-    name: Validate locales files
+  run-linters:
+    name: Run all linters
     timeout-minutes: 10
     runs-on: ubuntu-latest
-    needs: validator-path-filter
-    if: ${{ needs.validator-path-filter.outputs.all == 'true' && (github.event_name != 'push' || !startsWith(github.event.head_commit.message, 'Pontoon:')) }}
+    needs: linting-path-filter
+    if: needs.linting-path-filter.outputs.all == 'true'
 
     steps:
-      - name: Checkout repository
+      - name: Check out Git repository
         uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # 7.0.0
+        with:
+          sparse-checkout: |
+            .github
 
       - name: Install pnpm
         uses: pnpm/action-setup@0ebf47130e4866e96fce0953f49152a61190b271 # 6.0.9
@@ -62,21 +72,15 @@ jobs:
         with:
           node-version: 24
           cache: "pnpm"
-      
-      - name: Install Node.js dependencies
-        run: pnpm add @actions/core
 
-      - name: Validate locale keys
-        id: check-keys-format
-        run: pnpm check-locales-format:keys
+      - name: Install dependencies
+        run: pnpm i
+        shell: bash
+
+      - name: Lint with Biome
+        run: pnpm biome:ci
         if: ${{ !cancelled() }}
 
-      - name: Validate locale file names
-        id: check-file-names
-        run: pnpm check-locales-format:files
-        if: ${{ !cancelled() }}
-
-      - name: Validate main language keys exist
-        id: check-keys-exist
-        run: pnpm check-locales-format:missing
+      - name: Run Typecheck
+        run: pnpm typecheck
         if: ${{ !cancelled() }}
