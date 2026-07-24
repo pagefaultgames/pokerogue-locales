@@ -137,7 +137,7 @@
   },
   "illuminate": {
     "name": "Illuminate",
-    "description": "By illuminating its surroundings, the Pokémon ignores changes to targets’ evasiveness and its accuracy cannot be lowered. If this Pokémon is your lead into battle, it raises the likelihood of double battles."
+    "description": "By illuminating its surroundings, the Pokémon prevents its accuracy from being lowered and ignores changes to targets’ evasiveness. Raises the likelihood of Double Battles while this Pokémon is on the field."
   },
   "trace": {
     "name": "Trace",
@@ -181,7 +181,7 @@
   },
   "pressure": {
     "name": "Pressure",
-    "description": "Puts opposing Pokémon under pressure, causing them to expend 1 more PP when using moves against it."
+    "description": "Puts opposing Pokémon under pressure, causing them to expend 1 more PP when using moves against the Pokémon."
   },
   "thickFat": {
     "name": "Thick Fat",
@@ -201,7 +201,7 @@
   },
   "keenEye": {
     "name": "Keen Eye",
-    "description": "The Pokémon’s keen eyes ignore changes to targets’ evasiveness and prevent its accuracy from being lowered."
+    "description": "The Pokémon’s keen eyes prevent its accuracy from being lowered and ignore changes to targets’ evasiveness."
   },
   "hyperCutter": {
     "name": "Hyper Cutter",
@@ -241,15 +241,15 @@
   },
   "shedSkin": {
     "name": "Shed Skin",
-    "description": "The Pokémon has a 30% chance to cure its own status conditions at the end of every turn by shedding its skin."
+    "description": "The Pokémon has a 30% chance of curing its own status conditions at the end of every turn by shedding its skin."
   },
   "guts": {
     "name": "Guts",
-    "description": "The Pokémon is so gutsy that when it has a status condition, its Attack stat is boosted by 50%. Being burned does not halve the damage dealt by the Pokémon’s physical moves."
+    "description": "It’s so gutsy that having a status condition boosts the Pokémon’s Attack stat by 50%. Being burned does not halve the damage dealt by the Pokémon’s physical moves."
   },
   "marvelScale": {
     "name": "Marvel Scale",
-    "description": "When the Pokémon has a status condition, its marvelous scales boost its Defense stat by 50%."
+    "description": "The Pokémon’s marvelous scales boost its Defense stat by 50% if it has a status condition."
   },
   "liquidOoze": {
     "name": "Liquid Ooze",
@@ -281,7 +281,7 @@
   },
   "arenaTrap": {
     "name": "Arena Trap",
-    "description": "Prevents opposing Pokémon from fleeing from battle. If this Pokémon is your lead into battle, it raises the likelihood of double battles."
+    "description": "Prevents opposing Pokémon from fleeing or switching out. Raises the likelihood of Double Battles while this Pokémon is on the field."
   },
   "vitalSpirit": {
     "name": "Vital Spirit",
@@ -345,7 +345,7 @@
   },
   "drySkin": {
     "name": "Dry Skin",
-    "description": "Restores ¼ of the Pokémon’s max HP when hit by Water-type moves or ⅛ of the its max HP at the end of every turn in rain. However, the Pokémon receives 25% more damage from Fire-type moves and loses ⅛ of its max HP at the end of every turn in harsh sunlight."
+    "description": "Restores ¼ of the Pokémon’s max HP when hit by Water-type moves or ⅛ of its max HP at the end of every turn in rain. However, the Pokémon receives 25% more damage from Fire-type moves and loses ⅛ of its max HP at the end of every turn in harsh sunlight."
   },
   "download": {
     "name": "Download",
@@ -393,7 +393,7 @@
   },
   "noGuard": {
     "name": "No Guard",
-    "description": "The Pokémon employs no-guard tactics to ensure incoming and outgoing attacks always land. If this Pokémon is your lead into battle, it raises the likelihood of double battles."
+    "description": "The Pokémon employs no-guard tactics to ensure incoming and outgoing attacks always land. Raises the likelihood of Double Battles while this Pokémon is on the field."
   },
   "stall": {
     "name": "Stall",
@@ -785,7 +785,7 @@
   },
   "shieldsDown": {
     "name": "Shields Down",
-    "description": "When its HP drops to ½ or less, the Pokémon’s shell breaks and it becomes aggressive."
+    "description": "The Pokémon’s intact shell protects it from status conditions. When its HP drops to ½ or less, the Pokémon’s shell breaks and it changes into its Core Form."
   },
   "stakeout": {
     "name": "Stakeout",
@@ -1113,7 +1113,7 @@
   },
   "commander": {
     "name": "Commander",
-    "description": "Upon entering battle, the Pokémon goes inside an ally Dondozo if one is on the field and raises all its stats sharply. If this Pokémon is your lead into battle, it raises the likelihood of double battles."
+    "description": "Upon entering battle, the Pokémon goes inside an ally Dondozo if one is on the field and raises all its stats sharply. Raises the likelihood of Double Battles while this Pokémon is on the field."
   },
   "electromorphosis": {
     "name": "Electromorphosis",
