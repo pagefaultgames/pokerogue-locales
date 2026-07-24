@@ -157,7 +157,7 @@
 
     "SACRED_ASH": { "name": "Sacred Ash" },
 
-    "REVIVER_SEED": { "name": "Reviver Seed", "description": "Revives the holder for 1/2 HP upon fainting from a direct hit." },
+    "REVIVER_SEED": { "name": "Reviver Seed", "description": "Revives the holder for ½ HP upon fainting from a direct hit." },
 
     "WHITE_HERB": { "name": "White Herb", "description": "An item to be held by a Pokémon. It will restore any lowered stat in battle." },
 
@@ -190,11 +190,11 @@
 
     "SOOTHE_BELL": { "name": "Soothe Bell" },
 
-    "SCOPE_LENS": { "name": "Scope Lens", "description": "It’s a lens for scoping out weak points. It boosts the holder’s critical-hit ratio."},
+    "SCOPE_LENS": { "name": "Scope Lens", "description": "It’s a lens for scoping out weak points. It gives the holder a 1-stage critical-hit ratio boost."},
     "DIRE_HIT": { "name": "Dire Hit", "extra": { "raises": "Critical Hit Ratio" } },
-    "LEEK": { "name": "Leek", "description": "This very long and stiff stalk of leek boosts the critical-hit ratio of Farfetch’d’s moves."},
+    "LEEK": { "name": "Leek", "description": "A stick of leek that boosts the critical-hit ratio of Farfetch’d or Sirfetch’d’s moves by 2 stages."},
 
-    "EVIOLITE": { "name": "Eviolite", "description": "This mysterious evolutionary lump boosts the Defense and Sp. Def stats when held by a Pokémon that can still evolve." },
+    "EVIOLITE": { "name": "Eviolite", "description": "This mysterious evolutionary lump boosts the Defense and Sp. Def stats by 50% when held by a Pokémon that can still evolve." },
 
     "SOUL_DEW": { "name": "Soul Dew", "description": "Increases the influence of a Pokémon’s nature on its stats by 10% (additive)." },
 
@@ -224,15 +224,15 @@
 
     "KINGS_ROCK": { "name": "King’s Rock", "description": "Adds a 10% chance an attack move will cause the opponent to flinch." },
 
-    "LEFTOVERS": { "name": "Leftovers", "description": "Heals 1/16 of a Pokémon’s maximum HP every turn." },
-    "SHELL_BELL": { "name": "Shell Bell", "description": "Heals 1/8 of a Pokémon’s dealt damage." },
+    "LEFTOVERS": { "name": "Leftovers", "description": "Heals ¹⁄₁₆ of a Pokémon’s maximum HP every turn." },
+    "SHELL_BELL": { "name": "Shell Bell", "description": "Heals ⅛ of a Pokémon’s dealt damage." },
 
     "TOXIC_ORB": { "name": "Toxic Orb", "description": "It’s a bizarre orb that exudes toxins when touched and will badly poison the holder during battle." },
     "FLAME_ORB": { "name": "Flame Orb", "description": "It’s a bizarre orb that gives off heat when touched and will affect the holder with a burn during battle." },
 
     "MYSTICAL_ROCK": { "name": "Mystical Rock", "description": "Extends the duration of terrain and weather caused by the holder’s moves or Abilities by 2 turns." },
 
-    "EVOLUTION_TRACKER_GIMMIGHOUL": { "name": "Treasures", "description": "This Pokémon loves treasure! Keep collecting treasure and something might happen!"},
+    "EVOLUTION_TRACKER_GIMMIGHOUL": { "name": "Treasures", "description": "This Pokémon loves treasure! Keep collecting gold treasure and something might happen! (Max 10)"},
     "EVOLUTION_TRACKER_PRIMEAPE": {
       "name": "Rage Fist",
       "description": "Primeape evolves when its rage surpasses the limits of its physical form!\nBuild up its rage by using the move Rage Fist!"
@@ -269,17 +269,17 @@
     "MYSTERY_ENCOUNTER_SHUCKLE_JUICE_GOOD": { "name": "Sweet Shuckle Juice", "description": "Increases all of the holder’s base stats. You were blessed by the Shuckle." },
     "MYSTERY_ENCOUNTER_SHUCKLE_JUICE_BAD": { "name": "Foul Shuckle Juice", "description": "Decreases all of the holder’s base stats. You were cursed by the Shuckle."  },
     "MYSTERY_ENCOUNTER_BLACK_SLUDGE": { "name": "Black Sludge", "description": "The stench is so powerful that shops will only sell you items at a steep cost increase." },
-    "MYSTERY_ENCOUNTER_MACHO_BRACE": { "name": "Macho Brace", "description": "Defeating a Pokémon grants the holder a stack of it. Each stack boosts stats a bit. Bonus at max stacks." },
+    "MYSTERY_ENCOUNTER_MACHO_BRACE": { "name": "Macho Brace", "description": "Defeating Pokémon grants the holder a stack, increasing its stats slightly. Bonus at max stacks (Max 50)." },
     "MYSTERY_ENCOUNTER_OLD_GATEAU": { "name": "Old Gateau", "description": "Increases some of the holder’s stats." },
     "MYSTERY_ENCOUNTER_GOLDEN_BUG_NET": { "name": "Golden Bug Net", "description": "Imbues the owner with luck to find Bug Type Pokémon more often. Has a strange heft to it." }
   },
   "SpeciesBoosterItem": {
-    "LIGHT_BALL": { "name": "Light Ball", "description": "It’s a mysterious orb that boosts Pikachu’s Attack and Sp. Atk stats." },
-    "THICK_CLUB": { "name": "Thick Club", "description": "This hard bone of unknown origin boosts Cubone or Marowak’s Attack stat." },
-    "METAL_POWDER": { "name": "Metal Powder", "description": "Extremely fine yet hard, this odd powder boosts Ditto’s Defense stat." },
-    "QUICK_POWDER": { "name": "Quick Powder", "description": "Extremely fine yet hard, this odd powder boosts Ditto’s Speed stat." },
-    "DEEP_SEA_SCALE": { "name": "Deep Sea Scale", "description": "This scale shines with a faint pink and boosts Clamperl’s Sp. Def stat." },
-    "DEEP_SEA_TOOTH": { "name": "Deep Sea Tooth", "description": "This fang gleams a sharp silver and boosts Clamperl’s Sp. Atk stat." }
+    "LIGHT_BALL": { "name": "Light Ball", "description": "It’s a mysterious orb that doubles Pikachu’s Attack and Sp. Atk stats." },
+    "THICK_CLUB": { "name": "Thick Club", "description": "This hard bone of unknown origin doubles Cubone or Marowak’s Attack stat." },
+    "METAL_POWDER": { "name": "Metal Powder", "description": "Extremely fine yet hard, this odd powder doubles Ditto’s Defense stat." },
+    "QUICK_POWDER": { "name": "Quick Powder", "description": "Extremely fine yet hard, this odd powder doubles Ditto’s Speed stat." },
+    "DEEP_SEA_SCALE": { "name": "Deep Sea Scale", "description": "This scale shines with a faint pink and doubles Clamperl’s Sp. Def stat." },
+    "DEEP_SEA_TOOTH": { "name": "Deep Sea Tooth", "description": "This fang gleams a sharp silver and doubles Clamperl’s Sp. Atk stat." }
   },
   "TempStatStageBoosterItem": {
     "x_attack": "X Attack",
