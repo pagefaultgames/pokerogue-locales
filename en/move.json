@@ -2317,11 +2317,11 @@
   },
   "grassyTerrain": {
     "name": "Grassy Terrain", 
-    "effect": "Turns the entire field into Grassy Terrain for 5 turns. Pokémon on the ground have the power of their Grass-type moves boosted by 30% and they have ¹⁄₁₆ of their max HP restored at the end of every turn."
+    "effect": "Turns the entire field into Grassy Terrain for 5 turns. Pokémon on the ground have the power of their Grass-type moves boosted by 30%, and have ¹⁄₁₆ of their max HP restored at the end of every turn."
   },
   "mistyTerrain": {
     "name": "Misty Terrain",
-    "effect": "Turns the entire field into Misty Terrain for 5 turns. Pokémon on the ground have the power of their Dragon-type moves halved, they are immune to status conditions, and they cannot become confused."
+    "effect": "Turns the entire field into Misty Terrain for 5 turns. Pokémon on the ground have the power of their Dragon-type moves halved, and are immune to status conditions."
   },
   "electrify": {
     "name": "Electrify",
@@ -2413,7 +2413,7 @@
   },
   "electricTerrain": {
     "name": "Electric Terrain",
-    "effect": "The user turns the ground into Electric Terrain for 5 turns, powering up Electric-type moves. Pokémon on the ground can no longer fall asleep."
+    "effect": "The user turns the ground into Electric Terrain for 5 turns. Pokémon on the ground have the power of their Electric-type moves boosted by 30%, and can no longer fall asleep."
   },
   "dazzlingGleam": {
     "name": "Dazzling Gleam",
@@ -2709,7 +2709,7 @@
   },
   "psychicTerrain": {
     "name": "Psychic Terrain",
-    "effect": "This protects Pokémon on the ground from priority moves and powers up Psychic-type moves for 5 turns."
+    "effect": "The user turns the ground into Psychic Terrain for 5 turns. Pokémon on the ground have the power of their Psychic-type moves boosted by 30%, and cannot use or be targeted by moves with increased priority."
   },
   "lunge": {
     "name": "Lunge",
@@ -3185,7 +3185,7 @@
   },
   "expandingForce": {
     "name": "Expanding Force",
-    "effect": "The user attacks the target with its psychic power. If the user is under the effect of Psychic Terrain, this move’s power is boosted by 50% and its range extends to all opponents."
+    "effect": "The user attacks the target with its psychic power. If the user is on Psychic Terrain, this move’s power is boosted by 50% and its range extends to all opponents."
   },
   "steelRoller": {
     "name": "Steel Roller",
@@ -3205,15 +3205,15 @@
   },
   "mistyExplosion": {
     "name": "Misty Explosion",
-    "effect": "The user attacks everything around it and faints upon using this move. If the user is under the effect of Misty Terrain, this move’s power is boosted by 50%."
+    "effect": "The user attacks everything around it and faints upon using this move. If the user is on Misty Terrain, this move’s power is boosted by 50%."
   },
   "grassyGlide": {
     "name": "Grassy Glide",
-    "effect": "Gliding on the ground, the user attacks the target. If the user is under the effect of Grassy Terrain, this move always goes first."
+    "effect": "Gliding on the ground, the user attacks the target. If the user is on Grassy Terrain, this move always goes first."
   },
   "risingVoltage": {
     "name": "Rising Voltage",
-    "effect": "The user attacks with electricity rising from the ground. This move’s power is doubled if the target is under the effect of Electric Terrain."
+    "effect": "The user attacks with electricity rising from the ground. This move’s power is doubled if the target is on Electric Terrain."
   },
   "terrainPulse": {
     "name": "Terrain Pulse",
