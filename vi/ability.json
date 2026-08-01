@@ -99,7 +99,7 @@
     "description": "Tăng gấp đôi chỉ số Tốc độ của Pokémon trong thời tiết MƯA."
   },
   "chlorophyll": {
-    "description": "Tăng gấp đôi chỉ số Tốc độ của Pokémon trong thời tiết NẮNG."
+    "description": "Gấp đôi chỉ số Tốc độ của Pokémon khi trời nắng gắt."
   },
   "illuminate": {
     "description": "Bằng cách chiếu sáng môi trường xung quanh, Pokémon này bỏ qua những thay đổi về khả năng né tránh của mục tiêu và độ chuẩn của nó không thể bị giảm. Nếu Pokémon này đứng đầu trong đội hình, nó sẽ làm tăng khả năng xảy ra các trận đấu đôi."
@@ -180,7 +180,7 @@
     "description": "Các vật phẩm mà Pokémon này mang theo sẽ bám chặt vào cơ thể dính của nó và không thể bị Pokémon khác đánh cắp hoặc lấy đi."
   },
   "shedSkin": {
-    "description": "Pokémon này có 30% cơ hội tự chữa khỏi các trạng thái bất lợi của mình vào cuối mỗi lượt bằng cách lột da."
+    "description": "Pokémon này có 30% tỷ lệ tự chữa khỏi các trạng thái bất lợi của mình vào cuối mỗi lượt bằng cách lột da."
   },
   "guts": {
     "description": "Pokémon này rất gan dạ, khi bị ảnh hưởng bởi trạng thái bất lợi, chỉ số Tấn công của nó được tăng 50%. Bị bỏng không làm giảm một nửa sát thương gây ra bởi các chiêu thức vật lý của Pokémon này."
@@ -207,7 +207,7 @@
     "description": "Pokémon này sẽ không bị mất HP do sát thương phản hồi từ các chiêu thức của nó."
   },
   "drought": {
-    "description": "Triệu hồi ánh nắng gay gắt trong 5 lượt khi Pokémon này bước vào trận chiến."
+    "description": "Triệu hồi ánh nắng gay gắt trong 5 lượt khi Pokémon tham chiến."
   },
   "arenaTrap": {
     "description": "Ngăn chặn Pokémon đối phương bỏ chạy khỏi trận chiến. Nếu Pokémon này là Pokémon dẫn đầu của bạn trong trận chiến, nó sẽ làm tăng khả năng xảy ra trận đấu đôi."
@@ -303,7 +303,7 @@
     "description": "Tăng sức mạnh của các chiêu thức của Pokémon lên 50% nếu sức mạnh của chúng từ 60 trở xuống."
   },
   "leafGuard": {
-    "description": "Pokémon này miễn nhiễm với các trạng thái bất lợi khi ở dưới trời NẮNG."
+    "description": "Pokémon này miễn nhiễm với các trạng thái bất lợi khi ở dưới nắng gắt."
   },
   "klutz": {
     "description": "Các vật phẩm sẽ không có tác dụng khi Pokémon này giữ chúng."
@@ -414,7 +414,7 @@
     "description": "Khi Pokémon bị bỏng, sức mạnh của các chiêu thức đặc biệt tăng 50%."
   },
   "harvest": {
-    "description": "Nếu Pokémon đã sử dụng một loại Berry, nó có 50% cơ hội tạo ra một loại Berry khác vào cuối mỗi lượt. Trong điều kiện ánh nắng gay gắt, Pokémon chắc chắn sẽ tạo ra một loại Berry."
+    "description": "Nếu Pokémon đã dùng một Berry, nó có 50% tỷ lệ tạo ra một Berry khác vào cuối mỗi lượt. Dưới ánh nắng gay gắt, Pokémon chắc chắn sẽ tạo ra một Berry."
   },
   "telepathy": {
     "description": "Pokémon nắm bắt ý đồ và né tránh các đòn tấn công từ đồng đội."
@@ -849,16 +849,16 @@
     "description": "Một cơ thể bằng vàng ròng nguyên khối giúp Pokémon hoàn toàn miễn nhiễm với các chiêu thức trạng thái của các Pokémon khác."
   },
   "vesselOfRuin": {
-    "description": "Sức mạnh từ chiếc bình tàn hại của Pokémon làm giảm 25% chỉ số T.công Đ.b. của tất cả các Pokémon khác ngoại trừ chính nó khi ở trên sân."
+    "description": "Sức mạnh từ chiếc đỉnh tai hoạ của Pokémon làm giảm 25% chỉ số T.công Đ.b. của tất cả các Pokémon khác trừ chính nó khi ở trên sân."
   },
   "swordOfRuin": {
-    "description": "Sức mạnh từ thanh kiếm tàn hại của Pokémon làm giảm 25% chỉ số Phòng thủ của tất cả các Pokémon khác ngoại trừ chính nó khi ở trên sân."
+    "description": "Sức mạnh từ thanh kiếm tai ương của Pokémon làm giảm 25% chỉ số Phòng thủ của tất cả các Pokémon khác trừ chính nó khi ở trên sân."
   },
   "tabletsOfRuin": {
-    "description": "Sức mạnh từ những thẻ gỗ tàn hại của Pokémon làm giảm 25% chỉ số Tấn công của tất cả các Pokémon khác ngoại trừ chính nó khi ở trên sân."
+    "description": "Sức mạnh từ những tấm thẻ suy vong của Pokémon làm giảm 25% chỉ số Tấn công của tất cả các Pokémon khác trừ chính nó khi ở trên sân."
   },
   "beadsOfRuin": {
-    "description": "Sức mạnh từ những hạt ngọc tàn hại của Pokémon làm giảm 25% chỉ số P.thủ Đ.b. của tất cả các Pokémon khác ngoại trừ chính nó khi ở trên sân."
+    "description": "Sức mạnh từ chuỗi ngọc suy tàn của Pokémon làm giảm 25% chỉ số P.thủ Đ.b. của tất cả các Pokémon khác trừ chính nó khi ở trên sân."
   },
   "orichalcumPulse": {
     "description": "Triệu hồi ánh nắng gay gắt trong 5 lượt khi Pokémon vào trận chiến. Xung động cổ đại đập mạnh qua Pokémon cũng giúp tăng 33% chỉ số Tấn công của nó dưới ánh nắng gay gắt."
@@ -867,7 +867,7 @@
     "description": "Tạo ra Electric Terrain trên mặt đất trong 5 lượt khi Pokémon vào trận chiến. Động cơ tương lai bên trong Pokémon cũng giúp tăng 33% chỉ số T.công Đ.b. của nó trên Electric Terrain."
   },
   "opportunist": {
-    "description": "Khi các chỉ số của đối thủ được tăng lên, Pokémon sẽ nắm bắt cơ hội để tăng các chỉ số của chính nó theo cách hoàn toàn tương tự."
+    "description": "Khi các chỉ số của đối thủ được gia tăng, Pokémon sẽ nắm lấy thời cơ để gia tăng các chỉ số của chính mình như cách đối thủ vừa làm."
   },
   "cudChew": {
     "description": "Nếu Pokémon ăn một Berry, nó sẽ nôn ra và ăn lại Berry đó một lần nữa vào cuối lượt tiếp theo."
@@ -903,7 +903,7 @@
     "description": "Một mùi hương mến khách lan tỏa khi Pokémon này tham gia trận chiến, giúp phục hồi ¼ lượng HP tối đa của đồng đội."
   },
   "toxicChain": {
-    "description": "Khi Pokémon này đánh trúng mục tiêu bằng một chiêu thức, mục tiêu sẽ có 30% cơ hội bị nhiễm độc nặng từ sức mạnh của chuỗi xích độc mà Pokémon sở hữu."
+    "description": "Khi Pokémon này đánh trúng mục tiêu bằng một chiêu thức, mục tiêu sẽ có 30% tỷ lệ bị nhiễm độc nặng từ sức mạnh của chuỗi xích độc mà Pokémon sở hữu."
   },
   "embodyAspectTeal": {
     "description": "Trái tim của Pokémon tràn ngập những ký ức, khiến Mặt Nạ Lục Tinh tỏa sáng và chỉ số Tốc độ của Pokémon được tăng cường."
