@@ -78,7 +78,7 @@
     "description": "Pokémon này bay lơ lửng trên không, giúp nó miễn nhiễm với các chiêu thức hệ Đất, cũng như Gai Nhọn, Gai Độc và Tơ Dính."
   },
   "effectSpore": {
-    "description": "Khi Pokémon bị trúng đòn tấn công tiếp xúc, kẻ tấn công có 30% khả năng bị nhiễm độc, tê liệt hoặc ngủ gục."
+    "description": "Khi Pokémon bị trúng đòn tấn công tiếp xúc, kẻ tấn công có 30% tỷ lệ bị nhiễm độc, tê liệt hoặc ngủ gục."
   },
   "synchronize": {
     "description": "Nếu bị bỏng, tê liệt, đầu độc hoặc nhiễm độc nặng bởi chiêu thức hay đặc tính của Pokémon khác, kẻ đó sẽ phải chịu trạng thái tương tự. Nếu Pokémon này dẫn đầu trận chiến, Pokémon hoang dã đối địch sẽ có cùng tính cách với bản thân."
@@ -93,7 +93,7 @@
     "description": "Pokémon này hấp thu tất cả các chiêu thức hệ Điện. Các chiêu thức đó sẽ không có tác dụng nào lên Pokémon này. Thay vào đó, nó sẽ tăng chỉ số T.công Đ.b. cho Pokémon."
   },
   "sereneGrace": {
-    "description": "Tăng gấp đôi khả năng các hiệu ứng thêm xảy ra khi Pokémon sử dụng chiêu thức. Kỹ năng này không ảnh hưởng đến vật phẩm."
+    "description": "Tăng gấp đôi tỷ lệ các hiệu ứng phụ xảy ra khi Pokémon sử dụng chiêu thức. Đặc tính này không ảnh hưởng đến vật phẩm."
   },
   "swiftSwim": {
     "description": "Tăng gấp đôi chỉ số Tốc độ của Pokémon trong thời tiết MƯA."
@@ -144,7 +144,7 @@
     "description": "Pokémon này tỉnh giấc nhanh gấp đôi so với các Pokémon khác."
   },
   "flameBody": {
-    "description": "Khi Pokémon bị trúng đòn tấn công tiếp xúc, kẻ tấn công có 30% khả năng bị bỏng."
+    "description": "Khi Pokémon bị trúng đòn tấn công tiếp xúc, kẻ tấn công có 30% tỷ lệ bị bỏng."
   },
   "runAway": {
     "description": "Giúp thoát khỏi Pokémon hoang dã một cách chắc chắn."
@@ -153,7 +153,7 @@
     "description": "Đôi mắt tinh tường giúp Pokémon bỏ qua các thay đổi về độ né tránh của mục tiêu và ngăn không cho độ chuẩn của bản thân bị hạ thấp."
   },
   "hyperCutter": {
-    "description": "Cặp càng mạnh mẽ và quý giá của Pokémon này ngăn chặn các chiêu thức hoặc khả năng của Pokémon khác làm giảm chỉ số Tấn công của nó."
+    "description": "Cặp càng mạnh mẽ và quý giá của Pokémon này ngăn chặn các chiêu thức hoặc Đặc tính của Pokémon khác làm giảm chỉ số Tấn công của nó."
   },
   "pickup": {
     "description": "Pokémon có thể nhặt vật phẩm mà Pokémon khác đã sử dụng trong trận chiến, ngay cả khi nó không tham gia vào trận chiến."
@@ -165,7 +165,7 @@
     "description": "Khi Pokémon sử dụng các chiêu thức vật lý, chỉ số Tấn công của nó được tăng 50%, nhưng độ chuẩn lại giảm 20%."
   },
   "cuteCharm": {
-    "description": "Khi Pokémon bị trúng đòn tấn công tiếp xúc, kẻ tấn công có 30% khả năng bị mê hoặc nếu kẻ tấn công và Pokémon khác giới."
+    "description": "Khi Pokémon bị trúng đòn tấn công tiếp xúc, kẻ tấn công có 30% tỷ lệ bị mê hoặc nếu kẻ tấn công và Pokémon khác giới."
   },
   "plus": {
     "description": "Chỉ số T.công Đ.b. của Pokémon được tăng 50% nếu có đồng minh sở hữu Đặc tính Plus hoặc Minus cùng tham chiến."
@@ -216,7 +216,7 @@
     "description": "Pokémon này tràn đầy sức sống, điều đó giúp nó không bị buồn ngủ hay ngủ gục."
   },
   "whiteSmoke": {
-    "description": "Pokémon này được bảo vệ bởi làn khói trắng, giúp ngăn chặn việc chỉ số của nó bị giảm bởi các chiêu thức hoặc khả năng của Pokémon khác."
+    "description": "Pokémon này được bảo vệ bởi làn khói trắng, giúp ngăn chặn việc chỉ số của nó bị giảm bởi các chiêu thức hoặc Đặc tính của Pokémon khác."
   },
   "purePower": {
     "description": "Nhờ sức mạnh thuần túy, Pokémon này tăng gấp đôi sức mạnh của các đòn tấn công vật lý."
@@ -687,13 +687,13 @@
     "description": "Biến mặt đất thành Grassy Terrain trong 5 lượt khi Pokémon này tham gia trận chiến."
   },
   "fullMetalBody": {
-    "description": "Chỉ số của Pokémon này không thể bị giảm bởi các chiêu thức hoặc khả năng của Pokémon khác. Hiệu ứng này không thể bị bỏ qua."
+    "description": "Chỉ số của Pokémon này không thể bị giảm bởi các chiêu thức hoặc Đặc tính của Pokémon khác. Hiệu ứng này không thể bị bỏ qua."
   },
   "shadowShield": {
-    "description": "Giảm một nửa sát thương mà Pokémon phải chịu khi HP đầy. Hiệu ứng này không thể bị vô hiệu hóa bởi các chiêu thức hoặc khả năng của Pokémon khác."
+    "description": "Giảm một nửa sát thương mà Pokémon phải chịu khi HP đầy. Hiệu ứng này không thể bị vô hiệu hóa bởi các chiêu thức hoặc Đặc tính của Pokémon khác."
   },
   "prismArmor": {
-    "description": "Giảm 25% sát thương mà Pokémon phải chịu từ các chiêu thức có hiệu quả vượt trội. Hiệu ứng này không thể bị bỏ qua bởi các chiêu thức hoặc khả năng của Pokémon khác."
+    "description": "Giảm 25% sát thương mà Pokémon phải chịu từ các chiêu thức có hiệu quả vượt trội. Hiệu ứng này không thể bị bỏ qua bởi các chiêu thức hoặc Đặc tính của Pokémon khác."
   },
   "neuroforce": {
     "description": "Tăng sức mạnh của các chiêu thức có hiệu quả vượt trội của Pokémon lên 25%."
@@ -714,7 +714,7 @@
     "description": "Khi bị tấn công, Pokémon này sẽ tung ra những sợi bông mềm mại xung quanh và làm giảm chỉ số Tốc độ của tất cả Pokémon khác ngoại trừ chính nó."
   },
   "propellerTail": {
-    "description": "Bỏ qua tác dụng của các khả năng và chiêu thức thu hút của Pokémon đối phương."
+    "description": "Bỏ qua tác dụng của các Đặc tính và chiêu thức thu hút đòn đánh của đối phương."
   },
   "mirrorArmor": {
     "description": "Thay vì bị ảnh hưởng bởi các hiệu ứng làm giảm chỉ số, Pokémon này sẽ phản lại các hiệu ứng đó về phía Pokémon đã gây ra chúng."
@@ -723,7 +723,7 @@
     "description": "Khi Pokémon sử dụng Surf hoặc Dive, nó sẽ bắt con mồi bằng miệng. Khi bị trúng đòn, Pokémon sẽ nhả con mồi về phía kẻ tấn công, gây sát thương bằng ¼ lượng HP tối đa của chúng. Tùy thuộc vào con mồi bắt được, nó cũng sẽ làm giảm chỉ số Phòng thủ của đối thủ hoặc gây tê liệt."
   },
   "stalwart": {
-    "description": "Bỏ qua tác dụng của các khả năng và chiêu thức thu hút của Pokémon đối phương."
+    "description": "Bỏ qua tác dụng của các Đặc tính và chiêu thức thu hút đòn đánh của đối phương."
   },
   "steamEngine": {
     "description": "Tăng chỉ số Tốc độ lên 6 bậc khi Pokémon bị trúng đòn tấn công hệ Lửa hoặc hệ Nước."
@@ -774,7 +774,7 @@
     "description": "Pokémon này sẽ thay đổi hình thái, luân phiên giữa Chế Độ Đầy Bụng và Chế Độ Bực Đói sau khi kết thúc mỗi lượt."
   },
   "quickDraw": {
-    "description": "Pokémon sẽ có 30% khả năng tấn công trước khi chiêu thức kẻ địch và nó dùng có cùng tỉ lệ ưu tiên."
+    "description": "Pokémon sẽ có 30% tỷ lệ tấn công trước khi chiêu thức kẻ địch và nó dùng có cùng tỉ lệ ưu tiên."
   },
   "unseenFist": {
     "description": "Khi Pokémon sử dụng các chiêu thức tiếp xúc, nó có thể tấn công cả những mục tiêu đang phòng thủ và gây ra một phần tư lượng sát thương mà chiêu thức đó lẽ ra sẽ gây ra. Tất cả các hiệu ứng khác ngoại trừ hiệu ứng phòng thủ của mục tiêu vẫn được kích hoạt."
