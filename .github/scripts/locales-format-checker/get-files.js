@@ -1,11 +1,13 @@
 import { existsSync, lstatSync, readdirSync, readFileSync } from "node:fs";
 import { format } from "node:util";
-import * as core from "@actions/core";
 import { fileExtension, ignoreList, LOCALES_DIR, mainLanguage } from "./constants.js";
+import { failed } from "./utils.js";
+
+/** @import { FileKeys } from "./types.js" */
 
 /**
  * Gets all files in a directory and subdirectories.
- * @param {string} dir
+ * @param {string} dir - The directory to process
  * @returns {string[]} A list of all files in the directory and subdirectories.
  */
 export function getFiles(dir) {
@@ -34,10 +36,7 @@ export function getFiles(dir) {
  * @returns {string[]} A list of all language codes.
  */
 export function getLanguageCodes() {
-  /**
-   * A list of all language codes in the locales folder.
-   * @type {string[]}
-   */
+  /** @type {string[]} */
   const languageCodes = [];
 
   if (existsSync(LOCALES_DIR)) {
@@ -51,7 +50,7 @@ export function getLanguageCodes() {
     }
   } else {
     const errStr = format("Locales folder not found: %s", LOCALES_DIR);
-    core.setFailed(errStr);
+    failed(errStr);
     process.exit();
   }
 
@@ -60,7 +59,7 @@ export function getLanguageCodes() {
 
 /**
  * Get the keys of a json file.
- * @param {string} filePath - The path to the file to read.
+ * @param {string} filePath - The path to the file to read
  * @returns {string[] | null} The keys for the file.
  */
 export function getKeys(filePath) {
@@ -74,14 +73,16 @@ export function getKeys(filePath) {
     const ret = keys.length > 0 ? keys : null;
     return ret;
   } catch (error) {
-    core.setFailed(`Error parsing ${filePath}: ${error.message}`);
+    failed(`Error parsing ${filePath}: ${error.message}`);
     return null;
   }
 }
 
-/** Get the keys from an json object.
+/**
+ * Get the keys from a JSON object.
+ *
  * This function is used by {@linkcode getKeys} to get nested keys.
- * @param {object} data - The json object to get the keys from.
+ * @param {object} data - The json object to get the keys from
  * @returns {string[]} The keys of the object, including nested keys.
  */
 function getKeysByData(data) {
@@ -98,12 +99,10 @@ function getKeysByData(data) {
   return keys;
 }
 
-/**
- * @returns {fileKeys} The keys per file for the main language.
- */
+/** @returns {FileKeys} The keys per file for the main language. */
 export function getMainLanguageKeys() {
   const files = getFiles(mainLanguage);
-  /** @type {fileKeys} */
+  /** @type {FileKeys} */
   const mainLanguageKeys = {};
 
   for (const filePath of files) {
@@ -118,8 +117,9 @@ export function getMainLanguageKeys() {
   return mainLanguageKeys;
 }
 
-/** Removes the language code from a file path.
- * @param {string} filePath - The file path to process.
+/**
+ * Removes the language code from a file path.
+ * @param {string} filePath - The file path to process
  * @returns {string} The file path without the language code.
  */
 export function removeLanguageCode(filePath) {
