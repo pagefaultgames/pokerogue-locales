@@ -1,5 +1,11 @@
 {
   "title": "Modyfikatory Wyzwań",
+  "noneSelected": "Nie Wybrano",
+  "category": {
+    "challenge": "Wyzwanie",
+    "nuzlocke": "Nuzlocke",
+    "misc": "Inne"
+  },
   "freshStart": {
     "desc": {
       "1": "Możesz korzystać tylko z początkowych starterów bez żadnych odblokowanych dodatków, jak gdybyś grał w PokéRogue po raz pierwszy.",
@@ -26,8 +32,17 @@
     }
   },
   "limitedSupport": {
+    "desc": {
+      "0": "Usuwa część lub wszystkie darmowe możliwości leczenia drużyny.",
+      "1": "Usuwa leczenie na końcu każdej lokacji.\nZamiast tego pojawia się standardowy wybór nagród.",
+      "2": "Usuwa Sklep podczas wybierania nagród po końcu każdej fali.",
+      "3": "Usuwa Sklep podczas wybierania nagród po końcu każdej fali. \n\nUsuwa leczenie na końcu każdej lokacji.\nZamiast tego pojawia się standardowy wybór nagród."
+    },
     "value": {
-      "0": "Wył."
+      "0": "Wył.",
+      "1": "Brak Leczenia",
+      "2": "Brak Sklepu",
+      "3": "Brak obu"
     }
   },
   "singleGeneration": {
