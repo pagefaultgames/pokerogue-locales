@@ -1,1 +1,27 @@
-{}
+{
+  "intro": "一位{{oricorioName}}正孤獨起舞，沒有舞伴。",
+  "title": "舞蹈課",
+  "description": "{{oricorioName}}並不咄咄逼人，\n反而有些哀傷。\n\n也許他只想找個人一起跳舞…",
+  "query": "你要怎麼做？",
+  "option": {
+    "1": {
+      "label": "戰鬥",
+      "tooltip": "(-)艱難的戰鬥\n(+)獲得接力棒",
+      "selected": "{{oricorioName}}變得急躁，想要採取行動進行自衛！",
+      "bossEnraged": "{{oricorioName}}的恐懼使它的能力上升了！"
+    },
+    "2": {
+      "label": "學習它的舞蹈",
+      "tooltip": "(+)教寶可夢覺醒之舞",
+      "selected": "您緊盯着{{oricorioName}}的舞蹈表演……$@s{level_up_fanfare}你的{{selectedPokemon}}從{{oricorioName}}那裡學到了！"
+    },
+    "3": {
+      "label": "表演一支舞蹈",
+      "tooltip": "(-)教{{oricorioName}}一支舞蹈\n(+){{oricorioName}}會喜歡你 ",
+      "disabledTooltip": "你的寶可夢需要\n習得一種舞蹈動作。",
+      "selectPrompt": "選擇一個舞蹈招式",
+      "selected": "{{oricorioName}}着迷地觀看着\n{{selectedPokemon}}展示{{selectedMove}}！$它喜歡這場表演！$@s{level_up_fanfare}{{oricorioName}}想要加入你的隊伍！"
+    }
+  },
+  "invalidSelection": "該寶可夢無法學會跳舞招式"
+}

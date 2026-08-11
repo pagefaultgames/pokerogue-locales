@@ -6,18 +6,18 @@
   "invalidSelection": "Esse Pokémon não pode batalhar!",
   "option": {
     "1": {
-      "label": "Treinamento Leve",
+      "label": "Treino Leve",
       "tooltip": "(-) Batalha Leve com o Pokémon Escolhido\n(+) Melhora Permanentemente 2 IVs Aleatórios do Pokémon Escolhido",
       "finished": "{{selectedPokemon}} retorna, sentindo-se\ncansado, mas realizado!$Seus IVs de {{stat1}} e {{stat2}} foram melhorados!"
     },
     "2": {
-      "label": "Treinamento Moderado",
+      "label": "Treino Moderado",
       "tooltip": "(-) Batalha Moderada com o Pokémon Escolhido\n(+) Muda Permanentemente a Natureza do Pokémon Escolhido",
       "selectPrompt": "Selecione uma nova natureza\npara treinar seu Pokémon.",
       "finished": "{{selectedPokemon}} retorna, sentindo-se\ncansado, mas realizado!$Sua natureza foi alterada para {{nature}}!"
     },
     "3": {
-      "label": "Treinamento Intenso",
+      "label": "Treino Intenso",
       "tooltip": "(-) Batalha Rigorosa com o Pokémon Escolhido\n(+) Muda Permanentemente a Habilidade do Pokémon Escolhido",
       "selectPrompt": "Selecione uma nova habilidade\npara treinar seu Pokémon.",
       "finished": "{{selectedPokemon}} retorna, sentindo-se\ncansado, mas realizado!$Sua habilidade foi alterada para {{ability}}!"

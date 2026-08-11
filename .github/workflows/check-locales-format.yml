@@ -33,52 +33,14 @@ jobs:
       - name: Validate locale keys
         id: check-keys-format
         run: pnpm check-locales-format:keys
-        continue-on-error: true
+        if: ${{ !cancelled() }}
 
       - name: Validate locale file names
         id: check-file-names
         run: pnpm check-locales-format:files
-        continue-on-error: true
+        if: ${{ !cancelled() }}
 
       - name: Validate main language keys exist
         id: check-keys-exist
         run: pnpm check-locales-format:missing
-        continue-on-error: true
-
-      - name: Evaluate for Errors
-        env:
-          CHECK_KEYS_FORMAT_OUTCOME: ${{ steps.check-keys-format.outcome }}
-          CHECK_FILE_NAMES_OUTCOME: ${{ steps.check-file-names.outcome }}
-          CHECK_KEYS_EXIST_OUTCOME: ${{ steps.check-keys-exist.outcome }}
-        run: |
-          # Script to check for errors
-
-          red () {
-            printf "\e[31m%s\e[0m" "$1"
-          }
-          green () {
-            printf "\e[32m%s\e[0m" "$1"
-          }
-
-          print_result() {
-            local name=$1
-            local outcome=$2
-            if [ "$outcome" == "success" ]; then
-              printf "$(green "✅ $name: $outcome")\n"
-            else
-              printf "$(red "❌ $name: $outcome")\n"
-            fi
-          }
-
-          print_result "Check Keys Format" "$CHECK_KEYS_FORMAT_OUTCOME"
-          print_result "Check File Names" "$CHECK_FILE_NAMES_OUTCOME"
-          print_result "Check Keys Exist" "$CHECK_KEYS_EXIST_OUTCOME"
-
-          if [[ "$CHECK_KEYS_FORMAT_OUTCOME" != "success" || \
-            "$CHECK_FILE_NAMES_OUTCOME" != "success" || \
-            "$CHECK_KEYS_EXIST_OUTCOME" != "success" ]]; then
-            printf "$(red "❌ One or more checks failed!")\n" >&2
-            exit 1
-          fi
-
-          printf "$(green "✅ All checks passed!")\n"
+        if: ${{ !cancelled() }}

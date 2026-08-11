@@ -1,7 +1,13 @@
 {
   "title": "Desafios",
-  "illegalEvolution": "{{pokemon}} não pode ser escolhido\nnesse desafio!",
+  "illegalEvolution": "{{pokemon}} se transformou em um Pokémon\ninelegível para este desafio!",
   "noneSelected": "Nada Selecionado",
+  "category": {
+    "randomizer": "Randomizador",
+    "challenge": "Desafio",
+    "nuzlocke": "Nuzlocke",
+    "misc": "Outros"
+  },
   "freshStart": {
     "name": "Novo Começo",
     "desc": {
@@ -47,7 +53,7 @@
     }
   },
   "singleGeneration": {
-    "name": "Geração Única",
+    "name": "Monogeração",
     "desc": "Você só pode usar Pokémon da {{gen}} geração.",
     "descDefault": "Você só pode usar Pokémon de uma única geração.",
     "gen": {
@@ -70,16 +76,16 @@
   "inverseBattle": {
     "name": "Batalha Inversa",
     "shortName": "Inversa",
-    "desc": "Fraquezas e resistências de tipos são invertidas e nenhum tipo é imune a outro tipo.\nDesativa as conquistas de outros desafios.",
+    "desc": "Os confrontos entre tipos são invertidos e nenhum tipo é imune a outro.\n\nDesativa as conquistas de outros desafios (exceto Atributo Invertido).",
     "value": {
       "0": "Desligado",
       "1": "Ligado"
     }
   },
   "flipStat": {
-    "name": "Inverter Atr.",
-    "shortName": "Inversão",
-    "desc": "Atributos são embaralhados para que os PS e Vel. sejam trocados.\nAta. vira Def. Esp.\nDef. vira Ata. Esp.\nDef. Esp. vira Ata.\nAta. Esp. vira Def.\nDesativa as conquistas de outros desafios (exceto Inversão).",
+    "name": "Atr. Invertido",
+    "shortName": "Invertido",
+    "desc": "Atributos são embaralhados para que os PS e Vel. sejam trocados.\nAtq. vira Def. Esp.\nDef. vira Atq. Esp.\nDef. Esp. vira Atq.\nAtq. Esp. vira Def.\nDesativa as conquistas de outros desafios (exceto Batalha Inversa).",
     "value": {
       "0": "Desligado",
       "1": "Ligado"
@@ -88,6 +94,27 @@
   "metronome": {
     "name": "Modo Metronome",
     "desc": "Você só pode usar Metronome! Veja até onde você consegue chegar com pura sorte.\nEste é um modo APENAS para diversão e não concede uma conquista.\nDesativa todas as outras conquistas.",
+    "value": {
+      "0": "Desligado",
+      "1": "Ligado"
+    }
+  },
+  "passives": {
+    "name": "Passivas Ativas",
+    "desc": {
+      "0": "Força alguns ou todos os Pokémon a terem suas passivas ativadas.",
+      "1": "Os Pokémon dos Treinadores têm suas passivas ativadas.\nNão afeta os iniciais selecionados por você.",
+      "2": "Todos os Pokémon, incluindo os seus, terão suas passivas ativadas durante o jogo.\n\nDesativa as conquistas de outros desafios."
+    },
+    "value": {
+      "0": "Desligado",
+      "1": "Treinadores",
+      "2": "Tudo"
+    }
+  },
+  "movesetRandomizer": {
+    "name": "Movimentos Aleatórios",
+    "desc": "Randomiza o conjunto de movimentos de cada espécie de Pokémon ao subir de nível. Os Pokémon iniciais começam com movimentos básicos correspondentes aos seus tipos.\n\nDesativa as conquistas de outros desafios.",
     "value": {
       "0": "Desligado",
       "1": "Ligado"

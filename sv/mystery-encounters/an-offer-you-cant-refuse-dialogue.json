@@ -1,0 +1,26 @@
+{
+  "intro": "Du stoppas av tydligt välbärgad pojke.",
+  "speaker": "Rikemansbarn",
+  "introDialogue": "God dag på dig!$Jag kan inte låta bli att märka att din\n{{strongestPokemon}} ser helt gudomlig ut!$Jag har alltid velat ha en Pokémon som den!$Får man betala dig en generös summa för den\noch slänga med den här gamla grunkan, kanske?",
+  "title": "Ett erbjudande du inte kan motstå",
+  "description": "Du erbjuds 1x @[TOOLTIP_TITLE]{ {{itemName}}} och {{price, money}} för din {{strongestPokemon}}!\n\nDet är ett oerhört bra erbjudande, men kan du verkligen förmå dig att skiljas från en så stark lagmedlem?",
+  "query": "Hur gör du?",
+  "option": {
+    "1": {
+      "label": "Godta det",
+      "tooltip": "(-) Förlora {{strongestPokemon}}\n(+) Få 1x@[TOOLTIP_TITLE]{ {{itemName}}}\n(+) Få {{price, money}}",
+      "selected": "Utomordentligt!@d{32} Följ med, {{strongestPokemon}}!$Det är dags att visa upp dig för alla på yachtklubben!$De kommer att bli så avundsjuka!"
+    },
+    "2": {
+      "label": "Utpressa ungen",
+      "tooltip": "(+) {{option2PrimaryName}} utför {{moveOrAbility}}\n(+) Få {{price, money}}",
+      "tooltipDisabled": "Din pokémon behöver en viss teknik eller ett visst särdrag för att välja detta.",
+      "selected": "Vad i hela friden!? Vi blir rånade, {{liepardName}}!$Mina advokater kommer att höra av sig, din plebej!"
+    },
+    "3": {
+      "label": "Gå din väg",
+      "tooltip": "(-) Ingen belöning",
+      "selected": "Vilken förfärlig dag…$Nåväl, låt oss återvända till yachtklubben då, {{liepardName}}."
+    }
+  }
+}

@@ -1,1 +1,23 @@
-{}
+{
+  "intro": "你發現了一個…@d{32}寶箱?",
+  "title": "神秘寶箱",
+  "description": "一個裝飾精美的箱子立在地上。\n裡面一定有好東西…吧？",
+  "query": "要打開么?",
+  "option": {
+    "1": {
+      "label": "打開",
+      "tooltip": "@[SUMMARY_BLUE]{(35%) 某種東西}\n@[SUMMARY_GREEN]{({{trapPercent}}%) 一般獎勵}\n@[SUMMARY_GREEN]{({{commonPercent}}%) 精美獎勵}\n@[SUMMARY_GREEN]{({{roguePercent}}%) 珍稀獎勵}\n@[SUMMARY_GREEN]{({{masterPercent}}%) 超凡獎勵}",
+      "selected": "你打開箱子發現……",
+      "normal": "只是一些普通的工具和物品。",
+      "good": "一些不錯的工具和物品！",
+      "great": "一些很稀有的工具和物品！！",
+      "amazing": "哇！金色傳說！",
+      "bad": "哦不！@d{32}\n這個箱子實際上是一個偽裝的{{gimmighoulName}}！$你的{{pokeName}}跳到了你面前\n但為了保護你被打倒了！"
+    },
+    "2": {
+      "label": "有诈，走了",
+      "tooltip": "(-)無獎勵",
+      "selected": "你匆匆上路，心裡卻有一絲遺憾。"
+    }
+  }
+}

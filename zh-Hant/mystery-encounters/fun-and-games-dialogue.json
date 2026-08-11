@@ -1,1 +1,31 @@
-{}
+{
+  "introDialogue": "來看看吧，大夥！\n在這全新的{{wobbuffetName}}捶捶樂上試試運氣！",
+  "speaker": "藝人",
+  "title": "快樂遊戲！",
+  "description": "你遇到了一個有獎遊戲活動！\n你有 @[TOOLTIP_TITLE]{3 回合}的時間來在\n@[TOOLTIP_TITLE]{不打倒}{{wobbuffetName}}的情況下將它儘可能的打到@[TOOLTIP_TITLE]{1血}\n這樣，它就能通過反作用力\n在敲鐘器上打出超高數字！\n但要小心！如果你不小心打倒了{{wobbuffetName}}，\n你就得付醫療費！",
+  "query": "要試試么？",
+  "invalidSelection": "這個寶可夢不能遊玩！",
+  "option": {
+    "1": {
+      "label": "遊玩遊戲",
+      "tooltip": "(-)支付{{option1Money, money}}\n(+)玩{{wobbuffetName}}重拳出擊！",
+      "selected": "該試試你的運氣了"
+    },
+    "2": {
+      "label": "離開",
+      "tooltip": "(-)無獎勵",
+      "selected": "你匆匆上路，心裡卻有一絲遺憾。"
+    }
+  },
+  "ko": "哦不！{{wobbuffetName}}被打倒了！\n你不僅輸了，還要賠醫療費…",
+  "chargingContinue": "果然翁正在準備反擊！",
+  "turnRemaining3": "還有3個回合！",
+  "turnRemaining2": "還有2個回合！",
+  "turnRemaining1": "還有1個回合！",
+  "endGame": "時間到！{{wobbuffetName}}使出了雙倍奉還！\n然後…@d{16}…@d{16}…@d{16} ",
+  "bestResult": "{{wobbuffetName}}猛擊了按鈕，打穿了進度條！\n你贏得了大獎！",
+  "greatResult": "{{wobbuffetName}}猛擊了按鈕，就快碰到到鍾了！\n就差一點！你獲得了二等獎！",
+  "goodResult": "{{wobbuffetName}}猛擊了按鈕，填滿了一半進度條！\n你獲得了三等獎！",
+  "badResult": "{{wobbuffetName}}軟綿綿的打向按鈕，幾乎沒什麼動靜…\n你什麼獎都沒有！",
+  "outro": "真是有趣的小遊戲！"
+}

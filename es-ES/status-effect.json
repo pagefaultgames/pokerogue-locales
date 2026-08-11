@@ -27,25 +27,25 @@
     "obtainSource": "¡{{pokemonNameWithAffix}} sufre parálisis por {{sourceText}}!\nQuizás no se pueda mover.",
     "activation": "¡{{pokemonNameWithAffix}} está paralizado!\n¡No se puede mover!",
     "overlap": "¡{{pokemonNameWithAffix}} ya\nestá paralizado!",
-    "heal": "¡{{pokemonNameWithAffix}} ya no\nestá paralizado!"
+    "heal": "¡{{pokemonNameWithAffix}} se ha curado\nde la parálisis!"
   },
   "sleep": {
     "name": "Dormir",
     "description": "dormir",
     "obtain": "¡{{pokemonNameWithAffix}}\nse ha dormido!",
-    "obtainSource": "¡{{pokemonNameWithAffix}}\nse ha dormido\npor culpa de {{sourceText}}!",
-    "activation": "¡{{pokemonNameWithAffix}} está\ndormido como un tronco.",
+    "obtainSource": "¡{{pokemonNameWithAffix}} se ha dormido\npor culpa de {{sourceText}}!",
+    "activation": "¡{{pokemonNameWithAffix}} está\ndormido como un tronco!",
     "overlap": "¡{{pokemonNameWithAffix}} ya\nestá dormido!",
-    "heal": "¡{{pokemonNameWithAffix}} se despertó!"
+    "heal": "{{pokemonNameWithAffix}} se ha despertado."
   },
   "freeze": {
     "name": "Congelamiento",
     "description": "congelamiento",
     "obtain": "¡{{pokemonNameWithAffix}}\nha sido congelado!",
     "obtainSource": "¡{{pokemonNameWithAffix}}\nha sido congelado por {{sourceText}}!",
-    "activation": "¡{{pokemonNameWithAffix}} está\ncongelado!",
+    "activation": "¡{{pokemonNameWithAffix}} está congelado!\nNo se puede mover.",
     "overlap": "¡{{pokemonNameWithAffix}} ya\nestá congelado!",
-    "heal": "¡{{pokemonNameWithAffix}} se\nha descongelado!",
+    "heal": "¡{{pokemonNameWithAffix}} ya\nno está congelado!",
     "healByMove": "¡{{pokemonNameWithAffix}} ha derretido\nel hielo con {{moveName}}!"
   },
   "burn": {
@@ -55,6 +55,6 @@
     "obtainSource": "¡{{pokemonNameWithAffix}}\nse ha quemado por {{sourceText}}!",
     "activation": "¡{{pokemonNameWithAffix}} se resiente\nde las quemaduras!",
     "overlap": "¡{{pokemonNameWithAffix}} ya\nestá quemado!",
-    "heal": "¡{{pokemonNameWithAffix}} ya no\nestá quemado!"
+    "heal": "¡{{pokemonNameWithAffix}} ya\nno tiene quemaduras!"
   }
 }

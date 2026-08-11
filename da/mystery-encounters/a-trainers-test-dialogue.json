@@ -1,0 +1,47 @@
+{
+  "intro": "En ekstrem stærk træner kommer tættere…",
+  "buck": {
+    "introDialogue": "Hey, træner! Mit navn er Buck.$Jeg har et super sejt forslag\ntil en stærk træner såsom dig selv!$Jeg har to sjældne Pokémon æg med mig,\nmen jeg vil gerne havde en anden til at tage sig af den ene.$Hvis du kan bevise at du er en stærk træner overfor mig,\nså kan du få det sjældnere æg!",
+    "accept": "Woohoo, jeg bliver helt fyret op!",
+    "decline": "Så for den, dit hold ser ikke\nud til at være i bedste stand.$Her, lad mig hjælpe med det."
+  },
+  "cheryl": {
+    "introDialogue": "Hejsa, mit navn er Freja.$Jeg har et specielt intressant forslag,\nfor en stærk træner som dem selv.$Jeg har to sjældne Pokémon æg med mig,\nmen jeg vil gerne havde en anden til at tage sig af en af dem.$Hvis du kan bevise hvor stærk du er,\nså giver jeg dig det sjælndere æg!",
+    "accept": "Jeg håber du er klar!",
+    "decline": "Jeg forstår, dit hold ser ikke\nud til at havde det godt lige nu.$Lad mig hjælpe dig med det."
+  },
+  "marley": {
+    "introDialogue": "…@d{64} Jeg er Marlene.$Jeg har et tilbud til dig…$Jeg besidder to sjælde æg,\nmen jeg vil gerne havde en som dig til at tage sig af det ene.$Hvis du er stærkere en mig\nså kan du få det sjældnere æg.",
+    "accept": "… Intressant.",
+    "decline": "… Aha.$Dine Pokémon ser skadet ud…\nLad mig hjælpe."
+  },
+  "mira": {
+    "introDialogue": "Hej! Jeg er Mira!$Mira har ønsket sig\nen stærk træner som dig!$Mira har to sjældne Pokémon æg,\nmen Mira vil gerne give et til en stærk træner!$Hvis du kan vise Mira du er stærk,\nså vil Mira give dig det sjældnere æg!",
+    "accept": "Du vil kæmpe mod Mira?\nYay!",
+    "decline": "Aww, ingen kamp?\nDet er okay!$Her, Mira vil helbrede dit hold!"
+  },
+  "riley": {
+    "introDialogue": "Jeg er Riley.$Jeg har et pudsigt forslag\ntil en stærk træner som dig selv.$Jeg har med mig to sjældne Pokémon æg,\nmen jeg vil gerne give et til en anden træner.$Hvis du kan bevise din styrke overfor mig,\nså kan du få det sjældne æg!",
+    "accept": "Det blik du har…\nLad os starte.",
+    "decline": "Jeg forstår, dit hold ser skadet ud.$Her, lad mig hjælpe med det."
+  },
+  "title": "En Træner’s Test",
+  "description": "Det ser ud til denne træner er villig til at give dig et æg, ligegyldig hvad din beslutning er. Men, hvis du can formå at besejre den stærke træner, så får du et meget sjældnere æg.",
+  "query": "Hvad vil du gøre?",
+  "option": {
+    "1": {
+      "label": "Accepter Udfordringen",
+      "tooltip": "(-) Brutal Kamp\n(+) Modtag et @[TOOLTIP_TITLE]{Meget Sjældent Æg}"
+    },
+    "2": {
+      "label": "Afvis Udfordringen",
+      "tooltip": "(+) Fuldt Regenerer dit Hold\n(+) Få et @[TOOLTIP_TITLE]{Æg}"
+    }
+  },
+  "eggTypes": {
+    "rare": "et Sjældent Æg",
+    "epic": "et Episk Æg",
+    "legendary": "et Legendarisk Æg"
+  },
+  "outro": "{{statTrainerName}} gav dig {{eggType}}!"
+}

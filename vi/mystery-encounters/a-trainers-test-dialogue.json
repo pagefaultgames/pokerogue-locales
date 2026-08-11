@@ -1,0 +1,47 @@
+{
+  "intro": "Một nhà huấn luyện cực kỳ giỏi đang tiếp cận bạn…",
+  "buck": {
+    "introDialogue": "Yo, nhà huấn luyện! Tên tôi là Buck.$Tôi có một đề xuất cực kỳ tuyệt vời\ncho một nhà huấn luyện mạnh mẽ như bạn!$Tôi đang mang theo hai Trứng Pokémon hiếm,\nnhưng tôi muốn ai đó chăm sóc một cái.$Nếu bạn có thể chứng minh sức mạnh của mình với tôi,\ntôi sẽ trao cho bạn cái hiếm hơn!",
+    "accept": "Ôi, hào hứng quá đi!",
+    "decline": "Hừm, có vẻ như đội bạn\nkhông ở trong trạng thái tốt lắm.$Để tôi giúp bạn nhé."
+  },
+  "cheryl": {
+    "introDialogue": "Xin chào, chị là Cheryl.$Chị có một yêu cầu khá là đặc biệt,\ncho một nhà huấn luyện mạnh như em.$Chị đang mang theo hai quả Trứng Pokémon cùng mình,\nvà chị cũng đang cần người chăm sóc cho một quả.$Nếu em có thể chứng minh sức mạnh của em,\nchị sẽ cho em quả hiếm hơn được không nè!",
+    "accept": "Rất mong được em chỉ giáo nhé!",
+    "decline": "Hừm, có vẻ như đội của em\nđang bị thương kìa.$Để chị giúp em một tay nhé."
+  },
+  "marley": {
+    "introDialogue": "…@d{64} Tôi là Marley.$Tôi có một lời đề nghị dành cho bạn…$Tôi đang mang theo hai quả Trứng Pokémon,\nnhưng tôi muốn người khác chăm sóc một quả.$Nếu bạn mạnh hơn tôi,\ntôi sẽ tặng bạn quả Trứng hiếm hơn.",
+    "accept": "… Tôi hiểu rồi.",
+    "decline": "… Tôi hiểu rồi. $Pokémon của bạn trông có vẻ mệt mỏi…\nĐể tôi giúp nhé."
+  },
+  "mira": {
+    "introDialogue": "Chào cậu! Tớ là Mira đây!$Mira có một thỉnh cầu dành cho một nhà huấn luyện mạnh mẽ như cậu!$Mira đang có hai quả Trứng Pokémon quý hiếm, nhưng Mira muốn nhường lại một quả cho người khác!$Nếu cậu chứng minh được cho Mira thấy là cậu rất mạnh, Mira sẽ tặng cậu quả Trứng hiếm hơn đấy!",
+    "accept": "Cậu sẽ đấu với Mira sao?\nTuyệt quá đi!",
+    "decline": "Huhu, không đấu trận nào sao?\nNhưng không sao đâu nha!$Đây nè, để Mira hồi phục sức khỏe cho cả đội của cậu nhé!"
+  },
+  "riley": {
+    "introDialogue": "Tôi là Riley.$Tôi có một lời đề nghị khá kỳ lạ\ndành cho một nhà huấn luyện mạnh mẽ như cậu.$Tôi đang mang hai quả Trứng Pokémon hiếm, nhưng tôi muốn nhượng lại một quả cho một nhà huấn luyện khác.$Nếu cậu có thể chứng minh sức mạnh của mình cho tôi thấy,\ntôi sẽ tặng cậu quả Trứng hiếm hơn!",
+    "accept": "Ánh mắt đó của cậu…\nChiến thôi nào.",
+    "decline": "Tôi hiểu mà, đội của cậu trông mệt lử cả rồi.$Nào, để tôi giúp cậu một tay nhé."
+  },
+  "title": "Bài Kiểm Tra Của Nhà Huấn Luyện",
+  "description": "Có vẻ như nhà huấn luyện này sẵn sàng tặng bạn một quả Trứng bất kể bạn quyết định ra sao. Tuy nhiên, nếu bạn có thể đánh bại nhà huấn luyện mạnh mẽ này, bạn sẽ nhận được một quả Trứng hiếm hơn rất nhiều.",
+  "query": "Bạn sẽ làm gì đây?",
+  "option": {
+    "1": {
+      "label": "Chấp Nhận Thử Thách",
+      "tooltip": "(-) Trận đấu khốc liệt\n(+) Nhận 1 quả @[TOOLTIP_TITLE]{Trứng Rất Hiếm}"
+    },
+    "2": {
+      "label": "Từ Chối Thử Thách",
+      "tooltip": "(+) Hồi phục toàn đội\n(+) Nhận 1 quả @[TOOLTIP_TITLE]{Trứng}"
+    }
+  },
+  "eggTypes": {
+    "rare": "một quả Trứng Hiếm",
+    "epic": "một quả Trứng Cực Hiếm",
+    "legendary": "một quả Trứng Huyền Thoại"
+  },
+  "outro": "{{statTrainerName}} đã trao bạn {{eggType}}!"
+}

@@ -1,0 +1,19 @@
+{
+  "intro": "Det är ett enormt sopberg!\nVar kom allt det här ifrån?",
+  "title": "Den andres skatt",
+  "description": "Sopberget tornar upp sig över dig och du kan skymta några värdefulla föremål begravda bland avfallet.\nMen är du verkligen säker på att du vill täckas av smuts bara för att få tag i dem?",
+  "query": "Hur gör du?",
+  "option": {
+    "1": {
+      "label": "Undersök nogrannt",
+      "tooltip": "(?) Hitta källan till soporna",
+      "selected": "Du letar runt sopberget efter någon ledtråd till hur den kan ha hamnat här…",
+      "selected2": "Plötsligt börjar soporna röra på sig! Det var inte bara skräp, det var en pokémon! "
+    },
+    "2": {
+      "label": "Gräv fram värdesakerna",
+      "tooltip": "(-) Butiksartiklar kommer kosta {{costMultiplier}}x\n(+) Få fantastiska föremål",
+      "selected": "Du vadar och gräver genom soporna, \noch blir nersmutsad från topp till tå.\n$Det finns ingen chans att butiksägare kommer\natt sälja dig saker till normalpris i ditt vidriga skick!\n$Du måste nu betala extra i butikerna.\nMen! Du hittade några otroliga föremål bland skräpet!"
+    }
+  }
+}

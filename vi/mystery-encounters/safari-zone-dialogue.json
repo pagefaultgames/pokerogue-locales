@@ -1,0 +1,46 @@
+{
+  "intro": "Đây là khu bảo tồn Pokémon hoang dã!",
+  "title": "Khu Bảo Tồn",
+  "description": "Có rất nhiều Pokémon quý hiếm và đặc biệt có thể được tìm thấy ở đây!\nNếu bạn chọn tham gia, bạn sẽ có giới hạn thời gian là@[TOOLTIP_TITLE]{ {{numEncounters}} lần chạm trán hoang dã} để thử bắt chúng.\n\nTuy nhiên, hãy cẩn thận. Những Pokémon này có thể bỏ chạy trước khi bạn kịp bắt chúng!",
+  "query": "Bạn có muốn vào không?",
+  "option": {
+    "1": {
+      "label": "Tiến Vào",
+      "tooltip": "(-) Trả {{option1Money, money}}\n@[SUMMARY_GREEN]{(?) Khu Bảo Tồn}",
+      "selected": "Đến lúc thử vận may rồi!"
+    },
+    "2": {
+      "label": "Rời Đi",
+      "tooltip": "(-) Không có phần thưởng",
+      "selected": "Bạn vội vã bước đi, trong lòng có chút tiếc nuối."
+    }
+  },
+  "safari": {
+    "1": {
+      "label": "Ném Poké Ball",
+      "tooltip": "(+) Ném 1 Poké Ball",
+      "selected": "Bạn ném Poké Ball!"
+    },
+    "2": {
+      "label": "Ném Mồi",
+      "tooltip": "(+) Tăng tỷ lệ Thu Phục\n(-) Có thể sẽ tăng tỷ lệ Bỏ Chạy",
+      "selected": "Bạn ném mồi đi!"
+    },
+    "3": {
+      "label": "Ném Bùn",
+      "tooltip": "(+) Giảm tỷ lệ Bỏ Chạy\n(-) Có thể sẽ giảm tỷ lệ Thu Phục",
+      "selected": "Bạn ném bùn vào nó!"
+    },
+    "4": {
+      "label": "Bỏ Chạy",
+      "tooltip": "(?) Bỏ chạy khỏi Pokémon này"
+    },
+    "watching": "{{pokemonName}} đang quan sát bạn!",
+    "eating": "{{pokemonName}} đang ăn!",
+    "busyEating": "{{pokemonName}} đang bận ăn!",
+    "angry": "{{pokemonName}} bắt đầu tức giận!",
+    "besideItselfAngry": "{{pokemonName}} tức giận đến phát điên!",
+    "remainingCount": "Còn {{remainingCount}} Pokémon!"
+  },
+  "outro": "Chuyến đi chơi đó thật thú vị!"
+}

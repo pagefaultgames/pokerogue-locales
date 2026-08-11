@@ -1,0 +1,26 @@
+{
+  "intro": "Bạn bị chặn lại bởi một cậu công tử trông có vẻ giàu có.",
+  "speaker": "Trai Nhà Giàu",
+  "introDialogue": "Chúc một ngày tốt lành!$Ta không thể không để mắt đến con {{strongestPokemon}} tuyệt mỹ của ngươi!$Ta đã luôn muốn có một con Pokémon như thế!$Ta sẽ trả cho ngươi hậu hĩnh,\nvà tặng thêm cả món trang sức cũ kỹ này nữa!",
+  "title": "Lời Đề Nghị Không Thể Chối Từ",
+  "description": "Bạn đang được đề nghị đổi {{strongestPokemon}} lấy một@[TOOLTIP_TITLE]{ {{itemName}}} và {{price, money}}!\n\n​Đó là một giao kèo cực kỳ hời, nhưng liệu bạn có thực sự nỡ rời xa một thành viên mạnh mẽ như vậy trong đội hình?",
+  "query": "Bạn sẽ làm gì đây?",
+  "option": {
+    "1": {
+      "label": "Chấp Nhận Giao Kèo",
+      "tooltip": "(-) Mất {{strongestPokemon}}\n(+) Nhận 1@[TOOLTIP_TITLE]{ {{itemName}}}\n(+) Nhận {{price, money}}",
+      "selected": "Tuyệt vời quá!\n@d{32}Đi thôi nào, {{strongestPokemon}}!$Đã đến lúc đưa ngươi đi khoe với tất cả mọi người ở câu lạc bộ du thuyền rồi!$Họ sẽ phải ghen tị nổ mắt cho mà xem!"
+    },
+    "2": {
+      "label": "Tống Tiền Đứa Trẻ",
+      "tooltip": "(+) {{option2PrimaryName}} dùng {{moveOrAbility}}\n(+) Nhận {{price, money}}",
+      "tooltipDisabled": "Pokémon của bạn cần phải biết một số chiêu thức hoặc đặc tính nhất định mới có thể chọn phương án này",
+      "selected": "Trời đất ơi, chúng ta đang bị cướp đấy à, {{liepardName}}!$Ngươi cứ đợi mà làm việc với luật sư của ta về chuyện này đi!"
+    },
+    "3": {
+      "label": "Rời Đi",
+      "tooltip": "(-) Không có phần thưởng",
+      "selected": "Thật là một ngày tồi tệ...$À, thôi được rồi. Chúng ta quay lại câu lạc bộ du thuyền thôi nào, {{liepardName}}."
+    }
+  }
+}
