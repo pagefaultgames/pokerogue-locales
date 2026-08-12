@@ -27,8 +27,83 @@
     "PokemonStatusHealModifierType": {
       "description": "Bir Pokémon’un durum etkilerini iyileştirir."
     },
+    "PokemonPpRestoreModifierType": {
+      "description": "Bir Pokémon hareketi için {{restorePoints}} GP yeniler.",
+      "extra": {
+        "fully": "Bir Pokémon hareketi için tüm GP’yi yeniler."
+      }
+    },
+    "PokemonAllMovePpRestoreModifierType": {
+      "description": "Bir Pokémon’un tüm hareketleri için {{restorePoints}} GP yeniler.",
+      "extra": {
+        "fully": "Bir Pokémon’un tüm hareketleri için tüm GP'yi yeniler."
+      }
+    },
+    "PokemonPpUpModifierType": {
+      "description": "Her 5 maksimum GP için bir Pokémon hareketinin GP’sini kalıcı olarak {{upPoints}} artırır (maksimum 3)."
+    },
+    "PokemonNatureChangeModifierType": {
+      "name": "{{natureName}} Nanesi",
+      "description": "Bir Pokémon’un doğasını {{natureName}} ile değiştirir ve o Starter için doğayı kalıcı olarak açar."
+    },
+    "DoubleBattleChanceBoosterModifierType": {
+      "description": "{{battleCount}} savaş boyunca karşılaşmalarının çifte savaş olma ihtimalini dörtle çarpar."
+    },
+    "TempStatStageBoosterModifierType": {
+      "description": "Tüm ekip üyelerinin {{stat}} değerini 5 savaş boyunca {{amount}} artırır.",
+      "extra": {
+        "stage": "1 aşama",
+        "percentage": "%20"
+      }
+    },
+    "AttackTypeBoosterModifierType": {
+      "description": "Bir Pokémon’un {{moveType}} türü hareketlerinin gücünü %20 artırır."
+    },
+    "PokemonLevelIncrementModifierType": {
+      "description": "Bir Pokémon’un seviyesini {{levels}} artırır."
+    },
+    "AllPokemonLevelIncrementModifierType": {
+      "description": "Tüm ekip üyelerinin seviyesini {{levels}} artırır."
+    },
+    "BaseStatBoosterModifierType": {
+      "description": "Kullanıcının temel {{stat}} değerini %10 artırır. IV ne kadar yüksekse, birikme limiti o kadar artar."
+    },
+    "PokemonBaseStatFlatModifierType": {
+      "name": "Eski Pasta",
+      "description": "Kullanıcının {{stats}} değerini {{statValue}} artırır. Garip bir rüyadan sonra bulunur."
+    },
+    "AllPokemonFullHpRestoreModifierType": {
+      "description": "Tüm Pokémonların SP değerini %100 yeniler."
+    },
+    "AllPokemonFullReviveModifierType": {
+      "description": "Tüm bayılmış Pokémonları canlarını tamamen yenileyerek diriltir."
+    },
+    "MoneyRewardModifierType": {
+      "description": "{{moneyMultiplier}} miktarda para verir ({{moneyAmount}}₽).",
+      "extra": {
+        "small": "küçük",
+        "moderate": "makul",
+        "large": "büyük"
+      }
+    },
+    "ExpBoosterModifierType": {
+      "description": "Tecrübe Puanlarının kazanımını %{{boostPercent}} artırır."
+    },
+    "PokemonExpBoosterModifierType": {
+      "description": "Kullanıcının Tecrübe Puanı kazanımını %{{boostPercent}} artırır."
+    },
+    "PokemonFriendshipBoosterModifierType": {
+      "description": "Arkadaşlık kazanımını %50 artırır."
+    },
+    "PokemonMoveAccuracyBoosterModifierType": {
+      "description": "Hareket isabetliliğini {{accuracyAmount}} artırır."
+    },
+    "PokemonMultiHitModifierType": {
+      "description": "Kullanıcının saldırılarından verilen hasarın %25’ini ilave bir vuruşa çevirir."
+    },
     "TmModifierType": {
-      "name": "TM{{moveId}} - {{moveName}}"
+      "name": "TM{{moveId}} - {{moveName}}",
+      "description": "Bir Pokémon’a {{moveName}} öğret."
     },
     "TmModifierTypeWithInfo": {
       "name": "TM{{moveId}} - {{moveName}}"
@@ -89,7 +164,7 @@
       "name": "Maks. Eliksir"
     },
     "PP_UP": {
-      "name": "GP Arttırıcı"
+      "name": "GP Artırıcı"
     },
     "PP_MAX": {
       "name": "Maks. GP"
@@ -216,7 +291,7 @@
     "black_glasses": "Siyah Gözlük"
   },
   "BaseStatBoosterItem": {
-    "hp_up": "SV Arttırıcı",
+    "hp_up": "SV Artırıcı",
     "protein": "Protein",
     "iron": "Demir",
     "calcium": "Kalsiyum",
