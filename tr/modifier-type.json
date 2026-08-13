@@ -257,7 +257,7 @@
       "description": "Zayıf noktaları tespit etmeye yarayan bir mercektir. Kuşananın kritik vuruş şansını yükseltir."
     },
     "DIRE_HIT": {
-      "name": "Kri-Vuruş",
+      "name": "Sert Vuruş",
       "extra": {
         "raises": "Kritik Vuruş Şansı"
       }
@@ -271,7 +271,7 @@
       "description": "Bu gizemli evrimsel yumru, hala evrilebilen bir Pokémon tarafından kuşanıldığında Savunma ve Öz. Sav. değerlerini yükseltir."
     },
     "SOUL_DEW": {
-      "name": "Ruh Damlası",
+      "name": "Ruh Çiyi",
       "description": "Pokémon’un doğasının, istatistikleri üzerine olan etkisini %10 artırır (ilaveten)."
     },
     "NUGGET": {
@@ -292,7 +292,12 @@
       "description": "Doğrudan verilen hasarın %50 kadarı para kazandırır."
     },
     "COIN_CASE": {
-      "name": "Jeton Kasası"
+      "name": "Para Kasası",
+      "description": "Her 10 maçta bir toplam paranın %10’u kadar faiz al."
+    },
+    "LOCK_CAPSULE": {
+      "name": "Kilit Kapsülü",
+      "description": "Eşyaları yenilerken eşya nadirliklerini kilitlemene izin verir."
     },
     "GRIP_CLAW": {
       "name": "Kavrama Pençesi"
@@ -387,7 +392,7 @@
     "black_glasses": "Siyah Gözlük"
   },
   "BaseStatBoosterItem": {
-    "hp_up": "SV Artırıcı",
+    "hp_up": "SP Artırıcı",
     "protein": "Protein",
     "iron": "Demir",
     "calcium": "Kalsiyum",
