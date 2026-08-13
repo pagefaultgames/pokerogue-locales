@@ -47,10 +47,10 @@
       "description": "Bir Pokémon’un doğasını {{natureName}} ile değiştirir ve o Starter için doğayı kalıcı olarak açar."
     },
     "DoubleBattleChanceBoosterModifierType": {
-      "description": "{{battleCount}} savaş boyunca karşılaşmalarının çifte savaş olma ihtimalini dörtle çarpar."
+      "description": "{{battleCount}} maç boyunca karşılaşmalarının çifte savaş olma ihtimalini dörtle çarpar."
     },
     "TempStatStageBoosterModifierType": {
-      "description": "Tüm ekip üyelerinin {{stat}} değerini 5 savaş boyunca {{amount}} artırır.",
+      "description": "Tüm ekip üyelerinin {{stat}} değerini 5 maç boyunca {{amount}} artırır.",
       "extra": {
         "stage": "1 aşama",
         "percentage": "%20"
@@ -66,11 +66,11 @@
       "description": "Tüm ekip üyelerinin seviyesini {{levels}} artırır."
     },
     "BaseStatBoosterModifierType": {
-      "description": "Kullanıcının temel {{stat}} değerini %10 artırır. IV ne kadar yüksekse, birikme limiti o kadar artar."
+      "description": "Kuşananın temel {{stat}} değerini %10 artırır. IV ne kadar yüksekse, birikme limiti o kadar artar."
     },
     "PokemonBaseStatFlatModifierType": {
       "name": "Eski Pasta",
-      "description": "Kullanıcının {{stats}} değerini {{statValue}} artırır. Garip bir rüyadan sonra bulunur."
+      "description": "Kuşananın {{stats}} değerini {{statValue}} artırır. Garip bir rüyadan sonra bulunur."
     },
     "AllPokemonFullHpRestoreModifierType": {
       "description": "Tüm Pokémonların SP değerini %100 yeniler."
@@ -90,7 +90,7 @@
       "description": "Tecrübe Puanlarının kazanımını %{{boostPercent}} artırır."
     },
     "PokemonExpBoosterModifierType": {
-      "description": "Kullanıcının Tecrübe Puanı kazanımını %{{boostPercent}} artırır."
+      "description": "Kuşananın Tecrübe Puanı kazanımını %{{boostPercent}} artırır."
     },
     "PokemonFriendshipBoosterModifierType": {
       "description": "Arkadaşlık kazanımını %50 artırır."
@@ -99,27 +99,62 @@
       "description": "Hareket isabetliliğini {{accuracyAmount}} artırır."
     },
     "PokemonMultiHitModifierType": {
-      "description": "Kullanıcının saldırılarından verilen hasarın %25’ini ilave bir vuruşa çevirir."
+      "description": "Kuşananın saldırılarından verilen hasarın %25’ini ilave bir vuruşa çevirir."
     },
     "TmModifierType": {
       "name": "TM{{moveId}} - {{moveName}}",
       "description": "Bir Pokémon’a {{moveName}} öğret."
     },
     "TmModifierTypeWithInfo": {
-      "name": "TM{{moveId}} - {{moveName}}"
+      "name": "TM{{moveId}} - {{moveName}}",
+      "description": "Bir Pokémon’a {{moveName}} öğret\n(Daha fazla bilgi için C veya Shift tuşuna basılı tut)."
+    },
+    "EvolutionItemModifierType": {
+      "description": "Belli Pokémonların evrilmesini sağlar."
+    },
+    "FormChangeItemModifierType": {
+      "description": "Belli Pokémonların form değişmesini sağlar."
+    },
+    "FusePokemonModifierType": {
+      "description": "İki Pokémon’u birleştirir (Yetenek aktarılır, temel istatistikler ve türler bölüştürülür, hareket havuzu paylaşılır)."
+    },
+    "TerastallizeModifierType": {
+      "name": "{{teraType}} Tera Parçası",
+      "description": "Pokémon’un Tera türünü {{teraType}} ile değiştirir."
+    },
+    "ContactHeldItemTransferChanceModifierType": {
+      "description": "Kullanıcı, saldırdığında %{{chancePercent}} şansla düşmanın eşyasını çalar."
+    },
+    "TurnHeldItemTransferModifierType": {
+      "description": "Kuşanan, düşmandan her tur bir eşya çalar."
+    },
+    "EnemyAttackStatusEffectChanceModifierType": {
+      "description": "Tüm saldırılarında düşmana {{statusEffect}} verme ihtimalini %{{chancePercent}} artırır."
+    },
+    "EnemyEndureChanceModifierType": {
+      "description": "Gelen vuruşlara karşı %{{chancePercent}} dayanma ihtimali ekler."
     },
     "RARE_CANDY": {
       "name": "Nadir Şeker"
     },
+    "RARER_CANDY": {
+      "name": "Daha Nadir Şeker"
+    },
     "MEGA_BRACELET": {
-      "name": "Mega Bileklik"
+      "name": "Mega Bileklik",
+      "description": "Mega Taşlar karşına çıkabilir hale gelir."
     },
     "DYNAMAX_BAND": {
       "name": "Dinamaks Bilekliği",
       "description": "Maksi Mantarlar karşına çıkabilir hale gelir."
     },
+    "TERA_ORB": {
+      "name": "Tera Küresi",
+      "description": "Pokémon’unun Terasallaşmasına izin verir. Yeniden dolması zaman alır. Tera Parçaları karşına çıkabilir hale gelir."
+    },
     "MAP": {
-      "name": "Harita"
+      "name": "Harita",
+      "description": "Dönüm noktalarında istikametini seçmene izin verir."
     },
     "POTION": {
       "name": "İksir"
@@ -148,8 +183,13 @@
     "SACRED_ASH": {
       "name": "Kutsal Kül"
     },
+    "REVIVER_SEED": {
+      "name": "Canlandırıcı Tohum",
+      "description": "Direkt gelen bir vuruştan bayılan kuşananı %50 SP ile anında canlandırır."
+    },
     "WHITE_HERB": {
-      "name": "Beyaz Ot"
+      "name": "Beyaz Ot",
+      "description": "Pokémon eşyası. Maç esnasında azaltılmış istatistikleri iyileştirir."
     },
     "ETHER": {
       "name": "Eter"
@@ -183,16 +223,56 @@
       "description": "Bir Pokémon’un unuttuğu hareketi ona geri hatırlat."
     },
     "EXP_SHARE": {
-      "name": "Tecrübe Paylaştırıcı"
+      "name": "Tecrübe Paylaştırıcı",
+      "description": "Maça katılmayanlar, katılanların herhangi birinin %20’si kadar TP kazanır."
+    },
+    "EXP_BALANCE": {
+      "name": "Tecrübe Dengeleyici",
+      "description": "Maçlardan kazanılan TP’yi, düşük seviyeli ekip üyelerine daha fazla ağırlık vererek dağıtır."
+    },
+    "OVAL_CHARM": {
+      "name": "Oval Tılsım",
+      "description": "Bir maça birden fazla Pokémon katıldığında, ilaveten her biri toplam TP’nin %10’unu alır."
+    },
+    "EXP_CHARM": {
+      "name": "Tecrübe Tılsımı"
+    },
+    "SUPER_EXP_CHARM": {
+      "name": "Süper Tecrübe Tılsımı"
+    },
+    "GOLDEN_EXP_CHARM": {
+      "name": "Altın Tecrübe Tılsımı"
     },
     "LUCKY_EGG": {
       "name": "Şans Yumurtası"
     },
+    "GOLDEN_EGG": {
+      "name": "Altın Yumurta"
+    },
+    "SOOTHE_BELL": {
+      "name": "Dinginlik Çanı"
+    },
+    "SCOPE_LENS": {
+      "name": "Dürbün Merceği",
+      "description": "Zayıf noktaları tespit etmeye yarayan bir mercektir. Kuşananın kritik vuruş şansını yükseltir."
+    },
     "DIRE_HIT": {
-      "name": "Kri-Vuruş"
+      "name": "Kri-Vuruş",
+      "extra": {
+        "raises": "Kritik Vuruş Şansı"
+      }
+    },
+    "LEEK": {
+      "name": "Pırasa",
+      "description": "Bu upuzun ve semsert pırasa sapı, Farfetch’d’in kritik vuruş şansını yükseltir."
+    },
+    "EVIOLITE": {
+      "name": "Evrolit",
+      "description": "Bu gizemli evrimsel yumru, hala evrilebilen bir Pokémon tarafından kuşanıldığında Savunma ve Öz. Sav. değerlerini yükseltir."
     },
     "SOUL_DEW": {
-      "name": "Ruh Damlası"
+      "name": "Ruh Damlası",
+      "description": "Pokémon’un doğasının, istatistikleri üzerine olan etkisini %10 artırır (ilaveten)."
     },
     "NUGGET": {
       "name": "Külçe"
@@ -200,8 +280,16 @@
     "BIG_NUGGET": {
       "name": "Büyük Külçe"
     },
+    "RELIC_GOLD": {
+      "name": "Yadigâr Altın"
+    },
     "AMULET_COIN": {
-      "name": "Para Tıksımı"
+      "name": "Para Muskası",
+      "description": "Para ödüllerini %20 artırır."
+    },
+    "GOLDEN_PUNCH": {
+      "name": "Altın Yumruk",
+      "description": "Doğrudan verilen hasarın %50 kadarı para kazandırır."
     },
     "COIN_CASE": {
       "name": "Jeton Kasası"
@@ -231,10 +319,18 @@
       "name": "Kabuk Çanı"
     },
     "TOXIC_ORB": {
-      "name": "Zehirli Küre"
+      "name": "Zehirli Küre",
+      "description": "Dokunulduğunda toksin salgılayan ve maç sırasında kuşananı ağır biçimde zehirleyen garip bir küre."
     },
     "FLAME_ORB": {
-      "name": "Alev Küresi"
+      "name": "Alev Küresi",
+      "description": "Dokunulduğunda ısı salgılayan ve maç sırasında kuşananı aleve veren garip bir küre."
+    },
+    "MYSTERY_ENCOUNTER_SHUCKLE_JUICE_GOOD": {
+      "description": "Kuşananın tüm temel istatistiklerini artırır. Shuckle tarafından kutsandın."
+    },
+    "MYSTERY_ENCOUNTER_SHUCKLE_JUICE_BAD": {
+      "description": "Kuşananın tüm temel istatistiklerini azaltır. Shuckle tarafından lanetlendin."
     },
     "MYSTERY_ENCOUNTER_BLACK_SLUDGE": {
       "name": "Kara Balçık"
