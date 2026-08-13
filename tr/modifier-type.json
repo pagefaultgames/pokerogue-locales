@@ -358,39 +358,123 @@
     },
     "EVOLUTION_TRACKER_PRIMEAPE": {
       "name": "Öfke Yumruğu",
-      "description": "Primeape, öfkesi fiziksel formunun sınırlarını aşınca evrimleşir!\nÖfkesini Öfke Yumruğu saldırısını kullanarak artır!"
+      "description": "Primeape, öfkesi fiziksel formunun sınırlarını aşınca evrimleşir!\nÖfke Yumruğu saldırısını kullanarak öfkesini artır!"
+    },
+    "EVOLUTION_TRACKER_STANTLER": {
+      "name": "Psikalkan Darbesi",
+      "description": "Stantler, zorlu ortamlara adapte olmak için evrimleşir. Psikalkan Darbesi saldırısını kullanarak savunmasını güçlendir!"
+    },
+    "BATON": {
+      "name": "Değnek",
+      "description": "Pokémon değişirken etkilerin aktarılmasını sağlar ve tuzakları bertaraf eder."
+    },
+    "SHINY_CHARM": {
+      "name": "Parlak Tılsımı",
+      "description": "Yabani Pokémonların parlak olarak belirme ihtimalini önemli ölçüde artırır."
+    },
+    "ABILITY_CHARM": {
+      "name": "Yetenek Tılsımı",
+      "description": "Yabani Pokémonların gizli yetenek sahibi olma ihtimalini önemli ölçüde artırır."
+    },
+    "CATCHING_CHARM": {
+      "name": "Yakalama Tılsımı",
+      "description": "Kritik yakalama gerçekleşme şansını artırır."
+    },
+    "IV_SCANNER": {
+      "name": "IV Tarayıcı",
+      "description": "Yabani Pokémonların IV’sini taramayı etkinleştirir."
+    },
+    "DNA_SPLICERS": {
+      "name": "DNA Birleştirici"
+    },
+    "MINI_BLACK_HOLE": {
+      "name": "Mini Kara Delik"
+    },
+    "GOLDEN_POKEBALL": {
+      "name": "Altın Poké Topu",
+      "description": "Her maçın sonunda ilaveten 1 eşya seçeneği ekler."
+    },
+    "ENEMY_DAMAGE_BOOSTER": {
+      "name": "Hasar Jetonu",
+      "description": "Hasarı %5 artırır."
+    },
+    "ENEMY_DAMAGE_REDUCTION": {
+      "name": "Koruma Jetonu",
+      "description": "Gelen hasarı %2,5 azaltır."
+    },
+    "ENEMY_HEAL": {
+      "name": "İyileşme Jetonu",
+      "description": "Her tur maks. SP’nin %2’sini iyileştirir."
+    },
+    "ENEMY_ATTACK_POISON_CHANCE": {
+      "name": "Zehir Jetonu"
+    },
+    "ENEMY_ATTACK_PARALYZE_CHANCE": {
+      "name": "Felç Jetonu"
+    },
+    "ENEMY_ATTACK_BURN_CHANCE": {
+      "name": "Yakma Jetonu"
+    },
+    "ENEMY_STATUS_EFFECT_HEAL_CHANCE": {
+      "name": "Tam Şifa Jetonu",
+      "description": "Her tur için durum etkilerinden iyileşme ihtimaline %2,5 ekler."
+    },
+    "ENEMY_ENDURE_CHANCE": {
+      "name": "Dayanma Jetonu"
+    },
+    "ENEMY_FUSED_CHANCE": {
+      "name": "Füzyon Jetonu",
+      "description": "Yabani Pokémon’un füzyonlu olma ihtimaline 1% ekler."
     },
     "MYSTERY_ENCOUNTER_SHUCKLE_JUICE_GOOD": {
+      "name": "Tatlı Shuckle Suyu",
       "description": "Kuşananın tüm temel istatistiklerini artırır. Shuckle tarafından kutsandın."
     },
     "MYSTERY_ENCOUNTER_SHUCKLE_JUICE_BAD": {
+      "name": "Bozuk Shuckle Suyu",
       "description": "Kuşananın tüm temel istatistiklerini azaltır. Shuckle tarafından lanetlendin."
     },
     "MYSTERY_ENCOUNTER_BLACK_SLUDGE": {
-      "name": "Kara Balçık"
+      "name": "Kara Balçık",
+      "description": "Kokusu o kadar ağır ki kokuyu alan marketler sana eşyaları çok daha pahalıya satar."
     },
     "MYSTERY_ENCOUNTER_MACHO_BRACE": {
-      "name": "Maçobileklik"
+      "name": "Maçobileklik",
+      "description": "Pokémon yenmek kuşanana bir yük kazandırır. Her yük istatistikleri biraz yükseltir. Maks. yük bonus verir."
+    },
+    "MYSTERY_ENCOUNTER_OLD_GATEAU": {
+      "name": "Eski Pasta",
+      "description": "Kuşananın istatistiklerinin bazılarını yükseltir."
+    },
+    "MYSTERY_ENCOUNTER_GOLDEN_BUG_NET": {
+      "name": "Altın Böcek Ağı",
+      "description": "Kullanıcının daha sık Böcek Türü Pokémon bulmasını sağlar. Tuhaf bir ağırlığı var."
     }
   },
   "SpeciesBoosterItem": {
     "LIGHT_BALL": {
-      "name": "Işık Topu"
+      "name": "Işık Topu",
+      "description": "Pikachu’nun Saldırı ve Öz. Sal. değerlerini yükselten gizemli bir küre."
     },
     "THICK_CLUB": {
-      "name": "Kalın Kemik"
+      "name": "Kalın Kemik",
+      "description": "Kökeni bilinmeyen bu sert kemik, Cubone ve Marowak’ın Saldırı değerini artırır."
     },
     "METAL_POWDER": {
-      "name": "Metal Tozu"
+      "name": "Metal Tozu",
+      "description": "Aşırı ince fakat sert olan bu tuhaf toz Ditto’nun Savunma değerini yükseltir."
     },
     "QUICK_POWDER": {
-      "name": "Çabuk Tozu"
+      "name": "Tezlik Tozu",
+      "description": "Aşırı ince fakat sert olan bu tuhaf toz Ditto’nun Hız değerini yükseltir."
     },
     "DEEP_SEA_SCALE": {
-      "name": "Derin Deniz Pulu"
+      "name": "Derin Deniz Pulu",
+      "description": "Bu pul soluk pembe renkte parlar ve Clamperl’ün Öz. Sav. değerini yükseltir."
     },
     "DEEP_SEA_TOOTH": {
-      "name": "Derin Deniz Dişi"
+      "name": "Derin Deniz Dişi",
+      "description": "Bu diş keskin gümüş renkte parlar ve Clamperl’ün Öz. Sal. değerini yükseltir."
     }
   },
   "TempStatStageBoosterItem": {
@@ -418,7 +502,8 @@
     "twisted_spoon": "Bükülmüş Kaşık",
     "never_melt_ice": "Erimez Buz",
     "dragon_fang": "Ejderha Dişi",
-    "black_glasses": "Siyah Gözlük"
+    "black_glasses": "Siyah Gözlük",
+    "fairy_feather": "Peri Tüyü"
   },
   "BaseStatBoosterItem": {
     "hp_up": "SP Artırıcı",
@@ -426,35 +511,214 @@
     "iron": "Demir",
     "calcium": "Kalsiyum",
     "zinc": "Çinko",
-    "carbos": "Karbon"
+    "carbos": "Karbonhidratlar"
   },
   "EvolutionItem": {
+    "NONE": "Hiçbiri",
+    "LINKING_CORD": "Bağlantı Kablosu",
     "SUN_STONE": "Güneş Taşı",
     "MOON_STONE": "Ay Taşı",
     "LEAF_STONE": "Yaprak Taşı",
     "FIRE_STONE": "Ateş Taşı",
     "WATER_STONE": "Su Taşı",
     "THUNDER_STONE": "Yıldırım Taşı",
+    "ICE_STONE": "Buz Taşı",
+    "DUSK_STONE": "Alacakaranlık Taşı",
     "DAWN_STONE": "Şafak Taşı",
     "SHINY_STONE": "Parlak Taş",
+    "CRACKED_POT": "Kırık Demlik",
+    "SWEET_APPLE": "Tatlı Elma",
+    "TART_APPLE": "Ekşi Elma",
+    "STRAWBERRY_SWEET": "Çilek Tatlısı",
+    "UNREMARKABLE_TEACUP": "Alelade Fincan",
     "UPGRADE": "Geliştirme",
     "DUBIOUS_DISC": "Şüpheli Disk",
     "DRAGON_SCALE": "Ejderha Pulu",
     "PRISM_SCALE": "Prizma Pulu",
     "RAZOR_CLAW": "Jilet Pençesi",
     "RAZOR_FANG": "Jilet Dişi",
-    "REAPER_CLOTH": "Orak Bezi",
-    "ELECTIRIZER": "Electirizer",
-    "MAGMARIZER": "Magmarizer",
-    "PROTECTOR": "Koruyucu"
+    "OVAL_STONE": "Oval Taş",
+    "REAPER_CLOTH": "Azrail Kumaşı",
+    "ELECTIRIZER": "Elektrikleyici",
+    "MAGMARIZER": "Magmalayıcı",
+    "PROTECTOR": "Koruyucu",
+    "SACHET": "Kese",
+    "WHIPPED_DREAM": "Çırpılmış Rüya",
+    "LEADERS_CREST": "Liderin Arması",
+    "SUN_FLUTE": "Güneş Flütü",
+    "MOON_FLUTE": "Ay Flütü",
+    "CHIPPED_POT": "Çatlak Demlik",
+    "BLACK_AUGURITE": "Kara Augurit",
+    "GALARICA_CUFF": "Galarika Bilekliği",
+    "GALARICA_WREATH": "Galarika Tacı",
+    "PEAT_BLOCK": "Turba Bloğu",
+    "AUSPICIOUS_ARMOR": "Uğurlu Zırh",
+    "MALICIOUS_ARMOR": "Kötücül Zırh",
+    "MASTERPIECE_TEACUP": "Şaheser Fincan",
+    "METAL_ALLOY": "Metal Alaşım",
+    "SCROLL_OF_DARKNESS": "Karanlık Parşömeni",
+    "SCROLL_OF_WATERS": "Suların Parşömeni",
+    "SYRUPY_APPLE": "Şuruplu Elma"
   },
   "FormChangeItem": {
+    "NONE": "Hiçbiri",
+    "ABOMASITE": "Abomasit",
+    "ABSOLITE": "Absolit",
+    "AERODACTYLITE": "Aerodactylit",
+    "AGGRONITE": "Aggronit",
+    "ALAKAZITE": "Alakazit",
+    "ALTARIANITE": "Altarianit",
+    "AMPHAROSITE": "Ampharosit",
+    "AUDINITE": "Audinit",
+    "BANETTITE": "Banettit",
+    "BEEDRILLITE": "Beedrillit",
+    "BLASTOISINITE": "Blastoisinit",
+    "BLAZIKENITE": "Blazikenit",
+    "CAMERUPTITE": "Cameruptit",
+    "CHARIZARDITE_X": "Charizardit X",
+    "CHARIZARDITE_Y": "Charizardit Y",
+    "DIANCITE": "Diancit",
+    "GALLADITE": "Galladit",
+    "GARCHOMPITE": "Garchompit",
+    "GARDEVOIRITE": "Gardevoirit",
+    "GENGARITE": "Gengarit",
+    "GLALITITE": "Glalitit",
+    "GYARADOSITE": "Gyaradosit",
+    "HERACRONITE": "Heracronit",
+    "HOUNDOOMINITE": "Houndoominit",
+    "KANGASKHANITE": "Kangaskhanit",
+    "LATIASITE": "Latiasit",
+    "LATIOSITE": "Latiosit",
+    "LOPUNNITE": "Lopunnit",
+    "LUCARIONITE": "Lucarionit",
+    "MANECTITE": "Manectit",
+    "MAWILITE": "Mawilit",
+    "MEDICHAMITE": "Medichamit",
+    "METAGROSSITE": "Metagrossit",
+    "MEWTWONITE_X": "Mewtwonit X",
+    "MEWTWONITE_Y": "Mewtwonit Y",
+    "PIDGEOTITE": "Pidgeotit",
+    "PINSIRITE": "Pinsirit",
+    "RAYQUAZITE": "Rayquazit",
+    "SABLENITE": "Sablenit",
+    "SALAMENCITE": "Salamencit",
+    "SCEPTILITE": "Sceptilit",
+    "SCIZORITE": "Scizorit",
+    "SHARPEDONITE": "Sharpedonit",
+    "SLOWBRONITE": "Slowbronit",
+    "STEELIXITE": "Steelixit",
+    "SWAMPERTITE": "Swampertit",
+    "TYRANITARITE": "Tyranitarit",
+    "VENUSAURITE": "Venusaurit",
+    "CLEFABLITE": "Clefablit",
+    "VICTREEBELITE": "Victreebelit",
+    "STARMINITE": "Starminit",
+    "DRAGONINITE": "Dragoninit",
+    "MEGANIUMITE": "Meganiumit",
+    "FERALIGITE": "Feraligit",
+    "SKARMORITE": "Skarmorit",
+    "FROSLASSITE": "Froslassit",
+    "EMBOARITE": "Emboarit",
+    "EXCADRITE": "Excadrit",
+    "SCOLIPITE": "Scolipit",
+    "SCRAFTINITE": "Scraftinit",
+    "EELEKTROSSITE": "Eelektrossit",
+    "CHANDELURITE": "Chandelurit",
+    "CHESNAUGHTITE": "Chesnaughtit",
+    "DELPHOXITE": "Delphoxit",
+    "GRENINJITE": "Greninjit",
+    "PYROARITE": "Pyroarit",
+    "FLOETTITE": "Floettit",
+    "MALAMARITE": "Malamarit",
+    "BARBARACITE": "Barbaracit",
+    "DRAGALGITE": "Dragalgit",
+    "HAWLUCHANITE": "Hawluchanit",
+    "ZYGARDITE": "Zygardit",
+    "DRAMPANITE": "Drampanit",
+    "FALINKSITE": "Falinksit",
+    "HEATRANITE": "Heatranit",
+    "DARKRANITE": "Darkranit",
+    "ZERAORITE": "Zeraorit",
+    "RAICHUNITE_X": "Raichunit X",
+    "RAICHUNITE_Y": "Raichunit Y",
+    "CHIMECHITE": "Chimechit",
+    "ABSOLITE_Z": "Absolit Z",
+    "STARAPTITE": "Staraptit",
+    "GARCHOMPITE_Z": "Garchompit Z",
+    "LUCARIONITE_Z": "Lucarionit Z",
+    "GOLURKITE": "Golurkit",
+    "MEOWSTICITE": "Meowsticit",
+    "CRABOMINITE": "Crabominit",
+    "GOLISOPITE": "Golisopit",
+    "MAGEARNITE": "Magearnit",
+    "SCOVILLAINITE": "Scovillainit",
+    "BAXCALIBRITE": "Baxcalibrit",
+    "TATSUGIRINITE": "Tatsugirinit",
+    "GLIMMORANITE": "Glimmoranit",
     "BLUE_ORB": "Mavi Küre",
     "RED_ORB": "Kızıl Küre",
+    "SHARP_METEORITE": "Keskin Göktaşı",
+    "HARD_METEORITE": "Sert Göktaşı",
+    "SMOOTH_METEORITE": "Pürüzsüz Göktaşı",
+    "ADAMANT_CRYSTAL": "Sert Kristal",
+    "LUSTROUS_GLOBE": "Parlak Küre",
+    "GRISEOUS_CORE": "Gri Çekirdek",
+    "REVEAL_GLASS": "Gösteren Cam",
+    "GRACIDEA": "Gracidea",
     "MAX_MUSHROOMS": "Maksi Mantarlar",
-    "SHOCK_DRIVE": "Şok Sürücüsü",
-    "BURN_DRIVE": "Ateş Sürücüsü",
-    "CHILL_DRIVE": "Buz Sürücüsü",
-    "DOUSE_DRIVE": "Su Sürücüsü"
+    "DARK_STONE": "Karanlık Taşı",
+    "LIGHT_STONE": "Aydınlık Taşı",
+    "PRISON_BOTTLE": "Hapis Şişesi",
+    "N_LUNARIZER": "Necroluna",
+    "N_SOLARIZER": "Necrosol",
+    "RUSTED_SWORD": "Paslı Kılıç",
+    "RUSTED_SHIELD": "Paslı Kalkan",
+    "ICY_REINS_OF_UNITY": "Buzlu Birliktelik Dizginleri",
+    "SHADOW_REINS_OF_UNITY": "Gölgeli Birliktelik Dizginleri",
+    "WELLSPRING_MASK": "Saf Pınar Maskesi",
+    "HEARTHFLAME_MASK": "Ocak Ateşi Maskesi",
+    "CORNERSTONE_MASK": "Temel Taşı Maskesi",
+    "SHOCK_DRIVE": "Şok Modülü",
+    "BURN_DRIVE": "Yakma Modülü",
+    "CHILL_DRIVE": "Dondurma Modülü",
+    "DOUSE_DRIVE": "Islatma Modülü",
+    "ULTRANECROZIUM_Z": "Ultranecrozium Z",
+    "FIST_PLATE": "Yumruk Plakası",
+    "SKY_PLATE": "Gök Plakası",
+    "TOXIC_PLATE": "Toksin Plakası",
+    "EARTH_PLATE": "Kara Plakası",
+    "STONE_PLATE": "Taş Plakası",
+    "INSECT_PLATE": "Haşere Plakası",
+    "SPOOKY_PLATE": "Hortlak Plakası",
+    "IRON_PLATE": "Demir Plakası",
+    "FLAME_PLATE": "Alev Plakası",
+    "SPLASH_PLATE": "Şapırtı Plakası",
+    "MEADOW_PLATE": "Çayır Plakası",
+    "ZAP_PLATE": "Çarpma Plakası",
+    "MIND_PLATE": "Zihin Plakası",
+    "ICICLE_PLATE": "Buzul Plakası",
+    "DRACO_PLATE": "Ejder Plakası",
+    "DREAD_PLATE": "Dehşet Plakası",
+    "PIXIE_PLATE": "Sihir Plakası",
+    "BLANK_PLATE": "Boş Plaka",
+    "LEGEND_PLATE": "Efsane Plaka",
+    "FIGHTING_MEMORY": "Dövüşçü Belleği",
+    "FLYING_MEMORY": "Uçuş Belleği",
+    "POISON_MEMORY": "Zehir Belleği",
+    "GROUND_MEMORY": "Yer Belleği",
+    "ROCK_MEMORY": "Kaya Belleği",
+    "BUG_MEMORY": "Böcek Belleği",
+    "GHOST_MEMORY": "Hayalet Belleği",
+    "STEEL_MEMORY": "Çelik Belleği",
+    "FIRE_MEMORY": "Ateş Belleği",
+    "WATER_MEMORY": "Su Belleği",
+    "GRASS_MEMORY": "Çimen Belleği",
+    "ELECTRIC_MEMORY": "Elektrik Belleği",
+    "PSYCHIC_MEMORY": "Psişik Belleği",
+    "ICE_MEMORY": "Buz Belleği",
+    "DRAGON_MEMORY": "Ejderha Belleği",
+    "DARK_MEMORY": "Karanlık Belleği",
+    "FAIRY_MEMORY": "Peri Belleği",
+    "NORMAL_MEMORY": "Normal Bellek"
   }
 }
