@@ -129,7 +129,7 @@
       "description": "Kuşanan, düşmandan her tur bir eşya çalar."
     },
     "EnemyAttackStatusEffectChanceModifierType": {
-      "description": "Tüm saldırılarında düşmana {{statusEffect}} verme ihtimalini %{{chancePercent}} artırır."
+      "description": "Saldırı sırasında düşmana {{statusEffect}} verme ihtimaline %{{chancePercent}} ekler."
     },
     "EnemyEndureChanceModifierType": {
       "description": "Gelen vuruşlara karşı %{{chancePercent}} dayanma ihtimali ekler."
@@ -303,25 +303,42 @@
       "name": "Kavrama Pençesi"
     },
     "WIDE_LENS": {
-      "name": "Geniş Lens"
+      "name": "Geniş Mercek"
+    },
+    "MULTI_LENS": {
+      "name": "Çoklu Mercek"
+    },
+    "HEALING_CHARM": {
+      "name": "İyileşme Tılsımı",
+      "description": "SP yenileme hareketlerinin ve eşyalarının verimliliğini %10 artırır (Canlandırmaları kapsamaz)."
+    },
+    "CANDY_JAR": {
+      "name": "Şeker Kavanozu",
+      "description": "Nadir Şeker eşyalarının eklediği seviyeyi 1 artırır."
     },
     "BERRY_POUCH": {
-      "name": "Meyve Kesesi"
+      "name": "Meyve Kesesi",
+      "description": "Yenilen meyvenin tüketilmeme ihtimaline %30 ekler."
     },
     "FOCUS_BAND": {
-      "name": "Odaklanma Bandı"
+      "name": "Odaklanma Bandı",
+      "description": "Bayılacak kadar hasar aldığında 1 SP ile hayatta kalma ihtimaline %10 ekler."
     },
     "QUICK_CLAW": {
-      "name": "Hızlı Pençe"
+      "name": "Tez Pençe",
+      "description": "Hızdan bağımsız ilk hareket etme ihtimaline %10 ekler (önceliklerden sonra)."
     },
     "KINGS_ROCK": {
-      "name": "Kral Kayası"
+      "name": "Kral Kayası",
+      "description": "Saldırının rakibi irkiltme ihtimaline %10 ekler."
     },
     "LEFTOVERS": {
-      "name": "Kalıntılar"
+      "name": "Artıklar",
+      "description": "Her tur Pokémon’un maksimum canının 1/16’sını yeniler."
     },
     "SHELL_BELL": {
-      "name": "Kabuk Çanı"
+      "name": "Kabuk Çanı",
+      "description": "Pokémon’un vurduğu hasarın 1/8’i kadar can yeniler."
     },
     "TOXIC_ORB": {
       "name": "Zehirli Küre",
@@ -330,6 +347,18 @@
     "FLAME_ORB": {
       "name": "Alev Küresi",
       "description": "Dokunulduğunda ısı salgılayan ve maç sırasında kuşananı aleve veren garip bir küre."
+    },
+    "MYSTICAL_ROCK": {
+      "name": "Mistik Kaya",
+      "description": "Kuşananın hareketlerinden veya yeteneklerinden dolayı oluşan arazi ve hava durumu olaylarının süresini 2 tur uzatır."
+    },
+    "EVOLUTION_TRACKER_GIMMIGHOUL": {
+      "name": "Hazineler",
+      "description": "Bu Pokémon hazineyi seviyor! Toplamaya devam et ve ne olacağını gör!"
+    },
+    "EVOLUTION_TRACKER_PRIMEAPE": {
+      "name": "Öfke Yumruğu",
+      "description": "Primeape, öfkesi fiziksel formunun sınırlarını aşınca evrimleşir!\nÖfkesini Öfke Yumruğu saldırısını kullanarak artır!"
     },
     "MYSTERY_ENCOUNTER_SHUCKLE_JUICE_GOOD": {
       "description": "Kuşananın tüm temel istatistiklerini artırır. Shuckle tarafından kutsandın."
