@@ -2,22 +2,28 @@
   "title": "Mücadele Koşulları",
   "illegalEvolution": "{{pokemon}} bu mücadelede kullanılamayan\nbir Pokémon’a dönüştü!",
   "noneSelected": "Seçim Yapılmadı",
+  "category": {
+    "randomizer": "Rastgeleleştirici",
+    "challenge": "Mücadele",
+    "nuzlocke": "Nuzlocke",
+    "misc": "Diğer"
+  },
   "freshStart": {
     "name": "Taze Başlangıç",
     "desc": {
-      "0": "Starter’lar ile hiçbir kilit açılmamış taze bir başlangıç yapmayı simüle eder.",
-      "1": "Tıpkı PokéRogue’a yeni başlamış gibi, sadece orijinal Starter’ları kilitleri açılmamış şekilde kullanabilirsin.",
-      "2": "Sanki yeni yakalamış gibi, kilitleri açılmamış şekilde tüm yakaladığın Starter’ları seçebilirsin."
+      "0": "Starterlar ile hiçbir kilit açılmamış taze bir başlangıç yapmayı simüle eder.",
+      "1": "Tıpkı PokéRogue’a yeni başlamış gibi, sadece orijinal Starterları kilitleri açılmamış şekilde kullanabilirsin.",
+      "2": "Sanki yeni yakalamış gibi, kilitleri açılmamış şekilde tüm yakaladığın Starterları seçebilirsin."
     },
     "value": {
       "0": "Kapalı",
       "1": "Tam Sıfırla",
-      "2": "Tüm Starter’lar"
+      "2": "Tüm Starterlar"
     }
   },
   "hardcore": {
     "name": "Zorlu",
-    "desc": "Bayılan Pokémon’ları canlandıramazsın.",
+    "desc": "Bayılan Pokémonları canlandıramazsın.",
     "value": {
       "0": "Kapalı",
       "1": "Açık"
@@ -64,7 +70,7 @@
   },
   "singleType": {
     "name": "Tek Tür",
-    "desc": "Sadece {{type}} türü olan Pokémon’ları kullanabilirsin.",
+    "desc": "Sadece {{type}} türü olan Pokémonları kullanabilirsin.",
     "descDefault": "Sadece seçilen türden Pokémon kullanabilirsin."
   },
   "inverseBattle": {
@@ -94,8 +100,24 @@
     }
   },
   "passives": {
+    "name": "Aktif Pasifler",
     "desc": {
-      "1": "Eğitmen Pokémon’larının pasifleri açık olur.\nSeçtiğin Starter’ları etkilemez."
+      "0": "Bazı veya tüm Pokémonların pasiflerini açık olmaya zorlar.",
+      "1": "Eğitmen Pokémonlarının pasifleri açık olur.\nSeçtiğin Starterları etkilemez.",
+      "2": "Seninki dahil tüm Pokémonlar’ın pasifleri bu sefer için açık olur.\n\nDiğer mücadele başarımlarını devre dışı bırakır."
+    },
+    "value": {
+      "0": "Kapalı",
+      "1": "Eğitmenler",
+      "2": "Hepsi"
+    }
+  },
+  "movesetRandomizer": {
+    "name": "Hareket Seti Rastgeleleştirici",
+    "desc": "Her Pokémon cinsi için seviye atlama bazlı hareket setini rastgeleleştirir. Starterlar, türleriyle uyuşan temel hareketlerle başlar.\n\nDiğer mücadele başarımlarını devre dışı bırakır.",
+    "value": {
+      "0": "Kapalı",
+      "1": "Açık"
     }
   }
 }
