@@ -233,7 +233,7 @@
   },
   "blizzard": {
     "name": "Blizzard",
-    "effect": "A howling blizzard is summoned to strike opposing Pokémon. This move has a 10% chance of freezing the target, and never misses in snow or hail."
+    "effect": "A howling blizzard is summoned to strike opposing Pokémon. This move has a 10% chance of freezing targets, and never misses in snow or hail."
   },
   "psybeam": {
     "name": "Psybeam",
@@ -769,7 +769,7 @@
   },
   "foresight": {
     "name": "Foresight",
-    "effect": "Enables a Ghost-type target to be hit by Normal- and Fighting-type attacks. This also enables an evasive target to be hit."
+    "effect": "Enables a Ghost-type target to be hit by Normal- and Fighting-type attacks. This also negates the target’s evasiveness stat if it is boosted."
   },
   "destinyBond": {
     "name": "Destiny Bond",
@@ -1025,7 +1025,7 @@
   },
   "heatWave": {
     "name": "Heat Wave",
-    "effect": "The user attacks by exhaling hot breath on opposing Pokémon. This move has a 10% chance of burning targets."
+    "effect": "The user attacks by blasting opposing Pokémon with searingly hot wind. This move has a 10% chance of burning targets."
   },
   "hail": {
     "name": "Hail",
@@ -1097,7 +1097,7 @@
   },
   "ingrain": {
     "name": "Ingrain",
-    "effect": "The user lays roots that restore its own HP every turn. Because the user is now rooted, it cannot flee or be switched out."
+    "effect": "The user lays roots that restores ¹⁄₁₆ of its max HP at the end of every turn. It also becomes grounded and cannot flee or be switched out of battle."
   },
   "superpower": {
     "name": "Superpower",
@@ -1193,11 +1193,11 @@
   },
   "blazeKick": {
     "name": "Blaze Kick",
-    "effect": "The user attacks with a kick that has a 10% chance of burning the target. This move’s critical-hit ratio is boosted by 1 stage."
+    "effect": "The user attacks with a fiery kick that has a 10% chance of burning the target. This move’s critical-hit ratio is boosted by 1 stage."
   },
   "mudSport": {
     "name": "Mud Sport",
-    "effect": "The user kicks up mud on the battlefield. This weakens Electric-type moves for 5 turns."
+    "effect": "The user kicks up mud on the battlefield. This reduces the power of the Electric-type moves of all Pokémon on the field by 50% for 5 turns."
   },
   "iceBall": {
     "name": "Ice Ball",
@@ -1261,7 +1261,7 @@
   },
   "odorSleuth": {
     "name": "Odor Sleuth",
-    "effect": "Enables a Ghost-type target to be hit by Normal- and Fighting-type attacks. This also enables an evasive target to be hit."
+    "effect": "Enables a Ghost-type target to be hit by Normal- and Fighting-type attacks. This also negates the target’s evasiveness stat if it is boosted."
   },
   "rockTomb": {
     "name": "Rock Tomb",
@@ -1269,7 +1269,7 @@
   },
   "silverWind": {
     "name": "Silver Wind",
-    "effect": "The target is attacked with powdery scales blown by the wind. This also has a 10% chance of boosting the user’s Attack, Defense, Sp. Atk, Sp. Def, and Speed stats all at once."
+    "effect": "The target is attacked with powdery scales blown by the wind. This has a 10% chance of boosting the user’s Attack, Defense, Sp. Atk, Sp. Def, and Speed stats all at once."
   },
   "metalSound": {
     "name": "Metal Sound",
@@ -1381,7 +1381,7 @@
   },
   "waterSport": {
     "name": "Water Sport",
-    "effect": "The user soaks the battlefield with water. This weakens Fire-type moves for 5 turns."
+    "effect": "The user soaks the battlefield with water. This reduces the power of the Fire-type moves of all Pokémon on the field by 50% for 5 turns."
   },
   "calmMind": {
     "name": "Calm Mind",
@@ -1425,7 +1425,7 @@
   },
   "miracleEye": {
     "name": "Miracle Eye",
-    "effect": "Enables a Dark-type target to be hit by Psychic-type attacks. This also enables an evasive target to be hit."
+    "effect": "Enables a Dark-type target to be hit by Psychic-type attacks. This also negates the target’s evasiveness stat if it is boosted."
   },
   "wakeUpSlap": {
     "name": "Wake-Up Slap",
@@ -1557,7 +1557,7 @@
   },
   "toxicSpikes": {
     "name": "Toxic Spikes",
-    "effect": "The user lays a trap of poison spikes at the feet of the opposing team. One layer will poison opposing Pokémon that switch into battle, while a second layer will badly poison them instead. Flying types or Pokémon with Levitate are unaffected. Poison-types that lands on these spikes will absorb and remove them from the field."
+    "effect": "The user lays a trap of poison spikes at the feet of the opposing team. One layer poisons opposing Pokémon that switch into battle, while a second layer will badly poison them instead. Flying types or Pokémon with Levitate are unaffected. Poison-types that land on these spikes will absorb and remove them from the field."
   },
   "heartSwap": {
     "name": "Heart Swap",
@@ -1565,7 +1565,7 @@
   },
   "aquaRing": {
     "name": "Aqua Ring",
-    "effect": "The user envelops itself in a veil made of water. It regains some HP every turn."
+    "effect": "The user envelops itself in a veil made of water which restores ¹⁄₁₆ of its max HP at the end of every turn."
   },
   "magnetRise": {
     "name": "Magnet Rise",
@@ -1781,7 +1781,7 @@
   },
   "stealthRock": {
     "name": "Stealth Rock",
-    "effect": "The user lays a trap of levitating stones, damaging opposing Pokémon that switch into battle equal to ⅛ of their max HP. This damage differs depending on the Pokémon’s type matchup with the Rock type."
+    "effect": "The user lays a trap of levitating stones around the opposing team. Any Pokémon that switch into battle will take damage equal to ⅛ of their max HP. This damage differs depending on the Pokémon’s type matchup with the Rock type."
   },
   "grassKnot": {
     "name": "Grass Knot",
@@ -2289,7 +2289,7 @@
   },
   "freezeDry": {
     "name": "Freeze-Dry",
-    "effect": "The user attacks by rapidly lowering target’s temperature. This move is also super effective against Water type Pokémon."
+    "effect": "The user attacks by rapidly lowering the target’s temperature. This move is also super effective against Water type Pokémon."
   },
   "disarmingVoice": {
     "name": "Disarming Voice",
@@ -2317,11 +2317,11 @@
   },
   "grassyTerrain": {
     "name": "Grassy Terrain", 
-    "effect": "Turns the entire field into Grassy Terrain for 5 turns. Pokémon on the ground have the power of their Grass-type moves boosted by 30% and they have ¹⁄₁₆ of their max HP restored at the end of every turn."
+    "effect": "Turns the entire field into Grassy Terrain for 5 turns. Pokémon on the ground have the power of their Grass-type moves boosted by 30%, and have ¹⁄₁₆ of their max HP restored at the end of every turn."
   },
   "mistyTerrain": {
     "name": "Misty Terrain",
-    "effect": "Turns the entire field into Misty Terrain for 5 turns. Pokémon on the ground have the power of their Dragon-type moves halved, they are immune to status conditions, and they cannot become confused."
+    "effect": "Turns the entire field into Misty Terrain for 5 turns. Pokémon on the ground have the power of their Dragon-type moves halved, and are immune to status conditions."
   },
   "electrify": {
     "name": "Electrify",
@@ -2413,7 +2413,7 @@
   },
   "electricTerrain": {
     "name": "Electric Terrain",
-    "effect": "The user turns the ground into Electric Terrain for 5 turns, powering up Electric-type moves. Pokémon on the ground can no longer fall asleep."
+    "effect": "The user turns the ground into Electric Terrain for 5 turns. Pokémon on the ground have the power of their Electric-type moves boosted by 30%, and can no longer fall asleep."
   },
   "dazzlingGleam": {
     "name": "Dazzling Gleam",
@@ -2709,7 +2709,7 @@
   },
   "psychicTerrain": {
     "name": "Psychic Terrain",
-    "effect": "This protects Pokémon on the ground from priority moves and powers up Psychic-type moves for 5 turns."
+    "effect": "The user turns the ground into Psychic Terrain for 5 turns. Pokémon on the ground have the power of their Psychic-type moves boosted by 30%, and cannot use or be targeted by moves with increased priority."
   },
   "lunge": {
     "name": "Lunge",
@@ -2973,7 +2973,7 @@
   },
   "dynamaxCannon": {
     "name": "Dynamax Cannon",
-    "effect": "The user condenses energy within its body and unleashes that energy from its core to inflict damage. Deals up to twice the damage if the target is overly leveled."
+    "effect": "The user condenses energy within its body and unleashes that energy from its core to inflict damage. The higher the target’s level exceeds the current level cap, the greater this move’s power (ranging from 100 to 200)."
   },
   "snipeShot": {
     "name": "Snipe Shot",
@@ -3185,7 +3185,7 @@
   },
   "expandingForce": {
     "name": "Expanding Force",
-    "effect": "The user attacks the target with its psychic power. If the user is under the effect of Psychic Terrain, this move’s power is boosted by 50% and its range extends to all opponents."
+    "effect": "The user attacks the target with its psychic power. If the user is on Psychic Terrain, this move’s power is boosted by 50% and its range extends to all opponents."
   },
   "steelRoller": {
     "name": "Steel Roller",
@@ -3205,15 +3205,15 @@
   },
   "mistyExplosion": {
     "name": "Misty Explosion",
-    "effect": "The user attacks everything around it and faints upon using this move. If the user is under the effect of Misty Terrain, this move’s power is boosted by 50%."
+    "effect": "The user attacks everything around it and faints upon using this move. If the user is on Misty Terrain, this move’s power is boosted by 50%."
   },
   "grassyGlide": {
     "name": "Grassy Glide",
-    "effect": "Gliding on the ground, the user attacks the target. If the user is under the effect of Grassy Terrain, this move always goes first."
+    "effect": "Gliding on the ground, the user attacks the target. If the user is on Grassy Terrain, this move always goes first."
   },
   "risingVoltage": {
     "name": "Rising Voltage",
-    "effect": "The user attacks with electricity rising from the ground. This move’s power is doubled if the target is under the effect of Electric Terrain."
+    "effect": "The user attacks with electricity rising from the ground. This move’s power is doubled if the target is on Electric Terrain."
   },
   "terrainPulse": {
     "name": "Terrain Pulse",
@@ -3317,7 +3317,7 @@
   },
   "stoneAxe": {
     "name": "Stone Axe",
-    "effect": "The user swings its stone axes at the target. Stone splinters left behind by this attack float around the target, damaging opposing Pokémon that switch into battle equal to ⅛ of their max HP. The stone splinters’ damage will differ depending on the Pokémon’s type matchup with the Rock type." 
+    "effect": "The user swings its stone axes at the target, leaving behind stone splinters that float around the opposing team. Any Pokémon that switch into battle will take damage equal to ⅛ of their max HP. This damage differs depending on the Pokémon’s type matchup with the Rock type." 
   },
   "springtideStorm": {
     "name": "Springtide Storm",
@@ -3573,7 +3573,7 @@
   },
   "iceSpinner": {
     "name": "Ice Spinner",
-    "effect": "The user covers its feet in thin ice and twirls around, slamming into the target. This move’s spinning motion also destroys the terrain."
+    "effect": "The user covers itself in thin ice and twirls around, slamming into the target. This move’s spinning motion also destroys the terrain."
   },
   "glaiveRush": {
     "name": "Glaive Rush",
@@ -3661,7 +3661,7 @@
   },
   "snowscape": {
     "name": "Snowscape",
-    "effect": "The user summons a snowstorm lasting 5 turns. This boosts the Defense stats of Ice types."
+    "effect": "The user summons a snowstorm lasting 5 turns. This boosts the Defense stats of Ice types by 50%."
   },
   "pounce": {
     "name": "Pounce",
@@ -3745,7 +3745,7 @@
   },
   "ivyCudgel": {
     "name": "Ivy Cudgel",
-    "effect": "The user strikes with an ivy-wrapped cudgel, this move’s critical-hit ratio is boosted by 1 stage. When used by Ogerpon, this move’s type changes depending on the mask worn."
+    "effect": "The user strikes with an ivy-wrapped cudgel. This move’s critical-hit ratio is boosted by 1 stage. When used by Ogerpon, this move’s type changes depending on the mask worn."
   },
   "electroShot": {
     "name": "Electro Shot",
