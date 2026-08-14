@@ -1197,7 +1197,7 @@
   },
   "mudSport": {
     "name": "Mud Sport",
-    "effect": "The user kicks up mud on the battlefield. This weakens Electric-type moves for 5 turns."
+    "effect": "The user kicks up mud on the battlefield. This reduces the power of the Electric-type moves of all Pokémon on the field by 50% for 5 turns."
   },
   "iceBall": {
     "name": "Ice Ball",
@@ -1381,7 +1381,7 @@
   },
   "waterSport": {
     "name": "Water Sport",
-    "effect": "The user soaks the battlefield with water. This weakens Fire-type moves for 5 turns."
+    "effect": "The user soaks the battlefield with water. This reduces the power of the Fire-type moves of all Pokémon on the field by 50% for 5 turns."
   },
   "calmMind": {
     "name": "Calm Mind",
@@ -1557,7 +1557,7 @@
   },
   "toxicSpikes": {
     "name": "Toxic Spikes",
-    "effect": "The user lays a trap of poison spikes at the feet of the opposing team. One layer will poison opposing Pokémon that switch into battle, while a second layer will badly poison them instead. Flying types or Pokémon with Levitate are unaffected. Poison-types that lands on these spikes will absorb and remove them from the field."
+    "effect": "The user lays a trap of poison spikes at the feet of the opposing team. One layer poisons opposing Pokémon that switch into battle, while a second layer will badly poison them instead. Flying types or Pokémon with Levitate are unaffected. Poison-types that land on these spikes will absorb and remove them from the field."
   },
   "heartSwap": {
     "name": "Heart Swap",
@@ -2973,7 +2973,7 @@
   },
   "dynamaxCannon": {
     "name": "Dynamax Cannon",
-    "effect": "The user condenses energy within its body and unleashes that energy from its core to inflict damage. Deals up to twice the damage if the target is overly leveled."
+    "effect": "The user condenses energy within its body and unleashes that energy from its core to inflict damage. The higher the target’s level exceeds the current level cap, the greater this move’s power (ranging from 100 to 200)."
   },
   "snipeShot": {
     "name": "Snipe Shot",
