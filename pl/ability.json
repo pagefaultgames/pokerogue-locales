@@ -287,43 +287,245 @@
     "name": "Żywiołowość",
     "description": "Pokémon jest pełen żywiołowości, a to powstrzymuje go przed zaśnięciem."
   },
+  "whiteSmoke": {
+    "name": "Biały Dym",
+    "description": "Pokémon jest chroniony przez swój biały dym, który powstrzymuje inne Pokémony przed obniżeniem jego statystyk."
+  },
+  "purePower": {
+    "name": "Czysta Siła",
+    "description": "Używając czystej siły, Pokémon podwaja statystykę Ataku."
+  },
+  "shellArmor": {
+    "name": "Skorupa",
+    "description": "Twarda skorupa chroni Pokémona przed ciosami krytycznymi."
+  },
+  "airLock": {
+    "name": "Blokada Powietrza",
+    "description": "Eliminuje wpływ pogody."
+  },
+  "tangledFeet": {
+    "name": "Splątane Nogi",
+    "description": "Podnosi unikliwość Pokémona, jeśli jest oszołomiony."
+  },
+  "motorDrive": {
+    "name": "Elektronapęd",
+    "description": "Pokémon nie odnosi obrażeń, gdy zostanie trafiony ruchami typu Elektrycznego. Zamiast tego zwiększa się jego statystyka Szybkości."
+  },
+  "rivalry": {
+    "name": "Rywalizacja",
+    "description": "Duch rywalizacji Pokémona sprawia, że ​​zadaje on 25% więcej obrażeń Pokémonom tej samej płci, ale o 25% mniej obrażeń Pokémonom płci przeciwnej. Moc pozostaje taka sama jak zwykle, jeśli płeć któregoś z Pokémonów jest nieznana."
+  },
   "steadfast": {
-    "name": "Niezłomność"
+    "name": "Niezłomność",
+    "description": "Determinacja Pokémona wzmacnia jego statystykę Szybkości za każdym razem, kiedy Pokémon się zachwieje."
+  },
+  "snowCloak": {
+    "name": "Okrywa Śniegu",
+    "description": "Wzmacnia unikliwość Pokémona o 25% podczas opadu śniegu. Pokémon również nie otrzymuje obrażeń od gradu."
   },
   "gluttony": {
-    "name": "Pycha"
+    "name": "Pycha",
+    "description": "Jeśli Pokémon trzyma Jagodę do zjedzenia, gdy jego HP jest niskie, zamiast tego zje Jagodę, gdy jego HP spadnie o połowę lub mniej."
+  },
+  "angerPoint": {
+    "name": "Punkt Gniewu",
+    "description": "Pokémon jest wkurzony kiedy obrywa krytycznym uderzeniem, a to maksymalizuje statystykę Ataku."
+  },
+  "unburden": {
+    "name": "Odciążenie",
+    "description": "Wzmacnia statystykę Szybkości, jeśli trzymany przedmiot Pokémona zostaje użyty lub stracony."
+  },
+  "heatproof": {
+    "name": "Ognioodporność",
+    "description": "Ognioodporne ciało tego Pokémona przepoławia obrażenia od ruchów typu Ognistego, które go uderzają."
   },
   "simple": {
-    "name": "Prostota"
+    "name": "Prostota",
+    "description": "Podwaja efekty zmian statystyk Pokémona."
+  },
+  "drySkin": {
+    "name": "Sucha Skóra",
+    "description": "Odnawia ¼ HP Pokémona w deszczu lub ⅛ kiedy ten jest uderzony ruchem typu Wodnego. Redukuje ⅛ HP na słońcu i zwiększa obrażenia otrzymane od ruchów typu Ognistego o 25%."
+  },
+  "download": {
+    "name": "Pobieranie",
+    "description": "Pokémon porównuje statystyki Obrony i Spec. Obrony przeciwnego Pokémona zanim podniesie swoją statystykę Ataku lub Spec. Ataku—którykolwiek z nich będzie bardziej efektywny."
+  },
+  "ironFist": {
+    "name": "Żelazna Pięść",
+    "description": "Wzmacnia ruchy pięści o 20%."
+  },
+  "poisonHeal": {
+    "name": "Leczący Jad",
+    "description": "W przypadku otrucia Pokémonowi przywracane jest HP na końcu każdej tury zamiast otrzymywać obrażenia."
+  },
+  "adaptability": {
+    "name": "Adaptacja",
+    "description": "Wzmacnia ruchy tego samego typu, co Pokémon o 100% zamiast 50%. Nie kumuluje się z Tera boostem typu Stellar."
+  },
+  "skillLink": {
+    "name": "Łącze Zdolności",
+    "description": "Maksymalizuje liczbę ciosów wykonanych przez wielo-uderzeniowe ruchy."
+  },
+  "hydration": {
+    "name": "Nawodnienie",
+    "description": "Kuruje zmiany stanu Pokémona podczas deszczu."
+  },
+  "solarPower": {
+    "name": "Siła Słońca",
+    "description": "W ostrym nasłonecznieniu statystyka Spec. Ataku zostaje zwiększona o 50%, ale jego HP zmniejsza się o ⅛ z każdą turą."
+  },
+  "quickFeet": {
+    "name": "Szybkie Stopy",
+    "description": "Wzmacnia statystykę Szybkości o 50%, jeśli Pokémon ma zmianę stanu. Będąc sparaliżowanym nie obniża to statystyki Szybkości."
+  },
+  "normalize": {
+    "name": "Normalizacja",
+    "description": "Wszystkie ruchy Pokémona stają się typu Normalnego oraz moc tych ruchów jest zwiększona o 20%."
   },
   "sniper": {
-    "name": "Snajper"
+    "name": "Snajper",
+    "description": "Wzmacnia moc krytycznych ciosów Pokémona o 125% zamiast 50%."
+  },
+  "magicGuard": {
+    "name": "Straż Magii",
+    "description": "Pokémon otrzymuje tylko obrażenia od ataków."
+  },
+  "noGuard": {
+    "name": "Bez Ochrony",
+    "description": "Pokémon wykonuje bez-defensywne taktyki aby upewnić się, że nadchodzące i wykonane ataki zawsze uderzą. Jeżeli ten Pokémon rozpoczyna walkę, zwiększa prawdopodobieństwo podwójnej walki."
+  },
+  "stall": {
+    "name": "Zwłoka",
+    "description": "Pokémon jest zawsze ostatnim, który używa swoich ruchów."
+  },
+  "technician": {
+    "name": "Technik",
+    "description": "Wzmacnia moc ruchów Pokémona o 50%, jeżeli ich moc wynosi 60 lub mniej."
+  },
+  "leafGuard": {
+    "name": "Straż Liści",
+    "description": "Powstrzymuje zmiany stanu przy silnym nasłonecznieniu."
   },
   "klutz": {
-    "name": "Niezdara"
+    "name": "Niezdara",
+    "description": "Pokémon nie może użyć żadnego trzymanego przedmiotu."
+  },
+  "moldBreaker": {
+    "name": "Łamacz Kształtu",
+    "description": "Ruchy Pokémona nie są zakłócane przez Zdolność celu, z pewnymi wyjątkami."
+  },
+  "superLuck": {
+    "name": "Super Szczęście",
+    "description": "Pokémon ma takie szczęście, że szanse na krytyczne uderzenie ruchów wzrastają o 1 stopień."
   },
   "aftermath": {
-    "name": "Porachunek"
+    "name": "Porachunek",
+    "description": "Rani atakującego zadając mu ¼ jego maksymalnego PŻ, jeśli znokautuje Pokémona ruchem, który nawiązuje bezpośredni kontakt."
+  },
+  "anticipation": {
+    "name": "Wyczekiwanie",
+    "description": "Kiedy Pokémon wchodzi do walki, wyczuwa, czy przeciwnicy znają ruchy natycmiast nokautujące lub ruchy wyjątkowo skuteczne przeciwko niemu."
+  },
+  "forewarn": {
+    "name": "Ostrzeganie",
+    "description": "Kiedy wchodzi do walki, Pokémon może zdradzić jeden z ruchów, jaki posiada przeciwny Pokémon."
   },
   "unaware": {
-    "name": "Nieświadomość"
+    "name": "Nieświadomość",
+    "description": "Podczas ataku Pokémon ignoruje zmiany statystyk celu. Natomiast nie może ignorować zmian statyskyki Szybkości."
+  },
+  "tintedLens": {
+    "name": "Cień Soczewki",
+    "description": "\"Niezbyt efektywne\" ataki Pokémona zadają podwójne obrażenia."
+  },
+  "filter": {
+    "name": "Filtr",
+    "description": "Redukuje moc superefektywnych ataków, które trafiają Pokémona o 25%."
+  },
+  "slowStart": {
+    "name": "Wolny Start",
+    "description": "Przez pięć tur, statystyki Ataku i Szybkości Pokémona są podzielone."
+  },
+  "scrappy": {
+    "name": "Dziarskość",
+    "description": "Pokémon może zadać cios Pokémonowi typu Duchowego ruchami typu Normalnego i Walczącego. Nie jest też podatny na Zastraszenie."
+  },
+  "stormDrain": {
+    "name": "Odsączanie",
+    "description": "Pokémon przyciąga wszystkie ruchy typu Wodnego. Zamiast przyjmować od nich obrażenia, statystyka Spec. Ataku jest zwiększana."
+  },
+  "iceBody": {
+    "name": "Lodowe Ciało",
+    "description": "¹⁄₁₆ maksymalnego PŻ Pokémona zostaje przywrócona na końcu każdej tury podczas śniegu lub gradobicia. Pokémon również nie otrzymuje obrażeń od gradu."
   },
   "solidRock": {
-    "name": "Lita Skała"
+    "name": "Lita Skała",
+    "description": "Redukuje moc superefektywnych ataków, które trafiają Pokémona o 25%."
+  },
+  "snowWarning": {
+    "name": "Zaśnieżanie",
+    "description": "Przywołuje śnieżyce na 5 tur, gdy Pokémon wejdzie do bitwy."
   },
   "honeyGather": {
     "name": "Zbieracz Miodu",
     "description": "Pokémon zbiera Miód, który zostaje sprzedany po wygranej bitwie, nawet jeśli sam nie brał w niej udziału."
+  },
+  "frisk": {
+    "name": "Przeszukanie",
+    "description": "Kiedy wchodzi do walki, Pokémon może sprawdzić zdolność przeciwnego Pokémona."
+  },
+  "reckless": {
+    "name": "Lekkomyślność",
+    "description": "Wzmacnia ruchy o 20%, które wywołują obrażenia zwrotne."
+  },
+  "multitype": {
+    "name": "Multityp",
+    "description": "Zmienia typ Pokémona, aby pasował do trzymanej przez niego Płyty."
+  },
+  "flowerGift": {
+    "name": "Kwiecisty Dar",
+    "description": "Wzmacnia statystyki Ataku i Spec. Obrony Pokémona i jego sojuszników o 50% przy silnym nasłonecznieniu."
   },
   "badDreams": {
     "name": "Koszmary",
     "description": "Na końcu każdej tury zadaje wrogim uśpionym Pokemonom ⅛ ich maksymalnego PŻ."
   },
   "pickpocket": {
-    "name": "Kieszonkowiec"
+    "name": "Kieszonkowiec",
+    "description": "Pokémon kradnie trzymany przedmiot atakującym, którzy mieli z nim bezpośredni kontakt."
+  },
+  "sheerForce": {
+    "name": "Czysta Moc",
+    "description": "Usuwa wszelkie dodatkowe działania z ruchów Pokémona, ale zwiększa moc ruchów o 30%."
+  },
+  "contrary": {
+    "name": "Przekora",
+    "description": "Odwraca wszelkie zmiany statystyk wpływające na Pokémona, tak że próby zwiększenia jego statystyk zamiast tego je obniżają – a próby obniżenia jego statystyk spowodują ich zwiększenie."
+  },
+  "unnerve": {
+    "name": "Nerwowość",
+    "description": "Wywołuje nerwowość u przeciwnego Pokémona, przez co ten nie może jeść Jagód."
+  },
+  "defiant": {
+    "name": "Prowokacja",
+    "description": "Jeśli Pokémon ma jakąkolwiek statystykę obniżoną przez przeciwnego Pokémona, jego statystyka Ataku zostanie gwałtownie zwiększona."
+  },
+  "defeatist": {
+    "name": "Defetysta",
+    "description": "Przepoławia statystyki Ataku i Spec. Ataku Pokémona, kiedy jego HP spada do połowy lub mniej."
+  },
+  "cursedBody": {
+    "name": "Przeklęte Ciało",
+    "description": "Kiedy Pokémon otrzyma obrażenia od ruchu, atakujący ma 30% szans by jego ostatni ruch którego użył został zablokowany na 4 tury."
   },
   "healer": {
-    "name": "Uzdrowiciel"
+    "name": "Uzdrowiciel",
+    "description": "Pokémon ma 50% szans na wyleczenie zmian statystyk sojuszników na końcu każdej tury."
+  },
+  "friendGuard": {
+    "name": "Przyjazna Garda",
+    "description": "Redukuje obrażenia zadane sojusznikom o 25%."
   },
   "harvest": {
     "name": "Zbiory"
