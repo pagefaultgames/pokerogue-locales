@@ -31,7 +31,8 @@
     "effect": "Przeciwnik zostaje trafiony elektryczną pięścią. Atak ma 10% szansy sparaliżować cel."
   },
   "scratch": {
-    "name": "Drapnięcie"
+    "name": "Drapnięcie",
+    "effect": "Pokémon wbija w przeciwnika swoje ostre pazury w celu zadania obrażeń."
   },
   "viseGrip": {
     "name": "Pewny Chwyt",
@@ -78,19 +79,28 @@
   "furyAttack": {
     "name": "Napad Furii"
   },
+  "wrap": {
+    "name": "Owinięcie",
+    "effect": "Pokémon swoim długim ciałem, pnączami lub tym podobne owija swój cel, który przez 4-5 tur otrzymuje obrażenia odpowiadające ⅛ jego maksymalnych PŻ."
+  },
   "bite": {
     "name": "Ugryzienie",
     "effect": "Przeciwnik zostaje ugryziony ostrymi jak brzytwa zębami. Atak ma 30% szansy spowodować wzdrygnięcie."
   },
   "roar": {
-    "name": "Ryk"
+    "name": "Ryk",
+    "effect": "Użytkownik atakuje ostatni i wydaje z siebie potężny ryk, który odstrasza cel i wyciąga do walki innego Pokémona. W dziczy, atak kończy walkę z pojedynczym Pokémonem."
   },
   "sing": {
-    "name": "Śpiew"
+    "name": "Śpiew",
+    "effect": "Użytkownik śpiewa kojącą kołysankę, usypiającą przeciwnika."
   },
   "supersonic": {
     "name": "Ultradźwięk",
     "effect": "Pokémon wytwarza dziwne fale dźwiękowe, które mylą przeciwnika."
+  },
+  "sonicBoom": {
+    "name": "Grom Dźwiękowy"
   },
   "acid": {
     "name": "Kwas"
@@ -102,20 +112,33 @@
     "name": "Mgła",
     "effect": "Pokémon otacza siebie i swoich sojuszników gęstą mgłą, która zapobiega obniżaniu ich statystyk przez 5 tur."
   },
+  "waterGun": {
+    "name": "Pistolet Wodny"
+  },
   "hydroPump": {
-    "name": "Pompa Wodna"
+    "name": "Pompa Wodna",
+    "effect": "Przeciwnik zostaje trafiony ogromną falą wody, wystrzeloną pod dużym ciśnieniem."
   },
   "blizzard": {
     "name": "Śnieżyca"
   },
   "peck": {
-    "name": "Dziobnięcie"
+    "name": "Dziobnięcie",
+    "effect": "Przeciwnik zostaje dźgnięty ostrym dziobem lub rogiem w celu zadania obrażeń."
   },
   "drillPeck": {
     "name": "Dziobowkręt"
   },
+  "lowKick": {
+    "name": "Podcinka",
+    "effect": "Pokémon wymierza w przeciwnika potężne kopnięcie, przez które się przewraca. Im cel jest cięższy, tym większa jest moc tego ataku (od 20 do 120)."
+  },
   "counter": {
     "name": "Kontra"
+  },
+  "seismicToss": {
+    "name": "Rzut Sejsmiczny",
+    "effect": "Pokémon rzuca przeciwnikiem używając siły grawitacji. Zadaje obrażenia równe poziomowi przeciwnika."
   },
   "strength": {
     "name": "Siła"
@@ -158,7 +181,11 @@
     "effect": "Użytkownik podnosi i rzuca małym kamieniem w celu zadania obrażeń."
   },
   "earthquake": {
-    "name": "Trzęsienie ziemi"
+    "name": "Trzęsienie ziemi",
+    "effect": "Pokémon wywołuje trzęsienie ziemi, które uderza wszystkie Pokémony dookoła. Moc tego ataku jest podwojona, gdy skierowany jest przeciwko Pokémonom używających _ i mniejsza o połowę w Trawiastym Terenie."
+  },
+  "toxic": {
+    "name": "Toksyna"
   },
   "hypnosis": {
     "name": "Hipnoza"
@@ -166,6 +193,10 @@
   "meditate": {
     "name": "Medytacja",
     "effect": "Pokemon medytując budzi ukrytą w głębi swojego ciała moc i zwiększa swój Atak."
+  },
+  "rage": {
+    "name": "Wściekłość",
+    "effect": "Tak długo, jak używany jest ten atak, wściekłość napędza użytkownika i zwiększa jego Atak za każdym razem, gdy zostaje trafiony."
   },
   "teleport": {
     "name": "Teleportacja"
@@ -184,7 +215,8 @@
     "effect": "Użytkownik kiwa palcem i pobudza swój mózg do użycia losowego ataku."
   },
   "selfDestruct": {
-    "name": "Autodestrukcja"
+    "name": "Autodestrukcja",
+    "effect": "Pokémon eksploduje, zadając obrażenia wszystkim dookoła. Użytkownik nokautuje się używając tego ataku."
   },
   "eggBomb": {
     "name": "Bomba-Jajo"
