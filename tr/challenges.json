@@ -1,10 +1,10 @@
 {
-  "title": "Mücadele Koşulları",
-  "illegalEvolution": "{{pokemon}} bu mücadelede kullanılamayan\nbir Pokémon’a dönüştü!",
+  "title": "Meydan Okuma Koşulları",
+  "illegalEvolution": "{{pokemon}} bu meydan okumada kullanılamayan\nbir Pokémon’a dönüştü!",
   "noneSelected": "Seçim Yapılmadı",
   "category": {
     "randomizer": "Rastgeleleştirici",
-    "challenge": "Mücadele",
+    "challenge": "Meydan Okuma",
     "nuzlocke": "Nuzlocke",
     "misc": "Diğer"
   },
@@ -76,7 +76,7 @@
   "inverseBattle": {
     "name": "Ters Maç",
     "shortName": "Ters",
-    "desc": "Tür avantajları ters çevrilir ve hiçbir tür başka bir türe karşı etkisiz olmaz.\n\nDiğer mücadele başarımlarını devre dışı bırakır (İstatistikleri Takasla Hariç)",
+    "desc": "Tür avantajları ters çevrilir ve hiçbir tür başka bir türe karşı etkisiz olmaz.\n\nDiğer meydan okuma başarımlarını devre dışı bırakır (İstatistikleri Takasla Hariç)",
     "value": {
       "0": "Kapalı",
       "1": "Açık"
@@ -85,7 +85,7 @@
   "flipStat": {
     "name": "İstatistikleri Takasla",
     "shortName": "Takasla",
-    "desc": "İstatistikler şöyle takaslanır:\n- SP ile Hız\n- Saldırı İle Öz. Sal.\n- Savunma ile Öz. Sav.\n\nDiğer mücadele başarımlarını devre dışı bırakır (Ters Maç Hariç).",
+    "desc": "İstatistikler şöyle takaslanır:\n- SP ile Hız\n- Saldırı İle Öz. Sal.\n- Savunma ile Öz. Sav.\n\nDiğer meydan okuma başarımlarını devre dışı bırakır (Ters Maç Hariç).",
     "value": {
       "0": "Kapalı",
       "1": "Açık"
@@ -104,7 +104,7 @@
     "desc": {
       "0": "Bazı veya tüm Pokémonların pasiflerini açık olmaya zorlar.",
       "1": "Eğitmen Pokémonlarının pasifleri açık olur.\nSeçtiğin Starterları etkilemez.",
-      "2": "Seninki dahil tüm Pokémonlar’ın pasifleri bu sefer için açık olur.\n\nDiğer mücadele başarımlarını devre dışı bırakır."
+      "2": "Seninki dahil tüm Pokémonlar’ın pasifleri bu sefer için açık olur.\n\nDiğer meydan okuma başarımlarını devre dışı bırakır."
     },
     "value": {
       "0": "Kapalı",
@@ -114,7 +114,7 @@
   },
   "movesetRandomizer": {
     "name": "Hareket Seti Rastgeleleştirici",
-    "desc": "Her Pokémon cinsi için seviye atlama bazlı hareket setini rastgeleleştirir. Starterlar, türleriyle uyuşan temel hareketlerle başlar.\n\nDiğer mücadele başarımlarını devre dışı bırakır.",
+    "desc": "Her Pokémon cinsi için seviye atlama bazlı hareket setini rastgeleleştirir. Starterlar, türleriyle uyuşan temel hareketlerle başlar.\n\nDiğer meydan okuma başarımlarını devre dışı bırakır.",
     "value": {
       "0": "Kapalı",
       "1": "Açık"
