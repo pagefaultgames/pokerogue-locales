@@ -1,27 +1,27 @@
 /**
- * @typedef {{ incorrectKey: string, correctedKey: string, line: number }} incorrectKey
+ * @typedef {{ incorrectKey: string, correctedKey: string, line: number }} IncorrectKey
  */
 
 /**
- * @typedef {Object.<string, incorrectKey[]>} incorrectKeys
+ * @typedef {Object.<string, IncorrectKey[]>} IncorrectKeys
  */
 
 /**
- * @typedef {{ checkKeys: boolean, checkFileNames: boolean, checkMissing: boolean, verbose: boolean, languages: string[] }} options
+ * @typedef {{ checkKeys: boolean, checkFileNames: boolean, checkMissing: boolean, verbose: boolean, languages: string[] }} Options
  */
 
 /**
- * @typedef {{ incorrectFileName: string, correctedFileName: string }} incorrectFileName
+ * @typedef {{ incorrectFileName: string, correctedFileName: string }} IncorrectFileName
  */
 
 /**
- * @typedef {Object.<string, incorrectFileName[]} incorrectFileNames
+ * @typedef {Object.<string, IncorrectFileName[]>} IncorrectFileNames
  */
 
 /**
- * @typedef {Object.<string, string[]>} fileKeys
+ * @typedef {Object.<string, string[]>} FileKeys
  */
 
 /**
- * @typedef {"camelCase" | "kebab-case" | "PascalCase" | "snake_case" | "UPPER_SNAKE_CASE" | "Pascal_Snake_Case"} format
+ * @typedef {"camelCase" | "kebab-case" | "PascalCase" | "snake_case" | "UPPER_SNAKE_CASE" | "Pascal_Snake_Case"} Format
  */
