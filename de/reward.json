@@ -1,0 +1,146 @@
+{
+  "nugget": {
+    "name": "Nugget"
+  },
+  "bigNugget": {
+    "name": "Riesennugget"
+  },
+  "relicGold": {
+    "name": "Alter Dukat"
+  },
+  "rareCandy": {
+    "name": "Sonderbonbon"
+  },
+  "rarerCandy": {
+    "name": "Supersondererbonbon"
+  },
+  "sacredAsh": {
+    "name": "Zauberasche"
+  },
+  "potion": {
+    "name": "Trank"
+  },
+  "superPotion": {
+    "name": "Supertrank"
+  },
+  "hyperPotion": {
+    "name": "Hypertrank"
+  },
+  "maxPotion": {
+    "name": "Top-Trank"
+  },
+  "fullRestore": {
+    "name": "Top-Genesung"
+  },
+  "revive": {
+    "name": "Beleber"
+  },
+  "maxRevive": {
+    "name": "Top-Beleber"
+  },
+  "fullHeal": {
+    "name": "Hyperheiler"
+  },
+  "ether": {
+    "name": "Äther"
+  },
+  "maxEther": {
+    "name": "Top-Äther"
+  },
+  "elixir": {
+    "name": "Elixir"
+  },
+  "maxElixir": {
+    "name": "Top-Elixir"
+  },
+  "ppUp": {
+    "name": "AP-Plus"
+  },
+  "ppMax": {
+    "name": "AP-Top"
+  },
+  "memoryMushroom": {
+    "name": "Erinnerungspilz",
+    "description": "Lässt ein Pokémon eine vergessene Attacke wiedererlernen."
+  },
+  "dnaSplicers": {
+    "name": "DNS-Keil"
+  },
+  "moneyReward": {
+    "description": "Gewährt einen {{moneyMultiplier}} Geldbetrag von (₽{{moneyAmount}}).",
+    "extra": {
+      "small": "kleinen",
+      "moderate": "moderaten",
+      "large": "großen"
+    }
+  },
+  "pokemonHpRestore": {
+    "description": "Füllt {{restorePoints}} KP oder {{restorePercent}}% der KP für ein Pokémon auf. Je nachdem, welcher Wert höher ist.",
+    "extra": {
+      "fully": "Füllt die KP eines Pokémon wieder vollständig auf.",
+      "fullyWithStatus": "Füllt die KP eines Pokémon wieder vollständig auf und behebt alle Statusprobleme."
+    }
+  },
+  "pokemonRevive": {
+    "description": "Belebt ein kampunfähiges Pokémon wieder und stellt {{restorePercent}}% KP wieder her."
+  },
+  "allPokemonFullRevive": {
+    "description": "Belebt alle kampunfähigen Pokémon wieder und stellt ihre KP vollständig wieder her."
+  },
+  "pokemonPpRestore": {
+    "description": "Füllt {{restorePoints}} AP der ausgewählten Attacke eines Pokémon auf.",
+    "extra": {
+      "fully": "Füllt alle AP der ausgewählten Attacke eines Pokémon auf."
+    }
+  },
+  "pokemonAllMovePpRestore": {
+    "description": "Stellt {{restorePoints}} AP für alle Attacken eines Pokémon auf.",
+    "extra": {
+      "fully": "Füllt alle AP für alle Attacken eines Pokémon auf."
+    }
+  },
+  "pokemonPpUp": {
+    "description": "Erhöht die maximale Anzahl der AP der ausgewählten Attacke um {{upPoints}} für jede 5 maximale AP (maximal 3)."
+  },
+  "pokemonLevelIncrement": {
+    "description": "Erhöht das Level eines Pokémon um {{levels}}."
+  },
+  "allPokemonLevelIncrement": {
+    "description": "Erhöht das Level aller Teammitglieder um {{levels}}."
+  },
+  "addPokeball": {
+    "name": "{{modifierCount}}x {{pokeballName}}",
+    "description": "Erhalte {{pokeballName}} x{{modifierCount}}. (Inventar: {{pokeballAmount}}) \nFangrate: {{catchRate}}"
+  },
+  "addVoucher": {
+    "name": "{{modifierCount}}x {{voucherTypeName}}",
+    "description": "Erhalte {{voucherTypeName}} x{{modifierCount}}."
+  },
+  "pokemonStatusHeal": {
+    "description": "Behebt alle Statusprobleme eines Pokémon."
+  },
+  "pokemonNatureChange": {
+    "name": "{{natureName}} Minze",
+    "description": "Ändert das Wesen zu {{natureName}}. Schaltet dieses Wesen permanent für diesen Starter frei."
+  },
+  "tm": {
+    "name": "TM{{moveId}} - {{moveName}}",
+    "description": "Bringt einem Pokémon {{moveName}} bei."
+  },
+  "tmWithInfo": {
+    "name": "TM{{moveId}} - {{moveName}}",
+    "description": "Bringt einem Pokémon {{moveName}} bei\n(Halte C oder Shift für mehr Infos)."
+  },
+  "fusePokemon": {
+    "description": "Fusioniert zwei Pokémon (überträgt die Fähigkeit, teilt Basiswerte und Typ auf, gemeinsamer Attackenpool)."
+  },
+  "evolutionItem": {
+    "description": "Erlaubt es bestimmten Pokémon sich zu entwickeln."
+  },
+  "pokemonHeldItem": {
+    "extra": {
+      "inoperable": "{{pokemonName}} kann dieses\nItem nicht nehmen!",
+      "tooMany": "{{pokemonName}} hat zu viele\nvon diesem Item!"
+    }
+  }
+}

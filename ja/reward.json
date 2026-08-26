@@ -1,0 +1,146 @@
+{
+  "nugget": {
+    "name": "きんのたま"
+  },
+  "bigNugget": {
+    "name": "でかいきんのたま"
+  },
+  "relicGold": {
+    "name": "こだいのきんか"
+  },
+  "rareCandy": {
+    "name": "ふしぎなアメ"
+  },
+  "rarerCandy": {
+    "name": "ふかしぎなアメ"
+  },
+  "sacredAsh": {
+    "name": "せいなるはい"
+  },
+  "potion": {
+    "name": "キズぐすり"
+  },
+  "superPotion": {
+    "name": "いいキズぐすり"
+  },
+  "hyperPotion": {
+    "name": "すごいキズぐすり"
+  },
+  "maxPotion": {
+    "name": "まんたんのくすり"
+  },
+  "fullRestore": {
+    "name": "かいふくのくすり"
+  },
+  "revive": {
+    "name": "げんきのかけら"
+  },
+  "maxRevive": {
+    "name": "げんきのかたまり"
+  },
+  "fullHeal": {
+    "name": "なんでもなおし"
+  },
+  "ether": {
+    "name": "ピーピーエイド"
+  },
+  "maxEther": {
+    "name": "ピーピーリカバー"
+  },
+  "elixir": {
+    "name": "ピーピーエイダー"
+  },
+  "maxElixir": {
+    "name": "ピーピーマックス"
+  },
+  "ppUp": {
+    "name": "ポイントアップ"
+  },
+  "ppMax": {
+    "name": "ポイントマックス"
+  },
+  "memoryMushroom": {
+    "name": "きおくのキノコ",
+    "description": "１匹の ポケモンの 忘れた技を １つ 覚えさせる"
+  },
+  "dnaSplicers": {
+    "name": "いでんしのくさび"
+  },
+  "moneyReward": {
+    "description": "{{moneyMultiplier}}額の 円を 与える（{{moneyAmount}}円）",
+    "extra": {
+      "small": "小",
+      "moderate": "ある金",
+      "large": "多"
+    }
+  },
+  "pokemonHpRestore": {
+    "description": "ポケモン 一匹の {{restorePoints}}ＨＰ、または {{restorePercent}}% のどちらか 高い方を 回復する",
+    "extra": {
+      "fully": "ポケモン １匹の ＨＰを すべて 回復する",
+      "fullyWithStatus": "ポケモン １匹の ＨＰと 状態異常を すべて 回復する"
+    }
+  },
+  "pokemonRevive": {
+    "description": "ひんしに なった ポケモン １匹を 元気にした上で ＨＰを {{restorePercent}}% 回復する"
+  },
+  "allPokemonFullRevive": {
+    "description": "ひんしに なってしまった ポケモン 全員の ＨＰを すべて 回復する"
+  },
+  "pokemonPpRestore": {
+    "description": "ポケモンが 覚えている 技のうち １つの PPを １０だけ 回復する",
+    "extra": {
+      "fully": "ポケモンが 覚えている 技のうち １つの PPを すべて 回復する"
+    }
+  },
+  "pokemonAllMovePpRestore": {
+    "description": "ポケモンが 覚えている ４つの 技の PPを {{restorePoints}}ずつ 回復する",
+    "extra": {
+      "fully": "ポケモンが 覚えている ４つの 技の PPを すべて 回復する"
+    }
+  },
+  "pokemonPpUp": {
+    "description": "ポケモンが 覚えている 技のうち １つの PPの 最大値を ５ごとに {{upPoints}}ポイントずつ 上げる （最大３）"
+  },
+  "pokemonLevelIncrement": {
+    "description": "ポケモンの レベルを {{levels}} 上げる"
+  },
+  "allPokemonLevelIncrement": {
+    "description": "手持ちポケモンの 全員のレベルを {{levels}} 上げる"
+  },
+  "addPokeball": {
+    "name": "{{modifierCount}}× {{pokeballName}}",
+    "description": "{{pokeballName}}を {{modifierCount}}個 手に入れる （所有: {{pokeballAmount}}）\n捕捉率：{{catchRate}}"
+  },
+  "addVoucher": {
+    "name": "{{modifierCount}}× {{voucherTypeName}}",
+    "description": "{{voucherTypeName}}を {{modifierCount}}個 手に入れる"
+  },
+  "pokemonStatusHeal": {
+    "description": "ポケモン １匹の 状態の 異常を すべて 回復する"
+  },
+  "pokemonNatureChange": {
+    "name": "{{natureName}}ミント",
+    "description": "ポケモンの 性格を {{natureName}}に 変える\n（あとで この性格を スターター 画面でも 選べる）"
+  },
+  "tm": {
+    "name": "わざマシン{{moveId}} {{moveName}}",
+    "description": "ポケモンに {{moveName}}を 教える"
+  },
+  "tmWithInfo": {
+    "name": "わざマシン{{moveId}} {{moveName}}",
+    "description": "ポケモンに {{moveName}}を 教える\n（Cキー/Shiftキーを 押すと 技情報が 見える）"
+  },
+  "fusePokemon": {
+    "description": "２匹の ポケモンを 吸収合体する （特性が 移行し、 基本能力と タイプを 分け、 覚える 技を 共有する）"
+  },
+  "evolutionItem": {
+    "description": "ある特定の ポケモンを 進化させる"
+  },
+  "pokemonHeldItem": {
+    "extra": {
+      "inoperable": "{{pokemonName}}は このアイテムを\n持つ ことが できません！",
+      "tooMany": "{{pokemonName}}は　このアイテムを\n持ちすぎています！"
+    }
+  }
+}

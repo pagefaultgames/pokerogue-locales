@@ -1,0 +1,46 @@
+{
+  "rareCandy": {
+    "name": "ลูกอมประหลาด"
+  },
+  "potion": {
+    "name": "ยารักษาแผล"
+  },
+  "superPotion": {
+    "name": "ยารักษาแผลอย่างดี"
+  },
+  "hyperPotion": {
+    "name": "ยารักษาแผลชั้นยอด"
+  },
+  "maxPotion": {
+    "name": "ยาฟื้นพลังกายเต็มถัง"
+  },
+  "revive": {
+    "name": "ยาคืนชีพ"
+  },
+  "maxRevive": {
+    "name": "ยาคืนชีพชั้นยอด"
+  },
+  "pokemonHpRestore": {
+    "description": "ฟื้นฟู {{restorePoints}} HP หรือ {{restorePercent}}% HP ให้โปเกมอนหนึ่งตัว โดยจะเลือกเกิดผลที่มีค่ามากกว่า",
+    "extra": {
+      "fully": "ฟื้นฟู HP ทั้งหมดให้กับโปเกมอนหนึ่งตัว",
+      "fullyWithStatus": "ฟื้นฟู HP ทั้งหมดให้กับโปเกมอนหนึ่งตัวและรักษาสถานะผิดปกติทั้งหมดด้วย"
+    }
+  },
+  "pokemonRevive": {
+    "description": "ชุบชีวิตโปเกมอนหนึ่งตัวและฟื้นฟู {{restorePercent}}% HP ให้กับมัน"
+  },
+  "addPokeball": {
+    "name": "{{modifierCount}}× {{pokeballName}}"
+  },
+  "addVoucher": {
+    "name": "{{modifierCount}}× {{voucherTypeName}}",
+    "description": "ได้รับ {{voucherTypeName}} ×{{modifierCount}}"
+  },
+  "pokemonHeldItem": {
+    "extra": {
+      "inoperable": "{{pokemonName}} รับ\nไอเทมนี้ไม่ได้!",
+      "tooMany": "{{pokemonName}} มีไอเทมนี้\nมากเกินไป!"
+    }
+  }
+}

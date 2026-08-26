@@ -1,0 +1,1054 @@
+{
+  "sitrusBerry": {
+    "name": "オボンのみ",
+    "description": "持たせると ＨＰが ５０%以下に なるとき ＨＰを ２５% 回復する"
+  },
+  "lumBerry": {
+    "name": "ラムのみ",
+    "description": "持たせると 状態異常や 混乱に なるとき 回復する"
+  },
+  "enigmaBerry": {
+    "name": "ナゾのみ",
+    "description": "持たせると 効果バツグンの 技を 受けたとき ＨＰを ２５% 回復する"
+  },
+  "liechiBerry": {
+    "name": "チイラのみ",
+    "description": "持たせると ＨＰが ２５%以下に なるとき 攻撃が あがる"
+  },
+  "ganlonBerry": {
+    "name": "リュガのみ",
+    "description": "持たせると ＨＰが ２５%以下に なるとき 防御が あがる"
+  },
+  "petayaBerry": {
+    "name": "ヤタピのみ",
+    "description": "持たせると ＨＰが ２５%以下に なるとき 特攻が あがる"
+  },
+  "apicotBerry": {
+    "name": "ズアのみ",
+    "description": "持たせると ＨＰが ２５%以下に なるとき 特防が あがる"
+  },
+  "salacBerry": {
+    "name": "カムラのみ",
+    "description": "持たせると ＨＰが ２５%以下に なるとき 素早さが あがる"
+  },
+  "lansatBerry": {
+    "name": "サンのみ",
+    "description": "持たせると ＨＰが ２５%以下に なるとき 攻撃が 急所に 当たりやすくなる"
+  },
+  "starfBerry": {
+    "name": "スターのみ",
+    "description": "持たせると ＨＰが ２５%以下に なるとき どれか １つの 能力が ぐーんと あがる"
+  },
+  "leppaBerry": {
+    "name": "ヒメリのみ",
+    "description": "持たせると ＰＰが０になる 技の ＰＰを １０回復する"
+  },
+  "reviverSeed": {
+    "name": "ふっかつのタネ",
+    "description": "持たせると 直接攻撃から ひんしに なれば 復活して ＨＰを ５０% 回復する"
+  },
+  "whiteHerb": {
+    "name": "しろいハーブ",
+    "description": "持たせた ポケモンの 能力が 下がったとき １度だけ 元の状態に 戻す"
+  },
+  "silkScarf": {
+    "name": "シルクのスカーフ",
+    "description": "ポケモンの $t(pokemonInfo:type.normal)タイプの 技の 威力を ２０% 上げる"
+  },
+  "blackBelt": {
+    "name": "くろおび",
+    "description": "ポケモンの $t(pokemonInfo:type.fighting)タイプの 技の 威力を ２０% 上げる"
+  },
+  "sharpBeak": {
+    "name": "するどいくちばし",
+    "description": "ポケモンの $t(pokemonInfo:type.flying)タイプの 技の 威力を ２０% 上げる"
+  },
+  "poisonBarb": {
+    "name": "どくバリ",
+    "description": "ポケモンの $t(pokemonInfo:type.poison)タイプの 技の 威力を ２０% 上げる"
+  },
+  "softSand": {
+    "name": "やわらかいすな",
+    "description": "ポケモンの $t(pokemonInfo:type.ground)タイプの 技の 威力を ２０% 上げる"
+  },
+  "hardStone": {
+    "name": "かたいいし",
+    "description": "ポケモンの $t(pokemonInfo:type.rock)タイプの 技の 威力を ２０% 上げる"
+  },
+  "silverPowder": {
+    "name": "ぎんのこな",
+    "description": "ポケモンの $t(pokemonInfo:type.bug)タイプの 技の 威力を ２０% 上げる"
+  },
+  "spellTag": {
+    "name": "のろいのおふだ",
+    "description": "ポケモンの $t(pokemonInfo:type.ghost)タイプの 技の 威力を ２０% 上げる"
+  },
+  "metalCoat": {
+    "name": "メタルコート",
+    "description": "ポケモンの $t(pokemonInfo:type.steel)タイプの 技の 威力を ２０% 上げる"
+  },
+  "charcoal": {
+    "name": "もくたん",
+    "description": "ポケモンの $t(pokemonInfo:type.fire)タイプの 技の 威力を ２０% 上げる"
+  },
+  "mysticWater": {
+    "name": "しんぴのしずく",
+    "description": "ポケモンの $t(pokemonInfo:type.water)タイプの 技の 威力を ２０% 上げる"
+  },
+  "miracleSeed": {
+    "name": "きせきのタネ",
+    "description": "ポケモンの $t(pokemonInfo:type.grass)タイプの 技の 威力を ２０% 上げる"
+  },
+  "magnet": {
+    "name": "じしゃく",
+    "description": "ポケモンの $t(pokemonInfo:type.electric)タイプの 技の 威力を ２０% 上げる"
+  },
+  "twistedSpoon": {
+    "name": "まがったスプーン",
+    "description": "ポケモンの $t(pokemonInfo:type.psychic)タイプの 技の 威力を ２０% 上げる"
+  },
+  "neverMeltIce": {
+    "name": "とけないこおり",
+    "description": "ポケモンの $t(pokemonInfo:type.ice)タイプの 技の 威力を ２０% 上げる"
+  },
+  "dragonFang": {
+    "name": "りゅうのキバ",
+    "description": "ポケモンの $t(pokemonInfo:type.dragon)タイプの 技の 威力を ２０% 上げる"
+  },
+  "blackGlasses": {
+    "name": "くろいメガネ",
+    "description": "ポケモンの $t(pokemonInfo:type.dark)タイプの 技の 威力を ２０% 上げる"
+  },
+  "fairyFeather": {
+    "name": "ようせいのハネ",
+    "description": "ポケモンの $t(pokemonInfo:type.fairy)タイプの 技の 威力を ２０% 上げる"
+  },
+  "lightBall": {
+    "name": "でんきだま",
+    "description": "ピカチュウに 持たせると 攻撃と 特攻が あがる 不思議な玉。"
+  },
+  "thickClub": {
+    "name": "ふといホネ",
+    "description": "なにかの 硬いホネ。 カラカラ または ガラガラに 持たせると 攻撃が あがる。"
+  },
+  "metalPowder": {
+    "name": "メタルパウダー",
+    "description": "メタモンに 持たせると 防御が あがる 不思議な粉。 とても こまかくて 硬い。"
+  },
+  "quickPowder": {
+    "name": "スピードパウダー",
+    "description": "メタモンに 持たせると 素早さが あがる 不思議な粉。 とても こまかくて 硬い。"
+  },
+  "deepSeaScale": {
+    "name": "しんかいのウロコ",
+    "description": "パールルに 持たせると 特防が あがる ウロコ。 うすい ピンク色に 光る。"
+  },
+  "deepSeaTooth": {
+    "name": "しんかいのキバ",
+    "description": "パールルに 持たせると 特攻が あがる キバ。 鋭く 銀色に 光る。"
+  },
+  "scopeLens": {
+    "name": "ピントレンズ",
+    "description": "弱点が 見える レンズ。 持たせた ポケモンの技が 急所アップ＋１に なる。"
+  },
+  "leek": {
+    "name": "ながねぎ",
+    "description": "とても長くて 硬いクキ。 カモネギに 持たせると 技が 急所アップ＋２に なる。"
+  },
+  "luckyEgg": {
+    "name": "しあわせタマゴ",
+    "description": "持っているポケモンの もらう経験値を 40% 増やす"
+  },
+  "goldenEgg": {
+    "name": "ゴールドタマゴ",
+    "description": "持っているポケモンの もらう経験値を 100% 増やす"
+  },
+  "sootheBell": {
+    "name": "やすらぎのすず",
+    "description": "持たせると なかよし度の 収穫が ５０%で 上がる"
+  },
+  "focusBand": {
+    "name": "きあいのハチマキ",
+    "description": "持たせると ひんしに なりそうな 技を 受けても １０%の 可能性で ＨＰを １だけ 残して 耐える"
+  },
+  "quickClaw": {
+    "name": "せんせいのツメ",
+    "description": "持たせると １０%の可能性で 相手より 先に 行動できる （優先技のあと）"
+  },
+  "kingsRock": {
+    "name": "おうじゃのしるし",
+    "description": "持たせると 攻撃して ダメージを 与えたときに １０%の 可能性で 相手を ひるませる"
+  },
+  "leftovers": {
+    "name": "たべのこし",
+    "description": "持たせると 毎ターン 最大ＨＰの １/１６を 回復する"
+  },
+  "shellBell": {
+    "name": "かいがらのすず",
+    "description": "持たせると 相手に 与えたダメージの １/８をＨＰとして 回復する."
+  },
+  "mysticalRock": {
+    "name": "しんぴないし",
+    "description": "持たせると 技や 特性で 起こした 天気や フィールドの 間が２ターン 増える"
+  },
+  "wideLens": {
+    "name": "こうかくレンズ",
+    "description": "技の 命中率を 5で 増やす"
+  },
+  "multiLens": {
+    "name": "マルチレンズ",
+    "description": "持たせると 攻撃技の ダメージの ２５%が もう一回の 攻撃で 出す"
+  },
+  "goldenPunch": {
+    "name": "ゴールドパンチ",
+    "description": "持たせると 与える 直接なダメージの ５０%が お金として もらえる"
+  },
+  "gripClaw": {
+    "name": "ねばりのかぎづめ",
+    "description": "持っているポケモンが 攻撃すると 相手の 持っている アイテムを 10%の 確率で 盗む"
+  },
+  "toxicOrb": {
+    "name": "どくどくだま",
+    "description": "触ると 毒をだす 不思議な玉。\n持たせると 戦闘中に 猛毒の状態に なる。"
+  },
+  "flameOrb": {
+    "name": "かえんだま",
+    "description": "触ると 熱をだす 不思議な玉。\n持たせると 戦闘中に やけどの状態に なる。"
+  },
+  "soulDew": {
+    "name": "こころのしずく",
+    "description": "持たせると ポケモンの 性格が 能力に与える 影響は １０% 増える （合算）"
+  },
+  "baton": {
+    "name": "バトン",
+    "description": "持たせると 入れ替えるとき 控えの ポケモンが 能力変化を 受けつげる （逃げられなく する 技や 特性も 回避する）"
+  },
+  "miniBlackHole": {
+    "name": "ミニブラックホール",
+    "description": "毎ターン 相手の 持っている アイテムを 一つ 吸い込んで 盗む"
+  },
+  "eviolite": {
+    "name": "しんかのきせき",
+    "description": "進化の不思議な かたまり。 持たせると 進化前ポケモンの 防御と 特防が あがる。"
+  },
+  "hpUp": {
+    "name": "マックスアップ",
+    "description": "$t(pokemonInfo:stat.hp)の 基礎ポイントを １０% あげる。個体値が 高けば高いほど 飲める 限界が 上がる。"
+  },
+  "protein": {
+    "name": "タウリン",
+    "description": "$t(pokemonInfo:stat.atk)の 基礎ポイントを １０% あげる。個体値が 高けば高いほど 飲める 限界が 上がる。"
+  },
+  "iron": {
+    "name": "ブロムヘキシン",
+    "description": "$t(pokemonInfo:stat.def)の 基礎ポイントを １０% あげる。個体値が 高けば高いほど 飲める 限界が 上がる。"
+  },
+  "calcium": {
+    "name": "リゾチウム",
+    "description": "$t(pokemonInfo:stat.spatk)の 基礎ポイントを １０% あげる。個体値が 高けば高いほど 飲める 限界が 上がる。"
+  },
+  "zinc": {
+    "name": "キトサン",
+    "description": "$t(pokemonInfo:stat.spdef)の 基礎ポイントを １０% あげる。個体値が 高けば高いほど 飲める 限界が 上がる。"
+  },
+  "carbos": {
+    "name": "インドメタシン",
+    "description": "$t(pokemonInfo:stat.spd)の 基礎ポイントを １０% あげる。個体値が 高けば高いほど 飲める 限界が 上がる。"
+  },
+  "shuckleJuiceGood": {
+    "name": "あまいツボツボジュース",
+    "description": "ツボツボに 恵まれて すべての 基本能力を 上げる ジュース"
+  },
+  "shuckleJuiceBad": {
+    "name": "いやなツボツボジュース",
+    "description": "ツボツボに 呪われて すべての 基本能力を 下げる ジュース"
+  },
+  "oldGateau": {
+    "name": "もりのヨウカン",
+    "description": "能力の いくつかを 上げる"
+  },
+  "machoBrace": {
+    "name": "きょうせいギプス",
+    "description": "持たせると 相手を 倒すとき もう１つの ギプスを もらう。 ギプス当たり 能力が 少し 上がる。 最多で さらに 上がる。"
+  },
+  "gimmighoulEvoTracker": {
+    "name": "たからもの",
+    "description": "このポケモンは 宝物が 大好き！ 宝物を 集め続けると 良いことが 起こる かもしれません！"
+  },
+  "abomasite": {
+    "name": "ユキノオナイト"
+  },
+  "absolite": {
+    "name": "アブソルナイト"
+  },
+  "aerodactylite": {
+    "name": "プテラナイト"
+  },
+  "aggronite": {
+    "name": "ボスゴドラナイト"
+  },
+  "alakazite": {
+    "name": "フーディナイト"
+  },
+  "altarianite": {
+    "name": "チルタリスナイト"
+  },
+  "ampharosite": {
+    "name": "デンリュウナイト"
+  },
+  "audinite": {
+    "name": "タブンネナイト"
+  },
+  "banettite": {
+    "name": "ジュペッタナイト"
+  },
+  "beedrillite": {
+    "name": "スピアナイト"
+  },
+  "blastoisinite": {
+    "name": "カメックスナイト"
+  },
+  "blazikenite": {
+    "name": "バシャーモナイト"
+  },
+  "cameruptite": {
+    "name": "バクーダナイト"
+  },
+  "charizarditeX": {
+    "name": "リザードナイトＸ"
+  },
+  "charizarditeY": {
+    "name": "リザードナイトＹ"
+  },
+  "diancite": {
+    "name": "ディアンシナイト"
+  },
+  "galladite": {
+    "name": "エルレイドナイト"
+  },
+  "garchompite": {
+    "name": "ガブリアスナイト"
+  },
+  "gardevoirite": {
+    "name": "サーナイトナイト"
+  },
+  "gengarite": {
+    "name": "ゲンガナイト"
+  },
+  "glalitite": {
+    "name": "オニゴーリナイト"
+  },
+  "gyaradosite": {
+    "name": "ギャラドスナイト"
+  },
+  "heracronite": {
+    "name": "ヘラクロスナイト"
+  },
+  "houndoominite": {
+    "name": "ヘルガナイト"
+  },
+  "kangaskhanite": {
+    "name": "ガルーラナイト"
+  },
+  "latiasite": {
+    "name": "ラティアスナイト"
+  },
+  "latiosite": {
+    "name": "ラティオスナイト"
+  },
+  "lopunnite": {
+    "name": "ミミロップナイト"
+  },
+  "lucarionite": {
+    "name": "ルカリオナイト"
+  },
+  "manectite": {
+    "name": "ライボルトナイト"
+  },
+  "mawilite": {
+    "name": "クチートナイト"
+  },
+  "medichamite": {
+    "name": "チャーレムナイト"
+  },
+  "metagrossite": {
+    "name": "メタグロスナイト"
+  },
+  "mewtwoniteX": {
+    "name": "ミュウツナイトＸ"
+  },
+  "mewtwoniteY": {
+    "name": "ミュウツナイトＹ"
+  },
+  "pidgeotite": {
+    "name": "ピジョットナイト"
+  },
+  "pinsirite": {
+    "name": "カイロスナイト"
+  },
+  "rayquazite": {
+    "name": "レックウザナイト"
+  },
+  "sablenite": {
+    "name": "ヤミラミナイト"
+  },
+  "salamencite": {
+    "name": "ボーマンダナイト"
+  },
+  "sceptilite": {
+    "name": "ジュカインナイト"
+  },
+  "scizorite": {
+    "name": "ハッサムナイト"
+  },
+  "sharpedonite": {
+    "name": "サメハダナイト"
+  },
+  "slowbronite": {
+    "name": "ヤドランナイト"
+  },
+  "steelixite": {
+    "name": "ハガネールナイト"
+  },
+  "swampertite": {
+    "name": "ラグラージナイト"
+  },
+  "tyranitarite": {
+    "name": "バンギラスナイト"
+  },
+  "venusaurite": {
+    "name": "フシギバナイト"
+  },
+  "clefablite": {
+    "name": "ピクシナイト"
+  },
+  "victreebelite": {
+    "name": "ウツボットナイト"
+  },
+  "starminite": {
+    "name": "スターミナイト"
+  },
+  "dragoninite": {
+    "name": "カイリュナイト"
+  },
+  "meganiumite": {
+    "name": "メガニウムナイト"
+  },
+  "feraligite": {
+    "name": "オーダイルナイト"
+  },
+  "skarmorite": {
+    "name": "エアームドナイト"
+  },
+  "froslassite": {
+    "name": "ユキメノコナイト"
+  },
+  "emboarite": {
+    "name": "エンブオナイト"
+  },
+  "excadrite": {
+    "name": "ドリュウズナイト"
+  },
+  "scolipite": {
+    "name": "ペンドラナイト"
+  },
+  "scraftinite": {
+    "name": "ズルズキナイト"
+  },
+  "eelektrossite": {
+    "name": "シビルドナイト"
+  },
+  "chandelurite": {
+    "name": "シャンデラナイト"
+  },
+  "chesnaughtite": {
+    "name": "ブリガロナイト"
+  },
+  "delphoxite": {
+    "name": "マフォクシナイト"
+  },
+  "greninjite": {
+    "name": "ゲッコウガナイト"
+  },
+  "pyroarite": {
+    "name": "カエンジシナイト"
+  },
+  "floettite": {
+    "name": "フラエッテナイト"
+  },
+  "malamarite": {
+    "name": "カラマネナイト"
+  },
+  "barbaracite": {
+    "name": "ガメノデスナイト"
+  },
+  "dragalgite": {
+    "name": "ドラミドナイト"
+  },
+  "hawluchanite": {
+    "name": "ルチャブルナイト"
+  },
+  "zygardite": {
+    "name": "ジガルデナイト"
+  },
+  "drampanite": {
+    "name": "ジジーロナイト"
+  },
+  "falinksite": {
+    "name": "タイレーツナイト"
+  },
+  "raichuniteX": {
+    "name": "ライチュウナイトＸ"
+  },
+  "raichuniteY": {
+    "name": "ライチュウナイトＹ"
+  },
+  "chimechite": {
+    "name": "チリーンナイト"
+  },
+  "absoliteZ": {
+    "name": "アブソルナイトＺ"
+  },
+  "staraptite": {
+    "name": "ムクホークナイト"
+  },
+  "garchompiteZ": {
+    "name": "ガブリアスナイトＺ"
+  },
+  "lucarioniteZ": {
+    "name": "ルカリオナイトＺ"
+  },
+  "heatranite": {
+    "name": "ヒードラナイト"
+  },
+  "darkranite": {
+    "name": "ダークライナイト"
+  },
+  "golurkite": {
+    "name": "ゴルーグナイト"
+  },
+  "meowsticite": {
+    "name": "ニャオニクスナイト"
+  },
+  "crabominite": {
+    "name": "ケケンカニナイト"
+  },
+  "golisopite": {
+    "name": "グソクムシャナイト"
+  },
+  "magearnite": {
+    "name": "マギアナイト"
+  },
+  "zeraorite": {
+    "name": "ゼラオラナイト"
+  },
+  "scovillainite": {
+    "name": "スコヴィラナイト"
+  },
+  "glimmoranite": {
+    "name": "キラフロルナイト"
+  },
+  "tatsugirinite": {
+    "name": "シャリタツナイト"
+  },
+  "baxcalibrite": {
+    "name": "セグレイブナイト"
+  },
+  "blueOrb": {
+    "name": "あいいろのたま"
+  },
+  "redOrb": {
+    "name": "べにいろのたま"
+  },
+  "adamantCrystal": {
+    "name": "だいこんごうだま"
+  },
+  "lustrousGlobe": {
+    "name": "だいしらたま"
+  },
+  "griseousCore": {
+    "name": "だいはっきんだま"
+  },
+  "revealGlass": {
+    "name": "うつしかがみ"
+  },
+  "maxMushrooms": {
+    "name": "ダイキノコ"
+  },
+  "darkStone": {
+    "name": "ダークストーン"
+  },
+  "lightStone": {
+    "name": "ライトストーン"
+  },
+  "prisonBottle": {
+    "name": "いましめのツボ"
+  },
+  "rustedSword": {
+    "name": "くちたけん"
+  },
+  "rustedShield": {
+    "name": "くちたたて"
+  },
+  "icyReinsOfUnity": {
+    "name": "つめたいキズナのタヅナ"
+  },
+  "shadowReinsOfUnity": {
+    "name": "くろいキズナのタヅナ"
+  },
+  "ultranecroziumZ": {
+    "name": "ウルトラネクロＺ"
+  },
+  "sharpMeteorite": {
+    "name": "するどいいんせき"
+  },
+  "hardMeteorite": {
+    "name": "かたいいんせき"
+  },
+  "smoothMeteorite": {
+    "name": "なめらかないんせき"
+  },
+  "gracidea": {
+    "name": "グラシデアのはな"
+  },
+  "shockDrive": {
+    "name": "イナズマカセット"
+  },
+  "burnDrive": {
+    "name": "ブレイズカセット"
+  },
+  "chillDrive": {
+    "name": "フリーズカセット"
+  },
+  "douseDrive": {
+    "name": "アクアカセット"
+  },
+  "nSolarizer": {
+    "name": "ネクロプラスソル"
+  },
+  "nLunarizer": {
+    "name": "ネクロプラスルナ"
+  },
+  "wellspringMask": {
+    "name": "いどのめん"
+  },
+  "hearthflameMask": {
+    "name": "かまどのめん"
+  },
+  "cornerstoneMask": {
+    "name": "いしずえのめん"
+  },
+  "fistPlate": {
+    "name": "こぶしのプレート"
+  },
+  "skyPlate": {
+    "name": "あおぞらプレート"
+  },
+  "toxicPlate": {
+    "name": "もうどくプレート"
+  },
+  "earthPlate": {
+    "name": "だいちのプレート"
+  },
+  "stonePlate": {
+    "name": "がんせきプレート"
+  },
+  "insectPlate": {
+    "name": "たまむしプレート"
+  },
+  "spookyPlate": {
+    "name": "もののけプレート"
+  },
+  "ironPlate": {
+    "name": "こうてつプレート"
+  },
+  "flamePlate": {
+    "name": "ひのたまプレート"
+  },
+  "splashPlate": {
+    "name": "しずくプレート"
+  },
+  "meadowPlate": {
+    "name": "みどりのプレート"
+  },
+  "zapPlate": {
+    "name": "いかずちプレート"
+  },
+  "mindPlate": {
+    "name": "ふしぎのプレート"
+  },
+  "iciclePlate": {
+    "name": "つららのプレート"
+  },
+  "dracoPlate": {
+    "name": "りゅうのプレート"
+  },
+  "dreadPlate": {
+    "name": "こわもてプレート"
+  },
+  "pixiePlate": {
+    "name": "せいれいプレート"
+  },
+  "blankPlate": {
+    "name": "まっさらプレート"
+  },
+  "legendPlate": {
+    "name": "レジェンドプレート"
+  },
+  "fightingMemory": {
+    "name": "ファイトメモリ"
+  },
+  "flyingMemory": {
+    "name": "フライングメモリ"
+  },
+  "poisonMemory": {
+    "name": "ポイズンメモリ"
+  },
+  "groundMemory": {
+    "name": "グラウンドメモリ"
+  },
+  "rockMemory": {
+    "name": "ロックメモリ"
+  },
+  "bugMemory": {
+    "name": "バグメモリ"
+  },
+  "ghostMemory": {
+    "name": "ゴーストメモリ"
+  },
+  "steelMemory": {
+    "name": "スチールメモリ"
+  },
+  "fireMemory": {
+    "name": "ファイヤーメモリ"
+  },
+  "waterMemory": {
+    "name": "ウオーターメモリ"
+  },
+  "grassMemory": {
+    "name": "グラスメモリ"
+  },
+  "electricMemory": {
+    "name": "エレクトロメモリ"
+  },
+  "psychicMemory": {
+    "name": "サイキックメモリ"
+  },
+  "iceMemory": {
+    "name": "アイスメモリ"
+  },
+  "dragonMemory": {
+    "name": "ドラゴンメモリ"
+  },
+  "darkMemory": {
+    "name": "ダークメモリ"
+  },
+  "fairyMemory": {
+    "name": "フェアリーメモリ"
+  },
+  "normalMemory": {
+    "name": "ノーマルメモリ"
+  },
+  "map": {
+    "name": "ちず",
+    "description": "分かれ道で 行き先が 選べる よう になる"
+  },
+  "ivScanner": {
+    "name": "こたいちスキャナー",
+    "description": "野生ポケモンの 個体値を 検査できる"
+  },
+  "lockCapsule": {
+    "name": "ロックカプセル",
+    "description": "ご褒美の 選択肢変更するとき アイテムの レア度を固定できる ように なる"
+  },
+  "megaBracelet": {
+    "name": "メガバングル",
+    "description": "メガストーンが 得られる ように なる"
+  },
+  "dynamaxBand": {
+    "name": "ダイマックスバンド",
+    "description": "ダイキノコが 得られる ように なる"
+  },
+  "teraOrb": {
+    "name": "テラスタルオーブ",
+    "description": "ポケモンが テラスタルできる ように する。 ゆっくりと チャージする。 テラピースも 見つけるように なる。"
+  },
+  "goldenPokeball": {
+    "name": "ゴールドモンスターボール",
+    "description": "バトル後に もう 一つの ご褒美の 選択肢を 加える"
+  },
+  "ovalCharm": {
+    "name": "まるいおまもり",
+    "description": "バトルに 複数の ポケモンが 参加すると 経験値が 参加した ポケモンずつ １０% 増える"
+  },
+  "expShare": {
+    "name": "がくしゅうそうち",
+    "description": "バトルに 参加していない ポケモンが １匹の 参加した ポケモンの 経験値を ２０% もらう"
+  },
+  "expBalance": {
+    "name": "バランスそうち",
+    "description": "レベルが低い 手持ちポケモンの もらう 経験値が 増える"
+  },
+  "candyJar": {
+    "name": "アメボトル",
+    "description": "ふしぎなアメや ふかしぎなアメで あげるレベルを １ 増える"
+  },
+  "berryPouch": {
+    "name": "きのみぶくろ",
+    "description": "使ったきのみは 無くならない ３０%の 可能性を 加える"
+  },
+  "healingCharm": {
+    "name": "かいふくおまもり",
+    "description": "回復する 技や アイテムの 効果を １０% あげる （復活アイテムは除く）"
+  },
+  "expCharm": {
+    "name": "けいけんおまもり",
+    "description": "もらえる 経験値を 25% 増やす"
+  },
+  "superExpCharm": {
+    "name": "いいけいけんおまもり",
+    "description": "もらえる 経験値を 60% 増やす"
+  },
+  "goldenExpCharm": {
+    "name": "ゴールドけいけんちおまもり",
+    "description": "もらえる 経験値を 100% 増やす"
+  },
+  "amuletCoin": {
+    "name": "おまもりこばん",
+    "description": "もらえる お金が ２０% 増える"
+  },
+  "abilityCharm": {
+    "name": "とくせいおまもり",
+    "description": "隠れ特性がある ポケモンと 大きく 出会いやすくなる"
+  },
+  "shinyCharm": {
+    "name": "ひかるおまもり",
+    "description": "色違いの ポケモンと 大きく 出会いやすくなる"
+  },
+  "catchingCharm": {
+    "name": "ゆれないおまもり",
+    "description": "ほかくクリティカルが 発生しやすくなる"
+  },
+  "blackSludge": {
+    "name": "くろいヘドロ",
+    "description": "ムゴい 悪臭を放つから ショップが アイテムの 価格を ぐんと 上げる"
+  },
+  "goldenBugNet": {
+    "name": "きんのむしとりあみ",
+    "description": "むしタイプの ポケモンが 見つけやすく なる運に 注ぎ込まれた 妙に重い 虫取り網"
+  },
+  "lure": {
+    "name": "むしよせコロン",
+    "description": "バトル10回の 間 ダブルバトルに なる 確率を ４倍に する"
+  },
+  "superLure": {
+    "name": "シルバーコロン",
+    "description": "バトル15回の 間 ダブルバトルに なる 確率を ４倍に する"
+  },
+  "maxLure": {
+    "name": "ゴールドコロン",
+    "description": "バトル30回の 間 ダブルバトルに なる 確率を ４倍に する"
+  },
+  "xAttack": {
+    "name": "プラスパワー",
+    "description": "全員の 手持ちポケモンの $t(pokemonInfo:stat.atk)を 最大５回の バトルの間に ２０% 上げる"
+  },
+  "xDefense": {
+    "name": "ディフェンダー",
+    "description": "全員の 手持ちポケモンの $t(pokemonInfo:stat.def)を 最大５回の バトルの間に ２０% 上げる"
+  },
+  "xSpAtk": {
+    "name": "スペシャルアップ",
+    "description": "全員の 手持ちポケモンの $t(pokemonInfo:stat.spatk)を 最大５回の バトルの間に ２０% 上げる"
+  },
+  "xSpDef": {
+    "name": "スペシャルガード",
+    "description": "全員の 手持ちポケモンの $t(pokemonInfo:stat.spdef)を 最大５回の バトルの間に ２０% 上げる"
+  },
+  "xSpeed": {
+    "name": "スピーダー",
+    "description": "全員の 手持ちポケモンの $t(pokemonInfo:stat.spd)を 最大５回の バトルの間に ２０% 上げる"
+  },
+  "xAccuracy": {
+    "name": "ヨクアタール",
+    "description": "全員の 手持ちポケモンの $t(pokemonInfo:stat.acc)を 最大５回の バトルの間に ２０% 上げる"
+  },
+  "direHit": {
+    "name": "クリティカット",
+    "extra": {
+      "raises": "急所率"
+    },
+    "description": "全員の 手持ちポケモンの $t(items:direHit.raises)を 最大５回の バトルの間に １段階 上げる"
+  },
+  "enemyDamageBooster": {
+    "name": "ダメージトークン",
+    "description": "ダメージを ５% 増やす"
+  },
+  "enemyDamageReduction": {
+    "name": "ぼうごトークン",
+    "description": "受けたダメージを ２.５% さげる"
+  },
+  "enemyHeal": {
+    "name": "かいふくトークン",
+    "description": "毎ターン 最大ＨＰの ２%を 回復する"
+  },
+  "enemyAttackPoisonChance": {
+    "name": "どくトークン",
+    "description": "攻撃技に 5%の 確率で $t(statusEffect:poison.description)を 与える"
+  },
+  "enemyAttackParalyzeChance": {
+    "name": "まひトークン",
+    "description": "攻撃技に 2.5%の 確率で $t(statusEffect:paralysis.description)を 与える"
+  },
+  "enemyAttackBurnChance": {
+    "name": "やけどトークン",
+    "description": "攻撃技に 5%の 確率で $t(statusEffect:burn.description)を 与える"
+  },
+  "enemyStatusEffectHealChance": {
+    "name": "なんでもなおしトークン",
+    "description": "毎ターン 状態異常を 治せる ２.５%の可能性を 加える"
+  },
+  "enemyEndureChance": {
+    "name": "こらえるトークン",
+    "description": "ひんしに なりそうな 技を 受けても 2%の 確率で ＨＰを １だけ 残して 耐える"
+  },
+  "enemyFusedChance": {
+    "name": "がったいトークン",
+    "description": "野生ポケモンは 吸収合体している １%の可能性を 加える"
+  },
+  "formChange": {
+    "description": "ある特定の ポケモンを フォームチェンジさせる"
+  },
+  "linkingCord": {
+    "name": "つながりのヒモ"
+  },
+  "sunStone": {
+    "name": "たいようのいし"
+  },
+  "moonStone": {
+    "name": "つきのいし"
+  },
+  "leafStone": {
+    "name": "リーフのいし"
+  },
+  "fireStone": {
+    "name": "ほのおのいし"
+  },
+  "waterStone": {
+    "name": "みずのいし"
+  },
+  "thunderStone": {
+    "name": "かみなりのいし"
+  },
+  "iceStone": {
+    "name": "こおりのいし"
+  },
+  "duskStone": {
+    "name": "やみのいし"
+  },
+  "dawnStone": {
+    "name": "めざめいし"
+  },
+  "shinyStone": {
+    "name": "ひかりのいし"
+  },
+  "crackedPot": {
+    "name": "われたポット"
+  },
+  "sweetApple": {
+    "name": "あまーいりんご"
+  },
+  "tartApple": {
+    "name": "すっぱいりんご"
+  },
+  "strawberrySweet": {
+    "name": "いちごアメざいく"
+  },
+  "unremarkableTeacup": {
+    "name": "ボンサクのちゃわん"
+  },
+  "upgrade": {
+    "name": "アップグレード"
+  },
+  "dubiousDisc": {
+    "name": "あやしいパッチ"
+  },
+  "dragonScale": {
+    "name": "りゅうのウロコ"
+  },
+  "prismScale": {
+    "name": "きれいなウロコ"
+  },
+  "razorClaw": {
+    "name": "するどいツメ"
+  },
+  "razorFang": {
+    "name": "するどいキバ"
+  },
+  "ovalStone": {
+    "name": "まんまるいし"
+  },
+  "reaperCloth": {
+    "name": "れいかいのぬの"
+  },
+  "electirizer": {
+    "name": "エレキブースター"
+  },
+  "magmarizer": {
+    "name": "マグマブースター"
+  },
+  "protector": {
+    "name": "プロテクター"
+  },
+  "sachet": {
+    "name": "においぶくろ"
+  },
+  "whippedDream": {
+    "name": "ホイップポップ"
+  },
+  "syrupyApple": {
+    "name": "みついりりんご"
+  },
+  "chippedPot": {
+    "name": "かけたポット"
+  },
+  "galaricaCuff": {
+    "name": "ガラナツブレス"
+  },
+  "galaricaWreath": {
+    "name": "ガラナツリース"
+  },
+  "auspiciousArmor": {
+    "name": "イワイノヨロイ"
+  },
+  "maliciousArmor": {
+    "name": "ノロイノヨロイ"
+  },
+  "masterpieceTeacup": {
+    "name": "ケッサクのちゃわん"
+  },
+  "sunFlute": {
+    "name": "たいようのふえ"
+  },
+  "moonFlute": {
+    "name": "つきのふえ"
+  },
+  "blackAugurite": {
+    "name": "くろのきせき"
+  },
+  "peatBlock": {
+    "name": "ピートブロック"
+  },
+  "metalAlloy": {
+    "name": "ふくごうきんぞく"
+  },
+  "scrollOfDarkness": {
+    "name": "あくのかけじく"
+  },
+  "scrollOfWaters": {
+    "name": "みずのかけじく"
+  },
+  "leadersCrest": {
+    "name": "かしらのしるし"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "nugget": {
+    "name": "Pepita de Oro"
+  },
+  "bigNugget": {
+    "name": "Maxipepita de Oro"
+  },
+  "relicGold": {
+    "name": "Real Oro"
+  },
+  "rareCandy": {
+    "name": "Carameloraro"
+  },
+  "rarerCandy": {
+    "name": "Caramelorarísimo"
+  },
+  "sacredAsh": {
+    "name": "Ceniza Sagrada"
+  },
+  "potion": {
+    "name": "Poción"
+  },
+  "superPotion": {
+    "name": "Superpoción"
+  },
+  "hyperPotion": {
+    "name": "Hiperpoción"
+  },
+  "maxPotion": {
+    "name": "Poción Máxima"
+  },
+  "fullRestore": {
+    "name": "Restaurar Todo"
+  },
+  "revive": {
+    "name": "Revivir"
+  },
+  "maxRevive": {
+    "name": "Revivir Máximo"
+  },
+  "fullHeal": {
+    "name": "Cura Total"
+  },
+  "ether": {
+    "name": "Éter"
+  },
+  "maxEther": {
+    "name": "Éter Máximo"
+  },
+  "elixir": {
+    "name": "Elixir"
+  },
+  "maxElixir": {
+    "name": "Elixir Máximo"
+  },
+  "ppUp": {
+    "name": "Más PP"
+  },
+  "ppMax": {
+    "name": "PP Máximos"
+  },
+  "memoryMushroom": {
+    "name": "Seta Recuerdo",
+    "description": "Recuerda un movimiento olvidado de un Pokémon."
+  },
+  "dnaSplicers": {
+    "name": "Punta ADN"
+  },
+  "moneyReward": {
+    "description": "Otorga una {{moneyMultiplier}} cantidad de dinero.\n({{moneyAmount}} ₽)",
+    "extra": {
+      "small": "pequeña",
+      "moderate": "moderada",
+      "large": "gran"
+    }
+  },
+  "pokemonHpRestore": {
+    "description": "Restaura {{restorePoints}} PS o, al menos, un {{restorePercent}}% PS de un Pokémon.",
+    "extra": {
+      "fully": "Restaura todos los PS de un Pokémon.",
+      "fullyWithStatus": "Restaura todos los PS de un Pokémon y cura todos los problemas de estados."
+    }
+  },
+  "pokemonRevive": {
+    "description": "Revive a un Pokémon y restaura {{restorePercent}}% PS."
+  },
+  "allPokemonFullRevive": {
+    "description": "Revive a todos los Pokémon debilitados y restaura completamente sus PS."
+  },
+  "pokemonPpRestore": {
+    "description": "Restaura {{restorePoints}} PP del movimiento que elijas de un Pokémon.",
+    "extra": {
+      "fully": "Restaura todos los PP del movimiento que elijas de un Pokémon."
+    }
+  },
+  "pokemonAllMovePpRestore": {
+    "description": "Restaura {{restorePoints}} PP de todos los movimientos de un Pokémon.",
+    "extra": {
+      "fully": "Restaura todos los PP de todos los movimientos de un Pokémon."
+    }
+  },
+  "pokemonPpUp": {
+    "description": "Aumenta permanentemente los PP para un movimiento de un Pokémon en {{upPoints}} por cada 5 PP máximo (máximo 3)."
+  },
+  "pokemonLevelIncrement": {
+    "description": "Aumenta el nivel de un Pokémon en {{levels}}."
+  },
+  "allPokemonLevelIncrement": {
+    "description": "Aumenta el nivel de todos los miembros del equipo en {{levels}}."
+  },
+  "addPokeball": {
+    "name": "{{modifierCount}}× {{pokeballName}}",
+    "description": "Recibes {{modifierCount}}× {{pokeballName}} (En inventario: {{pokeballAmount}}) \nRatio de captura: {{catchRate}}."
+  },
+  "addVoucher": {
+    "name": "{{modifierCount}}× {{voucherTypeName}}",
+    "description": "Recibes {{modifierCount}}× {{voucherTypeName}}."
+  },
+  "pokemonStatusHeal": {
+    "description": "Cura todos los problemas de estados de un Pokémon."
+  },
+  "pokemonNatureChange": {
+    "name": "Menta {{natureName}}",
+    "description": "Cambia la naturaleza de un Pokémon a {{natureName}} y la desbloquea permanentemente para el inicial."
+  },
+  "tm": {
+    "name": "MT{{moveId}} - {{moveName}}",
+    "description": "Enseña {{moveName}} a un Pokémon."
+  },
+  "tmWithInfo": {
+    "name": "MT{{moveId}} - {{moveName}}",
+    "description": "Enseña {{moveName}} a un Pokémon\n(Mantén pulsado C o Shift para más info)."
+  },
+  "fusePokemon": {
+    "description": "Fusiona dos Pokémon (transfiere habilidades, divide estadísticas bases y tipos, comparte movimientos)."
+  },
+  "evolutionItem": {
+    "description": "Hace que ciertos Pokémon evolucionen."
+  },
+  "pokemonHeldItem": {
+    "extra": {
+      "inoperable": "¡{{pokemonName}} no puede\nrecibir este objeto!",
+      "tooMany": "¡{{pokemonName}} tiene este objeto\ndemasiadas veces!"
+    }
+  }
+}

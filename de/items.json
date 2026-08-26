@@ -1,0 +1,1054 @@
+{
+  "sitrusBerry": {
+    "name": "Tsitrubeere",
+    "description": "Stellt 25% der KP wieder her, wenn die KP unter 50% sind."
+  },
+  "lumBerry": {
+    "name": "Prunusbeere",
+    "description": "Heilt jede nichtflüchtige Statusveränderung und Verwirrung."
+  },
+  "enigmaBerry": {
+    "name": "Enigmabeere",
+    "description": "Stellt 25% der KP wieder her, wenn der Träger von einer sehr effektiven Attacke getroffen wird."
+  },
+  "liechiBerry": {
+    "name": "Lydzibeere",
+    "description": "Steigert den Angriff, wenn die KP unter 25% sind."
+  },
+  "ganlonBerry": {
+    "name": "Linganbeere",
+    "description": "Steigert die Verteidigung, wenn die KP unter 25% sind."
+  },
+  "petayaBerry": {
+    "name": "Tahaybeere",
+    "description": "Steigert den Spezial-Angriff, wenn die KP unter 25% sind."
+  },
+  "apicotBerry": {
+    "name": "Apikobeere",
+    "description": "Steigert die Spezial-Verteidigung, wenn die KP unter 25% sind."
+  },
+  "salacBerry": {
+    "name": "Salkabeere",
+    "description": "Steigert die Initiative, wenn die KP unter 25% sind."
+  },
+  "lansatBerry": {
+    "name": "Lansatbeere",
+    "description": "Erhöht die Volltrefferchance, wenn die KP unter 25% sind."
+  },
+  "starfBerry": {
+    "name": "Krambobeere",
+    "description": "Erhöht einen zufälligen Statuswert stark, wenn die KP unter 25% sind."
+  },
+  "leppaBerry": {
+    "name": "Jonagobeere",
+    "description": "Stellt 10 AP für eine Attacke wieder her, wenn deren AP auf 0 fallen."
+  },
+  "reviverSeed": {
+    "name": "Belebersamen",
+    "description": "Belebt den Träger mit der Hälfte seiner KP wieder, sollte er durch einen direkten Treffer kampfunfähig werden."
+  },
+  "whiteHerb": {
+    "name": "Schlohkraut",
+    "description": "Ein Item zum Tragen. Es hebt einmalig jede negative Statuswertveränderung auf."
+  },
+  "silkScarf": {
+    "name": "Seidenschal",
+    "description": "Erhöht die Stärke aller $t(pokemonInfo:type.normal)-Attacken eines Pokémon um 20%."
+  },
+  "blackBelt": {
+    "name": "Schwarzgurt",
+    "description": "Erhöht die Stärke aller $t(pokemonInfo:type.fighting)-Attacken eines Pokémon um 20%."
+  },
+  "sharpBeak": {
+    "name": "Spitzer Schnabel",
+    "description": "Erhöht die Stärke aller $t(pokemonInfo:type.flying)-Attacken eines Pokémon um 20%."
+  },
+  "poisonBarb": {
+    "name": "Giftstich",
+    "description": "Erhöht die Stärke aller $t(pokemonInfo:type.poison)-Attacken eines Pokémon um 20%."
+  },
+  "softSand": {
+    "name": "Pudersand",
+    "description": "Erhöht die Stärke aller $t(pokemonInfo:type.ground)-Attacken eines Pokémon um 20%."
+  },
+  "hardStone": {
+    "name": "Granitstein",
+    "description": "Erhöht die Stärke aller $t(pokemonInfo:type.rock)-Attacken eines Pokémon um 20%."
+  },
+  "silverPowder": {
+    "name": "Silberstaub",
+    "description": "Erhöht die Stärke aller $t(pokemonInfo:type.bug)-Attacken eines Pokémon um 20%."
+  },
+  "spellTag": {
+    "name": "Bannsticker",
+    "description": "Erhöht die Stärke aller $t(pokemonInfo:type.ghost)-Attacken eines Pokémon um 20%."
+  },
+  "metalCoat": {
+    "name": "Metallmantel",
+    "description": "Erhöht die Stärke aller $t(pokemonInfo:type.steel)-Attacken eines Pokémon um 20%."
+  },
+  "charcoal": {
+    "name": "Holzkohle",
+    "description": "Erhöht die Stärke aller $t(pokemonInfo:type.fire)-Attacken eines Pokémon um 20%."
+  },
+  "mysticWater": {
+    "name": "Zauberwasser",
+    "description": "Erhöht die Stärke aller $t(pokemonInfo:type.water)-Attacken eines Pokémon um 20%."
+  },
+  "miracleSeed": {
+    "name": "Wundersaat",
+    "description": "Erhöht die Stärke aller $t(pokemonInfo:type.grass)-Attacken eines Pokémon um 20%."
+  },
+  "magnet": {
+    "name": "Magnet",
+    "description": "Erhöht die Stärke aller $t(pokemonInfo:type.electric)-Attacken eines Pokémon um 20%."
+  },
+  "twistedSpoon": {
+    "name": "Krümmlöffel",
+    "description": "Erhöht die Stärke aller $t(pokemonInfo:type.psychic)-Attacken eines Pokémon um 20%."
+  },
+  "neverMeltIce": {
+    "name": "Ewiges Eis",
+    "description": "Erhöht die Stärke aller $t(pokemonInfo:type.ice)-Attacken eines Pokémon um 20%."
+  },
+  "dragonFang": {
+    "name": "Drachenzahn",
+    "description": "Erhöht die Stärke aller $t(pokemonInfo:type.dragon)-Attacken eines Pokémon um 20%."
+  },
+  "blackGlasses": {
+    "name": "Schattenbrille",
+    "description": "Erhöht die Stärke aller $t(pokemonInfo:type.dark)-Attacken eines Pokémon um 20%."
+  },
+  "fairyFeather": {
+    "name": "Feendaune",
+    "description": "Erhöht die Stärke aller $t(pokemonInfo:type.fairy)-Attacken eines Pokémon um 20%."
+  },
+  "lightBall": {
+    "name": "Kugelblitz",
+    "description": "Ein Item, das von Pikachu getragen werden kann. Es erhöht den Angriff und den Spezial-Angriff."
+  },
+  "thickClub": {
+    "name": "Kampfknochen",
+    "description": "Ein Item, das von Tragosso oder Knogga getragen werden kann. Dieser harte Knochen erhöht den Angriff."
+  },
+  "metalPowder": {
+    "name": "Metallstaub",
+    "description": "Ein Item, das von Ditto getragen werden kann. Fein und doch hart, erhöht dieses sonderbare Pulver die Verteidigung."
+  },
+  "quickPowder": {
+    "name": "Flottstaub",
+    "description": "Ein Item, das Ditto zum Tragen gegeben werden kann. Fein und doch hart, erhöht dieses sonderbare Pulver die Initiative."
+  },
+  "deepSeaScale": {
+    "name": "Abyssschuppe",
+    "description": "Es schimmert pink und erhöht die Spezial-Verteidigung von Perlu."
+  },
+  "deepSeaTooth": {
+    "name": "Abysszahn",
+    "description": "Es schimmert silbern und erhöht den Spezial-Angriff von Perlu."
+  },
+  "scopeLens": {
+    "name": "Scope-Linse",
+    "description": "Ein Item zum Tragen. Es erhöht die Volltrefferquote."
+  },
+  "leek": {
+    "name": "Lauchstange",
+    "description": "Ein Item, das von Porenta getragen werden kann. Diese lange Lauchstange erhöht die Volltrefferquote stark."
+  },
+  "luckyEgg": {
+    "name": "Glücks-Ei",
+    "description": "Erhöht die Menge der erhaltenen Erfahrungspunkte für den Träger um 40%."
+  },
+  "goldenEgg": {
+    "name": "Goldenes Ei",
+    "description": "Erhöht die Menge der erhaltenen Erfahrungspunkte für den Träger um 100%."
+  },
+  "sootheBell": {
+    "name": "Sanftglocke",
+    "description": "Erhöht den Freundschaftszuwachs um 50%."
+  },
+  "focusBand": {
+    "name": "Fokusband",
+    "description": "Fügt eine 10% Chance hinzu, dass Angriffe die zur Kampfunfähigkeit führen mit 1 KP überlebt werden."
+  },
+  "quickClaw": {
+    "name": "Flinkklaue",
+    "description": "Fügt eine 10% Change hinzu als erster anzugreifen. (Nach Prioritätsangriffen)."
+  },
+  "kingsRock": {
+    "name": "King-Stein",
+    "description": "Fügt eine 10% Chance hinzu, dass der Gegner nach einem Angriff zurückschreckt."
+  },
+  "leftovers": {
+    "name": "Überreste",
+    "description": "Heilt 1/16 der maximalen KP eines Pokémon pro Runde."
+  },
+  "shellBell": {
+    "name": "Muschelglocke",
+    "description": "Heilt den Anwender um 1/8 des von ihm zugefügten Schadens."
+  },
+  "mysticalRock": {
+    "name": "Rätselhafter Stein",
+    "description": "Verlängert die Dauer von Wetter, dass durch Attacken oder Fähigkeiten des Trägers ausgelöst wurde, um 2 Runden pro Stapel."
+  },
+  "wideLens": {
+    "name": "Großlinse",
+    "description": "Erhöht die Genauigkeit der Angriffe um 5."
+  },
+  "multiLens": {
+    "name": "Mehrfachlinse",
+    "description": "Wandelt 25 % des Schadens von den Attacken des Trägers in einen zusätzlichen Treffer um."
+  },
+  "goldenPunch": {
+    "name": "Goldschlag",
+    "description": "Gewährt Geld in Höhe von 50% des zugefügten Schadens."
+  },
+  "gripClaw": {
+    "name": "Griffklaue",
+    "description": "Beim Angriff besteht eine 10%ige Chance, dass das getragene Item des Gegners gestohlen wird."
+  },
+  "toxicOrb": {
+    "name": "Toxik-Orb",
+    "description": "Dieser bizarre Orb vergiftet seinen Träger im Kampf schwer."
+  },
+  "flameOrb": {
+    "name": "Heiß-Orb",
+    "description": "Dieser bizarre Orb fügt seinem Träger im Kampf Verbrennungen zu."
+  },
+  "soulDew": {
+    "name": "Seelentau",
+    "description": "Erhöht den Einfluss des Wesens eines Pokemon auf seine Werte um 10% (additiv)."
+  },
+  "baton": {
+    "name": "Stab",
+    "description": "Ermöglicht das Weitergeben von Effekten beim Wechseln von Pokémon, wodurch auch Fallen umgangen werden."
+  },
+  "miniBlackHole": {
+    "name": "Mini schwarzes Loch",
+    "description": "Jede Runde erhält der Träger ein getragenes Item des Gegners."
+  },
+  "eviolite": {
+    "name": "Evolith",
+    "description": "Ein mysteriöser Klumpen, der die Vert. u. Spez.-Vert. von Pokémon erhöht, die sich noch entwickeln können."
+  },
+  "hpUp": {
+    "name": "KP-Plus",
+    "description": "Erhöht den $t(pokemonInfo:stat.hp) Basiswert des Trägers um 10%. Das Stapellimit erhöht sich, je höher dein IS-Wert ist."
+  },
+  "protein": {
+    "name": "Protein",
+    "description": "Erhöht den $t(pokemonInfo:stat.atk) Basiswert des Trägers um 10%. Das Stapellimit erhöht sich, je höher dein IS-Wert ist."
+  },
+  "iron": {
+    "name": "Eisen",
+    "description": "Erhöht den $t(pokemonInfo:stat.def) Basiswert des Trägers um 10%. Das Stapellimit erhöht sich, je höher dein IS-Wert ist."
+  },
+  "calcium": {
+    "name": "Kalzium",
+    "description": "Erhöht den $t(pokemonInfo:stat.spatk) Basiswert des Trägers um 10%. Das Stapellimit erhöht sich, je höher dein IS-Wert ist."
+  },
+  "zinc": {
+    "name": "Zink",
+    "description": "Erhöht den $t(pokemonInfo:stat.spdef) Basiswert des Trägers um 10%. Das Stapellimit erhöht sich, je höher dein IS-Wert ist."
+  },
+  "carbos": {
+    "name": "Carbon",
+    "description": "Erhöht den $t(pokemonInfo:stat.spd) Basiswert des Trägers um 10%. Das Stapellimit erhöht sich, je höher dein IS-Wert ist."
+  },
+  "shuckleJuiceGood": {
+    "name": "Süßer Pottrottsaft",
+    "description": "Erhöht alle Basiswerte des Trägers. Du wurdest von Pottrott gesegnet."
+  },
+  "shuckleJuiceBad": {
+    "name": "Ranziger Pottrottsaft",
+    "description": "Verringert alle Basiswerte des Trägers. Du wurdest von Pottrott verflucht."
+  },
+  "oldGateau": {
+    "name": "Spezialität",
+    "description": "Erhöht einige der Werte des Trägers."
+  },
+  "machoBrace": {
+    "name": "Machoschiene",
+    "description": "Das Besiegen eines Pokémon gewährt dem Besitzer einen Machoschiene-Stapel. Jeder Stapel steigert die Werte leicht, mit einem zusätzlichen Bonus bei maximalen Stapeln."
+  },
+  "gimmighoulEvoTracker": {
+    "name": "Schätze",
+    "description": "Dieses Pokémon liebt Schätze! Sammle weiter Schätze und vielleicht passiert etwas!"
+  },
+  "abomasite": {
+    "name": "Rexblisarnit"
+  },
+  "absolite": {
+    "name": "Absolnit"
+  },
+  "aerodactylite": {
+    "name": "Aerodactylonit"
+  },
+  "aggronite": {
+    "name": "Stollossnit"
+  },
+  "alakazite": {
+    "name": "Simsalanit"
+  },
+  "altarianite": {
+    "name": "Altarianit"
+  },
+  "ampharosite": {
+    "name": "Ampharosnit"
+  },
+  "audinite": {
+    "name": "Ohrdochnit"
+  },
+  "banettite": {
+    "name": "Banetteonit"
+  },
+  "beedrillite": {
+    "name": "Bibornit"
+  },
+  "blastoisinite": {
+    "name": "Turtoknit"
+  },
+  "blazikenite": {
+    "name": "Lohgocknit"
+  },
+  "cameruptite": {
+    "name": "Cameruptnit"
+  },
+  "charizarditeX": {
+    "name": "Gluraknit X"
+  },
+  "charizarditeY": {
+    "name": "Gluraknit Y"
+  },
+  "diancite": {
+    "name": "Diancienit"
+  },
+  "galladite": {
+    "name": "Galagladinit"
+  },
+  "garchompite": {
+    "name": "Knakracknit"
+  },
+  "gardevoirite": {
+    "name": "Guardevoirnit"
+  },
+  "gengarite": {
+    "name": "Gengarnit "
+  },
+  "glalitite": {
+    "name": "Firnontornit"
+  },
+  "gyaradosite": {
+    "name": "Garadosnit"
+  },
+  "heracronite": {
+    "name": "Skarabornit"
+  },
+  "houndoominite": {
+    "name": "Hundemonit "
+  },
+  "kangaskhanite": {
+    "name": "Kangamanit"
+  },
+  "latiasite": {
+    "name": "Latiasnit"
+  },
+  "latiosite": {
+    "name": "Latiosnit"
+  },
+  "lopunnite": {
+    "name": "Schlapornit"
+  },
+  "lucarionite": {
+    "name": "Lucarionit"
+  },
+  "manectite": {
+    "name": "Voltensonit"
+  },
+  "mawilite": {
+    "name": "Flunkifernit"
+  },
+  "medichamite": {
+    "name": "Meditalisnit"
+  },
+  "metagrossite": {
+    "name": "Metagrossnit"
+  },
+  "mewtwoniteX": {
+    "name": "Mewtunit X"
+  },
+  "mewtwoniteY": {
+    "name": "Mewtunit Y"
+  },
+  "pidgeotite": {
+    "name": "Taubossnit"
+  },
+  "pinsirite": {
+    "name": "Pinsirnit"
+  },
+  "rayquazite": {
+    "name": "Rayquazanit"
+  },
+  "sablenite": {
+    "name": "Zobirisnit"
+  },
+  "salamencite": {
+    "name": "Brutalandanit"
+  },
+  "sceptilite": {
+    "name": "Gewaldronit"
+  },
+  "scizorite": {
+    "name": "Scheroxnit"
+  },
+  "sharpedonite": {
+    "name": "Tohaidonit"
+  },
+  "slowbronite": {
+    "name": "Lahmusnit"
+  },
+  "steelixite": {
+    "name": "Stahlosnit"
+  },
+  "swampertite": {
+    "name": "Sumpexnit"
+  },
+  "tyranitarite": {
+    "name": "Despotarnit"
+  },
+  "venusaurite": {
+    "name": "Bisaflornit"
+  },
+  "clefablite": {
+    "name": "Pixinit"
+  },
+  "victreebelite": {
+    "name": "Sarzenianit"
+  },
+  "starminite": {
+    "name": "Starmienit"
+  },
+  "dragoninite": {
+    "name": "Dragoranit"
+  },
+  "meganiumite": {
+    "name": "Meganienit"
+  },
+  "feraligite": {
+    "name": "Impergatornit"
+  },
+  "skarmorite": {
+    "name": "Panzaeronit"
+  },
+  "froslassite": {
+    "name": "Frosdedjenit"
+  },
+  "emboarite": {
+    "name": "Flambirexonit"
+  },
+  "excadrite": {
+    "name": "Stalobornit"
+  },
+  "scolipite": {
+    "name": "Cerapendranit"
+  },
+  "scraftinite": {
+    "name": "Irokexonit"
+  },
+  "eelektrossite": {
+    "name": "Zapplarangonit"
+  },
+  "chandelurite": {
+    "name": "Skelabranit"
+  },
+  "chesnaughtite": {
+    "name": "Brigaronit"
+  },
+  "delphoxite": {
+    "name": "Fennexisnit"
+  },
+  "greninjite": {
+    "name": "Quajutsunit"
+  },
+  "pyroarite": {
+    "name": "Pyroleonit"
+  },
+  "floettite": {
+    "name": "Floetteonit"
+  },
+  "malamarite": {
+    "name": "Calamaneronit"
+  },
+  "barbaracite": {
+    "name": "Thanathoranit"
+  },
+  "dragalgite": {
+    "name": "Tandraknit"
+  },
+  "hawluchanite": {
+    "name": "Resladeronit"
+  },
+  "zygardite": {
+    "name": "Zygardeni"
+  },
+  "drampanite": {
+    "name": "Sen-Longnit"
+  },
+  "falinksite": {
+    "name": "Legiosnit"
+  },
+  "raichuniteX": {
+    "name": "Raichunit X"
+  },
+  "raichuniteY": {
+    "name": "Raichunit Y"
+  },
+  "chimechite": {
+    "name": "Palimpalimonit"
+  },
+  "absoliteZ": {
+    "name": "Absolnit Z"
+  },
+  "staraptite": {
+    "name": "Staraptornit"
+  },
+  "garchompiteZ": {
+    "name": "Knakracknit Z"
+  },
+  "lucarioniteZ": {
+    "name": "Lucarionit Z"
+  },
+  "heatranite": {
+    "name": "Heatranit"
+  },
+  "darkranite": {
+    "name": "Darkrainit"
+  },
+  "golurkite": {
+    "name": "Golgantesnit"
+  },
+  "meowsticite": {
+    "name": "Psiaugonit"
+  },
+  "crabominite": {
+    "name": "Krawellonit"
+  },
+  "golisopite": {
+    "name": "Tectassnit"
+  },
+  "magearnite": {
+    "name": "Magearnanit"
+  },
+  "zeraorite": {
+    "name": "Zeraoranit"
+  },
+  "scovillainite": {
+    "name": "Halupenjonit"
+  },
+  "glimmoranite": {
+    "name": "Lumifloranit"
+  },
+  "tatsugirinite": {
+    "name": "Nigiraginit"
+  },
+  "baxcalibrite": {
+    "name": "Espinodonit"
+  },
+  "blueOrb": {
+    "name": "Blauer Edelstein"
+  },
+  "redOrb": {
+    "name": "Roter Edelstein"
+  },
+  "adamantCrystal": {
+    "name": "Adamantkristall"
+  },
+  "lustrousGlobe": {
+    "name": "Weißkristall"
+  },
+  "griseousCore": {
+    "name": "Platinumkristall"
+  },
+  "revealGlass": {
+    "name": "Wahrspiegel"
+  },
+  "maxMushrooms": {
+    "name": "Dyna-Pilz"
+  },
+  "darkStone": {
+    "name": "Dunkelstein"
+  },
+  "lightStone": {
+    "name": "Lichtstein"
+  },
+  "prisonBottle": {
+    "name": "Banngefäß"
+  },
+  "rustedSword": {
+    "name": "Rostiges Schwert"
+  },
+  "rustedShield": {
+    "name": "Rostiges Schild"
+  },
+  "icyReinsOfUnity": {
+    "name": "Eisige Zügel des Bundes"
+  },
+  "shadowReinsOfUnity": {
+    "name": "Schattige Zügel des Bundes"
+  },
+  "ultranecroziumZ": {
+    "name": "Ultranecrozium Z"
+  },
+  "sharpMeteorite": {
+    "name": "Scharfer Meteorit"
+  },
+  "hardMeteorite": {
+    "name": "Harter Meteorit"
+  },
+  "smoothMeteorite": {
+    "name": "Glatter Meteorit"
+  },
+  "gracidea": {
+    "name": "Gracidea"
+  },
+  "shockDrive": {
+    "name": "Blitzmodul"
+  },
+  "burnDrive": {
+    "name": "Flammenmodul"
+  },
+  "chillDrive": {
+    "name": "Gefriermodul"
+  },
+  "douseDrive": {
+    "name": "Aquamodul"
+  },
+  "nSolarizer": {
+    "name": "Necrosol"
+  },
+  "nLunarizer": {
+    "name": "Necrolun"
+  },
+  "wellspringMask": {
+    "name": "Brunnenmaske"
+  },
+  "hearthflameMask": {
+    "name": "Ofenmaske"
+  },
+  "cornerstoneMask": {
+    "name": "Fundamentmaske"
+  },
+  "fistPlate": {
+    "name": "Fausttafel"
+  },
+  "skyPlate": {
+    "name": "Wolkentafel"
+  },
+  "toxicPlate": {
+    "name": "Gifttafel"
+  },
+  "earthPlate": {
+    "name": "Erdtafel"
+  },
+  "stonePlate": {
+    "name": "Steintafel"
+  },
+  "insectPlate": {
+    "name": "Käfertafel"
+  },
+  "spookyPlate": {
+    "name": "Spuktafel"
+  },
+  "ironPlate": {
+    "name": "Eisentafel"
+  },
+  "flamePlate": {
+    "name": "Feuertafel"
+  },
+  "splashPlate": {
+    "name": "Wassertafel"
+  },
+  "meadowPlate": {
+    "name": "Wiesentafel"
+  },
+  "zapPlate": {
+    "name": "Blitztafel"
+  },
+  "mindPlate": {
+    "name": "Hirntafel"
+  },
+  "iciclePlate": {
+    "name": "Frosttafel"
+  },
+  "dracoPlate": {
+    "name": "Dracotafel"
+  },
+  "dreadPlate": {
+    "name": "Furchttafel"
+  },
+  "pixiePlate": {
+    "name": "Feentafel"
+  },
+  "blankPlate": {
+    "name": "Neutraltafel"
+  },
+  "legendPlate": {
+    "name": "Legendentafel"
+  },
+  "fightingMemory": {
+    "name": "Kampf-Disc"
+  },
+  "flyingMemory": {
+    "name": "Flug-Disc"
+  },
+  "poisonMemory": {
+    "name": "Gift-Disc"
+  },
+  "groundMemory": {
+    "name": "Boden-Disc"
+  },
+  "rockMemory": {
+    "name": "Gesteins-Disc"
+  },
+  "bugMemory": {
+    "name": "Käfer-Disc"
+  },
+  "ghostMemory": {
+    "name": "Geister-Disc"
+  },
+  "steelMemory": {
+    "name": "Stahl-Disc"
+  },
+  "fireMemory": {
+    "name": "Feuer-Disc"
+  },
+  "waterMemory": {
+    "name": "Wasser-Disc"
+  },
+  "grassMemory": {
+    "name": "Pflanzen-Disc"
+  },
+  "electricMemory": {
+    "name": "Elektro-Disc"
+  },
+  "psychicMemory": {
+    "name": "Psycho-Disc"
+  },
+  "iceMemory": {
+    "name": "Eis-Disc"
+  },
+  "dragonMemory": {
+    "name": "Drachen-Disc"
+  },
+  "darkMemory": {
+    "name": "Unlicht-Disc"
+  },
+  "fairyMemory": {
+    "name": "Feen-Disc"
+  },
+  "normalMemory": {
+    "name": "Normal-Disc"
+  },
+  "map": {
+    "name": "Karte",
+    "description": "Ermöglicht es dir, an einer Kreuzung dein Ziel zu wählen."
+  },
+  "ivScanner": {
+    "name": "IS-Scanner",
+    "description": "Erlaubt es die IS-Werte von wilden Pokémon zu scannen.\n(2 IS-Werte pro Staplung. Die besten IS-Werte zuerst)."
+  },
+  "lockCapsule": {
+    "name": "Tresorkapsel",
+    "description": "Erlaubt es die Seltenheitsstufe der Items festzusetzen wenn diese neu gerollt werden."
+  },
+  "megaBracelet": {
+    "name": "Mega-Armband",
+    "description": "Mega-Steine werden verfügbar."
+  },
+  "dynamaxBand": {
+    "name": "Dynamax-Band",
+    "description": "Dyna-Pilze werden verfügbar."
+  },
+  "teraOrb": {
+    "name": "Terakristall-Orb",
+    "description": "Erlaubt es deinem Pokémon die Terakristallisierung durchzuführen. Läd langsam auf. Lässt Tera-Stück erscheinen."
+  },
+  "goldenPokeball": {
+    "name": "Goldener Pokéball",
+    "description": "Fügt eine zusätzliche Item-Auswahlmöglichkeit nach jedem Kampf hinzu."
+  },
+  "ovalCharm": {
+    "name": "Ovalpin",
+    "description": "Wenn mehrere Pokémon am Kampf teilnehmen, erhählt jeder von ihnen 10% extra Erfahrungspunkte."
+  },
+  "expShare": {
+    "name": "EP-Teiler",
+    "description": "Pokémon, die nicht am Kampf teilgenommen haben, bekommen 20% der Erfahrungspunkte eines Kampfteilnehmers."
+  },
+  "expBalance": {
+    "name": "EP-Ausgleicher",
+    "description": "Gewichtet die in Kämpfen erhaltenen Erfahrungspunkte auf niedrigstufigere Gruppenmitglieder."
+  },
+  "candyJar": {
+    "name": "Bonbonglas",
+    "description": "Erhöht die Anzahl der Level die ein Sonderbonbon erhöht um 1."
+  },
+  "berryPouch": {
+    "name": "Beerentüte",
+    "description": "Fügt eine 30% Chance hinzu, dass Beeren nicht verbraucht werden."
+  },
+  "healingCharm": {
+    "name": "Heilungspin",
+    "description": "Erhöht die Effektivität von Heilungsattacken sowie Heilitems um 10% (Beleber ausgenommen)."
+  },
+  "expCharm": {
+    "name": "EP-Pin",
+    "description": "Erhöht die erhaltenen Erfahrungspunkte um 25%."
+  },
+  "superExpCharm": {
+    "name": "Super-EP-Pin",
+    "description": "Erhöht die erhaltenen Erfahrungspunkte um 60%."
+  },
+  "goldenExpCharm": {
+    "name": "Goldener EP-Pin",
+    "description": "Erhöht die erhaltenen Erfahrungspunkte um 100%."
+  },
+  "amuletCoin": {
+    "name": "Münzamulett",
+    "description": "Erhöht das Preisgeld um 20%."
+  },
+  "abilityCharm": {
+    "name": "Fähigkeitspin",
+    "description": "Erhöht die Chance deutlich, dass ein wildes Pokémon eine versteckte Fähigkeit hat."
+  },
+  "shinyCharm": {
+    "name": "Schillerpin",
+    "description": "Erhöht die Chance deutlich, dass ein wildes Pokémon ein schillernd ist."
+  },
+  "catchingCharm": {
+    "name": "Superfangpin",
+    "description": "Erhöht die Wahrscheinlichkeit einen Superfang hinzulegen."
+  },
+  "blackSludge": {
+    "name": "Giftschleim",
+    "description": "Der Geruch ist so stark, dass die Geschäfte ihre Items nur zu einem stark erhöhten Preis verkaufen."
+  },
+  "goldenBugNet": {
+    "name": "Goldenes Käfersammlernetz",
+    "description": "Erhöht die Chance, dass der Besitzer mehr Pokémon vom Typ Käfer findet. Hat ein seltsames Gewicht."
+  },
+  "lure": {
+    "name": "Lockparfüm",
+    "description": "Vervierfacht die Chance, dass ein Kampf ein Doppelkampf wird, für bis zu 10 Kämpfe."
+  },
+  "superLure": {
+    "name": "Super-Lockparfüm",
+    "description": "Vervierfacht die Chance, dass ein Kampf ein Doppelkampf wird, für bis zu 15 Kämpfe."
+  },
+  "maxLure": {
+    "name": "Top-Lockparfüm",
+    "description": "Vervierfacht die Chance, dass ein Kampf ein Doppelkampf wird, für bis zu 30 Kämpfe."
+  },
+  "xAttack": {
+    "name": "X-Angriff",
+    "description": "Erhöht $t(pokemonInfo:stat.atk) aller Teammitglieder um 20% für bis zu 5 Kämpfe."
+  },
+  "xDefense": {
+    "name": "X-Verteidigung",
+    "description": "Erhöht $t(pokemonInfo:stat.def) aller Teammitglieder um 20% für bis zu 5 Kämpfe."
+  },
+  "xSpAtk": {
+    "name": "X-Sp.-Ang.",
+    "description": "Erhöht $t(pokemonInfo:stat.spatk) aller Teammitglieder um 20% für bis zu 5 Kämpfe."
+  },
+  "xSpDef": {
+    "name": "X-Sp.-Vert.",
+    "description": "Erhöht $t(pokemonInfo:stat.spdef) aller Teammitglieder um 20% für bis zu 5 Kämpfe."
+  },
+  "xSpeed": {
+    "name": "X-Tempo",
+    "description": "Erhöht $t(pokemonInfo:stat.spd) aller Teammitglieder um 20% für bis zu 5 Kämpfe."
+  },
+  "xAccuracy": {
+    "name": "X-Treffer",
+    "description": "Erhöht $t(pokemonInfo:stat.acc) aller Teammitglieder um 20% für bis zu 5 Kämpfe."
+  },
+  "direHit": {
+    "name": "X-Volltreffer",
+    "extra": {
+      "raises": "Volltrefferquote"
+    },
+    "description": "Erhöht $t(items:direHit.raises) aller Teammitglieder um eine Stufe für bis zu 5 Kämpfe."
+  },
+  "enemyDamageBooster": {
+    "name": "Schadensmarke",
+    "description": "Erhöht den Schaden um 5%."
+  },
+  "enemyDamageReduction": {
+    "name": "Schutzmarke",
+    "description": "Verringert den erhaltenen Schaden um 2,5%."
+  },
+  "enemyHeal": {
+    "name": "Wiederherstellungsmarke",
+    "description": "Heilt 2% der maximalen KP pro Runde."
+  },
+  "enemyAttackPoisonChance": {
+    "name": "Giftmarke",
+    "description": "Fügt Angriffen eine 5%ige Chance hinzu, $t(statusEffect:poison.description) zu verursachen."
+  },
+  "enemyAttackParalyzeChance": {
+    "name": "Lähmungsmarke",
+    "description": "Fügt Angriffen eine 2.5%ige Chance hinzu, $t(statusEffect:paralysis.description) zu verursachen."
+  },
+  "enemyAttackBurnChance": {
+    "name": "Brandmarke",
+    "description": "Fügt Angriffen eine 5%ige Chance hinzu, $t(statusEffect:burn.description) zu verursachen."
+  },
+  "enemyStatusEffectHealChance": {
+    "name": "Vollheilungsmarke",
+    "description": "Fügt eine 2,5%ige Chance hinzu, jede Runde einen Statuszustand zu heilen."
+  },
+  "enemyEndureChance": {
+    "name": "Ausdauer-Marke",
+    "description": "Gibt den Träger eine 2%ige Chance, einen Angriff zu überleben."
+  },
+  "enemyFusedChance": {
+    "name": "Fusionsmarke",
+    "description": "Fügt eine 1%ige Chance hinzu, dass ein wildes Pokémon eine Fusion ist."
+  },
+  "formChange": {
+    "description": "Erlaubt es bestimmten Pokémon ihre Form zu ändern."
+  },
+  "linkingCord": {
+    "name": "Linkkabel"
+  },
+  "sunStone": {
+    "name": "Sonnenstein"
+  },
+  "moonStone": {
+    "name": "Mondstein"
+  },
+  "leafStone": {
+    "name": "Blattstein"
+  },
+  "fireStone": {
+    "name": "Feuerstein"
+  },
+  "waterStone": {
+    "name": "Wasserstein"
+  },
+  "thunderStone": {
+    "name": "Donnerstein"
+  },
+  "iceStone": {
+    "name": "Eisstein"
+  },
+  "duskStone": {
+    "name": "Finsterstein"
+  },
+  "dawnStone": {
+    "name": "Funkelstein"
+  },
+  "shinyStone": {
+    "name": "Leuchtstein"
+  },
+  "crackedPot": {
+    "name": "Rissige Kanne"
+  },
+  "sweetApple": {
+    "name": "Süßer Apfel"
+  },
+  "tartApple": {
+    "name": "Saurer Apfel"
+  },
+  "strawberrySweet": {
+    "name": "Zucker-Erdbeere"
+  },
+  "unremarkableTeacup": {
+    "name": "Simple Teeschale"
+  },
+  "upgrade": {
+    "name": "Upgrade"
+  },
+  "dubiousDisc": {
+    "name": "Dubiosdisc"
+  },
+  "dragonScale": {
+    "name": "Drachenschuppe"
+  },
+  "prismScale": {
+    "name": "Schönschuppe"
+  },
+  "razorClaw": {
+    "name": "Scharfklaue"
+  },
+  "razorFang": {
+    "name": "Scharfzahn"
+  },
+  "ovalStone": {
+    "name": "Ovaler Stein"
+  },
+  "reaperCloth": {
+    "name": "Düsterumhang"
+  },
+  "electirizer": {
+    "name": "Stromisierer"
+  },
+  "magmarizer": {
+    "name": "Magmaisierer"
+  },
+  "protector": {
+    "name": "Schützer"
+  },
+  "sachet": {
+    "name": "Duftbeutel"
+  },
+  "whippedDream": {
+    "name": "Sahnehäubchen"
+  },
+  "syrupyApple": {
+    "name": "Saftiger Apfel"
+  },
+  "chippedPot": {
+    "name": "Löchrige Kanne"
+  },
+  "galaricaCuff": {
+    "name": "Galarnuss-Reif"
+  },
+  "galaricaWreath": {
+    "name": "Galarnuss-Kranz"
+  },
+  "auspiciousArmor": {
+    "name": "Glorienrüstung"
+  },
+  "maliciousArmor": {
+    "name": "Fluchrüstung"
+  },
+  "masterpieceTeacup": {
+    "name": "Edle Teeschale"
+  },
+  "sunFlute": {
+    "name": "Sonnenflöte"
+  },
+  "moonFlute": {
+    "name": "Mondflöte"
+  },
+  "blackAugurite": {
+    "name": "Schwarzaugit"
+  },
+  "peatBlock": {
+    "name": "Torfblock"
+  },
+  "metalAlloy": {
+    "name": "Legierungsmetall"
+  },
+  "scrollOfDarkness": {
+    "name": "Unlicht-Schriftrolle"
+  },
+  "scrollOfWaters": {
+    "name": "Wasser-Schriftrolle"
+  },
+  "leadersCrest": {
+    "name": "Anführersymbol"
+  }
+}

@@ -1,0 +1,1054 @@
+{
+  "sitrusBerry": {
+    "name": "文柚果",
+    "description": "ＨＰ低于５０%时，回复最大ＨＰ的２５%"
+  },
+  "lumBerry": {
+    "name": "木子果",
+    "description": "治愈任何异常状态和混乱状态"
+  },
+  "enigmaBerry": {
+    "name": "谜芝果",
+    "description": "受到效果绝佳的招式攻击时，回复２５%最大ＨＰ"
+  },
+  "liechiBerry": {
+    "name": "枝荔果",
+    "description": "ＨＰ低于２５%时，攻击提升一个等级"
+  },
+  "ganlonBerry": {
+    "name": "龙睛果",
+    "description": "ＨＰ低于２５%时，防御提升一个等级"
+  },
+  "petayaBerry": {
+    "name": "龙火果",
+    "description": "ＨＰ低于２５%时，特攻提升一个等级"
+  },
+  "apicotBerry": {
+    "name": "杏仔果",
+    "description": "ＨＰ低于２５%时，特防提升一个等级"
+  },
+  "salacBerry": {
+    "name": "沙鳞果",
+    "description": "ＨＰ低于２５%时，速度提升一个等级"
+  },
+  "lansatBerry": {
+    "name": "兰萨果",
+    "description": "ＨＰ低于２５%时，击中要害率提升两个等级"
+  },
+  "starfBerry": {
+    "name": "星桃果",
+    "description": "ＨＰ低于２５%时，提高随机一项能力两个等级"
+  },
+  "leppaBerry": {
+    "name": "苹野果",
+    "description": "有招式的ＰＰ降到０时，恢复该招式１０ＰＰ"
+  },
+  "reviverSeed": {
+    "name": "复活种子",
+    "description": "受到技能攻击伤害濒死时，\n恢复该宝可梦的ＨＰ至１/２。"
+  },
+  "whiteHerb": {
+    "name": "白色香草",
+    "description": "当携带它的宝可梦能力降低时，\n仅能回到之前的状态１次。"
+  },
+  "silkScarf": {
+    "name": "丝绸围巾",
+    "description": "一只宝可梦的$t(pokemonInfo:type.normal)系招式威力提升２０%。"
+  },
+  "blackBelt": {
+    "name": "黑带",
+    "description": "一只宝可梦的$t(pokemonInfo:type.fighting)系招式威力提升２０%。"
+  },
+  "sharpBeak": {
+    "name": "锐利鸟嘴",
+    "description": "一只宝可梦的$t(pokemonInfo:type.flying)系招式威力提升２０%。"
+  },
+  "poisonBarb": {
+    "name": "毒针",
+    "description": "一只宝可梦的$t(pokemonInfo:type.poison)系招式威力提升２０%。"
+  },
+  "softSand": {
+    "name": "柔软沙子",
+    "description": "一只宝可梦的$t(pokemonInfo:type.ground)系招式威力提升２０%。"
+  },
+  "hardStone": {
+    "name": "硬石头",
+    "description": "一只宝可梦的$t(pokemonInfo:type.rock)系招式威力提升２０%。"
+  },
+  "silverPowder": {
+    "name": "银粉",
+    "description": "一只宝可梦的$t(pokemonInfo:type.bug)系招式威力提升２０%。"
+  },
+  "spellTag": {
+    "name": "诅咒之符",
+    "description": "一只宝可梦的$t(pokemonInfo:type.ghost)系招式威力提升２０%。"
+  },
+  "metalCoat": {
+    "name": "金属膜",
+    "description": "一只宝可梦的$t(pokemonInfo:type.steel)系招式威力提升２０%。"
+  },
+  "charcoal": {
+    "name": "木炭",
+    "description": "一只宝可梦的$t(pokemonInfo:type.fire)系招式威力提升２０%。"
+  },
+  "mysticWater": {
+    "name": "神秘水滴",
+    "description": "一只宝可梦的$t(pokemonInfo:type.water)系招式威力提升２０%。"
+  },
+  "miracleSeed": {
+    "name": "奇迹种子",
+    "description": "一只宝可梦的$t(pokemonInfo:type.grass)系招式威力提升２０%。"
+  },
+  "magnet": {
+    "name": "磁铁",
+    "description": "一只宝可梦的$t(pokemonInfo:type.electric)系招式威力提升２０%。"
+  },
+  "twistedSpoon": {
+    "name": "弯曲的汤匙",
+    "description": "一只宝可梦的$t(pokemonInfo:type.psychic)系招式威力提升２０%。"
+  },
+  "neverMeltIce": {
+    "name": "不融冰",
+    "description": "一只宝可梦的$t(pokemonInfo:type.ice)系招式威力提升２０%。"
+  },
+  "dragonFang": {
+    "name": "龙之牙",
+    "description": "一只宝可梦的$t(pokemonInfo:type.dragon)系招式威力提升２０%。"
+  },
+  "blackGlasses": {
+    "name": "黑色眼镜",
+    "description": "一只宝可梦的$t(pokemonInfo:type.dark)系招式威力提升２０%。"
+  },
+  "fairyFeather": {
+    "name": "妖精之羽",
+    "description": "一只宝可梦的$t(pokemonInfo:type.fairy)系招式威力提升２０%。"
+  },
+  "lightBall": {
+    "name": "电气球",
+    "description": "让皮卡丘携带后，\n攻击和特攻就会提高的神奇之球。"
+  },
+  "thickClub": {
+    "name": "粗骨头",
+    "description": "某种坚硬的骨头。\n让卡拉卡拉或嘎啦嘎啦携带后，攻击就会提高。"
+  },
+  "metalPowder": {
+    "name": "金属粉",
+    "description": "让百变怪携带后，防御就会提高的神奇粉末。\n非常细腻坚硬。"
+  },
+  "quickPowder": {
+    "name": "速度粉",
+    "description": "让百变怪携带后，速度就会提高的神奇粉末。\n非常细腻坚硬。"
+  },
+  "deepSeaScale": {
+    "name": "深海鳞片",
+    "description": "闪耀着粉红色光泽的鳞片。$让珍珠贝携带后，特防就会提高。"
+  },
+  "deepSeaTooth": {
+    "name": "深海之牙",
+    "description": "散发着闪亮银光的锐利牙齿。$让珍珠贝携带后，特攻就会提高。"
+  },
+  "scopeLens": {
+    "name": "焦点镜",
+    "description": "能看见弱点的镜片。携带它的宝可梦的招式\n会变得容易击中要害。"
+  },
+  "leek": {
+    "name": "大葱",
+    "description": "非常长且坚硬的茎。让大葱鸭携带后，\n招式会变得容易击中要害。"
+  },
+  "luckyEgg": {
+    "name": "幸运蛋",
+    "description": "持有者经验值获取量增加40%。"
+  },
+  "goldenEgg": {
+    "name": "金蛋",
+    "description": "持有者经验值获取量增加100%。"
+  },
+  "sootheBell": {
+    "name": "安抚之铃",
+    "description": "亲密度获取量增加５０%。"
+  },
+  "focusBand": {
+    "name": "气势头带",
+    "description": "携带该道具的宝可梦增加１０%几率在受到攻击\n而将陷入濒死状态时，保留１点ＨＰ不陷入濒死状态。"
+  },
+  "quickClaw": {
+    "name": "先制之爪",
+    "description": "增加１０%的几率无视速度优先使出招式\n(先制技能优先)。"
+  },
+  "kingsRock": {
+    "name": "王者之证",
+    "description": "使用任意原本不会造成畏缩状态的攻击，\n增加１０%几率使目标陷入畏缩状态。"
+  },
+  "leftovers": {
+    "name": "吃剩的东西",
+    "description": "携带后，在每个回合结束时恢复\n最大ＨＰ的１/１６。"
+  },
+  "shellBell": {
+    "name": "贝壳之铃",
+    "description": "携带后，在攻击对方成功造成伤害时，\n携带者的ＨＰ会恢复其所造成伤害的１/８。"
+  },
+  "mysticalRock": {
+    "name": "神秘石块",
+    "description": "每堆叠一次，可将招式或能力造成的\n地形和天气的持续时间延长 ２ 回合。"
+  },
+  "wideLens": {
+    "name": "广角镜",
+    "description": "招式命中率增加5。"
+  },
+  "multiLens": {
+    "name": "多重镜",
+    "description": "将持有者本次伤害的２５%转化为一次独立的攻击。"
+  },
+  "goldenPunch": {
+    "name": "黄金拳头",
+    "description": "将５０%造成的伤害转换为金钱。"
+  },
+  "gripClaw": {
+    "name": "紧缠钩爪",
+    "description": "攻击时10%概率\n偷取对手物品。"
+  },
+  "toxicOrb": {
+    "name": "剧毒宝珠",
+    "description": "触碰后会放出毒的神奇宝珠。\n携带后，在战斗时会变成剧毒状态。"
+  },
+  "flameOrb": {
+    "name": "火焰宝珠",
+    "description": "触碰后会放出热量的神奇宝珠。\n携带后，在战斗时会变成灼伤状态。"
+  },
+  "soulDew": {
+    "name": "心之水滴",
+    "description": "增加１０%宝可梦性格对数值的影响 (加算)。"
+  },
+  "baton": {
+    "name": "接力棒",
+    "description": "允许在切换宝可梦时保留能力变化, 对陷阱\n同样生效。"
+  },
+  "miniBlackHole": {
+    "name": "迷你黑洞",
+    "description": "持有者每回合从对手那里\n获得一个持有的物品。"
+  },
+  "eviolite": {
+    "name": "进化奇石",
+    "description": "携带后，还能进化的宝可梦的\n防御和特防就会提高。"
+  },
+  "hpUp": {
+    "name": "ＨＰ增强剂",
+    "description": "增加１０%持有者的$t(pokemonInfo:stat.hp)，\n个体值越高堆叠上限越高。"
+  },
+  "protein": {
+    "name": "攻击增强剂",
+    "description": "增加１０%持有者的$t(pokemonInfo:stat.atk)，\n个体值越高堆叠上限越高。"
+  },
+  "iron": {
+    "name": "防御增强剂",
+    "description": "增加１０%持有者的$t(pokemonInfo:stat.def)，\n个体值越高堆叠上限越高。"
+  },
+  "calcium": {
+    "name": "特攻增强剂",
+    "description": "增加１０%持有者的$t(pokemonInfo:stat.spatk)，\n个体值越高堆叠上限越高。"
+  },
+  "zinc": {
+    "name": "特防增强剂",
+    "description": "增加１０%持有者的$t(pokemonInfo:stat.spdef)，\n个体值越高堆叠上限越高。"
+  },
+  "carbos": {
+    "name": "速度增强剂",
+    "description": "增加１０%持有者的$t(pokemonInfo:stat.spd)，\n个体值越高堆叠上限越高。"
+  },
+  "shuckleJuiceGood": {
+    "name": "甜壶壶果汁",
+    "description": "增加持有者的所有基础个体值。你被壶壶祝福了！"
+  },
+  "shuckleJuiceBad": {
+    "name": "腐烂的壶壶果汁",
+    "description": "减少持有者的所有基础个体值。你被壶壶诅咒了！"
+  },
+  "oldGateau": {
+    "name": "森之羊羔",
+    "description": "增加持有者的部分个体值。"
+  },
+  "machoBrace": {
+    "name": "强制锻炼器",
+    "description": "击败对手后获得一层锻炼等级。每层会略微提升属性，\n达到最大层数时还会获得额外奖励。"
+  },
+  "gimmighoulEvoTracker": {
+    "name": "宝藏金币",
+    "description": "这个宝可梦最爱金币！多收集点金币的话会发生什么呢？"
+  },
+  "abomasite": {
+    "name": "暴雪王进化石"
+  },
+  "absolite": {
+    "name": "阿勃梭鲁进化石"
+  },
+  "aerodactylite": {
+    "name": "化石翼龙进化石"
+  },
+  "aggronite": {
+    "name": "波士可多拉进化石"
+  },
+  "alakazite": {
+    "name": "胡地进化石"
+  },
+  "altarianite": {
+    "name": "七夕青鸟进化石"
+  },
+  "ampharosite": {
+    "name": "电龙进化石"
+  },
+  "audinite": {
+    "name": "差不多娃娃进化石"
+  },
+  "banettite": {
+    "name": "诅咒娃娃进化石"
+  },
+  "beedrillite": {
+    "name": "大针蜂进化石"
+  },
+  "blastoisinite": {
+    "name": "水箭龟进化石"
+  },
+  "blazikenite": {
+    "name": "火焰鸡进化石"
+  },
+  "cameruptite": {
+    "name": "喷火驼进化石"
+  },
+  "charizarditeX": {
+    "name": "喷火龙进化石Ｘ"
+  },
+  "charizarditeY": {
+    "name": "喷火龙进化石Ｙ"
+  },
+  "diancite": {
+    "name": "蒂安希进化石"
+  },
+  "galladite": {
+    "name": "艾路雷朵进化石"
+  },
+  "garchompite": {
+    "name": "烈咬陆鲨进化石"
+  },
+  "gardevoirite": {
+    "name": "沙奈朵进化石"
+  },
+  "gengarite": {
+    "name": "耿鬼进化石"
+  },
+  "glalitite": {
+    "name": "冰鬼护进化石"
+  },
+  "gyaradosite": {
+    "name": "暴鲤龙进化石"
+  },
+  "heracronite": {
+    "name": "赫拉克罗斯进化石"
+  },
+  "houndoominite": {
+    "name": "黑鲁加进化石"
+  },
+  "kangaskhanite": {
+    "name": "袋兽进化石"
+  },
+  "latiasite": {
+    "name": "拉帝亚斯进化石"
+  },
+  "latiosite": {
+    "name": "拉帝欧斯进化石"
+  },
+  "lopunnite": {
+    "name": "长耳兔进化石"
+  },
+  "lucarionite": {
+    "name": "路卡利欧进化石"
+  },
+  "manectite": {
+    "name": "雷电兽进化石"
+  },
+  "mawilite": {
+    "name": "大嘴娃进化石"
+  },
+  "medichamite": {
+    "name": "恰雷姆进化石"
+  },
+  "metagrossite": {
+    "name": "巨金怪进化石"
+  },
+  "mewtwoniteX": {
+    "name": "超梦进化石Ｘ"
+  },
+  "mewtwoniteY": {
+    "name": "超梦进化石Ｙ"
+  },
+  "pidgeotite": {
+    "name": "大比鸟进化石"
+  },
+  "pinsirite": {
+    "name": "凯罗斯进化石"
+  },
+  "rayquazite": {
+    "name": "烈空坐进化石"
+  },
+  "sablenite": {
+    "name": "勾魂眼进化石"
+  },
+  "salamencite": {
+    "name": "暴飞龙进化石"
+  },
+  "sceptilite": {
+    "name": "蜥蜴王进化石"
+  },
+  "scizorite": {
+    "name": "巨钳螳螂进化石"
+  },
+  "sharpedonite": {
+    "name": "巨牙鲨进化石"
+  },
+  "slowbronite": {
+    "name": "呆壳兽进化石"
+  },
+  "steelixite": {
+    "name": "大钢蛇进化石"
+  },
+  "swampertite": {
+    "name": "巨沼怪进化石"
+  },
+  "tyranitarite": {
+    "name": "班基拉斯进化石"
+  },
+  "venusaurite": {
+    "name": "妙蛙花进化石"
+  },
+  "clefablite": {
+    "name": "皮可西进化石"
+  },
+  "victreebelite": {
+    "name": "大食花进化石"
+  },
+  "starminite": {
+    "name": "宝石海星进化石"
+  },
+  "dragoninite": {
+    "name": "快龙进化石"
+  },
+  "meganiumite": {
+    "name": "大竺葵进化石"
+  },
+  "feraligite": {
+    "name": "大力鳄进化石"
+  },
+  "skarmorite": {
+    "name": "盔甲鸟进化石"
+  },
+  "froslassite": {
+    "name": "雪妖女进化石"
+  },
+  "emboarite": {
+    "name": "炎武王进化石"
+  },
+  "excadrite": {
+    "name": "龙头地鼠进化石"
+  },
+  "scolipite": {
+    "name": "蜈蚣王进化石"
+  },
+  "scraftinite": {
+    "name": "头巾混混进化石"
+  },
+  "eelektrossite": {
+    "name": "麻麻鳗鱼王进化石"
+  },
+  "chandelurite": {
+    "name": "水晶灯火灵进化石"
+  },
+  "chesnaughtite": {
+    "name": "布里卡隆进化石"
+  },
+  "delphoxite": {
+    "name": "妖火红狐进化石"
+  },
+  "greninjite": {
+    "name": "甲贺忍蛙进化石"
+  },
+  "pyroarite": {
+    "name": "火炎狮进化石"
+  },
+  "floettite": {
+    "name": "花叶蒂进化石"
+  },
+  "malamarite": {
+    "name": "乌贼王进化石"
+  },
+  "barbaracite": {
+    "name": "龟足巨铠进化石"
+  },
+  "dragalgite": {
+    "name": "毒藻龙进化石"
+  },
+  "hawluchanite": {
+    "name": "摔角鹰人进化石"
+  },
+  "zygardite": {
+    "name": "基格尔德进化石"
+  },
+  "drampanite": {
+    "name": "老翁龙进化石"
+  },
+  "falinksite": {
+    "name": "列阵兵进化石"
+  },
+  "raichuniteX": {
+    "name": "雷丘进化石Ｘ"
+  },
+  "raichuniteY": {
+    "name": "雷丘进化石Ｙ"
+  },
+  "chimechite": {
+    "name": "风铃铃进化石"
+  },
+  "absoliteZ": {
+    "name": "阿勃梭鲁进化石Ｚ"
+  },
+  "staraptite": {
+    "name": "姆克鹰进化石"
+  },
+  "garchompiteZ": {
+    "name": "烈咬陆鲨进化石Ｚ"
+  },
+  "lucarioniteZ": {
+    "name": "路卡利欧进化石Ｚ"
+  },
+  "heatranite": {
+    "name": "席多蓝恩进化石"
+  },
+  "darkranite": {
+    "name": "达克莱伊进化石"
+  },
+  "golurkite": {
+    "name": "泥偶巨人进化石"
+  },
+  "meowsticite": {
+    "name": "超能妙喵进化石"
+  },
+  "crabominite": {
+    "name": "好胜毛蟹进化石"
+  },
+  "golisopite": {
+    "name": "具甲武者进化石"
+  },
+  "magearnite": {
+    "name": "玛机雅娜进化石"
+  },
+  "zeraorite": {
+    "name": "捷拉奥拉进化石"
+  },
+  "scovillainite": {
+    "name": "狠辣椒进化石"
+  },
+  "glimmoranite": {
+    "name": "晶光花进化石"
+  },
+  "tatsugirinite": {
+    "name": "米立龙进化石"
+  },
+  "baxcalibrite": {
+    "name": "戟脊龙进化石"
+  },
+  "blueOrb": {
+    "name": "靛蓝色宝珠"
+  },
+  "redOrb": {
+    "name": "朱红色宝珠"
+  },
+  "adamantCrystal": {
+    "name": "大金刚宝玉"
+  },
+  "lustrousGlobe": {
+    "name": "大白宝玉"
+  },
+  "griseousCore": {
+    "name": "大白金宝玉"
+  },
+  "revealGlass": {
+    "name": "现形镜"
+  },
+  "maxMushrooms": {
+    "name": "极巨菇菇"
+  },
+  "darkStone": {
+    "name": "黑暗石"
+  },
+  "lightStone": {
+    "name": "光明石"
+  },
+  "prisonBottle": {
+    "name": "惩戒之壶"
+  },
+  "rustedSword": {
+    "name": "腐朽的剑"
+  },
+  "rustedShield": {
+    "name": "腐朽的盾"
+  },
+  "icyReinsOfUnity": {
+    "name": "牵绊缰绳(冰)"
+  },
+  "shadowReinsOfUnity": {
+    "name": "牵绊缰绳(幽灵)"
+  },
+  "ultranecroziumZ": {
+    "name": "究极奈克洛Ｚ"
+  },
+  "sharpMeteorite": {
+    "name": "锐利陨石"
+  },
+  "hardMeteorite": {
+    "name": "坚硬陨石"
+  },
+  "smoothMeteorite": {
+    "name": "光滑陨石"
+  },
+  "gracidea": {
+    "name": "葛拉西蒂亚花"
+  },
+  "shockDrive": {
+    "name": "闪电卡带"
+  },
+  "burnDrive": {
+    "name": "火焰卡带"
+  },
+  "chillDrive": {
+    "name": "冰冻卡带"
+  },
+  "douseDrive": {
+    "name": "水流卡带"
+  },
+  "nSolarizer": {
+    "name": "奈克洛索尔合体器"
+  },
+  "nLunarizer": {
+    "name": "奈克洛露奈合体器"
+  },
+  "wellspringMask": {
+    "name": "水井面具"
+  },
+  "hearthflameMask": {
+    "name": "火灶面具"
+  },
+  "cornerstoneMask": {
+    "name": "础石面具"
+  },
+  "fistPlate": {
+    "name": "拳头石板"
+  },
+  "skyPlate": {
+    "name": "蓝天石板"
+  },
+  "toxicPlate": {
+    "name": "剧毒石板"
+  },
+  "earthPlate": {
+    "name": "大地石板"
+  },
+  "stonePlate": {
+    "name": "岩石石板"
+  },
+  "insectPlate": {
+    "name": "玉虫石板"
+  },
+  "spookyPlate": {
+    "name": "妖怪石板"
+  },
+  "ironPlate": {
+    "name": "钢铁石板"
+  },
+  "flamePlate": {
+    "name": "火球石板"
+  },
+  "splashPlate": {
+    "name": "水滴石板"
+  },
+  "meadowPlate": {
+    "name": "碧绿石板"
+  },
+  "zapPlate": {
+    "name": "雷电石板"
+  },
+  "mindPlate": {
+    "name": "神奇石板"
+  },
+  "iciclePlate": {
+    "name": "冰柱石板"
+  },
+  "dracoPlate": {
+    "name": "龙之石板"
+  },
+  "dreadPlate": {
+    "name": "恶颜石板"
+  },
+  "pixiePlate": {
+    "name": "妖精石板"
+  },
+  "blankPlate": {
+    "name": "净空石板"
+  },
+  "legendPlate": {
+    "name": "传说石板"
+  },
+  "fightingMemory": {
+    "name": "战斗存储碟"
+  },
+  "flyingMemory": {
+    "name": "飞翔存储碟"
+  },
+  "poisonMemory": {
+    "name": "毒存储碟"
+  },
+  "groundMemory": {
+    "name": "大地存储碟"
+  },
+  "rockMemory": {
+    "name": "岩石存储碟"
+  },
+  "bugMemory": {
+    "name": "虫子存储碟"
+  },
+  "ghostMemory": {
+    "name": "幽灵存储碟"
+  },
+  "steelMemory": {
+    "name": "钢铁存储碟"
+  },
+  "fireMemory": {
+    "name": "火焰存储碟"
+  },
+  "waterMemory": {
+    "name": "清水存储碟"
+  },
+  "grassMemory": {
+    "name": "青草存储碟"
+  },
+  "electricMemory": {
+    "name": "电子存储碟"
+  },
+  "psychicMemory": {
+    "name": "精神存储碟"
+  },
+  "iceMemory": {
+    "name": "冰雪存储碟"
+  },
+  "dragonMemory": {
+    "name": "龙存储碟"
+  },
+  "darkMemory": {
+    "name": "黑暗存储碟"
+  },
+  "fairyMemory": {
+    "name": "妖精存储碟"
+  },
+  "normalMemory": {
+    "name": "一般存储碟"
+  },
+  "map": {
+    "name": "地图",
+    "description": "有概率允许你在切换地区时\n选择目的地。"
+  },
+  "ivScanner": {
+    "name": "个体值探测器",
+    "description": "允许扫描野生宝可梦的个体值。"
+  },
+  "lockCapsule": {
+    "name": "上锁的容器",
+    "description": "允许在商店中刷新物品时，\n锁定物品的稀有度。"
+  },
+  "megaBracelet": {
+    "name": "超級手鐲",
+    "description": "能讓攜帶着超級石戰鬥的寶可夢進行\n超級進化。"
+  },
+  "dynamaxBand": {
+    "name": "极巨腕带",
+    "description": "能让携带着极巨菇菇战斗的宝可梦\n进行超极巨化。"
+  },
+  "teraOrb": {
+    "name": "太晶珠",
+    "description": "能让战斗的宝可梦进行太晶化。\n缓慢充能，太晶碎片也会出现在商店中。"
+  },
+  "goldenPokeball": {
+    "name": "黄金精灵球",
+    "description": "在每场战斗结束后，增加一个额外物品选项。"
+  },
+  "ovalCharm": {
+    "name": "圆形护符",
+    "description": "当多只宝可梦参与战斗，分别获得总经验值\n１０%的额外经验值。"
+  },
+  "expShare": {
+    "name": "学习装置",
+    "description": "未参加对战的宝可梦获得２０%的经验值。"
+  },
+  "expBalance": {
+    "name": "均衡型学习装置",
+    "description": "经验值会更多分给队伍中等级最低的宝可梦。"
+  },
+  "candyJar": {
+    "name": "糖果罐",
+    "description": "神奇糖果提供的升级额外增加１级。"
+  },
+  "berryPouch": {
+    "name": "树果袋",
+    "description": "使用树果时增加３０%的几率不会消耗树果。"
+  },
+  "healingCharm": {
+    "name": "治愈护符",
+    "description": "ＨＰ回复量增加１０% (不含复活)。"
+  },
+  "expCharm": {
+    "name": "经验护符",
+    "description": "经验值获取量增加25%。"
+  },
+  "superExpCharm": {
+    "name": "超级经验护符",
+    "description": "经验值获取量增加60%。"
+  },
+  "goldenExpCharm": {
+    "name": "黄金经验护符",
+    "description": "经验值获取量增加100%。"
+  },
+  "amuletCoin": {
+    "name": "护符金币",
+    "description": "获得的金钱增加２０%。"
+  },
+  "abilityCharm": {
+    "name": "特性护符",
+    "description": "显著增加野生宝可梦有隐藏特性的概率。"
+  },
+  "shinyCharm": {
+    "name": "闪耀护符",
+    "description": "显著增加野生宝可梦的闪光概率。"
+  },
+  "catchingCharm": {
+    "name": "防晃护符",
+    "description": "增加关键捕获的几率。"
+  },
+  "blackSludge": {
+    "name": "黑色污泥",
+    "description": "由于恶臭扑鼻，商店会以非常高昂的价格向您出售商品。"
+  },
+  "goldenBugNet": {
+    "name": "金捕虫网",
+    "description": "赋予主人好运，使其更容易\n找到虫属性宝可梦，手感很奇妙。"
+  },
+  "lure": {
+    "name": "引虫香水",
+    "description": "遭遇双打概率提升四倍，持续10场战斗。"
+  },
+  "superLure": {
+    "name": "白银香水",
+    "description": "遭遇双打概率提升四倍，持续15场战斗。"
+  },
+  "maxLure": {
+    "name": "黄金香水",
+    "description": "遭遇双打概率提升四倍，持续30场战斗。"
+  },
+  "xAttack": {
+    "name": "力量强化",
+    "description": "提升全队的$t(pokemonInfo:stat.atk)２０%，持续５场战斗。"
+  },
+  "xDefense": {
+    "name": "防御强化",
+    "description": "提升全队的$t(pokemonInfo:stat.def)２０%，持续５场战斗。"
+  },
+  "xSpAtk": {
+    "name": "特攻强化",
+    "description": "提升全队的$t(pokemonInfo:stat.spatk)２０%，持续５场战斗。"
+  },
+  "xSpDef": {
+    "name": "特防强化",
+    "description": "提升全队的$t(pokemonInfo:stat.spdef)２０%，持续５场战斗。"
+  },
+  "xSpeed": {
+    "name": "速度强化",
+    "description": "提升全队的$t(pokemonInfo:stat.spd)２０%，持续５场战斗。"
+  },
+  "xAccuracy": {
+    "name": "命中强化",
+    "description": "提升全队的$t(pokemonInfo:stat.acc)２０%，持续５场战斗。"
+  },
+  "direHit": {
+    "name": "要害攻击",
+    "extra": {
+      "raises": "会心"
+    },
+    "description": "提升全队的$t(items:direHit.raises)１阶，持续５场战斗。"
+  },
+  "enemyDamageBooster": {
+    "name": "伤害硬币",
+    "description": "造成５%额外伤害（乘算）。"
+  },
+  "enemyDamageReduction": {
+    "name": "防御硬币",
+    "description": "受到２.５%更少伤害（乘算）。"
+  },
+  "enemyHeal": {
+    "name": "回复硬币",
+    "description": "每回合回复２%最大ＨＰ。"
+  },
+  "enemyAttackPoisonChance": {
+    "name": "剧毒硬币",
+    "description": "攻击时5%概率造成$t(statusEffect:poison.description)。"
+  },
+  "enemyAttackParalyzeChance": {
+    "name": "麻痹硬币",
+    "description": "攻击时2.5%概率造成$t(statusEffect:paralysis.description)。"
+  },
+  "enemyAttackBurnChance": {
+    "name": "灼烧硬币",
+    "description": "攻击时5%概率造成$t(statusEffect:burn.description)。"
+  },
+  "enemyStatusEffectHealChance": {
+    "name": "万灵药硬币",
+    "description": "增加２.５%每回合治愈异常状态的概率。"
+  },
+  "enemyEndureChance": {
+    "name": "忍受硬币",
+    "description": "敌方增加2%的概率\n在本回合不会倒下。"
+  },
+  "enemyFusedChance": {
+    "name": "融合硬币",
+    "description": "增加１%野生融合宝可梦出现概率。"
+  },
+  "formChange": {
+    "description": "使某些宝可梦更改形态。"
+  },
+  "linkingCord": {
+    "name": "联系绳"
+  },
+  "sunStone": {
+    "name": "日之石"
+  },
+  "moonStone": {
+    "name": "月之石"
+  },
+  "leafStone": {
+    "name": "叶之石"
+  },
+  "fireStone": {
+    "name": "火之石"
+  },
+  "waterStone": {
+    "name": "水之石"
+  },
+  "thunderStone": {
+    "name": "雷之石"
+  },
+  "iceStone": {
+    "name": "冰之石"
+  },
+  "duskStone": {
+    "name": "暗之石"
+  },
+  "dawnStone": {
+    "name": "觉醒之石"
+  },
+  "shinyStone": {
+    "name": "光之石"
+  },
+  "crackedPot": {
+    "name": "破裂的茶壶"
+  },
+  "sweetApple": {
+    "name": "甜甜苹果"
+  },
+  "tartApple": {
+    "name": "酸酸苹果"
+  },
+  "strawberrySweet": {
+    "name": "草莓糖饰"
+  },
+  "unremarkableTeacup": {
+    "name": "凡作茶碗"
+  },
+  "upgrade": {
+    "name": "升级数据"
+  },
+  "dubiousDisc": {
+    "name": "可疑补丁"
+  },
+  "dragonScale": {
+    "name": "龙之鳞片"
+  },
+  "prismScale": {
+    "name": "美丽鳞片"
+  },
+  "razorClaw": {
+    "name": "锐利之爪"
+  },
+  "razorFang": {
+    "name": "锐利之牙"
+  },
+  "ovalStone": {
+    "name": "浑圆之石"
+  },
+  "reaperCloth": {
+    "name": "灵界之布"
+  },
+  "electirizer": {
+    "name": "电力增幅器"
+  },
+  "magmarizer": {
+    "name": "熔岩增幅器"
+  },
+  "protector": {
+    "name": "护具"
+  },
+  "sachet": {
+    "name": "香袋"
+  },
+  "whippedDream": {
+    "name": "泡沫奶油"
+  },
+  "syrupyApple": {
+    "name": "蜜汁苹果"
+  },
+  "chippedPot": {
+    "name": "缺损的茶壶"
+  },
+  "galaricaCuff": {
+    "name": "伽勒豆蔻手环"
+  },
+  "galaricaWreath": {
+    "name": "伽勒豆蔻花圈"
+  },
+  "auspiciousArmor": {
+    "name": "庆祝之铠"
+  },
+  "maliciousArmor": {
+    "name": "咒术之铠"
+  },
+  "masterpieceTeacup": {
+    "name": "杰作茶碗"
+  },
+  "sunFlute": {
+    "name": "太阳之笛"
+  },
+  "moonFlute": {
+    "name": "月亮之笛"
+  },
+  "blackAugurite": {
+    "name": "黑奇石"
+  },
+  "peatBlock": {
+    "name": "泥炭块"
+  },
+  "metalAlloy": {
+    "name": "复合金属"
+  },
+  "scrollOfDarkness": {
+    "name": "恶之挂轴"
+  },
+  "scrollOfWaters": {
+    "name": "水之挂轴"
+  },
+  "leadersCrest": {
+    "name": "头领凭证"
+  }
+}

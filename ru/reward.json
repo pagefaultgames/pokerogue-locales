@@ -1,0 +1,146 @@
+{
+  "nugget": {
+    "name": "Самородок"
+  },
+  "bigNugget": {
+    "name": "Большой Самородок"
+  },
+  "relicGold": {
+    "name": "Реликтовое Золото"
+  },
+  "rareCandy": {
+    "name": "Редкая конфета"
+  },
+  "rarerCandy": {
+    "name": "Редчайшая конфета"
+  },
+  "sacredAsh": {
+    "name": "Священный Пепел"
+  },
+  "potion": {
+    "name": "Эликсир"
+  },
+  "superPotion": {
+    "name": "Суперэликсир"
+  },
+  "hyperPotion": {
+    "name": "Гиперэликсир"
+  },
+  "maxPotion": {
+    "name": "Эликсир макс"
+  },
+  "fullRestore": {
+    "name": "Полное Восстановление"
+  },
+  "revive": {
+    "name": "Оживление"
+  },
+  "maxRevive": {
+    "name": "Оживление макс"
+  },
+  "fullHeal": {
+    "name": "Полное Исцеление"
+  },
+  "ether": {
+    "name": "Эфир"
+  },
+  "maxEther": {
+    "name": "Макс-Эфир"
+  },
+  "elixir": {
+    "name": "Эликсир"
+  },
+  "maxElixir": {
+    "name": "Макс-Эликсир"
+  },
+  "ppUp": {
+    "name": "Плюс ОД"
+  },
+  "ppMax": {
+    "name": "ОД Макс"
+  },
+  "memoryMushroom": {
+    "name": "Гриб Памяти",
+    "description": "Вспомнить забытый приём Покемона."
+  },
+  "dnaSplicers": {
+    "name": "ДНК-сплайсеры"
+  },
+  "moneyReward": {
+    "description": "Дает {{moneyMultiplier}} количество денег ({{moneyAmount}} ₽).",
+    "extra": {
+      "small": "малый",
+      "moderate": "средний",
+      "large": "большой"
+    }
+  },
+  "pokemonHpRestore": {
+    "description": "В зависимости от того, что больше, исцеляет {{restorePoints}} ОЖ или {{restorePercent}}% ОЖ одного Покемона.",
+    "extra": {
+      "fully": "Полностью исцеляет ОЖ одного Покемона.",
+      "fullyWithStatus": "Полностью исцеляет ОЖ и статусный недуг одного Покемона."
+    }
+  },
+  "pokemonRevive": {
+    "description": "Возрождает одного Покемона и исцеляет {{restorePercent}}% ОЖ."
+  },
+  "allPokemonFullRevive": {
+    "description": "Оживляет всех потерявших сознание Покемонов, полностью восстанавливая ОЖ."
+  },
+  "pokemonPpRestore": {
+    "description": "Восстанавливает {{restorePoints}} ОС одной атаке.",
+    "extra": {
+      "fully": "Восстанавливает все ОС одной атаке."
+    }
+  },
+  "pokemonAllMovePpRestore": {
+    "description": "Восстанавливает {{restorePoints}} ОС всем атакам.",
+    "extra": {
+      "fully": "Восстанавливает все ОС всем атакам."
+    }
+  },
+  "pokemonPpUp": {
+    "description": "Навсегда увеличивает ОД одного приёма на {{upPoints}} за каждые 5 максимальных ОД (максимум 3)."
+  },
+  "pokemonLevelIncrement": {
+    "description": "Увеличивает уровень Покемона на {{levels}}."
+  },
+  "allPokemonLevelIncrement": {
+    "description": "Увеличивает уровень всех членов команды на {{levels}}."
+  },
+  "addPokeball": {
+    "name": "×{{modifierCount}} {{pokeballName}}ов",
+    "description": "Получить ×{{modifierCount}} {{pokeballName}}ов (В инвентаре: {{pokeballAmount}})\nШанс поимки: {{catchRate}}"
+  },
+  "addVoucher": {
+    "name": "×{{modifierCount}} {{voucherTypeName}}",
+    "description": "Получить ×{{modifierCount}} {{voucherTypeName}}"
+  },
+  "pokemonStatusHeal": {
+    "description": "Исцеляет любой статусный недуг одного Покемона."
+  },
+  "pokemonNatureChange": {
+    "name": "Мята {{natureName}}",
+    "description": "Меняет характер Покемона на {{natureName}} и навсегда открывает этот характер для стартового Покемона."
+  },
+  "tm": {
+    "name": "ТМ{{moveId}} - {{moveName}}",
+    "description": "Обучает Покемона {{moveName}}."
+  },
+  "tmWithInfo": {
+    "name": "ТМ{{moveId}} - {{moveName}}",
+    "description": "Обучает Покемона {{moveName}}\n(Удерживайте C или Shift для получения дополнительной информации)."
+  },
+  "fusePokemon": {
+    "description": "Объединяет двух Покемонов (передает Талант, разделяет базовые характеристики и типы, делится набором атак)."
+  },
+  "evolutionItem": {
+    "description": "Заставляет некоторых Покемонов эволюционировать."
+  },
+  "pokemonHeldItem": {
+    "extra": {
+      "inoperable": "{{pokemonName}} не может взять\nэтот предмет!",
+      "tooMany": "{{pokemonName}} не может взять\nбольше этого предмета!"
+    }
+  }
+}

@@ -1,0 +1,1043 @@
+{
+  "sitrusBerry": {
+    "name": "Ситрус-Ягода"
+  },
+  "lumBerry": {
+    "name": "Люм-Ягода"
+  },
+  "enigmaBerry": {
+    "name": "Энигма-Ягода"
+  },
+  "liechiBerry": {
+    "name": "Личи-Ягода"
+  },
+  "ganlonBerry": {
+    "name": "Ганлон-Ягода"
+  },
+  "petayaBerry": {
+    "name": "Петайя-Ягода"
+  },
+  "apicotBerry": {
+    "name": "Апикот-Ягода"
+  },
+  "salacBerry": {
+    "name": "Салак-Ягода"
+  },
+  "lansatBerry": {
+    "name": "Лансат-Ягода"
+  },
+  "starfBerry": {
+    "name": "Старф-Ягода"
+  },
+  "leppaBerry": {
+    "name": "Леппа-Ягода"
+  },
+  "reviverSeed": {
+    "name": "Семя Возрождения",
+    "description": "Оживляет владельца на 1/2 ОЖ при потере сознания от прямого попадания."
+  },
+  "whiteHerb": {
+    "name": "Белая Трава",
+    "description": "Предмет для ношения Покемоном. Он восстановит любую пониженную характеристику в бою."
+  },
+  "silkScarf": {
+    "name": "Шелковый Шарф",
+    "description": "Увеличивает силу атак $t(pokemonInfo:type.normal)-типа Покемона на 20%."
+  },
+  "blackBelt": {
+    "name": "Чёрный Пояс",
+    "description": "Увеличивает силу атак $t(pokemonInfo:type.fighting)-типа Покемона на 20%."
+  },
+  "sharpBeak": {
+    "name": "Острый Клюв",
+    "description": "Увеличивает силу атак $t(pokemonInfo:type.flying)-типа Покемона на 20%."
+  },
+  "poisonBarb": {
+    "name": "Ядовитая Колючка",
+    "description": "Увеличивает силу атак $t(pokemonInfo:type.poison)-типа Покемона на 20%."
+  },
+  "softSand": {
+    "name": "Мягкий Песок",
+    "description": "Увеличивает силу атак $t(pokemonInfo:type.ground)-типа Покемона на 20%."
+  },
+  "hardStone": {
+    "name": "Гранит",
+    "description": "Увеличивает силу атак $t(pokemonInfo:type.rock)-типа Покемона на 20%."
+  },
+  "silverPowder": {
+    "name": "Серебряная Пудра",
+    "description": "Увеличивает силу атак $t(pokemonInfo:type.bug)-типа Покемона на 20%."
+  },
+  "spellTag": {
+    "name": "Свиток Чар",
+    "description": "Увеличивает силу атак $t(pokemonInfo:type.ghost)-типа Покемона на 20%."
+  },
+  "metalCoat": {
+    "name": "Металлический покров",
+    "description": "Увеличивает силу атак $t(pokemonInfo:type.steel)-типа Покемона на 20%."
+  },
+  "charcoal": {
+    "name": "Древесный Уголь",
+    "description": "Увеличивает силу атак $t(pokemonInfo:type.fire)-типа Покемона на 20%."
+  },
+  "mysticWater": {
+    "name": "Мистическая Вода",
+    "description": "Увеличивает силу атак $t(pokemonInfo:type.water)-типа Покемона на 20%."
+  },
+  "miracleSeed": {
+    "name": "Чудо-Семя",
+    "description": "Увеличивает силу атак $t(pokemonInfo:type.grass)-типа Покемона на 20%."
+  },
+  "magnet": {
+    "name": "Магнит",
+    "description": "Увеличивает силу атак $t(pokemonInfo:type.electric)-типа Покемона на 20%."
+  },
+  "twistedSpoon": {
+    "name": "Изогнутая Ложка",
+    "description": "Увеличивает силу атак $t(pokemonInfo:type.psychic)-типа Покемона на 20%."
+  },
+  "neverMeltIce": {
+    "name": "Нетающий Лёд",
+    "description": "Увеличивает силу атак $t(pokemonInfo:type.ice)-типа Покемона на 20%."
+  },
+  "dragonFang": {
+    "name": "Клык Дракона",
+    "description": "Увеличивает силу атак $t(pokemonInfo:type.dragon)-типа Покемона на 20%."
+  },
+  "blackGlasses": {
+    "name": "Тёмные Очки",
+    "description": "Увеличивает силу атак $t(pokemonInfo:type.dark)-типа Покемона на 20%."
+  },
+  "fairyFeather": {
+    "name": "Перо Феи",
+    "description": "Увеличивает силу атак $t(pokemonInfo:type.fairy)-типа Покемона на 20%."
+  },
+  "lightBall": {
+    "name": "Световой Шар",
+    "description": "Этот таинственный шар, которая повышает показатели Атаки и Спец. Атаки Пикачу."
+  },
+  "thickClub": {
+    "name": "Толстая Дубина",
+    "description": "Эта твердая кость неизвестного происхождения повышает показатель Атаки Кьюбона или Маровака."
+  },
+  "metalPowder": {
+    "name": "Металлическая Пудра",
+    "description": "Чрезвычайно мелкая, но твердая, эта странная пудра повышает показатель Защиты Дитто."
+  },
+  "quickPowder": {
+    "name": "Пудра Скорости",
+    "description": "Чрезвычайно мелкая, но твердая, эта странная пудра повышает показатель Скорости Дитто."
+  },
+  "deepSeaScale": {
+    "name": "Глубоководная Чешуя",
+    "description": "Эта чешуя слабо мерцает розовым и повышает показатель Спец. Защиты Кламперла."
+  },
+  "deepSeaTooth": {
+    "name": "Глубоководный Зуб",
+    "description": "Этот клык мерцает острым серебром и повышает показатель Спец. Атаки Кламперла."
+  },
+  "scopeLens": {
+    "name": "Снайперская Линза",
+    "description": "Это линза для выявления слабых мест. Она повышает шанс критического удара владельца."
+  },
+  "leek": {
+    "name": "Лук-порей",
+    "description": "Этот очень длинный и крепкий стебель лука-порея повышает шанс критического удара атак Фарфетчда."
+  },
+  "luckyEgg": {
+    "name": "Удачливое Яйцо",
+    "description": "Увеличивает получение опыта владельцем на 40%"
+  },
+  "goldenEgg": {
+    "name": "Золотое Яйцо",
+    "description": "Увеличивает получение опыта владельцем на 100%"
+  },
+  "sootheBell": {
+    "name": "Колокольчик Успокоения",
+    "description": "Увеличивает прирост дружбы на 50%."
+  },
+  "focusBand": {
+    "name": "Обод Фокуса",
+    "description": "Добавляет 10% шанс выжить с 1 ОЖ после получения урона, достаточного для потери сознания."
+  },
+  "quickClaw": {
+    "name": "Лихой Коготь",
+    "description": "Добавляет 10% шанс походить первым независимо от скорости (после приоритета)."
+  },
+  "kingsRock": {
+    "name": "Королевский камень",
+    "description": "Добавляет 10% шанс, что атакующая способность заставит противника вздрогнуть."
+  },
+  "leftovers": {
+    "name": "Остатки",
+    "description": "Восстанавливает 1/16 от максимальных ОЖ Покемона каждый ход."
+  },
+  "shellBell": {
+    "name": "Бубенчик",
+    "description": "Восстанавливает 1/8 от нанесенного Покемоном урона."
+  },
+  "mysticalRock": {
+    "name": "Мистический Камень",
+    "description": "Продлевает длительность эффектов поля и погоды, вызванных приёмами или Талантами владельца, на 2 хода."
+  },
+  "wideLens": {
+    "name": "Широкие Линзы",
+    "description": "Увеличивает точность приёмов на 5."
+  },
+  "multiLens": {
+    "name": "Мульти-Линзы",
+    "description": "Превращает 25% урона от атак владельца в дополнительный удар."
+  },
+  "goldenPunch": {
+    "name": "Золотой удар",
+    "description": "Дает 50% от нанесенного прямого урона в виде денег."
+  },
+  "gripClaw": {
+    "name": "Цепкий Крюк",
+    "description": "При атаке есть 10% шанс украсть предмет, удерживаемый противником."
+  },
+  "toxicOrb": {
+    "name": "Сфера Яда",
+    "description": "Это странная сфера, которая источает токсины при прикосновении и сильно отравит владельца во время битвы."
+  },
+  "flameOrb": {
+    "name": "Сфера Пламени",
+    "description": "Это странная сфера, которая при прикосновении излучает тепло и обожжет владельца во время битвы."
+  },
+  "soulDew": {
+    "name": "Роса Души",
+    "description": "Увеличивает влияние характера Покемона на его характеристики на 10% (Складывается)"
+  },
+  "baton": {
+    "name": "Эстафета",
+    "description": "Позволяет передавать эффекты при смене Покемонов, что также обходит ловушки."
+  },
+  "miniBlackHole": {
+    "name": "Мини-Черная Дыра",
+    "description": "Каждый ход владелец получает один удерживаемый предмет от противника."
+  },
+  "eviolite": {
+    "name": "Эвиолит",
+    "description": "Эта таинственная эволюционная глыба повышает показатели Защиты и Спец. Защиты, когда её держит Покемон, который ещё может эволюционировать."
+  },
+  "hpUp": {
+    "name": "Плюс ОЖ",
+    "description": "Увеличивает базовую $t(pokemonInfo:stat.hp) владельца на 10%. Чем выше ваши IV, тем выше лимит суммирования."
+  },
+  "protein": {
+    "name": "Протеин",
+    "description": "Увеличивает базовую $t(pokemonInfo:stat.atk) владельца на 10%. Чем выше ваши IV, тем выше лимит суммирования."
+  },
+  "iron": {
+    "name": "Железо",
+    "description": "Увеличивает базовую $t(pokemonInfo:stat.def) владельца на 10%. Чем выше ваши IV, тем выше лимит суммирования."
+  },
+  "calcium": {
+    "name": "Кальций",
+    "description": "Увеличивает базовую $t(pokemonInfo:stat.spatk) владельца на 10%. Чем выше ваши IV, тем выше лимит суммирования."
+  },
+  "zinc": {
+    "name": "Цинк",
+    "description": "Увеличивает базовую $t(pokemonInfo:stat.spdef) владельца на 10%. Чем выше ваши IV, тем выше лимит суммирования."
+  },
+  "carbos": {
+    "name": "Углеводы",
+    "description": "Увеличивает базовую $t(pokemonInfo:stat.spd) владельца на 10%. Чем выше ваши IV, тем выше лимит суммирования."
+  },
+  "shuckleJuiceGood": {
+    "name": "Сладкий Сок Шакла",
+    "description": "Увеличивает все базовые характеристики владельца. Вы были благословлены Шаклом."
+  },
+  "shuckleJuiceBad": {
+    "name": "Мерзкий Сок Шакла",
+    "description": "Уменьшает все базовые характеристики владельца. Вы были прокляты Шаклом."
+  },
+  "oldGateau": {
+    "name": "Старый Гатó",
+    "description": "Увеличивает некоторые характеристики владельца."
+  },
+  "machoBrace": {
+    "name": "Мачо-Браслет",
+    "description": "Победа над Покемоном дарует владельцу один заряд. Каждый заряд немного повышает характеристики. Бонус при максимальном количестве зарядов."
+  },
+  "gimmighoulEvoTracker": {
+    "name": "Сокровища",
+    "description": "Этот Покемон обожает сокровища! Продолжайте собирать сокровища, и что-то может произойти!"
+  },
+  "abomasite": {
+    "name": "Абомасит"
+  },
+  "absolite": {
+    "name": "Абсолит"
+  },
+  "aerodactylite": {
+    "name": "Аэродактилит"
+  },
+  "aggronite": {
+    "name": "Аггронит"
+  },
+  "alakazite": {
+    "name": "Алаказайт"
+  },
+  "altarianite": {
+    "name": "Алтарианит"
+  },
+  "ampharosite": {
+    "name": "Амфаросинит"
+  },
+  "audinite": {
+    "name": "Аудинит"
+  },
+  "banettite": {
+    "name": "Банеттит"
+  },
+  "beedrillite": {
+    "name": "Бидриллит"
+  },
+  "blastoisinite": {
+    "name": "Бластоизинит"
+  },
+  "blazikenite": {
+    "name": "Блазикенит"
+  },
+  "cameruptite": {
+    "name": "Камеруптит"
+  },
+  "charizarditeX": {
+    "name": "Чаризардит X"
+  },
+  "charizarditeY": {
+    "name": "Чаризардит Y"
+  },
+  "diancite": {
+    "name": "Диансит"
+  },
+  "galladite": {
+    "name": "Галладит"
+  },
+  "garchompite": {
+    "name": "Гарчомпит"
+  },
+  "gardevoirite": {
+    "name": "Гардевуарит"
+  },
+  "gengarite": {
+    "name": "Генгарит"
+  },
+  "glalitite": {
+    "name": "Глалитит"
+  },
+  "gyaradosite": {
+    "name": "Гярадосит"
+  },
+  "heracronite": {
+    "name": "Геракронит"
+  },
+  "houndoominite": {
+    "name": "Хаундуминит"
+  },
+  "kangaskhanite": {
+    "name": "Кангасханит"
+  },
+  "latiasite": {
+    "name": "Латиасит"
+  },
+  "latiosite": {
+    "name": "Латиосит"
+  },
+  "lopunnite": {
+    "name": "Лопуннит"
+  },
+  "lucarionite": {
+    "name": "Лукарионит"
+  },
+  "manectite": {
+    "name": "Манектит"
+  },
+  "mawilite": {
+    "name": "Мавилит"
+  },
+  "medichamite": {
+    "name": "Медичамит"
+  },
+  "metagrossite": {
+    "name": "Метагроссит"
+  },
+  "mewtwoniteX": {
+    "name": "Мьютунит X"
+  },
+  "mewtwoniteY": {
+    "name": "Мьютунит Y"
+  },
+  "pidgeotite": {
+    "name": "Пиджеотит"
+  },
+  "pinsirite": {
+    "name": "Пинсирит"
+  },
+  "rayquazite": {
+    "name": "Рэйквазит"
+  },
+  "sablenite": {
+    "name": "Сабленит"
+  },
+  "salamencite": {
+    "name": "Саламенсит"
+  },
+  "sceptilite": {
+    "name": "Септилит"
+  },
+  "scizorite": {
+    "name": "Сцизорит"
+  },
+  "sharpedonite": {
+    "name": "Шарпедонит"
+  },
+  "slowbronite": {
+    "name": "Слоубронит"
+  },
+  "steelixite": {
+    "name": "Стиликсит"
+  },
+  "swampertite": {
+    "name": "Свампертит"
+  },
+  "tyranitarite": {
+    "name": "Тиранитарит"
+  },
+  "venusaurite": {
+    "name": "Венузаврит"
+  },
+  "clefablite": {
+    "name": "Клефейблит"
+  },
+  "victreebelite": {
+    "name": "Виктрибелит"
+  },
+  "starminite": {
+    "name": "Старминит"
+  },
+  "dragoninite": {
+    "name": "Драгонайнит"
+  },
+  "meganiumite": {
+    "name": "Меганиумит"
+  },
+  "feraligite": {
+    "name": "Фералигит"
+  },
+  "skarmorite": {
+    "name": "Скарморит"
+  },
+  "froslassite": {
+    "name": "Фрослассит"
+  },
+  "emboarite": {
+    "name": "Эмборит"
+  },
+  "excadrite": {
+    "name": "Экскадрит"
+  },
+  "scolipite": {
+    "name": "Сколипит"
+  },
+  "scraftinite": {
+    "name": "Скрафтинит"
+  },
+  "eelektrossite": {
+    "name": "Электроссит"
+  },
+  "chandelurite": {
+    "name": "Шанделюрит"
+  },
+  "chesnaughtite": {
+    "name": "Чеснотит"
+  },
+  "delphoxite": {
+    "name": "Делфоксит"
+  },
+  "greninjite": {
+    "name": "Гренинжит"
+  },
+  "pyroarite": {
+    "name": "Пироарит"
+  },
+  "floettite": {
+    "name": "Флоэттит"
+  },
+  "malamarite": {
+    "name": "Маламарит"
+  },
+  "barbaracite": {
+    "name": "Барберакит"
+  },
+  "dragalgite": {
+    "name": "Драгалджит"
+  },
+  "hawluchanite": {
+    "name": "Хавлучанит"
+  },
+  "zygardite": {
+    "name": "Зайгардит"
+  },
+  "drampanite": {
+    "name": "Дрампанит"
+  },
+  "falinksite": {
+    "name": "Фалинксит"
+  },
+  "raichuniteX": {
+    "name": "Райчунит X"
+  },
+  "raichuniteY": {
+    "name": "Райчунит Y"
+  },
+  "chimechite": {
+    "name": "Чаймекит"
+  },
+  "absoliteZ": {
+    "name": "Абомасит Z"
+  },
+  "staraptite": {
+    "name": "Стараптит"
+  },
+  "garchompiteZ": {
+    "name": "Гарчомпит Z"
+  },
+  "lucarioniteZ": {
+    "name": "Лукарионит Z"
+  },
+  "heatranite": {
+    "name": "Хитранит"
+  },
+  "darkranite": {
+    "name": "Даркранит"
+  },
+  "golurkite": {
+    "name": "Голаркит"
+  },
+  "meowsticite": {
+    "name": "Мяустикит"
+  },
+  "crabominite": {
+    "name": "Крабаминит"
+  },
+  "golisopite": {
+    "name": "Голисопит"
+  },
+  "magearnite": {
+    "name": "Магирнит"
+  },
+  "zeraorite": {
+    "name": "Зераорит"
+  },
+  "scovillainite": {
+    "name": "Сковилленит"
+  },
+  "glimmoranite": {
+    "name": "Глимморанит"
+  },
+  "tatsugirinite": {
+    "name": "Тацугиринит"
+  },
+  "baxcalibrite": {
+    "name": "Бакскалибрит"
+  },
+  "blueOrb": {
+    "name": "Синий Шар"
+  },
+  "redOrb": {
+    "name": "Красный Шар"
+  },
+  "adamantCrystal": {
+    "name": "Адамантовый Кристалл"
+  },
+  "lustrousGlobe": {
+    "name": "Блестящий Глобус"
+  },
+  "griseousCore": {
+    "name": "Мрачное Ядро"
+  },
+  "revealGlass": {
+    "name": "Зеркальце"
+  },
+  "maxMushrooms": {
+    "name": "Макс-Грибы"
+  },
+  "darkStone": {
+    "name": "Камень Тьмы"
+  },
+  "lightStone": {
+    "name": "Камень Света"
+  },
+  "prisonBottle": {
+    "name": "Тюремная Бутылка"
+  },
+  "rustedSword": {
+    "name": "Ржавый Меч"
+  },
+  "rustedShield": {
+    "name": "Ржавый Щит"
+  },
+  "icyReinsOfUnity": {
+    "name": "Ледяные Уздечки Единства"
+  },
+  "shadowReinsOfUnity": {
+    "name": "Теневые Уздечки Единства"
+  },
+  "ultranecroziumZ": {
+    "name": "Ультранекрозиум Z"
+  },
+  "sharpMeteorite": {
+    "name": "Острый Метеорит"
+  },
+  "hardMeteorite": {
+    "name": "Твёрдый Метеорит"
+  },
+  "smoothMeteorite": {
+    "name": "Гладкий Метеорит"
+  },
+  "gracidea": {
+    "name": "Грасидия"
+  },
+  "shockDrive": {
+    "name": "Шоковый Привод"
+  },
+  "burnDrive": {
+    "name": "Обжигающий Привод"
+  },
+  "chillDrive": {
+    "name": "Охлаждающий Привод"
+  },
+  "douseDrive": {
+    "name": "Погашающий Привод"
+  },
+  "nSolarizer": {
+    "name": "Соляризатор N"
+  },
+  "nLunarizer": {
+    "name": "Лунизатор N"
+  },
+  "wellspringMask": {
+    "name": "Маска Родника"
+  },
+  "hearthflameMask": {
+    "name": "Маска Пламени"
+  },
+  "cornerstoneMask": {
+    "name": "Маска Краеугольного Камня"
+  },
+  "fistPlate": {
+    "name": "Плита Кулака"
+  },
+  "skyPlate": {
+    "name": "Плита Неба"
+  },
+  "toxicPlate": {
+    "name": "Плита Токсин"
+  },
+  "earthPlate": {
+    "name": "Плита Почвы"
+  },
+  "stonePlate": {
+    "name": "Плита Скалы"
+  },
+  "insectPlate": {
+    "name": "Плита Жуков"
+  },
+  "spookyPlate": {
+    "name": "Плита Мистик"
+  },
+  "ironPlate": {
+    "name": "Плита Железа"
+  },
+  "flamePlate": {
+    "name": "Плита Пламя"
+  },
+  "splashPlate": {
+    "name": "Плита Брызг"
+  },
+  "meadowPlate": {
+    "name": "Плита Лугов"
+  },
+  "zapPlate": {
+    "name": "Плита Разряд"
+  },
+  "mindPlate": {
+    "name": "Плита Разума"
+  },
+  "iciclePlate": {
+    "name": "Плита Ледник"
+  },
+  "dracoPlate": {
+    "name": "Плита Драко"
+  },
+  "dreadPlate": {
+    "name": "Плита Ужаса"
+  },
+  "pixiePlate": {
+    "name": "Пластина Пикси"
+  },
+  "blankPlate": {
+    "name": "Пустая Пластина"
+  },
+  "legendPlate": {
+    "name": "Пластина Легенды"
+  },
+  "fightingMemory": {
+    "name": "Боевая Память"
+  },
+  "flyingMemory": {
+    "name": "Летающая Память"
+  },
+  "poisonMemory": {
+    "name": "Ядовитая Память"
+  },
+  "groundMemory": {
+    "name": "Наземная Память"
+  },
+  "rockMemory": {
+    "name": "Каменная Память"
+  },
+  "bugMemory": {
+    "name": "Память Насекомых"
+  },
+  "ghostMemory": {
+    "name": "Призрачная Память"
+  },
+  "steelMemory": {
+    "name": "Стальная Память"
+  },
+  "fireMemory": {
+    "name": "Огненная Память"
+  },
+  "waterMemory": {
+    "name": "Водная Память"
+  },
+  "grassMemory": {
+    "name": "Травяная Память"
+  },
+  "electricMemory": {
+    "name": "Электрическая Память"
+  },
+  "psychicMemory": {
+    "name": "Психическая Память"
+  },
+  "iceMemory": {
+    "name": "Ледяная Память"
+  },
+  "dragonMemory": {
+    "name": "Драконья Память"
+  },
+  "darkMemory": {
+    "name": "Тёмная Память"
+  },
+  "fairyMemory": {
+    "name": "Волшебная Память"
+  },
+  "normalMemory": {
+    "name": "Обычная Память"
+  },
+  "map": {
+    "name": "Карта",
+    "description": "Позволяет вам выбрать пункт назначения на перекрестке."
+  },
+  "ivScanner": {
+    "name": "IV Сканер",
+    "description": "Позволяет сканировать IV диких Покемонов."
+  },
+  "lockCapsule": {
+    "name": "Запирающая Капсула",
+    "description": "Позволяет заблокировать редкость предметов при переброске предметов."
+  },
+  "megaBracelet": {
+    "name": "Мегабраслет",
+    "description": "Мега-камни становятся доступными."
+  },
+  "dynamaxBand": {
+    "name": "Динамакс-браслет",
+    "description": "Макс-Грибы становятся доступными."
+  },
+  "teraOrb": {
+    "name": "Тера-Сфера",
+    "description": "Позволяет вашему Покемону Терасталлизироваться. Медленно перезаряжается. Тера-осколки также становятся доступны."
+  },
+  "goldenPokeball": {
+    "name": "Золотой Покеболл",
+    "description": "Добавляет 1 дополнительную опцию предмета в конце каждой битвы."
+  },
+  "ovalCharm": {
+    "name": "Овальный Оберег",
+    "description": "Когда несколько Покемонов участвуют в битве, каждый получает дополнительные 10% от общего опыта."
+  },
+  "expShare": {
+    "name": "Общая Доля",
+    "description": "Неучаствующие получают 20% опыта от одного участника."
+  },
+  "expBalance": {
+    "name": "Баланс Опыта",
+    "description": "Распределяет очки опыта, полученные в битвах, в пользу членов команды с более низким уровнем."
+  },
+  "candyJar": {
+    "name": "Банка с Конфетами",
+    "description": "Увеличивает количество уровней, добавляемых Редкими Конфетами, на 1."
+  },
+  "berryPouch": {
+    "name": "Мешочек для Ягод",
+    "description": "Добавляет 30% шанс, что использованная ягода не будет потрачена."
+  },
+  "healingCharm": {
+    "name": "Оберег Исцеления",
+    "description": "Увеличивает эффективность восстанавливающих ОЖ приёмов и предметов на 10% (исключая Оживления)."
+  },
+  "expCharm": {
+    "name": "Оберег Роста",
+    "description": "Увеличивает получение опыта на 25%."
+  },
+  "superExpCharm": {
+    "name": "Супер Оберег Роста",
+    "description": "Увеличивает получение опыта на 60%."
+  },
+  "goldenExpCharm": {
+    "name": "Золотой Оберег Роста",
+    "description": "Увеличивает получение опыта на 100%."
+  },
+  "amuletCoin": {
+    "name": "Денежный Талисман",
+    "description": "Увеличивает денежные награды на 20%."
+  },
+  "abilityCharm": {
+    "name": "Оберег Талантов",
+    "description": "Значительно увеличивает шанс того, что дикий Покемон будет обладать Скрытым Талантом."
+  },
+  "shinyCharm": {
+    "name": "Сияющий Оберег",
+    "description": "Значительно увеличивает шанс того, что дикий Покемон окажется сияющим."
+  },
+  "catchingCharm": {
+    "name": "Оберег Поимки",
+    "description": "Увеличивает шанс критической поимки."
+  },
+  "blackSludge": {
+    "name": "Чёрная Слизь",
+    "description": "Вонь настолько сильна, что магазины будут продавать вам предметы только с огромной наценкой."
+  },
+  "goldenBugNet": {
+    "name": "Золотая Сачок для Жуков",
+    "description": "Наделяет владельца удачей, чтобы чаще находить Покемонов Жучьего типа. Обладает странным весом."
+  },
+  "lure": {
+    "name": "Приманка",
+    "description": "Вчетверо увеличивает шанс встречи быть двойным сражением на 10 битв."
+  },
+  "superLure": {
+    "name": "Супер-Приманка",
+    "description": "Вчетверо увеличивает шанс встречи быть двойным сражением на 15 битв."
+  },
+  "maxLure": {
+    "name": "Макс-Приманка",
+    "description": "Вчетверо увеличивает шанс встречи быть двойным сражением на 30 битв."
+  },
+  "xAttack": {
+    "name": "Х Атака",
+    "description": "Увеличивает $t(pokemonInfo:stat.atk) всех членов команды на 20% на 5 сражений"
+  },
+  "xDefense": {
+    "name": "Х Защита",
+    "description": "Увеличивает $t(pokemonInfo:stat.def) всех членов команды на 20% на 5 сражений"
+  },
+  "xSpAtk": {
+    "name": "Х Сп. Атк",
+    "description": "Увеличивает $t(pokemonInfo:stat.spatk) всех членов команды на 20% на 5 сражений"
+  },
+  "xSpDef": {
+    "name": "Х Сп. Защ",
+    "description": "Увеличивает $t(pokemonInfo:stat.spdef) всех членов команды на 20% на 5 сражений"
+  },
+  "xSpeed": {
+    "name": "Х Скорость",
+    "description": "Увеличивает $t(pokemonInfo:stat.spd) всех членов команды на 20% на 5 сражений"
+  },
+  "xAccuracy": {
+    "name": "Х Точность",
+    "description": "Увеличивает $t(pokemonInfo:stat.acc) всех членов команды на 20% на 5 сражений"
+  },
+  "direHit": {
+    "name": "Критический Удар",
+    "extra": {
+      "raises": "Шанс Критического Удара"
+    },
+    "description": "Увеличивает $t(items:direHit.raises) всех членов команды на 1 стадия на 5 сражений"
+  },
+  "enemyDamageBooster": {
+    "name": "Жетоны Урона",
+    "description": "Увеличивает урон на 5%."
+  },
+  "enemyDamageReduction": {
+    "name": "Жетоны Защиты",
+    "description": "Снижает входящий урон на 2.5%."
+  },
+  "enemyHeal": {
+    "name": "Жетоны Исцеления",
+    "description": "Восстанавливает 2% от максимальных ОЗ каждый ход."
+  },
+  "enemyAttackPoisonChance": {
+    "name": "Жетоны Яда",
+    "description": "Добавляет 5% шанс наложить $t(statusEffect:poison.description) с помощью атакующих приёмов."
+  },
+  "enemyAttackParalyzeChance": {
+    "name": "Жетоны Паралича",
+    "description": "Добавляет 2.5% шанс наложить $t(statusEffect:paralysis.description) с помощью атакующих приёмов."
+  },
+  "enemyAttackBurnChance": {
+    "name": "Жетоны Пламени",
+    "description": "Добавляет 5% шанс наложить $t(statusEffect:burn.description) с помощью атакующих приёмов."
+  },
+  "enemyStatusEffectHealChance": {
+    "name": "Жетоны Полного Исцеления",
+    "description": "Добавляет 2.5% шанс каждый ход исцелить статусное состояние."
+  },
+  "enemyEndureChance": {
+    "name": "Жетоны Выносливости",
+    "description": "Добавляет 2% шанс выдержать удар."
+  },
+  "enemyFusedChance": {
+    "name": "Жетоны Объединения",
+    "description": "Добавляет 1% шанс, что дикий Покемон будет слитым."
+  },
+  "formChange": {
+    "description": "Заставляет некоторых Покемонов менять форму."
+  },
+  "linkingCord": {
+    "name": "Соединительный Шнур"
+  },
+  "sunStone": {
+    "name": "Солнечный Камень"
+  },
+  "moonStone": {
+    "name": "Лунный Камень"
+  },
+  "leafStone": {
+    "name": "Лиственный Камень"
+  },
+  "fireStone": {
+    "name": "Огненный Камень"
+  },
+  "waterStone": {
+    "name": "Водный Камень"
+  },
+  "thunderStone": {
+    "name": "Громовой Камень"
+  },
+  "iceStone": {
+    "name": "Ледяной Камень"
+  },
+  "duskStone": {
+    "name": "Сумеречный Камень"
+  },
+  "dawnStone": {
+    "name": "Камень Рассвета"
+  },
+  "shinyStone": {
+    "name": "Сияющий Камень"
+  },
+  "crackedPot": {
+    "name": "Потрескавшийся Горшок"
+  },
+  "sweetApple": {
+    "name": "Сладкое Яблоко"
+  },
+  "tartApple": {
+    "name": "Кислое Яблоко"
+  },
+  "strawberrySweet": {
+    "name": "Клубничное Лакомство"
+  },
+  "unremarkableTeacup": {
+    "name": "Непримечательная Чашка Чая"
+  },
+  "upgrade": {
+    "name": "Улучшение"
+  },
+  "dubiousDisc": {
+    "name": "Странный Диск"
+  },
+  "dragonScale": {
+    "name": "Чешуя дракона"
+  },
+  "prismScale": {
+    "name": "Радужная Чешуя"
+  },
+  "razorClaw": {
+    "name": "Острый Коготь"
+  },
+  "razorFang": {
+    "name": "Острый Клык"
+  },
+  "ovalStone": {
+    "name": "Камень Голыш"
+  },
+  "reaperCloth": {
+    "name": "Ткань Смерти"
+  },
+  "electirizer": {
+    "name": "Электризатор"
+  },
+  "magmarizer": {
+    "name": "Магматизатор"
+  },
+  "protector": {
+    "name": "Протектор"
+  },
+  "sachet": {
+    "name": "Саше"
+  },
+  "whippedDream": {
+    "name": "Крем Грёз"
+  },
+  "syrupyApple": {
+    "name": "Сиропное Яблоко"
+  },
+  "chippedPot": {
+    "name": "Отколотый Горшок"
+  },
+  "galaricaCuff": {
+    "name": "Галарическая Манжета"
+  },
+  "galaricaWreath": {
+    "name": "Галарический Венок"
+  },
+  "auspiciousArmor": {
+    "name": "Благоприятные Доспехи"
+  },
+  "maliciousArmor": {
+    "name": "Злобные Доспехи"
+  },
+  "masterpieceTeacup": {
+    "name": "Шедевральная Чайная Чашка"
+  },
+  "sunFlute": {
+    "name": "Солнечная Флейта"
+  },
+  "moonFlute": {
+    "name": "Лунная Флейта"
+  },
+  "blackAugurite": {
+    "name": "Чёрный Аугурит"
+  },
+  "peatBlock": {
+    "name": "Торфяной Блок"
+  },
+  "metalAlloy": {
+    "name": "Металлический Сплав"
+  },
+  "scrollOfDarkness": {
+    "name": "Свиток Тьмы"
+  },
+  "scrollOfWaters": {
+    "name": "Свиток Вод"
+  },
+  "leadersCrest": {
+    "name": "Герб Вождя"
+  }
+}

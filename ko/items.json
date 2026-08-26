@@ -1,0 +1,1054 @@
+{
+  "sitrusBerry": {
+    "name": "자뭉열매",
+    "description": "지니게 하면 HP가 50% 미만일 때 HP를 25% 회복"
+  },
+  "lumBerry": {
+    "name": "리샘열매",
+    "description": "지니게 하면 모든 상태 이상과 혼란을 회복"
+  },
+  "enigmaBerry": {
+    "name": "의문열매",
+    "description": "지니게 하면 효과가 뛰어난 기술에 당했을 때 HP를 25% 회복"
+  },
+  "liechiBerry": {
+    "name": "치리열매",
+    "description": "지니게 하면 HP가 25% 미만일 때 자신의 공격이 상승"
+  },
+  "ganlonBerry": {
+    "name": "용아열매",
+    "description": "지니게 하면 HP가 25% 미만일 때 자신의 방어가 상승"
+  },
+  "petayaBerry": {
+    "name": "야타비열매",
+    "description": "지니게 하면 HP가 25% 미만일 때 자신의 특수공격이 상승"
+  },
+  "apicotBerry": {
+    "name": "규살열매",
+    "description": "지니게 하면 HP가 25% 미만일 때 자신의 특수방어가 상승"
+  },
+  "salacBerry": {
+    "name": "캄라열매",
+    "description": "지니게 하면 HP가 25% 미만일 때 자신의 스피드가 상승"
+  },
+  "lansatBerry": {
+    "name": "랑사열매",
+    "description": "지니게 하면 HP가 25% 미만일 때 공격이 급소를 맞히기 쉬워짐"
+  },
+  "starfBerry": {
+    "name": "스타열매",
+    "description": "지니게 하면 HP가 25% 미만일 때 능력 중의 하나가 크게 상승"
+  },
+  "leppaBerry": {
+    "name": "과사열매",
+    "description": "지니게 하면 기술의 PP가 0이 되었을 때 PP를 10만큼 회복"
+  },
+  "reviverSeed": {
+    "name": "부활의씨앗",
+    "description": "포켓몬이 공격을 받고 쓰러지려 할 때 HP를 절반 회복한다."
+  },
+  "whiteHerb": {
+    "name": "하양허브",
+    "description": "지니게 한 포켓몬의 능력이 떨어졌을 때 원래 상태로 돌아온다."
+  },
+  "silkScarf": {
+    "name": "실크스카프",
+    "description": "지니게 하면 $t(pokemonInfo:type.normal)타입 기술의 위력이 20% 상승한다."
+  },
+  "blackBelt": {
+    "name": "검은띠",
+    "description": "지니게 하면 $t(pokemonInfo:type.fighting)타입 기술의 위력이 20% 상승한다."
+  },
+  "sharpBeak": {
+    "name": "예리한부리",
+    "description": "지니게 하면 $t(pokemonInfo:type.flying)타입 기술의 위력이 20% 상승한다."
+  },
+  "poisonBarb": {
+    "name": "독바늘",
+    "description": "지니게 하면 $t(pokemonInfo:type.poison)타입 기술의 위력이 20% 상승한다."
+  },
+  "softSand": {
+    "name": "부드러운모래",
+    "description": "지니게 하면 $t(pokemonInfo:type.ground)타입 기술의 위력이 20% 상승한다."
+  },
+  "hardStone": {
+    "name": "딱딱한돌",
+    "description": "지니게 하면 $t(pokemonInfo:type.rock)타입 기술의 위력이 20% 상승한다."
+  },
+  "silverPowder": {
+    "name": "은빛가루",
+    "description": "지니게 하면 $t(pokemonInfo:type.bug)타입 기술의 위력이 20% 상승한다."
+  },
+  "spellTag": {
+    "name": "저주의부적",
+    "description": "지니게 하면 $t(pokemonInfo:type.ghost)타입 기술의 위력이 20% 상승한다."
+  },
+  "metalCoat": {
+    "name": "금속코트",
+    "description": "지니게 하면 $t(pokemonInfo:type.steel)타입 기술의 위력이 20% 상승한다."
+  },
+  "charcoal": {
+    "name": "목탄",
+    "description": "지니게 하면 $t(pokemonInfo:type.fire)타입 기술의 위력이 20% 상승한다."
+  },
+  "mysticWater": {
+    "name": "신비의물방울",
+    "description": "지니게 하면 $t(pokemonInfo:type.water)타입 기술의 위력이 20% 상승한다."
+  },
+  "miracleSeed": {
+    "name": "기적의씨",
+    "description": "지니게 하면 $t(pokemonInfo:type.grass)타입 기술의 위력이 20% 상승한다."
+  },
+  "magnet": {
+    "name": "자석",
+    "description": "지니게 하면 $t(pokemonInfo:type.electric)타입 기술의 위력이 20% 상승한다."
+  },
+  "twistedSpoon": {
+    "name": "휘어진스푼",
+    "description": "지니게 하면 $t(pokemonInfo:type.psychic)타입 기술의 위력이 20% 상승한다."
+  },
+  "neverMeltIce": {
+    "name": "녹지않는얼음",
+    "description": "지니게 하면 $t(pokemonInfo:type.ice)타입 기술의 위력이 20% 상승한다."
+  },
+  "dragonFang": {
+    "name": "용의이빨",
+    "description": "지니게 하면 $t(pokemonInfo:type.dragon)타입 기술의 위력이 20% 상승한다."
+  },
+  "blackGlasses": {
+    "name": "검은안경",
+    "description": "지니게 하면 $t(pokemonInfo:type.dark)타입 기술의 위력이 20% 상승한다."
+  },
+  "fairyFeather": {
+    "name": "요정의깃털",
+    "description": "지니게 하면 $t(pokemonInfo:type.fairy)타입 기술의 위력이 20% 상승한다."
+  },
+  "lightBall": {
+    "name": "전기구슬",
+    "description": "피카츄에게 지니게 하면 공격과 특수공격이 올라가는 이상한 구슬."
+  },
+  "thickClub": {
+    "name": "굵은뼈",
+    "description": "무언가의 단단한 뼈. 탕구리 혹은 텅구리에게 지니게 하면 공격이 올라간다."
+  },
+  "metalPowder": {
+    "name": "금속파우더",
+    "description": "메타몽에게 지니게 하면 방어가 올라가는 이상한 가루. 매우 잘고 단단하다."
+  },
+  "quickPowder": {
+    "name": "스피드파우더",
+    "description": "메타몽에게 지니게 하면 스피드가 올라가는 이상한 가루. 매우 잘고 단단하다."
+  },
+  "deepSeaScale": {
+    "name": "심해의비늘",
+    "description": "진주몽에게 지니게 하면 특수방어가 올라가는 비늘. 연한 분홍색으로 빛난다."
+  },
+  "deepSeaTooth": {
+    "name": "심해의이빨",
+    "description": "진주몽에게 지니게 하면 특수공격이 올라가는 이빨. 날카롭고 은색으로 빛난다."
+  },
+  "scopeLens": {
+    "name": "초점렌즈",
+    "description": "약점이 보이는 렌즈. 지니게 한 포켓몬의 기술이 급소에 맞기 쉬워진다."
+  },
+  "leek": {
+    "name": "대파",
+    "description": "매우 길고 단단한 줄기. 파오리에게 지니게 하면 기술이 급소에 맞기 쉬워진다."
+  },
+  "luckyEgg": {
+    "name": "행복의알",
+    "description": "지니게 한 포켓몬은 받는 경험치가 40% 증가한다."
+  },
+  "goldenEgg": {
+    "name": "황금의알",
+    "description": "지니게 한 포켓몬은 받는 경험치가 100% 증가한다."
+  },
+  "sootheBell": {
+    "name": "평온의방울",
+    "description": "획득하는 친밀도가 50% 증가한다."
+  },
+  "focusBand": {
+    "name": "기합의머리띠",
+    "description": "기절할 듯한 데미지를 받아도 HP를 1 남겨서 견딜 확률이 10% 추가된다."
+  },
+  "quickClaw": {
+    "name": "선제공격손톱",
+    "description": "상대보다 먼저 행동할 수 있게 될 확률이 10% 추가된다. (우선도 처리 이후)"
+  },
+  "kingsRock": {
+    "name": "왕의징표석",
+    "description": "공격해서 데미지를 줄 때 상대를 풀죽일 확률이 10% 추가된다."
+  },
+  "leftovers": {
+    "name": "먹다남은음식",
+    "description": "포켓몬의 HP가 매 턴 최대 체력의 1/16씩 회복된다."
+  },
+  "shellBell": {
+    "name": "조개껍질방울",
+    "description": "포켓몬이 준 데미지의 1/8씩을 회복한다."
+  },
+  "mysticalRock": {
+    "name": "신비한바위",
+    "description": "이 도구를 지닌 포켓몬의 기술이나 특성으로 발생한 날씨, 필드 효과의 지속 시간을 스택 당 2턴 연장한다."
+  },
+  "wideLens": {
+    "name": "광각렌즈",
+    "description": "기술의 명중률이 5 증가한다."
+  },
+  "multiLens": {
+    "name": "멀티렌즈",
+    "description": "지니게 된 포켓몬은 공격한 데미지의 25%로 한 번 더 공격한다."
+  },
+  "goldenPunch": {
+    "name": "골든펀치",
+    "description": "주는 데미지의 50%만큼 돈을 획득한다."
+  },
+  "gripClaw": {
+    "name": "끈기갈고리손톱",
+    "description": "공격했을 때, 10%의 확률로 상대의 도구를 도둑질한다."
+  },
+  "toxicOrb": {
+    "name": "맹독구슬",
+    "description": "이 도구를 지닌 포켓몬은 턴이 끝나는 시점에 상태이상에 걸리지 않았다면 맹독 상태가 된다."
+  },
+  "flameOrb": {
+    "name": "화염구슬",
+    "description": "이 도구를 지닌 포켓몬은 턴이 끝나는 시점에 상태이상에 걸리지 않았다면 화상 상태가 된다."
+  },
+  "soulDew": {
+    "name": "마음의물방울",
+    "description": "지닌 포켓몬의 성격의 효과가 10% 증가한다. (합연산)"
+  },
+  "baton": {
+    "name": "배턴",
+    "description": "포켓몬을 교체할 때 효과를 넘겨줄 수 있으며, 함정의 영향을 받지 않게 한다."
+  },
+  "miniBlackHole": {
+    "name": "미니 블랙홀",
+    "description": "매 턴, 지닌 포켓몬은 상대로부터 도구를 하나 획득한다."
+  },
+  "eviolite": {
+    "name": "진화의휘석",
+    "description": "진화의 이상한 덩어리. 지니게 하면 진화 전 포켓몬의 방어와 특수방어가 올라간다."
+  },
+  "hpUp": {
+    "name": "맥스업",
+    "description": "지니게 하면 $t(pokemonInfo:stat.hp) 종족치를 10% 올려준다. 개체값이 높을수록 더 많이 누적시킬 수 있다."
+  },
+  "protein": {
+    "name": "타우린",
+    "description": "지니게 하면 $t(pokemonInfo:stat.atk) 종족치를 10% 올려준다. 개체값이 높을수록 더 많이 누적시킬 수 있다."
+  },
+  "iron": {
+    "name": "사포닌",
+    "description": "지니게 하면 $t(pokemonInfo:stat.def) 종족치를 10% 올려준다. 개체값이 높을수록 더 많이 누적시킬 수 있다."
+  },
+  "calcium": {
+    "name": "리보플라빈",
+    "description": "지니게 하면 $t(pokemonInfo:stat.spatk) 종족치를 10% 올려준다. 개체값이 높을수록 더 많이 누적시킬 수 있다."
+  },
+  "zinc": {
+    "name": "키토산",
+    "description": "지니게 하면 $t(pokemonInfo:stat.spdef) 종족치를 10% 올려준다. 개체값이 높을수록 더 많이 누적시킬 수 있다."
+  },
+  "carbos": {
+    "name": "알칼로이드",
+    "description": "지니게 하면 $t(pokemonInfo:stat.spd) 종족치를 10% 올려준다. 개체값이 높을수록 더 많이 누적시킬 수 있다."
+  },
+  "shuckleJuiceGood": {
+    "name": "달콤한 단단지 주스",
+    "description": "지니고 있는 포켓몬의 모든 능력치가 올라갑니다. 단단지의 축복을 받았습니다."
+  },
+  "shuckleJuiceBad": {
+    "name": "쓴 단단지 주스",
+    "description": "지니고 있는 포켓몬의 모든 능력치가 내려갑니다. 단단지의 저주를 받았습니다."
+  },
+  "oldGateau": {
+    "name": "숲의양갱",
+    "description": "장착한 포켓몬의 능력치를 약간 올린다."
+  },
+  "machoBrace": {
+    "name": "교정깁스",
+    "description": "포켓몬을 쓰러뜨리면 교정깁스 스택을 얻는다. 스택이 올라갈수록 능력치가 약간 올라가고, 최대 스택에서 추가 보너스를 얻는다."
+  },
+  "gimmighoulEvoTracker": {
+    "name": "보물",
+    "description": "이 포켓몬은 보물을 좋아한다. 보물을 모으다 보면 어떤 일이 일어날 지도 모른다!"
+  },
+  "abomasite": {
+    "name": "눈설왕나이트"
+  },
+  "absolite": {
+    "name": "앱솔나이트"
+  },
+  "aerodactylite": {
+    "name": "프테라나이트"
+  },
+  "aggronite": {
+    "name": "보스로라나이트"
+  },
+  "alakazite": {
+    "name": "후딘나이트"
+  },
+  "altarianite": {
+    "name": "파비코리나이트"
+  },
+  "ampharosite": {
+    "name": "전룡나이트"
+  },
+  "audinite": {
+    "name": "다부니나이트"
+  },
+  "banettite": {
+    "name": "다크펫나이트"
+  },
+  "beedrillite": {
+    "name": "독침붕나이트"
+  },
+  "blastoisinite": {
+    "name": "거북왕나이트"
+  },
+  "blazikenite": {
+    "name": "번치코나이트"
+  },
+  "cameruptite": {
+    "name": "폭타나이트"
+  },
+  "charizarditeX": {
+    "name": "리자몽나이트 X"
+  },
+  "charizarditeY": {
+    "name": "리자몽나이트 Y"
+  },
+  "diancite": {
+    "name": "디안시나이트"
+  },
+  "galladite": {
+    "name": "엘레이드나이트"
+  },
+  "garchompite": {
+    "name": "한카리아스나이트"
+  },
+  "gardevoirite": {
+    "name": "가디안나이트"
+  },
+  "gengarite": {
+    "name": "팬텀나이트"
+  },
+  "glalitite": {
+    "name": "얼음귀신나이트"
+  },
+  "gyaradosite": {
+    "name": "갸라도스나이트"
+  },
+  "heracronite": {
+    "name": "헤라크로스나이트"
+  },
+  "houndoominite": {
+    "name": "헬가나이트"
+  },
+  "kangaskhanite": {
+    "name": "캥카나이트"
+  },
+  "latiasite": {
+    "name": "라티아스나이트"
+  },
+  "latiosite": {
+    "name": "라티오스나이트"
+  },
+  "lopunnite": {
+    "name": "이어롭나이트"
+  },
+  "lucarionite": {
+    "name": "루카리오나이트"
+  },
+  "manectite": {
+    "name": "썬더볼트나이트"
+  },
+  "mawilite": {
+    "name": "입치트나이트"
+  },
+  "medichamite": {
+    "name": "요가램나이트"
+  },
+  "metagrossite": {
+    "name": "메타그로스나이트"
+  },
+  "mewtwoniteX": {
+    "name": "뮤츠나이트 X"
+  },
+  "mewtwoniteY": {
+    "name": "뮤츠나이트 Y"
+  },
+  "pidgeotite": {
+    "name": "피죤투나이트"
+  },
+  "pinsirite": {
+    "name": "쁘사이저나이트"
+  },
+  "rayquazite": {
+    "name": "레쿠쟈나이트"
+  },
+  "sablenite": {
+    "name": "깜까미나이트"
+  },
+  "salamencite": {
+    "name": "보만다나이트"
+  },
+  "sceptilite": {
+    "name": "나무킹나이트"
+  },
+  "scizorite": {
+    "name": "핫삼나이트"
+  },
+  "sharpedonite": {
+    "name": "샤크니아나이트"
+  },
+  "slowbronite": {
+    "name": "야도란나이트"
+  },
+  "steelixite": {
+    "name": "강철톤나이트"
+  },
+  "swampertite": {
+    "name": "대짱이나이트"
+  },
+  "tyranitarite": {
+    "name": "마기라스나이트"
+  },
+  "venusaurite": {
+    "name": "이상해꽃나이트"
+  },
+  "clefablite": {
+    "name": "픽시나이트"
+  },
+  "victreebelite": {
+    "name": "우츠보트나이트"
+  },
+  "starminite": {
+    "name": "아쿠스타나이트"
+  },
+  "dragoninite": {
+    "name": "망나뇽나이트"
+  },
+  "meganiumite": {
+    "name": "메가니움나이트"
+  },
+  "feraligite": {
+    "name": "장크로다일나이트"
+  },
+  "skarmorite": {
+    "name": "무장조나이트"
+  },
+  "froslassite": {
+    "name": "눈여아나이트"
+  },
+  "emboarite": {
+    "name": "염무왕나이트"
+  },
+  "excadrite": {
+    "name": "몰드류나이트"
+  },
+  "scolipite": {
+    "name": "펜드라나이트"
+  },
+  "scraftinite": {
+    "name": "곤율거니나이트"
+  },
+  "eelektrossite": {
+    "name": "저리더프나이트"
+  },
+  "chandelurite": {
+    "name": "샹델라나이트"
+  },
+  "chesnaughtite": {
+    "name": "브리가론나이트"
+  },
+  "delphoxite": {
+    "name": "마폭시나이트"
+  },
+  "greninjite": {
+    "name": "개굴닌자나이트"
+  },
+  "pyroarite": {
+    "name": "화염레오나이트"
+  },
+  "floettite": {
+    "name": "플라엣테나이트"
+  },
+  "malamarite": {
+    "name": "칼라마네로나이트"
+  },
+  "barbaracite": {
+    "name": "거북손데스나이트"
+  },
+  "dragalgite": {
+    "name": "드래캄나이트"
+  },
+  "hawluchanite": {
+    "name": "루차불나이트"
+  },
+  "zygardite": {
+    "name": "지가르데나이트"
+  },
+  "drampanite": {
+    "name": "할비롱나이트"
+  },
+  "falinksite": {
+    "name": "대여르나이트"
+  },
+  "raichuniteX": {
+    "name": "라이츄나이트 X"
+  },
+  "raichuniteY": {
+    "name": "라이츄나이트 Y"
+  },
+  "chimechite": {
+    "name": "치렁나이트"
+  },
+  "absoliteZ": {
+    "name": "앱솔나이트Z"
+  },
+  "staraptite": {
+    "name": "찌르호크나이트"
+  },
+  "garchompiteZ": {
+    "name": "한카리아스나이트Z"
+  },
+  "lucarioniteZ": {
+    "name": "루카리오나이트Z"
+  },
+  "heatranite": {
+    "name": "히드런나이트"
+  },
+  "darkranite": {
+    "name": "다크라이나이트"
+  },
+  "golurkite": {
+    "name": "골루그나이트"
+  },
+  "meowsticite": {
+    "name": "냐오닉스나이트"
+  },
+  "crabominite": {
+    "name": "모단단게나이트"
+  },
+  "golisopite": {
+    "name": "갑주무사나이트"
+  },
+  "magearnite": {
+    "name": "마기아나이트"
+  },
+  "zeraorite": {
+    "name": "제라오라나이트"
+  },
+  "scovillainite": {
+    "name": "스코빌런나이트"
+  },
+  "glimmoranite": {
+    "name": "킬라플로르나이트"
+  },
+  "tatsugirinite": {
+    "name": "싸리용나이트"
+  },
+  "baxcalibrite": {
+    "name": "드닐레이브나이트"
+  },
+  "blueOrb": {
+    "name": "쪽빛구슬"
+  },
+  "redOrb": {
+    "name": "주홍구슬"
+  },
+  "adamantCrystal": {
+    "name": "큰금강옥"
+  },
+  "lustrousGlobe": {
+    "name": "큰백옥"
+  },
+  "griseousCore": {
+    "name": "큰백금옥"
+  },
+  "revealGlass": {
+    "name": "비추는거울"
+  },
+  "maxMushrooms": {
+    "name": "다이버섯"
+  },
+  "darkStone": {
+    "name": "다크스톤"
+  },
+  "lightStone": {
+    "name": "라이트스톤"
+  },
+  "prisonBottle": {
+    "name": "굴레의항아리"
+  },
+  "rustedSword": {
+    "name": "녹슨검"
+  },
+  "rustedShield": {
+    "name": "녹슨방패"
+  },
+  "icyReinsOfUnity": {
+    "name": "차가운유대의고삐"
+  },
+  "shadowReinsOfUnity": {
+    "name": "검은유대의고삐"
+  },
+  "ultranecroziumZ": {
+    "name": "울트라네크로Z"
+  },
+  "sharpMeteorite": {
+    "name": "뾰족한운석"
+  },
+  "hardMeteorite": {
+    "name": "단단한운석"
+  },
+  "smoothMeteorite": {
+    "name": "부드러운운석"
+  },
+  "gracidea": {
+    "name": "그라시데아꽃"
+  },
+  "shockDrive": {
+    "name": "번개카세트"
+  },
+  "burnDrive": {
+    "name": "블레이즈카세트"
+  },
+  "chillDrive": {
+    "name": "프리즈카세트"
+  },
+  "douseDrive": {
+    "name": "아쿠아카세트"
+  },
+  "nSolarizer": {
+    "name": "네크로플러스솔"
+  },
+  "nLunarizer": {
+    "name": "네크로플러스루나"
+  },
+  "wellspringMask": {
+    "name": "우물의가면"
+  },
+  "hearthflameMask": {
+    "name": "화덕의가면"
+  },
+  "cornerstoneMask": {
+    "name": "주춧돌의가면"
+  },
+  "fistPlate": {
+    "name": "주먹플레이트"
+  },
+  "skyPlate": {
+    "name": "푸른하늘플레이트"
+  },
+  "toxicPlate": {
+    "name": "맹독플레이트"
+  },
+  "earthPlate": {
+    "name": "대지플레이트"
+  },
+  "stonePlate": {
+    "name": "암석플레이트"
+  },
+  "insectPlate": {
+    "name": "비단벌레플레이트"
+  },
+  "spookyPlate": {
+    "name": "원령플레이트"
+  },
+  "ironPlate": {
+    "name": "강철플레이트"
+  },
+  "flamePlate": {
+    "name": "불구슬플레이트"
+  },
+  "splashPlate": {
+    "name": "물방울플레이트"
+  },
+  "meadowPlate": {
+    "name": "초록플레이트"
+  },
+  "zapPlate": {
+    "name": "우뢰플레이트"
+  },
+  "mindPlate": {
+    "name": "이상한플레이트"
+  },
+  "iciclePlate": {
+    "name": "고드름플레이트"
+  },
+  "dracoPlate": {
+    "name": "용의플레이트"
+  },
+  "dreadPlate": {
+    "name": "공포플레이트"
+  },
+  "pixiePlate": {
+    "name": "정령플레이트"
+  },
+  "blankPlate": {
+    "name": "순백플레이트"
+  },
+  "legendPlate": {
+    "name": "레전드플레이트"
+  },
+  "fightingMemory": {
+    "name": "파이팅메모리"
+  },
+  "flyingMemory": {
+    "name": "플라잉메모리"
+  },
+  "poisonMemory": {
+    "name": "포이즌메모리"
+  },
+  "groundMemory": {
+    "name": "그라운드메모리"
+  },
+  "rockMemory": {
+    "name": "록메모리"
+  },
+  "bugMemory": {
+    "name": "버그메모리"
+  },
+  "ghostMemory": {
+    "name": "고스트메모리"
+  },
+  "steelMemory": {
+    "name": "스틸메모리"
+  },
+  "fireMemory": {
+    "name": "파이어메모리"
+  },
+  "waterMemory": {
+    "name": "워터메모리"
+  },
+  "grassMemory": {
+    "name": "그래스메모리"
+  },
+  "electricMemory": {
+    "name": "일렉트릭메모리"
+  },
+  "psychicMemory": {
+    "name": "사이킥메모리"
+  },
+  "iceMemory": {
+    "name": "아이스메모리"
+  },
+  "dragonMemory": {
+    "name": "드래곤메모리"
+  },
+  "darkMemory": {
+    "name": "다크메모리"
+  },
+  "fairyMemory": {
+    "name": "페어리메모리"
+  },
+  "normalMemory": {
+    "name": "일반메모리"
+  },
+  "map": {
+    "name": "지도",
+    "description": "갈림길에서 목적지를 선택할 수 있다."
+  },
+  "ivScanner": {
+    "name": "개체값탐지기",
+    "description": "야생 포켓몬의 개체값을 확인 가능하다."
+  },
+  "lockCapsule": {
+    "name": "록캡슐",
+    "description": "받을 아이템을 갱신할 때 희귀도를 고정시킬 수 있게 된다."
+  },
+  "megaBracelet": {
+    "name": "메가링",
+    "description": "메가스톤을 사용할 수 있게 된다."
+  },
+  "dynamaxBand": {
+    "name": "다이맥스 밴드",
+    "description": "다이버섯을 사용할 수 있게 된다."
+  },
+  "teraOrb": {
+    "name": "테라스탈오브",
+    "description": "포켓몬들이 테라스탈할 수 있게 된다. 서서히 충전되며, 테라피스를 사용할 수 있게 된다."
+  },
+  "goldenPokeball": {
+    "name": "황금몬스터볼",
+    "description": "전투 후 획득하는 아이템의 선택지가 하나 더 늘어난다."
+  },
+  "ovalCharm": {
+    "name": "둥근부적",
+    "description": "여러 마리의 포켓몬이 배틀에 참여할 경우, 전체 경험치의 10%씩을 추가로 획득한다."
+  },
+  "expShare": {
+    "name": "학습장치",
+    "description": "배틀에 참여하지 않아도 20%의 경험치를 받을 수 있게 된다."
+  },
+  "expBalance": {
+    "name": "균형학습장치",
+    "description": "레벨이 낮은 포켓몬이 받는 경험치를 가중시킨다."
+  },
+  "candyJar": {
+    "name": "사탕단지",
+    "description": "이상한사탕 종류의 아이템이 올려주는 레벨이 1 증가한다."
+  },
+  "berryPouch": {
+    "name": "열매주머니",
+    "description": "사용한 나무열매가 소모되지 않을 확률이 30% 추가된다."
+  },
+  "healingCharm": {
+    "name": "치유의부적",
+    "description": "HP를 회복하는 기술이나 도구를 썼을 때 효율이 10% 증가한다. (부활 제외)"
+  },
+  "expCharm": {
+    "name": "경험부적",
+    "description": "포켓몬이 받는 경험치가 25% 증가한다."
+  },
+  "superExpCharm": {
+    "name": "좋은경험부적",
+    "description": "포켓몬이 받는 경험치가 60% 증가한다."
+  },
+  "goldenExpCharm": {
+    "name": "황금경험부적",
+    "description": "포켓몬이 받는 경험치가 100% 증가한다."
+  },
+  "amuletCoin": {
+    "name": "부적금화",
+    "description": "받는 돈이 20% 증가한다."
+  },
+  "abilityCharm": {
+    "name": "특성부적",
+    "description": "야생 포켓몬이 숨겨진 특성을 가지고 등장할 확률을 급격히 높인다."
+  },
+  "shinyCharm": {
+    "name": "빛나는부적",
+    "description": "야생 포켓몬이 색이 다른 포켓몬으로 등장할 확률을 급격히 높인다."
+  },
+  "catchingCharm": {
+    "name": "흔들림없는부적",
+    "description": "포켓몬을 포획 시, 포획 크리티컬이 나올 확률이 올라간다."
+  },
+  "blackSludge": {
+    "name": "검은진흙",
+    "description": "악취가 너무 심한 나머지 상점 물건 가격이 크게 비싸진다."
+  },
+  "goldenBugNet": {
+    "name": "황금잠자리채",
+    "description": "벌레 타입 포켓몬을 더 자주 만날 수 있는 행운을 부여한다. 묘한 무게감이 든다."
+  },
+  "lure": {
+    "name": "더블배틀코롱",
+    "description": "10번의 배틀 동안 더블 배틀이 등장할 확률이 4배가 된다."
+  },
+  "superLure": {
+    "name": "실버코롱",
+    "description": "15번의 배틀 동안 더블 배틀이 등장할 확률이 4배가 된다."
+  },
+  "maxLure": {
+    "name": "골드코롱",
+    "description": "30번의 배틀 동안 더블 배틀이 등장할 확률이 4배가 된다."
+  },
+  "xAttack": {
+    "name": "플러스파워",
+    "description": "자신의 모든 포켓몬이 5번의 배틀 동안 $t(pokemonInfo:stat.atk)[[가]] 20% 증가한다."
+  },
+  "xDefense": {
+    "name": "디펜드업",
+    "description": "자신의 모든 포켓몬이 5번의 배틀 동안 $t(pokemonInfo:stat.def)[[가]] 20% 증가한다."
+  },
+  "xSpAtk": {
+    "name": "스페셜업",
+    "description": "자신의 모든 포켓몬이 5번의 배틀 동안 $t(pokemonInfo:stat.spatk)[[가]] 20% 증가한다."
+  },
+  "xSpDef": {
+    "name": "스페셜가드",
+    "description": "자신의 모든 포켓몬이 5번의 배틀 동안 $t(pokemonInfo:stat.spdef)[[가]] 20% 증가한다."
+  },
+  "xSpeed": {
+    "name": "스피드업",
+    "description": "자신의 모든 포켓몬이 5번의 배틀 동안 $t(pokemonInfo:stat.spd)[[가]] 20% 증가한다."
+  },
+  "xAccuracy": {
+    "name": "잘-맞히기",
+    "description": "자신의 모든 포켓몬이 5번의 배틀 동안 $t(pokemonInfo:stat.acc)[[가]] 20% 증가한다."
+  },
+  "direHit": {
+    "name": "크리티컬커터",
+    "extra": {
+      "raises": "급소율"
+    },
+    "description": "자신의 모든 포켓몬이 5번의 배틀 동안 $t(items:direHit.raises)[[가]] 1단계 증가한다."
+  },
+  "enemyDamageBooster": {
+    "name": "대미지 토큰",
+    "description": "주는 대미지를 5% 증가시킨다."
+  },
+  "enemyDamageReduction": {
+    "name": "보호 토큰",
+    "description": "받는 대미지를 2.5% 감소시킨다."
+  },
+  "enemyHeal": {
+    "name": "회복 토큰",
+    "description": "매 턴 최대 체력의 2%를 회복한다."
+  },
+  "enemyAttackPoisonChance": {
+    "name": "독 토큰",
+    "description": "공격했을 때 $t(statusEffect:poison.description) 상태로 만들 확률이 5% 추가된다."
+  },
+  "enemyAttackParalyzeChance": {
+    "name": "마비 토큰",
+    "description": "공격했을 때 $t(statusEffect:paralysis.description) 상태로 만들 확률이 2.5% 추가된다."
+  },
+  "enemyAttackBurnChance": {
+    "name": "화상 토큰",
+    "description": "공격했을 때 $t(statusEffect:burn.description) 상태로 만들 확률이 5% 추가된다."
+  },
+  "enemyStatusEffectHealChance": {
+    "name": "만병통치 토큰",
+    "description": "매 턴 상태이상에서 회복될 확률이 2.5% 추가된다."
+  },
+  "enemyEndureChance": {
+    "name": "버티기 토큰",
+    "description": "받은 공격을 버텨낼 확률이 2% 추가된다."
+  },
+  "enemyFusedChance": {
+    "name": "합체 토큰",
+    "description": "야생 포켓몬이 합체되어 등장할 확률이 1% 추가된다."
+  },
+  "formChange": {
+    "description": "어느 특정 포켓몬을 폼 체인지시킨다."
+  },
+  "linkingCord": {
+    "name": "연결의끈"
+  },
+  "sunStone": {
+    "name": "태양의돌"
+  },
+  "moonStone": {
+    "name": "달의돌"
+  },
+  "leafStone": {
+    "name": "리프의돌"
+  },
+  "fireStone": {
+    "name": "불꽃의돌"
+  },
+  "waterStone": {
+    "name": "물의돌"
+  },
+  "thunderStone": {
+    "name": "천둥의돌"
+  },
+  "iceStone": {
+    "name": "얼음의돌"
+  },
+  "duskStone": {
+    "name": "어둠의돌"
+  },
+  "dawnStone": {
+    "name": "각성의돌"
+  },
+  "shinyStone": {
+    "name": "빛의돌"
+  },
+  "crackedPot": {
+    "name": "깨진포트"
+  },
+  "sweetApple": {
+    "name": "달콤한사과"
+  },
+  "tartApple": {
+    "name": "새콤한사과"
+  },
+  "strawberrySweet": {
+    "name": "딸기사탕공예"
+  },
+  "unremarkableTeacup": {
+    "name": "범작찻잔"
+  },
+  "upgrade": {
+    "name": "업그레이드"
+  },
+  "dubiousDisc": {
+    "name": "괴상한패치"
+  },
+  "dragonScale": {
+    "name": "용의비늘"
+  },
+  "prismScale": {
+    "name": "고운비늘"
+  },
+  "razorClaw": {
+    "name": "예리한손톱"
+  },
+  "razorFang": {
+    "name": "예리한이빨"
+  },
+  "ovalStone": {
+    "name": "동글동글돌"
+  },
+  "reaperCloth": {
+    "name": "영계의천"
+  },
+  "electirizer": {
+    "name": "에레키부스터"
+  },
+  "magmarizer": {
+    "name": "마그마부스터"
+  },
+  "protector": {
+    "name": "프로텍터"
+  },
+  "sachet": {
+    "name": "향기주머니"
+  },
+  "whippedDream": {
+    "name": "휘핑크림"
+  },
+  "syrupyApple": {
+    "name": "꿀맛사과"
+  },
+  "chippedPot": {
+    "name": "이빠진포트"
+  },
+  "galaricaCuff": {
+    "name": "가라두구팔찌"
+  },
+  "galaricaWreath": {
+    "name": "가라두구머리장식"
+  },
+  "auspiciousArmor": {
+    "name": "축복받은갑옷"
+  },
+  "maliciousArmor": {
+    "name": "저주받은갑옷"
+  },
+  "masterpieceTeacup": {
+    "name": "걸작찻잔"
+  },
+  "sunFlute": {
+    "name": "태양의피리"
+  },
+  "moonFlute": {
+    "name": "달의피리"
+  },
+  "blackAugurite": {
+    "name": "검은휘석"
+  },
+  "peatBlock": {
+    "name": "피트블록"
+  },
+  "metalAlloy": {
+    "name": "복합금속"
+  },
+  "scrollOfDarkness": {
+    "name": "악의 족자"
+  },
+  "scrollOfWaters": {
+    "name": "물의 족자"
+  },
+  "leadersCrest": {
+    "name": "대장의징표"
+  }
+}

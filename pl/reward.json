@@ -1,0 +1,69 @@
+{
+  "nugget": {
+    "name": "Samorodek"
+  },
+  "bigNugget": {
+    "name": "Duży Samorodek"
+  },
+  "potion": {
+    "name": "Lekarstwo"
+  },
+  "superPotion": {
+    "name": "Super Lekarstwo"
+  },
+  "hyperPotion": {
+    "name": "Hiper Lekarstwo"
+  },
+  "elixir": {
+    "name": "Eliksir"
+  },
+  "ppMax": {
+    "name": "PM Maks"
+  },
+  "pokemonHpRestore": {
+    "description": "Odnawia {{restorePoints}} PŻ lub {{restorePercent}% PŻ jednego Pokémona, w zależności, która wartość jest większa.",
+    "extra": {
+      "fully": "W pełni odnawia PŻ jednego Pokémona."
+    }
+  },
+  "pokemonRevive": {
+    "description": "Ożywia jednego Pokémona i odnawia {{restorePercent}}% PŻ."
+  },
+  "allPokemonFullRevive": {
+    "description": "Ożywia wszystkie znokautowane Pokémony, w pełni odnawiając ich PŻ."
+  },
+  "pokemonPpRestore": {
+    "description": "Odnawia {{restorePoints}} PM ataku jednego Pokémona.",
+    "extra": {
+      "fully": "Odnawia wszystkie PM jednego ataku."
+    }
+  },
+  "pokemonAllMovePpRestore": {
+    "description": "Odnawia {{restorePoints}} PM wszystkich ataków jednego Pokémona.",
+    "extra": {
+      "fully": "Odnawia wszystkie PM wszystkich ataków jednego Pokémona."
+    }
+  },
+  "pokemonLevelIncrement": {
+    "description": "Podnosi poziom jednego Pokémona o {{levels}}."
+  },
+  "addPokeball": {
+    "name": "×{{modifierCount}} {{pokeballName}}ów"
+  },
+  "addVoucher": {
+    "name": "{{voucherTypeName}} ×{{modifierCount}}",
+    "description": "Otrzymaj: {{voucherTypeName}} ×{{modifierCount}}"
+  },
+  "pokemonNatureChange": {
+    "description": "Zmienia naturę Pokémona na: {{natureName}} i odblokowuje ją do użycia na starcie."
+  },
+  "tm": {
+    "description": "Uczy Pokémona ataku {{moveName}}."
+  },
+  "pokemonHeldItem": {
+    "extra": {
+      "inoperable": "{{pokemonName}} nie może\ntego wziąć!",
+      "tooMany": "{{pokemonName}} ma tego za dużo!"
+    }
+  }
+}
