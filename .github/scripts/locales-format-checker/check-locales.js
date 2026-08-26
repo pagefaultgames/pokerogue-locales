@@ -7,8 +7,8 @@ import {
   toSnakeCase,
   toUpperSnakeCase,
 } from "../helpers/strings.js";
-import { COLORS, fileNameFormat, i18nextKeyExtensions, keyFormat, LOCALES_DIR, mainLanguage } from "./constants.js";
-import { getFiles, getKeys, getMainLanguageKeys, removeLanguageCode } from "./get-files.js";
+import { COLORS, fileNameFormat, i18nextKeyExtensions, keyFormat, LOCALES_DIR, mainLanguage } from "../helpers/constants.js";
+import { getFiles, getKeys, getMainLanguageKeys, removeLanguageCode } from "../helpers/get-files.js";
 
 /** @import * from "./types" */
 
