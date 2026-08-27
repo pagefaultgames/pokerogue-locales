@@ -6,23 +6,29 @@ import {
   toPascalSnakeCase,
   toSnakeCase,
   toUpperSnakeCase,
-} from "../helpers/strings.js";
-import { COLORS, fileNameFormat, i18nextKeyExtensions, keyFormat, LOCALES_DIR, mainLanguage } from "./constants.js";
-import { getFiles, getKeys, getMainLanguageKeys, removeLanguageCode } from "./get-files.js";
-import { failed, logInfo, logStartGroup } from "./utils.js";
-
-/** @import { FileKeys, Format, IncorrectFileName, IncorrectFileNames, IncorrectKey, IncorrectKeys, Options } from "./types.js" */
+} from "../helpers/strings.mts";
+import { COLORS, fileNameFormat, i18nextKeyExtensions, keyFormat, LOCALES_DIR, mainLanguage } from "./constants.mts";
+import { getFiles, getKeys, getMainLanguageKeys, removeLanguageCode } from "./get-files.mts";
+import type {
+  FileKeys,
+  Format,
+  IncorrectFileName,
+  IncorrectFileNames,
+  IncorrectKey,
+  IncorrectKeys,
+  Options,
+} from "./types.mts";
+import { failed, logInfo, logStartGroup } from "./utils.mts";
 
 // #region Key Format
 
 /**
  * Check the key format of all locales files.
- * @param {Options} options - The command line options
- * @returns {IncorrectKeys} The incorrect keys found.
+ * @param options - The command line options
+ * @returns The incorrect keys found.
  */
-export function checkLocaleKeys(options) {
-  /** @type {IncorrectKeys} */
-  let incorrectKeys = {};
+export function checkLocaleKeys(options: Options): IncorrectKeys {
+  let incorrectKeys: IncorrectKeys = {};
 
   for (const languageCode of options.languages) {
     const logFunc = options.verbose ? logStartGroup : logInfo;
@@ -54,13 +60,12 @@ export function checkLocaleKeys(options) {
 
 /**
  * Check a file for incorrect keys.
- * @param {string} filePath - The path to the file to check
- * @param {Options} options - The command line options
- * @returns {IncorrectKeys | null} The incorrect keys found in the file.
+ * @param filePath - The path to the file to check
+ * @param options - The command line options
+ * @returns The incorrect keys found in the file.
  */
-function checkForIncorrectKeys(filePath, options) {
-  /** @type {IncorrectKeys} */
-  const incorrectKeys = {};
+function checkForIncorrectKeys(filePath: string, options: Options): IncorrectKeys | null {
+  const incorrectKeys: IncorrectKeys = {};
   printVerboseLog(COLORS.file, `checking file: ${filePath}`, options);
 
   const keys = getKeys(filePath);
@@ -68,6 +73,7 @@ function checkForIncorrectKeys(filePath, options) {
     printVerboseLog(COLORS.info, `No keys found in ${filePath}`, options);
     return null;
   }
+
   const entries = keys.map((key, index) => analyzeKey(key, index, options)).filter((e) => e !== null);
 
   if (entries.length > 0) {
@@ -84,33 +90,35 @@ function checkForIncorrectKeys(filePath, options) {
 
 /**
  * Analyze a key for correctness.
- * @param {string} key - The key to analyze
- * @param {number} index - The index of the key
- * @param {Options} options - The command line options
- * @returns {IncorrectKey | null} The incorrect key and its correction or null if the key is correct.
+ * @param key - The key to analyze
+ * @param index - The index of the key
+ * @param options - The command line options
+ * @returns The incorrect key and its correction or null if the key is correct.
  */
-function analyzeKey(key, index, options) {
+function analyzeKey(key: string, index: number, options: Options): IncorrectKey | null {
   const line = index + 2;
   let correctKey = getCorrectFormat(key, keyFormat);
   if (key.includes("_")) {
     correctKey = processExtensions(key);
   }
+
   if (correctKey === key) {
     return null;
   }
 
   printVerboseLog(COLORS.red, `Incorrect key found at line ${line}: ${key}`, options);
   printVerboseLog(COLORS.corrected, `Correct key: ${correctKey}`, options);
+
   return { incorrectKey: key, correctedKey: correctKey, line };
 }
 
 /**
  * Process i18next key extensions.
- * @param {string} key - The key to process
- * @returns {string} The correct processed key.
+ * @param key - The key to process
+ * @returns The correct processed key.
  */
-function processExtensions(key) {
-  let ret;
+function processExtensions(key: string): string {
+  let ret: string;
   const parts = key.split("_");
   ret = parts[0];
   for (const part of parts.slice(1)) {
@@ -129,12 +137,11 @@ function processExtensions(key) {
 
 /**
  * Check the file name format of all locales files.
- * @param {Options} options - The command line options
- * @returns {IncorrectFileNames} The incorrect file names found.
+ * @param options - The command line options
+ * @returns The incorrect file names found.
  */
-export function checkLocaleFileNames(options) {
-  /** @type {IncorrectFileNames} */
-  const incorrectFileNames = {};
+export function checkLocaleFileNames(options: Options): IncorrectFileNames {
+  const incorrectFileNames: IncorrectFileNames = {};
 
   for (const languageCode of options.languages) {
     const logFunc = options.verbose ? logStartGroup : logInfo;
@@ -143,17 +150,17 @@ export function checkLocaleFileNames(options) {
     const path = `${LOCALES_DIR}/${languageCode}`;
     const files = getFiles(path);
     let languageCodeIncorrectFiles = 0;
-    const InvalidFileNamesForLang = [];
+    const invalidFileNamesForLang: IncorrectFileName[] = [];
 
     for (const filePath of files) {
       const fileNameResult = checkForIncorrectFileName(filePath, options);
       if (fileNameResult !== null) {
-        InvalidFileNamesForLang.push(fileNameResult);
+        invalidFileNamesForLang.push(fileNameResult);
         languageCodeIncorrectFiles++;
       }
     }
     if (languageCodeIncorrectFiles > 0) {
-      incorrectFileNames[languageCode] = InvalidFileNamesForLang;
+      incorrectFileNames[languageCode] = invalidFileNamesForLang;
     }
 
     if (options.verbose) {
@@ -170,11 +177,11 @@ export function checkLocaleFileNames(options) {
 
 /**
  * Check a file name for incorrect format.
- * @param {string} filePath - The path to the file to check
- * @param {Options} options - The command line options
- * @returns {IncorrectFileName | null} The incorrect file name found.
+ * @param filePath - The path to the file to check
+ * @param options - The command line options
+ * @returns The incorrect file name found.
  */
-function checkForIncorrectFileName(filePath, options) {
+function checkForIncorrectFileName(filePath: string, options: Options): IncorrectFileName | null {
   printVerboseLog(COLORS.file, `checking file: ${filePath}`, options);
 
   const fileName = filePath.split("/").pop();
@@ -190,6 +197,7 @@ function checkForIncorrectFileName(filePath, options) {
 
   printVerboseLog(COLORS.red, `Incorrect file name found: ${fileName}`, options);
   printVerboseLog(COLORS.corrected, `Correct file name: ${correctFileName}`, options);
+
   return { incorrectFileName: fileName, correctedFileName: correctFileName };
 }
 
@@ -199,12 +207,11 @@ function checkForIncorrectFileName(filePath, options) {
 
 /**
  * Check the file name format of all locales files.
- * @param {Options} options - The command line options
- * @returns {FileKeys} The incorrect file names found.
+ * @param options - The command line options
+ * @returns The incorrect file names found.
  */
-export function checkLocaleMissingKeys(options) {
-  /** @type {FileKeys} */
-  const missingKeys = {};
+export function checkLocaleMissingKeys(options: Options): FileKeys {
+  const missingKeys: FileKeys = {};
 
   for (const languageCode of options.languages) {
     if (languageCode === mainLanguage) {
@@ -239,13 +246,12 @@ export function checkLocaleMissingKeys(options) {
 }
 
 /** Check for keys, that don't exist in the main language
- * @param {string} filePath - The path to the file to check
- * @param {Options} options - The command line options
- * @returns {string[] | null} the keys, that don't exist in the main language
+ * @param filePath - The path to the file to check
+ * @param options - The command line options
+ * @returns the keys, that don't exist in the main language
  */
-function checkForMissingKeys(filePath, options) {
-  /** @type {string[]} */
-  const missingKeys = [];
+function checkForMissingKeys(filePath: string, options: Options): string[] | null {
+  const missingKeys: string[] = [];
   printVerboseLog(COLORS.file, `checking file: ${filePath}`, options);
 
   const keys = getKeys(filePath);
@@ -273,11 +279,11 @@ function checkForMissingKeys(filePath, options) {
 
 /**
  * Returns the correct format for the provided format.
- * @param {string} key - The key to get the correct format for
- * @param {Format} format - The format to get the correct format for
- * @returns {string} The correct format.
+ * @param key - The key to get the correct format for
+ * @param format - The format to get the correct format for
+ * @returns The correct format.
  */
-function getCorrectFormat(key, format) {
+function getCorrectFormat(key: string, format: Format): string {
   switch (format) {
     case "camelCase":
       return toCamelCase(key);
@@ -299,11 +305,11 @@ function getCorrectFormat(key, format) {
 
 /**
  * Prints a console log if verbose logging is enabled
- * @param {string} color - The color to apply to the message
- * @param {string} text - The text to print to the console
- * @param {Options} options - The command line options
+ * @param color - The color to apply to the message
+ * @param text - The text to print to the console
+ * @param options - The command line options
  */
-function printVerboseLog(color, text, options) {
+function printVerboseLog(color: string, text: string, options: Options): void {
   if (options.verbose) {
     logInfo(color, text);
   }

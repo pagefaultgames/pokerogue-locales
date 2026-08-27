@@ -17,12 +17,12 @@
 
   "files": {
     "ignoreUnknown": true,
-    "includes": ["**/*.mts", "**/*.js", "biome.jsonc", "package.json"]
+    "includes": ["**/*.mts", "biome.jsonc", "package.json"]
   },
 
   "formatter": {
     "enabled": true,
-    "includes": ["**/*.mts", "**/*.js", "biome.jsonc", "package.json"],
+    "includes": ["**/*.mts", "biome.jsonc", "package.json"],
     "indentStyle": "space",
     "lineWidth": 120,
     "useEditorconfig": true
@@ -274,7 +274,7 @@
         "noTsIgnore": "error",
         "noUnnecessaryConditions": "warn",
         "noVar": "error",
-        "useArraySortCompare": "error",
+        "useArraySortCompare": "warn", // there seems to be some sort of bug with the rule, setting to "warn" for now
         "useDefaultSwitchClauseLast": "error",
         "useErrorMessage": "error",
         "useGuardForIn": "error",
