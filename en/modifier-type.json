@@ -1,12 +1,12 @@
 {
   "ModifierType": {
     "AddPokeballModifierType": {
-      "name": "{{modifierCount}}x {{pokeballName}}",
-      "description": "Receive {{pokeballName}} x{{modifierCount}} (Inventory: {{pokeballAmount}}) \nCatch Rate: {{catchRate}}"
+      "name": "{{modifierCount}}× {{pokeballName}}",
+      "description": "Receive {{pokeballName}} ×{{modifierCount}} (Inventory: {{pokeballAmount}}) \nCatch Rate: {{catchRate}}"
     },
     "AddVoucherModifierType": {
-      "name": "{{modifierCount}}x {{voucherTypeName}}",
-      "description": "Receive {{voucherTypeName}} x{{modifierCount}}."
+      "name": "{{modifierCount}}× {{voucherTypeName}}",
+      "description": "Receive {{voucherTypeName}} ×{{modifierCount}}."
     },
     "PokemonHeldItemModifierType": {
       "extra": {
