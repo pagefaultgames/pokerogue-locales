@@ -21,7 +21,7 @@
   },
   "payDay": {
     "name": "Jackpot",
-    "effect": "Des pièces sont lancées sur la cible pour le infliger des dégâts. Si l’attaque est réussie, vous recevrez de l’argent après le combat."
+    "effect": "Des pièces sont lancées sur la cible pour lui infliger des dégâts. Si l’attaque est réussie, vous recevrez de l’argent après le combat."
   },
   "firePunch": {
     "name": "Poing Feu",
@@ -489,7 +489,7 @@
   },
   "smog": {
     "name": "Purédpois",
-    "effect": "Le lanceur attaque la cible à l’aide d’une éruption de gaz répugnants. A 30 % de chances de l’empoisonner."
+    "effect": "Le lanceur attaque la cible à l’aide d’une éruption de gaz répugnants. A 40 % de chances de l’empoisonner."
   },
   "sludge": {
     "name": "Détritus",
@@ -689,7 +689,7 @@
   },
   "snore": {
     "name": "Ronflement",
-    "effect": "Une attaque qui ne fonctionne que si le lanceur est endormi. Le boucan a 30 % de chances de l’apeurer."
+    "effect": "Une attaque qui ne fonctionne que si le lanceur est endormi. Le boucan a 30 % de chances d’apeurer la cible."
   },
   "curse": {
     "name": "Malédiction",
@@ -957,7 +957,7 @@
   },
   "rainDance": {
     "name": "Danse Pluie",
-    "effect": "Invoque de fortes pluies qui durent cinq tours, augmentant de 50 % puissance des capacités de type Eau et baissant de 50 % celle des capacités de type Feu."
+    "effect": "Invoque de fortes pluies qui durent cinq tours, augmentant de 50 % la puissance des capacités de type Eau et baissant de 50 % celle des capacités de type Feu."
   },
   "sunnyDay": {
     "name": "Zénith",
@@ -1315,7 +1315,7 @@
   },
   "muddyWater": {
     "name": "Ocroupi",
-    "effect": "Le lanceur attaque en projetant de l’eau boueuse. A 30 % de chances de baisser la Précision des cibles adverses.\n"
+    "effect": "Le lanceur attaque en projetant de l’eau boueuse sur les cibles adverses. A 30 % de chances de baisser leur Précision de 1 cran.\n"
   },
   "bulletSeed": {
     "name": "Balle Graine",
@@ -1605,7 +1605,7 @@
   },
   "airSlash": {
     "name": "Lame d’Air",
-    "effect": "Le lanceur attaque avec une lame d’air capable de fendre le ciel. A 30 % de chances de l’apeurer."
+    "effect": "Le lanceur attaque avec une lame d’air capable de fendre le ciel. A 30 % de chances d’apeurer la cible."
   },
   "xScissor": {
     "name": "Plaie Croix",
@@ -1613,7 +1613,7 @@
   },
   "bugBuzz": {
     "name": "Bourdon",
-    "effect": "Le lanceur fait vibrer son corps pour lancer une vague sonique. A 10 % de chances de baisser sa Défense Spéciale de 1 cran."
+    "effect": "Le lanceur fait vibrer son corps pour lancer une vague sonique. A 10 % de chances de baisser la Défense Spéciale de la cible de 1 cran."
   },
   "dragonPulse": {
     "name": "Draco-Choc",
@@ -2041,7 +2041,7 @@
   },
   "acrobatics": {
     "name": "Acrobatie",
-    "effect": "Le lanceur frappe la cible avec agilité. S’il ne tient pas d’objet, l’attaque inflige davantage de dégâts. La puissance peut varier entre 55 et 110."
+    "effect": "Le lanceur frappe la cible avec agilité. Moins il porte d’objets, plus l’attaque inflige de dégâts. La puissance peut varier entre 55 et 110."
   },
   "reflectType": {
     "name": "Copie-Type",
@@ -2313,7 +2313,7 @@
   },
   "grassyTerrain": {
     "name": "Champ Herbu",
-    "effect": "Pendant cinq tours, les Pokémon au sol récupèrent 1/16 de leurs PV max à chaque tour et la puissance des capacités de type Plante augmente de 30 %."
+    "effect": "Pendant 5 tours, les Pokémon au sol récupèrent 1/16 de leurs PV max à chaque tour et la puissance des capacités de type Plante augmente de 30 %."
   },
   "mistyTerrain": {
     "name": "Champ Brumeux"
@@ -3737,7 +3737,7 @@
   },
   "ivyCudgel": {
     "name": "Massue Liane",
-    "effect": "Le lanceur frappe la cible à l’aide d’une massue entourée d’une liane. Si Ogerpon utilise cette capacité, le type varie en fonction du masque porté. Taux de critiques augmenté de 1 cran."
+    "effect": "Le lanceur frappe la cible à l’aide d’une massue entourée d’une liane. Taux de critiques augmenté de 1 cran. Si Ogerpon utilise cette capacité, le type varie en fonction du masque porté."
   },
   "electroShot": {
     "name": "Fulgurayon",

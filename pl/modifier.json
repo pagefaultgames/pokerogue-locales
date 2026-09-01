@@ -1,3 +1,19 @@
 {
-  "enemyTurnHealApply": "{{pokemonNameWithAffix}}\nodzyskał trochę PŻ!"
+  "surviveDamageApply": "{{pokemonNameWithAffix}} przeżył\nużywając {{typeName}}!",
+  "turnHealApply": "{{pokemonNameWithAffix}} odzyskał troszkę PŻ,\nużywając {{typeName}}!",
+  "hitHealApply": "{{pokemonNameWithAffix}} odzyskał troszkę PŻ,\nużywając {{typeName}}!",
+  "pokemonInstantReviveApply": "{{pokemonNameWithAffix}} został ocucony,\ndzięki {{typeName}}!",
+  "resetNegativeStatStageApply": "Obniżone statystyki {{pokemonNameWithAffix}} zostały przywrócone do normalności,\ndzięki {{typeName}}!",
+  "moneyInterestApply": "Dostałeś ₽{{moneyAmount}},\ndzięki {{typeName}}!",
+  "turnHeldItemTransferApply": "{{itemName}} {{pokemonNameWithAffix}}'a został wchłonięty\nprzez {{pokemonName}} {{typeName}}!",
+  "contactHeldItemTransferApply": "{{itemName}} {{pokemonNameWithAffix}}'a został zabrany\nprzez {{pokemonName}} {{typeName}}!",
+  "enemyTurnHealApply": "{{pokemonNameWithAffix}}\nodzyskał trochę PŻ!",
+  "bypassSpeedChanceApply": "{{pokemonName}} może reagować szybciej,\ndzięki {{itemName}}!",
+  "tier": {
+    "common": "Zwyczajny",
+    "great": "Świetny",
+    "ultra": "Ultra",
+    "master": "Mistrzowski",
+    "luxury": "Luksusowy"
+  }
 }
