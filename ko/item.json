@@ -1,7 +1,7 @@
 {
   "sitrusBerry": {
     "name": "자뭉열매",
-    "description": "지니게 하면 HP가 50% 미만일 때 HP를 25% 회복"
+    "description": "지니게 하면 HP가 {{thresholdPercent}}% 미만일 때 HP를 {{healPercent}}% 회복"
   },
   "lumBerry": {
     "name": "리샘열매",
@@ -9,39 +9,39 @@
   },
   "enigmaBerry": {
     "name": "의문열매",
-    "description": "지니게 하면 효과가 뛰어난 기술에 당했을 때 HP를 25% 회복"
+    "description": "지니게 하면 효과가 뛰어난 기술에 당했을 때 HP를 {{healPercent}}% 회복"
   },
   "liechiBerry": {
     "name": "치리열매",
-    "description": "지니게 하면 HP가 25% 미만일 때 자신의 공격이 상승"
+    "description": "지니게 하면 HP가 {{thresholdPercent}}% 미만일 때 자신의 공격이 상승"
   },
   "ganlonBerry": {
     "name": "용아열매",
-    "description": "지니게 하면 HP가 25% 미만일 때 자신의 방어가 상승"
+    "description": "지니게 하면 HP가 {{thresholdPercent}}% 미만일 때 자신의 방어가 상승"
   },
   "petayaBerry": {
     "name": "야타비열매",
-    "description": "지니게 하면 HP가 25% 미만일 때 자신의 특수공격이 상승"
+    "description": "지니게 하면 HP가 {{thresholdPercent}}% 미만일 때 자신의 특수공격이 상승"
   },
   "apicotBerry": {
     "name": "규살열매",
-    "description": "지니게 하면 HP가 25% 미만일 때 자신의 특수방어가 상승"
+    "description": "지니게 하면 HP가 {{thresholdPercent}}% 미만일 때 자신의 특수방어가 상승"
   },
   "salacBerry": {
     "name": "캄라열매",
-    "description": "지니게 하면 HP가 25% 미만일 때 자신의 스피드가 상승"
+    "description": "지니게 하면 HP가 {{thresholdPercent}}% 미만일 때 자신의 스피드가 상승"
   },
   "lansatBerry": {
     "name": "랑사열매",
-    "description": "지니게 하면 HP가 25% 미만일 때 공격이 급소를 맞히기 쉬워짐"
+    "description": "지니게 하면 HP가 {{thresholdPercent}}% 미만일 때 공격이 급소를 맞히기 쉬워짐"
   },
   "starfBerry": {
     "name": "스타열매",
-    "description": "지니게 하면 HP가 25% 미만일 때 능력 중의 하나가 크게 상승"
+    "description": "지니게 하면 HP가 {{thresholdPercent}}% 미만일 때 능력 중의 하나가 크게 상승"
   },
   "leppaBerry": {
     "name": "과사열매",
-    "description": "지니게 하면 기술의 PP가 0이 되었을 때 PP를 10만큼 회복"
+    "description": "지니게 하면 기술의 PP가 0이 되었을 때 PP를 {{restorePp}}만큼 회복"
   },
   "reviverSeed": {
     "name": "부활의씨앗",
@@ -52,76 +52,58 @@
     "description": "지니게 한 포켓몬의 능력이 떨어졌을 때 원래 상태로 돌아온다."
   },
   "silkScarf": {
-    "name": "실크스카프",
-    "description": "지니게 하면 $t(pokemonInfo:type.normal)타입 기술의 위력이 20% 상승한다."
+    "name": "실크스카프"
   },
   "blackBelt": {
-    "name": "검은띠",
-    "description": "지니게 하면 $t(pokemonInfo:type.fighting)타입 기술의 위력이 20% 상승한다."
+    "name": "검은띠"
   },
   "sharpBeak": {
-    "name": "예리한부리",
-    "description": "지니게 하면 $t(pokemonInfo:type.flying)타입 기술의 위력이 20% 상승한다."
+    "name": "예리한부리"
   },
   "poisonBarb": {
-    "name": "독바늘",
-    "description": "지니게 하면 $t(pokemonInfo:type.poison)타입 기술의 위력이 20% 상승한다."
+    "name": "독바늘"
   },
   "softSand": {
-    "name": "부드러운모래",
-    "description": "지니게 하면 $t(pokemonInfo:type.ground)타입 기술의 위력이 20% 상승한다."
+    "name": "부드러운모래"
   },
   "hardStone": {
-    "name": "딱딱한돌",
-    "description": "지니게 하면 $t(pokemonInfo:type.rock)타입 기술의 위력이 20% 상승한다."
+    "name": "딱딱한돌"
   },
   "silverPowder": {
-    "name": "은빛가루",
-    "description": "지니게 하면 $t(pokemonInfo:type.bug)타입 기술의 위력이 20% 상승한다."
+    "name": "은빛가루"
   },
   "spellTag": {
-    "name": "저주의부적",
-    "description": "지니게 하면 $t(pokemonInfo:type.ghost)타입 기술의 위력이 20% 상승한다."
+    "name": "저주의부적"
   },
   "metalCoat": {
-    "name": "금속코트",
-    "description": "지니게 하면 $t(pokemonInfo:type.steel)타입 기술의 위력이 20% 상승한다."
+    "name": "금속코트"
   },
   "charcoal": {
-    "name": "목탄",
-    "description": "지니게 하면 $t(pokemonInfo:type.fire)타입 기술의 위력이 20% 상승한다."
+    "name": "목탄"
   },
   "mysticWater": {
-    "name": "신비의물방울",
-    "description": "지니게 하면 $t(pokemonInfo:type.water)타입 기술의 위력이 20% 상승한다."
+    "name": "신비의물방울"
   },
   "miracleSeed": {
-    "name": "기적의씨",
-    "description": "지니게 하면 $t(pokemonInfo:type.grass)타입 기술의 위력이 20% 상승한다."
+    "name": "기적의씨"
   },
   "magnet": {
-    "name": "자석",
-    "description": "지니게 하면 $t(pokemonInfo:type.electric)타입 기술의 위력이 20% 상승한다."
+    "name": "자석"
   },
   "twistedSpoon": {
-    "name": "휘어진스푼",
-    "description": "지니게 하면 $t(pokemonInfo:type.psychic)타입 기술의 위력이 20% 상승한다."
+    "name": "휘어진스푼"
   },
   "neverMeltIce": {
-    "name": "녹지않는얼음",
-    "description": "지니게 하면 $t(pokemonInfo:type.ice)타입 기술의 위력이 20% 상승한다."
+    "name": "녹지않는얼음"
   },
   "dragonFang": {
-    "name": "용의이빨",
-    "description": "지니게 하면 $t(pokemonInfo:type.dragon)타입 기술의 위력이 20% 상승한다."
+    "name": "용의이빨"
   },
   "blackGlasses": {
-    "name": "검은안경",
-    "description": "지니게 하면 $t(pokemonInfo:type.dark)타입 기술의 위력이 20% 상승한다."
+    "name": "검은안경"
   },
   "fairyFeather": {
-    "name": "요정의깃털",
-    "description": "지니게 하면 $t(pokemonInfo:type.fairy)타입 기술의 위력이 20% 상승한다."
+    "name": "요정의깃털"
   },
   "lightBall": {
     "name": "전기구슬",
@@ -156,56 +138,54 @@
     "description": "매우 길고 단단한 줄기. 파오리에게 지니게 하면 기술이 급소에 맞기 쉬워진다."
   },
   "luckyEgg": {
-    "name": "행복의알",
-    "description": "지니게 한 포켓몬은 받는 경험치가 40% 증가한다."
+    "name": "행복의알"
   },
   "goldenEgg": {
-    "name": "황금의알",
-    "description": "지니게 한 포켓몬은 받는 경험치가 100% 증가한다."
+    "name": "황금의알"
   },
   "sootheBell": {
     "name": "평온의방울",
-    "description": "획득하는 친밀도가 50% 증가한다."
+    "description": "획득하는 친밀도가 {{boostPercent}}% 증가한다."
   },
   "focusBand": {
     "name": "기합의머리띠",
-    "description": "기절할 듯한 데미지를 받아도 HP를 1 남겨서 견딜 확률이 10% 추가된다."
+    "description": "기절할 듯한 데미지를 받아도 HP를 {{hp}} 남겨서 견딜 확률이 {{chancePercent}}% 추가된다."
   },
   "quickClaw": {
     "name": "선제공격손톱",
-    "description": "상대보다 먼저 행동할 수 있게 될 확률이 10% 추가된다. (우선도 처리 이후)"
+    "description": "상대보다 먼저 행동할 수 있게 될 확률이 {{chancePercent}}% 추가된다. (우선도 처리 이후)"
   },
   "kingsRock": {
     "name": "왕의징표석",
-    "description": "공격해서 데미지를 줄 때 상대를 풀죽일 확률이 10% 추가된다."
+    "description": "공격해서 데미지를 줄 때 상대를 풀죽일 확률이 {{chancePercent}}% 추가된다."
   },
   "leftovers": {
     "name": "먹다남은음식",
-    "description": "포켓몬의 HP가 매 턴 최대 체력의 1/16씩 회복된다."
+    "description": "포켓몬의 HP가 매 턴 최대 체력의 1/{{healDenominator}}씩 회복된다."
   },
   "shellBell": {
     "name": "조개껍질방울",
-    "description": "포켓몬이 준 데미지의 1/8씩을 회복한다."
+    "description": "포켓몬이 준 데미지의 1/{{healDenominator}}씩을 회복한다."
   },
   "mysticalRock": {
     "name": "신비한바위",
-    "description": "이 도구를 지닌 포켓몬의 기술이나 특성으로 발생한 날씨, 필드 효과의 지속 시간을 스택 당 2턴 연장한다."
+    "description": "이 도구를 지닌 포켓몬의 기술이나 특성으로 발생한 날씨, 필드 효과의 지속 시간을 스택 당 {{turns}}턴 연장한다."
   },
   "wideLens": {
     "name": "광각렌즈",
-    "description": "기술의 명중률이 5 증가한다."
+    "description": "기술의 명중률이 {{accuracy}} 증가한다."
   },
   "multiLens": {
     "name": "멀티렌즈",
-    "description": "지니게 된 포켓몬은 공격한 데미지의 25%로 한 번 더 공격한다."
+    "description": "지니게 된 포켓몬은 공격한 데미지의 {{damagePercent}}%로 한 번 더 공격한다."
   },
   "goldenPunch": {
     "name": "골든펀치",
-    "description": "주는 데미지의 50%만큼 돈을 획득한다."
+    "description": "주는 데미지의 {{moneyPercent}}%만큼 돈을 획득한다."
   },
   "gripClaw": {
     "name": "끈기갈고리손톱",
-    "description": "공격했을 때, 10%의 확률로 상대의 도구를 도둑질한다."
+    "description": "공격했을 때, {{chancePercent}}%의 확률로 상대의 도구를 도둑질한다."
   },
   "toxicOrb": {
     "name": "맹독구슬",
@@ -217,7 +197,7 @@
   },
   "soulDew": {
     "name": "마음의물방울",
-    "description": "지닌 포켓몬의 성격의 효과가 10% 증가한다. (합연산)"
+    "description": "지닌 포켓몬의 성격의 효과가 {{boostPercent}}% 증가한다. (합연산)"
   },
   "baton": {
     "name": "배턴",
@@ -232,28 +212,22 @@
     "description": "진화의 이상한 덩어리. 지니게 하면 진화 전 포켓몬의 방어와 특수방어가 올라간다."
   },
   "hpUp": {
-    "name": "맥스업",
-    "description": "지니게 하면 $t(pokemonInfo:stat.hp) 종족치를 10% 올려준다. 개체값이 높을수록 더 많이 누적시킬 수 있다."
+    "name": "맥스업"
   },
   "protein": {
-    "name": "타우린",
-    "description": "지니게 하면 $t(pokemonInfo:stat.atk) 종족치를 10% 올려준다. 개체값이 높을수록 더 많이 누적시킬 수 있다."
+    "name": "타우린"
   },
   "iron": {
-    "name": "사포닌",
-    "description": "지니게 하면 $t(pokemonInfo:stat.def) 종족치를 10% 올려준다. 개체값이 높을수록 더 많이 누적시킬 수 있다."
+    "name": "사포닌"
   },
   "calcium": {
-    "name": "리보플라빈",
-    "description": "지니게 하면 $t(pokemonInfo:stat.spatk) 종족치를 10% 올려준다. 개체값이 높을수록 더 많이 누적시킬 수 있다."
+    "name": "리보플라빈"
   },
   "zinc": {
-    "name": "키토산",
-    "description": "지니게 하면 $t(pokemonInfo:stat.spdef) 종족치를 10% 올려준다. 개체값이 높을수록 더 많이 누적시킬 수 있다."
+    "name": "키토산"
   },
   "carbos": {
-    "name": "알칼로이드",
-    "description": "지니게 하면 $t(pokemonInfo:stat.spd) 종족치를 10% 올려준다. 개체값이 높을수록 더 많이 누적시킬 수 있다."
+    "name": "알칼로이드"
   },
   "shuckleJuiceGood": {
     "name": "달콤한 단단지 주스",
@@ -775,15 +749,15 @@
   },
   "goldenPokeball": {
     "name": "황금몬스터볼",
-    "description": "전투 후 획득하는 아이템의 선택지가 하나 더 늘어난다."
+    "description": "전투 후 획득하는 아이템의 선택지가 {{count}}개 더 늘어난다."
   },
   "ovalCharm": {
     "name": "둥근부적",
-    "description": "여러 마리의 포켓몬이 배틀에 참여할 경우, 전체 경험치의 10%씩을 추가로 획득한다."
+    "description": "여러 마리의 포켓몬이 배틀에 참여할 경우, 전체 경험치의 {{boostPercent}}%씩을 추가로 획득한다."
   },
   "expShare": {
     "name": "학습장치",
-    "description": "배틀에 참여하지 않아도 20%의 경험치를 받을 수 있게 된다."
+    "description": "배틀에 참여하지 않아도 {{sharePercent}}%의 경험치를 받을 수 있게 된다."
   },
   "expBalance": {
     "name": "균형학습장치",
@@ -791,31 +765,28 @@
   },
   "candyJar": {
     "name": "사탕단지",
-    "description": "이상한사탕 종류의 아이템이 올려주는 레벨이 1 증가한다."
+    "description": "이상한사탕 종류의 아이템이 올려주는 레벨이 {{levels}} 증가한다."
   },
   "berryPouch": {
     "name": "열매주머니",
-    "description": "사용한 나무열매가 소모되지 않을 확률이 30% 추가된다."
+    "description": "사용한 나무열매가 소모되지 않을 확률이 {{chancePercent}}% 추가된다."
   },
   "healingCharm": {
     "name": "치유의부적",
-    "description": "HP를 회복하는 기술이나 도구를 썼을 때 효율이 10% 증가한다. (부활 제외)"
+    "description": "HP를 회복하는 기술이나 도구를 썼을 때 효율이 {{boostPercent}}% 증가한다. (부활 제외)"
   },
   "expCharm": {
-    "name": "경험부적",
-    "description": "포켓몬이 받는 경험치가 25% 증가한다."
+    "name": "경험부적"
   },
   "superExpCharm": {
-    "name": "좋은경험부적",
-    "description": "포켓몬이 받는 경험치가 60% 증가한다."
+    "name": "좋은경험부적"
   },
   "goldenExpCharm": {
-    "name": "황금경험부적",
-    "description": "포켓몬이 받는 경험치가 100% 증가한다."
+    "name": "황금경험부적"
   },
   "amuletCoin": {
     "name": "부적금화",
-    "description": "받는 돈이 20% 증가한다."
+    "description": "받는 돈이 {{boostPercent}}% 증가한다."
   },
   "abilityCharm": {
     "name": "특성부적",
@@ -838,83 +809,71 @@
     "description": "벌레 타입 포켓몬을 더 자주 만날 수 있는 행운을 부여한다. 묘한 무게감이 든다."
   },
   "lure": {
-    "name": "더블배틀코롱",
-    "description": "10번의 배틀 동안 더블 배틀이 등장할 확률이 4배가 된다."
+    "name": "더블배틀코롱"
   },
   "superLure": {
-    "name": "실버코롱",
-    "description": "15번의 배틀 동안 더블 배틀이 등장할 확률이 4배가 된다."
+    "name": "실버코롱"
   },
   "maxLure": {
-    "name": "골드코롱",
-    "description": "30번의 배틀 동안 더블 배틀이 등장할 확률이 4배가 된다."
+    "name": "골드코롱"
   },
   "xAttack": {
-    "name": "플러스파워",
-    "description": "자신의 모든 포켓몬이 5번의 배틀 동안 $t(pokemonInfo:stat.atk)[[가]] 20% 증가한다."
+    "name": "플러스파워"
   },
   "xDefense": {
-    "name": "디펜드업",
-    "description": "자신의 모든 포켓몬이 5번의 배틀 동안 $t(pokemonInfo:stat.def)[[가]] 20% 증가한다."
+    "name": "디펜드업"
   },
   "xSpAtk": {
-    "name": "스페셜업",
-    "description": "자신의 모든 포켓몬이 5번의 배틀 동안 $t(pokemonInfo:stat.spatk)[[가]] 20% 증가한다."
+    "name": "스페셜업"
   },
   "xSpDef": {
-    "name": "스페셜가드",
-    "description": "자신의 모든 포켓몬이 5번의 배틀 동안 $t(pokemonInfo:stat.spdef)[[가]] 20% 증가한다."
+    "name": "스페셜가드"
   },
   "xSpeed": {
-    "name": "스피드업",
-    "description": "자신의 모든 포켓몬이 5번의 배틀 동안 $t(pokemonInfo:stat.spd)[[가]] 20% 증가한다."
+    "name": "스피드업"
   },
   "xAccuracy": {
-    "name": "잘-맞히기",
-    "description": "자신의 모든 포켓몬이 5번의 배틀 동안 $t(pokemonInfo:stat.acc)[[가]] 20% 증가한다."
+    "name": "잘-맞히기"
   },
   "direHit": {
     "name": "크리티컬커터",
     "extra": {
       "raises": "급소율"
     },
-    "description": "자신의 모든 포켓몬이 5번의 배틀 동안 $t(item:direHit.raises)[[가]] 1단계 증가한다."
+    "description": "자신의 모든 포켓몬이 {{battleCount}}번의 배틀 동안 {{stat}}[[가]] {{stages}}단계 증가한다."
   },
   "enemyDamageBooster": {
     "name": "대미지 토큰",
-    "description": "주는 대미지를 5% 증가시킨다."
+    "description": "주는 대미지를 {{boostPercent}}% 증가시킨다."
   },
   "enemyDamageReduction": {
     "name": "보호 토큰",
-    "description": "받는 대미지를 2.5% 감소시킨다."
+    "description": "받는 대미지를 {{reductionPercent}}% 감소시킨다."
   },
   "enemyHeal": {
     "name": "회복 토큰",
-    "description": "매 턴 최대 체력의 2%를 회복한다."
+    "description": "매 턴 최대 체력의 {{healPercent}}%를 회복한다."
   },
   "enemyAttackPoisonChance": {
-    "name": "독 토큰",
-    "description": "공격했을 때 $t(statusEffect:poison.description) 상태로 만들 확률이 5% 추가된다."
+    "name": "독 토큰"
   },
   "enemyAttackParalyzeChance": {
-    "name": "마비 토큰",
-    "description": "공격했을 때 $t(statusEffect:paralysis.description) 상태로 만들 확률이 2.5% 추가된다."
+    "name": "마비 토큰"
   },
   "enemyAttackBurnChance": {
-    "name": "화상 토큰",
-    "description": "공격했을 때 $t(statusEffect:burn.description) 상태로 만들 확률이 5% 추가된다."
+    "name": "화상 토큰"
   },
   "enemyStatusEffectHealChance": {
     "name": "만병통치 토큰",
-    "description": "매 턴 상태이상에서 회복될 확률이 2.5% 추가된다."
+    "description": "매 턴 상태이상에서 회복될 확률이 {{chancePercent}}% 추가된다."
   },
   "enemyEndureChance": {
     "name": "버티기 토큰",
-    "description": "받은 공격을 버텨낼 확률이 2% 추가된다."
+    "description": "받은 공격을 버텨낼 확률이 {{chancePercent}}% 추가된다."
   },
   "enemyFusedChance": {
     "name": "합체 토큰",
-    "description": "야생 포켓몬이 합체되어 등장할 확률이 1% 추가된다."
+    "description": "야생 포켓몬이 합체되어 등장할 확률이 {{chancePercent}}% 추가된다."
   },
   "formChange": {
     "description": "어느 특정 포켓몬을 폼 체인지시킨다."
@@ -1050,5 +1009,26 @@
   },
   "leadersCrest": {
     "name": "대장의징표"
+  },
+  "typeAttackBooster": {
+    "description": "지니게 하면 {{type}}타입 기술의 위력이 {{boostPercent}}% 상승한다."
+  },
+  "pokemonExpBooster": {
+    "description": "지니게 한 포켓몬은 받는 경험치가 {{boostPercent}}% 증가한다."
+  },
+  "vitamin": {
+    "description": "지니게 하면 {{stat}} 종족치를 {{boostPercent}}% 올려준다. 개체값이 높을수록 더 많이 누적시킬 수 있다."
+  },
+  "expBooster": {
+    "description": "포켓몬이 받는 경험치가 {{boostPercent}}% 증가한다."
+  },
+  "doubleBattleChanceBooster": {
+    "description": "{{battleCount}}번의 배틀 동안 더블 배틀이 등장할 확률이 4배가 된다."
+  },
+  "tempStatStageBooster": {
+    "description": "자신의 모든 포켓몬이 {{battleCount}}번의 배틀 동안 {{stat}}[[가]] {{boostPercent}}% 증가한다."
+  },
+  "enemyAttackStatusEffectChance": {
+    "description": "공격했을 때 {{statusEffect}} 상태로 만들 확률이 {{chancePercent}}% 추가된다."
   }
 }

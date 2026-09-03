@@ -1,7 +1,7 @@
 {
   "sitrusBerry": {
     "name": "Ягода Сітрус",
-    "description": "Відновлює 25% ОЗ, якщо ОЗ нижче 50%."
+    "description": "Відновлює {{healPercent}}% ОЗ, якщо ОЗ нижче {{thresholdPercent}}%."
   },
   "lumBerry": {
     "name": "Ягода Лум",
@@ -9,39 +9,39 @@
   },
   "enigmaBerry": {
     "name": "Ягода Енігма",
-    "description": "Відновлює 25% ОЗ, якщо вражений суперефективним ударом."
+    "description": "Відновлює {{healPercent}}% ОЗ, якщо вражений суперефективним ударом."
   },
   "liechiBerry": {
     "name": "Ягода Лічі",
-    "description": "Збільшує Атаку, якщо ОЗ нижче 25%."
+    "description": "Збільшує Атаку, якщо ОЗ нижче {{thresholdPercent}}%."
   },
   "ganlonBerry": {
     "name": "Ягода Ганлон",
-    "description": "Збільшує Захист, якщо ОЗ нижче 25%."
+    "description": "Збільшує Захист, якщо ОЗ нижче {{thresholdPercent}}%."
   },
   "petayaBerry": {
     "name": "Ягода Петая",
-    "description": "Збільшує Сп. Атаку, якщо ОЗ нижче 25%."
+    "description": "Збільшує Сп. Атаку, якщо ОЗ нижче {{thresholdPercent}}%."
   },
   "apicotBerry": {
     "name": "Ягода Апікот",
-    "description": "Збільшує Сп. Захист, якщо ОЗ нижче 25%."
+    "description": "Збільшує Сп. Захист, якщо ОЗ нижче {{thresholdPercent}}%."
   },
   "salacBerry": {
     "name": "Ягода Салак",
-    "description": "Збільшує Швидкість, якщо ОЗ нижче 25%."
+    "description": "Збільшує Швидкість, якщо ОЗ нижче {{thresholdPercent}}%."
   },
   "lansatBerry": {
     "name": "Ягода Лансат",
-    "description": "Збільшує шанс критичного удару, якщо ОЗ нижче 25%."
+    "description": "Збільшує шанс критичного удару, якщо ОЗ нижче {{thresholdPercent}}%."
   },
   "starfBerry": {
     "name": "Ягода Старф",
-    "description": "Значно збільшує випадкову характеристику, якщо ОЗ нижче 25%."
+    "description": "Значно збільшує випадкову характеристику, якщо ОЗ нижче {{thresholdPercent}}%."
   },
   "leppaBerry": {
     "name": "Ягода Леппа",
-    "description": "Відновлює 10 ОС прийому, якщо його ОС падає до 0."
+    "description": "Відновлює {{restorePp}} ОС прийому, якщо його ОС падає до 0."
   },
   "reviverSeed": {
     "name": "Насіння Відродження",
@@ -52,76 +52,58 @@
     "description": "Предмет, який тримає Покемон. Відновлює будь-який знижений показник у бою. "
   },
   "silkScarf": {
-    "name": "Шовковий Шарф",
-    "description": "Збільшує силу атак типу $t(pokemonInfo:type.normal) Покéмона на 20%."
+    "name": "Шовковий Шарф"
   },
   "blackBelt": {
-    "name": "Чорний Пояс",
-    "description": "Збільшує силу атак типу $t(pokemonInfo:type.fighting) Покéмона на 20%."
+    "name": "Чорний Пояс"
   },
   "sharpBeak": {
-    "name": "Гострий Здьоб",
-    "description": "Збільшує силу атак типу $t(pokemonInfo:type.flying) Покéмона на 20%."
+    "name": "Гострий Здьоб"
   },
   "poisonBarb": {
-    "name": "Отруйний Болт",
-    "description": "Збільшує силу атак типу $t(pokemonInfo:type.poison) Покéмона на 20%."
+    "name": "Отруйний Болт"
   },
   "softSand": {
-    "name": "М’яхкий Писок",
-    "description": "Збільшує силу атак типу $t(pokemonInfo:type.ground) Покéмона на 20%."
+    "name": "М’яхкий Писок"
   },
   "hardStone": {
-    "name": "Граніт",
-    "description": "Збільшує силу атак типу $t(pokemonInfo:type.rock) Покéмона на 20%."
+    "name": "Граніт"
   },
   "silverPowder": {
-    "name": "Срібний Порошок",
-    "description": "Збільшує силу атак типу $t(pokemonInfo:type.bug) Покéмона на 20%."
+    "name": "Срібний Порошок"
   },
   "spellTag": {
-    "name": "Сувій Чар",
-    "description": "Збільшує силу атак типу $t(pokemonInfo:type.ghost) Покéмона на 20%."
+    "name": "Сувій Чар"
   },
   "metalCoat": {
-    "name": "Металевий Покрив",
-    "description": "Збільшує силу атак типу $t(pokemonInfo:type.steel) Покéмона на 20%."
+    "name": "Металевий Покрив"
   },
   "charcoal": {
-    "name": "Древесний Уголь",
-    "description": "Збільшує силу атак типу $t(pokemonInfo:type.fire) Покéмона на 20%."
+    "name": "Древесний Уголь"
   },
   "mysticWater": {
-    "name": "Містична Вода",
-    "description": "Збільшує силу атак типу $t(pokemonInfo:type.water) Покéмона на 20%."
+    "name": "Містична Вода"
   },
   "miracleSeed": {
-    "name": "Чудо-Насіння",
-    "description": "Збільшує силу атак типу $t(pokemonInfo:type.grass) Покéмона на 20%."
+    "name": "Чудо-Насіння"
   },
   "magnet": {
-    "name": "Магніт",
-    "description": "Збільшує силу атак типу $t(pokemonInfo:type.electric) Покéмона на 20%."
+    "name": "Магніт"
   },
   "twistedSpoon": {
-    "name": "Зігнута Ложка",
-    "description": "Збільшує силу атак типу $t(pokemonInfo:type.psychic) Покéмона на 20%."
+    "name": "Зігнута Ложка"
   },
   "neverMeltIce": {
-    "name": "Лід-Нетайка",
-    "description": "Збільшує силу атак типу $t(pokemonInfo:type.ice) Покéмона на 20%."
+    "name": "Лід-Нетайка"
   },
   "dragonFang": {
-    "name": "Драконячий Кіготь",
-    "description": "Збільшує силу атак типу $t(pokemonInfo:type.dragon) Покéмона на 20%."
+    "name": "Драконячий Кіготь"
   },
   "blackGlasses": {
-    "name": "Чорні Окуляри",
-    "description": "Збільшує силу атак типу $t(pokemonInfo:type.dark) Покéмона на 20%."
+    "name": "Чорні Окуляри"
   },
   "fairyFeather": {
-    "name": "Перо Феї",
-    "description": "Збільшує силу атак типу $t(pokemonInfo:type.fairy) Покéмона на 20%."
+    "name": "Перо Феї"
   },
   "lightBall": {
     "name": "Світлий Шар",
@@ -156,56 +138,54 @@
     "description": "Це дуже довге і жорстке стебло Цибулі-Порею підвищує шанс критичного удару для атак Фарфетчда"
   },
   "luckyEgg": {
-    "name": "Щасливе Яйце",
-    "description": "Збільшує надбання власника ОД на 40%."
+    "name": "Щасливе Яйце"
   },
   "goldenEgg": {
-    "name": "Золоте Яйце",
-    "description": "Збільшує надбання власника ОД на 100%."
+    "name": "Золоте Яйце"
   },
   "sootheBell": {
     "name": "Заспокійливий Дзвіночок",
-    "description": "Збільшує приріст дружби на 50%."
+    "description": "Збільшує приріст дружби на {{boostPercent}}%."
   },
   "focusBand": {
     "name": "Фокусний Пояс",
-    "description": "Додає 10% шанс власнику вижити з 1 ОЗ після отримання пошкоджень, достатніх для втрати свідомості."
+    "description": "Додає {{chancePercent}}% шанс власнику вижити з {{hp}} ОЗ після отримання пошкоджень, достатніх для втрати свідомості."
   },
   "quickClaw": {
     "name": "Швидкий Кіготь",
-    "description": "Додає 10% шанс рухатися першим незалежно від швидкості (після пріоритету)."
+    "description": "Додає {{chancePercent}}% шанс рухатися першим незалежно від швидкості (після пріоритету)."
   },
   "kingsRock": {
     "name": "Королівський Кругляк",
-    "description": "Додає 10% шанс, що атака змусить збити дію цілі."
+    "description": "Додає {{chancePercent}}% шанс, що атака змусить збити дію цілі."
   },
   "leftovers": {
     "name": "Залишок",
-    "description": "Відновлює 1/16 від максимального ОЗ покéмона кожного ходу."
+    "description": "Відновлює 1/{{healDenominator}} від максимального ОЗ покéмона кожного ходу."
   },
   "shellBell": {
     "name": "Ракушка-Вампір ",
-    "description": "Відновлює 1/8 ОЗ, завданих покéмону збитків."
+    "description": "Відновлює 1/{{healDenominator}} ОЗ, завданих покéмону збитків."
   },
   "mysticalRock": {
     "name": "Містичний Кругляк",
-    "description": "Продовжує тривалість впливу поля та погоди, спричиненого прийому або здібностями власника, на 2 ходи."
+    "description": "Продовжує тривалість впливу поля та погоди, спричиненого прийому або здібностями власника, на {{turns}} ходи."
   },
   "wideLens": {
     "name": "Ширші Лінзи",
-    "description": "Збільшує точність прийому на 5."
+    "description": "Збільшує точність прийому на {{accuracy}}."
   },
   "multiLens": {
     "name": "Мулті-Лінзи",
-    "description": "Перетворює 25% шкоди від атак власника в додатковий удар."
+    "description": "Перетворює {{damagePercent}}% шкоди від атак власника в додатковий удар."
   },
   "goldenPunch": {
     "name": "Золотий Ударник",
-    "description": "Надає 50% від завданих прямих збитків у вигляді грошей."
+    "description": "Надає {{moneyPercent}}% від завданих прямих збитків у вигляді грошей."
   },
   "gripClaw": {
     "name": "Захватний Кіготь",
-    "description": "При атаці існує 10% шанс, що предмет, який тримає ціль, буде вкрадений."
+    "description": "При атаці існує {{chancePercent}}% шанс, що предмет, який тримає ціль, буде вкрадений."
   },
   "toxicOrb": {
     "name": "Куля Яду",
@@ -217,7 +197,7 @@
   },
   "soulDew": {
     "name": "Роса душі",
-    "description": "Збільшує вплив характеру покемона на його характеристики на 10% (адитивно)."
+    "description": "Збільшує вплив характеру покемона на його характеристики на {{boostPercent}}% (адитивно)."
   },
   "baton": {
     "name": "Естафета",
@@ -232,28 +212,22 @@
     "description": "Ця загадкова еволюційна грудка підвищує показники захисту та спеціального захисту, коли її тримає Покéмон, який ще може еволюціонувати."
   },
   "hpUp": {
-    "name": "OЗ Плюс",
-    "description": "Збільшує базовий показник $t(pokemonInfo:stat.hp) Покéмона на 10%. Чим вищі IV, тим вищий ліміт накопичення."
+    "name": "OЗ Плюс"
   },
   "protein": {
-    "name": "Білок",
-    "description": "Збільшує базовий показник $t(pokemonInfo:stat.atk) Покéмона на 10%. Чим вищі IV, тим вищий ліміт накопичення."
+    "name": "Білок"
   },
   "iron": {
-    "name": "Залізо",
-    "description": "Збільшує базовий показник $t(pokemonInfo:stat.def) Покéмона на 10%. Чим вищі IV, тим вищий ліміт накопичення."
+    "name": "Залізо"
   },
   "calcium": {
-    "name": "Кальцій",
-    "description": "Збільшує базовий показник $t(pokemonInfo:stat.spatk) Покéмона на 10%. Чим вищі IV, тим вищий ліміт накопичення."
+    "name": "Кальцій"
   },
   "zinc": {
-    "name": "Цинк",
-    "description": "Збільшує базовий показник $t(pokemonInfo:stat.spdef) Покéмона на 10%. Чим вищі IV, тим вищий ліміт накопичення."
+    "name": "Цинк"
   },
   "carbos": {
-    "name": "Вуглеводи",
-    "description": "Збільшує базовий показник $t(pokemonInfo:stat.spd) Покéмона на 10%. Чим вищі IV, тим вищий ліміт накопичення."
+    "name": "Вуглеводи"
   },
   "shuckleJuiceGood": {
     "name": "Солодкий Сік Шакла",
@@ -472,15 +446,15 @@
   },
   "goldenPokeball": {
     "name": "Золотий Покé М’яч",
-    "description": "Додає додатковий слот нагороди, після битв."
+    "description": "Додає {{count}} {{count}} додатковий слот нагороди, після битв."
   },
   "ovalCharm": {
     "name": "Овальний Брелок",
-    "description": "Коли в битві беруть участь кілька покéмонів, кожен з них отримує додаткові 10% від загальної кількості досвіту."
+    "description": "Коли в битві беруть участь кілька покéмонів, кожен з них отримує додаткові {{boostPercent}}% від загальної кількості досвіту."
   },
   "expShare": {
     "name": "Розподілювач ОД.",
-    "description": "Надає 20% досвіду за кожен такий предмет Покéмонам, які не брали участі в бою"
+    "description": "Надає {{sharePercent}}% досвіду за кожен такий предмет Покéмонам, які не брали участі в бою"
   },
   "expBalance": {
     "name": "ОД. Балансир",
@@ -488,31 +462,28 @@
   },
   "candyJar": {
     "name": "Цукеркова Банка",
-    "description": "Збільшує кількість рівнів, доданих предметами «Рідкісна цукерка», на 1."
+    "description": "Збільшує кількість рівнів, доданих предметами «Рідкісна цукерка», на {{levels}}."
   },
   "berryPouch": {
     "name": "Ягідний Мішечок",
-    "description": "Додає 30% шанс, що використана ягода не буде спожита."
+    "description": "Додає {{chancePercent}}% шанс, що використана ягода не буде спожита."
   },
   "healingCharm": {
     "name": "Талісман-Лікувач",
-    "description": "Збільшує ефективність дій та предметів, що відновлюють ОЗ, на 10% (крім Відродження)."
+    "description": "Збільшує ефективність дій та предметів, що відновлюють ОЗ, на {{boostPercent}}% (крім Відродження)."
   },
   "expCharm": {
-    "name": "Амулет Досвіду",
-    "description": "Збільшує надбання ОД. на 25%."
+    "name": "Амулет Досвіду"
   },
   "superExpCharm": {
-    "name": "Супер Амулет Досвіду",
-    "description": "Збільшує надбання ОД. на 60%."
+    "name": "Супер Амулет Досвіду"
   },
   "goldenExpCharm": {
-    "name": "Золотий Амулет Досвіду",
-    "description": "Збільшує надбання ОД. на 100%."
+    "name": "Золотий Амулет Досвіду"
   },
   "amuletCoin": {
     "name": "Амулет-Монета",
-    "description": "Збільшує грошові винагороди на 20%."
+    "description": "Збільшує грошові винагороди на {{boostPercent}}%."
   },
   "abilityCharm": {
     "name": "Амулет Здібностей",
@@ -535,83 +506,71 @@
     "description": "Наділяє власника удачею, що дозволяє частіше знаходити покемонів типу «Комахи». Має дивну вагу."
   },
   "lure": {
-    "name": "Приманка",
-    "description": "Вчетверо збільшує ймовірність того, що зустрічі будуть являтися подвійними битвами, до 10 битв."
+    "name": "Приманка"
   },
   "superLure": {
-    "name": "Чудова Приманка",
-    "description": "Вчетверо збільшує ймовірність того, що зустрічі будуть являтися подвійними битвами, до 15 битв."
+    "name": "Чудова Приманка"
   },
   "maxLure": {
-    "name": "Найкраща Приманка",
-    "description": "Вчетверо збільшує ймовірність того, що зустрічі будуть являтися подвійними битвами, до 30 битв."
+    "name": "Найкраща Приманка"
   },
   "xAttack": {
-    "name": "X Атака",
-    "description": "Збільшує $t(pokemonInfo:stat.atk) для всієї комнади на 20% протягом 5 боїв."
+    "name": "X Атака"
   },
   "xDefense": {
-    "name": "Х Захист",
-    "description": "Збільшує $t(pokemonInfo:stat.def) для всієї комнади на 20% протягом 5 боїв."
+    "name": "Х Захист"
   },
   "xSpAtk": {
-    "name": "Х Спец. Атк",
-    "description": "Збільшує $t(pokemonInfo:stat.spatk) для всієї комнади на 20% протягом 5 боїв."
+    "name": "Х Спец. Атк"
   },
   "xSpDef": {
-    "name": "Х Спец, Зах",
-    "description": "Збільшує $t(pokemonInfo:stat.spdef) для всієї комнади на 20% протягом 5 боїв."
+    "name": "Х Спец, Зах"
   },
   "xSpeed": {
-    "name": "Х Швидкість",
-    "description": "Збільшує $t(pokemonInfo:stat.spd) для всієї комнади на 20% протягом 5 боїв."
+    "name": "Х Швидкість"
   },
   "xAccuracy": {
-    "name": "Х Точність",
-    "description": "Збільшує $t(pokemonInfo:stat.acc) для всієї комнади на 20% протягом 5 боїв."
+    "name": "Х Точність"
   },
   "direHit": {
     "name": "Критичні Влучання",
     "extra": {
       "raises": "Збільшує шанси на Критичний Удар"
     },
-    "description": "Збільшує $t(item:direHit.raises) для всієї комнади на 1 рівень протягом 5 боїв."
+    "description": "Збільшує {{stat}} для всієї комнади на {{stages}} рівень протягом {{battleCount}} боїв."
   },
   "enemyDamageBooster": {
     "name": "Жетон Шкоди",
-    "description": "Збільшує шкоду на 5% за кожен жетон"
+    "description": "Збільшує шкоду на {{boostPercent}}% за кожен жетон"
   },
   "enemyDamageReduction": {
     "name": "Жетон Захисту",
-    "description": "Зменшує шкоду на 2.5, за кожен жетон."
+    "description": "Зменшує шкоду на {{reductionPercent}}%, за кожен жетон."
   },
   "enemyHeal": {
     "name": "Жетон Лікування",
-    "description": "Лікує на 2% ОЗ за кожен жетон"
+    "description": "Лікує на {{healPercent}}% ОЗ за кожен жетон"
   },
   "enemyAttackPoisonChance": {
-    "name": "Жетон Отруєння",
-    "description": "Додає 5% шанс нанести $t(statusEffect:poison.description) атакуючими прийомами."
+    "name": "Жетон Отруєння"
   },
   "enemyAttackParalyzeChance": {
-    "name": "Жетон Паралічу",
-    "description": "Додає 2.5% шанс нанести $t(statusEffect:paralysis.description) атакуючими прийомами."
+    "name": "Жетон Паралічу"
   },
   "enemyAttackBurnChance": {
-    "name": "Жетон Підпалу",
-    "description": "Додає 5% шанс нанести $t(statusEffect:burn.description) атакуючими прийомами."
+    "name": "Жетон Підпалу"
   },
   "enemyStatusEffectHealChance": {
     "name": "Жетон Одужання",
-    "description": "Додає 2.5% шанс одужати від статусних ефектів."
+    "description": "Додає {{chancePercent}}% шанс одужати від статусних ефектів."
   },
   "enemyEndureChance": {
     "name": "Жетон Живучості",
-    "description": "Додає 2% шанс витримати удар."
+    "description": "Додає {{chancePercent}}% шанс витримати удар."
   },
   "enemyFusedChance": {
     "name": "Жетон З’єднань",
-    "description": "Додає 1% шансу за кожен жетон що диктй Покéмон буде з’єднаний з іншим"
+    "description": "Додає {{chancePercent}}% шансу за кожен жетон що диктй Покéмон буде з’єднаний з іншим"
   },
   "formChange": {
     "description": "Змушує певних Покéмонів змінювати форму."
@@ -747,5 +706,26 @@
   },
   "leadersCrest": {
     "name": "Емблема Лідера"
+  },
+  "typeAttackBooster": {
+    "description": "Збільшує силу атак типу {{type}} Покéмона на {{boostPercent}}%."
+  },
+  "pokemonExpBooster": {
+    "description": "Збільшує надбання власника ОД на {{boostPercent}}%."
+  },
+  "vitamin": {
+    "description": "Збільшує базовий показник {{stat}} Покéмона на {{boostPercent}}%. Чим вищі IV, тим вищий ліміт накопичення."
+  },
+  "expBooster": {
+    "description": "Збільшує надбання ОД. на {{boostPercent}}%."
+  },
+  "doubleBattleChanceBooster": {
+    "description": "Вчетверо збільшує ймовірність того, що зустрічі будуть являтися подвійними битвами, до {{battleCount}} битв."
+  },
+  "tempStatStageBooster": {
+    "description": "Збільшує {{stat}} для всієї комнади на {{boostPercent}}% протягом {{battleCount}} боїв."
+  },
+  "enemyAttackStatusEffectChance": {
+    "description": "Додає {{chancePercent}}% шанс нанести {{statusEffect}} атакуючими прийомами."
   }
 }

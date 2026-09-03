@@ -1,7 +1,7 @@
 {
   "sitrusBerry": {
     "name": "オボンのみ",
-    "description": "持たせると ＨＰが ５０%以下に なるとき ＨＰを ２５% 回復する"
+    "description": "持たせると ＨＰが {{thresholdPercent}}%以下に なるとき ＨＰを {{healPercent}}% 回復する"
   },
   "lumBerry": {
     "name": "ラムのみ",
@@ -9,39 +9,39 @@
   },
   "enigmaBerry": {
     "name": "ナゾのみ",
-    "description": "持たせると 効果バツグンの 技を 受けたとき ＨＰを ２５% 回復する"
+    "description": "持たせると 効果バツグンの 技を 受けたとき ＨＰを {{healPercent}}% 回復する"
   },
   "liechiBerry": {
     "name": "チイラのみ",
-    "description": "持たせると ＨＰが ２５%以下に なるとき 攻撃が あがる"
+    "description": "持たせると ＨＰが {{thresholdPercent}}%以下に なるとき 攻撃が あがる"
   },
   "ganlonBerry": {
     "name": "リュガのみ",
-    "description": "持たせると ＨＰが ２５%以下に なるとき 防御が あがる"
+    "description": "持たせると ＨＰが {{thresholdPercent}}%以下に なるとき 防御が あがる"
   },
   "petayaBerry": {
     "name": "ヤタピのみ",
-    "description": "持たせると ＨＰが ２５%以下に なるとき 特攻が あがる"
+    "description": "持たせると ＨＰが {{thresholdPercent}}%以下に なるとき 特攻が あがる"
   },
   "apicotBerry": {
     "name": "ズアのみ",
-    "description": "持たせると ＨＰが ２５%以下に なるとき 特防が あがる"
+    "description": "持たせると ＨＰが {{thresholdPercent}}%以下に なるとき 特防が あがる"
   },
   "salacBerry": {
     "name": "カムラのみ",
-    "description": "持たせると ＨＰが ２５%以下に なるとき 素早さが あがる"
+    "description": "持たせると ＨＰが {{thresholdPercent}}%以下に なるとき 素早さが あがる"
   },
   "lansatBerry": {
     "name": "サンのみ",
-    "description": "持たせると ＨＰが ２５%以下に なるとき 攻撃が 急所に 当たりやすくなる"
+    "description": "持たせると ＨＰが {{thresholdPercent}}%以下に なるとき 攻撃が 急所に 当たりやすくなる"
   },
   "starfBerry": {
     "name": "スターのみ",
-    "description": "持たせると ＨＰが ２５%以下に なるとき どれか １つの 能力が ぐーんと あがる"
+    "description": "持たせると ＨＰが {{thresholdPercent}}%以下に なるとき どれか １つの 能力が ぐーんと あがる"
   },
   "leppaBerry": {
     "name": "ヒメリのみ",
-    "description": "持たせると ＰＰが０になる 技の ＰＰを １０回復する"
+    "description": "持たせると ＰＰが０になる 技の ＰＰを {{restorePp}}回復する"
   },
   "reviverSeed": {
     "name": "ふっかつのタネ",
@@ -52,76 +52,58 @@
     "description": "持たせた ポケモンの 能力が 下がったとき １度だけ 元の状態に 戻す"
   },
   "silkScarf": {
-    "name": "シルクのスカーフ",
-    "description": "ポケモンの $t(pokemonInfo:type.normal)タイプの 技の 威力を ２０% 上げる"
+    "name": "シルクのスカーフ"
   },
   "blackBelt": {
-    "name": "くろおび",
-    "description": "ポケモンの $t(pokemonInfo:type.fighting)タイプの 技の 威力を ２０% 上げる"
+    "name": "くろおび"
   },
   "sharpBeak": {
-    "name": "するどいくちばし",
-    "description": "ポケモンの $t(pokemonInfo:type.flying)タイプの 技の 威力を ２０% 上げる"
+    "name": "するどいくちばし"
   },
   "poisonBarb": {
-    "name": "どくバリ",
-    "description": "ポケモンの $t(pokemonInfo:type.poison)タイプの 技の 威力を ２０% 上げる"
+    "name": "どくバリ"
   },
   "softSand": {
-    "name": "やわらかいすな",
-    "description": "ポケモンの $t(pokemonInfo:type.ground)タイプの 技の 威力を ２０% 上げる"
+    "name": "やわらかいすな"
   },
   "hardStone": {
-    "name": "かたいいし",
-    "description": "ポケモンの $t(pokemonInfo:type.rock)タイプの 技の 威力を ２０% 上げる"
+    "name": "かたいいし"
   },
   "silverPowder": {
-    "name": "ぎんのこな",
-    "description": "ポケモンの $t(pokemonInfo:type.bug)タイプの 技の 威力を ２０% 上げる"
+    "name": "ぎんのこな"
   },
   "spellTag": {
-    "name": "のろいのおふだ",
-    "description": "ポケモンの $t(pokemonInfo:type.ghost)タイプの 技の 威力を ２０% 上げる"
+    "name": "のろいのおふだ"
   },
   "metalCoat": {
-    "name": "メタルコート",
-    "description": "ポケモンの $t(pokemonInfo:type.steel)タイプの 技の 威力を ２０% 上げる"
+    "name": "メタルコート"
   },
   "charcoal": {
-    "name": "もくたん",
-    "description": "ポケモンの $t(pokemonInfo:type.fire)タイプの 技の 威力を ２０% 上げる"
+    "name": "もくたん"
   },
   "mysticWater": {
-    "name": "しんぴのしずく",
-    "description": "ポケモンの $t(pokemonInfo:type.water)タイプの 技の 威力を ２０% 上げる"
+    "name": "しんぴのしずく"
   },
   "miracleSeed": {
-    "name": "きせきのタネ",
-    "description": "ポケモンの $t(pokemonInfo:type.grass)タイプの 技の 威力を ２０% 上げる"
+    "name": "きせきのタネ"
   },
   "magnet": {
-    "name": "じしゃく",
-    "description": "ポケモンの $t(pokemonInfo:type.electric)タイプの 技の 威力を ２０% 上げる"
+    "name": "じしゃく"
   },
   "twistedSpoon": {
-    "name": "まがったスプーン",
-    "description": "ポケモンの $t(pokemonInfo:type.psychic)タイプの 技の 威力を ２０% 上げる"
+    "name": "まがったスプーン"
   },
   "neverMeltIce": {
-    "name": "とけないこおり",
-    "description": "ポケモンの $t(pokemonInfo:type.ice)タイプの 技の 威力を ２０% 上げる"
+    "name": "とけないこおり"
   },
   "dragonFang": {
-    "name": "りゅうのキバ",
-    "description": "ポケモンの $t(pokemonInfo:type.dragon)タイプの 技の 威力を ２０% 上げる"
+    "name": "りゅうのキバ"
   },
   "blackGlasses": {
-    "name": "くろいメガネ",
-    "description": "ポケモンの $t(pokemonInfo:type.dark)タイプの 技の 威力を ２０% 上げる"
+    "name": "くろいメガネ"
   },
   "fairyFeather": {
-    "name": "ようせいのハネ",
-    "description": "ポケモンの $t(pokemonInfo:type.fairy)タイプの 技の 威力を ２０% 上げる"
+    "name": "ようせいのハネ"
   },
   "lightBall": {
     "name": "でんきだま",
@@ -156,56 +138,54 @@
     "description": "とても長くて 硬いクキ。 カモネギに 持たせると 技が 急所アップ＋２に なる。"
   },
   "luckyEgg": {
-    "name": "しあわせタマゴ",
-    "description": "持っているポケモンの もらう経験値を 40% 増やす"
+    "name": "しあわせタマゴ"
   },
   "goldenEgg": {
-    "name": "ゴールドタマゴ",
-    "description": "持っているポケモンの もらう経験値を 100% 増やす"
+    "name": "ゴールドタマゴ"
   },
   "sootheBell": {
     "name": "やすらぎのすず",
-    "description": "持たせると なかよし度の 収穫が ５０%で 上がる"
+    "description": "持たせると なかよし度の 収穫が {{boostPercent}}%で 上がる"
   },
   "focusBand": {
     "name": "きあいのハチマキ",
-    "description": "持たせると ひんしに なりそうな 技を 受けても １０%の 可能性で ＨＰを １だけ 残して 耐える"
+    "description": "持たせると ひんしに なりそうな 技を 受けても {{chancePercent}}%の 可能性で ＨＰを {{hp}}だけ 残して 耐える"
   },
   "quickClaw": {
     "name": "せんせいのツメ",
-    "description": "持たせると １０%の可能性で 相手より 先に 行動できる （優先技のあと）"
+    "description": "持たせると {{chancePercent}}%の可能性で 相手より 先に 行動できる （優先技のあと）"
   },
   "kingsRock": {
     "name": "おうじゃのしるし",
-    "description": "持たせると 攻撃して ダメージを 与えたときに １０%の 可能性で 相手を ひるませる"
+    "description": "持たせると 攻撃して ダメージを 与えたときに {{chancePercent}}%の 可能性で 相手を ひるませる"
   },
   "leftovers": {
     "name": "たべのこし",
-    "description": "持たせると 毎ターン 最大ＨＰの １/１６を 回復する"
+    "description": "持たせると 毎ターン 最大ＨＰの 1/{{healDenominator}}を 回復する"
   },
   "shellBell": {
     "name": "かいがらのすず",
-    "description": "持たせると 相手に 与えたダメージの １/８をＨＰとして 回復する."
+    "description": "持たせると 相手に 与えたダメージの 1/{{healDenominator}}をＨＰとして 回復する."
   },
   "mysticalRock": {
     "name": "しんぴないし",
-    "description": "持たせると 技や 特性で 起こした 天気や フィールドの 間が２ターン 増える"
+    "description": "持たせると 技や 特性で 起こした 天気や フィールドの 間が{{turns}}ターン 増える"
   },
   "wideLens": {
     "name": "こうかくレンズ",
-    "description": "技の 命中率を 5で 増やす"
+    "description": "技の 命中率を {{accuracy}}で 増やす"
   },
   "multiLens": {
     "name": "マルチレンズ",
-    "description": "持たせると 攻撃技の ダメージの ２５%が もう一回の 攻撃で 出す"
+    "description": "持たせると 攻撃技の ダメージの {{damagePercent}}%が もう一回の 攻撃で 出す"
   },
   "goldenPunch": {
     "name": "ゴールドパンチ",
-    "description": "持たせると 与える 直接なダメージの ５０%が お金として もらえる"
+    "description": "持たせると 与える 直接なダメージの {{moneyPercent}}%が お金として もらえる"
   },
   "gripClaw": {
     "name": "ねばりのかぎづめ",
-    "description": "持っているポケモンが 攻撃すると 相手の 持っている アイテムを 10%の 確率で 盗む"
+    "description": "持っているポケモンが 攻撃すると 相手の 持っている アイテムを {{chancePercent}}%の 確率で 盗む"
   },
   "toxicOrb": {
     "name": "どくどくだま",
@@ -217,7 +197,7 @@
   },
   "soulDew": {
     "name": "こころのしずく",
-    "description": "持たせると ポケモンの 性格が 能力に与える 影響は １０% 増える （合算）"
+    "description": "持たせると ポケモンの 性格が 能力に与える 影響は {{boostPercent}}% 増える （合算）"
   },
   "baton": {
     "name": "バトン",
@@ -232,28 +212,22 @@
     "description": "進化の不思議な かたまり。 持たせると 進化前ポケモンの 防御と 特防が あがる。"
   },
   "hpUp": {
-    "name": "マックスアップ",
-    "description": "$t(pokemonInfo:stat.hp)の 基礎ポイントを １０% あげる。個体値が 高けば高いほど 飲める 限界が 上がる。"
+    "name": "マックスアップ"
   },
   "protein": {
-    "name": "タウリン",
-    "description": "$t(pokemonInfo:stat.atk)の 基礎ポイントを １０% あげる。個体値が 高けば高いほど 飲める 限界が 上がる。"
+    "name": "タウリン"
   },
   "iron": {
-    "name": "ブロムヘキシン",
-    "description": "$t(pokemonInfo:stat.def)の 基礎ポイントを １０% あげる。個体値が 高けば高いほど 飲める 限界が 上がる。"
+    "name": "ブロムヘキシン"
   },
   "calcium": {
-    "name": "リゾチウム",
-    "description": "$t(pokemonInfo:stat.spatk)の 基礎ポイントを １０% あげる。個体値が 高けば高いほど 飲める 限界が 上がる。"
+    "name": "リゾチウム"
   },
   "zinc": {
-    "name": "キトサン",
-    "description": "$t(pokemonInfo:stat.spdef)の 基礎ポイントを １０% あげる。個体値が 高けば高いほど 飲める 限界が 上がる。"
+    "name": "キトサン"
   },
   "carbos": {
-    "name": "インドメタシン",
-    "description": "$t(pokemonInfo:stat.spd)の 基礎ポイントを １０% あげる。個体値が 高けば高いほど 飲める 限界が 上がる。"
+    "name": "インドメタシン"
   },
   "shuckleJuiceGood": {
     "name": "あまいツボツボジュース",
@@ -775,15 +749,15 @@
   },
   "goldenPokeball": {
     "name": "ゴールドモンスターボール",
-    "description": "バトル後に もう 一つの ご褒美の 選択肢を 加える"
+    "description": "バトル後に {{count}}つの ご褒美の 選択肢を 加える"
   },
   "ovalCharm": {
     "name": "まるいおまもり",
-    "description": "バトルに 複数の ポケモンが 参加すると 経験値が 参加した ポケモンずつ １０% 増える"
+    "description": "バトルに 複数の ポケモンが 参加すると 経験値が 参加した ポケモンずつ {{boostPercent}}% 増える"
   },
   "expShare": {
     "name": "がくしゅうそうち",
-    "description": "バトルに 参加していない ポケモンが １匹の 参加した ポケモンの 経験値を ２０% もらう"
+    "description": "バトルに 参加していない ポケモンが １匹の 参加した ポケモンの 経験値を {{sharePercent}}% もらう"
   },
   "expBalance": {
     "name": "バランスそうち",
@@ -791,31 +765,28 @@
   },
   "candyJar": {
     "name": "アメボトル",
-    "description": "ふしぎなアメや ふかしぎなアメで あげるレベルを １ 増える"
+    "description": "ふしぎなアメや ふかしぎなアメで あげるレベルを {{levels}} 増える"
   },
   "berryPouch": {
     "name": "きのみぶくろ",
-    "description": "使ったきのみは 無くならない ３０%の 可能性を 加える"
+    "description": "使ったきのみは 無くならない {{chancePercent}}%の 可能性を 加える"
   },
   "healingCharm": {
     "name": "かいふくおまもり",
-    "description": "回復する 技や アイテムの 効果を １０% あげる （復活アイテムは除く）"
+    "description": "回復する 技や アイテムの 効果を {{boostPercent}}% あげる （復活アイテムは除く）"
   },
   "expCharm": {
-    "name": "けいけんおまもり",
-    "description": "もらえる 経験値を 25% 増やす"
+    "name": "けいけんおまもり"
   },
   "superExpCharm": {
-    "name": "いいけいけんおまもり",
-    "description": "もらえる 経験値を 60% 増やす"
+    "name": "いいけいけんおまもり"
   },
   "goldenExpCharm": {
-    "name": "ゴールドけいけんちおまもり",
-    "description": "もらえる 経験値を 100% 増やす"
+    "name": "ゴールドけいけんちおまもり"
   },
   "amuletCoin": {
     "name": "おまもりこばん",
-    "description": "もらえる お金が ２０% 増える"
+    "description": "もらえる お金が {{boostPercent}}% 増える"
   },
   "abilityCharm": {
     "name": "とくせいおまもり",
@@ -838,83 +809,71 @@
     "description": "むしタイプの ポケモンが 見つけやすく なる運に 注ぎ込まれた 妙に重い 虫取り網"
   },
   "lure": {
-    "name": "むしよせコロン",
-    "description": "バトル10回の 間 ダブルバトルに なる 確率を ４倍に する"
+    "name": "むしよせコロン"
   },
   "superLure": {
-    "name": "シルバーコロン",
-    "description": "バトル15回の 間 ダブルバトルに なる 確率を ４倍に する"
+    "name": "シルバーコロン"
   },
   "maxLure": {
-    "name": "ゴールドコロン",
-    "description": "バトル30回の 間 ダブルバトルに なる 確率を ４倍に する"
+    "name": "ゴールドコロン"
   },
   "xAttack": {
-    "name": "プラスパワー",
-    "description": "全員の 手持ちポケモンの $t(pokemonInfo:stat.atk)を 最大５回の バトルの間に ２０% 上げる"
+    "name": "プラスパワー"
   },
   "xDefense": {
-    "name": "ディフェンダー",
-    "description": "全員の 手持ちポケモンの $t(pokemonInfo:stat.def)を 最大５回の バトルの間に ２０% 上げる"
+    "name": "ディフェンダー"
   },
   "xSpAtk": {
-    "name": "スペシャルアップ",
-    "description": "全員の 手持ちポケモンの $t(pokemonInfo:stat.spatk)を 最大５回の バトルの間に ２０% 上げる"
+    "name": "スペシャルアップ"
   },
   "xSpDef": {
-    "name": "スペシャルガード",
-    "description": "全員の 手持ちポケモンの $t(pokemonInfo:stat.spdef)を 最大５回の バトルの間に ２０% 上げる"
+    "name": "スペシャルガード"
   },
   "xSpeed": {
-    "name": "スピーダー",
-    "description": "全員の 手持ちポケモンの $t(pokemonInfo:stat.spd)を 最大５回の バトルの間に ２０% 上げる"
+    "name": "スピーダー"
   },
   "xAccuracy": {
-    "name": "ヨクアタール",
-    "description": "全員の 手持ちポケモンの $t(pokemonInfo:stat.acc)を 最大５回の バトルの間に ２０% 上げる"
+    "name": "ヨクアタール"
   },
   "direHit": {
     "name": "クリティカット",
     "extra": {
       "raises": "急所率"
     },
-    "description": "全員の 手持ちポケモンの $t(item:direHit.raises)を 最大５回の バトルの間に １段階 上げる"
+    "description": "全員の 手持ちポケモンの {{stat}}を 最大{{battleCount}}回の バトルの間に {{stages}}段階 上げる"
   },
   "enemyDamageBooster": {
     "name": "ダメージトークン",
-    "description": "ダメージを ５% 増やす"
+    "description": "ダメージを {{boostPercent}}% 増やす"
   },
   "enemyDamageReduction": {
     "name": "ぼうごトークン",
-    "description": "受けたダメージを ２.５% さげる"
+    "description": "受けたダメージを {{reductionPercent}}% さげる"
   },
   "enemyHeal": {
     "name": "かいふくトークン",
-    "description": "毎ターン 最大ＨＰの ２%を 回復する"
+    "description": "毎ターン 最大ＨＰの {{healPercent}}%を 回復する"
   },
   "enemyAttackPoisonChance": {
-    "name": "どくトークン",
-    "description": "攻撃技に 5%の 確率で $t(statusEffect:poison.description)を 与える"
+    "name": "どくトークン"
   },
   "enemyAttackParalyzeChance": {
-    "name": "まひトークン",
-    "description": "攻撃技に 2.5%の 確率で $t(statusEffect:paralysis.description)を 与える"
+    "name": "まひトークン"
   },
   "enemyAttackBurnChance": {
-    "name": "やけどトークン",
-    "description": "攻撃技に 5%の 確率で $t(statusEffect:burn.description)を 与える"
+    "name": "やけどトークン"
   },
   "enemyStatusEffectHealChance": {
     "name": "なんでもなおしトークン",
-    "description": "毎ターン 状態異常を 治せる ２.５%の可能性を 加える"
+    "description": "毎ターン 状態異常を 治せる {{chancePercent}}%の可能性を 加える"
   },
   "enemyEndureChance": {
     "name": "こらえるトークン",
-    "description": "ひんしに なりそうな 技を 受けても 2%の 確率で ＨＰを １だけ 残して 耐える"
+    "description": "ひんしに なりそうな 技を 受けても {{chancePercent}}%の 確率で ＨＰを １だけ 残して 耐える"
   },
   "enemyFusedChance": {
     "name": "がったいトークン",
-    "description": "野生ポケモンは 吸収合体している １%の可能性を 加える"
+    "description": "野生ポケモンは 吸収合体している {{chancePercent}}%の可能性を 加える"
   },
   "formChange": {
     "description": "ある特定の ポケモンを フォームチェンジさせる"
@@ -1050,5 +1009,26 @@
   },
   "leadersCrest": {
     "name": "かしらのしるし"
+  },
+  "typeAttackBooster": {
+    "description": "ポケモンの {{type}}タイプの 技の 威力を {{boostPercent}}% 上げる"
+  },
+  "pokemonExpBooster": {
+    "description": "持っているポケモンの もらう経験値を {{boostPercent}}% 増やす"
+  },
+  "vitamin": {
+    "description": "{{stat}}の 基礎ポイントを {{boostPercent}}% あげる。個体値が 高けば高いほど 飲める 限界が 上がる。"
+  },
+  "expBooster": {
+    "description": "もらえる 経験値を {{boostPercent}}% 増やす"
+  },
+  "doubleBattleChanceBooster": {
+    "description": "バトル{{battleCount}}回の 間 ダブルバトルに なる 確率を ４倍に する"
+  },
+  "tempStatStageBooster": {
+    "description": "全員の 手持ちポケモンの {{stat}}を 最大{{battleCount}}回の バトルの間に {{boostPercent}}% 上げる"
+  },
+  "enemyAttackStatusEffectChance": {
+    "description": "攻撃技に {{chancePercent}}%の 確率で {{statusEffect}}を 与える"
   }
 }

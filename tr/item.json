@@ -1,7 +1,7 @@
 {
   "sitrusBerry": {
     "name": "Sitrus Meyvesi",
-    "description": "Eğer SP %50’nin altındaysa, %25 SP yeniler."
+    "description": "Eğer SP %{{thresholdPercent}} altındaysa, %{{healPercent}} SP yeniler."
   },
   "lumBerry": {
     "name": "Lum Meyvesi",
@@ -9,39 +9,39 @@
   },
   "enigmaBerry": {
     "name": "Enigma Meyvesi",
-    "description": "Süper etkili bir saldırının hedefi olursa %25 SP yeniler."
+    "description": "Süper etkili bir saldırının hedefi olursa %{{healPercent}} SP yeniler."
   },
   "liechiBerry": {
     "name": "Liechi Meyvesi",
-    "description": "SP %25’in altındaysa Saldırıyı artırır."
+    "description": "SP %{{thresholdPercent}}n altındaysa Saldırıyı artırır."
   },
   "ganlonBerry": {
     "name": "Ganlon Meyvesi",
-    "description": "SP %25’in altındaysa Savunmayı artırır."
+    "description": "SP %{{thresholdPercent}}n altındaysa Savunmayı artırır."
   },
   "petayaBerry": {
     "name": "Petaya Meyvesi",
-    "description": "SP %25’in altındaysa Özel Saldırıyı artırır."
+    "description": "SP %{{thresholdPercent}}n altındaysa Özel Saldırıyı artırır."
   },
   "apicotBerry": {
     "name": "Apicot Meyvesi",
-    "description": "SP %25’in altındaysa Özel Savunmayı artırır."
+    "description": "SP %{{thresholdPercent}}n altındaysa Özel Savunmayı artırır."
   },
   "salacBerry": {
     "name": "Salac Meyvesi",
-    "description": "SP %25’in altındaysa Hızı artırır."
+    "description": "SP %{{thresholdPercent}}n altındaysa Hızı artırır."
   },
   "lansatBerry": {
     "name": "Lansat Meyvesi",
-    "description": "SP %25’in altındaysa kritik vuruş şansını artırır."
+    "description": "SP %{{thresholdPercent}}n altındaysa kritik vuruş şansını artırır."
   },
   "starfBerry": {
     "name": "Starf Meyvesi",
-    "description": "SP %25’in altındaysa rastgele bir istatistiği çok artırır."
+    "description": "SP %{{thresholdPercent}}n altındaysa rastgele bir istatistiği çok artırır."
   },
   "leppaBerry": {
     "name": "Lappa Meyvesi",
-    "description": "Bir hareketin GP’si 0’a ulaşırsa 10 GP yeniler."
+    "description": "Bir hareketin GP’si 0’a ulaşırsa {{restorePp}} GP yeniler."
   },
   "reviverSeed": {
     "name": "Canlandırıcı Tohum",
@@ -52,76 +52,58 @@
     "description": "Pokémon eşyası. Maç esnasında azaltılmış istatistikleri iyileştirir."
   },
   "silkScarf": {
-    "name": "İpek Atkı",
-    "description": "Bir Pokémon’un $t(pokemonInfo:type.normal) türü hareketlerinin gücünü %20 artırır."
+    "name": "İpek Atkı"
   },
   "blackBelt": {
-    "name": "Kara Kuşak",
-    "description": "Bir Pokémon’un $t(pokemonInfo:type.fighting) türü hareketlerinin gücünü %20 artırır."
+    "name": "Kara Kuşak"
   },
   "sharpBeak": {
-    "name": "Sivri Gaga",
-    "description": "Bir Pokémon’un $t(pokemonInfo:type.flying) türü hareketlerinin gücünü %20 artırır."
+    "name": "Sivri Gaga"
   },
   "poisonBarb": {
-    "name": "Zehirli Diken",
-    "description": "Bir Pokémon’un $t(pokemonInfo:type.poison) türü hareketlerinin gücünü %20 artırır."
+    "name": "Zehirli Diken"
   },
   "softSand": {
-    "name": "Yumuşak Kum",
-    "description": "Bir Pokémon’un $t(pokemonInfo:type.ground) türü hareketlerinin gücünü %20 artırır."
+    "name": "Yumuşak Kum"
   },
   "hardStone": {
-    "name": "Sert Taş",
-    "description": "Bir Pokémon’un $t(pokemonInfo:type.rock) türü hareketlerinin gücünü %20 artırır."
+    "name": "Sert Taş"
   },
   "silverPowder": {
-    "name": "Gümüş Tozu",
-    "description": "Bir Pokémon’un $t(pokemonInfo:type.bug) türü hareketlerinin gücünü %20 artırır."
+    "name": "Gümüş Tozu"
   },
   "spellTag": {
-    "name": "Büyü Muskası",
-    "description": "Bir Pokémon’un $t(pokemonInfo:type.ghost) türü hareketlerinin gücünü %20 artırır."
+    "name": "Büyü Muskası"
   },
   "metalCoat": {
-    "name": "Metal Kaplama",
-    "description": "Bir Pokémon’un $t(pokemonInfo:type.steel) türü hareketlerinin gücünü %20 artırır."
+    "name": "Metal Kaplama"
   },
   "charcoal": {
-    "name": "Kömür",
-    "description": "Bir Pokémon’un $t(pokemonInfo:type.fire) türü hareketlerinin gücünü %20 artırır."
+    "name": "Kömür"
   },
   "mysticWater": {
-    "name": "Mistik Su",
-    "description": "Bir Pokémon’un $t(pokemonInfo:type.water) türü hareketlerinin gücünü %20 artırır."
+    "name": "Mistik Su"
   },
   "miracleSeed": {
-    "name": "Mucize Tohum",
-    "description": "Bir Pokémon’un $t(pokemonInfo:type.grass) türü hareketlerinin gücünü %20 artırır."
+    "name": "Mucize Tohum"
   },
   "magnet": {
-    "name": "Mıknatıs",
-    "description": "Bir Pokémon’un $t(pokemonInfo:type.electric) türü hareketlerinin gücünü %20 artırır."
+    "name": "Mıknatıs"
   },
   "twistedSpoon": {
-    "name": "Bükülmüş Kaşık",
-    "description": "Bir Pokémon’un $t(pokemonInfo:type.psychic) türü hareketlerinin gücünü %20 artırır."
+    "name": "Bükülmüş Kaşık"
   },
   "neverMeltIce": {
-    "name": "Erimez Buz",
-    "description": "Bir Pokémon’un $t(pokemonInfo:type.ice) türü hareketlerinin gücünü %20 artırır."
+    "name": "Erimez Buz"
   },
   "dragonFang": {
-    "name": "Ejderha Dişi",
-    "description": "Bir Pokémon’un $t(pokemonInfo:type.dragon) türü hareketlerinin gücünü %20 artırır."
+    "name": "Ejderha Dişi"
   },
   "blackGlasses": {
-    "name": "Siyah Gözlük",
-    "description": "Bir Pokémon’un $t(pokemonInfo:type.dark) türü hareketlerinin gücünü %20 artırır."
+    "name": "Siyah Gözlük"
   },
   "fairyFeather": {
-    "name": "Peri Tüyü",
-    "description": "Bir Pokémon’un $t(pokemonInfo:type.fairy) türü hareketlerinin gücünü %20 artırır."
+    "name": "Peri Tüyü"
   },
   "lightBall": {
     "name": "Işık Topu",
@@ -156,56 +138,54 @@
     "description": "Bu upuzun ve semsert pırasa sapı, Farfetch’d’in kritik vuruş şansını yükseltir."
   },
   "luckyEgg": {
-    "name": "Şans Yumurtası",
-    "description": "Kuşananın Tecrübe Puanı kazanımını %40 artırır."
+    "name": "Şans Yumurtası"
   },
   "goldenEgg": {
-    "name": "Altın Yumurta",
-    "description": "Kuşananın Tecrübe Puanı kazanımını %100 artırır."
+    "name": "Altın Yumurta"
   },
   "sootheBell": {
     "name": "Dinginlik Çanı",
-    "description": "Arkadaşlık kazanımını %50 artırır."
+    "description": "Arkadaşlık kazanımını %{{boostPercent}} artırır."
   },
   "focusBand": {
     "name": "Odaklanma Bandı",
-    "description": "Bayılacak kadar hasar aldığında 1 SP ile hayatta kalma ihtimaline %10 ekler."
+    "description": "Bayılacak kadar hasar aldığında {{hp}} SP ile hayatta kalma ihtimaline %{{chancePercent}} ekler."
   },
   "quickClaw": {
     "name": "Tez Pençe",
-    "description": "Hızdan bağımsız ilk hareket etme ihtimaline %10 ekler (önceliklerden sonra)."
+    "description": "Hızdan bağımsız ilk hareket etme ihtimaline %{{chancePercent}} ekler (önceliklerden sonra)."
   },
   "kingsRock": {
     "name": "Kral Kayası",
-    "description": "Saldırının rakibi irkiltme ihtimaline %10 ekler."
+    "description": "Saldırının rakibi irkiltme ihtimaline %{{chancePercent}} ekler."
   },
   "leftovers": {
     "name": "Artıklar",
-    "description": "Her tur Pokémon’un maksimum canının 1/16’sını yeniler."
+    "description": "Her tur Pokémon’un maksimum canının 1/{{healDenominator}}’sını yeniler."
   },
   "shellBell": {
     "name": "Kabuk Çanı",
-    "description": "Pokémon’un vurduğu hasarın 1/8’i kadar can yeniler."
+    "description": "Pokémon’un vurduğu hasarın 1/{{healDenominator}}’i kadar can yeniler."
   },
   "mysticalRock": {
     "name": "Mistik Kaya",
-    "description": "Kuşananın hareketlerinden veya yeteneklerinden dolayı oluşan arazi ve hava durumu olaylarının süresini 2 tur uzatır."
+    "description": "Kuşananın hareketlerinden veya yeteneklerinden dolayı oluşan arazi ve hava durumu olaylarının süresini {{turns}} tur uzatır."
   },
   "wideLens": {
     "name": "Geniş Mercek",
-    "description": "Hareket isabetliliğini 5 artırır."
+    "description": "Hareket isabetliliğini {{accuracy}} artırır."
   },
   "multiLens": {
     "name": "Çoklu Mercek",
-    "description": "Kuşananın saldırılarından verilen hasarın %25’ini ilave bir vuruşa çevirir."
+    "description": "Kuşananın saldırılarından verilen hasarın %{{damagePercent}} ilave bir vuruşa çevirir."
   },
   "goldenPunch": {
     "name": "Altın Yumruk",
-    "description": "Doğrudan verilen hasarın %50 kadarı para kazandırır."
+    "description": "Doğrudan verilen hasarın %{{moneyPercent}} kadarı para kazandırır."
   },
   "gripClaw": {
     "name": "Kavrama Pençesi",
-    "description": "Kullanıcı, saldırdığında %10 şansla düşmanın eşyasını çalar."
+    "description": "Kullanıcı, saldırdığında %{{chancePercent}} şansla düşmanın eşyasını çalar."
   },
   "toxicOrb": {
     "name": "Zehirli Küre",
@@ -217,7 +197,7 @@
   },
   "soulDew": {
     "name": "Ruh Çiyi",
-    "description": "Pokémon’un doğasının, istatistikleri üzerine olan etkisini %10 artırır (ilaveten)."
+    "description": "Pokémon’un doğasının, istatistikleri üzerine olan etkisini %{{boostPercent}} artırır (ilaveten)."
   },
   "baton": {
     "name": "Değnek",
@@ -232,28 +212,22 @@
     "description": "Bu gizemli evrimsel yumru, hala evrilebilen bir Pokémon tarafından kuşanıldığında Savunma ve Öz. Sav. değerlerini yükseltir."
   },
   "hpUp": {
-    "name": "SP Artırıcı",
-    "description": "Kuşananın temel $t(pokemonInfo:stat.hp) değerini %10 artırır. IV ne kadar yüksekse, birikme limiti o kadar artar."
+    "name": "SP Artırıcı"
   },
   "protein": {
-    "name": "Protein",
-    "description": "Kuşananın temel $t(pokemonInfo:stat.atk) değerini %10 artırır. IV ne kadar yüksekse, birikme limiti o kadar artar."
+    "name": "Protein"
   },
   "iron": {
-    "name": "Demir",
-    "description": "Kuşananın temel $t(pokemonInfo:stat.def) değerini %10 artırır. IV ne kadar yüksekse, birikme limiti o kadar artar."
+    "name": "Demir"
   },
   "calcium": {
-    "name": "Kalsiyum",
-    "description": "Kuşananın temel $t(pokemonInfo:stat.spatk) değerini %10 artırır. IV ne kadar yüksekse, birikme limiti o kadar artar."
+    "name": "Kalsiyum"
   },
   "zinc": {
-    "name": "Çinko",
-    "description": "Kuşananın temel $t(pokemonInfo:stat.spdef) değerini %10 artırır. IV ne kadar yüksekse, birikme limiti o kadar artar."
+    "name": "Çinko"
   },
   "carbos": {
-    "name": "Karbonhidratlar",
-    "description": "Kuşananın temel $t(pokemonInfo:stat.spd) değerini %10 artırır. IV ne kadar yüksekse, birikme limiti o kadar artar."
+    "name": "Karbonhidratlar"
   },
   "shuckleJuiceGood": {
     "name": "Tatlı Shuckle Suyu",
@@ -775,15 +749,15 @@
   },
   "goldenPokeball": {
     "name": "Altın Poké Topu",
-    "description": "Her maçın sonunda ilaveten 1 eşya seçeneği ekler."
+    "description": "Her maçın sonunda ilaveten {{count}} eşya seçeneği ekler."
   },
   "ovalCharm": {
     "name": "Oval Tılsım",
-    "description": "Bir maça birden fazla Pokémon katıldığında, ilaveten her biri toplam TP’nin %10’unu alır."
+    "description": "Bir maça birden fazla Pokémon katıldığında, ilaveten her biri toplam TP’nin %{{boostPercent}}’unu alır."
   },
   "expShare": {
     "name": "Tecrübe Paylaştırıcı",
-    "description": "Maça katılmayanlar, katılanların herhangi birinin %20’si kadar TP kazanır."
+    "description": "Maça katılmayanlar, katılanların herhangi birinin %{{sharePercent}} kadar TP kazanır."
   },
   "expBalance": {
     "name": "Tecrübe Dengeleyici",
@@ -791,31 +765,28 @@
   },
   "candyJar": {
     "name": "Şeker Kavanozu",
-    "description": "Nadir Şeker eşyalarının eklediği seviyeyi 1 artırır."
+    "description": "Nadir Şeker eşyalarının eklediği seviyeyi {{levels}} artırır."
   },
   "berryPouch": {
     "name": "Meyve Kesesi",
-    "description": "Yenilen meyvenin tüketilmeme ihtimaline %30 ekler."
+    "description": "Yenilen meyvenin tüketilmeme ihtimaline %{{chancePercent}} ekler."
   },
   "healingCharm": {
     "name": "İyileşme Tılsımı",
-    "description": "SP yenileme hareketlerinin ve eşyalarının verimliliğini %10 artırır (Canlandırmaları kapsamaz)."
+    "description": "SP yenileme hareketlerinin ve eşyalarının verimliliğini %{{boostPercent}} artırır (Canlandırmaları kapsamaz)."
   },
   "expCharm": {
-    "name": "Tecrübe Tılsımı",
-    "description": "Tecrübe Puanlarının kazanımını %25 artırır."
+    "name": "Tecrübe Tılsımı"
   },
   "superExpCharm": {
-    "name": "Süper Tecrübe Tılsımı",
-    "description": "Tecrübe Puanlarının kazanımını %60 artırır."
+    "name": "Süper Tecrübe Tılsımı"
   },
   "goldenExpCharm": {
-    "name": "Altın Tecrübe Tılsımı",
-    "description": "Tecrübe Puanlarının kazanımını %100 artırır."
+    "name": "Altın Tecrübe Tılsımı"
   },
   "amuletCoin": {
     "name": "Para Muskası",
-    "description": "Para ödüllerini %20 artırır."
+    "description": "Para ödüllerini %{{boostPercent}} artırır."
   },
   "abilityCharm": {
     "name": "Yetenek Tılsımı",
@@ -838,83 +809,71 @@
     "description": "Kullanıcının daha sık Böcek Türü Pokémon bulmasını sağlar. Tuhaf bir ağırlığı var."
   },
   "lure": {
-    "name": "Yem",
-    "description": "10 maç boyunca karşılaşmalarının çifte savaş olma ihtimalini dörtle çarpar."
+    "name": "Yem"
   },
   "superLure": {
-    "name": "Süper Yem",
-    "description": "15 maç boyunca karşılaşmalarının çifte savaş olma ihtimalini dörtle çarpar."
+    "name": "Süper Yem"
   },
   "maxLure": {
-    "name": "Maks. Yem",
-    "description": "30 maç boyunca karşılaşmalarının çifte savaş olma ihtimalini dörtle çarpar."
+    "name": "Maks. Yem"
   },
   "xAttack": {
-    "name": "X Saldırı",
-    "description": "Tüm ekip üyelerinin $t(pokemonInfo:stat.atk) değerini 5 maç boyunca %20 artırır."
+    "name": "X Saldırı"
   },
   "xDefense": {
-    "name": "X Savunma",
-    "description": "Tüm ekip üyelerinin $t(pokemonInfo:stat.def) değerini 5 maç boyunca %20 artırır."
+    "name": "X Savunma"
   },
   "xSpAtk": {
-    "name": "X Öz. Sal.",
-    "description": "Tüm ekip üyelerinin $t(pokemonInfo:stat.spatk) değerini 5 maç boyunca %20 artırır."
+    "name": "X Öz. Sal."
   },
   "xSpDef": {
-    "name": "X Öz. Sav.",
-    "description": "Tüm ekip üyelerinin $t(pokemonInfo:stat.spdef) değerini 5 maç boyunca %20 artırır."
+    "name": "X Öz. Sav."
   },
   "xSpeed": {
-    "name": "X Hız",
-    "description": "Tüm ekip üyelerinin $t(pokemonInfo:stat.spd) değerini 5 maç boyunca %20 artırır."
+    "name": "X Hız"
   },
   "xAccuracy": {
-    "name": "X İsabet",
-    "description": "Tüm ekip üyelerinin $t(pokemonInfo:stat.acc) değerini 5 maç boyunca %20 artırır."
+    "name": "X İsabet"
   },
   "direHit": {
     "name": "Sert Vuruş",
     "extra": {
       "raises": "Kritik Vuruş Şansı"
     },
-    "description": "Tüm ekip üyelerinin $t(item:direHit.raises) değerini 5 maç boyunca 1 aşama artırır."
+    "description": "Tüm ekip üyelerinin {{stat}} değerini {{battleCount}} maç boyunca {{stages}} aşama artırır."
   },
   "enemyDamageBooster": {
     "name": "Hasar Jetonu",
-    "description": "Hasarı %5 artırır."
+    "description": "Hasarı %{{boostPercent}} artırır."
   },
   "enemyDamageReduction": {
     "name": "Koruma Jetonu",
-    "description": "Gelen hasarı %2,5 azaltır."
+    "description": "Gelen hasarı %{{reductionPercent}} azaltır."
   },
   "enemyHeal": {
     "name": "İyileşme Jetonu",
-    "description": "Her tur maks. SP’nin %2’sini iyileştirir."
+    "description": "Her tur maks. SP’nin %{{healPercent}}ni iyileştirir."
   },
   "enemyAttackPoisonChance": {
-    "name": "Zehir Jetonu",
-    "description": "Saldırı sırasında düşmana $t(statusEffect:poison.description) verme ihtimaline %5 ekler."
+    "name": "Zehir Jetonu"
   },
   "enemyAttackParalyzeChance": {
-    "name": "Felç Jetonu",
-    "description": "Saldırı sırasında düşmana $t(statusEffect:paralysis.description) verme ihtimaline %2.5 ekler."
+    "name": "Felç Jetonu"
   },
   "enemyAttackBurnChance": {
-    "name": "Yakma Jetonu",
-    "description": "Saldırı sırasında düşmana $t(statusEffect:burn.description) verme ihtimaline %5 ekler."
+    "name": "Yakma Jetonu"
   },
   "enemyStatusEffectHealChance": {
     "name": "Tam Şifa Jetonu",
-    "description": "Her tur için durum etkilerinden iyileşme ihtimaline %2,5 ekler."
+    "description": "Her tur için durum etkilerinden iyileşme ihtimaline %{{chancePercent}} ekler."
   },
   "enemyEndureChance": {
     "name": "Dayanma Jetonu",
-    "description": "Gelen vuruşlara karşı %2 dayanma ihtimali ekler."
+    "description": "Gelen vuruşlara karşı %{{chancePercent}} dayanma ihtimali ekler."
   },
   "enemyFusedChance": {
     "name": "Füzyon Jetonu",
-    "description": "Yabani Pokémon’un füzyonlu olma ihtimaline 1% ekler."
+    "description": "Yabani Pokémon’un füzyonlu olma ihtimaline {{chancePercent}}% ekler."
   },
   "formChange": {
     "description": "Belli Pokémonların form değişmesini sağlar."
@@ -1050,5 +1009,26 @@
   },
   "leadersCrest": {
     "name": "Liderin Arması"
+  },
+  "typeAttackBooster": {
+    "description": "Bir Pokémon’un {{type}} türü hareketlerinin gücünü %{{boostPercent}} artırır."
+  },
+  "pokemonExpBooster": {
+    "description": "Kuşananın Tecrübe Puanı kazanımını %{{boostPercent}} artırır."
+  },
+  "vitamin": {
+    "description": "Kuşananın temel {{stat}} değerini %{{boostPercent}} artırır. IV ne kadar yüksekse, birikme limiti o kadar artar."
+  },
+  "expBooster": {
+    "description": "Tecrübe Puanlarının kazanımını %{{boostPercent}} artırır."
+  },
+  "doubleBattleChanceBooster": {
+    "description": "{{battleCount}} maç boyunca karşılaşmalarının çifte savaş olma ihtimalini dörtle çarpar."
+  },
+  "tempStatStageBooster": {
+    "description": "Tüm ekip üyelerinin {{stat}} değerini {{battleCount}} maç boyunca %{{boostPercent}} artırır."
+  },
+  "enemyAttackStatusEffectChance": {
+    "description": "Saldırı sırasında düşmana {{statusEffect}} verme ihtimaline %{{chancePercent}} ekler."
   }
 }

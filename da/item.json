@@ -1,7 +1,7 @@
 {
   "sitrusBerry": {
     "name": "Sitrus Bær",
-    "description": "Regenerere 25% HP hvis HP er under 50%."
+    "description": "Regenerere {{healPercent}}% HP hvis HP er under {{thresholdPercent}}%."
   },
   "lumBerry": {
     "name": "Lum Bær",
@@ -9,39 +9,39 @@
   },
   "enigmaBerry": {
     "name": "Enigma Bær",
-    "description": "Regenerere 25% HP hvis ramt af et super effektivt angreb."
+    "description": "Regenerere {{healPercent}}% HP hvis ramt af et super effektivt angreb."
   },
   "liechiBerry": {
     "name": "Liechi Bær",
-    "description": "Forhøjer Angreb hvis HP er under 25%."
+    "description": "Forhøjer Angreb hvis HP er under {{thresholdPercent}}%."
   },
   "ganlonBerry": {
     "name": "Ganlon Bær",
-    "description": "Forhøjer Forsvar hvis HP er under 25%."
+    "description": "Forhøjer Forsvar hvis HP er under {{thresholdPercent}}%."
   },
   "petayaBerry": {
     "name": "Petaya Bær",
-    "description": "Forhøjer Sp. Ang. hvis HP er under 25%."
+    "description": "Forhøjer Sp. Ang. hvis HP er under {{thresholdPercent}}%."
   },
   "apicotBerry": {
     "name": "Apicot Bær",
-    "description": "Forhøjer Sp. For. hvis HP er under 25%."
+    "description": "Forhøjer Sp. For. hvis HP er under {{thresholdPercent}}%."
   },
   "salacBerry": {
     "name": "Salac Bær",
-    "description": "Forhøjer Has. hvis HP er under 25%."
+    "description": "Forhøjer Has. hvis HP er under {{thresholdPercent}}%."
   },
   "lansatBerry": {
     "name": "Lansat Bær",
-    "description": "Forhøjer chancen for Kritiske Hits hvis HP er under 25%."
+    "description": "Forhøjer chancen for Kritiske Hits hvis HP er under {{thresholdPercent}}%."
   },
   "starfBerry": {
     "name": "Starf Bær",
-    "description": "Skarpt forhøjer en tilfældig stat hvis HP er under 25%."
+    "description": "Skarpt forhøjer en tilfældig stat hvis HP er under {{thresholdPercent}}%."
   },
   "leppaBerry": {
     "name": "Leppa Bær",
-    "description": "Regenerere 10 PP til et angreb hvis dets PP rammer 0."
+    "description": "Regenerere {{restorePp}} PP til et angreb hvis dets PP rammer 0."
   },
   "silkScarf": {
     "name": "Silketørklæde"
@@ -90,5 +90,8 @@
   },
   "direHit": {
     "name": "Hårdt Angreb"
+  },
+  "formChange": {
+    "description": "Causes certain Pokémon to change form."
   }
 }

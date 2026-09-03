@@ -1,7 +1,7 @@
 {
   "sitrusBerry": {
     "name": "ผลโอบง",
-    "description": "ฟื้นฟู HP 25% หาก HP ต่ำกว่า 50%"
+    "description": "ฟื้นฟู HP {{healPercent}}% หาก HP ต่ำกว่า {{thresholdPercent}}%"
   },
   "lumBerry": {
     "name": "ผลลัม",
@@ -9,39 +9,39 @@
   },
   "enigmaBerry": {
     "name": "ผลอินิกมา",
-    "description": "ฟื้นฟู HP 25% หากโดนโจมตีด้วยการโจมตีที่มีประสิทธิภาพสูง"
+    "description": "ฟื้นฟู HP {{healPercent}}% หากโดนโจมตีด้วยการโจมตีที่มีประสิทธิภาพสูง"
   },
   "liechiBerry": {
     "name": "ผลลีชิ",
-    "description": "เพิ่มพลังโจมตีหาก HP ต่ำกว่า 25%"
+    "description": "เพิ่มพลังโจมตีหาก HP ต่ำกว่า {{thresholdPercent}}%"
   },
   "ganlonBerry": {
     "name": "ผลแกนลอน",
-    "description": "เพิ่มพลังป้องกันหาก HP ต่ำกว่า 25%"
+    "description": "เพิ่มพลังป้องกันหาก HP ต่ำกว่า {{thresholdPercent}}%"
   },
   "petayaBerry": {
     "name": "ผลเพทายา",
-    "description": "เพิ่มพลังโจมตีพิเศษหาก HP ต่ำกว่า 25%"
+    "description": "เพิ่มพลังโจมตีพิเศษหาก HP ต่ำกว่า {{thresholdPercent}}%"
   },
   "apicotBerry": {
     "name": "ผลอาพิคอท",
-    "description": "เพิ่มพลังป้องกันพิเศษหาก HP ต่ำกว่า 25%"
+    "description": "เพิ่มพลังป้องกันพิเศษหาก HP ต่ำกว่า {{thresholdPercent}}%"
   },
   "salacBerry": {
     "name": "ผลซาแลค",
-    "description": "เพิ่มความเร็วหาก HP ต่ำกว่า 25%"
+    "description": "เพิ่มความเร็วหาก HP ต่ำกว่า {{thresholdPercent}}%"
   },
   "lansatBerry": {
     "name": "ผลแลนแซท",
-    "description": "เพิ่มอัตราการโจมตีคริติคอลหาก HP ต่ำกว่า 25%"
+    "description": "เพิ่มอัตราการโจมตีคริติคอลหาก HP ต่ำกว่า {{thresholdPercent}}%"
   },
   "starfBerry": {
     "name": "ผลสตาร์ฟ",
-    "description": "เพิ่มพลังของสถานะแบบสุ่มหาก HP ต่ำกว่า 25%"
+    "description": "เพิ่มพลังของสถานะแบบสุ่มหาก HP ต่ำกว่า {{thresholdPercent}}%"
   },
   "leppaBerry": {
     "name": "ผลเลปปา",
-    "description": "ฟื้นฟู PP 10 ครั้งให้กับท่าโจมตีหาก PP ลดลงเป็น 0"
+    "description": "ฟื้นฟู PP {{restorePp}} ครั้งให้กับท่าโจมตีหาก PP ลดลงเป็น 0"
   },
   "metalCoat": {
     "name": "ฟิล์มโลหะ"
@@ -117,5 +117,8 @@
   },
   "dragonScale": {
     "name": "เกล็ดมังกร"
+  },
+  "formChange": {
+    "description": "Causes certain Pokémon to change form."
   }
 }

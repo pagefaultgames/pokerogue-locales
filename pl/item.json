@@ -1,7 +1,7 @@
 {
   "sitrusBerry": {
     "name": "Jagoda Sitrus",
-    "description": "Przywraca 25% PŻ jeżeli zdrowie jest poniżej 50%."
+    "description": "Przywraca {{healPercent}}% PŻ jeżeli zdrowie jest poniżej {{thresholdPercent}}%."
   },
   "lumBerry": {
     "name": "Jagoda Lum",
@@ -9,39 +9,39 @@
   },
   "enigmaBerry": {
     "name": "Jagoda Enigma",
-    "description": "Przywraca 25% PŻ jeśli został uderzony przez super efektywny ruch."
+    "description": "Przywraca {{healPercent}}% PŻ jeśli został uderzony przez super efektywny ruch."
   },
   "liechiBerry": {
     "name": "Jagoda Liechi",
-    "description": "Podnosi Atak, jeśli PŻ jest poniżej 25%."
+    "description": "Podnosi Atak, jeśli PŻ jest poniżej {{thresholdPercent}}%."
   },
   "ganlonBerry": {
     "name": "Jagoda Ganlon",
-    "description": "Podnosi Defensywę, jeśli PŻ jest poniżej 25%."
+    "description": "Podnosi Defensywę, jeśli PŻ jest poniżej {{thresholdPercent}}%."
   },
   "petayaBerry": {
     "name": "Jagoda Petaya",
-    "description": "Podnosi Sp. Atak, jeśli PŻ jest poniżej 25%."
+    "description": "Podnosi Sp. Atak, jeśli PŻ jest poniżej {{thresholdPercent}}%."
   },
   "apicotBerry": {
     "name": "Jagoda Apicot",
-    "description": "Podnosi Sp. Defensywę, jeśli PŻ jest poniżej 25%."
+    "description": "Podnosi Sp. Defensywę, jeśli PŻ jest poniżej {{thresholdPercent}}%."
   },
   "salacBerry": {
     "name": "Jagoda Salac",
-    "description": "Podnosi Prędkość, jeśli PŻ jest poniżej 25%."
+    "description": "Podnosi Prędkość, jeśli PŻ jest poniżej {{thresholdPercent}}%."
   },
   "lansatBerry": {
     "name": "Jagoda Lansat",
-    "description": "Podnosi szansę na atak krytyczny, jeśli PŻ jest poniżej 25%."
+    "description": "Podnosi szansę na atak krytyczny, jeśli PŻ jest poniżej {{thresholdPercent}}%."
   },
   "starfBerry": {
     "name": "Jagoda Starf",
-    "description": "Znacznie podnosi losową statystykę, jeśli PŻ jest poniżej 25%."
+    "description": "Znacznie podnosi losową statystykę, jeśli PŻ jest poniżej {{thresholdPercent}}%."
   },
   "leppaBerry": {
     "name": "Jagoda Leppa",
-    "description": "Przywraca 10 PP do ruchu, jeżeli jego PP osiągnęło 0."
+    "description": "Przywraca {{restorePp}} PP do ruchu, jeżeli jego PP osiągnęło 0."
   },
   "whiteHerb": {
     "name": "Białe Ziele"
@@ -66,7 +66,7 @@
   },
   "leftovers": {
     "name": "Resztki",
-    "description": "Co turę odnawia 1/16 całkowitych PŻ Pokémona."
+    "description": "Co turę odnawia 1/{{healDenominator}} całkowitych PŻ Pokémona."
   },
   "baton": {
     "name": "Sztafeta"
@@ -387,49 +387,33 @@
     "description": "Umożliwia skanowanie IV dzikich Pokémonów."
   },
   "xAttack": {
-    "name": "Atak X",
-    "description": "$t(pokemonInfo:stat.atk) wszystkich twoich Pokémonów wzrasta o 20% na czas 5 bitew."
+    "name": "Atak X"
   },
   "xDefense": {
-    "name": "Obrona X",
-    "description": "$t(pokemonInfo:stat.def) wszystkich twoich Pokémonów wzrasta o 20% na czas 5 bitew."
+    "name": "Obrona X"
   },
   "xSpAtk": {
-    "name": "Atak Sp. X",
-    "description": "$t(pokemonInfo:stat.spatk) wszystkich twoich Pokémonów wzrasta o 20% na czas 5 bitew."
+    "name": "Atak Sp. X"
   },
   "xSpDef": {
-    "name": "Obrona Sp. X",
-    "description": "$t(pokemonInfo:stat.spdef) wszystkich twoich Pokémonów wzrasta o 20% na czas 5 bitew."
+    "name": "Obrona Sp. X"
   },
   "xSpeed": {
-    "name": "Szybkość X",
-    "description": "$t(pokemonInfo:stat.spd) wszystkich twoich Pokémonów wzrasta o 20% na czas 5 bitew."
+    "name": "Szybkość X"
   },
   "xAccuracy": {
-    "name": "Celność X",
-    "description": "$t(pokemonInfo:stat.acc) wszystkich twoich Pokémonów wzrasta o 20% na czas 5 bitew."
+    "name": "Celność X"
   },
-  "luckyEgg": {
-    "description": "Zwiększa przyrost doświadczenia trzymającego o 40%."
-  },
-  "goldenEgg": {
-    "description": "Zwiększa przyrost doświadczenia trzymającego o 100%."
-  },
+  "luckyEgg": {},
+  "goldenEgg": {},
   "wideLens": {
-    "description": "Zwiększa celność ataków o 5."
+    "description": "Zwiększa celność ataków o {{accuracy}}."
   },
-  "expCharm": {
-    "description": "Zwiększa przyrost doświadczenia o 25%."
-  },
-  "superExpCharm": {
-    "description": "Zwiększa przyrost doświadczenia o 60%."
-  },
-  "goldenExpCharm": {
-    "description": "Zwiększa przyrost doświadczenia o 100%."
-  },
+  "expCharm": {},
+  "superExpCharm": {},
+  "goldenExpCharm": {},
   "direHit": {
-    "description": "$t(item:direHit.raises) wszystkich twoich Pokémonów wzrasta o 1 stage na czas 5 bitew."
+    "description": "{{stat}} wszystkich twoich Pokémonów wzrasta o {{stages}} stage na czas {{battleCount}} bitew."
   },
   "crackedPot": {
     "name": "Pęknięty Imbryk"
@@ -439,5 +423,17 @@
   },
   "dragonScale": {
     "name": "Smocza Łuska"
+  },
+  "pokemonExpBooster": {
+    "description": "Zwiększa przyrost doświadczenia trzymającego o {{boostPercent}}%."
+  },
+  "expBooster": {
+    "description": "Zwiększa przyrost doświadczenia o {{boostPercent}}%."
+  },
+  "tempStatStageBooster": {
+    "description": "{{stat}} wszystkich twoich Pokémonów wzrasta o {{boostPercent}}% na czas {{battleCount}} bitew."
+  },
+  "formChange": {
+    "description": "Causes certain Pokémon to change form."
   }
 }

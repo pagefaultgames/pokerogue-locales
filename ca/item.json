@@ -1,7 +1,7 @@
 {
   "sitrusBerry": {
     "name": "Baia Ponzem",
-    "description": "Restaura 25% PS si baixen del 50%."
+    "description": "Restaura {{healPercent}}% PS si baixen del {{thresholdPercent}}%."
   },
   "lumBerry": {
     "name": "Baia Pruma",
@@ -9,26 +9,29 @@
   },
   "enigmaBerry": {
     "name": "Baia Enigma",
-    "description": "Restaura 25% PS si és colpejat per un atac superefectiu."
+    "description": "Restaura {{healPercent}}% PS si és colpejat per un atac superefectiu."
   },
   "liechiBerry": {
     "name": "Baia Litxi",
-    "description": "Augmenta l’Atac si els PS estan per sota del 25%."
+    "description": "Augmenta l’Atac si els PS estan per sota del {{thresholdPercent}}%."
   },
   "ganlonBerry": {
     "name": "Baia Gonlan",
-    "description": "Augmenta la Defensa si els PS estan per sota del 25%."
+    "description": "Augmenta la Defensa si els PS estan per sota del {{thresholdPercent}}%."
   },
   "petayaBerry": {
     "name": "Baia Petaia",
-    "description": "Augmenta l’Atac Especial si els PS estan per sota del 25%."
+    "description": "Augmenta l’Atac Especial si els PS estan per sota del {{thresholdPercent}}%."
   },
   "apicotBerry": {
     "name": "Baia Ercoc",
-    "description": "Augmenta la Defensa Especial si els PS estan per sota del 25%."
+    "description": "Augmenta la Defensa Especial si els PS estan per sota del {{thresholdPercent}}%."
   },
   "salacBerry": {
     "name": "Baia Aslac",
-    "description": "Augmenta la Velocitat si els PS estan per sota del 25%."
+    "description": "Augmenta la Velocitat si els PS estan per sota del {{thresholdPercent}}%."
+  },
+  "formChange": {
+    "description": "Causes certain Pokémon to change form."
   }
 }

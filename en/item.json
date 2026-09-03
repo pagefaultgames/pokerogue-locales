@@ -1,7 +1,7 @@
 {
   "sitrusBerry": {
     "name": "Sitrus Berry",
-    "description": "Restores 25% HP if HP is below 50%."
+    "description": "Restores {{healPercent}}% HP if HP is below {{thresholdPercent}}%."
   },
   "lumBerry": {
     "name": "Lum Berry",
@@ -9,39 +9,39 @@
   },
   "enigmaBerry": {
     "name": "Enigma Berry",
-    "description": "Restores 25% HP if hit by a super effective move."
+    "description": "Restores {{healPercent}}% HP if hit by a super effective move."
   },
   "liechiBerry": {
     "name": "Liechi Berry",
-    "description": "Raises Attack if HP is below 25%."
+    "description": "Raises Attack if HP is below {{thresholdPercent}}%."
   },
   "ganlonBerry": {
     "name": "Ganlon Berry",
-    "description": "Raises Defense if HP is below 25%."
+    "description": "Raises Defense if HP is below {{thresholdPercent}}%."
   },
   "petayaBerry": {
     "name": "Petaya Berry",
-    "description": "Raises Sp. Atk if HP is below 25%."
+    "description": "Raises Sp. Atk if HP is below {{thresholdPercent}}%."
   },
   "apicotBerry": {
     "name": "Apicot Berry",
-    "description": "Raises Sp. Def if HP is below 25%."
+    "description": "Raises Sp. Def if HP is below {{thresholdPercent}}%."
   },
   "salacBerry": {
     "name": "Salac Berry",
-    "description": "Raises Speed if HP is below 25%."
+    "description": "Raises Speed if HP is below {{thresholdPercent}}%."
   },
   "lansatBerry": {
     "name": "Lansat Berry",
-    "description": "Raises critical hit ratio if HP is below 25%."
+    "description": "Raises critical hit ratio if HP is below {{thresholdPercent}}%."
   },
   "starfBerry": {
     "name": "Starf Berry",
-    "description": "Sharply raises a random stat if HP is below 25%."
+    "description": "Sharply raises a random stat if HP is below {{thresholdPercent}}%."
   },
   "leppaBerry": {
     "name": "Leppa Berry",
-    "description": "Restores 10 PP to a move if its PP reaches 0."
+    "description": "Restores {{restorePp}} PP to a move if its PP reaches 0."
   },
   "reviverSeed": {
     "name": "Reviver Seed",
@@ -52,76 +52,58 @@
     "description": "An item to be held by a Pokémon. It will restore any lowered stat in battle."
   },
   "silkScarf": {
-    "name": "Silk Scarf",
-    "description": "Increases the power of a Pokémon’s $t(pokemonInfo:type.normal)-type moves by 20%."
+    "name": "Silk Scarf"
   },
   "blackBelt": {
-    "name": "Black Belt",
-    "description": "Increases the power of a Pokémon’s $t(pokemonInfo:type.fighting)-type moves by 20%."
+    "name": "Black Belt"
   },
   "sharpBeak": {
-    "name": "Sharp Beak",
-    "description": "Increases the power of a Pokémon’s $t(pokemonInfo:type.flying)-type moves by 20%."
+    "name": "Sharp Beak"
   },
   "poisonBarb": {
-    "name": "Poison Barb",
-    "description": "Increases the power of a Pokémon’s $t(pokemonInfo:type.poison)-type moves by 20%."
+    "name": "Poison Barb"
   },
   "softSand": {
-    "name": "Soft Sand",
-    "description": "Increases the power of a Pokémon’s $t(pokemonInfo:type.ground)-type moves by 20%."
+    "name": "Soft Sand"
   },
   "hardStone": {
-    "name": "Hard Stone",
-    "description": "Increases the power of a Pokémon’s $t(pokemonInfo:type.rock)-type moves by 20%."
+    "name": "Hard Stone"
   },
   "silverPowder": {
-    "name": "Silver Powder",
-    "description": "Increases the power of a Pokémon’s $t(pokemonInfo:type.bug)-type moves by 20%."
+    "name": "Silver Powder"
   },
   "spellTag": {
-    "name": "Spell Tag",
-    "description": "Increases the power of a Pokémon’s $t(pokemonInfo:type.ghost)-type moves by 20%."
+    "name": "Spell Tag"
   },
   "metalCoat": {
-    "name": "Metal Coat",
-    "description": "Increases the power of a Pokémon’s $t(pokemonInfo:type.steel)-type moves by 20%."
+    "name": "Metal Coat"
   },
   "charcoal": {
-    "name": "Charcoal",
-    "description": "Increases the power of a Pokémon’s $t(pokemonInfo:type.fire)-type moves by 20%."
+    "name": "Charcoal"
   },
   "mysticWater": {
-    "name": "Mystic Water",
-    "description": "Increases the power of a Pokémon’s $t(pokemonInfo:type.water)-type moves by 20%."
+    "name": "Mystic Water"
   },
   "miracleSeed": {
-    "name": "Miracle Seed",
-    "description": "Increases the power of a Pokémon’s $t(pokemonInfo:type.grass)-type moves by 20%."
+    "name": "Miracle Seed"
   },
   "magnet": {
-    "name": "Magnet",
-    "description": "Increases the power of a Pokémon’s $t(pokemonInfo:type.electric)-type moves by 20%."
+    "name": "Magnet"
   },
   "twistedSpoon": {
-    "name": "Twisted Spoon",
-    "description": "Increases the power of a Pokémon’s $t(pokemonInfo:type.psychic)-type moves by 20%."
+    "name": "Twisted Spoon"
   },
   "neverMeltIce": {
-    "name": "Never-Melt Ice",
-    "description": "Increases the power of a Pokémon’s $t(pokemonInfo:type.ice)-type moves by 20%."
+    "name": "Never-Melt Ice"
   },
   "dragonFang": {
-    "name": "Dragon Fang",
-    "description": "Increases the power of a Pokémon’s $t(pokemonInfo:type.dragon)-type moves by 20%."
+    "name": "Dragon Fang"
   },
   "blackGlasses": {
-    "name": "Black Glasses",
-    "description": "Increases the power of a Pokémon’s $t(pokemonInfo:type.dark)-type moves by 20%."
+    "name": "Black Glasses"
   },
   "fairyFeather": {
-    "name": "Fairy Feather",
-    "description": "Increases the power of a Pokémon’s $t(pokemonInfo:type.fairy)-type moves by 20%."
+    "name": "Fairy Feather"
   },
   "lightBall": {
     "name": "Light Ball",
@@ -156,56 +138,54 @@
     "description": "This very long and stiff stalk of leek boosts the critical-hit ratio of Farfetch’d’s moves."
   },
   "luckyEgg": {
-    "name": "Lucky Egg",
-    "description": "Increases the holder’s gain of EXP. Points by 40%."
+    "name": "Lucky Egg"
   },
   "goldenEgg": {
-    "name": "Golden Egg",
-    "description": "Increases the holder’s gain of EXP. Points by 100%."
+    "name": "Golden Egg"
   },
   "sootheBell": {
     "name": "Soothe Bell",
-    "description": "Increases friendship gain by 50%."
+    "description": "Increases friendship gain by {{boostPercent}}%."
   },
   "focusBand": {
     "name": "Focus Band",
-    "description": "Adds a 10% chance to survive with 1 HP after being damaged enough to faint."
+    "description": "Adds a {{chancePercent}}% chance to survive with {{hp}} HP after being damaged enough to faint."
   },
   "quickClaw": {
     "name": "Quick Claw",
-    "description": "Adds a 10% chance to move first regardless of speed (after priority)."
+    "description": "Adds a {{chancePercent}}% chance to move first regardless of speed (after priority)."
   },
   "kingsRock": {
     "name": "King’s Rock",
-    "description": "Adds a 10% chance an attack move will cause the opponent to flinch."
+    "description": "Adds a {{chancePercent}}% chance an attack move will cause the opponent to flinch."
   },
   "leftovers": {
     "name": "Leftovers",
-    "description": "Heals 1/16 of a Pokémon’s maximum HP every turn."
+    "description": "Heals 1/{{healDenominator}} of a Pokémon’s maximum HP every turn."
   },
   "shellBell": {
     "name": "Shell Bell",
-    "description": "Heals 1/8 of a Pokémon’s dealt damage."
+    "description": "Heals 1/{{healDenominator}} of a Pokémon’s dealt damage."
   },
   "mysticalRock": {
     "name": "Mystical Rock",
-    "description": "Extends the duration of terrain and weather caused by the holder’s moves or Abilities by 2 turns."
+    "description": "Extends the duration of terrain and weather caused by the holder’s moves or Abilities by {{turns}} turns."
   },
   "wideLens": {
     "name": "Wide Lens",
-    "description": "Increases move accuracy by 5."
+    "description": "Increases move accuracy by {{accuracy}}."
   },
   "multiLens": {
     "name": "Multi Lens",
-    "description": "Converts 25% of damage from the holder’s attacks into an additional strike."
+    "description": "Converts {{damagePercent}}% of damage from the holder’s attacks into an additional strike."
   },
   "goldenPunch": {
     "name": "Golden Punch",
-    "description": "Grants 50% of direct damage inflicted as money."
+    "description": "Grants {{moneyPercent}}% of direct damage inflicted as money."
   },
   "gripClaw": {
     "name": "Grip Claw",
-    "description": "Upon attacking, there is a 10% chance the foe’s held item will be stolen."
+    "description": "Upon attacking, there is a {{chancePercent}}% chance the foe’s held item will be stolen."
   },
   "toxicOrb": {
     "name": "Toxic Orb",
@@ -217,7 +197,7 @@
   },
   "soulDew": {
     "name": "Soul Dew",
-    "description": "Increases the influence of a Pokémon’s nature on its stats by 10% (additive)."
+    "description": "Increases the influence of a Pokémon’s nature on its stats by {{boostPercent}}% (additive)."
   },
   "baton": {
     "name": "Baton",
@@ -232,28 +212,22 @@
     "description": "This mysterious evolutionary lump boosts the Defense and Sp. Def stats when held by a Pokémon that can still evolve."
   },
   "hpUp": {
-    "name": "HP Up",
-    "description": "Increases the holder’s base $t(pokemonInfo:stat.hp) by 10%. The higher your IVs, the higher the stack limit."
+    "name": "HP Up"
   },
   "protein": {
-    "name": "Protein",
-    "description": "Increases the holder’s base $t(pokemonInfo:stat.atk) by 10%. The higher your IVs, the higher the stack limit."
+    "name": "Protein"
   },
   "iron": {
-    "name": "Iron",
-    "description": "Increases the holder’s base $t(pokemonInfo:stat.def) by 10%. The higher your IVs, the higher the stack limit."
+    "name": "Iron"
   },
   "calcium": {
-    "name": "Calcium",
-    "description": "Increases the holder’s base $t(pokemonInfo:stat.spatk) by 10%. The higher your IVs, the higher the stack limit."
+    "name": "Calcium"
   },
   "zinc": {
-    "name": "Zinc",
-    "description": "Increases the holder’s base $t(pokemonInfo:stat.spdef) by 10%. The higher your IVs, the higher the stack limit."
+    "name": "Zinc"
   },
   "carbos": {
-    "name": "Carbos",
-    "description": "Increases the holder’s base $t(pokemonInfo:stat.spd) by 10%. The higher your IVs, the higher the stack limit."
+    "name": "Carbos"
   },
   "shuckleJuiceGood": {
     "name": "Sweet Shuckle Juice",
@@ -775,15 +749,15 @@
   },
   "goldenPokeball": {
     "name": "Golden Poké Ball",
-    "description": "Adds 1 extra item option at the end of every battle."
+    "description": "Adds {{count}} extra item option at the end of every battle."
   },
   "ovalCharm": {
     "name": "Oval Charm",
-    "description": "When multiple Pokémon participate in a battle, each gets an extra 10% of the total EXP."
+    "description": "When multiple Pokémon participate in a battle, each gets an extra {{boostPercent}}% of the total EXP."
   },
   "expShare": {
     "name": "EXP. All",
-    "description": "Non-participants receive 20% of a single participant’s EXP. Points."
+    "description": "Non-participants receive {{sharePercent}}% of a single participant’s EXP. Points."
   },
   "expBalance": {
     "name": "EXP. Balance",
@@ -791,31 +765,28 @@
   },
   "candyJar": {
     "name": "Candy Jar",
-    "description": "Increases the number of levels added by Rare Candy items by 1."
+    "description": "Increases the number of levels added by Rare Candy items by {{levels}}."
   },
   "berryPouch": {
     "name": "Berry Pouch",
-    "description": "Adds a 30% chance that a used berry will not be consumed."
+    "description": "Adds a {{chancePercent}}% chance that a used berry will not be consumed."
   },
   "healingCharm": {
     "name": "Healing Charm",
-    "description": "Increases the effectiveness of HP restoring moves and items by 10% (excludes Revives)."
+    "description": "Increases the effectiveness of HP restoring moves and items by {{boostPercent}}% (excludes Revives)."
   },
   "expCharm": {
-    "name": "EXP. Charm",
-    "description": "Increases gain of EXP. Points by 25%."
+    "name": "EXP. Charm"
   },
   "superExpCharm": {
-    "name": "Super EXP. Charm",
-    "description": "Increases gain of EXP. Points by 60%."
+    "name": "Super EXP. Charm"
   },
   "goldenExpCharm": {
-    "name": "Golden EXP. Charm",
-    "description": "Increases gain of EXP. Points by 100%."
+    "name": "Golden EXP. Charm"
   },
   "amuletCoin": {
     "name": "Amulet Coin",
-    "description": "Increases money rewards by 20%."
+    "description": "Increases money rewards by {{boostPercent}}%."
   },
   "abilityCharm": {
     "name": "Ability Charm",
@@ -838,83 +809,71 @@
     "description": "Imbues the owner with luck to find Bug Type Pokémon more often. Has a strange heft to it."
   },
   "lure": {
-    "name": "Lure",
-    "description": "Quadruples the chance of an encounter being a double battle for up to 10 battles."
+    "name": "Lure"
   },
   "superLure": {
-    "name": "Super Lure",
-    "description": "Quadruples the chance of an encounter being a double battle for up to 15 battles."
+    "name": "Super Lure"
   },
   "maxLure": {
-    "name": "Max Lure",
-    "description": "Quadruples the chance of an encounter being a double battle for up to 30 battles."
+    "name": "Max Lure"
   },
   "xAttack": {
-    "name": "X Attack",
-    "description": "Increases the $t(pokemonInfo:stat.atk) of all party members by 20% for up to 5 battles."
+    "name": "X Attack"
   },
   "xDefense": {
-    "name": "X Defense",
-    "description": "Increases the $t(pokemonInfo:stat.def) of all party members by 20% for up to 5 battles."
+    "name": "X Defense"
   },
   "xSpAtk": {
-    "name": "X Sp. Atk",
-    "description": "Increases the $t(pokemonInfo:stat.spatk) of all party members by 20% for up to 5 battles."
+    "name": "X Sp. Atk"
   },
   "xSpDef": {
-    "name": "X Sp. Def",
-    "description": "Increases the $t(pokemonInfo:stat.spdef) of all party members by 20% for up to 5 battles."
+    "name": "X Sp. Def"
   },
   "xSpeed": {
-    "name": "X Speed",
-    "description": "Increases the $t(pokemonInfo:stat.spd) of all party members by 20% for up to 5 battles."
+    "name": "X Speed"
   },
   "xAccuracy": {
-    "name": "X Accuracy",
-    "description": "Increases the $t(pokemonInfo:stat.acc) of all party members by 20% for up to 5 battles."
+    "name": "X Accuracy"
   },
   "direHit": {
     "name": "Dire Hit",
     "extra": {
       "raises": "Critical Hit Ratio"
     },
-    "description": "Increases the $t(item:direHit.raises) of all party members by 1 stage for up to 5 battles."
+    "description": "Increases the {{stat}} of all party members by {{stages}} stage for up to {{battleCount}} battles."
   },
   "enemyDamageBooster": {
     "name": "Damage Token",
-    "description": "Increases damage by 5%."
+    "description": "Increases damage by {{boostPercent}}%."
   },
   "enemyDamageReduction": {
     "name": "Protection Token",
-    "description": "Reduces incoming damage by 2.5%."
+    "description": "Reduces incoming damage by {{reductionPercent}}%."
   },
   "enemyHeal": {
     "name": "Recovery Token",
-    "description": "Heals 2% of max HP every turn."
+    "description": "Heals {{healPercent}}% of max HP every turn."
   },
   "enemyAttackPoisonChance": {
-    "name": "Poison Token",
-    "description": "Adds a 5% chance to inflict $t(statusEffect:poison.description) with attack moves."
+    "name": "Poison Token"
   },
   "enemyAttackParalyzeChance": {
-    "name": "Paralyze Token",
-    "description": "Adds a 2.5% chance to inflict $t(statusEffect:paralysis.description) with attack moves."
+    "name": "Paralyze Token"
   },
   "enemyAttackBurnChance": {
-    "name": "Burn Token",
-    "description": "Adds a 5% chance to inflict $t(statusEffect:burn.description) with attack moves."
+    "name": "Burn Token"
   },
   "enemyStatusEffectHealChance": {
     "name": "Full Heal Token",
-    "description": "Adds a 2.5% chance every turn to heal a status condition."
+    "description": "Adds a {{chancePercent}}% chance every turn to heal a status condition."
   },
   "enemyEndureChance": {
     "name": "Endure Token",
-    "description": "Adds a 2% chance of enduring a hit."
+    "description": "Adds a {{chancePercent}}% chance of enduring a hit."
   },
   "enemyFusedChance": {
     "name": "Fusion Token",
-    "description": "Adds a 1% chance that a wild Pokémon will be a fusion."
+    "description": "Adds a {{chancePercent}}% chance that a wild Pokémon will be a fusion."
   },
   "formChange": {
     "description": "Causes certain Pokémon to change form."
@@ -1050,5 +1009,26 @@
   },
   "leadersCrest": {
     "name": "Leader’s Crest"
+  },
+  "typeAttackBooster": {
+    "description": "Increases the power of a Pokémon’s {{type}}-type moves by {{boostPercent}}%."
+  },
+  "pokemonExpBooster": {
+    "description": "Increases the holder’s gain of EXP. Points by {{boostPercent}}%."
+  },
+  "vitamin": {
+    "description": "Increases the holder’s base {{stat}} by {{boostPercent}}%. The higher your IVs, the higher the stack limit."
+  },
+  "expBooster": {
+    "description": "Increases gain of EXP. Points by {{boostPercent}}%."
+  },
+  "doubleBattleChanceBooster": {
+    "description": "Quadruples the chance of an encounter being a double battle for up to {{battleCount}} battles."
+  },
+  "tempStatStageBooster": {
+    "description": "Increases the {{stat}} of all party members by {{boostPercent}}% for up to {{battleCount}} battles."
+  },
+  "enemyAttackStatusEffectChance": {
+    "description": "Adds a {{chancePercent}}% chance to inflict {{statusEffect}} with attack moves."
   }
 }

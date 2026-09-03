@@ -1,7 +1,7 @@
 {
   "sitrusBerry": {
     "name": "Tsitrubeere",
-    "description": "Stellt 25% der KP wieder her, wenn die KP unter 50% sind."
+    "description": "Stellt {{healPercent}}% der KP wieder her, wenn die KP unter {{thresholdPercent}}% sind."
   },
   "lumBerry": {
     "name": "Prunusbeere",
@@ -9,39 +9,39 @@
   },
   "enigmaBerry": {
     "name": "Enigmabeere",
-    "description": "Stellt 25% der KP wieder her, wenn der Träger von einer sehr effektiven Attacke getroffen wird."
+    "description": "Stellt {{healPercent}}% der KP wieder her, wenn der Träger von einer sehr effektiven Attacke getroffen wird."
   },
   "liechiBerry": {
     "name": "Lydzibeere",
-    "description": "Steigert den Angriff, wenn die KP unter 25% sind."
+    "description": "Steigert den Angriff, wenn die KP unter {{thresholdPercent}}% sind."
   },
   "ganlonBerry": {
     "name": "Linganbeere",
-    "description": "Steigert die Verteidigung, wenn die KP unter 25% sind."
+    "description": "Steigert die Verteidigung, wenn die KP unter {{thresholdPercent}}% sind."
   },
   "petayaBerry": {
     "name": "Tahaybeere",
-    "description": "Steigert den Spezial-Angriff, wenn die KP unter 25% sind."
+    "description": "Steigert den Spezial-Angriff, wenn die KP unter {{thresholdPercent}}% sind."
   },
   "apicotBerry": {
     "name": "Apikobeere",
-    "description": "Steigert die Spezial-Verteidigung, wenn die KP unter 25% sind."
+    "description": "Steigert die Spezial-Verteidigung, wenn die KP unter {{thresholdPercent}}% sind."
   },
   "salacBerry": {
     "name": "Salkabeere",
-    "description": "Steigert die Initiative, wenn die KP unter 25% sind."
+    "description": "Steigert die Initiative, wenn die KP unter {{thresholdPercent}}% sind."
   },
   "lansatBerry": {
     "name": "Lansatbeere",
-    "description": "Erhöht die Volltrefferchance, wenn die KP unter 25% sind."
+    "description": "Erhöht die Volltrefferchance, wenn die KP unter {{thresholdPercent}}% sind."
   },
   "starfBerry": {
     "name": "Krambobeere",
-    "description": "Erhöht einen zufälligen Statuswert stark, wenn die KP unter 25% sind."
+    "description": "Erhöht einen zufälligen Statuswert stark, wenn die KP unter {{thresholdPercent}}% sind."
   },
   "leppaBerry": {
     "name": "Jonagobeere",
-    "description": "Stellt 10 AP für eine Attacke wieder her, wenn deren AP auf 0 fallen."
+    "description": "Stellt {{restorePp}} AP für eine Attacke wieder her, wenn deren AP auf 0 fallen."
   },
   "reviverSeed": {
     "name": "Belebersamen",
@@ -52,76 +52,58 @@
     "description": "Ein Item zum Tragen. Es hebt einmalig jede negative Statuswertveränderung auf."
   },
   "silkScarf": {
-    "name": "Seidenschal",
-    "description": "Erhöht die Stärke aller $t(pokemonInfo:type.normal)-Attacken eines Pokémon um 20%."
+    "name": "Seidenschal"
   },
   "blackBelt": {
-    "name": "Schwarzgurt",
-    "description": "Erhöht die Stärke aller $t(pokemonInfo:type.fighting)-Attacken eines Pokémon um 20%."
+    "name": "Schwarzgurt"
   },
   "sharpBeak": {
-    "name": "Spitzer Schnabel",
-    "description": "Erhöht die Stärke aller $t(pokemonInfo:type.flying)-Attacken eines Pokémon um 20%."
+    "name": "Spitzer Schnabel"
   },
   "poisonBarb": {
-    "name": "Giftstich",
-    "description": "Erhöht die Stärke aller $t(pokemonInfo:type.poison)-Attacken eines Pokémon um 20%."
+    "name": "Giftstich"
   },
   "softSand": {
-    "name": "Pudersand",
-    "description": "Erhöht die Stärke aller $t(pokemonInfo:type.ground)-Attacken eines Pokémon um 20%."
+    "name": "Pudersand"
   },
   "hardStone": {
-    "name": "Granitstein",
-    "description": "Erhöht die Stärke aller $t(pokemonInfo:type.rock)-Attacken eines Pokémon um 20%."
+    "name": "Granitstein"
   },
   "silverPowder": {
-    "name": "Silberstaub",
-    "description": "Erhöht die Stärke aller $t(pokemonInfo:type.bug)-Attacken eines Pokémon um 20%."
+    "name": "Silberstaub"
   },
   "spellTag": {
-    "name": "Bannsticker",
-    "description": "Erhöht die Stärke aller $t(pokemonInfo:type.ghost)-Attacken eines Pokémon um 20%."
+    "name": "Bannsticker"
   },
   "metalCoat": {
-    "name": "Metallmantel",
-    "description": "Erhöht die Stärke aller $t(pokemonInfo:type.steel)-Attacken eines Pokémon um 20%."
+    "name": "Metallmantel"
   },
   "charcoal": {
-    "name": "Holzkohle",
-    "description": "Erhöht die Stärke aller $t(pokemonInfo:type.fire)-Attacken eines Pokémon um 20%."
+    "name": "Holzkohle"
   },
   "mysticWater": {
-    "name": "Zauberwasser",
-    "description": "Erhöht die Stärke aller $t(pokemonInfo:type.water)-Attacken eines Pokémon um 20%."
+    "name": "Zauberwasser"
   },
   "miracleSeed": {
-    "name": "Wundersaat",
-    "description": "Erhöht die Stärke aller $t(pokemonInfo:type.grass)-Attacken eines Pokémon um 20%."
+    "name": "Wundersaat"
   },
   "magnet": {
-    "name": "Magnet",
-    "description": "Erhöht die Stärke aller $t(pokemonInfo:type.electric)-Attacken eines Pokémon um 20%."
+    "name": "Magnet"
   },
   "twistedSpoon": {
-    "name": "Krümmlöffel",
-    "description": "Erhöht die Stärke aller $t(pokemonInfo:type.psychic)-Attacken eines Pokémon um 20%."
+    "name": "Krümmlöffel"
   },
   "neverMeltIce": {
-    "name": "Ewiges Eis",
-    "description": "Erhöht die Stärke aller $t(pokemonInfo:type.ice)-Attacken eines Pokémon um 20%."
+    "name": "Ewiges Eis"
   },
   "dragonFang": {
-    "name": "Drachenzahn",
-    "description": "Erhöht die Stärke aller $t(pokemonInfo:type.dragon)-Attacken eines Pokémon um 20%."
+    "name": "Drachenzahn"
   },
   "blackGlasses": {
-    "name": "Schattenbrille",
-    "description": "Erhöht die Stärke aller $t(pokemonInfo:type.dark)-Attacken eines Pokémon um 20%."
+    "name": "Schattenbrille"
   },
   "fairyFeather": {
-    "name": "Feendaune",
-    "description": "Erhöht die Stärke aller $t(pokemonInfo:type.fairy)-Attacken eines Pokémon um 20%."
+    "name": "Feendaune"
   },
   "lightBall": {
     "name": "Kugelblitz",
@@ -156,56 +138,54 @@
     "description": "Ein Item, das von Porenta getragen werden kann. Diese lange Lauchstange erhöht die Volltrefferquote stark."
   },
   "luckyEgg": {
-    "name": "Glücks-Ei",
-    "description": "Erhöht die Menge der erhaltenen Erfahrungspunkte für den Träger um 40%."
+    "name": "Glücks-Ei"
   },
   "goldenEgg": {
-    "name": "Goldenes Ei",
-    "description": "Erhöht die Menge der erhaltenen Erfahrungspunkte für den Träger um 100%."
+    "name": "Goldenes Ei"
   },
   "sootheBell": {
     "name": "Sanftglocke",
-    "description": "Erhöht den Freundschaftszuwachs um 50%."
+    "description": "Erhöht den Freundschaftszuwachs um {{boostPercent}}%."
   },
   "focusBand": {
     "name": "Fokusband",
-    "description": "Fügt eine 10% Chance hinzu, dass Angriffe die zur Kampfunfähigkeit führen mit 1 KP überlebt werden."
+    "description": "Fügt eine {{chancePercent}}% Chance hinzu, dass Angriffe die zur Kampfunfähigkeit führen mit {{hp}} KP überlebt werden."
   },
   "quickClaw": {
     "name": "Flinkklaue",
-    "description": "Fügt eine 10% Change hinzu als erster anzugreifen. (Nach Prioritätsangriffen)."
+    "description": "Fügt eine {{chancePercent}}% Change hinzu als erster anzugreifen. (Nach Prioritätsangriffen)."
   },
   "kingsRock": {
     "name": "King-Stein",
-    "description": "Fügt eine 10% Chance hinzu, dass der Gegner nach einem Angriff zurückschreckt."
+    "description": "Fügt eine {{chancePercent}}% Chance hinzu, dass der Gegner nach einem Angriff zurückschreckt."
   },
   "leftovers": {
     "name": "Überreste",
-    "description": "Heilt 1/16 der maximalen KP eines Pokémon pro Runde."
+    "description": "Heilt 1/{{healDenominator}} der maximalen KP eines Pokémon pro Runde."
   },
   "shellBell": {
     "name": "Muschelglocke",
-    "description": "Heilt den Anwender um 1/8 des von ihm zugefügten Schadens."
+    "description": "Heilt den Anwender um 1/{{healDenominator}} des von ihm zugefügten Schadens."
   },
   "mysticalRock": {
     "name": "Rätselhafter Stein",
-    "description": "Verlängert die Dauer von Wetter, dass durch Attacken oder Fähigkeiten des Trägers ausgelöst wurde, um 2 Runden pro Stapel."
+    "description": "Verlängert die Dauer von Wetter, dass durch Attacken oder Fähigkeiten des Trägers ausgelöst wurde, um {{turns}} Runden pro Stapel."
   },
   "wideLens": {
     "name": "Großlinse",
-    "description": "Erhöht die Genauigkeit der Angriffe um 5."
+    "description": "Erhöht die Genauigkeit der Angriffe um {{accuracy}}."
   },
   "multiLens": {
     "name": "Mehrfachlinse",
-    "description": "Wandelt 25 % des Schadens von den Attacken des Trägers in einen zusätzlichen Treffer um."
+    "description": "Wandelt {{damagePercent}}% des Schadens von den Attacken des Trägers in einen zusätzlichen Treffer um."
   },
   "goldenPunch": {
     "name": "Goldschlag",
-    "description": "Gewährt Geld in Höhe von 50% des zugefügten Schadens."
+    "description": "Gewährt Geld in Höhe von {{moneyPercent}}% des zugefügten Schadens."
   },
   "gripClaw": {
     "name": "Griffklaue",
-    "description": "Beim Angriff besteht eine 10%ige Chance, dass das getragene Item des Gegners gestohlen wird."
+    "description": "Beim Angriff besteht eine {{chancePercent}}%ige Chance, dass das getragene Item des Gegners gestohlen wird."
   },
   "toxicOrb": {
     "name": "Toxik-Orb",
@@ -217,7 +197,7 @@
   },
   "soulDew": {
     "name": "Seelentau",
-    "description": "Erhöht den Einfluss des Wesens eines Pokemon auf seine Werte um 10% (additiv)."
+    "description": "Erhöht den Einfluss des Wesens eines Pokemon auf seine Werte um {{boostPercent}}% (additiv)."
   },
   "baton": {
     "name": "Stab",
@@ -232,28 +212,22 @@
     "description": "Ein mysteriöser Klumpen, der die Vert. u. Spez.-Vert. von Pokémon erhöht, die sich noch entwickeln können."
   },
   "hpUp": {
-    "name": "KP-Plus",
-    "description": "Erhöht den $t(pokemonInfo:stat.hp) Basiswert des Trägers um 10%. Das Stapellimit erhöht sich, je höher dein IS-Wert ist."
+    "name": "KP-Plus"
   },
   "protein": {
-    "name": "Protein",
-    "description": "Erhöht den $t(pokemonInfo:stat.atk) Basiswert des Trägers um 10%. Das Stapellimit erhöht sich, je höher dein IS-Wert ist."
+    "name": "Protein"
   },
   "iron": {
-    "name": "Eisen",
-    "description": "Erhöht den $t(pokemonInfo:stat.def) Basiswert des Trägers um 10%. Das Stapellimit erhöht sich, je höher dein IS-Wert ist."
+    "name": "Eisen"
   },
   "calcium": {
-    "name": "Kalzium",
-    "description": "Erhöht den $t(pokemonInfo:stat.spatk) Basiswert des Trägers um 10%. Das Stapellimit erhöht sich, je höher dein IS-Wert ist."
+    "name": "Kalzium"
   },
   "zinc": {
-    "name": "Zink",
-    "description": "Erhöht den $t(pokemonInfo:stat.spdef) Basiswert des Trägers um 10%. Das Stapellimit erhöht sich, je höher dein IS-Wert ist."
+    "name": "Zink"
   },
   "carbos": {
-    "name": "Carbon",
-    "description": "Erhöht den $t(pokemonInfo:stat.spd) Basiswert des Trägers um 10%. Das Stapellimit erhöht sich, je höher dein IS-Wert ist."
+    "name": "Carbon"
   },
   "shuckleJuiceGood": {
     "name": "Süßer Pottrottsaft",
@@ -775,15 +749,15 @@
   },
   "goldenPokeball": {
     "name": "Goldener Pokéball",
-    "description": "Fügt eine zusätzliche Item-Auswahlmöglichkeit nach jedem Kampf hinzu."
+    "description": "Fügt {{count}} zusätzliche Item-Auswahlmöglichkeit nach jedem Kampf hinzu."
   },
   "ovalCharm": {
     "name": "Ovalpin",
-    "description": "Wenn mehrere Pokémon am Kampf teilnehmen, erhählt jeder von ihnen 10% extra Erfahrungspunkte."
+    "description": "Wenn mehrere Pokémon am Kampf teilnehmen, erhählt jeder von ihnen {{boostPercent}}% extra Erfahrungspunkte."
   },
   "expShare": {
     "name": "EP-Teiler",
-    "description": "Pokémon, die nicht am Kampf teilgenommen haben, bekommen 20% der Erfahrungspunkte eines Kampfteilnehmers."
+    "description": "Pokémon, die nicht am Kampf teilgenommen haben, bekommen {{sharePercent}}% der Erfahrungspunkte eines Kampfteilnehmers."
   },
   "expBalance": {
     "name": "EP-Ausgleicher",
@@ -791,31 +765,28 @@
   },
   "candyJar": {
     "name": "Bonbonglas",
-    "description": "Erhöht die Anzahl der Level die ein Sonderbonbon erhöht um 1."
+    "description": "Erhöht die Anzahl der Level die ein Sonderbonbon erhöht um {{levels}}."
   },
   "berryPouch": {
     "name": "Beerentüte",
-    "description": "Fügt eine 30% Chance hinzu, dass Beeren nicht verbraucht werden."
+    "description": "Fügt eine {{chancePercent}}% Chance hinzu, dass Beeren nicht verbraucht werden."
   },
   "healingCharm": {
     "name": "Heilungspin",
-    "description": "Erhöht die Effektivität von Heilungsattacken sowie Heilitems um 10% (Beleber ausgenommen)."
+    "description": "Erhöht die Effektivität von Heilungsattacken sowie Heilitems um {{boostPercent}}% (Beleber ausgenommen)."
   },
   "expCharm": {
-    "name": "EP-Pin",
-    "description": "Erhöht die erhaltenen Erfahrungspunkte um 25%."
+    "name": "EP-Pin"
   },
   "superExpCharm": {
-    "name": "Super-EP-Pin",
-    "description": "Erhöht die erhaltenen Erfahrungspunkte um 60%."
+    "name": "Super-EP-Pin"
   },
   "goldenExpCharm": {
-    "name": "Goldener EP-Pin",
-    "description": "Erhöht die erhaltenen Erfahrungspunkte um 100%."
+    "name": "Goldener EP-Pin"
   },
   "amuletCoin": {
     "name": "Münzamulett",
-    "description": "Erhöht das Preisgeld um 20%."
+    "description": "Erhöht das Preisgeld um {{boostPercent}}%."
   },
   "abilityCharm": {
     "name": "Fähigkeitspin",
@@ -838,83 +809,71 @@
     "description": "Erhöht die Chance, dass der Besitzer mehr Pokémon vom Typ Käfer findet. Hat ein seltsames Gewicht."
   },
   "lure": {
-    "name": "Lockparfüm",
-    "description": "Vervierfacht die Chance, dass ein Kampf ein Doppelkampf wird, für bis zu 10 Kämpfe."
+    "name": "Lockparfüm"
   },
   "superLure": {
-    "name": "Super-Lockparfüm",
-    "description": "Vervierfacht die Chance, dass ein Kampf ein Doppelkampf wird, für bis zu 15 Kämpfe."
+    "name": "Super-Lockparfüm"
   },
   "maxLure": {
-    "name": "Top-Lockparfüm",
-    "description": "Vervierfacht die Chance, dass ein Kampf ein Doppelkampf wird, für bis zu 30 Kämpfe."
+    "name": "Top-Lockparfüm"
   },
   "xAttack": {
-    "name": "X-Angriff",
-    "description": "Erhöht $t(pokemonInfo:stat.atk) aller Teammitglieder um 20% für bis zu 5 Kämpfe."
+    "name": "X-Angriff"
   },
   "xDefense": {
-    "name": "X-Verteidigung",
-    "description": "Erhöht $t(pokemonInfo:stat.def) aller Teammitglieder um 20% für bis zu 5 Kämpfe."
+    "name": "X-Verteidigung"
   },
   "xSpAtk": {
-    "name": "X-Sp.-Ang.",
-    "description": "Erhöht $t(pokemonInfo:stat.spatk) aller Teammitglieder um 20% für bis zu 5 Kämpfe."
+    "name": "X-Sp.-Ang."
   },
   "xSpDef": {
-    "name": "X-Sp.-Vert.",
-    "description": "Erhöht $t(pokemonInfo:stat.spdef) aller Teammitglieder um 20% für bis zu 5 Kämpfe."
+    "name": "X-Sp.-Vert."
   },
   "xSpeed": {
-    "name": "X-Tempo",
-    "description": "Erhöht $t(pokemonInfo:stat.spd) aller Teammitglieder um 20% für bis zu 5 Kämpfe."
+    "name": "X-Tempo"
   },
   "xAccuracy": {
-    "name": "X-Treffer",
-    "description": "Erhöht $t(pokemonInfo:stat.acc) aller Teammitglieder um 20% für bis zu 5 Kämpfe."
+    "name": "X-Treffer"
   },
   "direHit": {
     "name": "X-Volltreffer",
     "extra": {
       "raises": "Volltrefferquote"
     },
-    "description": "Erhöht $t(item:direHit.raises) aller Teammitglieder um eine Stufe für bis zu 5 Kämpfe."
+    "description": "Erhöht {{stat}} aller Teammitglieder um {{stages}} Stufe für bis zu {{battleCount}} Kämpfe."
   },
   "enemyDamageBooster": {
     "name": "Schadensmarke",
-    "description": "Erhöht den Schaden um 5%."
+    "description": "Erhöht den Schaden um {{boostPercent}}%."
   },
   "enemyDamageReduction": {
     "name": "Schutzmarke",
-    "description": "Verringert den erhaltenen Schaden um 2,5%."
+    "description": "Verringert den erhaltenen Schaden um {{reductionPercent}}%."
   },
   "enemyHeal": {
     "name": "Wiederherstellungsmarke",
-    "description": "Heilt 2% der maximalen KP pro Runde."
+    "description": "Heilt {{healPercent}}% der maximalen KP pro Runde."
   },
   "enemyAttackPoisonChance": {
-    "name": "Giftmarke",
-    "description": "Fügt Angriffen eine 5%ige Chance hinzu, $t(statusEffect:poison.description) zu verursachen."
+    "name": "Giftmarke"
   },
   "enemyAttackParalyzeChance": {
-    "name": "Lähmungsmarke",
-    "description": "Fügt Angriffen eine 2.5%ige Chance hinzu, $t(statusEffect:paralysis.description) zu verursachen."
+    "name": "Lähmungsmarke"
   },
   "enemyAttackBurnChance": {
-    "name": "Brandmarke",
-    "description": "Fügt Angriffen eine 5%ige Chance hinzu, $t(statusEffect:burn.description) zu verursachen."
+    "name": "Brandmarke"
   },
   "enemyStatusEffectHealChance": {
     "name": "Vollheilungsmarke",
-    "description": "Fügt eine 2,5%ige Chance hinzu, jede Runde einen Statuszustand zu heilen."
+    "description": "Fügt eine {{chancePercent}}%ige Chance hinzu, jede Runde einen Statuszustand zu heilen."
   },
   "enemyEndureChance": {
     "name": "Ausdauer-Marke",
-    "description": "Gibt den Träger eine 2%ige Chance, einen Angriff zu überleben."
+    "description": "Gibt den Träger eine {{chancePercent}}%ige Chance, einen Angriff zu überleben."
   },
   "enemyFusedChance": {
     "name": "Fusionsmarke",
-    "description": "Fügt eine 1%ige Chance hinzu, dass ein wildes Pokémon eine Fusion ist."
+    "description": "Fügt eine {{chancePercent}}%ige Chance hinzu, dass ein wildes Pokémon eine Fusion ist."
   },
   "formChange": {
     "description": "Erlaubt es bestimmten Pokémon ihre Form zu ändern."
@@ -1050,5 +1009,26 @@
   },
   "leadersCrest": {
     "name": "Anführersymbol"
+  },
+  "typeAttackBooster": {
+    "description": "Erhöht die Stärke aller {{type}}-Attacken eines Pokémon um {{boostPercent}}%."
+  },
+  "pokemonExpBooster": {
+    "description": "Erhöht die Menge der erhaltenen Erfahrungspunkte für den Träger um {{boostPercent}}%."
+  },
+  "vitamin": {
+    "description": "Erhöht den {{stat}} Basiswert des Trägers um {{boostPercent}}%. Das Stapellimit erhöht sich, je höher dein IS-Wert ist."
+  },
+  "expBooster": {
+    "description": "Erhöht die erhaltenen Erfahrungspunkte um {{boostPercent}}%."
+  },
+  "doubleBattleChanceBooster": {
+    "description": "Vervierfacht die Chance, dass ein Kampf ein Doppelkampf wird, für bis zu {{battleCount}} Kämpfe."
+  },
+  "tempStatStageBooster": {
+    "description": "Erhöht {{stat}} aller Teammitglieder um {{boostPercent}}% für bis zu {{battleCount}} Kämpfe."
+  },
+  "enemyAttackStatusEffectChance": {
+    "description": "Fügt Angriffen eine {{chancePercent}}%ige Chance hinzu, {{statusEffect}} zu verursachen."
   }
 }

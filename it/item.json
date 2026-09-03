@@ -1,7 +1,7 @@
 {
   "sitrusBerry": {
     "name": "Baccacedro",
-    "description": "Restituisce il 25% dei PS se i PS sono sotto il 50%."
+    "description": "Restituisce il {{healPercent}}% dei PS se i PS sono sotto il {{thresholdPercent}}%."
   },
   "lumBerry": {
     "name": "Baccaprugna",
@@ -9,39 +9,39 @@
   },
   "enigmaBerry": {
     "name": "Baccaenigma",
-    "description": "Restituisce il 25% dei PS se viene colpito da una mossa superefficace."
+    "description": "Restituisce il {{healPercent}}% dei PS se viene colpito da una mossa superefficace."
   },
   "liechiBerry": {
     "name": "Baccalici",
-    "description": "Aumenta l’Attacco se i PS sono sotto il 25%."
+    "description": "Aumenta l’Attacco se i PS sono sotto il {{thresholdPercent}}%."
   },
   "ganlonBerry": {
     "name": "Baccalongan",
-    "description": "Aumenta la Difesa se i PS sono sotto il 25%."
+    "description": "Aumenta la Difesa se i PS sono sotto il {{thresholdPercent}}%."
   },
   "petayaBerry": {
     "name": "Baccapitaya",
-    "description": "Aumenta l’Attacco Speciale se i PS sono sotto il 25%."
+    "description": "Aumenta l’Attacco Speciale se i PS sono sotto il {{thresholdPercent}}%."
   },
   "apicotBerry": {
     "name": "Baccacocca",
-    "description": "Aumenta la Difesa Speciale se i PS sono sotto il 25%."
+    "description": "Aumenta la Difesa Speciale se i PS sono sotto il {{thresholdPercent}}%."
   },
   "salacBerry": {
     "name": "Baccasalak",
-    "description": "Aumenta la Velocità se i PS sono sotto il 25%."
+    "description": "Aumenta la Velocità se i PS sono sotto il {{thresholdPercent}}%."
   },
   "lansatBerry": {
     "name": "Baccalangsa",
-    "description": "Aumenta la probabilità di Colpo Critico se i PS sono sotto il 25%."
+    "description": "Aumenta la probabilità di Colpo Critico se i PS sono sotto il {{thresholdPercent}}%."
   },
   "starfBerry": {
     "name": "Baccambola",
-    "description": "Aumenta drasticamente una statistica casuale se i PS sono sotto il 25%."
+    "description": "Aumenta drasticamente una statistica casuale se i PS sono sotto il {{thresholdPercent}}%."
   },
   "leppaBerry": {
     "name": "Baccamela",
-    "description": "Ripristina 10 PP a una mossa se i suoi PP raggiungono lo 0."
+    "description": "Ripristina {{restorePp}} PP a una mossa se i suoi PP raggiungono lo 0."
   },
   "reviverSeed": {
     "name": "Revitalseme",
@@ -52,76 +52,58 @@
     "description": "Strumento da dare a un Pokémon. Ripristina le statistiche ridotte in lotta."
   },
   "silkScarf": {
-    "name": "Sciarpa seta",
-    "description": "Aumenta la potenza delle mosse di tipo $t(pokemonInfo:type.normal) del 20% per un Pokémon."
+    "name": "Sciarpa seta"
   },
   "blackBelt": {
-    "name": "Cinturanera",
-    "description": "Aumenta la potenza delle mosse di tipo $t(pokemonInfo:type.fighting) del 20% per un Pokémon."
+    "name": "Cinturanera"
   },
   "sharpBeak": {
-    "name": "Beccaffilato",
-    "description": "Aumenta la potenza delle mosse di tipo $t(pokemonInfo:type.flying) del 20% per un Pokémon."
+    "name": "Beccaffilato"
   },
   "poisonBarb": {
-    "name": "Velenaculeo",
-    "description": "Aumenta la potenza delle mosse di tipo $t(pokemonInfo:type.poison) del 20% per un Pokémon."
+    "name": "Velenaculeo"
   },
   "softSand": {
-    "name": "Sabbia soffice",
-    "description": "Aumenta la potenza delle mosse di tipo $t(pokemonInfo:type.ground) del 20% per un Pokémon."
+    "name": "Sabbia soffice"
   },
   "hardStone": {
-    "name": "Pietradura",
-    "description": "Aumenta la potenza delle mosse di tipo $t(pokemonInfo:type.rock) del 20% per un Pokémon."
+    "name": "Pietradura"
   },
   "silverPowder": {
-    "name": "Argenpolvere",
-    "description": "Aumenta la potenza delle mosse di tipo $t(pokemonInfo:type.bug) del 20% per un Pokémon."
+    "name": "Argenpolvere"
   },
   "spellTag": {
-    "name": "Spettrotarga",
-    "description": "Aumenta la potenza delle mosse di tipo $t(pokemonInfo:type.ghost) del 20% per un Pokémon."
+    "name": "Spettrotarga"
   },
   "metalCoat": {
-    "name": "Metalcopertura",
-    "description": "Aumenta la potenza delle mosse di tipo $t(pokemonInfo:type.steel) del 20% per un Pokémon."
+    "name": "Metalcopertura"
   },
   "charcoal": {
-    "name": "Carbonella",
-    "description": "Aumenta la potenza delle mosse di tipo $t(pokemonInfo:type.fire) del 20% per un Pokémon."
+    "name": "Carbonella"
   },
   "mysticWater": {
-    "name": "Acqua magica",
-    "description": "Aumenta la potenza delle mosse di tipo $t(pokemonInfo:type.water) del 20% per un Pokémon."
+    "name": "Acqua magica"
   },
   "miracleSeed": {
-    "name": "Miracolseme",
-    "description": "Aumenta la potenza delle mosse di tipo $t(pokemonInfo:type.grass) del 20% per un Pokémon."
+    "name": "Miracolseme"
   },
   "magnet": {
-    "name": "Magnete",
-    "description": "Aumenta la potenza delle mosse di tipo $t(pokemonInfo:type.electric) del 20% per un Pokémon."
+    "name": "Magnete"
   },
   "twistedSpoon": {
-    "name": "Cucchiaio torto",
-    "description": "Aumenta la potenza delle mosse di tipo $t(pokemonInfo:type.psychic) del 20% per un Pokémon."
+    "name": "Cucchiaio torto"
   },
   "neverMeltIce": {
-    "name": "Gelomai",
-    "description": "Aumenta la potenza delle mosse di tipo $t(pokemonInfo:type.ice) del 20% per un Pokémon."
+    "name": "Gelomai"
   },
   "dragonFang": {
-    "name": "Dente di drago",
-    "description": "Aumenta la potenza delle mosse di tipo $t(pokemonInfo:type.dragon) del 20% per un Pokémon."
+    "name": "Dente di drago"
   },
   "blackGlasses": {
-    "name": "Occhialineri",
-    "description": "Aumenta la potenza delle mosse di tipo $t(pokemonInfo:type.dark) del 20% per un Pokémon."
+    "name": "Occhialineri"
   },
   "fairyFeather": {
-    "name": "Piuma fatata",
-    "description": "Aumenta la potenza delle mosse di tipo $t(pokemonInfo:type.fairy) del 20% per un Pokémon."
+    "name": "Piuma fatata"
   },
   "lightBall": {
     "name": "Elettropalla",
@@ -156,56 +138,54 @@
     "description": "Strumento da dare a Farfetch’d. Lungo gambo di porro che aumenta la probabilità di sferrare brutti colpi."
   },
   "luckyEgg": {
-    "name": "Fortunuovo",
-    "description": "Aumenta il guadagno di Punti Esperienza del possessore del 40%."
+    "name": "Fortunuovo"
   },
   "goldenEgg": {
-    "name": "Uovo dorato",
-    "description": "Aumenta il guadagno di Punti Esperienza del possessore del 100%."
+    "name": "Uovo dorato"
   },
   "sootheBell": {
     "name": "Calmanella",
-    "description": "Aumenta del 50% il guadagno di amicizia."
+    "description": "Aumenta del {{boostPercent}}% il guadagno di amicizia."
   },
   "focusBand": {
     "name": "Bandana",
-    "description": "Il possessore ottiene il 10% di possibilità aggiuntivo di evitare un potenziale KO e rimanere con un solo PS."
+    "description": "Il possessore ottiene il {{chancePercent}}% di possibilità aggiuntivo di evitare un potenziale KO e rimanere con {{hp}} PS."
   },
   "quickClaw": {
     "name": "Rapidartigli",
-    "description": "Aggiunge una probabilità del 10% di muoversi per primi, indipendentemente dalla velocità (priorità escluse)."
+    "description": "Aggiunge una probabilità del {{chancePercent}}% di muoversi per primi, indipendentemente dalla velocità (priorità escluse)."
   },
   "kingsRock": {
     "name": "Roccia di re",
-    "description": "Aggiunge il 10% di possibilità che una mossa d’attacco faccia tentennare l’avversario."
+    "description": "Aggiunge il {{chancePercent}}% di possibilità che una mossa d’attacco faccia tentennare l’avversario."
   },
   "leftovers": {
     "name": "Avanzi",
-    "description": "Ripristina 1/16 dei PS massimi di un Pokémon ogni turno."
+    "description": "Ripristina 1/{{healDenominator}} dei PS massimi di un Pokémon ogni turno."
   },
   "shellBell": {
     "name": "Conchinella",
-    "description": "Cura il possessore di 1/8 del danno inflitto ad un Pokémon."
+    "description": "Cura il possessore di 1/{{healDenominator}} del danno inflitto ad un Pokémon."
   },
   "mysticalRock": {
     "name": "Rocciamistica",
-    "description": "Aumenta la durata dei terreni e delle condizioni meteo causate dal possessore di 2 turni."
+    "description": "Aumenta la durata dei terreni e delle condizioni meteo causate dal possessore di {{turns}} turni."
   },
   "wideLens": {
     "name": "Grandelente",
-    "description": "Aumenta la precisione delle mosse di 5."
+    "description": "Aumenta la precisione delle mosse di {{accuracy}}."
   },
   "multiLens": {
     "name": "Multilente",
-    "description": "Converte il 25% del danno inflitto dagli attacchi del possessore in un colpo aggiuntivo."
+    "description": "Converte il {{damagePercent}}% del danno inflitto dagli attacchi del possessore in un colpo aggiuntivo."
   },
   "goldenPunch": {
     "name": "Pugno dorato",
-    "description": "Fornisce il 50% dei danni inflitti sottoforma di denaro."
+    "description": "Fornisce il {{moneyPercent}}% dei danni inflitti sottoforma di denaro."
   },
   "gripClaw": {
     "name": "Presartigli",
-    "description": "Quando il possessore attacca, c’è una probabilità del 10% che l’oggetto in possesso del nemico gli venga rubato."
+    "description": "Quando il possessore attacca, c’è una probabilità del {{chancePercent}}% che l’oggetto in possesso del nemico gli venga rubato."
   },
   "toxicOrb": {
     "name": "Tossicsfera",
@@ -217,7 +197,7 @@
   },
   "soulDew": {
     "name": "Cuorugiada",
-    "description": "Aumenta del 10% l’influenza della natura di un Pokémon sulle sue statistiche (cumulativo)."
+    "description": "Aumenta del {{boostPercent}}% l’influenza della natura di un Pokémon sulle sue statistiche (cumulativo)."
   },
   "baton": {
     "name": "Staffetta",
@@ -232,28 +212,22 @@
     "description": "Misteriosa materia evolutiva. Aumenta la Difesa e la Difesa Speciale di un Pokémon che può ancora evolversi."
   },
   "hpUp": {
-    "name": "PS-su",
-    "description": "Aumenta l’/la $t(pokemonInfo:stat.hp) di base del possessore del 10%."
+    "name": "PS-su"
   },
   "protein": {
-    "name": "Proteina",
-    "description": "Aumenta l’/la $t(pokemonInfo:stat.atk) di base del possessore del 10%."
+    "name": "Proteina"
   },
   "iron": {
-    "name": "Ferro",
-    "description": "Aumenta l’/la $t(pokemonInfo:stat.def) di base del possessore del 10%."
+    "name": "Ferro"
   },
   "calcium": {
-    "name": "Calcio",
-    "description": "Aumenta l’/la $t(pokemonInfo:stat.spatk) di base del possessore del 10%."
+    "name": "Calcio"
   },
   "zinc": {
-    "name": "Zinco",
-    "description": "Aumenta l’/la $t(pokemonInfo:stat.spdef) di base del possessore del 10%."
+    "name": "Zinco"
   },
   "carbos": {
-    "name": "Carburante",
-    "description": "Aumenta l’/la $t(pokemonInfo:stat.spd) di base del possessore del 10%."
+    "name": "Carburante"
   },
   "shuckleJuiceGood": {
     "name": "Succo di Shuckle Dolce",
@@ -775,15 +749,15 @@
   },
   "goldenPokeball": {
     "name": "Poké Ball dorata",
-    "description": "Aggiunge 1 opzione di oggetto extra alla fine di ogni battaglia."
+    "description": "Aggiunge {{count}} opzione di oggetto extra alla fine di ogni battaglia."
   },
   "ovalCharm": {
     "name": "Ovamuleto",
-    "description": "Quando più Pokémon partecipano a una battaglia, ognuno di essi riceve il 10% in più dell’esperienza totale."
+    "description": "Quando più Pokémon partecipano a una battaglia, ognuno di essi riceve il {{boostPercent}}% in più dell’esperienza totale."
   },
   "expShare": {
     "name": "Condividi esperienza",
-    "description": "Tutti i Pokémon della squadra ricevono il 20% dei Punti Esperienza dalla lotta, anche se non vi hanno partecipato."
+    "description": "Tutti i Pokémon della squadra ricevono il {{sharePercent}}% dei Punti Esperienza dalla lotta, anche se non vi hanno partecipato."
   },
   "expBalance": {
     "name": "Bilancia esperienza",
@@ -791,31 +765,28 @@
   },
   "candyJar": {
     "name": "Barattolo di caramelle",
-    "description": "Aumenta di 1 il numero di livelli aggiunti dalle caramelle rare."
+    "description": "Aumenta di {{levels}} il numero di livelli aggiunti dalle caramelle rare."
   },
   "berryPouch": {
     "name": "Porta bacche",
-    "description": "Aggiunge il 30% di possibilità che una bacca usata non venga consumata."
+    "description": "Aggiunge il {{chancePercent}}% di possibilità che una bacca usata non venga consumata."
   },
   "healingCharm": {
     "name": "Curamuleto",
-    "description": "Aumenta del 10% l’efficacia delle mosse e degli oggetti che ripristinano i PS (escluse le rianimazioni)."
+    "description": "Aumenta del {{boostPercent}}% l’efficacia delle mosse e degli oggetti che ripristinano i PS (escluse le rianimazioni)."
   },
   "expCharm": {
-    "name": "Esperienzamuleto",
-    "description": "Aumenta il guadagno di Punti Esperienza del 25%."
+    "name": "Esperienzamuleto"
   },
   "superExpCharm": {
-    "name": "Esperienzamuleto super",
-    "description": "Aumenta il guadagno di Punti Esperienza del 60%."
+    "name": "Esperienzamuleto super"
   },
   "goldenExpCharm": {
-    "name": "Esperienzamuleto dorato",
-    "description": "Aumenta il guadagno di Punti Esperienza del 100%."
+    "name": "Esperienzamuleto dorato"
   },
   "amuletCoin": {
     "name": "Monetamuleto",
-    "description": "Aumenta le ricompense in denaro del 20%."
+    "description": "Aumenta le ricompense in denaro del {{boostPercent}}%."
   },
   "abilityCharm": {
     "name": "Abilitamuleto",
@@ -838,83 +809,71 @@
     "description": "Infonde fortuna nel possessore affinché trovi più Pokémon coleottero. Ha uno strano peso."
   },
   "lure": {
-    "name": "Esca",
-    "description": "Quadruplica la possibilità di imbattersi in doppie battaglie per 10 battaglie."
+    "name": "Esca"
   },
   "superLure": {
-    "name": "Super esca",
-    "description": "Quadruplica la possibilità di imbattersi in doppie battaglie per 15 battaglie."
+    "name": "Super esca"
   },
   "maxLure": {
-    "name": "Esca max",
-    "description": "Quadruplica la possibilità di imbattersi in doppie battaglie per 30 battaglie."
+    "name": "Esca max"
   },
   "xAttack": {
-    "name": "Attacco X",
-    "description": "Aumenta la statistica $t(pokemonInfo:stat.atk) di 20%\na tutti i Pokémon nel gruppo per 5 battaglie"
+    "name": "Attacco X"
   },
   "xDefense": {
-    "name": "Difesa X",
-    "description": "Aumenta la statistica $t(pokemonInfo:stat.def) di 20%\na tutti i Pokémon nel gruppo per 5 battaglie"
+    "name": "Difesa X"
   },
   "xSpAtk": {
-    "name": "Att. Speciale X",
-    "description": "Aumenta la statistica $t(pokemonInfo:stat.spatk) di 20%\na tutti i Pokémon nel gruppo per 5 battaglie"
+    "name": "Att. Speciale X"
   },
   "xSpDef": {
-    "name": "Dif. Speciale X",
-    "description": "Aumenta la statistica $t(pokemonInfo:stat.spdef) di 20%\na tutti i Pokémon nel gruppo per 5 battaglie"
+    "name": "Dif. Speciale X"
   },
   "xSpeed": {
-    "name": "Velocità X",
-    "description": "Aumenta la statistica $t(pokemonInfo:stat.spd) di 20%\na tutti i Pokémon nel gruppo per 5 battaglie"
+    "name": "Velocità X"
   },
   "xAccuracy": {
-    "name": "Precisione X",
-    "description": "Aumenta la statistica $t(pokemonInfo:stat.acc) di 20%\na tutti i Pokémon nel gruppo per 5 battaglie"
+    "name": "Precisione X"
   },
   "direHit": {
     "name": "Supercolpo",
     "extra": {
       "raises": "Tasso di brutti colpi"
     },
-    "description": "Aumenta la statistica $t(item:direHit.raises) di un livello\na tutti i Pokémon nel gruppo per 5 battaglie"
+    "description": "Aumenta la statistica {{stat}} di {{stages}} livello\na tutti i Pokémon nel gruppo per {{battleCount}} battaglie"
   },
   "enemyDamageBooster": {
     "name": "Gettone del danno",
-    "description": "Aumenta i danni inflitti del 5%."
+    "description": "Aumenta i danni inflitti del {{boostPercent}}%."
   },
   "enemyDamageReduction": {
     "name": "Gettone della protezione",
-    "description": "Riduce i danni ricevuti del 2.5%."
+    "description": "Riduce i danni ricevuti del {{reductionPercent}}%."
   },
   "enemyHeal": {
     "name": "Gettone del recupero",
-    "description": "Cura il 2% dei PS massimi ogni turno."
+    "description": "Cura il {{healPercent}}% dei PS massimi ogni turno."
   },
   "enemyAttackPoisonChance": {
-    "name": "Gettone del veleno",
-    "description": "Aggiunge una probabilità del 5% di infliggere $t(statusEffect:poison.description) con le mosse d’attacco."
+    "name": "Gettone del veleno"
   },
   "enemyAttackParalyzeChance": {
-    "name": "Gettone della paralisi",
-    "description": "Aggiunge una probabilità del 2.5% di infliggere $t(statusEffect:paralysis.description) con le mosse d’attacco."
+    "name": "Gettone della paralisi"
   },
   "enemyAttackBurnChance": {
-    "name": "Gettone della bruciatura",
-    "description": "Aggiunge una probabilità del 5% di infliggere $t(statusEffect:burn.description) con le mosse d’attacco."
+    "name": "Gettone della bruciatura"
   },
   "enemyStatusEffectHealChance": {
     "name": "Gettone guarigione completa",
-    "description": "Aggiunge una probabilità del 2.5% a ogni turno di guarire da un problema di stato."
+    "description": "Aggiunge una probabilità del {{chancePercent}}% a ogni turno di guarire da un problema di stato."
   },
   "enemyEndureChance": {
     "name": "Gettone di resistenza",
-    "description": "Aggiunge una probabilità del {{probabilitàPercent}}% di resistere ad un colpo."
+    "description": "Aggiunge una probabilità del {{chancePercent}}% di resistere ad un colpo."
   },
   "enemyFusedChance": {
     "name": "Gettone della fusione",
-    "description": "Aggiunge l’1% di possibilità che un Pokémon selvatico sia una fusione."
+    "description": "Aggiunge l’{{chancePercent}}% di possibilità che un Pokémon selvatico sia una fusione."
   },
   "formChange": {
     "description": "Fa cambiare forma a determinati Pokémon."
@@ -1050,5 +1009,26 @@
   },
   "leadersCrest": {
     "name": "Simbolo del capo"
+  },
+  "typeAttackBooster": {
+    "description": "Aumenta la potenza delle mosse di tipo {{type}} del {{boostPercent}}% per un Pokémon."
+  },
+  "pokemonExpBooster": {
+    "description": "Aumenta il guadagno di Punti Esperienza del possessore del {{boostPercent}}%."
+  },
+  "vitamin": {
+    "description": "Aumenta l’/la {{stat}} di base del possessore del {{boostPercent}}%."
+  },
+  "expBooster": {
+    "description": "Aumenta il guadagno di Punti Esperienza del {{boostPercent}}%."
+  },
+  "doubleBattleChanceBooster": {
+    "description": "Quadruplica la possibilità di imbattersi in doppie battaglie per {{battleCount}} battaglie."
+  },
+  "tempStatStageBooster": {
+    "description": "Aumenta la statistica {{stat}} di {{boostPercent}}%\na tutti i Pokémon nel gruppo per {{battleCount}} battaglie"
+  },
+  "enemyAttackStatusEffectChance": {
+    "description": "Aggiunge una probabilità del {{chancePercent}}% di infliggere {{statusEffect}} con le mosse d’attacco."
   }
 }

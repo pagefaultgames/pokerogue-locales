@@ -1,7 +1,7 @@
 {
   "sitrusBerry": {
     "name": "Beri Sitrus",
-    "description": "Memulikan 25% HP jika HP di bawah 50%."
+    "description": "Memulikan {{healPercent}}% HP jika HP di bawah {{thresholdPercent}}%."
   },
   "lumBerry": {
     "name": "Beri Lum",
@@ -9,39 +9,39 @@
   },
   "enigmaBerry": {
     "name": "Beri Enigma",
-    "description": "Memulihkan 25% HP jika terkena serangan super efektif."
+    "description": "Memulihkan {{healPercent}}% HP jika terkena serangan super efektif."
   },
   "liechiBerry": {
     "name": "Beri Liechi",
-    "description": "Meningkatkan Serangan jika HP di bawah 25%."
+    "description": "Meningkatkan Serangan jika HP di bawah {{thresholdPercent}}%."
   },
   "ganlonBerry": {
     "name": "Beri Ganlon",
-    "description": "Meningkatkan Pertahanan jika HP di bawah 25%."
+    "description": "Meningkatkan Pertahanan jika HP di bawah {{thresholdPercent}}%."
   },
   "petayaBerry": {
     "name": "Beri Petaya",
-    "description": "Meningkatkan Serangan jika HP di bawah 25%."
+    "description": "Meningkatkan Serangan jika HP di bawah {{thresholdPercent}}%."
   },
   "apicotBerry": {
     "name": "Beri Apicot",
-    "description": "Meningkatkan Pertahanan Khusus jika HP di bawah 25%."
+    "description": "Meningkatkan Pertahanan Khusus jika HP di bawah {{thresholdPercent}}%."
   },
   "salacBerry": {
     "name": "Beri Salac",
-    "description": "Meningkatkan kecepatan jika HP di bawah 25%."
+    "description": "Meningkatkan kecepatan jika HP di bawah {{thresholdPercent}}%."
   },
   "lansatBerry": {
     "name": "Beri Lansat",
-    "description": "Meningkatkan rasio serangan kritis jika HP di bawah 25%."
+    "description": "Meningkatkan rasio serangan kritis jika HP di bawah {{thresholdPercent}}%."
   },
   "starfBerry": {
     "name": "Beri Starf",
-    "description": "Meningkatkan secara signifikan statistik acak jika HP di bawah 25%."
+    "description": "Meningkatkan secara signifikan statistik acak jika HP di bawah {{thresholdPercent}}%."
   },
   "leppaBerry": {
     "name": "Beri Leppa",
-    "description": "Mengembalikan 10 PP ke Jurus jika PP-nya mencapai 0."
+    "description": "Mengembalikan {{restorePp}} PP ke Jurus jika PP-nya mencapai 0."
   },
   "poisonBarb": {
     "name": "Duri Beracun"
@@ -111,5 +111,8 @@
   },
   "dragonScale": {
     "name": "Sisik Naga"
+  },
+  "formChange": {
+    "description": "Causes certain Pokémon to change form."
   }
 }

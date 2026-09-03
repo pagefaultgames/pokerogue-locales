@@ -1,7 +1,7 @@
 {
   "sitrusBerry": {
     "name": "文柚果",
-    "description": "ＨＰ低于５０%时，回复最大ＨＰ的２５%"
+    "description": "ＨＰ低于{{thresholdPercent}}%时，回复最大ＨＰ的{{healPercent}}%"
   },
   "lumBerry": {
     "name": "木子果",
@@ -9,39 +9,39 @@
   },
   "enigmaBerry": {
     "name": "谜芝果",
-    "description": "受到效果绝佳的招式攻击时，回复２５%最大ＨＰ"
+    "description": "受到效果绝佳的招式攻击时，回复{{healPercent}}%最大ＨＰ"
   },
   "liechiBerry": {
     "name": "枝荔果",
-    "description": "ＨＰ低于２５%时，攻击提升一个等级"
+    "description": "ＨＰ低于{{thresholdPercent}}%时，攻击提升一个等级"
   },
   "ganlonBerry": {
     "name": "龙睛果",
-    "description": "ＨＰ低于２５%时，防御提升一个等级"
+    "description": "ＨＰ低于{{thresholdPercent}}%时，防御提升一个等级"
   },
   "petayaBerry": {
     "name": "龙火果",
-    "description": "ＨＰ低于２５%时，特攻提升一个等级"
+    "description": "ＨＰ低于{{thresholdPercent}}%时，特攻提升一个等级"
   },
   "apicotBerry": {
     "name": "杏仔果",
-    "description": "ＨＰ低于２５%时，特防提升一个等级"
+    "description": "ＨＰ低于{{thresholdPercent}}%时，特防提升一个等级"
   },
   "salacBerry": {
     "name": "沙鳞果",
-    "description": "ＨＰ低于２５%时，速度提升一个等级"
+    "description": "ＨＰ低于{{thresholdPercent}}%时，速度提升一个等级"
   },
   "lansatBerry": {
     "name": "兰萨果",
-    "description": "ＨＰ低于２５%时，击中要害率提升两个等级"
+    "description": "ＨＰ低于{{thresholdPercent}}%时，击中要害率提升两个等级"
   },
   "starfBerry": {
     "name": "星桃果",
-    "description": "ＨＰ低于２５%时，提高随机一项能力两个等级"
+    "description": "ＨＰ低于{{thresholdPercent}}%时，提高随机一项能力两个等级"
   },
   "leppaBerry": {
     "name": "苹野果",
-    "description": "有招式的ＰＰ降到０时，恢复该招式１０ＰＰ"
+    "description": "有招式的ＰＰ降到０时，恢复该招式{{restorePp}}ＰＰ"
   },
   "reviverSeed": {
     "name": "复活种子",
@@ -52,76 +52,58 @@
     "description": "当携带它的宝可梦能力降低时，\n仅能回到之前的状态１次。"
   },
   "silkScarf": {
-    "name": "丝绸围巾",
-    "description": "一只宝可梦的$t(pokemonInfo:type.normal)系招式威力提升２０%。"
+    "name": "丝绸围巾"
   },
   "blackBelt": {
-    "name": "黑带",
-    "description": "一只宝可梦的$t(pokemonInfo:type.fighting)系招式威力提升２０%。"
+    "name": "黑带"
   },
   "sharpBeak": {
-    "name": "锐利鸟嘴",
-    "description": "一只宝可梦的$t(pokemonInfo:type.flying)系招式威力提升２０%。"
+    "name": "锐利鸟嘴"
   },
   "poisonBarb": {
-    "name": "毒针",
-    "description": "一只宝可梦的$t(pokemonInfo:type.poison)系招式威力提升２０%。"
+    "name": "毒针"
   },
   "softSand": {
-    "name": "柔软沙子",
-    "description": "一只宝可梦的$t(pokemonInfo:type.ground)系招式威力提升２０%。"
+    "name": "柔软沙子"
   },
   "hardStone": {
-    "name": "硬石头",
-    "description": "一只宝可梦的$t(pokemonInfo:type.rock)系招式威力提升２０%。"
+    "name": "硬石头"
   },
   "silverPowder": {
-    "name": "银粉",
-    "description": "一只宝可梦的$t(pokemonInfo:type.bug)系招式威力提升２０%。"
+    "name": "银粉"
   },
   "spellTag": {
-    "name": "诅咒之符",
-    "description": "一只宝可梦的$t(pokemonInfo:type.ghost)系招式威力提升２０%。"
+    "name": "诅咒之符"
   },
   "metalCoat": {
-    "name": "金属膜",
-    "description": "一只宝可梦的$t(pokemonInfo:type.steel)系招式威力提升２０%。"
+    "name": "金属膜"
   },
   "charcoal": {
-    "name": "木炭",
-    "description": "一只宝可梦的$t(pokemonInfo:type.fire)系招式威力提升２０%。"
+    "name": "木炭"
   },
   "mysticWater": {
-    "name": "神秘水滴",
-    "description": "一只宝可梦的$t(pokemonInfo:type.water)系招式威力提升２０%。"
+    "name": "神秘水滴"
   },
   "miracleSeed": {
-    "name": "奇迹种子",
-    "description": "一只宝可梦的$t(pokemonInfo:type.grass)系招式威力提升２０%。"
+    "name": "奇迹种子"
   },
   "magnet": {
-    "name": "磁铁",
-    "description": "一只宝可梦的$t(pokemonInfo:type.electric)系招式威力提升２０%。"
+    "name": "磁铁"
   },
   "twistedSpoon": {
-    "name": "弯曲的汤匙",
-    "description": "一只宝可梦的$t(pokemonInfo:type.psychic)系招式威力提升２０%。"
+    "name": "弯曲的汤匙"
   },
   "neverMeltIce": {
-    "name": "不融冰",
-    "description": "一只宝可梦的$t(pokemonInfo:type.ice)系招式威力提升２０%。"
+    "name": "不融冰"
   },
   "dragonFang": {
-    "name": "龙之牙",
-    "description": "一只宝可梦的$t(pokemonInfo:type.dragon)系招式威力提升２０%。"
+    "name": "龙之牙"
   },
   "blackGlasses": {
-    "name": "黑色眼镜",
-    "description": "一只宝可梦的$t(pokemonInfo:type.dark)系招式威力提升２０%。"
+    "name": "黑色眼镜"
   },
   "fairyFeather": {
-    "name": "妖精之羽",
-    "description": "一只宝可梦的$t(pokemonInfo:type.fairy)系招式威力提升２０%。"
+    "name": "妖精之羽"
   },
   "lightBall": {
     "name": "电气球",
@@ -156,56 +138,54 @@
     "description": "非常长且坚硬的茎。让大葱鸭携带后，\n招式会变得容易击中要害。"
   },
   "luckyEgg": {
-    "name": "幸运蛋",
-    "description": "持有者经验值获取量增加40%。"
+    "name": "幸运蛋"
   },
   "goldenEgg": {
-    "name": "金蛋",
-    "description": "持有者经验值获取量增加100%。"
+    "name": "金蛋"
   },
   "sootheBell": {
     "name": "安抚之铃",
-    "description": "亲密度获取量增加５０%。"
+    "description": "亲密度获取量增加{{boostPercent}}%。"
   },
   "focusBand": {
     "name": "气势头带",
-    "description": "携带该道具的宝可梦增加１０%几率在受到攻击\n而将陷入濒死状态时，保留１点ＨＰ不陷入濒死状态。"
+    "description": "携带该道具的宝可梦增加{{chancePercent}}%几率在受到攻击\n而将陷入濒死状态时，保留{{hp}}点ＨＰ不陷入濒死状态。"
   },
   "quickClaw": {
     "name": "先制之爪",
-    "description": "增加１０%的几率无视速度优先使出招式\n(先制技能优先)。"
+    "description": "增加{{chancePercent}}%的几率无视速度优先使出招式\n(先制技能优先)。"
   },
   "kingsRock": {
     "name": "王者之证",
-    "description": "使用任意原本不会造成畏缩状态的攻击，\n增加１０%几率使目标陷入畏缩状态。"
+    "description": "使用任意原本不会造成畏缩状态的攻击，\n增加{{chancePercent}}%几率使目标陷入畏缩状态。"
   },
   "leftovers": {
     "name": "吃剩的东西",
-    "description": "携带后，在每个回合结束时恢复\n最大ＨＰ的１/１６。"
+    "description": "携带后，在每个回合结束时恢复\n最大ＨＰ的1/{{healDenominator}}。"
   },
   "shellBell": {
     "name": "贝壳之铃",
-    "description": "携带后，在攻击对方成功造成伤害时，\n携带者的ＨＰ会恢复其所造成伤害的１/８。"
+    "description": "携带后，在攻击对方成功造成伤害时，\n携带者的ＨＰ会恢复其所造成伤害的1/{{healDenominator}}。"
   },
   "mysticalRock": {
     "name": "神秘石块",
-    "description": "每堆叠一次，可将招式或能力造成的\n地形和天气的持续时间延长 ２ 回合。"
+    "description": "每堆叠一次，可将招式或能力造成的\n地形和天气的持续时间延长 {{turns}} 回合。"
   },
   "wideLens": {
     "name": "广角镜",
-    "description": "招式命中率增加5。"
+    "description": "招式命中率增加{{accuracy}}。"
   },
   "multiLens": {
     "name": "多重镜",
-    "description": "将持有者本次伤害的２５%转化为一次独立的攻击。"
+    "description": "将持有者本次伤害的{{damagePercent}}%转化为一次独立的攻击。"
   },
   "goldenPunch": {
     "name": "黄金拳头",
-    "description": "将５０%造成的伤害转换为金钱。"
+    "description": "将{{moneyPercent}}%造成的伤害转换为金钱。"
   },
   "gripClaw": {
     "name": "紧缠钩爪",
-    "description": "攻击时10%概率\n偷取对手物品。"
+    "description": "攻击时{{chancePercent}}%概率\n偷取对手物品。"
   },
   "toxicOrb": {
     "name": "剧毒宝珠",
@@ -217,7 +197,7 @@
   },
   "soulDew": {
     "name": "心之水滴",
-    "description": "增加１０%宝可梦性格对数值的影响 (加算)。"
+    "description": "增加{{boostPercent}}%宝可梦性格对数值的影响 (加算)。"
   },
   "baton": {
     "name": "接力棒",
@@ -232,28 +212,22 @@
     "description": "携带后，还能进化的宝可梦的\n防御和特防就会提高。"
   },
   "hpUp": {
-    "name": "ＨＰ增强剂",
-    "description": "增加１０%持有者的$t(pokemonInfo:stat.hp)，\n个体值越高堆叠上限越高。"
+    "name": "ＨＰ增强剂"
   },
   "protein": {
-    "name": "攻击增强剂",
-    "description": "增加１０%持有者的$t(pokemonInfo:stat.atk)，\n个体值越高堆叠上限越高。"
+    "name": "攻击增强剂"
   },
   "iron": {
-    "name": "防御增强剂",
-    "description": "增加１０%持有者的$t(pokemonInfo:stat.def)，\n个体值越高堆叠上限越高。"
+    "name": "防御增强剂"
   },
   "calcium": {
-    "name": "特攻增强剂",
-    "description": "增加１０%持有者的$t(pokemonInfo:stat.spatk)，\n个体值越高堆叠上限越高。"
+    "name": "特攻增强剂"
   },
   "zinc": {
-    "name": "特防增强剂",
-    "description": "增加１０%持有者的$t(pokemonInfo:stat.spdef)，\n个体值越高堆叠上限越高。"
+    "name": "特防增强剂"
   },
   "carbos": {
-    "name": "速度增强剂",
-    "description": "增加１０%持有者的$t(pokemonInfo:stat.spd)，\n个体值越高堆叠上限越高。"
+    "name": "速度增强剂"
   },
   "shuckleJuiceGood": {
     "name": "甜壶壶果汁",
@@ -775,15 +749,15 @@
   },
   "goldenPokeball": {
     "name": "黄金精灵球",
-    "description": "在每场战斗结束后，增加一个额外物品选项。"
+    "description": "在每场战斗结束后，增加{{count}}个额外物品选项。"
   },
   "ovalCharm": {
     "name": "圆形护符",
-    "description": "当多只宝可梦参与战斗，分别获得总经验值\n１０%的额外经验值。"
+    "description": "当多只宝可梦参与战斗，分别获得总经验值\n{{boostPercent}}%的额外经验值。"
   },
   "expShare": {
     "name": "学习装置",
-    "description": "未参加对战的宝可梦获得２０%的经验值。"
+    "description": "未参加对战的宝可梦获得{{sharePercent}}%的经验值。"
   },
   "expBalance": {
     "name": "均衡型学习装置",
@@ -791,31 +765,28 @@
   },
   "candyJar": {
     "name": "糖果罐",
-    "description": "神奇糖果提供的升级额外增加１级。"
+    "description": "神奇糖果提供的升级额外增加{{levels}} 级。"
   },
   "berryPouch": {
     "name": "树果袋",
-    "description": "使用树果时增加３０%的几率不会消耗树果。"
+    "description": "使用树果时增加{{chancePercent}}%的几率不会消耗树果。"
   },
   "healingCharm": {
     "name": "治愈护符",
-    "description": "ＨＰ回复量增加１０% (不含复活)。"
+    "description": "ＨＰ回复量增加{{boostPercent}}% (不含复活)。"
   },
   "expCharm": {
-    "name": "经验护符",
-    "description": "经验值获取量增加25%。"
+    "name": "经验护符"
   },
   "superExpCharm": {
-    "name": "超级经验护符",
-    "description": "经验值获取量增加60%。"
+    "name": "超级经验护符"
   },
   "goldenExpCharm": {
-    "name": "黄金经验护符",
-    "description": "经验值获取量增加100%。"
+    "name": "黄金经验护符"
   },
   "amuletCoin": {
     "name": "护符金币",
-    "description": "获得的金钱增加２０%。"
+    "description": "获得的金钱增加{{boostPercent}}%。"
   },
   "abilityCharm": {
     "name": "特性护符",
@@ -838,83 +809,71 @@
     "description": "赋予主人好运，使其更容易\n找到虫属性宝可梦，手感很奇妙。"
   },
   "lure": {
-    "name": "引虫香水",
-    "description": "遭遇双打概率提升四倍，持续10场战斗。"
+    "name": "引虫香水"
   },
   "superLure": {
-    "name": "白银香水",
-    "description": "遭遇双打概率提升四倍，持续15场战斗。"
+    "name": "白银香水"
   },
   "maxLure": {
-    "name": "黄金香水",
-    "description": "遭遇双打概率提升四倍，持续30场战斗。"
+    "name": "黄金香水"
   },
   "xAttack": {
-    "name": "力量强化",
-    "description": "提升全队的$t(pokemonInfo:stat.atk)２０%，持续５场战斗。"
+    "name": "力量强化"
   },
   "xDefense": {
-    "name": "防御强化",
-    "description": "提升全队的$t(pokemonInfo:stat.def)２０%，持续５场战斗。"
+    "name": "防御强化"
   },
   "xSpAtk": {
-    "name": "特攻强化",
-    "description": "提升全队的$t(pokemonInfo:stat.spatk)２０%，持续５场战斗。"
+    "name": "特攻强化"
   },
   "xSpDef": {
-    "name": "特防强化",
-    "description": "提升全队的$t(pokemonInfo:stat.spdef)２０%，持续５场战斗。"
+    "name": "特防强化"
   },
   "xSpeed": {
-    "name": "速度强化",
-    "description": "提升全队的$t(pokemonInfo:stat.spd)２０%，持续５场战斗。"
+    "name": "速度强化"
   },
   "xAccuracy": {
-    "name": "命中强化",
-    "description": "提升全队的$t(pokemonInfo:stat.acc)２０%，持续５场战斗。"
+    "name": "命中强化"
   },
   "direHit": {
     "name": "要害攻击",
     "extra": {
       "raises": "会心"
     },
-    "description": "提升全队的$t(item:direHit.raises)１阶，持续５场战斗。"
+    "description": "提升全队的{{stat}}{{stages}}阶，持续{{battleCount}}场战斗。"
   },
   "enemyDamageBooster": {
     "name": "伤害硬币",
-    "description": "造成５%额外伤害（乘算）。"
+    "description": "造成{{boostPercent}}%额外伤害（乘算）。"
   },
   "enemyDamageReduction": {
     "name": "防御硬币",
-    "description": "受到２.５%更少伤害（乘算）。"
+    "description": "受到{{reductionPercent}}%更少伤害（乘算）。"
   },
   "enemyHeal": {
     "name": "回复硬币",
-    "description": "每回合回复２%最大ＨＰ。"
+    "description": "每回合回复{{healPercent}}%最大ＨＰ。"
   },
   "enemyAttackPoisonChance": {
-    "name": "剧毒硬币",
-    "description": "攻击时5%概率造成$t(statusEffect:poison.description)。"
+    "name": "剧毒硬币"
   },
   "enemyAttackParalyzeChance": {
-    "name": "麻痹硬币",
-    "description": "攻击时2.5%概率造成$t(statusEffect:paralysis.description)。"
+    "name": "麻痹硬币"
   },
   "enemyAttackBurnChance": {
-    "name": "灼烧硬币",
-    "description": "攻击时5%概率造成$t(statusEffect:burn.description)。"
+    "name": "灼烧硬币"
   },
   "enemyStatusEffectHealChance": {
     "name": "万灵药硬币",
-    "description": "增加２.５%每回合治愈异常状态的概率。"
+    "description": "增加{{chancePercent}}%每回合治愈异常状态的概率。"
   },
   "enemyEndureChance": {
     "name": "忍受硬币",
-    "description": "敌方增加2%的概率\n在本回合不会倒下。"
+    "description": "敌方增加{{chancePercent}}%的概率\n在本回合不会倒下。"
   },
   "enemyFusedChance": {
     "name": "融合硬币",
-    "description": "增加１%野生融合宝可梦出现概率。"
+    "description": "增加{{chancePercent}}%野生融合宝可梦出现概率。"
   },
   "formChange": {
     "description": "使某些宝可梦更改形态。"
@@ -1050,5 +1009,26 @@
   },
   "leadersCrest": {
     "name": "头领凭证"
+  },
+  "typeAttackBooster": {
+    "description": "一只宝可梦的{{type}}系招式威力提升{{boostPercent}}%。"
+  },
+  "pokemonExpBooster": {
+    "description": "持有者经验值获取量增加{{boostPercent}}%。"
+  },
+  "vitamin": {
+    "description": "增加{{boostPercent}}%持有者的{{stat}}，\n个体值越高堆叠上限越高。"
+  },
+  "expBooster": {
+    "description": "经验值获取量增加{{boostPercent}}%。"
+  },
+  "doubleBattleChanceBooster": {
+    "description": "遭遇双打概率提升四倍，持续{{battleCount}}场战斗。"
+  },
+  "tempStatStageBooster": {
+    "description": "提升全队的{{stat}}{{boostPercent}}%，持续{{battleCount}}场战斗。"
+  },
+  "enemyAttackStatusEffectChance": {
+    "description": "攻击时{{chancePercent}}%概率造成{{statusEffect}}。"
   }
 }

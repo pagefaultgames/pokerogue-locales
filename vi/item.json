@@ -1,7 +1,7 @@
 {
   "sitrusBerry": {
     "name": "Sitrus Berry",
-    "description": "Hồi 25% HP nếu HP thấp hơn 50%."
+    "description": "Hồi {{healPercent}}% HP nếu HP thấp hơn {{thresholdPercent}}%."
   },
   "lumBerry": {
     "name": "Lum Berry",
@@ -9,39 +9,39 @@
   },
   "enigmaBerry": {
     "name": "Enigma Berry",
-    "description": "Hồi phục 25% HP nếu trúng đòn tấn công có hiệu quả vượt trội."
+    "description": "Hồi phục {{healPercent}}% HP nếu trúng đòn tấn công có hiệu quả vượt trội."
   },
   "liechiBerry": {
     "name": "Liechi Berry",
-    "description": "Tăng chỉ số Tấn công nếu HP dưới 25%."
+    "description": "Tăng chỉ số Tấn công nếu HP dưới {{thresholdPercent}}%."
   },
   "ganlonBerry": {
     "name": "Ganlon Berry",
-    "description": "Tăng chỉ số Phòng thủ nếu HP dưới 25%."
+    "description": "Tăng chỉ số Phòng thủ nếu HP dưới {{thresholdPercent}}%."
   },
   "petayaBerry": {
     "name": "Petaya Berry",
-    "description": "Tăng chỉ số T.công Đ.b. nếu HP dưới 25%."
+    "description": "Tăng chỉ số T.công Đ.b. nếu HP dưới {{thresholdPercent}}%."
   },
   "apicotBerry": {
     "name": "Apicot Berry",
-    "description": "Tăng chỉ số P.thủ Đ.b. nếu HP dưới 25%."
+    "description": "Tăng chỉ số P.thủ Đ.b. nếu HP dưới {{thresholdPercent}}%."
   },
   "salacBerry": {
     "name": "Salac Berry",
-    "description": "Tăng chỉ số Tốc độ nếu HP dưới 25%."
+    "description": "Tăng chỉ số Tốc độ nếu HP dưới {{thresholdPercent}}%."
   },
   "lansatBerry": {
     "name": "Lansat Berry",
-    "description": "Tăng tỷ lệ chí mạng nếu HP dưới 25%."
+    "description": "Tăng tỷ lệ chí mạng nếu HP dưới {{thresholdPercent}}%."
   },
   "starfBerry": {
     "name": "Starf Berry",
-    "description": "Tăng một chỉ số ngẫu nhiên nếu HP dưới 25%."
+    "description": "Tăng một chỉ số ngẫu nhiên nếu HP dưới {{thresholdPercent}}%."
   },
   "leppaBerry": {
     "name": "Leppa Berry",
-    "description": "Khôi phục 10 điểm NL cho một chiêu thức nếu điểm NL của chiêu thức đó bằng 0."
+    "description": "Khôi phục {{restorePp}} điểm NL cho một chiêu thức nếu điểm NL của chiêu thức đó bằng 0."
   },
   "reviverSeed": {
     "name": "Hạt Mầm Tái Sinh",
@@ -52,76 +52,58 @@
     "description": "Một vật phẩm dành cho Pokémon. Nó sẽ khôi phục bất kỳ chỉ số nào bị giảm trong trận chiến."
   },
   "silkScarf": {
-    "name": "Khăn Lụa",
-    "description": "Tăng sức mạnh của các chiêu thức thuộc hệ $t(pokemonInfo:type.normal) của Pokémon lên 20%."
+    "name": "Khăn Lụa"
   },
   "blackBelt": {
-    "name": "Đai Đen",
-    "description": "Tăng sức mạnh của các chiêu thức thuộc hệ $t(pokemonInfo:type.fighting) của Pokémon lên 20%."
+    "name": "Đai Đen"
   },
   "sharpBeak": {
-    "name": "Mỏ Sắc",
-    "description": "Tăng sức mạnh của các chiêu thức thuộc hệ $t(pokemonInfo:type.flying) của Pokémon lên 20%."
+    "name": "Mỏ Sắc"
   },
   "poisonBarb": {
-    "name": "Gai Độc",
-    "description": "Tăng sức mạnh của các chiêu thức thuộc hệ $t(pokemonInfo:type.poison) của Pokémon lên 20%."
+    "name": "Gai Độc"
   },
   "softSand": {
-    "name": "Cát Mịn",
-    "description": "Tăng sức mạnh của các chiêu thức thuộc hệ $t(pokemonInfo:type.ground) của Pokémon lên 20%."
+    "name": "Cát Mịn"
   },
   "hardStone": {
-    "name": "Đá Cứng",
-    "description": "Tăng sức mạnh của các chiêu thức thuộc hệ $t(pokemonInfo:type.rock) của Pokémon lên 20%."
+    "name": "Đá Cứng"
   },
   "silverPowder": {
-    "name": "Bột Bạc",
-    "description": "Tăng sức mạnh của các chiêu thức thuộc hệ $t(pokemonInfo:type.bug) của Pokémon lên 20%."
+    "name": "Bột Bạc"
   },
   "spellTag": {
-    "name": "Bùa Chú",
-    "description": "Tăng sức mạnh của các chiêu thức thuộc hệ $t(pokemonInfo:type.ghost) của Pokémon lên 20%."
+    "name": "Bùa Chú"
   },
   "metalCoat": {
-    "name": "Bọc Sắt",
-    "description": "Tăng sức mạnh của các chiêu thức thuộc hệ $t(pokemonInfo:type.steel) của Pokémon lên 20%."
+    "name": "Bọc Sắt"
   },
   "charcoal": {
-    "name": "Than Củi",
-    "description": "Tăng sức mạnh của các chiêu thức thuộc hệ $t(pokemonInfo:type.fire) của Pokémon lên 20%."
+    "name": "Than Củi"
   },
   "mysticWater": {
-    "name": "Nước Diệu Kì",
-    "description": "Tăng sức mạnh của các chiêu thức thuộc hệ $t(pokemonInfo:type.water) của Pokémon lên 20%."
+    "name": "Nước Diệu Kì"
   },
   "miracleSeed": {
-    "name": "Hạt Thần",
-    "description": "Tăng sức mạnh của các chiêu thức thuộc hệ $t(pokemonInfo:type.grass) của Pokémon lên 20%."
+    "name": "Hạt Thần"
   },
   "magnet": {
-    "name": "Nam Châm",
-    "description": "Tăng sức mạnh của các chiêu thức thuộc hệ $t(pokemonInfo:type.electric) của Pokémon lên 20%."
+    "name": "Nam Châm"
   },
   "twistedSpoon": {
-    "name": "Thìa Uốn",
-    "description": "Tăng sức mạnh của các chiêu thức thuộc hệ $t(pokemonInfo:type.psychic) của Pokémon lên 20%."
+    "name": "Thìa Uốn"
   },
   "neverMeltIce": {
-    "name": "Băng Vĩnh Cửu",
-    "description": "Tăng sức mạnh của các chiêu thức thuộc hệ $t(pokemonInfo:type.ice) của Pokémon lên 20%."
+    "name": "Băng Vĩnh Cửu"
   },
   "dragonFang": {
-    "name": "Nanh Rồng",
-    "description": "Tăng sức mạnh của các chiêu thức thuộc hệ $t(pokemonInfo:type.dragon) của Pokémon lên 20%."
+    "name": "Nanh Rồng"
   },
   "blackGlasses": {
-    "name": "Kính Râm",
-    "description": "Tăng sức mạnh của các chiêu thức thuộc hệ $t(pokemonInfo:type.dark) của Pokémon lên 20%."
+    "name": "Kính Râm"
   },
   "fairyFeather": {
-    "name": "Lông Tiên",
-    "description": "Tăng sức mạnh của các chiêu thức thuộc hệ $t(pokemonInfo:type.fairy) của Pokémon lên 20%."
+    "name": "Lông Tiên"
   },
   "lightBall": {
     "name": "Bóng Ánh Sáng",
@@ -156,56 +138,54 @@
     "description": "Cuống hành lá dài và cứng này giúp tăng tỷ lệ chí mạng cho các chiêu thức của Farfetch’d."
   },
   "luckyEgg": {
-    "name": "Trứng May Mắn",
-    "description": "Tăng lượng Điểm Kinh Nghiệm mà Pokémon sở hữu nhận được lên 40%."
+    "name": "Trứng May Mắn"
   },
   "goldenEgg": {
-    "name": "Trứng Vàng",
-    "description": "Tăng lượng Điểm Kinh Nghiệm mà Pokémon sở hữu nhận được lên 100%."
+    "name": "Trứng Vàng"
   },
   "sootheBell": {
     "name": "Chuông Xoa Dịu",
-    "description": "Tăng điểm tình bạn nhận được lên 50%."
+    "description": "Tăng điểm tình bạn nhận được lên {{boostPercent}}%."
   },
   "focusBand": {
     "name": "Băng Đeo Tập Trung",
-    "description": "Tăng 10% cơ hội sống sót với 1 HP sau khi bị thương đủ để bất tỉnh."
+    "description": "Tăng {{chancePercent}}% cơ hội sống sót với {{hp}} HP sau khi bị thương đủ để bất tỉnh."
   },
   "quickClaw": {
     "name": "Móng Tăng Tốc",
-    "description": "Tăng 10% cơ hội di chuyển trước bất kể tốc độ (sau chiêu thức ưu tiên)."
+    "description": "Tăng {{chancePercent}}% cơ hội di chuyển trước bất kể tốc độ (sau chiêu thức ưu tiên)."
   },
   "kingsRock": {
     "name": "Đá Vương Quyền",
-    "description": "Tăng 10% khả năng đòn tấn công sẽ khiến đối thủ giật mình."
+    "description": "Tăng {{chancePercent}}% khả năng đòn tấn công sẽ khiến đối thủ giật mình."
   },
   "leftovers": {
     "name": "Lõi Táo Thừa",
-    "description": "Hồi phục 1/16 lượng HP tối đa của Pokémon mỗi lượt."
+    "description": "Hồi phục 1/{{healDenominator}} lượng HP tối đa của Pokémon mỗi lượt."
   },
   "shellBell": {
     "name": "Ốc Chuông Gió",
-    "description": "Hồi phục 1/8 lượng sát thương mà Pokémon gây ra."
+    "description": "Hồi phục 1/{{healDenominator}} lượng sát thương mà Pokémon gây ra."
   },
   "mysticalRock": {
     "name": "Đá Nhiễu Loạn",
-    "description": "Tăng thêm 2 lượt hiệu lực cho địa hình và thời tiết do chiêu thức hoặc Đặc Tính của Pokémon sở hữu gây ra."
+    "description": "Tăng thêm {{turns}} lượt hiệu lực cho địa hình và thời tiết do chiêu thức hoặc Đặc Tính của Pokémon sở hữu gây ra."
   },
   "wideLens": {
     "name": "Ống Kính Góc Rộng",
-    "description": "Tăng độ chuẩn của chiêu thức lên 5."
+    "description": "Tăng độ chuẩn của chiêu thức lên {{accuracy}}."
   },
   "multiLens": {
     "name": "Ống Kính Đa Năng",
-    "description": "Chuyển đổi 25% sát thương từ các đòn tấn công của Pokémon sở hữu thành một đòn đánh bổ sung."
+    "description": "Chuyển đổi {{damagePercent}}% sát thương từ các đòn tấn công của Pokémon sở hữu thành một đòn đánh bổ sung."
   },
   "goldenPunch": {
     "name": "Găng Tay Vàng",
-    "description": "Khiến 50% sát thương trực tiếp gây ra thành tiền."
+    "description": "Khiến {{moneyPercent}}% sát thương trực tiếp gây ra thành tiền."
   },
   "gripClaw": {
     "name": "Móng Vuốt Kẹp",
-    "description": "Khi tấn công, có 10% khả năng vật phẩm mà đối phương đang giữ sẽ bị đánh cắp."
+    "description": "Khi tấn công, có {{chancePercent}}% khả năng vật phẩm mà đối phương đang giữ sẽ bị đánh cắp."
   },
   "toxicOrb": {
     "name": "Độc Cầu",
@@ -217,7 +197,7 @@
   },
   "soulDew": {
     "name": "Sương U Linh",
-    "description": "Tăng ảnh hưởng của tính cách Pokémon lên chỉ số của nó thêm 10% (cộng dồn)."
+    "description": "Tăng ảnh hưởng của tính cách Pokémon lên chỉ số của nó thêm {{boostPercent}}% (cộng dồn)."
   },
   "baton": {
     "name": "Gậy Chuyền Sức",
@@ -232,28 +212,22 @@
     "description": "Viên đá bí ẩn này sẽ tăng chỉ số Phòng thủ và P.thủ Đ.b. khi được giữ bởi một Pokémon vẫn còn khả năng tiến hóa."
   },
   "hpUp": {
-    "name": "Tăng HP",
-    "description": "Tăng chỉ số $t(pokemonInfo:stat.hp) cơ bản của Pokémon sở hữu lên 10%. Chỉ số IV càng cao, giới hạn cộng dồn càng lớn."
+    "name": "Tăng HP"
   },
   "protein": {
-    "name": "Đạm",
-    "description": "Tăng chỉ số $t(pokemonInfo:stat.atk) cơ bản của Pokémon sở hữu lên 10%. Chỉ số IV càng cao, giới hạn cộng dồn càng lớn."
+    "name": "Đạm"
   },
   "iron": {
-    "name": "Sắt",
-    "description": "Tăng chỉ số $t(pokemonInfo:stat.def) cơ bản của Pokémon sở hữu lên 10%. Chỉ số IV càng cao, giới hạn cộng dồn càng lớn."
+    "name": "Sắt"
   },
   "calcium": {
-    "name": "Canxi",
-    "description": "Tăng chỉ số $t(pokemonInfo:stat.spatk) cơ bản của Pokémon sở hữu lên 10%. Chỉ số IV càng cao, giới hạn cộng dồn càng lớn."
+    "name": "Canxi"
   },
   "zinc": {
-    "name": "Kẽm",
-    "description": "Tăng chỉ số $t(pokemonInfo:stat.spdef) cơ bản của Pokémon sở hữu lên 10%. Chỉ số IV càng cao, giới hạn cộng dồn càng lớn."
+    "name": "Kẽm"
   },
   "carbos": {
-    "name": "Đường",
-    "description": "Tăng chỉ số $t(pokemonInfo:stat.spd) cơ bản của Pokémon sở hữu lên 10%. Chỉ số IV càng cao, giới hạn cộng dồn càng lớn."
+    "name": "Đường"
   },
   "shuckleJuiceGood": {
     "name": "Nước Hoa Quả Shuckle",
@@ -775,15 +749,15 @@
   },
   "goldenPokeball": {
     "name": "Poké Ball Vàng",
-    "description": "Thêm 1 tùy chọn vật phẩm bổ sung vào cuối mỗi trận chiến."
+    "description": "Thêm {{count}} tùy chọn vật phẩm bổ sung vào cuối mỗi trận chiến."
   },
   "ovalCharm": {
     "name": "Dây Chuyền Bầu Dục",
-    "description": "Khi nhiều Pokémon tham gia vào một trận chiến, mỗi Pokémon sẽ nhận được thêm 10% tổng số ĐKN."
+    "description": "Khi nhiều Pokémon tham gia vào một trận chiến, mỗi Pokémon sẽ nhận được thêm {{boostPercent}}% tổng số ĐKN."
   },
   "expShare": {
     "name": "Máy Chia ĐKN",
-    "description": "Những Pokémon không tham gia chiến đấu sẽ nhận được 20% số điểm ĐKN của Pokémon đang tham chiến."
+    "description": "Những Pokémon không tham gia chiến đấu sẽ nhận được {{sharePercent}}% số điểm ĐKN của Pokémon đang tham chiến."
   },
   "expBalance": {
     "name": "Máy Cân ĐKN",
@@ -791,31 +765,28 @@
   },
   "candyJar": {
     "name": "Lọ Kẹo",
-    "description": "Tăng số cấp được tăng bởi Kẹo Hiếm lên 1."
+    "description": "Tăng số cấp được tăng bởi Kẹo Hiếm lên {{levels}}."
   },
   "berryPouch": {
     "name": "Túi Berry",
-    "description": "Tăng 30% khả năng Berry đã sử dụng sẽ không bị tiêu thụ."
+    "description": "Tăng {{chancePercent}}% khả năng Berry đã sử dụng sẽ không bị tiêu thụ."
   },
   "healingCharm": {
     "name": "Bùa Hồi Máu",
-    "description": "Tăng hiệu quả của các chiêu thức và vật phẩm hồi phục HP lên 10% (không bao gồm Đá Hồi Sinh)."
+    "description": "Tăng hiệu quả của các chiêu thức và vật phẩm hồi phục HP lên {{boostPercent}}% (không bao gồm Đá Hồi Sinh)."
   },
   "expCharm": {
-    "name": "Bùa ĐKN",
-    "description": "Tăng lượng Điểm Kinh Nghiệm nhận được lên 25%."
+    "name": "Bùa ĐKN"
   },
   "superExpCharm": {
-    "name": "Siêu Bùa ĐKN",
-    "description": "Tăng lượng Điểm Kinh Nghiệm nhận được lên 60%."
+    "name": "Siêu Bùa ĐKN"
   },
   "goldenExpCharm": {
-    "name": "Bùa ĐKN Vàng",
-    "description": "Tăng lượng Điểm Kinh Nghiệm nhận được lên 100%."
+    "name": "Bùa ĐKN Vàng"
   },
   "amuletCoin": {
     "name": "Bùa Xu Vàng",
-    "description": "Tăng tiền thưởng lên 20%."
+    "description": "Tăng tiền thưởng lên {{boostPercent}}%."
   },
   "abilityCharm": {
     "name": "Bùa Đặc Tính",
@@ -838,83 +809,71 @@
     "description": "Mang lại may mắn cho người sở hữu, giúp họ tìm thấy Pokémon hệ Côn trùng thường xuyên hơn. Có trọng lượng khá lạ."
   },
   "lure": {
-    "name": "Bình Mồi",
-    "description": "Tăng gấp bốn lần khả năng xảy ra trận chiến đôi, tối đa lên đến 10 trận chiến."
+    "name": "Bình Mồi"
   },
   "superLure": {
-    "name": "Bình Mồi Lớn",
-    "description": "Tăng gấp bốn lần khả năng xảy ra trận chiến đôi, tối đa lên đến 15 trận chiến."
+    "name": "Bình Mồi Lớn"
   },
   "maxLure": {
-    "name": "Bình Mồi Max",
-    "description": "Tăng gấp bốn lần khả năng xảy ra trận chiến đôi, tối đa lên đến 30 trận chiến."
+    "name": "Bình Mồi Max"
   },
   "xAttack": {
-    "name": "X Tấn Công",
-    "description": "Tăng chỉ số $t(pokemonInfo:stat.atk) của tất cả thành viên trong tổ đội lên 20% trong tối đa 5 trận chiến."
+    "name": "X Tấn Công"
   },
   "xDefense": {
-    "name": "X Phòng Thủ",
-    "description": "Tăng chỉ số $t(pokemonInfo:stat.def) của tất cả thành viên trong tổ đội lên 20% trong tối đa 5 trận chiến."
+    "name": "X Phòng Thủ"
   },
   "xSpAtk": {
-    "name": "X T.Công Đ.B",
-    "description": "Tăng chỉ số $t(pokemonInfo:stat.spatk) của tất cả thành viên trong tổ đội lên 20% trong tối đa 5 trận chiến."
+    "name": "X T.Công Đ.B"
   },
   "xSpDef": {
-    "name": "X P.Thủ Đ.B",
-    "description": "Tăng chỉ số $t(pokemonInfo:stat.spdef) của tất cả thành viên trong tổ đội lên 20% trong tối đa 5 trận chiến."
+    "name": "X P.Thủ Đ.B"
   },
   "xSpeed": {
-    "name": "X Tốc Độ",
-    "description": "Tăng chỉ số $t(pokemonInfo:stat.spd) của tất cả thành viên trong tổ đội lên 20% trong tối đa 5 trận chiến."
+    "name": "X Tốc Độ"
   },
   "xAccuracy": {
-    "name": "X Chuẩn Xác",
-    "description": "Tăng chỉ số $t(pokemonInfo:stat.acc) của tất cả thành viên trong tổ đội lên 20% trong tối đa 5 trận chiến."
+    "name": "X Chuẩn Xác"
   },
   "direHit": {
     "name": "Thuốc Đòn Đánh",
     "extra": {
       "raises": "Tỉ Lệ Chí Mạng"
     },
-    "description": "Tăng chỉ số $t(item:direHit.raises) của tất cả thành viên trong tổ đội lên 1 bậc trong tối đa 5 trận chiến."
+    "description": "Tăng chỉ số {{stat}} của tất cả thành viên trong tổ đội lên {{stages}} bậc trong tối đa {{battleCount}} trận chiến."
   },
   "enemyDamageBooster": {
     "name": "Thẻ Sát Thương",
-    "description": "Tăng sát thương thêm 5%."
+    "description": "Tăng sát thương thêm {{boostPercent}}%."
   },
   "enemyDamageReduction": {
     "name": "Thẻ Bảo Hộ",
-    "description": "Giảm sát thương nhận vào 2,5%."
+    "description": "Giảm sát thương nhận vào {{reductionPercent}}%."
   },
   "enemyHeal": {
     "name": "Thẻ Phục Hồi",
-    "description": "Hồi phục 2% lượng máu tối đa mỗi lượt."
+    "description": "Hồi phục {{healPercent}}% lượng máu tối đa mỗi lượt."
   },
   "enemyAttackPoisonChance": {
-    "name": "Thẻ Độc Tố",
-    "description": "Tăng 5% cơ hội gây hiệu ứng $t(statusEffect:poison.description) bằng các đòn tấn công."
+    "name": "Thẻ Độc Tố"
   },
   "enemyAttackParalyzeChance": {
-    "name": "Thẻ Tê Liệt",
-    "description": "Tăng 2.5% cơ hội gây hiệu ứng $t(statusEffect:paralysis.description) bằng các đòn tấn công."
+    "name": "Thẻ Tê Liệt"
   },
   "enemyAttackBurnChance": {
-    "name": "Thẻ Bỏng Da",
-    "description": "Tăng 5% cơ hội gây hiệu ứng $t(statusEffect:burn.description) bằng các đòn tấn công."
+    "name": "Thẻ Bỏng Da"
   },
   "enemyStatusEffectHealChance": {
     "name": "Thẻ Chữa Trị",
-    "description": "Tăng 2,5% cơ hội mỗi lượt để chữa lành một trạng thái bất lợi."
+    "description": "Tăng {{chancePercent}}% cơ hội mỗi lượt để chữa lành một trạng thái bất lợi."
   },
   "enemyEndureChance": {
     "name": "Thẻ Chịu Đựng",
-    "description": "Tăng 2% khả năng chịu đòn để lại 1 HP."
+    "description": "Tăng {{chancePercent}}% khả năng chịu đòn để lại 1 HP."
   },
   "enemyFusedChance": {
     "name": "Thẻ Hợp Nhất",
-    "description": "Tăng 1% khả năng Pokémon hoang dã gặp được ở dạng hợp thể."
+    "description": "Tăng {{chancePercent}}% khả năng Pokémon hoang dã gặp được ở dạng hợp thể."
   },
   "formChange": {
     "description": "Khiến Pokémon nào đó thay đổi hình thái."
@@ -1050,5 +1009,26 @@
   },
   "leadersCrest": {
     "name": "Huy Hiệu Chỉ Huy"
+  },
+  "typeAttackBooster": {
+    "description": "Tăng sức mạnh của các chiêu thức thuộc hệ {{type}} của Pokémon lên {{boostPercent}}%."
+  },
+  "pokemonExpBooster": {
+    "description": "Tăng lượng Điểm Kinh Nghiệm mà Pokémon sở hữu nhận được lên {{boostPercent}}%."
+  },
+  "vitamin": {
+    "description": "Tăng chỉ số {{stat}} cơ bản của Pokémon sở hữu lên {{boostPercent}}%. Chỉ số IV càng cao, giới hạn cộng dồn càng lớn."
+  },
+  "expBooster": {
+    "description": "Tăng lượng Điểm Kinh Nghiệm nhận được lên {{boostPercent}}%."
+  },
+  "doubleBattleChanceBooster": {
+    "description": "Tăng gấp bốn lần khả năng xảy ra trận chiến đôi, tối đa lên đến {{battleCount}} trận chiến."
+  },
+  "tempStatStageBooster": {
+    "description": "Tăng chỉ số {{stat}} của tất cả thành viên trong tổ đội lên {{boostPercent}}% trong tối đa {{battleCount}} trận chiến."
+  },
+  "enemyAttackStatusEffectChance": {
+    "description": "Tăng {{chancePercent}}% cơ hội gây hiệu ứng {{statusEffect}} bằng các đòn tấn công."
   }
 }
