@@ -23,7 +23,8 @@
   "pokemonHpRestore": {
     "description": "Odnawia {{restorePoints}} PŻ lub {{restorePercent}% PŻ jednego Pokémona, w zależności, która wartość jest większa.",
     "extra": {
-      "fully": "W pełni odnawia PŻ jednego Pokémona."
+      "fully": "W pełni odnawia PŻ jednego Pokémona.",
+      "fullyWithStatus": "W pełni odzyskuje PŻ jednego Pokémon'a oraz leczy każdy status dolegliwości."
     }
   },
   "pokemonRevive": {
@@ -44,11 +45,18 @@
       "fully": "Odnawia wszystkie PM wszystkich ataków jednego Pokémona."
     }
   },
+  "pokemonPpUp": {
+    "description": "Permanentnie zwiększa PM ruchu jednego Pokémon'a o {{upPoints}} za każde 5 maksymalnych PM (maksymalnie 3)."
+  },
   "pokemonLevelIncrement": {
     "description": "Podnosi poziom jednego Pokémona o {{levels}}."
   },
   "addPokeball": {
-    "name": "×{{modifierCount}} {{pokeballName}}ów"
+    "name": "×{{modifierCount}} {{pokeballName}}ów",
+    "description": "Otrzymasz {{pokeballName}} ×{{modifierCount}} (Ekwpiunek: {{pokeballAmount}}) \nSzansa Złapania: {{catchRate}}"
+  },
+  "pokemonStatusHeal": {
+    "description": "Leczy każdy status dolegliwości Pokémon'a."
   },
   "addVoucher": {
     "name": "{{voucherTypeName}} ×{{modifierCount}}",
