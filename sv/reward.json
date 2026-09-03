@@ -1,0 +1,146 @@
+{
+  "nugget": {
+    "name": "Guldklimp"
+  },
+  "bigNugget": {
+    "name": "Jätteguldklimp"
+  },
+  "relicGold": {
+    "name": "Guldrelik"
+  },
+  "rareCandy": {
+    "name": "Sällsynt godis"
+  },
+  "rarerCandy": {
+    "name": "Sällsport godis"
+  },
+  "sacredAsh": {
+    "name": "Livsaska"
+  },
+  "potion": {
+    "name": "Hälsomedicin"
+  },
+  "superPotion": {
+    "name": "Supermedicin"
+  },
+  "hyperPotion": {
+    "name": "Ultramedicin"
+  },
+  "maxPotion": {
+    "name": "Maxmedicin"
+  },
+  "fullRestore": {
+    "name": "Helåterhämtare"
+  },
+  "revive": {
+    "name": "Energibit"
+  },
+  "maxRevive": {
+    "name": "Energiknippe"
+  },
+  "fullHeal": {
+    "name": "Allkur"
+  },
+  "ether": {
+    "name": "Krafteter"
+  },
+  "maxEther": {
+    "name": "Maxeter"
+  },
+  "elixir": {
+    "name": "Multieter"
+  },
+  "maxElixir": {
+    "name": "Maxmultieter"
+  },
+  "ppUp": {
+    "name": "Kraftökarin"
+  },
+  "ppMax": {
+    "name": "Kraftökarin Max"
+  },
+  "memoryMushroom": {
+    "name": "Minnesmussling",
+    "description": "Låter en pokémon minnas en bortglömd teknik."
+  },
+  "dnaSplicers": {
+    "name": "DNA-skarvare"
+  },
+  "moneyReward": {
+    "description": "Ger dig en {{moneyMultiplier}} summa pengar (₽{{moneyAmount}}).",
+    "extra": {
+      "small": "liten",
+      "moderate": "lagom",
+      "large": "stor"
+    }
+  },
+  "pokemonHpRestore": {
+    "description": "Återhämtar {{restorePoints}} HP eller {{restorePercent}} % HP hos en pokémon, beroende på vilket som är högre.",
+    "extra": {
+      "fully": "Återställer alla HP hos en pokémon.",
+      "fullyWithStatus": "Återställer alla HP hos en pokémon och kurerar all tillståndspåverkan."
+    }
+  },
+  "pokemonRevive": {
+    "description": "Återupplivar en pokémon och återhämtar {{restorePercent}}% HP."
+  },
+  "allPokemonFullRevive": {
+    "description": "Återupplivar alla avsvimmade pokémon och återställer deras HP till max."
+  },
+  "pokemonPpRestore": {
+    "description": "Återhämtar {{restorePoints}} KP för en pokémonteknik.",
+    "extra": {
+      "fully": "Återhämtar alla KP för en pokémonteknik."
+    }
+  },
+  "pokemonAllMovePpRestore": {
+    "description": "Återhämtar {{restorePoints}} KP för alla tekniker som en av dina pokémon kan.",
+    "extra": {
+      "fully": "Återhämtar alla KP för alla tekniker som en av dina pokémon kan."
+    }
+  },
+  "pokemonPpUp": {
+    "description": "Ökar permanent en tekniks KP med {{upPoints}} för var 5:e bas-KP (max. 3 ökningar)."
+  },
+  "pokemonLevelIncrement": {
+    "description": "Ökar en pokémons nivå med {{levels}}."
+  },
+  "allPokemonLevelIncrement": {
+    "description": "Ökar alla lagmedlemmars nivåer med {{levels}}."
+  },
+  "addPokeball": {
+    "name": "{{modifierCount}}× {{pokeballName}}",
+    "description": "Få {{modifierCount}}x {{pokeballName}} (Till hands: {{pokeballAmount}}) \nFångstsannolikhet: {{catchRate}}"
+  },
+  "addVoucher": {
+    "name": "{{modifierCount}}× {{voucherTypeName}}",
+    "description": "Få {{voucherTypeName}} ×{{modifierCount}}."
+  },
+  "pokemonStatusHeal": {
+    "description": "Kurerar all tillståndspåverkan hos en pokémon."
+  },
+  "pokemonNatureChange": {
+    "name": "{{natureName}} mynta",
+    "description": "Ändrar karaktärstyp till [{{natureName}}]; den låses permanent upp för startaren."
+  },
+  "tm": {
+    "name": "TM{{moveId}} - {{moveName}}",
+    "description": "Lär en pokémon tekniken {{moveName}}."
+  },
+  "tmWithInfo": {
+    "name": "TM{{moveId}} - {{moveName}}",
+    "description": "Lär en pokémon tekniken {{moveName}}. \n(Tryck C eller Shift för mer info)"
+  },
+  "fusePokemon": {
+    "description": "Kombinerar två pokémon (särdrag överförs; basförmågor, typer och tekniklistor delas)"
+  },
+  "evolutionItem": {
+    "description": "Orsakar utveckling hos vissa specifika pokémon."
+  },
+  "pokemonHeldItem": {
+    "extra": {
+      "inoperable": "{{pokemonName}} kan inte\nanvända detta föremål!",
+      "tooMany": "{{pokemonName}} har för många\nav det här föremålet!"
+    }
+  }
+}

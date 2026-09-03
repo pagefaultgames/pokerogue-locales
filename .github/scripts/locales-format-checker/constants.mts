@@ -6,9 +6,6 @@ export const ignoreList = [
   "package.json",
   "biome.jsonc",
   "tsconfig.json",
-  "modifier-type.json", // todo: remove after modifier rework
-  "modifier.json",
-  "modifier-select-ui-handler.json",
   ".git",
   ".github",
   ".gitignore",

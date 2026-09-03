@@ -1,0 +1,146 @@
+{
+  "nugget": {
+    "name": "Vàng"
+  },
+  "bigNugget": {
+    "name": "Vàng Viên"
+  },
+  "relicGold": {
+    "name": "Vàng Cổ"
+  },
+  "rareCandy": {
+    "name": "Kẹo Hiếm"
+  },
+  "rarerCandy": {
+    "name": "Kẹo Siêu Hiếm"
+  },
+  "sacredAsh": {
+    "name": "Tro Thánh"
+  },
+  "potion": {
+    "name": "Thuốc Hồi Phục"
+  },
+  "superPotion": {
+    "name": "Siêu Thuốc Hồi Phục"
+  },
+  "hyperPotion": {
+    "name": "Thuốc Hồi Phục Lớn"
+  },
+  "maxPotion": {
+    "name": "Thuốc Hồi Phục Max"
+  },
+  "fullRestore": {
+    "name": "Thuốc Hồi Đầy Đủ"
+  },
+  "revive": {
+    "name": "Đá Hồi Sinh"
+  },
+  "maxRevive": {
+    "name": "Đá Hồi Sinh Max"
+  },
+  "fullHeal": {
+    "name": "Thuốc Chữa Hiệu Ứng"
+  },
+  "ether": {
+    "name": "Thuốc Dung Môi"
+  },
+  "maxEther": {
+    "name": "Thuốc Dung Môi Max"
+  },
+  "elixir": {
+    "name": "Tinh Dược"
+  },
+  "maxElixir": {
+    "name": "Tinh Dược Max"
+  },
+  "ppUp": {
+    "name": "Nước Tăng Lực"
+  },
+  "ppMax": {
+    "name": "Nước Tăng Lực Max"
+  },
+  "memoryMushroom": {
+    "name": "Nấm Kí Ức",
+    "description": "Thức tỉnh ký ức về một chiêu thức đã bị Pokémon lãng quên."
+  },
+  "dnaSplicers": {
+    "name": "Máy Ghép DNA"
+  },
+  "moneyReward": {
+    "description": "Nhận một khoản tiền {{moneyMultiplier}} (₽{{moneyAmount}}).",
+    "extra": {
+      "small": "nhỏ",
+      "moderate": "kha khá",
+      "large": "lớn"
+    }
+  },
+  "pokemonHpRestore": {
+    "description": "Hồi lại {{restorePoints}} HP hoặc {{restorePercent}}% HP cho 1 Pokémon, tùy tỉ lệ nào cao hơn.",
+    "extra": {
+      "fully": "Hồi phục hoàn toàn HP cho một Pokémon.",
+      "fullyWithStatus": "Hồi phục hoàn toàn HP cho một Pokémon và chữa khỏi mọi trạng thái bất lợi."
+    }
+  },
+  "pokemonRevive": {
+    "description": "Hồi sinh một Pokémon và phục hồi {{restorePercent}}% HP."
+  },
+  "allPokemonFullRevive": {
+    "description": "Hồi sinh tất cả Pokémon bị bất tỉnh, phục hồi hoàn toàn HP."
+  },
+  "pokemonPpRestore": {
+    "description": "Khôi phục {{restorePoints}} NL cho một chiêu thức của Pokémon.",
+    "extra": {
+      "fully": "Khôi phục toàn bộ điểm NL cho một chiêu thức của Pokémon."
+    }
+  },
+  "pokemonAllMovePpRestore": {
+    "description": "Khôi phục {{restorePoints}} điểm NL cho tất cả các chiêu thức của một Pokémon.",
+    "extra": {
+      "fully": "Khôi phục toàn bộ điểm NL cho tất cả các chiêu thức của một Pokémon."
+    }
+  },
+  "pokemonPpUp": {
+    "description": "Tăng vĩnh viễn điểm NL cho một chiêu thức của Pokémon lên {{upPoints}} cho mỗi 5 điểm NL tối đa (tối đa 3)."
+  },
+  "pokemonLevelIncrement": {
+    "description": "Tăng cấp độ của Pokémon lên {{levels}}."
+  },
+  "allPokemonLevelIncrement": {
+    "description": "Tăng cấp độ của tất cả thành viên trong đội lên {{levels}}."
+  },
+  "addPokeball": {
+    "name": "{{modifierCount}}× {{pokeballName}}",
+    "description": "Nhận {{pokeballName}} ×{{modifierCount}} (Túi đồ: {{pokeballAmount}}) \nTỉ lệ thu phục: {{catchRate}}"
+  },
+  "addVoucher": {
+    "name": "{{modifierCount}}× {{voucherTypeName}}",
+    "description": "Nhận {{voucherTypeName}} ×{{modifierCount}}."
+  },
+  "pokemonStatusHeal": {
+    "description": "Chữa lành mọi trạng thái bất lợi cho một Pokémon."
+  },
+  "pokemonNatureChange": {
+    "name": "Bạc Hà {{natureName}}",
+    "description": "Thay đổi tính cách thành {{natureName}} và mở khóa vĩnh viễn cho Pokémon khởi đầu."
+  },
+  "tm": {
+    "name": "TM{{moveId}} - {{moveName}}",
+    "description": "Dạy chiêu thức {{moveName}} cho một Pokémon."
+  },
+  "tmWithInfo": {
+    "name": "TM{{moveId}} - {{moveName}}",
+    "description": "Dạy chiêu thức {{moveName}} cho Pokémon.\n(Giữ phím C hoặc Shift để xem thêm thông tin)"
+  },
+  "fusePokemon": {
+    "description": "Dung hợp hai Pokémon. (chuyển giao Đặc Tính, chia sẻ chỉ số cơ bản và hệ, dùng chung bộ chiêu thức)"
+  },
+  "evolutionItem": {
+    "description": "Khiến Pokémon nào đó tiến hóa."
+  },
+  "pokemonHeldItem": {
+    "extra": {
+      "inoperable": "{{pokemonName}} không thể\ncầm vật phẩm này!",
+      "tooMany": "{{pokemonName}} có quá nhiều\nvật phẩm này rồi!"
+    }
+  }
+}

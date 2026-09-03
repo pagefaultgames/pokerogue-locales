@@ -1,0 +1,146 @@
+{
+  "nugget": {
+    "name": "金珠"
+  },
+  "bigNugget": {
+    "name": "巨大金珠"
+  },
+  "relicGold": {
+    "name": "古代金币"
+  },
+  "rareCandy": {
+    "name": "神奇糖果"
+  },
+  "rarerCandy": {
+    "name": "超神奇糖果"
+  },
+  "sacredAsh": {
+    "name": "圣灰"
+  },
+  "potion": {
+    "name": "伤药"
+  },
+  "superPotion": {
+    "name": "好伤药"
+  },
+  "hyperPotion": {
+    "name": "厉害伤药"
+  },
+  "maxPotion": {
+    "name": "全满药"
+  },
+  "fullRestore": {
+    "name": "全复药"
+  },
+  "revive": {
+    "name": "活力碎片"
+  },
+  "maxRevive": {
+    "name": "活力块"
+  },
+  "fullHeal": {
+    "name": "万灵药"
+  },
+  "ether": {
+    "name": "ＰＰ单项小补剂"
+  },
+  "maxEther": {
+    "name": "ＰＰ单项全补剂"
+  },
+  "elixir": {
+    "name": "ＰＰ多项小补剂"
+  },
+  "maxElixir": {
+    "name": "ＰＰ多项全补剂"
+  },
+  "ppUp": {
+    "name": "ＰＰ提升剂"
+  },
+  "ppMax": {
+    "name": "ＰＰ极限提升剂"
+  },
+  "memoryMushroom": {
+    "name": "回忆蘑菇",
+    "description": "回忆一个宝可梦已经遗忘的招式。"
+  },
+  "dnaSplicers": {
+    "name": "基因之楔"
+  },
+  "moneyReward": {
+    "description": "获得{{moneyMultiplier}}金钱(₽{{moneyAmount}})。",
+    "extra": {
+      "small": "少量",
+      "moderate": "中等",
+      "large": "大量"
+    }
+  },
+  "pokemonHpRestore": {
+    "description": "为一只宝可梦回复{{restorePoints}}ＨＰ或{{restorePercent}}%ＨＰ，取较大值。",
+    "extra": {
+      "fully": "为一只宝可梦回复全部ＨＰ。",
+      "fullyWithStatus": "为一只宝可梦回复全部ＨＰ并消除所有负面\n状态。"
+    }
+  },
+  "pokemonRevive": {
+    "description": "复活一只宝可梦并回复 {{restorePercent}}% ＨＰ。"
+  },
+  "allPokemonFullRevive": {
+    "description": "复活所有濒死的宝可梦，\n并完全回复ＨＰ。"
+  },
+  "pokemonPpRestore": {
+    "description": "为一只宝可梦的一个招式回复 {{restorePoints}} ＰＰ。",
+    "extra": {
+      "fully": "完全回复一只宝可梦一个招式的ＰＰ。"
+    }
+  },
+  "pokemonAllMovePpRestore": {
+    "description": "为一只宝可梦的所有招式回复 {{restorePoints}} ＰＰ。",
+    "extra": {
+      "fully": "为一只宝可梦的所有招式回复所有ＰＰ。"
+    }
+  },
+  "pokemonPpUp": {
+    "description": "选择一只宝可梦的一个招式使用\n使其ＰＰ最大值提升基础的２０％ (最多３次)。"
+  },
+  "pokemonLevelIncrement": {
+    "description": "使一只宝可梦的等级提升{{levels}}级。"
+  },
+  "allPokemonLevelIncrement": {
+    "description": "使所有宝可梦的等级提升{{levels}}级。"
+  },
+  "addPokeball": {
+    "name": "{{modifierCount}}× {{pokeballName}}",
+    "description": "获得 {{pokeballName}}x {{modifierCount}} (已有：{{pokeballAmount}}) \n捕捉倍率：{{catchRate}}。"
+  },
+  "addVoucher": {
+    "name": "{{modifierCount}}x {{voucherTypeName}}",
+    "description": "获得 {{voucherTypeName}} ×{{modifierCount}}。"
+  },
+  "pokemonStatusHeal": {
+    "description": "为一只宝可梦消除所有负面状态。"
+  },
+  "pokemonNatureChange": {
+    "name": "{{natureName}}薄荷",
+    "description": "将一只宝可梦的性格改为{{natureName}}并为\n该宝可梦永久解锁该性格。"
+  },
+  "tm": {
+    "name": "招式学习器{{moveId}} - {{moveName}}",
+    "description": "教会一只宝可梦{{moveName}}。"
+  },
+  "tmWithInfo": {
+    "name": "招式学习器{{moveId}} - {{moveName}}",
+    "description": "教会一只宝可梦{{moveName}}\n(按住C或者Shift查看更多信息)。"
+  },
+  "fusePokemon": {
+    "description": "融合两只宝可梦（改变特性, 平分基础点数\n和属性, 共享招式池）。"
+  },
+  "evolutionItem": {
+    "description": "使某些宝可梦进化。"
+  },
+  "pokemonHeldItem": {
+    "extra": {
+      "inoperable": "{{pokemonName}} 无法携带\n这个物品！",
+      "tooMany": "{{pokemonName}} 已有太多\n这个物品！"
+    }
+  }
+}

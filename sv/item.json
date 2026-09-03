@@ -1,0 +1,1034 @@
+{
+  "sitrusBerry": {
+    "name": "Sitrusbär",
+    "description": "Återställer {{healPercent}}% HP om HP:n är under {{thresholdPercent}}%."
+  },
+  "lumBerry": {
+    "name": "Lommonbär",
+    "description": "Botar all icke-flyktig tillståndspåverkan och förvirring."
+  },
+  "enigmaBerry": {
+    "name": "Enigmabär",
+    "description": "Återställer {{healPercent}}% HP om träffad av en supereffektiv teknik ."
+  },
+  "liechiBerry": {
+    "name": "Lyttjibär",
+    "description": "Ökar Attack när HP går under {{thresholdPercent}}%."
+  },
+  "ganlonBerry": {
+    "name": "Ganlonbär",
+    "description": "Ökar Försvar när HP går under {{thresholdPercent}}%."
+  },
+  "petayaBerry": {
+    "name": "Pittajabär",
+    "description": "Ökar Sp.atk när HP går under {{thresholdPercent}}%."
+  },
+  "apicotBerry": {
+    "name": "Apikobär",
+    "description": "Ökar Sp.fsv när HP går under {{thresholdPercent}}%."
+  },
+  "salacBerry": {
+    "name": "Sallackbär",
+    "description": "Ökar Snabbhet när HP går under {{thresholdPercent}}%."
+  },
+  "lansatBerry": {
+    "name": "Lansatbär",
+    "description": "Ökar chansen för kritisk träff när HP går under {{thresholdPercent}}%."
+  },
+  "starfBerry": {
+    "name": "Kärnfrubär",
+    "description": "Ökar skarpt en slumpmässig förmåga när HP går under {{thresholdPercent}}%."
+  },
+  "leppaBerry": {
+    "name": "Lepabär",
+    "description": "Återställer {{restorePp}} KP för en teknik när KP:n tar slut."
+  },
+  "reviverSeed": {
+    "name": "Vitalitetsfrö",
+    "description": "Återställer genast 50% av bärarens HP om den svimmar av en direktträff."
+  },
+  "whiteHerb": {
+    "name": "Vitört",
+    "description": "Återställer bärarens förmåga om den sänks i strid en gång."
+  },
+  "silkScarf": {
+    "name": "Silkessjal"
+  },
+  "blackBelt": {
+    "name": "Svart bälte"
+  },
+  "sharpBeak": {
+    "name": "Vass näbb"
+  },
+  "poisonBarb": {
+    "name": "Giftspets"
+  },
+  "softSand": {
+    "name": "Mjuk sand"
+  },
+  "hardStone": {
+    "name": "Hård sten"
+  },
+  "silverPowder": {
+    "name": "Silvrigt puder"
+  },
+  "spellTag": {
+    "name": "Kuslig talisman"
+  },
+  "metalCoat": {
+    "name": "Metallhölje"
+  },
+  "charcoal": {
+    "name": "Kol"
+  },
+  "mysticWater": {
+    "name": "Mystiskt vatten"
+  },
+  "miracleSeed": {
+    "name": "Mirakelfrö"
+  },
+  "magnet": {
+    "name": "Magnet"
+  },
+  "twistedSpoon": {
+    "name": "Böjd sked"
+  },
+  "neverMeltIce": {
+    "name": "Permafrostis"
+  },
+  "dragonFang": {
+    "name": "Draktand"
+  },
+  "blackGlasses": {
+    "name": "Svarta brillor"
+  },
+  "fairyFeather": {
+    "name": "Älvfjäder"
+  },
+  "lightBall": {
+    "name": "Elglob",
+    "description": "En mystisk glob som ökar Pikachus attack- och sp.atk-förmåga."
+  },
+  "thickClub": {
+    "name": "Bastant ben",
+    "description": "Detta hårda ben av okänt ursprung ökar Cubones eller Marowaks attackförmåga."
+  },
+  "metalPowder": {
+    "name": "Metallpulver",
+    "description": "Ett extremt finkornigt, men ändå hårt, konstigt pulver som ökar Dittos försvarsförmåga."
+  },
+  "quickPowder": {
+    "name": "Kvickpulver",
+    "description": "Ett extremt finkornigt, men ändå hårt, konstigt pulver som ökar Dittos försvarsförmåga."
+  },
+  "deepSeaScale": {
+    "name": "Djuphavsfjäll",
+    "description": "Ett fjäll med ljusrosa lyster som ökar Clamperls sp.fsv-förmåga. "
+  },
+  "deepSeaTooth": {
+    "name": "Djuphavstand",
+    "description": "En huggtand som skarpt glimrar i silver och ökar Clamperls sp.atk-förmåga."
+  },
+  "scopeLens": {
+    "name": "Kikarsikte",
+    "description": "Siktar in sig på svaga punkter och ökar bärarens chans att få till en kritisk träff."
+  },
+  "leek": {
+    "name": "Purjolök",
+    "description": "En lång, robust purjolök som ökar chansen för kritisk träff för en Farfetch’ds tekniker."
+  },
+  "luckyEgg": {
+    "name": "Lyckoägg"
+  },
+  "goldenEgg": {
+    "name": "Guldägg"
+  },
+  "sootheBell": {
+    "name": "Stillhetsklocka",
+    "description": "Ökar takten av vänskapsutveckling med {{boostPercent}}%."
+  },
+  "focusBand": {
+    "name": "Pannbenband",
+    "description": "Lägger till {{chancePercent}}% chans att härda ut med {{hp}} HP vid skada som orsakar svimmning."
+  },
+  "quickClaw": {
+    "name": "Flinkklo",
+    "description": "Lägger till {{chancePercent}}% chans att utföra först oavsett snabbhet (efter prioritet)."
+  },
+  "kingsRock": {
+    "name": "Kungasten",
+    "description": "Lägger till {{chancePercent}}% chans att attacker får motståndaren att rygga tillbaka."
+  },
+  "leftovers": {
+    "name": "Rester",
+    "description": "Återställer 1/{{healDenominator}} av en pokémons max. HP varje omgång."
+  },
+  "shellBell": {
+    "name": "Snäckbjällra",
+    "description": "Återställer i 1/{{healDenominator}} av skadan bäraren orsakar som HP."
+  },
+  "mysticalRock": {
+    "name": "Mystisk sten",
+    "description": "Förlänger varaktigheten av terräng och väder som skapas av bärarens tekniker eller särdrag med {{turns}} omgångar."
+  },
+  "wideLens": {
+    "name": "Vidvinkelobjektiv",
+    "description": "Ökar träffsäkerheten av tekniker med {{accuracy}}."
+  },
+  "multiLens": {
+    "name": "Multiobjektiv",
+    "description": "Omvandlar {{damagePercent}}% av skadan orsakad av bärarens attacker till en extra träff."
+  },
+  "goldenPunch": {
+    "name": "Guldboxhandske",
+    "description": "Belönar {{moneyPercent}}% av orsakad direkt skada som pengar."
+  },
+  "gripClaw": {
+    "name": "Snoklo",
+    "description": "Ger {{chancePercent}}% chans att stjäla ett av motståndarens burna föremål under en attack."
+  },
+  "toxicOrb": {
+    "name": "Toxinklot",
+    "description": "Ett bisarrt klot som släpper ut toxiner. Den förgiftar bäraren svårt under strid."
+  },
+  "flameOrb": {
+    "name": "Flammklot",
+    "description": "Ett bisarrt klot som avge hetta. Den ger bäraren en brännskada under strid."
+  },
+  "soulDew": {
+    "name": "Själadagg",
+    "description": "Ökar påverkan av en pokémons karaktärstyp på dess förmågor med {{boostPercent}}% (additivt)."
+  },
+  "baton": {
+    "name": "Stafettpinne",
+    "description": "Skickar vidare effekter till avbytaren och kringgår fällor vid avbyte."
+  },
+  "miniBlackHole": {
+    "name": "Svart minihål",
+    "description": "Bäraren får ett av motståndarens burna föremål varje omgång."
+  },
+  "eviolite": {
+    "name": "Evolit",
+    "description": "En mystisk klump av evolutionär kraft som ökar försvars- och sp.fsv-förmågan hos pokémon som fortfarande kan utvecklas."
+  },
+  "hpUp": {
+    "name": "Hälsökarin"
+  },
+  "protein": {
+    "name": "Magnesium"
+  },
+  "iron": {
+    "name": "Järn"
+  },
+  "calcium": {
+    "name": "Kalcium"
+  },
+  "zinc": {
+    "name": "Zink"
+  },
+  "carbos": {
+    "name": "Glukos"
+  },
+  "shuckleJuiceGood": {
+    "name": "Söt Shuckle-saft",
+    "description": "Ökar alla basförmågor hos bäraren. Du välsignades av Shucklen."
+  },
+  "shuckleJuiceBad": {
+    "name": "Skarrig Shuckle-saft",
+    "description": "Sänker alla basförmågor hos bäraren. Du förbannades av Shucklen."
+  },
+  "oldGateau": {
+    "name": "Skogsgâteau",
+    "description": "Ökar några av bärarens förmågor."
+  },
+  "machoBrace": {
+    "name": "Köttarband",
+    "description": "När bäraren besegrar en pokémon får den ett till band. Varje band förstärker förmågorna lite. Bonus vid maxantalet."
+  },
+  "gimmighoulEvoTracker": {
+    "name": "Skatter",
+    "description": "Denna pokémon älskar skatter! Fortsätt samla skatter så händer kanske något!"
+  },
+  "abomasite": {
+    "name": "Abomasit"
+  },
+  "absolite": {
+    "name": "Absolit"
+  },
+  "aerodactylite": {
+    "name": "Aerodactylit"
+  },
+  "aggronite": {
+    "name": "Aggronit"
+  },
+  "alakazite": {
+    "name": "Alakazit"
+  },
+  "altarianite": {
+    "name": "Altarianit"
+  },
+  "ampharosite": {
+    "name": "Ampharosit"
+  },
+  "audinite": {
+    "name": "Audinit"
+  },
+  "banettite": {
+    "name": "Banettit"
+  },
+  "beedrillite": {
+    "name": "Beedrillit"
+  },
+  "blastoisinite": {
+    "name": "Blastoisinit"
+  },
+  "blazikenite": {
+    "name": "Blazikenit"
+  },
+  "cameruptite": {
+    "name": "Cameruptit"
+  },
+  "charizarditeX": {
+    "name": "Charizardit X"
+  },
+  "charizarditeY": {
+    "name": "Charizardit Y"
+  },
+  "diancite": {
+    "name": "Diancit"
+  },
+  "galladite": {
+    "name": "Galladit"
+  },
+  "garchompite": {
+    "name": "Garchompit"
+  },
+  "gardevoirite": {
+    "name": "Gardevoirit"
+  },
+  "gengarite": {
+    "name": "Gengarit"
+  },
+  "glalitite": {
+    "name": "Glalitit"
+  },
+  "gyaradosite": {
+    "name": "Gyaradosit"
+  },
+  "heracronite": {
+    "name": "Heracronit"
+  },
+  "houndoominite": {
+    "name": "Houndoominit"
+  },
+  "kangaskhanite": {
+    "name": "Kangaskhanit"
+  },
+  "latiasite": {
+    "name": "Latiasit"
+  },
+  "latiosite": {
+    "name": "Latiosit"
+  },
+  "lopunnite": {
+    "name": "Lopunnit"
+  },
+  "lucarionite": {
+    "name": "Lucarionit"
+  },
+  "manectite": {
+    "name": "Manectit"
+  },
+  "mawilite": {
+    "name": "Mawilit"
+  },
+  "medichamite": {
+    "name": "Medichamit"
+  },
+  "metagrossite": {
+    "name": "Metagrossit"
+  },
+  "mewtwoniteX": {
+    "name": "Mewtwonit X"
+  },
+  "mewtwoniteY": {
+    "name": "Mewtwonit Y"
+  },
+  "pidgeotite": {
+    "name": "Pidgeotit"
+  },
+  "pinsirite": {
+    "name": "Pinsirit"
+  },
+  "rayquazite": {
+    "name": "Rayquazit"
+  },
+  "sablenite": {
+    "name": "Sablenit"
+  },
+  "salamencite": {
+    "name": "Salamencit"
+  },
+  "sceptilite": {
+    "name": "Sceptilit"
+  },
+  "scizorite": {
+    "name": "Scizorit"
+  },
+  "sharpedonite": {
+    "name": "Sharpedonit"
+  },
+  "slowbronite": {
+    "name": "Slowbronit"
+  },
+  "steelixite": {
+    "name": "Steelixit"
+  },
+  "swampertite": {
+    "name": "Swampertit"
+  },
+  "tyranitarite": {
+    "name": "Tyranitarit"
+  },
+  "venusaurite": {
+    "name": "Venusaurit"
+  },
+  "clefablite": {
+    "name": "Clefablit"
+  },
+  "victreebelite": {
+    "name": "Victreebelit"
+  },
+  "starminite": {
+    "name": "Starminit"
+  },
+  "dragoninite": {
+    "name": "Dragoninit"
+  },
+  "meganiumite": {
+    "name": "Meganiumit"
+  },
+  "feraligite": {
+    "name": "Feraligit"
+  },
+  "skarmorite": {
+    "name": "Skarmorit"
+  },
+  "froslassite": {
+    "name": "Froslassit"
+  },
+  "emboarite": {
+    "name": "Emboarit"
+  },
+  "excadrite": {
+    "name": "Excadrit"
+  },
+  "scolipite": {
+    "name": "Scolipit"
+  },
+  "scraftinite": {
+    "name": "Scraftinit"
+  },
+  "eelektrossite": {
+    "name": "Eelektrossit"
+  },
+  "chandelurite": {
+    "name": "Chandelurit"
+  },
+  "chesnaughtite": {
+    "name": "Chesnaughtit"
+  },
+  "delphoxite": {
+    "name": "Delphoxit"
+  },
+  "greninjite": {
+    "name": "Greninjit"
+  },
+  "pyroarite": {
+    "name": "Pyroarit"
+  },
+  "floettite": {
+    "name": "Floettit"
+  },
+  "malamarite": {
+    "name": "Malamarit"
+  },
+  "barbaracite": {
+    "name": "Barbaracit"
+  },
+  "dragalgite": {
+    "name": "Dragalgit"
+  },
+  "hawluchanite": {
+    "name": "Hawluchanit"
+  },
+  "zygardite": {
+    "name": "Zygardit"
+  },
+  "drampanite": {
+    "name": "Drampanit"
+  },
+  "falinksite": {
+    "name": "Falinksit"
+  },
+  "raichuniteX": {
+    "name": "Raichunit X"
+  },
+  "raichuniteY": {
+    "name": "Raichunit Y"
+  },
+  "chimechite": {
+    "name": "Chimechit"
+  },
+  "absoliteZ": {
+    "name": "Absolit Z"
+  },
+  "staraptite": {
+    "name": "Staraptit"
+  },
+  "garchompiteZ": {
+    "name": "Garchompit Z"
+  },
+  "lucarioniteZ": {
+    "name": "Lucarionit Z"
+  },
+  "heatranite": {
+    "name": "Heatranit"
+  },
+  "darkranite": {
+    "name": "Darkranit"
+  },
+  "golurkite": {
+    "name": "Golurkit"
+  },
+  "meowsticite": {
+    "name": "Meowsticit"
+  },
+  "crabominite": {
+    "name": "Crabominit"
+  },
+  "golisopite": {
+    "name": "Golisopit"
+  },
+  "magearnite": {
+    "name": "Magearnit"
+  },
+  "zeraorite": {
+    "name": "Zeraorit"
+  },
+  "scovillainite": {
+    "name": "Scovillainit"
+  },
+  "glimmoranite": {
+    "name": "Glimmoranit"
+  },
+  "tatsugirinite": {
+    "name": "Tatsugirinit"
+  },
+  "baxcalibrite": {
+    "name": "Baxcalibrit"
+  },
+  "blueOrb": {
+    "name": "Indigoklot"
+  },
+  "redOrb": {
+    "name": "Karmosinklot"
+  },
+  "adamantCrystal": {
+    "name": "Adamantkristall"
+  },
+  "lustrousGlobe": {
+    "name": "Bländvit juvel"
+  },
+  "griseousCore": {
+    "name": "Ädelmetallskärna"
+  },
+  "revealGlass": {
+    "name": "Sanningspegel"
+  },
+  "maxMushrooms": {
+    "name": "Maxsvampar"
+  },
+  "darkStone": {
+    "name": "Svärtans sten"
+  },
+  "lightStone": {
+    "name": "Vithetens sten"
+  },
+  "prisonBottle": {
+    "name": "Fängslande flaska"
+  },
+  "rustedSword": {
+    "name": "Rostigt svärd"
+  },
+  "rustedShield": {
+    "name": "Rostig sköld"
+  },
+  "icyReinsOfUnity": {
+    "name": "Förbindande istyglar"
+  },
+  "shadowReinsOfUnity": {
+    "name": "Förbindande skuggtyglar"
+  },
+  "ultranecroziumZ": {
+    "name": "Ultranecrozium Z"
+  },
+  "sharpMeteorite": {
+    "name": "Vass meteorit"
+  },
+  "hardMeteorite": {
+    "name": "Hård meteorit"
+  },
+  "smoothMeteorite": {
+    "name": "Slät meteorit"
+  },
+  "gracidea": {
+    "name": "Gracidea"
+  },
+  "shockDrive": {
+    "name": "Åskassett"
+  },
+  "burnDrive": {
+    "name": "Flamkassett"
+  },
+  "chillDrive": {
+    "name": "Frostkassett"
+  },
+  "douseDrive": {
+    "name": "Akvakassett"
+  },
+  "nSolarizer": {
+    "name": "Necro-Sol"
+  },
+  "nLunarizer": {
+    "name": "Necro-Luna"
+  },
+  "wellspringMask": {
+    "name": "Källans mask"
+  },
+  "hearthflameMask": {
+    "name": "Härdens mask"
+  },
+  "cornerstoneMask": {
+    "name": "Hörnstenens mask"
+  },
+  "fistPlate": {
+    "name": "Nävplatta"
+  },
+  "skyPlate": {
+    "name": "Skyplatta"
+  },
+  "toxicPlate": {
+    "name": "Pestplatta"
+  },
+  "earthPlate": {
+    "name": "Markplatta"
+  },
+  "stonePlate": {
+    "name": "Bergplatta"
+  },
+  "insectPlate": {
+    "name": "Krypplatta"
+  },
+  "spookyPlate": {
+    "name": "Vålnadsplatta"
+  },
+  "ironPlate": {
+    "name": "Plåtplatta"
+  },
+  "flamePlate": {
+    "name": "Flamplatta"
+  },
+  "splashPlate": {
+    "name": "Plaskplatta"
+  },
+  "meadowPlate": {
+    "name": "Ängplatta"
+  },
+  "zapPlate": {
+    "name": "Tordönplatta"
+  },
+  "mindPlate": {
+    "name": "Sinnesplatta"
+  },
+  "iciclePlate": {
+    "name": "Glaciärplatta"
+  },
+  "dracoPlate": {
+    "name": "Skräcködleplatta"
+  },
+  "dreadPlate": {
+    "name": "Dunkelplatta"
+  },
+  "pixiePlate": {
+    "name": "Älvplatta"
+  },
+  "blankPlate": {
+    "name": "Neutralplatta"
+  },
+  "legendPlate": {
+    "name": "Legendplatta"
+  },
+  "fightingMemory": {
+    "name": "Minnesdisk: NÄVE"
+  },
+  "flyingMemory": {
+    "name": "Minnesdisk: LUFT"
+  },
+  "poisonMemory": {
+    "name": "Minnesdisk: PEST"
+  },
+  "groundMemory": {
+    "name": "Minnesdisk: JORD"
+  },
+  "rockMemory": {
+    "name": "Minnesdisk: BERG"
+  },
+  "bugMemory": {
+    "name": "Minnesdisk: KRYP"
+  },
+  "ghostMemory": {
+    "name": "Minnesdisk: ANDE"
+  },
+  "steelMemory": {
+    "name": "Minnesdisk: JÄRN"
+  },
+  "fireMemory": {
+    "name": "Minnesdisk: HETT"
+  },
+  "waterMemory": {
+    "name": "Minnesdisk: BLÖT"
+  },
+  "grassMemory": {
+    "name": "Minnesdisk: FRÖN"
+  },
+  "electricMemory": {
+    "name": "Minnesdisk: ÅSKA"
+  },
+  "psychicMemory": {
+    "name": "Minnesdisk: TÄNK"
+  },
+  "iceMemory": {
+    "name": "Minnesdisk: FRYS"
+  },
+  "dragonMemory": {
+    "name": "Minnesdisk: ÖDLA"
+  },
+  "darkMemory": {
+    "name": "Minnesdisk: SKUM"
+  },
+  "fairyMemory": {
+    "name": "Minnesdisk: ÄLVA"
+  },
+  "normalMemory": {
+    "name": "Minnesdisk: NORM"
+  },
+  "map": {
+    "name": "Karta",
+    "description": "Låter dig välja riktning vid vägskälen på slutet av biomen."
+  },
+  "ivScanner": {
+    "name": "IV-skanner",
+    "description": "Skannar vilda pokémons IV:n."
+  },
+  "lockCapsule": {
+    "name": "Låskapsel",
+    "description": "Tillåter dig att låsa sällsyntheten av föremålen när du rullar om."
+  },
+  "megaBracelet": {
+    "name": "Megaband",
+    "description": "Megastenar blir tillgängliga."
+  },
+  "dynamaxBand": {
+    "name": "Dynamaxband",
+    "description": "Maxsvampar blir tillgängliga."
+  },
+  "teraOrb": {
+    "name": "Teraklot",
+    "description": "Kan terastallisera dina pokémon. Återladdar långsamt. Teraskärvor blir också tillgängliga."
+  },
+  "goldenPokeball": {
+    "name": "Gyllene pokéboll",
+    "description": "{{count}} till belöning läggs till i slutet av varje strid."
+  },
+  "ovalCharm": {
+    "name": "Ovalamulett",
+    "description": "När flera pokémon deltar i en strid får de alla en extra {{boostPercent}}% var av de totalt vunna erfarenhetspoängen."
+  },
+  "expShare": {
+    "name": "Erfar-enhet",
+    "description": "Lagmedlemmar som inte stridit får {{sharePercent}}% av en enskild stridares erfarenhetspoäng."
+  },
+  "expBalance": {
+    "name": "Balanserfar-enhet",
+    "description": "Balanserar vunna erfarenhetspoäng och ger fler till lagmedlemmarna på lägre nivå."
+  },
+  "candyJar": {
+    "name": "Godisburk",
+    "description": "Lägger till {{levels}} till nivå för Sällsynt och Sällsport godis."
+  },
+  "berryPouch": {
+    "name": "Bärpåse",
+    "description": "Lägger till {{chancePercent}}% chans att bär inte försvinner efter användning."
+  },
+  "healingCharm": {
+    "name": "Helningsamulett",
+    "description": "Ökar effektiviteten av HP-återställande tekniker och föremål med {{boostPercent}}% (inte vid återupplivning)."
+  },
+  "expCharm": {
+    "name": "Erfamulett"
+  },
+  "superExpCharm": {
+    "name": "Superfamulett"
+  },
+  "goldenExpCharm": {
+    "name": "Gulderfamulett"
+  },
+  "amuletCoin": {
+    "name": "Lyckomynt",
+    "description": "Ökar vinstpengar med {{boostPercent}}%."
+  },
+  "abilityCharm": {
+    "name": "Säregen amulett",
+    "description": "Ökar avsevärt chansen att möta en vild pokémon med ett hemligt särdrag."
+  },
+  "shinyCharm": {
+    "name": "Skimrande amulett",
+    "description": "Ökar avsevärt chansen att möta en vild pokémon som är skimrande."
+  },
+  "catchingCharm": {
+    "name": "Fångstamulett",
+    "description": "Ökar chansen att få till en kritisk fångst."
+  },
+  "blackSludge": {
+    "name": "Svartslam",
+    "description": "Stanken är så vidrig att butiker ökar deras artikelpriser avsevärt i protest."
+  },
+  "goldenBugNet": {
+    "name": "Gyllene insektshåv",
+    "description": "Ingjuter i ägaren turen att hitta insekttyppokémon oftare. Har en särskild sorts tyngd."
+  },
+  "lure": {
+    "name": "Lockparfym"
+  },
+  "superLure": {
+    "name": "Lockparfym d’Argent"
+  },
+  "maxLure": {
+    "name": "Lockparfym d’Or"
+  },
+  "xAttack": {
+    "name": "Attackerin"
+  },
+  "xDefense": {
+    "name": "Försvararin"
+  },
+  "xSpAtk": {
+    "name": "SP Attackerin"
+  },
+  "xSpDef": {
+    "name": "SP Försvararin"
+  },
+  "xSpeed": {
+    "name": "Snabbarin"
+  },
+  "xAccuracy": {
+    "name": "Träffsäkerin"
+  },
+  "direHit": {
+    "name": "Kritiskärpren",
+    "extra": {
+      "raises": "chansen för kritisk träff"
+    },
+    "description": "Ökar {{stat}} för alla för lagmedlemmar med {{stages}} steg i högst {{battleCount}} strider."
+  },
+  "enemyDamageBooster": {
+    "name": "Skadepollett",
+    "description": "Ökar skada med {{boostPercent}}%."
+  },
+  "enemyDamageReduction": {
+    "name": "Skyddande pollett",
+    "description": "Sänker tagen skada med {{reductionPercent}}%."
+  },
+  "enemyHeal": {
+    "name": "Läkande pollett",
+    "description": "Läker {{healPercent}}% av max. HP varje omgång."
+  },
+  "enemyAttackPoisonChance": {
+    "name": "Giftpollett"
+  },
+  "enemyAttackParalyzeChance": {
+    "name": "Lampollett"
+  },
+  "enemyAttackBurnChance": {
+    "name": "Brännpollett"
+  },
+  "enemyStatusEffectHealChance": {
+    "name": "Allkurpollett",
+    "description": "Lägger till {{chancePercent}}% chans att läka tillståndspåverkan varje omgång."
+  },
+  "enemyEndureChance": {
+    "name": "Ihärdig pollett",
+    "description": "Lägger till en {{chancePercent}}% chans att uthärda en träff."
+  },
+  "enemyFusedChance": {
+    "name": "Fusionspollett",
+    "description": "Lägger till {{chancePercent}}% chans att en vild pokémon är en fusion."
+  },
+  "formChange": {
+    "description": "Orsakar formändring hos vissa specifika pokémon."
+  },
+  "linkingCord": {
+    "name": "Länkande lina"
+  },
+  "sunStone": {
+    "name": "Solsten"
+  },
+  "moonStone": {
+    "name": "Månsten"
+  },
+  "leafStone": {
+    "name": "Lövsten"
+  },
+  "fireStone": {
+    "name": "Eldsten"
+  },
+  "waterStone": {
+    "name": "Vattensten"
+  },
+  "thunderStone": {
+    "name": "Åsksten"
+  },
+  "iceStone": {
+    "name": "Issten"
+  },
+  "duskStone": {
+    "name": "Skuggsten"
+  },
+  "dawnStone": {
+    "name": "Vaknadsten"
+  },
+  "shinyStone": {
+    "name": "Ljussten"
+  },
+  "crackedPot": {
+    "name": "Trasig tekanna"
+  },
+  "sweetApple": {
+    "name": "Sötäpple"
+  },
+  "tartApple": {
+    "name": "Suräpple"
+  },
+  "strawberrySweet": {
+    "name": "Jordgubbsgodis"
+  },
+  "unremarkableTeacup": {
+    "name": "Undermålig tekopp"
+  },
+  "upgrade": {
+    "name": "Uppgradering"
+  },
+  "dubiousDisc": {
+    "name": "Opålitligt program"
+  },
+  "dragonScale": {
+    "name": "Drakfjäll"
+  },
+  "prismScale": {
+    "name": "Prismafjäll"
+  },
+  "razorClaw": {
+    "name": "Slipad klo"
+  },
+  "razorFang": {
+    "name": "Spetsig tand"
+  },
+  "ovalStone": {
+    "name": "Oval sten"
+  },
+  "reaperCloth": {
+    "name": "Andevärldstrasa"
+  },
+  "electirizer": {
+    "name": "Elektriserare"
+  },
+  "magmarizer": {
+    "name": "Magamariserare"
+  },
+  "protector": {
+    "name": "Skyddsplattor"
+  },
+  "sachet": {
+    "name": "Doftpåse"
+  },
+  "whippedDream": {
+    "name": "Mosgrädde"
+  },
+  "syrupyApple": {
+    "name": "Saftigt äpple"
+  },
+  "chippedPot": {
+    "name": "Naggad tekanna"
+  },
+  "galaricaCuff": {
+    "name": "Galarikaboja"
+  },
+  "galaricaWreath": {
+    "name": "Galarikakrans"
+  },
+  "auspiciousArmor": {
+    "name": "Högtidsrustning"
+  },
+  "maliciousArmor": {
+    "name": "Spöktimsrustning"
+  },
+  "masterpieceTeacup": {
+    "name": "Underbar tekopp"
+  },
+  "sunFlute": {
+    "name": "Solflöjt"
+  },
+  "moonFlute": {
+    "name": "Månflöjt"
+  },
+  "blackAugurite": {
+    "name": "Svart augit"
+  },
+  "peatBlock": {
+    "name": "Torvblock"
+  },
+  "metalAlloy": {
+    "name": "Metallegering"
+  },
+  "scrollOfDarkness": {
+    "name": "Mörkets skriftrulle"
+  },
+  "scrollOfWaters": {
+    "name": "Vattnets skriftrulle"
+  },
+  "leadersCrest": {
+    "name": "Ledares hjälmkam"
+  },
+  "typeAttackBooster": {
+    "description": "Ökar kraften på en pokémons tekniker av typen {{type}} med {{boostPercent}}%."
+  },
+  "pokemonExpBooster": {
+    "description": "Ökar bärarens vinst av erfarenhetspoäng med {{boostPercent}}%."
+  },
+  "vitamin": {
+    "description": "Ökar bärarens grundläggande {{stat}} med {{boostPercent}}%. Ju högre bärarens IV:n är, desto fler kan bäras."
+  },
+  "expBooster": {
+    "description": "Ökar vinsten av erfarenhetspoäng med {{boostPercent}}%."
+  },
+  "doubleBattleChanceBooster": {
+    "description": "Fyrdubblar sannolikheten för dubbelstrid under förloppet av max {{battleCount}} strider."
+  },
+  "tempStatStageBooster": {
+    "description": "Ökar {{stat}} för alla för lagmedlemmar med {{boostPercent}}% i högst {{battleCount}} strider."
+  },
+  "enemyAttackStatusEffectChance": {
+    "description": "Lägger till en {{chancePercent}}% chans att orsaka {{statusEffect}} med attacktekniker."
+  }
+}

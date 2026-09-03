@@ -1,0 +1,146 @@
+{
+  "nugget": {
+    "name": "Pepita"
+  },
+  "bigNugget": {
+    "name": "Pepita Grande"
+  },
+  "relicGold": {
+    "name": "Relíquia de Ouro"
+  },
+  "rareCandy": {
+    "name": "Doce Raro"
+  },
+  "rarerCandy": {
+    "name": "Doce Raríssimo"
+  },
+  "sacredAsh": {
+    "name": "Cinza Sagrada"
+  },
+  "potion": {
+    "name": "Poção"
+  },
+  "superPotion": {
+    "name": "Super Poção"
+  },
+  "hyperPotion": {
+    "name": "Hiper Poção"
+  },
+  "maxPotion": {
+    "name": "Poção Máxima"
+  },
+  "fullRestore": {
+    "name": "Restaurador"
+  },
+  "revive": {
+    "name": "Reviver"
+  },
+  "maxRevive": {
+    "name": "Máximo Reviver"
+  },
+  "fullHeal": {
+    "name": "Cura Total"
+  },
+  "ether": {
+    "name": "Éter"
+  },
+  "maxEther": {
+    "name": "Éter Máximo"
+  },
+  "elixir": {
+    "name": "Elixir"
+  },
+  "maxElixir": {
+    "name": "Elixir Máximo"
+  },
+  "ppUp": {
+    "name": "Mais PP"
+  },
+  "ppMax": {
+    "name": "PP Máximo"
+  },
+  "memoryMushroom": {
+    "name": "Cogumemória",
+    "description": "Relembra um movimento esquecido."
+  },
+  "dnaSplicers": {
+    "name": "Ponta DNA"
+  },
+  "moneyReward": {
+    "description": "Garante uma quantidade {{moneyMultiplier}} de dinheiro (₽{{moneyAmount}}).",
+    "extra": {
+      "small": "pequena",
+      "moderate": "moderada",
+      "large": "grande"
+    }
+  },
+  "pokemonHpRestore": {
+    "description": "Restaura {{restorePoints}} PS ou {{restorePercent}}% PS de um Pokémon, o que for maior.",
+    "extra": {
+      "fully": "Restaura totalmente os PS de um Pokémon.",
+      "fullyWithStatus": "Restaura totalmente os PS de um Pokémon e cura qualquer mudança de estado."
+    }
+  },
+  "pokemonRevive": {
+    "description": "Reanima um Pokémon e restaura {{restorePercent}}% PS."
+  },
+  "allPokemonFullRevive": {
+    "description": "Reanima todos os Pokémon, restaurando totalmente seus PS."
+  },
+  "pokemonPpRestore": {
+    "description": "Restaura {{restorePoints}} PP para um movimento de um Pokémon.",
+    "extra": {
+      "fully": "Restaura todos os PP para um movimento de um Pokémon."
+    }
+  },
+  "pokemonAllMovePpRestore": {
+    "description": "Restaura {{restorePoints}} PP para todos os movimentos de um Pokémon.",
+    "extra": {
+      "fully": "Restaura todos os PP para todos os movimentos de um Pokémon."
+    }
+  },
+  "pokemonPpUp": {
+    "description": "Aumenta permanentemente os PP para o movimento de um Pokémon em {{upPoints}} para cada 5 PP máximos (máximo 3)."
+  },
+  "pokemonLevelIncrement": {
+    "description": "Aumenta em {{levels}} o nível de um Pokémon."
+  },
+  "allPokemonLevelIncrement": {
+    "description": "Aumenta em {{levels}} o nível de todos os membros da equipe."
+  },
+  "addPokeball": {
+    "name": "{{modifierCount}}× {{pokeballName}}",
+    "description": "Ganhe {{modifierCount}}× {{pokeballName}} (Mochila: {{pokeballAmount}}) \nChance de captura: {{catchRate}}."
+  },
+  "addVoucher": {
+    "name": "{{modifierCount}}× {{voucherTypeName}}",
+    "description": "Ganhe {{modifierCount}}× {{voucherTypeName}}."
+  },
+  "pokemonStatusHeal": {
+    "description": "Cura uma mudança de estado de um Pokémon."
+  },
+  "pokemonNatureChange": {
+    "name": "Hortelã {{natureName}}",
+    "description": "Muda a natureza do Pokémon para {{natureName}} e a desbloqueia permanentemente."
+  },
+  "tm": {
+    "name": "MT{{moveId}} - {{moveName}}",
+    "description": "Ensina {{moveName}} a um Pokémon."
+  },
+  "tmWithInfo": {
+    "name": "MT{{moveId}} - {{moveName}}",
+    "description": "Ensina {{moveName}} a um Pokémon\n(Segure C ou Shift para mais informações)."
+  },
+  "fusePokemon": {
+    "description": "Combina dois Pokémon (transfere Habilidade, divide os atributos base e tipos, compartilha os movimentos)."
+  },
+  "evolutionItem": {
+    "description": "Faz certos Pokémon evoluírem."
+  },
+  "pokemonHeldItem": {
+    "extra": {
+      "inoperable": "{{pokemonName}} não pode\nsegurar esse item!",
+      "tooMany": "{{pokemonName}} tem muitos\ndeste item!"
+    }
+  }
+}

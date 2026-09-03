@@ -1,0 +1,146 @@
+{
+  "nugget": {
+    "name": "Nugget"
+  },
+  "bigNugget": {
+    "name": "Big Nugget"
+  },
+  "relicGold": {
+    "name": "Relic Gold"
+  },
+  "rareCandy": {
+    "name": "Rare Candy"
+  },
+  "rarerCandy": {
+    "name": "Rarer Candy"
+  },
+  "sacredAsh": {
+    "name": "Sacred Ash"
+  },
+  "potion": {
+    "name": "Potion"
+  },
+  "superPotion": {
+    "name": "Super Potion"
+  },
+  "hyperPotion": {
+    "name": "Hyper Potion"
+  },
+  "maxPotion": {
+    "name": "Max Potion"
+  },
+  "fullRestore": {
+    "name": "Full Restore"
+  },
+  "revive": {
+    "name": "Revive"
+  },
+  "maxRevive": {
+    "name": "Max Revive"
+  },
+  "fullHeal": {
+    "name": "Full Heal"
+  },
+  "ether": {
+    "name": "Ether"
+  },
+  "maxEther": {
+    "name": "Max Ether"
+  },
+  "elixir": {
+    "name": "Elixir"
+  },
+  "maxElixir": {
+    "name": "Max Elixir"
+  },
+  "ppUp": {
+    "name": "PP Up"
+  },
+  "ppMax": {
+    "name": "PP Max"
+  },
+  "memoryMushroom": {
+    "name": "Memory Mushroom",
+    "description": "Recall one Pokémon’s forgotten move."
+  },
+  "dnaSplicers": {
+    "name": "DNA Splicers"
+  },
+  "moneyReward": {
+    "description": "Grants a {{moneyMultiplier}} amount of money (₽{{moneyAmount}}).",
+    "extra": {
+      "small": "small",
+      "moderate": "moderate",
+      "large": "large"
+    }
+  },
+  "pokemonHpRestore": {
+    "description": "Restores {{restorePoints}} HP or {{restorePercent}}% HP for one Pokémon, whichever is higher.",
+    "extra": {
+      "fully": "Fully restores HP for one Pokémon.",
+      "fullyWithStatus": "Fully restores HP for one Pokémon and heals any status ailment."
+    }
+  },
+  "pokemonRevive": {
+    "description": "Revives one Pokémon and restores {{restorePercent}}% HP."
+  },
+  "allPokemonFullRevive": {
+    "description": "Revives all fainted Pokémon, fully restoring HP."
+  },
+  "pokemonPpRestore": {
+    "description": "Restores {{restorePoints}} PP for one Pokémon move.",
+    "extra": {
+      "fully": "Restores all PP for one Pokémon move."
+    }
+  },
+  "pokemonAllMovePpRestore": {
+    "description": "Restores {{restorePoints}} PP for all of one Pokémon’s moves.",
+    "extra": {
+      "fully": "Restores all PP for all of one Pokémon’s moves."
+    }
+  },
+  "pokemonPpUp": {
+    "description": "Permanently increases PP for one Pokémon move by {{upPoints}} for every 5 maximum PP (maximum 3)."
+  },
+  "pokemonLevelIncrement": {
+    "description": "Increases a Pokémon’s level by {{levels}}."
+  },
+  "allPokemonLevelIncrement": {
+    "description": "Increases all party members’ level by {{levels}}."
+  },
+  "addPokeball": {
+    "name": "{{modifierCount}}× {{pokeballName}}",
+    "description": "Receive {{pokeballName}} ×{{modifierCount}} (Inventory: {{pokeballAmount}}) \nCatch Rate: {{catchRate}}"
+  },
+  "addVoucher": {
+    "name": "{{modifierCount}}× {{voucherTypeName}}",
+    "description": "Receive {{voucherTypeName}} ×{{modifierCount}}."
+  },
+  "pokemonStatusHeal": {
+    "description": "Heals any status ailment for one Pokémon."
+  },
+  "pokemonNatureChange": {
+    "name": "{{natureName}} Mint",
+    "description": "Changes a Pokémon’s nature to {{natureName}} and permanently unlocks the nature for the starter."
+  },
+  "tm": {
+    "name": "TM{{moveId}} - {{moveName}}",
+    "description": "Teach {{moveName}} to a Pokémon."
+  },
+  "tmWithInfo": {
+    "name": "TM{{moveId}} - {{moveName}}",
+    "description": "Teach {{moveName}} to a Pokémon\n(Hold C or Shift for more info)."
+  },
+  "fusePokemon": {
+    "description": "Combines two Pokémon (transfers Ability, splits base stats and types, shares move pool)."
+  },
+  "evolutionItem": {
+    "description": "Causes certain Pokémon to evolve."
+  },
+  "pokemonHeldItem": {
+    "extra": {
+      "inoperable": "{{pokemonName}} can’t take\nthis item!",
+      "tooMany": "{{pokemonName}} has too many\nof this item!"
+    }
+  }
+}

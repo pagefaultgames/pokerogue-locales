@@ -1,0 +1,146 @@
+{
+  "nugget": {
+    "name": "Шматок золота"
+  },
+  "bigNugget": {
+    "name": "Великий шматок золота"
+  },
+  "relicGold": {
+    "name": "Золота монета"
+  },
+  "rareCandy": {
+    "name": "Рідкісна Цукерка"
+  },
+  "rarerCandy": {
+    "name": "Найрідкісніша Цукерка"
+  },
+  "sacredAsh": {
+    "name": "Священний Порошок"
+  },
+  "potion": {
+    "name": "Зілля"
+  },
+  "superPotion": {
+    "name": "Супер Зілля"
+  },
+  "hyperPotion": {
+    "name": "Гіпер Зілля"
+  },
+  "maxPotion": {
+    "name": "Макс Зілля"
+  },
+  "fullRestore": {
+    "name": "Повне Відновлення"
+  },
+  "revive": {
+    "name": "Оживлення"
+  },
+  "maxRevive": {
+    "name": "Повне Оживлення"
+  },
+  "fullHeal": {
+    "name": "Повне Одужання"
+  },
+  "ether": {
+    "name": "Ефір"
+  },
+  "maxEther": {
+    "name": "Макс Ефір"
+  },
+  "elixir": {
+    "name": "Еліксир"
+  },
+  "maxElixir": {
+    "name": "Макс Еліксир"
+  },
+  "ppUp": {
+    "name": "Збільшувач ОС"
+  },
+  "ppMax": {
+    "name": "ОС Макс"
+  },
+  "memoryMushroom": {
+    "name": "Гриб Пам’яті",
+    "description": "Дозволяє згадати Покéмону один Прийом"
+  },
+  "dnaSplicers": {
+    "name": "ДНК-З’єднувач"
+  },
+  "moneyReward": {
+    "description": "Надає {{moneyMultiplier}} грошей ({{moneyAmount}}₽).",
+    "extra": {
+      "small": "трохи",
+      "moderate": "чимало",
+      "large": "багато"
+    }
+  },
+  "pokemonHpRestore": {
+    "description": "Відновлює здоров’я в {{restorePoints}} ОЗ чи {{restorePercent}}% ОЗ одного Покéмона, залежно що більше.",
+    "extra": {
+      "fully": "Повністю відновлює ОЗ Покéмона",
+      "fullyWithStatus": "Відновлює ОЗ Покéмону та при цьому лікує від статусних ефектів"
+    }
+  },
+  "pokemonRevive": {
+    "description": "Відроджує Покéмона, відновлюючи йому ОЗ в {{restorePercent}}%"
+  },
+  "allPokemonFullRevive": {
+    "description": "Відновлює всіх знепритомнілих Покéмонів, повністю відновлюючи ОЗ."
+  },
+  "pokemonPpRestore": {
+    "description": "Відновлює {{restorePoints}} ОС для одного прийому Покéмона.",
+    "extra": {
+      "fully": "Відновлює всі ОС для одного прийому Покéмона."
+    }
+  },
+  "pokemonAllMovePpRestore": {
+    "description": "Відновлює {{restorePoints}} ОС для всіх прийомів одного Покéмона.",
+    "extra": {
+      "fully": "Відновлює всі ОС для всіх прийомів одного Покéмона."
+    }
+  },
+  "pokemonPpUp": {
+    "description": "Назавжди збільшує ОС для одного прийому Покéмона на {{upPoints}} за кожні 5 максимальних КВ (максимум 3)."
+  },
+  "pokemonLevelIncrement": {
+    "description": "Підвищує рівень Покéмона на {{levels}}."
+  },
+  "allPokemonLevelIncrement": {
+    "description": "Підвищує рівень для всіх членів команди на {{levels}}."
+  },
+  "addPokeball": {
+    "name": "×{{modifierCount}} {{pokeballName}}ів",
+    "description": "Отримати ×{{modifierCount}} {{pokeballName}}ов (В інветар: {{pokeballAmount}})\nШанс піймання: {{catchRate}}"
+  },
+  "addVoucher": {
+    "name": "×{{modifierCount}} {{voucherTypeName}}",
+    "description": "Отримати ×{{modifierCount}} {{voucherTypeName}}"
+  },
+  "pokemonStatusHeal": {
+    "description": "Лікує будь-який Статусний Ефект одного покемона."
+  },
+  "pokemonNatureChange": {
+    "name": "М’ята {{natureName}}",
+    "description": "Змінює характер Покéмона на {{natureName}} і назавжди розблоковує характер для стартового Покéмона."
+  },
+  "tm": {
+    "name": "TM{{moveId}} - {{moveName}}",
+    "description": "Навчає Покéмона пройома {{moveName}}."
+  },
+  "tmWithInfo": {
+    "name": "TM{{moveId}} - {{moveName}}",
+    "description": "Навчає Покéмона прийому {{moveName}} \n(Нажми на C або Shift щоб отримати більшу інформацію)."
+  },
+  "fusePokemon": {
+    "description": "Об’єднує двох Покéемонів (передає здібності, розділяє базові характеристики та типи, ділиться набором прийомів)."
+  },
+  "evolutionItem": {
+    "description": "Змушує певних Покéмонів еволюціонувати."
+  },
+  "pokemonHeldItem": {
+    "extra": {
+      "inoperable": "{{pokemonName}} не може взять цей предмет!",
+      "tooMany": "{{pokemonName}} не може взять більше цього предмету!"
+    }
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "nugget": {
+    "name": "Külçe"
+  },
+  "bigNugget": {
+    "name": "Büyük Külçe"
+  },
+  "relicGold": {
+    "name": "Yadigâr Altın"
+  },
+  "rareCandy": {
+    "name": "Nadir Şeker"
+  },
+  "rarerCandy": {
+    "name": "Daha Nadir Şeker"
+  },
+  "sacredAsh": {
+    "name": "Kutsal Kül"
+  },
+  "potion": {
+    "name": "İksir"
+  },
+  "superPotion": {
+    "name": "Süper İksir"
+  },
+  "hyperPotion": {
+    "name": "Hiper İksir"
+  },
+  "maxPotion": {
+    "name": "Maks. İksir"
+  },
+  "fullRestore": {
+    "name": "Tam Yenileme"
+  },
+  "revive": {
+    "name": "Canlandır"
+  },
+  "maxRevive": {
+    "name": "Maks. Canlandır"
+  },
+  "fullHeal": {
+    "name": "Tam Şifa"
+  },
+  "ether": {
+    "name": "Eter"
+  },
+  "maxEther": {
+    "name": "Maks. Eter"
+  },
+  "elixir": {
+    "name": "Eliksir"
+  },
+  "maxElixir": {
+    "name": "Maks. Eliksir"
+  },
+  "ppUp": {
+    "name": "GP Artırıcı"
+  },
+  "ppMax": {
+    "name": "Maks. GP"
+  },
+  "memoryMushroom": {
+    "name": "Hatırlama Mantarı",
+    "description": "Bir Pokémon’un unuttuğu hareketi ona geri hatırlat."
+  },
+  "dnaSplicers": {
+    "name": "DNA Birleştirici"
+  },
+  "moneyReward": {
+    "description": "{{moneyMultiplier}} miktarda para verir ({{moneyAmount}}₽).",
+    "extra": {
+      "small": "küçük",
+      "moderate": "makul",
+      "large": "büyük"
+    }
+  },
+  "pokemonHpRestore": {
+    "description": "Hangisinin daha yüksek olduğuna göre bir Pokémon’un canını {{restorePoints}} SP veya %{{restorePercent}} SP yeniler.",
+    "extra": {
+      "fully": "Bir Pokémon’un SP’sini tamamen yeniler.",
+      "fullyWithStatus": "Bir Pokémon’un SP’sini tamamen yeniler ve durum etkilerini iyileştirir."
+    }
+  },
+  "pokemonRevive": {
+    "description": "Bir Pokémon’u canlandırır ve SP’sini %{{restorePercent}} yeniler."
+  },
+  "allPokemonFullRevive": {
+    "description": "Tüm bayılmış Pokémonları canlarını tamamen yenileyerek diriltir."
+  },
+  "pokemonPpRestore": {
+    "description": "Bir Pokémon hareketi için {{restorePoints}} GP yeniler.",
+    "extra": {
+      "fully": "Bir Pokémon hareketi için tüm GP’yi yeniler."
+    }
+  },
+  "pokemonAllMovePpRestore": {
+    "description": "Bir Pokémon’un tüm hareketleri için {{restorePoints}} GP yeniler.",
+    "extra": {
+      "fully": "Bir Pokémon’un tüm hareketleri için tüm GP'yi yeniler."
+    }
+  },
+  "pokemonPpUp": {
+    "description": "Her 5 maksimum GP için bir Pokémon hareketinin GP’sini kalıcı olarak {{upPoints}} artırır (maksimum 3)."
+  },
+  "pokemonLevelIncrement": {
+    "description": "Bir Pokémon’un seviyesini {{levels}} artırır."
+  },
+  "allPokemonLevelIncrement": {
+    "description": "Tüm ekip üyelerinin seviyesini {{levels}} artırır."
+  },
+  "addPokeball": {
+    "name": "{{modifierCount}}× {{pokeballName}}",
+    "description": "{{modifierCount}} tane {{pokeballName}} al. (Envanter: {{pokeballAmount}})\nYakalama Şansı: {{catchRate}}"
+  },
+  "addVoucher": {
+    "name": "{{modifierCount}}× {{voucherTypeName}}",
+    "description": "{{modifierCount}} tane {{voucherTypeName}} al."
+  },
+  "pokemonStatusHeal": {
+    "description": "Bir Pokémon’un durum etkilerini iyileştirir."
+  },
+  "pokemonNatureChange": {
+    "name": "{{natureName}} Nanesi",
+    "description": "Bir Pokémon’un doğasını {{natureName}} ile değiştirir ve o Starter için doğayı kalıcı olarak açar."
+  },
+  "tm": {
+    "name": "TM{{moveId}} - {{moveName}}",
+    "description": "Bir Pokémon’a {{moveName}} öğret."
+  },
+  "tmWithInfo": {
+    "name": "TM{{moveId}} - {{moveName}}",
+    "description": "Bir Pokémon’a {{moveName}} öğret\n(Daha fazla bilgi için C veya Shift tuşuna basılı tut)."
+  },
+  "fusePokemon": {
+    "description": "İki Pokémon’u birleştirir (Yetenek aktarılır, temel istatistikler ve türler bölüştürülür, hareket havuzu paylaşılır)."
+  },
+  "evolutionItem": {
+    "description": "Belli Pokémonların evrilmesini sağlar."
+  },
+  "pokemonHeldItem": {
+    "extra": {
+      "inoperable": "{{pokemonName}} bu eşyayı\nalamaz!",
+      "tooMany": "{{pokemonName}} buna fazlasıyla\nsahip!"
+    }
+  }
+}

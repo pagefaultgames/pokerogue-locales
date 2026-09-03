@@ -1,0 +1,1034 @@
+{
+  "sitrusBerry": {
+    "name": "Sitrus Berry",
+    "description": "Restores {{healPercent}}% HP if HP is below {{thresholdPercent}}%."
+  },
+  "lumBerry": {
+    "name": "Lum Berry",
+    "description": "Cures any non-volatile status condition and confusion."
+  },
+  "enigmaBerry": {
+    "name": "Enigma Berry",
+    "description": "Restores {{healPercent}}% HP if hit by a super effective move."
+  },
+  "liechiBerry": {
+    "name": "Liechi Berry",
+    "description": "Raises Attack if HP is below {{thresholdPercent}}%."
+  },
+  "ganlonBerry": {
+    "name": "Ganlon Berry",
+    "description": "Raises Defense if HP is below {{thresholdPercent}}%."
+  },
+  "petayaBerry": {
+    "name": "Petaya Berry",
+    "description": "Raises Sp. Atk if HP is below {{thresholdPercent}}%."
+  },
+  "apicotBerry": {
+    "name": "Apicot Berry",
+    "description": "Raises Sp. Def if HP is below {{thresholdPercent}}%."
+  },
+  "salacBerry": {
+    "name": "Salac Berry",
+    "description": "Raises Speed if HP is below {{thresholdPercent}}%."
+  },
+  "lansatBerry": {
+    "name": "Lansat Berry",
+    "description": "Raises critical hit ratio if HP is below {{thresholdPercent}}%."
+  },
+  "starfBerry": {
+    "name": "Starf Berry",
+    "description": "Sharply raises a random stat if HP is below {{thresholdPercent}}%."
+  },
+  "leppaBerry": {
+    "name": "Leppa Berry",
+    "description": "Restores {{restorePp}} PP to a move if its PP reaches 0."
+  },
+  "reviverSeed": {
+    "name": "Reviver Seed",
+    "description": "Revives the holder for 1/2 HP upon fainting from a direct hit."
+  },
+  "whiteHerb": {
+    "name": "White Herb",
+    "description": "An item to be held by a Pokémon. It will restore any lowered stat in battle."
+  },
+  "silkScarf": {
+    "name": "Silk Scarf"
+  },
+  "blackBelt": {
+    "name": "Black Belt"
+  },
+  "sharpBeak": {
+    "name": "Sharp Beak"
+  },
+  "poisonBarb": {
+    "name": "Poison Barb"
+  },
+  "softSand": {
+    "name": "Soft Sand"
+  },
+  "hardStone": {
+    "name": "Hard Stone"
+  },
+  "silverPowder": {
+    "name": "Silver Powder"
+  },
+  "spellTag": {
+    "name": "Spell Tag"
+  },
+  "metalCoat": {
+    "name": "Metal Coat"
+  },
+  "charcoal": {
+    "name": "Charcoal"
+  },
+  "mysticWater": {
+    "name": "Mystic Water"
+  },
+  "miracleSeed": {
+    "name": "Miracle Seed"
+  },
+  "magnet": {
+    "name": "Magnet"
+  },
+  "twistedSpoon": {
+    "name": "Twisted Spoon"
+  },
+  "neverMeltIce": {
+    "name": "Never-Melt Ice"
+  },
+  "dragonFang": {
+    "name": "Dragon Fang"
+  },
+  "blackGlasses": {
+    "name": "Black Glasses"
+  },
+  "fairyFeather": {
+    "name": "Fairy Feather"
+  },
+  "lightBall": {
+    "name": "Light Ball",
+    "description": "It’s a mysterious orb that boosts Pikachu’s Attack and Sp. Atk stats."
+  },
+  "thickClub": {
+    "name": "Thick Club",
+    "description": "This hard bone of unknown origin boosts Cubone or Marowak’s Attack stat."
+  },
+  "metalPowder": {
+    "name": "Metal Powder",
+    "description": "Extremely fine yet hard, this odd powder boosts Ditto’s Defense stat."
+  },
+  "quickPowder": {
+    "name": "Quick Powder",
+    "description": "Extremely fine yet hard, this odd powder boosts Ditto’s Speed stat."
+  },
+  "deepSeaScale": {
+    "name": "Deep Sea Scale",
+    "description": "This scale shines with a faint pink and boosts Clamperl’s Sp. Def stat."
+  },
+  "deepSeaTooth": {
+    "name": "Deep Sea Tooth",
+    "description": "This fang gleams a sharp silver and boosts Clamperl’s Sp. Atk stat."
+  },
+  "scopeLens": {
+    "name": "Scope Lens",
+    "description": "It’s a lens for scoping out weak points. It boosts the holder’s critical-hit ratio."
+  },
+  "leek": {
+    "name": "Leek",
+    "description": "This very long and stiff stalk of leek boosts the critical-hit ratio of Farfetch’d’s moves."
+  },
+  "luckyEgg": {
+    "name": "Lucky Egg"
+  },
+  "goldenEgg": {
+    "name": "Golden Egg"
+  },
+  "sootheBell": {
+    "name": "Soothe Bell",
+    "description": "Increases friendship gain by {{boostPercent}}%."
+  },
+  "focusBand": {
+    "name": "Focus Band",
+    "description": "Adds a {{chancePercent}}% chance to survive with {{hp}} HP after being damaged enough to faint."
+  },
+  "quickClaw": {
+    "name": "Quick Claw",
+    "description": "Adds a {{chancePercent}}% chance to move first regardless of speed (after priority)."
+  },
+  "kingsRock": {
+    "name": "King’s Rock",
+    "description": "Adds a {{chancePercent}}% chance an attack move will cause the opponent to flinch."
+  },
+  "leftovers": {
+    "name": "Leftovers",
+    "description": "Heals 1/{{healDenominator}} of a Pokémon’s maximum HP every turn."
+  },
+  "shellBell": {
+    "name": "Shell Bell",
+    "description": "Heals 1/{{healDenominator}} of a Pokémon’s dealt damage."
+  },
+  "mysticalRock": {
+    "name": "Mystical Rock",
+    "description": "Extends the duration of terrain and weather caused by the holder’s moves or Abilities by {{turns}} turns."
+  },
+  "wideLens": {
+    "name": "Wide Lens",
+    "description": "Increases move accuracy by {{accuracy}}."
+  },
+  "multiLens": {
+    "name": "Multi Lens",
+    "description": "Converts {{damagePercent}}% of damage from the holder’s attacks into an additional strike."
+  },
+  "goldenPunch": {
+    "name": "Golden Punch",
+    "description": "Grants {{moneyPercent}}% of direct damage inflicted as money."
+  },
+  "gripClaw": {
+    "name": "Grip Claw",
+    "description": "Upon attacking, there is a {{chancePercent}}% chance the foe’s held item will be stolen."
+  },
+  "toxicOrb": {
+    "name": "Toxic Orb",
+    "description": "It’s a bizarre orb that exudes toxins when touched and will badly poison the holder during battle."
+  },
+  "flameOrb": {
+    "name": "Flame Orb",
+    "description": "It’s a bizarre orb that gives off heat when touched and will affect the holder with a burn during battle."
+  },
+  "soulDew": {
+    "name": "Soul Dew",
+    "description": "Increases the influence of a Pokémon’s nature on its stats by {{boostPercent}}% (additive)."
+  },
+  "baton": {
+    "name": "Baton",
+    "description": "Allows passing along effects when switching Pokémon, which also bypasses traps."
+  },
+  "miniBlackHole": {
+    "name": "Mini Black Hole",
+    "description": "Every turn, the holder acquires one held item from the foe."
+  },
+  "eviolite": {
+    "name": "Eviolite",
+    "description": "This mysterious evolutionary lump boosts the Defense and Sp. Def stats when held by a Pokémon that can still evolve."
+  },
+  "hpUp": {
+    "name": "HP Up"
+  },
+  "protein": {
+    "name": "Protein"
+  },
+  "iron": {
+    "name": "Iron"
+  },
+  "calcium": {
+    "name": "Calcium"
+  },
+  "zinc": {
+    "name": "Zinc"
+  },
+  "carbos": {
+    "name": "Carbos"
+  },
+  "shuckleJuiceGood": {
+    "name": "Sweet Shuckle Juice",
+    "description": "Increases all of the holder’s base stats. You were blessed by the Shuckle."
+  },
+  "shuckleJuiceBad": {
+    "name": "Foul Shuckle Juice",
+    "description": "Decreases all of the holder’s base stats. You were cursed by the Shuckle."
+  },
+  "oldGateau": {
+    "name": "Old Gateau",
+    "description": "Increases some of the holder’s stats."
+  },
+  "machoBrace": {
+    "name": "Macho Brace",
+    "description": "Defeating a Pokémon grants the holder a stack of it. Each stack boosts stats a bit. Bonus at max stacks."
+  },
+  "gimmighoulEvoTracker": {
+    "name": "Treasures",
+    "description": "This Pokémon loves treasure! Keep collecting treasure and something might happen!"
+  },
+  "abomasite": {
+    "name": "Abomasite"
+  },
+  "absolite": {
+    "name": "Absolite"
+  },
+  "aerodactylite": {
+    "name": "Aerodactylite"
+  },
+  "aggronite": {
+    "name": "Aggronite"
+  },
+  "alakazite": {
+    "name": "Alakazite"
+  },
+  "altarianite": {
+    "name": "Altarianite"
+  },
+  "ampharosite": {
+    "name": "Ampharosite"
+  },
+  "audinite": {
+    "name": "Audinite"
+  },
+  "banettite": {
+    "name": "Banettite"
+  },
+  "beedrillite": {
+    "name": "Beedrillite"
+  },
+  "blastoisinite": {
+    "name": "Blastoisinite"
+  },
+  "blazikenite": {
+    "name": "Blazikenite"
+  },
+  "cameruptite": {
+    "name": "Cameruptite"
+  },
+  "charizarditeX": {
+    "name": "Charizardite X"
+  },
+  "charizarditeY": {
+    "name": "Charizardite Y"
+  },
+  "diancite": {
+    "name": "Diancite"
+  },
+  "galladite": {
+    "name": "Galladite"
+  },
+  "garchompite": {
+    "name": "Garchompite"
+  },
+  "gardevoirite": {
+    "name": "Gardevoirite"
+  },
+  "gengarite": {
+    "name": "Gengarite"
+  },
+  "glalitite": {
+    "name": "Glalitite"
+  },
+  "gyaradosite": {
+    "name": "Gyaradosite"
+  },
+  "heracronite": {
+    "name": "Heracronite"
+  },
+  "houndoominite": {
+    "name": "Houndoominite"
+  },
+  "kangaskhanite": {
+    "name": "Kangaskhanite"
+  },
+  "latiasite": {
+    "name": "Latiasite"
+  },
+  "latiosite": {
+    "name": "Latiosite"
+  },
+  "lopunnite": {
+    "name": "Lopunnite"
+  },
+  "lucarionite": {
+    "name": "Lucarionite"
+  },
+  "manectite": {
+    "name": "Manectite"
+  },
+  "mawilite": {
+    "name": "Mawilite"
+  },
+  "medichamite": {
+    "name": "Medichamite"
+  },
+  "metagrossite": {
+    "name": "Metagrossite"
+  },
+  "mewtwoniteX": {
+    "name": "Mewtwonite X"
+  },
+  "mewtwoniteY": {
+    "name": "Mewtwonite Y"
+  },
+  "pidgeotite": {
+    "name": "Pidgeotite"
+  },
+  "pinsirite": {
+    "name": "Pinsirite"
+  },
+  "rayquazite": {
+    "name": "Rayquazite"
+  },
+  "sablenite": {
+    "name": "Sablenite"
+  },
+  "salamencite": {
+    "name": "Salamencite"
+  },
+  "sceptilite": {
+    "name": "Sceptilite"
+  },
+  "scizorite": {
+    "name": "Scizorite"
+  },
+  "sharpedonite": {
+    "name": "Sharpedonite"
+  },
+  "slowbronite": {
+    "name": "Slowbronite"
+  },
+  "steelixite": {
+    "name": "Steelixite"
+  },
+  "swampertite": {
+    "name": "Swampertite"
+  },
+  "tyranitarite": {
+    "name": "Tyranitarite"
+  },
+  "venusaurite": {
+    "name": "Venusaurite"
+  },
+  "clefablite": {
+    "name": "Clefablite"
+  },
+  "victreebelite": {
+    "name": "Victreebelite"
+  },
+  "starminite": {
+    "name": "Starminite"
+  },
+  "dragoninite": {
+    "name": "Dragoninite"
+  },
+  "meganiumite": {
+    "name": "Meganiumite"
+  },
+  "feraligite": {
+    "name": "Feraligite"
+  },
+  "skarmorite": {
+    "name": "Skarmorite"
+  },
+  "froslassite": {
+    "name": "Froslassite"
+  },
+  "emboarite": {
+    "name": "Emboarite"
+  },
+  "excadrite": {
+    "name": "Excadrite"
+  },
+  "scolipite": {
+    "name": "Scolipite"
+  },
+  "scraftinite": {
+    "name": "Scraftinite"
+  },
+  "eelektrossite": {
+    "name": "Eelektrossite"
+  },
+  "chandelurite": {
+    "name": "Chandelurite"
+  },
+  "chesnaughtite": {
+    "name": "Chesnaughtite"
+  },
+  "delphoxite": {
+    "name": "Delphoxite"
+  },
+  "greninjite": {
+    "name": "Greninjite"
+  },
+  "pyroarite": {
+    "name": "Pyroarite"
+  },
+  "floettite": {
+    "name": "Floettite"
+  },
+  "malamarite": {
+    "name": "Malamarite"
+  },
+  "barbaracite": {
+    "name": "Barbaracite"
+  },
+  "dragalgite": {
+    "name": "Dragalgite"
+  },
+  "hawluchanite": {
+    "name": "Hawluchanite"
+  },
+  "zygardite": {
+    "name": "Zygardite"
+  },
+  "drampanite": {
+    "name": "Drampanite"
+  },
+  "falinksite": {
+    "name": "Falinksite"
+  },
+  "raichuniteX": {
+    "name": "Raichunite X"
+  },
+  "raichuniteY": {
+    "name": "Raichunite Y"
+  },
+  "chimechite": {
+    "name": "Chimechite"
+  },
+  "absoliteZ": {
+    "name": "Absolite Z"
+  },
+  "staraptite": {
+    "name": "Staraptite"
+  },
+  "garchompiteZ": {
+    "name": "Garchompite Z"
+  },
+  "lucarioniteZ": {
+    "name": "Lucarionite Z"
+  },
+  "heatranite": {
+    "name": "Heatranite"
+  },
+  "darkranite": {
+    "name": "Darkranite"
+  },
+  "golurkite": {
+    "name": "Golurkite"
+  },
+  "meowsticite": {
+    "name": "Meowsticite"
+  },
+  "crabominite": {
+    "name": "Crabominite"
+  },
+  "golisopite": {
+    "name": "Golisopite"
+  },
+  "magearnite": {
+    "name": "Magearnite"
+  },
+  "zeraorite": {
+    "name": "Zeraorite"
+  },
+  "scovillainite": {
+    "name": "Scovillainite"
+  },
+  "glimmoranite": {
+    "name": "Glimmoranite"
+  },
+  "tatsugirinite": {
+    "name": "Tatsugirinite"
+  },
+  "baxcalibrite": {
+    "name": "Baxcalibrite"
+  },
+  "blueOrb": {
+    "name": "Blue Orb"
+  },
+  "redOrb": {
+    "name": "Red Orb"
+  },
+  "adamantCrystal": {
+    "name": "Adamant Crystal"
+  },
+  "lustrousGlobe": {
+    "name": "Lustrous Globe"
+  },
+  "griseousCore": {
+    "name": "Griseous Core"
+  },
+  "revealGlass": {
+    "name": "Reveal Glass"
+  },
+  "maxMushrooms": {
+    "name": "Max Mushrooms"
+  },
+  "darkStone": {
+    "name": "Dark Stone"
+  },
+  "lightStone": {
+    "name": "Light Stone"
+  },
+  "prisonBottle": {
+    "name": "Prison Bottle"
+  },
+  "rustedSword": {
+    "name": "Rusted Sword"
+  },
+  "rustedShield": {
+    "name": "Rusted Shield"
+  },
+  "icyReinsOfUnity": {
+    "name": "Icy Reins of Unity"
+  },
+  "shadowReinsOfUnity": {
+    "name": "Shadow Reins of Unity"
+  },
+  "ultranecroziumZ": {
+    "name": "Ultranecrozium Z"
+  },
+  "sharpMeteorite": {
+    "name": "Sharp Meteorite"
+  },
+  "hardMeteorite": {
+    "name": "Hard Meteorite"
+  },
+  "smoothMeteorite": {
+    "name": "Smooth Meteorite"
+  },
+  "gracidea": {
+    "name": "Gracidea"
+  },
+  "shockDrive": {
+    "name": "Shock Drive"
+  },
+  "burnDrive": {
+    "name": "Burn Drive"
+  },
+  "chillDrive": {
+    "name": "Chill Drive"
+  },
+  "douseDrive": {
+    "name": "Douse Drive"
+  },
+  "nSolarizer": {
+    "name": "N Solarizer"
+  },
+  "nLunarizer": {
+    "name": "N Lunarizer"
+  },
+  "wellspringMask": {
+    "name": "Wellspring Mask"
+  },
+  "hearthflameMask": {
+    "name": "Hearthflame Mask"
+  },
+  "cornerstoneMask": {
+    "name": "Cornerstone Mask"
+  },
+  "fistPlate": {
+    "name": "Fist Plate"
+  },
+  "skyPlate": {
+    "name": "Sky Plate"
+  },
+  "toxicPlate": {
+    "name": "Toxic Plate"
+  },
+  "earthPlate": {
+    "name": "Earth Plate"
+  },
+  "stonePlate": {
+    "name": "Stone Plate"
+  },
+  "insectPlate": {
+    "name": "Insect Plate"
+  },
+  "spookyPlate": {
+    "name": "Spooky Plate"
+  },
+  "ironPlate": {
+    "name": "Iron Plate"
+  },
+  "flamePlate": {
+    "name": "Flame Plate"
+  },
+  "splashPlate": {
+    "name": "Splash Plate"
+  },
+  "meadowPlate": {
+    "name": "Meadow Plate"
+  },
+  "zapPlate": {
+    "name": "Zap Plate"
+  },
+  "mindPlate": {
+    "name": "Mind Plate"
+  },
+  "iciclePlate": {
+    "name": "Icicle Plate"
+  },
+  "dracoPlate": {
+    "name": "Draco Plate"
+  },
+  "dreadPlate": {
+    "name": "Dread Plate"
+  },
+  "pixiePlate": {
+    "name": "Pixie Plate"
+  },
+  "blankPlate": {
+    "name": "Blank Plate"
+  },
+  "legendPlate": {
+    "name": "Legend Plate"
+  },
+  "fightingMemory": {
+    "name": "Fighting Memory"
+  },
+  "flyingMemory": {
+    "name": "Flying Memory"
+  },
+  "poisonMemory": {
+    "name": "Poison Memory"
+  },
+  "groundMemory": {
+    "name": "Ground Memory"
+  },
+  "rockMemory": {
+    "name": "Rock Memory"
+  },
+  "bugMemory": {
+    "name": "Bug Memory"
+  },
+  "ghostMemory": {
+    "name": "Ghost Memory"
+  },
+  "steelMemory": {
+    "name": "Steel Memory"
+  },
+  "fireMemory": {
+    "name": "Fire Memory"
+  },
+  "waterMemory": {
+    "name": "Water Memory"
+  },
+  "grassMemory": {
+    "name": "Grass Memory"
+  },
+  "electricMemory": {
+    "name": "Electric Memory"
+  },
+  "psychicMemory": {
+    "name": "Psychic Memory"
+  },
+  "iceMemory": {
+    "name": "Ice Memory"
+  },
+  "dragonMemory": {
+    "name": "Dragon Memory"
+  },
+  "darkMemory": {
+    "name": "Dark Memory"
+  },
+  "fairyMemory": {
+    "name": "Fairy Memory"
+  },
+  "normalMemory": {
+    "name": "Normal Memory"
+  },
+  "map": {
+    "name": "Map",
+    "description": "Allows you to choose your destination at a crossroads."
+  },
+  "ivScanner": {
+    "name": "IV Scanner",
+    "description": "Enables scanning the IVs of wild Pokémon."
+  },
+  "lockCapsule": {
+    "name": "Lock Capsule",
+    "description": "Allows you to lock item rarities when rerolling items."
+  },
+  "megaBracelet": {
+    "name": "Mega Bracelet",
+    "description": "Mega Stones become available."
+  },
+  "dynamaxBand": {
+    "name": "Dynamax Band",
+    "description": "Max Mushrooms become available."
+  },
+  "teraOrb": {
+    "name": "Tera Orb",
+    "description": "Allows your Pokémon to Terastallize. Recharges slowly. Tera Shards also become available."
+  },
+  "goldenPokeball": {
+    "name": "Golden Poké Ball",
+    "description": "Adds {{count}} extra item option at the end of every battle."
+  },
+  "ovalCharm": {
+    "name": "Oval Charm",
+    "description": "When multiple Pokémon participate in a battle, each gets an extra {{boostPercent}}% of the total EXP."
+  },
+  "expShare": {
+    "name": "EXP. All",
+    "description": "Non-participants receive {{sharePercent}}% of a single participant’s EXP. Points."
+  },
+  "expBalance": {
+    "name": "EXP. Balance",
+    "description": "Weighs EXP. Points received from battles towards lower-leveled party members."
+  },
+  "candyJar": {
+    "name": "Candy Jar",
+    "description": "Increases the number of levels added by Rare Candy items by {{levels}}."
+  },
+  "berryPouch": {
+    "name": "Berry Pouch",
+    "description": "Adds a {{chancePercent}}% chance that a used berry will not be consumed."
+  },
+  "healingCharm": {
+    "name": "Healing Charm",
+    "description": "Increases the effectiveness of HP restoring moves and items by {{boostPercent}}% (excludes Revives)."
+  },
+  "expCharm": {
+    "name": "EXP. Charm"
+  },
+  "superExpCharm": {
+    "name": "Super EXP. Charm"
+  },
+  "goldenExpCharm": {
+    "name": "Golden EXP. Charm"
+  },
+  "amuletCoin": {
+    "name": "Amulet Coin",
+    "description": "Increases money rewards by {{boostPercent}}%."
+  },
+  "abilityCharm": {
+    "name": "Ability Charm",
+    "description": "Dramatically increases the chance of a wild Pokémon having a Hidden Ability."
+  },
+  "shinyCharm": {
+    "name": "Shiny Charm",
+    "description": "Dramatically increases the chance of a wild Pokémon being Shiny."
+  },
+  "catchingCharm": {
+    "name": "Catching Charm",
+    "description": "Increases the chance of getting a critical catch."
+  },
+  "blackSludge": {
+    "name": "Black Sludge",
+    "description": "The stench is so powerful that shops will only sell you items at a steep cost increase."
+  },
+  "goldenBugNet": {
+    "name": "Golden Bug Net",
+    "description": "Imbues the owner with luck to find Bug Type Pokémon more often. Has a strange heft to it."
+  },
+  "lure": {
+    "name": "Lure"
+  },
+  "superLure": {
+    "name": "Super Lure"
+  },
+  "maxLure": {
+    "name": "Max Lure"
+  },
+  "xAttack": {
+    "name": "X Attack"
+  },
+  "xDefense": {
+    "name": "X Defense"
+  },
+  "xSpAtk": {
+    "name": "X Sp. Atk"
+  },
+  "xSpDef": {
+    "name": "X Sp. Def"
+  },
+  "xSpeed": {
+    "name": "X Speed"
+  },
+  "xAccuracy": {
+    "name": "X Accuracy"
+  },
+  "direHit": {
+    "name": "Dire Hit",
+    "extra": {
+      "raises": "Critical Hit Ratio"
+    },
+    "description": "Increases the {{stat}} of all party members by {{stages}} stage for up to {{battleCount}} battles."
+  },
+  "enemyDamageBooster": {
+    "name": "Damage Token",
+    "description": "Increases damage by {{boostPercent}}%."
+  },
+  "enemyDamageReduction": {
+    "name": "Protection Token",
+    "description": "Reduces incoming damage by {{reductionPercent}}%."
+  },
+  "enemyHeal": {
+    "name": "Recovery Token",
+    "description": "Heals {{healPercent}}% of max HP every turn."
+  },
+  "enemyAttackPoisonChance": {
+    "name": "Poison Token"
+  },
+  "enemyAttackParalyzeChance": {
+    "name": "Paralyze Token"
+  },
+  "enemyAttackBurnChance": {
+    "name": "Burn Token"
+  },
+  "enemyStatusEffectHealChance": {
+    "name": "Full Heal Token",
+    "description": "Adds a {{chancePercent}}% chance every turn to heal a status condition."
+  },
+  "enemyEndureChance": {
+    "name": "Endure Token",
+    "description": "Adds a {{chancePercent}}% chance of enduring a hit."
+  },
+  "enemyFusedChance": {
+    "name": "Fusion Token",
+    "description": "Adds a {{chancePercent}}% chance that a wild Pokémon will be a fusion."
+  },
+  "formChange": {
+    "description": "Causes certain Pokémon to change form."
+  },
+  "linkingCord": {
+    "name": "Linking Cord"
+  },
+  "sunStone": {
+    "name": "Sun Stone"
+  },
+  "moonStone": {
+    "name": "Moon Stone"
+  },
+  "leafStone": {
+    "name": "Leaf Stone"
+  },
+  "fireStone": {
+    "name": "Fire Stone"
+  },
+  "waterStone": {
+    "name": "Water Stone"
+  },
+  "thunderStone": {
+    "name": "Thunder Stone"
+  },
+  "iceStone": {
+    "name": "Ice Stone"
+  },
+  "duskStone": {
+    "name": "Dusk Stone"
+  },
+  "dawnStone": {
+    "name": "Dawn Stone"
+  },
+  "shinyStone": {
+    "name": "Shiny Stone"
+  },
+  "crackedPot": {
+    "name": "Cracked Pot"
+  },
+  "sweetApple": {
+    "name": "Sweet Apple"
+  },
+  "tartApple": {
+    "name": "Tart Apple"
+  },
+  "strawberrySweet": {
+    "name": "Strawberry Sweet"
+  },
+  "unremarkableTeacup": {
+    "name": "Unremarkable Teacup"
+  },
+  "upgrade": {
+    "name": "Upgrade"
+  },
+  "dubiousDisc": {
+    "name": "Dubious Disc"
+  },
+  "dragonScale": {
+    "name": "Dragon Scale"
+  },
+  "prismScale": {
+    "name": "Prism Scale"
+  },
+  "razorClaw": {
+    "name": "Razor Claw"
+  },
+  "razorFang": {
+    "name": "Razor Fang"
+  },
+  "ovalStone": {
+    "name": "Oval Stone"
+  },
+  "reaperCloth": {
+    "name": "Reaper Cloth"
+  },
+  "electirizer": {
+    "name": "Electirizer"
+  },
+  "magmarizer": {
+    "name": "Magmarizer"
+  },
+  "protector": {
+    "name": "Protector"
+  },
+  "sachet": {
+    "name": "Sachet"
+  },
+  "whippedDream": {
+    "name": "Whipped Dream"
+  },
+  "syrupyApple": {
+    "name": "Syrupy Apple"
+  },
+  "chippedPot": {
+    "name": "Chipped Pot"
+  },
+  "galaricaCuff": {
+    "name": "Galarica Cuff"
+  },
+  "galaricaWreath": {
+    "name": "Galarica Wreath"
+  },
+  "auspiciousArmor": {
+    "name": "Auspicious Armor"
+  },
+  "maliciousArmor": {
+    "name": "Malicious Armor"
+  },
+  "masterpieceTeacup": {
+    "name": "Masterpiece Teacup"
+  },
+  "sunFlute": {
+    "name": "Sun Flute"
+  },
+  "moonFlute": {
+    "name": "Moon Flute"
+  },
+  "blackAugurite": {
+    "name": "Black Augurite"
+  },
+  "peatBlock": {
+    "name": "Peat Block"
+  },
+  "metalAlloy": {
+    "name": "Metal Alloy"
+  },
+  "scrollOfDarkness": {
+    "name": "Scroll Of Darkness"
+  },
+  "scrollOfWaters": {
+    "name": "Scroll Of Waters"
+  },
+  "leadersCrest": {
+    "name": "Leader’s Crest"
+  },
+  "typeAttackBooster": {
+    "description": "Increases the power of a Pokémon’s {{type}}-type moves by {{boostPercent}}%."
+  },
+  "pokemonExpBooster": {
+    "description": "Increases the holder’s gain of EXP. Points by {{boostPercent}}%."
+  },
+  "vitamin": {
+    "description": "Increases the holder’s base {{stat}} by {{boostPercent}}%. The higher your IVs, the higher the stack limit."
+  },
+  "expBooster": {
+    "description": "Increases gain of EXP. Points by {{boostPercent}}%."
+  },
+  "doubleBattleChanceBooster": {
+    "description": "Quadruples the chance of an encounter being a double battle for up to {{battleCount}} battles."
+  },
+  "tempStatStageBooster": {
+    "description": "Increases the {{stat}} of all party members by {{boostPercent}}% for up to {{battleCount}} battles."
+  },
+  "enemyAttackStatusEffectChance": {
+    "description": "Adds a {{chancePercent}}% chance to inflict {{statusEffect}} with attack moves."
+  }
+}

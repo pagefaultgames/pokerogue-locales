@@ -1,0 +1,731 @@
+{
+  "sitrusBerry": {
+    "name": "Ягода Сітрус",
+    "description": "Відновлює {{healPercent}}% ОЗ, якщо ОЗ нижче {{thresholdPercent}}%."
+  },
+  "lumBerry": {
+    "name": "Ягода Лум",
+    "description": "Зцілює будь-який статусний ефект і плутанину."
+  },
+  "enigmaBerry": {
+    "name": "Ягода Енігма",
+    "description": "Відновлює {{healPercent}}% ОЗ, якщо вражений суперефективним ударом."
+  },
+  "liechiBerry": {
+    "name": "Ягода Лічі",
+    "description": "Збільшує Атаку, якщо ОЗ нижче {{thresholdPercent}}%."
+  },
+  "ganlonBerry": {
+    "name": "Ягода Ганлон",
+    "description": "Збільшує Захист, якщо ОЗ нижче {{thresholdPercent}}%."
+  },
+  "petayaBerry": {
+    "name": "Ягода Петая",
+    "description": "Збільшує Сп. Атаку, якщо ОЗ нижче {{thresholdPercent}}%."
+  },
+  "apicotBerry": {
+    "name": "Ягода Апікот",
+    "description": "Збільшує Сп. Захист, якщо ОЗ нижче {{thresholdPercent}}%."
+  },
+  "salacBerry": {
+    "name": "Ягода Салак",
+    "description": "Збільшує Швидкість, якщо ОЗ нижче {{thresholdPercent}}%."
+  },
+  "lansatBerry": {
+    "name": "Ягода Лансат",
+    "description": "Збільшує шанс критичного удару, якщо ОЗ нижче {{thresholdPercent}}%."
+  },
+  "starfBerry": {
+    "name": "Ягода Старф",
+    "description": "Значно збільшує випадкову характеристику, якщо ОЗ нижче {{thresholdPercent}}%."
+  },
+  "leppaBerry": {
+    "name": "Ягода Леппа",
+    "description": "Відновлює {{restorePp}} ОС прийому, якщо його ОС падає до 0."
+  },
+  "reviverSeed": {
+    "name": "Насіння Відродження",
+    "description": "Спрацює якщо Покéмон знепритомніть. Відновлює ОЗ на 1/2 одиниці відроджуючи власника."
+  },
+  "whiteHerb": {
+    "name": "Біла Трава",
+    "description": "Предмет, який тримає Покемон. Відновлює будь-який знижений показник у бою. "
+  },
+  "silkScarf": {
+    "name": "Шовковий Шарф"
+  },
+  "blackBelt": {
+    "name": "Чорний Пояс"
+  },
+  "sharpBeak": {
+    "name": "Гострий Здьоб"
+  },
+  "poisonBarb": {
+    "name": "Отруйний Болт"
+  },
+  "softSand": {
+    "name": "М’яхкий Писок"
+  },
+  "hardStone": {
+    "name": "Граніт"
+  },
+  "silverPowder": {
+    "name": "Срібний Порошок"
+  },
+  "spellTag": {
+    "name": "Сувій Чар"
+  },
+  "metalCoat": {
+    "name": "Металевий Покрив"
+  },
+  "charcoal": {
+    "name": "Древесний Уголь"
+  },
+  "mysticWater": {
+    "name": "Містична Вода"
+  },
+  "miracleSeed": {
+    "name": "Чудо-Насіння"
+  },
+  "magnet": {
+    "name": "Магніт"
+  },
+  "twistedSpoon": {
+    "name": "Зігнута Ложка"
+  },
+  "neverMeltIce": {
+    "name": "Лід-Нетайка"
+  },
+  "dragonFang": {
+    "name": "Драконячий Кіготь"
+  },
+  "blackGlasses": {
+    "name": "Чорні Окуляри"
+  },
+  "fairyFeather": {
+    "name": "Перо Феї"
+  },
+  "lightBall": {
+    "name": "Світлий Шар",
+    "description": "Це таємнича куля, яка підвищує показники атаки та спеціальної атаки Пікачу."
+  },
+  "thickClub": {
+    "name": "Широка Кістка",
+    "description": "Ця тверда кістка невідомого походження підвищує показник атаки К’юбона або Маровака."
+  },
+  "metalPowder": {
+    "name": "Металева Пудра",
+    "description": "Цей дивний порошок, надзвичайно дрібний, але твердий, підвищує показник захисту Дітто."
+  },
+  "quickPowder": {
+    "name": "Пудра швидкості",
+    "description": "Завдяки цій пудрі, характеристики швидкості Дітто стають більшими"
+  },
+  "deepSeaScale": {
+    "name": "Глибоководна Луска",
+    "description": "Ця луска має слабкий рожевий відтінок і підвищує показник спеціального захисту Кламперла."
+  },
+  "deepSeaTooth": {
+    "name": "Глибоководна Зуб",
+    "description": "Ця луска має слабкий рожевий відтінок і підвищує показник спеціальної атаки Кламперла."
+  },
+  "scopeLens": {
+    "name": "Прицільна Лінза",
+    "description": "Назавжди збільшує шанс критичного удару для власника."
+  },
+  "leek": {
+    "name": "Цибуля-Порей",
+    "description": "Це дуже довге і жорстке стебло Цибулі-Порею підвищує шанс критичного удару для атак Фарфетчда"
+  },
+  "luckyEgg": {
+    "name": "Щасливе Яйце"
+  },
+  "goldenEgg": {
+    "name": "Золоте Яйце"
+  },
+  "sootheBell": {
+    "name": "Заспокійливий Дзвіночок",
+    "description": "Збільшує приріст дружби на {{boostPercent}}%."
+  },
+  "focusBand": {
+    "name": "Фокусний Пояс",
+    "description": "Додає {{chancePercent}}% шанс власнику вижити з {{hp}} ОЗ після отримання пошкоджень, достатніх для втрати свідомості."
+  },
+  "quickClaw": {
+    "name": "Швидкий Кіготь",
+    "description": "Додає {{chancePercent}}% шанс рухатися першим незалежно від швидкості (після пріоритету)."
+  },
+  "kingsRock": {
+    "name": "Королівський Кругляк",
+    "description": "Додає {{chancePercent}}% шанс, що атака змусить збити дію цілі."
+  },
+  "leftovers": {
+    "name": "Залишок",
+    "description": "Відновлює 1/{{healDenominator}} від максимального ОЗ покéмона кожного ходу."
+  },
+  "shellBell": {
+    "name": "Ракушка-Вампір ",
+    "description": "Відновлює 1/{{healDenominator}} ОЗ, завданих покéмону збитків."
+  },
+  "mysticalRock": {
+    "name": "Містичний Кругляк",
+    "description": "Продовжує тривалість впливу поля та погоди, спричиненого прийому або здібностями власника, на {{turns}} ходи."
+  },
+  "wideLens": {
+    "name": "Ширші Лінзи",
+    "description": "Збільшує точність прийому на {{accuracy}}."
+  },
+  "multiLens": {
+    "name": "Мулті-Лінзи",
+    "description": "Перетворює {{damagePercent}}% шкоди від атак власника в додатковий удар."
+  },
+  "goldenPunch": {
+    "name": "Золотий Ударник",
+    "description": "Надає {{moneyPercent}}% від завданих прямих збитків у вигляді грошей."
+  },
+  "gripClaw": {
+    "name": "Захватний Кіготь",
+    "description": "При атаці існує {{chancePercent}}% шанс, що предмет, який тримає ціль, буде вкрадений."
+  },
+  "toxicOrb": {
+    "name": "Куля Яду",
+    "description": "Це дивна куля, яка виділяє токсини при дотику і сильно отруює того, хто її тримає, під час бою."
+  },
+  "flameOrb": {
+    "name": "Куля Вогню",
+    "description": "Це дивна куля, яка виділяє тепло при дотику і під час бою завдає власникові опіків."
+  },
+  "soulDew": {
+    "name": "Роса душі",
+    "description": "Збільшує вплив характеру покемона на його характеристики на {{boostPercent}}% (адитивно)."
+  },
+  "baton": {
+    "name": "Естафета",
+    "description": "Дозволяє передавати ефекти при зміні Покéмона, що також дозволяє обходити пастки."
+  },
+  "miniBlackHole": {
+    "name": "Мині Чорна Дира.",
+    "description": "Кожен хід власник отримує один предмет, який тримає супротивник."
+  },
+  "eviolite": {
+    "name": "Евіоліт",
+    "description": "Ця загадкова еволюційна грудка підвищує показники захисту та спеціального захисту, коли її тримає Покéмон, який ще може еволюціонувати."
+  },
+  "hpUp": {
+    "name": "OЗ Плюс"
+  },
+  "protein": {
+    "name": "Білок"
+  },
+  "iron": {
+    "name": "Залізо"
+  },
+  "calcium": {
+    "name": "Кальцій"
+  },
+  "zinc": {
+    "name": "Цинк"
+  },
+  "carbos": {
+    "name": "Вуглеводи"
+  },
+  "shuckleJuiceGood": {
+    "name": "Солодкий Сік Шакла",
+    "description": "Підвищує всі базові характеристики власника. Ти отримав благословення Шакла."
+  },
+  "shuckleJuiceBad": {
+    "name": "Глілий Сік Шакла",
+    "description": "Знижує всі базові характеристики власника. Ти був проклятий Шаклом."
+  },
+  "oldGateau": {
+    "name": "Старий Гатó",
+    "description": "Підвищує деякі характеристики власника."
+  },
+  "machoBrace": {
+    "name": "Мачо-Браслет",
+    "description": "Перемога над покемоном дає його власнику один заряд. Кожен заряд трохи підвищує характеристики. Бонус при максимальній кількості зарядів."
+  },
+  "gimmighoulEvoTracker": {
+    "name": "Скарби",
+    "description": "Цей покемон обожнює скарби! Продовжуйте збирати скарби, і щось може статися!"
+  },
+  "abomasite": {
+    "name": "Абомасит"
+  },
+  "absolite": {
+    "name": "Абсоліт"
+  },
+  "aerodactylite": {
+    "name": "Аеродактиліт"
+  },
+  "aggronite": {
+    "name": "Аггроніт"
+  },
+  "alakazite": {
+    "name": "Алаказайт"
+  },
+  "altarianite": {
+    "name": "Алтаріаніт"
+  },
+  "ampharosite": {
+    "name": "Амфаросиніт"
+  },
+  "audinite": {
+    "name": "Аудініт"
+  },
+  "banettite": {
+    "name": "Банеттит"
+  },
+  "beedrillite": {
+    "name": "Бідрілліт"
+  },
+  "blastoisinite": {
+    "name": "Бластоізініт"
+  },
+  "blazikenite": {
+    "name": "Блазікеніт"
+  },
+  "cameruptite": {
+    "name": "Камеруптит"
+  },
+  "charizarditeX": {
+    "name": "Чарізардит X"
+  },
+  "charizarditeY": {
+    "name": "Чарізардит Y"
+  },
+  "diancite": {
+    "name": "Діанцит"
+  },
+  "galladite": {
+    "name": "Галладит"
+  },
+  "garchompite": {
+    "name": "Гархомпіт"
+  },
+  "gardevoirite": {
+    "name": "Гардевоірит"
+  },
+  "gengarite": {
+    "name": "Генгарит"
+  },
+  "glalitite": {
+    "name": "Глалітит"
+  },
+  "gyaradosite": {
+    "name": "Гіарадозит"
+  },
+  "heracronite": {
+    "name": "Геракроніт"
+  },
+  "houndoominite": {
+    "name": "Хаундомініт"
+  },
+  "kangaskhanite": {
+    "name": "Кангасканіт"
+  },
+  "latiasite": {
+    "name": "Латіазит"
+  },
+  "latiosite": {
+    "name": "Латіозит"
+  },
+  "lopunnite": {
+    "name": "Лопунніт"
+  },
+  "lucarionite": {
+    "name": "Лукаріоніт"
+  },
+  "manectite": {
+    "name": "Манектит"
+  },
+  "mawilite": {
+    "name": "Мавіліт"
+  },
+  "medichamite": {
+    "name": "Медічаміт"
+  },
+  "metagrossite": {
+    "name": "Метагроссит"
+  },
+  "mewtwoniteX": {
+    "name": "М’туніт X"
+  },
+  "mewtwoniteY": {
+    "name": "М’туніт Y"
+  },
+  "pidgeotite": {
+    "name": "Піджеотит"
+  },
+  "pinsirite": {
+    "name": "Пінсіріт"
+  },
+  "rayquazite": {
+    "name": "Рейквазіт"
+  },
+  "sablenite": {
+    "name": "Сабленіт"
+  },
+  "salamencite": {
+    "name": "Саламенцит"
+  },
+  "sceptilite": {
+    "name": "Септиліт"
+  },
+  "scizorite": {
+    "name": "Сцизорит"
+  },
+  "sharpedonite": {
+    "name": "Шарпедоніт"
+  },
+  "slowbronite": {
+    "name": "Слоуброніт"
+  },
+  "steelixite": {
+    "name": "Стиліксит"
+  },
+  "swampertite": {
+    "name": "Свампертит"
+  },
+  "tyranitarite": {
+    "name": "Тиранітарит"
+  },
+  "venusaurite": {
+    "name": "Венузаврит"
+  },
+  "clefablite": {
+    "name": "Клефабліт"
+  },
+  "victreebelite": {
+    "name": "Віктрибеліт"
+  },
+  "starminite": {
+    "name": "Стармініт"
+  },
+  "dragoninite": {
+    "name": "Драгонініт"
+  },
+  "meganiumite": {
+    "name": "Меганіуміт"
+  },
+  "feraligite": {
+    "name": "Фералігіт"
+  },
+  "skarmorite": {
+    "name": "Скарморит"
+  },
+  "froslassite": {
+    "name": "Фрослассіт"
+  },
+  "emboarite": {
+    "name": "Емборит"
+  },
+  "map": {
+    "name": "Мапа",
+    "description": "Дозволяє вибрати місце призначення на роздоріжжі. "
+  },
+  "ivScanner": {
+    "name": "Сканер IV",
+    "description": "Показує IV у дикого Покéмона."
+  },
+  "lockCapsule": {
+    "name": "Капсула-Блокірувач",
+    "description": "Дає можливість закріпити Рідкість предметів під час перекидання."
+  },
+  "megaBracelet": {
+    "name": "Мега Браслет",
+    "description": "Стають доступними Мегакамені та Мега-еволюції"
+  },
+  "dynamaxBand": {
+    "name": "Динамакс Браслет",
+    "description": "Макс Гриби стають доступними."
+  },
+  "teraOrb": {
+    "name": "Тера-Сфера",
+    "description": "Дозволяє вашому Покéмону Терасталізуватися. Повільно перезаряджається. Також стають доступними Тера-Осколки."
+  },
+  "goldenPokeball": {
+    "name": "Золотий Покé М’яч",
+    "description": "Додає {{count}} {{count}} додатковий слот нагороди, після битв."
+  },
+  "ovalCharm": {
+    "name": "Овальний Брелок",
+    "description": "Коли в битві беруть участь кілька покéмонів, кожен з них отримує додаткові {{boostPercent}}% від загальної кількості досвіту."
+  },
+  "expShare": {
+    "name": "Розподілювач ОД.",
+    "description": "Надає {{sharePercent}}% досвіду за кожен такий предмет Покéмонам, які не брали участі в бою"
+  },
+  "expBalance": {
+    "name": "ОД. Балансир",
+    "description": "Розподіляє досвід, отриманий у боях, на користь членів команди нижчого рівня."
+  },
+  "candyJar": {
+    "name": "Цукеркова Банка",
+    "description": "Збільшує кількість рівнів, доданих предметами «Рідкісна цукерка», на {{levels}}."
+  },
+  "berryPouch": {
+    "name": "Ягідний Мішечок",
+    "description": "Додає {{chancePercent}}% шанс, що використана ягода не буде спожита."
+  },
+  "healingCharm": {
+    "name": "Талісман-Лікувач",
+    "description": "Збільшує ефективність дій та предметів, що відновлюють ОЗ, на {{boostPercent}}% (крім Відродження)."
+  },
+  "expCharm": {
+    "name": "Амулет Досвіду"
+  },
+  "superExpCharm": {
+    "name": "Супер Амулет Досвіду"
+  },
+  "goldenExpCharm": {
+    "name": "Золотий Амулет Досвіду"
+  },
+  "amuletCoin": {
+    "name": "Амулет-Монета",
+    "description": "Збільшує грошові винагороди на {{boostPercent}}%."
+  },
+  "abilityCharm": {
+    "name": "Амулет Здібностей",
+    "description": "Збільшує шанс зустріти Покéмона з Прихованою Здібністю."
+  },
+  "shinyCharm": {
+    "name": "Амулет Близкучих",
+    "description": "Збільшує шанс зустріти Блискучого Покéмона"
+  },
+  "catchingCharm": {
+    "name": "Амулет Поїмки",
+    "description": "Збільшує шанс піймати Покéмона."
+  },
+  "blackSludge": {
+    "name": "Чорна Слиз",
+    "description": "Це мерзькая і гніла субстанція яка ваняє. Від тепер ціни в магазині будуть збільшені через жахливий запах."
+  },
+  "goldenBugNet": {
+    "name": "Золотий Сачок для Комах",
+    "description": "Наділяє власника удачею, що дозволяє частіше знаходити покемонів типу «Комахи». Має дивну вагу."
+  },
+  "lure": {
+    "name": "Приманка"
+  },
+  "superLure": {
+    "name": "Чудова Приманка"
+  },
+  "maxLure": {
+    "name": "Найкраща Приманка"
+  },
+  "xAttack": {
+    "name": "X Атака"
+  },
+  "xDefense": {
+    "name": "Х Захист"
+  },
+  "xSpAtk": {
+    "name": "Х Спец. Атк"
+  },
+  "xSpDef": {
+    "name": "Х Спец, Зах"
+  },
+  "xSpeed": {
+    "name": "Х Швидкість"
+  },
+  "xAccuracy": {
+    "name": "Х Точність"
+  },
+  "direHit": {
+    "name": "Критичні Влучання",
+    "extra": {
+      "raises": "Збільшує шанси на Критичний Удар"
+    },
+    "description": "Збільшує {{stat}} для всієї комнади на {{stages}} рівень протягом {{battleCount}} боїв."
+  },
+  "enemyDamageBooster": {
+    "name": "Жетон Шкоди",
+    "description": "Збільшує шкоду на {{boostPercent}}% за кожен жетон"
+  },
+  "enemyDamageReduction": {
+    "name": "Жетон Захисту",
+    "description": "Зменшує шкоду на {{reductionPercent}}%, за кожен жетон."
+  },
+  "enemyHeal": {
+    "name": "Жетон Лікування",
+    "description": "Лікує на {{healPercent}}% ОЗ за кожен жетон"
+  },
+  "enemyAttackPoisonChance": {
+    "name": "Жетон Отруєння"
+  },
+  "enemyAttackParalyzeChance": {
+    "name": "Жетон Паралічу"
+  },
+  "enemyAttackBurnChance": {
+    "name": "Жетон Підпалу"
+  },
+  "enemyStatusEffectHealChance": {
+    "name": "Жетон Одужання",
+    "description": "Додає {{chancePercent}}% шанс одужати від статусних ефектів."
+  },
+  "enemyEndureChance": {
+    "name": "Жетон Живучості",
+    "description": "Додає {{chancePercent}}% шанс витримати удар."
+  },
+  "enemyFusedChance": {
+    "name": "Жетон З’єднань",
+    "description": "Додає {{chancePercent}}% шансу за кожен жетон що диктй Покéмон буде з’єднаний з іншим"
+  },
+  "formChange": {
+    "description": "Змушує певних Покéмонів змінювати форму."
+  },
+  "linkingCord": {
+    "name": "З’єднувальний Шнур"
+  },
+  "sunStone": {
+    "name": "Сонячний Камінь"
+  },
+  "moonStone": {
+    "name": "Місячний Камінь"
+  },
+  "leafStone": {
+    "name": "Листовий Камінь"
+  },
+  "fireStone": {
+    "name": "Вогняний Камінь"
+  },
+  "waterStone": {
+    "name": "Водний Камінь"
+  },
+  "thunderStone": {
+    "name": "Електро-Камінь"
+  },
+  "iceStone": {
+    "name": "Ледяний Камінь"
+  },
+  "duskStone": {
+    "name": "Сутінковий Камінь"
+  },
+  "dawnStone": {
+    "name": "Камінь Світанка"
+  },
+  "shinyStone": {
+    "name": "Близкучий Камінь"
+  },
+  "crackedPot": {
+    "name": "Потрісканий Горщик"
+  },
+  "sweetApple": {
+    "name": "Солотке Яблуко"
+  },
+  "tartApple": {
+    "name": "Кисле Яблуко"
+  },
+  "strawberrySweet": {
+    "name": "Полуничні Ласощі"
+  },
+  "unremarkableTeacup": {
+    "name": "Непримітна Чашка"
+  },
+  "upgrade": {
+    "name": "Покращення"
+  },
+  "dubiousDisc": {
+    "name": "Дивний Диск"
+  },
+  "dragonScale": {
+    "name": "Луска Дракона"
+  },
+  "prismScale": {
+    "name": "Райдужна Луска"
+  },
+  "razorClaw": {
+    "name": "Гострий Кіготь"
+  },
+  "razorFang": {
+    "name": "Гострий Ікло"
+  },
+  "ovalStone": {
+    "name": "Камінь Голиш"
+  },
+  "reaperCloth": {
+    "name": "Тканина Женця"
+  },
+  "electirizer": {
+    "name": "Електризатор"
+  },
+  "magmarizer": {
+    "name": "Магмарайзер"
+  },
+  "protector": {
+    "name": "Захисник"
+  },
+  "sachet": {
+    "name": "Сашет"
+  },
+  "whippedDream": {
+    "name": "Крем Грез"
+  },
+  "syrupyApple": {
+    "name": "Сиропне Яблуко"
+  },
+  "chippedPot": {
+    "name": "Сколений Горщик"
+  },
+  "galaricaCuff": {
+    "name": "Галарична Манжета"
+  },
+  "galaricaWreath": {
+    "name": "Галарічний Вінок"
+  },
+  "auspiciousArmor": {
+    "name": "Благополучні Обладунки"
+  },
+  "maliciousArmor": {
+    "name": "Злісні Обладунки"
+  },
+  "masterpieceTeacup": {
+    "name": "Шедевральна Чайна Чашка"
+  },
+  "sunFlute": {
+    "name": "Флейта Сонця"
+  },
+  "moonFlute": {
+    "name": "Флейта Місяця"
+  },
+  "blackAugurite": {
+    "name": "Чорний Аугурит"
+  },
+  "peatBlock": {
+    "name": "Торф’яний Блок"
+  },
+  "metalAlloy": {
+    "name": "Металевий Сплав"
+  },
+  "scrollOfDarkness": {
+    "name": "Сувій Темряви"
+  },
+  "scrollOfWaters": {
+    "name": "Сувій Вод"
+  },
+  "leadersCrest": {
+    "name": "Емблема Лідера"
+  },
+  "typeAttackBooster": {
+    "description": "Збільшує силу атак типу {{type}} Покéмона на {{boostPercent}}%."
+  },
+  "pokemonExpBooster": {
+    "description": "Збільшує надбання власника ОД на {{boostPercent}}%."
+  },
+  "vitamin": {
+    "description": "Збільшує базовий показник {{stat}} Покéмона на {{boostPercent}}%. Чим вищі IV, тим вищий ліміт накопичення."
+  },
+  "expBooster": {
+    "description": "Збільшує надбання ОД. на {{boostPercent}}%."
+  },
+  "doubleBattleChanceBooster": {
+    "description": "Вчетверо збільшує ймовірність того, що зустрічі будуть являтися подвійними битвами, до {{battleCount}} битв."
+  },
+  "tempStatStageBooster": {
+    "description": "Збільшує {{stat}} для всієї комнади на {{boostPercent}}% протягом {{battleCount}} боїв."
+  },
+  "enemyAttackStatusEffectChance": {
+    "description": "Додає {{chancePercent}}% шанс нанести {{statusEffect}} атакуючими прийомами."
+  }
+}
