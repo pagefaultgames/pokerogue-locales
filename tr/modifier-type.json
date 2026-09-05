@@ -1,22 +1,160 @@
 {
   "ModifierType": {
+    "AddPokeballModifierType": {
+      "name": "{{modifierCount}}× {{pokeballName}}",
+      "description": "{{modifierCount}} tane {{pokeballName}} al. (Envanter: {{pokeballAmount}})\nYakalama Şansı: {{catchRate}}"
+    },
+    "AddVoucherModifierType": {
+      "name": "{{modifierCount}}× {{voucherTypeName}}",
+      "description": "{{modifierCount}} tane {{voucherTypeName}} al."
+    },
+    "PokemonHeldItemModifierType": {
+      "extra": {
+        "inoperable": "{{pokemonName}} bu eşyayı\nalamaz!",
+        "tooMany": "{{pokemonName}} buna fazlasıyla\nsahip!"
+      }
+    },
+    "PokemonHpRestoreModifierType": {
+      "description": "Hangisinin daha yüksek olduğuna göre bir Pokémon’un canını {{restorePoints}} SP veya %{{restorePercent}} SP yeniler.",
+      "extra": {
+        "fully": "Bir Pokémon’un SP’sini tamamen yeniler.",
+        "fullyWithStatus": "Bir Pokémon’un SP’sini tamamen yeniler ve durum etkilerini iyileştirir."
+      }
+    },
+    "PokemonReviveModifierType": {
+      "description": "Bir Pokémon’u canlandırır ve SP’sini %{{restorePercent}} yeniler."
+    },
+    "PokemonStatusHealModifierType": {
+      "description": "Bir Pokémon’un durum etkilerini iyileştirir."
+    },
+    "PokemonPpRestoreModifierType": {
+      "description": "Bir Pokémon hareketi için {{restorePoints}} GP yeniler.",
+      "extra": {
+        "fully": "Bir Pokémon hareketi için tüm GP’yi yeniler."
+      }
+    },
+    "PokemonAllMovePpRestoreModifierType": {
+      "description": "Bir Pokémon’un tüm hareketleri için {{restorePoints}} GP yeniler.",
+      "extra": {
+        "fully": "Bir Pokémon’un tüm hareketleri için tüm GP'yi yeniler."
+      }
+    },
+    "PokemonPpUpModifierType": {
+      "description": "Her 5 maksimum GP için bir Pokémon hareketinin GP’sini kalıcı olarak {{upPoints}} artırır (maksimum 3)."
+    },
+    "PokemonNatureChangeModifierType": {
+      "name": "{{natureName}} Nanesi",
+      "description": "Bir Pokémon’un doğasını {{natureName}} ile değiştirir ve o Starter için doğayı kalıcı olarak açar."
+    },
+    "DoubleBattleChanceBoosterModifierType": {
+      "description": "{{battleCount}} maç boyunca karşılaşmalarının çifte savaş olma ihtimalini dörtle çarpar."
+    },
+    "TempStatStageBoosterModifierType": {
+      "description": "Tüm ekip üyelerinin {{stat}} değerini 5 maç boyunca {{amount}} artırır.",
+      "extra": {
+        "stage": "1 aşama",
+        "percentage": "%20"
+      }
+    },
+    "AttackTypeBoosterModifierType": {
+      "description": "Bir Pokémon’un {{moveType}} türü hareketlerinin gücünü %20 artırır."
+    },
+    "PokemonLevelIncrementModifierType": {
+      "description": "Bir Pokémon’un seviyesini {{levels}} artırır."
+    },
+    "AllPokemonLevelIncrementModifierType": {
+      "description": "Tüm ekip üyelerinin seviyesini {{levels}} artırır."
+    },
+    "BaseStatBoosterModifierType": {
+      "description": "Kuşananın temel {{stat}} değerini %10 artırır. IV ne kadar yüksekse, birikme limiti o kadar artar."
+    },
+    "PokemonBaseStatFlatModifierType": {
+      "name": "Eski Pasta",
+      "description": "Kuşananın {{stats}} değerini {{statValue}} artırır. Garip bir rüyadan sonra bulunur."
+    },
+    "AllPokemonFullHpRestoreModifierType": {
+      "description": "Tüm Pokémonların SP değerini %100 yeniler."
+    },
+    "AllPokemonFullReviveModifierType": {
+      "description": "Tüm bayılmış Pokémonları canlarını tamamen yenileyerek diriltir."
+    },
+    "MoneyRewardModifierType": {
+      "description": "{{moneyMultiplier}} miktarda para verir ({{moneyAmount}}₽).",
+      "extra": {
+        "small": "küçük",
+        "moderate": "makul",
+        "large": "büyük"
+      }
+    },
+    "ExpBoosterModifierType": {
+      "description": "Tecrübe Puanlarının kazanımını %{{boostPercent}} artırır."
+    },
+    "PokemonExpBoosterModifierType": {
+      "description": "Kuşananın Tecrübe Puanı kazanımını %{{boostPercent}} artırır."
+    },
+    "PokemonFriendshipBoosterModifierType": {
+      "description": "Arkadaşlık kazanımını %50 artırır."
+    },
+    "PokemonMoveAccuracyBoosterModifierType": {
+      "description": "Hareket isabetliliğini {{accuracyAmount}} artırır."
+    },
+    "PokemonMultiHitModifierType": {
+      "description": "Kuşananın saldırılarından verilen hasarın %25’ini ilave bir vuruşa çevirir."
+    },
     "TmModifierType": {
-      "name": "TM{{moveId}} - {{moveName}}"
+      "name": "TM{{moveId}} - {{moveName}}",
+      "description": "Bir Pokémon’a {{moveName}} öğret."
     },
     "TmModifierTypeWithInfo": {
-      "name": "TM{{moveId}} - {{moveName}}"
+      "name": "TM{{moveId}} - {{moveName}}",
+      "description": "Bir Pokémon’a {{moveName}} öğret\n(Daha fazla bilgi için C veya Shift tuşuna basılı tut)."
+    },
+    "EvolutionItemModifierType": {
+      "description": "Belli Pokémonların evrilmesini sağlar."
+    },
+    "FormChangeItemModifierType": {
+      "description": "Belli Pokémonların form değişmesini sağlar."
+    },
+    "FusePokemonModifierType": {
+      "description": "İki Pokémon’u birleştirir (Yetenek aktarılır, temel istatistikler ve türler bölüştürülür, hareket havuzu paylaşılır)."
+    },
+    "TerastallizeModifierType": {
+      "name": "{{teraType}} Tera Parçası",
+      "description": "Pokémon’un Tera türünü {{teraType}} ile değiştirir."
+    },
+    "ContactHeldItemTransferChanceModifierType": {
+      "description": "Kullanıcı, saldırdığında %{{chancePercent}} şansla düşmanın eşyasını çalar."
+    },
+    "TurnHeldItemTransferModifierType": {
+      "description": "Kuşanan, düşmandan her tur bir eşya çalar."
+    },
+    "EnemyAttackStatusEffectChanceModifierType": {
+      "description": "Saldırı sırasında düşmana {{statusEffect}} verme ihtimaline %{{chancePercent}} ekler."
+    },
+    "EnemyEndureChanceModifierType": {
+      "description": "Gelen vuruşlara karşı %{{chancePercent}} dayanma ihtimali ekler."
     },
     "RARE_CANDY": {
       "name": "Nadir Şeker"
     },
+    "RARER_CANDY": {
+      "name": "Daha Nadir Şeker"
+    },
     "MEGA_BRACELET": {
-      "name": "Mega Bilekliği"
+      "name": "Mega Bileklik",
+      "description": "Mega Taşlar karşına çıkabilir hale gelir."
     },
     "DYNAMAX_BAND": {
-      "name": "Dinamaks Bilekliği"
+      "name": "Dinamaks Bilekliği",
+      "description": "Maksi Mantarlar karşına çıkabilir hale gelir."
+    },
+    "TERA_ORB": {
+      "name": "Tera Küresi",
+      "description": "Pokémon’unun Terasallaşmasına izin verir. Yeniden dolması zaman alır. Tera Parçaları karşına çıkabilir hale gelir."
     },
     "MAP": {
-      "name": "Harita"
+      "name": "Harita",
+      "description": "Dönüm noktalarında istikametini seçmene izin verir."
     },
     "POTION": {
       "name": "İksir"
@@ -45,8 +183,13 @@
     "SACRED_ASH": {
       "name": "Kutsal Kül"
     },
+    "REVIVER_SEED": {
+      "name": "Canlandırıcı Tohum",
+      "description": "Direkt gelen bir vuruştan bayılan kuşananı %50 SP ile anında canlandırır."
+    },
     "WHITE_HERB": {
-      "name": "Beyaz Ot"
+      "name": "Beyaz Ot",
+      "description": "Pokémon eşyası. Maç esnasında azaltılmış istatistikleri iyileştirir."
     },
     "ETHER": {
       "name": "Eter"
@@ -61,22 +204,75 @@
       "name": "Maks. Eliksir"
     },
     "PP_UP": {
-      "name": "GP Arttırıcı"
+      "name": "GP Artırıcı"
     },
     "PP_MAX": {
       "name": "Maks. GP"
     },
+    "LURE": {
+      "name": "Yem"
+    },
+    "SUPER_LURE": {
+      "name": "Süper Yem"
+    },
+    "MAX_LURE": {
+      "name": "Maks. Yem"
+    },
+    "MEMORY_MUSHROOM": {
+      "name": "Hatırlama Mantarı",
+      "description": "Bir Pokémon’un unuttuğu hareketi ona geri hatırlat."
+    },
     "EXP_SHARE": {
-      "name": "Tecrübe Paylaştırıcı"
+      "name": "Tecrübe Paylaştırıcı",
+      "description": "Maça katılmayanlar, katılanların herhangi birinin %20’si kadar TP kazanır."
+    },
+    "EXP_BALANCE": {
+      "name": "Tecrübe Dengeleyici",
+      "description": "Maçlardan kazanılan TP’yi, düşük seviyeli ekip üyelerine daha fazla ağırlık vererek dağıtır."
+    },
+    "OVAL_CHARM": {
+      "name": "Oval Tılsım",
+      "description": "Bir maça birden fazla Pokémon katıldığında, ilaveten her biri toplam TP’nin %10’unu alır."
+    },
+    "EXP_CHARM": {
+      "name": "Tecrübe Tılsımı"
+    },
+    "SUPER_EXP_CHARM": {
+      "name": "Süper Tecrübe Tılsımı"
+    },
+    "GOLDEN_EXP_CHARM": {
+      "name": "Altın Tecrübe Tılsımı"
     },
     "LUCKY_EGG": {
       "name": "Şans Yumurtası"
     },
+    "GOLDEN_EGG": {
+      "name": "Altın Yumurta"
+    },
+    "SOOTHE_BELL": {
+      "name": "Dinginlik Çanı"
+    },
+    "SCOPE_LENS": {
+      "name": "Dürbün Merceği",
+      "description": "Zayıf noktaları tespit etmeye yarayan bir mercektir. Kuşananın kritik vuruş şansını yükseltir."
+    },
     "DIRE_HIT": {
-      "name": "Kri-Vuruş"
+      "name": "Sert Vuruş",
+      "extra": {
+        "raises": "Kritik Vuruş Şansı"
+      }
+    },
+    "LEEK": {
+      "name": "Pırasa",
+      "description": "Bu upuzun ve semsert pırasa sapı, Farfetch’d’in kritik vuruş şansını yükseltir."
+    },
+    "EVIOLITE": {
+      "name": "Evrolit",
+      "description": "Bu gizemli evrimsel yumru, hala evrilebilen bir Pokémon tarafından kuşanıldığında Savunma ve Öz. Sav. değerlerini yükseltir."
     },
     "SOUL_DEW": {
-      "name": "Ruh Damlası"
+      "name": "Ruh Çiyi",
+      "description": "Pokémon’un doğasının, istatistikleri üzerine olan etkisini %10 artırır (ilaveten)."
     },
     "NUGGET": {
       "name": "Külçe"
@@ -84,67 +280,201 @@
     "BIG_NUGGET": {
       "name": "Büyük Külçe"
     },
+    "RELIC_GOLD": {
+      "name": "Yadigâr Altın"
+    },
     "AMULET_COIN": {
-      "name": "Para Tıksımı"
+      "name": "Para Muskası",
+      "description": "Para ödüllerini %20 artırır."
+    },
+    "GOLDEN_PUNCH": {
+      "name": "Altın Yumruk",
+      "description": "Doğrudan verilen hasarın %50 kadarı para kazandırır."
     },
     "COIN_CASE": {
-      "name": "Jeton Kasası"
+      "name": "Para Kasası",
+      "description": "Her 10 maçta bir toplam paranın %10’u kadar faiz al."
+    },
+    "LOCK_CAPSULE": {
+      "name": "Kilit Kapsülü",
+      "description": "Eşyaları yenilerken eşya nadirliklerini kilitlemene izin verir."
     },
     "GRIP_CLAW": {
       "name": "Kavrama Pençesi"
     },
     "WIDE_LENS": {
-      "name": "Geniş Lens"
+      "name": "Geniş Mercek"
+    },
+    "MULTI_LENS": {
+      "name": "Çoklu Mercek"
+    },
+    "HEALING_CHARM": {
+      "name": "İyileşme Tılsımı",
+      "description": "SP yenileme hareketlerinin ve eşyalarının verimliliğini %10 artırır (Canlandırmaları kapsamaz)."
+    },
+    "CANDY_JAR": {
+      "name": "Şeker Kavanozu",
+      "description": "Nadir Şeker eşyalarının eklediği seviyeyi 1 artırır."
     },
     "BERRY_POUCH": {
-      "name": "Meyve Kesesi"
+      "name": "Meyve Kesesi",
+      "description": "Yenilen meyvenin tüketilmeme ihtimaline %30 ekler."
     },
     "FOCUS_BAND": {
-      "name": "Odaklanma Bandı"
+      "name": "Odaklanma Bandı",
+      "description": "Bayılacak kadar hasar aldığında 1 SP ile hayatta kalma ihtimaline %10 ekler."
     },
     "QUICK_CLAW": {
-      "name": "Hızlı Pençe"
+      "name": "Tez Pençe",
+      "description": "Hızdan bağımsız ilk hareket etme ihtimaline %10 ekler (önceliklerden sonra)."
     },
     "KINGS_ROCK": {
-      "name": "Kral Kayası"
+      "name": "Kral Kayası",
+      "description": "Saldırının rakibi irkiltme ihtimaline %10 ekler."
     },
     "LEFTOVERS": {
-      "name": "Kalıntılar"
+      "name": "Artıklar",
+      "description": "Her tur Pokémon’un maksimum canının 1/16’sını yeniler."
     },
     "SHELL_BELL": {
-      "name": "Kabuk Çanı"
+      "name": "Kabuk Çanı",
+      "description": "Pokémon’un vurduğu hasarın 1/8’i kadar can yeniler."
     },
     "TOXIC_ORB": {
-      "name": "Zehirli Küre"
+      "name": "Zehirli Küre",
+      "description": "Dokunulduğunda toksin salgılayan ve maç sırasında kuşananı ağır biçimde zehirleyen garip bir küre."
     },
     "FLAME_ORB": {
-      "name": "Alev Küresi"
+      "name": "Alev Küresi",
+      "description": "Dokunulduğunda ısı salgılayan ve maç sırasında kuşananı aleve veren garip bir küre."
+    },
+    "MYSTICAL_ROCK": {
+      "name": "Mistik Kaya",
+      "description": "Kuşananın hareketlerinden veya yeteneklerinden dolayı oluşan arazi ve hava durumu olaylarının süresini 2 tur uzatır."
+    },
+    "EVOLUTION_TRACKER_GIMMIGHOUL": {
+      "name": "Hazineler",
+      "description": "Bu Pokémon hazineyi seviyor! Toplamaya devam et ve ne olacağını gör!"
+    },
+    "EVOLUTION_TRACKER_PRIMEAPE": {
+      "name": "Öfke Yumruğu",
+      "description": "Primeape, öfkesi fiziksel formunun sınırlarını aşınca evrimleşir!\nÖfke Yumruğu saldırısını kullanarak öfkesini artır!"
+    },
+    "EVOLUTION_TRACKER_STANTLER": {
+      "name": "Psikalkan Darbesi",
+      "description": "Stantler, zorlu ortamlara adapte olmak için evrimleşir. Psikalkan Darbesi saldırısını kullanarak savunmasını güçlendir!"
+    },
+    "BATON": {
+      "name": "Değnek",
+      "description": "Pokémon değişirken etkilerin aktarılmasını sağlar ve tuzakları bertaraf eder."
+    },
+    "SHINY_CHARM": {
+      "name": "Parlak Tılsımı",
+      "description": "Yabani Pokémonların parlak olarak belirme ihtimalini önemli ölçüde artırır."
+    },
+    "ABILITY_CHARM": {
+      "name": "Yetenek Tılsımı",
+      "description": "Yabani Pokémonların gizli yetenek sahibi olma ihtimalini önemli ölçüde artırır."
+    },
+    "CATCHING_CHARM": {
+      "name": "Yakalama Tılsımı",
+      "description": "Kritik yakalama gerçekleşme şansını artırır."
+    },
+    "IV_SCANNER": {
+      "name": "IV Tarayıcı",
+      "description": "Yabani Pokémonların IV’sini taramayı etkinleştirir."
+    },
+    "DNA_SPLICERS": {
+      "name": "DNA Birleştirici"
+    },
+    "MINI_BLACK_HOLE": {
+      "name": "Mini Kara Delik"
+    },
+    "GOLDEN_POKEBALL": {
+      "name": "Altın Poké Topu",
+      "description": "Her maçın sonunda ilaveten 1 eşya seçeneği ekler."
+    },
+    "ENEMY_DAMAGE_BOOSTER": {
+      "name": "Hasar Jetonu",
+      "description": "Hasarı %5 artırır."
+    },
+    "ENEMY_DAMAGE_REDUCTION": {
+      "name": "Koruma Jetonu",
+      "description": "Gelen hasarı %2,5 azaltır."
+    },
+    "ENEMY_HEAL": {
+      "name": "İyileşme Jetonu",
+      "description": "Her tur maks. SP’nin %2’sini iyileştirir."
+    },
+    "ENEMY_ATTACK_POISON_CHANCE": {
+      "name": "Zehir Jetonu"
+    },
+    "ENEMY_ATTACK_PARALYZE_CHANCE": {
+      "name": "Felç Jetonu"
+    },
+    "ENEMY_ATTACK_BURN_CHANCE": {
+      "name": "Yakma Jetonu"
+    },
+    "ENEMY_STATUS_EFFECT_HEAL_CHANCE": {
+      "name": "Tam Şifa Jetonu",
+      "description": "Her tur için durum etkilerinden iyileşme ihtimaline %2,5 ekler."
+    },
+    "ENEMY_ENDURE_CHANCE": {
+      "name": "Dayanma Jetonu"
+    },
+    "ENEMY_FUSED_CHANCE": {
+      "name": "Füzyon Jetonu",
+      "description": "Yabani Pokémon’un füzyonlu olma ihtimaline 1% ekler."
+    },
+    "MYSTERY_ENCOUNTER_SHUCKLE_JUICE_GOOD": {
+      "name": "Tatlı Shuckle Suyu",
+      "description": "Kuşananın tüm temel istatistiklerini artırır. Shuckle tarafından kutsandın."
+    },
+    "MYSTERY_ENCOUNTER_SHUCKLE_JUICE_BAD": {
+      "name": "Bozuk Shuckle Suyu",
+      "description": "Kuşananın tüm temel istatistiklerini azaltır. Shuckle tarafından lanetlendin."
     },
     "MYSTERY_ENCOUNTER_BLACK_SLUDGE": {
-      "name": "Kara Balçık"
+      "name": "Kara Balçık",
+      "description": "Kokusu o kadar ağır ki kokuyu alan marketler sana eşyaları çok daha pahalıya satar."
     },
     "MYSTERY_ENCOUNTER_MACHO_BRACE": {
-      "name": "Maçobileklik"
+      "name": "Maçobileklik",
+      "description": "Pokémon yenmek kuşanana bir yük kazandırır. Her yük istatistikleri biraz yükseltir. Maks. yük bonus verir."
+    },
+    "MYSTERY_ENCOUNTER_OLD_GATEAU": {
+      "name": "Eski Pasta",
+      "description": "Kuşananın istatistiklerinin bazılarını yükseltir."
+    },
+    "MYSTERY_ENCOUNTER_GOLDEN_BUG_NET": {
+      "name": "Altın Böcek Ağı",
+      "description": "Kullanıcının daha sık Böcek Türü Pokémon bulmasını sağlar. Tuhaf bir ağırlığı var."
     }
   },
   "SpeciesBoosterItem": {
     "LIGHT_BALL": {
-      "name": "Işık Topu"
+      "name": "Işık Topu",
+      "description": "Pikachu’nun Saldırı ve Öz. Sal. değerlerini yükselten gizemli bir küre."
     },
     "THICK_CLUB": {
-      "name": "Kalın Kemik"
+      "name": "Kalın Kemik",
+      "description": "Kökeni bilinmeyen bu sert kemik, Cubone ve Marowak’ın Saldırı değerini artırır."
     },
     "METAL_POWDER": {
-      "name": "Metal Tozu"
+      "name": "Metal Tozu",
+      "description": "Aşırı ince fakat sert olan bu tuhaf toz Ditto’nun Savunma değerini yükseltir."
     },
     "QUICK_POWDER": {
-      "name": "Çabuk Tozu"
+      "name": "Tezlik Tozu",
+      "description": "Aşırı ince fakat sert olan bu tuhaf toz Ditto’nun Hız değerini yükseltir."
     },
     "DEEP_SEA_SCALE": {
-      "name": "Derin Deniz Pulu"
+      "name": "Derin Deniz Pulu",
+      "description": "Bu pul soluk pembe renkte parlar ve Clamperl’ün Öz. Sav. değerini yükseltir."
     },
     "DEEP_SEA_TOOTH": {
-      "name": "Derin Deniz Dişi"
+      "name": "Derin Deniz Dişi",
+      "description": "Bu diş keskin gümüş renkte parlar ve Clamperl’ün Öz. Sal. değerini yükseltir."
     }
   },
   "TempStatStageBoosterItem": {
@@ -172,42 +502,223 @@
     "twisted_spoon": "Bükülmüş Kaşık",
     "never_melt_ice": "Erimez Buz",
     "dragon_fang": "Ejderha Dişi",
-    "black_glasses": "Siyah Gözlük"
+    "black_glasses": "Siyah Gözlük",
+    "fairy_feather": "Peri Tüyü"
   },
   "BaseStatBoosterItem": {
-    "hp_up": "SV Arttırıcı",
+    "hp_up": "SP Artırıcı",
     "protein": "Protein",
     "iron": "Demir",
     "calcium": "Kalsiyum",
     "zinc": "Çinko",
-    "carbos": "Karbon"
+    "carbos": "Karbonhidratlar"
   },
   "EvolutionItem": {
+    "NONE": "Hiçbiri",
+    "LINKING_CORD": "Bağlantı Kablosu",
     "SUN_STONE": "Güneş Taşı",
     "MOON_STONE": "Ay Taşı",
     "LEAF_STONE": "Yaprak Taşı",
     "FIRE_STONE": "Ateş Taşı",
     "WATER_STONE": "Su Taşı",
     "THUNDER_STONE": "Yıldırım Taşı",
+    "ICE_STONE": "Buz Taşı",
+    "DUSK_STONE": "Alacakaranlık Taşı",
     "DAWN_STONE": "Şafak Taşı",
     "SHINY_STONE": "Parlak Taş",
+    "CRACKED_POT": "Kırık Demlik",
+    "SWEET_APPLE": "Tatlı Elma",
+    "TART_APPLE": "Ekşi Elma",
+    "STRAWBERRY_SWEET": "Çilek Tatlısı",
+    "UNREMARKABLE_TEACUP": "Alelade Fincan",
     "UPGRADE": "Geliştirme",
     "DUBIOUS_DISC": "Şüpheli Disk",
     "DRAGON_SCALE": "Ejderha Pulu",
     "PRISM_SCALE": "Prizma Pulu",
     "RAZOR_CLAW": "Jilet Pençesi",
     "RAZOR_FANG": "Jilet Dişi",
-    "REAPER_CLOTH": "Orak Bezi",
-    "ELECTIRIZER": "Electirizer",
-    "MAGMARIZER": "Magmarizer",
-    "PROTECTOR": "Koruyucu"
+    "OVAL_STONE": "Oval Taş",
+    "REAPER_CLOTH": "Azrail Kumaşı",
+    "ELECTIRIZER": "Elektrikleyici",
+    "MAGMARIZER": "Magmalayıcı",
+    "PROTECTOR": "Koruyucu",
+    "SACHET": "Kese",
+    "WHIPPED_DREAM": "Çırpılmış Rüya",
+    "LEADERS_CREST": "Liderin Arması",
+    "SUN_FLUTE": "Güneş Flütü",
+    "MOON_FLUTE": "Ay Flütü",
+    "CHIPPED_POT": "Çatlak Demlik",
+    "BLACK_AUGURITE": "Kara Augurit",
+    "GALARICA_CUFF": "Galarika Bilekliği",
+    "GALARICA_WREATH": "Galarika Tacı",
+    "PEAT_BLOCK": "Turba Bloğu",
+    "AUSPICIOUS_ARMOR": "Uğurlu Zırh",
+    "MALICIOUS_ARMOR": "Kötücül Zırh",
+    "MASTERPIECE_TEACUP": "Şaheser Fincan",
+    "METAL_ALLOY": "Metal Alaşım",
+    "SCROLL_OF_DARKNESS": "Karanlık Parşömeni",
+    "SCROLL_OF_WATERS": "Suların Parşömeni",
+    "SYRUPY_APPLE": "Şuruplu Elma"
   },
   "FormChangeItem": {
+    "NONE": "Hiçbiri",
+    "ABOMASITE": "Abomasit",
+    "ABSOLITE": "Absolit",
+    "AERODACTYLITE": "Aerodactylit",
+    "AGGRONITE": "Aggronit",
+    "ALAKAZITE": "Alakazit",
+    "ALTARIANITE": "Altarianit",
+    "AMPHAROSITE": "Ampharosit",
+    "AUDINITE": "Audinit",
+    "BANETTITE": "Banettit",
+    "BEEDRILLITE": "Beedrillit",
+    "BLASTOISINITE": "Blastoisinit",
+    "BLAZIKENITE": "Blazikenit",
+    "CAMERUPTITE": "Cameruptit",
+    "CHARIZARDITE_X": "Charizardit X",
+    "CHARIZARDITE_Y": "Charizardit Y",
+    "DIANCITE": "Diancit",
+    "GALLADITE": "Galladit",
+    "GARCHOMPITE": "Garchompit",
+    "GARDEVOIRITE": "Gardevoirit",
+    "GENGARITE": "Gengarit",
+    "GLALITITE": "Glalitit",
+    "GYARADOSITE": "Gyaradosit",
+    "HERACRONITE": "Heracronit",
+    "HOUNDOOMINITE": "Houndoominit",
+    "KANGASKHANITE": "Kangaskhanit",
+    "LATIASITE": "Latiasit",
+    "LATIOSITE": "Latiosit",
+    "LOPUNNITE": "Lopunnit",
+    "LUCARIONITE": "Lucarionit",
+    "MANECTITE": "Manectit",
+    "MAWILITE": "Mawilit",
+    "MEDICHAMITE": "Medichamit",
+    "METAGROSSITE": "Metagrossit",
+    "MEWTWONITE_X": "Mewtwonit X",
+    "MEWTWONITE_Y": "Mewtwonit Y",
+    "PIDGEOTITE": "Pidgeotit",
+    "PINSIRITE": "Pinsirit",
+    "RAYQUAZITE": "Rayquazit",
+    "SABLENITE": "Sablenit",
+    "SALAMENCITE": "Salamencit",
+    "SCEPTILITE": "Sceptilit",
+    "SCIZORITE": "Scizorit",
+    "SHARPEDONITE": "Sharpedonit",
+    "SLOWBRONITE": "Slowbronit",
+    "STEELIXITE": "Steelixit",
+    "SWAMPERTITE": "Swampertit",
+    "TYRANITARITE": "Tyranitarit",
+    "VENUSAURITE": "Venusaurit",
+    "CLEFABLITE": "Clefablit",
+    "VICTREEBELITE": "Victreebelit",
+    "STARMINITE": "Starminit",
+    "DRAGONINITE": "Dragoninit",
+    "MEGANIUMITE": "Meganiumit",
+    "FERALIGITE": "Feraligit",
+    "SKARMORITE": "Skarmorit",
+    "FROSLASSITE": "Froslassit",
+    "EMBOARITE": "Emboarit",
+    "EXCADRITE": "Excadrit",
+    "SCOLIPITE": "Scolipit",
+    "SCRAFTINITE": "Scraftinit",
+    "EELEKTROSSITE": "Eelektrossit",
+    "CHANDELURITE": "Chandelurit",
+    "CHESNAUGHTITE": "Chesnaughtit",
+    "DELPHOXITE": "Delphoxit",
+    "GRENINJITE": "Greninjit",
+    "PYROARITE": "Pyroarit",
+    "FLOETTITE": "Floettit",
+    "MALAMARITE": "Malamarit",
+    "BARBARACITE": "Barbaracit",
+    "DRAGALGITE": "Dragalgit",
+    "HAWLUCHANITE": "Hawluchanit",
+    "ZYGARDITE": "Zygardit",
+    "DRAMPANITE": "Drampanit",
+    "FALINKSITE": "Falinksit",
+    "HEATRANITE": "Heatranit",
+    "DARKRANITE": "Darkranit",
+    "ZERAORITE": "Zeraorit",
+    "RAICHUNITE_X": "Raichunit X",
+    "RAICHUNITE_Y": "Raichunit Y",
+    "CHIMECHITE": "Chimechit",
+    "ABSOLITE_Z": "Absolit Z",
+    "STARAPTITE": "Staraptit",
+    "GARCHOMPITE_Z": "Garchompit Z",
+    "LUCARIONITE_Z": "Lucarionit Z",
+    "GOLURKITE": "Golurkit",
+    "MEOWSTICITE": "Meowsticit",
+    "CRABOMINITE": "Crabominit",
+    "GOLISOPITE": "Golisopit",
+    "MAGEARNITE": "Magearnit",
+    "SCOVILLAINITE": "Scovillainit",
+    "BAXCALIBRITE": "Baxcalibrit",
+    "TATSUGIRINITE": "Tatsugirinit",
+    "GLIMMORANITE": "Glimmoranit",
     "BLUE_ORB": "Mavi Küre",
     "RED_ORB": "Kızıl Küre",
-    "SHOCK_DRIVE": "Şok Sürücüsü",
-    "BURN_DRIVE": "Ateş Sürücüsü",
-    "CHILL_DRIVE": "Buz Sürücüsü",
-    "DOUSE_DRIVE": "Su Sürücüsü"
+    "SHARP_METEORITE": "Keskin Göktaşı",
+    "HARD_METEORITE": "Sert Göktaşı",
+    "SMOOTH_METEORITE": "Pürüzsüz Göktaşı",
+    "ADAMANT_CRYSTAL": "Sert Kristal",
+    "LUSTROUS_GLOBE": "Parlak Küre",
+    "GRISEOUS_CORE": "Gri Çekirdek",
+    "REVEAL_GLASS": "Gösteren Cam",
+    "GRACIDEA": "Gracidea",
+    "MAX_MUSHROOMS": "Maksi Mantarlar",
+    "DARK_STONE": "Karanlık Taşı",
+    "LIGHT_STONE": "Aydınlık Taşı",
+    "PRISON_BOTTLE": "Hapis Şişesi",
+    "N_LUNARIZER": "Necroluna",
+    "N_SOLARIZER": "Necrosol",
+    "RUSTED_SWORD": "Paslı Kılıç",
+    "RUSTED_SHIELD": "Paslı Kalkan",
+    "ICY_REINS_OF_UNITY": "Buzlu Birliktelik Dizginleri",
+    "SHADOW_REINS_OF_UNITY": "Gölgeli Birliktelik Dizginleri",
+    "WELLSPRING_MASK": "Saf Pınar Maskesi",
+    "HEARTHFLAME_MASK": "Ocak Ateşi Maskesi",
+    "CORNERSTONE_MASK": "Temel Taşı Maskesi",
+    "SHOCK_DRIVE": "Şok Modülü",
+    "BURN_DRIVE": "Yakma Modülü",
+    "CHILL_DRIVE": "Dondurma Modülü",
+    "DOUSE_DRIVE": "Islatma Modülü",
+    "ULTRANECROZIUM_Z": "Ultranecrozium Z",
+    "FIST_PLATE": "Yumruk Plakası",
+    "SKY_PLATE": "Gök Plakası",
+    "TOXIC_PLATE": "Toksin Plakası",
+    "EARTH_PLATE": "Kara Plakası",
+    "STONE_PLATE": "Taş Plakası",
+    "INSECT_PLATE": "Haşere Plakası",
+    "SPOOKY_PLATE": "Hortlak Plakası",
+    "IRON_PLATE": "Demir Plakası",
+    "FLAME_PLATE": "Alev Plakası",
+    "SPLASH_PLATE": "Şapırtı Plakası",
+    "MEADOW_PLATE": "Çayır Plakası",
+    "ZAP_PLATE": "Çarpma Plakası",
+    "MIND_PLATE": "Zihin Plakası",
+    "ICICLE_PLATE": "Buzul Plakası",
+    "DRACO_PLATE": "Ejder Plakası",
+    "DREAD_PLATE": "Dehşet Plakası",
+    "PIXIE_PLATE": "Sihir Plakası",
+    "BLANK_PLATE": "Boş Plaka",
+    "LEGEND_PLATE": "Efsane Plaka",
+    "FIGHTING_MEMORY": "Dövüşçü Belleği",
+    "FLYING_MEMORY": "Uçuş Belleği",
+    "POISON_MEMORY": "Zehir Belleği",
+    "GROUND_MEMORY": "Yer Belleği",
+    "ROCK_MEMORY": "Kaya Belleği",
+    "BUG_MEMORY": "Böcek Belleği",
+    "GHOST_MEMORY": "Hayalet Belleği",
+    "STEEL_MEMORY": "Çelik Belleği",
+    "FIRE_MEMORY": "Ateş Belleği",
+    "WATER_MEMORY": "Su Belleği",
+    "GRASS_MEMORY": "Çimen Belleği",
+    "ELECTRIC_MEMORY": "Elektrik Belleği",
+    "PSYCHIC_MEMORY": "Psişik Belleği",
+    "ICE_MEMORY": "Buz Belleği",
+    "DRAGON_MEMORY": "Ejderha Belleği",
+    "DARK_MEMORY": "Karanlık Belleği",
+    "FAIRY_MEMORY": "Peri Belleği",
+    "NORMAL_MEMORY": "Normal Bellek"
   }
 }

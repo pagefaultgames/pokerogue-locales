@@ -1,0 +1,15 @@
+{
+  "include": ["**/*.mts", ".github/**/*.mts"],
+  "compilerOptions": {
+    "module": "nodenext",
+    "target": "esnext",
+    "types": ["node"],
+    "strict": true,
+    "useUnknownInCatchVariables": false,
+    "erasableSyntaxOnly": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    // Node needs the .ts extensions to run properly
+    "allowImportingTsExtensions": true
+  }
+}

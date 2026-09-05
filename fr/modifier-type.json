@@ -15,7 +15,7 @@
       }
     },
     "PokemonHpRestoreModifierType": {
-      "description": "Restaure {{restorePoints}} PV ou {{restorePercent}}% des PV totaux d’un Pokémon, en fonction duquel des deux est le plus élevé.",
+      "description": "Restaure {{restorePoints}} PV ou {{restorePercent}}% des PV max d’un Pokémon, en fonction duquel des deux est le plus élevé.",
       "extra": {
         "fully": "Restaure tous les PV d’un Pokémon.",
         "fullyWithStatus": "Restaure tous les PV d’un Pokémon et soigne tous ses problèmes de statut."
@@ -53,7 +53,7 @@
       "description": "Augmente {{amount}} {{stat}} de toute l’équipe pendant 5 combats.",
       "extra": {
         "stage": "d’un cran",
-        "percentage": "de 30%"
+        "percentage": "de 20%"
       }
     },
     "AttackTypeBoosterModifierType": {
@@ -334,11 +334,11 @@
     },
     "LEFTOVERS": {
       "name": "Restes",
-      "description": "Soigne à chaque tour 1/16 des PV max d’un Pokémon."
+      "description": "Soigne à chaque tour 6,25% des PV max d’un Pokémon."
     },
     "SHELL_BELL": {
       "name": "Grelot Coque",
-      "description": "Soigne son porteur avec 1/8 des dégâts qu’il inflige à un Pokémon."
+      "description": "Soigne son porteur avec 12,5% des dégâts qu’il inflige à un Pokémon."
     },
     "TOXIC_ORB": {
       "name": "Orbe Toxique",
@@ -610,6 +610,51 @@
     "SWAMPERTITE": "Laggronite",
     "TYRANITARITE": "Tyranocivite",
     "VENUSAURITE": "Florizarrite",
+    "CLEFABLITE": "Mélodelfite",
+    "VICTREEBELITE": "Empiflorite",
+    "STARMINITE": "Starossite",
+    "DRAGONINITE": "Dracolossite",
+    "MEGANIUMITE": "Méganiumite",
+    "FERALIGITE": "Aligatueurite",
+    "SKARMORITE": "Airmurite",
+    "FROSLASSITE": "Momartikite",
+    "EMBOARITE": "Roitiflamite",
+    "EXCADRITE": "Minotaupite",
+    "SCOLIPITE": "Brutapodite",
+    "SCRAFTINITE": "Baggaïdite",
+    "EELEKTROSSITE": "Ohmassacrite",
+    "CHANDELURITE": "Lugulabrite",
+    "CHESNAUGHTITE": "Blindépiquite",
+    "DELPHOXITE": "Goupelinite",
+    "GRENINJITE": "Amphinolite",
+    "PYROARITE": "Néméliosite",
+    "FLOETTITE": "Floettite",
+    "MALAMARITE": "Sepiatrocite",
+    "BARBARACITE": "Golgopathite",
+    "DRAGALGITE": "Kravarekite",
+    "HAWLUCHANITE": "Brutalibrite",
+    "ZYGARDITE": "Zygardite",
+    "DRAMPANITE": "Draïeulite",
+    "FALINKSITE": "Hexadronite",
+    "HEATRANITE": "Heatranite",
+    "DARKRANITE": "Darkraïte",
+    "ZERAORITE": "Zeraorite",
+    "RAICHUNITE_X": "Raichuïte X",
+    "RAICHUNITE_Y": "Raichuïte Y",
+    "CHIMECHITE": "Éokite",
+    "ABSOLITE_Z": "Absolite Z",
+    "STARAPTITE": "Étouraptorite",
+    "GARCHOMPITE_Z": "Carchacrokite Z",
+    "LUCARIONITE_Z": "Lucarite Z",
+    "GOLURKITE": "Golemastokite",
+    "MEOWSTICITE": "Mistigrixite",
+    "CRABOMINITE": "Crabominablite",
+    "GOLISOPITE": "Sarmuraïte",
+    "MAGEARNITE": "Magearnite",
+    "SCOVILLAINITE": "Scovilainite",
+    "BAXCALIBRITE": "Glaivodite",
+    "TATSUGIRINITE": "Nigirigonite",
+    "GLIMMORANITE": "Floréclatite",
     "BLUE_ORB": "Gemme Bleue",
     "RED_ORB": "Gemme Rouge",
     "SHARP_METEORITE": "Méteorite Aiguisée",

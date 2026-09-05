@@ -1,0 +1,31 @@
+{
+  "intro": "Det er en lærer og nogle skolebørn!",
+  "speaker": "Lærer",
+  "introDialogue": "Hejsa! Er det muligt at du kan\nspare nogle minutter for mine elever?$Jeg er ved at lære dem om Pokémon angreb\nog ville elske at vise dem en demonstration.$Ville du have noget imod at vise os\net af de angreb din Pokémon kan bruge?",
+  "title": "Udflugt",
+  "description": "En lærer ber om en demonstration af et angreb fra en Pokémon. Baseret på det angreb du vælger kan det være hun giver dig noget burgbart som tak.",
+  "query": "Hvilket slags angreb vil du vise frem?",
+  "option": {
+    "1": {
+      "label": "Et Fysisk Angreb",
+      "tooltip": "(+) Fysisk Genstands Beløning"
+    },
+    "2": {
+      "label": "Et Specielt Angreb",
+      "tooltip": "(+) Specielt Genstands Belønning"
+    },
+    "3": {
+      "label": "Et Status Angreb",
+      "tooltip": "(+) Status Genstands Belønning"
+    },
+    "selected": "{{pokeName}} fremviser et formidabelt eksempel på {{move}}!"
+  },
+  "secondOptionPrompt": "Vælg et angreb din Pokémon skal bruge.",
+  "incorrect": "…$Det er ikke et {{moveCategory}} angreb!\nUndskyld, men jeg kan ikke give dig noget.$Kom børn, vi kan\nfinde et bedre eksempel et andet sted.",
+  "incorrectExp": "Det ser ud til du lærte noget vigtigt?$Din Pokémon fik noget erfaring.",
+  "correct": "Tusind tak for din hjælpsomhed!\nJeg håber de her genstande er brugbare for dig!",
+  "correctExp": "{{pokeName}} fik også noget vigtig erfaring!",
+  "status": "Tilstand",
+  "physical": "Fysisk",
+  "special": "Specielt"
+}

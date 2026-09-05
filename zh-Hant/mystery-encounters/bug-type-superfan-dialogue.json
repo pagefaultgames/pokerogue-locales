@@ -1,1 +1,40 @@
-{}
+{
+  "intro": "一個特殊的訓練家帶着各種捕蟲設備擋住了你的去路！",
+  "introDialogue": "嘿，訓練家！我正在尋找最稀有的蟲系寶可夢！\n你一定也很喜歡蟲系寶可夢吧？\n大家都喜歡蟲系寶可夢！",
+  "title": "超級蟲系粉絲",
+  "speaker": "超級蟲系粉絲 ",
+  "description": "訓練家喋喋不休，根本不聽你回應…\n\n似乎唯一的辦法就是引起他的注意！",
+  "query": "你要怎麼做？",
+  "option": {
+    "1": {
+      "label": "請求對戰",
+      "tooltip": "(-)艱難的對戰\n(+)習得蟲系招式",
+      "selected": "對戰，呃？\n我的蟲系寶可夢早就準備好了。"
+    },
+    "2": {
+      "label": "展示蟲寶可夢",
+      "tooltip": "(+)獲得一件道具",
+      "disabledTooltip": "你需要至少攜帶\n一隻蟲系寶可夢",
+      "selected": "你向訓練師展示了你所有的蟲系寶可夢",
+      "selected0To1": "哈？你才有{{numBugTypes}}。$你對我來說真是浪費時間。",
+      "selected2To3": "嘿，你有{{numBugTypes}}！\n不錯。$來，這能幫你多抓點蟲蟲。",
+      "selected4To5": "啥？你有{{numBugTypes}}！！\n牛啊！$你還沒有達到我的水平，\n但我可以從你身上看到自己的影子！$拿着，我的小徒弟！",
+      "selected6": "哇哦！{{numBugTypes}}種蟲蟲！$您一定和我一樣喜歡蟲屬性！$來，把這個當作我們友誼的象徵吧！"
+    },
+    "3": {
+      "label": "贈送蟲系道具",
+      "tooltip": "(-)給予訓練師{{requiredBugItems}}\n(+)得到一件禮物",
+      "disabledTooltip": "你需要一件{{requiredBugItems}}\n才能選擇 ",
+      "selectPrompt": "選擇一件道具",
+      "invalidSelection": "寶可夢未持有該類道具",
+      "selected": "你遞交了{{selectedItem}}.",
+      "selectedDialogue": "哇！一件{{selectedItem}}，給我的？\n你可以啊小子！$為了表達我的謝意，\n我希望你能擁有這份特別的禮物！$這可是我的傳家寶啊，現在我希望你能擁有它！"
+    }
+  },
+  "battleWon": "你利用知識和技巧完美地痛擊了我們的弱點！\n作為這一課的學費，請讓我教你一個蟲系招式！",
+  "teachMovePrompt": "選擇要教給寶可夢的招式",
+  "confirmNoTeach": "你確定你不需要學習任何招式么？",
+  "outro": "我看到你的未來將伴隨偉大的蟲系寶可夢！\n願我們再次相遇！蟲蟲出動！",
+  "numBugTypes_one": "{{count}}種蟲系",
+  "numBugTypes_other": "{{count}}種蟲系"
+}

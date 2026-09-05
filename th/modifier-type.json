@@ -1,5 +1,28 @@
 {
   "ModifierType": {
+    "AddPokeballModifierType": {
+      "name": "{{modifierCount}}× {{pokeballName}}"
+    },
+    "AddVoucherModifierType": {
+      "name": "{{modifierCount}}× {{voucherTypeName}}",
+      "description": "ได้รับ {{voucherTypeName}} ×{{modifierCount}}"
+    },
+    "PokemonHeldItemModifierType": {
+      "extra": {
+        "inoperable": "{{pokemonName}} รับ\nไอเทมนี้ไม่ได้!",
+        "tooMany": "{{pokemonName}} มีไอเทมนี้\nมากเกินไป!"
+      }
+    },
+    "PokemonHpRestoreModifierType": {
+      "description": "ฟื้นฟู {{restorePoints}} HP หรือ {{restorePercent}}% HP ให้โปเกมอนหนึ่งตัว โดยจะเลือกเกิดผลที่มีค่ามากกว่า",
+      "extra": {
+        "fully": "ฟื้นฟู HP ทั้งหมดให้กับโปเกมอนหนึ่งตัว",
+        "fullyWithStatus": "ฟื้นฟู HP ทั้งหมดให้กับโปเกมอนหนึ่งตัวและรักษาสถานะผิดปกติทั้งหมดด้วย"
+      }
+    },
+    "PokemonReviveModifierType": {
+      "description": "ชุบชีวิตโปเกมอนหนึ่งตัวและฟื้นฟู {{restorePercent}}% HP ให้กับมัน"
+    },
     "RARE_CANDY": {
       "name": "ลูกอมประหลาด"
     },

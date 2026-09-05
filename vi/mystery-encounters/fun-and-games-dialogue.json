@@ -1,0 +1,31 @@
+{
+  "introDialogue": "Mời các bạn lên nào!$Hãy thử vận may của mình với trò chơi đập búa hoàn toàn mới {{wobbuffetName}} Whack-o-matic!",
+  "speaker": "Người Dẫn Chương Trình",
+  "title": "Vui Chơi Giải Trí!",
+  "description": "Bạn vừa gặp một gánh xiếc lưu động với trò chơi trúng thưởng! Bạn sẽ có @[TOOLTIP_TITLE]{3 lượt} để đưa {{wobbuffetName}} về mức sinh lực càng gần @[TOOLTIP_TITLE]{1 HP} càng tốt mà lại @[TOOLTIP_TITLE]{không hạ gục nó} để nó có thể tích lũy sức mạnh cho chiêu Counter vào máy rung chuông.\nNhưng hãy cẩn thận! Nếu bạn hạ gục {{wobbuffetName}}, bạn sẽ phải trả chi phí hồi sinh nó!",
+  "query": "Bạn có muốn chơi không?",
+  "invalidSelection": "Pokémon này không được chơi!",
+  "option": {
+    "1": {
+      "label": "Chơi Trò Chơi",
+      "tooltip": "(-) Trả {{option1Money, money}}\n(+) Chơi {{wobbuffetName}} Whack-o-matic",
+      "selected": "Đến lúc thử vận may rồi!"
+    },
+    "2": {
+      "label": "Rời Đi",
+      "tooltip": "(-) Không có phần thưởng",
+      "selected": "Bạn vội vã bước đi, trong lòng có chút tiếc nuối."
+    }
+  },
+  "ko": "Ôi không! {{wobbuffetName}} đã ngất xỉu!$Bạn thua trận và phải trả phí hồi sinh…",
+  "chargingContinue": "Wobbuffet đang tích lũy sức mạnh để phản vào máy!",
+  "turnRemaining3": "Còn ba lượt nữa!",
+  "turnRemaining2": "Còn hai lượt nữa!",
+  "turnRemaining1": "Chỉ còn một lượt nữa!",
+  "endGame": "Hết giờ rồi!$Con {{wobbuffetName}} tung đòn phản công và@d{16}.@d{16}.@d{16}.",
+  "bestResult": "Con {{wobbuffetName}} phản lực vào nút mạnh đến nỗi chuông trên đỉnh rơi xuống!$Bạn thắng giải nhất!",
+  "greatResult": "Con {{wobbuffetName}} phản lực vào nút, suýt nữa thì chạm vào chuông!$Tí nữa là được rồi!\nBạn giành được giải thưởng hạng nhì!",
+  "goodResult": "Con {{wobbuffetName}} phản lực vào nút đủ mạnh để đạt đến ngưỡng giữa thang điểm!$Bạn giành được giải thưởng hạng ba!",
+  "badResult": "Con {{wobbuffetName}} chỉ phản ra một lực nhẹ tênh và chẳng có gì xảy ra…$Ôi không!\nBạn chẳng nhận được gì cả!",
+  "outro": "Đó là một trò chơi khá thú vị!"
+}

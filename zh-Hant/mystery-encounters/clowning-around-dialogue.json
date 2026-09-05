@@ -1,1 +1,34 @@
-{}
+{
+  "intro": "是個…@d{64}小丑？",
+  "speaker": "小丑",
+  "introDialogue": "小丑踩高蹺，戰鬥要來到！\n吵吵鬧鬧，將你打倒！",
+  "title": "小丑鬧劇",
+  "description": "有點不對勁，這小丑想要挑釁你，\n目的是什麼呢？\n尤其是那{{blacephalonName}}看起來非常奇怪，\n就好像它有着\n@[TOOLTIP_TITLE]{與眾不同的屬性和特性。}",
+  "query": "你要怎麼做？",
+  "option": {
+    "1": {
+      "label": "與小丑戰鬥",
+      "tooltip": "(-)奇妙的戰鬥\n(?)影響寶可夢特性",
+      "selected": "你可憐的寶可夢正準備上演可悲的馬戲！",
+      "applyAbilityDialogue": "精彩的演出！\n出色的指揮與奪目的招式相得益彰！",
+      "applyAbilityMessage": "小丑將永久地將你的一隻寶可夢的特性交換為{{ability}}！",
+      "abilityPrompt": "你想永久地教會一隻寶可夢{{ability}}嗎？",
+      "abilityGained": "@s{level_up_fanfare}{{chosenPokemon}}獲得了{{ability}}特性！"
+    },
+    "2": {
+      "label": "保持冷靜",
+      "tooltip": "(-)讓小丑失望\n(?)影響寶可夢道具",
+      "selected": "小懦夫，竟敢拒絕我。\n嘗嘗我的厲害！",
+      "selected2": "小丑的{{blacephalonName}}使用了戲法！\n你的{{switchPokemon}}的所有道具都被隨機變換了！",
+      "selected3": "傻了吧，我的把戲毫無破綻！"
+    },
+    "3": {
+      "label": "罵回去",
+      "tooltip": "(-)讓小丑失望\n(?)影響寶可夢屬性",
+      "selected": "小懦夫，竟敢拒絕我。\n嘗嘗我的厲害！",
+      "selected2": "小丑的{{blacephalonName}}使用了一個奇異的招式！\n你隊伍的所有屬性都被隨機變換了！",
+      "selected3": "傻了吧，我的把戲毫無破綻！"
+    }
+  },
+  "outro": "小丑和他的幫手\n在一陣煙霧中消失了。"
+}

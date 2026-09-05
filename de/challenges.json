@@ -2,6 +2,12 @@
   "title": "Herausforderungsmodifikatoren",
   "illegalEvolution": "{{pokemon}} hat sich in ein Pokémon verwandelt, dass für diese Herausforderung nicht zulässig ist!",
   "noneSelected": "Keine ausgewählt",
+  "category": {
+    "randomizer": "Randomizer",
+    "challenge": "Herausforderung",
+    "nuzlocke": "Nuzlocke",
+    "misc": "Sonst."
+  },
   "freshStart": {
     "name": "Neuanfang",
     "desc": {
@@ -32,7 +38,7 @@
     }
   },
   "limitedSupport": {
-    "name": "Begrenzte Unterstützung",
+    "name": "Spar-Support",
     "desc": {
       "0": "Beschränkt einige oder alle kostenlose Optionen für kostenlose Heilung.",
       "1": "Entfernt die Heilung am Ende eines Biomes.\nStattdessen erscheint das normale Wellenbelohnungsmenü.",
@@ -70,7 +76,7 @@
   "inverseBattle": {
     "name": "Umkehrkampf",
     "shortName": "Umkehrkampf",
-    "desc": "Die Typen-Effektivität wird umgekehrt, und kein Typ ist gegen einen anderen Typ immun.\nDeaktiviert die Erfolge anderer Herausforderungen.",
+    "desc": "Die Typen-Effektivität wird umgekehrt, und kein Typ ist gegen einen anderen Typ immun.\nDeaktiviert die Erfolge anderer Herausforderungen. (außer Statuswert-Flip)",
     "value": {
       "0": "Aus",
       "1": "An"
@@ -79,7 +85,7 @@
   "flipStat": {
     "name": "Statuswert-Flip",
     "shortName": "Umkehren",
-    "desc": "Die Werte werden neu gemischt. KP und Init tauschen.\nAngriff wird zu Sp.-Vert.\nVert. wird zu Sp.-Ang.\nSp.-Vert. wird zu Angriff.\nSp.-Ang. wird zu Vert.\nDeaktiviert die Erfolge anderer Herausforderungen.",
+    "desc": "Die Werte werden neu gemischt. KP und Init tauschen.\nAngriff wird zu Sp.-Vert.\nVert. wird zu Sp.-Ang.\nSp.-Vert. wird zu Angriff.\nSp.-Ang. wird zu Vert.\nDeaktiviert die Erfolge anderer Herausforderungen. (außer Umkehrkampf)",
     "value": {
       "0": "Aus",
       "1": "An"
@@ -88,6 +94,27 @@
   "metronome": {
     "name": "Metronom-Modus",
     "desc": "Du darfst nur das Metronom verwenden! Schau, wie weit du mit purem Zufall kommst.\nDieser Modus ist AUSSCHLIESSLICH zum Spaß und schaltet keine Erfolge frei. Deaktiviert alle anderen Erfolge.",
+    "value": {
+      "0": "Aus",
+      "1": "An"
+    }
+  },
+  "passives": {
+    "name": "Aktive Passiven",
+    "desc": {
+      "0": "Erzwingt, dass einige oder alle Pokémon ihre passive Fähigkeit aktiviert haben.",
+      "1": "Trainer Pokémon haben ihre passive Fähigkeit aktiviert.\nBetrifft nicht deine ausgewählten Starter.",
+      "2": "Alle Pokémon haben ihre passive Fähigkeiten aktiviert.\nDeaktiviert andere Herausforderungserrungenschaften für diesen Run."
+    },
+    "value": {
+      "0": "Aus",
+      "1": "Trainer",
+      "2": "Alle"
+    }
+  },
+  "movesetRandomizer": {
+    "name": "Moveset Randomizer",
+    "desc": "Die Attacken jedes Pokémons beim Levelaufstieg werden zufällig generiert. Starter-Pokémon beginnen mit Basisattacken, die ihrem Typ entsprechen.",
     "value": {
       "0": "Aus",
       "1": "An"

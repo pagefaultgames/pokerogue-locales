@@ -1,0 +1,123 @@
+{
+  "title": "Meydan Okuma Koşulları",
+  "illegalEvolution": "{{pokemon}} bu meydan okumada kullanılamayan\nbir Pokémon’a dönüştü!",
+  "noneSelected": "Seçim Yapılmadı",
+  "category": {
+    "randomizer": "Rastgeleleştirici",
+    "challenge": "Meydan Okuma",
+    "nuzlocke": "Nuzlocke",
+    "misc": "Diğer"
+  },
+  "freshStart": {
+    "name": "Taze Başlangıç",
+    "desc": {
+      "0": "Starterlar ile hiçbir kilit açılmamış taze bir başlangıç yapmayı simüle eder.",
+      "1": "Tıpkı PokéRogue’a yeni başlamış gibi, sadece orijinal Starterları kilitleri açılmamış şekilde kullanabilirsin.",
+      "2": "Sanki yeni yakalamış gibi, kilitleri açılmamış şekilde tüm yakaladığın Starterları seçebilirsin."
+    },
+    "value": {
+      "0": "Kapalı",
+      "1": "Tam Sıfırla",
+      "2": "Tüm Starterlar"
+    }
+  },
+  "hardcore": {
+    "name": "Zorlu",
+    "desc": "Bayılan Pokémonları canlandıramazsın.",
+    "value": {
+      "0": "Kapalı",
+      "1": "Açık"
+    }
+  },
+  "limitedCatch": {
+    "name": "Sınırlı Yakalama",
+    "desc": "Her biyomun sadece ilk Pokémon’unu ekibine ekleyebilirsin.",
+    "value": {
+      "0": "Kapalı",
+      "1": "Açık"
+    }
+  },
+  "limitedSupport": {
+    "name": "Sınırlı Destek",
+    "desc": {
+      "0": "Takımını iyileştirecek işlemlerin bazılarını veya hepsini kaldırır.",
+      "1": "Her biyomun sonunda verilen iyileştirmeyi kaldırır.\nOnun yerine standart dalga sonu ödül menüsü verilir.",
+      "2": "Dalga sonu ödül menüsündeki mağazayı kaldırır.",
+      "3": "Dalga sonu ödül menüsündeki mağazayı kaldırır.\n\nHer biyomun sonunda verilen iyileştirmeyi kaldırır.\nOnun yerine standart dalga sonu ödül menüsü verilir."
+    },
+    "value": {
+      "0": "Kapalı",
+      "1": "İyileşme Yok",
+      "2": "Mağaza Yok",
+      "3": "Her İkisi"
+    }
+  },
+  "singleGeneration": {
+    "name": "Tek Nesil",
+    "desc": "Sadece {{gen}} nesil Pokémon kullanabilirsin.",
+    "descDefault": "Sadece seçilen nesilden Pokémon kullanabilirsin.",
+    "gen": {
+      "1": "birinci",
+      "2": "ikinci",
+      "3": "üçüncü",
+      "4": "dördüncü",
+      "5": "beşinci",
+      "6": "altıncı",
+      "7": "yedinci",
+      "8": "sekizinci",
+      "9": "dokuzuncu"
+    }
+  },
+  "singleType": {
+    "name": "Tek Tür",
+    "desc": "Sadece {{type}} türü olan Pokémonları kullanabilirsin.",
+    "descDefault": "Sadece seçilen türden Pokémon kullanabilirsin."
+  },
+  "inverseBattle": {
+    "name": "Ters Maç",
+    "shortName": "Ters",
+    "desc": "Tür avantajları ters çevrilir ve hiçbir tür başka bir türe karşı etkisiz olmaz.\n\nDiğer meydan okuma başarımlarını devre dışı bırakır (İstatistikleri Takasla Hariç)",
+    "value": {
+      "0": "Kapalı",
+      "1": "Açık"
+    }
+  },
+  "flipStat": {
+    "name": "İstatistikleri Takasla",
+    "shortName": "Takasla",
+    "desc": "İstatistikler şöyle takaslanır:\n- SP ile Hız\n- Saldırı İle Öz. Sal.\n- Savunma ile Öz. Sav.\n\nDiğer meydan okuma başarımlarını devre dışı bırakır (Ters Maç Hariç).",
+    "value": {
+      "0": "Kapalı",
+      "1": "Açık"
+    }
+  },
+  "metronome": {
+    "name": "Metronom Modu",
+    "desc": "Sadece Metronom kullanabilirsin! Saf şans ile ne kadar ileri gidebileceğini gör.\nBu mod SADECE eğlence için hazırlanmıştır ve herhangi bir başarım vermez.\n\nDiğer tüm başarımları devre dışı bırakır.",
+    "value": {
+      "0": "Kapalı",
+      "1": "Açık"
+    }
+  },
+  "passives": {
+    "name": "Aktif Pasifler",
+    "desc": {
+      "0": "Bazı veya tüm Pokémonların pasiflerini açık olmaya zorlar.",
+      "1": "Eğitmen Pokémonlarının pasifleri açık olur.\nSeçtiğin Starterları etkilemez.",
+      "2": "Seninki dahil tüm Pokémonlar’ın pasifleri bu sefer için açık olur.\n\nDiğer meydan okuma başarımlarını devre dışı bırakır."
+    },
+    "value": {
+      "0": "Kapalı",
+      "1": "Eğitmenler",
+      "2": "Hepsi"
+    }
+  },
+  "movesetRandomizer": {
+    "name": "Hareket Seti Rastgeleleştirici",
+    "desc": "Her Pokémon cinsi için seviye atlama bazlı hareket setini rastgeleleştirir. Starterlar, türleriyle uyuşan temel hareketlerle başlar.\n\nDiğer meydan okuma başarımlarını devre dışı bırakır.",
+    "value": {
+      "0": "Kapalı",
+      "1": "Açık"
+    }
+  }
+}

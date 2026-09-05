@@ -2,6 +2,12 @@
   "title": "Challenge Modifiers",
   "illegalEvolution": "{{pokemon}} changed into an ineligible Pokémon\nfor this challenge!",
   "noneSelected": "None Selected",
+  "category": {
+    "randomizer": "Randomizer",
+    "challenge": "Challenge",
+    "nuzlocke": "Nuzlocke",
+    "misc": "Misc"
+  },
   "freshStart": {
     "name": "Fresh Start",
     "desc": {
@@ -88,6 +94,27 @@
   "metronome": {
     "name": "Metronome Mode",
     "desc": "You can only use Metronome! See how far you can get with pure chance.\nThis is a mode PURELY for fun and does not award an achievement.\n\nDisables all other achievements.",
+    "value": {
+      "0": "Off",
+      "1": "On"
+    }
+  },
+  "passives": {
+    "name": "Active Passives",
+    "desc": {
+      "0": "Forces some or all Pokémon to have their passives enabled.",
+      "1": "Trainer Pokémon have their passives enabled.\nDoes not affect your selected starters.",
+      "2": "All Pokémon including yours will have their passives enabled for the run.\n\nDisables other challenges’ achievements."
+    },
+    "value": {
+      "0": "Off",
+      "1": "Trainers",
+      "2": "All"
+    }
+  },
+  "movesetRandomizer": {
+    "name": "Moveset Randomizer",
+    "desc": "Randomizes the level up moveset of each Pokémon species. Starters begin with basic moves matching their types.\n\nDisables other challenges’ achievements.",
     "value": {
       "0": "Off",
       "1": "On"
