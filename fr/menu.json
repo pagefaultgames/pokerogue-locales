@@ -63,5 +63,12 @@
   "errorServerDown": "Oupsi ! Un problème de connexion au serveur est survenu.\n\nVous pouvez garder cette fenêtre ouverte,\nle jeu se reconnectera automatiquement.\nConsultez également #announcements sur notre Discord.",
   "noSaves": "Aucune sauvegarde enregistrée localement !",
   "tooManySaves": "Vous avez trop de sauvegardes enregistrées !",
-  "eventTimer": "Se termine dans : {{days}}j {{hours}}h {{mins}}m {{secs}}s"
+  "eventTimer": "Se termine dans : {{days}}j {{hours}}h {{mins}}m {{secs}}s",
+  "serverErrorGenerateSalt": "Impossible de traiter un mot de passe de manière sécurisée.",
+  "serverErrorGenerateToken": "Impossible de générer un jeton d’authentification.",
+  "serverErrorAddSession": "Impossible de créer de la session.",
+  "serverErrorGenerateUuid": "Impossible de générer un ID d’utilisateur.",
+  "serverErrorRemoveSessions": "Impossible de mettre à jour les sessions actives.",
+  "serverErrorUpdateAccount": "Impossible de mettre à jour informations du compte.",
+  "pleaseTryAgainLater": "Veuillez réessayer plus tard."
 }
