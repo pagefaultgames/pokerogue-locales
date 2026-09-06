@@ -8,7 +8,16 @@
   "query": "Ne yapacaksın?",
   "option": {
     "1": {
-      "label": "Kabul Et"
+      "label": "Kabul Et",
+      "tooltip": "(-) {{price, money}} Öde\n(+) Gizli Yeteneğiyle {{purchasePokemon}} Senin Olsun",
+      "tooltipShiny": "(-) {{price, money}} Öde\n(+) Parlak {{purchasePokemon}} Senin Olsun",
+      "selectedMessage": "Büyük meblağda para ödedin ve {{purchasePokemon}} satın aldın.",
+      "selectedDialogue": "Harika seçim!$İş için keskin bir göze sahip olduğunu söyleyebilirim.$İşte, budur…@d{64} İade kabul etmiyorum, duydun mu?"
+    },
+    "2": {
+      "label": "Reddet",
+      "tooltip": "(-) Ödül Yok",
+      "selected": "Hayır mı?@d{32} Hayır mı dedin?$Bunu sana iyilik olsun diye yapıyordum!"
     }
   }
 }
