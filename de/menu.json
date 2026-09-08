@@ -64,5 +64,11 @@
   "noSaves": "Du hast keine gespeicherten Dateien!",
   "tooManySaves": "Du hast zu viele gespeicherte Dateien!",
   "eventTimer": "Event endet in {{days}}:{{hours}}:{{mins}}:{{secs}}",
-  "serverError": "Es ist ein Serverfehler aufgetreten. Bitte versuche es später erneut."
+  "serverErrorGenerateSalt": "Passwort kann nicht sicher verarbeitet werden.",
+  "serverErrorGenerateToken": "Authentifizierungs-Token konnte nicht generiert werden.",
+  "serverErrorAddSession": "Sitzung konnte nicht erstellt werden.",
+  "serverErrorGenerateUuid": "Benutzer-ID konnte nicht generiert werden.",
+  "serverErrorRemoveSessions": "Aktive Sitzungen können nicht aktualisiert werden.",
+  "serverErrorUpdateAccount": "Kontoinformationen können nicht aktualisiert werden.",
+  "pleaseTryAgainLater": "Bitte versuchen Sie es später noch einmal."
 }
