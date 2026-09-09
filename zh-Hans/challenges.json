@@ -2,6 +2,12 @@
   "title": "适用挑战条件",
   "illegalEvolution": "{{pokemon}}变成了\n不符合此挑战条件的宝可梦！",
   "noneSelected": "未选择",
+  "category": {
+    "randomizer": "随机",
+    "challenge": "挑战模式",
+    "nuzlocke": "Nuzlocke",
+    "misc": "混合"
+  },
   "freshStart": {
     "name": "初次尝试",
     "desc": {
@@ -112,6 +118,19 @@
     "value": {
       "0": "关闭",
       "1": "开启"
+    }
+  },
+  "abilityRandomizer": {
+    "name": "特性随机",
+    "desc": {
+      "0": "随机所有种族宝可梦的特性\n（及被动，可选）\n禁用其他挑战",
+      "1": "随机所有种族宝可梦的特性\n禁用其他挑战",
+      "2": "随机所有种族宝可梦的被动\n禁用其他挑战"
+    },
+    "value": {
+      "0": "关闭",
+      "1": "特性",
+      "2": "全部"
     }
   }
 }

@@ -2,6 +2,12 @@
   "title": "適用挑戰條件",
   "illegalEvolution": "{{pokemon}} 進化成了不符合\n挑戰條件的寶可夢！",
   "noneSelected": "未選擇",
+  "category": {
+    "randomizer": "隨機",
+    "challenge": "挑戰模式",
+    "nuzlocke": "Nuzlocke",
+    "misc": "混合"
+  },
   "freshStart": {
     "name": "初次嘗試",
     "desc": {
@@ -112,6 +118,19 @@
     "value": {
       "0": "關閉",
       "1": "開啓"
+    }
+  },
+  "abilityRandomizer": {
+    "name": "特性隨機",
+    "desc": {
+      "0": "隨機所有種族寶可夢的特性\n（及被動，可選）\n禁用其他挑戰",
+      "1": "隨機所有種族寶可夢的特性\n禁用其他挑戰",
+      "2": "隨機所有種族寶可夢的被動\n禁用其他挑戰"
+    },
+    "value": {
+      "0": "關閉",
+      "1": "特性",
+      "2": "全部"
     }
   }
 }

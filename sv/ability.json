@@ -4,11 +4,12 @@
     "description": "Denna pokémons hemska odör medan den anfaller har 10 % chans att få motståndaren att rygga tillbaka. Denna procent staplas inte på procenten av andra tekniker och föremål som kan orsaka ryggande."
   },
   "drizzle": {
-    "name": "Regnmakare"
+    "name": "Regnmakare",
+    "description": "Denna pokémon orsakar regn under 5 omgångar när den skickas ut i strid. Vattentyptekniker blir 50 % starkare och skadan av eldtyptekniker halveras. "
   },
   "speedBoost": {
     "name": "Acceleration",
-    "description": "Denna pokémons snabbhet ökas varje omgång."
+    "description": "Denna pokémons snabbhet ökas varje omgångsslut."
   },
   "battleArmor": {
     "name": "Stridsrustning",
@@ -172,10 +173,11 @@
   },
   "rainDish": {
     "name": "Regnskål",
-    "description": "Denna pokémon återhämtar ¹⁄₁₆ av sin max. HP vid slutet av varje omgång när det regnar."
+    "description": "Denna pokémon återhämtar ¹⁄₁₆ av sin max. HP per omgångsslut när det regnar."
   },
   "sandStream": {
-    "name": "Sandstormare"
+    "name": "Sandstormare",
+    "description": "Denna pokémon frammanar en sandstorm som varar i 5 omgångar när den skickas ut i strid. Alla i strid förutom sten-, jord- och ståltyper tar ¹⁄₁₆ av sina max. HP i skada per omgångsslut. Sp. fsv-förmågan hos stentyper ökas med 50 %."
   },
   "pressure": {
     "name": "Pressande",
@@ -195,7 +197,7 @@
   },
   "runAway": {
     "name": "Flyende fot",
-    "description": "Denna pokémon lyckas alltid fly från vilda pokémon."
+    "description": "Denna pokémon lyckas alltid fly från vilda pokémon samt ignorerar alla effekter som skulle förhindra den från att bytas av."
   },
   "keenEye": {
     "name": "Skarpblick",
@@ -239,7 +241,7 @@
   },
   "shedSkin": {
     "name": "Hudömsning",
-    "description": "Genom hudömsning har denna pokémon en 33 % chans vid slutet av varje omgång att läka sin tillståndspåverkan."
+    "description": "Genom hudömsning har denna pokémon en 33 % chans per omgångsslut att läka sin tillståndspåverkan."
   },
   "guts": {
     "name": "Kaxig",
@@ -274,7 +276,8 @@
     "description": "Denna pokémons tjocka och hårda skalle skyddar den från bakslag."
   },
   "drought": {
-    "name": "Solskapare"
+    "name": "Solskapare",
+    "description": "Solen börjar skina starkt när denna pokémon skickas ut i strid. Eldtyptekniker blir 50 % starkare och skadan av vattentyptekniker halveras. "
   },
   "arenaTrap": {
     "name": "Gropgrävare",
@@ -370,7 +373,7 @@
   },
   "solarPower": {
     "name": "Solkraft",
-    "description": "Denna pokémons Sp. Atk-förmåga ökas med 50 % när solen skiner starkt men den förlorar ⅛ av sin max. HP i slutet av varje omgång."
+    "description": "Denna pokémons Sp. Atk-förmåga ökas med 50 % när solen skiner starkt men den förlorar ⅛ av sin max. HP vid slutet av varje omgång."
   },
   "quickFeet": {
     "name": "Snabb på fötterna",
@@ -454,14 +457,15 @@
   },
   "iceBody": {
     "name": "Is i magen",
-    "description": "Denna pokémon återhämtar ¹⁄₁₆ av dess max. HP per omgångsslut när det snöar eller haglar. Den tar inte heller skada från hagel. "
+    "description": "Denna pokémon återhämtar ¹⁄₁₆ av dess max. HP per omgångsslut när det snöar eller haglar. Den tar inte heller skada från hagel."
   },
   "solidRock": {
     "name": "Stenhård",
     "description": "Supereffektiva attacker orsakar 25 % mindre skada på denna pokémon."
   },
   "snowWarning": {
-    "name": "Snöläggare"
+    "name": "Snöläggare",
+    "description": "Denna pokémon orsakar snö när den skickas ut i strid. Istyppokémons försvarsförmåga ökar med 50 %."
   },
   "honeyGather": {
     "name": "Honungssamlare",
@@ -748,10 +752,12 @@
     "description": "Effekterna av Huldraura och Skuggaura inverteras och upphävs; de påverkade teknikerna blir 25% svagare."
   },
   "primordialSea": {
-    "name": "Urhavsvarelse"
+    "name": "Urhavsvarelse",
+    "description": "Denna pokémon gör så vädret tillintetgör eldtypattacker och ökar skadan av vattentyptekniker med 50 %."
   },
   "desolateLand": {
-    "name": "Jordändesväsen"
+    "name": "Jordändesväsen",
+    "description": "Denna pokémon gör så vädret tillintetgör vattentypattacker och ökar skadan av eldtyptekniker med 50 %."
   },
   "deltaStream": {
     "name": "Deltaström",
@@ -1002,7 +1008,8 @@
     "description": "Ståltyptekniker ökar i kraft med 50 % för denna pokémon och de vid dess sida i strid."
   },
   "perishBody": {
-    "name": "Undergångssjäl"
+    "name": "Undergångssjäl",
+    "description": "Om denna pokémon träffas av en teknik med fysisk kontakt kommer både den och anfallaren svimma efter tre omgångar om de inte byts av. Bosspokémon är immuna mot denna effekt."
   },
   "wanderingSpirit": {
     "name": "Själavandrare",
@@ -1013,7 +1020,8 @@
     "description": "Denna pokémons attackförmåga ökas med 50% men endast den först valda tekniken kan utföras under en strid."
   },
   "neutralizingGas": {
-    "name": "Neutral gas"
+    "name": "Neutral gas",
+    "description": "När denna pokémon är i strid tillintentgörs eller hindras effekterna av alla andra pokémons särdrag och passiver."
   },
   "pastelVeil": {
     "name": "Pastellpansar",
@@ -1029,7 +1037,7 @@
   },
   "unseenFist": {
     "name": "Osynlig näve",
-    "description": "När denna pokémon använder tekniker med fysisk kontakt så kan den träffa motståndaren även om motståndaren garderar sig."
+    "description": "När denna pokémon utför fysiska attacker kan den även träffa motståndare som skyddar sig och då orsaka ¼ av den vanliga skadan. Allt förutom teknikens skyddande effekter händer som vanligt."
   },
   "curiousMedicine": {
     "name": "Häxbrygd",
@@ -1168,7 +1176,8 @@
     "description": "När denna pokémon skickas ut i dubbelstrid kopierar den förmågeändringarna hos den vid dess sida."
   },
   "toxicDebris": {
-    "name": "Giftspillror"
+    "name": "Giftspillror",
+    "description": "Utföraren sprider giftiga fotanglar runt motståndarnas fötter när den tar skada av en fysisk attack. 1 lager förgiftar motståndare som byts in i strid; 2 lager orsakar svår förgiftning. Flygandetyper och de med Levitation påverkas ej. Gifttyper som landar på fotanglarna tar upp dem och slänger bort dem från stridsfältet."
   },
   "armorTail": {
     "name": "Pansarsvans",
@@ -1253,5 +1262,9 @@
   "spicySpray": {
     "name": "Pikant",
     "description": "När denna pokémon tar skada av en teknik orsakar den en brännskada på anfallaren."
+  },
+  "auraGuard": {
+    "name": "Auraskydd",
+    "description": "Skyddet halverar skadan av tekniker med fysisk kontakt."
   }
 }
