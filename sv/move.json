@@ -1096,7 +1096,8 @@
     "effect": "Utföraren utför en slumpmässig teknik från tekniklistan av lagmedlemmen vid sin sida i strid."
   },
   "ingrain": {
-    "name": "Rotfäste"
+    "name": "Rotfäste",
+    "effect": "Utföraren planterar sina rötter som helar ¹⁄₁₆ av dess max. HP varje omgångslut. Den blir fastrotad och kan inte fly eller bytas av."
   },
   "superpower": {
     "name": "Tokstyrka",
@@ -1195,7 +1196,8 @@
     "effect": "En brinnande spark mot en motståndare med 10 % chans att orsaka brännskada. Chansen för kritisk träff är +1."
   },
   "mudSport": {
-    "name": "Smutskastning"
+    "name": "Smutskastning",
+    "effect": "Utföraren sparkar upp och kastar runt lera på stridsfältet. Detta försvagar alla elttyptekniker med 50 % i 5 omgångar."
   },
   "iceBall": {
     "name": "Isklot",
@@ -1378,7 +1380,8 @@
     "effect": "Utföraren sprider underliga löv som jagar motståndaren. Denna attack missar aldrig."
   },
   "waterSport": {
-    "name": "Blötläggning"
+    "name": "Blötläggning",
+    "effect": "Utföraren dränker stridsfältet med vatten. Detta försvagar eldtyptekniker med 50 % i 5 omgångar."
   },
   "calmMind": {
     "name": "Sinnesro",
@@ -1554,14 +1557,15 @@
   },
   "toxicSpikes": {
     "name": "Giftanglar",
-    "effect": "Utföraren sprider giftiga fotanglar runt motståndarnas fötter. 1 lager förgiftar motståndare om byts in i strid; 2 lager orsakar svår förgiftning. Flygandetyper och de med Levitation påverkas ej. Gifttyper som landar på fotanglarna tar upp dem och slänger bort dem från stridsfältet."
+    "effect": "Utföraren sprider giftiga fotanglar runt motståndarnas fötter. 1 lager förgiftar motståndare som byts in i strid; 2 lager orsakar svår förgiftning. Flygandetyper och de med Levitation påverkas ej. Gifttyper som landar på fotanglarna tar upp dem och slänger bort dem från stridsfältet."
   },
   "heartSwap": {
     "name": "Energiöverföring",
     "effect": "Utföraren använder psykisk kraft för att byta sina förmågeändringar med motståndarens."
   },
   "aquaRing": {
-    "name": "Akvakrets"
+    "name": "Akvakrets",
+    "effect": "Utföraren täcks av en sfär gjord av vatten. Den återställer ¹⁄₁₆ av dess max. HP per omgångsslut."
   },
   "magnetRise": {
     "name": "Magnetsvävning",
@@ -2316,7 +2320,8 @@
     "effect": "Utföraren gör hela stridsfältet grönt i 5 omgångar. Alla pokémon på marken återfår ¹⁄₁₆ av deras max.  HP varje omgångsslut och deras grästyptekniker ökar i kraft med 30 %."
   },
   "mistyTerrain": {
-    "name": "Mistterräng"
+    "name": "Mistterräng",
+    "effect": "En Mistterräng som varar i 5 omgångar. Misten immuniserar alla pokémon på marken mot tillståndspåverkan (inkl. förvirring). Kraften av deras draktyptekniker halveras också."
   },
   "electrify": {
     "name": "Elektrifiering",
@@ -2407,7 +2412,8 @@
     "effect": "Tekniken fördubblar mängden prispengar efter en tränarstrid."
   },
   "electricTerrain": {
-    "name": "Elterräng"
+    "name": "Elterräng",
+    "effect": "En Elterräng som varar i 5 omgångar. Pokémon på marken kan inte somna under den tiden och deras eltypteknker ökar i kraft med 30 %."
   },
   "dazzlingGleam": {
     "name": "Trolsk lyster",
@@ -2702,7 +2708,8 @@
     "effect": "Utföraren skadar och trasslar in motståndaren i dess ankarkedja. Motståndaren kan sedan inte fly eller bytas av."
   },
   "psychicTerrain": {
-    "name": "Psykoterräng"
+    "name": "Psykoterräng",
+    "effect": "En Psykoterräng som varar i 5 omgångar. Pokémon på marken kan varken utföra eller träffas av prioritetstekniker. Deras psykisktyptekniker ökar i kraft med 30 %."
   },
   "lunge": {
     "name": "Påhopp",
@@ -3653,7 +3660,8 @@
     "effect": "Utföraren städar fältet och tar bort effekterna av Fotanglar, Svävande stenar, Klibbnät, Giftanglar och Bulvan. Attackförmåga och snabbhet ökar."
   },
   "snowscape": {
-    "name": "Snölandskap"
+    "name": "Snölandskap",
+    "effect": "Utföraren frammanar en snöstorm som varar i 5 omgångar. Den ökar försvarsförmågan hos istyper med 50 %."
   },
   "pounce": {
     "name": "Språng",
