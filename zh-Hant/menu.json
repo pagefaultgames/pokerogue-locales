@@ -63,5 +63,12 @@
   "errorServerDown": "糟糕！訪問伺服器時發生了錯誤。\n\n你可以保持頁面開啟，\n遊戲會自動重新連線。\n也請確認我們發佈在Discord頻道裡#announcements的公告。",
   "noSaves": "你沒有任何記錄檔!",
   "tooManySaves": "你的記錄檔太多了!",
-  "eventTimer": "活動截止：{{days}}天 {{hours}}時 {{mins}}分 {{secs}}秒"
+  "eventTimer": "活動截止：{{days}}天 {{hours}}時 {{mins}}分 {{secs}}秒",
+  "serverErrorGenerateSalt": "無法安全驗證密碼",
+  "serverErrorGenerateToken": "無法生成驗證token",
+  "serverErrorAddSession": "無法創建會話",
+  "serverErrorGenerateUuid": "無法生成用戶ID",
+  "serverErrorRemoveSessions": "無法更新當前會話",
+  "serverErrorUpdateAccount": "無法更新賬號信息",
+  "pleaseTryAgainLater": "請稍後重試"
 }
