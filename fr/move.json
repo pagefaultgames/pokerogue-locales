@@ -761,7 +761,7 @@
   },
   "spikes": {
     "name": "Picots",
-    "effect": "Le lanceur disperse des picots sur le sol pour blesser tout ennemi qui entre au combat. Les Pokémon entrant sur le terrain subissent des dégâts équivalents à 1/8 de leurs PV max, et plus si 2 ou 3 effets de Picots sont actifs en même temps. Cela n’affecte pas les Pokémon de type Vol ou dotés du talent Lévitation, entre autres."
+    "effect": "Le lanceur disperse des picots sur le côté adverse pour blesser tout ennemi qui entre au combat. Les Pokémon entrant sur le terrain qui font contact avec le sol subissent des dégâts équivalents à 1/8 de leurs PV max. Il est possible d’installer jusqu’à 3 rangées de Picots, chacune augmentant les dégâts subis."
   },
   "zapCannon": {
     "name": "Élecanon",
@@ -1097,7 +1097,7 @@
   },
   "ingrain": {
     "name": "Racines",
-    "effect": "Le lanceur plante ses racines et récupère 1/16 de ses PV max à chaque tour. Une fois enraciné, il ne peut plus quitter le terrain."
+    "effect": "Le lanceur plante ses racines et récupère 1/16 de ses PV max à chaque tour. Une fois enraciné, il est fixé au sol, et il ne peut plus quitter le terrain."
   },
   "superpower": {
     "name": "Surpuissance",
@@ -1557,7 +1557,7 @@
   },
   "toxicSpikes": {
     "name": "Pics Toxik",
-    "effect": "Le lanceur éparpille des pics autour de la cible. Quand cet état est actif, les Pokémon entrant sur le terrain sont empoisonnés. Si 2 effets de Pics Toxik sont actifs en même temps, ils sont gravement empoisonnés. Cela n’affecte pas les Pokémon de type Vol ou dotés du talent Lévitation, entre autres. Si un Pokémon adverse de type Poison arrive en combat et fait contact avec ces pics, ils sont neutralisés et disparaissent."
+    "effect": "Le lanceur éparpille des pics toxiques sur le côté adverse. Les Pokémon entrant sur le terrain qui font contact avec le sol sont empoisonnés. Si 2 effets de Pics Toxik sont actifs en même temps, ils sont gravement empoisonnés. Si un Pokémon de type Poison arrive en combat et fait contact avec ces pics, ils sont neutralisés et disparaissent."
   },
   "heartSwap": {
     "name": "Permucœur",
@@ -1565,7 +1565,7 @@
   },
   "aquaRing": {
     "name": "Anneau Hydro",
-    "effect": "Un voile d’eau recouvre le lanceur et récupère 1/16 de ses PV max à la fin de chaque tour."
+    "effect": "Un voile d’eau recouvre le lanceur et régénère 1/16 de ses PV max à la fin de chaque tour."
   },
   "magnetRise": {
     "name": "Vol Magnétik",
@@ -1781,7 +1781,7 @@
   },
   "stealthRock": {
     "name": "Piège de Roc",
-    "effect": "Le lanceur fait flotter des pierres autour de la cible qui blessent à hauteur de 1/8 des PV max de tout adversaire entrant au combat. Les dégâts reçus diffèrent en fonction de l’affinité du Pokémon au type Roche."
+    "effect": "Le lanceur fait flotter des pierres autour du côté adverse qui blessent à hauteur de 1/8 des PV max de tout adversaire entrant au combat. Les dégâts reçus diffèrent en fonction de l’affinité du Pokémon au type Roche."
   },
   "grassKnot": {
     "name": "Nœud Herbe",
@@ -2413,7 +2413,7 @@
   },
   "electricTerrain": {
     "name": "Champ Électrifié",
-    "effect": "Pendant 5 tours, le terrain se charge d’électricité. Les Pokémon au sol ne peuvent pas s’endormir et la puissance de leurs capacités de type Électrik est multipliée par 1,3."
+    "effect": "Pendant 5 tours, le terrain se charge d’électricité. Les Pokémon au sol ne peuvent pas s’endormir et la puissance de leurs capacités de type Électrik augmente de 30%."
   },
   "dazzlingGleam": {
     "name": "Éclat Magique",
@@ -2709,7 +2709,7 @@
   },
   "psychicTerrain": {
     "name": "Champ Psychique",
-    "effect": "Pendant 5 tours, les Pokémon au sol ne peuvent plus subir d’attaques prioritaires et la puissance de leurs capacités de type Psy est multipliée par 1,3."
+    "effect": "Pendant 5 tours, les Pokémon au sol ne peuvent plus subir d’attaques prioritaires et la puissance de leurs capacités de type Psy augmente de 30%."
   },
   "lunge": {
     "name": "Furie-Bond",
@@ -3661,7 +3661,7 @@
   },
   "snowscape": {
     "name": "Chute de Neige",
-    "effect": "Le lanceur invoque une tempête de neige qui dure 5 tours et la Défense des Pokémon de type Glace est multipliée par 1,5."
+    "effect": "Le lanceur invoque une tempête de neige qui dure 5 tours, ce qui augmente la Défense des Pokémon de type Glace de 50%."
   },
   "pounce": {
     "name": "Bond",
