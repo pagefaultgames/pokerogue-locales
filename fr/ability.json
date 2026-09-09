@@ -136,8 +136,8 @@
     "description": "Quand le soleil brille, la Vitesse du Pokémon est multipliée par 2."
   },
   "illuminate": {
-    "name": "Lumiattirance",
-    "description": "Le Pokémon ignore les changements d’Esquive des adversaires, et sa Précision ne peut pas baisser. Augmente également la probabilité des combats duo."
+    "name": "Luminescence",
+    "description": "Le Pokémon ignore les changements d’Esquive des adversaires, et sa Précision ne peut pas baisser. Augmente également la probabilité des combats duo lorsque ce Pokémon est sur le terrain."
   },
   "trace": {
     "name": "Calque",
@@ -281,7 +281,7 @@
   },
   "arenaTrap": {
     "name": "Piège Sable",
-    "description": "Empêche l’adversaire de quitter le terrain. Augmente également la probabilité de combats duo si le Pokémon est en tête d’équipe."
+    "description": "Empêche l’adversaire de quitter le terrain. Augmente également la probabilité de combats duo lorsque ce Pokémon est sur le terrain."
   },
   "vitalSpirit": {
     "name": "Esprit Vital",
@@ -393,7 +393,7 @@
   },
   "noGuard": {
     "name": "Annule Garde",
-    "description": "La Précision des capacités du Pokémon et des capacités qui ciblent le Pokémon passe à 100 %. Augmente également la probabilité de combats duo si le Pokémon est en tête d’équipe."
+    "description": "La Précision des capacités du Pokémon et des capacités qui ciblent le Pokémon passe à 100 %. Augmente également la probabilité de combats duo lorsque ce Pokémon est sur le terrain."
   },
   "stall": {
     "name": "Frein",
@@ -785,7 +785,7 @@
   },
   "shieldsDown": {
     "name": "Bouclier-Carcan",
-    "description": "Lorsque le Pokémon perd la moitié de ses PV, son enveloppe se brise et il adopte une posture offensive."
+    "description": "L’enveloppe du Pokémon le protège des altérations de statut. Lorsqu’il perd la moitié de ses PV, son enveloppe se brise et il adopte une posture offensive."
   },
   "stakeout": {
     "name": "Filature",
@@ -1113,7 +1113,7 @@
   },
   "commander": {
     "name": "Commandant",
-    "description": "Si un Oyacata allié est sur le terrain, ce Pokémon entre dans sa bouche et devient son commandant, ce qui augmente beaucoup ses stats. Augmente également la probabilité de combats duo si le Pokémon est en tête d’équipe."
+    "description": "Si un Oyacata allié est sur le terrain, ce Pokémon entre dans sa bouche et devient son commandant, ce qui augmente beaucoup ses stats. Augmente également la probabilité de combats duo lorsque ce Pokémon est sur le terrain."
   },
   "electromorphosis": {
     "name": "Grecharge",
@@ -1177,7 +1177,7 @@
   },
   "toxicDebris": {
     "name": "Dépôt Toxique",
-    "description": "Quand le Pokémon subit les dégâts d’une capacité physique, il répand des pics toxiques sur le côté adverse empoisonnant les Pokémon entrant sur le terrain. Si 2 effets de Pics Toxik sont actifs en même temps, ils sont gravement empoisonnés. Si un Pokémon de type Poison se prend dans les pics, il les dissipe en les absorbant."
+    "description": "Quand le Pokémon subit les dégâts d’une capacité physique, il répand des pics toxiques sur le côté adverse empoisonnant les Pokémon entrant sur le terrain. Une seconde rangée de pics inflige un poison grave. Si un Pokémon de type Poison arrive en combat et fait contact avec ces pics, il les dissipe en les absorbant."
   },
   "armorTail": {
     "name": "Armure Caudale",

@@ -233,7 +233,7 @@
   },
   "blizzard": {
     "name": "Blizzard",
-    "effect": "Une violente tempête de neige s’abat sur la cible. A 10 % de chances de la geler. N’échoue jamais quand il neige ou grêle."
+    "effect": "Une violente tempête de neige s’abat sur les cibles adverses. A 10 % de chances de les geler. N’échoue jamais quand il neige ou grêle."
   },
   "psybeam": {
     "name": "Rafale Psy",
@@ -957,11 +957,11 @@
   },
   "rainDance": {
     "name": "Danse Pluie",
-    "effect": "Invoque de fortes pluies qui durent cinq tours, augmentant de 50 % la puissance des capacités de type Eau et baissant de 50 % celle des capacités de type Feu."
+    "effect": "Invoque de fortes pluies qui durent cinq tours, augmentant de 50 % la puissance des capacités de type Eau et baissant de moitié celle des capacités de type Feu."
   },
   "sunnyDay": {
     "name": "Zénith",
-    "effect": "Fait briller le soleil pendant cinq tours, augmentant de 50 % la puissance des capacités de type Feu et baissant de 50 % celle des capacités de type Eau."
+    "effect": "Fait briller le soleil pendant cinq tours, augmentant de 50 % la puissance des capacités de type Feu et baissant de moitié celle des capacités de type Eau."
   },
   "crunch": {
     "name": "Mâchouille",
@@ -1557,7 +1557,7 @@
   },
   "toxicSpikes": {
     "name": "Pics Toxik",
-    "effect": "Le lanceur éparpille des pics toxiques sur le côté adverse. Les Pokémon entrant sur le terrain qui font contact avec le sol sont empoisonnés. Si 2 effets de Pics Toxik sont actifs en même temps, ils sont gravement empoisonnés. Si un Pokémon de type Poison arrive en combat et fait contact avec ces pics, ils sont neutralisés et disparaissent."
+    "effect": "Le lanceur éparpille des pics toxiques sur le côté adverse. Les Pokémon entrant sur le terrain qui font contact avec le sol sont empoisonnés. Une seconde rangée de Pics Toxik inflige un poison grave. Si un Pokémon de type Poison arrive en combat et fait contact avec ces pics, il les dissipe en les absorbant."
   },
   "heartSwap": {
     "name": "Permucœur",
@@ -3377,7 +3377,7 @@
   },
   "ceaselessEdge": {
     "name": "Vagues à Lames",
-    "effect": "Des lames de coquillages entaillent la cible en visant ses points faibles. Les débris de coquillage se répandent sous la forme de picots aux pieds de la cible. Les Pokémon entrant sur le terrain subissent des dégâts équivalents à 1/8 de leurs PV max, et plus si 2 ou 3 effets de picots sont actifs en même temps. Cela n’affecte pas les Pokémon de type Vol ou dotés du talent Lévitation, entre autres."
+    "effect": "Des lames de coquillages entaillent la cible en visant ses points faibles. Les débris de coquillage se répandent sous la forme de picots aux pieds de la cible. Les Pokémon adverses entrant sur le terrain subissent des dégâts équivalents à 1/8 de leurs PV max. Il est possible d’installer jusqu’à 3 rangées de pics, chacune augmentant les dégâts subis."
   },
   "bleakwindStorm": {
     "name": "Typhon Hivernal",
@@ -3573,7 +3573,7 @@
   },
   "iceSpinner": {
     "name": "Cryo-Pirouette",
-    "effect": "Le lanceur enveloppe ses jambes d’une fine couche de glace et heurte la cible en tournant sur lui-même. Ses rotations détruisent le champ actif sur le terrain."
+    "effect": "Le lanceur se recouvre d’une fine couche de glace et heurte la cible en tournant sur lui-même. Ses rotations détruisent le champ actif sur le terrain."
   },
   "glaiveRush": {
     "name": "Charge Glaive",
@@ -3693,7 +3693,7 @@
   },
   "bitterBlade": {
     "name": "Lame en Peine",
-    "effect": "Le lanceur concentre son amertume du monde des vivants dans la pointe de ses épées et tranche la cible. La moitié des dégâts infligés sont convertis en PV pour le lanceur."
+    "effect": "Le lanceur concentre son amertume du monde des vivants dans la pointe de ses lames et tranche la cible. La moitié des dégâts infligés sont convertis en PV pour le lanceur."
   },
   "doubleShock": {
     "name": "Double Décharge",
