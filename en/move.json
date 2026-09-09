@@ -305,15 +305,15 @@
   },
   "poisonPowder": {
     "name": "Poison Powder",
-    "effect": "The user scatters a cloud of poisonous dust that poisons the target."
+    "effect": "The user scatters a cloud of poisonous dust that poisons the target. Grass-type Pokémon are unaffected."
   },
   "stunSpore": {
     "name": "Stun Spore",
-    "effect": "The user scatters a cloud of numbing powder that paralyzes the target."
+    "effect": "The user scatters a cloud of numbing powder that paralyzes the target. Grass-type Pokémon are unaffected."
   },
   "sleepPowder": {
     "name": "Sleep Powder",
-    "effect": "The user scatters a cloud of soporific dust that puts the target to sleep."
+    "effect": "The user scatters a cloud of soporific dust that puts the target to sleep. Grass-type Pokémon are unaffected."
   },
   "petalDance": {
     "name": "Petal Dance",
@@ -341,11 +341,11 @@
   },
   "thunderWave": {
     "name": "Thunder Wave",
-    "effect": "The user launches a weak jolt of electricity that paralyzes the target."
+    "effect": "The user launches a weak jolt of electricity that paralyzes the target. Ground-type Pokémon are unaffected."
   },
   "thunder": {
     "name": "Thunder",
-    "effect": "A wicked thunderbolt is dropped on the target to inflict damage. This move has a 30% chance of paralyzing the target, and never misses in rain. This move can also hit a target that’s in the air from Fly, Bounce, or Sky Drop."
+    "effect": "A wicked thunderbolt is dropped on the target to inflict damage. This move has a 30% chance of paralyzing the target, and never misses in rain. In harsh sunlight, this move’s accuracy is 50%. This move can hit a target that’s in the air from Fly, Bounce, or Sky Drop."
   },
   "rockThrow": {
     "name": "Rock Throw",
@@ -585,7 +585,7 @@
   },
   "spore": {
     "name": "Spore",
-    "effect": "The user scatters bursts of spores that induce sleep."
+    "effect": "The user scatters bursts of spores that induce sleep. Grass-type Pokémon are unaffected."
   },
   "flash": {
     "name": "Flash",
@@ -653,7 +653,7 @@
   },
   "substitute": {
     "name": "Substitute",
-    "effect": "The user creates a substitute for itself by losing ¼ of its max HP. The substitute serves as the user’s decoy, and will vanish when it takes damage equal to the amount of HP lost by the user to create it."
+    "effect": "The user creates a substitute for itself by losing ¼ of its max HP. The substitute will be hit by moves instead of the user, and it will vanish when it takes damage equal to ¼ of the user’s max HP. Sound-based moves will hit the user through the substitute."
   },
   "struggle": {
     "name": "Struggle",
@@ -709,7 +709,7 @@
   },
   "cottonSpore": {
     "name": "Cotton Spore",
-    "effect": "The user releases cotton-like spores that cling to opposing Pokémon. This harshly lowers their Speed stats."
+    "effect": "The user releases cotton-like spores that cling to opposing Pokémon. This harshly lowers their Speed stats. Grass-type Pokémon are unaffected."
   },
   "reversal": {
     "name": "Reversal",
@@ -829,7 +829,7 @@
   },
   "milkDrink": {
     "name": "Milk Drink",
-    "effect": "The user drinks highly nutritious milk, restoring ½ of its max HP."
+    "effect": "The user produces highly nutritious milk, restoring ½ of the user or an ally’s max HP."
   },
   "spark": {
     "name": "Spark",
@@ -1901,7 +1901,7 @@
   },
   "ragePowder": {
     "name": "Rage Powder",
-    "effect": "The user scatters a cloud of irritating powder to draw attention to itself, making all opposing Pokémon take aim only at the user."
+    "effect": "The user scatters a cloud of irritating powder to draw attention to itself, making all opposing Pokémon take aim only at the user. Grass-type Pokémon are unaffected."
   },
   "telekinesis": {
     "name": "Telekinesis",
@@ -2165,7 +2165,7 @@
   },
   "hurricane": {
     "name": "Hurricane",
-    "effect": "The user attacks by wrapping its opponent in a fierce wind. This move has a 30% chance of confusing the target, and never misses in rain. This move can also hit a target that’s in the air from Fly, Bounce, or Sky Drop."
+    "effect": "The user attacks by wrapping its opponent in a fierce wind. This move has a 30% chance of confusing the target, and never misses in rain. In harsh sunlight, this move’s accuracy is 50%. This move can hit a target that’s in the air from Fly, Bounce, or Sky Drop."
   },
   "headCharge": {
     "name": "Head Charge",
@@ -2977,7 +2977,7 @@
   },
   "snipeShot": {
     "name": "Snipe Shot",
-    "effect": "The user ignores the effects of opposing Pokémon’s moves and Abilities that draw in moves. This move’s critical-hit ratio is boosted by 1 stage."
+    "effect": "The user ignores the effects of Abilities and moves that draw in moves. This move’s critical-hit ratio is boosted by 1 stage."
   },
   "jawLock": {
     "name": "Jaw Lock",
@@ -2997,7 +2997,7 @@
   },
   "magicPowder": {
     "name": "Magic Powder",
-    "effect": "The user scatters a cloud of magic powder that changes the target’s type to Psychic."
+    "effect": "The user scatters a cloud of magic powder that changes the target’s type to Psychic. Grass-type Pokémon are unaffected."
   },
   "dragonDarts": {
     "name": "Dragon Darts",

@@ -105,7 +105,7 @@
   },
   "effectSpore": {
     "name": "Effect Spore",
-    "description": "When the Pokémon is hit by a contact move, the attacker has a 30% chance of being poisoned, paralyzed, or put to sleep."
+    "description": "When the Pokémon is hit by a contact move, the attacker has a 30% chance of being poisoned, paralyzed, or put to sleep. Grass-type Pokémon are unaffected."
   },
   "synchronize": {
     "name": "Synchronize",
@@ -197,7 +197,7 @@
   },
   "runAway": {
     "name": "Run Away",
-    "description": "Enables a sure getaway from wild Pokémon."
+    "description": "Enables a sure getaway from wild Pokémon and ignores any effects that would usually prevent the Pokémon from switching out of battle and being replaced by another party Pokémon."
   },
   "keenEye": {
     "name": "Keen Eye",
@@ -629,7 +629,7 @@
   },
   "prankster": {
     "name": "Prankster",
-    "description": "Increases the priority of the Pokémon’s status moves by 1 stage. Dark-type Pokémon are immune to these moves."
+    "description": "Increases the priority of the Pokémon’s status moves by 1 stage. However, the Pokémon’s status moves no longer work against Dark-type Pokémon."
   },
   "sandForce": {
     "name": "Sand Force",
@@ -785,7 +785,7 @@
   },
   "shieldsDown": {
     "name": "Shields Down",
-    "description": "The Pokémon’s shell protects it from status conditions. When its HP drops to ½ or less, the  shell breaks and it becomes aggressive, changing into its Core Form."
+    "description": "The Pokémon’s shell protects it from status conditions. When its HP drops to ½ or less, the shell breaks and it becomes aggressive, changing into its Core Form."
   },
   "stakeout": {
     "name": "Stakeout",
@@ -973,7 +973,7 @@
   },
   "punkRock": {
     "name": "Punk Rock",
-    "description": "Boosts the power of the Pokémon’s sound-based moves by 30%. The Pokémon also takes half the damage from these kinds of moves"
+    "description": "Boosts the power of the Pokémon’s sound-based moves by 30% and halves the damage the Pokémon takes from sound-based moves."
   },
   "sandSpit": {
     "name": "Sand Spit",
