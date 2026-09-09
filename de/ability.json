@@ -4,7 +4,8 @@
     "description": "Das Pokémon sondert einen Gestank ab, der bei einem Angriff das Ziel mit einer Chance von 10% zurückschrecken lässt. Nicht mit Attacken oder Items kombinierbar, welche die Chance auf Zurückschrecken erhöht."
   },
   "drizzle": {
-    "name": "Niesel"
+    "name": "Niesel",
+    "description": "Das Pokémon erzeugt bei Kampfantritt für 5 Runden Regen. Verstärkt Attacken vom Typ Wasser um 50 % und halbiert den Schaden durch Attacken vom Typ Feuer."
   },
   "speedBoost": {
     "name": "Temposchub",
@@ -175,7 +176,8 @@
     "description": "Bei Regen regeneriert das Pokémon nach und nach KP. ¹⁄₁₆ der maximalen KP am Ende jeder Runde in der es regnet."
   },
   "sandStream": {
-    "name": "Sandsturm"
+    "name": "Sandsturm",
+    "description": "Das Pokémon erzeugt bei Kampfantritt für 5 Runden einen Sandsturm. Bei Pokémon vom Typ Gestein wird der Wert für die Spezial-Verteidigung um 50 % erhöht. Pokémon, die nicht den Typen Gestein, Boden oder Stahl angehören, erleiden am Ende jeder Runde Schaden in Höhe von ¹⁄₁₆ ihrer maximalen KP."
   },
   "pressure": {
     "name": "Erzwinger",
@@ -274,7 +276,8 @@
     "description": "Verhindert Schaden, der durch Rückstoß entstehen würde."
   },
   "drought": {
-    "name": "Dürre"
+    "name": "Dürre",
+    "description": "Erzeugt bei Kampfantritt für 5 Runden gleißendes Sonnenlicht. Verstärkt Attacken vom Typ Feuer um 50 % und halbiert den Schaden durch Attacken vom Typ Wasser."
   },
   "arenaTrap": {
     "name": "Ausweglos",
@@ -461,7 +464,8 @@
     "description": "Die Stärke von sehr effektiven Angriffen gegen das Pokémon wird um 25% gesenkt."
   },
   "snowWarning": {
-    "name": "Hagelalarm"
+    "name": "Hagelalarm",
+    "description": "Löst bei Kampfantritt für 5 Runden Hagel aus. Der Verteidigungswert von Pokémon des Typs Eis wird um 50 % erhöht."
   },
   "honeyGather": {
     "name": "Honigmaul",
@@ -748,10 +752,12 @@
     "description": "Die Wirkung von Aura-Fähigkeiten wird umgekehrt, sodass die Stärke der betroffenen Attacken sinkt um 25%."
   },
   "primordialSea": {
-    "name": "Urmeer"
+    "name": "Urmeer",
+    "description": "Ändert das Wetter, um Feuer-Attacken wirkungslos zu machen und erhöht den Schaden von Attacken des Typs Wasser um 50 %."
   },
   "desolateLand": {
-    "name": "Endland"
+    "name": "Endland",
+    "description": "Ändert das Wetter, um Wasser-Attacken wirkungslos zu machen und erhöht den Schaden von Attacken des Typs Feuer um 50 %."
   },
   "deltaStream": {
     "name": "Delta-Wind",
@@ -1002,7 +1008,8 @@
     "description": "Die Stärke von Stahl-Angriffen auf der Mitstreiterseite steigt um 50%."
   },
   "perishBody": {
-    "name": "Unheilskörper"
+    "name": "Unheilskörper",
+    "description": "Erleidet es einen Treffer von einer direkten Attacke, wird es zusammen mit dem Angreifer nach drei Runden besiegt. Rettung ist durch Austausch möglich. Boss-Pokémon sind gegen diesen Effekt immun."
   },
   "wanderingSpirit": {
     "name": "Rastlose Seele",
@@ -1013,7 +1020,8 @@
     "description": "Der Angriff des Pokémon steigt um 50%, aber es kann nur die zuerst gewählte Attacke einsetzen."
   },
   "neutralizingGas": {
-    "name": "Reaktionsgas"
+    "name": "Reaktionsgas",
+    "description": "Solange das Pokémon am Kampf beteiligt ist, werden die Fähigkeiten und Passiven aller anderen Pokémon unterdrückt oder aufgehoben."
   },
   "pastelVeil": {
     "name": "Pastellhülle",
@@ -1168,7 +1176,8 @@
     "description": "Das Pokémon kopiert bei Kampfantritt die Statusveränderungen eines Mitstreiters."
   },
   "toxicDebris": {
-    "name": "Giftbelag"
+    "name": "Giftbelag",
+    "description": "Verstreut Giftspitzen vor dem gegnerischen Team, wenn das Pokémon durch physische Attacken Schaden erleidet. Gegnerische Pokémon, die beim Einwechseln in diese Spitzen geraten, werden vergiftet. Eine zweite Schicht Spitzen verursacht stattdessen schwere Vergiftung. Gift-Pokémon, die in diese Spitzen geraten, absorbieren sie und entfernen sie so vom Spielfeld."
   },
   "armorTail": {
     "name": "Schweifrüstung",
