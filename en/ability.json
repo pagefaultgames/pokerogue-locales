@@ -901,19 +901,19 @@
   },
   "electricSurge": {
     "name": "Electric Surge",
-    "description": "Turns the ground into Electric Terrain for 5 turns when the Pokémon enters a battle. Grounded Pokémon have their Electric-type moves boosted by 30% and can no longer fall asleep."
+    "description": "Turns the ground into Electric Terrain for 5 turns when the Pokémon enters a battle. Pokémon on the ground have their Electric-type moves boosted by 30% and can no longer fall asleep."
   },
   "psychicSurge": {
     "name": "Psychic Surge",
-    "description": "Turns the ground into Psychic Terrain for 5 turns when the Pokémon enters a battle. Grounded Pokémon have their Psychic-type moves boosted by 30% and cannot use or be targeted by moves with increased priority." 
+    "description": "Turns the ground into Psychic Terrain for 5 turns when the Pokémon enters a battle. Pokémon on the ground have their Psychic-type moves boosted by 30% and cannot use or be targeted by moves with increased priority." 
   },
   "mistySurge": {
     "name": "Misty Surge",
-    "description": "Turns the ground into Misty Terrain for 5 turns when the Pokémon enters a battle. Grounded Pokémon have their Dragon-type moves halved and are immune to status conditions."
+    "description": "Turns the ground into Misty Terrain for 5 turns when the Pokémon enters a battle. Pokémon on the ground are protected from status conditions and receive half the damage dealt by Dragon-type moves."
   },
   "grassySurge": {
     "name": "Grassy Surge",
-    "description": "Turns the ground into Grassy Terrain for 5 turns when the Pokémon enters a battle. Grounded Pokémon have their Grass-type moves boosted by 30% and have ¹⁄₁₆ of their max HP restored at the end of every turn."
+    "description": "Turns the ground into Grassy Terrain for 5 turns when the Pokémon enters a battle. Pokémon on the ground have their Grass-type moves boosted by 30% and restore ¹⁄₁₆ of their max HP at the end of every turn."
   },
   "fullMetalBody": {
     "name": "Full Metal Body",
@@ -1073,7 +1073,7 @@
   },
   "seedSower": {
     "name": "Seed Sower",
-    "description": "Turns the ground into Grassy Terrain for 5 turns when the Pokémon takes damage from moves."
+    "description": "Turns the ground into Grassy Terrain for 5 turns when the Pokémon takes damage from moves. Pokémon on the ground have their Grass-type moves boosted by 30% and restore ¹⁄₁₆ of their max HP at the end of every turn."
   },
   "thermalExchange": {
     "name": "Thermal Exchange",
@@ -1149,11 +1149,11 @@
   },
   "orichalcumPulse": {
     "name": "Orichalcum Pulse",
-    "description": "Summons harsh sunlight for 5 turns when the Pokémon enters a battle. The ancient pulse thrumming through the Pokémon also boosts its Attack stat by 33% in harsh sunlight. Powers up Fire-type moves by 50% and halves the damage of Water-type moves."
+    "description": "Summons harsh sunlight for 5 turns when entering a battle, which powers up Fire-type moves by 50% and halves the power of Water-type moves. The ancient pulse thrumming through the Pokémon also boosts its Attack stat by 33% in harsh sunlight."
   },
   "hadronEngine": {
     "name": "Hadron Engine",
-    "description": "Turns the ground into Electric Terrain for 5 turns when the Pokémon enters a battle. The futuristic engine within the Pokémon also boosts its Sp. Atk stat by 33% on Electric Terrain. Grounded Pokémon have their Electric-type moves boosted by 30% and can no longer fall asleep."
+    "description": "Turns the ground into Electric Terrain for 5 turns when entering a battle, which powers up the Electric-type moves of Pokémon on the ground by 30% and prevents them from falling asleep. The futuristic engine within the Pokémon also boosts its Sp. Atk stat by 33% on Electric Terrain."
   },
   "opportunist": {
     "name": "Opportunist",
