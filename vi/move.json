@@ -822,7 +822,7 @@
     "effect": "Pokémon vội vã và ngẫu nhiên sử dụng một chiêu thức trong số các chiêu thức mà Pokémon đồng đội đã biết."
   },
   "ingrain": {
-    "effect": "Pokémon cắm rễ xuống đất để hồi phục HP của bản thân sau mỗi lượt. Vì đã bị bám rễ, nó không thể bỏ chạy hoặc thay đổi ra ngoài."
+    "effect": "Pokémon bén rễ để hồi phục ¹⁄₁₆ HP tối đa của bản thân cuối mỗi lượt. Vì đã bám rễ vào vào đất dày, nó sẽ không thể bỏ chạy hoặc thu về."
   },
   "superpower": {
     "effect": "Pokémon tấn công mục tiêu với sức mạnh cực đại. Chiêu thức này cũng đồng thời làm giảm chỉ số Tấn công và Phòng thủ của bản thân."
@@ -897,7 +897,7 @@
     "effect": "Pokémon tấn công bằng một cú đá có 10% tỷ lệ gây bỏng mục tiêu. Tỷ lệ chí mạng của chiêu thức này được tăng thêm 1 bậc."
   },
   "mudSport": {
-    "effect": "Pokémon đá bùn lên khắp chiến trường. Chiêu thức này làm giảm sức mạnh của các đòn tấn công hệ Điện trong vòng 5 lượt."
+    "effect": "Pokémon đá bùn văng khắp chiến trường. Chiêu thức này làm giảm 50% uy lực của các đòn tấn công hệ Điện từ bất kỳ Pokémon nào trong vòng 5 lượt."
   },
   "iceBall": {
     "effect": "Ball: Pokémon liên tục lăn vào mục tiêu trong vòng 5 lượt. Đòn tấn công này sẽ nhân đôi sức mạnh sau mỗi lần đánh trúng, và sẽ đặt lại sau khi hết 5 lượt hoặc nếu chiêu thức bị ngắt quãng."
@@ -1035,7 +1035,7 @@
     "effect": "Pokémon rải những chiếc lá kỳ lạ đuổi theo mục tiêu. Đòn tấn công này không bao giờ trượt."
   },
   "waterSport": {
-    "effect": "Pokémon làm ướt đẫm bãi chiến trường bằng nước. Chiêu thức này làm giảm sức mạnh của các chiêu thức hệ Lửa trong vòng 5 lượt."
+    "effect": "Pokémon làm ướt đẫm bãi chiến trường. Chiêu thức này làm giảm 50% uy lực của các đòn tấn công hệ Lửa từ bất kỳ Pokémon nào trong vòng 5 lượt."
   },
   "calmMind": {
     "effect": "Pokémon lặng lẽ tập trung tâm trí và làm dịu tinh thần của bản thân để tăng chỉ số T.công Đ.b. và P.thủ Đ.b.."
@@ -1173,7 +1173,7 @@
     "effect": "Pokémon sử dụng năng lực tâm linh của mình để hoán đổi các thay đổi chỉ số với mục tiêu."
   },
   "aquaRing": {
-    "effect": "Pokémon bao bọc bản thân trong một tấm màn làm bằng nước. Chiêu thức này giúp hồi phục một lượng HP sau mỗi lượt."
+    "effect": "Pokémon bao bọc bản thân trong màn nước để phục hồi ¹⁄₁₆ HP tối đa cuối mỗi lượt."
   },
   "magnetRise": {
     "effect": "Pokémon tự lơ lửng trên không bằng cách sử dụng lực từ trường được tạo ra từ điện trong vòng 5 lượt."
@@ -1740,7 +1740,7 @@
     "effect": "Biến toàn bộ sân đấu thành Grassy Terrain trong 5 lượt. Những Pokémon chạm đất sẽ được gia tăng 30% uy lực cho các chiêu thức hệ Cỏ, đồng thời được hồi phục ¹⁄₁₆ lượng HP tối đa vào cuối mỗi lượt."
   },
   "mistyTerrain": {
-    "effect": "Biến toàn bộ sân đấu thành Misty Terrain trong 5 lượt. Những Pokémon chạm đất sẽ bị giảm một nửa uy lực của các chiêu thức hệ Rồng, miễn nhiễm với các trạng thái bất thường và không thể bị rơi vào trạng thái rối loạn."
+    "effect": "Biến toàn bộ sân đấu thành Misty Terrain trong 5 lượt. Những Pokémon chạm đất sẽ bị giảm một nửa uy lực các chiêu thức hệ Rồng và miễn nhiễm với các trạng thái bất thường."
   },
   "electrify": {
     "effect": "Nếu chiêu thức này đánh trúng mục tiêu trước khi chúng kịp sử dụng chiêu của mình, chiêu thức đó sẽ bị chuyển thành hệ Điện trong lượt đó."
@@ -1809,7 +1809,7 @@
     "effect": "Sử dụng Happy Hour sẽ nhân đôi số tiền thưởng nhận được sau trận đấu."
   },
   "electricTerrain": {
-    "effect": "Pokémon biến mặt đất thành Electric Terrain trong 5 lượt, cường hóa các chiêu thức hệ Điện. Các Pokémon chạm đất sẽ không thể rơi vào giấc ngủ."
+    "effect": "Pokémon biến mặt đất thành Electric Terrain trong 5 lượt. Các Pokémon chạm đất được tăng 30% uy lực các chiêu thức hệ Điện và sẽ không còn bị ngủ gục."
   },
   "dazzlingGleam": {
     "effect": "Pokémon gây sát thương cho Pokémon đối phương bằng cách phát ra một tia sáng mạnh."
@@ -2031,7 +2031,7 @@
     "effect": "Pokémon quăng dây xích neo trói chặt mục tiêu trong khi tấn công. Đối phương sẽ không còn thể chạy trốn hoặc rút lui khỏi trận đấu."
   },
   "psychicTerrain": {
-    "effect": "Bảo vệ các Pokémon chạm đất trước các chiêu thức ưu tiên và cường hóa sát thương cho các chiêu thức hệ Siêu Linh trong vòng 5 lượt."
+    "effect": "Pokémon biến mặt đất thành Psychic Terrain trong 5 lượt. Các Pokémon chạm đất được tăng 30% uy lực các chiêu thức hệ Siêu Linh và sẽ không thể sử dụng hoặc bị nhắm vào bởi các chiêu thức được tăng độ ưu tiên."
   },
   "lunge": {
     "effect": "Pokémon lao vào mục tiêu, tấn công hết sức mạnh. Điều này cũng làm giảm chỉ số Tấn công của mục tiêu."
@@ -2745,7 +2745,7 @@
     "effect": "Pokémon dọn dẹp sạch sẽ và loại bỏ các hiệu ứng của Gai Nhọn, Đá Bẫy, Tơ Dính, Gai Độc, và Thế Thân. Hành động này đồng thời gia tăng chỉ số Tấn công và Tốc độ của bản thân."
   },
   "snowscape": {
-    "effect": "Pokémon triệu hồi một cơn bão tuyết kéo dài trong 5 lượt. Thao tác này giúp tăng chỉ số Phòng thủ cho các Pokémon hệ Băng."
+    "effect": "Pokémon triệu hồi một cơn bão tuyết kéo dài 5 lượt. Cơn bão lạnh này giúp các Pokémon hệ Băng tăng 50% chỉ số Phòng thủ."
   },
   "pounce": {
     "effect": "Pokémon tấn công bằng cách lao vào mục tiêu. Điều này cũng làm giảm chỉ số Tốc độ của mục tiêu."

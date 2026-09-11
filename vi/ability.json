@@ -3,7 +3,7 @@
     "description": "Tỏa ra mùi hôi khi tấn công, tạo 10% tỷ lệ khiến mục tiêu giật mình khi bị trúng đòn từ chiêu của Pokémon. Không cộng dồn với chiêu thức hoặc vật phẩm có cũng có cơ chế gây giật mình."
   },
   "drizzle": {
-    "description": "Pokémon tạo mưa trong 5 lượt mỗi khi xuất trận."
+    "description": "Triệu hồi cơn mưa kéo dài 5 lượt khi Pokémon tham chiến. Cơn mưa tăng sức mạnh các chiêu thức hệ Nước lên 50% và giảm một nửa sát thương của các chiêu thức hệ Lửa."
   },
   "speedBoost": {
     "description": "Tăng chỉ số Tốc độ của Pokémon khi kết thúc mỗi lượt."
@@ -132,7 +132,7 @@
     "description": "Pokémon này được hồi phục ¹⁄₁₆ lượng HP tối đa vào cuối mỗi lượt khi trời MƯA"
   },
   "sandStream": {
-    "description": "Pokémon tạo bão cát trong 5 lượt mỗi khi xuất trận."
+    "description": "Triệu hồi cơn bão cát kéo dài 5 lượt khi Pokémon tham chiến. Pokémon hệ Đá được tăng chỉ số P.thủ Đ.b. lên 50%. Pokémon không thuộc hệ Đá, Đất hoặc Thép sẽ chịu sát thương bằng ¹⁄₁₆ HP tối đa cuối mỗi lượt."
   },
   "pressure": {
     "description": "Gây áp lực lên Pokémon đối phương, khiến chúng phải tiêu tốn thêm 1 điểm NL khi sử dụng chiêu thức chống lại Pokémon này."
@@ -147,7 +147,7 @@
     "description": "Khi Pokémon bị trúng đòn tấn công tiếp xúc, kẻ tấn công có 30% tỷ lệ bị bỏng."
   },
   "runAway": {
-    "description": "Giúp thoát khỏi Pokémon hoang dã một cách chắc chắn."
+    "description": "Đảm bảo chắc chắn sẽ chạy thoát khỏi Pokémon hoang dã, đồng thời bỏ qua mọi hiệu ứng ngăn cản Pokémon thu về."
   },
   "keenEye": {
     "description": "Đôi mắt tinh tường giúp Pokémon bỏ qua các thay đổi về độ né tránh của mục tiêu và ngăn không cho độ chuẩn của bản thân bị hạ thấp."
@@ -207,7 +207,7 @@
     "description": "Pokémon này sẽ không bị mất HP do sát thương phản hồi từ các chiêu thức của nó."
   },
   "drought": {
-    "description": "Triệu hồi ánh nắng gay gắt trong 5 lượt khi Pokémon tham chiến."
+    "description": "Triệu hồi nắng trời gay gắt kéo dài 5 lượt khi Pokémon tham chiến. Ánh nắng tăng sức mạnh các chiêu thức hệ Lửa lên 50% và giảm một nửa sát thương của các chiêu thức hệ Nước."
   },
   "arenaTrap": {
     "description": "Ngăn chặn Pokémon đối phương bỏ chạy khỏi trận chiến. Nếu Pokémon này là Pokémon dẫn đầu của bạn trong trận chiến, nó sẽ làm tăng khả năng xảy ra trận đấu đôi."
@@ -348,7 +348,7 @@
     "description": "Giảm 25% sát thương mà Pokémon phải chịu từ các chiêu thức có hiệu quả vượt trội."
   },
   "snowWarning": {
-    "description": "Khi Pokémon này tham gia trận chiến, nó sẽ tạo ra tuyết trong 5 lượt."
+    "description": "Triệu hồi tuyết rơi kéo dài 5 lượt khi Pokémon tham chiến. Pokémon hệ Băng sẽ được tăng 50% chỉ số Phòng thủ."
   },
   "honeyGather": {
     "description": "Pokémon thu thập Mật và bán lấy tiền sau mỗi trận thắng, ngay cả khi không tham chiến."
@@ -564,10 +564,10 @@
     "description": "Hiệu quả của Fairy Aura và Dark Aura bị đảo ngược và vô hiệu hoá, khiến các chiêu thức bị ảnh hưởng giảm 25% sức mạnh."
   },
   "primordialSea": {
-    "description": "Pokémon này biến đổi thời tiết để vô hiệu hoá các chiêu thức hệ Lửa."
+    "description": "Pokémon biến đổi thời tiết để vô hiệu các đòn tấn công hệ Lửa và tăng sát thương của các chiêu thức hệ Nước lên 50%."
   },
   "desolateLand": {
-    "description": "Pokémon này biến đổi thời tiết để vô hiệu hoá các chiêu thức hệ Nước."
+    "description": "Pokémon biến đổi thời tiết để vô hiệu các đòn tấn công hệ Nước và tăng sát thương của các chiêu thức hệ Lửa lên 50%."
   },
   "deltaStream": {
     "description": "Pokémon biến đổi thời tiết khiến hệ Bay miễn nhiễm với sát thương chí mạng."
@@ -603,7 +603,7 @@
     "description": "Tăng chỉ số T.công Đ.b. của Pokémon khi một đòn tấn công khiến HP của nó giảm xuống còn ½ hoặc ít hơn so với HP tối đa."
   },
   "slushRush": {
-    "description": "Gấp đôi chỉ số Tốc độ trong trời tuyết hoặc mưa đá. Pokémon này cũng sẽ không nhận sát thương từ mưa đá."
+    "description": "Gấp đôi chỉ số Tốc độ trong trời tuyết hoặc mưa đá. Pokémon này cũng sẽ không nhận sát thương từ mưa đá."
   },
   "longReach": {
     "description": "Không có chiêu thức nào được Pokémon này sử dụng được coi là chiêu tiếp xúc."
@@ -756,7 +756,7 @@
     "description": "Tăng 50% uy lực cho các chiêu thức hệ Thép được sử dụng bởi bản thân và đồng đội."
   },
   "perishBody": {
-    "description": "Khi Pokémon bị tấn công bởi chiêu thức vật lý, kẻ tấn công và bản thân sẽ cùng gục ngã sau ba lượt nếu không rút lui."
+    "description": "Khi Pokémon bị tấn công bởi chiêu thức tiếp xúc, kẻ tấn công và bản thân sẽ cùng gục ngã sau ba lượt nếu không rút lui. Vô hiệu với Boss."
   },
   "wanderingSpirit": {
     "description": "Khi Pokémon này bị đánh trúng bởi một chiêu thức tiếp xúc, nó sẽ hoán đổi Đặc tính với kẻ tấn công."
@@ -765,7 +765,7 @@
     "description": "Tăng chỉ số Tấn công của Pokémon lên 50%, nhưng chỉ cho phép sử dụng chiêu thức đầu tiên được chọn."
   },
   "neutralizingGas": {
-    "description": "Trong khi Pokémon này đang trên sân đấu, hiệu ứng của tất cả các Đặc tính  của Pokémon khác sẽ bị vô hiệu hóa hoặc sẽ không được kích hoạt."
+    "description": "Trong khi Pokémon này đang trên sân đấu, hiệu ứng từ Đặc tính và Nội tại của tất cả các Pokémon khác sẽ bị vô hiệu hoặc không được kích hoạt."
   },
   "pastelVeil": {
     "description": "Pokémon này và các đồng đội bên cạnh nó trong trận chiến được bảo vệ khỏi bị nhiễm độc hoặc nhiễm độc nặng."
@@ -882,7 +882,7 @@
     "description": "Khi Pokémon tham chiến, nó sẽ sao chép toàn bộ thay đổi chỉ số của đồng đội."
   },
   "toxicDebris": {
-    "description": "Văng gai độc rơi xuống chân đội đối phương khi Pokémon nhận sát thương từ các chiêu thức vật lý."
+    "description": "Văng gai độc rơi xuống chân đội đối phương khi Pokémon nhận sát thương từ các chiêu thức vật lý. Pokémon đối phương khi tham chiến sẽ bị nhiễm độc nếu đáp xuống những gai nhọn này. Một lớp gai nhọn thứ hai sẽ gây độc nặng hơn. Những Pokémon hệ Độc khi đáp xuống những gai nhọn này sẽ hấp thụ độc tố và loại bỏ chúng khỏi sàn đấu."
   },
   "armorTail": {
     "description": "Chiếc đuôi kỳ bí che phủ đầu của Pokémon khiến đối thủ không thể sử dụng các chiêu thức có độ ưu tiên nhắm vào Pokémon này hoặc đồng đội của nó."
