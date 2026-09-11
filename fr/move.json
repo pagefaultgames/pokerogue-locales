@@ -304,13 +304,16 @@
     "effect": "Le lanceur absorbe une grande quantité de lumière au premier tour et envoie un rayon puissant au tour suivant. Si le soleil brille, le lanceur peut attaquer au tour d’utilisation de la capacité sans avoir à la charger. Si n’importe quelle autre condition météo est active, la puissance de cette capacité est réduite de moitié."
   },
   "poisonPowder": {
-    "name": "Poudre Toxik"
+    "name": "Poudre Toxik",
+    "effect": "Une poudre toxique empoisonne la cible. N’affecte pas les Pokémon de type Plante."
   },
   "stunSpore": {
-    "name": "Para-Spore"
+    "name": "Para-Spore",
+    "effect": "Le lanceur répand sur la cible une poudre qui la paralyse. N’affecte pas les Pokémon de type Plante."
   },
   "sleepPowder": {
-    "name": "Poudre Dodo"
+    "name": "Poudre Dodo",
+    "effect": "Le lanceur répand une poudre soporifique qui endort la cible. N’affecte pas les Pokémon de type Plante."
   },
   "petalDance": {
     "name": "Danse Fleurs",
@@ -337,10 +340,12 @@
     "effect": "Une grosse décharge électrique tombe sur la cible. A 10 % de chances de la paralyser."
   },
   "thunderWave": {
-    "name": "Cage Éclair"
+    "name": "Cage Éclair",
+    "effect": "Un faible choc électrique paralyse la cible. N’affecte pas les Pokémon de type Plante."
   },
   "thunder": {
-    "name": "Fatal-Foudre"
+    "name": "Fatal-Foudre",
+    "effect": "La foudre tombe sur la cible pour lui infliger des dégâts. A 30 % de chances de la paralyser. Frappe aussi si elle est en Vol, Rebond ou Chute Libre. N’échoue jamais quand il pleut. Si le soleil brille, la Précision de cette capacité passe à 50 %."
   },
   "rockThrow": {
     "name": "Jet-Pierres",
@@ -579,7 +584,8 @@
     "effect": "Un enchainement de coups de poing cadencés frappe l’ennemi. A 20 % de chances de la rendre confuse."
   },
   "spore": {
-    "name": "Spore"
+    "name": "Spore",
+    "effect": "Le lanceur répand un nuage de spores qui endort. N’affecte pas les Pokémon de type Plante."
   },
   "flash": {
     "name": "Flash",
@@ -646,7 +652,8 @@
     "effect": "Le lanceur donne un coup de griffe ou de faux. Taux de critiques augmenté de 1 cran."
   },
   "substitute": {
-    "name": "Clonage"
+    "name": "Clonage",
+    "effect": "Le lanceur crée un clone en sacrifiant 1/4 de ses PV max. Ce clone sert de leurre pour subir les capacités à la place du lanceur et disparait après avoir subi des dégâts équivalents à 1/4 des PV max du lanceur. Les capacités de son touchent le lanceur en ignorant le clone."
   },
   "struggle": {
     "name": "Lutte",
@@ -701,7 +708,8 @@
     "effect": "Le lanceur projette une tornade sur la cible pour infliger des dégâts. Taux de critiques augmenté de 1 cran."
   },
   "cottonSpore": {
-    "name": "Spore Coton"
+    "name": "Spore Coton",
+    "effect": "Le lanceur libère des spores cotonneuses qui collent aux cibles adverses et baissent leur Vitesse de 2 crans. N’affecte pas les Pokémon de type Plante."
   },
   "reversal": {
     "name": "Contre",
@@ -820,7 +828,8 @@
     "effect": "Fait enrager la cible et la plonge dans la confusion, mais augmente son Attaque de 2 crans."
   },
   "milkDrink": {
-    "name": "Lait à Boire"
+    "name": "Lait à Boire",
+    "effect": "Un lait très nourrissant. Le lanceur ou un allié récupère la moitié de ses PV max."
   },
   "spark": {
     "name": "Étincelle",
@@ -1891,7 +1900,8 @@
     "effect": "Le lanceur se débarrasse des parties inutiles de son corps. Son poids diminue et sa Vitesse augmente de 2 crans."
   },
   "ragePowder": {
-    "name": "Poudre Fureur"
+    "name": "Poudre Fureur",
+    "effect": "Le lanceur s’asperge d’une poudre irritante pour attirer l’attention et diriger toutes les attaques ennemies sur lui. N’affecte pas les Pokémon de type Plante."
   },
   "telekinesis": {
     "name": "Lévikinésie",
@@ -2154,7 +2164,8 @@
     "effect": "Le lanceur frappe la cible de 2 à 5 fois d’affilée avec sa queue robuste."
   },
   "hurricane": {
-    "name": "Vent Violent"
+    "name": "Vent Violent",
+    "effect": "Le lanceur déclenche une tempête de vents violents qui s’abat sur la cible. A 30 % de chances de la rendre confuse. Frappe aussi si elle est en Vol, Rebond ou Chute Libre. N’échoue jamais quand il pleut. Si le soleil brille, la Précision de cette capacité passe à 50 %."
   },
   "headCharge": {
     "name": "Peignée",
@@ -2985,7 +2996,8 @@
     "effect": "Le lanceur recouvre sa cible de goudron liquide pour baisser sa Vitesse de 1 cran et la rendre vulnérable au feu. Les capacités de type Feu utilisées sur la cible ont un effet doublé."
   },
   "magicPowder": {
-    "name": "Poudre Magique"
+    "name": "Poudre Magique",
+    "effect": "Le lanceur recouvre sa cible d’une poudre magique qui change son type en Psy. N’affecte pas les Pokémon de type Plante."
   },
   "dragonDarts": {
     "name": "Draco-Flèches",
