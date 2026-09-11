@@ -105,7 +105,7 @@
   },
   "effectSpore": {
     "name": "Effect Spore",
-    "description": "When the Pokémon is hit by a contact move, the attacker has a 30% chance of being poisoned, paralyzed, or put to sleep."
+    "description": "When the Pokémon is hit by a contact move, the attacker has a 30% chance of being poisoned, paralyzed, or put to sleep. Grass-type Pokémon are unaffected."
   },
   "synchronize": {
     "name": "Synchronize",
@@ -177,7 +177,7 @@
   },
   "sandStream": {
     "name": "Sand Stream",
-    "description": "Summons a sandstorm for 5 turns when the Pokémon enters a battle. Rock-type Pokemon have their Sp. Def stat boosted by 50%. Pokémon that are not Rock, Ground, or Steel types will take damage equal to ¹⁄₁₆ of their max HP at the end of every turn."
+    "description": "Summons a sandstorm for 5 turns when the Pokémon enters a battle. Pokémon that are not Rock, Ground, or Steel types take damage equal to ¹⁄₁₆ of their max HP at the end of every turn. This also boosts the Sp. Def stats of Rock types by 50%."
   },
   "pressure": {
     "name": "Pressure",
@@ -629,7 +629,7 @@
   },
   "prankster": {
     "name": "Prankster",
-    "description": "Increases the priority of the Pokémon’s status moves by 1 stage. Dark-type Pokémon are immune to these moves."
+    "description": "Increases the priority of the Pokémon’s status moves by 1 stage. However, the Pokémon’s status moves no longer work against Dark-type Pokémon."
   },
   "sandForce": {
     "name": "Sand Force",
@@ -785,7 +785,7 @@
   },
   "shieldsDown": {
     "name": "Shields Down",
-    "description": "The Pokémon’s shell protects it from status conditions. When its HP drops to ½ or less, the  shell breaks and it becomes aggressive, changing into its Core Form."
+    "description": "The Pokémon’s shell protects it from status conditions. When its HP drops to ½ or less, the shell breaks and it becomes aggressive, changing into its Core Form."
   },
   "stakeout": {
     "name": "Stakeout",
@@ -901,19 +901,19 @@
   },
   "electricSurge": {
     "name": "Electric Surge",
-    "description": "Turns the ground into Electric Terrain for 5 turns when the Pokémon enters a battle."
+    "description": "Turns the ground into Electric Terrain for 5 turns when the Pokémon enters a battle. Pokémon on the ground have their Electric-type moves boosted by 30% and cannot be put to sleep."
   },
   "psychicSurge": {
     "name": "Psychic Surge",
-    "description": "Turns the ground into Psychic Terrain for 5 turns when the Pokémon enters a battle." 
+    "description": "Turns the ground into Psychic Terrain for 5 turns when the Pokémon enters a battle. Pokémon on the ground have their Psychic-type moves boosted by 30% and cannot use or be targeted by moves with increased priority." 
   },
   "mistySurge": {
     "name": "Misty Surge",
-    "description": "Turns the ground into Misty Terrain for 5 turns when the Pokémon enters a battle."
+    "description": "Turns the ground into Misty Terrain for 5 turns when the Pokémon enters a battle. Pokémon on the ground are protected from status conditions and receive half the damage dealt by Dragon-type moves."
   },
   "grassySurge": {
     "name": "Grassy Surge",
-    "description": "Turns the ground into Grassy Terrain for 5 turns when the Pokémon enters a battle."
+    "description": "Turns the ground into Grassy Terrain for 5 turns when the Pokémon enters a battle. Pokémon on the ground have their Grass-type moves boosted by 30% and restore ¹⁄₁₆ of their max HP at the end of every turn."
   },
   "fullMetalBody": {
     "name": "Full Metal Body",
@@ -973,11 +973,11 @@
   },
   "punkRock": {
     "name": "Punk Rock",
-    "description": "Boosts the power of the Pokémon’s sound-based moves by 30%. The Pokémon also takes half the damage from these kinds of moves"
+    "description": "Boosts the power of the Pokémon’s sound-based moves by 30% and halves the damage the Pokémon takes from sound-based moves."
   },
   "sandSpit": {
     "name": "Sand Spit",
-    "description": "Summons a sandstorm for 5 turns when the Pokémon takes damage from moves."
+    "description": "Summons a sandstorm for 5 turns when the Pokémon takes damage from moves. Pokémon that are not Rock, Ground, or Steel types take damage equal to ¹⁄₁₆ of their max HP at the end of every turn. This also boosts the Sp. Def stats of Rock types by 50%."
   },
   "iceScales": {
     "name": "Ice Scales",
@@ -1073,7 +1073,7 @@
   },
   "seedSower": {
     "name": "Seed Sower",
-    "description": "Turns the ground into Grassy Terrain for 5 turns when the Pokémon takes damage from moves."
+    "description": "Turns the ground into Grassy Terrain for 5 turns when the Pokémon takes damage from moves. Pokémon on the ground have their Grass-type moves boosted by 30% and restore ¹⁄₁₆ of their max HP at the end of every turn."
   },
   "thermalExchange": {
     "name": "Thermal Exchange",
@@ -1149,11 +1149,11 @@
   },
   "orichalcumPulse": {
     "name": "Orichalcum Pulse",
-    "description": "Summons harsh sunlight for 5 turns when the Pokémon enters a battle. The ancient pulse thrumming through the Pokémon also boosts its Attack stat by 33% in harsh sunlight."
+    "description": "Summons harsh sunlight for 5 turns when entering a battle, which powers up Fire-type moves by 50% and halves the power of Water-type moves. The ancient pulse thrumming through the Pokémon also boosts its Attack stat by 33% in harsh sunlight."
   },
   "hadronEngine": {
     "name": "Hadron Engine",
-    "description": "Turns the ground into Electric Terrain for 5 turns when the Pokémon enters a battle. The futuristic engine within the Pokémon also boosts its Sp. Atk stat by 33% on Electric Terrain."
+    "description": "Turns the ground into Electric Terrain for 5 turns when entering a battle, which powers up the Electric-type moves of Pokémon on the ground by 30% and prevents them from falling asleep. The futuristic engine within the Pokémon also boosts its Sp. Atk stat by 33% on Electric Terrain."
   },
   "opportunist": {
     "name": "Opportunist",
