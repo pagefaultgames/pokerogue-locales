@@ -104,7 +104,8 @@
     "description": "Verleiht volle Immunität gegen alle Boden-Attacken durch Schwebezustand."
   },
   "effectSpore": {
-    "name": "Sporenwirt"
+    "name": "Sporenwirt",
+    "description": "Wenn das Pokémon von einer Kontakt-Attacke getroffen wird, besteht eine Chance von 30 %, dass der Angreifer vergiftet oder paralysiert wird oder einschläft. Pokémon vom Typ Pflanze sind davon nicht betroffen."
   },
   "synchronize": {
     "name": "Synchro",
@@ -195,7 +196,8 @@
     "description": "Angreifern werden bei Berührung mit 30% Chance Verbrennungen zugefügt."
   },
   "runAway": {
-    "name": "Angsthase"
+    "name": "Angsthase",
+    "description": "Ermöglicht eine sichere Flucht vor wilden Pokémon und ignoriert zudem jegliche Effekte, die das Pokémon normalerweise am Auswechseln hindern würden."
   },
   "keenEye": {
     "name": "Adlerauge",
@@ -898,16 +900,20 @@
     "description": "Das Pokémon passt seinen Typ der getragenen Disc an."
   },
   "electricSurge": {
-    "name": "Elektro-Erzeuger"
+    "name": "Elektro-Erzeuger",
+    "description": "Erzeugt bei Kampfantritt für 5 Runden in Elektrofeld, wodurch Elektro-Attacken um 30% verstärkt werden. Pokémon am Boden können nicht mehr einschlafen."
   },
   "psychicSurge": {
-    "name": "Psycho-Erzeuger"
+    "name": "Psycho-Erzeuger",
+    "description": "Das Pokémon erzeugt bei Kampfantritt auf dem gesamten Kampffeld ein Psychofeld, das 5 Runden lang anhält. Die Stärke von Psycho-Attacken wird um 30 % erhöht. Prioritätsattacken haben keine Wirkung. Diese Effekte wirken nur auf Pokémon, die sich auf dem Boden befinden."
   },
   "mistySurge": {
-    "name": "Nebel-Erzeuger"
+    "name": "Nebel-Erzeuger",
+    "description": "Auf dem gesamten Kampffeld wird ein Nebelfeld erzeugt, das 5 Runden lang anhält. Der erlittene Schaden durch Drachen-Attacken wird halbiert. Pokémon können weder Statusprobleme erleiden noch verwirrt werden. Diese Effekte wirken nur auf Pokémon, die sich auf dem Boden befinden."
   },
   "grassySurge": {
-    "name": "Gras-Erzeuger"
+    "name": "Gras-Erzeuger",
+    "description": "Das Pokémon erzeugt bei Kampfantritt auf dem gesamten Kampffeld ein Grasfeld, das 5 Runden lang anhält. Die Stärke von Pflanzen-Attacken wird um 30 % erhöht. Pokémon regenerieren am Ende jeder Runde 1/16 ihrer maximalen KP. Diese Effekte wirken nur auf Pokémon, die sich auf dem Boden befinden."
   },
   "fullMetalBody": {
     "name": "Metallprotektor",
