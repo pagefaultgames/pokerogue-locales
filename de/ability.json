@@ -976,7 +976,8 @@
     "description": "Die Stärke der Geräusch-Attacken des Pokémon steigt um 30% und der Schaden, den es selbst durch Geräusch-Attacken erleidet, wird halbiert."
   },
   "sandSpit": {
-    "name": "Sandspeier"
+    "name": "Sandspeier",
+    "description": "Das Pokémon erzeugt bei Kampfantritt einen Sandsturm, der 5 Runden lang anhält. Alle Pokémon, die nicht dem Typ Gestein, Boden oder Stahl angehören, erleiden am Ende jeder Runde Schaden in Höhe von 1/16 ihrer maximalen KP. Die Spezial-Verteidigung von Gesteins-Pokémon wird um 50 % erhöht."
   },
   "iceScales": {
     "name": "Eisflügelstaub",
@@ -1071,7 +1072,8 @@
     "description": "Das Pokémon überträgt bei Berührung die Fähigkeit Duftschwade auf den Angreifer."
   },
   "seedSower": {
-    "name": "Streusaat"
+    "name": "Streusaat",
+    "description": "Erleidet das Pokémon Schaden durch eine Attacke, erzeugt es auf dem gesamten Kampffeld ein Grasfeld, das 5 Runden lang anhält. Die Stärke von Pflanzen-Attacken wird um 30 % erhöht. Pokémon regenerieren am Ende jeder Runde 1/16 ihrer maximalen KP. Diese Effekte wirken nur auf Pokémon, die sich auf dem Boden befinden."
   },
   "thermalExchange": {
     "name": "Thermowandel",
@@ -1146,10 +1148,12 @@
     "description": "Mit der Macht seiner Unheil bringenden Juwelen schwächt das Pokémon die Spezial-Verteidigung aller anderen Pokémon um 25%."
   },
   "orichalcumPulse": {
-    "name": "Orichalkum-Puls"
+    "name": "Orichalkum-Puls",
+    "description": "Das Pokémon erzeugt bei Kampfantritt Sonnenschein, der 5 Runden lang anhält. Der Schaden von Feuer-Attacken wird um 50 % erhöht und der Schaden von Wasser-Attacken halbiert. Bei Sonnenschein verstärkt ein urzeitlicher Puls seinen Angriff um 33%."
   },
   "hadronEngine": {
-    "name": "Hadronen-Motor"
+    "name": "Hadronen-Motor",
+    "description": "Das Pokémon erzeugt bei Kampfantritt auf dem gesamten Kampffeld ein Elektrofeld, das 5 Runden lang anhält. Die Stärke von Elektro-Attacken wird um 30 % erhöht. Pokémon können nicht in Schlaf versetzt werden. Diese Effekte wirken nur auf Pokémon, die sich auf dem Boden befinden. Wenn ein Elektrofeld aktiv ist, verstärkt ein futuristischer Motor seinen Spezial-Angriff um 33%."
   },
   "opportunist": {
     "name": "Profiteur",
@@ -1258,5 +1262,9 @@
   "spicySpray": {
     "name": "Chilispritzer",
     "description": "Erleidet das Pokémon durch eine Attacke Schaden, erleidet der Angreifer Verbrennungen."
+  },
+  "auraGuard": {
+    "name": "Aura-Abwehr",
+    "description": "Der Schaden, den das Pokémon durch Kontaktattacken erleidet, wird halbiert."
   }
 }

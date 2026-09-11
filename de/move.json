@@ -304,13 +304,16 @@
     "effect": "Absorbiert Licht in Runde 1. In Runde 2 erfolgt der Angriff. Bei starkem Sonnenlicht kann der Anwender sofort angreifen. Bei jeder anderen Wetterlage wird die Stärke dieser Attacke halbiert."
   },
   "poisonPowder": {
-    "name": "Giftpuder"
+    "name": "Giftpuder",
+    "effect": "Verstreut giftigen Puder, der das Ziel eventuell vergiftet. Diese Attacke hat keine Wirkung auf Pokémon vom Typ Pflanze."
   },
   "stunSpore": {
-    "name": "Stachelspore"
+    "name": "Stachelspore",
+    "effect": "Der Anwender verstreut jede Menge lähmenden Puder, der getroffene Gegner paralysiert. Diese Attacke hat keine Wirkung auf Pokémon vom Typ Pflanze."
   },
   "sleepPowder": {
-    "name": "Schlafpuder"
+    "name": "Schlafpuder",
+    "effect": "Der Anwender verstreut jede Menge Schlafpuder, der getroffene Gegner schläfrig macht. Diese Attacke hat keine Wirkung auf Pokémon vom Typ Pflanze."
   },
   "petalDance": {
     "name": "Blättertanz",
@@ -337,10 +340,12 @@
     "effect": "Eine starke Elektro-Attacke, die das Ziel mit einer Chance von 10% paralysiert."
   },
   "thunderWave": {
-    "name": "Donnerwelle"
+    "name": "Donnerwelle",
+    "effect": "Der Anwender sendet einen schwachen Stromstoß aus, der getroffene Gegner paralysiert. Diese Attacke hat keine Wirkung auf Pokémon vom Typ Boden."
   },
   "thunder": {
-    "name": "Donner"
+    "name": "Donner",
+    "effect": "Der Anwender greift an, indem er einen gewaltigen Blitz herabfahren lässt. Das Ziel wird mit 30%iger Wahrscheinlichkeit paralysiert. Diese Attacke kann auch Ziele treffen, die sich im Zustand Abgehoben befinden. Bei Sonnenschein beträgt die Genauigkeit 50 %. Bei Regen trifft die Attacke garantiert."
   },
   "rockThrow": {
     "name": "Steinwurf",
@@ -579,7 +584,8 @@
     "effect": "Rhythmische Schläge, die das Ziel mit einer Chance von 20% verwirren können."
   },
   "spore": {
-    "name": "Pilzspore"
+    "name": "Pilzspore",
+    "effect": "Erzeugt eine Sporenwolke, die das Ziel in Schlaf versetzt. Diese Attacke hat keine Wirkung auf Pokémon vom Typ Pflanze."
   },
   "flash": {
     "name": "Blitz",
@@ -646,7 +652,8 @@
     "effect": "Hieb mit Klauen oder Ähnlichem. Die Volltrefferquote dieser Attacke wird um eine Stufe erhöht."
   },
   "substitute": {
-    "name": "Delegator"
+    "name": "Delegator",
+    "effect": "Der Anwender verliert 1/4 seiner maximalen KP und erzeugt einen Delegator. Der Delegator wird anstelle des Anwenders von Attacken getroffen und verschwindet dann, wenn er Schaden in Höhe von 1/4 der maximalen KP des Anwenders erlitten hat. Geräuschattacken ignorieren die Wirkung von Delegator."
   },
   "struggle": {
     "name": "Verzweifler",
@@ -701,7 +708,8 @@
     "effect": "Erzeugt Luftstrudel gegen das Ziel. Die Volltrefferquote dieser Attacke wird um eine Stufe erhöht."
   },
   "cottonSpore": {
-    "name": "Baumwollsaat"
+    "name": "Baumwollsaat",
+    "effect": "Wattebäusche heften sich an gegnerische Pokémon, deren Initiative-Wert dadurch stark sinkt. Diese Attacke hat keine Wirkung auf Pokémon vom Typ Pflanze."
   },
   "reversal": {
     "name": "Gegenschlag",
@@ -820,7 +828,8 @@
     "effect": "Verwirrt das Ziel und erhöht dessen Angriffs-Wert stark."
   },
   "milkDrink": {
-    "name": "Milchgetränk"
+    "name": "Milchgetränk",
+    "effect": "KP des Anwenders oder eines Verbündeten werden um 50 % der maximalen KP aufgefüllt."
   },
   "spark": {
     "name": "Funkensprung",
@@ -1891,7 +1900,8 @@
     "effect": "Anwender trennt sich von überflüssigen Körperteilen und steigert seine Initiative stark. Sein Gewicht nimmt deutlich ab."
   },
   "ragePowder": {
-    "name": "Wutpulver"
+    "name": "Wutpulver",
+    "effect": "Anwender zieht gegnerische Aufmerksamkeit und Angriffe auf sich, indem er ein Wut erzeugendes Pulver über sich streut. Diese Attacke hat keine Wirkung auf Pokémon vom Typ Pflanze."
   },
   "telekinesis": {
     "name": "Telekinese",
@@ -2154,7 +2164,8 @@
     "effect": "Anwender greift das Ziel mit seiner schlagfesten Rute zwei- bis fünfmal hintereinander an."
   },
   "hurricane": {
-    "name": "Orkan"
+    "name": "Orkan",
+    "effect": "Der Anwender umgibt das Ziel mit heftigen Windböen. Das Ziel wird mit 30%iger Wahrscheinlichkeit verwirrt. Diese Attacke kann auch Ziele treffen, die sich im Zustand Abgehoben befinden. Bei Sonnenschein beträgt die Genauigkeit 50 %. Bei Regen trifft die Attacke garantiert."
   },
   "headCharge": {
     "name": "Steinschädel",
@@ -2985,7 +2996,8 @@
     "effect": "Der Anwender übergießt das Ziel mit klebrigem Teer, wodurch dessen Initiative-Wert sinkt. Feuer-Attacken gegen das Ziel wirken doppelt so effektiv."
   },
   "magicPowder": {
-    "name": "Magiepuder"
+    "name": "Magiepuder",
+    "effect": "Das Ziel wird mit magischem Puder bestreut und nimmt den Typ Psycho an. Diese Attacke hat keine Wirkung auf Pokémon vom Typ Psycho."
   },
   "dragonDarts": {
     "name": "Drachenpfeile",
