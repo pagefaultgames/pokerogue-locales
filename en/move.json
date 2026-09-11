@@ -801,7 +801,7 @@
   },
   "sandstorm": {
     "name": "Sandstorm",
-    "effect": "The user summons a sandstorm for 5 turns, Pokémon that are not Rock, Ground, or Steel types take damage equal to ¹⁄₁₆ of their max HP at the end of every turn. The sandstorm also boosts the Sp. Def stats of Rock types by 50%."
+    "effect": "The user summons a sandstorm for 5 turns. Pokémon that are not Rock, Ground, or Steel types take damage equal to ¹⁄₁₆ of their max HP at the end of every turn. This also boosts the Sp. Def stats of Rock types by 50%."
   },
   "gigaDrain": {
     "name": "Giga Drain",
@@ -953,7 +953,7 @@
   },
   "twister": {
     "name": "Twister",
-    "effect": "The user whips up a vicious tornado to tear at opposing Pokémon. This move has a 20% chance of making the targets flinch, and can also hit a target that’s in the air from Fly, Bounce, or Sky Drop with its power doubled."
+    "effect": "The user whips up a vicious tornado to tear at opposing Pokémon. This move has a 20% chance of making targets flinch, and can also hit a target that’s in the air from Fly, Bounce, or Sky Drop with its power doubled."
   },
   "rainDance": {
     "name": "Rain Dance",
@@ -2317,11 +2317,11 @@
   },
   "grassyTerrain": {
     "name": "Grassy Terrain", 
-    "effect": "Turns the entire field into Grassy Terrain for 5 turns. Pokémon on the ground have the power of their Grass-type moves boosted by 30% and have ¹⁄₁₆ of their max HP restored at the end of every turn."
+    "effect": "Turns the entire field into Grassy Terrain for 5 turns. Pokémon on the ground have their Grass-type moves boosted by 30% and restore ¹⁄₁₆ of their max HP at the end of every turn."
   },
   "mistyTerrain": {
     "name": "Misty Terrain",
-    "effect": "Turns the entire field into Misty Terrain for 5 turns. Pokémon on the ground have the power of their Dragon-type moves halved and are immune to status conditions."
+    "effect": "Turns the entire field into Misty Terrain for 5 turns. Pokémon on the ground are protected from status conditions and receive half the damage dealt by Dragon-type moves."
   },
   "electrify": {
     "name": "Electrify",
@@ -2413,7 +2413,7 @@
   },
   "electricTerrain": {
     "name": "Electric Terrain",
-    "effect": "The user turns the ground into Electric Terrain for 5 turns. Pokémon on the ground have the power of their Electric-type moves boosted by 30% and can no longer fall asleep."
+    "effect": "The user turns the ground into Electric Terrain for 5 turns. Pokémon on the ground have their Electric-type moves boosted by 30% and cannot be put to sleep."
   },
   "dazzlingGleam": {
     "name": "Dazzling Gleam",
@@ -2709,7 +2709,7 @@
   },
   "psychicTerrain": {
     "name": "Psychic Terrain",
-    "effect": "The user turns the ground into Psychic Terrain for 5 turns. Pokémon on the ground have the power of their Psychic-type moves boosted by 30% and cannot use or be targeted by moves with increased priority."
+    "effect": "The user turns the ground into Psychic Terrain for 5 turns. Pokémon on the ground have their Psychic-type moves boosted by 30% and cannot use or be targeted by moves with increased priority."
   },
   "lunge": {
     "name": "Lunge",

@@ -177,7 +177,7 @@
   },
   "sandStream": {
     "name": "Sand Stream",
-    "description": "Summons a sandstorm for 5 turns when the Pokémon enters a battle. Rock-type Pokemon have their Sp. Def stat boosted by 50%. Pokémon that are not Rock, Ground, or Steel types will take damage equal to ¹⁄₁₆ of their max HP at the end of every turn."
+    "description": "Summons a sandstorm for 5 turns when the Pokémon enters a battle. Pokémon that are not Rock, Ground, or Steel types take damage equal to ¹⁄₁₆ of their max HP at the end of every turn. This also boosts the Sp. Def stats of Rock types by 50%."
   },
   "pressure": {
     "name": "Pressure",
@@ -901,7 +901,7 @@
   },
   "electricSurge": {
     "name": "Electric Surge",
-    "description": "Turns the ground into Electric Terrain for 5 turns when the Pokémon enters a battle. Pokémon on the ground have their Electric-type moves boosted by 30% and can no longer fall asleep."
+    "description": "Turns the ground into Electric Terrain for 5 turns when the Pokémon enters a battle. Pokémon on the ground have their Electric-type moves boosted by 30% and cannot be put to sleep."
   },
   "psychicSurge": {
     "name": "Psychic Surge",
@@ -977,7 +977,7 @@
   },
   "sandSpit": {
     "name": "Sand Spit",
-    "description": "Summons a sandstorm for 5 turns when the Pokémon takes damage from moves."
+    "description": "Summons a sandstorm for 5 turns when the Pokémon takes damage from moves. Pokémon that are not Rock, Ground, or Steel types take damage equal to ¹⁄₁₆ of their max HP at the end of every turn. This also boosts the Sp. Def stats of Rock types by 50%."
   },
   "iceScales": {
     "name": "Ice Scales",
