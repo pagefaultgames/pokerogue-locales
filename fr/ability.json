@@ -104,7 +104,8 @@
     "description": "Le Pokémon flotte au-dessus du sol, ce qui l’immunise contre les capacités de type Sol, ainsi que les effets de Picots, Pics Toxik et Toile Gluante."
   },
   "effectSpore": {
-    "name": "Pose Spore"
+    "name": "Pose Spore",
+    "description": "A 30% de chance de paralyser, empoisonner ou endormir l’attaquant lorsque le Pokémon subit une attaque directe. N’affecte pas les Pokémon de type Plante."
   },
   "synchronize": {
     "name": "Synchro",
@@ -899,16 +900,20 @@
     "description": "Change le type du Pokémon en fonction de la ROM équipée."
   },
   "electricSurge": {
-    "name": "Créa-Élec"
+    "name": "Créa-Élec",
+    "description": "Quand le Pokémon arrive sur le terrain, il crée un champ électrifié sur tout le terrain pendant 5 tours. Les Pokémon au sol voient la puissance de leurs capacités de type Électrik multipliée par 1,3 et ne peuvent pas s’endormir."
   },
   "psychicSurge": {
-    "name": "Créa-Psy"
+    "name": "Créa-Psy",
+    "description": "Quand le Pokémon arrive sur le terrain, il crée un champ psychique sur tout le terrain pendant 5 tours. Les Pokémon au sol voient la puissance de leurs capacités de type Psy multipliée par 1,3 et sont immunisés contre les capacités prioritaires."
   },
   "mistySurge": {
-    "name": "Créa-Brume"
+    "name": "Créa-Brume",
+    "description": "Quand le Pokémon arrive sur le terrain, il crée un champ brumeux sur tout le terrain pendant 5 tours. Les Pokémon au sol voient les dégâts des capacités de type Dragon qu’ils subissent sont réduits de moitié et ne peuvent ni subir d’altérations de statut, ni devenir confus."
   },
   "grassySurge": {
-    "name": "Créa-Herbe"
+    "name": "Créa-Herbe",
+    "description": "Quand le Pokémon arrive sur le terrain, il crée un champ herbu sur tout le terrain pendant 5 tours. Les Pokémon au sol voient la puissance de leurs capacités de type Plante est multipliée par 1,3 et récupèrent 1/16 de leurs PV max à la fin de chaque tour."
   },
   "fullMetalBody": {
     "name": "Métallo-Garde",
@@ -971,7 +976,8 @@
     "description": "Augmente de 30% la puissance des capacités basées sur le son. Le Pokémon ne subit que la moitié des dégâts quand il est touché par ce genre de capacités."
   },
   "sandSpit": {
-    "name": "Expul’Sable"
+    "name": "Expul’Sable",
+    "description": "Quand le Pokémon subit des dégâts d’une capacité, il invoque une tempête de sable pendant 5 tours. Tous les Pokémon, sauf ceux de type Roche, Sol ou Acier, subissent des dégâts équivalents à 1/16 de leurs PV max à la fin de chaque tour. La Défense Spéciale des Pokémon de type Roche est multipliée par 1,5."
   },
   "iceScales": {
     "name": "Écailles Glacées",
@@ -1066,7 +1072,8 @@
     "description": "Lorsque le Pokémon subit une attaque directe, le talent de l’attaquant est remplacé par Odeur Tenace."
   },
   "seedSower": {
-    "name": "Semencier"
+    "name": "Semencier",
+    "description": "Quand le Pokémon subit des dégâts d’une capacité, il crée un champ herbu sur tout le terrain pendant 5 tours. Les Pokémon au sol voient la puissance de leurs capacités de type Plante est multipliée par 1,3 et récupèrent 1/16 de leurs PV max à la fin de chaque tour."
   },
   "thermalExchange": {
     "name": "Thermodynamique",
@@ -1141,10 +1148,12 @@
     "description": "Le pouvoir des perles qui appellent le fléau affaiblit de 25% la Défense Spéciale de tous les autres Pokémon."
   },
   "orichalcumPulse": {
-    "name": "Pouls Orichalque"
+    "name": "Pouls Orichalque",
+    "description": "Quand le Pokémon arrive sur le terrain, il invoque le soleil pendant 5 tours. Les Pokémon au sol voient la puissance de leurs capacités de type Feu multipliée par 1,3 et les dégâts des capacités de type Eau sont réduits de moitié. Le pouls ancestral du Pokémon multiplie par 1,33 son Attaque quand le soleil brille."
   },
   "hadronEngine": {
-    "name": "Moteur à Hadrons"
+    "name": "Moteur à Hadrons",
+    "description": "Quand le Pokémon arrive sur le terrain, il crée un champ électrifié sur tout le terrain pendant 5 tours. Les Pokémon au sol voient la puissance de leurs capacités de type Électrik multipliée par 1,3 et ne peuvent pas s’endormir. Le moteur futuriste du Pokémon multiplie par 1,33 son Attaque Spéciale sur le champ électrifié."
   },
   "opportunist": {
     "name": "Opportuniste",
