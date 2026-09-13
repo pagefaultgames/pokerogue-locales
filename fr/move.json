@@ -801,7 +801,7 @@
   },
   "sandstorm": {
     "name": "Tempête de Sable",
-    "effect": "Une tempête de sable blesse tous les Pokémon pendant 5 tours à hauteur de 1/16 des PV max, sauf ceux de type Roche, Sol ou Acier. Augmente de 50 % la Défense Spéciale des Pokémon Roche."
+    "effect": "Une tempête de sable blesse tous les Pokémon pendant 5 tours à hauteur de 1/16 des PV max, sauf ceux de type Roche, Sol ou Acier. De plus, la Défense Spéciale des Pokémon de type Roche est multipliée par 1,5."
   },
   "gigaDrain": {
     "name": "Giga-Sangsue",
@@ -957,11 +957,11 @@
   },
   "rainDance": {
     "name": "Danse Pluie",
-    "effect": "Invoque de fortes pluies qui durent cinq tours, augmentant de 50 % la puissance des capacités de type Eau et baissant de moitié celle des capacités de type Feu."
+    "effect": "Invoque de fortes pluies qui durent cinq tours. Les dégâts des capacités de type Eau sont multipliés par 1,5 et réduits de moitié pour les capacités de type Feu."
   },
   "sunnyDay": {
     "name": "Zénith",
-    "effect": "Fait briller le soleil pendant cinq tours, augmentant de 50 % la puissance des capacités de type Feu et baissant de moitié celle des capacités de type Eau."
+    "effect": "Fait briller le soleil pendant cinq tours. Les dégâts des capacités de type Feu sont multipliés par 1,5 et réduits de moitié pour les capacités de type Eau."
   },
   "crunch": {
     "name": "Mâchouille",
@@ -2317,7 +2317,7 @@
   },
   "grassyTerrain": {
     "name": "Champ Herbu",
-    "effect": "Pendant 5 tours, les Pokémon au sol récupèrent 1/16 de leurs PV max à chaque tour et la puissance des capacités de type Plante augmente de 30 %."
+    "effect": "Pendant 5 tours, les Pokémon au sol récupèrent 1/16 de leurs PV max à chaque tour et la puissance des capacités de type Plante est multipliée par 1,3."
   },
   "mistyTerrain": {
     "name": "Champ Brumeux",
@@ -2709,7 +2709,7 @@
   },
   "psychicTerrain": {
     "name": "Champ Psychique",
-    "effect": "Pendant 5 tours, les Pokémon au sol ne peuvent plus subir d’attaques prioritaires et la puissance de leurs capacités de type Psy augmente de 30%."
+    "effect": "Pendant 5 tours, les Pokémon au sol ne peuvent plus subir ou utiliser d’attaques prioritaires et la puissance de leurs capacités de type Psy est multipliée par 1,3."
   },
   "lunge": {
     "name": "Furie-Bond",
@@ -3661,7 +3661,7 @@
   },
   "snowscape": {
     "name": "Chute de Neige",
-    "effect": "Le lanceur invoque une tempête de neige qui dure 5 tours, ce qui augmente la Défense des Pokémon de type Glace de 50%."
+    "effect": "Le lanceur invoque une tempête de neige qui dure 5 tours. La Défense des Pokémon de type Glace est multipliée par 1,5."
   },
   "pounce": {
     "name": "Bond",

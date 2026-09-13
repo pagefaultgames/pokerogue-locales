@@ -381,7 +381,7 @@
   },
   "normalize": {
     "name": "Normalise",
-    "description": "Toutes les capacités du Pokémon deviennent de type Normal, quel que soit leur type original. Leur puissance augmente de 20%."
+    "description": "Toutes les capacités du Pokémon deviennent de type Normal, quel que soit leur type original. Leur puissance est multipliée par 1,2."
   },
   "sniper": {
     "name": "Sniper",
@@ -485,7 +485,7 @@
   },
   "flowerGift": {
     "name": "Don Floral",
-    "description": "Augmente de 50% l’Attaque et la Défense Spéciale du Pokémon et de ses alliés proches lorsque le soleil brille."
+    "description": "L’Attaque et la Défense Spéciale du Pokémon et de ses alliés proches est multipliée par 1,5 lorsque le soleil brille."
   },
   "badDreams": {
     "name": "Mauvais Rêve",
@@ -545,11 +545,11 @@
   },
   "toxicBoost": {
     "name": "Rage Poison",
-    "description": "Augmente de 50% la puissance des capacités physiques quand le Pokémon est empoisonné."
+    "description": "Lorsque le Pokémon est empoisonné ou gravement empoisonné, la puissance de ses capacités physiques est multipliée par 1,5."
   },
   "flareBoost": {
     "name": "Rage Brulure",
-    "description": "Augmente de 50% la puissance des capacités spéciales quand le Pokémon est brulé."
+    "description": "Quand le Pokémon est brulé, la puissance de ses capacités spéciales est multipliée par 1,5."
   },
   "harvest": {
     "name": "Récolte",
@@ -585,7 +585,7 @@
   },
   "wonderSkin": {
     "name": "Peau Miracle",
-    "description": "Diminue de 50% la Précision des capacités de statut de l’attaquant."
+    "description": "Diminue de 50% la Précision des capacités de statut visant ce Pokémon."
   },
   "analytic": {
     "name": "Analyste",
@@ -637,7 +637,7 @@
   },
   "ironBarbs": {
     "name": "Épine de Fer",
-    "description": "Lorsque le Pokémon subit une attaque directe, l’attaquant se blesse et perd 12,5% de ses PV max."
+    "description": "Lorsque le Pokémon subit une attaque directe, l’attaquant se blesse et perd 1/8 de ses PV max."
   },
   "zenMode": {
     "name": "Mode Transe",
@@ -645,7 +645,7 @@
   },
   "victoryStar": {
     "name": "Victorieux",
-    "description": "Augmente de 10 % la Précision du Pokémon et de ses alliés proches."
+    "description": "La Précision du Pokémon et de ses alliés proches est multipliée par 1,1."
   },
   "turboblaze": {
     "name": "Turbo Brasier",
@@ -713,7 +713,7 @@
   },
   "grassPelt": {
     "name": "Toison Herbue",
-    "description": "Augmente de 50% la Défense du Pokémon si un champ herbu est actif."
+    "description": "Quand un champ herbu est actif, la Défense du Pokémon est multipliée par 1,5."
   },
   "symbiosis": {
     "name": "Symbiose",
@@ -749,7 +749,7 @@
   },
   "auraBreak": {
     "name": "Aura Inversée",
-    "description": "Inverse l’effet des talents « Aura » afin que ceux-ci baissent de 25% la puissance des capacités affectées au lieu de l’augmenter."
+    "description": "Inverse l’effet des talents « Aura » afin que ceux-ci multiplient la puissance des capacités affectées par 0,75 au lieu de 1,33."
   },
   "primordialSea": {
     "name": "Mer Primaire",
@@ -797,7 +797,7 @@
   },
   "steelworker": {
     "name": "Expert Acier",
-    "description": "Augmente de 50% la puissance des attaques de type Acier."
+    "description": "La puissance des attaques de type Acier est multipliée par 1,5."
   },
   "berserk": {
     "name": "Folle Furie",
@@ -821,7 +821,7 @@
   },
   "galvanize": {
     "name": "Peau Électrique",
-    "description": "Les capacités de type Normal deviennent de type Électrik. Leur puissance augmente de 20%."
+    "description": "Les capacités de type Normal deviennent de type Électrik et leur puissance est multipliée par 1,2."
   },
   "surgeSurfer": {
     "name": "Surf Caudal",
@@ -829,7 +829,7 @@
   },
   "schooling": {
     "name": "Banc",
-    "description": "Le Pokémon se rassemble avec ses congénères quand il atteint le N. 20. Quand il ne lui reste que 25% de ses PV max ou moins, le banc se disperse."
+    "description": "Le Pokémon se rassemble avec ses congénères quand il atteint le N. 20. Quand il ne lui reste que 1/4 de ses PV max ou moins, le banc se disperse."
   },
   "disguise": {
     "name": "Fantômasque",
@@ -865,7 +865,7 @@
   },
   "battery": {
     "name": "Batterie",
-    "description": "Augmente de 30 % la puissance des capacités spéciales des alliés."
+    "description": "La puissance des capacités spéciales des alliés est multipliée par 1,3."
   },
   "fluffy": {
     "name": "Boule de Poils",
@@ -909,7 +909,7 @@
   },
   "mistySurge": {
     "name": "Créa-Brume",
-    "description": "Quand le Pokémon arrive sur le terrain, il crée un champ brumeux sur tout le terrain pendant 5 tours. Les Pokémon au sol voient les dégâts des capacités de type Dragon qu’ils subissent sont réduits de moitié et ne peuvent ni subir d’altérations de statut, ni devenir confus."
+    "description": "Quand le Pokémon arrive sur le terrain, il crée un champ brumeux sur tout le terrain pendant 5 tours. Les Pokémon au sol voient les dégâts des capacités de type Dragon qu’ils subissent réduits de moitié et ne peuvent ni subir d’altérations de statut, ni devenir confus."
   },
   "grassySurge": {
     "name": "Créa-Herbe",
@@ -925,11 +925,11 @@
   },
   "prismArmor": {
     "name": "Prisme-Armure",
-    "description": "Diminue de 25% la puissance des attaques super efficaces subies. L’effet ne peut pas être ignoré par les autres capacités ou talents."
+    "description": "Le Pokémon ne subit que 3/4 des dégâts des capacités super efficaces. L’effet ne peut pas être ignoré par les autres capacités ou talents."
   },
   "neuroforce": {
     "name": "Cérébro-Force",
-    "description": "Augmente de 25% la puissance des attaques super efficaces."
+    "description": "La puissance des attaques super efficaces est multipliée par 1,25."
   },
   "intrepidSword": {
     "name": "Lame Indomptable",
@@ -961,7 +961,7 @@
   },
   "gulpMissile": {
     "name": "Dégobage",
-    "description": "Quand le Pokémon utilise Surf ou Plongée, il revient avec une proie. Lorsqu’il subit des dégâts par la suite, il attaque en recrachant sa proie et fait perdre à la cible 25% de ses PV max. Peut également baisser sa Défense ou la paralyser en fonction de la proie recrachée."
+    "description": "Quand le Pokémon utilise Surf ou Plongée, il revient avec une proie. Lorsqu’il subit des dégâts par la suite, il attaque en recrachant sa proie et fait perdre à la cible 1/4 de ses PV max. Peut également baisser sa Défense ou la paralyser en fonction de la proie recrachée."
   },
   "stalwart": {
     "name": "Nerfs d’Acier",
@@ -973,7 +973,7 @@
   },
   "punkRock": {
     "name": "Punk Rock",
-    "description": "Augmente de 30% la puissance des capacités basées sur le son. Le Pokémon ne subit que la moitié des dégâts quand il est touché par ce genre de capacités."
+    "description": "La puissance des capacités basées sur le son est multipliée par 1,3. Le Pokémon ne subit que la moitié des dégâts quand il est touché par ce genre de capacités."
   },
   "sandSpit": {
     "name": "Expul’Sable",
@@ -993,7 +993,7 @@
   },
   "powerSpot": {
     "name": "Cercle d’Énergie",
-    "description": "Augmente de 30 % la puissance des capacités des alliés proches."
+    "description": "La puissance des capacités des alliés proches est multipliée par 1,3."
   },
   "mimicry": {
     "name": "Mimétisme",
@@ -1005,7 +1005,7 @@
   },
   "steelySpirit": {
     "name": "Boost Acier",
-    "description": "Augmente de 50 % la puissance des attaques de type Acier du Pokémon et de ses alliés proches."
+    "description": "La puissance des attaques de type Acier du Pokémon et de ses alliés proches est multipliée par 1,5."
   },
   "perishBody": {
     "name": "Corps Condamné",
@@ -1045,11 +1045,11 @@
   },
   "transistor": {
     "name": "Transistor",
-    "description": "Augmente de 30% la puissance des capacités de type Électrik."
+    "description": "La puissance des capacités de type Électrik est multipliée par 1,3."
   },
   "dragonsMaw": {
     "name": "Dent de Dragon",
-    "description": "Augmente de 50% la puissance des capacités de type Dragon."
+    "description": "La puissance des capacités de type Dragon est multipliée par 1,5."
   },
   "chillingNeigh": {
     "name": "Blanche Ruade",
@@ -1101,7 +1101,7 @@
   },
   "rockyPayload": {
     "name": "Porte-Roche",
-    "description": "Augmente de 50% la puissance des capacités de type Roche."
+    "description": "La puissance des capacités de type Roche est multipliée par 1,5."
   },
   "windPower": {
     "name": "Turbine Éolienne",
@@ -1121,11 +1121,11 @@
   },
   "protosynthesis": {
     "name": "Paléosynthèse",
-    "description": "Quand le soleil brille, la stat la plus élevée du Pokémon augmente de 30%, ou de 50% si sa Vitesse est la stat la plus élevée."
+    "description": "Quand le soleil brille, la stat la plus élevée du Pokémon est multipliée par 1,3, ou 1,5 si sa Vitesse est la stat la plus élevée."
   },
   "quarkDrive": {
     "name": "Charge Quantique",
-    "description": "Quand un champ électrifié est actif, la stat la plus élevée du Pokémon augmente de 30%, ou de 50% si sa Vitesse est la stat la plus élevée."
+    "description": "Quand un champ électrifié est actif, la stat la plus élevée du Pokémon est multipliée par 1,3, ou 1,5 si sa Vitesse est la stat la plus élevée."
   },
   "goodAsGold": {
     "name": "Corps en Or",
