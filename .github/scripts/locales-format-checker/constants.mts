@@ -1,9 +1,7 @@
-/** @import { Format } from "./types.js" */
-
-/** The directory containing all locales files. */
+/** The directory containing all locales files */
 export const LOCALES_DIR = ".";
 
-/** A list of files to ignore. */
+/** A list of files to ignore */
 export const ignoreList = [
   "package.json",
   "biome.jsonc",
@@ -29,19 +27,13 @@ export const ignoreList = [
  */
 export const i18nextKeyExtensions = ["_male", "_female", "_ordinal", "_one", "_two", "_other", "_few"];
 
-/**
- * The key format to check for.
- * @type {Format}
- */
+/** The key format to check for */
 export const keyFormat = "camelCase";
 
-/**
- * The file name format to check for.
- * @type {Format}
- */
+/** The file name format to check for */
 export const fileNameFormat = "kebab-case";
 
-/** The file extension to check. */
+/** The file extension to check */
 export const fileExtension = ".json";
 
 /** The main language code. Used to check if the key exists in the main language. */

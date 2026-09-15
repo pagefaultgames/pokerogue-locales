@@ -233,7 +233,7 @@
   },
   "blizzard": {
     "name": "Blizzard",
-    "effect": "Une violente tempête de neige s’abat sur la cible. A 10 % de chances de la geler. N’échoue jamais quand il neige ou grêle."
+    "effect": "Une violente tempête de neige s’abat sur les cibles adverses. A 10 % de chances de les geler. N’échoue jamais quand il neige ou grêle."
   },
   "psybeam": {
     "name": "Rafale Psy",
@@ -305,15 +305,15 @@
   },
   "poisonPowder": {
     "name": "Poudre Toxik",
-    "effect": "Une poudre toxique empoisonne la cible."
+    "effect": "Une poudre toxique empoisonne la cible. N’affecte pas les Pokémon de type Plante."
   },
   "stunSpore": {
     "name": "Para-Spore",
-    "effect": "Le lanceur répand sur la cible une poudre qui la paralyse."
+    "effect": "Le lanceur répand sur la cible une poudre qui la paralyse. N’affecte pas les Pokémon de type Plante."
   },
   "sleepPowder": {
     "name": "Poudre Dodo",
-    "effect": "Le lanceur répand une poudre soporifique qui endort la cible."
+    "effect": "Le lanceur répand une poudre soporifique qui endort la cible. N’affecte pas les Pokémon de type Plante."
   },
   "petalDance": {
     "name": "Danse Fleurs",
@@ -341,11 +341,11 @@
   },
   "thunderWave": {
     "name": "Cage Éclair",
-    "effect": "Un faible choc électrique paralyse la cible."
+    "effect": "Un faible choc électrique paralyse la cible. N’affecte pas les Pokémon de type Sol."
   },
   "thunder": {
     "name": "Fatal-Foudre",
-    "effect": "La foudre tombe sur la cible pour lui infliger des dégâts. A 30 % de chances de la paralyser. Frappe aussi si elle est en Vol, Rebond ou Chute Libre. N’échoue jamais quand il pleut."
+    "effect": "La foudre tombe sur la cible pour lui infliger des dégâts. A 30 % de chances de la paralyser. Frappe aussi si elle est en Vol, Rebond ou Chute Libre. N’échoue jamais quand il pleut. Si le soleil brille, la Précision de cette capacité passe à 50 %."
   },
   "rockThrow": {
     "name": "Jet-Pierres",
@@ -585,7 +585,7 @@
   },
   "spore": {
     "name": "Spore",
-    "effect": "Le lanceur répand un nuage de spores qui endort."
+    "effect": "Le lanceur répand un nuage de spores qui endort. N’affecte pas les Pokémon de type Plante."
   },
   "flash": {
     "name": "Flash",
@@ -653,7 +653,7 @@
   },
   "substitute": {
     "name": "Clonage",
-    "effect": "Le lanceur crée un clone en sacrifiant 1/4 de ses PV max. Ce clone sert de leurre pour subir les capacités à la place du lanceur et disparait après avoir subi des dégâts équivalents à 1/4 des PV max du lanceur."
+    "effect": "Le lanceur crée un clone en sacrifiant 1/4 de ses PV max. Ce clone sert de leurre pour subir les capacités à la place du lanceur et disparait après avoir subi des dégâts équivalents à 1/4 des PV max du lanceur. Les capacités de son touchent le lanceur en ignorant le clone."
   },
   "struggle": {
     "name": "Lutte",
@@ -709,7 +709,7 @@
   },
   "cottonSpore": {
     "name": "Spore Coton",
-    "effect": "Le lanceur libère des spores cotonneuses qui collent aux cibles adverses et baissent leur Vitesse de 2 crans."
+    "effect": "Le lanceur libère des spores cotonneuses qui collent aux cibles adverses et baissent leur Vitesse de 2 crans. N’affecte pas les Pokémon de type Plante."
   },
   "reversal": {
     "name": "Contre",
@@ -761,7 +761,7 @@
   },
   "spikes": {
     "name": "Picots",
-    "effect": "Le lanceur disperse des picots sur le sol pour blesser tout ennemi qui entre au combat. Les Pokémon entrant sur le terrain subissent des dégâts équivalents à 1/8 de leurs PV max, et plus si 2 ou 3 effets de Picots sont actifs en même temps. Cela n’affecte pas les Pokémon de type Vol ou dotés du talent Lévitation, entre autres."
+    "effect": "Le lanceur disperse des picots sur le côté adverse pour blesser tout ennemi qui entre au combat. Les Pokémon entrant sur le terrain qui font contact avec le sol subissent des dégâts équivalents à 1/8 de leurs PV max. Il est possible d’installer jusqu’à 3 rangées de Picots, chacune augmentant les dégâts subis."
   },
   "zapCannon": {
     "name": "Élecanon",
@@ -801,7 +801,7 @@
   },
   "sandstorm": {
     "name": "Tempête de Sable",
-    "effect": "Une tempête de sable blesse tous les Pokémon pendant 5 tours à hauteur de 1/16 des PV max, sauf ceux de type Roche, Sol ou Acier. Augmente de 50 % la Défense Spéciale des Pokémon Roche."
+    "effect": "Une tempête de sable blesse tous les Pokémon pendant 5 tours à hauteur de 1/16 des PV max, sauf ceux de type Roche, Sol ou Acier. De plus, la Défense Spéciale des Pokémon de type Roche est multipliée par 1,5."
   },
   "gigaDrain": {
     "name": "Giga-Sangsue",
@@ -829,7 +829,7 @@
   },
   "milkDrink": {
     "name": "Lait à Boire",
-    "effect": "Le lanceur récupère jusqu’à la moitié de ses PV max."
+    "effect": "Un lait très nourrissant. Le lanceur ou un allié récupère la moitié de ses PV max."
   },
   "spark": {
     "name": "Étincelle",
@@ -957,11 +957,11 @@
   },
   "rainDance": {
     "name": "Danse Pluie",
-    "effect": "Invoque de fortes pluies qui durent cinq tours, augmentant de 50 % la puissance des capacités de type Eau et baissant de 50 % celle des capacités de type Feu."
+    "effect": "Invoque de fortes pluies qui durent cinq tours. Les dégâts des capacités de type Eau sont multipliés par 1,5 et réduits de moitié pour les capacités de type Feu."
   },
   "sunnyDay": {
     "name": "Zénith",
-    "effect": "Fait briller le soleil pendant cinq tours, augmentant de 50 % la puissance des capacités de type Feu et baissant de 50 % celle des capacités de type Eau."
+    "effect": "Fait briller le soleil pendant cinq tours. Les dégâts des capacités de type Feu sont multipliés par 1,5 et réduits de moitié pour les capacités de type Eau."
   },
   "crunch": {
     "name": "Mâchouille",
@@ -1097,7 +1097,7 @@
   },
   "ingrain": {
     "name": "Racines",
-    "effect": "Le lanceur plante ses racines et récupère des PV à chaque tour. Une fois enraciné, il ne peut plus fuir."
+    "effect": "Le lanceur plante ses racines et récupère 1/16 de ses PV max à chaque tour. Une fois enraciné, il est fixé au sol, et il ne peut plus quitter le terrain."
   },
   "superpower": {
     "name": "Surpuissance",
@@ -1197,7 +1197,7 @@
   },
   "mudSport": {
     "name": "Lance-Boue",
-    "effect": "Asperge les alentours de boue. Affaiblit les capacités Électrik pendant 5 tours."
+    "effect": "Asperge les alentours de boue. Les dégâts des capacités de type Électrik sont réduits de moitié pendant 5 tours."
   },
   "iceBall": {
     "name": "Ball’Glace",
@@ -1381,7 +1381,7 @@
   },
   "waterSport": {
     "name": "Tourniquet",
-    "effect": "Asperge d’eau les alentours. Affaiblit les capacités de type Feu pendant 5 tours."
+    "effect": "Asperge d’eau les alentours. Les dégâts des capacités de type Feu sont réduits de moitié pendant 5 tours."
   },
   "calmMind": {
     "name": "Plénitude",
@@ -1557,7 +1557,7 @@
   },
   "toxicSpikes": {
     "name": "Pics Toxik",
-    "effect": "Le lanceur éparpille des pics autour de la cible. Quand cet état est actif, les Pokémon entrant sur le terrain sont empoisonnés. Si 2 effets de Pics Toxik sont actifs en même temps, ils sont gravement empoisonnés. Cela n’affecte pas les Pokémon de type Vol ou dotés du talent Lévitation, entre autres. Si un Pokémon adverse de type Poison arrive en combat et fait contact avec ces pics, ils sont neutralisés et disparaissent."
+    "effect": "Le lanceur éparpille des pics toxiques sur le côté adverse. Les Pokémon entrant sur le terrain qui font contact avec le sol sont empoisonnés. Une seconde rangée de Pics Toxik inflige un poison grave. Si un Pokémon de type Poison arrive en combat et fait contact avec ces pics, il les dissipe en les absorbant."
   },
   "heartSwap": {
     "name": "Permucœur",
@@ -1565,7 +1565,7 @@
   },
   "aquaRing": {
     "name": "Anneau Hydro",
-    "effect": "Un voile d’eau recouvre le lanceur et régénère ses PV à chaque tour."
+    "effect": "Un voile d’eau recouvre le lanceur et régénère 1/16 de ses PV max à la fin de chaque tour."
   },
   "magnetRise": {
     "name": "Vol Magnétik",
@@ -1781,7 +1781,7 @@
   },
   "stealthRock": {
     "name": "Piège de Roc",
-    "effect": "Le lanceur fait flotter des pierres autour de la cible qui blessent à hauteur de 1/8 des PV max de tout adversaire entrant au combat. Les dégâts reçus diffèrent en fonction de l’affinité du Pokémon au type Roche."
+    "effect": "Le lanceur fait flotter des pierres autour du côté adverse qui blessent à hauteur de 1/8 des PV max de tout adversaire entrant au combat. Les dégâts reçus diffèrent en fonction de l’affinité du Pokémon au type Roche."
   },
   "grassKnot": {
     "name": "Nœud Herbe",
@@ -1901,7 +1901,7 @@
   },
   "ragePowder": {
     "name": "Poudre Fureur",
-    "effect": "Le lanceur s’asperge d’une poudre irritante pour attirer l’attention et diriger toutes les attaques ennemies sur lui."
+    "effect": "Le lanceur s’asperge d’une poudre irritante pour attirer l’attention et diriger toutes les attaques ennemies sur lui. N’affecte pas les Pokémon de type Plante."
   },
   "telekinesis": {
     "name": "Lévikinésie",
@@ -2165,7 +2165,7 @@
   },
   "hurricane": {
     "name": "Vent Violent",
-    "effect": "Le lanceur déclenche une tempête de vents violents qui s’abat sur la cible. A 30 % de chances de la rendre confuse. Frappe aussi si elle est en Vol, Rebond ou Chute Libre. N’échoue jamais quand il pleut."
+    "effect": "Le lanceur déclenche une tempête de vents violents qui s’abat sur la cible. A 30 % de chances de la rendre confuse. Frappe aussi si elle est en Vol, Rebond ou Chute Libre. N’échoue jamais quand il pleut. Si le soleil brille, la Précision de cette capacité passe à 50 %."
   },
   "headCharge": {
     "name": "Peignée",
@@ -2317,11 +2317,11 @@
   },
   "grassyTerrain": {
     "name": "Champ Herbu",
-    "effect": "Pendant 5 tours, les Pokémon au sol récupèrent 1/16 de leurs PV max à chaque tour et la puissance des capacités de type Plante augmente de 30 %."
+    "effect": "Pendant 5 tours, les Pokémon au sol récupèrent 1/16 de leurs PV max à chaque tour et la puissance des capacités de type Plante est multipliée par 1,3."
   },
   "mistyTerrain": {
     "name": "Champ Brumeux",
-    "effect": "Pendant 5 tours, les Pokémon au sol ne peuvent pas subir d’altération de statut et les dégâts infligés par les capacités de type Dragon sont divisés par deux."
+    "effect": "Pendant 5 tours, les Pokémon au sol ne peuvent pas subir d’altération de statut et les dégâts infligés par les capacités de type Dragon sont diminués de moitié."
   },
   "electrify": {
     "name": "Électrisation",
@@ -2413,7 +2413,7 @@
   },
   "electricTerrain": {
     "name": "Champ Électrifié",
-    "effect": "Pendant 5 tours, le terrain se charge d’électricité. Les Pokémon au sol ne peuvent pas s’endormir et la puissance des capacités de type Électrik augmente."
+    "effect": "Pendant 5 tours, le terrain se charge d’électricité. Les Pokémon au sol ne peuvent pas s’endormir et la puissance de leurs capacités de type Électrik augmente de 30%."
   },
   "dazzlingGleam": {
     "name": "Éclat Magique",
@@ -2709,7 +2709,7 @@
   },
   "psychicTerrain": {
     "name": "Champ Psychique",
-    "effect": "Pendant 5 tours, les Pokémon au sol ne peuvent plus subir d’attaques prioritaires et la puissance des capacités de type Psy augmente."
+    "effect": "Pendant 5 tours, les Pokémon au sol ne peuvent plus subir ou utiliser d’attaques prioritaires et la puissance de leurs capacités de type Psy est multipliée par 1,3."
   },
   "lunge": {
     "name": "Furie-Bond",
@@ -2973,7 +2973,7 @@
   },
   "dynamaxCannon": {
     "name": "Canon Dynamax",
-    "effect": "Le lanceur attaque en libérant l’énergie concentrée dans son noyau. Inflige jusqu’à deux fois plus de dégâts si l’adversaire a un niveau très élevé."
+    "effect": "Le lanceur attaque en libérant l’énergie concentrée dans son noyau. Plus le niveau de la cible dépasse la limite de niveau actuelle, plus l’attaque inflige de dégâts. La puissance peut varier entre 100 et 200."
   },
   "snipeShot": {
     "name": "Tir de Précision",
@@ -2997,7 +2997,7 @@
   },
   "magicPowder": {
     "name": "Poudre Magique",
-    "effect": "Le lanceur recouvre sa cible d’une poudre magique qui change son type en Psy."
+    "effect": "Le lanceur recouvre sa cible d’une poudre magique qui change son type en Psy. N’affecte pas les Pokémon de type Plante."
   },
   "dragonDarts": {
     "name": "Draco-Flèches",
@@ -3377,7 +3377,7 @@
   },
   "ceaselessEdge": {
     "name": "Vagues à Lames",
-    "effect": "Des lames de coquillages entaillent la cible en visant ses points faibles. Les débris de coquillage se répandent sous la forme de picots aux pieds de la cible. Les Pokémon entrant sur le terrain subissent des dégâts équivalents à 1/8 de leurs PV max, et plus si 2 ou 3 effets de picots sont actifs en même temps. Cela n’affecte pas les Pokémon de type Vol ou dotés du talent Lévitation, entre autres."
+    "effect": "Des lames de coquillages entaillent la cible en visant ses points faibles. Les débris de coquillage se répandent sous la forme de picots aux pieds de la cible. Les Pokémon adverses entrant sur le terrain subissent des dégâts équivalents à 1/8 de leurs PV max. Il est possible d’installer jusqu’à 3 rangées de pics, chacune augmentant les dégâts subis."
   },
   "bleakwindStorm": {
     "name": "Typhon Hivernal",
@@ -3573,7 +3573,7 @@
   },
   "iceSpinner": {
     "name": "Cryo-Pirouette",
-    "effect": "Le lanceur enveloppe ses jambes d’une fine couche de glace et heurte la cible en tournant sur lui-même. Ses rotations détruisent le champ actif sur le terrain."
+    "effect": "Le lanceur se recouvre d’une fine couche de glace et heurte la cible en tournant sur lui-même. Ses rotations détruisent le champ actif sur le terrain."
   },
   "glaiveRush": {
     "name": "Charge Glaive",
@@ -3661,7 +3661,7 @@
   },
   "snowscape": {
     "name": "Chute de Neige",
-    "effect": "Le lanceur invoque une tempête de neige qui dure 5 tours, ce qui augmente la Défense des Pokémon de type Glace."
+    "effect": "Le lanceur invoque une tempête de neige qui dure 5 tours. La Défense des Pokémon de type Glace est multipliée par 1,5."
   },
   "pounce": {
     "name": "Bond",
@@ -3693,7 +3693,7 @@
   },
   "bitterBlade": {
     "name": "Lame en Peine",
-    "effect": "Le lanceur concentre son amertume du monde des vivants dans la pointe de ses épées et tranche la cible. La moitié des dégâts infligés sont convertis en PV pour le lanceur."
+    "effect": "Le lanceur concentre son amertume du monde des vivants dans la pointe de ses lames et tranche la cible. La moitié des dégâts infligés sont convertis en PV pour le lanceur."
   },
   "doubleShock": {
     "name": "Double Décharge",

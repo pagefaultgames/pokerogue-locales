@@ -5,7 +5,7 @@
   },
   "drizzle": {
     "name": "Piovischio",
-    "description": "Il Pokémon causa pioggia che dura 5 turni da quando entra in battaglia."
+    "description": "Il Pokémon causa pioggia che dura 5 turni da quando entra in battaglia. Aumenta del 50% i danni inflitti dalle mosse di tipo Acqua e dimezza i danni inflitti da quelle di tipo Fuoco."
   },
   "speedBoost": {
     "name": "Acceleratore",
@@ -105,7 +105,7 @@
   },
   "effectSpore": {
     "name": "Spargispora",
-    "description": "Ha 30% di probabilità di causare avvelenamento, paralisi o sonno a chi attacca il Pokémon entrando in contatto con lui."
+    "description": "Ha 30% di probabilità di causare avvelenamento, paralisi o sonno a chi attacca il Pokémon entrando in contatto con lui. Non ha effetto sui Pokémon di tipo Erba."
   },
   "synchronize": {
     "name": "Sincronismo",
@@ -177,7 +177,7 @@
   },
   "sandStream": {
     "name": "Sabbiafiume",
-    "description": "Il Pokémon evoca una tempesta di sabbia per 5 turni quando entra in battaglia."
+    "description": "Il Pokémon evoca una tempesta di sabbia per 5 turni quando entra in battaglia. Aumenta del 50% i danni inflitti dalle mosse di tipo Fuoco e dimezza i danni inflitti da quelle di tipo Acqua."
   },
   "pressure": {
     "name": "Pressione",
@@ -197,7 +197,7 @@
   },
   "runAway": {
     "name": "Fugafacile",
-    "description": "Garantisce la fuga dai Pokémon selvatici."
+    "description": "Garantisce la fuga dai Pokémon selvatici. Permette al Pokémon di ignorare gli effetti che ne impediscono la sostituzione."
   },
   "keenEye": {
     "name": "Sguardofermo",
@@ -276,8 +276,7 @@
     "description": "Anche se il Pokémon usa delle mosse che causano un contraccolpo, non perde PS."
   },
   "drought": {
-    "name": "Siccità",
-    "description": "Quando il Pokémon entra in campo, la luce solare diventa intensa."
+    "name": "Siccità"
   },
   "arenaTrap": {
     "name": "Trappoarena",
@@ -464,8 +463,7 @@
     "description": "Riduce i danni subiti dalle mosse superefficaci del 25%."
   },
   "snowWarning": {
-    "name": "Scendineve",
-    "description": "Quando il Pokémon entra in campo, causa l’inizio di una nevicata."
+    "name": "Scendineve"
   },
   "honeyGather": {
     "name": "Mielincetta",
@@ -752,12 +750,10 @@
     "description": "Gli effetti di Aurafolletto e Auratetra sono invertiti e annullati, riducendo la potenza delle mosse affette del 25%."
   },
   "primordialSea": {
-    "name": "Mare Primordiale",
-    "description": "Crea un clima che rende inefficaci gli attacchi di tipo Fuoco."
+    "name": "Mare Primordiale"
   },
   "desolateLand": {
-    "name": "Terra Estrema",
-    "description": "Crea un clima che rende inefficaci gli attacchi di tipo Acqua."
+    "name": "Terra Estrema"
   },
   "deltaStream": {
     "name": "Flusso Delta",
@@ -900,20 +896,16 @@
     "description": "Il tipo del Pokémon cambia in base alla ROM installata."
   },
   "electricSurge": {
-    "name": "Elettrogenesi",
-    "description": "Quando il Pokémon entra in campo, lo trasforma in un Campo Elettrico."
+    "name": "Elettrogenesi"
   },
   "psychicSurge": {
-    "name": "Psicogenesi",
-    "description": "Quando il Pokémon entra in campo, lo trasforma in un Campo Psichico."
+    "name": "Psicogenesi"
   },
   "mistySurge": {
-    "name": "Nebbiogenesi",
-    "description": "Quando il Pokémon entra in campo, lo trasforma in un Campo Nebbioso."
+    "name": "Nebbiogenesi"
   },
   "grassySurge": {
-    "name": "Erbogenesi",
-    "description": "Quando il Pokémon entra in campo, lo trasforma in un Campo Erboso."
+    "name": "Erbogenesi"
   },
   "fullMetalBody": {
     "name": "Metalprotezione",
@@ -976,8 +968,7 @@
     "description": "Aumenta la potenza delle mosse basate sul suono del 30%. Inoltre, dimezza i danni subiti dal Pokémon se viene colpito da tali mosse."
   },
   "sandSpit": {
-    "name": "Sputasabbia",
-    "description": "Quando il Pokémon viene colpito da un attacco, scatena una tempesta di sabbia."
+    "name": "Sputasabbia"
   },
   "iceScales": {
     "name": "Geloscaglie",
@@ -1008,8 +999,7 @@
     "description": "Aumenta la potenza delle mosse di tipo Acciaio usato dal Pokémon e dei suoi alleati del 50%."
   },
   "perishBody": {
-    "name": "Ultimotocco",
-    "description": "Se il Pokémon viene colpito da un attacco diretto, dopo tre turni va KO assieme a chi lo ha attaccato. Se uno dei due viene sostituito, non va KO."
+    "name": "Ultimotocco"
   },
   "wanderingSpirit": {
     "name": "Anima Errante",
@@ -1020,8 +1010,7 @@
     "description": "Aumenta l’Attacco del 50% ma costringe il Pokémon a usare solo la prima mossa selezionata."
   },
   "neutralizingGas": {
-    "name": "Gas Reagente",
-    "description": "Se in campo c’è un Pokémon con Gas Reagente, gli effetti delle abilità di tutti gli altri Pokémon vengono annullati o non si attivano."
+    "name": "Gas Reagente"
   },
   "pastelVeil": {
     "name": "Pastelvelo",
@@ -1072,8 +1061,7 @@
     "description": "L’abilità di chi entra in contatto con il Pokémon diventa Odore Tenace."
   },
   "seedSower": {
-    "name": "Spargisemi",
-    "description": "Se il Pokémon subisce un attacco, il terreno entra nello stato di Campo Erboso."
+    "name": "Spargisemi"
   },
   "thermalExchange": {
     "name": "Termoscambio",
@@ -1148,12 +1136,10 @@
     "description": "La Difesa Speciale degli altri Pokémon in lotta viene indebolita del 25% dal potere dei gioielli che richiamano le disgrazie."
   },
   "orichalcumPulse": {
-    "name": "Ritmo d’Oricalco",
-    "description": "Quando il Pokémon entra in campo, la luce solare diventa intensa. Con la luce solare intensa l’Attacco del Pokémon aumenta del 33% grazie al battito dell’antichità."
+    "name": "Ritmo d’Oricalco"
   },
   "hadronEngine": {
-    "name": "Motore Adronico",
-    "description": "Quando il Pokémon entra in campo, il terreno entra nello stato di Campo Elettrico. In presenza di Campo Elettrico l’Attacco Speciale aumenta del 33% grazie al motore del futuro."
+    "name": "Motore Adronico"
   },
   "opportunist": {
     "name": "Scrocco",
@@ -1176,8 +1162,7 @@
     "description": "Quando il Pokémon entra in battaglia, copia i cambi alle statistiche di un alleato."
   },
   "toxicDebris": {
-    "name": "Mantossina",
-    "description": "Se il Pokémon subisce danni da mosse fisiche, piazza ai piedi degli avversari una trappola di punte velenose."
+    "name": "Mantossina"
   },
   "armorTail": {
     "name": "Codarmatura",
@@ -1262,5 +1247,9 @@
   "spicySpray": {
     "name": "Spargipiccante",
     "description": "Causa lo stato Scottatura a chi sferra una mossa che infligge danni contro il Pokémon."
+  },
+  "auraGuard": {
+    "name": "Ondascudo",
+    "description": "Dimezza i danni subiti dalle mosse da contatto."
   }
 }

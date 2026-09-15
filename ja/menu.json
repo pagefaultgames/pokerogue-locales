@@ -64,5 +64,11 @@
   "noSaves": "何の　セーブファイルも　ありません！",
   "tooManySaves": "セーブファイルが　いっぱいです！",
   "eventTimer": "イベントが終わるまで：{{days}}日 {{hours}}時間 {{mins}}分 {{secs}}秒",
-  "serverError": "サーバーエラーが発生しました。\nしばらくしてからもう一度お試しください。"
+  "serverErrorGenerateSalt": "パスワードを 安全に 処理できません。",
+  "serverErrorGenerateToken": "認証トークンが 生成できません。",
+  "serverErrorAddSession": "セッションを 作成できません。",
+  "serverErrorGenerateUuid": "ーザーIDを生成できません。",
+  "serverErrorRemoveSessions": "アクティブなセッションを更新できません。",
+  "serverErrorUpdateAccount": "アカウント情報を更新できない。",
+  "pleaseTryAgainLater": "後でもう一度お試しください。"
 }

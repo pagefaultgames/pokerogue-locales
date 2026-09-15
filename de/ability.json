@@ -5,7 +5,7 @@
   },
   "drizzle": {
     "name": "Niesel",
-    "description": "Das Pokémon erzeugt bei Kampfantritt für 5 Runden Regen."
+    "description": "Das Pokémon erzeugt bei Kampfantritt für 5 Runden Regen. Verstärkt Attacken vom Typ Wasser um 50 % und halbiert den Schaden durch Attacken vom Typ Feuer."
   },
   "speedBoost": {
     "name": "Temposchub",
@@ -105,7 +105,7 @@
   },
   "effectSpore": {
     "name": "Sporenwirt",
-    "description": "Angreifer werden bei Berührung zu 30% vergiftet, paralysiert oder in Schlaf versetzt."
+    "description": "Wenn das Pokémon von einer Kontakt-Attacke getroffen wird, besteht eine Chance von 30 %, dass der Angreifer vergiftet oder paralysiert wird oder einschläft. Pokémon vom Typ Pflanze sind davon nicht betroffen."
   },
   "synchronize": {
     "name": "Synchro",
@@ -177,7 +177,7 @@
   },
   "sandStream": {
     "name": "Sandsturm",
-    "description": "Das Pokémon erzeugt bei Kampfantritt für 5 Runden einen Sandsturm."
+    "description": "Das Pokémon erzeugt bei Kampfantritt für 5 Runden einen Sandsturm. Bei Pokémon vom Typ Gestein wird der Wert für die Spezial-Verteidigung um 50 % erhöht. Pokémon, die nicht den Typen Gestein, Boden oder Stahl angehören, erleiden am Ende jeder Runde Schaden in Höhe von ¹⁄₁₆ ihrer maximalen KP."
   },
   "pressure": {
     "name": "Erzwinger",
@@ -197,7 +197,7 @@
   },
   "runAway": {
     "name": "Angsthase",
-    "description": "Die Flucht vor wilden Pokémon gelingt immer."
+    "description": "Ermöglicht eine sichere Flucht vor wilden Pokémon und ignoriert zudem jegliche Effekte, die das Pokémon normalerweise am Auswechseln hindern würden."
   },
   "keenEye": {
     "name": "Adlerauge",
@@ -277,7 +277,7 @@
   },
   "drought": {
     "name": "Dürre",
-    "description": "Erzeugt bei Kampfantritt gleißendes Sonnenlicht."
+    "description": "Erzeugt bei Kampfantritt für 5 Runden gleißendes Sonnenlicht. Verstärkt Attacken vom Typ Feuer um 50 % und halbiert den Schaden durch Attacken vom Typ Wasser."
   },
   "arenaTrap": {
     "name": "Ausweglos",
@@ -465,7 +465,7 @@
   },
   "snowWarning": {
     "name": "Hagelalarm",
-    "description": "Löst bei Kampfantritt Hagel aus."
+    "description": "Löst bei Kampfantritt für 5 Runden Hagel aus. Der Verteidigungswert von Pokémon des Typs Eis wird um 50 % erhöht."
   },
   "honeyGather": {
     "name": "Honigmaul",
@@ -753,11 +753,11 @@
   },
   "primordialSea": {
     "name": "Urmeer",
-    "description": "Ändert das Wetter, um Feuer-Attacken wirkungslos zu machen."
+    "description": "Ändert das Wetter, um Feuer-Attacken wirkungslos zu machen und erhöht den Schaden von Attacken des Typs Wasser um 50 %."
   },
   "desolateLand": {
     "name": "Endland",
-    "description": "Ändert das Wetter, um Wasser-Attacken wirkungslos zu machen."
+    "description": "Ändert das Wetter, um Wasser-Attacken wirkungslos zu machen und erhöht den Schaden von Attacken des Typs Feuer um 50 %."
   },
   "deltaStream": {
     "name": "Delta-Wind",
@@ -901,19 +901,19 @@
   },
   "electricSurge": {
     "name": "Elektro-Erzeuger",
-    "description": "Erzeugt bei Kampfantritt ein Elektrofeld."
+    "description": "Erzeugt bei Kampfantritt für 5 Runden in Elektrofeld, wodurch Elektro-Attacken um 30% verstärkt werden. Pokémon am Boden können nicht mehr einschlafen."
   },
   "psychicSurge": {
     "name": "Psycho-Erzeuger",
-    "description": "Erzeugt bei Kampfantritt ein Psychofeld."
+    "description": "Das Pokémon erzeugt bei Kampfantritt auf dem gesamten Kampffeld ein Psychofeld, das 5 Runden lang anhält. Die Stärke von Psycho-Attacken wird um 30 % erhöht. Prioritätsattacken haben keine Wirkung. Diese Effekte wirken nur auf Pokémon, die sich auf dem Boden befinden."
   },
   "mistySurge": {
     "name": "Nebel-Erzeuger",
-    "description": "Erzeugt bei Kampfantritt ein Nebelfeld."
+    "description": "Auf dem gesamten Kampffeld wird ein Nebelfeld erzeugt, das 5 Runden lang anhält. Der erlittene Schaden durch Drachen-Attacken wird halbiert. Pokémon können weder Statusprobleme erleiden noch verwirrt werden. Diese Effekte wirken nur auf Pokémon, die sich auf dem Boden befinden."
   },
   "grassySurge": {
     "name": "Gras-Erzeuger",
-    "description": "Erzeugt bei Kampfantritt ein Grasfeld."
+    "description": "Das Pokémon erzeugt bei Kampfantritt auf dem gesamten Kampffeld ein Grasfeld, das 5 Runden lang anhält. Die Stärke von Pflanzen-Attacken wird um 30 % erhöht. Pokémon regenerieren am Ende jeder Runde 1/16 ihrer maximalen KP. Diese Effekte wirken nur auf Pokémon, die sich auf dem Boden befinden."
   },
   "fullMetalBody": {
     "name": "Metallprotektor",
@@ -977,7 +977,7 @@
   },
   "sandSpit": {
     "name": "Sandspeier",
-    "description": "Löst einen Sandsturm aus, wenn das Pokémon von einer Attacke erfasst wird."
+    "description": "Das Pokémon erzeugt bei Kampfantritt einen Sandsturm, der 5 Runden lang anhält. Alle Pokémon, die nicht dem Typ Gestein, Boden oder Stahl angehören, erleiden am Ende jeder Runde Schaden in Höhe von 1/16 ihrer maximalen KP. Die Spezial-Verteidigung von Gesteins-Pokémon wird um 50 % erhöht."
   },
   "iceScales": {
     "name": "Eisflügelstaub",
@@ -1009,7 +1009,7 @@
   },
   "perishBody": {
     "name": "Unheilskörper",
-    "description": "Erleidet es einen Treffer von einer direkten Attacke, wird es zusammen mit dem Angreifer nach drei Runden besiegt. Rettung ist durch Austausch möglich."
+    "description": "Erleidet es einen Treffer von einer direkten Attacke, wird es zusammen mit dem Angreifer nach drei Runden besiegt. Rettung ist durch Austausch möglich. Boss-Pokémon sind gegen diesen Effekt immun."
   },
   "wanderingSpirit": {
     "name": "Rastlose Seele",
@@ -1021,7 +1021,7 @@
   },
   "neutralizingGas": {
     "name": "Reaktionsgas",
-    "description": "Solange das Pokémon am Kampf beteiligt ist, werden die Fähigkeiten aller anderen Pokémon unterdrückt oder aufgehoben."
+    "description": "Solange das Pokémon am Kampf beteiligt ist, werden die Fähigkeiten und Passiven aller anderen Pokémon unterdrückt oder aufgehoben."
   },
   "pastelVeil": {
     "name": "Pastellhülle",
@@ -1073,7 +1073,7 @@
   },
   "seedSower": {
     "name": "Streusaat",
-    "description": "Wird das Pokémon von einem Angriff getroffen, erzeugt es ein Grasfeld."
+    "description": "Erleidet das Pokémon Schaden durch eine Attacke, erzeugt es auf dem gesamten Kampffeld ein Grasfeld, das 5 Runden lang anhält. Die Stärke von Pflanzen-Attacken wird um 30 % erhöht. Pokémon regenerieren am Ende jeder Runde 1/16 ihrer maximalen KP. Diese Effekte wirken nur auf Pokémon, die sich auf dem Boden befinden."
   },
   "thermalExchange": {
     "name": "Thermowandel",
@@ -1149,11 +1149,11 @@
   },
   "orichalcumPulse": {
     "name": "Orichalkum-Puls",
-    "description": "Das Pokémon erzeugt bei Kampfantritt Sonnenschein. Bei Sonnenschein verstärkt ein urzeitlicher Puls seinen Angriff um 33%."
+    "description": "Das Pokémon erzeugt bei Kampfantritt Sonnenschein, der 5 Runden lang anhält. Der Schaden von Feuer-Attacken wird um 50 % erhöht und der Schaden von Wasser-Attacken halbiert. Bei Sonnenschein verstärkt ein urzeitlicher Puls seinen Angriff um 33%."
   },
   "hadronEngine": {
     "name": "Hadronen-Motor",
-    "description": "Das Pokémon erzeugt bei Kampfantritt ein Elektrofeld. Wenn ein Elektrofeld aktiv ist, verstärkt ein futuristischer Motor seinen Spezial-Angriff um 33%."
+    "description": "Das Pokémon erzeugt bei Kampfantritt auf dem gesamten Kampffeld ein Elektrofeld, das 5 Runden lang anhält. Die Stärke von Elektro-Attacken wird um 30 % erhöht. Pokémon können nicht in Schlaf versetzt werden. Diese Effekte wirken nur auf Pokémon, die sich auf dem Boden befinden. Wenn ein Elektrofeld aktiv ist, verstärkt ein futuristischer Motor seinen Spezial-Angriff um 33%."
   },
   "opportunist": {
     "name": "Profiteur",
@@ -1177,7 +1177,7 @@
   },
   "toxicDebris": {
     "name": "Giftbelag",
-    "description": "Erleidet das Pokémon Schaden durch eine physische Attacke, verstreut es giftige Stacheln auf der gegnerischen Seite."
+    "description": "Verstreut Giftspitzen vor dem gegnerischen Team, wenn das Pokémon durch physische Attacken Schaden erleidet. Gegnerische Pokémon, die beim Einwechseln in diese Spitzen geraten, werden vergiftet. Eine zweite Schicht Spitzen verursacht stattdessen schwere Vergiftung. Gift-Pokémon, die in diese Spitzen geraten, absorbieren sie und entfernen sie so vom Spielfeld."
   },
   "armorTail": {
     "name": "Schweifrüstung",
@@ -1262,5 +1262,9 @@
   "spicySpray": {
     "name": "Chilispritzer",
     "description": "Erleidet das Pokémon durch eine Attacke Schaden, erleidet der Angreifer Verbrennungen."
+  },
+  "auraGuard": {
+    "name": "Aura-Abwehr",
+    "description": "Der Schaden, den das Pokémon durch Kontaktattacken erleidet, wird halbiert."
   }
 }

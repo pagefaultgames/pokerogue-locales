@@ -305,15 +305,15 @@
   },
   "poisonPowder": {
     "name": "Giftpuder",
-    "effect": "Verstreut giftigen Puder auf das Ziel."
+    "effect": "Verstreut giftigen Puder, der das Ziel eventuell vergiftet. Diese Attacke hat keine Wirkung auf Pokémon vom Typ Pflanze."
   },
   "stunSpore": {
     "name": "Stachelspore",
-    "effect": "Verstreut lähmenden Puder."
+    "effect": "Der Anwender verstreut jede Menge lähmenden Puder, der getroffene Gegner paralysiert. Diese Attacke hat keine Wirkung auf Pokémon vom Typ Pflanze."
   },
   "sleepPowder": {
     "name": "Schlafpuder",
-    "effect": "Verstreut Schlafpuder, der das Ziel eventuell in Schlaf versetzt."
+    "effect": "Der Anwender verstreut jede Menge Schlafpuder, der getroffene Gegner schläfrig macht. Diese Attacke hat keine Wirkung auf Pokémon vom Typ Pflanze."
   },
   "petalDance": {
     "name": "Blättertanz",
@@ -341,11 +341,11 @@
   },
   "thunderWave": {
     "name": "Donnerwelle",
-    "effect": "Ein schwacher Stromstoß, der das Ziel paralysiert."
+    "effect": "Der Anwender sendet einen schwachen Stromstoß aus, der getroffene Gegner paralysiert. Diese Attacke hat keine Wirkung auf Pokémon vom Typ Boden."
   },
   "thunder": {
     "name": "Donner",
-    "effect": "Eine verheerende Elektro-Attacke, die das Ziel mit einer Chance von 30% paralysiert. Trifft bei Regen immer. Diese Attacke kann auch ein Ziel treffen, das sich durch Fliegen, Sprungfeder oder Himmelsfeger in der Luft befindet."
+    "effect": "Der Anwender greift an, indem er einen gewaltigen Blitz herabfahren lässt. Das Ziel wird mit 30%iger Wahrscheinlichkeit paralysiert. Diese Attacke kann auch Ziele treffen, die sich im Zustand Abgehoben befinden. Bei Sonnenschein beträgt die Genauigkeit 50 %. Bei Regen trifft die Attacke garantiert."
   },
   "rockThrow": {
     "name": "Steinwurf",
@@ -585,7 +585,7 @@
   },
   "spore": {
     "name": "Pilzspore",
-    "effect": "Erzeugt eine Wolke aus einschläfernden Sporen."
+    "effect": "Erzeugt eine Sporenwolke, die das Ziel in Schlaf versetzt. Diese Attacke hat keine Wirkung auf Pokémon vom Typ Pflanze."
   },
   "flash": {
     "name": "Blitz",
@@ -653,7 +653,7 @@
   },
   "substitute": {
     "name": "Delegator",
-    "effect": "Anwender setzt eine kleine Menge an KP ein, um einen Doppelgänger zu erzeugen, der für ihn Schläge einsteckt."
+    "effect": "Der Anwender verliert 1/4 seiner maximalen KP und erzeugt einen Delegator. Der Delegator wird anstelle des Anwenders von Attacken getroffen und verschwindet dann, wenn er Schaden in Höhe von 1/4 der maximalen KP des Anwenders erlitten hat. Geräuschattacken ignorieren die Wirkung von Delegator."
   },
   "struggle": {
     "name": "Verzweifler",
@@ -709,7 +709,7 @@
   },
   "cottonSpore": {
     "name": "Baumwollsaat",
-    "effect": "Wattebäusche heften sich an das Ziel. Der Initiative-Wert sinkt stark."
+    "effect": "Wattebäusche heften sich an gegnerische Pokémon, deren Initiative-Wert dadurch stark sinkt. Diese Attacke hat keine Wirkung auf Pokémon vom Typ Pflanze."
   },
   "reversal": {
     "name": "Gegenschlag",
@@ -829,7 +829,7 @@
   },
   "milkDrink": {
     "name": "Milchgetränk",
-    "effect": "KP des Anwenders werden um 50 % der maximalen KP aufgefüllt."
+    "effect": "KP des Anwenders oder eines Verbündeten werden um 50 % der maximalen KP aufgefüllt."
   },
   "spark": {
     "name": "Funkensprung",
@@ -1097,7 +1097,7 @@
   },
   "ingrain": {
     "name": "Verwurzler",
-    "effect": "Verwurzelung füllt jede Runde KP auf. Austausch ist unmöglich."
+    "effect": "Der Anwender schlägt Wurzeln, die am Ende jeder Runde ¹⁄₁₆ seiner maximalen KP wiederherstellen. Durch das Verwurzeln gilt der Anwender als am Boden befindlich und kann weder fliehen noch aus dem Kampf ausgetauscht werden."
   },
   "superpower": {
     "name": "Kraftkoloss",
@@ -1197,7 +1197,7 @@
   },
   "mudSport": {
     "name": "Lehmsuhler",
-    "effect": "Der Anwender wirbelt auf dem Kampffeld Schlamm auf. Dies schwächt Elektro-Attacken für 5 Runden."
+    "effect": "Der Anwender wirbelt auf dem Kampffeld Schlamm auf. Dies schwächt die Stärke Elektro-Attacken um 50% für 5 Runden."
   },
   "iceBall": {
     "name": "Frostbeule",
@@ -1381,7 +1381,7 @@
   },
   "waterSport": {
     "name": "Nassmacher",
-    "effect": "Der Anwender lässt Wasser herabregnen und schwächt damit fünf Runden lang Feuer-Attacken."
+    "effect": "Der Anwender lässt Wasser herabregnen und schwächt damit fünf Runden lang die Stärke von Feuer-Attacken um 50%,"
   },
   "calmMind": {
     "name": "Gedankengut",
@@ -1565,7 +1565,7 @@
   },
   "aquaRing": {
     "name": "Wasserring",
-    "effect": "Anwender umgibt sich mit einem Schleier aus Wasser. Dabei regeneriert er einige KP pro Runde."
+    "effect": "Anwender umgibt sich mit einem Schleier aus Wasser. Dabei regeneriert er ¹⁄₁₆ seiner maximalen KP pro Runde."
   },
   "magnetRise": {
     "name": "Magnetflug",
@@ -1901,7 +1901,7 @@
   },
   "ragePowder": {
     "name": "Wutpulver",
-    "effect": "Anwender zieht gegnerische Aufmerksamkeit und Angriffe auf sich, indem er ein Wut erzeugendes Pulver über sich streut."
+    "effect": "Anwender zieht gegnerische Aufmerksamkeit und Angriffe auf sich, indem er ein Wut erzeugendes Pulver über sich streut. Diese Attacke hat keine Wirkung auf Pokémon vom Typ Pflanze."
   },
   "telekinesis": {
     "name": "Telekinese",
@@ -2165,7 +2165,7 @@
   },
   "hurricane": {
     "name": "Orkan",
-    "effect": "Der Anwender greift an, indem er seinen Gegner in einen heftigen Wind hüllt. Diese Attacke hat eine Chance von 30 %, das Ziel zu verwirren, und trifft bei Regen immer. Sie kann zudem Ziele treffen, die sich durch Fliegen, Sprungfeder oder Himmelsfeger in der Luft befinden."
+    "effect": "Der Anwender umgibt das Ziel mit heftigen Windböen. Das Ziel wird mit 30%iger Wahrscheinlichkeit verwirrt. Diese Attacke kann auch Ziele treffen, die sich im Zustand Abgehoben befinden. Bei Sonnenschein beträgt die Genauigkeit 50 %. Bei Regen trifft die Attacke garantiert."
   },
   "headCharge": {
     "name": "Steinschädel",
@@ -2413,7 +2413,7 @@
   },
   "electricTerrain": {
     "name": "Elektrofeld",
-    "effect": "Der Anwender verwandelt den Boden für 5 Runden in Elektrofeld, wodurch Elektro-Attacken verstärkt werden. Pokémon am Boden können nicht mehr einschlafen."
+    "effect": "Der Anwender verwandelt den Boden für 5 Runden in Elektrofeld, wodurch Elektro-Attacken um 30% verstärkt werden. Pokémon am Boden können nicht mehr einschlafen."
   },
   "dazzlingGleam": {
     "name": "Zauberschein",
@@ -2709,7 +2709,7 @@
   },
   "psychicTerrain": {
     "name": "Psychofeld",
-    "effect": "Verhindert für fünf Runden, dass Pokémon am Boden von Attacken mit hoher Erstschlagquote getroffen werden. Erhöht die Stärke von Psycho-Attacken."
+    "effect": "Verhindert für fünf Runden, dass Pokémon am Boden von Attacken mit hoher Erstschlagquote getroffen werden. Erhöht die Stärke von Psycho-Attacken um 30%."
   },
   "lunge": {
     "name": "Anfallen",
@@ -2997,7 +2997,7 @@
   },
   "magicPowder": {
     "name": "Magiepuder",
-    "effect": "Das Ziel wird mit magischem Puder bestreut und nimmt den Typ Psycho an."
+    "effect": "Das Ziel wird mit magischem Puder bestreut und nimmt den Typ Psycho an. Diese Attacke hat keine Wirkung auf Pokémon vom Typ Psycho."
   },
   "dragonDarts": {
     "name": "Drachenpfeile",
@@ -3661,7 +3661,7 @@
   },
   "snowscape": {
     "name": "Schneelandschaft",
-    "effect": "Der Anwender beschwört einen Schneesturm, der 5 Runden lang anhält. Dies erhöht die Verteidigung von Eis-Pokémon."
+    "effect": "Der Anwender beschwört einen Schneesturm, der 5 Runden lang anhält. Dies erhöht die Verteidigung von Eis-Pokémon um 50%."
   },
   "pounce": {
     "name": "Anspringen",

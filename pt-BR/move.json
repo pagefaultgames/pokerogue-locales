@@ -305,15 +305,15 @@
   },
   "poisonPowder": {
     "name": "Poison Powder",
-    "effect": "O usuário espalha uma nuvem de poeira tóxica que envenena o alvo."
+    "effect": "O usuário espalha uma nuvem de poeira venenosa que envenena o alvo. Os Pokémon do tipo Planta não são afetados."
   },
   "stunSpore": {
     "name": "Stun Spore",
-    "effect": "O usuário espalha uma nuvem de esporos entorpecentes que paralisam o alvo."
+    "effect": "O usuário espalha uma nuvem de pó entorpecente que paralisa o alvo. Os Pokémon do tipo Planta não são afetados."
   },
   "sleepPowder": {
     "name": "Sleep Powder",
-    "effect": "O usuário espalha uma nuvem de poeira soporífera que faz o alvo dormir."
+    "effect": "O usuário espalha uma nuvem de pó soporífero que faz com que o alvo adormeça. Os Pokémon do tipo Planta não são afetados."
   },
   "petalDance": {
     "name": "Petal Dance",
@@ -341,11 +341,11 @@
   },
   "thunderWave": {
     "name": "Thunder Wave",
-    "effect": "O usuário lança um choque elétrico fraco que paralisa o alvo."
+    "effect": "O usuário lança uma leve descarga elétrica que paralisa o alvo. Os Pokémon do tipo Terrestre não são afetados."
   },
   "thunder": {
     "name": "Thunder",
-    "effect": "Um raio cruel é lançado sobre o alvo para causar dano. Este movimento tem 30% de chance de paralisar o alvo e nunca erra na chuva. Este movimento também pode atingir um alvo que esteja no ar por Fly, Bounce ou Sky Drop."
+    "effect": "Um raio devastador é lançado sobre o alvo para causar dano. Este movimento tem 30% de chance de paralisar o alvo e nunca erra quando chove. Sob sol forte, a precisão deste movimento é de 50%. Este movimento pode atingir um alvo que esteja no ar devido aos movimentos “Fly”, “Bounce” ou “Sky Drop”."
   },
   "rockThrow": {
     "name": "Rock Throw",
@@ -585,7 +585,7 @@
   },
   "spore": {
     "name": "Spore",
-    "effect": "O usuário espalha rajadas de esporos que induzem sono ao alvo."
+    "effect": "O usuário espalha rajadas de esporos que induzem o sono. Os Pokémon do tipo Planta não são afetados."
   },
   "flash": {
     "name": "Flash",
@@ -653,7 +653,7 @@
   },
   "substitute": {
     "name": "Substitute",
-    "effect": "O usuário cria um substituto de si mesmo perdendo um quarto de seus PS máximos. O substituto serve como isca para o usuário e desaparecerá quando receber dano igual à quantidade de PS perdida pelo usuário para criá-lo."
+    "effect": "O usuário cria um substituto para si mesmo ao perder ¼ de seus PS máximos. O substituto será atingido pelos ataques no lugar do usuário e desaparecerá quando receber dano equivalente a ¼ dos PS máximos do usuário. Ataques sonoros atingirão o usuário através do substituto."
   },
   "struggle": {
     "name": "Struggle",
@@ -709,7 +709,7 @@
   },
   "cottonSpore": {
     "name": "Cotton Spore",
-    "effect": "O usuário libera esporos semelhantes a algodão que grudam nos Pokémon adversários. Isso reduz duramente os atributos de Velocidade deles."
+    "effect": "O usuário libera esporos semelhantes a fios de algodão que se prendem aos Pokémon adversários. Isso reduz drasticamente seus atributos de Velocidade. Pokémon do tipo Planta não são afetados."
   },
   "reversal": {
     "name": "Reversal",
@@ -829,7 +829,7 @@
   },
   "milkDrink": {
     "name": "Milk Drink",
-    "effect": "O usuário bebe leite altamente nutritivo, restaurando metade de seus PS máximos."
+    "effect": "O usuário produz leite altamente nutritivo, restaurando ½ dos PS máximos do próprio usuário ou de um aliado."
   },
   "spark": {
     "name": "Spark",
@@ -1097,7 +1097,7 @@
   },
   "ingrain": {
     "name": "Ingrain",
-    "effect": "O usuário lança raízes que restauram seus próprios PS a cada turno. Como o usuário agora está enraizado, ele não pode fugir nem ser trocado."
+    "effect": "O usuário cria raízes que restauram ¹⁄₁₆ de seus PS máximos no final de cada turno. Por estar enraizado, o usuário fica imobilizado e não pode fugir nem ser substituído na batalha."
   },
   "superpower": {
     "name": "Superpower",
@@ -1197,7 +1197,7 @@
   },
   "mudSport": {
     "name": "Mud Sport",
-    "effect": "O usuário levanta lama no campo de batalha. Isso enfraquece os movimentos do tipo Elétrico por 5 turnos."
+    "effect": "O usuário espalha lama pelo campo de batalha. Isso enfraquece os ataques do tipo Elétrico de todos os Pokémon em campo em 50% por 5 turnos."
   },
   "iceBall": {
     "name": "Ice Ball",
@@ -1381,7 +1381,7 @@
   },
   "waterSport": {
     "name": "Water Sport",
-    "effect": "O usuário encharca o campo de batalha com água. Isso enfraquece os movimentos do tipo Fogo por 5 turnos."
+    "effect": "O usuário encharca o campo de batalha com água. Isso enfraquece os ataques do tipo Fogo de todos os Pokémon em campo em 50% por 5 turnos."
   },
   "calmMind": {
     "name": "Calm Mind",
@@ -1565,7 +1565,7 @@
   },
   "aquaRing": {
     "name": "Aqua Ring",
-    "effect": "O usuário envolve-se em um véu feito de água. Ele recupera um pouco de PS a cada turno."
+    "effect": "O usuário se envolve em um véu feito de água, restaurando ¹⁄₁₆ de seus PS máximos ao final de cada turno."
   },
   "magnetRise": {
     "name": "Magnet Rise",
@@ -1901,7 +1901,7 @@
   },
   "ragePowder": {
     "name": "Rage Powder",
-    "effect": "O usuário espalha uma nuvem de pó irritante para chamar a atenção para si mesmo, fazendo com que todos os Pokémon adversários mirem apenas no usuário."
+    "effect": "O usuário espalha uma nuvem de pó irritante para chamar atenção para si mesmo, fazendo com que todos os Pokémon adversários miram apenas nele. Os Pokémon do tipo Planta não são afetados."
   },
   "telekinesis": {
     "name": "Telekinesis",
@@ -2165,7 +2165,7 @@
   },
   "hurricane": {
     "name": "Hurricane",
-    "effect": "O usuário ataca envolvendo seu oponente em um vento feroz. Este movimento tem 30% de chance de confundir o alvo e nunca erra na chuva. Este movimento também pode atingir um alvo que esteja no ar por Fly, Bounce ou Sky Drop."
+    "effect": "O usuário ataca envolvendo seu adversário em um vento violento. Esse movimento tem 30% de chance de confundir o alvo e nunca erra quando chove. Sob sol forte, a precisão desse movimento é de 50%. Esse movimento pode atingir um alvo que esteja no ar após usar os movimentos “Fly”, “Bounce” ou “Sky Drop”."
   },
   "headCharge": {
     "name": "Head Charge",
@@ -2321,7 +2321,7 @@
   },
   "mistyTerrain": {
     "name": "Misty Terrain",
-    "effect": "Transforma todo o campo em Terreno Enevoado por 5 turnos. Os Pokémon que estiverem no solo têm o poder de seus ataques do tipo Dragão reduzido pela metade, ficam imunes a condições de status e não podem ficar confusos."
+    "effect": "Transforma todo o campo em Terreno Enevoado por 5 turnos. Os Pokémon que estiverem no solo têm o poder de seus ataques do tipo Dragão reduzido pela metade e ficam imunes a condições de status."
   },
   "electrify": {
     "name": "Electrify",
@@ -2413,7 +2413,7 @@
   },
   "electricTerrain": {
     "name": "Electric Terrain",
-    "effect": "O usuário transforma o chão em Terreno Elétrico por 5 turnos, potencializando os movimentos do tipo Elétrico. Pokémon que estejam no chão não podem mais adormecer."
+    "effect": "O usuário transforma o solo em Terreno Elétrico por 5 turnos. Os Pokémon que estiverem no solo têm o poder de seus ataques do tipo Elétrico aumentado em 30% e não podem mais adormecer."
   },
   "dazzlingGleam": {
     "name": "Dazzling Gleam",
@@ -2709,7 +2709,7 @@
   },
   "psychicTerrain": {
     "name": "Psychic Terrain",
-    "effect": "Isso protege os Pokémon que estejam no chão de movimentos de prioridade e potencializa os movimentos do tipo Psíquico por 5 turnos."
+    "effect": "O usuário transforma o solo em Terreno Psíquico por 5 turnos. Os Pokémon que estiverem no solo têm o poder de seus ataques do tipo Psíquico aumentado em 30% e não podem usar nem ser alvo de ataques com prioridade aumentada."
   },
   "lunge": {
     "name": "Lunge",
@@ -2997,7 +2997,7 @@
   },
   "magicPowder": {
     "name": "Magic Powder",
-    "effect": "O usuário espalha uma nuvem de pó mágico que muda o tipo do alvo para Psíquico."
+    "effect": "O usuário espalha uma nuvem de pó mágico que altera o tipo do alvo para Psíquico. Os Pokémon do tipo Planta não são afetados."
   },
   "dragonDarts": {
     "name": "Dragon Darts",
@@ -3661,7 +3661,7 @@
   },
   "snowscape": {
     "name": "Snowscape",
-    "effect": "O usuário invoca uma nevasca que dura 5 turnos. Isso aumenta os atributos de Defesa dos tipos Gelo."
+    "effect": "O usuário invoca uma tempestade de neve que dura 5 turnos. Isso aumenta em 50% a Defesa dos tipos Gelo."
   },
   "pounce": {
     "name": "Pounce",

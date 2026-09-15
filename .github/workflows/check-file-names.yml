@@ -8,6 +8,12 @@ on:
     branches:
       - main
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions: {}
+
 jobs:
   validate-filenames:
     runs-on: ubuntu-latest
@@ -20,3 +26,9 @@ jobs:
         with:
           pattern: ^(?!.*messages\.json$).* # Match files that do NOT end with 'messages.json'
           path: "**/*.json"
+
+      - name: Block .js files
+        uses: scheduleonce/lint-filenames@2d348b0e2bf8894288e4a336693bbc19713e978c # 3.0.0
+        with:
+          pattern: (?!.*)
+          path: "**/*.js"

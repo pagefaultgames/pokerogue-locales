@@ -46,7 +46,6 @@ jobs:
               - "biome.jsonc"
               - ".github/workflows/linting.yml"
               - "**/*.mts"
-              - "**/*.js"
 
   run-linters:
     name: Run all linters

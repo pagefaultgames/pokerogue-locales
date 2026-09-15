@@ -5,7 +5,7 @@
   },
   "drizzle": {
     "name": "Drizzle",
-    "description": "O Pokémon faz chover por 5 turnos ao entrar em batalha."
+    "description": "Convoca chuva por 5 turnos quando o Pokémon entra em uma batalha. Aumenta o poder dos ataques do tipo Água em 50% e reduz pela metade o dano causado pelos ataques do tipo Fogo."
   },
   "speedBoost": {
     "name": "Speed Boost",
@@ -105,7 +105,7 @@
   },
   "effectSpore": {
     "name": "Effect Spore",
-    "description": "O contato com o Pokémon tem 30% de chance de causar envenenamento, sono ou paralisia no atacante."
+    "description": "Quando o Pokémon é atingido por um ataque de contato, o atacante tem 30% de chance de ser envenenado, paralisado ou adormecido. Pokémon do tipo Planta não são afetados."
   },
   "synchronize": {
     "name": "Synchronize",
@@ -177,7 +177,7 @@
   },
   "sandStream": {
     "name": "Sand Stream",
-    "description": "O Pokémon provoca uma tempestade de areia que dura 5 turnos ao entrar em uma batalha."
+    "description": "Convoca uma tempestade de areia por 5 turnos quando o Pokémon entra em uma batalha. Os Pokémon do tipo Pedra têm sua Defesa Especial aumentada em 50%. Pokémon que não sejam dos tipos Pedra, Terra ou Aço sofrerão dano igual a ¹⁄₁₆ de seus PS máximos no final de cada turno."
   },
   "pressure": {
     "name": "Pressure",
@@ -197,7 +197,7 @@
   },
   "runAway": {
     "name": "Run Away",
-    "description": "Torna a fuga de encontros com Pokémon selvagem garantida."
+    "description": "Permite uma fuga garantida dos Pokémon selvagens, além de ignorar qualquer efeito que normalmente impediria o Pokémon de ser trocado."
   },
   "keenEye": {
     "name": "Keen Eye",
@@ -277,7 +277,7 @@
   },
   "drought": {
     "name": "Drought",
-    "description": "Intensifica a luz solar por 5 turnos quando o Pokémon entra em batalha."
+    "description": "Convoca um sol forte por 5 turnos quando o Pokémon entra em uma batalha. Aumenta o poder dos ataques do tipo Fogo em 50% e reduz pela metade o dano dos ataques do tipo Água."
   },
   "arenaTrap": {
     "name": "Arena Trap",
@@ -465,7 +465,7 @@
   },
   "snowWarning": {
     "name": "Snow Warning",
-    "description": "O Pokémon conjura neve por 5 turnos quando entra em batalha."
+    "description": "Convoca neve por 5 turnos quando o Pokémon entra em uma batalha. Os Pokémon do tipo Gelo têm sua Defesa aumentada em 50%."
   },
   "honeyGather": {
     "name": "Honey Gather",
@@ -753,11 +753,11 @@
   },
   "primordialSea": {
     "name": "Primordial Sea",
-    "description": "O Pokémon muda o clima para neutralizar ataques do tipo Fogo."
+    "description": "O Pokémon altera as condições climáticas para neutralizar os ataques do tipo Fogo e aumentar o dano dos movimentos do tipo Água em 50%."
   },
   "desolateLand": {
     "name": "Desolate Land",
-    "description": "O Pokémon muda o clima para neutralizar ataques do tipo Água."
+    "description": "O Pokémon altera o clima para neutralizar os ataques do tipo Água e aumentar o dano dos movimentos do tipo Fogo em 50%."
   },
   "deltaStream": {
     "name": "Delta Stream",
@@ -901,19 +901,19 @@
   },
   "electricSurge": {
     "name": "Electric Surge",
-    "description": "Transforma o solo em Terreno Elétrico por 5 turnos quando o Pokémon entra em uma batalha."
+    "description": "Transforma o solo em Terreno Elétrico por 5 turnos quando o Pokémon entra em uma batalha. Os Pokémon que estiverem no solo têm seus ataques do tipo Elétrico reforçados em 30% e não podem ser adormecidos."
   },
   "psychicSurge": {
     "name": "Psychic Surge",
-    "description": "Transforma o solo em Terreno Psíquico por 5 turnos quando o Pokémon entra em uma batalha."
+    "description": "Transforma o solo em Terreno Psíquico por 5 turnos quando o Pokémon entra em uma batalha. Os Pokémon no solo têm seus ataques do tipo Psíquico reforçados em 30% e não podem usar nem ser alvo de ataques com prioridade aumentada."
   },
   "mistySurge": {
     "name": "Misty Surge",
-    "description": "Transforma o solo em Terreno Ennevoado por 5 turnos quando o Pokémon entra em uma batalha."
+    "description": "Transforma o solo em Terreno Ennevoado por 5 turnos quando o Pokémon entra em uma batalha. Os Pokémon que estiverem no solo ficam protegidos contra condições de status e recebem metade do dano causado por ataques do tipo Dragão."
   },
   "grassySurge": {
     "name": "Grassy Surge",
-    "description": "Transforma o solo em Terreno de Plantas por 5 turnos quando o Pokémon entra em uma batalha."
+    "description": "Transforma o solo em Terreno de Plantas por 5 turnos quando o Pokémon entra em uma batalha. Os Pokémon que estiverem no solo têm seus ataques do tipo Planta reforçados em 30% e recuperam ¹⁄₁₆ de seus PS máximos no final de cada turno."
   },
   "fullMetalBody": {
     "name": "Full Metal Body",
@@ -977,7 +977,7 @@
   },
   "sandSpit": {
     "name": "Sand Spit",
-    "description": "Conjura uma tempestade de areia por 5 turnos quando o Pokémon sofre dano de golpes."
+    "description": "Convoca uma tempestade de areia por 5 turnos quando o Pokémon sofre dano de ataques. Os Pokémon que não sejam dos tipos Pedra, Terrestre ou Aço sofrem dano equivalente a ¹⁄₁₆ de seus PS máximos no final de cada turno. Isso também aumenta a Defesa Especial dos tipos Pedra em 50%."
   },
   "iceScales": {
     "name": "Ice Scales",
@@ -1009,7 +1009,7 @@
   },
   "perishBody": {
     "name": "Perish Body",
-    "description": "Quando for atingido por um ataque que cause contato direto, tanto o Pokémon quanto o atacante desmaiarão após três turnos, a não ser que recuem da batalha."
+    "description": "Quando o Pokémon é atingido por um ataque de contato, tanto ele quanto o atacante desmaiam após três turnos, a menos que sejam substituídos na batalha. Os Pokémon chefes são imunes a esse efeito."
   },
   "wanderingSpirit": {
     "name": "Wandering Spirit",
@@ -1021,7 +1021,7 @@
   },
   "neutralizingGas": {
     "name": "Neutralizing Gas",
-    "description": "Enquanto o Pokémon estiver na batalha, os efeitos de todas as outras habilidades dos Pokémon serão anulados ou não serão ativados."
+    "description": "Enquanto o Pokémon estiver na batalha, os efeitos de todas as outras Habilidades e Passivas dos Pokémon serão anulados ou não serão acionados."
   },
   "pastelVeil": {
     "name": "Pastel Veil",
@@ -1073,7 +1073,7 @@
   },
   "seedSower": {
     "name": "Seed Sower",
-    "description": "Transforma o solo em Terreno de Plantas por 5 turnos quando o Pokémon sofre dano de ataques."
+    "description": "Transforma o solo em Terreno de Plantas por 5 turnos quando o Pokémon sofre dano de ataques. Os Pokémon que estiverem no solo têm seus ataques do tipo Planta reforçados em 30% e recuperam ¹⁄₁₆ de seus PS máximos no final de cada turno."
   },
   "thermalExchange": {
     "name": "Thermal Exchange",
@@ -1149,11 +1149,11 @@
   },
   "orichalcumPulse": {
     "name": "Orichalcum Pulse",
-    "description": "Torna a luz solar intensa por 5 tutnos quando o Pokémon entra em uma batalha. O pulso ancestral que vibra através do Pokémon também aumenta seu atributo de Ataque em 33% sob luz solar intensa."
+    "description": "Ao entrar em uma batalha, invoca luz solar intensa por 5 turnos, o que aumenta o poder dos ataques do tipo Fogo em 50% e reduz pela metade o poder dos ataques do tipo Água. O pulso ancestral que percorre o Pokémon também aumenta seu atributo de Ataque em 33% sob luz solar intensa."
   },
   "hadronEngine": {
     "name": "Hadron Engine",
-    "description": "Transforma o solo em Terreno Elétrico por 5 turnos quando o Pokémon entra em batalha. O motor futurista dentro do Pokémon também aumenta seu atributo de Atq. Esp. em 33% no Terreno Elétrico."
+    "description": "Ao entrar em uma batalha, transforma o solo em Terreno Elétrico por 5 turnos, o que aumenta em 30% a potência dos ataques do tipo Elétrico dos Pokémon que estão no solo e impede que eles adormeçam. O motor futurista dentro do Pokémon também aumenta seu Ataque Especial em 33% no Terreno Elétrico."
   },
   "opportunist": {
     "name": "Opportunist",
@@ -1177,7 +1177,7 @@
   },
   "toxicDebris": {
     "name": "Toxic Debris",
-    "description": "Espalha espinhos venenosos aos pés da equipe adversária quando o Pokémon sofre dano de movimentos físicos."
+    "description": "Espalha espinhos venenosos aos pés do time adversário quando o Pokémon sofre dano de ataques físicos. Os Pokémon adversários que pisarem nesses espinhos ao entrarem na batalha serão envenenados. Uma segunda camada de espinhos, por sua vez, causará envenenamento grave. Os Pokémon do tipo Venenoso que pisarem nesses espinhos os absorverão e os removerão do campo."
   },
   "armorTail": {
     "name": "Armor Tail",
@@ -1262,5 +1262,9 @@
   "spicySpray": {
     "name": "Spicy Spray",
     "description": "Quando o Pokémon sofre dano causado por um ataque, ele queima o atacante."
+  },
+  "auraGuard": {
+    "name": "Aura Guard",
+    "description": "Reduz pela metade o dano recebido de golpes que causam contato direto."
   }
 }

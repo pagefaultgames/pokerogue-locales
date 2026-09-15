@@ -5,7 +5,7 @@
   },
   "drizzle": {
     "name": "Crachin",
-    "description": "Quand le Pokémon arrive sur le terrain, il invoque la pluie pendant 5 tours."
+    "description": "Quand le Pokémon arrive sur le terrain, il invoque la pluie pendant 5 tours. Les dégâts des capacités de type Eau sont multipliés par 1,5 et réduits de moitié pour les capacités de type Feu."
   },
   "speedBoost": {
     "name": "Turbo",
@@ -105,7 +105,7 @@
   },
   "effectSpore": {
     "name": "Pose Spore",
-    "description": "A 30% de chance de paralyser, empoisonner ou endormir l’attaquant lorsque le Pokémon subit une attaque directe."
+    "description": "A 30% de chance de paralyser, empoisonner ou endormir l’attaquant lorsque le Pokémon subit une attaque directe. N’affecte pas les Pokémon de type Plante."
   },
   "synchronize": {
     "name": "Synchro",
@@ -136,8 +136,8 @@
     "description": "Quand le soleil brille, la Vitesse du Pokémon est multipliée par 2."
   },
   "illuminate": {
-    "name": "Lumiattirance",
-    "description": "Le Pokémon ignore les changements d’Esquive des adversaires, et sa Précision ne peut pas baisser. Augmente également la probabilité des combats duo."
+    "name": "Luminescence",
+    "description": "Le Pokémon ignore les changements d’Esquive des adversaires, et sa Précision ne peut pas baisser. Augmente également la probabilité des combats duo lorsque ce Pokémon est sur le terrain."
   },
   "trace": {
     "name": "Calque",
@@ -177,7 +177,7 @@
   },
   "sandStream": {
     "name": "Sable Volant",
-    "description": "Quand le Pokémon arrive sur le terrain, il invoque une tempête de sable pendant 5 tours."
+    "description": "Quand le Pokémon arrive sur le terrain, il invoque une tempête de sable pendant 5 tours. Tous les Pokémon, sauf ceux de type Roche, Sol ou Acier, subissent des dégâts équivalents à 1/16 de leurs PV max à la fin de chaque tour. De plus, la Défense Spéciale des Pokémon de type Roche est multipliée par 1,5."
   },
   "pressure": {
     "name": "Pression",
@@ -197,7 +197,7 @@
   },
   "runAway": {
     "name": "Fuite",
-    "description": "Permet de fuir n’importe quel Pokémon sauvage."
+    "description": "Permet de fuir n’importe quel Pokémon sauvage, même si des effets l’en empêchent."
   },
   "keenEye": {
     "name": "Regard Vif",
@@ -277,11 +277,11 @@
   },
   "drought": {
     "name": "Sècheresse",
-    "description": "Quand le Pokémon arrive sur le terrain, il invoque le soleil pendant 5 tours."
+    "description": "Quand le Pokémon arrive sur le terrain, il invoque le soleil pendant 5 tours. Les dégâts des capacités de type Feu sont multipliés par 1,5 et réduits de moitié pour les capacités de type Eau."
   },
   "arenaTrap": {
     "name": "Piège Sable",
-    "description": "Empêche l’adversaire de quitter le terrain. Augmente également la probabilité de combats duo si le Pokémon est en tête d’équipe."
+    "description": "Empêche l’adversaire de quitter le terrain. Augmente également la probabilité de combats duo lorsque ce Pokémon est sur le terrain."
   },
   "vitalSpirit": {
     "name": "Esprit Vital",
@@ -381,7 +381,7 @@
   },
   "normalize": {
     "name": "Normalise",
-    "description": "Toutes les capacités du Pokémon deviennent de type Normal, quel que soit leur type original. Leur puissance augmente de 20%."
+    "description": "Toutes les capacités du Pokémon deviennent de type Normal, quel que soit leur type original. Leur puissance est multipliée par 1,2."
   },
   "sniper": {
     "name": "Sniper",
@@ -393,7 +393,7 @@
   },
   "noGuard": {
     "name": "Annule Garde",
-    "description": "La Précision des capacités du Pokémon et des capacités qui ciblent le Pokémon passe à 100 %. Augmente également la probabilité de combats duo si le Pokémon est en tête d’équipe."
+    "description": "La Précision des capacités du Pokémon et des capacités qui ciblent le Pokémon passe à 100 %. Augmente également la probabilité de combats duo lorsque ce Pokémon est sur le terrain."
   },
   "stall": {
     "name": "Frein",
@@ -465,7 +465,7 @@
   },
   "snowWarning": {
     "name": "Alerte Neige",
-    "description": "Quand le Pokémon arrive sur le terrain, il invoque la neige pendant 5 tours."
+    "description": "Quand le Pokémon arrive sur le terrain, il invoque la neige pendant 5 tours. La Défense des Pokémon de type Glace est multipliée par 1,5."
   },
   "honeyGather": {
     "name": "Cherche Miel",
@@ -485,7 +485,7 @@
   },
   "flowerGift": {
     "name": "Don Floral",
-    "description": "Augmente de 50% l’Attaque et la Défense Spéciale du Pokémon et de ses alliés proches lorsque le soleil brille."
+    "description": "L’Attaque et la Défense Spéciale du Pokémon et de ses alliés proches est multipliée par 1,5 lorsque le soleil brille."
   },
   "badDreams": {
     "name": "Mauvais Rêve",
@@ -545,11 +545,11 @@
   },
   "toxicBoost": {
     "name": "Rage Poison",
-    "description": "Augmente de 50% la puissance des capacités physiques quand le Pokémon est empoisonné."
+    "description": "Lorsque le Pokémon est empoisonné ou gravement empoisonné, la puissance de ses capacités physiques est multipliée par 1,5."
   },
   "flareBoost": {
     "name": "Rage Brulure",
-    "description": "Augmente de 50% la puissance des capacités spéciales quand le Pokémon est brulé."
+    "description": "Quand le Pokémon est brulé, la puissance de ses capacités spéciales est multipliée par 1,5."
   },
   "harvest": {
     "name": "Récolte",
@@ -585,7 +585,7 @@
   },
   "wonderSkin": {
     "name": "Peau Miracle",
-    "description": "Diminue de 50% la Précision des capacités de statut de l’attaquant."
+    "description": "Diminue de 50% la Précision des capacités de statut visant ce Pokémon."
   },
   "analytic": {
     "name": "Analyste",
@@ -637,7 +637,7 @@
   },
   "ironBarbs": {
     "name": "Épine de Fer",
-    "description": "Lorsque le Pokémon subit une attaque directe, l’attaquant se blesse et perd 12,5% de ses PV max."
+    "description": "Lorsque le Pokémon subit une attaque directe, l’attaquant se blesse et perd 1/8 de ses PV max."
   },
   "zenMode": {
     "name": "Mode Transe",
@@ -645,7 +645,7 @@
   },
   "victoryStar": {
     "name": "Victorieux",
-    "description": "Augmente de 10 % la Précision du Pokémon et de ses alliés proches."
+    "description": "La Précision du Pokémon et de ses alliés proches est multipliée par 1,1."
   },
   "turboblaze": {
     "name": "Turbo Brasier",
@@ -713,7 +713,7 @@
   },
   "grassPelt": {
     "name": "Toison Herbue",
-    "description": "Augmente de 50% la Défense du Pokémon si un champ herbu est actif."
+    "description": "Quand un champ herbu est actif, la Défense du Pokémon est multipliée par 1,5."
   },
   "symbiosis": {
     "name": "Symbiose",
@@ -749,15 +749,15 @@
   },
   "auraBreak": {
     "name": "Aura Inversée",
-    "description": "Inverse l’effet des talents « Aura » afin que ceux-ci baissent de 25% la puissance des capacités affectées au lieu de l’augmenter."
+    "description": "Inverse l’effet des talents « Aura » afin que ceux-ci multiplient la puissance des capacités affectées par 0,75 au lieu de 1,33."
   },
   "primordialSea": {
     "name": "Mer Primaire",
-    "description": "Altère les conditions météo pour neutraliser les attaques de type Feu."
+    "description": "Altère les conditions météo pour neutraliser les attaques de type Feu. Les dégâts des capacités de type Eau sont multipliés par 1,5."
   },
   "desolateLand": {
     "name": "Terre Finale",
-    "description": "Altère les conditions météo pour neutraliser les attaques de type Eau."
+    "description": "Altère les conditions météo pour neutraliser les attaques de type Eau. Les dégâts des capacités de type Feu sont multipliés par 1,5."
   },
   "deltaStream": {
     "name": "Souffle Delta",
@@ -785,7 +785,7 @@
   },
   "shieldsDown": {
     "name": "Bouclier-Carcan",
-    "description": "Lorsque le Pokémon perd la moitié de ses PV, son enveloppe se brise et il adopte une posture offensive."
+    "description": "L’enveloppe du Pokémon le protège des altérations de statut. Lorsqu’il perd la moitié de ses PV, son enveloppe se brise et il adopte une posture offensive."
   },
   "stakeout": {
     "name": "Filature",
@@ -797,7 +797,7 @@
   },
   "steelworker": {
     "name": "Expert Acier",
-    "description": "Augmente de 50% la puissance des attaques de type Acier."
+    "description": "La puissance des attaques de type Acier est multipliée par 1,5."
   },
   "berserk": {
     "name": "Folle Furie",
@@ -821,7 +821,7 @@
   },
   "galvanize": {
     "name": "Peau Électrique",
-    "description": "Les capacités de type Normal deviennent de type Électrik. Leur puissance augmente de 20%."
+    "description": "Les capacités de type Normal deviennent de type Électrik et leur puissance est multipliée par 1,2."
   },
   "surgeSurfer": {
     "name": "Surf Caudal",
@@ -829,7 +829,7 @@
   },
   "schooling": {
     "name": "Banc",
-    "description": "Le Pokémon se rassemble avec ses congénères quand il atteint le N. 20. Quand il ne lui reste que 25% de ses PV max ou moins, le banc se disperse."
+    "description": "Le Pokémon se rassemble avec ses congénères quand il atteint le N. 20. Quand il ne lui reste que 1/4 de ses PV max ou moins, le banc se disperse."
   },
   "disguise": {
     "name": "Fantômasque",
@@ -865,7 +865,7 @@
   },
   "battery": {
     "name": "Batterie",
-    "description": "Augmente de 30 % la puissance des capacités spéciales des alliés."
+    "description": "La puissance des capacités spéciales des alliés est multipliée par 1,3."
   },
   "fluffy": {
     "name": "Boule de Poils",
@@ -901,19 +901,19 @@
   },
   "electricSurge": {
     "name": "Créa-Élec",
-    "description": "Le Pokémon crée un champ électrifié au moment où il entre au combat."
+    "description": "Quand le Pokémon arrive sur le terrain, il crée un champ électrifié sur tout le terrain pendant 5 tours. Les Pokémon au sol voient la puissance de leurs capacités de type Électrik multipliée par 1,3 et ne peuvent pas s’endormir."
   },
   "psychicSurge": {
     "name": "Créa-Psy",
-    "description": "Le Pokémon crée un champ psychique au moment où il entre au combat."
+    "description": "Quand le Pokémon arrive sur le terrain, il crée un champ psychique sur tout le terrain pendant 5 tours. Les Pokémon au sol voient la puissance de leurs capacités de type Psy multipliée par 1,3 et sont immunisés contre les capacités prioritaires."
   },
   "mistySurge": {
     "name": "Créa-Brume",
-    "description": "Le Pokémon crée un champ brumeux au moment où il entre au combat."
+    "description": "Quand le Pokémon arrive sur le terrain, il crée un champ brumeux sur tout le terrain pendant 5 tours. Les Pokémon au sol voient les dégâts des capacités de type Dragon qu’ils subissent réduits de moitié et ne peuvent ni subir d’altérations de statut, ni devenir confus."
   },
   "grassySurge": {
     "name": "Créa-Herbe",
-    "description": "Le Pokémon crée un champ herbu au moment où il entre au combat."
+    "description": "Quand le Pokémon arrive sur le terrain, il crée un champ herbu sur tout le terrain pendant 5 tours. Les Pokémon au sol voient la puissance de leurs capacités de type Plante est multipliée par 1,3 et récupèrent 1/16 de leurs PV max à la fin de chaque tour."
   },
   "fullMetalBody": {
     "name": "Métallo-Garde",
@@ -925,11 +925,11 @@
   },
   "prismArmor": {
     "name": "Prisme-Armure",
-    "description": "Diminue de 25% la puissance des attaques super efficaces subies. L’effet ne peut pas être ignoré par les autres capacités ou talents."
+    "description": "Le Pokémon ne subit que 3/4 des dégâts des capacités super efficaces. L’effet ne peut pas être ignoré par les autres capacités ou talents."
   },
   "neuroforce": {
     "name": "Cérébro-Force",
-    "description": "Augmente de 25% la puissance des attaques super efficaces."
+    "description": "La puissance des attaques super efficaces est multipliée par 1,25."
   },
   "intrepidSword": {
     "name": "Lame Indomptable",
@@ -961,7 +961,7 @@
   },
   "gulpMissile": {
     "name": "Dégobage",
-    "description": "Quand le Pokémon utilise Surf ou Plongée, il revient avec une proie. Lorsqu’il subit des dégâts par la suite, il attaque en recrachant sa proie et fait perdre à la cible 25% de ses PV max. Peut également baisser sa Défense ou la paralyser en fonction de la proie recrachée."
+    "description": "Quand le Pokémon utilise Surf ou Plongée, il revient avec une proie. Lorsqu’il subit des dégâts par la suite, il attaque en recrachant sa proie et fait perdre à la cible 1/4 de ses PV max. Peut également baisser sa Défense ou la paralyser en fonction de la proie recrachée."
   },
   "stalwart": {
     "name": "Nerfs d’Acier",
@@ -973,11 +973,11 @@
   },
   "punkRock": {
     "name": "Punk Rock",
-    "description": "Augmente de 30% la puissance des capacités basées sur le son. Le Pokémon ne subit que la moitié des dégâts quand il est touché par ce genre de capacités."
+    "description": "La puissance des capacités basées sur le son est multipliée par 1,3. Le Pokémon ne subit que la moitié des dégâts quand il est touché par ce genre de capacités."
   },
   "sandSpit": {
     "name": "Expul’Sable",
-    "description": "Quand le Pokémon subit des dégâts d’une capacité, il invoque une tempête de sable pendant 5 tours."
+    "description": "Quand le Pokémon subit des dégâts d’une capacité, il invoque une tempête de sable pendant 5 tours. Tous les Pokémon, sauf ceux de type Roche, Sol ou Acier, subissent des dégâts équivalents à 1/16 de leurs PV max à la fin de chaque tour. La Défense Spéciale des Pokémon de type Roche est multipliée par 1,5."
   },
   "iceScales": {
     "name": "Écailles Glacées",
@@ -993,7 +993,7 @@
   },
   "powerSpot": {
     "name": "Cercle d’Énergie",
-    "description": "Augmente de 30 % la puissance des capacités des alliés proches."
+    "description": "La puissance des capacités des alliés proches est multipliée par 1,3."
   },
   "mimicry": {
     "name": "Mimétisme",
@@ -1005,11 +1005,11 @@
   },
   "steelySpirit": {
     "name": "Boost Acier",
-    "description": "Augmente de 50 % la puissance des attaques de type Acier du Pokémon et de ses alliés proches."
+    "description": "La puissance des attaques de type Acier du Pokémon et de ses alliés proches est multipliée par 1,5."
   },
   "perishBody": {
     "name": "Corps Condamné",
-    "description": "Lorsque le Pokémon est directement touché par une capacité, l’assaillant et lui tomberont K.O. dans trois tours, à moins qu’ils ne soient remplacés entre temps."
+    "description": "Lorsque le Pokémon est directement touché par une capacité, l’assaillant et lui tomberont K.O. dans trois tours, à moins qu’ils ne soient remplacés entre temps. Les Pokémon Boss y sont immunisés."
   },
   "wanderingSpirit": {
     "name": "Âme Vagabonde",
@@ -1021,7 +1021,7 @@
   },
   "neutralizingGas": {
     "name": "Gaz Inhibiteur",
-    "description": "Si un Pokémon avec Gaz Inhibiteur est sur le terrain, les effets des talents de tous les autres Pokémon ne s’activent pas ou sont neutralisés."
+    "description": "Si un Pokémon avec Gaz Inhibiteur est sur le terrain, les effets des talents et des passifs de tous les autres Pokémon ne s’activent pas ou sont neutralisés."
   },
   "pastelVeil": {
     "name": "Voile Pastel",
@@ -1045,11 +1045,11 @@
   },
   "transistor": {
     "name": "Transistor",
-    "description": "Augmente de 30% la puissance des capacités de type Électrik."
+    "description": "La puissance des capacités de type Électrik est multipliée par 1,3."
   },
   "dragonsMaw": {
     "name": "Dent de Dragon",
-    "description": "Augmente de 50% la puissance des capacités de type Dragon."
+    "description": "La puissance des capacités de type Dragon est multipliée par 1,5."
   },
   "chillingNeigh": {
     "name": "Blanche Ruade",
@@ -1073,7 +1073,7 @@
   },
   "seedSower": {
     "name": "Semencier",
-    "description": "Le Pokémon crée un champ herbu quand il subit une attaque."
+    "description": "Quand le Pokémon subit des dégâts d’une capacité, il crée un champ herbu sur tout le terrain pendant 5 tours. Les Pokémon au sol voient la puissance de leurs capacités de type Plante est multipliée par 1,3 et récupèrent 1/16 de leurs PV max à la fin de chaque tour."
   },
   "thermalExchange": {
     "name": "Thermodynamique",
@@ -1101,7 +1101,7 @@
   },
   "rockyPayload": {
     "name": "Porte-Roche",
-    "description": "Augmente de 50% la puissance des capacités de type Roche."
+    "description": "La puissance des capacités de type Roche est multipliée par 1,5."
   },
   "windPower": {
     "name": "Turbine Éolienne",
@@ -1113,7 +1113,7 @@
   },
   "commander": {
     "name": "Commandant",
-    "description": "Si un Oyacata allié est sur le terrain, ce Pokémon entre dans sa bouche et devient son commandant, ce qui augmente beaucoup ses stats. Augmente également la probabilité de combats duo si le Pokémon est en tête d’équipe."
+    "description": "Si un Oyacata allié est sur le terrain, ce Pokémon entre dans sa bouche et devient son commandant, ce qui augmente beaucoup ses stats. Augmente également la probabilité de combats duo lorsque ce Pokémon est sur le terrain."
   },
   "electromorphosis": {
     "name": "Grecharge",
@@ -1121,11 +1121,11 @@
   },
   "protosynthesis": {
     "name": "Paléosynthèse",
-    "description": "Quand le soleil brille, la stat la plus élevée du Pokémon augmente de 30%, ou de 50% si sa Vitesse est la stat la plus élevée."
+    "description": "Quand le soleil brille, la stat la plus élevée du Pokémon est multipliée par 1,3, ou 1,5 si sa Vitesse est la stat la plus élevée."
   },
   "quarkDrive": {
     "name": "Charge Quantique",
-    "description": "Quand un champ électrifié est actif, la stat la plus élevée du Pokémon augmente de 30%, ou de 50% si sa Vitesse est la stat la plus élevée."
+    "description": "Quand un champ électrifié est actif, la stat la plus élevée du Pokémon est multipliée par 1,3, ou 1,5 si sa Vitesse est la stat la plus élevée."
   },
   "goodAsGold": {
     "name": "Corps en Or",
@@ -1149,11 +1149,11 @@
   },
   "orichalcumPulse": {
     "name": "Pouls Orichalque",
-    "description": "Le Pokémon invoque le soleil quand il rejoint le combat. Quand les rayons du soleil sont intenses, une pulsation primitive augmente son Attaque d’un tiers."
+    "description": "Quand le Pokémon arrive sur le terrain, il invoque le soleil pendant 5 tours. Les Pokémon au sol voient la puissance de leurs capacités de type Feu multipliée par 1,3 et les dégâts des capacités de type Eau sont réduits de moitié. Le pouls ancestral du Pokémon multiplie par 1,33 son Attaque quand le soleil brille."
   },
   "hadronEngine": {
     "name": "Moteur à Hadrons",
-    "description": "Le Pokémon crée un champ électrifié quand il rejoint le combat. Une machine du futur fait monter son Attaque Spéciale d’un tiers si un champ électrifié est actif."
+    "description": "Quand le Pokémon arrive sur le terrain, il crée un champ électrifié sur tout le terrain pendant 5 tours. Les Pokémon au sol voient la puissance de leurs capacités de type Électrik multipliée par 1,3 et ne peuvent pas s’endormir. Le moteur futuriste du Pokémon multiplie par 1,33 son Attaque Spéciale sur le champ électrifié."
   },
   "opportunist": {
     "name": "Opportuniste",
@@ -1177,7 +1177,7 @@
   },
   "toxicDebris": {
     "name": "Dépôt Toxique",
-    "description": "Quand le Pokémon subit les dégâts d’une capacité physique, il répand des pics toxiques sur le côté adverse."
+    "description": "Quand le Pokémon subit les dégâts d’une capacité physique, il répand des pics toxiques sur le côté adverse empoisonnant les Pokémon entrant sur le terrain. Une seconde rangée de pics inflige un poison grave. Si un Pokémon de type Poison arrive en combat et fait contact avec ces pics, il les dissipe en les absorbant."
   },
   "armorTail": {
     "name": "Armure Caudale",
@@ -1262,5 +1262,9 @@
   "spicySpray": {
     "name": "Habanéruption",
     "description": "Quand le Pokémon subit des dégâts d’une capacité, il brule l’adversaire."
+  },
+  "auraGuard": {
+    "name": "Aura Protectrice",
+    "description": "Les dégâts des capacités à contact subis par le Pokémon sont réduits de moitié."
   }
 }
