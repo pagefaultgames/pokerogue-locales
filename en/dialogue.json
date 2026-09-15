@@ -125,6 +125,30 @@
       "3": "I’m just sharpening my hooks for the comeback!"
     }
   },
+    "backers": {
+    "encounter": {
+      "1": "Boom-boom-badum! Ha! Boom-boom-badum! Listen to the fans' drumbeat!",
+      "2": "Oh! Athletes are looking over this way!$Let's have a battle to impress them.",
+      "3": "If we win in a Pokémon battle, cheer for our team!"
+    },
+    "victory": {
+      "1": "Thank you for listening to the beat of our spirit!",
+      "2": "Agghhh! We showed them an embarrassing scene.",
+      "3": "We lost, so we will cheer for you!$Hurray! Hurray! Go you go! Hustle! Hustle! Go you go!"
+    }
+  },
+    "backers_female": {
+    "encounter": {
+      "1": "Boom-boom-badum! Ha! Boom-boom-badum! Listen to the fans' drumbeat!",
+      "2": "Olé, olé, oléeee! This is the fan song I wrote!$The Pokémon listening to this song try harder than usual!",
+      "3": "The way the athletes scramble for that ball...$I wish they'd fight over me that way!!"
+    },
+    "victory": {
+      "1": "Thank you for listening to the beat of our spirit!",
+      "2": "Olé, olé... Huh? It's over.",
+      "3": "Meanwhile, from the ball's point of view, it's like, please don't fight over me!"
+    }
+  },
   "swimmer": {
     "encounter": {
       "1": "Time to dive in!",
@@ -177,9 +201,13 @@
   "parasolLady": {
     "encounter": {
       "1": "Time to grace the battlefield with elegance and poise!"
+      "2": "My boyfriend left me on a rainy day. So I will take it out on you.",
+      "3": "I won't be a Parasol Lady without a parasol, so I must use it.",
     },
     "victory": {
       "1": "My elegance remains unbroken!"
+      "2": "They say rainy days never stay, but will the rain in my heart ever stop?",
+      "3": "My parasol... My parasol is broken! I will be just a Lady.",
     }
   },
   "twins": {
@@ -218,38 +246,48 @@
       "1": "I praise your courage in challenging me! For I am the one with the strongest kick!",
       "2": "Oh, I see. Would you like to be cut to pieces? Or do you prefer the role of punching bag?",
       "2_female": "Oh, I see. Would you like to be cut to pieces? Or do you prefer the role of punching bag?"
+      "3":"'Suuup! I'll give it all I've got! Let's do our best!!"
     },
     "victory": {
       "1": "Oh. The Pokémon did the fighting. My strong kick didn’t help a bit.",
       "2": "Hmmm… If I was going to lose anyway, I was hoping to get totally messed up in the process."
+      "3": "'Suuuuup! Good work. I tried everything I could, but I'm disappointed."
     }
   },
   "battleGirl": {
     "encounter": {
       "1": "You don’t have to try to impress me. You can lose against me."
+      "2": "Are you ready? I'll take the gloves off."
+      "3": "I would like to do the fighting instead of my Pokémon if I could."
     },
     "victory": {
       "1": "It’s hard to say good-bye, but we are running out of time…"
+      "2": "Aww... I cannot believe I lost! Who are you?!"
+      "3": "Ah, I tingle with excitement. I would like to fight..."
     }
   },
   "hiker": {
     "encounter": {
       "1": "My middle-age spread has given me as much gravitas as the mountains I hike!",
       "2": "I inherited this big-boned body from my parents… I’m like a living mountain range…"
+      "3": "I am the mountain range of your life! Cross me if you can!"
     },
     "victory": {
       "1": "At least I cannot lose when it comes to BMI!",
       "2": "It’s not enough… It’s never enough. My bad cholesterol isn’t high enough…"
+      "3": "Finally, someone has climbed the mountain! This is my summit!"
     }
   },
   "ranger": {
     "encounter": {
       "1": "When I am surrounded by nature, most other things cease to matter.",
       "2": "When I’m living without nature in my life, sometimes I’ll suddenly feel an anxiety attack coming on."
+      "3": "It's my mission to protect nature and all Pokémon living there!"
     },
     "victory": {
       "1": "It doesn’t matter to the vastness of nature whether I win or lose…",
       "2": "Something like this is pretty trivial compared to the stifling feelings of city life."
+      "3": "Protect Mother Nature! Otherwise, I will put you in jail!"
     },
     "defeat": {
       "1": "I won the battle. But victory is nothing compared to the vastness of nature…",
@@ -259,27 +297,37 @@
   "scientist": {
     "encounter": {
       "1": "My research will lead this world to peace and joy."
+      "2": "If you lose, I'll have you help me in my latest experiment!"
+      "3": "Why do people compete and fight? This is the subject of my research."
     },
     "victory": {
       "1": "I am a genius… I am not supposed to lose against someone like you…"
+      "2": "Pah. I was sooo close to signing you up as my new assistant."
+      "3": "If you lose, you may resent your opponent."
     }
   },
   "schoolKid": {
     "encounter": {
       "1": "…Heehee. I’m confident in my calculations and analysis.",
       "2": "I’m gaining as much experience as I can because I want to be a Gym Leader someday."
+      "3": "I am studying every single day... So I am taking a break for a change."
     },
     "victory": {
       "1": "Ohhhh… Calculation and analysis are perhaps no match for chance…",
       "2": "Even difficult, trying experiences have their purpose, I suppose."
+      "3": "Ah, my Pokémon lost... I may be better at studying."
     }
   },
   "artist": {
     "encounter": {
       "1": "I used to be popular, but now I am all washed up."
+      "2": "A child like you cannot understand the beauty that I am pursuing."
+      "3": "Well, well, you strike impressive poses. If you lose, I hope you'll model for me."
     },
     "victory": {
       "1": "As times change, values also change. I realized that too late."
+      "2": "I am a servant of beauty. Ugly defeat does not suit me."
+      "3": "Please wait. I can create a masterpiece if you are my model."
     }
   },
   "guitarist": {
@@ -375,26 +423,62 @@
   "beauty": {
     "encounter": {
       "1": "My last ever battle… That’s the way I’d like us to view this match…"
+      "2": "Adults have learned a lot of things kids don’t get. Like what is right...and what is fair..."
+      "3": "Being called a Beauty doesn’t excite me at all. It just seems like cheap flattery."
     },
     "victory": {
-      "1": "It’s been fun… Let’s have another last battle again someday…"
+      "1": "It’s been fun… Let’s have another last battle again someday…"    
+      "2": "Let me guess... You spend a lot of time blaming adults for things you think aren’t 'fair', don’t you?"
+      "3": "It’s just plain creepy when someone uses compliments to win your attention. Ugh!"
     }
   },
   "baker": {
     "encounter": {
       "1": "Hope you’re ready to taste defeat!",
       "1_female": "Hope you’re ready to taste defeat!"
+      "2": "My Pokémon are on the rise! I raised them with special yeast bread!"
+      "3": "As I bake bread, I will bake your Pokémon, too."
     },
     "victory": {
       "1": "I’ll bake a comeback."
+      "2": "You are strong. Are you eating my special bread?"
+      "3": "Ah, how frustrating and disappointing! You burned me with that last move..."
     }
   },
   "biker": {
     "encounter": {
       "1": "Time to rev up and leave you in the dust!"
+      "2": "I am no good at speaking... So my bike speaks..."
+      "3": "My partner has turned to dust, but his Pokémon is my Pokémon now."
     },
     "victory": {
       "1": "I’ll tune up for the next race."
+      "2": "Vroom! Vroom! Vroom! Vrooooooooom! Vroom!"
+      "3": "He was trash, but now he is eternal, like the stars in the sky... Ah, my partner!"
+    }
+  },
+  "birdKeeper": {
+    "encounter": {
+      "1": "I always go with bird Pokémon. I’ve dedicated myself to them."
+      "2": "When I whistle, I can summon bird Pokémon. Phwee~!"
+      "3": "I rode my bird Pokémon here."
+    },
+    "victory": {
+      "1": "I wish I could fly like Pidgey and Pidgeotto..."
+      "2": "Pheeew! That’s tragic!"
+      "3": "My bird Pokémon are exhausted. They can’t fly me back!"
+    }
+  },
+  "birdKeeperFemale": {
+    "encounter": {
+      "1": "Have you heard the legend of the winged mirages?"
+      "2": "I’m not fully feeling this atmosphere, but OK. Let’s go!"
+      "3": "Kurukkoo! How do you like my birdcall?"
+    },
+    "victory": {
+      "1": "Well, the winged mirages are the legendary bird Pokémon. $Guess there are a quite a few of them at this point..."
+      "2": "Winning, losing... It’s insignificant under this huge sky."
+      "3": "I should have stayed quiet."
     }
   },
   "firebreather": {
@@ -444,6 +528,18 @@
       "1": "I was obsessed with the golden prize, with my glittering ambition!",
       "2": "Oh, look at the time! I have to get back to work!",
       "3": "Everybody works for me, so I have nothing to do."
+    }
+  },
+  "collector": {
+    "encounter": {
+      "1": "I take down details in my notebook about Pokémon I’ve battled.$I’ll write more data down about your Pokémon!",
+      "2": "I’m a collector, and I’m proud of what I know about Pokémon.$Would you like me to test your knowledge?",
+      "3": "You look like you might just have the Pokémon I’ve been looking for!"
+    },
+    "victory": {
+      "1": "I’m proud of having a Pokémon that others don’t have.$Oh, and I’m also proud of winning the second prize on Jubilife TV’s daily drawings.",
+      "2": "I don’t like people who are more knowledgeable than me! Go away!",
+      "3": "I’m very picky, so I want to collect every Pokémon without anyone’s help.$...I do have friends, though. No, seriously! I do!"
     }
   },
   "hooligans": {
