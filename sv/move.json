@@ -304,16 +304,13 @@
     "effect": "Utföraren samlar först solljus, för att sedan skjuta motståndaren med en energistråle följande omgång. I starkt solsken skjuts strålen direkt. Kraften halveras i alla andra vädertillstånd. "
   },
   "poisonPowder": {
-    "name": "Giftpulver",
-    "effect": "Ett moln av giftiga partiklar som förgiftar motståndaren."
+    "name": "Giftpulver"
   },
   "stunSpore": {
-    "name": "Paralyspulver",
-    "effect": "Utföraren sprider ett moln av paralyserande pulver som förlamar motståndaren."
+    "name": "Paralyspulver"
   },
   "sleepPowder": {
-    "name": "Sömnpulver",
-    "effect": "Utföraren sprider sömnframkallande damm runt motståndaren som söver den."
+    "name": "Sömnpulver"
   },
   "petalDance": {
     "name": "Blombladsbalett",
@@ -340,12 +337,10 @@
     "effect": "En stark elektrisk stöt slår ner på motståndaren och skadar den. Detta har 10 % chans att förlama motståndaren."
   },
   "thunderWave": {
-    "name": "Åskvåg",
-    "effect": "En lätt våg av el förlamar motståndaren."
+    "name": "Åskvåg"
   },
   "thunder": {
-    "name": "Blixt",
-    "effect": "En kraftig blixt skadar motståndaren, med 30 % chans för förlamning. Den träffar alltid i regn. Den kan även träffa en motståndare som är i skyn p.g.a. Flyg, Studs eller Fritt fall."
+    "name": "Blixt"
   },
   "rockThrow": {
     "name": "Stenkast",
@@ -489,7 +484,7 @@
   },
   "smog": {
     "name": "Smog",
-    "effect": "Avfallsgaser avfyrar mot motståndaren för att skada den. Detta har 30 % chans att förgifta motståndaren."
+    "effect": "Avfallsgaser avfyrar mot motståndaren för att skada den. Detta har 40 % chans att förgifta motståndaren."
   },
   "sludge": {
     "name": "Slamskott",
@@ -584,8 +579,7 @@
     "effect": "Motståndaren slås med rytmiska knytnävsslag. 20 % chans att förvirra motståndaren."
   },
   "spore": {
-    "name": "Sömnsporer",
-    "effect": "Utföraren sprider sporer som framkallar sömn."
+    "name": "Sömnsporer"
   },
   "flash": {
     "name": "Bländande ljus",
@@ -652,8 +646,7 @@
     "effect": "Motståndaren skärs av svepande klor eller blad. Chansen för kritisk träff är +1."
   },
   "substitute": {
-    "name": "Bulvan",
-    "effect": "Utföraren skapar en bulvan för sig själv genom att offra ¼ av sin max. HP. Bulvanen tar motståndarnas attacker. Den försvinner när den tagit skada som är lika med HP:n som offrades."
+    "name": "Bulvan"
   },
   "struggle": {
     "name": "Desperation",
@@ -708,8 +701,7 @@
     "effect": "En stor tromb skjuts mot motståndaren och skadar den. Chansen för kritisk träff är +1."
   },
   "cottonSpore": {
-    "name": "Bomullssporer",
-    "effect": "Bomullsliknande sporer klamrar sig fast på motståndarna och sänker deras snabbhet skarpt."
+    "name": "Bomullssporer"
   },
   "reversal": {
     "name": "Revanschstöt",
@@ -801,7 +793,7 @@
   },
   "sandstorm": {
     "name": "Sandstorm",
-    "effect": "En sandstorm blåser under 5 omgångar. Alla i strid förutom sten-, jord- och ståltyper tar ¹⁄₁₆ av deras max. HP i skada varje omgångslut. Sp. fsv-förmågan hos stentyper ökas med 50 %."
+    "effect": "En sandstorm blåser under 5 omgångar. Alla i strid förutom sten-, jord- och ståltyper tar ¹⁄₁₆ av sina max. HP i skada varje omgångslut. Sp. fsv-förmågan hos stentyper ökas med 50 %."
   },
   "gigaDrain": {
     "name": "Giga-absorption",
@@ -828,8 +820,7 @@
     "effect": "Utföraren gör motståndaren så rasande att den blir förvirrad. Detta ökar dock också motståndarens attackförmåga skarpt."
   },
   "milkDrink": {
-    "name": "Mellanmjölk",
-    "effect": "Utföraren dricker näringsrik mjölk som återställer ½ av dess max. HP."
+    "name": "Mellanmjölk"
   },
   "spark": {
     "name": "Gnista",
@@ -1097,7 +1088,7 @@
   },
   "ingrain": {
     "name": "Rotfäste",
-    "effect": "Utföraren planterar sina rötter som helar dess HP varje omgång. Den blir fastrotad och kan inte fly eller bytas av."
+    "effect": "Utföraren planterar sina rötter som helar ¹⁄₁₆ av dess max. HP varje omgångslut. Den blir fastrotad och kan inte fly eller bytas av."
   },
   "superpower": {
     "name": "Tokstyrka",
@@ -1197,7 +1188,7 @@
   },
   "mudSport": {
     "name": "Smutskastning",
-    "effect": "Utföraren sparkar upp och kastar runt lera på stridsfältet. Detta försvagar alla elttyptekniker i 5 omgångar."
+    "effect": "Utföraren sparkar upp och kastar runt lera på stridsfältet. Detta försvagar alla elttyptekniker med 50 % i 5 omgångar."
   },
   "iceBall": {
     "name": "Isklot",
@@ -1381,7 +1372,7 @@
   },
   "waterSport": {
     "name": "Blötläggning",
-    "effect": "Utföraren dränker slagfältet med vatten. Detta försvagar eldtyptekniker i 5 omgångar."
+    "effect": "Utföraren dränker stridsfältet med vatten. Detta försvagar eldtyptekniker med 50 % i 5 omgångar."
   },
   "calmMind": {
     "name": "Sinnesro",
@@ -1557,7 +1548,7 @@
   },
   "toxicSpikes": {
     "name": "Giftanglar",
-    "effect": "Utföraren sprider giftiga fotanglar runt motståndarnas fötter. 1 lager förgiftar motståndare om byts in i strid; 2 lager orsakar svår förgiftning. Flygandetyper och de med Levitation påverkas ej. Gifttyper som landar på fotanglarna tar upp dem och slänger bort dem från stridsfältet."
+    "effect": "Utföraren sprider giftiga fotanglar runt motståndarnas fötter. 1 lager förgiftar motståndare som byts in i strid; 2 lager orsakar svår förgiftning. Flygandetyper och de med Levitation påverkas ej. Gifttyper som landar på fotanglarna tar upp dem och slänger bort dem från stridsfältet."
   },
   "heartSwap": {
     "name": "Energiöverföring",
@@ -1565,7 +1556,7 @@
   },
   "aquaRing": {
     "name": "Akvakrets",
-    "effect": "Utföraren täcks av en sfär gjord av vatten. Den återställer lite HP varje omgång."
+    "effect": "Utföraren täcks av en sfär gjord av vatten. Den återställer ¹⁄₁₆ av dess max. HP per omgångsslut."
   },
   "magnetRise": {
     "name": "Magnetsvävning",
@@ -1900,8 +1891,7 @@
     "effect": "Utföraren tappar en kroppsdel för att bli lättare och skarpt öka sin snabbhet."
   },
   "ragePowder": {
-    "name": "Irritationspulver",
-    "effect": "Utföraren sprider ett irriterande pulver som drar uppmärksamhet. Motståndarna siktar sedan tekniker endast mot utföraren tills den svimmar eller byts av."
+    "name": "Irritationspulver"
   },
   "telekinesis": {
     "name": "Telekinetiskt lyft",
@@ -2164,8 +2154,7 @@
     "effect": "Utföraren slår motståndaren med sin hårda svans. Den träffar motståndaren 2-5 gånger i rad."
   },
   "hurricane": {
-    "name": "Orkan",
-    "effect": "Utföraren sveper in motståndaren i en våldsam vind. 30 % chans att förvirra motståndaren. Missar aldrig i regn. Den kan även träffa en motståndare som är i skyn p.g.a. Flyg, Studs eller Fritt fall."
+    "name": "Orkan"
   },
   "headCharge": {
     "name": "Hårdhårsskalle",
@@ -2321,7 +2310,7 @@
   },
   "mistyTerrain": {
     "name": "Mistterräng",
-    "effect": "En Mistterräng som varar i 5 omgångar. Misten immuniserar alla pokémon på marken mot tillståndspåverkan (inkl. förvirring) och halverar skadan av draktyptekniker."
+    "effect": "En Mistterräng som varar i 5 omgångar. Misten immuniserar alla pokémon på marken mot tillståndspåverkan (inkl. förvirring). Kraften av deras draktyptekniker halveras också."
   },
   "electrify": {
     "name": "Elektrifiering",
@@ -2413,7 +2402,7 @@
   },
   "electricTerrain": {
     "name": "Elterräng",
-    "effect": "Utföraren elektrifierar marken i 5 omgångar, vilket ökar eltypteknikers kraft. Pokémon på marken kan inte somna under den tiden."
+    "effect": "En Elterräng som varar i 5 omgångar. Pokémon på marken kan inte somna under den tiden och deras eltypteknker ökar i kraft med 30 %."
   },
   "dazzlingGleam": {
     "name": "Trolsk lyster",
@@ -2709,7 +2698,7 @@
   },
   "psychicTerrain": {
     "name": "Psykoterräng",
-    "effect": "Detta skyddar pokémon på marken från prioritetstekniker och förstärker psykisktyptekniker i 5 omgångar."
+    "effect": "En Psykoterräng som varar i 5 omgångar. Pokémon på marken kan varken utföra eller träffas av prioritetstekniker. Deras psykisktyptekniker ökar i kraft med 30 %."
   },
   "lunge": {
     "name": "Påhopp",
@@ -2996,8 +2985,7 @@
     "effect": "Utföraren häller klibbig tjära över motståndaren, vilket sänker motståndarens snabbhet. Eldtyptekniker blir dubbelt så starka mot motståndaren."
   },
   "magicPowder": {
-    "name": "Trolleripulver",
-    "effect": "Utföraren sprider ett moln av magiskt pulver som ändrar motståndaren till enbart typen Psykisk."
+    "name": "Trolleripulver"
   },
   "dragonDarts": {
     "name": "Drakpilar",
@@ -3661,7 +3649,7 @@
   },
   "snowscape": {
     "name": "Snölandskap",
-    "effect": "Utföraren frammanar en snöstorm som varar i 5 omgångar. Den ökar försvarsförmågan hos istyper."
+    "effect": "Utföraren frammanar en snöstorm som varar i 5 omgångar. Den ökar försvarsförmågan hos istyper med 50 %."
   },
   "pounce": {
     "name": "Språng",

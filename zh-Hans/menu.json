@@ -46,7 +46,7 @@
   "score": "分数",
   "wave": "层数",
   "loading": "加载中…",
-  "loadingAsset": "加载资源： {{assetName}}",
+  "loadingAsset": "加载资源：{{assetName}}",
   "playersOnline": "在线玩家",
   "loggedInAs": "当前用户名：{{username}}",
   "yes": "是",
@@ -64,5 +64,11 @@
   "noSaves": "你没有任何记录文件！",
   "tooManySaves": "你的记录文件太多了！",
   "eventTimer": "活动截止：{{days}}天 {{hours}}时 {{mins}}分 {{secs}}秒",
-  "serverError": "发生了服务器错误。清稍后重试。"
+  "serverErrorGenerateSalt": "无法安全验证密码",
+  "serverErrorGenerateToken": "无法生成验证token",
+  "serverErrorAddSession": "无法创建会话",
+  "serverErrorGenerateUuid": "无法生成用户ID",
+  "serverErrorRemoveSessions": "无法更新当前会话",
+  "serverErrorUpdateAccount": "无法更新账号信息",
+  "pleaseTryAgainLater": "请稍后重试"
 }

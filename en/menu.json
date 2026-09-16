@@ -64,5 +64,11 @@
   "noSaves": "No save files on record!",
   "tooManySaves": "You have too many save files on record!",
   "eventTimer": "Event Ends in: {{days}}d {{hours}}h {{mins}}m {{secs}}s",
-  "serverError": "A server error occurred. Please try again later."
+  "serverErrorGenerateSalt": "Unable to process password securely.",
+  "serverErrorGenerateToken": "Unable to generate authentication token.",
+  "serverErrorAddSession": "Unable to create session.",
+  "serverErrorGenerateUuid": "Unable to generate user ID.",
+  "serverErrorRemoveSessions": "Unable to update active sessions.",
+  "serverErrorUpdateAccount": "Unable to update account information.",
+  "pleaseTryAgainLater": "Please try again later."
 }
