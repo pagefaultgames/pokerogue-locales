@@ -67,8 +67,21 @@
   "serverErrorGenerateSalt": "パスワードを 安全に 処理できません。",
   "serverErrorGenerateToken": "認証トークンが 生成できません。",
   "serverErrorAddSession": "セッションを 作成できません。",
-  "serverErrorGenerateUuid": "ーザーIDを生成できません。",
+  "serverErrorGenerateUuid": "ユーザーIDを生成できません。",
   "serverErrorRemoveSessions": "アクティブなセッションを更新できません。",
   "serverErrorUpdateAccount": "アカウント情報を更新できない。",
-  "pleaseTryAgainLater": "後でもう一度お試しください。"
+  "pleaseTryAgainLater": "後でもう一度お試しください。",
+  "resetPassword": "パスワード再設定",
+  "resetCode": "再設定コード",
+  "resetCodeFor": "{{username}}の再設定コード",
+  "noResetCode": "再設定コード入手不可能",
+  "resetCodeDescription": "このコードは パスワードの 再設定に 使用できます。",
+  "resetCodeWarning": "他人に 教えないでください。",
+  "usernameResetCodeMismatch": "入力された ユーザー名と コードが 一致しません。",
+  "resetCodeLoginDescription": "ユーザー名を 選択して コードを 表示・ 非表示\n他人に 教えないでください。",
+  "resetPasswordText": "再設定コードが ない場合は Discordで チケットを お送りください。",
+  "resetPasswordSuccess": "パスワードを再設定しました。新しいパスワードでログインしてください。\n使用した コードは 無効です。次回は ログイン後に 再取得してください。",
+  "show": "表示",
+  "hide": "非表示",
+  "close": "閉じる"
 }
