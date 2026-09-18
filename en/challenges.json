@@ -114,10 +114,15 @@
   },
   "movesetRandomizer": {
     "name": "Moveset Randomizer",
-    "desc": "Randomizes the level up moveset of each Pokémon species.\n\nDisables other challenges’ achievements.",
+    "desc": {
+      "0": "Randomizes the level up moveset of each Pokémon species. Optionally removes the move requirement for move-based evolutions.\n\nDisables other challenges’ achievements.",
+      "1": "Randomizes the level up moveset of each Pokémon species.\n\nDisables other challenges’ achievements.",
+      "2": "Randomizes the level up moveset of each Pokémon species. Move-based evolutions have their move requirement removed.\n\nDisables other challenges’ achievements."
+    },
     "value": {
       "0": "Off",
-      "1": "On"
+      "1": "On",
+      "2": "Lite"
     }
   },
   "abilityRandomizer": {
