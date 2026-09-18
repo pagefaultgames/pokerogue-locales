@@ -213,7 +213,7 @@
   },
   "mist": {
     "name": "Vitt dis",
-    "effect": "Utföraren döljer sig själv och den vid sin sida med vitt dis som förhindrar att deras förmågor sänks under 5 omgångar."
+    "effect": "Utföraren döljer sig själv och sin stridskamrat med vitt dis som förhindrar att deras förmågor sänks under 5 omgångar."
   },
   "waterGun": {
     "name": "Vattenpistol",
@@ -304,13 +304,16 @@
     "effect": "Utföraren samlar först solljus, för att sedan skjuta motståndaren med en energistråle följande omgång. I starkt solsken skjuts strålen direkt. Kraften halveras i alla andra vädertillstånd. "
   },
   "poisonPowder": {
-    "name": "Giftpulver"
+    "name": "Giftpulver",
+    "effect": "Ett moln av giftiga partiklar som förgiftar motståndaren. Grästyper påverkas inte."
   },
   "stunSpore": {
-    "name": "Paralyspulver"
+    "name": "Paralyspulver",
+    "effect": "Utföraren sprider ett moln av paralyserande pulver som förlamar motståndaren. Grästyper påverkas inte."
   },
   "sleepPowder": {
-    "name": "Sömnpulver"
+    "name": "Sömnpulver",
+    "effect": "Utföraren sprider sömnframkallande damm runt motståndaren som söver den. Grästyper påverkas inte."
   },
   "petalDance": {
     "name": "Blombladsbalett",
@@ -337,10 +340,12 @@
     "effect": "En stark elektrisk stöt slår ner på motståndaren och skadar den. Detta har 10 % chans att förlama motståndaren."
   },
   "thunderWave": {
-    "name": "Åskvåg"
+    "name": "Åskvåg",
+    "effect": "En lätt våg av el förlamar motståndaren. Jordtyper påverkas inte."
   },
   "thunder": {
-    "name": "Blixt"
+    "name": "Blixt",
+    "effect": "En kraftig blixt skadar motståndaren, med 30 % chans för förlamning. Den träffar alltid i regn. I starkt solsken är teknikens träffsäkerhet 50 %. Den kan även träffa en motståndare som är i skyn p.g.a. Flyg, Studs eller Fritt fall."
   },
   "rockThrow": {
     "name": "Stenkast",
@@ -579,7 +584,8 @@
     "effect": "Motståndaren slås med rytmiska knytnävsslag. 20 % chans att förvirra motståndaren."
   },
   "spore": {
-    "name": "Sömnsporer"
+    "name": "Sömnsporer",
+    "effect": "Utföraren sprider sporer som framkallar sömn. Grästyper påverkas inte."
   },
   "flash": {
     "name": "Bländande ljus",
@@ -646,7 +652,8 @@
     "effect": "Motståndaren skärs av svepande klor eller blad. Chansen för kritisk träff är +1."
   },
   "substitute": {
-    "name": "Bulvan"
+    "name": "Bulvan",
+    "effect": "Utföraren skapar en bulvan för sig själv genom att offra ¼ av sin max. HP. Bulvanen tar motståndarnas attacker. Den försvinner när den tagit skada som är lika med HP:n som offrades. Ljudbaserade tekniker träffar dock fortfarande utföraren."
   },
   "struggle": {
     "name": "Desperation",
@@ -701,7 +708,8 @@
     "effect": "En stor tromb skjuts mot motståndaren och skadar den. Chansen för kritisk träff är +1."
   },
   "cottonSpore": {
-    "name": "Bomullssporer"
+    "name": "Bomullssporer",
+    "effect": "Bomullsliknande sporer klamrar sig fast på motståndarna och sänker deras snabbhet skarpt. Grästyper påverkas inte."
   },
   "reversal": {
     "name": "Revanschstöt",
@@ -820,7 +828,8 @@
     "effect": "Utföraren gör motståndaren så rasande att den blir förvirrad. Detta ökar dock också motståndarens attackförmåga skarpt."
   },
   "milkDrink": {
-    "name": "Mellanmjölk"
+    "name": "Mellanmjölk",
+    "effect": "Utföraren dricker näringsrik mjölk som återställer ½ av max. HP:n hos utföraren eller dess stridskamrat."
   },
   "spark": {
     "name": "Gnista",
@@ -1068,7 +1077,7 @@
   },
   "helpingHand": {
     "name": "Hjälpande hand",
-    "effect": "Utföraren ökar kraften av tekniken som utförs av den vid utförarens sida med 50 %."
+    "effect": "Utföraren ökar kraften av tekniken som utförs av dess stridskamrat med 50 %."
   },
   "trick": {
     "name": "Trolleritrick",
@@ -1084,7 +1093,7 @@
   },
   "assist": {
     "name": "Schrödingers teknik",
-    "effect": "Utföraren utför en slumpmässig teknik från tekniklistan av lagmedlemmen vid sin sida i strid."
+    "effect": "Utföraren utför en slumpmässig teknik från dess stridskamrats tekniklista."
   },
   "ingrain": {
     "name": "Rotfäste",
@@ -1332,7 +1341,7 @@
   },
   "howl": {
     "name": "Yl",
-    "effect": "Utföraren ylar högt för att egga sig själv och den vid sin sida. Detta ökar deras attackförmåga."
+    "effect": "Utföraren ylar högt för att egga sig själv och sin stridskamrat. Detta ökar deras attackförmåga."
   },
   "dragonClaw": {
     "name": "Drakklo",
@@ -1452,11 +1461,11 @@
   },
   "tailwind": {
     "name": "Medvind",
-    "effect": "Utföraren piskar upp en turbulent vind som ökar snabbhet hos utföraren och den vid dess sida i 4 omgångar."
+    "effect": "Utföraren piskar upp en turbulent vind som ökar snabbhet hos utföraren och dess stridskamrat i 4 omgångar."
   },
   "acupressure": {
     "name": "Akupressur",
-    "effect": "Utföraren applicerar tryck på en kroppspunkt, vilket skarpt ökar en förmåga hos den eller den vid dess sida."
+    "effect": "Utföraren applicerar tryck på en kroppspunkt, vilket skarpt ökar en av förmågorna hos den eller dess stridskamrat."
   },
   "metalBurst": {
     "name": "Metallknall",
@@ -1864,7 +1873,7 @@
   },
   "wideGuard": {
     "name": "Bred sköld",
-    "effect": "Utföraren och den vid sin sida skyddas under 1 omgång från attacker som träffar hela utförarsidan."
+    "effect": "Utföraren och dess stridskamrat skyddas under 1 omgång från attacker som träffar hela utförarsidan."
   },
   "guardSplit": {
     "name": "Försvarsutjämning",
@@ -1911,7 +1920,7 @@
   },
   "flameBurst": {
     "name": "Sprakande flamma",
-    "effect": "Utföraren attackerar motståndaren med en exploderande låga. Den vid motståndarens sida tar ¹⁄₁₆ av sin max. HP i skada."
+    "effect": "Utföraren attackerar motståndaren med en exploderande låga. Motståndarens stridskamrat tar ¹⁄₁₆ av sin max. HP i skada."
   },
   "sludgeWave": {
     "name": "Slamvåg",
@@ -1991,11 +2000,11 @@
   },
   "quickGuard": {
     "name": "Priogard",
-    "effect": "Utföraren skyddar sig själv och den vid sin sida från prioritetstekniker."
+    "effect": "Utföraren skyddar sig själv och sin stridskamrat mot prioritetstekniker."
   },
   "allySwitch": {
     "name": "Positionsbyte",
-    "effect": "Utföraren teleporterar och byter plats med den vid sin sida i strid. Efter varje kontinuerligt utförande blir chansen att lyckas med tekniken bara ⅓ av chansen innan."
+    "effect": "Utföraren teleporterar och byter plats med sin stridskamrat. Efter varje kontinuerligt utförande blir chansen att lyckas med tekniken bara ⅓ av chansen innan."
   },
   "scald": {
     "name": "Skållvatten",
@@ -2230,7 +2239,7 @@
   },
   "matBlock": {
     "name": "Tatamisköld",
-    "effect": "Med en tatamimatta som sköld skyddar utföraren sig själv och den vid sin sida mot skadande tekniker. Den hindrar inte inverkanstekniker."
+    "effect": "Med en tatamimatta som sköld skyddar utföraren sig själv och sin stridskamrat mot skadande tekniker. Den hindrar inte inverkanstekniker."
   },
   "belch": {
     "name": "Rapning",
@@ -2298,7 +2307,7 @@
   },
   "craftyShield": {
     "name": "Lurisköld",
-    "effect": "Utföraren skyddar sig och den vid sin sida mot inverkanstekniker med en mystisk sköld. Detta stoppar inte skadande tekniker."
+    "effect": "Utföraren skyddar sig och sin stridskamrat mot inverkanstekniker med en mystisk sköld. Detta stoppar inte skadande tekniker."
   },
   "flowerShield": {
     "name": "Blomstersköld",
@@ -2374,7 +2383,7 @@
   },
   "aromaticMist": {
     "name": "Arommoln",
-    "effect": "Med en mystisk arom ökar utföraren sp. fsv-förmågan hos den vid sin sida."
+    "effect": "Med en mystisk arom ökar utföraren sp. fsv-förmågan hos sin stridskamrat."
   },
   "eerieImpulse": {
     "name": "Ovanlig impuls",
@@ -2414,7 +2423,7 @@
   },
   "holdHands": {
     "name": "Hand i hand",
-    "effect": "Utföraren och den vid sin sidas håller varandra i hand. De blir så glada så."
+    "effect": "Utföraren och dess stridskamrat håller varandra i hand. De blir så glada så."
   },
   "babyDollEyes": {
     "name": "Valpögon",
@@ -2682,7 +2691,7 @@
   },
   "gearUp": {
     "name": "Extra drivhjul",
-    "effect": "Utföraren driver igång sina kugghjul. Detta ökar attack- och sp. atk-förmågan hos den vid utförarens sida med särdraget Plusladdning eller Minusladdning."
+    "effect": "Utföraren driver igång sina kugghjul. Detta ökar attack- och sp. atk-förmågan hos en stridskamrat med särdraget Plusladdning eller Minusladdning."
   },
   "throatChop": {
     "name": "Halsmangel",
@@ -2690,7 +2699,7 @@
   },
   "pollenPuff": {
     "name": "Pollenpuff",
-    "effect": "Utföraren skjuter ett moln av pollen som exploderar på motståndaren. Om den vid utförarens sida skjuts återställs ½ av dess max. HP istället."
+    "effect": "Utföraren skjuter ett moln av pollen som exploderar på motståndaren. Om utförarens stridskamrat skjuts återställs ½ av dess max. HP istället."
   },
   "anchorShot": {
     "name": "Ankarskott",
@@ -3029,7 +3038,7 @@
   },
   "maxKnuckle": {
     "name": "Maxiboxi",
-    "effect": "Detta är en slagsmålstypattack som dynamaxpokémon utför. Detta ökar attackförmågan hos utföraren och den vid dess sida."
+    "effect": "Detta är en slagsmålstypattack som dynamaxpokémon utför. Detta ökar attackförmågan hos utföraren och dess stridskamrat."
   },
   "maxPhantasm": {
     "name": "Maxafantasm",
@@ -3041,7 +3050,7 @@
   },
   "maxOoze": {
     "name": "Maxitoxin",
-    "effect": "Detta är en gifttypattack som dynamaxpokémon utför. Den ökar sp. atk-förmågan hos den vid utförarens sida."
+    "effect": "Detta är en gifttypattack som dynamaxpokémon utför. Den ökar sp. atk-förmågan hos dess stridskamrat."
   },
   "maxGeyser": {
     "name": "Maxiakva",
@@ -3049,7 +3058,7 @@
   },
   "maxAirstream": {
     "name": "Maxivindi",
-    "effect": "Detta är en flygandetypattack som dynamaxpokémon utför. Den ökar snabbheten hos den vid utförarens sida."
+    "effect": "Detta är en flygandetypattack som dynamaxpokémon utför. Den ökar snabbheten hos dess stridskamrat."
   },
   "maxStarfall": {
     "name": "Maxastella",
@@ -3069,7 +3078,7 @@
   },
   "maxQuake": {
     "name": "Maxiterra",
-    "effect": "Detta är en jordtypattack som dynamaxpokémon utför. Den ökar försvarsförmågan hos den vid utförarens sida."
+    "effect": "Detta är en jordtypattack som dynamaxpokémon utför. Den ökar försvarsförmågan hos dess stridskamrat."
   },
   "maxDarkness": {
     "name": "Maxidunkel",
@@ -3081,7 +3090,7 @@
   },
   "maxSteelspike": {
     "name": "Maxametall",
-    "effect": "Detta är en ståltypsattack som dynamaxpokémon utför. Den ökar försvarsförmågan hos den vid utförarens sida."
+    "effect": "Detta är en ståltypsattack som dynamaxpokémon utför. Den ökar försvarsförmågan hos dess stridskamrat."
   },
   "clangorousSoul": {
     "name": "Själklingare",
@@ -3149,7 +3158,7 @@
   },
   "lifeDew": {
     "name": "Livsdagg",
-    "effect": "Utföraren sprider mystiskt vatten omkring sig som återställer ¼ av max. HP:n hos sig själv och den vid sin sida."
+    "effect": "Utföraren sprider mystiskt vatten omkring sig som återställer ¼ av utförarens och dess stridskamrats max. HP."
   },
   "obstruct": {
     "name": "Blockad",
@@ -3229,7 +3238,7 @@
   },
   "coaching": {
     "name": "Coachning",
-    "effect": "Utföraren coachar den vid sin sida ordentligt, vilket ökar dess attack- och försvarsförmåga."
+    "effect": "Utföraren coachar sin stridskamrat ordentligt, vilket ökar dess attack- och försvarsförmåga."
   },
   "flipTurn": {
     "name": "Voltvändning",
@@ -3249,7 +3258,7 @@
   },
   "jungleHealing": {
     "name": "Djungelhelning",
-    "effect": "Utföraren blir ett med djungeln. Det läker all tillståndspåverkan hos utföraren och den vid dess sida samt återställer ¼ av deras max. HP."
+    "effect": "Utföraren blir ett med djungeln. Detta läker all tillståndspåverkan hos utföraren och dess stridskamrat samt återställer ¼ av deras max. HP."
   },
   "wickedBlow": {
     "name": "Mörkrets nävslag",
@@ -3381,7 +3390,7 @@
   },
   "lunarBlessing": {
     "name": "Månskärans bön",
-    "effect": "Utföraren ges en välsignelse från månen. Detta läker all tillståndspåverkan hos utföraren och den vid dess sida samt återställer ¼ av deras max. HP."
+    "effect": "Utföraren ges en välsignelse från månen. Detta läker all tillståndspåverkan hos utföraren och dess stridskamrat samt återställer ¼ av deras max. HP."
   },
   "takeHeart": {
     "name": "Heroiskt kurage",
@@ -3405,7 +3414,7 @@
   },
   "gMaxChiStrike": {
     "name": "G-maxad gyaku-tsuki",
-    "effect": "En slagsmålstypteknik som en G-maxad Machamp utför. Den taggar upp utföraren och den vid dess sida så att deras chans för kritisk träff blir +1."
+    "effect": "En slagsmålstypteknik som en G-maxad Machamp utför. Den taggar upp utföraren och dess stridskamrat så att deras chans för kritisk träff blir +1."
   },
   "gMaxTerror": {
     "name": "G-maxad gastkram",
@@ -3421,7 +3430,7 @@
   },
   "gMaxReplenish": {
     "name": "G-maxad gröda",
-    "effect": "En normaltypattack som en G-maxad Snorlax utför. 50 % för utföraren och den vid dess sida att få tillbaka bär som de har ätit. "
+    "effect": "En normaltypattack som en G-maxad Snorlax utför. 50 % chans för utföraren och dess stridskamrat att få tillbaka bär som de har ätit. "
   },
   "gMaxMalodor": {
     "name": "G-maxad geggamoja",
@@ -3441,7 +3450,7 @@
   },
   "gMaxFinale": {
     "name": "G-maxat gott slut",
-    "effect": "En fetypattack som en G-maxad Alcremie utför. Den återställer ⅙ av max. HP:n hos utföraren och den vid dess sida."
+    "effect": "En fetypattack som en G-maxad Alcremie utför. Den återställer ⅙ av max. HP:n hos utföraren och dess stridskamrat."
   },
   "gMaxDepletion": {
     "name": "G-maxad grymhet",
@@ -3469,7 +3478,7 @@
   },
   "gMaxSweetness": {
     "name": "G-maxade go’äpplen",
-    "effect": "En grästypattack som en G-maxad Appletun utför. Den läker tillståndspåverkan hos utföraren och den vid sin sida."
+    "effect": "En grästypattack som en G-maxad Appletun utför. Den läker tillståndspåverkan hos utföraren och dess stridskamrat."
   },
   "gMaxSmite": {
     "name": "G-maxat gudsstraff",
@@ -3585,7 +3594,7 @@
   },
   "doodle": {
     "name": "Avbildning",
-    "effect": "Utföraren fångar essensen av en pokémon med ett porträtt. Utföraren och den vid dess sida får därmed samma särdrag som den avbildade."
+    "effect": "Utföraren fångar essensen av en pokémon med ett porträtt. Utföraren och dess stridskamrat får därmed samma särdrag som den avbildade."
   },
   "filletAway": {
     "name": "Kött från benen",

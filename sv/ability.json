@@ -104,7 +104,8 @@
     "description": "Genom att sväva i luften undviker denna pokémon alla jordtyptekniker."
   },
   "effectSpore": {
-    "name": "Sporer"
+    "name": "Sporer",
+    "description": "Kontakt med denna pokémon har en 30 % chans att orsaka förgiftning, sömn eller förlamning hos anfallaren. Grästyper påverkas inte."
   },
   "synchronize": {
     "name": "Synkronisering",
@@ -224,11 +225,11 @@
   },
   "plus": {
     "name": "Plusladdning",
-    "description": "Sp. atk-förmågan ökar med 50 % för denna pokémon om den har en med Plus- eller Minusladdning vid sin sida i strid."
+    "description": "Sp. atk-förmågan ökar med 50 % för denna pokémon om dess stridskamrat har Plus- eller Minusladdning."
   },
   "minus": {
     "name": "Minusladdning",
-    "description": "Sp. atk-förmågan ökar med 50% för denna pokémon om den har en med Plus- eller Minusladdning vid sin sida i strid."
+    "description": "Sp. atk-förmågan ökar med 50 % för denna pokémon om dess stridskamrat har Plus- eller Minusladdning."
   },
   "forecast": {
     "name": "Väderkänslig",
@@ -484,7 +485,7 @@
   },
   "flowerGift": {
     "name": "Blomgåva",
-    "description": "I starkt solsken ökas attack- och sp. fsv-förmågan med 50 % hos denna pokémon och den vid dess sida."
+    "description": "I starkt solsken ökas attack- och sp. fsv-förmågan med 50 % hos denna pokémon och dess stridskamrat."
   },
   "badDreams": {
     "name": "Mardrömslik",
@@ -520,11 +521,11 @@
   },
   "healer": {
     "name": "Helare",
-    "description": "Vid varje omgångslut kan, med 50 % sannolikhet, all tillståndspåverkan läkas hos den vid denna pokémons sida."
+    "description": "Vid varje omgångslut kan, med 50 % sannolikhet, all tillståndspåverkan läkas hos denna pokémons stridskamrat."
   },
   "friendGuard": {
     "name": "Beskyddande",
-    "description": "De vid denna pokémons sida i en strid orsakas 25% mindre skada."
+    "description": "Denna pokémons stridskamrat tar 25% mindre skada av attacker."
   },
   "weakArmor": {
     "name": "Lättrustad",
@@ -556,7 +557,7 @@
   },
   "telepathy": {
     "name": "Telepatisk",
-    "description": "Denna pokémon kan läsa tankar och undviker därför attacker från de vid dess sida i strid."
+    "description": "Denna pokémon kan läsa tankar och undviker därför sin stridskamrats attacker."
   },
   "moody": {
     "name": "Lynnig",
@@ -644,7 +645,7 @@
   },
   "victoryStar": {
     "name": "Vinnarskalle",
-    "description": "Denna pokémon och de vid sin sida i strid har träffsäkerheten ökad med 10 %."
+    "description": "Denna pokémons och dess stridskamrats träffsäkerhet ökar med 10 %."
   },
   "turboblaze": {
     "name": "Turbobrand",
@@ -656,11 +657,11 @@
   },
   "aromaVeil": {
     "name": "Aromhölje",
-    "description": "Denna pokémon och de vid dess sida i strid skyddas från effekter som förhindrar utförande av tekniker."
+    "description": "Denna pokémon och dess stridskamrat skyddas mot kärlek, Provokation, Hån, Spärr, Läkstopp och Dacapo."
   },
   "flowerVeil": {
     "name": "Blomstervägg",
-    "description": "Om denna pokémon eller de vid dess sida i strid är av grästyp skyddas de från tillståndspåverkan och förmågesäkningar."
+    "description": "Om denna pokémon eller dess stridskamrat är grästyp skyddas de från tillståndspåverkan och förmågesäkningar."
   },
   "cheekPouch": {
     "name": "Kindpåsar",
@@ -696,7 +697,7 @@
   },
   "sweetVeil": {
     "name": "Sockerkick",
-    "description": "Denna pokémon och de vid dess sida i strid kan inte somna eller sövas."
+    "description": "Denna pokémon och dess stridskamrat kan inte bli dåsiga eller sövas."
   },
   "stanceChange": {
     "name": "Taktiker",
@@ -716,7 +717,7 @@
   },
   "symbiosis": {
     "name": "Symbiotisk",
-    "description": "När den vid denna pokémons sida i strid har använt ett buret föremål så ger genast denna pokémon den vid sin sida ett av sina egna burna föremål."
+    "description": "När stridskamraten har använt ett buret föremål så ger genast denna pokémon den ett av sina egna burna föremål."
   },
   "toughClaws": {
     "name": "Vässade klor",
@@ -852,7 +853,7 @@
   },
   "queenlyMajesty": {
     "name": "Majestätisk",
-    "description": "Denna pokémons majestät skräckslår motståndare, vilket gör så att de inte kan utföra prioritetstekniker mot den eller de vid dess sida i strid."
+    "description": "Denna pokémons majestät skräckslår motståndarna, vilket gör så att de inte kan utföra prioritetstekniker mot den eller dess stridskamrat."
   },
   "innardsOut": {
     "name": "Insidan utåt",
@@ -864,7 +865,7 @@
   },
   "battery": {
     "name": "Batteri",
-    "description": "Speciella tekniker från de vid denna pokémons sida är 30 % kraftfullare."
+    "description": "Stridskamratens speciella tekniker ökar i kraft med 30 %."
   },
   "fluffy": {
     "name": "Fluffig",
@@ -872,7 +873,7 @@
   },
   "dazzling": {
     "name": "Prålig",
-    "description": "Denna pokémon prålar med sina starka färger, vilka gör så att motståndare inte kan utföra prioritetstekniker mot den och de vid dess sida i strid. "
+    "description": "Denna pokémon prålar med sina starka färger, vilka gör så att motståndarna inte kan utföra prioritetstekniker mot den och dess stridskamrat."
   },
   "soulHeart": {
     "name": "Själhjärta",
@@ -884,11 +885,11 @@
   },
   "receiver": {
     "name": "Mottagare",
-    "description": "När denna pokémon är i dubbelstrid och den vid sin sida svimmar, så tar denna pokémon genast över särdraget av den avsvimmade."
+    "description": "När dess stridskamrat svimmar i en dubbelstrid ändras denna pokémons särdrag till stridkamratens."
   },
   "powerOfAlchemy": {
     "name": "Alkemist",
-    "description": "När denna pokémon är i dubbelstrid och den vid sin sida svimmar, så anammar denna pokémon genast särdraget av den avsvimmade."
+    "description": "När dess stridskamrat svimmar i en dubbelstrid ändras denna pokémons särdrag till stridkamratens."
   },
   "beastBoost": {
     "name": "Bestbemästrande",
@@ -899,16 +900,20 @@
     "description": "Denna pokémon typ ändras efter minnesdisken den bär."
   },
   "electricSurge": {
-    "name": "Elgenerering"
+    "name": "Elgenerering",
+    "description": "När denna pokémon skickas in i strid skapas en Elterräng som varar i 5 omgångar. Pokémon på marken kan inte somna under den tiden och deras eltypteknker ökar i kraft med 30 %."
   },
   "psychicSurge": {
-    "name": "Pyskogenerering"
+    "name": "Pyskogenerering",
+    "description": "När denna pokémon skickas in i strid skapas en Pyskoterräng som varar i 5 omgångar. Pokémon på marken kan varken utföra eller träffas av prioritetstekniker. Deras psykisktyptekniker ökar i kraft med 30 %."
   },
   "mistySurge": {
-    "name": "Mistgenerering"
+    "name": "Mistgenerering",
+    "description": "När denna pokémon skickas in i strid skapas en Mistterräng som varar i 5 omgångar. Misten immuniserar alla pokémon på marken mot tillståndspåverkan (inkl. förvirring). Skadan av draktyptekniker halveras."
   },
   "grassySurge": {
-    "name": "Gräsgenerering"
+    "name": "Gräsgenerering",
+    "description": "När denna pokémon skickas in i strid skapas en Grästerräng som varar i 5 omgångar. Alla pokémon på marken återfår ¹⁄₁₆ av deras max. HP per omgångsslut och deras grästyptekniker ökar i kraft med 30 %."
   },
   "fullMetalBody": {
     "name": "Helmantlad",
@@ -971,7 +976,8 @@
     "description": "Denna pokémons ljudbaserade tekniker ökar i kraft med 30%. Den tar också hälften så mycket skada av sådana tekniker."
   },
   "sandSpit": {
-    "name": "Sandspottare"
+    "name": "Sandspottare",
+    "description": "När denna pokémon träffas av en attack börjar en sandstorm blåsa i 5 omgångar. Alla i strid förutom sten-, jord- och ståltyper tar ¹⁄₁₆ av sina max. HP i skada varje omgångslut. Sp. fsv-förmågan hos stentyper ökas med 50 %."
   },
   "iceScales": {
     "name": "Snöfjäll",
@@ -987,7 +993,7 @@
   },
   "powerSpot": {
     "name": "Leylinje",
-    "description": "Tekniker från de vid denna pokémons sida i strid är 30 % kraftfullare."
+    "description": "Denna pokémon gör så att stridskamratens tekniker ökar i kraft med 30 %."
   },
   "mimicry": {
     "name": "Mimikry",
@@ -999,7 +1005,7 @@
   },
   "steelySpirit": {
     "name": "Järnvilja",
-    "description": "Ståltyptekniker ökar i kraft med 50 % för denna pokémon och de vid dess sida i strid."
+    "description": "Ståltyptekniker ökar i kraft med 50 % för denna pokémon och dess stridskamrat."
   },
   "perishBody": {
     "name": "Undergångssjäl",
@@ -1019,7 +1025,7 @@
   },
   "pastelVeil": {
     "name": "Pastellpansar",
-    "description": "Denna pokémon och de vid sin sida i strid kan inte förgiftas."
+    "description": "Denna pokémon och dess stridskamrat kan inte förgiftas."
   },
   "hungerSwitch": {
     "name": "Hungritation",
@@ -1035,7 +1041,7 @@
   },
   "curiousMedicine": {
     "name": "Häxbrygd",
-    "description": "När denna pokémon skickas ut i strid sprider den förhäxad medicinsk brygd från sitt skal; den nollställer alla förmågeändringar hos de vid dess sida."
+    "description": "När denna pokémon skickas ut i strid sprutar den en brygd från sitt skal; den nollställer alla förmågeändringar hos stridskamraten."
   },
   "transistor": {
     "name": "Transistor",
@@ -1066,7 +1072,8 @@
     "description": "Fysisk kontakt med denna pokémon ändrar anfallarens särdrag till Kvardörjande doft."
   },
   "seedSower": {
-    "name": "Självsåningsman"
+    "name": "Självsåningsman",
+    "description": "När denna pokémon träffas av en attack skapas en Grästerräng som varar i 5 omgångar. Alla pokémon på marken återfår ¹⁄₁₆ av deras max. HP per omgångsslut och deras grästyptekniker ökar i kraft med 30 %."
   },
   "thermalExchange": {
     "name": "Värmeöverföring",
@@ -1106,7 +1113,7 @@
   },
   "commander": {
     "name": "Befälhavare",
-    "description": "Om Dondozo finns vid denna pokémons sida när den skickas ut i strid hoppar den in i Dondozo:s mun, vilket ökar Dondozo:s samtliga förmågor. Om denna pokémon är först i laget ökas även sannolikheten av dubbelstrid."
+    "description": "Om Dondozo är denna pokémons stridskamrat när den skickas ut i strid hoppar den in i Dondozo:s mun, vilket ökar Dondozo:s samtliga förmågor. Om denna pokémon är först i laget ökas även sannolikheten av dubbelstrid."
   },
   "electromorphosis": {
     "name": "Elektromorfos",
@@ -1141,10 +1148,12 @@
     "description": "Denna pokémons förödande ögonjuveler sänker sp. fsv-förmågan med 25% hos alla pokémon förutom sig själv när den är i strid."
   },
   "orichalcumPulse": {
-    "name": "Scharlakantitpuls"
+    "name": "Scharlakantitpuls",
+    "description": "När denna pokémon skickas ut i strid börjar solen gassa i 5 omgångar; eldtyptekniker ökar i kraft med 50 % och vattentypteknikers kraft halveras. Denna pokémons urtida, scharlakanröda puls ökar även dess attackförmåga med 33 % i solen."
   },
   "hadronEngine": {
-    "name": "Violett hadronmotor"
+    "name": "Violett hadronmotor",
+    "description": "När denna pokémon skickas in i strid skapas en Elterräng som varar i 5 omgångar. Pokémon på marken kan inte somna under den tiden och deras eltypteknker ökar i kraft med 30 %. Denna pokémons framtida, violetta motor ökar även dess sp. atk-förmåga med 33 % på Elterräng."
   },
   "opportunist": {
     "name": "Opportunist",
@@ -1164,7 +1173,7 @@
   },
   "costar": {
     "name": "Medspelare",
-    "description": "När denna pokémon skickas ut i dubbelstrid kopierar den förmågeändringarna hos den vid dess sida."
+    "description": "När denna pokémon skickas ut i dubbelstrid kopierar den förmågeändringarna hos stridskamraten."
   },
   "toxicDebris": {
     "name": "Giftspillror",
@@ -1172,7 +1181,7 @@
   },
   "armorTail": {
     "name": "Pansarsvans",
-    "description": "Den konstiga svansen runt denna pokémons huvud gör så att motståndare inte kan utföra prioritetstekniker på den eller de vid dess sida i strid."
+    "description": "Den konstiga svansen runt denna pokémons huvud gör så att motståndare inte kan utföra prioritetstekniker på den eller dess stridskamrat."
   },
   "earthEater": {
     "name": "Geofagi",
@@ -1192,7 +1201,7 @@
   },
   "hospitality": {
     "name": "Gästfrihet",
-    "description": "När denna gästfria pokémon skickas ut i dubbelstrid tar den hand om den vid sin sida genom att återställa ¼ av dess max. HP."
+    "description": "När denna gästfria pokémon skickas ut i dubbelstrid tar den hand sin stridskamrat genom att återställa ¼ av dess max. HP."
   },
   "toxicChain": {
     "name": "Toxisk kedja",
