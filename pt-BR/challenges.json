@@ -114,7 +114,9 @@
   },
   "movesetRandomizer": {
     "name": "Movimentos Aleatórios",
-    "desc": "Randomiza o conjunto de movimentos de cada espécie de Pokémon ao subir de nível.\n\nDesativa as conquistas de outros desafios.",
+    "desc": {
+      "1": "Randomiza o conjunto de movimentos de cada espécie de Pokémon ao subir de nível.\n\nDesativa as conquistas de outros desafios."
+    },
     "value": {
       "0": "Desligado",
       "1": "Ligado"
