@@ -1005,7 +1005,7 @@
   },
   "fakeOut": {
     "name": "Fake Out",
-    "effect": "This attack hits first and makes the target flinch. It works only on the first turn each time the user enters battle."
+    "effect": "This attack hits first and makes the target flinch. This move fails unless it is the first move used by the user after it enters a battle."
   },
   "uproar": {
     "name": "Uproar",
@@ -2241,7 +2241,7 @@
   },
   "matBlock": {
     "name": "Mat Block",
-    "effect": "Using a pulled-up mat as a shield, the user protects itself and its allies from damaging moves. This does not stop status moves."
+    "effect": "Using a pulled-up mat as a shield, the user protects itself and its allies from damaging moves. This move does not stop status moves and will fail unless it is the first move used by the user after it enters a battle."
   },
   "belch": {
     "name": "Belch",
