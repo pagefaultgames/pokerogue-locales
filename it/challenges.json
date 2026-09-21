@@ -113,11 +113,19 @@
     }
   },
   "movesetRandomizer": {
-    "name": "Moveset Randomizzato",
-    "desc": "Randomizza il moveset dell’aumento del livello di ogni specie di Pokémon.\n\nDisabilita gli obiettivi delle altre challenge.",
+    "name": "Mosse Randomizzate",
+    "desc": "Randomizza le mosse dell’aumento del livello di ogni specie di Pokémon.\n\nDisabilita gli obiettivi delle altre challenge.",
     "value": {
       "0": "No",
       "1": "Sì"
+    }
+  },
+  "abilityRandomizer": {
+    "name": "Abilità Randomizzate",
+    "value": {
+      "0": "No",
+      "1": "Abilità",
+      "2": "Tutto"
     }
   }
 }
