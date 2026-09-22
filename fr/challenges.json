@@ -115,11 +115,14 @@
   "movesetRandomizer": {
     "name": "Capacités randomisées",
     "desc": {
-      "1": "Les capacités apprises par montée de niveau sont randomisées.\n\nDésactive les succès des autres challenges."
+      "0": "Les capacités apprises par montée de niveau sont randomisées. Possibilité de retirer conditions d’évolution basées sur les capacités.\n\nDésactive les succès des autres challenges.",
+      "1": "Les capacités apprises par montée de niveau sont randomisées.\n\nDésactive les succès des autres challenges.",
+      "2": "Les capacités apprises par montée de niveau sont randomisées. Les évolutions basées sur des capacités n’en ont plus besoin.\n\nDésactive les succès des autres challenges."
     },
     "value": {
       "0": "Non",
-      "1": "Oui"
+      "1": "Oui",
+      "2": "Allégé"
     }
   },
   "abilityRandomizer": {
