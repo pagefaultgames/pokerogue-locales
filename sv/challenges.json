@@ -115,11 +115,14 @@
   "movesetRandomizer": {
     "name": "Slumpad teknikordning",
     "desc": {
-      "1": "Ordningen i vilken varje pokémon lär sig tekniker vid nivåökningen slumpas.\n\nAndra utmaningsprestationer avaktiveras."
+      "0": "Ordningen i vilken varje pokémon lär sig tekniker vid nivåökningen slumpas. Kravet på specifika tekniker för vissa utvecklingar kan väljas bort.\nAndra utmaningsprestationer avaktiveras.",
+      "1": "Ordningen i vilken varje pokémon lär sig tekniker vid nivåökningen slumpas.\n\nAndra utmaningsprestationer avaktiveras.",
+      "2": "Ordningen i vilken varje pokémon lär sig tekniker vid nivåökningen slumpas. Kravet på specifika tekniker för vissa utvecklingar har tagits bort.\nAndra utmaningsprestationer avaktiveras."
     },
     "value": {
       "0": "Av",
-      "1": "På"
+      "1": "På",
+      "2": "Teknikkrav av"
     }
   },
   "abilityRandomizer": {
