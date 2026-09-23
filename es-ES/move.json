@@ -304,13 +304,16 @@
     "effect": "El usuario absorbe luz en el primer turno y en el segundo lanza un potente rayo de energía. Si hace sol, ataca inmediatamente. Si hay otro tiempo atmosférico activo, la potencia del movimiento se ve reducida a la mitad."
   },
   "poisonPowder": {
-    "name": "Polvo Veneno"
+    "name": "Polvo Veneno",
+    "effect": "Esparce polvo tóxico que envenena al objetivo. No afecta a los Pokémon de tipo Planta."
   },
   "stunSpore": {
-    "name": "Paralizador"
+    "name": "Paralizador",
+    "effect": "Esparce polvo que paraliza al objetivo. No afecta a los Pokémon de tipo Planta."
   },
   "sleepPowder": {
-    "name": "Somnífero"
+    "name": "Somnífero",
+    "effect": "Esparce polvo que duerme al objetivo. No afecta a los Pokémon de tipo Planta."
   },
   "petalDance": {
     "name": "Danza Pétalo",
@@ -337,10 +340,12 @@
     "effect": "Ataque eléctrico con una potente descarga eléctrica. Tiene una probabilidad del 10 % de paralizar al objetivo."
   },
   "thunderWave": {
-    "name": "Onda Trueno"
+    "name": "Onda Trueno",
+    "effect": "Una ligera descarga que paraliza al objetivo. No afecta a los Pokémon de tipo Tierra."
   },
   "thunder": {
-    "name": "Trueno"
+    "name": "Trueno",
+    "effect": "Un poderoso rayo cae sobre el objetivo .Tiene una probabilidad del 30 % de paralizar al objetivo y nunca falla cuando llueve, pero una precisión de 50% cuando hace sol. Puede golpear a objetivos en el aire mediante Vuelo, Bote o Caída Libre."
   },
   "rockThrow": {
     "name": "Lanzarrocas",
@@ -579,7 +584,8 @@
     "effect": "Ataca con rítmicos puñetazos. Tiene una probabilidad del 20 % de confundir al objetivo."
   },
   "spore": {
-    "name": "Espora"
+    "name": "Espora",
+    "effect": "Esparce esporas que inducen el sueño. No afecta a los Pokémon de tipo Planta."
   },
   "flash": {
     "name": "Destello",
@@ -646,7 +652,8 @@
     "effect": "Ataca con cuchillas o con pinzas. Aumenta 1 nivel la probabilidad de asestar golpes críticos del usuario durante este ataque."
   },
   "substitute": {
-    "name": "Sustituto"
+    "name": "Sustituto",
+    "effect": "El usuario sacrifica 1/4 de sus PS máximos para crear un sustituto. El sustituto recibirá los movimientos dirigidos al usuario en su lugar y desaparecerá cuando haya recibido la cantidad de daño equivalente a los PS sacrificados para crearlo. Los movimientos que usan sonido ignoran el sustituto y alcanzan al Pokémon."
   },
   "struggle": {
     "name": "Forcejeo",
@@ -701,7 +708,8 @@
     "effect": "Lanza un chorro de aire. Aumenta 1 nivel la probabilidad de asestar golpes críticos del usuario durante este ataque."
   },
   "cottonSpore": {
-    "name": "Esporagodón"
+    "name": "Esporagodón",
+    "effect": "Adhiere esporas a los rivales para reducir en 2 niveles su velocidad. No afecta a los Pokémon de tipo Planta."
   },
   "reversal": {
     "name": "Inversión",
@@ -820,7 +828,8 @@
     "effect": "Aumenta dos niveles el Ataque del objetivo y lo confunde."
   },
   "milkDrink": {
-    "name": "Batido"
+    "name": "Batido",
+    "effect": "Restaura la mitad de los PS máximos del usuario o un aliado."
   },
   "spark": {
     "name": "Chispa",
@@ -1087,7 +1096,8 @@
     "effect": "Usa un movimiento de un miembro del equipo elegido al azar."
   },
   "ingrain": {
-    "name": "Arraigo"
+    "name": "Arraigo",
+    "effect": "Echa raíces para recuperar ¹⁄₁₆ de sus PS máximos en cada turno, pero impide ser cambiado o huir y pasa a estar en contacto con el suelo."
   },
   "superpower": {
     "name": "Fuerza Bruta",
@@ -1186,7 +1196,8 @@
     "effect": "Da un golpe cortante. Tiene una probabilidad del 10% de quemar al objetivo y aumenta 1 nivel la probabilidad de asestar golpes críticos del usuario durante este ataque."
   },
   "mudSport": {
-    "name": "Chapoteo Lodo"
+    "name": "Chapoteo Lodo",
+    "effect": "El usuario esparce lodo a su alrededor, lo que debilita un 50% los movimientos de tipo Eléctrico durante 5 turnos."
   },
   "iceBall": {
     "name": "Bola Hielo",
@@ -1369,7 +1380,8 @@
     "effect": "Esparce extrañas hojas que persiguen al objetivo. No falla nunca."
   },
   "waterSport": {
-    "name": "Hidrochorro"
+    "name": "Hidrochorro",
+    "effect": "El usuario empapa el campo de batalla en agua, lo que debilita un 50% los movimientos de tipo Fuego durante 5 turnos."
   },
   "calmMind": {
     "name": "Paz Mental",
@@ -1552,7 +1564,8 @@
     "effect": "Usa la fuerza mental para intercambiar con el objetivo los cambios en las características."
   },
   "aquaRing": {
-    "name": "Acua Aro"
+    "name": "Acua Aro",
+    "effect": "El usuario se cubre con un manto de agua. Recupera ¹⁄₁₆ de sus PS máximos al final de cada turno."
   },
   "magnetRise": {
     "name": "Levitón",
@@ -1887,7 +1900,8 @@
     "effect": "El usuario se desprende de partes prescindibles de su cuerpo para hacerse más ligero y aumentar 2 niveles su velocidad."
   },
   "ragePowder": {
-    "name": "Polvo Ira"
+    "name": "Polvo Ira",
+    "effect": "Usa un polvo que enerva a los rivales y hace que centren en el usuario su atención y sus movimientos. No afecta a los Pokémon de tipo Planta."
   },
   "telekinesis": {
     "name": "Telequinesis",
@@ -2150,7 +2164,8 @@
     "effect": "Golpea con la cola 2-5 veces seguidas."
   },
   "hurricane": {
-    "name": "Vendaval"
+    "name": "Vendaval",
+    "effect": "Golpea al objetivo con un fuerte torbellino que envuelve al rival. Tiene una probabilidad del 30 % de confundir al objetivo. Nunca falla cuando llueve pero tiene una precisión de 50% cuando hace sol. Puede golpear a objetivos a gran altitud que han usado Vuelo, Bote o Caída Libre."
   },
   "headCharge": {
     "name": "Ariete",
@@ -2225,7 +2240,8 @@
     "effect": "El usuario se lanza sobre su objetivo. Este movimiento es de tipo Lucha y tipo Volador al mismo tiempo. Su potencia se duplica y nunca falla contra objetivos que han usado Reducción."
   },
   "matBlock": {
-    "name": "Escudo Tatami"
+    "name": "Escudo Tatami",
+    "effect": "El usuario usa un tatami para escudarse de los ataques enemigos. Protege también a los aliados. No funciona contra movimientos de estado y falla si no es el primer movimiento que el usuario utiliza tras entrar en combate."
   },
   "belch": {
     "name": "Eructo",
@@ -2304,7 +2320,8 @@
     "effect": "Crea un campo de hierba en el terreno de combate durante 5 turnos. Los Pokémon en contacto con el suelo potencian sus movimientos de tipo Planta un 30% y recuperan ¹⁄₁₆ de sus PS máximos al final de cada turno."
   },
   "mistyTerrain": {
-    "name": "Campo de Niebla"
+    "name": "Campo de Niebla",
+    "effect": "Crea un campo de niebla en el terreno de combate durante 5 turnos. Los Pokémon en contacto con el suelo ven reducida la potencia de sus movimientos de tipo Dragón a la mitad y no sufren problemas de estado."
   },
   "electrify": {
     "name": "Electrificación",
@@ -2395,7 +2412,8 @@
     "effect": "Al usar este movimiento, se duplica el dinero recibido tras el combate."
   },
   "electricTerrain": {
-    "name": "Campo Eléctrico"
+    "name": "Campo Eléctrico",
+    "effect": "Crea un campo eléctrico en el terreno de combate durante 5 turnos. Los Pokémon en contacto con el suelo potencian sus movimientos de tipo Eléctrico un 30% y no pueden quedarse dormidos."
   },
   "dazzlingGleam": {
     "name": "Brillo Mágico",
@@ -2690,7 +2708,8 @@
     "effect": "Ataca lanzando un ancla al objetivo, que queda atrapado y no puede huir ni ser cambiado por otro."
   },
   "psychicTerrain": {
-    "name": "Campo Psíquico"
+    "name": "Campo Psíquico",
+    "effect": "Crea un campo psíquico en el terreno de combate durante 5 turnos. Los Pokémon en contacto con el suelo potencian sus movimientos de tipo Psíquico un 30% y quedan protegidos contra movimientos con prioridad alta."
   },
   "lunge": {
     "name": "Plancha",
@@ -2977,7 +2996,8 @@
     "effect": "Cubre al objetivo de un alquitrán pegajoso que reduce su velocidad. Duplica la debilidad a los movimientos de tipo Fuego del objetivo."
   },
   "magicPowder": {
-    "name": "Polvo Mágico"
+    "name": "Polvo Mágico",
+    "effect": "Cubre al objetivo con unos polvos mágicos que le hacen adquirir el tipo Psíquico. No afecta a los Pokémon de tipo Planta."
   },
   "dragonDarts": {
     "name": "Dracoflechas",
@@ -3620,7 +3640,8 @@
     "effect": "Efectúa una limpieza a fondo que anula los efectos de Púas, Trampa Rocas, Red Viscosa, Púas Tóxicas y Sustituto. Aumenta el ataque y la velocidad del usuario."
   },
   "snowscape": {
-    "name": "Paisaje Nevado"
+    "name": "Paisaje Nevado",
+    "effect": "Desata una nevada que dura 5 turnos y aumenta un 50% la Defensa de los Pokémon de tipo Hielo."
   },
   "pounce": {
     "name": "Brinco",

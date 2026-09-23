@@ -115,11 +115,27 @@
   "movesetRandomizer": {
     "name": "Randomzado de Movimientos",
     "desc": {
-      "1": "Randomiza los movimientos por nivel de cada especie de Pokémon.\n\nDeshabilita los logros del resto de desafíos."
+      "0": "Aleatoriza los movimientos por nivel de cada especie de Pokémon. Opcionalmente, elimina el requerimiento de evoluciones basadas en movimientos.\n\nLos otros logros de desafíos están desactivados.",
+      "1": "Randomiza los movimientos por nivel de cada especie de Pokémon.\n\nDeshabilita los logros del resto de desafíos.",
+      "2": "Aleatoriza los movimientos por nivel de cada especie de Pokémon. Elimina el requerimiento de evoluciones basadas en movimientos.\n\nLos otros logros de desafíos están desactivados."
     },
     "value": {
       "0": "Desact.",
-      "1": "Activo"
+      "1": "Activo",
+      "2": "Light"
+    }
+  },
+  "abilityRandomizer": {
+    "name": "Habilidades Aleatorias",
+    "desc": {
+      "0": "Aleatoriza las habilidades (y opcionalmente las pasivas) de cada especie de Pokémon. \n\nLos otros logros de desafíos están desactivados.",
+      "1": "Aleatoriza las habilidades de cada especie de Pokémon. \n\nLos otros logros de desafíos están desactivados.",
+      "2": "Aleatoriza las habilidades y las pasivas de cada especie de Pokémon. \n\nLos otros logros de desafíos están desactivados."
+    },
+    "value": {
+      "0": "Desact.",
+      "1": "Habilidades",
+      "2": "Todo"
     }
   }
 }
