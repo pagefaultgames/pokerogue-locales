@@ -104,7 +104,8 @@
     "description": "Su capacidad de flotar sobre el suelo le proporciona inmunidad frente a los movimientos de tipo Tierra."
   },
   "effectSpore": {
-    "name": "Efecto Espora"
+    "name": "Efecto Espora",
+    "description": "Tiene una probabilidad del 30 % de envenenar, paralizar o dormir al atacante si el Pokémon es alcanzado por un movimiento de contacto. No afecta a los Pokémon de tipo Planta."
   },
   "synchronize": {
     "name": "Sincronía",
@@ -175,7 +176,8 @@
     "description": "Recupera ¹⁄₁₆ de sus PS máximos de forma gradual cuando llueve."
   },
   "sandStream": {
-    "name": "Chorro Arena"
+    "name": "Chorro Arena",
+    "description": "Crea una tormenta de arena durante 5 turnos al entrar en combate. Los Pokémon que no sean de tipo Roca, Tierra o Acero pierden ¹⁄₁₆ de sus PS máximos al final de cada turno. Aumenta un 50% la Defensa Especial de los Pokémon de tipo Roca."
   },
   "pressure": {
     "name": "Presión",
@@ -194,7 +196,8 @@
     "description": "30% de posibilidad de quemar al Pokémon que lo ataque con un movimiento de contacto."
   },
   "runAway": {
-    "name": "Fuga"
+    "name": "Fuga",
+    "description": "Puede escapar de cualquier Pokémon salvaje y puede cambiarse por otro aunque haya efectos que lo impidan."
   },
   "keenEye": {
     "name": "Vista Lince",
@@ -273,7 +276,8 @@
     "description": "No pierde PS al usar movimientos que también hieren al usuario."
   },
   "drought": {
-    "name": "Sequía"
+    "name": "Sequía",
+    "description": "El tiempo pasa a ser soleado durante 5 turnos al entrar en combate. Aumenta un 50 % el daño que infligen los movimientos de tipo Fuego y reduce a la mitad el que infligen los de tipo Agua."
   },
   "arenaTrap": {
     "name": "Trampa Arena",
@@ -460,7 +464,8 @@
     "description": "Mitiga un 25% el daño que le infligen los movimientos supereficaces."
   },
   "snowWarning": {
-    "name": "Nevada"
+    "name": "Nevada",
+    "description": "Invoca una nevada durante 5 turnos al entrar en combate. Aumenta un 50% la Defensa de los Pokémon de tipo Hielo."
   },
   "honeyGather": {
     "name": "Recogemiel",
@@ -747,10 +752,12 @@
     "description": "Invierte los efectos de Aura Féerica y Aura Oscura, por lo que reduce la potencia un 25% de los movimientos afectados en vez de aumentarla."
   },
   "primordialSea": {
-    "name": "Mar del Albor"
+    "name": "Mar del Albor",
+    "description": "Altera el clima indefinidamente para anular los ataques de tipo Fuego y aumentar un 50% la potencia de los movimientos de tipo Agua."
   },
   "desolateLand": {
-    "name": "Tierra del Ocaso"
+    "name": "Tierra del Ocaso",
+    "description": "Altera el clima indefinidamente para anular los ataques de tipo Agua y aumentar un 50% la potencia de los movimientos de tipo Fuego."
   },
   "deltaStream": {
     "name": "Ráfaga Delta",
@@ -893,16 +900,20 @@
     "description": "Cambia su tipo según el disco que lleve instalado."
   },
   "electricSurge": {
-    "name": "Electrogénesis"
+    "name": "Electrogénesis",
+    "description": "Crea un campo eléctrico durante 5 turnos al entrar en combate. Aumenta un 30 % la potencia de los movimientos de tipo Eléctrico de los Pokémon que están en contacto con el suelo e impide que se queden dormidos."
   },
   "psychicSurge": {
-    "name": "Psicogénesis"
+    "name": "Psicogénesis",
+    "description": "Crea un campo psíquico durante 5 turnos al entrar en combate. Aumenta un 30 % la potencia de los movimientos de tipo Psíquico de los Pokémon que están en contacto con el suelo e impide que sean alcanzados por movimientos de prioridad alta."
   },
   "mistySurge": {
-    "name": "Nebulogénesis"
+    "name": "Nebulogénesis",
+    "description": "Crea un campo de niebla durante 5 turnos al entrar en combate. Reduce a la mitad el daño que los Pokémon que están en contacto con el suelo reciben de movimientos de tipo Dragón e impide que sufran problemas de estado o confusión."
   },
   "grassySurge": {
-    "name": "Herbogénesis"
+    "name": "Herbogénesis",
+    "description": "Crea un campo de hierba durante 5 turnos al entrar en combate. Aumenta un 30 % la potencia de los movimientos de tipo Planta de los Pokémon que están en contacto con el suelo y restaura ¹⁄₁₆ de sus PS máximos al final de cada turno."
   },
   "fullMetalBody": {
     "name": "Guardia Metálica",
