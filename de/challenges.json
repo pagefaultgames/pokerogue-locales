@@ -115,11 +115,14 @@
   "movesetRandomizer": {
     "name": "Moveset Randomizer",
     "desc": {
-      "1": "Die Attacken jedes Pokémons beim Levelaufstieg werden zufällig generiert.\n\nDeaktiviert Erfolge für andere Herausforderungen."
+      "0": "Zufallsgenerierte Level-Up-Attacken für alle Pokémon-Spezies. Entfernt optional benötigte Attacken für attackenbasierte Entwicklungen. \n\nDeaktiviert die Erfolge anderer Herausforderungen.",
+      "1": "Die Attacken jedes Pokémons beim Levelaufstieg werden zufällig generiert.\n\nDeaktiviert Erfolge für andere Herausforderungen.",
+      "2": "Zufallsgenerierte Level-Up-Attacken für alle Pokémon-Spezies. Entfernt benötigte Attacken für attackenbasierte Entwicklungen. \n\nDeaktiviert die Erfolge anderer Herausforderungen."
     },
     "value": {
       "0": "Aus",
-      "1": "An"
+      "1": "An",
+      "2": "Vereinfacht"
     }
   },
   "abilityRandomizer": {
