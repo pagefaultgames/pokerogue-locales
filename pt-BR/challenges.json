@@ -115,11 +115,14 @@
   "movesetRandomizer": {
     "name": "Movimentos Aleatórios",
     "desc": {
-      "1": "Randomiza o conjunto de movimentos de cada espécie de Pokémon ao subir de nível.\n\nDesativa as conquistas de outros desafios."
+      "0": "Randomiza o conjunto de movimentos de nível de cada espécie Pokémon. Opcionalmente, remove a exigência de movimentos para evoluções baseadas em movimentos.\n\nDesativa as conquistas de outros desafios.",
+      "1": "Randomiza o conjunto de movimentos de cada espécie de Pokémon ao subir de nível.\n\nDesativa as conquistas de outros desafios.",
+      "2": "Randomiza o conjunto de movimentos de nível de cada espécie Pokémon. As evoluções baseadas em movimentos têm seus requisitos de movimentos removidos.\n\nDesativa as conquistas de outros desafios."
     },
     "value": {
       "0": "Desligado",
-      "1": "Ligado"
+      "1": "Ligado",
+      "2": "Leve"
     }
   },
   "abilityRandomizer": {
