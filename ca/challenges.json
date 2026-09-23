@@ -2,6 +2,10 @@
   "title": "Modificadors de Repte",
   "illegalEvolution": "{{pokemon}} s’ha convertit en\nun Pokémon inelegible per a aquest repte!",
   "noneSelected": "Cap Escollit",
+  "category": {
+    "challenge": "Repte",
+    "misc": "Misc."
+  },
   "freshStart": {
     "name": "Nou Inici",
     "desc": {
@@ -92,6 +96,19 @@
       "0": "Desact.",
       "1": "Entrenadors",
       "2": "Totes"
+    }
+  },
+  "movesetRandomizer": {
+    "value": {
+      "0": "No",
+      "1": "Sí"
+    }
+  },
+  "abilityRandomizer": {
+    "value": {
+      "0": "No",
+      "1": "Habilitats",
+      "2": "Tot"
     }
   }
 }
