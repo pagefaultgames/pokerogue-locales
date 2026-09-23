@@ -700,6 +700,82 @@
   "rival2": {
     "encounter": {
       "1": "@c{smile}¿Oye, tú también estás aquí?\n@c{smile_eclosed}¿Todavía con un récord perfecto, eh…?$@c{serious_mopen_fists}Sé que parece que te seguí hasta aquí, pero eso no es del todo cierto.$@c{serious_smile_fists}Honestamente, he estado deseando una revancha desde que me venciste en casa.$He estado entrenando mucho, así que definitivamente ganaré esta vez.$@c{serious_mopen_fists}¡No te contengas, igual que antes!\n¡Vamos!"
+    },
+    "victory": {
+      "1": "@c{neutral_eclosed}Oh. Parece que me confié demasiado.$@c{smile}Pero no pasa nada. Me imaginaba que esto podría pasar.\n@c{serious_mopen_fists}¡Sólo significa que tendré que esforzarme más la próxima vez!$@c{smile}Oh, no creo que necesites mi ayuda, pero tengo uno de sobre de cada uno de estos por ahí, pensé que tal vez los querrías.$@c{serious_smile_fists}¡Pero no esperes otro después de este!\nNo puedo seguir dando a mi rival una ventaja."
+    }
+  },
+  "rival2Female": {
+    "encounter": {
+      "1": "@c{smile_wave}Oh, qué casualidad encontrarte por aquí. Parece que sigues invicto. @c{angry_mopen}Huh… ¡Nada mal!$@c{angry_mopen}Sí, sé lo que estás pensando. No, no te estaba espiando. @c{smile_eclosed}Daba la casualidad de que estaba por la zona.$@c{smile_ehalf}Solo quiero decirte que me alegro por ti, pero está bien perder a veces.$@c{smile}Aprendemos de nuestros errores, más aún que si siguieramos teniendo éxito.$@c{angry_mopen}Da igual, he estado entrenando duro para nuestra revancha, ¡da lo mejor de ti!"
+    },
+    "victory": {
+      "1": "@c{neutral}Se suponía... que no tenía que perder esta vez...$@c{smile}Bueno. Eso significa que tengo que entrenar más duro para la próxima vez!$@c{smile_wave}¡Tengo otros dos de estos para ti!\n@c{smile_wave_wink}No me des las gracias.$@c{angry_mopen}¡Pero este es el último! ¡No vas a recibir más regalitos por mi parte!"
+    },
+    "defeat": {
+      "1": "Está bien perder a veces..."
+    }
+  },
+  "rival3": {
+    "encounter": {
+      "1": "@c{smile}¡Mira quién está aquí! Ha pasado tiempo.\n@c{neutral}¿Sigues invicta, eh?.$@c{neutral_eclosed}Las cosas están... raras últimamente.\nNo es lo mismo en casa sin ti.$@c{serious}Suena egoísta, pero tiene que sacarlo de mi.\n@c{neutral_eclosed}Creo que te estás viniendo arriba.$@c{serious}No perder nunca no es realista.\nHay que perder a veces para crecer.$@c{neutral_eclosed}Tienes una buena racha, pero aún te queda mucho recorrido, y sólo será más difícil. @c{neutral}¿Estás preparado para eso?$@c{serious_mopen_fists}Si lo estás, demuéstramelo."
+    },
+    "victory": {
+      "1": "@c{angry_mhalf}Esto es ridículo… No he parado de entrenar y entrenar…\n¿Cómo sigue habiendo una diferencia tan grande?"
+    }
+  },
+  "rival3Female": {
+    "encounter": {
+      "1": "@c{smile_wave}¡Cuánto tiempo! Sigues sin perder, ¿eh?\n@c{angry}Me estás poniendo de los nervios @c{smile_wave_wink}¡Es broma!$@c{smile_ehalf}Pero en serio, ¿no echas de manos tu casa? ¿No me echas de menos?\nLa verdad... te hemos echado de menos.$@c{smile_eclosed}Te apoyo en tu sueño, por supuesto, pero la realidad es que vas a perder tarde o temprano.$@c{smile}Cuando lo hagas, yo estaré allí para apoyarte.\n@c{angry_mopen}¡Bueno, demuéstrame lo fuerte que te has convertido!"
+    },
+    "victory": {
+      "1": "@c{shock}Después de todo eso... ¿no es suficiente...?\nA este paso, nunca volverás..."
+    },
+    "defeat": {
+      "1": "Diste lo mejor de ti, volvamos a casa."
+    }
+  },
+  "rival4": {
+    "encounter": {
+      "1": "@c{neutral}Eh.$No me voy a andar con rodeos ni cortesías.\n@c{neutral_eclosed}He venido a ganar, simple y llanamente.$@c{serious_mhalf_fists}He optimizado mi potencial poniendo todo mi tiempo en entrenar.$@c{smile}Cuando reduces el sueño y las interacciones sociales innecesarias, ganas mucho tiempo.$@c{serious_mopen_fists}Nada de eso importa ya, nada hasta que gane.$@c{neutral_eclosed}También he llegado el punto en el que no puedo erder\n@c{smile_eclosed}Tu filosofía no estaba tan equivocado después de todo.$@c{angry_mhalf}Perder es de débiles, y yo ya no soy débil.$@c{serious_mopen_fists}Prepárate."
+    },
+    "victory": {
+      "1": "@c{neutral}Qué…@d{64} ¿Qué eres?"
+    }
+  },
+  "rival4Female": {
+    "encounter": {
+      "1": "@c{neutral}¡Soy yo! No te has olvidado de mi otra vez… ¿no?$@c{smile}Tienes que estar orgulloso de lo lejos que has llegado. ¡Enhorabuena!\nPero este es el fin del trayecto.$@c{smile_eclosed}Has despertado algo en mí que no sabía que tenía.\nTodo lo que hago ahora es entrenar y entrenar.$@c{smile_ehalf}He perdido el apetito y el sueño, solo entreno mis Pokémon todo el día, somos más y más fuertes cada vez.$@c{neutral}De hecho... casi no me reconozco a mi misma.$Por fin, he alcanzado mi potencial. \nNo creo que nadie pueda ganarme ahora.$¿Y sabes qué? Es todo gracias a ti.\n@c{smile_ehalf}No sé si agradecerte u odiarte por ello.$@c{angry_mopen}Prepárate."
+    },
+    "victory": {
+      "1": "@c{neutral}Qué…@d{64} ¿Qué eres?"
+    },
+    "defeat": {
+      "1": "$@c{smile}Espero que estés orgulloso de los lejos que has llegado."
+    }
+  },
+  "rival5": {
+    "encounter": {
+      "1": "@c{neutral}…"
+    },
+    "victory": {
+      "1": "@c{neutral}…"
+    }
+  },
+  "rival5Female": {
+    "encounter": {
+      "1": "@c{neutral}…"
+    },
+    "victory": {
+      "1": "@c{neutral}…"
+    },
+    "defeat": {
+      "1": "$@c{smile_ehalf}…"
+    }
+  },
+  "rival6": {
+    "encounter": {
+      "1": "@c{smile_eclosed}Volvemos a vernos.$@c{neutral}He tenido tiempo para reflexionar todo esto.\nHe descubierto por qué todo se siente tan extraño.$@c{neutral_eclosed}Tu sueño, mi ímpetu por vencerte…\nEs todo parte de algo más grande.$@c{serious}No eres tú, no soy yo… El mundo está en juego, @c{serious_mhalf_fists}y es mi deber empujarte hacia tus límites.$@c{neutral_eclosed}Si he cumplido mi prometido, no estoy seguro, pero he hecho todo en mi mano.$@c{neutral}Este lugar al que hemos llegado es terrorífico… Y sin embargo no me inmuta, como si hubiera estado aquí antes.$@c{serious_mhalf_fists}Tú también lo sientes, ¿no?$@c{serious}…y es como si algo aquí me hablara.\nEsto es todo lo que el mundo ha conocido todo este tiempo. $Esos tiempos que compartimos juntos, que parecen tan recientes, sono solo una memoria lejana.$@c{neutral_eclosed}No tengo muy claro si en algún momento tan siquiera fueron reales.$@c{serious_mopen_fists}Tienes que seguir intentándolo, si no, esto nunca acabará. Eres la única que puede detener esto.$@c{serious_smile_fists}Apenas comprendo que significa todo esto, solo sé que es verdad.$@c{serious_mopen_fists}Si no puedes conmigo, aquí y ahora, no tienes ninguna oportunidad."
     }
   }
 }
