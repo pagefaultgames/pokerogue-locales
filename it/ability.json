@@ -5,7 +5,7 @@
   },
   "drizzle": {
     "name": "Piovischio",
-    "description": "Il Pokémon causa pioggia che dura 5 turni da quando entra in battaglia. Aumenta del 50% i danni inflitti dalle mosse di tipo Acqua e dimezza i danni inflitti da quelle di tipo Fuoco."
+    "description": "Il Pokémon provoca una forte pioggia per 5 turni da quando entra in battaglia. Aumenta del 50% i danni inflitti dalle mosse di tipo Acqua e dimezza i danni inflitti da quelle di tipo Fuoco."
   },
   "speedBoost": {
     "name": "Acceleratore",
@@ -276,7 +276,8 @@
     "description": "Anche se il Pokémon usa delle mosse che causano un contraccolpo, non perde PS."
   },
   "drought": {
-    "name": "Siccità"
+    "name": "Siccità",
+    "description": "Il Pokémon intensifica i raggi solari per 5 turni da quando entra in battaglia. Aumenta del 50% i danni inflitti dalle mosse di tipo Fuoco e dimezza i danni inflitti da quelle di tipo Acqua."
   },
   "arenaTrap": {
     "name": "Trappoarena",
@@ -463,7 +464,8 @@
     "description": "Riduce i danni subiti dalle mosse superefficaci del 25%."
   },
   "snowWarning": {
-    "name": "Scendineve"
+    "name": "Scendineve",
+    "description": "Il Pokémon causa una nevicata per 5 turni da quando entra in battaglia. Aumenta del 50% la Difesa dei Pokémon di tipo Ghiaccio."
   },
   "honeyGather": {
     "name": "Mielincetta",
@@ -750,10 +752,12 @@
     "description": "Gli effetti di Aurafolletto e Auratetra sono invertiti e annullati, riducendo la potenza delle mosse affette del 25%."
   },
   "primordialSea": {
-    "name": "Mare Primordiale"
+    "name": "Mare Primordiale",
+    "description": "Crea un clima che rende inefficaci gli attacchi di tipo Fuoco. Aumenta del 50% i danni inflitti dalle mosse di tipo Acqua."
   },
   "desolateLand": {
-    "name": "Terra Estrema"
+    "name": "Terra Estrema",
+    "description": "Crea un clima che rende inefficaci gli attacchi di tipo Acqua. Aumenta del 50% i danni inflitti dalle mosse di tipo Fuoco."
   },
   "deltaStream": {
     "name": "Flusso Delta",
@@ -896,16 +900,20 @@
     "description": "Il tipo del Pokémon cambia in base alla ROM installata."
   },
   "electricSurge": {
-    "name": "Elettrogenesi"
+    "name": "Elettrogenesi",
+    "description": "Quando il Pokémon entra in campo, lo trasforma in un Campo Elettrico per 5 turni. Aumenta del 30% la potenza delle mosse di tipo Elettro e rende immuni allo stato Sonno. Ha effetto solo sui Pokémon a contatto con il terreno."
   },
   "psychicSurge": {
-    "name": "Psicogenesi"
+    "name": "Psicogenesi",
+    "description": "Quando il Pokémon entra in campo, lo trasforma in un Campo Psichico per 5 turni. Aumenta del 30% la potenza delle mosse di tipo Psico e rende immuni alle mosse ad alta priorità. Ha effetto solo sui Pokémon a contatto con il terreno."
   },
   "mistySurge": {
-    "name": "Nebbiogenesi"
+    "name": "Nebbiogenesi",
+    "description": "Quando il Pokémon entra in campo, lo trasforma in un Campo Nebbioso per 5 turni. Dimezza i danni subiti dalle mosse di tipo Drago e rende immuni ai problemi di stato e allo stato Confusione. Ha effetto solo sui Pokémon a contatto con il terreno."
   },
   "grassySurge": {
-    "name": "Erbogenesi"
+    "name": "Erbogenesi",
+    "description": "Quando il Pokémon entra in campo, lo trasforma in un Campo Erboso per 5 turni. Aumenta del 30% la potenza delle mosse di tipo Erba e restituisce 1/16 dei PS massimi alla fine di ogni turno. Ha effetto solo sui Pokémon a contatto con il terreno."
   },
   "fullMetalBody": {
     "name": "Metalprotezione",
@@ -968,7 +976,8 @@
     "description": "Aumenta la potenza delle mosse basate sul suono del 30%. Inoltre, dimezza i danni subiti dal Pokémon se viene colpito da tali mosse."
   },
   "sandSpit": {
-    "name": "Sputasabbia"
+    "name": "Sputasabbia",
+    "description": "Causa una tempesta di sabbia per 5 turni quando il Pokémon subisce danni da una mossa. Alla fine di ogni turno, infligge ai Pokémon che\nnon sono di tipo Roccia, Terra o Acciaio danni pari a 1/16 dei loro PS massimi. Inoltre, aumenta del 50% la Difesa Speciale dei Pokémon di tipo Roccia."
   },
   "iceScales": {
     "name": "Geloscaglie",
@@ -999,7 +1008,8 @@
     "description": "Aumenta la potenza delle mosse di tipo Acciaio usato dal Pokémon e dei suoi alleati del 50%."
   },
   "perishBody": {
-    "name": "Ultimotocco"
+    "name": "Ultimotocco",
+    "description": "Se il Pokémon viene colpito da una mossa da contatto,dopo tre turni va KO assieme a chi lo ha attaccato. Se uno dei due viene sostituito, non va KO. I Boss Pokémon sono immuni a questa mossa."
   },
   "wanderingSpirit": {
     "name": "Anima Errante",
@@ -1010,7 +1020,8 @@
     "description": "Aumenta l’Attacco del 50% ma costringe il Pokémon a usare solo la prima mossa selezionata."
   },
   "neutralizingGas": {
-    "name": "Gas Reagente"
+    "name": "Gas Reagente",
+    "description": "Se in campo c’è un Pokémon con Gas Reagente, gli effetti delle abilità e passiva di tutti gli altri Pokémon vengono annullati o non si attivano."
   },
   "pastelVeil": {
     "name": "Pastelvelo",
@@ -1061,7 +1072,8 @@
     "description": "L’abilità di chi entra in contatto con il Pokémon diventa Odore Tenace."
   },
   "seedSower": {
-    "name": "Spargisemi"
+    "name": "Spargisemi",
+    "description": "Se il Pokémon subisce un attacco, il terreno entra nello stato di Campo Erboso per 5 turni. Aumenta del 30% la potenza delle mosse di tipo Erba e restituisce 1/16 dei PS massimi alla fine di ogni turno. Ha effetto solo sui Pokémon a contatto con il terreno."
   },
   "thermalExchange": {
     "name": "Termoscambio",
@@ -1136,10 +1148,12 @@
     "description": "La Difesa Speciale degli altri Pokémon in lotta viene indebolita del 25% dal potere dei gioielli che richiamano le disgrazie."
   },
   "orichalcumPulse": {
-    "name": "Ritmo d’Oricalco"
+    "name": "Ritmo d’Oricalco",
+    "description": "Quando il Pokémon entra in campo, la luce solare diventa intensa. Aumenta del 50% i danni inflitti dalle mosse di tipo Fuoco e dimezza i danni inflitti da quelle di tipo Acqua. Con la luce solare intensa l’Attacco del Pokémon aumenta del 30% grazie al battito dell’antichità."
   },
   "hadronEngine": {
-    "name": "Motore Adronico"
+    "name": "Motore Adronico",
+    "description": "Quando il Pokémon entra in campo, il terreno entra nello stato di Campo Elettrico. Aumenta del 30% la potenza delle mosse di tipo Elettro\ne rende immuni allo stato Sonno. Ha effetto solo sui Pokémon a contatto con il terreno. In presenza di Campo Elettrico l’Attacco Speciale aumenta del 33% grazie al motore del futuro."
   },
   "opportunist": {
     "name": "Scrocco",
@@ -1162,7 +1176,8 @@
     "description": "Quando il Pokémon entra in battaglia, copia i cambi alle statistiche di un alleato."
   },
   "toxicDebris": {
-    "name": "Mantossina"
+    "name": "Mantossina",
+    "description": "Se il Pokémon subisce danni da mosse fisiche, piazza ai piedi degli avversari una trappola di punte velenose. Causa lo stato avvelenamento a chi entra in campo, o iperavvelenamento se applicato di nuovo quando già attivo. Termina se un Pokémon di tipo Veleno entra in campo."
   },
   "armorTail": {
     "name": "Codarmatura",
