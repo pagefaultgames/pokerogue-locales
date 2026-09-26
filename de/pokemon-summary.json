@@ -8,15 +8,15 @@
   "idNo": "ID Nr.{{idNo}}",
   "nature": "Wesen",
   "expPoints": "Erf. Punkte",
-  "lv": "Lv.",
+  "lv": "",
   "nextLv": "Nächstes Lv.",
   "cancel": "Abbrechen",
   "swapMove": "Attacke austauschen",
   "deleteMove": "Attacke vergessen",
   "memoString": "Wesen: {{natureFragment}}\n{{metFragment}}",
   "metFragment": {
-    "normal": "Herkunft: {{biome}} - Welle {{wave}}\nMit Lv. {{level}} erhalten.",
-    "apparently": "Herkunft: {{biome}}\nOffenbar mit Lv. {{level}} erhalten."
+    "normal": "Herkunft: {{biome}} - Welle {{wave}}\nMit {{level}} erhalten.",
+    "apparently": "Herkunft: {{biome}}\nOffenbar mit {{level}} erhalten."
   },
   "natureFragment": {
     "hardy": "{{nature}}",

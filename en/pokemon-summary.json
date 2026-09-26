@@ -8,15 +8,15 @@
   "idNo": "ID No.{{idNo}}",
   "nature": "nature",
   "expPoints": "Exp. Points",
-  "lv": "Lv.",
+  "lv": "",
   "nextLv": "Next Level",
   "cancel": "Cancel",
   "swapMove": "Swap Move",
   "deleteMove": "Forget Move",
   "memoString": "{{natureFragment}} nature,\n{{metFragment}}",
   "metFragment": {
-    "normal": "met at Lv{{level}},\n{{biome}}, Wave {{wave}}.",
-    "apparently": "apparently met at Lv{{level}},\n{{biome}}."
+    "normal": "met at {{level}},\n{{biome}}, Wave {{wave}}.",
+    "apparently": "apparently met at {{level}},\n{{biome}}."
   },
   "natureFragment": {
     "hardy": "{{nature}}",
