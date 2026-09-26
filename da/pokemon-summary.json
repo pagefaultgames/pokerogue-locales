@@ -8,13 +8,13 @@
   "idNo": "ID nr.{{idNo}}",
   "nature": "natur",
   "expPoints": "Erfaringspoint",
-  "lv": "N.",
+  "lv": "",
   "nextLv": "Næste niveau",
   "cancel": "Annuller",
   "memoString": "{{natureFragment}} natur,\n{{metFragment}}",
   "metFragment": {
-    "normal": "mødt ved N.{{level}},\n{{biome}}, Runde {{wave}}.",
-    "apparently": "Åbenbart mødt som N. {{level}}\ni {{biome}}-biomet."
+    "normal": "mødt ved {{level}},\n{{biome}}, Runde {{wave}}.",
+    "apparently": "Åbenbart mødt som {{level}}\ni {{biome}}-biomet."
   },
   "natureFragment": {
     "hardy": "{{nature}}",
