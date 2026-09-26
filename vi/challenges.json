@@ -115,11 +115,14 @@
   "movesetRandomizer": {
     "name": "Ngẫu nhiên hóa Chiêu thức",
     "desc": {
-      "1": "Ngẫu nhiên hóa bộ chiêu thức học được khi lên cấp của mỗi loài Pokémon.\n\n​Vô hiệu hóa thành tựu của các thử thách khác."
+      "0": "Ngẫu nhiên hóa bộ chiêu thức học được khi lên cấp của mỗi loài Pokémon. Có thể tùy chọn loại bỏ yêu cầu về chiêu thức cho các hình thức tiến hóa dựa trên chiêu thức.\n\nVô hiệu hóa thành tựu của các thử thách khác.",
+      "1": "Ngẫu nhiên hóa bộ chiêu thức học được khi lên cấp của mỗi loài Pokémon.\n\n​Vô hiệu hóa thành tựu của các thử thách khác.",
+      "2": "Ngẫu nhiên hóa bộ chiêu thức học được khi lên cấp của mỗi loài Pokémon. Các hình thức tiến hóa dựa trên chiêu thức được loại bỏ yêu cầu về chiêu thức.\n\nVô hiệu hóa thành tựu của các thử thách khác."
     },
     "value": {
       "0": "Tắt",
-      "1": "Bật"
+      "1": "Bật",
+      "2": "Tối Giản"
     }
   },
   "abilityRandomizer": {
