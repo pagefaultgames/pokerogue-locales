@@ -328,6 +328,7 @@
     "encounter": {
       "1": "¡Lucharé con toda mi fuerza para detenerte!",
       "2": "Me da igual que seas un crío. Eres una amenaza y debes irte.",
+      "2_female": "Me da igual que seas un crío. Eres una amenaza y debes irte.",
       "3": "Me dijeron que mandara a todos los entrenadores por donde venían, ¡sin excepciones!",
       "4": "¡Te mostraré el poder del Paraíso Æther!",
       "5": "Ahora que conoces la oscuridad en lo profundo del Paraíso Æther, es hora de que vayas desapareciendo…"
@@ -344,11 +345,13 @@
     "encounter": {
       "1": "¡Yo, Subdirector Fabio, te mostraré la cruda realidad del mundo!",
       "2": "¿Yo, la última línea de defensa de Æther, battallando a un mero crío?",
+      "2_female": "¿Yo, la última línea de defensa de Æther, battallando a un mero crío?",
       "3": "Yo, Fabio, soy el Subdirector de la Fundación Æther. Soy el único en el mundo, soy irremplazable."
     },
     "victory": {
       "1": "¡Aaaah!",
       "2": "¿C-c-cómo puede ser? Eres tan solo un niño…",
+      "2_female": "¿C-c-cómo puede ser? Eres tan solo una niña…",
       "3": "Este… este es el motivo por el que odio a los niños."
     }
   },
@@ -397,6 +400,28 @@
       "1": "¡Todo lo que quiero es a esta preciosa criatura! ¡Los demás no me importáis!"
     }
   },
+  "starBossPenny1": {
+    "encounter": {
+      "1": "Yo soy la autoridad suprema del Team Star,\nCasiopea...$Contemplad el poder arrollador de la fundadora\ndel Team Star... ¡y postraos ante mí!"
+    },
+    "victory": {
+      "1": "… … …"
+    },
+    "defeat": {
+      "1": "Je..."
+    }
+  },
+  "starBossPenny2": {
+    "encounter": {
+      "1": "Pienso emplearme a fondo en este combate.\n¡Así lo exige el código del Team Star!$¡Te voy a hacer polvo de estrellas!"
+    },
+    "victory": {
+      "1": "Se acabó..."
+    },
+    "defeat": {
+      "1": "No das cuartel al rival, ¿eh? Así se entiende que\nnuestros jefes perdieran contra ti."
+    }
+  },
   "statTrainerBuck": {
     "encounter": {
       "1": "Para que luego no digas que no te he advertido: soy muy fuerte.",
@@ -414,7 +439,8 @@
   "statTrainerCheryl": {
     "encounter": {
       "1": "Mis Pokémon han estado deseando una batalla.",
-      "2": "Debería advertirte de que mis Pokémon son un poco… hiperactivos."
+      "2": "Debería advertirte de que mis Pokémon son un poco… hiperactivos.",
+      "2_female": "Debería advertirte de que mis Pokémon son un poco... hiperactivos."
     },
     "victory": {
       "1": "No es fácil encontrar el equilibrio entre ataque y defensa…",
@@ -442,6 +468,7 @@
   "statTrainerMira": {
     "encounter": {
       "1": "¡Maiza te sorprenderá!",
+      "1_female": "¡Maiza te sorprenderá!",
       "2": "¡Maiza te mostrará que Maiza ya no se pierde!"
     },
     "victory": {
@@ -477,7 +504,8 @@
   },
   "winstratesVictoria": {
     "encounter": {
-      "1": "Huy, huy, huy… ¡Qué joven eres!$Pero le has dado una buena tunda a mi marido…$No hay que fiarse…¡Lucha ahora contra mí!"
+      "1": "Huy, huy, huy… ¡Qué joven eres!$Pero le has dado una buena tunda a mi marido…$No hay que fiarse…¡Lucha ahora contra mí!",
+      "1_female": "Huy, huy, huy… ¡Qué joven eres!$Pero le has dado una buena tunda a mi marido…$No hay que fiarse…¡Lucha ahora contra mí!"
     },
     "victory": {
       "1": "¡Ay! ¡No puedo creer que seas tan fuerte!"
@@ -505,6 +533,22 @@
     },
     "victory": {
       "1": "Logré superar a toda mi familia.\nNunca había perdido…"
+    }
+  },
+  "alternatePlayerM": {
+    "encounter": {
+      "1": "…"
+    },
+    "victory": {
+      "1": "…"
+    }
+  },
+  "alternatePlayerF": {
+    "encounter": {
+      "1": "…"
+    },
+    "victory": {
+      "1": "…"
     }
   },
   "giovanni": {
