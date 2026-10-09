@@ -464,7 +464,8 @@
     "description": "Redukuje moc superefektywnych ataków, które trafiają Pokémona o 25%."
   },
   "snowWarning": {
-    "name": "Zaśnieżanie"
+    "name": "Zaśnieżanie",
+    "description": "Przywołuje śnieżyce na 5 tur, gdy Pokémon wejdzie do bitwy. Statystyka Obrony zostaje zwiększona o 50% dla Pokémonów typu Lodowego."
   },
   "honeyGather": {
     "name": "Zbieracz Miodu",
@@ -539,6 +540,7 @@
     "description": "Waga Pokémona jest przepołowiona."
   },
   "multiscale": {
+    "name": "Multiłuska",
     "description": "Kiedy PŻ Pokémon’a jest pełne, obniża obrażenia o połowę."
   },
   "toxicBoost": {
@@ -590,11 +592,15 @@
     "description": "Zwiększa moc ruchu Pokémon’a o 30% jeśli jest ostatni który rusza się w tej turze."
   },
   "illusion": {
-    "name": "Iluzja"
+    "name": "Iluzja",
+    "description": "Pokémon oszukuje przeciwników, wchodząc do bitwy w przebraniu ostatniego Pokémona w drużynie Trenera. Wraca do swojego pierwotnego wyglądu po otrzymaniu obrażeń."
   },
   "imposter": {
     "name": "Zdrajca",
     "description": "Pokémon przemienia się w Pokémon’a naprzeciwko niego. Kopiuje także wszystkie jego statystyki, oprócz PŻ. Skopiowane ruchy mają po 5 PM."
+  },
+  "infiltrator": {
+    "name": "Infiltrator"
   },
   "magician": {
     "name": "Magik",
