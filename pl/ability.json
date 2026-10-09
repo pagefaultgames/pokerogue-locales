@@ -600,14 +600,92 @@
     "description": "Pokémon przemienia się w Pokémon’a naprzeciwko niego. Kopiuje także wszystkie jego statystyki, oprócz PŻ. Skopiowane ruchy mają po 5 PM."
   },
   "infiltrator": {
-    "name": "Infiltrator"
+    "name": "Infiltrator",
+    "description": "Podczas wykonywania ruchu, Pokémon ignoruje efekty Świetlisty Ekran, Odbicie, Woal Zorzy, Ochrona oraz Sobowtór Pokémona przeciwnika."
+  },
+  "mummy": {
+    "name": "Mumifikacja",
+    "description": "Kiedy Pokémon zostaje trafiony ruchem kontaktowym, Zdolność atakującego Pokémona zostanie zmieniona na Mumifikacje."
+  },
+  "moxie": {
+    "name": "Zadziorność",
+    "description": "Kiedy Pokémon znokautuje przeciwnika atakiem, ujawnia swoją Zadziorność, która zwiększa jego statystykę Ataku."
+  },
+  "justified": {
+    "name": "Sprawiedliwość",
+    "description": "Kiedy Pokémon zostaje trafiony ruchem typu Mrocznego, jego statystyka Ataku wzrasta dzięki poczuciu sprawiedliwości."
+  },
+  "rattled": {
+    "name": "Rzężenie",
+    "description": "Pokémon zostaje wystraszony gdy zostanie trafiony przez ruch typu Morcznego, Duchowego lub Robaczego, lub gdy zostanie zastraszony, przez co zwiększa statystykę Szybkości."
+  },
+  "magicBounce": {
+    "name": "Skok Magii",
+    "description": "Pokémon odbija ruchy statusowe, zamiast zostać przez nie trafiony."
+  },
+  "sapSipper": {
+    "name": "Wchłaniacz Soków",
+    "description": "Pokémon nie odnosi obrażeń, gdy zostanie trafiony ruchami typu Trawiastego. Zamiast tego wzmacnia się jego statystyka Ataku."
+  },
+  "prankster": {
+    "name": "Psotnik",
+    "description": "Zwiększa pierwszeństwo ruchów statusowych Pokémona o 1 stopień. Aczkolwiek ruchy statusowe tego Pokémona przestają działąć na Pokémony typu Mrocznego."
+  },
+  "sandForce": {
+    "name": "Siła Piasku",
+    "description": "Wzmacnia ruchy typu Kamiennego, Ziemnego i Stalowego o 30% podczas burzy piaskowej. Pokémon również nie otrzymuje obrażeń od burzy piaskowej."
+  },
+  "ironBarbs": {
+    "name": "Żelazne Kolce",
+    "description": "Żelazne kolce Pokémona zadają 1/8 maksymalnego PŻ atakującemu, jeśli ten nawiąże bezpośredni kontakt."
+  },
+  "zenMode": {
+    "name": "Tryb Zen",
+    "description": "Zmienia formę Pokémona w Tryb Zen, gdy jego HP spada do połowy lub mniej."
+  },
+  "victoryStar": {
+    "name": "Gwiazda Zwycięstwa",
+    "description": "Wzmacnia celność Pokémona i jego sojuszników o 10%."
+  },
+  "turboblaze": {
+    "name": "Turbopłomień",
+    "description": "Ruchy Pokémona nie są zakłócane przez Zdolność celu, z pewnymi wyjątkami."
+  },
+  "teravolt": {
+    "name": "Terawolt",
+    "description": "Ruchy Pokémona nie są zakłócane przez Zdolność celu, z pewnymi wyjątkami."
+  },
+  "aromaVeil": {
+    "name": "Woal Aromatu",
+    "description": "Chroni Pokémona i jego sojuszników przed efektami, które uniemożliwiają użycie ruchów takimi jak: Zauroczenie, Drwiny, Udręka, Wyłączenie, Blok Leczenia i bis."
+  },
+  "flowerVeil": {
+    "name": "Woal Kwiatu",
+    "description": "Jeżeli Pokémon lub jego sojusznicy są typu Trawiastego, są odporni na stany statusowe i nie mogą miec obniżownych statystyk."
+  },
+  "cheekPouch": {
+    "name": "Worek Policzkowy",
+    "description": "1/3 PŻ Pokémona zostaje przywrócone, gdy zje dowolną Jagodę, oprócz zwykłego efektu Jagody."
+  },
+  "protean": {
+    "name": "Zmienność",
+    "description": "Zmienia typ Pokémona na typ ruchu, którego ma użyć."
+  },
+  "furCoat": {
+    "name": "Futrzany Płaszcz",
+    "description": "Przepoławia obrażenia otrzymane z fizycznych ruchów."
   },
   "magician": {
     "name": "Magik",
     "description": "Pokémon kradnie trzymany przez przeciwnika przedmiot podczas uderzenia."
   },
   "bulletproof": {
-    "name": "Kuloodporność"
+    "name": "Kuloodporność",
+    "description": "Chroni Pokémona przed kulo- i bombo-podobnymi ruchami."
+  },
+  "competitive": {
+    "name": "Konkurencyjny",
+    "description": "Wzmacnia ostro statystykę Spec. Ataku Pokémona, gdy jego statystyki są obniżone przez przeciwnego Pokémona."
   },
   "symbiosis": {
     "name": "Symbioza"
