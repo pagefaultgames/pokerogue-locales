@@ -37,11 +37,11 @@
   },
   "voltAbsorb": {
     "name": "Voltabsorber",
-    "description": "Wird das Pokémon von einer Elektro-Attacke getroffen, erleidet es keinen Schaden, sondern regeneriert ¼ seiner maximalen KP."
+    "description": "Wird das Pokémon von einer Elektro-Attacke getroffen, erleidet es keinen Schaden, sondern regeneriert 1/4 seiner maximalen KP."
   },
   "waterAbsorb": {
     "name": "H2O-Absorber",
-    "description": "Wird das Pokémon von einer Wasser-Attacke getroffen, erleidet es keinen Schaden, sondern regeneriert ¼ seiner maximalen KP."
+    "description": "Wird das Pokémon von einer Wasser-Attacke getroffen, erleidet es keinen Schaden, sondern regeneriert 1/4 seiner maximalen KP."
   },
   "oblivious": {
     "name": "Dösigkeit",
@@ -93,7 +93,7 @@
   },
   "roughSkin": {
     "name": "Rauhaut",
-    "description": "Angreifer werden bei Berührung durch die raue Haut des Pokémon verletzt und erhalten ⅛ ihrer maximalen KP als Schaden."
+    "description": "Angreifer werden bei Berührung durch die raue Haut des Pokémon verletzt und erhalten 1/8 ihrer maximalen KP als Schaden."
   },
   "wonderGuard": {
     "name": "Wunderwache",
@@ -173,11 +173,11 @@
   },
   "rainDish": {
     "name": "Regengenuss",
-    "description": "Bei Regen regeneriert das Pokémon nach und nach KP. ¹⁄₁₆ der maximalen KP am Ende jeder Runde in der es regnet."
+    "description": "Bei Regen regeneriert das Pokémon nach und nach KP. 1/16 der maximalen KP am Ende jeder Runde in der es regnet."
   },
   "sandStream": {
     "name": "Sandsturm",
-    "description": "Das Pokémon erzeugt bei Kampfantritt für 5 Runden einen Sandsturm. Bei Pokémon vom Typ Gestein wird der Wert für die Spezial-Verteidigung um 50 % erhöht. Pokémon, die nicht den Typen Gestein, Boden oder Stahl angehören, erleiden am Ende jeder Runde Schaden in Höhe von ¹⁄₁₆ ihrer maximalen KP."
+    "description": "Das Pokémon erzeugt bei Kampfantritt für 5 Runden einen Sandsturm. Bei Pokémon vom Typ Gestein wird der Wert für die Spezial-Verteidigung um 50 % erhöht. Pokémon, die nicht den Typen Gestein, Boden oder Stahl angehören, erleiden am Ende jeder Runde Schaden in Höhe von 1/16 ihrer maximalen KP."
   },
   "pressure": {
     "name": "Erzwinger",
@@ -257,19 +257,19 @@
   },
   "overgrow": {
     "name": "Notdünger",
-    "description": "Wenn die KP des Pokémon unter ⅓ der maximalen KP fallen, steigt die Stärke seiner Pflanzen-Attacken um 50%."
+    "description": "Wenn die KP des Pokémon unter 1/3 der maximalen KP fallen, steigt die Stärke seiner Pflanzen-Attacken um 50%."
   },
   "blaze": {
     "name": "Großbrand",
-    "description": "Wenn die KP des Pokémon unter ⅓ der maximalen KP fallen, steigt die Stärke seiner Feuer-Attacken um 50%."
+    "description": "Wenn die KP des Pokémon unter 1/3 der maximalen KP fallen, steigt die Stärke seiner Feuer-Attacken um 50%."
   },
   "torrent": {
     "name": "Sturzbach",
-    "description": "Wenn die KP des Pokémon unter ⅓ der maximalen KP fallen, steigt die Stärke seiner Wasser-Attacken um 50%."
+    "description": "Wenn die KP des Pokémon unter 1/3 der maximalen KP fallen, steigt die Stärke seiner Wasser-Attacken um 50%."
   },
   "swarm": {
     "name": "Hexaplaga",
-    "description": "Wenn die KP des Pokémon unter ⅓ der maximalen KP fallen, steigt die Stärke seiner Käfer-Attacken um 50%."
+    "description": "Wenn die KP des Pokémon unter 1/3 der maximalen KP fallen, steigt die Stärke seiner Käfer-Attacken um 50%."
   },
   "rockHead": {
     "name": "Steinhaupt",
@@ -325,7 +325,7 @@
   },
   "gluttony": {
     "name": "Völlerei",
-    "description": "Das Pokémon setzt bestimmte Beeren nicht erst wenn seine KP auf unter ¼ der maximalen KP fällt, sondern bereits dann, wenn seine KP auf die Hälfte des Maximalwerts oder weniger fallen."
+    "description": "Das Pokémon setzt bestimmte Beeren nicht erst wenn seine KP auf unter 1/4 der maximalen KP fällt, sondern bereits dann, wenn seine KP auf die Hälfte des Maximalwerts oder weniger fallen."
   },
   "angerPoint": {
     "name": "Kurzschluss",
@@ -345,7 +345,7 @@
   },
   "drySkin": {
     "name": "Trockenheit",
-    "description": "Das Pokémon erleidet 25% mehr Schaden durch Feuer-Attacken und verliert bei Sonnenschein ⅛ seiner maximalen KP. Regeneriert bei Regen ¼ seiner maximalen KP am Ende der Runde. Wird es von Wasser-Attacken getroffen regeneriert es ⅛ seiner maximalen KP."
+    "description": "Das Pokémon erleidet 25% mehr Schaden durch Feuer-Attacken und verliert bei Sonnenschein 1/8 seiner maximalen KP. Regeneriert bei Regen 1/4 seiner maximalen KP am Ende der Runde. Wird es von Wasser-Attacken getroffen regeneriert es 1/8 seiner maximalen KP."
   },
   "download": {
     "name": "Download",
@@ -357,7 +357,7 @@
   },
   "poisonHeal": {
     "name": "Aufheber",
-    "description": "Das Pokémon erleidet keinen Schaden durch Vergiftung, sondern regeneriert ⅛ seiner maximalen KP."
+    "description": "Das Pokémon erleidet keinen Schaden durch Vergiftung, sondern regeneriert 1/8 seiner maximalen KP."
   },
   "adaptability": {
     "name": "Anpassung",
@@ -373,7 +373,7 @@
   },
   "solarPower": {
     "name": "Solarkraft",
-    "description": "Bei Sonnenschein steigt der Spezial-Angriff des Pokémon um 50%, aber dafür verliert es in jeder Runde ⅛ seiner maximalen KP."
+    "description": "Bei Sonnenschein steigt der Spezial-Angriff des Pokémon um 50%, aber dafür verliert es in jeder Runde 1/8 seiner maximalen KP."
   },
   "quickFeet": {
     "name": "Rasanz",
@@ -421,7 +421,7 @@
   },
   "aftermath": {
     "name": "Finalschlag",
-    "description": "Angreifer erleiden ¼ seiner maximalen KP als Schaden, wenn das Pokémon durch eine Attacke mit Berührung besiegt wird."
+    "description": "Angreifer erleiden 1/4 seiner maximalen KP als Schaden, wenn das Pokémon durch eine Attacke mit Berührung besiegt wird."
   },
   "anticipation": {
     "name": "Vorahnung",
@@ -457,7 +457,7 @@
   },
   "iceBody": {
     "name": "Eishaut",
-    "description": "Bei Schnee oder Hagel regeneriert das Pokémon nach und nach ¹⁄₁₆ der maximalen KP. Erleidet keinen Schaden durch Hagel."
+    "description": "Bei Schnee oder Hagel regeneriert das Pokémon nach und nach 1/16 der maximalen KP. Erleidet keinen Schaden durch Hagel."
   },
   "solidRock": {
     "name": "Felskern",
@@ -489,7 +489,7 @@
   },
   "badDreams": {
     "name": "Alptraum",
-    "description": "Schlafenden Gegnern wird ⅛ der maximalen KP als Schaden zugefügt."
+    "description": "Schlafenden Gegnern wird 1/8 der maximalen KP als Schaden zugefügt."
   },
   "pickpocket": {
     "name": "Langfinger",
@@ -573,7 +573,7 @@
   },
   "regenerator": {
     "name": "Belebekraft",
-    "description": "Wird das Pokémon ausgewechselt, regeneriert es eine ⅓ seiner maximalen KP."
+    "description": "Wird das Pokémon ausgewechselt, regeneriert es eine 1/3 seiner maximalen KP."
   },
   "bigPecks": {
     "name": "Brustbieter",
@@ -637,7 +637,7 @@
   },
   "ironBarbs": {
     "name": "Eisenstachel",
-    "description": "Das Pokémon fügt Angreifern bei Berührung mit eisernen Stacheln ⅛ seiner maximalen KP als Schaden zu."
+    "description": "Das Pokémon fügt Angreifern bei Berührung mit eisernen Stacheln 1/8 seiner maximalen KP als Schaden zu."
   },
   "zenMode": {
     "name": "Trance-Modus",
@@ -665,7 +665,7 @@
   },
   "cheekPouch": {
     "name": "Backentaschen",
-    "description": "Das Pokémon regeneriert beim Konsum von Beeren ungeachtet der Beerensorte zusätzlich ⅓ seiner KP."
+    "description": "Das Pokémon regeneriert beim Konsum von Beeren ungeachtet der Beerensorte zusätzlich 1/3 seiner KP."
   },
   "protean": {
     "name": "Wandlungskunst",
@@ -829,11 +829,11 @@
   },
   "schooling": {
     "name": "Fischschwarm",
-    "description": "Das Pokémon bildet einen mächtigen Schwarm, sobald es Level 20 erreicht. Der Schwarm löst sich auf, wenn die KP auf ¼ oder weniger sinken."
+    "description": "Das Pokémon bildet einen mächtigen Schwarm, sobald es Level 20 erreicht. Der Schwarm löst sich auf, wenn die KP auf 1/4 oder weniger sinken."
   },
   "disguise": {
     "name": "Kostümspuk",
-    "description": "Das Pokémon wehrt ein Mal pro Kampf mit seinem gruseligen Kostüm einen Angriff ab. Dadurch verliert es ⅛ seiner maximalen KP."
+    "description": "Das Pokémon wehrt ein Mal pro Kampf mit seinem gruseligen Kostüm einen Angriff ab. Dadurch verliert es 1/8 seiner maximalen KP."
   },
   "battleBond": {
     "name": "Freundschaftsakt",
@@ -961,7 +961,7 @@
   },
   "gulpMissile": {
     "name": "Würggeschoss",
-    "description": "Nach dem Einsatz von Surfer oder Taucher fängt das Pokémon Beute in seinem Schnabel. Erleidet es Schaden, spuckt es die Beute auf den Angreifer. Dies verursacht Schaden in Höhe von ¼ der maximalen KP des Gegners und senkt zusätzlich dessen Verteidigung oder verursacht Paralyse, je nach Art der Beute."
+    "description": "Nach dem Einsatz von Surfer oder Taucher fängt das Pokémon Beute in seinem Schnabel. Erleidet es Schaden, spuckt es die Beute auf den Angreifer. Dies verursacht Schaden in Höhe von 1/4 der maximalen KP des Gegners und senkt zusätzlich dessen Verteidigung oder verursacht Paralyse, je nach Art der Beute."
   },
   "stalwart": {
     "name": "Stahlrückgrat",
@@ -1185,7 +1185,7 @@
   },
   "earthEater": {
     "name": "Bodenschmaus",
-    "description": "Wird das Pokémon von einer Boden-Attacke getroffen, erleidet es keinen Schaden, sondern regeneriert stattdessen ¼ seiner maximalen KP."
+    "description": "Wird das Pokémon von einer Boden-Attacke getroffen, erleidet es keinen Schaden, sondern regeneriert stattdessen 1/4 seiner maximalen KP."
   },
   "myceliumMight": {
     "name": "Myzelienkraft",
@@ -1201,7 +1201,7 @@
   },
   "hospitality": {
     "name": "Gastlichkeit",
-    "description": "Bei Kampfantritt zeigt das Pokémon seine Gastlichkeit, indem es die KP seines Mitstreiters um ¼ ihrer maximalen KP auffüllt."
+    "description": "Bei Kampfantritt zeigt das Pokémon seine Gastlichkeit, indem es die KP seines Mitstreiters um 1/4 ihrer maximalen KP auffüllt."
   },
   "toxicChain": {
     "name": "Giftkette",
@@ -1241,7 +1241,7 @@
   },
   "piercingDrill": {
     "name": "Stichbohrer",
-    "description": "Setzt das Pokémon eine Kontaktattacke ein, trifft sie auch Ziele, die sich selbst schützen, und fügt ihnen ¼ des eigentlichen Schadens zu. Alle anderen Effekte werden trotzdem ausgelöst."
+    "description": "Setzt das Pokémon eine Kontaktattacke ein, trifft sie auch Ziele, die sich selbst schützen, und fügt ihnen 1/4 des eigentlichen Schadens zu. Alle anderen Effekte werden trotzdem ausgelöst."
   },
   "dragonize": {
     "name": "Drachenschicht",

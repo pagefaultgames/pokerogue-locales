@@ -1,6 +1,20 @@
 {
   "surviveDamageApply": "{{pokemonNameWithAffix}} выдержал(а) удар\nиспользуя свой {{typeName}}!",
   "turnHealApply": "{{pokemonNameWithAffix}} восстановил(а) немного здоровья\nс помощью {{typeName}}!",
+  "hitHealApply": "{{pokemonNameWithAffix}} восстановил(а) немного\nздоровья с помощью {{typeName}}!",
+  "pokemonInstantReviveApply": "{{pokemonNameWithAffix}} был оживлён с помощью {{typeName}}!",
+  "resetNegativeStatStageApply": "Сниженные характеристики {{pokemonNameWithAffix}} были восстановлены с помощью {{typeName}}!",
+  "moneyInterestApply": "Вы получили проценты в размере {{moneyAmount}}₽ от {{typeName}}!",
+  "turnHeldItemTransferApply": "Вы получили проценты в размере {{moneyAmount}}₽ от {{typeName}}!",
   "contactHeldItemTransferApply": "{{pokemonNameWithAffix}}’s {{itemName}}был(а) украден(а)\n {{pokemonName}}’s {{typeName}}!",
-  "enemyTurnHealApply": "{{pokemonNameWithAffix}}\nвосстановил(а) немного жизни!"
+  "enemyTurnHealApply": "{{pokemonNameWithAffix}}\nвосстановил(а) немного жизни!",
+  "bypassSpeedChanceApply": "{{pokemonName}} может действовать быстрее\nобычного, благодаря своему {{itemName}}!",
+  "tier": {
+    "common": "Обычный",
+    "great": "Грэйт",
+    "ultra": "Ультра",
+    "rogue": "Роуг",
+    "master": "Мастер",
+    "luxury": "Лакшери"
+  }
 }

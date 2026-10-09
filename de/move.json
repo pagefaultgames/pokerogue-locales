@@ -77,7 +77,7 @@
   },
   "bind": {
     "name": "Klammergriff",
-    "effect": "Umklammert und quetscht das Ziel über vier bis fünf Runden. Das Ziel erleidet am Ende jedes Zuges Schaden in Höhe von ⅛ seiner maximalen KP."
+    "effect": "Umklammert und quetscht das Ziel über vier bis fünf Runden. Das Ziel erleidet am Ende jedes Zuges Schaden in Höhe von 1/8 seiner maximalen KP."
   },
   "slam": {
     "name": "Slam",
@@ -101,7 +101,7 @@
   },
   "jumpKick": {
     "name": "Sprungkick",
-    "effect": "Der Angreifer hüpft hoch und tritt zu. Bei Misserfolg schadet er sich selbst und nimmt ½ seiner maximalen KP schaden."
+    "effect": "Der Angreifer hüpft hoch und tritt zu. Bei Misserfolg schadet er sich selbst und nimmt 1/2 seiner maximalen KP schaden."
   },
   "rollingKick": {
     "name": "Fegekick",
@@ -137,11 +137,11 @@
   },
   "wrap": {
     "name": "Wickel",
-    "effect": "Umwickelt das Ziel über vier bis fünf Runden mit Ranken oder Ähnlichem. Das Ziel erleidet am Ende jedes Zuges Schaden in Höhe von ⅛ seiner maximalen KP."
+    "effect": "Umwickelt das Ziel über vier bis fünf Runden mit Ranken oder Ähnlichem. Das Ziel erleidet am Ende jedes Zuges Schaden in Höhe von 1/8 seiner maximalen KP."
   },
   "takeDown": {
     "name": "Bodycheck",
-    "effect": "Rücksichtslose Attacke, bei der sich der Angreifer selbst leicht verletzt. Der Anwender erleidet ein ¼ des durch diese Attacke verursachten Schadens."
+    "effect": "Rücksichtslose Attacke, bei der sich der Angreifer selbst leicht verletzt. Der Anwender erleidet ein 1/4 des durch diese Attacke verursachten Schadens."
   },
   "thrash": {
     "name": "Fuchtler",
@@ -149,7 +149,7 @@
   },
   "doubleEdge": {
     "name": "Risikotackle",
-    "effect": "Lebensgefährlicher Angriff, bei dem sich der Angreifer selbst verletzt. Der Anwender erleidet  ⅓ des durch diese Attacke verursachten Schadens."
+    "effect": "Lebensgefährlicher Angriff, bei dem sich der Angreifer selbst verletzt. Der Anwender erleidet  1/3 des durch diese Attacke verursachten Schadens."
   },
   "tailWhip": {
     "name": "Rutenschlag",
@@ -261,7 +261,7 @@
   },
   "submission": {
     "name": "Überroller",
-    "effect": "Der Anwender packt das Ziel und stürzt sich rücksichtslos zu Boden. Er erleidet dabei ¼ des durch diese Attacke verursachten Schadens."
+    "effect": "Der Anwender packt das Ziel und stürzt sich rücksichtslos zu Boden. Er erleidet dabei 1/4 des durch diese Attacke verursachten Schadens."
   },
   "lowKick": {
     "name": "Fußkick",
@@ -289,7 +289,7 @@
   },
   "leechSeed": {
     "name": "Egelsamen",
-    "effect": "Auf dem Ziel wird ein Samen platziert. Am Ende jeder Runde absorbieren Pokémon, die sich an der Position befinden, von der aus diese Attacke eingesetzt wurde, ⅛ der maximalen KP des Ziels."
+    "effect": "Auf dem Ziel wird ein Samen platziert. Am Ende jeder Runde absorbieren Pokémon, die sich an der Position befinden, von der aus diese Attacke eingesetzt wurde, 1/8 der maximalen KP des Ziels."
   },
   "growth": {
     "name": "Wachstum",
@@ -329,7 +329,7 @@
   },
   "fireSpin": {
     "name": "Feuerwirbel",
-    "effect": "Das Ziel wird für vier bis fünf Runden in einem Feuerkreis gefangen. Das Ziel erleidet am Ende jedes Zuges Schaden in Höhe von ⅛ seiner maximalen KP."
+    "effect": "Das Ziel wird für vier bis fünf Runden in einem Feuerkreis gefangen. Das Ziel erleidet am Ende jedes Zuges Schaden in Höhe von 1/8 seiner maximalen KP."
   },
   "thunderShock": {
     "name": "Donnerschock",
@@ -365,7 +365,7 @@
   },
   "toxic": {
     "name": "Toxin",
-    "effect": "Eine Attacke, die das Ziel schwer vergiftet. Das Ziel erleidet am Ende jeder Runde zunehmenden Giftschaden: zunächst ¹⁄₁₆ der maximalen KP des Pokémon, dann ²⁄₁₆ und so weiter. Ist der Anwender vom Typ Gift, trifft diese Attacke immer."
+    "effect": "Eine Attacke, die das Ziel schwer vergiftet. Das Ziel erleidet am Ende jeder Runde zunehmenden Giftschaden: zunächst 1/16 der maximalen KP des Pokémon, dann 2/16 und so weiter. Ist der Anwender vom Typ Gift, trifft diese Attacke immer."
   },
   "confusion": {
     "name": "Konfusion",
@@ -417,7 +417,7 @@
   },
   "recover": {
     "name": "Genesung",
-    "effect": "Eine Selbstheilung. KP des Anwenders werden um ½ des maximalen Wertes aufgefüllt."
+    "effect": "Eine Selbstheilung. KP des Anwenders werden um 1/2 des maximalen Wertes aufgefüllt."
   },
   "harden": {
     "name": "Härtner",
@@ -509,7 +509,7 @@
   },
   "clamp": {
     "name": "Schnapper",
-    "effect": "Fängt und quetscht das Ziel durch die harte Schale des Anwenders. Über vier bis fünf Runden hinweg erleidet das Ziel am Ende jeder Runde Schaden in Höhe von ⅛ seiner maximalen KP."
+    "effect": "Fängt und quetscht das Ziel durch die harte Schale des Anwenders. Über vier bis fünf Runden hinweg erleidet das Ziel am Ende jeder Runde Schaden in Höhe von 1/8 seiner maximalen KP."
   },
   "swift": {
     "name": "Sternschauer",
@@ -537,11 +537,11 @@
   },
   "softBoiled": {
     "name": "Weichei",
-    "effect": "KP des Anwenders werden um ½ der maximalen KP aufgefüllt."
+    "effect": "KP des Anwenders werden um 1/2 der maximalen KP aufgefüllt."
   },
   "highJumpKick": {
     "name": "Turmkick",
-    "effect": "Sprungtritt mit Knie. Bei Misserfolg schadet er sich selbst und nimmt ½ seiner maximalen KP schaden."
+    "effect": "Sprungtritt mit Knie. Bei Misserfolg schadet er sich selbst und nimmt 1/2 seiner maximalen KP schaden."
   },
   "glare": {
     "name": "Schlangenblick",
@@ -657,7 +657,7 @@
   },
   "struggle": {
     "name": "Verzweifler",
-    "effect": "Angriff nur bei verbrauchten AP. Der Anwender verliert ¼ seiner maximalen KP."
+    "effect": "Angriff nur bei verbrauchten AP. Der Anwender verliert 1/4 seiner maximalen KP."
   },
   "sketch": {
     "name": "Nachahmer",
@@ -693,7 +693,7 @@
   },
   "curse": {
     "name": "Fluch",
-    "effect": "Der Anwender erhöht seine Angriffs- und Verteidigungswerte auf Kosten seines Initiative-Werts. Setzen Geist-Pokémon diese Attacke ein, verliert der Anwender ½ seiner maximalen KP, um das Ziel zu verfluchen; dieses erleidet daraufhin am Ende jeder Runde Schaden in Höhe ¼ seiner maximalen KP."
+    "effect": "Der Anwender erhöht seine Angriffs- und Verteidigungswerte auf Kosten seines Initiative-Werts. Setzen Geist-Pokémon diese Attacke ein, verliert der Anwender 1/2 seiner maximalen KP, um das Ziel zu verfluchen; dieses erleidet daraufhin am Ende jeder Runde Schaden in Höhe 1/4 seiner maximalen KP."
   },
   "flail": {
     "name": "Dreschflegel",
@@ -725,7 +725,7 @@
   },
   "protect": {
     "name": "Schutzschild",
-    "effect": "Diese Attacke ermöglicht es dem Anwender, sich vor allen Angriffen zu schützen. Bei jeder aufeinanderfolgenden Anwendung sinkt die Erfolgschance der Attacke auf  ⅓ des vorherigen Werts."
+    "effect": "Diese Attacke ermöglicht es dem Anwender, sich vor allen Angriffen zu schützen. Bei jeder aufeinanderfolgenden Anwendung sinkt die Erfolgschance der Attacke auf 1/3 des vorherigen Werts."
   },
   "machPunch": {
     "name": "Tempohieb",
@@ -761,7 +761,7 @@
   },
   "spikes": {
     "name": "Stachler",
-    "effect": "Der Anwender legt eine Stachelfalle vor die Füße des gegnerischen Teams; gegnerische Pokémon, die in den Kampf wechseln, erleiden dabei Schaden in Höhe von ⅛ ihrer maximalen KP. Dieser Schaden erhöht sich bei mehreren Stachelschichten (bis zu einem Maximum von drei Schichten). Flug-Pokémon sowie Pokémon mit der Fähigkeit Schwebe sind davon nicht betroffen."
+    "effect": "Der Anwender legt eine Stachelfalle vor die Füße des gegnerischen Teams; gegnerische Pokémon, die in den Kampf wechseln, erleiden dabei Schaden in Höhe von 1/8 ihrer maximalen KP. Dieser Schaden erhöht sich bei mehreren Stachelschichten (bis zu einem Maximum von drei Schichten). Flug-Pokémon sowie Pokémon mit der Fähigkeit Schwebe sind davon nicht betroffen."
   },
   "zapCannon": {
     "name": "Blitzkanone",
@@ -785,7 +785,7 @@
   },
   "detect": {
     "name": "Scanner",
-    "effect": "Diese Attacke ermöglicht es dem Anwender, sich vor allen Angriffen zu schützen. Bei jeder aufeinanderfolgenden Anwendung sinkt die Erfolgschance der Attacke auf  ⅓ des vorherigen Werts."
+    "effect": "Diese Attacke ermöglicht es dem Anwender, sich vor allen Angriffen zu schützen. Bei jeder aufeinanderfolgenden Anwendung sinkt die Erfolgschance der Attacke auf  1/3 des vorherigen Werts."
   },
   "boneRush": {
     "name": "Knochenhatz",
@@ -801,7 +801,7 @@
   },
   "sandstorm": {
     "name": "Sandsturm",
-    "effect": "Sandsturm für fünf Runden. Pokémon, die nicht vom Typ Gestein, Boden oder Stahl sind, erleiden am Ende jeder Runde Schaden in Höhe von ¹⁄₁₆ ihrer maximalen KP. Zudem erhöht der Sandsturm den Spezial-Verteidigungs-Wert von Pokémon des Typs Gestein um 50 %."
+    "effect": "Sandsturm für fünf Runden. Pokémon, die nicht vom Typ Gestein, Boden oder Stahl sind, erleiden am Ende jeder Runde Schaden in Höhe von 1/16 ihrer maximalen KP. Zudem erhöht der Sandsturm den Spezial-Verteidigungs-Wert von Pokémon des Typs Gestein um 50 %."
   },
   "gigaDrain": {
     "name": "Gigasauger",
@@ -933,15 +933,15 @@
   },
   "morningSun": {
     "name": "Morgengrauen",
-    "effect": "Der Anwender sonnt sich in den angenehmen Sonnenstrahlen und regeneriert dabei ½ seiner maximalen KP. Bei starkem Sonnenlicht werden stattdessen ⅔ der maximalen KP wiederhergestellt. Bei allen anderen Wetterbedingungen werden stattdessen ¼ der maximalen KP regeneriert."
+    "effect": "Der Anwender sonnt sich in den angenehmen Sonnenstrahlen und regeneriert dabei 1/2 seiner maximalen KP. Bei starkem Sonnenlicht werden stattdessen ⅔ der maximalen KP wiederhergestellt. Bei allen anderen Wetterbedingungen werden stattdessen 1/4 der maximalen KP regeneriert."
   },
   "synthesis": {
     "name": "Synthese",
-    "effect": "Der Anwender erzeugt durch Photosynthese Energie und regeneriert dabei ½ seiner maximalen KP. Bei starkem Sonnenlicht werden stattdessen ⅔ seiner maximalen KP wiederhergestellt. Bei allen anderen Wetterbedingungen werden stattdessen ¼ seiner maximalen KP wiederhergestellt."
+    "effect": "Der Anwender erzeugt durch Photosynthese Energie und regeneriert dabei 1/2 seiner maximalen KP. Bei starkem Sonnenlicht werden stattdessen ⅔ seiner maximalen KP wiederhergestellt. Bei allen anderen Wetterbedingungen werden stattdessen 1/4 seiner maximalen KP wiederhergestellt."
   },
   "moonlight": {
     "name": "Mondschein",
-    "effect": "Der Anwender badet im beruhigenden Mondlicht und regeneriert dabei ½ seiner maximalen KP. Bei starkem Sonnenlicht werden stattdessen ⅔ der maximalen KP wiederhergestellt. Bei allen anderen Wetterbedingungen werden stattdessen ¼ der maximalen KP wiederhergestellt."
+    "effect": "Der Anwender badet im beruhigenden Mondlicht und regeneriert dabei 1/2 seiner maximalen KP. Bei starkem Sonnenlicht werden stattdessen ⅔ der maximalen KP wiederhergestellt. Bei allen anderen Wetterbedingungen werden stattdessen 1/4 der maximalen KP wiederhergestellt."
   },
   "hiddenPower": {
     "name": "Kraftreserve",
@@ -1021,7 +1021,7 @@
   },
   "swallow": {
     "name": "Verzehrer",
-    "effect": "Die durch die Attacke Horter gespeicherten Stufen werden vom Anwender absorbiert, um dessen KP wiederherzustellen. Stufe 1: ¼ der maximalen KP des Anwenders wird wiederhergestellt. Stufe 2: ½ der maximalen KP des Anwenders wird wiederhergestellt. Stufe 3: Die KP des Anwenders werden vollständig wiederhergestellt."
+    "effect": "Die durch die Attacke Horter gespeicherten Stufen werden vom Anwender absorbiert, um dessen KP wiederherzustellen. Stufe 1: 1/4 der maximalen KP des Anwenders wird wiederhergestellt. Stufe 2: 1/2 der maximalen KP des Anwenders wird wiederhergestellt. Stufe 3: Die KP des Anwenders werden vollständig wiederhergestellt."
   },
   "heatWave": {
     "name": "Hitzewelle",
@@ -1029,7 +1029,7 @@
   },
   "hail": {
     "name": "Hagelsturm",
-    "effect": "Der Anwender beschwört einen Hagelsturm, der 5 Runden lang anhält. Alle Pokémon außer Eis-Pokémon erleiden am Ende jeder Runde Schaden in Höhe von ¹⁄₁₆ ihrer maximalen KP."
+    "effect": "Der Anwender beschwört einen Hagelsturm, der 5 Runden lang anhält. Alle Pokémon außer Eis-Pokémon erleiden am Ende jeder Runde Schaden in Höhe von 1/16 ihrer maximalen KP."
   },
   "torment": {
     "name": "Folterknecht",
@@ -1097,7 +1097,7 @@
   },
   "ingrain": {
     "name": "Verwurzler",
-    "effect": "Der Anwender schlägt Wurzeln, die am Ende jeder Runde ¹⁄₁₆ seiner maximalen KP wiederherstellen. Durch das Verwurzeln gilt der Anwender als am Boden befindlich und kann weder fliehen noch aus dem Kampf ausgetauscht werden."
+    "effect": "Der Anwender schlägt Wurzeln, die am Ende jeder Runde 1/16 seiner maximalen KP wiederherstellen. Durch das Verwurzeln gilt der Anwender als am Boden befindlich und kann weder fliehen noch aus dem Kampf ausgetauscht werden."
   },
   "superpower": {
     "name": "Kraftkoloss",
@@ -1565,7 +1565,7 @@
   },
   "aquaRing": {
     "name": "Wasserring",
-    "effect": "Anwender umgibt sich mit einem Schleier aus Wasser. Dabei regeneriert er ¹⁄₁₆ seiner maximalen KP pro Runde."
+    "effect": "Anwender umgibt sich mit einem Schleier aus Wasser. Dabei regeneriert er 1/16 seiner maximalen KP pro Runde."
   },
   "magnetRise": {
     "name": "Magnetflug",
@@ -1921,7 +1921,7 @@
   },
   "flameBurst": {
     "name": "Funkenflug",
-    "effect": "Der Anwender greift das Ziel mit einer berstenden Flamme an. Diese fügt auch Pokémon in der Nähe des Ziels Schaden in Höhe von ¹⁄₁₆ ihrer maximalen KP zu."
+    "effect": "Der Anwender greift das Ziel mit einer berstenden Flamme an. Diese fügt auch Pokémon in der Nähe des Ziels Schaden in Höhe von 1/16 ihrer maximalen KP zu."
   },
   "sludgeWave": {
     "name": "Schlammwoge",
@@ -2169,7 +2169,7 @@
   },
   "headCharge": {
     "name": "Steinschädel",
-    "effect": "Der Anwender stürmt mit dem Kopf voran auf das Ziel zu und setzt dabei sein kräftiges Deckhaar ein. Der Anwender erleidet ¼ des durch diese Attacke verursachten Schadens."
+    "effect": "Der Anwender stürmt mit dem Kopf voran auf das Ziel zu und setzt dabei sein kräftiges Deckhaar ein. Der Anwender erleidet 1/4 des durch diese Attacke verursachten Schadens."
   },
   "gearGrind": {
     "name": "Klikkdiskus",
@@ -2317,7 +2317,7 @@
   },
   "grassyTerrain": {
     "name": "Grasfeld",
-    "effect": "Verwandelt das gesamte Kampffeld für 5 Runden in Grasfeld. Die Stärke von Pflanzen-Attacken von Pokémon am Boden wird um 30 % erhöht, und sie regenerieren am Ende jeder Runde ¹⁄₁₆ ihrer maximalen KP."
+    "effect": "Verwandelt das gesamte Kampffeld für 5 Runden in Grasfeld. Die Stärke von Pflanzen-Attacken von Pokémon am Boden wird um 30 % erhöht, und sie regenerieren am Ende jeder Runde 1/16 ihrer maximalen KP."
   },
   "mistyTerrain": {
     "name": "Nebelfeld",
@@ -2381,7 +2381,7 @@
   },
   "spikyShield": {
     "name": "Schutzstacheln",
-    "effect": "Der Anwender schützt sich für die Dauer der Runde vor eingehenden Attacken. Angreifer, die in dieser Runde Kontakt-Attacken gegen den Anwender einsetzen, erleiden Schaden in Höhe von ⅛ ihrer maximalen KP. Bei jeder aufeinanderfolgenden Anwendung sinkt die Erfolgschance dieser Attacke auf ein Drittel des vorherigen Wertes."
+    "effect": "Der Anwender schützt sich für die Dauer der Runde vor eingehenden Attacken. Angreifer, die in dieser Runde Kontakt-Attacken gegen den Anwender einsetzen, erleiden Schaden in Höhe von 1/8 ihrer maximalen KP. Bei jeder aufeinanderfolgenden Anwendung sinkt die Erfolgschance dieser Attacke auf ein Drittel des vorherigen Wertes."
   },
   "aromaticMist": {
     "name": "Duftwolke",
@@ -2949,7 +2949,7 @@
   },
   "sappySeed": {
     "name": "Sprießbomben",
-    "effect": "Der Anwender lässt einen riesigen Stängel wachsen, der Samen verstreut, um das Ziel anzugreifen. Das Pokémon stiehlt am Ende jeder Runde ⅛ der maximalen KP des Ziels."
+    "effect": "Der Anwender lässt einen riesigen Stängel wachsen, der Samen verstreut, um das Ziel anzugreifen. Das Pokémon stiehlt am Ende jeder Runde 1/8 der maximalen KP des Ziels."
   },
   "freezyFrost": {
     "name": "Klirrfrost",
@@ -2969,7 +2969,7 @@
   },
   "maxGuard": {
     "name": "Dyna-Wall",
-    "effect": "Diese Attacke ermöglicht es dem Anwender, sich vor allen Angriffen zu schützen. Bei jeder aufeinanderfolgenden Anwendung sinkt die Erfolgschance der Attacke auf  ⅓ des vorherigen Werts."
+    "effect": "Diese Attacke ermöglicht es dem Anwender, sich vor allen Angriffen zu schützen. Bei jeder aufeinanderfolgenden Anwendung sinkt die Erfolgschance der Attacke auf  1/3 des vorherigen Werts."
   },
   "dynamaxCannon": {
     "name": "Dynamax-Kanone",
@@ -3097,7 +3097,7 @@
   },
   "clangorousSoul": {
     "name": "Seelentanz",
-    "effect": "Der Anwender verliert ⅓ seiner maximalen KP, um seine Werte für Angriff, Verteidigung, Spezial-Angriff, Spezial-Verteidigung und Initiative zu erhöhen. Die Attacke schlägt fehl, wenn der Anwender nicht über genügend verbleibende KP verfügt."
+    "effect": "Der Anwender verliert 1/3 seiner maximalen KP, um seine Werte für Angriff, Verteidigung, Spezial-Angriff, Spezial-Verteidigung und Initiative zu erhöhen. Die Attacke schlägt fehl, wenn der Anwender nicht über genügend verbleibende KP verfügt."
   },
   "bodyPress": {
     "name": "Body Press",
@@ -3161,7 +3161,7 @@
   },
   "lifeDew": {
     "name": "Lebenstropfen",
-    "effect": "Der Anwender versprüht geheimnisvolles Wasser und stellt ¼ der maximalen KP von sich selbst und seinem Partner-Pokémon wieder her."
+    "effect": "Der Anwender versprüht geheimnisvolles Wasser und stellt 1/4 der maximalen KP von sich selbst und seinem Partner-Pokémon wieder her."
   },
   "obstruct": {
     "name": "Abblocker",
@@ -3261,7 +3261,7 @@
   },
   "jungleHealing": {
     "name": "Dschungelheilung",
-    "effect": "Der Anwender verschmilzt mit dem Dschungel, wodurch ¼ der maximalen KP des Anwenders und seines verbündeten Pokémon wiederhergestellt sowie Statusprobleme geheilt werden."
+    "effect": "Der Anwender verschmilzt mit dem Dschungel, wodurch 1/4 der maximalen KP des Anwenders und seines verbündeten Pokémon wiederhergestellt sowie Statusprobleme geheilt werden."
   },
   "wickedBlow": {
     "name": "Finstertreffer",
@@ -3377,7 +3377,7 @@
   },
   "ceaselessEdge": {
     "name": "Klingenschwall",
-    "effect": "Der Anwender schlägt mit einer geschärften Klinge auf das Ziel ein und hinterlässt dabei Splitter, die als Stacheln unter dem Ziel verbleiben. Pokémon, die in den Kampf wechseln, erleiden Schaden in Höhe von ⅛ ihrer maximalen KP. Es können bis zu drei Schichten ausgelegt werden, wobei jede Schicht den erlittenen Schaden erhöht. Flug-Pokémon oder Pokémon mit der Fähigkeit Schwebe sind von diesen Stacheln nicht betroffen."
+    "effect": "Der Anwender schlägt mit einer geschärften Klinge auf das Ziel ein und hinterlässt dabei Splitter, die als Stacheln unter dem Ziel verbleiben. Pokémon, die in den Kampf wechseln, erleiden Schaden in Höhe von 1/8 ihrer maximalen KP. Es können bis zu drei Schichten ausgelegt werden, wobei jede Schicht den erlittenen Schaden erhöht. Flug-Pokémon oder Pokémon mit der Fähigkeit Schwebe sind von diesen Stacheln nicht betroffen."
   },
   "bleakwindStorm": {
     "name": "Polarorkan",
@@ -3393,7 +3393,7 @@
   },
   "lunarBlessing": {
     "name": "Lunargebet",
-    "effect": "Der Anwender erhält einen Segen vom Halbmond, der ¼ der maximalen KP des Anwenders und seines verbündeten Pokémon wiederherstellt und gleichzeitig Statusprobleme heilt."
+    "effect": "Der Anwender erhält einen Segen vom Halbmond, der 1/4 der maximalen KP des Anwenders und seines verbündeten Pokémon wiederherstellt und gleichzeitig Statusprobleme heilt."
   },
   "takeHeart": {
     "name": "Mutschub",
@@ -3585,7 +3585,7 @@
   },
   "saltCure": {
     "name": "Pökelsalz",
-    "effect": "Der Anwender belegt das Ziel mit Salzsalbe, wodurch diesem am Ende jeder Runde Schaden in Höhe von ¹⁄₁₆ seiner maximalen KP zugefügt wird. Pokémon der Typen Stahl und Wasser erleiden stattdessen Schaden in Höhe von ⅛ ihrer maximalen KP."
+    "effect": "Der Anwender belegt das Ziel mit Salzsalbe, wodurch diesem am Ende jeder Runde Schaden in Höhe von 1/16 seiner maximalen KP zugefügt wird. Pokémon der Typen Stahl und Wasser erleiden stattdessen Schaden in Höhe von 1/8 ihrer maximalen KP."
   },
   "tripleDive": {
     "name": "Tauchtriade",
