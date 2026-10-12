@@ -3,9 +3,8 @@
   "illegalEvolution": "{{pokemon}} blev en ogiltig pokémon\nför denna utmaning!",
   "noneSelected": "Inga valda",
   "category": {
+    "general": "Allmänna",
     "randomizer": "Slumpgenerator",
-    "challenge": "Utmaningsrond",
-    "nuzlocke": "Nuzlocke",
     "misc": "Övrigt"
   },
   "freshStart": {
@@ -130,12 +129,14 @@
     "desc": {
       "0": "Slumpar särdragen (samt passiverna när tillvalda) hos alla pokémonarter.\n\nAndra utmaningsprestationer avaktiveras.",
       "1": "Slumpar särdragen hos alla pokémonarter.\n\nAndra utmaningsprestationer avaktiveras.",
-      "2": "Slumpar särdragen och passiverna hos alla pokémonarter.\n\nAndra utmaningsprestationer avaktiveras."
+      "2": "Slumpar särdragen och passiverna hos alla pokémonarter.\n\nAndra utmaningsprestationer avaktiveras.",
+      "3": "Slumpar särdragen och passiverna hos alla pokémonarter (exkl. särdrag som ändrar form).\n\nAndra utmaningsprestationer avaktiveras."
     },
     "value": {
       "0": "Av",
       "1": "Särdrag",
-      "2": "Alla"
+      "2": "Alla",
+      "3": "Teknikkrav av"
     }
   }
 }
