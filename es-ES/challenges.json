@@ -1,5 +1,5 @@
 {
-  "title": "Parámetros de desafíos",
+  "title": "Parámetros de Desafíos",
   "illegalEvolution": "¡{{pokemon}} se ha transformado en un Pokémon\nno apto para este desafío!",
   "noneSelected": "Ninguno Seleccionado",
   "category": {
@@ -8,45 +8,12 @@
     "randomizer": "Randomizador"
   },
   "freshStart": {
-    "name": "Nuevo Comienzo",
     "desc": {
-      "0": "Revive el desafío de usar iniciales recién obtenidos sin desbloqueables.",
-      "1": "Sólo puedes usar Pokémon iniciales originales, como si acabases de empezar PokéRogue.",
-      "2": "Puedes usar cualquier Pokémon inicial sin desbloqueables, como si los acabaras de conseguir."
-    },
-    "value": {
-      "0": "Desact.",
-      "1": "Reinicio Completo",
-      "2": "Todos los iniciales"
-    }
-  },
-  "hardcore": {
-    "name": "Extremo",
-    "desc": "No puedes revivir a Pokémon que han sido debilitados.",
-    "value": {
-      "0": "Desact.",
-      "1": "Activo"
-    }
-  },
-  "limitedCatch": {
-    "name": "Captura limitada",
-    "desc": "Solo puedes añadir a tu equipo al primer Pokémon encontrado en cada bioma.",
-    "value": {
-      "0": "Desact.",
-      "1": "Activo"
+      "1": "Sólo puedes usar Pokémon iniciales originales, como si acabases de empezar PokéRogue."
     }
   },
   "limitedSupport": {
-    "name": "Recursos Limitados",
-    "desc": {
-      "0": "Elimina algunas o todas las opciones gratuitas de curar a tu equipo.",
-      "1": "Elimina la curación al final del bioma.\nEn cambio, obtén una recompensa de fin de oleada estándar.",
-      "2": "Elimina la tienda en la recompensa de fin de oleada.",
-      "3": "Elimina la tienda en la recompensa de fin de oleada.\n\nElimina la curación al final del bioma.\nEn cambio, obtén una recompensa de fin de oleada estándar."
-    },
     "value": {
-      "0": "Desact.",
-      "1": "Sin Cura",
       "2": "Sin Tienda",
       "3": "Ambos"
     }
