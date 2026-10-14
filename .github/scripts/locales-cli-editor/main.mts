@@ -12,6 +12,7 @@
 
 import { existsSync, readdirSync, readFileSync, statSync, writeFileSync } from "node:fs";
 import { join, resolve } from "node:path";
+import { createInterface, type Key } from "node:readline";
 import { input, search, select } from "@inquirer/prompts";
 import chalk from "chalk";
 
@@ -26,8 +27,6 @@ const LOCALES_PATH = join(LOCALES_DIR, LANG_CODE);
 /** The list of supported languages */
 const SUPPORTED_LANGS: readonly string[] = readdirSync(LOCALES_DIR) //
   .filter((f) => f !== "en" && statSync(join(LOCALES_DIR, f)).isDirectory());
-/** The list of JSON files that can be edited */
-const LOCALES_FILES: readonly string[] = readdirSync(LOCALES_PATH).filter((f) => f.endsWith(".json"));
 /** The version of this script */
 const SCRIPT_VERSION = "1.1.0";
 
@@ -136,6 +135,16 @@ function deleteKey(filePath: string, key: string): boolean {
 
 //#region Interactive CLI
 
+/** Aborted when the user presses `Esc`, which cancels whichever prompt is active */
+const escController = new AbortController();
+/** The context passed to every prompt, so that `Esc` can cancel at any time */
+const PROMPT_CONTEXT: { signal: AbortSignal } = { signal: escController.signal };
+/**
+ * How long to wait after `Esc` for the rest of an escape sequence (e.g. an arrow key) before treating it as `Esc`.
+ * Node's default is 500ms, which makes `Esc` feel sluggish.
+ */
+const ESCAPE_CODE_TIMEOUT_MS = 50;
+
 /**
  * Escape special characters in a string to display them literally in the CLI.
  * @param str - The string to escape
@@ -195,10 +204,13 @@ function unescapeSpecialCharsAndConvertQuotes(str: string): string {
 async function reword(fileChoice: string, keyChoice: string, keyValue: string): Promise<void> {
   const value = chalk.red(escapeSpecialChars(keyValue));
   const newValue = unescapeSpecialCharsAndConvertQuotes(
-    await input({
-      message: `"${keyChoice} current reads:\n\t${value}\nEnter new value for "${keyChoice}" (press TAB to edit the placeholder):\n`,
-      default: keyValue,
-    }),
+    await input(
+      {
+        message: `"${keyChoice} current reads:\n\t${value}\nEnter new value for "${keyChoice}" (press TAB to edit the placeholder):\n`,
+        default: keyValue,
+      },
+      PROMPT_CONTEXT,
+    ),
   );
 
   if (newValue.trim().length === 0) {
@@ -228,51 +240,180 @@ function deleteNonEnglishKeys(fileChoice: string, keyChoice: string): void {
   }
 }
 
-/** Sentinel choice value for going up a level in {@linkcode pickKey} */
+/** Sentinel choice value for going up a level in {@linkcode browse} */
 const UP = Symbol("up");
 
+/** An entry at one level of a tree browsed with {@linkcode browse} */
+interface BrowseEntry {
+  /** The name of the entry within its parent */
+  name: string;
+  /** Whether the entry can be entered (a folder or nested object) rather than picked */
+  isBranch: boolean;
+  /** Text shown below the entry while it is highlighted */
+  description?: string;
+}
+
 /**
- * Interactively browse a locales object one level at a time and pick a string key.
- * Selecting a nested object enters it, and selecting `..` goes back up a level.
- * @param data - The parsed locales file
- * @returns The dotted path of the chosen key
+ * Interactively browse a tree one level at a time and pick a leaf.
+ * Selecting a branch enters it, and selecting `..` goes back up a level.
+ * @param options - The browsing options
+ * @returns The name of the chosen leaf, or `undefined` if `..` was chosen at the top level
  */
-async function pickKey(data: Record<string, any>): Promise<string> {
-  const path: string[] = [];
-  let key: string | undefined;
-  /** The nested object just exited via `..`, so it can be highlighted instead of starting from the top */
-  let returnTo: string | undefined;
-  while (key === undefined) {
-    const node: Record<string, any> = path.reduce((obj, part) => obj[part], data);
-    const keys = Object.keys(node).sort((a, b) => a.localeCompare(b));
+async function browse(options: {
+  /** What is being picked, shown in the prompt message */
+  label: string;
+  /** The separator used to display the current path */
+  separator: string;
+  /** Returns the entries at the given path */
+  getEntries: (path: readonly string[]) => BrowseEntry[];
+  /** The path to start at; updated in place to the parent of the chosen leaf */
+  path: string[];
+  /** Whether `..` is offered at the top level, to exit the browser */
+  canExit?: boolean;
+  /** The entry to highlight initially */
+  returnTo?: string;
+}): Promise<string | undefined> {
+  const { label, separator, getEntries, path, canExit = false } = options;
+  /** The branch just exited via `..`, so it can be highlighted instead of starting from the top */
+  let returnTo = options.returnTo;
+  let picked: string | typeof UP | undefined;
+  while (picked === undefined) {
+    const entries = getEntries(path).sort((a, b) => a.name.localeCompare(b.name));
+    const showUp = canExit || path.length > 0;
 
     // Type to filter; whitespace-separated terms must all match
-    const choice = await search<string | typeof UP>({
-      message: `Select a key to reword or delete (${path.length > 0 ? path.join(".") : "top level"}):`,
-      source: (term: string | undefined) => {
-        const terms = term?.toLowerCase().split(/\s+/).filter(Boolean) ?? [];
-        const matches = keys
-          .filter((k) => terms.every((t) => k.toLowerCase().includes(t)))
-          .map((k) =>
-            typeof node[k] === "string"
-              ? { value: k, name: k, description: escapeSpecialChars(node[k]) }
-              : { value: k, name: chalk.cyan(`${k}/`) },
-          );
-        return path.length > 0 ? [{ value: UP, name: chalk.grey("..") }, ...matches] : matches;
+    const choice = await search<string | typeof UP>(
+      {
+        message: `Select ${label} (${path.length > 0 ? path.join(separator) : "top level"}):`,
+        source: (term: string | undefined) => {
+          const terms = term?.toLowerCase().split(/\s+/).filter(Boolean) ?? [];
+          const matches = entries
+            .filter((e) => terms.every((t) => e.name.toLowerCase().includes(t)))
+            .map((e) => ({
+              value: e.name,
+              name: e.isBranch ? chalk.cyan(`${e.name}/`) : e.name,
+              description: e.description,
+            }));
+          if (!showUp) {
+            return matches;
+          }
+          // While filtering, list `..` last so the best match is highlighted instead
+          const up: { value: typeof UP; name: string } = { value: UP, name: chalk.grey("..") };
+          return terms.length > 0 ? [...matches, up] : [up, ...matches];
+        },
+        default: returnTo,
       },
-      default: returnTo,
-    });
+      PROMPT_CONTEXT,
+    );
 
     returnTo = undefined;
     if (choice === UP) {
-      returnTo = path.pop();
-    } else if (typeof node[choice] === "string") {
-      key = [...path, choice].join(".");
-    } else {
+      if (path.length === 0) {
+        picked = UP;
+      } else {
+        returnTo = path.pop();
+      }
+    } else if (entries.find((e) => e.name === choice)?.isBranch) {
       path.push(choice);
+    } else {
+      picked = choice;
     }
   }
-  return key;
+  return picked === UP ? undefined : picked;
+}
+
+/**
+ * Get the subfolders and JSON files in a folder of the "en" locales.
+ * @param path - The path of the folder, relative to the "en" locales folder
+ * @returns The entries in the folder
+ */
+function getFileEntries(path: readonly string[]): BrowseEntry[] {
+  return readdirSync(join(LOCALES_PATH, ...path), { withFileTypes: true })
+    .filter((d) => d.isDirectory() || d.name.endsWith(".json"))
+    .map((d) => ({ name: d.name, isBranch: d.isDirectory() }));
+}
+
+/**
+ * Get the keys at one level of a parsed locales file.
+ * @param data - The parsed locales file
+ * @param path - The path of the nested object to list
+ * @returns The string keys and nested objects in the object
+ */
+function getKeyEntries(data: Record<string, any>, path: readonly string[]): BrowseEntry[] {
+  const node: Record<string, any> = path.reduce((obj, part) => obj[part], data);
+  return Object.entries(node)
+    .filter(([, val]) => typeof val === "string" || (val && typeof val === "object"))
+    .map(([key, val]) =>
+      typeof val === "string"
+        ? { name: key, isBranch: false, description: escapeSpecialChars(val) }
+        : { name: key, isBranch: true },
+    );
+}
+
+/**
+ * Interactively pick a locales file, then a key within it, then what to do with that key.
+ * Choosing `..` at a file's top level goes back to the file picker, and choosing "Back"
+ * from the actions goes back to the key picker.
+ * @returns The chosen file (relative to the "en" locales folder), the dotted path of the chosen key, and the chosen action
+ */
+async function pickFileKeyAndAction(): Promise<{
+  fileChoice: string;
+  keyChoice: string;
+  action: "Reword" | "Delete" | "Cancel";
+}> {
+  const dirPath: string[] = [];
+  let fileReturnTo: string | undefined;
+  for (;;) {
+    // Step 1: Select file. The file browser has no `..` at the top level, so it always returns a file.
+    const fileName = (await browse({
+      label: "a locales file to manage",
+      separator: "/",
+      getEntries: getFileEntries,
+      path: dirPath,
+      returnTo: fileReturnTo,
+    }))!;
+    fileReturnTo = fileName;
+    const fileChoice = join(...dirPath, fileName);
+
+    const filePath = join(LOCALES_PATH, fileChoice);
+    if (getAllKeysFromFile(filePath).length === 0) {
+      console.error(chalk.red.bold("✗ Error: No keys found in file."));
+      continue;
+    }
+
+    const data = JSON.parse(readFileSync(filePath, "utf8"));
+    const keyPath: string[] = [];
+    let keyReturnTo: string | undefined;
+    for (;;) {
+      // Step 2: Select key
+      const keyName = await browse({
+        label: "a key to reword or delete",
+        separator: ".",
+        getEntries: (path: readonly string[]) => getKeyEntries(data, path),
+        path: keyPath,
+        canExit: true,
+        returnTo: keyReturnTo,
+      });
+      if (keyName === undefined) {
+        // `..` at the top level: go back to the file picker
+        break;
+      }
+      const keyChoice = [...keyPath, keyName].join(".");
+
+      // Step 3: Choose action
+      const action = await select(
+        {
+          message: `What would you like to do with "${keyChoice}"?`,
+          choices: ["Reword", "Delete", "Back", "Cancel"] as const,
+        },
+        PROMPT_CONTEXT,
+      );
+      if (action !== "Back") {
+        return { fileChoice, keyChoice, action };
+      }
+      keyReturnTo = keyName;
+    }
+  }
 }
 
 async function main(): Promise<void> {
@@ -281,38 +422,28 @@ async function main(): Promise<void> {
     return process.exit(0);
   }
 
-  console.group(chalk.grey(`🌐 Manage Locales - v${SCRIPT_VERSION}\n`));
+  console.group(chalk.grey(`🌐 Manage Locales - v${SCRIPT_VERSION} (press Esc to cancel at any time)\n`));
+
+  const onKeypress = (_: string | undefined, key: Key | undefined): void => {
+    if (key?.name === "escape") {
+      escController.abort();
+    }
+  };
+  // Creating a terminal interface installs stdin's keypress decoder with our escape timeout. The decoder is only
+  // installed once per stream and outlives the interface, so this must run before any prompt creates its own.
+  createInterface({ input: process.stdin, terminal: true, escapeCodeTimeout: ESCAPE_CODE_TIMEOUT_MS }).close();
+  process.stdin.on("keypress", onKeypress);
 
   try {
-    // Step 1: Select file
-    const fileChoice = await select({
-      message: "Select a locales file to manage:",
-      choices: LOCALES_FILES,
-    });
+    const { fileChoice, keyChoice, action } = await pickFileKeyAndAction();
 
     const filePath = join(LOCALES_PATH, fileChoice);
-    const allKeys = getAllKeysFromFile(filePath);
-
-    if (allKeys.length === 0) {
-      console.error(chalk.red.bold("✗ Error: No keys found in file."));
-      return;
-    }
-
-    // Step 2: Select key
-    const keyChoice = await pickKey(JSON.parse(readFileSync(filePath, "utf8")));
-
     let keyValue = getKeyValue(filePath, keyChoice);
     if (keyValue === undefined) {
       console.error(chalk.red.bold(`✗ Error: Editing non-string keys (${keyChoice}) is not yet supported!`));
       return;
     }
     keyValue = escapeSpecialChars(keyValue);
-
-    // Step 3: Choose action
-    const action = await select({
-      message: `What would you like to do with "${keyChoice}"?`,
-      choices: ["Reword", "Delete", "Cancel"] as const,
-    });
 
     switch (action) {
       case "Reword":
@@ -328,7 +459,14 @@ async function main(): Promise<void> {
 
     console.groupEnd();
   } catch (err) {
-    console.error(chalk.red("✗ Error: ", err));
+    // Thrown when a prompt is cancelled with `Esc` or `Ctrl+C`
+    if (err instanceof Error && (err.name === "AbortPromptError" || err.name === "ExitPromptError")) {
+      console.log(chalk.yellow("Operation cancelled."));
+    } else {
+      console.error(chalk.red("✗ Error: ", err));
+    }
+  } finally {
+    process.stdin.off("keypress", onKeypress);
   }
 }
 
