@@ -1,5 +1,5 @@
 /*
- * SPDX-FileCopyrightText: 2025 Pagefault Game
+ * SPDX-FileCopyrightText: 2025-2026 Pagefault Game
  * SPDX-FileContributor: SirzBenjie
  *
  * SPDX-License-Identifier: AGPL-3.0-only
@@ -12,7 +12,7 @@
 
 import { existsSync, readdirSync, readFileSync, statSync, writeFileSync } from "node:fs";
 import { join, resolve } from "node:path";
-import { input, select } from "@inquirer/prompts";
+import { input, search, select } from "@inquirer/prompts";
 import chalk from "chalk";
 
 //#region Constants
@@ -29,35 +29,40 @@ const SUPPORTED_LANGS: readonly string[] = readdirSync(LOCALES_DIR) //
 /** The list of JSON files that can be edited */
 const LOCALES_FILES: readonly string[] = readdirSync(LOCALES_PATH).filter((f) => f.endsWith(".json"));
 /** The version of this script */
-const SCRIPT_VERSION = "1.0.0";
+const SCRIPT_VERSION = "1.1.0";
 
 //#endregion Constants
 
 //#region Helpers
 
 /**
- * Get the flat list of keys in an object, skipping nested objects.
+ * Get the list of string-valued keys in an object, recursing into nested objects.
+ * Nested keys are joined with `.` (e.g. `"parent.child"`).
  * @param obj - The object to get keys from
+ * @param prefix - The dotted path of `obj` within the root object
  * @returns The list of keys in the object
  */
-function getFlatKeys(obj: object): string[] {
+function getLeafKeys(obj: object, prefix = ""): string[] {
   const keys: string[] = [];
   for (const [key, val] of Object.entries(obj)) {
+    const path = prefix + key;
     if (typeof val === "string") {
-      keys.push(key);
+      keys.push(path);
+    } else if (val && typeof val === "object") {
+      keys.push(...getLeafKeys(val, path + "."));
     }
   }
   return keys;
 }
 
 /**
- * Returns a list of all top-level keys in a locales file, skipping keys that hold nested objects.
+ * Returns a list of all string-valued keys in a locales file, including nested keys in dotted form.
  * @param filePath - The path to the locales file
  * @returns The list of keys in the file
  */
 function getAllKeysFromFile(filePath: string): string[] {
   const data: object = JSON.parse(readFileSync(filePath, "utf8"));
-  return getFlatKeys(data);
+  return getLeafKeys(data);
 }
 
 /**
@@ -103,10 +108,10 @@ function setKeyValue(filePath: string, key: string, value: string): boolean {
 }
 
 /**
- * Delete a key from a locales file.
+ * Delete a string key from a locales file. Keys holding nested objects are never deleted.
  * @param filePath - The path to the locales file
  * @param key - The key to delete
- * @returns Whether a matching key was found and deleted
+ * @returns Whether a matching string key was found and deleted
  */
 function deleteKey(filePath: string, key: string): boolean {
   const data: Record<string, any> = JSON.parse(readFileSync(filePath, "utf8"));
@@ -114,9 +119,13 @@ function deleteKey(filePath: string, key: string): boolean {
   let obj = data;
   for (let i = 0; i < parts.length - 1; i++) {
     obj = obj[parts[i]];
-    if (!obj) {
+    if (!obj || typeof obj !== "object") {
       return false;
     }
+  }
+  // Never delete nested objects, only string values
+  if (typeof obj[parts.at(-1)!] !== "string") {
+    return false;
   }
   delete obj[parts.at(-1)!];
   writeFileSync(filePath, JSON.stringify(data, null, 2) + "\n", "utf8");
@@ -219,6 +228,53 @@ function deleteNonEnglishKeys(fileChoice: string, keyChoice: string): void {
   }
 }
 
+/** Sentinel choice value for going up a level in {@linkcode pickKey} */
+const UP = Symbol("up");
+
+/**
+ * Interactively browse a locales object one level at a time and pick a string key.
+ * Selecting a nested object enters it, and selecting `..` goes back up a level.
+ * @param data - The parsed locales file
+ * @returns The dotted path of the chosen key
+ */
+async function pickKey(data: Record<string, any>): Promise<string> {
+  const path: string[] = [];
+  let key: string | undefined;
+  /** The nested object just exited via `..`, so it can be highlighted instead of starting from the top */
+  let returnTo: string | undefined;
+  while (key === undefined) {
+    const node: Record<string, any> = path.reduce((obj, part) => obj[part], data);
+    const keys = Object.keys(node).sort((a, b) => a.localeCompare(b));
+
+    // Type to filter; whitespace-separated terms must all match
+    const choice = await search<string | typeof UP>({
+      message: `Select a key to reword or delete (${path.length > 0 ? path.join(".") : "top level"}):`,
+      source: (term: string | undefined) => {
+        const terms = term?.toLowerCase().split(/\s+/).filter(Boolean) ?? [];
+        const matches = keys
+          .filter((k) => terms.every((t) => k.toLowerCase().includes(t)))
+          .map((k) =>
+            typeof node[k] === "string"
+              ? { value: k, name: k, description: escapeSpecialChars(node[k]) }
+              : { value: k, name: chalk.cyan(`${k}/`) },
+          );
+        return path.length > 0 ? [{ value: UP, name: chalk.grey("..") }, ...matches] : matches;
+      },
+      default: returnTo,
+    });
+
+    returnTo = undefined;
+    if (choice === UP) {
+      returnTo = path.pop();
+    } else if (typeof node[choice] === "string") {
+      key = [...path, choice].join(".");
+    } else {
+      path.push(choice);
+    }
+  }
+  return key;
+}
+
 async function main(): Promise<void> {
   if (process.argv.includes("--version") || process.argv.includes("-v")) {
     console.log(`Locales Key Deleter - v${SCRIPT_VERSION}`);
@@ -238,16 +294,12 @@ async function main(): Promise<void> {
     const allKeys = getAllKeysFromFile(filePath);
 
     if (allKeys.length === 0) {
-      console.error(
-        chalk.red.bold("✗ Error: No keys found in file. This can happen if the file contains only nested objects."),
-      );
+      console.error(chalk.red.bold("✗ Error: No keys found in file."));
       return;
     }
 
-    const keyChoice = await select({
-      message: "Select a key to reword or delete:",
-      choices: allKeys.sort(),
-    });
+    // Step 2: Select key
+    const keyChoice = await pickKey(JSON.parse(readFileSync(filePath, "utf8")));
 
     let keyValue = getKeyValue(filePath, keyChoice);
     if (keyValue === undefined) {
