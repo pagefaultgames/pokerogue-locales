@@ -3,7 +3,10 @@
   "illegalEvolution": "{{pokemon}} se transformou em um Pokémon\ninelegível para este desafio!",
   "noneSelected": "Nada Selecionado",
   "category": {
-    "randomizer": "Randomizador"
+    "difficulty": "Dificuldade",
+    "starters": "Iniciais",
+    "randomizer": "Randomizador",
+    "gimmick": "Mecânica"
   },
   "freshStart": {
     "name": "Novo Começo",
@@ -127,12 +130,14 @@
     "desc": {
       "0": "Randomiza as habilidades (e, opcionalmente, as passivas) de cada espécie de Pokémon.\n\nDesativa as conquistas de outros desafios.",
       "1": "Randomiza as habilidades de cada espécie de Pokémon.\n\nDesativa as conquistas de outros desafios.",
-      "2": "Randomiza as habilidades e passivas de cada espécie de Pokémon.\n\nDesativa as conquistas de outros desafios."
+      "2": "Randomiza as habilidades e passivas de cada espécie de Pokémon.\n\nDesativa as conquistas de outros desafios.",
+      "3": "Randomiza as habilidades e passivas de cada espécie de Pokémon, exceto habilidades que causam mudança de forma.\n\nDesativa as conquistas de outros desafios."
     },
     "value": {
       "0": "Desligado",
       "1": "Habilidades",
-      "2": "Tudo"
+      "2": "Tudo",
+      "3": "Leve"
     }
   }
 }
