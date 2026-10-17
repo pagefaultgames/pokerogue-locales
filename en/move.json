@@ -61,7 +61,7 @@
   },
   "gust": {
     "name": "Gust",
-    "effect": "A gust of wind is whipped up by wings and launched at the target to inflict damage. This move can hit a target that’s in the air from Fly, Bounce, or Sky Drop with its power doubled."
+    "effect": "A gust of wind is whipped up by wings and launched at the target to inflict damage. This move can hit a target that’s in the air from Fly, Bounce, or Sky Drop, doubling the damage dealt to the target."
   },
   "wingAttack": {
     "name": "Wing Attack",
@@ -353,11 +353,11 @@
   },
   "earthquake": {
     "name": "Earthquake",
-    "effect": "The user sets off an earthquake that strikes every Pokémon around it. This move’s power is doubled against targets underground from Dig, and halved while Grassy Terrain is active."
+    "effect": "The user sets off an earthquake that strikes every Pokémon around it. This move’s power is doubled against targets underground from using Dig, and halved while Grassy Terrain is active."
   },
   "fissure": {
     "name": "Fissure",
-    "effect": "The user opens up a fissure in the ground and drops the target in. The target faints instantly if this attack hits, unless it is a Boss Pokémon. The accuracy of this move is fixed at 30%."
+    "effect": "The user opens up a fissure in the ground and drops the target in. The target faints instantly if this attack hits, unless it is a Boss Pokémon. The accuracy of this move is fixed at 30% and can hit a target underground from using Dig."
   },
   "dig": {
     "name": "Dig",
@@ -885,7 +885,7 @@
   },
   "magnitude": {
     "name": "Magnitude",
-    "effect": "The user attacks everything around it with a ground-shaking quake. Its power varies based on the magnitude of the quake, with the possibility of being 10, 30, 50, 70, 90, 110, or 150 power. This move’s power is doubled against targets underground from Dig, and halved while Grassy Terrain is active."
+    "effect": "The user attacks everything around it with a ground-shaking quake. Its power varies based on the magnitude of the quake, with the possibility of being 10, 30, 50, 70, 90, 110, or 150 power. This move’s power is doubled against targets underground from using Dig, and halved while Grassy Terrain is active."
   },
   "dynamicPunch": {
     "name": "Dynamic Punch",
@@ -953,7 +953,7 @@
   },
   "twister": {
     "name": "Twister",
-    "effect": "The user whips up a vicious tornado to tear at opposing Pokémon. This move has a 20% chance of making targets flinch, and can also hit a target that’s in the air from Fly, Bounce, or Sky Drop with its power doubled."
+    "effect": "The user whips up a vicious tornado to tear at opposing Pokémon. This move has a 20% chance of making targets flinch. This move can hit a target that’s in the air from Fly, Bounce, or Sky Drop, doubling the damage dealt to the target."
   },
   "rainDance": {
     "name": "Rain Dance",
