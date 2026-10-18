@@ -11,13 +11,16 @@
       "bossEnraged": "Страх {{oricorioName}} усилил его характеристики!"
     },
     "2": {
-      "label": "Изучить Танец"
+      "label": "Изучить Танец",
+      "tooltip": "(+) Научить любого Покемона Танцу Прозрения",
+      "selected": "Ты пристально наблюдаешь за танцем {{oricorioName}}…$@s{level_up_fanfare}Твой {{selectedPokemon}} учится на примере {{oricorioName}}!"
     },
     "3": {
       "label": "Показать Танец",
       "tooltip": "(-) Обучить {{oricorioName}} Танцевальному Движению\n(+) Этот {{oricorioName}} Полюбит Тебя",
       "disabledTooltip": "Твой Покемон должен знать Танцевальный приём для этого.",
-      "selectPrompt": "Выберите Танцевальный приём для использования."
+      "selectPrompt": "Выберите Танцевальный приём для использования.",
+      "selected": "{{oricorioName}} в восторге смотрит на то, как\n{{selectedPokemon}} показывает {{selectedMove}}!$Кажется, {{oricorioName}} это по нраву!$@s{level_up_fanfare}{{oricorioName}} хочет вступить в твою команду!"
     }
   },
   "invalidSelection": "Этот Покемон не знает Танцевальных движений!"
