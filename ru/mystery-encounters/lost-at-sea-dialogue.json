@@ -1,11 +1,28 @@
 {
+  "intro": "Бесцельно скитаясь по морю, ты, в итоге, идёшь вникуда.",
+  "title": "Затерянные в Море",
+  "description": "В этом районе море бурное, и у тебя кончаются силы.\nПлохо дело. Есть ли выход из ситуации?",
   "query": "Твои действия?",
   "option": {
     "1": {
-      "label": "{{option1PrimaryName}} Может Помочь"
+      "label": "{{option1PrimaryName}} Может Помочь",
+      "labelDisabled": "{{option1RequiredMove}} невозможен",
+      "tooltip": "(+) {{option1PrimaryName}} спасает тебя\n(+) {{option1PrimaryName}} получает ОП.",
+      "tooltipDisabled": "У тебя нет Покемона для использования {{option1RequiredMove}}.",
+      "selected": "{{option1PrimaryName}} плывёт вперёд, направляя тебя обратно на путь.${{option1PrimaryName}}, похоже, также стал сильнее в этот трудный момент!"
     },
     "2": {
-      "label": "{{option2PrimaryName}} Может Помочь"
+      "label": "{{option2PrimaryName}} Может Помочь",
+      "labelDisabled": "{{option2RequiredMove}} невозможен",
+      "tooltip": "(+) {{option2PrimaryName}} спасает тебя\n(+) {{option2PrimaryName}} получает ОП.",
+      "tooltipDisabled": "У тебя нет Покемона чтобы использовать {{option2RequiredMove}}.",
+      "selected": "{{option2PrimaryName}} летит впереди твоей лодки, направляя тебя обратно на путь.${{option2PrimaryName}}, похоже, также стал сильнее в этот трудный момент!"
+    },
+    "3": {
+      "label": "Бесцельно Скитаться",
+      "tooltip": "(-) Каждый Покемон теряет {{damagePercentage}}% от ОЖ.",
+      "selected": "Ты плывёшь в лодке, правя без направления, пока наконец не замечаешь знакомый ориентир.$Ты и твои Покемоны измучены всем этим испытанием."
     }
-  }
+  },
+  "outro": "Ты снова на верном пути."
 }
