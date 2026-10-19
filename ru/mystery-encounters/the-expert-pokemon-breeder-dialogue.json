@@ -9,7 +9,23 @@
   "cleffa3Nickname": "{{speciesName}} Великий",
   "option": {
     "1": {
-      "label": "{{pokemon1Name}}"
-    }
-  }
+      "label": "{{pokemon1Name}}",
+      "tooltipBase": "(-) Тяжёлая Битва\n(+) Укрепить Дружбу с {{pokemon1Name}}"
+    },
+    "2": {
+      "label": "{{pokemon2Name}}",
+      "tooltipBase": "(-) Тяжёлая Битва\n(+) Укрепить Дружбу с {{pokemon2Name}}"
+    },
+    "3": {
+      "label": "{{pokemon3Name}}",
+      "tooltipBase": "(-) Тяжёлая Битва\n(+) Укрепить Дружбу с {{pokemon3Name}}"
+    },
+    "selected": "Ну, погнали!"
+  },
+  "outro": "Смотри, {{chosenPokemon}} прям светится от счастья!$Вот, и это тоже возьми.",
+  "outroFailed": "Как печально…$Похоже, тебе придётся постараться, чтобы завоевать доверие твоих Покемонов!",
+  "gainedEggs": "@s{item_fanfare}Ты получаешь {{numEggs}}!",
+  "eggsTooltip": "\n(+) Получить {{eggs}}",
+  "numEggs_one": "{{count}} {{rarity}} Яйцо",
+  "numEggs_other": "{{count}} {{rarity}} Яиц"
 }
