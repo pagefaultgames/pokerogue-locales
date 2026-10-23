@@ -61,7 +61,7 @@
   },
   "gust": {
     "name": "Gust",
-    "effect": "A gust of wind is whipped up by wings and launched at the target to inflict damage. This move can hit a target that’s in the air from Fly, Bounce, or Sky Drop with its power doubled."
+    "effect": "A gust of wind is whipped up by wings and launched at the target to inflict damage. This move can hit a target that’s in the air from Fly, Bounce, or Sky Drop, doubling the damage dealt to the target."
   },
   "wingAttack": {
     "name": "Wing Attack",
@@ -77,7 +77,7 @@
   },
   "bind": {
     "name": "Bind",
-    "effect": "A long body, tentacles, or the like are used to bind and squeeze the target. For 4-5 turns, the target takes damage equal to 1/8 of its max HP at the end of every turn."
+    "effect": "A long body, tentacles, or the like are used to bind and squeeze the target. For 4-5 turns, the target takes damage equal to 1/8 of its max HP at the end of every turn. The target can’t flee or be switched out of battle during this time."
   },
   "slam": {
     "name": "Slam",
@@ -137,7 +137,7 @@
   },
   "wrap": {
     "name": "Wrap",
-    "effect": "A long body, vines, or the like are used to wrap and squeeze the target. For 4-5 turns, the target takes damage equal to 1/8 of its max HP at the end of every turn."
+    "effect": "A long body, vines, or the like are used to wrap and squeeze the target. For 4-5 turns, the target takes damage equal to 1/8 of its max HP at the end of every turn. The target can’t flee or be switched out of battle during this time."
   },
   "takeDown": {
     "name": "Take Down",
@@ -225,7 +225,7 @@
   },
   "surf": {
     "name": "Surf",
-    "effect": "The user attacks everything around it by swamping its surroundings with a giant wave. This move’s power is doubled against targets submerged with Dive."
+    "effect": "The user attacks everything around it by swamping its surroundings with a giant wave. This move can hit targets that are submerged with Dive, doubling the damage dealt to the target."
   },
   "iceBeam": {
     "name": "Ice Beam",
@@ -329,7 +329,7 @@
   },
   "fireSpin": {
     "name": "Fire Spin",
-    "effect": "The user traps the target inside a fierce vortex of fire. For 4-5 turns, the target takes damage equal to 1/8 of its max HP at the end of every turn."
+    "effect": "The user traps the target inside a fierce vortex of fire. For 4-5 turns, the target takes damage equal to 1/8 of its max HP at the end of every turn. The target can’t flee or be switched out of battle during this time."
   },
   "thunderShock": {
     "name": "Thunder Shock",
@@ -353,11 +353,11 @@
   },
   "earthquake": {
     "name": "Earthquake",
-    "effect": "The user sets off an earthquake that strikes every Pokémon around it. This move’s power is doubled against targets underground from Dig, and halved while Grassy Terrain is active."
+    "effect": "The user sets off an earthquake that strikes every Pokémon around it. This move’s power is doubled against targets underground from using Dig, and halved while Grassy Terrain is active."
   },
   "fissure": {
     "name": "Fissure",
-    "effect": "The user opens up a fissure in the ground and drops the target in. The target faints instantly if this attack hits, unless it is a Boss Pokémon. The accuracy of this move is fixed at 30%."
+    "effect": "The user opens up a fissure in the ground and drops the target in. The target faints instantly if this attack hits, unless it is a Boss Pokémon. The accuracy of this move is fixed at 30% and can hit a target underground from using Dig."
   },
   "dig": {
     "name": "Dig",
@@ -509,7 +509,7 @@
   },
   "clamp": {
     "name": "Clamp",
-    "effect": "The target is clamped and squeezed by the user’s very thick and sturdy shell. For 4-5 turns, the target takes damage equal to 1/8 of its max HP at the end of every turn."
+    "effect": "The target is clamped and squeezed by the user’s very thick and sturdy shell. For 4-5 turns, the target takes damage equal to 1/8 of its max HP at the end of every turn. The target can’t flee or be switched out of battle during this time."
   },
   "swift": {
     "name": "Swift",
@@ -885,7 +885,7 @@
   },
   "magnitude": {
     "name": "Magnitude",
-    "effect": "The user attacks everything around it with a ground-shaking quake. Its power varies based on the magnitude of the quake, with the possibility of being 10, 30, 50, 70, 90, 110, or 150 power. This move’s power is doubled against targets underground from Dig, and halved while Grassy Terrain is active."
+    "effect": "The user attacks everything around it with a ground-shaking quake. Its power varies based on the magnitude of the quake, with the possibility of being 10, 30, 50, 70, 90, 110, or 150 power. This move’s power is doubled against targets underground from using Dig, and halved while Grassy Terrain is active."
   },
   "dynamicPunch": {
     "name": "Dynamic Punch",
@@ -953,7 +953,7 @@
   },
   "twister": {
     "name": "Twister",
-    "effect": "The user whips up a vicious tornado to tear at opposing Pokémon. This move has a 20% chance of making targets flinch, and can also hit a target that’s in the air from Fly, Bounce, or Sky Drop with its power doubled."
+    "effect": "The user whips up a vicious tornado to tear at opposing Pokémon. This move has a 20% chance of making targets flinch. This move can hit a target that’s in the air from Fly, Bounce, or Sky Drop, doubling the damage dealt to the target."
   },
   "rainDance": {
     "name": "Rain Dance",
@@ -997,7 +997,7 @@
   },
   "whirlpool": {
     "name": "Whirlpool",
-    "effect": "The user traps the target inside a violent, swirling whirlpool. For 4-5 turns, the target takes damage equal to 1/8 of its max HP at the end of every turn. This move’s power is doubled against targets submerged with Dive."
+    "effect": "The user traps the target inside a violent, swirling whirlpool. For 4-5 turns, the target takes damage equal to 1/8 of its max HP at the end of every turn. The target can’t flee or be switched out of battle during this time. This move can hit targets that are submerged with Dive, doubling the damage dealt to the target."
   },
   "beatUp": {
     "name": "Beat Up",
@@ -1309,7 +1309,7 @@
   },
   "sandTomb": {
     "name": "Sand Tomb",
-    "effect": "The user traps the target inside a harshly raging sandstorm. For 4-5 turns, the target takes damage equal to 1/8 of its max HP at the end of every turn."
+    "effect": "The user traps the target inside a harshly raging sandstorm. For 4-5 turns, the target takes damage equal to 1/8 of its max HP at the end of every turn. The target can’t flee or be switched out of battle during this time."
   },
   "sheerCold": {
     "name": "Sheer Cold",
@@ -1849,7 +1849,7 @@
   },
   "magmaStorm": {
     "name": "Magma Storm",
-    "effect": "The user traps the target inside a maelstrom of fire. For 4-5 turns, the target takes damage equal to 1/8 of its max HP at the end of every turn."
+    "effect": "The user traps the target inside a maelstrom of fire. For 4-5 turns, the target takes damage equal to 1/8 of its max HP at the end of every turn. The target can’t flee or be switched out of battle during this time."
   },
   "darkVoid": {
     "name": "Dark Void",
@@ -1913,7 +1913,7 @@
   },
   "smackDown": {
     "name": "Smack Down",
-    "effect": "The user throws a stone or similar projectile to attack the target. This move can hit opposing Pokémon that are in the air, including those using Fly, Bounce, or Sky Drop, knocking them down to the ground."
+    "effect": "The user throws a stone or similar projectile to attack the target. This move can hit and knock down opposing Pokémon that are in the air, including those using Fly, Bounce, or Sky Drop."
   },
   "stormThrow": {
     "name": "Storm Throw",
@@ -2025,7 +2025,7 @@
   },
   "skyDrop": {
     "name": "Sky Drop",
-    "effect": "The user takes the target into the sky on the first turn, then drops it during the next turn. The target cannot attack while in the sky."
+    "effect": "The user takes the target into the sky on the first turn, then drops it during the next turn. The target cannot attack while in the sky. The move fails if it is used on a target that weighs 440.9 lbs (200 kg) or more."
   },
   "shiftGear": {
     "name": "Shift Gear",
@@ -2145,7 +2145,7 @@
   },
   "steamroller": {
     "name": "Steamroller",
-    "effect": "The user crushes its target by rolling over the target with its rolled-up body. This move has a 30% chance of making the target flinch."
+    "effect": "The user crushes its target by rolling over the target with its rolled-up body. This move has a 30% chance of making the target flinch. If the target has used Minimize, this move’s power is doubled and it will be sure to hit."
   },
   "cottonGuard": {
     "name": "Cotton Guard",
@@ -2453,7 +2453,7 @@
   },
   "thousandArrows": {
     "name": "Thousand Arrows",
-    "effect": "The user attacks by generating countless arrows from its internal energy and raining them down upon targets. This move can hit opposing Pokémon that are in the air, including those using Fly, Bounce, or Sky Drop, knocking them down to the ground."
+    "effect": "The user attacks by generating countless arrows from itself and raining them down upon targets. This move can hit and knock down opposing Pokémon that are in the air, including those using Fly, Bounce, or Sky Drop."
   },
   "thousandWaves": {
     "name": "Thousand Waves",
@@ -3009,7 +3009,7 @@
   },
   "octolock": {
     "name": "Octolock",
-    "effect": "The user locks the target in and prevents it from fleeing or switching out of battle. This move also lowers the target’s Defense and Sp. Def every turn."
+    "effect": "The user locks the target in and prevents it from fleeing or switching out of battle. This move also lowers the target’s Defense and Sp. Def stats every turn."
   },
   "boltBeak": {
     "name": "Bolt Beak",
@@ -3113,7 +3113,7 @@
   },
   "snapTrap": {
     "name": "Snap Trap",
-    "effect": "The user snares the target in a snap trap. For 4-5 turns, the target takes damage equal to 1/8 of its max HP at the end of every turn."
+    "effect": "The user snares the target in a snap trap. For 4-5 turns, the target takes damage equal to 1/8 of its max HP at the end of every turn. The target can’t flee or be switched out of battle during this time."
   },
   "pyroBall": {
     "name": "Pyro Ball",
@@ -3273,7 +3273,7 @@
   },
   "thunderCage": {
     "name": "Thunder Cage",
-    "effect": "The user traps the target inside a cage of sparking electricity. For 4-5 turns, the target takes damage equal to 1/8 of its max HP at the end of every turn."
+    "effect": "The user traps the target inside a cage of sparking electricity. For 4-5 turns, the target takes damage equal to 1/8 of its max HP at the end of every turn. The target can’t flee or be switched out of battle during this time."
   },
   "dragonEnergy": {
     "name": "Dragon Energy",
@@ -3469,7 +3469,7 @@
   },
   "gMaxSandblast": {
     "name": "G-Max Sandblast",
-    "effect": "A Ground-type attack that Gigantamax Sandaconda use. Opponents are trapped in a raging sandstorm that inflicts damage equal to 1/8 of their max HP for 4-5 turns"
+    "effect": "A Ground-type attack that Gigantamax Sandaconda use. Opponents are trapped in a raging sandstorm that inflicts damage equal to 1/8 of their max HP for 4-5 turns. The target can’t flee or be switched out of battle during this time."
   },
   "gMaxSnooze": {
     "name": "G-Max Snooze",
@@ -3501,7 +3501,7 @@
   },
   "gMaxCentiferno": {
     "name": "G-Max Centiferno",
-    "effect": "A Fire-type attack that Gigantamax Centiskorch use. For 4-5 turns, this move traps opponents in flames that inflict damage equal to 1/8 of their max HP at the end of every turn."
+    "effect": "A Fire-type attack that Gigantamax Centiskorch use. For 4-5 turns, this move traps opponents in flames that inflict damage equal to 1/8 of their max HP at the end of every turn. The target can’t flee or be switched out of battle during this time."
   },
   "gMaxVineLash": {
     "name": "G-Max Vine Lash",
@@ -3761,7 +3761,7 @@
   },
   "burningBulwark": {
     "name": "Burning Bulwark",
-    "effect": "The user intensely heats up a part of its body, protecting it from attacks and also causing burns to any attacker that makes direct contact with it."
+    "effect": "The user intensely heats up a part of its body, protecting it from attacks and also causing burns to any attacker that makes direct contact with it. With each consecutive use, this move’s chance of success becomes 1/3 of what it was before."
   },
   "thunderclap": {
     "name": "Thunderclap",
