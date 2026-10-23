@@ -32,3 +32,6 @@ While not strictly required for smaller fixes, any major changes (like adding/re
 - [ ] I have attached a link to a main repo PR or properly explained my changes as applicable.
 - [ ] I have notified Translation staff on Discord about the existence of this PR.
 - [ ] I have uncommented the appropriate warning message if necessary.
+
+### If the PR includes changes to the text of existing English keys:
+- [ ] I have deleted the key from non-English language files so that it can be re-translated.
