@@ -735,6 +735,11 @@
       "1": "¡Esto no puede estar pasando!\n¿Cómo he podido perder?"
     }
   },
+  "jupiter": {
+    "victory": {
+      "1": "¡No puede ser!$¡He perdido!"
+    }
+  },
   "zinzolin": {
     "encounter": {
       "1": "Podrías convertirte en una amenaza para los planes del Equipo Plasma, así que… ¡te eliminaré aquí mismo!",
@@ -759,6 +764,10 @@
       "2": "¡Eres fuerte, eh!\nMe pregunto cuánta energía atesoras en tu interior.",
       "2_female": "¡Eres fuerte, eh! Me pregunto cuánta energía atesoras en tu interior.",
       "3": "¡Jo, jo, jo! Te estaba esperando.\n¡He oído hablar mucho de ti!$Quiero que seas mi sujeto de investigación.\n¡Empecemos!"
+    },
+    "victory": {
+      "1": "Eres bastante fuerte.\nFuerte de verdad.",
+      "1_female": "Eres bastante fuerte.\nFuerte de verdad."
     }
   },
   "bryony": {
@@ -824,6 +833,7 @@
   },
   "aquaGrunt": {
     "encounter": {
+      "1": "¡Nadie que se cruce en el camino del Equipo Aqua sale bien librado, aunque no levante dos palmos del suelo!",
       "2": "Brrr… Hay que tener valor para entrometerse en los planes del Equipo Aqua…$¡Vuelve a luchar conmigo! Esto… Mejor lo dejamos para otro día, porque no me queda ni un Pokémon en forma…$Pero que sepas que los del Equipo Aqua estamos tras algo en Ciudad Férrica.$¡Ahí queda eso!\n¡Por hoy te perdono la vida!",
       "4": "¡Nosotros, el Equipo Aqua, existimos por el bien de la humanidad!"
     },
@@ -853,6 +863,7 @@
   },
   "flareGrunt": {
     "victory": {
+      "1": "Lo veo todo oscuro…",
       "5": "Me habrás derrotado, ¡pero tengo estilo hasta para perder!"
     }
   },
@@ -1057,6 +1068,10 @@
   "skullBossGuzma1": {
     "encounter": {
       "1": "¡He aquí el más grande! ¡El más odiado!\n¡El protagonista de vuestras peores pesadillas!$El amo del cotarro: ¡Guzmán!"
+    },
+    "defeat": {
+      "1": "Mira que venir hasta aquí solo por esa sandez…",
+      "1_female": "Mira que venir hasta aquí solo por esa sandez…"
     }
   },
   "skullBossGuzma2": {
@@ -1262,6 +1277,7 @@
   },
   "sabrina": {
     "victory": {
+      "1": "Qué fuerza…$Supera con creces mis expectativas…",
       "2": "No he sido capaz de predecir tu poder… Está claro que tu fuerza es superior a mi poder psíquico."
     }
   },
@@ -1285,15 +1301,25 @@
     },
     "defeat": {
       "1": "Aún eres joven y no sabes cómo controlar tu propia fuerza…$Deberías tenerlo presente…",
-      "1_female": "Aún eres joven y no sabes cómo controlar tu propia fuerza…$Deberías tenerlo presente…"
+      "1_female": "Aún eres joven y no sabes cómo controlar tu propia fuerza…$Deberías tenerlo presente…",
+      "3": "Espero que ahora entiendas lo ridículo que fue desafiarme."
     }
   },
   "norman": {
+    "encounter": {
+      "2": "Haré todo lo que pueda como Líder de Gimnasio para ganar.$¡Vamos allá!"
+    },
     "victory": {
       "3": "¡Es increíble!\n¡Qué maravilla de combate!"
+    },
+    "defeat": {
+      "1": "Los dos lo hemos dado todo.\nEspero que podamos repetirlo."
     }
   },
   "juan": {
+    "encounter": {
+      "4": "Quisiera que fueras testigo de nuestra maestría.$¡Mis Pokémon y yo hemos creado una gran ilusión acuática!"
+    },
     "victory": {
       "4": "Tengo el presentimiento de que tu destreza te llevará a lo más alto."
     }
@@ -1309,7 +1335,8 @@
       "3": "¡¿QUÉEE?!"
     },
     "defeat": {
-      "2": "He ganado, pero… ¡quiero más!\n¡Quería luchar mucho más!"
+      "2": "He ganado, pero… ¡quiero más!\n¡Quería luchar mucho más!",
+      "3": "¡Hasta pronto!"
     }
   },
   "falkner": {
@@ -1353,6 +1380,7 @@
     "victory": {
       "1": "¡Cómo se lo curra tu equipo Pokémon!\n¡Sois lo más de lo más! ¡Hasta otra!",
       "1_female": "¡Cómo se lo curra tu equipo Pokémon!\n¡Sois lo más de lo más! ¡Hasta otra!",
+      "2": "Pues sí que eres fuerte, sí… Mejor dicho, ¡eres fuerte de narices!$¡Me has dejado de piedra!",
       "3": "Tienes la fuerza del mar embravecido y la tranquilidad del océano en calma."
     },
     "defeat": {
@@ -1370,6 +1398,7 @@
       "3": "La fuerza que posees me ha impresionado profundamente."
     },
     "defeat": {
+      "2": "Ha sido un buen combate.",
       "3": "¡Uuuh! ¡Jiáaa!\n¡Yaaa!"
     }
   },
@@ -1422,7 +1451,9 @@
     },
     "defeat": {
       "1": "Esto…\n¿He ganado?",
-      "1_female": "Esto…\n¿He ganado?"
+      "1_female": "Esto…\n¿He ganado?",
+      "2": "Supongo…$Esta victoria se la debo al intenso entrenamiento al que me he sometido con mis hermanos Zeo y Maíz.",
+      "2_female": "Supongo…$Esta victoria se la debo al intenso entrenamiento al que me he sometido con mis hermanos Zeo y Maíz."
     }
   },
   "roark": {
@@ -1436,6 +1467,7 @@
     },
     "victory": {
       "1": "¿Cómo es posible?\n¡Con la de tiempo que paso entrenando!",
+      "3": "A tenor de la fuerza que has demostrado, la victoria resulta obvia.",
       "4": "Vaya, no me lo puedo creer. Me he quedado de piedra al ver lo bien que combates."
     },
     "defeat": {
@@ -1966,6 +1998,9 @@
   "hau": {
     "encounter": {
       "1": "Me pregunto si esas diferencias de temperatura influyen en la forma de luchar.$¿Qué te parece si lo comprobamos?"
+    },
+    "defeat": {
+      "1": "¡Ha sido un combate guay!"
     }
   },
   "geeta": {
@@ -2054,6 +2089,9 @@
     "encounter": {
       "1": "¿Sabes quién soy? ¿Y te atreves a desafiarme?"
     },
+    "victory": {
+      "1": "Me pregunto lo lejos que puedes llegar con tu nivel de habilidad.$Debe de ser fascinante."
+    },
     "defeat": {
       "1": "Eso es."
     }
@@ -2121,6 +2159,9 @@
     }
   },
   "elesa": {
+    "encounter": {
+      "1": "¡Esta es la final finalísima!$Mmm… Si es que ya, solo de pensarlo, ¡hasta mi cuerpo echa chispas a gogó!$Y, para deleitarme con esa sensación, ¡mis hermosos Pokémon te van a dejar de una pieza!"
+    },
     "victory": {
       "1": "Pensaba hacerte sudar la gota gorda, pero has sido tú quien me ha dejado patidifusa."
     },
@@ -2211,6 +2252,9 @@
     }
   },
   "gordie": {
+    "encounter": {
+      "1": "Terminemos con esto."
+    },
     "victory": {
       "1": "Tan confiado que estaba yo en hacerme con la victoria y al final he caído derrotado…"
     }
