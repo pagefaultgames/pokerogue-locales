@@ -51,6 +51,8 @@
       "6": "¡Jo! Perder un combate Pokémon es lo peor. Pero es que tú no lo haces nada mal…",
       "6_female": "¡Jo! Perder un combate Pokémon es lo peor. Pero es que tú no lo haces nada mal…",
       "7": "Este recuerdo es completamente prescindible. Nada, nada. Hay que borrarlo de mi memoria.",
+      "8": "¡Mira que te he dicho que no te pasaras conmigo! Pero hay que reconocer que eres bueno.",
+      "8_female": "¡Mira que te he dicho que no te pasaras conmigo! Pero hay que reconocer que eres buena.",
       "9": "La verdad es que esto de combatir me aburre ya bastante. Me voy a buscar algún otro pasatiempo."
     }
   },
@@ -107,6 +109,10 @@
       "1_female": "¡Estoy superseguro de que te voy a ganar!",
       "2": "¿Me enseñas tus Pokémon?",
       "4": "¿Sabrías definir Entrenador Guay?"
+    },
+    "victory": {
+      "3": "Pues no, parece que, después de todo, tú eres el protagonista.",
+      "3_female": "Pues no, parece que, después de todo, tú eres la protagonista."
     },
     "defeat": {
       "1": "¡Que sepas que lo doy todo en cada combate Pokémon! ¡Lo llevo en el alma!",
@@ -684,6 +690,8 @@
   },
   "xerosic": {
     "encounter": {
+      "1": "¡Ja, ja, ja! ¡Lo estoy deseando! ¡Venga, Entrenador! Vamos a ver de qué pasta estás hecho…",
+      "1_female": "¡Ja, ja, ja! ¡Lo estoy deseando! ¡Venga, Entrenadora! Vamos a ver de qué pasta estás hecha…",
       "2": "¡Eres fuerte, eh!\nMe pregunto cuánta energía atesoras en tu interior.",
       "2_female": "¡Eres fuerte, eh!\nMe pregunto cuánta energía atesoras en tu interior."
     }
@@ -797,6 +805,12 @@
       "3": "Este… este es el motivo por el que odio a los niños."
     }
   },
+  "skullGrunt": {
+    "encounter": {
+      "2": "¡Oye, tú! ¡No saludes así! ¡A ver si te crees el más chulo de aquí!",
+      "2_female": "¡Oye, tú! ¡No saludes así! ¡A ver si te crees la más chula de aquí!"
+    }
+  },
   "macroGrunt": {
     "victory": {
       "2": "Pierdo tan a menudo que me estoy quedando sin blanca."
@@ -811,6 +825,10 @@
     }
   },
   "starGrunt": {
+    "encounter": {
+      "5": "Hala, otro más. Éramos pocos y parió la abuela…",
+      "5_female": "Hala, otra más. Éramos pocos y parió la abuela…"
+    },
     "victory": {
       "1": "Pero bueno, al final soy yo la que está viendo las estrellas…",
       "3": "Había actuado en legítima defensa…"
@@ -902,6 +920,10 @@
     },
     "victory": {
       "1": "¡Noooooo!\n¡¿Guzmán, tío, qué estás haciendo?!"
+    },
+    "defeat": {
+      "1": "Estáis muy mal de la azotea…",
+      "1_female": "Estáis muy mal de la azotea…"
     }
   },
   "macroBossRose1": {
@@ -1201,6 +1223,10 @@
     }
   },
   "crispin": {
+    "encounter": {
+      "1": "¡Voy a ganar porque me apetece!",
+      "1_female": "¡Voy a ganar porque me apetece!"
+    },
     "victory": {
       "1": "¡Me apetecía ganar, pero me voy a quedar con las ganas!",
       "2": "¡He perdido porque no he ganado!"
@@ -1268,6 +1294,12 @@
     },
     "victory": {
       "1": "En fin…, no pasa nada por perder si lo has dado todo."
+    }
+  },
+  "kofu": {
+    "victory": {
+      "1": "¡Fua, ja, ja! ¡Menudo ímpetu, mozalbete! ¡Has hecho que me vaya a pique!",
+      "1_female": "¡Fua, ja, ja! ¡Menudo ímpetu, mozalbeta! ¡Has hecho que me vaya a pique!"
     }
   },
   "tulip": {
@@ -1407,9 +1439,17 @@
     }
   },
   "wikstrom": {
+    "encounter": {
+      "1": "Bienvenido seas, joven contendiente. Como Duque que soy, te mostraré mi grandiosidad. Ante ti se encuentra Tileo, el afamado caballero duro como el acero. Que dé comienzo, pues, el combate.",
+      "1_female": "Bienvenida seas, joven contendiente. Como Duque que soy, te mostraré mi grandiosidad. Ante ti se encuentra Tileo, el afamado caballero duro como el acero. Que dé comienzo, pues, el combate."
+    },
     "victory": {
       "1": "¡Sin duda el poder de la devota confianza que te profesan tus Pokémon es lo que me ha derrotado!",
       "1_female": "¡Sin duda el poder de la devota confianza que te profesan tus Pokémon es lo que me ha derrotado!"
+    },
+    "defeat": {
+      "1": "¡Caramba! Me quito el sombrero ante la impecable técnica de la cual has demostrado ser poseedor. Vencer a un rival de tamaña enjundia no hace sino refulgir aún más intensamente mi propio espíritu.",
+      "1_female": "¡Caramba! Me quito el sombrero ante la impecable técnica de la cual has demostrado ser poseedora. Vencer a una rival de tamaña enjundia no hace sino refulgir aún más intensamente mi propio espíritu."
     }
   },
   "larryElite": {
@@ -1453,8 +1493,16 @@
     }
   },
   "hassel": {
+    "encounter": {
+      "1": "¡Haré que sientas en tus carnes el abrasador aliento del más encarnizado de los combates!",
+      "1_female": "¡Haré que sientas en tus carnes el abrasador aliento del más encarnizado de los combates!"
+    },
     "victory": {
       "1": "El dragón ha caído en desgracia…"
+    },
+    "defeat": {
+      "1": "En esta ocasión, he logrado alzarme victorioso.$Pero, a juzgar por el desarrollo del combate, no me atrevo a aventurar resultados futuros.",
+      "1_female": "En esta ocasión, he logrado alzarme victorioso.$Pero, a juzgar por el desarrollo del combate, no me atrevo a aventurar resultados futuros."
     }
   },
   "blue": {
@@ -1564,7 +1612,17 @@
       "1": "¡Aquí llega el Campeón!"
     }
   },
+  "mustard": {
+    "defeat": {
+      "1": "¡Toma, Jeroma, pastillas de goma! ¡Je, je, je! Menudo victorión me he llevado.$Pero que conste que tú también lo has hecho de fábula, ¿eh? ¡A ver si repetimos!",
+      "1_female": "¡Toma, Jeroma, pastillas de goma! ¡Je, je, je! Menudo victorión me he llevado.$Pero que conste que tú también lo has hecho de fábula, ¿eh? ¡A ver si repetimos!"
+    }
+  },
   "katy": {
+    "encounter": {
+      "1": "Así que no bajes la guardia… ¡o puede que te quedes atrapado en la tela de araña!",
+      "1_female": "Así que no bajes la guardia… ¡o puede que te quedes atrapada en la tela de araña!"
+    },
     "victory": {
       "1": "Mis Pokémon han caído como moscas…"
     }
@@ -1665,6 +1723,10 @@
     }
   },
   "bede": {
+    "encounter": {
+      "1": "Aún estás en pañales. Voy a enseñarte lo que es la fuerza de verdad, mocoso.",
+      "1_female": "Aún estás en pañales. Voy a enseñarte lo que es la fuerza de verdad, mocosa."
+    },
     "victory": {
       "1": "Ya veo… No lo has hecho nada mal. Aunque no creas que he combatido con toda mi fuerza."
     }
@@ -1688,6 +1750,10 @@
     }
   },
   "brassius": {
+    "encounter": {
+      "1": "¿Estás preparado?$¡Pues dejemos volar nuestra imaginación y creemos nuestra obra conjunta!",
+      "1_female": "¿Estás preparada?$¡Pues dejemos volar nuestra imaginación y creemos nuestra obra conjunta!"
+    },
     "victory": {
       "1": "Tú… ¡Tú sí que vas a la vanguardia!"
     }
