@@ -677,6 +677,9 @@
     "encounter": {
       "1": "¿Qué quieres? ¡Si nos molestas, no esperes misericordia!",
       "2": "Protón: ¿Qué quieres? Tengo fama de ser el miembro más retorcido del Team Rocket…$¡Deja de entrometerte en nuestros asuntos!"
+    },
+    "victory": {
+      "1": "¡La fortaleza se derrumbó!"
     }
   },
   "petrel": {
@@ -685,7 +688,8 @@
     },
     "victory": {
       "1": "Muy bien.\nTe diré dónde está el Director.",
-      "2": "Yo… no pude evitarlo…\nQue Giovanni me perdone…"
+      "2": "Yo… no pude evitarlo…\nQue Giovanni me perdone…",
+      "3": "No puedo dejar que me afecte.$Tengo que informar a los otros…"
     }
   },
   "tabitha": {
@@ -724,6 +728,17 @@
       "1": "¡Jua, ja, ja, ja, ja! ¡Me has ganado, pero he disfrutado con el combate!",
       "3": "¡Jo, jo! ¡Pierdo el combate, pero no la dignidad!",
       "3_female": "¡Jo, jo! ¡Pierdo el combate, pero no la dignidad!"
+    }
+  },
+  "mars": {
+    "victory": {
+      "1": "¡Esto no puede estar pasando!\n¿Cómo he podido perder?"
+    }
+  },
+  "zinzolin": {
+    "encounter": {
+      "1": "Podrías convertirte en una amenaza para los planes del Equipo Plasma, así que… ¡te eliminaré aquí mismo!",
+      "1_female": "Podrías convertirte en una amenaza para los planes del Equipo Plasma, así que… ¡te eliminaré aquí mismo!"
     }
   },
   "colress": {
@@ -797,7 +812,8 @@
     "victory": {
       "2": "¡Oh, no! ¡He perdido la Llave del Ascensor!",
       "3": "Uy, he perdido.",
-      "4": "¿Será posible?\n¡Mis compañeros me vengarán!"
+      "4": "¿Será posible?\n¡Mis compañeros me vengarán!",
+      "5": "¿Dices que TEAM ROCKET adiós?$¿Roto? ¿Eso dices?"
     }
   },
   "magmaGrunt": {
@@ -812,6 +828,8 @@
       "4": "¡Nosotros, el Equipo Aqua, existimos por el bien de la humanidad!"
     },
     "victory": {
+      "1": "¡Estás bromeando!",
+      "2": "¡Aaaah, nunca pensé que alguien mangonearía nuestros planes de mangoneo!",
       "4": "Ay, ay, ay, qué desastre…\nEl Jefe se va a mosquear…"
     }
   },
@@ -886,7 +904,9 @@
   },
   "macroGrunt": {
     "encounter": {
-      "1": "¿Veis? La señorita Olivia así lo ordena."
+      "1": "¿Veis? La señorita Olivia así lo ordena.",
+      "4": "¡Te he encontrado!\n¡Pues a combatir toca!",
+      "4_female": "¡Te he encontrado!\n¡Pues a combatir toca!"
     },
     "victory": {
       "1": "Hemos perdido, así que toca retirarse sin dar guerra.$Pero no incordiéis al Presidente Rose, por favor.",
@@ -983,6 +1003,11 @@
       "1": "No… ¡No puede ser! ¡Es imposible!"
     }
   },
+  "plasmaBossGhetsis1": {
+    "victory": {
+      "1": "¿Cómo es posible?$¡Yo fui el creador del Equipo Plasma!\n¡Yo soy perfecto!"
+    }
+  },
   "plasmaBossGhetsis2": {
     "encounter": {
       "1": "Ghechis: ¡Vamos! Quiero ver tu rostro en el instante de su mayor desesperación.$¡Lucha para proteger Teselia!$Ah, que el mejor de los escenarios deba malgastarse con un patético Entrenador de segunda como tú…$¡Voy a ver cómo pierdes y desapareces en el olvido!"
@@ -1049,6 +1074,11 @@
   "macroBossRose1": {
     "encounter": {
       "1": "Tengo una misión muy clara: proveer al mundo entero con una fuente de energía ilimitada que garantice su prosperidad futura.$Es algo que va más allá de la mera obligación para convertirse en convicción."
+    }
+  },
+  "macroBossRose2": {
+    "encounter": {
+      "1": "Me he comprometido a resolver el problema del agotamiento de recursos energéticos en Galar y,$por supuesto, también en otros lugares del mundo.$Macrocosmos ha llegado a donde está gracias a mi experiencia y mis logros.$Eso prueba muy claramente que mis métodos funcionan.$Aunque pierda, no tengo intención de cambiar mis ideales."
     }
   },
   "starBossPenny1": {
@@ -1250,9 +1280,22 @@
       "3": "¡No te imaginas el nivel de fracaso que estás a punto de experimentar!",
       "3_female": "¡No te imaginas el nivel de fracaso que estás a punto de experimentar!"
     },
+    "victory": {
+      "1": "Pero… Pero ¿cómo…?\n¿Cómo ha podido perder alguien como yo?$¡No tengo nada más que decir!"
+    },
     "defeat": {
       "1": "Aún eres joven y no sabes cómo controlar tu propia fuerza…$Deberías tenerlo presente…",
       "1_female": "Aún eres joven y no sabes cómo controlar tu propia fuerza…$Deberías tenerlo presente…"
+    }
+  },
+  "norman": {
+    "victory": {
+      "3": "¡Es increíble!\n¡Qué maravilla de combate!"
+    }
+  },
+  "juan": {
+    "victory": {
+      "4": "Tengo el presentimiento de que tu destreza te llevará a lo más alto."
     }
   },
   "crasherWake": {
@@ -1288,6 +1331,7 @@
       "2": "Como ya sabes, soy Cathy.$Te advierto que no he venido a jugar: tengo intención de llevarme la victoria a casa."
     },
     "victory": {
+      "2": "¿Cómo…, cómo puede ser esto?",
       "3": "¡La corriente que has provocado se ha llevado por delante incluso a mis Pokémon más fuertes!"
     },
     "defeat": {
@@ -1295,6 +1339,9 @@
     }
   },
   "melony": {
+    "encounter": {
+      "2": "Bueno, ¿empezamos?"
+    },
     "victory": {
       "3": "Oye, que lo de romper el hielo lo decía en\nsentido figurado, no literal…"
     }
@@ -1312,7 +1359,16 @@
       "1": "Está claro que una piltrafilla no eres, ¡pero es que yo soy la mar de bueno!"
     }
   },
+  "shauntal": {
+    "victory": {
+      "1": "¡Guaaau! Ahora sí me he quedado completamente en blanco."
+    }
+  },
   "marshal": {
+    "victory": {
+      "2": "Ahora tienes que desafiar al resto del Alto Mando y así apuntar cada vez más alto.",
+      "3": "La fuerza que posees me ha impresionado profundamente."
+    },
     "defeat": {
       "3": "¡Uuuh! ¡Jiáaa!\n¡Yaaa!"
     }
@@ -1360,6 +1416,8 @@
     "victory": {
       "1": "Esto… ¿Ya se ha acabado?",
       "1_female": "Esto… ¿Ya se ha acabado?",
+      "2": "¡Qué sorpresa!\nEres muy fuerte, ¿eh?$Vamos, creo que ni siquiera mis hermanos Zeo o Maíz podrían haberte ganado…",
+      "2_female": "¡Qué sorpresa!\nEres muy fuerte, ¿eh?$Vamos, creo que ni siquiera mis hermanos Zeo o Maíz podrían haberte ganado…",
       "3": "Creo que la sincronía no ha sido del todo correcta…"
     },
     "defeat": {
@@ -1383,7 +1441,8 @@
     "defeat": {
       "1": "¡Muy bien!\n¡Pues así es como yo combato!",
       "2": "Roco: ¡Muchas gracias!$Esta victoria me ha dado confianza, y creo que puedo ganar a mi padre.",
-      "3": "¡Muy bien! Pues estos son mis Pokémon.\n¡Y a mucha honra!"
+      "3": "¡Muy bien! Pues estos son mis Pokémon.\n¡Y a mucha honra!",
+      "4": "¡Sabía que ganaría!"
     }
   },
   "morty": {
@@ -1402,7 +1461,8 @@
     "defeat": {
       "1": "He avanzado otro paso más en mi camino.",
       "2": "Pues vaya…",
-      "3": "Vaya, no me lo puedo creer. Me he quedado de piedra al ver lo bien que combates."
+      "3": "Vaya, no me lo puedo creer. Me he quedado de piedra al ver lo bien que combates.",
+      "6": "¡Sabía que ganaría!"
     }
   },
   "crispin": {
@@ -1470,6 +1530,9 @@
     }
   },
   "gardenia": {
+    "encounter": {
+      "1": "Desprendes cierta aura de triunfo.$Seguro que nos vamos a divertir.\n¡Demos paso al combate!"
+    },
     "victory": {
       "1": "¡Increíble! Eres sensacional, ¿eh?",
       "1_female": "¡Increíble! Eres sensacional, ¿eh?"
@@ -1542,6 +1605,9 @@
     }
   },
   "drake": {
+    "encounter": {
+      "1": "¿Sabes lo que se necesita para luchar con la ayuda de los Pokémon? ¿Lo sabes?$Pues si no lo sabes…, ¡nunca podrás derrotarme!"
+    },
     "victory": {
       "1": "Ha sido grandioso, debo reconocerlo."
     }
@@ -1632,6 +1698,10 @@
     }
   },
   "lenora": {
+    "encounter": {
+      "1": "Bueeeno…$Vamos a analizar a fondo la forma de combatir de tu equipo Pokémon al que has entrenado con tanto mimo.",
+      "1_female": "Bueeeno…$Vamos a analizar a fondo la forma de combatir de tu equipo Pokémon al que has entrenado con tanto mimo."
+    },
     "victory": {
       "1": "¡Impresionante!\n¡Me has dejado sin palabras!",
       "1_female": "¡Impresionante!\n¡Me has dejado sin palabras!"
@@ -1780,6 +1850,10 @@
     }
   },
   "drasna": {
+    "encounter": {
+      "1": "Supongo que posees una fuerza extraordinaria para haber logrado llegar tan lejos, ¿a que sí?$¡Me alegro mucho por ti!$Mis Pokémon podrán fortalecerse si juegan un rato contigo, así que vamos, no perdamos el tiempo.",
+      "1_female": "Supongo que posees una fuerza extraordinaria para haber logrado llegar tan lejos, ¿a que sí?$¡Me alegro mucho por ti!$Mis Pokémon podrán fortalecerse si juegan un rato contigo, así que vamos, no perdamos el tiempo."
+    },
     "victory": {
       "1": "Vaya, vaya… ¿Así que ya ha terminado nuestra contienda?$¡Estás invitado a volver cuando quieras!",
       "1_female": "Vaya, vaya… ¿Así que ya ha terminado nuestra contienda?$¡Estás invitada a volver cuando quieras!"
@@ -1819,6 +1893,11 @@
     },
     "defeat": {
       "1": "¿Lo ves?\nGracias a mi poder estoy aquí."
+    }
+  },
+  "piers": {
+    "encounter": {
+      "1": "¡Pues prepárate para el recital que vamos a dar mis Pokémon y yo!$¡Pueblo Crampón, prepárate para el recital que voy a dar!"
     }
   },
   "jasmine": {
@@ -1982,6 +2061,9 @@
   "maylene": {
     "victory": {
       "1": "Reconozco mi derrota."
+    },
+    "defeat": {
+      "1": "Ha sido increíble."
     }
   },
   "fantina": {
@@ -2027,7 +2109,8 @@
   },
   "burgh": {
     "encounter": {
-      "1": "Vaya, vaya…$Tengo la impresión de que, si gano este combate, podré pintar un cuadro de una belleza sin precedentes.$¡Voy a combatir dando rienda suelta a mi imaginación! Pero me estoy yendo por las ramas…$¡Hala, combatiendo, que es gerundio!"
+      "1": "Vaya, vaya…$Tengo la impresión de que, si gano este combate, podré pintar un cuadro de una belleza sin precedentes.$¡Voy a combatir dando rienda suelta a mi imaginación! Pero me estoy yendo por las ramas…$¡Hala, combatiendo, que es gerundio!",
+      "2": "Y el resto de mi equipo Pokémon es también fabuloso, por supuesto.$¡Y ahora dejémonos de preámbulos y lancémonos al combate!"
     },
     "victory": {
       "1": "¡Ahí va! ¡¿Ya hemos terminado?!",
