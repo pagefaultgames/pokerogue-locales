@@ -1313,7 +1313,8 @@
       "3": "¡Es increíble!\n¡Qué maravilla de combate!"
     },
     "defeat": {
-      "1": "Los dos lo hemos dado todo.\nEspero que podamos repetirlo."
+      "1": "Los dos lo hemos dado todo.\nEspero que podamos repetirlo.",
+      "3": "Gracias por tan magnífico combate.$¡Más suerte la próxima vez!"
     }
   },
   "juan": {
@@ -1404,6 +1405,7 @@
   },
   "cheren": {
     "encounter": {
+      "2": "Un combate Pokémon es una pérdida de tiempo si no tienes eso en cuenta.$Mejor dicho, aunar fuerzas con los Pokémon no tendría sentido.",
       "3": "¡Me llamo Cheren! Me dedico a la enseñanza, pero también ejerzo como Líder de Gimnasio.$¡Encantado de conocerte!",
       "3_female": "¡Me llamo Cheren! Me dedico a la enseñanza, pero también ejerzo como Líder de Gimnasio.$¡Encantado de conocerte!"
     },
@@ -1467,6 +1469,8 @@
     },
     "victory": {
       "1": "¿Cómo es posible?\n¡Con la de tiempo que paso entrenando!",
+      "2": "Hemos perdido el control…$La próxima vez me gustaría desafiarte a una carrera de desenterrar fósiles.",
+      "2_female": "Hemos perdido el control…$La próxima vez me gustaría desafiarte a una carrera de desenterrar fósiles.",
       "3": "A tenor de la fuerza que has demostrado, la victoria resulta obvia.",
       "4": "Vaya, no me lo puedo creer. Me he quedado de piedra al ver lo bien que combates."
     },
@@ -1482,7 +1486,8 @@
       "2": "Cuentan que un Pokémon legendario se aparecerá ante un Entrenador de gran valía…$Yo creo en la leyenda y, desde que nací, me he entrenado aquí en secreto.$Y gracias a eso puedo ver cosas que los demás no ven…$Puedo ver cómo seré yo el único que hará aparecer al Pokémon legendario.$¡Lo creo firmemente!$¡Y tú me ayudarás a seguir con mi entrenamiento!",
       "3": "Lo creas o no, el poder místico existe.",
       "4": "Puedes ser testigo de los frutos de mi entrenamiento.",
-      "5": "Tu alma y la de los Pokémon deben ser una. ¿Puedes conseguirlo?"
+      "5": "Tu alma y la de los Pokémon deben ser una. ¿Puedes conseguirlo?",
+      "6": "¿Qué me dices? ¿Quieres entrenar conmigo?"
     },
     "victory": {
       "1": "Grrr… ¡Qué remedio!$Pero tener que recurrir a estas tácticas solo demuestra que aún no soy lo bastante fuerte.",
@@ -1611,11 +1616,17 @@
     "victory": {
       "1": "¡Fua, ja, ja! ¡Menudo ímpetu, mozalbete! ¡Has hecho que me vaya a pique!",
       "1_female": "¡Fua, ja, ja! ¡Menudo ímpetu, mozalbeta! ¡Has hecho que me vaya a pique!"
+    },
+    "defeat": {
+      "1": "¡Hazme una visitilla de vez en cuando!"
     }
   },
   "tulip": {
     "victory": {
       "1": "La fuerza de la que haces gala en combate tiene un “je ne sais quoi” que se asemeja a la magia."
+    },
+    "defeat": {
+      "1": "La industria del maquillaje es muy competitiva.$No es raro que alguien con un talento decente desaparezca de la noche a la mañana…"
     }
   },
   "sidney": {
@@ -1632,6 +1643,9 @@
     }
   },
   "glacia": {
+    "encounter": {
+      "1": "Pero todo lo que he visto ha sido Entrenadores muy débiles…$¿Y tú, qué?$¡Me encantaría poder enfrentarme a ti!"
+    },
     "victory": {
       "1": "¡Tú y tus Pokémon tenéis espíritus que hierven de vitalidad!$Tanta energía me abruma… No me extraña que mis ataques helados no te hayan afectado…"
     }
@@ -1685,6 +1699,11 @@
     },
     "victory": {
       "1": "He podido sentir la fuerza que has adquirido en tu peregrinaje por Alola."
+    }
+  },
+  "molayne": {
+    "encounter": {
+      "1": "Aunque le he cedido a mi primo Chris el puesto de Capitán, sigo teniendo plena confianza en mis capacidades.$Más que ser una mera estrella fugaz, ¡mi fuerza brilla con el fulgor de una supernova!"
     }
   },
   "rika": {
@@ -1860,6 +1879,7 @@
   "karen": {
     "encounter": {
       "1": "Soy Morgana. ¿Quieres luchar contra mis Pokémon de tipo Siniestro?",
+      "2": "Yo soy distinta a los tres con los que ya has luchado.",
       "3": "Has formado un equipo encantador. Nuestro combate será\napasionante."
     },
     "victory": {
@@ -2303,6 +2323,9 @@
     }
   },
   "grusha": {
+    "encounter": {
+      "1": "Bastará con congelarte de los pies a la cabeza y todo irá bien."
+    },
     "victory": {
       "1": "Esa pasión tuya tan ferviente… no me disgusta, la verdad."
     }
