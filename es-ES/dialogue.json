@@ -414,7 +414,8 @@
       "2": "Puedo ver en tus ojos la desesperación.\nVenga, ¡cuando quieras!"
     },
     "victory": {
-      "1": "¡Ja! No es el do-re-mi del combate…\n¡Es el A-B-C! ¡Que no te enteras!"
+      "1": "¡Ja! No es el do-re-mi del combate…\n¡Es el A-B-C! ¡Que no te enteras!",
+      "2": "¿Ha sido tu verdadera fuerza o es que acaso te he subestimado?"
     }
   },
   "veteranFemale": {
@@ -440,6 +441,10 @@
     }
   },
   "richDouble": {
+    "encounter": {
+      "1": "Ayer estuve de fiesta… y hoy con los Pokémon… ¡Demasiada juerga!",
+      "2": "¿Quieres medirte conmigo? Menuda cara de hambre que tienes…"
+    },
     "victory": {
       "2": "¡Vaya, vaya! ¡Eres de lo que no hay! ¿Qué comes para ponerte así?"
     }
@@ -679,7 +684,8 @@
       "2": "Protón: ¿Qué quieres? Tengo fama de ser el miembro más retorcido del Team Rocket…$¡Deja de entrometerte en nuestros asuntos!"
     },
     "victory": {
-      "1": "¡La fortaleza se derrumbó!"
+      "1": "¡La fortaleza se derrumbó!",
+      "2": "¡Venciéndome a mí solo has conseguido que la ira del Team Rocket se acreciente!"
     }
   },
   "petrel": {
@@ -716,8 +722,14 @@
     }
   },
   "shelly": {
+    "encounter": {
+      "1": "¡Ja, ja, ja, ja!$¿Vas a mezclarte en los asuntos del Equipo Aqua?$¡Entonces, o no tienes miedo o no tienes ni idea!$¡Eres tan dulce que empalagas! ¡Voy a darte una buena tunda!"
+    },
     "victory": {
-      "2": "Ah…\n¿Es que no he sido lo bastante dura…?"
+      "1": "¡Ja, ja, ja, ja! ¡Nos han chafado los planes!$Y no tenemos plan B… Habrá que pensar en algo…$¡Pero ésta no es la última vez que oirás hablar del Equipo Aqua! ¡Que lo sepas!",
+      "2": "Ah…\n¿Es que no he sido lo bastante dura…?",
+      "3": "Has progresado una barbaridad desde la última vez…$Eres un muchacho terrible…$Ya no nos quedan fuerzas ni a mí ni a mis Pokémon para volver a combatir…$Sigue adelante; Aquiles se encargará de ti.",
+      "3_female": "Has progresado una barbaridad desde la última vez…$Eres un muchacho terrible…$Ya no nos quedan fuerzas ni a mí ni a mis Pokémon para volver a combatir…$Sigue adelante; Aquiles se encargará de ti."
     }
   },
   "matt": {
@@ -902,10 +914,16 @@
     "encounter": {
       "2": "¡Oye, tú! ¡No saludes así! ¡A ver si te crees el más chulo de aquí!",
       "2_female": "¡Oye, tú! ¡No saludes así! ¡A ver si te crees la más chula de aquí!"
+    },
+    "victory": {
+      "1": "¡Ah! ¡¿Ya está?!",
+      "2": "Nos vamos a pirar, que aquí nos van a dar.",
+      "5": "¡Esto no me lo esperaba! ¿Te crees que soy menos que un Pokémon?$¡Yo valgo más que eso!"
     }
   },
   "plumeria": {
     "encounter": {
+      "2": "No me extraña. Os pasáis el día perdiendo el tiempo en combates contra mocosos.",
       "3": "Pero métete en alguno de mis asuntos y te acordarás de mi cara, ¿te enteras?"
     },
     "victory": {
@@ -916,6 +934,7 @@
   "macroGrunt": {
     "encounter": {
       "1": "¿Veis? La señorita Olivia así lo ordena.",
+      "3": "¡Soy de MC Seguros!\n¿Estáis asegurados a todo riesgo?",
       "4": "¡Te he encontrado!\n¡Pues a combatir toca!",
       "4_female": "¡Te he encontrado!\n¡Pues a combatir toca!"
     },
@@ -930,22 +949,62 @@
       "1": "¡No permitiré que nadie interfiera en el plan del señor Rose!"
     },
     "victory": {
-      "1": "¿He perdido? Menudo desastre, Olivia…"
+      "1": "¿He perdido? Menudo desastre, Olivia…",
+      "2": "Ah… Ha sido un error subestimar la fuerza de un Aspirante que ha conseguido llegar hasta aquí.",
+      "2_female": "Ah… Ha sido un error subestimar la fuerza de un Aspirante que ha conseguido llegar hasta aquí."
     }
   },
   "starGrunt": {
     "encounter": {
+      "3": "¿Por qué no te largas por donde has venido? No me obligues a echarte de aquí por las malas.",
       "5": "Hala, otro más. Éramos pocos y parió la abuela…",
       "5_female": "Hala, otra más. Éramos pocos y parió la abuela…"
     },
     "victory": {
       "1": "Pero bueno, al final soy yo la que está viendo las estrellas…",
-      "3": "Había actuado en legítima defensa…"
+      "3": "Había actuado en legítima defensa…",
+      "4": "A-astro la vista…",
+      "5": "Siempre nos toca a los novatos tragar con todo…"
+    }
+  },
+  "giacomo": {
+    "encounter": {
+      "1": "Así que buscando bulla con el Team Star, ¿eh? O tienes mucho valor o no sabes dónde te metes."
+    }
+  },
+  "mela": {
+    "encounter": {
+      "2": "¿Buscas bulla? ¡Pues aquí me tienes! ¡Vamos a caldear aún más el ambiente!"
+    },
+    "victory": {
+      "1": "Qué rabia me da que todo vaya a terminar así. Pfff, con lo lejos que habíamos llegado…",
+      "2": "Mucho caldear, pero al final he salido escaldada."
     }
   },
   "atticus": {
     "victory": {
+      "1": "Os… os he fallado…",
       "2": "No os guardo animosidad, pues os habéis batido en buena lid y justa ha sido la derrota."
+    }
+  },
+  "ortega": {
+    "encounter": {
+      "1": "Si te dan ganas de llorar de lo fuerte que soy, siempre estás a tiempo de irte a tu casa.",
+      "2": "Esta vez voy a ganarte yo, por mucha rabia que te dé.",
+      "2_female": "Esta vez voy a ganarte yo, por mucha rabia que te dé."
+    },
+    "victory": {
+      "1": "¿Por qué he perdido? ¡¿Por qué, por quéee?!",
+      "2": "Jopé, ¡no vale ser tan fuerte como eres tú!"
+    }
+  },
+  "eri": {
+    "encounter": {
+      "1": "No pienso dejar en pie a nadie que se atreva a plantarle cara al Team Star.",
+      "2": "¡Si me atacas, te la devuelvo! ¡El ojo por ojo seguirá hasta que solo quede uno en pie!"
+    },
+    "victory": {
+      "1": "Perdonadme…"
     }
   },
   "rocketBossGiovanni1": {
@@ -1015,6 +1074,9 @@
     }
   },
   "plasmaBossGhetsis1": {
+    "encounter": {
+      "1": "¡No importa cuántos vengan ni lo que hagan! ¡Nadie podrá detenerme!"
+    },
     "victory": {
       "1": "¿Cómo es posible?$¡Yo fui el creador del Equipo Plasma!\n¡Yo soy perfecto!"
     }
@@ -1036,6 +1098,9 @@
     }
   },
   "flareBossLysandre2": {
+    "encounter": {
+      "1": "Dejemos que nuestros Pokémon decidan…$Cuál es el porvenir que ha de prevalecer: el que yo anhelo o el que tú deseas."
+    },
     "victory": {
       "1": "¡Aaaagh!"
     },
@@ -1256,6 +1321,14 @@
     "encounter": {
       "1": "¡Mi táctica es la ofensiva total con los Pokémon de tipo Agua!",
       "1_female": "¡Mi táctica es la ofensiva total con los Pokémon de tipo Agua!"
+    },
+    "victory": {
+      "1": "Jo, eres un hacha. Reconozco sin tapujos tu poder."
+    }
+  },
+  "ltSurge": {
+    "defeat": {
+      "1": "Oh, yeaaah!$¡Mis Pokémon de tipo Eléctrico son los mejores del mundo mundial y el universo sideral!"
     }
   },
   "erika": {
@@ -1323,6 +1396,10 @@
     },
     "victory": {
       "4": "Tengo el presentimiento de que tu destreza te llevará a lo más alto."
+    },
+    "defeat": {
+      "4": "Je, je, je. ¡La victoria es mía! Es decir, que has perdido…",
+      "4_female": "Je, je, je. ¡La victoria es mía! Es decir, que has perdido…"
     }
   },
   "crasherWake": {
@@ -1349,6 +1426,7 @@
       "3": "…¡Caramba! Sí, he perdido."
     },
     "defeat": {
+      "1": "¡Padre!$¡He conseguido una victoria fabulosa con los Pokémon que tanto querías!",
       "2": "¡Después de todo, los Pokémon pájaro son los mejores!"
     }
   },
@@ -1356,7 +1434,9 @@
     "encounter": {
       "1": "Por muchas estratagemas que urdas, mi compi y yo las echaremos a pique.",
       "1_female": "Por muchas estratagemas que urdas, mi compi y yo las echaremos a pique.",
-      "2": "Como ya sabes, soy Cathy.$Te advierto que no he venido a jugar: tengo intención de llevarme la victoria a casa."
+      "2": "Como ya sabes, soy Cathy.$Te advierto que no he venido a jugar: tengo intención de llevarme la victoria a casa.",
+      "3": "Aquí tienes un regalito. ¡Todo para ti!",
+      "3_female": "Aquí tienes un regalito. ¡Todo para ti!"
     },
     "victory": {
       "2": "¿Cómo…, cómo puede ser esto?",
@@ -1424,7 +1504,9 @@
       "1": "¡Yujuuu!$¡Soy el más fuerte de mis hermanos,\nestás jugando con fuego!",
       "1_female": "¡Yujuuu!$¡Soy el más fuerte de mis hermanos,\nestás jugando con fuego!",
       "2": "Bueno, pues una vez dicho esto, voy a reducirte a cenizas con mis Pokémon de tipo Fuego.$¡Yo, Zeo, seré tu oponente!",
-      "2_female": "Bueno, pues una vez dicho esto, voy a reducirte a cenizas con mis Pokémon de tipo Fuego.$¡Yo, Zeo, seré tu oponente!"
+      "2_female": "Bueno, pues una vez dicho esto, voy a reducirte a cenizas con mis Pokémon de tipo Fuego.$¡Yo, Zeo, seré tu oponente!",
+      "3": "¡Sobran las presentaciones!$Os voy a reducir a cenizas con mis Pokémon de tipo Fuego. Va a ser un combate… fugaz.",
+      "3_female": "¡Sobran las presentaciones!$Os voy a reducir a cenizas con mis Pokémon de tipo Fuego. Va a ser un combate… fugaz."
     },
     "victory": {
       "1": "¡Mecachis! ¡Qué mal acabo de quedar!$Me acabas de bajar los humos de mala manera.",
@@ -1491,6 +1573,8 @@
     },
     "victory": {
       "1": "Grrr… ¡Qué remedio!$Pero tener que recurrir a estas tácticas solo demuestra que aún no soy lo bastante fuerte.",
+      "2": "Entiendo… Tu viaje te ha llevado a tierras lejanas.$Y has presenciado muchas más cosas que yo. ¡Cómo te envidio…!",
+      "2_female": "Entiendo… Tu viaje te ha llevado a tierras lejanas.$Y has presenciado muchas más cosas que yo. ¡Cómo te envidio…!",
       "3": "Pero ¡¿qué me estás contando?!",
       "5": "Yo también necesito más práctica.",
       "6": "Qué pena…"
@@ -1505,26 +1589,46 @@
   "crispin": {
     "encounter": {
       "1": "¡Voy a ganar porque me apetece!",
-      "1_female": "¡Voy a ganar porque me apetece!"
+      "1_female": "¡Voy a ganar porque me apetece!",
+      "2": "Yo combato porque me apetece combatir. Ya está. ¡Así de simple!"
     },
     "victory": {
       "1": "¡Me apetecía ganar, pero me voy a quedar con las ganas!",
       "2": "¡He perdido porque no he ganado!"
+    },
+    "defeat": {
+      "1": "¿Eh? No puede ser, creo que… ¡he ganado y todo! ¡Pues gracias y buen provecho!"
     }
   },
   "amarys": {
+    "encounter": {
+      "1": "Espero y deseo poder hacerlo volver a sus cabales.$Por consiguiente, no puedo permitirme encajar una derrota. Iniciemos el combate."
+    },
     "victory": {
       "1": "Yo… ¿no soy apta?"
+    },
+    "defeat": {
+      "1": "He ganado. Gracias por tu participación."
     }
   },
   "lacey": {
+    "encounter": {
+      "1": "Esta vez voy a enseñarte el equipo que me acompaña como miembro del Alto Mando."
+    },
     "victory": {
       "1": "¡Ha sido un combate la mar de interesante!"
     }
   },
   "drayton": {
+    "encounter": {
+      "1": "No creas que pienso dejarte ganar así como así. Si no, no tendría ninguna gracia…$Voy a mostrarte de lo que está hecho el menda."
+    },
     "victory": {
       "1": "El resultado que cabía esperar."
+    },
+    "defeat": {
+      "1": "¡Je, je, je! ¡Una victoria para el menda!$No te me irás a poner en plan emo como Cass por haber perdido, ¿no?",
+      "1_female": "¡Je, je, je! ¡Una victoria para el menda!$No te me irás a poner en plan emo como Cass por haber perdido, ¿no?"
     }
   },
   "ramos": {
@@ -1559,11 +1663,13 @@
       "2": "Pokémon, moda, amor…\n¡Todo es cuestión de concentración!$Ahora lo verás.\n¡Prepárate para perder!"
     },
     "victory": {
+      "1": "Ha sido realmente interesante… Creo que incluso te admiro un poco.",
       "2": "¡Vaya! ¡Eres increíble!\n¡Te has ganado mi respeto!$Tu concentración y tu voluntad nos han\ndoblegado.",
       "2_female": "¡Vaya! ¡Eres increíble!\n¡Te has ganado mi respeto!$Tu concentración y tu voluntad nos han\ndoblegado."
     },
     "defeat": {
-      "1": "Me has mostrado tu entusiasmo, pero no ha sido suficiente para ganar."
+      "1": "Me has mostrado tu entusiasmo, pero no ha sido suficiente para ganar.",
+      "2": "¿Acaso te sorprende? ¡Es la concentración que desprendo!$Y no solo yo, sino también mis Pokémon."
     }
   },
   "gardenia": {
@@ -1610,9 +1716,15 @@
     },
     "victory": {
       "1": "En fin…, no pasa nada por perder si lo has dado todo."
+    },
+    "defeat": {
+      "1": "Lo importante es saber cómo reaccionar al perder.$Madurar aprendiendo de tus derrotas…$¡Eso sí que es ser fuerte, y lo demás son tonterías!"
     }
   },
   "kofu": {
+    "encounter": {
+      "1": "¡Marchando un menú completo de Pokémon de tipo Agua! ¡Que aproveche!"
+    },
     "victory": {
       "1": "¡Fua, ja, ja! ¡Menudo ímpetu, mozalbete! ¡Has hecho que me vaya a pique!",
       "1_female": "¡Fua, ja, ja! ¡Menudo ímpetu, mozalbeta! ¡Has hecho que me vaya a pique!"
@@ -1622,6 +1734,9 @@
     }
   },
   "tulip": {
+    "encounter": {
+      "1": "Voy a dejar a tus Pokémoncitos más guapos que nunca, ¡ya lo verás!"
+    },
     "victory": {
       "1": "La fuerza de la que haces gala en combate tiene un “je ne sais quoi” que se asemeja a la magia."
     },
@@ -1713,6 +1828,10 @@
     "victory": {
       "1": "¡Cómo te las gastas, chaval!",
       "1_female": "¡Cómo te las gastas, chavala!"
+    },
+    "defeat": {
+      "1": "¡Ja, ja, ja! ¡Me gusta tu rollo! Contigo no hay quien se aburra, ¿eh?",
+      "1_female": "¡Ja, ja, ja! ¡Me gusta tu rollo! Contigo no hay quien se aburra, ¿eh?"
     }
   },
   "bruno": {
@@ -1785,9 +1904,20 @@
       "1_female": "¡Fatal! ¡Has hecho el panoli! ¡Saca lo que llevas dentro y suéltate la melena!"
     }
   },
+  "olivia": {
+    "encounter": {
+      "1": "Ya nos conocemos, ¡así que dejemos las formalidades y a combatir!"
+    }
+  },
   "poppy": {
+    "encounter": {
+      "1": "¡Hala! ¿Quieres combatir contra mí?"
+    },
     "victory": {
       "1": "Buaaa, ¡ya no te ajunto!"
+    },
+    "defeat": {
+      "1": "¡Yupiii! ¡Bieeen!$¡Me debes varios billones! Cuando quieras la revanchita, ya sabes, ¿eh?"
     }
   },
   "agatha": {
@@ -1893,12 +2023,21 @@
       "3": "Ven a verme cuando quieras."
     }
   },
+  "milo": {
+    "encounter": {
+      "1": "Tu comprensión sobre los Pokémon es más honda que las raíces de un árbol.$¡Será un combate encarnizado! ¡Voy a tener que dinamaxizar a mis Pokémon para ganarte!"
+    },
+    "victory": {
+      "1": "¡Vaya con el nuevo Aspirante!$La fuerza de mis Pokémon de tipo Planta se ha marchitado.",
+      "1_female": "¡Vaya con el nuevo Aspirante!$La fuerza de mis Pokémon de tipo Planta se ha marchitado."
+    }
+  },
   "lucian": {
+    "encounter": {
+      "1": "Un momento, que esta novela está en su punto más interesante…$Verás, el protagonista, armado con una espada sagrada, se dirige al enfrentamiento final y…$Bueno, ya que has venido hasta aquí, supongo que el libro puede esperar.$¡Quiero ver si estás a la altura de semejante personaje!"
+    },
     "victory": {
       "1": "Ya veo… No me he podido librar del mate."
-    },
-    "defeat": {
-      "1": "Voy a seguir utilizando este Pokémon para hacer honor a mi sobrenombre de Reina de la Sierpe."
     }
   },
   "drasna": {
@@ -1950,6 +2089,9 @@
   "piers": {
     "encounter": {
       "1": "¡Pues prepárate para el recital que vamos a dar mis Pokémon y yo!$¡Pueblo Crampón, prepárate para el recital que voy a dar!"
+    },
+    "victory": {
+      "1": "Al menos, que no se diga que no nos dejamos la piel en el escenario. ¡Chao!"
     }
   },
   "jasmine": {
@@ -1976,6 +2118,10 @@
     }
   },
   "steven": {
+    "encounter": {
+      "1": "Dime, ¿qué has visto durante tu viaje con los Pokémon?$¿Qué sentiste al conocer a tantísimos Entrenadores?$Recorrer la próspera región de Hoenn sin duda habrá despertado en ti nuevos matices…$y me gustaría que me demostraras todo lo que has aprendido.$Mis Pokémon y yo tampoco nos contendremos ni un ápice.",
+      "1_female": "Dime, ¿qué has visto durante tu viaje con los Pokémon?$¿Qué sentiste al conocer a tantísimos Entrenadores?$Recorrer la próspera región de Hoenn sin duda habrá despertado en ti nuevos matices…$y me gustaría que me demostraras todo lo que has aprendido.$Mis Pokémon y yo tampoco nos contendremos ni un ápice."
+    },
     "victory": {
       "1": "Yo, el Campeón, he sido derrotado…"
     }
@@ -2037,6 +2183,9 @@
   "nemona": {
     "victory": {
       "1": "Me da rabia perder, ¡pero lo he pasado genial!$¡Tenemos que repetir!"
+    },
+    "defeat": {
+      "1": "¡Así sí que da gusto combatir!"
     }
   },
   "leon": {
@@ -2092,6 +2241,9 @@
     },
     "victory": {
       "1": "Mis Pokémon han caído como moscas…"
+    },
+    "defeat": {
+      "1": "Come todo lo que quieras, Vivilloncín."
     }
   },
   "pryce": {
@@ -2175,7 +2327,8 @@
       "2": "¿Qué? ¡¿Ya hemos terminado?!\n¡Eres excepcional!"
     },
     "defeat": {
-      "1": "¡Guau!\nHa sido…, ¿cómo lo diría?, ¡primoroso!"
+      "1": "¡Guau!\nHa sido…, ¿cómo lo diría?, ¡primoroso!",
+      "2": "A menudo oigo hablar de victorias poco ortodoxas o incluso feas…$Pero yo creo que, si te has entregado en cuerpo y alma, toda victoria es hermosa."
     }
   },
   "elesa": {
@@ -2260,6 +2413,19 @@
   "wulfric": {
     "encounter": {
       "1": "¿Sabes qué? Dicen que a través de los combates uno puede comprender determinados aspectos,$reforzar el vínculo con sus Pokémon y cosas así, pero para mí lo importante es pasárselo bien y eso.$Bueno, dejémonos de charlas y vayamos a lo que más nos gusta: ¡un buen combate Pokémon!"
+    },
+    "victory": {
+      "1": "¡Espléndido, espléndido! Has pulverizado mis músculos de hielo."
+    }
+  },
+  "kabu": {
+    "encounter": {
+      "1": "Todos los Entrenadores y Pokémon se preparan a conciencia para vencer.$Eso quiere decir que no puedes confiar solo en el esfuerzo para destacar.$¡La clave radica en demostrar tu habilidad en los momentos cruciales del combate!"
+    }
+  },
+  "bea": {
+    "encounter": {
+      "1": "¿Posees un espíritu firme capaz de aguantar todo tipo de acometida?$Ahórrate la respuesta, ¡voy a tomarme la libertad de comprobarlo por mí misma!"
     }
   },
   "bede": {
@@ -2280,6 +2446,9 @@
     }
   },
   "marnie": {
+    "encounter": {
+      "1": "¡Pero mi meta y mi destino es ser Campeona!$Así que ojito, ¡porque a tu equipo le van a caer tortas como panes!"
+    },
     "victory": {
       "1": "Aunque me haya llevado un chasco, he podido ver muchas de vuestras virtudes."
     }
