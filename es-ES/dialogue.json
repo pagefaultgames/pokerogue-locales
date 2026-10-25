@@ -281,6 +281,7 @@
   },
   "firebreather": {
     "encounter": {
+      "2": "¡Mi alma está ardiendo!\n¡Déjame que te enseñe cómo quema!",
       "3": "¡Sube y echa un vistazo!"
     },
     "victory": {
@@ -662,7 +663,8 @@
   },
   "ariana": {
     "encounter": {
-      "2": "Ni sé ni me importa si lo que hago está bien o no…$Yo confío en Giovanni y cumplo con lo que se me dice."
+      "2": "Ni sé ni me importa si lo que hago está bien o no…$Yo confío en Giovanni y cumplo con lo que se me dice.",
+      "3": "Aquí termina tu viaje.\n¡Voy a acabar contigo!"
     },
     "victory": {
       "1": "¡Guau! Eres muy fuerte.\n¡Qué lástima!$Si te unieras al Team Rocket,\npodrías llegar a ser del Ejecutivo.",
@@ -673,6 +675,7 @@
   },
   "proton": {
     "encounter": {
+      "1": "¿Qué quieres? ¡Si nos molestas, no esperes misericordia!",
       "2": "Protón: ¿Qué quieres? Tengo fama de ser el miembro más retorcido del Team Rocket…$¡Deja de entrometerte en nuestros asuntos!"
     }
   },
@@ -1206,8 +1209,12 @@
     "encounter": {
       "4": "Contemplar las flores de un jardín es tan relajante…"
     },
+    "victory": {
+      "4": "¡Oh, madre mía!"
+    },
     "defeat": {
-      "1": "Se está tan a gusto…\nHasta me está entrando una modorrilla…"
+      "1": "Se está tan a gusto…\nHasta me está entrando una modorrilla…",
+      "4": "Oh… ¿Eso es todo?"
     }
   },
   "janine": {
@@ -1225,7 +1232,8 @@
       "2": "¡Mis Pokémon son auténticos guerreros que te cocinarán a fuego lento para reducirte a cenizas!"
     },
     "victory": {
-      "1": "¡Me has machacado! ¡He quedado reducido a nada!"
+      "1": "¡Me has machacado! ¡He quedado reducido a nada!",
+      "2": "¿No he avivado las llamas lo suficiente?"
     }
   },
   "giovanni": {
@@ -1311,6 +1319,7 @@
     },
     "defeat": {
       "1": "¡Como Líder de Gimnasio, soy el muro que debes abatir!",
+      "2": "¡Está bien!",
       "3": "Si he podido llegar tan lejos, se lo debo sin duda a mis Pokémon.$¿Por qué nos prestan su ayuda de manera incondicional?$Quizá no se deba a la relación establecida entre Entrenador y Pokémon, sino a algo$aún más simple: el vínculo que nace entre dos seres vivos que comparten un viaje."
     }
   },
@@ -1721,14 +1730,18 @@
   },
   "karen": {
     "encounter": {
-      "1": "Soy Morgana. ¿Quieres luchar contra mis Pokémon de tipo Siniestro?"
+      "1": "Soy Morgana. ¿Quieres luchar contra mis Pokémon de tipo Siniestro?",
+      "3": "Has formado un equipo encantador. Nuestro combate será\napasionante."
     },
     "victory": {
+      "1": "¡No! No puedo ganar. ¿Cómo te has hecho tan fuerte?",
       "2": "No me desviaré del camino que he elegido.",
       "3": "La Campeona está deseando conocerte."
     },
     "defeat": {
-      "2": "Bien, eso ha sido relativamente entretenido."
+      "1": "Eso es más o menos lo que esperaba.",
+      "2": "Bien, eso ha sido relativamente entretenido.",
+      "3": "Ven a verme cuando quieras."
     }
   },
   "lucian": {
@@ -1886,10 +1899,26 @@
       "1_female": "¡Toma, Jeroma, pastillas de goma! ¡Je, je, je! Menudo victorión me he llevado.$Pero que conste que tú también lo has hecho de fábula, ¿eh? ¡A ver si repetimos!"
     }
   },
+  "whitney": {
+    "encounter": {
+      "1": "¡Oye! ¿No crees que los POKéMON son monísimos?"
+    },
+    "victory": {
+      "1": "¡Buaaaa! ¡Buaaa!\n¡Eres muy malo!",
+      "1_female": "¡Buaaaa! ¡Buaaa!\n¡Eres muy mala!"
+    },
+    "defeat": {
+      "1": "¡Eso es!"
+    }
+  },
   "chuck": {
     "encounter": {
       "1": "¡Ah! ¿Quieres desafiarme?\n¿Eres valiente o tan sólo ignorante?",
       "1_female": "¡Ah! ¿Quieres desafiarme?\n¿Eres valiente o tan sólo ignorante?"
+    },
+    "victory": {
+      "1": "¡Eres fuerte!\n¿Puedo ser tu aprendiz?",
+      "1_female": "¡Eres fuerte!\n¿Puedo ser tu aprendiz?"
     },
     "defeat": {
       "1": "Ahí está. ¿Te das cuenta de que soy mucho más fuerte que tú?"
@@ -1910,11 +1939,17 @@
     },
     "victory": {
       "1": "¡Increíble! Ha sido perfecto. Intenta no olvidar lo que sientes ahora."
+    },
+    "defeat": {
+      "1": "Tal y como esperaba."
     }
   },
   "clair": {
     "encounter": {
       "1": "¿Sabes quién soy? ¿Y te atreves a desafiarme?"
+    },
+    "defeat": {
+      "1": "Eso es."
     }
   },
   "maylene": {
