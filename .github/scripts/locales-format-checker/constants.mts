@@ -25,7 +25,7 @@ export const ignoreList = [
  * @example `AceTrainer_male`
  * @see {@link https://www.i18next.com/translation-function/context}
  */
-export const i18nextKeyExtensions = ["_male", "_female", "_ordinal", "_one", "_two", "_other", "_few", "_many"];
+export const i18nextKeyExtensions = ["_male", "_female", "_ordinal", "_one", "_two", "_few", "_many", "_other"];
 
 /** The key format to check for */
 export const keyFormat = "camelCase";
