@@ -28,19 +28,19 @@
       "description": "ポケモン　１匹の　状態の　異常を　すべて　回復する"
     },
     "PokemonPpRestoreModifierType": {
-      "description": "ポケモンが　覚えている　技のうち　１つの　PPを　１０だけ　回復する",
+      "description": "ポケモンが　覚えている　技のうち　１つの　ＰＰを　１０だけ　回復する",
       "extra": {
-        "fully": "ポケモンが　覚えている　技のうち　１つの　PPを　すべて　回復する"
+        "fully": "ポケモンが　覚えている　技のうち　１つの　ＰＰを　すべて　回復する"
       }
     },
     "PokemonAllMovePpRestoreModifierType": {
-      "description": "ポケモンが　覚えている　４つの　技の　PPを　{{restorePoints}}ずつ　回復する",
+      "description": "ポケモンが　覚えている　４つの　技の　ＰＰを　{{restorePoints}}ずつ　回復する",
       "extra": {
-        "fully": "ポケモンが　覚えている　４つの　技の　PPを　すべて　回復する"
+        "fully": "ポケモンが　覚えている　４つの　技の　ＰＰを　すべて　回復する"
       }
     },
     "PokemonPpUpModifierType": {
-      "description": "ポケモンが　覚えている　技のうち　１つの　PPの　最大値を　５ごとに　{{upPoints}}ポイントずつ　上げる　（最大３）"
+      "description": "ポケモンが　覚えている　技のうち　１つの　ＰＰの　最大値を　５ごとに　{{upPoints}}ポイントずつ　上げる　（最大３）"
     },
     "PokemonNatureChangeModifierType": {
       "name": "{{natureName}}ミント",
