@@ -1,5 +1,6 @@
 import type { PostProcessorModule } from "i18next";
 
+// Protected text spans
 export type ProtectedSpan = readonly [start: number, end: number];
 
 export function findProtectedSpans(text: string, values: readonly string[]): ProtectedSpan[] {
@@ -29,6 +30,7 @@ export interface ProcessorOptions {
   [variable: string]: unknown;
 }
 
+// i18next language and interpolation helpers
 export function getSourceLanguage(options: ProcessorOptions | undefined, translator: { language?: string }): string {
   return options?.i18nResolved?.usedLng ?? options?.lng ?? translator.language ?? "";
 }
@@ -37,6 +39,7 @@ export function capitalizeFirst(text: string): string {
   return text.charAt(0).toUpperCase() + text.slice(1);
 }
 
+// Shared formatter types and basic formatters
 export type FormatterOptions = {
   adjective?: boolean | string;
   animate?: boolean | string;
@@ -56,11 +59,22 @@ export type GrammarFormatter = (value: unknown, lng?: string, options?: Formatte
 
 export const capitalizeFormatter: GrammarFormatter = value => capitalizeFirst(String(value));
 
+export function toFullWidthAlphanumerics(value: unknown): string {
+  return String(value).replace(/[A-Za-z0-9]/g, character => String.fromCharCode(character.charCodeAt(0) + 0xfee0));
+}
+
+export const fullwidthFormatter: GrammarFormatter = (value, _lng, options) => {
+  const formatted = toFullWidthAlphanumerics(value);
+  const capitalize = options?.capitalize === true || options?.capitalize === "true";
+  return capitalize ? capitalizeFirst(formatted) : formatted;
+};
+
 export interface GrammarModule {
   postProcessors: PostProcessorModule[];
   formatters: Record<string, GrammarFormatter>;
 }
 
+// Formatter option helpers
 export function withCapitalizeOption<T extends unknown[]>(
   format: (value: unknown, options?: FormatterOptions, ...rest: T) => string,
 ): (value: unknown, lng?: string, options?: FormatterOptions, ...rest: T) => string {

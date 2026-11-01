@@ -1,4 +1,4 @@
-import { capitalizeFormatter, type GrammarModule } from "#grammar/common";
+import { capitalizeFormatter, fullwidthFormatter, type GrammarModule } from "#grammar/common";
 
 export const GRAMMAR_MODULES = Object.values(
   import.meta.glob<GrammarModule>("./languages/*.ts", {
@@ -13,6 +13,7 @@ export function registerGrammarFormatters(
   add: (name: string, formatter: GrammarModule["formatters"][string]) => void,
 ): void {
   add("capitalize", capitalizeFormatter);
+  add("fullwidth", fullwidthFormatter);
   for (const module of GRAMMAR_MODULES) {
     for (const [name, formatter] of Object.entries(module.formatters)) {
       add(name, formatter);
