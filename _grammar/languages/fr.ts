@@ -107,6 +107,7 @@ export const NO_ELISION_STEMS: readonly string[] = [
   "husk",
   "hutt",
   "hyèn",
+  "oui",
   "onz",
   "uhlan",
   "ya",
@@ -147,7 +148,6 @@ export const NO_ELISION_WORDS: ReadonlySet<string> = new Set([
   "hoopa",
   "hotte-de-fer",
   "hurle-queue",
-  "oui",
   "yen",
 ]);
 
