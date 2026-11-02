@@ -8,6 +8,8 @@
   "menu": "菜單",
   "selectGameMode": "選擇遊戲模式",
   "logInOrCreateAccount": "登入或註冊即可開始遊戲，無需郵箱!",
+  "oauthNotLinked": "此{{provider}}賬號沒有鏈接任何賬號。\n登錄一個已有賬號或註冊新賬號。",
+  "oauthFailed": "無法通過{{provider}}登錄。",
   "username": "用戶名",
   "password": "密碼",
   "login": "登入",
@@ -73,5 +75,15 @@
   "pleaseTryAgainLater": "請稍後重試",
   "resetPassword": "重置密碼",
   "resetCode": "重置代碼",
-  "resetCodeFor": "{{username}}重置代碼"
+  "resetCodeFor": "{{username}}重置代碼",
+  "noResetCode": "無可用重置碼。",
+  "resetCodeDescription": "此代碼可用於重置你的密碼。",
+  "resetCodeWarning": "不要和任何人分享此代碼。",
+  "usernameResetCodeMismatch": "給定的用戶名和重置碼不匹配。",
+  "resetCodeLoginDescription": "選中用戶名時，顯示/隱藏重置碼。\n不要和任何人分享此代碼。",
+  "resetPasswordText": "如果你沒有重置碼\n在Discord服務器開一個工單來獲得。",
+  "resetPasswordSuccess": "密碼重置成功。現在你可以用新密碼登錄。\n你的重置碼已失效，請在登錄后重新獲取。",
+  "show": "顯示",
+  "hide": "隱藏",
+  "close": "關閉"
 }
