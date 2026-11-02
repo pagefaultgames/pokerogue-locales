@@ -1,0 +1,13 @@
+{
+  "intro": "Ви знайшли...@d{32} скриню?",
+  "title": "Таємнича скриня",
+  "description": "На землі стоїть гарно оздоблена скриня. Усередині має бути щось хороше... чи не так?",
+  "query": "Чи відкриєш ти її?",
+  "option": {
+    "1": {
+      "label": "Відкрити",
+      "tooltip": "@[SUMMARY_BLUE]{{{trapPercent}}}%) Щось жахливе}\n@[SUMMARY_GREEN]{{{commonPercent}}}%) Звичайні нагороди}\n@[SUMMARY_GREEN]{{{ultraPercent}}}%) Хороші нагороди}\n@[SUMMARY_GREEN]{{{roguePercent}}}%) Чудові нагороди}\n@[SUMMARY_GREEN]{{{masterPercent}}}%) Неймовірні нагороди}",
+      "selected": "Відкривши скриню, ти бачиш…"
+    }
+  }
+}
