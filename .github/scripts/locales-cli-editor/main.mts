@@ -28,7 +28,7 @@ const LOCALES_PATH = join(LOCALES_DIR, LANG_CODE);
 const SUPPORTED_LANGS: readonly string[] = readdirSync(LOCALES_DIR) //
   .filter((f) => f !== "en" && statSync(join(LOCALES_DIR, f)).isDirectory());
 /** The version of this script */
-const SCRIPT_VERSION = "1.1.0";
+const SCRIPT_VERSION = "2.1.1";
 
 //#endregion Constants
 
@@ -291,7 +291,7 @@ async function browse(options: {
             .filter((e) => terms.every((t) => e.name.toLowerCase().includes(t)))
             .map((e) => ({
               value: e.name,
-              name: e.isBranch ? chalk.cyan(`${e.name}/`) : e.name,
+              name: e.isBranch ? chalk.cyanBright(`${e.name}/`) : e.name,
               description: e.description,
             }));
           if (!showUp) {
