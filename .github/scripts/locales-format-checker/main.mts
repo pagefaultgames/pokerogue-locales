@@ -21,7 +21,7 @@ import { failed, logInfo, logStartGroup } from "./utils.mts";
  */
 
 /** Script version */
-const VERSION = "1.0.0";
+const VERSION = "2.0.2";
 
 async function main(): Promise<void> {
   logInfo(COLORS["orange-red"], `🍳 Locales format checker v${VERSION}`);
