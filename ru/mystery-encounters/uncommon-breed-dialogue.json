@@ -1,7 +1,7 @@
 {
-  "intro": "Это не простой Покемон!",
+  "intro": "Это - непростой Покемон!",
   "title": "Редкая Порода",
-  "description": "Этот {{enemyPokemon}} не такой как остальные. @[TOOLTIP_TITLE]{Может он знает особенный приём?} Сразишься и поймаешь, или попытаешься подружиться?",
+  "description": "Этот {{enemyPokemon}} не такой, как остальные. @[TOOLTIP_TITLE]{Может, он знает особенный приём?} Сразишься и поймаешь, или попытаешься подружиться?",
   "query": "Твои действия?",
   "option": {
     "1": {
@@ -13,14 +13,14 @@
     "2": {
       "label": "Дать Еду",
       "disabledTooltip": "Тебе нужно 4 ягоды, чтобы выбрать это.",
-      "tooltip": "(-) Дать 4 Ягоды\n(+) {{enemyPokemon}} полюбит тебя",
-      "selected": "Ты кидаешь ягоды для {{enemyPokemon}}!$Он(а) счастливо съедает их!${{enemyPokemon}} хочет присоединиться к тебе!"
+      "tooltip": "(-) Дать 4 Ягоды\n(+) {{enemyPokemon}} Полюбит Тебя",
+      "selected": "Ты кидаешь ягоды для {{enemyPokemon}}!$Он счастливо съедает их!${{enemyPokemon}} хочет присоединиться к тебе!"
     },
     "3": {
       "label": "Подружиться",
       "disabledTooltip": "Твой Покемон должен знать нужный приём для этого.",
       "tooltip": "(+) {{option3PrimaryName}} использует {{option3PrimaryMove}}\n(+) {{enemyPokemon}} Полюбит Тебя",
-      "selected": "{{option3PrimaryName}} использует {{option3PrimaryMove}} чтобы очаровать {{enemyPokemon}}!${{enemyPokemon}} хочет присоединиться к тебе!"
+      "selected": "{{option3PrimaryName}} использует {{option3PrimaryMove}}, чтобы очаровать {{enemyPokemon}}!${{enemyPokemon}} хочет присоединиться к тебе!"
     }
   }
 }
