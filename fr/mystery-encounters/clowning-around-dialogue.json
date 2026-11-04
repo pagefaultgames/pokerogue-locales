@@ -2,6 +2,7 @@
   "intro": "Mais c’est…@d{64} un clown ?",
   "speaker": "Clown",
   "introDialogue": "Eh toi, tu m’as l’air carrément clownesque !\nPrépare-toi pour un combat magistral !$Je vais te montrer ce que sont les arts de la rue !",
+  "introDialogue_female": "Eh toi, tu m’as l’air carrément clownesque !\nPrépare-toi pour un combat magistral !$Je vais te montrer ce que sont les arts de la rue !",
   "title": "Bouffonneries",
   "description": "Quelque chose semble louche. Ce Clown a l’air très motivé à vous provoquer en combat, mais dans quel but ?\n\nSon {{blacephalonName}} est très étrange, comme s’il possédait @[TOOLTIP_TITLE]{des types et un talent inhabituels.}",
   "query": "Que voulez-vous faire ?",
@@ -19,6 +20,7 @@
       "label": "Rester inébranlable",
       "tooltip": "(?) Affecte les objets d’un Pokémon",
       "selected": "Ça se défile lâchement d’un duel exceptionnel ?\nDans ce cas, tâte à ma colère !",
+      "selected_female": "Ça se défile lâchement d’un duel exceptionnel ?\nDans ce cas, tâte à ma colère !",
       "selected2": "Le {{blacephalonName}} du Clown utilise\nTour de Magie !$Tous les objets de {{switchPokemon}}\nsont échangés au hasard !",
       "selected3": "Sombre imbécile, tombe dans mon piège !"
     },
@@ -26,8 +28,10 @@
       "label": "Retourner les insultes",
       "tooltip": "(?) Affecte les types de vos Pokémon",
       "selected": "Ça se défile lâchement d’un duel exceptionnel ?\nDans ce cas, tâte à ma colère !",
+      "selected_female": "Ça se défile lâchement d’un duel exceptionnel ?\nDans ce cas, tâte à ma colère !",
       "selected2": "Le {{blacephalonName}} du Clown utilise\nune étrange capacité !$Tous les types de votre équipe\nsont échangés au hasard !",
-      "selected3": "Sombre imbécile, tombe dans mon piège !"
+      "selected3": "Sombre imbécile, tombe dans mon piège !",
+      "selected3_female": "Sombre imbécile, tombe dans mon piège !"
     }
   },
   "outro": "Le Clown et sa bande disparaissent\ndans un nuage de fumée."
