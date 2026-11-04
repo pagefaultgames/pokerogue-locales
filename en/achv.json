@@ -6,7 +6,7 @@
     "name": "Locked"
   },
   "moneyAchv": {
-    "description": "Accumulate a total of ₽{{moneyAmount}}."
+    "description": "Accumulate a total of ₽{{moneyAmount, number}}."
   },
   "10KMoney": {
     "name": "Money Haver",
@@ -25,7 +25,7 @@
     "name_female": "One Percenter"
   },
   "damageAchv": {
-    "description": "Inflict {{damageAmount}} damage in one hit."
+    "description": "Inflict {{damageAmount, number}} damage in one hit."
   },
   "250Dmg": {
     "name": "Hard Hitter"
@@ -43,7 +43,7 @@
     "name_female": "One Punch Woman"
   },
   "healAchv": {
-    "description": "Heal {{healAmount}} {{HP}} at once with a move, ability, or held item."
+    "description": "Heal {{healAmount, number}} {{HP}} at once with a move, ability, or held item."
   },
   "250Heal": {
     "name": "Novice Healer",
