@@ -1,13 +1,16 @@
 {
   "intro": "Un entrenador extremadamente fuerte se te acerca…",
   "buck": {
-    "introDialogue": "¡Hola, entrenador! Me llamo Bulgur.$Tengo una propuesta súper genial para un entrenador fuerte como tú.$Llevo conmigo dos Huevos Pokémon raros, pero me gustaría que alguien más cuidara uno.$Si puedes demostrarme tu fuerza como entrenador, ¡te daré el Huevo más raro!",
+    "introDialogue": "¡Hola, Entrenador! Me llamo Bulgur.$Tengo una propuesta súper genial para un entrenador fuerte como tú.$Llevo conmigo dos Huevos Pokémon raros, pero me gustaría que alguien más cuidara uno.$Si puedes demostrarme tu fuerza como Entrenador, ¡te daré el Huevo más raro!",
+    "introDialogue_female": "¡Hola, Entrenadora! Me llamo Bulgur.$Tengo una propuesta súper genial para una Entrenadora fuerte como tú.$Llevo conmigo dos Huevos Pokémon raros, pero me gustaría que alguien más cuidara uno.$Si puedes demostrarme tu fuerza como entrenador, ¡te daré el Huevo más raro!",
     "accept": "¡Guau!\n¡Este combate promete!",
     "decline": "Vaya, parece que tu equipo no está en condiciones óptimas.$Venga, déjame ayudarte con eso."
   },
   "cheryl": {
-    "introDialogue": "Hola, me llamo Malta.$Tengo una petición particularmente interesante para un entrenador fuerte como tú.$Llevo conmigo dos Huevos Pokémon raros, pero me gustaría que alguien más cuidara uno.$Si puedes demostrarme tu fuerza como entrenador, ¡te daré el Huevo más raro!",
+    "introDialogue": "Hola, me llamo Malta.$Tengo una petición particularmente interesante para un Entrenador fuerte como tú.$Llevo conmigo dos Huevos Pokémon raros, pero me gustaría que alguien más cuidara uno.$Si puedes demostrarme tu fuerza como Entrenador, ¡te daré el Huevo más raro!",
+    "introDialogue_female": "Hola, me llamo Malta.$Tengo una petición particularmente interesante para una Entrenadora fuerte como tú.$Llevo conmigo dos Huevos Pokémon raros, pero me gustaría que alguien más cuidara uno.$Si puedes demostrarme tu fuerza como Entrenadora, ¡te daré el Huevo más raro!",
     "accept": "¡Espero que estés listo!",
+    "accept_female": "¡Espero que estés lista!",
     "decline": "Entiendo, parece que tu equipo no está en las mejores condiciones en este momento.$Déjame ayudar con eso."
   },
   "marley": {
@@ -16,12 +19,14 @@
     "decline": "… Ya veo.$Tus Pokémon parecen heridos… Déjame ayudarte."
   },
   "mira": {
-    "introDialogue": "¡Hola! Soy Maiza. Maiza tiene una petición para un entrenador fuerte como tú. Maiza tiene dos Huevos Pokémon raros, pero quiere que alguien más se quede con uno. Si le demuestras a Maiza que eres fuerte,¡Maiza te dará el Huevo más raro!",
+    "introDialogue": "¡Hola! Soy Maiza. Maiza tiene una petición para un Entrenador fuerte como tú. Maiza tiene dos Huevos Pokémon raros, pero quiere que alguien más se quede con uno. Si le demuestras a Maiza que eres fuerte,¡Maiza te dará el Huevo más raro!",
+    "introDialogue_female": "¡Hola! Soy Maiza. Maiza tiene una petición para una Entrenadora fuerte como tú. Maiza tiene dos Huevos Pokémon raros, pero quiere que alguien más se quede con uno. Si le demuestras a Maiza que eres fuerte,¡Maiza te dará el Huevo más raro!",
     "accept": "¿Vas a luchar contra Maiza?\n¡Genial!",
     "decline": "Vaya, ¿no hay batalla? ¡Está bien! Maiza curará a tu equipo."
   },
   "riley": {
     "introDialogue": "Soy Quinoa.$Tengo una propuesta extraña para un entrenador fuerte como tú.$Llevo conmigo dos Huevos Pokémon raros, pero me gustaría darle uno a otro entrenador.$Si puedes demostrarme tu fuerza, te daré el Huevo más raro.",
+    "introDialogue_female": "Soy Quinoa.$Tengo una propuesta extraña para un entrenador fuerte como tú.$Llevo conmigo dos Huevos Pokémon raros, pero me gustaría darle uno a otro entrenador.$Si puedes demostrarme tu fuerza, te daré el Huevo más raro.",
     "accept": "Esa mirada que tienes…\nhagamos esto..",
     "decline": "Entiendo, tu equipo parece agotado.$A ver, déjame ayudarte con eso."
   },
@@ -43,5 +48,6 @@
     "epic": "un Huevo Épico",
     "legendary": "un Huevo Legendario"
   },
-  "outro": "¡{{statTrainerName}} te dio {{eggType}}!"
+  "outro": "¡{{statTrainerName}} te dio {{eggType}}!",
+  "outro_female": "¡{{statTrainerName}} te dio {{eggType}}!"
 }
