@@ -16,6 +16,7 @@ export const ignoreList = [
   ".vscode",
   "README.md",
   "pnpm-lock.yaml",
+  "pnpm-workspace.yaml",
   "scripts",
   "LICENSE",
 ];

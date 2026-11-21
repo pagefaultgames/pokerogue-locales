@@ -2,6 +2,7 @@
   "intro": "¿Es un…@d{64} payaso?",
   "speaker": "Payaso",
   "introDialogue": "¡Bufón inútil, prepárate para una batalla brillante! ¡Serás derrotado por este trovador luchador!",
+  "introDialogue_female": "¡Bufón inútil, prepárate para una batalla brillante! ¡Serás derrotado por este trovador luchador!",
   "title": "Payaseando",
   "description": "Algo no esta bien en este encuentro. El payaso parece ansioso por provocarte a pelear…pero, ¿con qué fin? El {{blacephalonName}} es especialmente extraño, como si tuviera @[TOOLTIP_TITLE]{tipos y habilidades raros.}",
   "query": "¿Qué harás?",
@@ -19,6 +20,7 @@
       "label": "No involucrarse",
       "tooltip": "(?) Afecta los objetos de un Pokémon",
       "selected": "¡¿Cobarde desdichado, niegas un exquisito duelo?!\n ¡Siente mi furia!",
+      "selected_female": "¡¿Cobarde desdichado, niegas un exquisito duelo?!\n ¡Siente mi furia!",
       "selected2": "¡El {{blacephalonName}} del payaso usa Truco! ¡Todos los objetos de tu {{switchPokemon}} fueron intercambiados al azar!",
       "selected3": "¡Necio incompetente, serás víctima de mi trampa perfecta!"
     },
@@ -26,8 +28,10 @@
       "label": "Devolver los insultos",
       "tooltip": "(?) Afecta los tipos de tus Pokémon",
       "selected": "¡¿Cobarde desdichado, niegas un exquisito duelo?!\n ¡Siente mi furia!",
+      "selected_female": "¡¿Cobarde desdichado, niegas un exquisito duelo?!\n ¡Siente mi furia!",
       "selected2": "¡El {{blacephalonName}} del payaso usa un movimiento extraño! ¡Todos los tipos de tu equipo fueron intercambiados al azar!",
-      "selected3": "¡Tonto desconcertado, cae en mi engaño impecable!"
+      "selected3": "¡Tonto desconcertado, cae en mi engaño impecable!",
+      "selected3_female": "¡Tonto desconcertado, cae en mi engaño impecable!"
     }
   },
   "outro": "El payaso y sus secuaces\ndesaparecen en una nube de humo."

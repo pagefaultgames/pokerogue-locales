@@ -1,13 +1,16 @@
 {
   "intro": "Un allenatore davvero forte ti si avvicina…",
   "buck": {
-    "introDialogue": "Yo, allenatore! Sono Chicco.$Ho una proposta super fantastica\nper allenatori forti come te!$Ho qui con me due Uova Pokémon rare,\nma vorrei affidarne una a qualcuno.$Se mi darai prova delle tue doti di allenatore,\nti darò quella più rara!",
+    "introDialogue": "Yo, Allenatore! Sono Chicco.$Ho una proposta super fantastica\nper Allenatori forti come te!$Ho qui con me due Uova Pokémon rare,\nma vorrei affidarne una a qualcuno.$Se mi darai prova delle tue doti di Allenatore,\nti darò quella più rara!",
+    "introDialogue_female": "Yo, Allenatora! Sono Chicco.$Ho una proposta super fantastica\nper Allenatori forti come te!$Ho qui con me due Uova Pokémon rare,\nma vorrei affidarne una a qualcuno.$Se mi darai prova delle tue doti di Allenatora,\nti darò quella più rara!",
     "accept": "Whoooo, comincio a scaldarmi!",
     "decline": "Accidenti, pare che la tua\nsquadra non se la passi bene.$Lascia che ti aiuti."
   },
   "cheryl": {
-    "introDialogue": "Ciao, mi chiamo Demetra.$Ho una particolare richiesta,\nmirata ad allenatori come te.$Ho qui con me due Uova Pokémon rare,\nma vorrei affidarne una a qualcuno.$Se mi darai prova delle tue doti di allenatore,\nti darò quella più rara!",
-    "accept": "Spero tu sia pronto/a!",
+    "introDialogue": "Ciao, mi chiamo Demetra.$Ho una particolare richiesta,\nmirata ad Allenatori come te.$Ho qui con me due Uova Pokémon rare,\nma vorrei affidarne una a qualcuno.$Se mi darai prova delle tue doti di Allenatore,\nti darò quella più rara!",
+    "introDialogue_female": "Ciao, mi chiamo Demetra.$Ho una particolare richiesta,\nmirata ad Allenatori come te.$Ho qui con me due Uova Pokémon rare,\nma vorrei affidarne una a qualcuno.$Se mi darai prova delle tue doti di Allenatora,\nti darò quella più rara!",
+    "accept": "Spero tu sia pronto!",
+    "accept_female": "Spero tu sia pronta!",
     "decline": "Capisco, mi sa che i tuoi Pokémon\nnon stanno benissimo al momento.$Ti do una mano."
   },
   "marley": {
@@ -16,12 +19,14 @@
     "decline": "…capisco.$I tuoi Pokémon hanno una brutta cera…\nLasciami aiutare."
   },
   "mira": {
-    "introDialogue": "Ciao! Sono Matilde!$Matilde ha una richiesta\nper un allenatore forte come te!$Matilde ha due Uova Pokémon rare,\nma Matilde vuole dare via una delle due!$Se dimostri a Matilde che te la cavi,\nMatilde ti da la più rara!",
+    "introDialogue": "Ciao! Sono Matilde!$Matilde ha una richiesta\nper un Allenatore forte come te!$Matilde ha due Uova Pokémon rare,\nma Matilde vuole dare via una delle due!$Se dimostri a Matilde che te la cavi,\nMatilde ti da la più rara!",
+    "introDialogue_female": "Ciao! Sono Matilde!$Matilde ha una richiesta\nper un Allenatora forte come te!$Matilde ha due Uova Pokémon rare,\nma Matilde vuole dare via una delle due!$Se dimostri a Matilde che te la cavi,\nMatilde ti da la più rara!",
     "accept": "Affronterai Matilde?\nYuppi!",
     "decline": "Aww, niente lotta?\nVa bene!$Ecco, ora Matilde cura la tua squadra!"
   },
   "riley": {
     "introDialogue": "Sono Marisio.$Ho una strana proposta\nper gli allenatori forti.$Ho qui due Uova Pokémon rare,\nma vorrei darne via una.$Dimostrami quanto vali,\ne ti darò la più rara!",
+    "introDialogue_female": "Sono Marisio.$Ho una strana proposta\nper gli allenatori forti.$Ho qui due Uova Pokémon rare,\nma vorrei darne via una.$Dimostrami quanto vali,\ne ti darò la più rara!",
     "accept": "Lo sguardo nei tuoi occhi…\nDiamoci dentro.",
     "decline": "Capisco, la tua squadra non se la passa bene.$Lasciami rimediare."
   },
@@ -43,5 +48,6 @@
     "epic": "un Uovo Epico",
     "legendary": "un Uovo Leggendario"
   },
-  "outro": "{{statTrainerName}} ti dona\n{{eggType}}!"
+  "outro": "{{statTrainerName}} ti dona\n{{eggType}}!",
+  "outro_female": "{{statTrainerName}} ti dona\n{{eggType}}!"
 }
