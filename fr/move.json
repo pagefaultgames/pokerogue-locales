@@ -77,7 +77,7 @@
   },
   "bind": {
     "name": "Étreinte",
-    "effect": "Le lanceur ligote la cible avec son corps allongé ou ses tentacules pour la compresser durant 4 à 5 tours. Inflige des dégâts à hauteur de 1/8 des PV max de la cible à la fin de chaque tour."
+    "effect": "Le lanceur ligote la cible avec son corps allongé ou ses tentacules pour la compresser durant 4 à 5 tours. Inflige des dégâts à hauteur de 1/8 des PV max de la cible à la fin de chaque tour. La cible ne peut pas quitter le terrain pendant cette période."
   },
   "slam": {
     "name": "Souplesse",
@@ -137,7 +137,7 @@
   },
   "wrap": {
     "name": "Ligotage",
-    "effect": "Le lanceur ligote la cible avec son corps allongé ou ses tentacules pour la compresser durant 4 à 5 tours. Inflige au lanceur des dégâts à hauteur de 1/8 de ses PV max à la fin de chaque tour."
+    "effect": "Le lanceur ligote la cible avec son corps allongé ou ses tentacules pour la compresser durant 4 à 5 tours. Inflige au lanceur des dégâts à hauteur de 1/8 de ses PV max à la fin de chaque tour. La cible ne peut pas quitter le terrain pendant cette période."
   },
   "takeDown": {
     "name": "Bélier",
@@ -225,7 +225,7 @@
   },
   "surf": {
     "name": "Surf",
-    "effect": "Une énorme vague s’abat sur le champ de bataille et inflige des dégâts à tous les Pokémon autour du lanceur. Sa puissance est multipliée par 2 sur les cibles sous l’eau."
+    "effect": "Une énorme vague s’abat sur le champ de bataille et inflige des dégâts à tous les Pokémon autour du lanceur. Sa puissance est multipliée par 2 sur les cibles sous l’eau avec la capacité Plongée."
   },
   "iceBeam": {
     "name": "Laser Glace",
@@ -329,7 +329,7 @@
   },
   "fireSpin": {
     "name": "Danse Flammes",
-    "effect": "Un tourbillon de flammes emprisonne la cible pendant 4 à 5 tours. Lui inflige des dégâts à hauteur de 1/8 de ses PV max à la fin de chaque tour."
+    "effect": "Un tourbillon de flammes emprisonne la cible pendant 4 à 5 tours. Lui inflige des dégâts à hauteur de 1/8 de ses PV max à la fin de chaque tour. La cible ne peut pas quitter le terrain pendant cette période."
   },
   "thunderShock": {
     "name": "Éclair",
@@ -357,7 +357,7 @@
   },
   "fissure": {
     "name": "Abime",
-    "effect": "Le lanceur fait tomber la cible dans une crevasse. Si cette attaque réussit, elle met K.O. sur le coup, sauf si c’est un Pokémon Boss. Sa Précision reste fixe à 30 %."
+    "effect": "Le lanceur fait tomber la cible dans une crevasse. Si cette attaque réussit, elle met K.O. sur le coup, sauf si c’est un Pokémon Boss. Sa Précision reste fixe à 30 % et peut frapper les cibles sous terre."
   },
   "dig": {
     "name": "Tunnel",
@@ -509,7 +509,7 @@
   },
   "clamp": {
     "name": "Claquoir",
-    "effect": "Le lanceur piège la cible dans sa dure coquille et l’écrase pendant 4 à 5 tours. Inflige des dégâts à hauteur de 1/8 des PV max de la cible à la fin de chaque tour."
+    "effect": "Le lanceur piège la cible dans sa dure coquille et l’écrase pendant 4 à 5 tours. Inflige des dégâts à hauteur de 1/8 des PV max de la cible à la fin de chaque tour. La cible ne peut pas quitter le terrain pendant cette période."
   },
   "swift": {
     "name": "Météores",
@@ -953,7 +953,7 @@
   },
   "twister": {
     "name": "Ouragan",
-    "effect": "Le lanceur déclenche un terrible ouragan sur les cibles adverses. A 20 % de chances de les apeurer. Dégâts doublés si une cible est en Vol, Rebond ou Chute Libre."
+    "effect": "Le lanceur déclenche un terrible ouragan sur les cibles adverses. A 20 % de chances de les apeurer. Dégâts doublés sur une cible en Vol, Rebond ou Chute Libre."
   },
   "rainDance": {
     "name": "Danse Pluie",
@@ -997,7 +997,7 @@
   },
   "whirlpool": {
     "name": "Siphon",
-    "effect": "Le lanceur piège la cible dans une trombe d’eau pendant 4 à 5 tours et lui inflige des dégâts à hauteur de 1/8 des PV max à chaque tour. La puissance de cette capacité est multipliée par 2 sur les adversaires sous l’eau."
+    "effect": "Le lanceur piège la cible dans une trombe d’eau pendant 4 à 5 tours et lui inflige des dégâts à hauteur de 1/8 des PV max à chaque tour. La cible ne peut pas quitter le terrain pendant cette période. La puissance de cette capacité est multipliée par 2 sur les adversaires sous l’eau avec la capacité Plongée."
   },
   "beatUp": {
     "name": "Baston",
@@ -1309,7 +1309,7 @@
   },
   "sandTomb": {
     "name": "Tourbi-Sable",
-    "effect": "Le lanceur emprisonne la cible dans une tempête de sable terrifiante qui dure de 4 à 5 tours. Lui inflige des dégâts à hauteur de 1/8 de ses PV max à la fin de chaque tour."
+    "effect": "Le lanceur emprisonne la cible dans une tempête de sable terrifiante qui dure de 4 à 5 tours. Lui inflige des dégâts à hauteur de 1/8 de ses PV max à la fin de chaque tour. La cible ne peut pas quitter le terrain pendant cette période."
   },
   "sheerCold": {
     "name": "Glaciation",
@@ -1541,7 +1541,7 @@
   },
   "punishment": {
     "name": "Punition",
-    "effect": "Plus la cible a utilisé d’augmentations de stats et plus cette capacité est puissante à hauteur de 20 par augmentation."
+    "effect": "La puissance de base de cette capacité est de 60, et elle augmente de 20 pour chaque cran d’augmentation de stats de la cible, jusqu’à un maximum de 200."
   },
   "lastResort": {
     "name": "Dernier Recours",
@@ -1849,7 +1849,7 @@
   },
   "magmaStorm": {
     "name": "Vortex Magma",
-    "effect": "La cible est prise dans un tourbillon de feu qui dure de quatre à cinq tours. Lui inflige des dégâts à hauteur de 1/8 de ses PV max à la fin de chaque tour."
+    "effect": "La cible est prise dans un tourbillon de feu qui dure de quatre à cinq tours. Lui inflige des dégâts à hauteur de 1/8 de ses PV max à la fin de chaque tour. La cible ne peut pas quitter le terrain pendant cette période."
   },
   "darkVoid": {
     "name": "Trou Noir",
@@ -2025,7 +2025,7 @@
   },
   "skyDrop": {
     "name": "Chute Libre",
-    "effect": "Le lanceur emmène l’ennemi dans les airs au premier tour et le lâche dans le vide au second. L’ennemi saisi ne peut pas attaquer."
+    "effect": "Le lanceur emmène l’ennemi dans les airs au premier tour et le lâche dans le vide au second. L’ennemi saisi ne peut pas attaquer. Échoue si la cible pèse 200 kg ou plus."
   },
   "shiftGear": {
     "name": "Change-Vitesse",
@@ -2145,7 +2145,7 @@
   },
   "steamroller": {
     "name": "Bulldoboule",
-    "effect": "Le lanceur se roule en boule et écrase sa cible. A 30 % de chances de l’apeurer."
+    "effect": "Le lanceur se roule en boule et écrase sa cible. A 30 % de chances de l’apeurer. Si l’adversaire est lilliputien, la capacité n’échoue jamais et sa puissance est multipliée par 2."
   },
   "cottonGuard": {
     "name": "Cotogarde",
@@ -2373,7 +2373,7 @@
   },
   "waterShuriken": {
     "name": "Sheauriken",
-    "effect": "Le lanceur attaque la cible avec des shuriken de mucus. Cette capacité frappe en priorité 3 à 5 fois d’affilée en un tour. Si elle est utilisée par Sachanobi, sa puissance est augmentée de 20 et touchera toujours 3 fois d’affilée."
+    "effect": "Le lanceur attaque la cible avec des shuriken de mucus. Cette capacité frappe en priorité 2 à 5 fois d’affilée en un tour. Si elle est utilisée par Sachanobi, sa puissance est augmentée de 20 et touchera toujours 3 fois d’affilée."
   },
   "mysticalFire": {
     "name": "Feu Ensorcelé",
@@ -2453,7 +2453,7 @@
   },
   "thousandArrows": {
     "name": "Myria-Flèches",
-    "effect": "Le lanceur attaque en puisant dans son énergie interne pour générer d’innombrables flèches qui s’abattent sur les cibles adverses. Touche même les Pokémon dans les airs. Dans ce cas, ceux-ci retombent au sol."
+    "effect": "Le lanceur attaque en générant d’innombrables flèches qui s’abattent sur les cibles adverses. Touche même les Pokémon dans les airs. Dans ce cas, ceux-ci retombent au sol."
   },
   "thousandWaves": {
     "name": "Myria-Vagues",
@@ -2941,11 +2941,11 @@
   },
   "glitzyGlow": {
     "name": "Évo-Psycho",
-    "effect": "Le lanceur submerge l’adversaire sous un flot d’ondes psychiques et crée un mur fabuleux qui réduit de moitié les dégâts causés par les attaques spéciales de l’ennemi. En Combat Duo, ces capacités infligent 2/3 de leur dégâts à la place."
+    "effect": "Le lanceur submerge l’adversaire sous un flot d’ondes psychiques et crée un mur fabuleux qui réduit de moitié les dégâts causés par les attaques spéciales de l’ennemi pendant 5 tours. En Combat Duo, ces capacités infligent 2/3 de leur dégâts à la place."
   },
   "baddyBad": {
     "name": "Évo-Ténébro",
-    "effect": "Le lanceur fait appel à son côté sombre pour attaquer l’adversaire et créer un mur fabuleux qui réduit de moitié les dégâts causés par les attaques physiques de l’ennemi. En Combat Duo, ces capacités infligent 2/3 de leur dégâts à la place."
+    "effect": "Le lanceur fait appel à son côté sombre pour attaquer l’adversaire et créer un mur fabuleux qui réduit de moitié les dégâts causés par les attaques physiques de l’ennemi pendant 5 tours. En Combat Duo, ces capacités infligent 2/3 de leur dégâts à la place."
   },
   "sappySeed": {
     "name": "Évo-Écolo",
@@ -3113,7 +3113,7 @@
   },
   "snapTrap": {
     "name": "Troquenard",
-    "effect": "Le lanceur attrape sa cible dans un piège et lui inflige des dégâts à hauteur de 1/8 de ses PV max à la fin de chaque tour pendant 4 ou 5 tours."
+    "effect": "Le lanceur attrape sa cible dans un piège et lui inflige des dégâts à hauteur de 1/8 de ses PV max à la fin de chaque tour pendant 4 ou 5 tours. La cible ne peut pas quitter le terrain pendant cette période."
   },
   "pyroBall": {
     "name": "Ballon Brulant",
@@ -3273,7 +3273,7 @@
   },
   "thunderCage": {
     "name": "Voltageôle",
-    "effect": "Le lanceur frappe la cible, et le piège dans une prison électrique qui dure de 4 à 5 tours infligeant des dégâts à hauteur de 1/8 de ses PV max."
+    "effect": "Le lanceur frappe la cible, et le piège dans une prison électrique qui dure de 4 à 5 tours infligeant des dégâts à hauteur de 1/8 de ses PV max. La cible ne peut pas quitter le terrain pendant cette période."
   },
   "dragonEnergy": {
     "name": "Draco-Énergie",
@@ -3469,7 +3469,7 @@
   },
   "gMaxSandblast": {
     "name": "Enlisement G-Max",
-    "effect": "Une attaque de type Sol que seul un Dunaconda Gigamax peut utiliser. Emprisonne la cible dans une tempête de sable qui dure de 4 à 5 tours."
+    "effect": "Une attaque de type Sol que seul un Dunaconda Gigamax peut utiliser. Emprisonne la cible dans une tempête de sable qui dure de 4 à 5 tours. La cible ne peut pas quitter le terrain pendant cette période."
   },
   "gMaxSnooze": {
     "name": "Torpeur G-Max",
@@ -3501,7 +3501,7 @@
   },
   "gMaxCentiferno": {
     "name": "Combustion G-Max",
-    "effect": "Une attaque de type Feu que seul un Scolocendre Gigamax peut utiliser. Emprisonne la cible dans un tourbillon de flammes qui dure de 4 à 5 tours qui subit des dégâts à hauteur de 1/8 de ses PV max."
+    "effect": "Une attaque de type Feu que seul un Scolocendre Gigamax peut utiliser. Emprisonne la cible dans un tourbillon de flammes qui dure de 4 à 5 tours qui subit des dégâts à hauteur de 1/8 de ses PV max. La cible ne peut pas quitter le terrain pendant cette période."
   },
   "gMaxVineLash": {
     "name": "Fouet G-Max",
@@ -3761,7 +3761,7 @@
   },
   "burningBulwark": {
     "name": "Rempart Brulant",
-    "effect": "Le lanceur se protège contre les attaques grâce à son pelage incandescent, et si un assaillant utilise une attaque directe contre lui, il le brule."
+    "effect": "Le lanceur se protège contre les attaques grâce à son pelage incandescent, et si un assaillant utilise une attaque directe contre lui, il le brule. À chaque utilisation consécutive, les chances de réussite tombent à 1/3 de ce qu’elles étaient à l’utilisation précédente."
   },
   "thunderclap": {
     "name": "Vif Éclair",

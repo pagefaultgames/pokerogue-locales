@@ -363,7 +363,8 @@ async function pickFileKeyAndAction(): Promise<{
 }> {
   const dirPath: string[] = [];
   let fileReturnTo: string | undefined;
-  for (;;) {
+  // biome-ignore lint/suspicious/noUnnecessaryConditions: this is idiomatic for infinite loops with conditional breaks
+  while (true) {
     // Step 1: Select file. The file browser has no `..` at the top level, so it always returns a file.
     const fileName = (await browse({
       label: "a locales file to manage",
@@ -384,7 +385,8 @@ async function pickFileKeyAndAction(): Promise<{
     const data = JSON.parse(readFileSync(filePath, "utf8"));
     const keyPath: string[] = [];
     let keyReturnTo: string | undefined;
-    for (;;) {
+    // biome-ignore lint/suspicious/noUnnecessaryConditions: this is idiomatic for infinite loops with conditional breaks
+    while (true) {
       // Step 2: Select key
       const keyName = await browse({
         label: "a key to reword or delete",
