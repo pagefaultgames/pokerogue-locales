@@ -76,7 +76,8 @@
     "effect": "Utföraren flyger först upp i skyn, och dyker ner på motståndaren omgången efter."
   },
   "bind": {
-    "name": "Hårdbinding"
+    "name": "Hårdbinding",
+    "effect": "Motståndaren binds och kläms hårt av långa kroppsdelar eller tentakler. Under 4-5 omgångar tar den 1/8 av sin max. HP i skada varje omgångslut. Den kan inte fly eller bytas av under denna tid."
   },
   "slam": {
     "name": "Storsmäll",
@@ -135,7 +136,8 @@
     "effect": "Utföraren smäller in i motståndaren med hela sin vikt. Detta har 30% chans att förlama motståndaren. Om motståndaren har utfört Krympning fördubblas teknikens kraft och den missar aldrig."
   },
   "wrap": {
-    "name": "Invirande"
+    "name": "Invirande",
+    "effect": "Långa kroppsdelar, rankor eller dylikt virar in och klämmer motståndaren. Under 4-5 omgångar tar den 1/8 av sin max. HP i skada varje omgångslut. Den kan inte fly eller bytas av under denna tid."
   },
   "takeDown": {
     "name": "Helkroppstackling",
@@ -326,7 +328,8 @@
     "effect": "Denna attack träffar motståndaren med en chockvåg av ren ilska. Denna attack orsakar alltid 40 HP i skada."
   },
   "fireSpin": {
-    "name": "Eldvirvel"
+    "name": "Eldvirvel",
+    "effect": "Motståndaren fångas i en våldsam virvel av eld. Under 4-5 omgångar tar den 1/8 av sin max. HP i skada varje omgångslut. Den kan inte fly eller bytas av under denna tid."
   },
   "thunderShock": {
     "name": "Åskstöt",
@@ -353,7 +356,8 @@
     "effect": "Utföraren utlöser en jordbävning som träffar alla pokémon runt omkring. Kraften fördubblas mot motståndare som är under jord p.g.a. Grävning, och halveras på en aktiv Grästerräng."
   },
   "fissure": {
-    "name": "Jordklyvare"
+    "name": "Jordklyvare",
+    "effect": "Utföraren klyver marken under motståndarens fötter itu. Motståndaren (om den inte är en Boss) svimmar genast vid träff; en stjärnsmäll. Teknikens träffsäkerhet är oföränderligt 30%, och kan träffa de som är under jord p.g.a. Grävning."
   },
   "dig": {
     "name": "Grävning",
@@ -504,7 +508,8 @@
     "effect": "Utföraren simmar raskt upp för ett vattenfall mot motståndaren och slår in i den. Detta har 20% chans att få den att rygga tillbaka."
   },
   "clamp": {
-    "name": "Skalkläm"
+    "name": "Skalkläm",
+    "effect": "Motståndaren kläms av ett tjockt, hårt skal. Under 4-5 omgångar tar den 1/8 av sin max. HP i skada varje omgångslut. Motståndaren kan inte fly eller bytas av under denna tid."
   },
   "swift": {
     "name": "Stjärnskott",
@@ -991,7 +996,8 @@
     "effect": "Ett stenkrossande slag. 50% chans att sänka motståndarens försvarsförmåga."
   },
   "whirlpool": {
-    "name": "Virvelström"
+    "name": "Virvelström",
+    "effect": "Motståndaren fångas i en våldsam strömvirvel. Under 4-5 omgångar tar den 1/8 av sin max. HP i skada varje omgångslut. Den kan inte fly eller bytas av under denna tid. Teknikens kraft fördubblas mot motståndare som är under vatten p.g.a. Dyk."
   },
   "beatUp": {
     "name": "Gängattack",
@@ -1302,7 +1308,8 @@
     "effect": "Utföraren svingar näven underifrån så kraftigt att den t.o.m. kan träffa en motståndare som är i skyn p.g.a. Flyg, Studs eller Fritt fall."
   },
   "sandTomb": {
-    "name": "Virvelsandfälla"
+    "name": "Virvelsandfälla",
+    "effect": "Motståndaren fångas i en våldsam sandvirvel. Under 4-5 omgångar tar den 1/8 av sin max. HP i skada varje omgångslut. Den kan inte fly eller bytas av under denna tid."
   },
   "sheerCold": {
     "name": "Noll Kelvin",
@@ -1534,7 +1541,7 @@
   },
   "punishment": {
     "name": "Avhyvling",
-    "effect": ""
+    "effect": "Teknikens kraft börjar vid 60 och ökar med 20 för varje steg som motståndarens förmågor har ökat med, upp till max. 200."
   },
   "lastResort": {
     "name": "Sista trumfen",
@@ -1841,7 +1848,8 @@
     "effect": "Motståndaren krossas med rejäl styrka. Ju mer HP motståndaren har kvar, desto större blir kraften av denna teknik. Kraftomfånget är 1-120."
   },
   "magmaStorm": {
-    "name": "Magmastorm"
+    "name": "Magmastorm",
+    "effect": "Motståndaren fångas i en malström av eld. Under 4-5 omgångar tar den 1/8 av sin max. HP i skada varje omgångslut. Den kan inte fly eller bytas av under denna tid."
   },
   "darkVoid": {
     "name": "Mörkt tomrum",
@@ -2016,7 +2024,8 @@
     "effect": "Denna grymma attack orsakar dubbel skada på motståndare som redan har tillståndspåverkan."
   },
   "skyDrop": {
-    "name": "Fritt fall"
+    "name": "Fritt fall",
+    "effect": "Utföraren lyfter en motståndare upp i luften för att sedan släppa den följande omgång. Motståndaren kan inte attackera medan den är i luften. Tekniken misslyckas om motståndaren väger 200 kg eller mer."
   },
   "shiftGear": {
     "name": "Uppväxling",
@@ -2135,7 +2144,8 @@
     "effect": "Utföraren slungar en orkan av löv på motståndaren. 50% chans att sänka motståndarens träffsäkerhet."
   },
   "steamroller": {
-    "name": "Ångvältmosare"
+    "name": "Ångvältmosare",
+    "effect": "Utföraren rullar över motståndaren som en ångvält. 30% chans att få motståndaren att rygga tillbaka.  Om motståndaren har utfört Krympning fördubblas teknikens kraft och den missar aldrig."
   },
   "cottonGuard": {
     "name": "Bomullsrustning",
@@ -2931,11 +2941,11 @@
   },
   "glitzyGlow": {
     "name": "Alstrande aura",
-    "effect": ""
+    "effect": "Utföraren bombarderar motståndaren med telekinetisk kraft. Detta skapar också en Specialskärm som halverar skadan av speciella attacker i 5 omgångar. I dubbelstrider blir istället skadan 1/3 mindre."
   },
   "baddyBad": {
     "name": "Isolerande illvilja",
-    "effect": ""
+    "effect": "Utföraren anfaller motståndaren illvilligt. Detta skapar också en mörk Fysioskärm som halverar skadan av fysiska attacker i 5 omgångar. I dubbelstrider blir istället skadan 1/3 mindre."
   },
   "sappySeed": {
     "name": "Sående stjälk",
@@ -3102,7 +3112,8 @@
     "effect": "Utföraren spelar på sin trumma och kontrollerar trummans rötter för att attackera motståndaren. Detta sänker också motståndarens snabbhet."
   },
   "snapTrap": {
-    "name": "Fällsax"
+    "name": "Saxfälla",
+    "effect": "Motståndaren fångas i en smärtsam fälla. Under 4-5 omgångar tar den 1/8 av sin max. HP i skada varje omgångslut. Den kan inte fly eller bytas av under denna tid."
   },
   "pyroBall": {
     "name": "Flamboll",
@@ -3261,7 +3272,8 @@
     "effect": "Utföraren, som bemästrat vattnets skola, slår motståndaren med flödande rörelser 3 gånger i rad. Denna attack orsakar alltid en kritisk träff."
   },
   "thunderCage": {
-    "name": "Blixtbur"
+    "name": "Blixtbur",
+    "effect": "Motståndaren fångas i en bur av sprakande el. Under 4-5 omgångar tar den 1/8 av sin max. HP i skada varje omgångslut. Den kan inte fly eller bytas av under denna tid."
   },
   "dragonEnergy": {
     "name": "Drakenergi",
@@ -3437,7 +3449,7 @@
   },
   "gMaxStunShock": {
     "name": "G-maxad giftchock",
-    "effect": "En eltypattack som en G-maxad Toxtricity använder. Den förgifter eller förlamar motståndarna."
+    "effect": "En eltypattack som en G-maxad Toxtricity använder. Den förgiftar eller förlamar motståndarna."
   },
   "gMaxFinale": {
     "name": "G-maxat gott slut",
@@ -3456,7 +3468,8 @@
     "effect": "En stentypattack som en G-maxad Coalossal utför. Den fortsätter skada motståndare (som inte är stentyp) i 4 omgångar. De tar 1/6 av deras max. HP i skada per omgångsslut."
   },
   "gMaxSandblast": {
-    "name": "G-maxad granitgruva"
+    "name": "G-maxad granitgruva",
+    "effect": "En jordtypattack som en G-maxad Sandaconda utför. Motståndarna rivs av virvlande grus. Under 4-5 omgångar tar de 1/8 av deras max. HP i skada varje omgångslut. De kan inte fly eller bytas av under denna tid."
   },
   "gMaxSnooze": {
     "name": "G-maxad gäspning",
@@ -3487,7 +3500,8 @@
     "effect": "En vattentypattack som en G-maxad Kingler utför. Den sänker skarpt motståndarnas snabbhet."
   },
   "gMaxCentiferno": {
-    "name": "G-maxad grymbrand"
+    "name": "G-maxad grymbrand",
+    "effect": "En eldtypattack som en G-maxad Centiskorch Motståndarna fångas i lågor. Under 4-5 omgångar tar de 1/8 av sina max. HP i skada varje omgångslut. De kan inte fly eller bytas av under denna tid."
   },
   "gMaxVineLash": {
     "name": "G-maxad gräspiska",
@@ -3746,7 +3760,8 @@
     "effect": "Utföraren skjuter en laser på motståndaren. 30% chans att alla utförarens huvuden skjuter lasrar samtidigt, vilket fördubblar teknikens kraft."
   },
   "burningBulwark": {
-    "name": "Brinnande bålverk"
+    "name": "Brinnande bålverk",
+    "effect": "Utförarens intensivt heta kropp skyddar den helt från attacker. Anfallare som gör fysisk kontakt orsakas dessutom brännskador. Efter varje fortlöpande utförande blir sannolikheten att lyckas med tekniken bara 1/3 av sannolikheten innan."
   },
   "thunderclap": {
     "name": "Åskvigg",
