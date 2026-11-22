@@ -76,7 +76,8 @@
     "effect": "El usuario vuela al cielo en el turno en el que usa este movimiento y ataca en el siguiente."
   },
   "bind": {
-    "name": "Atadura"
+    "name": "Atadura",
+    "effect": "Usa el cuerpo o las extremidades para atar y oprimir al objetivo. Durante 4-5 turnos, el objetivo recibe 1/8 de sus PS máximos como daño al final del turno e impide que pueda huir o ser cambiado por otro mientras tanto."
   },
   "slam": {
     "name": "Atizar",
@@ -135,7 +136,8 @@
     "effect": "Salta sobre el objetivo con todo su peso. Tiene una probabilidad del 30 % de paralizar al objetivo. Su potencia se duplica y nunca falla contra objetivos que han usado Reducción."
   },
   "wrap": {
-    "name": "Constricción"
+    "name": "Constricción",
+    "effect": "Oprime y ata al objetivo con lianas o con su cuerpo. Durante 4-5 turnos, el objetivo recibe 1/8 de sus PS máximos como daño al final del turno e impide que pueda huir o ser cambiado por otro mientras tanto."
   },
   "takeDown": {
     "name": "Derribo",
@@ -326,7 +328,8 @@
     "effect": "Ráfaga de furiosas ondas de choque que quitan 40 PS."
   },
   "fireSpin": {
-    "name": "Giro Fuego"
+    "name": "Giro Fuego",
+    "effect": "Un aro de fuego que atrapa al objetivo. Durante 4-5 turnos, el objetivo recibe 1/8 de sus PS máximos como daño al final del turno e impide que pueda huir o ser cambiado por otro mientras tanto."
   },
   "thunderShock": {
     "name": "Impactrueno",
@@ -353,7 +356,8 @@
     "effect": "Un terremoto que afecta a los Pokémon adyacentes. Su potencia se duplica contra objetivos bajo tierra mediante Excavar, pero se reduce a la mitad cuando hay un Campo de Hierba activo en el terreno de combate."
   },
   "fissure": {
-    "name": "Fisura"
+    "name": "Fisura",
+    "effect": "Abre una grieta en el suelo y mete al objetivo en ella. Debilita al objetivo instantáneamente, a menos que sea un Pokémon Jefe. Tiene una precisión fija del 30% y puede golpear a objetivos enterrados tras usar Excavar."
   },
   "dig": {
     "name": "Excavar",
@@ -504,7 +508,8 @@
     "effect": "Embiste con un gran impulso. Tiene una probabilidad del 20% de amedrentar al objetivo."
   },
   "clamp": {
-    "name": "Tenaza"
+    "name": "Tenaza",
+    "effect": "Atrapa y atenaza con fuerza con su concha. Durante 4-5 turnos, el objetivo recibe 1/8 de sus PS máximos como daño al final del turno e impide que pueda huir o ser cambiado por otro mientras tanto."
   },
   "swift": {
     "name": "Meteoros",
@@ -991,7 +996,8 @@
     "effect": "Propina un gran puñetazo. Tiene una probabilidad del 50 % de reducir 1 nivel la Defensa del objetivo."
   },
   "whirlpool": {
-    "name": "Torbellino"
+    "name": "Torbellino",
+    "effect": "El usuario atrapa al objetivo en un violento remolino. Durante 4-5 turnos, el objetivo recibe 1/8 de sus PS máximos como daño al final del turno e impide que pueda huir o ser cambiado por otro mientras tanto. Puede golpear y su potencia se duplica contra objetivos sumergidos al usar Buceo."
   },
   "beatUp": {
     "name": "Paliza",
@@ -1302,7 +1308,8 @@
     "effect": "Gancho ascendente de gran ímpetu. Puede golpear a objetivos a gran altitud que usaron Vuelo, Bote o Caída Libre."
   },
   "sandTomb": {
-    "name": "Bucle Arena"
+    "name": "Bucle Arena",
+    "effect": "Enreda al objetivo en un remolino de arena. Durante 4-5 turnos, el objetivo recibe 1/8 de sus PS máximos como daño al final del turno e impide que pueda huir o ser cambiado por otro mientras tanto."
   },
   "sheerCold": {
     "name": "Frío Polar",
@@ -1533,7 +1540,8 @@
     "effect": "El usuario emplea su poder mental para intercambiar los cambios en la defensa y la defensa especial con el objetivo."
   },
   "punishment": {
-    "name": "Castigo"
+    "name": "Castigo",
+    "effect": "La potencia del ataque comienza en 60 y aumenta en 20 por cada nivel que hayan aumentado las características del objetivo, hasta un máximo de 200."
   },
   "lastResort": {
     "name": "Última Baza",
@@ -1840,7 +1848,8 @@
     "effect": "Estruja al objetivo con gran fuerza. Tiene mayor potencia cuanto más PS le queden al objetivo, con un rango entre 1 y 120."
   },
   "magmaStorm": {
-    "name": "Lluvia Ígnea"
+    "name": "Lluvia Ígnea",
+    "effect": "El objetivo queda atrapado en una tormenta de fuego. Durante 4-5 turnos, el objetivo recibe 1/8 de sus PS máximos como daño al final del turno e impide que pueda huir o ser cambiado por otro mientras tanto."
   },
   "darkVoid": {
     "name": "Brecha Negra",
@@ -2015,7 +2024,8 @@
     "effect": "Ataque con intensidad incesante. Su potencia se duplica si el objetivo sufre un problema de estado."
   },
   "skyDrop": {
-    "name": "Caída Libre"
+    "name": "Caída Libre",
+    "effect": "Primer turno: lanza al objetivo al aire. Segundo turno: lo hace caer. Mientras está en el aire, no lo deja moverse. El movimiento falla si el objetivo pesa 200 kg (440.9 lbs) o más."
   },
   "shiftGear": {
     "name": "Cambio de Marcha",
@@ -2134,7 +2144,8 @@
     "effect": "Tritura con afiladas hojas. Tiene una probabilidad del 50% de reducir la precisión del objetivo."
   },
   "steamroller": {
-    "name": "Rodillo de Púas"
+    "name": "Rodillo de Púas",
+    "effect": "El usuario se hace una bola y arrolla al objetivo con su cuerpo. Tiene una probabilidad del 30 % de amedrentar al objetivo. Su potencia se duplica y nunca falla contra objetivos que han usado Reducción."
   },
   "cottonGuard": {
     "name": "Rizo Algodón",
@@ -2929,10 +2940,12 @@
     "effect": "Tras envolver su cuerpo en llamas, el usuario arrolla con fuerza al rival y le provoca quemaduras."
   },
   "glitzyGlow": {
-    "name": "Espeaura"
+    "name": "Espeaura",
+    "effect": "Envuelve al rival con ondas psíquicas. Alza un extraño muro que reduce durante 5 turnos el daño producido por los ataques especiales a la mitad. En Combates Dobles, en cambio, el daño se ve reducido en 1/3."
   },
   "baddyBad": {
-    "name": "Umbreozona"
+    "name": "Umbreozona",
+    "effect": "Lanza un ataque haciendo gala de su faceta más umbría. Alza un extraño muro que reduce durante 5 turnos el daño producido por los ataques especiales a la mitad. En Combates Dobles, en cambio, el daño se ve reducido en 1/3."
   },
   "sappySeed": {
     "name": "Leafitobombas",
@@ -3099,7 +3112,8 @@
     "effect": "El usuario controla un tocón mediante la percusión y al atacar reduce la velocidad del objetivo."
   },
   "snapTrap": {
-    "name": "Cepo"
+    "name": "Cepo",
+    "effect": "Cepo que atrapa al objetivo. Durante 4-5 turnos, el objetivo recibe 1/8 de sus PS máximos como daño al final del turno e impide que pueda huir o ser cambiado por otro mientras tanto."
   },
   "pyroBall": {
     "name": "Balón Ígneo",
@@ -3258,7 +3272,8 @@
     "effect": "El usuario, dominador absoluto del líquido elemento, golpea hasta 3 veces con movimientos fluidos. Siempre asesta un golpe crítico."
   },
   "thunderCage": {
-    "name": "Electrojaula"
+    "name": "Electrojaula",
+    "effect": "El objetivo queda atrapado en una jaula electrificada. Durante 4-5 turnos, el objetivo recibe 1/8 de sus PS máximos como daño al final del turno e impide que pueda huir o ser cambiado por otro mientras tanto."
   },
   "dragonEnergy": {
     "name": "Dracoenergía",
@@ -3453,7 +3468,8 @@
     "effect": "Ataque de tipo Roca ejecutado por un Coalossal Gigamax. Durante 4 turnos, los adversarios que no son de Tipo Roca reciben un daño equivalente a 1/6 de sus PS máximos al final de cada turno."
   },
   "gMaxSandblast": {
-    "name": "Gigapolvareda"
+    "name": "Gigapolvareda",
+    "effect": "Ataque de tipo Tierra ejecutado por un Sandaconda Gigamax. Durante 4-5 turnos, enreda al objetivo en un remolino de arena que inflige daño equivalente a 1/8 de sus PS máximos al final de cada turno e impide que pueda huir o ser cambiado por otro mientras tanto."
   },
   "gMaxSnooze": {
     "name": "Gigasopor",
@@ -3484,7 +3500,8 @@
     "effect": "Ataque de tipo Agua ejecutado por un Kingler Gigamax. Reduce mucho la velocidad del objetivo."
   },
   "gMaxCentiferno": {
-    "name": "Gigacienfuegos"
+    "name": "Gigacienfuegos",
+    "effect": "Ataque de tipo Fuego ejecutado por un Centiskorch Gigamax. Durante 4-5 turnos, un aro de fuego atrapa al objetivo que inflige daño equivalente a 1/8 de sus PS máximos al final de cada turno e impide que pueda huir o ser cambiado por otro mientras tanto."
   },
   "gMaxVineLash": {
     "name": "Gigalianas",
