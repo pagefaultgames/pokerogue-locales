@@ -2,7 +2,7 @@
   "ModifierType": {
     "AddPokeballModifierType": {
       "name": "{{modifierCount}}× {{pokeballName}}",
-      "description": "获得 {{pokeballName}}x {{modifierCount}} (已有：{{pokeballAmount}}) \n捕捉倍率：{{catchRate}}。"
+      "description": "获得 {{pokeballName}}x {{modifierCount}}（已有：{{pokeballAmount}}）\n捕捉倍率：{{catchRate}}。"
     },
     "AddVoucherModifierType": {
       "name": "{{modifierCount}}x {{voucherTypeName}}",
@@ -40,7 +40,7 @@
       }
     },
     "PokemonPpUpModifierType": {
-      "description": "选择一只宝可梦的一个招式使用\n使其ＰＰ最大值提升基础的２０％ (最多３次)。"
+      "description": "选择一只宝可梦的一个招式使用\n使其ＰＰ最大值提升基础的２０％（最多３次）。"
     },
     "PokemonNatureChangeModifierType": {
       "name": "{{natureName}}薄荷",
@@ -79,7 +79,7 @@
       "description": "复活所有濒死的宝可梦，\n并完全回复ＨＰ。"
     },
     "MoneyRewardModifierType": {
-      "description": "获得{{moneyMultiplier}}金钱(₽{{moneyAmount}})。",
+      "description": "获得{{moneyMultiplier}}金钱（₽{{moneyAmount}}）。",
       "extra": {
         "small": "少量",
         "moderate": "中等",
@@ -107,7 +107,7 @@
     },
     "TmModifierTypeWithInfo": {
       "name": "招式学习器{{moveId}} - {{moveName}}",
-      "description": "教会一只宝可梦{{moveName}}\n(按住C或者Shift查看更多信息)。"
+      "description": "教会一只宝可梦{{moveName}}\n（按住C或者Shift查看更多信息）。"
     },
     "EvolutionItemModifierType": {
       "description": "使某些宝可梦进化。"
@@ -272,7 +272,7 @@
     },
     "SOUL_DEW": {
       "name": "心之水滴",
-      "description": "增加１０%宝可梦性格对数值的影响 (加算)。"
+      "description": "增加１０%宝可梦性格对数值的影响（加算）。"
     },
     "NUGGET": {
       "name": "金珠"
@@ -310,7 +310,7 @@
     },
     "HEALING_CHARM": {
       "name": "治愈护符",
-      "description": "ＨＰ回复量增加１０% (不含复活)。"
+      "description": "ＨＰ回复量增加１０%（不含复活）。"
     },
     "CANDY_JAR": {
       "name": "糖果罐",
@@ -326,7 +326,7 @@
     },
     "QUICK_CLAW": {
       "name": "先制之爪",
-      "description": "增加１０%的几率无视速度优先使出招式\n(先制技能优先)。"
+      "description": "增加１０%的几率无视速度优先使出招式\n（先制技能优先）。"
     },
     "KINGS_ROCK": {
       "name": "王者之证",
@@ -673,8 +673,8 @@
     "N_SOLARIZER": "奈克洛索尔合体器",
     "RUSTED_SWORD": "腐朽的剑",
     "RUSTED_SHIELD": "腐朽的盾",
-    "ICY_REINS_OF_UNITY": "牵绊缰绳(冰)",
-    "SHADOW_REINS_OF_UNITY": "牵绊缰绳(幽灵)",
+    "ICY_REINS_OF_UNITY": "牵绊缰绳（冰）",
+    "SHADOW_REINS_OF_UNITY": "牵绊缰绳（幽灵）",
     "WELLSPRING_MASK": "水井面具",
     "HEARTHFLAME_MASK": "火灶面具",
     "CORNERSTONE_MASK": "础石面具",
