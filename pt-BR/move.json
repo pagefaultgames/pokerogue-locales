@@ -76,7 +76,8 @@
     "effect": "O usuário voa alto no céu no primeiro turno e ataca no turno seguinte."
   },
   "bind": {
-    "name": "Bind"
+    "name": "Bind",
+    "effect": "Um corpo longo, tentáculos ou algo parecido são usados para prender e apertar o alvo. Por 4 a 5 turnos, o alvo recebe dano igual a 1/8 de seus PS máximos ao final de cada turno. O alvo não pode fugir nem ser trocado da batalha durante esse tempo."
   },
   "slam": {
     "name": "Slam",
@@ -135,11 +136,12 @@
     "effect": "O usuário ataca caindo sobre o alvo com todo o peso de seu corpo. Este movimento tem 30% de chance de paralisar o alvo. Se o alvo tiver usado Minimize, o poder deste movimento é duplicado e ele sempre acertará."
   },
   "wrap": {
-    "name": "Wrap"
+    "name": "Wrap",
+    "effect": "Um corpo longo, vinhas ou algo parecido são usados para envolver e apertar o alvo. Por 4 a 5 turnos, o alvo recebe dano igual a 1/8 de seus PS máximos ao final de cada turno. O alvo não pode fugir nem ser trocado da batalha durante esse tempo."
   },
   "takeDown": {
     "name": "Take Down",
-    "effect": "Uma investida imprudente de corpo inteiro para se chocar contra o alvo. O usuário recebe um quarto do dano causado por este movimento."
+    "effect": "Uma investida imprudente de corpo inteiro para se chocar contra o alvo. O usuário recebe 1/4 do dano causado por este movimento."
   },
   "thrash": {
     "name": "Thrash",
@@ -147,7 +149,7 @@
   },
   "doubleEdge": {
     "name": "Double-Edge",
-    "effect": "Uma investida imprudente que arrisca a vida, na qual o usuário se lança contra o alvo. O usuário recebe um terço do dano causado por este movimento."
+    "effect": "Uma investida imprudente que arrisca a vida, na qual o usuário se lança contra o alvo. O usuário recebe 1/3 do dano causado por este movimento."
   },
   "tailWhip": {
     "name": "Tail Whip",
@@ -259,7 +261,7 @@
   },
   "submission": {
     "name": "Submission",
-    "effect": "O usuário agarra o alvo e mergulha imprudentemente em direção ao chão. O usuário recebe um quarto do dano causado por este movimento."
+    "effect": "O usuário agarra o alvo e mergulha imprudentemente em direção ao chão. O usuário recebe 1/4 do dano causado por este movimento."
   },
   "lowKick": {
     "name": "Low Kick",
@@ -287,7 +289,7 @@
   },
   "leechSeed": {
     "name": "Leech Seed",
-    "effect": "Uma semente é plantada no alvo. Ao final de cada turno, um oitavo dos PS máximos do alvo é absorvido pelo usuário ou por qualquer Pokémon que assuma seu lugar na batalha."
+    "effect": "Uma semente é plantada no alvo. Ao final de cada turno, 1/8 dos PS máximos do alvo é absorvido pelo usuário ou por qualquer Pokémon que assuma seu lugar na batalha."
   },
   "growth": {
     "name": "Growth",
@@ -326,7 +328,8 @@
     "effect": "Este ataque atinge o alvo com uma onda de choque de pura fúria. Este ataque sempre causa 40 PS de dano."
   },
   "fireSpin": {
-    "name": "Fire Spin"
+    "name": "Fire Spin",
+    "effect": "O usuário prende o alvo dentro de um feroz vórtice de fogo. Por 4 a 5 turnos, o alvo recebe dano igual a 1/8 de seus PS máximos ao final de cada turno. O alvo não pode fugir nem ser trocado da batalha durante esse tempo."
   },
   "thunderShock": {
     "name": "Thunder Shock",
@@ -353,7 +356,8 @@
     "effect": "O usuário provoca um terremoto que atinge todos os Pokémon ao seu redor. O poder desse movimento é duplicado contra alvos que estejam no subsolo devido ao movimento Dig, e reduzido pela metade enquanto Terreno de Plantas estiver ativo."
   },
   "fissure": {
-    "name": "Fissure"
+    "name": "Fissure",
+    "effect": "O usuário abre uma fenda no chão e derruba o alvo nela. O alvo desmaia instantaneamente se este ataque acertar, a menos que seja um Pokémon Chefe. A precisão deste movimento é fixada em 30%, e ele pode atingir alvos que estejam no subsolo devido ao movimento Dig."
   },
   "dig": {
     "name": "Dig",
@@ -361,7 +365,7 @@
   },
   "toxic": {
     "name": "Toxic",
-    "effect": "Um movimento que deixa o alvo gravemente envenenado. O alvo recebe dano de veneno crescente ao final de cada turno, começando em um dezesseis avos dos PS máximos do Pokémon, depois dois dezesseis avos e assim por diante. Se o usuário for do tipo Venenoso, este movimento nunca errará."
+    "effect": "Um movimento que deixa o alvo gravemente envenenado. O alvo recebe dano de veneno crescente ao final de cada turno, começando em 1/16 dos PS máximos do Pokémon, depois 2/16 e assim por diante. Se o usuário for do tipo Venenoso, este movimento nunca errará."
   },
   "confusion": {
     "name": "Confusion",
@@ -445,7 +449,7 @@
   },
   "lightScreen": {
     "name": "Light Screen",
-    "effect": "Uma maravilhosa parede de luz é erguida para reduzir pela metade o dano recebido de movimentos especiais por 5 turnos. Em Batalhas Duplas, esse dano é reduzido em um terço."
+    "effect": "Uma maravilhosa parede de luz é erguida para reduzir pela metade o dano recebido de movimentos especiais por 5 turnos. Em Batalhas Duplas, esse dano é reduzido em 1/3."
   },
   "haze": {
     "name": "Haze",
@@ -453,7 +457,7 @@
   },
   "reflect": {
     "name": "Reflect",
-    "effect": "Uma maravilhosa parede de luz é erguida para reduzir pela metade o dano recebido de movimentos físicos por 5 turnos. Em Batalhas Duplas, esse dano é reduzido em um terço."
+    "effect": "Uma maravilhosa parede de luz é erguida para reduzir pela metade o dano recebido de movimentos físicos por 5 turnos. Em Batalhas Duplas, esse dano é reduzido em 1/3."
   },
   "focusEnergy": {
     "name": "Focus Energy",
@@ -504,7 +508,8 @@
     "effect": "O usuário ataca investindo contra o alvo com um ímpeto incrível. Este movimento tem 20% de chance de fazer o alvo hesitar."
   },
   "clamp": {
-    "name": "Clamp"
+    "name": "Clamp",
+    "effect": "O alvo é preso e apertado pela concha grossa e resistente do usuário. Por 4 a 5 turnos, o alvo recebe dano igual a 1/8 de seus PS máximos ao final de cada turno. O alvo não pode fugir nem ser trocado da batalha durante esse tempo."
   },
   "swift": {
     "name": "Swift",
@@ -652,7 +657,7 @@
   },
   "struggle": {
     "name": "Struggle",
-    "effect": "Este ataque é usado em desespero apenas se o usuário não tiver mais PP. O usuário perde um quarto de seus PS máximos."
+    "effect": "Este ataque é usado em desespero apenas se o usuário não tiver mais PP. O usuário perde 1/4 de seus PS máximos."
   },
   "sketch": {
     "name": "Sketch",
@@ -676,7 +681,7 @@
   },
   "nightmare": {
     "name": "Nightmare",
-    "effect": "Um alvo adormecido tem um pesadelo que causa dano igual a um quarto de seus PS máximos ao final de cada turno. Isso falha se o alvo não estiver dormindo."
+    "effect": "Um alvo adormecido tem um pesadelo que causa dano igual a 1/4 de seus PS máximos ao final de cada turno. Isso falha se o alvo não estiver dormindo."
   },
   "flameWheel": {
     "name": "Flame Wheel",
@@ -688,7 +693,7 @@
   },
   "curse": {
     "name": "Curse",
-    "effect": "O usuário aumenta seus atributos de Ataque e Defesa em troca de reduzir seu atributo de Velocidade. Se o usuário for do tipo Fantasma, ele perde metade de seus PS máximos para infligir uma maldição no alvo. Um Pokémon afetado pela maldição perde um quarto de seus PS máximos ao final de cada turno."
+    "effect": "O usuário aumenta seus atributos de Ataque e Defesa em troca de reduzir seu atributo de Velocidade. Se o usuário for do tipo Fantasma, ele perde metade de seus PS máximos para infligir uma maldição no alvo. Um Pokémon afetado pela maldição perde 1/4 de seus PS máximos ao final de cada turno."
   },
   "flail": {
     "name": "Flail",
@@ -720,7 +725,7 @@
   },
   "protect": {
     "name": "Protect",
-    "effect": "Este movimento permite que o usuário se proteja de todos os ataques. A cada uso consecutivo, a chance de sucesso deste movimento se torna um terço do que era antes."
+    "effect": "Este movimento permite que o usuário se proteja de todos os ataques. A cada uso consecutivo, a chance de sucesso deste movimento se torna 1/3 do que era antes."
   },
   "machPunch": {
     "name": "Mach Punch",
@@ -756,7 +761,7 @@
   },
   "spikes": {
     "name": "Spikes",
-    "effect": "O usuário arma uma armadilha de espinhos aos pés da equipe adversária, causando dano aos Pokémon adversários que entrarem na batalha igual a um oitavo de seus PS máximos. Esse dano aumenta com múltiplas camadas de Spikes, até um máximo de 3. Tipos Voadores ou Pokémon com Levitate não são afetados."
+    "effect": "O usuário arma uma armadilha de espinhos aos pés da equipe adversária, causando dano aos Pokémon adversários que entrarem na batalha igual a 1/8 de seus PS máximos. Esse dano aumenta com múltiplas camadas de Spikes, até um máximo de 3. Tipos Voadores ou Pokémon com Levitate não são afetados."
   },
   "zapCannon": {
     "name": "Zap Cannon",
@@ -780,7 +785,7 @@
   },
   "detect": {
     "name": "Detect",
-    "effect": "Este movimento permite que o usuário se proteja de todos os ataques. A cada uso consecutivo, a chance de sucesso deste movimento se torna um terço do que era antes."
+    "effect": "Este movimento permite que o usuário se proteja de todos os ataques. A cada uso consecutivo, a chance de sucesso deste movimento se torna 1/3 do que era antes."
   },
   "boneRush": {
     "name": "Bone Rush",
@@ -804,7 +809,7 @@
   },
   "endure": {
     "name": "Endure",
-    "effect": "O usuário suporta qualquer ataque com pelo menos 1 PS. A cada uso consecutivo, a chance de sucesso deste movimento se torna um terço do que era antes."
+    "effect": "O usuário suporta qualquer ataque com pelo menos 1 PS. A cada uso consecutivo, a chance de sucesso deste movimento se torna 1/3 do que era antes."
   },
   "charm": {
     "name": "Charm",
@@ -860,7 +865,7 @@
   },
   "present": {
     "name": "Present",
-    "effect": "O usuário ataca dando ao alvo um presente com uma armadilha escondida, causando aleatoriamente dano com 40, 80 ou 120 de poder. Às vezes, porém, o presente restaura um quarto dos PS máximos do alvo."
+    "effect": "O usuário ataca dando ao alvo um presente com uma armadilha escondida, causando aleatoriamente dano com 40, 80 ou 120 de poder. Às vezes, porém, o presente restaura 1/4 dos PS máximos do alvo."
   },
   "frustration": {
     "name": "Frustration",
@@ -928,15 +933,15 @@
   },
   "morningSun": {
     "name": "Morning Sun",
-    "effect": "O usuário se banha nos agradáveis raios de sol, restaurando metade de seus PS máximos. Sob sol forte, dois terços de seus PS máximos são restaurados. Em todas as outras condições climáticas, um quarto de seus PS máximos é restaurado."
+    "effect": "O usuário se banha nos agradáveis raios de sol, restaurando metade de seus PS máximos. Sob sol forte, 2/3 de seus PS máximos são restaurados. Em todas as outras condições climáticas, 1/4 de seus PS máximos é restaurado."
   },
   "synthesis": {
     "name": "Synthesis",
-    "effect": "O usuário produz energia por meio da fotossíntese, restaurando metade de seus PS máximos. Sob sol forte, dois terços de seus PS máximos são restaurados. Em todas as outras condições climáticas, um quarto de seus PS máximos é restaurado."
+    "effect": "O usuário produz energia por meio da fotossíntese, restaurando metade de seus PS máximos. Sob sol forte, 2/3 de seus PS máximos são restaurados. Em todas as outras condições climáticas, 1/4 de seus PS máximos é restaurado."
   },
   "moonlight": {
     "name": "Moonlight",
-    "effect": "O usuário se banha na luz reconfortante da lua, restaurando metade de seus PS máximos. Sob sol forte, dois terços de seus PS máximos são restaurados. Em todas as outras condições climáticas, um quarto de seus PS máximos é restaurado."
+    "effect": "O usuário se banha na luz reconfortante da lua, restaurando metade de seus PS máximos. Sob sol forte, 2/3 de seus PS máximos são restaurados. Em todas as outras condições climáticas, 1/4 de seus PS máximos é restaurado."
   },
   "hiddenPower": {
     "name": "Hidden Power",
@@ -991,7 +996,8 @@
     "effect": "O usuário ataca com um soco. Este movimento tem 50% de chance de reduzir o atributo de Defesa do alvo."
   },
   "whirlpool": {
-    "name": "Whirlpool"
+    "name": "Whirlpool",
+    "effect": "O usuário prende o alvo dentro de um redemoinho violento e giratório. Por 4 a 5 turnos, o alvo recebe dano igual a 1/8 de seus PS máximos ao final de cada turno. O alvo não pode fugir nem ser trocado da batalha durante esse tempo. Este movimento pode atingir alvos submersos por Dive, causando o dobro de dano a eles."
   },
   "beatUp": {
     "name": "Beat Up",
@@ -1015,7 +1021,7 @@
   },
   "swallow": {
     "name": "Swallow",
-    "effect": "Os níveis armazenados usando o movimento Stockpile são absorvidos pelo usuário para restaurar seus PS. Nível 1: um quarto dos PS máximos do usuário é restaurado. Nível 2: metade dos PS máximos do usuário é restaurada. Nível 3: os PS do usuário são totalmente restaurados."
+    "effect": "Os níveis armazenados usando o movimento Stockpile são absorvidos pelo usuário para restaurar seus PS. Nível 1: 1/4 dos PS máximos do usuário é restaurado. Nível 2: metade dos PS máximos do usuário é restaurada. Nível 3: os PS do usuário são totalmente restaurados."
   },
   "heatWave": {
     "name": "Heat Wave",
@@ -1023,7 +1029,7 @@
   },
   "hail": {
     "name": "Hail",
-    "effect": "O usuário invoca uma tempestade de granizo que dura 5 turnos. Todos os Pokémon, exceto os tipos Gelo, recebem dano igual a um dezesseis avos de seus PS máximos ao final de cada turno."
+    "effect": "O usuário invoca uma tempestade de granizo que dura 5 turnos. Todos os Pokémon, exceto os tipos Gelo, recebem dano igual a 1/16 de seus PS máximos ao final de cada turno."
   },
   "torment": {
     "name": "Torment",
@@ -1302,7 +1308,8 @@
     "effect": "O usuário ataca o alvo com um uppercut desferido com força em direção ao céu. Este movimento também pode atingir um alvo que esteja no ar por Fly, Bounce ou Sky Drop."
   },
   "sandTomb": {
-    "name": "Sand Tomb"
+    "name": "Sand Tomb",
+    "effect": "O usuário prende o alvo dentro de uma tempestade de areia furiosa. Por 4 a 5 turnos, o alvo recebe dano igual a 1/8 de seus PS máximos ao final de cada turno. O alvo não pode fugir nem ser trocado da batalha durante esse tempo."
   },
   "sheerCold": {
     "name": "Sheer Cold",
@@ -1366,7 +1373,7 @@
   },
   "voltTackle": {
     "name": "Volt Tackle",
-    "effect": "O usuário se eletrifica e investe contra o alvo para causar dano. O usuário recebe um terço do dano causado por este movimento. Isso também tem 10% de chance de paralisar o alvo."
+    "effect": "O usuário se eletrifica e investe contra o alvo para causar dano. O usuário recebe 1/3 do dano causado por este movimento. Isso também tem 10% de chance de paralisar o alvo."
   },
   "magicalLeaf": {
     "name": "Magical Leaf",
@@ -1534,7 +1541,7 @@
   },
   "punishment": {
     "name": "Punishment",
-    "effect": ""
+    "effect": "O poder deste movimento começa em 60 e é aumentado em 20 para cada estágio em que os atributos do alvo tenham sido aumentados, até um poder máximo de 200."
   },
   "lastResort": {
     "name": "Last Resort",
@@ -1566,7 +1573,7 @@
   },
   "flareBlitz": {
     "name": "Flare Blitz",
-    "effect": "O usuário se envolve em fogo e investe contra o alvo para causar dano. O usuário recebe um terço do dano causado por este movimento. Isso também tem 10% de chance de causar queimadura no alvo e descongela o usuário caso ele esteja congelado."
+    "effect": "O usuário se envolve em fogo e investe contra o alvo para causar dano. O usuário recebe 1/3 do dano causado por este movimento. Isso também tem 10% de chance de causar queimadura no alvo e descongela o usuário caso ele esteja congelado."
   },
   "forcePalm": {
     "name": "Force Palm",
@@ -1642,7 +1649,7 @@
   },
   "braveBird": {
     "name": "Brave Bird",
-    "effect": "O usuário recolhe as asas e investe em baixa altitude. O usuário recebe um terço do dano causado por este movimento."
+    "effect": "O usuário recolhe as asas e investe em baixa altitude. O usuário recebe 1/3 do dano causado por este movimento."
   },
   "earthPower": {
     "name": "Earth Power",
@@ -1774,7 +1781,7 @@
   },
   "stealthRock": {
     "name": "Stealth Rock",
-    "effect": "O usuário arma uma armadilha de pedras flutuantes, causando dano aos Pokémon adversários que entrarem na batalha igual a um oitavo de seus PS máximos. Esse dano varia dependendo da compatibilidade de tipo do Pokémon com o tipo Pedra."
+    "effect": "O usuário arma uma armadilha de pedras flutuantes, causando dano aos Pokémon adversários que entrarem na batalha igual a 1/8 de seus PS máximos. Esse dano varia dependendo da compatibilidade de tipo do Pokémon com o tipo Pedra."
   },
   "grassKnot": {
     "name": "Grass Knot",
@@ -1798,7 +1805,7 @@
   },
   "woodHammer": {
     "name": "Wood Hammer",
-    "effect": "O usuário arremessa seu corpo robusto contra o alvo para atacar. O usuário recebe um terço do dano causado por este movimento."
+    "effect": "O usuário arremessa seu corpo robusto contra o alvo para atacar. O usuário recebe 1/3 do dano causado por este movimento."
   },
   "aquaJet": {
     "name": "Aqua Jet",
@@ -1841,7 +1848,8 @@
     "effect": "O alvo é esmagado com grande força. Quanto mais PS o alvo tiver, maior o poder do movimento (variando entre 1 e 120)."
   },
   "magmaStorm": {
-    "name": "Magma Storm"
+    "name": "Magma Storm",
+    "effect": "O usuário prende o alvo dentro de um turbilhão de fogo. Por 4 a 5 turnos, o alvo recebe dano igual a 1/8 de seus PS máximos ao final de cada turno. O alvo não pode fugir nem ser trocado da batalha durante esse tempo."
   },
   "darkVoid": {
     "name": "Dark Void",
@@ -1913,7 +1921,7 @@
   },
   "flameBurst": {
     "name": "Flame Burst",
-    "effect": "O usuário ataca o alvo com uma chama explosiva. Pokémon ao lado do alvo também recebem dano igual a um dezesseis avos de seus PS máximos."
+    "effect": "O usuário ataca o alvo com uma chama explosiva. Pokémon ao lado do alvo também recebem dano igual a 1/16 de seus PS máximos."
   },
   "sludgeWave": {
     "name": "Sludge Wave",
@@ -1997,7 +2005,7 @@
   },
   "allySwitch": {
     "name": "Ally Switch",
-    "effect": "O usuário se teletransporta usando um poder estranho e troca de lugar com um de seus aliados. A cada uso consecutivo, a chance de sucesso deste movimento se torna um terço do que era antes."
+    "effect": "O usuário se teletransporta usando um poder estranho e troca de lugar com um de seus aliados. A cada uso consecutivo, a chance de sucesso deste movimento se torna 1/3 do que era antes."
   },
   "scald": {
     "name": "Scald",
@@ -2016,7 +2024,8 @@
     "effect": "O usuário ataca com intensidade implacável. O poder desse golpe é duplicado se o alvo estiver sob o efeito de uma condição de status."
   },
   "skyDrop": {
-    "name": "Sky Drop"
+    "name": "Sky Drop",
+    "effect": "O usuário leva o alvo para o céu no primeiro turno e o solta durante o turno seguinte. O alvo não pode atacar enquanto estiver no céu. Este movimento falha se for usado em um alvo que pese 200 kg ou mais."
   },
   "shiftGear": {
     "name": "Shift Gear",
@@ -2100,7 +2109,7 @@
   },
   "wildCharge": {
     "name": "Wild Charge",
-    "effect": "O usuário se envolve em eletricidade e se choca contra o alvo. O usuário recebe um quarto do dano causado por este movimento."
+    "effect": "O usuário se envolve em eletricidade e se choca contra o alvo. O usuário recebe 1/4 do dano causado por este movimento."
   },
   "drillRun": {
     "name": "Drill Run",
@@ -2135,7 +2144,8 @@
     "effect": "O usuário ataca seu alvo cercando-o com folhas afiadas. Este movimento tem 50% de chance de reduzir a Precisão do alvo."
   },
   "steamroller": {
-    "name": "Steamroller"
+    "name": "Steamroller",
+    "effect": "O usuário esmaga seu alvo rolando sobre ele com seu corpo enrolado. Este movimento tem 30% de chance de fazer o alvo hesitar. Se o alvo tiver usado Minimize, o poder deste movimento é duplicado e ele sempre acertará."
   },
   "cottonGuard": {
     "name": "Cotton Guard",
@@ -2159,7 +2169,7 @@
   },
   "headCharge": {
     "name": "Head Charge",
-    "effect": "O usuário investe com a cabeça contra o alvo, usando seu poderoso pelo de guarda. O usuário recebe um quarto do dano causado por este movimento."
+    "effect": "O usuário investe com a cabeça contra o alvo, usando seu poderoso pelo de guarda. O usuário recebe 1/4 do dano causado por este movimento."
   },
   "gearGrind": {
     "name": "Gear Grind",
@@ -2295,7 +2305,7 @@
   },
   "drainingKiss": {
     "name": "Draining Kiss",
-    "effect": "O usuário rouba os PS do alvo com um beijo. Os PS do usuário são restaurados em três quartos do dano causado por este movimento."
+    "effect": "O usuário rouba os PS do alvo com um beijo. Os PS do usuário são restaurados em 3/4 do dano causado por este movimento."
   },
   "craftyShield": {
     "name": "Crafty Shield",
@@ -2339,7 +2349,7 @@
   },
   "kingsShield": {
     "name": "King’s Shield",
-    "effect": "O usuário assume uma postura defensiva enquanto se protege de dano. Qualquer atacante que usar movimentos de contato contra o usuário durante este turno terá seus atributos de Ataque reduzidos. A cada uso consecutivo, a chance de sucesso deste movimento se torna um terço do que era antes."
+    "effect": "O usuário assume uma postura defensiva enquanto se protege de dano. Qualquer atacante que usar movimentos de contato contra o usuário durante este turno terá seus atributos de Ataque reduzidos. A cada uso consecutivo, a chance de sucesso deste movimento se torna 1/3 do que era antes."
   },
   "playNice": {
     "name": "Play Nice",
@@ -2371,7 +2381,7 @@
   },
   "spikyShield": {
     "name": "Spiky Shield",
-    "effect": "O usuário se protege dos movimentos que chegam durante o turno. Qualquer atacante que usar movimentos de contato contra o usuário durante este turno recebe dano igual a um oitavo de seus PS máximos. A cada uso consecutivo, a chance de sucesso deste movimento se torna um terço do que era antes."
+    "effect": "O usuário se protege dos movimentos que chegam durante o turno. Qualquer atacante que usar movimentos de contato contra o usuário durante este turno recebe dano igual a 1/8 de seus PS máximos. A cada uso consecutivo, a chance de sucesso deste movimento se torna 1/3 do que era antes."
   },
   "aromaticMist": {
     "name": "Aromatic Mist",
@@ -2387,7 +2397,7 @@
   },
   "powder": {
     "name": "Powder",
-    "effect": "O usuário cobre o alvo com um pó combustível. Se o alvo usar um movimento do tipo Fogo, o pó explode e o alvo recebe dano igual a um quarto de seus PS máximos."
+    "effect": "O usuário cobre o alvo com um pó combustível. Se o alvo usar um movimento do tipo Fogo, o pó explode e o alvo recebe dano igual a 1/4 de seus PS máximos."
   },
   "geomancy": {
     "name": "Geomancy",
@@ -2431,7 +2441,7 @@
   },
   "infestation": {
     "name": "Infestation",
-    "effect": "O alvo é infestado e atacado. Por 4 a 5 turnos, o alvo recebe dano igual a um oitavo de seus PS máximos ao final de cada turno. O alvo não pode fugir nem ser trocado da batalha durante esse tempo."
+    "effect": "O alvo é infestado e atacado. Por 4 a 5 turnos, o alvo recebe dano igual a 1/8 de seus PS máximos ao final de cada turno. O alvo não pode fugir nem ser trocado da batalha durante esse tempo."
   },
   "powerUpPunch": {
     "name": "Power-Up Punch",
@@ -2439,7 +2449,7 @@
   },
   "oblivionWing": {
     "name": "Oblivion Wing",
-    "effect": "O usuário libera uma onda de destruição para absorver PS do alvo. Os PS do usuário são restaurados em três quartos do dano causado por este movimento."
+    "effect": "O usuário libera uma onda de destruição para absorver PS do alvo. Os PS do usuário são restaurados em 3/4 do dano causado por este movimento."
   },
   "thousandArrows": {
     "name": "Thousand Arrows",
@@ -2623,7 +2633,7 @@
   },
   "shoreUp": {
     "name": "Shore Up",
-    "effect": "O usuário restaura metade de seus PS máximos levantando uma nuvem de areia dos arredores. Em uma tempestade de areia, o usuário restaura dois terços de seus PS máximos."
+    "effect": "O usuário restaura metade de seus PS máximos levantando uma nuvem de areia dos arredores. Em uma tempestade de areia, o usuário restaura 2/3 de seus PS máximos."
   },
   "firstImpression": {
     "name": "First Impression",
@@ -2631,7 +2641,7 @@
   },
   "banefulBunker": {
     "name": "Baneful Bunker",
-    "effect": "O usuário se protege dos movimentos que chegam durante o turno. Qualquer atacante que usar movimentos de contato contra o usuário durante este turno fica envenenado. A cada uso consecutivo, a chance de sucesso deste movimento se torna um terço do que era antes."
+    "effect": "O usuário se protege dos movimentos que chegam durante o turno. Qualquer atacante que usar movimentos de contato contra o usuário durante este turno fica envenenado. A cada uso consecutivo, a chance de sucesso deste movimento se torna 1/3 do que era antes."
   },
   "spiritShackle": {
     "name": "Spirit Shackle",
@@ -2763,7 +2773,7 @@
   },
   "auroraVeil": {
     "name": "Aurora Veil",
-    "effect": "Este movimento reduz pela metade o dano recebido de movimentos físicos e especiais por 5 turnos. Em Batalhas Duplas, esse dano é reduzido em um terço. Isso só pode ser usado sob granizo ou quando estiver nevando."
+    "effect": "Este movimento reduz pela metade o dano recebido de movimentos físicos e especiais por 5 turnos. Em Batalhas Duplas, esse dano é reduzido em 1/3. Isso só pode ser usado sob granizo ou quando estiver nevando."
   },
   "sinisterArrowRaid": {
     "name": "Sinister Arrow Raid",
@@ -2931,15 +2941,15 @@
   },
   "glitzyGlow": {
     "name": "Glitzy Glow",
-    "effect": ""
+    "effect": "O usuário bombardeia o alvo com força telecinética. Uma maravilhosa parede de luz é erguida para reduzir pela metade o dano recebido de movimentos especiais por 5 turnos. Em Batalhas Duplas, esse dano é reduzido em 1/3."
   },
   "baddyBad": {
     "name": "Baddy Bad",
-    "effect": ""
+    "effect": "O usuário age como vilão e ataca o alvo. Uma maravilhosa parede de luz é erguida para reduzir pela metade o dano recebido de movimentos físicos por 5 turnos. Em Batalhas Duplas, esse dano é reduzido em 1/3."
   },
   "sappySeed": {
     "name": "Sappy Seed",
-    "effect": "O usuário faz crescer um talo gigantesco que espalha sementes para atacar o alvo. Ao final de cada turno, um oitavo dos PS máximos do alvo é absorvido pelo usuário ou por qualquer Pokémon que assuma seu lugar na batalha."
+    "effect": "O usuário faz crescer um talo gigantesco que espalha sementes para atacar o alvo. Ao final de cada turno, 1/8 dos PS máximos do alvo é absorvido pelo usuário ou por qualquer Pokémon que assuma seu lugar na batalha."
   },
   "freezyFrost": {
     "name": "Freezy Frost",
@@ -2959,7 +2969,7 @@
   },
   "maxGuard": {
     "name": "Max Guard",
-    "effect": "Este movimento permite que o usuário se proteja de todos os ataques. A cada uso consecutivo, a chance de sucesso deste movimento se torna um terço do que era antes."
+    "effect": "Este movimento permite que o usuário se proteja de todos os ataques. A cada uso consecutivo, a chance de sucesso deste movimento se torna 1/3 do que era antes."
   },
   "dynamaxCannon": {
     "name": "Dynamax Cannon",
@@ -3102,7 +3112,8 @@
     "effect": "O usuário toca seu tambor, controlando as raízes do tambor para atacar o alvo. Isso também reduz o atributo de Velocidade do alvo."
   },
   "snapTrap": {
-    "name": "Snap Trap"
+    "name": "Snap Trap",
+    "effect": "O usuário prende o alvo em uma armadilha de mola. Por 4 a 5 turnos, o alvo recebe dano igual a 1/8 de seus PS máximos ao final de cada turno. O alvo não pode fugir nem ser trocado da batalha durante esse tempo."
   },
   "pyroBall": {
     "name": "Pyro Ball",
@@ -3150,11 +3161,11 @@
   },
   "lifeDew": {
     "name": "Life Dew",
-    "effect": "O usuário espalha uma água misteriosa ao redor e restaura um quarto dos PS máximos do usuário e de seus Pokémon aliados."
+    "effect": "O usuário espalha uma água misteriosa ao redor e restaura 1/4 dos PS máximos do usuário e de seus Pokémon aliados."
   },
   "obstruct": {
     "name": "Obstruct",
-    "effect": "Este movimento permite que o usuário se proteja de todos os ataques. Qualquer atacante que usar movimentos de contato contra o usuário durante este turno terá seus atributos de Defesa reduzidos duramente. A cada uso consecutivo, a chance de sucesso deste movimento se torna um terço do que era antes."
+    "effect": "Este movimento permite que o usuário se proteja de todos os ataques. Qualquer atacante que usar movimentos de contato contra o usuário durante este turno terá seus atributos de Defesa reduzidos duramente. A cada uso consecutivo, a chance de sucesso deste movimento se torna 1/3 do que era antes."
   },
   "falseSurrender": {
     "name": "False Surrender",
@@ -3261,7 +3272,8 @@
     "effect": "O usuário golpeia o alvo com um movimento fluido 3 vezes seguidas. Este movimento sempre resulta em um golpe crítico."
   },
   "thunderCage": {
-    "name": "Thunder Cage"
+    "name": "Thunder Cage",
+    "effect": "O usuário prende o alvo dentro de uma jaula de eletricidade crepitante. Por 4 a 5 turnos, o alvo recebe dano igual a 1/8 de seus PS máximos ao final de cada turno. O alvo não pode fugir nem ser trocado da batalha durante esse tempo."
   },
   "dragonEnergy": {
     "name": "Dragon Energy",
@@ -3305,7 +3317,7 @@
   },
   "stoneAxe": {
     "name": "Stone Axe",
-    "effect": "O usuário desfere seus machados de pedra contra o alvo. Lascas de pedra deixadas por este ataque flutuam ao redor do alvo, causando dano aos Pokémon adversários que entrarem na batalha igual a um oitavo de seus PS máximos. O dano das lascas de pedra varia dependendo da compatibilidade de tipo do Pokémon com o tipo Pedra."
+    "effect": "O usuário desfere seus machados de pedra contra o alvo. Lascas de pedra deixadas por este ataque flutuam ao redor do alvo, causando dano aos Pokémon adversários que entrarem na batalha igual a 1/8 de seus PS máximos. O dano das lascas de pedra varia dependendo da compatibilidade de tipo do Pokémon com o tipo Pedra."
   },
   "springtideStorm": {
     "name": "Springtide Storm",
@@ -3321,7 +3333,7 @@
   },
   "waveCrash": {
     "name": "Wave Crash",
-    "effect": "O usuário se envolve em água e se choca contra o alvo com todo o corpo para causar dano. O usuário recebe um terço do dano causado por este movimento."
+    "effect": "O usuário se envolve em água e se choca contra o alvo com todo o corpo para causar dano. O usuário recebe 1/3 do dano causado por este movimento."
   },
   "chloroblast": {
     "name": "Chloroblast",
@@ -3365,7 +3377,7 @@
   },
   "ceaselessEdge": {
     "name": "Ceaseless Edge",
-    "effect": "O usuário desfere uma lâmina afiada contra o alvo, deixando lascas sob o alvo como espinhos. Pokémon que entrarem na batalha recebem dano igual a um oitavo de seus PS máximos. Até três camadas podem ser armadas, com cada camada aumentando o dano recebido. Tipos Voadores ou Pokémon com Levitate não são afetados por esses espinhos."
+    "effect": "O usuário golpeia o alvo com uma lâmina afiada, deixando lascas sob o alvo como espinhos. Os Pokémon adversários que pisarem nesses espinhos ao entrarem na batalha recebem dano igual a 1/8 de seus PS máximos. Até 3 camadas podem ser armadas, com cada camada aumentando o dano recebido."
   },
   "bleakwindStorm": {
     "name": "Bleakwind Storm",
@@ -3389,7 +3401,7 @@
   },
   "gMaxWildfire": {
     "name": "G-Max Wildfire",
-    "effect": "Um ataque do tipo Fogo que os Charizard Gigantamax usam. Por 4 turnos, este movimento continua a causar dano aos oponentes que não sejam do tipo Fogo igual a um sexto de seus PS máximos ao final de cada turno."
+    "effect": "Um ataque do tipo Fogo que os Charizard Gigantamax usam. Por 4 turnos, este movimento continua a causar dano aos oponentes que não sejam do tipo Fogo igual a 1/6 de seus PS máximos ao final de cada turno."
   },
   "gMaxBefuddle": {
     "name": "G-Max Befuddle",
@@ -3429,7 +3441,7 @@
   },
   "gMaxStonesurge": {
     "name": "G-Max Stonesurge",
-    "effect": "Um ataque do tipo Água que os Drednaw Gigantamax usam. Este movimento espalha pedras afiadas pelo campo, causando dano aos Pokémon adversários que entrarem na batalha igual a um oitavo de seus PS máximos. Esse dano varia dependendo da compatibilidade de tipo do Pokémon com o tipo Pedra."
+    "effect": "Um ataque do tipo Água que os Drednaw Gigantamax usam. Este movimento espalha pedras afiadas pelo campo, causando dano aos Pokémon adversários que entrarem na batalha igual a 1/8 de seus PS máximos. Esse dano varia dependendo da compatibilidade de tipo do Pokémon com o tipo Pedra."
   },
   "gMaxWindRage": {
     "name": "G-Max Wind Rage",
@@ -3441,7 +3453,7 @@
   },
   "gMaxFinale": {
     "name": "G-Max Finale",
-    "effect": "Um ataque do tipo Fada que os Alcremie Gigantamax usam. Este movimento restaura um sexto dos PS máximos do usuário e de seus aliados."
+    "effect": "Um ataque do tipo Fada que os Alcremie Gigantamax usam. Este movimento restaura 1/6 dos PS máximos do usuário e de seus aliados."
   },
   "gMaxDepletion": {
     "name": "G-Max Depletion",
@@ -3453,10 +3465,11 @@
   },
   "gMaxVolcalith": {
     "name": "G-Max Volcalith",
-    "effect": "Um ataque do tipo Pedra que os Coalossal Gigantamax usam. Por 4 turnos, este movimento continua a causar dano aos oponentes que não sejam do tipo Pedra igual a um sexto de seus PS máximos ao final de cada turno."
+    "effect": "Um ataque do tipo Pedra que os Coalossal Gigantamax usam. Por 4 turnos, este movimento continua a causar dano aos oponentes que não sejam do tipo Pedra igual a 1/6 de seus PS máximos ao final de cada turno."
   },
   "gMaxSandblast": {
-    "name": "G-Max Sandblast"
+    "name": "G-Max Sandblast",
+    "effect": "Um ataque do tipo Terrestre que os Sandaconda Gigantamax usam. Os oponentes ficam presos em uma tempestade de areia furiosa que causa dano igual a 1/8 de seus PS máximos por 4 a 5 turnos. O alvo não pode fugir nem ser trocado da batalha durante esse tempo."
   },
   "gMaxSnooze": {
     "name": "G-Max Snooze",
@@ -3476,7 +3489,7 @@
   },
   "gMaxSteelsurge": {
     "name": "G-Max Steelsurge",
-    "effect": "Um ataque do tipo Aço que os Copperajah Gigantamax usam. Este movimento espalha espinhos afiados pelo campo, causando dano aos Pokémon adversários que entrarem na batalha igual a um oitavo de seus PS máximos. Esse dano varia dependendo da compatibilidade de tipo do Pokémon com o tipo Aço."
+    "effect": "Um ataque do tipo Aço que os Copperajah Gigantamax usam. Este movimento espalha espinhos afiados pelo campo, causando dano aos Pokémon adversários que entrarem na batalha igual a 1/8 de seus PS máximos. Esse dano varia dependendo da compatibilidade de tipo do Pokémon com o tipo Aço."
   },
   "gMaxMeltdown": {
     "name": "G-Max Meltdown",
@@ -3487,7 +3500,8 @@
     "effect": "Um ataque do tipo Água usado pelo Gigantamax Kingler. Este movimento reduz drasticamente a Velocidade dos adversários."
   },
   "gMaxCentiferno": {
-    "name": "G-Max Centiferno"
+    "name": "G-Max Centiferno",
+    "effect": "Um ataque do tipo Fogo que os Centiskorch Gigantamax usam. Por 4 a 5 turnos, este movimento prende os oponentes em chamas que causam dano igual a 1/8 de seus PS máximos ao final de cada turno. O alvo não pode fugir nem ser trocado da batalha durante esse tempo."
   },
   "gMaxVineLash": {
     "name": "G-Max Vine Lash",
@@ -3495,7 +3509,7 @@
   },
   "gMaxCannonade": {
     "name": "G-Max Cannonade",
-    "effect": "Um ataque do tipo Água que os Blastoise Gigantamax usam. Por 4 turnos, este movimento continua a causar dano aos oponentes que não sejam do tipo Água igual a um sexto de seus PS máximos ao final de cada turno."
+    "effect": "Um ataque do tipo Água que os Blastoise Gigantamax usam. Por 4 turnos, este movimento continua a causar dano aos oponentes que não sejam do tipo Água igual a 1/6 de seus PS máximos ao final de cada turno."
   },
   "gMaxDrumSolo": {
     "name": "G-Max Drum Solo",
@@ -3523,7 +3537,7 @@
   },
   "silkTrap": {
     "name": "Silk Trap",
-    "effect": "O usuário tece uma armadilha de seda, protegendo-se de dano enquanto reduz o atributo de Velocidade de qualquer atacante que faça contato direto. A cada uso consecutivo, a chance de sucesso deste movimento se torna um terço do que era antes."
+    "effect": "O usuário tece uma armadilha de seda, protegendo-se de dano enquanto reduz o atributo de Velocidade de qualquer atacante que faça contato direto. A cada uso consecutivo, a chance de sucesso deste movimento se torna 1/3 do que era antes."
   },
   "axeKick": {
     "name": "Axe Kick",
@@ -3571,7 +3585,7 @@
   },
   "saltCure": {
     "name": "Salt Cure",
-    "effect": "O usuário cura o alvo com sal, causando dano igual a um dezesseis avos dos PS máximos do alvo ao final de cada turno. Tipos Aço e Água recebem dano igual a um oitavo de seus PS máximos."
+    "effect": "O usuário cura o alvo com sal, causando dano igual a 1/16 dos PS máximos do alvo ao final de cada turno. Tipos Aço e Água recebem dano igual a 1/8 de seus PS máximos."
   },
   "tripleDive": {
     "name": "Triple Dive",
@@ -3746,7 +3760,8 @@
     "effect": "O usuário dispara um feixe de luz para causar dano. Há 30% de chance de que todas as cabeças do usuário disparem feixes em uníssono, duplicando o poder do movimento."
   },
   "burningBulwark": {
-    "name": "Burning Bulwark"
+    "name": "Burning Bulwark",
+    "effect": "O usuário aquece intensamente uma parte de seu corpo, protegendo-a de ataques e também causando queimaduras a qualquer atacante que faça contato direto com ela. A cada uso consecutivo, a chance de sucesso deste movimento se torna 1/3 do que era antes."
   },
   "thunderclap": {
     "name": "Thunderclap",
